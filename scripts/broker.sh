@@ -127,12 +127,12 @@ _paper_portfolio() {
 {
   "mode": "paper",
   "account_id": "PAPER_ACCT",
-  "equity": 300000000,
-  "cash": 270000000,
-  "buying_power": 270000000,
+  "equity": 10000000000,
+  "cash": 10000000000,
+  "buying_power": 10000000000,
   "currency": "IDR",
   "positions": [],
-  "note": "Paper account — IDR 300,000,000 equity. No real orders placed."
+  "note": "Paper account — IDR 10,000,000,000 equity. No real orders placed."
 }
 JSON
 }
@@ -166,7 +166,7 @@ JSON
 
 _paper_cash() {
   # TODO: wire to real paper account state if tracking paper P&L across sessions
-  echo "270000000"
+  echo "10000000000"
 }
 
 # ---- subcommand: portfolio ------------------------------------------------

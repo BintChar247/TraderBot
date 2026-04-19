@@ -22,7 +22,7 @@ Target alpha in a paper account first. Discipline and selectivity over activity.
 | Timezone | WIB — Western Indonesia Time (Asia/Jakarta, UTC+7) |
 | User | Michael |
 | Default mode | **Paper trading** (toggle via `TRADING_MODE` env var) |
-| Account size | IDR 300M (paper) |
+| Account size | IDR 10 Milyar (paper) |
 
 ---
 

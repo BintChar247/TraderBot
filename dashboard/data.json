@@ -2,15 +2,15 @@
   "trial": {
     "start_date": "2026-04-20",
     "end_date": "2026-05-02",
-    "starting_capital": 300000000,
+    "starting_capital": 10000000000,
     "currency": "IDR"
   },
   "daily": [
     {
       "date": "2026-04-19",
       "day_label": "Day 0",
-      "portfolio_value": 300000000,
-      "cash": 300000000,
+      "portfolio_value": 10000000000,
+      "cash": 10000000000,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": 0.0,
