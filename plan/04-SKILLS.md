@@ -16,76 +16,107 @@ The agent doesn't need 50 skills. It needs a handful of sharp ones that map to i
 
 Each skill is called during one of the six routines defined in 05-ROUTINES.md. Output is logged to one of the five memory files in `memory/`.
 
-### Skill 1: Research a Company
+### Skill 1: Research a Company (Tier 4 — Deep Fundamentals)
 
 **When:** Pre-market research routine  
-**Called by:** Which routine? Pre-market session  
-**What it does:** Deep fundamental analysis of a single IDX stock  
-**Reads:** yfinance data, web search for news/filings, existing RESEARCH-LOG.md  
-**Writes:** Appends findings to RESEARCH-LOG.md under dated "Company Analysis" section
+**Called by:** Pre-market session, for top 2-3 trade candidates  
+**What it does:** Institutional-grade fundamental analysis of a single IDX stock  
+**Reads:** market-data.sh (fundamentals + 30d history), WebSearch for news/filings/analyst views, RESEARCH-LOG.md  
+**Writes:** "Top 3 Candidates" section of today's RESEARCH-LOG.md entry
 
-The agent works through the Investment Checklist:
+The agent works through a structured checklist for each candidate:
 
+**Fundamental case:**
 1. Business quality — what does the company do, revenue/margin/ROE trends
-2. Valuation — P/E, P/B, dividend yield vs sector and own history
-3. Catalyst — what will cause re-rating? When?
-4. Risk — what could go wrong?
-5. Conviction — HIGH / MEDIUM / LOW / AVOID
+2. Valuation — P/E, P/B vs sector averages and own history
+3. Catalyst — specific event with expected date, why now
+4. Analyst view — latest target price, recent upgrades/downgrades
+5. Insider activity — recent director/commissioner share transactions
+6. Conviction — HIGH / MEDIUM / LOW / AVOID
 
-Output format: Timestamped entry in RESEARCH-LOG.md with ticker, thesis statement, checklist results, and conviction level.
+**Technical context** (Tier 6 — not a technical system, but informs entry timing):
+- Current price vs 50-day and 200-day MA
+- Volume vs 20-day average
+- Nearest support (recent swing low) and resistance (recent swing high)
+- Trend: uptrend / downtrend / range-bound
+
+**Trade plan:**
+- Entry price, stop level (% risk), target price (% upside)
+- R:R ratio, position size (IDR and % of equity)
+
+Output format: Structured candidate entry in RESEARCH-LOG.md with fundamental case, technical context, and concrete trade plan.
 
 **Tools used:**
-- `yfinance` — price data, fundamentals, financial statements
-- Claude web search — news, regulatory filings, analyst commentary
+- `bash scripts/market-data.sh fundamentals [TICKER]` — financial statements, ratios
+- `bash scripts/market-data.sh history [TICKER] 30d` — recent price/volume data
+- `bash scripts/market-data.sh history [TICKER] 60d` — for technical context (MA, support/resistance)
+- Claude WebSearch — `"[TICKER] earnings results"`, `"[TICKER] analyst target price"`, `"[TICKER] insider transaction"`
 - File append — logged to RESEARCH-LOG.md
 
-### Skill 2: Assess Macro Regime
+### Skill 2: Assess Macro Regime (Tiers 1-3 — Global, Flow, Calendar)
 
 **When:** Pre-market research routine (morning analysis)  
 **Called by:** Pre-market session  
-**What it does:** Reads macro data and writes regime assessment  
-**Reads:** yfinance for IHSG/IDR/commodities, web search for BI rate/policy news  
-**Writes:** "Macro" section of today's RESEARCH-LOG.md entry
+**What it does:** Institutional-grade macro assessment across 3 tiers with ~22 data points  
+**Reads:** market-data.sh (IHSG, commodities), WebSearch for overnight markets/flow/calendar  
+**Writes:** Global Overnight, Macro Snapshot, Flow & Positioning, Corporate Calendar, Sector Momentum, and Macro Regime Assessment sections of today's RESEARCH-LOG.md entry
 
-Morning research covers:
-- IHSG level, trend (above/below 200-day MA)
-- IDR/USD direction
-- Bank Indonesia rate signals
-- Coal, palm oil, nickel prices (as percentage change)
-- Foreign fund flows (net buy/sell)
-- Global risk appetite (VIX, MSCI EM outlook)
+**Tier 1 — Global Overnight & Macro Snapshot** (~12 queries):
+- US markets: S&P 500, Nasdaq, Dow close and change
+- Asia: Shanghai Composite, Hang Seng, Nikkei 225 close
+- IHSG level (via `bash scripts/market-data.sh index JKSE`)
+- IDR/USD exchange rate
+- Bond yields: US 10Y Treasury, Indonesia 10Y SUN, Indo-US spread
+- VIX volatility index
+- Commodities: Newcastle coal, CPO palm oil, LME nickel, Brent crude
+  (via `bash scripts/market-data.sh commodity coal/nickel` + WebSearch)
 
-Regime classification output:
+**Tier 2 — Flow & Positioning** (~4 queries):
+- KSEI foreign investor net buy/sell (IDR billions)
+- Foreign flow streak (consecutive days net buy or sell)
+- Top broker net buy/sell activity
+- BI foreign reserves, MSCI EM Indonesia weight changes
+
+**Tier 3 — Corporate Calendar & Events** (~6 queries):
+- IDX earnings releases schedule this week
+- Corporate actions: ex-dividend, rights issues, stock splits
+- OJK new regulations and announcements
+- Bank Indonesia rate decision schedule
+- Indonesia economic data releases (CPI, GDP, trade balance)
+
+**Regime classification output:**
 - **CONSTRUCTIVE** — macro supports equity positions, full position sizing
 - **CAUTIOUS** — mixed signals, reduce position sizes by 25%
 - **DEFENSIVE** — adverse conditions, half positions, no new entries
 
+Includes reasoning (2-3 sentences) and what would change the regime.
+
 **Tools used:**
-- `yfinance` — IHSG close, IDR/USD rate, commodity futures
-- Claude web search — BI announcements, macroeconomic news
+- `bash scripts/market-data.sh index JKSE` — IHSG level
+- `bash scripts/market-data.sh commodity coal` / `nickel` — commodity prices
+- Claude WebSearch — ~22 queries across overnight markets, FX, bonds, flow data, corporate calendar
 - File append — logged to RESEARCH-LOG.md
 
-### Skill 3: Screen Watchlist
+### Skill 3: Scan Sentiment & News (Tier 5)
 
 **When:** Pre-market research routine  
-**Called by:** Pre-market session (after macro assessment)  
-**What it does:** Quick scan of 30+ IDX stocks to find candidates worth a deep dive  
-**Reads:** yfinance batch data, RESEARCH-LOG.md for past screens  
-**Writes:** "Screen Results" section of today's RESEARCH-LOG.md entry
+**Called by:** Pre-market session (after macro + flow assessment)  
+**What it does:** Scans market-wide sentiment, unusual activity, and position-specific news  
+**Reads:** WebSearch for catalysts/news, TRADE-LOG.md for held positions  
+**Writes:** Sentiment findings feed into Sector Momentum table and Held Position Updates in RESEARCH-LOG.md
 
-Quick filters:
-- P/E below sector median?
-- Revenue growing YoY?
-- Any recent news catalyst?
-- Volume above average?
-- Not already in portfolio?
+Queries (~5):
+- Top IDX stock catalysts today
+- Indonesia stock market news today
+- Per held position: `"[TICKER] IDX news today"`
+- IDX unusual volume stocks / saham volume tidak biasa
+- IDX broker accumulation/distribution patterns
 
-Output: 3-5 tickers worth a deeper look, with one-line rationale each. Logged with timestamp and date in RESEARCH-LOG.md.
+Also feeds into watchlist screening — stocks flagged for unusual volume or broker accumulation become deep-dive candidates (Skill 1).
 
 **Tools used:**
-- `yfinance` — batch fundamentals, price/volume data
-- Claude web search — news catalyst scan
-- File append — logged to RESEARCH-LOG.md
+- Claude WebSearch — ~5 targeted queries
+- File append — findings integrated into RESEARCH-LOG.md sections
 
 ### Skill 4: Write Trade Plan
 
@@ -165,16 +196,25 @@ This is where the agent compounds knowledge. Entries must be:
 
 ## What the Agent Uses for Research (Not Perplexity)
 
-We use Claude's native capabilities and yfinance. No external AI services.
+We use Claude's native capabilities and a 3-tier real-time data stack. No external AI services.
 
-| Need | Tool | How |
-|------|------|-----|
-| Price data | yfinance | `yf.Ticker("BBCA.JK")` |
-| Fundamentals | yfinance | `.financials`, `.balance_sheet`, `.cashflow`, `.info` |
-| News | Claude web search | Built-in, no API key needed |
-| Regulatory filings | Claude web search | Search IDX, OJK websites |
-| Macro data | yfinance + web search | Commodity futures, BI rate announcements |
+| Need | Tool | Command / How |
+|------|------|---------------|
+| Real-time price | GoAPI.io (primary) | `bash scripts/market-data.sh quote BBCA` |
+| Intraday bars | yfinance (secondary) | `bash scripts/market-data.sh intraday BBCA 1m` |
+| Daily OHLCV | yfinance | `bash scripts/market-data.sh history BBCA 30d` |
+| Fundamentals | Sectors.app → yfinance | `bash scripts/market-data.sh fundamentals BBCA` |
+| IHSG index | GoAPI → yfinance ^JKSE | `bash scripts/market-data.sh index JKSE` |
+| Commodities | WebSearch | `bash scripts/market-data.sh commodity coal` |
+| News & catalysts | Claude WebSearch | Built-in, ~30 queries in pre-market |
+| Flow data (KSEI) | Claude WebSearch | Foreign net buy/sell, broker activity |
+| Corporate calendar | Claude WebSearch | Earnings, ex-div, OJK filings |
+| Macro / BI rate | Claude WebSearch | Bond yields, rate decisions, CPI |
 | Company analysis | Claude reasoning | The agent IS the analyst |
+
+**Data priority:** GoAPI (near real-time, free tier) → yfinance (~15 min delayed, free) → Sectors.app (fundamentals, free tier) → WebSearch (news/macro, built-in).
+
+All data calls go through `scripts/market-data.sh` which handles fallback automatically. Never call APIs directly with curl or Python.
 
 No external AI services. No Perplexity. No ChatGPT. Claude does its own thinking.
 

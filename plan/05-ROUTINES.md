@@ -14,48 +14,68 @@
 | 4 | IDX — Daily summary (EOD) | 3:15pm | `15 8 * * 1-5` | EOD snapshot + daily recap | TRADE-LOG.md | Always (one message) |
 | 5 | IDX — Weekly review | 4:00pm Fri | `0 9 * * 5` | Week recap + lessons | WEEKLY-REVIEW.md | Always (one message) |
 
-All run on `claude-opus`. Spaced 30+ min apart. Never force-push.
+Model assignments per 07-EXECUTION-PLAN.md. Spaced 30+ min apart. Never force-push.
 
 ---
 
 ## Pre-Market Workflow (07:00 WIB, before the open)
 
+Institutional-grade research across 6 tiers with ~30 data points. Full prompt in `routines/pre-market.md`.
+
 ```
 STEP 1 — Read memory for context:
-  - memory/TRADING-STRATEGY.md
-  - tail of memory/TRADE-LOG.md
-  - tail of memory/RESEARCH-LOG.md
+  - memory/TRADING-STRATEGY.md (full file — the rulebook)
+  - memory/TRADE-LOG.md (last 80 lines — positions + last EOD)
+  - memory/RESEARCH-LOG.md (last entry — yesterday's research)
+  - memory/WEEKLY-REVIEW.md (last entry — current week's lessons)
+  - memory/PROJECT-CONTEXT.md (full file)
 
 STEP 2 — Pull live account state:
-  bash scripts/broker.sh account
+  bash scripts/broker.sh portfolio
   bash scripts/broker.sh positions
-  bash scripts/broker.sh orders
 
-STEP 3 — Research market context via WebSearch. Run queries:
-  - "Newcastle coal price today"
-  - "IHSG index level today, Asian markets overnight"
-  - "IDR USD exchange rate today"
-  - "Top IDX stock catalysts today $DATE"
-  - "Indonesia earnings releases today before market open"
-  - "Indonesia economic calendar CPI BI rate decision"
-  - "IDX LQ45 sector momentum"
-  - News on any currently-held ticker
-  (Use Claude native WebSearch, not Perplexity)
+STEP 3 — Research (6 tiers, ~30 queries):
 
-STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
-  - Account snapshot (equity, cash, buying power)
-  - Market context (commodities, IHSG, IDR, today's releases)
-  - 2-3 actionable trade ideas WITH catalyst + entry/stop/target
-  - Risk factors for the day
-  - Decision: trade or HOLD (default HOLD — patience > activity)
+  Tier 1: Global Overnight & Macro (~12 queries)
+    WebSearch: S&P 500, Nasdaq, Shanghai, Hang Seng, Nikkei, VIX,
+      IHSG, IDR/USD, US 10Y yield, Indo 10Y SUN yield
+    market-data.sh: index JKSE, commodity coal, commodity nickel
+    WebSearch: Newcastle coal, CPO palm oil, LME nickel, Brent crude
+
+  Tier 2: Flow & Positioning (~4 queries)
+    WebSearch: KSEI foreign net buy/sell, top broker activity,
+      BI foreign reserves, MSCI EM Indonesia weight
+
+  Tier 3: Corporate Calendar (~6 queries)
+    WebSearch: IDX earnings schedule, ex-dividend/rights issues,
+      OJK regulations, BI rate decision schedule, economic data releases
+
+  Tier 4: Deep Fundamentals (per candidate, 2-3 stocks)
+    market-data.sh: fundamentals [TICKER], history [TICKER] 30d
+    WebSearch: earnings results, analyst targets, insider transactions
+
+  Tier 5: Sentiment & News (~5 queries)
+    WebSearch: IDX catalysts, market news, per-position news,
+      unusual volume, broker accumulation/distribution
+
+  Tier 6: Technical Context (per candidate + held positions)
+    market-data.sh: history [TICKER] 60d
+    Compute: 50/200-day MA, volume vs average, support/resistance, trend
+
+STEP 4 — Write dated entry to memory/RESEARCH-LOG.md:
+  Structured format with: Global Overnight table, Macro Snapshot table,
+  Flow & Positioning, Sector Momentum, Corporate Calendar,
+  Top 3 Candidates (fundamental + technical + trade plan),
+  Held Position Updates, Macro Regime Assessment, Flagged Risks,
+  Plan for /market-open
 
 STEP 5 — Notification: silent unless urgent.
-  (Urgent = held position already below -7%, thesis broke overnight,
-   major macro event like BI emergency rate change)
+  (Urgent = position below -7%, thesis broke overnight, BI emergency,
+   foreign flow reversal > IDR 1T, currency shock IDR > 1%)
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
-  git commit -m "pre-market research $DATE"
+  git commit -m "pre-market $DATE: [3-word summary of top idea]"
   git push origin main
 ```
 

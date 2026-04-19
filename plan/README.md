@@ -85,8 +85,12 @@ idx-trader/
 │   ├── daily-summary.md
 │   └── weekly-review.md
 ├── scripts/                     # API wrappers (the only way to touch the outside world)
-│   ├── broker.sh                # IDX broker API wrapper
+│   ├── broker.sh                # Paper broker (simulated trades, real prices)
+│   ├── market-data.sh           # Real-time data (GoAPI → yfinance → Sectors.app)
 │   └── notify.sh                # Notification wrapper (Telegram/email)
+├── dashboard/                   # Performance visualization
+│   ├── index.html               # Interactive dashboard (open in browser)
+│   └── data.json                # Updated by daily-summary routine
 └── memory/                      # Agent's persistent state (committed to main)
     ├── TRADING-STRATEGY.md
     ├── TRADE-LOG.md
@@ -160,6 +164,7 @@ Opus scores 64.4% on agentic financial analysis — top-of-class at digesting fi
 | **6** | [06-PERFORMANCE.md](06-PERFORMANCE.md) | Journaling, benchmarking vs IHSG, lessons-learned compounding over months. |
 | **7** | [07-EXECUTION-PLAN.md](07-EXECUTION-PLAN.md) | Model selection (Haiku/Sonnet/Opus), parallelism, build phases, cost estimates. |
 | **8** | [08-PAPER-TRIAL.md](08-PAPER-TRIAL.md) | 2-week paper trial plan. Schedule, simulated broker, dashboard, success criteria. |
+| **9** | [09-VERIFICATION.md](09-VERIFICATION.md) | 65-point pre-flight checklist. Every check has a command, expected output, and fix. |
 
 ---
 

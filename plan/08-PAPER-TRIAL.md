@@ -31,6 +31,23 @@ There is no real broker connection. The bot:
 
 The only thing that doesn't happen is an actual order hitting the exchange.
 
+### Real-Time Data Architecture
+
+The bot uses a **tiered data stack** — real-time prices for execution, enriched data for research:
+
+| Layer | Source | What It Provides | Latency | Cost |
+|-------|--------|------------------|---------|------|
+| **Primary** | **GoAPI.io** (IDX Stock API) | Real-time snapshots, last price, bid/ask, volume | Near real-time | Free tier (limited quota) |
+| **Secondary** | **yfinance** (`SYM.JK`) | 1-min intraday bars, daily OHLCV, fundamentals | ~15 min delayed | Free |
+| **Tertiary** | **Sectors.app** | Fundamentals, financial statements, sector data | Daily | Free tier available |
+| **Fallback** | **Claude WebSearch** | Breaking news, BI rate, commodity prices, catalysts | Live | Built-in |
+
+**Priority order:** GoAPI for live prices during market hours → yfinance for intraday bars and
+after-hours data → Sectors.app for deep fundamentals → WebSearch for news/macro.
+
+If GoAPI quota is exhausted or unreachable, the bot falls back to yfinance silently.
+If yfinance is also down, the bot logs a warning and skips price-dependent actions for that run.
+
 ### How the Simulated Broker Works
 
 `scripts/broker.sh` in paper mode:
@@ -38,13 +55,45 @@ The only thing that doesn't happen is an actual order hitting the exchange.
 | Command | What It Does (Paper Mode) |
 |---------|---------------------------|
 | `account` | Reads `memory/TRADE-LOG.md` for latest portfolio snapshot. Returns simulated equity, cash, buying power. |
-| `positions` | Reads active positions table from `memory/TRADE-LOG.md`. Fetches current prices via yfinance to compute unrealized P&L. |
-| `quote SYM` | Fetches real-time quote from yfinance (`SYM.JK`). Real market data. |
+| `positions` | Reads active positions table from `memory/TRADE-LOG.md`. Fetches current prices via GoAPI (real-time) to compute unrealized P&L. Falls back to yfinance if GoAPI unavailable. |
+| `quote SYM` | Fetches **real-time** quote from GoAPI (`SYM`). Returns last price, bid, ask, volume, change %. Falls back to yfinance (`SYM.JK`) if GoAPI fails. |
 | `orders` | Returns open simulated orders from `memory/TRADE-LOG.md`. |
-| `order '<json>'` | Logs the trade to `memory/TRADE-LOG.md` at current yfinance price. No actual execution. |
-| `close SYM` | Logs the exit at current yfinance price. Updates positions. |
+| `order '<json>'` | Fetches real-time price from GoAPI, logs the trade to `memory/TRADE-LOG.md` at that price. No actual execution. |
+| `close SYM` | Fetches real-time exit price from GoAPI, logs the exit. Updates positions. |
 
-All state lives in `memory/TRADE-LOG.md`. No external broker API needed.
+All state lives in `memory/TRADE-LOG.md`. No real broker API needed.
+
+### `scripts/market-data.sh` — Data Wrapper
+
+New wrapper script for all market data calls. Handles the tiered fallback:
+
+```bash
+# Real-time price (GoAPI → yfinance fallback)
+bash scripts/market-data.sh quote BBCA
+
+# Intraday bars (yfinance 1-min intervals)
+bash scripts/market-data.sh intraday BBCA 1m
+
+# Daily OHLCV history (yfinance)
+bash scripts/market-data.sh history BBCA 30d
+
+# Fundamentals (Sectors.app → yfinance fallback)
+bash scripts/market-data.sh fundamentals BBCA
+
+# IHSG index level (GoAPI → yfinance ^JKSE)
+bash scripts/market-data.sh index JKSE
+
+# Commodity prices (WebSearch)
+bash scripts/market-data.sh commodity coal
+bash scripts/market-data.sh commodity nickel
+```
+
+Environment variables required:
+```bash
+GOAPI_API_KEY=your_goapi_key_here        # From goapi.io — free registration
+SECTORS_API_KEY=your_sectors_key_here    # From sectors.app — free tier
+# yfinance needs no API key
+```
 
 ---
 
@@ -240,6 +289,25 @@ The daily-summary routine writes `dashboard/data.json` at EOD:
       "cost": 4600000,
       "thesis": "NIM expansion + BI rate cut cycle",
       "status": "open"
+    }
+  ],
+  "decisions": [
+    {
+      "date": "2026-04-20",
+      "time": "09:18 WIB",
+      "ticker": "BBCA",
+      "action": "BUY",
+      "shares": 500,
+      "price": 9200,
+      "thesis": "NIM expansion + BI rate cut cycle as Indonesia enters easing phase",
+      "inputs": [
+        { "type": "catalyst", "label": "BI rate cut signal" },
+        { "type": "macro", "label": "IDR stable at 15,890" },
+        { "type": "fundamental", "label": "P/E 14.2x below sector avg 16.5x" },
+        { "type": "sector", "label": "Banking sector momentum positive" },
+        { "type": "technical", "label": "Volume 12M above 500K threshold" }
+      ],
+      "reasoning": "Pre-market research identified BI governor's dovish speech yesterday. NIM expansion thesis supported by widening spread. BBCA at 14.2x earnings vs sector 16.5x. Foreign flow net positive IDR 420B. Entry at 9,200 with 10% trailing stop at 8,280. R:R = 2.4:1 targeting 9,800."
     }
   ],
   "stats": {

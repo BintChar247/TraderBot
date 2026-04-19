@@ -40,8 +40,9 @@ idx-trader/
 │   ├── daily-summary.md
 │   └── weekly-review.md
 ├── scripts/                     # API wrappers (the only way to touch the outside world)
-│   ├── broker.sh                # IDX broker API wrapper (replaces alpaca.sh)
-│   └── notify.sh                # Notification wrapper (Telegram/email/etc — replaces clickup.sh)
+│   ├── broker.sh                # Paper broker (simulated trades, real prices)
+│   ├── market-data.sh           # Real-time data (GoAPI → yfinance → Sectors.app fallback)
+│   └── notify.sh                # Notification wrapper (Telegram/email/etc)
 └── memory/                      # Agent's persistent state (committed to main)
     ├── TRADING-STRATEGY.md
     ├── TRADE-LOG.md
@@ -237,16 +238,19 @@ STEP N — COMMIT AND PUSH (mandatory):
 ## env.template
 
 ```bash
-# IDX Broker (paper or live)
-BROKER_ENDPOINT=https://api.your-idx-broker.com/v2
-BROKER_API_KEY=your_broker_api_key_here
-BROKER_SECRET_KEY=your_broker_secret_key_here
+# Market Data — Real-Time (GoAPI.io — free tier)
+GOAPI_API_KEY=your_goapi_key_here
+
+# Market Data — Fundamentals (Sectors.app — free tier)
+SECTORS_API_KEY=your_sectors_key_here
+
+# yfinance needs no API key — used as fallback
 
 # Notifications (Telegram or similar)
 NOTIFY_BOT_TOKEN=your_telegram_bot_token_here
 NOTIFY_CHAT_ID=your_telegram_chat_id_here
 
-# Mode
+# Mode — PAPER ONLY for the 2-week trial
 TRADING_MODE=paper
 ```
 
