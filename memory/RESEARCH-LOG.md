@@ -391,3 +391,88 @@ No new risks vs prior entries. No alerts triggered. Plan for /market-open is unc
 
 ---
 
+## 2026-04-19 (Sunday — Pre-market Live Run #5, Trial Eve)
+
+_Account state: paper, IDR 300,000,000 equity, IDR 300,000,000 cash. 0 open positions. Trial opens Monday April 20 (Day 1). Final consolidated entry before first market open._
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | ~7,621–7,660 | Apr 16 close 7,621; Apr 17 intraday 7,660 | US-Iran ceasefire → risk-ON gap-up likely Monday |
+| IDR/USD | 17,115 | −0.97% MoM | Range 17,062–17,194; BI explicit: cut scope "increasingly limited" |
+| Newcastle coal (USD/ton) | 131.00 | −1.9% from Apr 16 $133.55 | Above $130 support; Middle East risk premium intact; +40.5% YoY |
+| Palm oil (CPO, MYR/ton) | 4,495 | Sideways / slight down | Exports −34–39% Apr 1–15; ZERO exposure |
+| Nickel (USD/ton) | 17,635 | +4.81% MoM | HPM Decree 144 (Apr 15) structural re-rating; ANTM beneficiary |
+| Asia overnight (Apr 18) | Nikkei −1.75%; HSI −1.01% | Profit-taking Friday | BUT US-Iran 2-week ceasefire + Strait of Hormuz reopened = risk-ON flip for Monday |
+| Foreign flow (IDX) | Net SELL ~IDR 3.31T (Apr 6–10) | YTD IDR 37.14T net sell | BBRI IDR 1.42T foreign sell; BlackRock/JPMorgan countering |
+
+### Live Price Check (Apr 19)
+
+| Ticker | Price | Change | Entry Range | Status |
+|--------|-------|--------|-------------|--------|
+| ITMG | IDR 27,050 | −1.30% | IDR 27,000–27,200 | IN RANGE ✅ |
+| ANTM | IDR 3,900 | +4.00% today / +4.29% WoW | IDR 3,900–3,960 | AT LOWER BOUND ✅ |
+| BBRI | ~IDR 3,420–3,430 | — | IDR 3,380–3,440 (cum-div Mon) | IN RANGE ✅ |
+
+### Critical Clarification: BBRI Ex-Dividend Date
+
+Prior entries incorrectly labelled "Monday April 21" as ex-div date. Correct schedule:
+- **Monday April 20**: BBRI trades CUM-DIVIDEND at ~IDR 3,420–3,430. **Buy here to capture dividend.**
+- **Tuesday April 21**: BBRI opens EX-DIV (~IDR 3,211–3,221, adjusted −IDR 209). Stop placed from Tuesday's actual open.
+- Entry on Monday = cum-div capture + Q1 earnings Apr 29 catalyst.
+
+### Sector Momentum
+
+| Sector | Trend | Notes |
+|--------|-------|-------|
+| Banking | **BULLISH** | BBRI cum-div Mon → ex-div Tue Apr 21; Q1 earnings Apr 29; institutional accumulation |
+| Coal / Energy | **BULLISH** | ITMG 114% Q1 EPS beat confirmed (IDR 890 vs est 415); Newcastle $131; May 7 print |
+| Nickel / Mining | **BULLISH** | ANTM +4% today at entry range; HPM Decree 144 = structural margin expansion Q2 |
+| CPO / Agri | NEUTRAL-NEGATIVE | Exports −34–39%; no recovery; avoid AALI/LSIP |
+| Property | NEUTRAL | BI rate cut scope shrinking explicitly |
+| Consumer | NEUTRAL | IDR pressure on imported costs |
+| Telco | NEUTRAL | No catalyst |
+
+### Top 3 Candidates
+
+#### 1. ITMG — 114% Q1 earnings beat + coal $131 (HIGH)
+- Thesis: ITMG printed IDR 890 EPS vs IDR 415 consensus (114% beat); still trading 9.4× P/E with 11% yield — market has not re-rated. Coal at $131 is above breakeven with a floor intact.
+- Thesis: May 7 official Q1 results filing and likely analyst upgrades will force multiple expansion. Stock at 27,050 is still in the buy range.
+- Catalyst: May 7 Q1 earnings official print; analyst upgrade cycle already underway.
+- Entry: IDR 27,000–27,200 | Stop: IDR 25,110 (10% GTC) | Target: IDR 31,500 (+16.4%)
+- Conviction: **HIGH**
+
+#### 2. BBRI — Cum-div capture Monday + Q1 earnings Apr 29 (HIGH)
+- Thesis: Buy Monday April 20 at cum-div price ~IDR 3,420–3,430 to capture IDR 209 dividend ex-div Tuesday; BlackRock +19M shares and JPMorgan +680K in April = institutional accumulation against the foreign outflow tide.
+- Thesis: Q1 earnings April 29 is the re-rating catalyst; strong micro/SME lending trends expected to produce beat.
+- Catalyst: Ex-dividend April 21; Q1 earnings April 29.
+- Entry: IDR 3,380–3,440 (cum-div Monday) | Stop: IDR 3,190 (−7%) | Target: IDR 3,900 (+13–15%)
+- Conviction: **HIGH**
+
+#### 3. ANTM — HPM structural re-rating at entry support (MEDIUM-HIGH)
+- Thesis: ESDM Decree 144 (Apr 15) raised ANTM ore correction factor 17%→30%; 18.1M wmt quota means hundreds of billions IDR in incremental quarterly EBITDA not yet in consensus. Stock at 3,900 is at support.
+- Thesis: ANTM +4% today and +4.29% WoW shows momentum confirming the HPM thesis; nickel at $17,635 adds commodity tailwind. Q2 is first full-quarter impact.
+- Catalyst: Q2 2026 earnings (~August) first full HPM quarter; gold production +25.8% YoY secondary driver.
+- Entry: IDR 3,900–3,960 | Stop: IDR 3,628 (10% GTC) | Target: IDR 4,600 (+16.5%)
+- Conviction: **MEDIUM-HIGH**
+
+### Flagged Risks
+
+- **ANTM already at lower bound**: At 3,900 today. If it opens Monday at or above 3,960, do NOT buy. Gap above 4,050 = skip.
+- **BBRI ex-div gap Tuesday**: Entry Monday is cum-div; stock drops ~IDR 209 at Tuesday open. Stop must be placed from Tuesday's actual adjusted open, not Monday's cum-div price.
+- **Monday gap-up**: US-Iran ceasefire may spike IHSG to 7,700+. Stick to limit orders — do not chase.
+- **Weekly limit exhausted on Day 1**: All 3 trades on Day 1 (if conditions allow) = 3/3 weekly cap used. No flexibility rest of week. Accept this as the correct approach given all three ideas have HIGH/MEDIUM-HIGH conviction.
+- **Coal drifting**: Newcastle down from $133.55 → $131. Still above $130 floor. Watch for a break below $130 — would weaken ITMG thesis materially.
+
+### Plan for /market-open (Monday 2026-04-20 — Day 1)
+
+- [ ] **IHSG open check**: ≥7,600 = proceed; gap-down >0.5% below 7,621 = hold until 09:30 WIB
+- [ ] **ITMG** (Priority 1 — HIGH): BUY limit IDR 27,000–27,200. Size IDR 59,400,000 (~19.8%). Stop: 10% GTC immediately (floor IDR 25,110). Target IDR 31,500. Max chase IDR 27,800.
+- [ ] **BBRI** (Priority 2 — HIGH): BUY limit IDR 3,380–3,440 (cum-div Monday). Size IDR ~58–60M. Stop: IDR 3,190 (−7%). Target IDR 3,900. Confirm cum-div price at open.
+- [ ] **ANTM** (Priority 3 — MEDIUM-HIGH): BUY limit IDR 3,900–3,960 if holds above 3,900 at open. Size IDR ~60M. Stop: 10% GTC. Target IDR 4,600. NO chase above IDR 4,050.
+- [ ] Set 10% GTC trailing stop immediately after every fill — no exceptions.
+- [ ] Max deployed IDR 180,000,000 (3 × 20%). Cash reserve IDR 120,000,000. Weekly limit 3/3 after all fills.
+- [ ] If only 1–2 entries allowed by conditions: ITMG first, BBRI second, ANTM third.
+
+---
