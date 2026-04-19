@@ -251,3 +251,79 @@ No candidates — system in scaffold/paper mode. No research conducted yet.
 - [ ] Total deployed max: IDR 180,000,000 (3 × 20%). Reserve: IDR 120,000,000.
 
 ---
+
+## 2026-04-19 (Sunday — Pre-market Research, Live Run #2)
+
+_Account state: paper, IDR 300,000,000 equity, IDR 270,000,000 cash. No open positions yet. Trial begins Monday April 21._
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | ~7,621–7,660 | +2.1% mid-week recovery | JCI closed ~7,621 Apr 16; intraday 7,660 Apr 17; range 7,550–7,670 week of Apr 14–17 |
+| IDR/USD | 17,115 | -0.97% MoM | Range 17,062–17,194; BI Governor: rate cut scope "increasingly limited" |
+| Newcastle coal (USD/ton) | 131.00–133.55 | +40.5% YoY | GlobalCOAL spot ~$131; futures ~$133.55; above $130 support; Middle East risk premium |
+| Palm oil (CPO, MYR/ton) | 4,495–4,511 | Sideways | Exports -34–39% Apr 1–15; stuck in range; no recovery signal |
+| Nickel (USD/ton) | 17,985 | +4.81% MoM; +14.23% YoY | Apr 17 LME; upgraded from prior $17,635 estimate; HPM Decree 144 (Apr 15) + tighter supply |
+| Asia overnight (Apr 18) | Nikkei -1.75% (58,476); HSI -1.01% | Profit-taking Fri | US-Iran ceasefire deal (2 weeks) + Strait of Hormuz reopened → risk-ON signal for Monday |
+| Foreign flow (IDX) | Net SELL ~IDR 3.31T (Apr 6–10) | YTD net sell IDR 37.14T | BBRI specifically: IDR 1.42T foreign net sell Apr 6–10; BlackRock/JPMorgan countering |
+
+### Sector Momentum
+
+| Sector | Trend | Notes |
+|--------|-------|-------|
+| Banking | **BULLISH** | BBRI ex-div Apr 21 (IDR 209/share, 10.1% yield); Q1 earnings Apr 29; BlackRock +19M shares; US-Iran ceasefire = risk-on for EM |
+| Coal / Energy | **BULLISH** | ITMG Q1 EPS IDR 890 vs est IDR 416 = **114% beat confirmed**; Newcastle $131–134; Middle East premium supports energy |
+| Nickel / Mining | **BULLISH** | HPM Decree 144 effective Apr 15; ANTM +1.03% to IDR 3,940 on announcement; nickel now $17,985 (+4.81% MoM, above prior estimate) |
+| CPO / Agri | NEUTRAL-NEGATIVE | Exports -34–39% early April; no recovery; AVOID AALI/LSIP |
+| Property | NEUTRAL | BI holding 4.75%; cut scope shrinking → no re-rating catalyst |
+| Consumer | NEUTRAL | IDR pressure on imported costs; no catalyst |
+| Telco | NEUTRAL | No data catalyst this week |
+
+### Top 3 Candidates
+
+#### 1. ITMG — 114%-beat earnings + coal above $130 = deep-value re-rating
+
+- Thesis: ITMG printed Q1 2026 EPS IDR 890 vs consensus IDR 416 — a 114% earnings beat — while still trading at ~9.4x P/E with 11% dividend yield. The market has not re-rated to reflect this earnings power, and the coal price floor ($130+) is intact.
+- Thesis: Newcastle coal at $131–134 is holding above the $130 support level with a Middle East risk premium embedded; any analyst upgrade ahead of the May 7 official print could trigger rapid multiple expansion.
+- Catalyst: Q1 EPS beat already public; May 7 official Q1 results filing; potential analyst upgrades in coming days.
+- Proposed entry: IDR 27,000–27,200 | Stop: IDR 25,110 (10% trailing GTC) | Target: IDR 31,500 (+16.4%)
+- Conviction: **HIGH** (upgraded — beat now confirmed via search)
+
+#### 2. BBRI — Ex-dividend April 21 + institutional accumulation + Q1 earnings April 29
+
+- Thesis: BBRI goes ex-dividend Monday April 21 (IDR 209/share cash, 10.1% annual yield); BlackRock added +19M shares and JPMorgan +680K shares in April — institutional accumulation against the foreign outflow trend.
+- Thesis: Q1 2026 earnings release April 29 is the re-rating event; strong micro/SME loan growth and BI stability expected to support beat; US-Iran ceasefire reduces EM risk premium and benefits foreign flows back into Indonesia.
+- Catalyst: Ex-dividend April 21 (stock adjusts down ~IDR 209 at open); Q1 earnings April 29.
+- Proposed entry: IDR 3,200–3,250 (ex-div adjusted open) | Stop: IDR 2,990 (10% trailing GTC) | Target: IDR 3,700 (+14–16%)
+- Conviction: **HIGH**
+
+#### 3. ANTM — HPM nickel reform at $17,985/ton = structural margin upgrade not yet in price
+
+- Thesis: ESDM Decree 144 (effective April 15) raised the nickel ore correction factor from 17% to ~30% for ANTM's 18.1M wmt of production — a structural margin expansion worth hundreds of billions in incremental EBITDA per quarter, not yet reflected in consensus estimates.
+- Thesis: LME nickel now at $17,985 (+4.81% MoM, upgraded from prior $17,635 estimate) means both the HPM formula change AND the underlying nickel price are working in ANTM's favour simultaneously.
+- Catalyst: First full-quarter impact of Decree 144 in Q2 2026 results (reported ~August); stock rose +1.03% to IDR 3,940 on Apr 15 announcement but has not fully discounted Q2 earnings impact.
+- Proposed entry: IDR 3,900–3,960 | Stop: IDR 3,628–3,683 (10% trailing GTC) | Target: IDR 4,600 (+16.5%)
+- Conviction: **MEDIUM-HIGH**
+
+### Flagged Risks
+
+- **BI rate cut scope shrinking**: Governor explicitly said cuts are "increasingly limited" due to IDR weakness and Middle East capital outflows. Removes near-term re-rating tailwind for BBRI and property; do not add property exposure.
+- **Monday risk-ON vs Friday risk-OFF**: Asian markets sold off Friday (Nikkei -1.75%, HSI -1%); BUT US-Iran 2-week ceasefire announced with Strait of Hormuz reopening → Monday may gap UP on risk-on. Watch IHSG open vs 7,600 level.
+- **BBRI ex-div gap**: Stock will open ex-div Monday (-IDR 209 adjustment). Entry price target shifts from IDR 3,430 to IDR 3,200–3,250. Stop set from actual fill, not pre-div price.
+- **Foreign outflow weight**: Net foreign sell IDR 3.31T week of Apr 6–10; IDR 37.14T YTD. Persistent headwind on large-caps; any EM risk-off event could amplify selling.
+- **CPO sector**: Exports -34–39% with no recovery signal — zero exposure to AALI, LSIP, or agri plays.
+- **3-trade weekly limit**: All 3 trades planned for Monday April 21 would hit the weekly cap immediately. Priority: ITMG (highest conviction) → BBRI → ANTM.
+
+### Plan for /market-open (Monday 2026-04-21)
+
+- [ ] Check IHSG open: if ≥7,600 (flat/up), proceed with all 3 entries per priority; if gap-down >0.5% below ~7,621, hold fire until 09:30 WIB reassessment
+- [ ] **ITMG** (Priority 1 — highest conviction): BUY limit IDR 27,000–27,200. Size: IDR ~59–60M (~20% of equity). Stop: 10% trailing GTC (floor IDR 25,110). Target IDR 31,500. Do NOT chase above IDR 27,800.
+- [ ] **BBRI** (Priority 2): BUY limit IDR 3,200–3,250 (confirm actual ex-div open price). Size: IDR ~56–60M. Stop: 10% trailing GTC (floor IDR 2,990). Target IDR 3,700. Confirm ex-div adjustment before placing limit.
+- [ ] **ANTM** (Priority 3): BUY limit IDR 3,900–3,960 only if IHSG holds and price above IDR 3,900 support. Size: IDR ~60M. Stop: 10% trailing GTC. Target IDR 4,600. Do NOT chase above IDR 4,050.
+- [ ] Set 10% GTC trailing stops immediately on each fill — before moving to next ticker.
+- [ ] Total deployed max: IDR 180,000,000 (3 × 20%). Cash reserve: IDR 120,000,000 (40%).
+- [ ] If only IHSG allows 1–2 trades: ITMG first, BBRI second, ANTM third.
+
+---
+
