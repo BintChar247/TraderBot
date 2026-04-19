@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.11
+#!/usr/bin/env python3
 # deps: yfinance pandas
 """
 yfinance_helper.py — IDX data helper for the trading agent.

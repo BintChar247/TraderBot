@@ -8,10 +8,12 @@ A step-by-step guide for Michael to deploy the 5 cloud trading routines to produ
 
 Ensure the following are installed and configured **before** attempting deployment:
 
-- **Python 3.8+** installed (check: `python3 --version`)
-- **Required Python packages**: `yfinance`, `pandas`, `pyyaml`
+- **Python 3.12+** — system Python 3.14 may be broken on macOS 15; use `uv`:
   ```bash
-  pip3 install yfinance pandas pyyaml
+  uv python install 3.12
+  uv venv --python 3.12 .venv
+  uv pip install --python .venv/bin/python yfinance pandas pyyaml
+  source .venv/bin/activate   # activate before running python scripts
   ```
 - **Bash 4.0+** available (check: `bash --version`)
 - **Scripts are executable** (check: `ls -la scripts/*.sh` shows `rwxr-xr-x`)
@@ -75,6 +77,7 @@ Expected: Prints `[notify] smoke test` to stdout, exits 0.
 
 **Test: yfinance quote**
 ```bash
+source .venv/bin/activate
 python3 scripts/yfinance_helper.py quote BBCA
 ```
 Expected: JSON output with quote data (uses live yfinance, may show real IDX data).
@@ -83,6 +86,7 @@ Expected: JSON output with quote data (uses live yfinance, may show real IDX dat
 
 **Test: Portfolio snapshot**
 ```bash
+source .venv/bin/activate
 TRADING_MODE=paper python3 scripts/performance.py snapshot
 ```
 Expected: May output JSON. If TRADE-LOG.md doesn't exist or is empty, may exit cleanly with "no data" message (acceptable).
@@ -278,17 +282,17 @@ Run this section after completing Parts 1–2. Record results for deployment sig
 | d. Positions | `bash scripts/broker.sh positions` | JSON positions array | PASS | Returned empty positions list |
 | e. Gate check | `bash scripts/gate-check.sh BBCA 500` | 9 gate checks; checks 1-4,6,8 pass | PASS with warnings | Checks 1-4 passed; check 5 (catalyst) expected to fail (RESEARCH-LOG.md missing entry); checks 6,8 passed |
 | f. Notify | `bash scripts/notify.sh send --channel=none "smoke test"` | Stdout message, exit 0 | PASS | Printed `[notify] smoke test` to stdout |
-| g. yfinance quote | `python3 scripts/yfinance_helper.py quote BBCA` | JSON with live IDX data | FAIL | Missing yfinance dependency (pip install required per Part 1) |
-| h. Performance snapshot | `python3 scripts/performance.py snapshot` | JSON or clean no-data exit | FAIL | Python 3.9 type hint syntax error (use Union[str, None] instead of str | None) |
+| g. yfinance quote | `source .venv/bin/activate && python3 scripts/yfinance_helper.py quote BBCA` | JSON with live IDX data | PASS | Returns live BBCA.JK data via yfinance (requires `.venv` activated) |
+| h. Performance snapshot | `source .venv/bin/activate && TRADING_MODE=paper python3 scripts/performance.py snapshot` | JSON or clean no-data exit | PASS | Returns paper portfolio JSON; `.venv` with Python 3.12 required (system Python 3.14 broken on macOS 15) |
 
-**Summary**: Core broker and notification scripts work correctly (PASS). Python scripts require dependency installation (g) and Python 3.10+ or syntax fix (h). These are setup/environment issues, not logic bugs. Ready for cloud deployment after installing dependencies.
+**Summary**: All 8 smoke tests pass. Python scripts require `.venv` activated (Python 3.12 via `uv`). Core broker and notification scripts work without venv.
 
 ---
 
 ## Next Steps
 
-1. ✅ **Completed**: Prerequisites checked, smoke tests passed
-2. **Next**: Git init + first commit
+1. ✅ **Completed**: Prerequisites checked, smoke tests all passing
+2. ✅ **Completed**: Git init + first commit
 3. **Then**: Deploy 5 routines to cloud with TRADING_MODE=paper
 4. **Then**: 4+ weeks of paper trading validation
 5. **Finally**: Go-live checklist and switch to TRADING_MODE=live
