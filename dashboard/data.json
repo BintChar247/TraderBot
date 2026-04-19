@@ -1,0 +1,45 @@
+{
+  "trial": {
+    "start_date": "2026-04-20",
+    "end_date": "2026-05-02",
+    "starting_capital": 300000000,
+    "currency": "IDR"
+  },
+  "daily": [
+    {
+      "date": "2026-04-19",
+      "day_label": "Day 0",
+      "portfolio_value": 300000000,
+      "cash": 300000000,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.0,
+      "ihsg_close": 6550.0,
+      "ihsg_cumulative_pct": 0.0,
+      "alpha_pct": 0.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
+    }
+  ],
+  "positions": [],
+  "trades": [],
+  "stats": {
+    "total_return_pct": 0.0,
+    "ihsg_return_pct": 0.0,
+    "alpha_pct": 0.0,
+    "win_rate_pct": 0.0,
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "open_trades": 0,
+    "avg_winner_pct": 0.0,
+    "avg_loser_pct": 0.0,
+    "profit_factor": 0.0,
+    "max_drawdown_pct": 0.0,
+    "best_trade": null,
+    "worst_trade": null,
+    "rules_followed": true,
+    "violations": []
+  }
+}
