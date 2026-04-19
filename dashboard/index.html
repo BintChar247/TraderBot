@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <title>IDX Paper Trading — Bloomberg Terminal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
   --mono:      'IBM Plex Mono', monospace;
   --sans:      'IBM Plex Sans', -apple-system, sans-serif;
 }
-body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.5; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.5; overflow-x: hidden; }
 
 /* ─── TICKER TAPE ─── */
 .ticker-tape {
@@ -153,7 +153,8 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); line
 canvas { width: 100% !important; height: 100% !important; display: block; }
 
 /* ─── TABLES ─── */
-.tbl-wrap { border: 1px solid var(--border); overflow: hidden; }
+.tbl-wrap { border: 1px solid var(--border); overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.tbl-wrap table { min-width: 600px; width: 100%; border-collapse: collapse; font-size: 12px; }
 table { width: 100%; border-collapse: collapse; font-size: 12px; }
 thead th {
   text-align: left; padding: 8px 10px;
@@ -303,6 +304,47 @@ tbody tr:hover { background: var(--bg2); }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--bg3); }
 ::-webkit-scrollbar-thumb:hover { background: var(--amber); }
+
+/* ─── TABLE SCROLL WRAPPER ─── */
+.tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.tbl-scroll table { min-width: 600px; }
+
+/* ─── MOBILE ─── */
+@media (max-width: 600px) {
+  /* Header stacks vertically */
+  .header { flex-direction: column; align-items: flex-start; gap: 8px; padding: 10px 16px; }
+  .header h1, .header-title { font-size: 24px; }
+  .header-right { text-align: left; }
+
+  /* Tab bar font */
+  .tab-btn { font-size: 12px; padding: 8px 12px; }
+
+  /* Tab panel padding */
+  .tab-panel { padding: 14px 16px 32px; }
+
+  /* Ticker tape font */
+  .ticker-item { font-size: 11px; }
+
+  /* Decision engine: sell-grid and params single column */
+  .sell-grid { grid-template-columns: 1fr !important; }
+  .col2.params-col2 { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 480px) {
+  /* Scorecard: 2-col with smaller padding and font */
+  .scorecard { grid-template-columns: repeat(2, 1fr) !important; }
+  .score-card { padding: 12px; }
+  .score-value { font-size: 18px; }
+
+  /* Chart height reduction */
+  .chart-wrap.h260 { height: 200px; }
+
+  /* Body / container padding */
+  .tab-panel { padding: 12px 16px 28px; }
+}
+
+/* ─── GATE CARDS ─── */
+.gate-card { min-width: 140px; }
 </style>
 </head>
 <body>
@@ -446,7 +488,7 @@ tbody tr:hover { background: var(--bg2); }
   <!-- 3C: TRADING PARAMETERS -->
   <div class="panel">
     <div class="panel-hdr">TRADING PARAMETERS REFERENCE</div>
-    <div class="col2" style="margin-bottom:0">
+    <div class="col2 params-col2" style="margin-bottom:0">
       <table class="params-table" id="paramsLeft"></table>
       <table class="params-table" id="paramsRight"></table>
     </div>
