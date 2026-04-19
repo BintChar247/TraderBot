@@ -1,0 +1,28 @@
+{
+  "_comment": "Stop ledger. cmd_set_stop writes here on every stop update. gate-check reads for risk-budget calc. Format per position: entry, current_stop, state (hard-cut|trailing), trail_pct (null in hard-cut), high_water_price, last_updated.",
+  "_stop_states": "hard-cut: fixed -7% from entry. trailing: trail_pct% below high_water_price. Transition: hard-cut → trailing once return >= +7%.",
+  "BBRI": {
+    "entry": 3220,
+    "current_stop": 2995,
+    "state": "hard-cut",
+    "trail_pct": null,
+    "high_water_price": 3220,
+    "last_updated": "2026-04-21T09:22:00+07:00"
+  },
+  "ANTM": {
+    "entry": 3950,
+    "current_stop": 3674,
+    "state": "hard-cut",
+    "trail_pct": null,
+    "high_water_price": 3950,
+    "last_updated": "2026-04-21T09:35:00+07:00"
+  },
+  "ITMG": {
+    "entry": 27000,
+    "current_stop": 25110,
+    "state": "hard-cut",
+    "trail_pct": null,
+    "high_water_price": 27000,
+    "last_updated": "2026-04-21T10:05:00+07:00"
+  }
+}

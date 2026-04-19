@@ -2,7 +2,7 @@
 
 **Purpose:** This is the production rulebook for the IDX trading agent. Every routine reads this file first, before any research, scan, or order placement. It is the single source of truth for hard rules, the buy-side gate, sell-side rules, the entry checklist, the sector playbook, and the morning research queries.
 
-**Last reviewed:** 2026-04-18
+**Last reviewed:** 2026-04-19
 
 **Status:** Canonical. Routines read this file first. If a rule here conflicts with anything elsewhere, this file wins. Changes go through explicit review and a new last-reviewed date.
 
@@ -14,35 +14,61 @@ These are scar tissue from real losses. They are not suggestions.
 
 - No options. Ever. Stocks only.
 - Maximum 5-6 open positions at a time.
-- Maximum 20% of equity per position.
+- **Primary sizing input:** risk-based. `position_size = (0.0050 × equity) / (entry − hard_cut) × entry`. This gives max ~7% of book on a typical -7% hard cut. Cap at regime-adaptive max (20% normal; 15% in EM-OUTFLOW regime per MACRO-REGIME.md / RISK-STATE.json).
 - Maximum 3 new positions (trades) per week.
 - Target 75-85% of capital deployed.
-- Every position gets a 10% trailing stop placed as a real GTC order. Never mental.
-- Cut any losing position at -7% from entry. Manual sell. No hoping, no averaging down.
-- Tighten the trailing stop to 7% when a position is up +15%. Tighten to 5% when up +20%.
-- Never tighten a stop to within 3% of current price. Never move a stop down.
+- **Sector concentration cap:** no single sector > 35% of deployed capital. Enforced in gate-check.sh Check 13.
+- **ADV participation cap:** order size ≤ 10% of 20-day avg daily volume. No moving markets.
+
+### Stop Logic (two distinct states — no overlap)
+
+Every position has exactly one stop state at any time:
+
+**State 1 — HARD-CUT** (initial state, entry through +6.99%)
+- Fixed price: entry × 0.93 (−7% from entry). Never moves.
+- Fires on an intraday breach. Close immediately. No waiting for close.
+- This is the **only** stop rule while the position has not yet reached +7%.
+
+**State 2 — TRAILING** (activates once position reaches +7% from entry)
+- Transitions from hard-cut once price ≥ entry × 1.07.
+- Initial trailing %: 10% below high water mark.
+- Tighten to 7% once position is up +15% from entry.
+- Tighten to 5% once position is up +20% from entry.
+- Trail % can only decrease (tighten). Never widen. Never move the stop price down.
+- Stop floor: never place any stop within 3% of current price.
+- `broker.sh tighten-if-triggered SYM` enforces this at midday scan.
+
+### Portfolio-Level Caps (enforced in gate-check.sh)
+
+- **Daily loss cap:** portfolio down -2% on the day → halt all new trades for that session.
+- **Weekly loss cap:** portfolio down -5% for the week → halve all new position sizes (rounding to nearest 100-lot).
+- **Max drawdown:** portfolio falls -15% from its peak → close everything, send Telegram alert, wait for Michael review. No new trades until reset.
 - Exit an entire sector after 2 consecutive failed trades in that sector.
 - Follow sector momentum. Don't force a thesis if the whole sector is rolling over.
 - Patience beats activity. A week with zero trades can be the right answer.
-- **Daily loss cap:** if portfolio is down -2% on the day, halt all new trades for that day.
-- **Weekly loss cap:** if portfolio is down -5% for the week, reduce all new position sizes by 50%.
-- **Max drawdown:** if portfolio falls -15% from its peak, close everything, send alert, wait for human review.
 
 ---
 
-## The Buy-Side Gate (9 checks)
+## The Buy-Side Gate (15 checks — gate-check.sh)
 
-Before placing any buy order, **every single one** of these checks must pass. If any fail, the trade is skipped and the reason is logged. Checks 1-6 are the core gate; checks 7-9 are the IDX-specific additions.
+All 15 checks must pass before any buy order is placed. All failures are accumulated and printed at end (not exit-on-first). Checks 10-12 (portfolio caps) are evaluated first and cause immediate rejection on breach.
 
-1. Total positions after this fill will be no more than 6.
-2. Total trades placed this week (including this one) is no more than 3.
-3. Position cost is no more than 20% of account equity.
-4. Position cost is no more than available cash.
-5. A specific catalyst is documented in today's research log entry.
-6. The instrument is a stock (not an option, not anything else).
-7. Stock average daily volume > 500,000 shares (liquidity check).
-8. Stock is in a lot-size multiple of 100.
-9. Price hasn't moved >3% from planned entry (no chasing).
+**Portfolio-level (evaluated first):**
+1. Positions after fill ≤ 6.
+2. Trades this week ≤ 3.
+3. Position cost ≤ regime-adaptive max (reads `max_position_pct` from memory/RISK-STATE.json; default 20%).
+4. Position cost ≤ available cash.
+5. Catalyst documented in today's RESEARCH-LOG.md.
+6. Instrument is a 4–5 letter IDX stock ticker (no options, warrants, rights).
+7. Avg daily volume > 500,000 shares.
+8. Shares is a positive multiple of 100 (IDX lot size).
+9. Current price ≤ 3% above planned entry (no chasing).
+10. Daily P&L ≥ -2% (reads from RISK-STATE.json `daily_pnl_pct`).
+11. Weekly P&L ≥ -5% (reads `weekly_pnl_pct`; if -5% to -10%, halve shares and continue).
+12. Peak drawdown ≤ 15% from peak equity (reads `drawdown_from_peak_pct`).
+13. Sector concentration after fill ≤ 40% of equity (same sector positions + new).
+14. Order size ≤ 10% of avg daily volume (ADV participation cap).
+15. Risk budget ≤ 75bps per idea: `(shares × (entry − hard_cut)) / equity ≤ 0.0075`.
 
 ---
 
@@ -50,22 +76,24 @@ Before placing any buy order, **every single one** of these checks must pass. If
 
 Evaluated at the midday scan and opportunistically whenever new information arrives.
 
-- If unrealized loss is **-7% or worse**, close immediately.
-- If the thesis has broken (catalyst invalidated, sector rolling over, news event), close, even if not yet at -7%.
-- If position is up **+20% or more**, tighten trailing stop to 5%.
-- If position is up **+15% or more**, tighten trailing stop to 7%.
+- If stop state is HARD-CUT and price ≤ entry × 0.93: close immediately.
+- If stop state is TRAILING and price breaches trailing stop level: close immediately.
+- If the thesis has broken (catalyst invalidated, sector rolling over, news event): close even if not yet at hard cut.
+- At midday, run `broker.sh tighten-if-triggered SYM` for every position to apply trailing state transitions.
 - If a sector has **two consecutive failed trades**, exit all positions in that sector.
 
 ---
 
 ## Entry Checklist
 
-The agent documents **all of these** before placing any trade. If any item cannot be answered in plain language, the trade is skipped.
+Document **all six items** before placing any trade. If any cannot be answered, skip the trade.
 
 1. What is the specific catalyst today?
 2. Is the sector in momentum?
-3. What is the stop level (7-10% below entry)?
-4. What is the target (minimum 2:1 risk/reward)?
+3. What is the hard-cut price (entry × 0.93) and what % of equity does this risk?
+4. What is the target (minimum 2:1 risk/reward from hard-cut distance)?
+5. **Pre-mortem:** What specific observable event in the next 5 trading days would invalidate this thesis *before* the hard-cut fires? Name it now. Monitor it daily.
+6. **Intermediate pain:** If the position hits −4% (halfway to hard cut), what is the action? (Hold if thesis intact / reassess immediately / cover if thesis uncertain). Pre-commit now.
 
 ---
 
@@ -94,8 +122,6 @@ The agent documents **all of these** before placing any trade. If any item canno
 
 ## Morning Research Queries (IDX)
 
-These replace US-centric queries in any upstream guide. The morning routine runs these (or their equivalents) before any scanning or order placement.
-
 | Generic / US Query | IDX Adaptation |
 |--------------------|----------------|
 | "WTI and Brent oil price" | "Newcastle coal price, palm oil price, nickel price today" |
@@ -116,5 +142,6 @@ When the rules feel inconvenient — when a stock is running and the gate says n
 2. **Discipline** — follows rules, no FOMO, no revenge trading, no emotional attachment.
 3. **Consistency** — runs every session, every day.
 4. **Learning** — compounds knowledge through WEEKLY-REVIEW.md over months.
+5. **Instrumentation** — risk metrics (beta, vol, Sharpe, VaR) turn the trial P&L into an attributable scorecard, not a lucky number.
 
 The edge is not speed. The edge is that this rulebook gets followed on day 400 the same way it gets followed on day 4.

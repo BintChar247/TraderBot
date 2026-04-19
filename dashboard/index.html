@@ -105,9 +105,11 @@ body { font-family: var(--sans); background: var(--bg); color: var(--text); line
 .rules-dot.warn { background: var(--red);   box-shadow: 0 0 6px var(--red); }
 
 /* ─── SCORECARD ─── */
-.scorecard { display: grid; grid-template-columns: repeat(8, 1fr); gap: 8px; margin-bottom: 18px; }
-@media (max-width:1200px) { .scorecard { grid-template-columns: repeat(4,1fr); } }
+.scorecard { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 18px; }
+@media (min-width:1400px) { .scorecard { grid-template-columns: repeat(8,1fr); } }
 @media (max-width:700px)  { .scorecard { grid-template-columns: repeat(2,1fr); } }
+.scorecard-label { font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--text-mute); margin:10px 0 6px; }
+.scorecard-label span { background:var(--bg3); padding:1px 6px; }
 .score-card {
   background: var(--bg1); border: 1px solid var(--border);
   padding: 12px 14px;
@@ -344,7 +346,18 @@ tbody tr:hover { background: var(--bg2); }
 }
 
 /* ─── GATE CARDS ─── */
-.gate-card { min-width: 140px; }
+.gate-card { min-width: 140px; border-top: 2px solid var(--amber); }
+.gate-card.portfolio { border-top-color: var(--red) !important; background: rgba(239,68,68,0.04); }
+.gate-card.risk       { border-top-color: var(--purple) !important; background: rgba(139,92,246,0.04); }
+
+/* ─── SECTOR / FACTOR EXPOSURE BARS ─── */
+.exposure-bar-wrap { margin-bottom: 6px; }
+.exposure-bar-label { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim); margin-bottom: 3px; }
+.exposure-bar-label .pct { font-family: var(--mono); color: var(--text); }
+.exposure-bar-track { height: 8px; background: var(--bg3); position: relative; }
+.exposure-bar-fill { height: 100%; background: var(--amber); transition: width 0.4s ease; }
+.exposure-bar-fill.warn { background: var(--red); }
+.exposure-bar-cap  { position: absolute; top: 0; height: 100%; width: 2px; background: var(--text-mute); opacity: 0.5; }
 </style>
 </head>
 <body>
@@ -402,6 +415,18 @@ tbody tr:hover { background: var(--bg2); }
     <div class="panel">
       <div class="panel-hdr">DAILY P&amp;L (%)</div>
       <div class="chart-wrap h260"><canvas id="pnlChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- SECTOR & FACTOR EXPOSURE -->
+  <div class="col2" style="margin-bottom:14px">
+    <div class="panel">
+      <div class="panel-hdr">SECTOR EXPOSURE (CAP: 40%)</div>
+      <div id="sectorExposureBars"></div>
+    </div>
+    <div class="panel">
+      <div class="panel-hdr">FACTOR EXPOSURE (β)</div>
+      <div id="factorExposureBars"></div>
     </div>
   </div>
 
@@ -683,12 +708,14 @@ function render() {
   renderPositions(d.positions || []);
   renderTrades(d.trades || []);
   renderHistoryTable(d.daily);
+  renderExposureBars(d.exposure, d.positions || [], latest.portfolio_value || d.trial.starting_capital);
   setTimeout(drawAllCharts, 20);
 }
 
 // ═══════ SCORECARD ═══════
 function renderScorecard(d, latest) {
-  const cards = [
+  const r = d.risk || {};
+  const perf_cards = [
     { label:'Portfolio Value',  value: fmtIDR(latest.portfolio_value),              sub: 'Started '+fmtIDR(d.trial.starting_capital),   cls: 'neu' },
     { label:'Total Return',     value: fmtPct(d.stats.total_return_pct),            sub: fmtIDR(latest.portfolio_value - d.trial.starting_capital), cls: pClass(d.stats.total_return_pct) },
     { label:'IHSG Return',      value: fmtPct(d.stats.ihsg_return_pct),             sub: 'Benchmark',                                    cls: pClass(d.stats.ihsg_return_pct) },
@@ -698,9 +725,25 @@ function renderScorecard(d, latest) {
     { label:'Win Rate',         value: d.stats.total_trades > 0 ? fmtPct(d.stats.win_rate_pct,0) : '—', sub: d.stats.winning_trades+'W / '+d.stats.losing_trades+'L', cls: d.stats.win_rate_pct>=50 ? 'pos' : (d.stats.total_trades > 0 ? 'neg' : 'neu') },
     { label:'Max Drawdown',     value: d.stats.max_drawdown_pct ? fmtPct(-Math.abs(d.stats.max_drawdown_pct)) : '0.00%', sub: 'Limit: -15%', cls: d.stats.max_drawdown_pct > 10 ? 'neg' : 'neu' }
   ];
-  document.getElementById('scorecard').innerHTML = cards.map(c =>
-    `<div class="score-card"><div class="score-label">${c.label}</div><div class="score-value ${c.cls}">${c.value}</div><div class="score-sub">${c.sub}</div></div>`
-  ).join('');
+  const risk_cards = [
+    { label:'Portfolio β (IHSG)', value: r.beta_ihsg != null ? r.beta_ihsg.toFixed(2) : '—', sub: '60d rolling beta', cls: 'neu' },
+    { label:'1d 95% VaR',         value: r.var_95_1d_pct != null ? fmtPct(-r.var_95_1d_pct) : '—', sub: 'Historical, % of equity', cls: r.var_95_1d_pct > 2 ? 'neg' : 'neu' },
+    { label:'Annual Vol',          value: r.annual_vol_pct != null ? r.annual_vol_pct.toFixed(1)+'%' : '—', sub: 'Realised (10d ann.)', cls: 'neu' },
+    { label:'Sharpe (10d)',        value: r.sharpe_10d != null ? r.sharpe_10d.toFixed(2) : '—', sub: 'rf = 4.75% (BI Rate)', cls: r.sharpe_10d != null ? (r.sharpe_10d > 1 ? 'pos' : r.sharpe_10d > 0 ? 'amb' : 'neg') : 'neu' },
+    { label:'Risk Budget Used',    value: r.risk_budget_used_pct != null ? r.risk_budget_used_pct.toFixed(2)+'%' : '0.00%', sub: 'Cap: '+(r.risk_budget_cap_pct||5)+'% weekly loss', cls: (r.risk_budget_used_pct||0) > 3.5 ? 'neg' : (r.risk_budget_used_pct||0) > 2 ? 'amb' : 'neu' },
+    { label:'Drawdown (Peak)',     value: r.drawdown_from_peak_pct != null ? fmtPct(-r.drawdown_from_peak_pct) : '0.00%', sub: 'Limit: -15%', cls: (r.drawdown_from_peak_pct||0) > 10 ? 'neg' : 'neu' },
+    { label:'Sortino (10d)',       value: r.sortino_10d != null ? r.sortino_10d.toFixed(2) : '—', sub: 'Downside vol', cls: r.sortino_10d != null ? (r.sortino_10d > 1.5 ? 'pos' : 'amb') : 'neu' },
+    { label:'Regime',              value: (d.exposure||{}).regime || 'EM-OUTFLOW', sub: 'Max pos: 15% equity', cls: 'amb' }
+  ];
+
+  const cardHTML = c =>
+    `<div class="score-card"><div class="score-label">${c.label}</div><div class="score-value ${c.cls}">${c.value}</div><div class="score-sub">${c.sub}</div></div>`;
+
+  document.getElementById('scorecard').innerHTML =
+    `<div class="scorecard-label full" style="grid-column:1/-1"><span>PERFORMANCE</span></div>` +
+    perf_cards.map(cardHTML).join('') +
+    `<div class="scorecard-label full" style="grid-column:1/-1;margin-top:8px"><span>RISK METRICS</span></div>` +
+    risk_cards.map(cardHTML).join('');
 }
 
 // ═══════ CASH GAUGE ═══════
@@ -810,30 +853,36 @@ function renderNewsFeed(headlines) {
 function renderDecisionEngine() {
   // 3A: BUY GATE PIPELINE
   const gates = [
-    { num:1, name:'Positions ≤ 6',       desc:'No more than 6 open positions at any time' },
-    { num:2, name:'Weekly trades ≤ 3',   desc:'Maximum 3 new positions per calendar week' },
-    { num:3, name:'Size ≤ 20% equity',   desc:'No single position exceeds 20% of total account equity' },
-    { num:4, name:'Cash available',       desc:'Position cost ≤ available cash (no leverage)' },
-    { num:5, name:'Catalyst documented', desc:'Specific catalyst written in today\'s RESEARCH-LOG entry' },
-    { num:6, name:'Stock only',           desc:'IDX equities only — no options, no ETFs on margin' },
-    { num:7, name:'Volume > 500K',        desc:'Average daily volume > 500,000 shares (liquidity check)' },
-    { num:8, name:'Lot × 100',            desc:'Order size is a multiple of 100 shares (IDX lot size rule)' },
-    { num:9, name:'Price ≤ 3% drift',    desc:'Current price within 3% of planned entry (no chasing)' }
+    { num:'P10', name:'Daily loss < -2%',      desc:'Portfolio caps checked first — halt if daily P&L ≤ -2%', type:'portfolio' },
+    { num:'P11', name:'Weekly loss < -5%',     desc:'Halve position size if weekly P&L ≤ -5%; reject if < -10%', type:'portfolio' },
+    { num:'P12', name:'Drawdown < -15%',       desc:'Close everything if portfolio falls -15% from peak', type:'portfolio' },
+    { num:1, name:'Positions ≤ 6',             desc:'No more than 6 open positions at any time', type:'trade' },
+    { num:2, name:'Weekly trades ≤ 3',         desc:'Maximum 3 new positions per calendar week', type:'trade' },
+    { num:3, name:'Size ≤ regime cap',         desc:'Reads max_position_pct from RISK-STATE.json (15% EM-outflow, 20% normal)', type:'trade' },
+    { num:4, name:'Cash available',            desc:'Position cost ≤ available cash — no leverage ever', type:'trade' },
+    { num:5, name:'Catalyst documented',       desc:'Specific catalyst written in today\'s RESEARCH-LOG entry', type:'trade' },
+    { num:6, name:'IDX stock 4-5 chars',       desc:'IDX equities only — no options, warrants (-W), rights (-R)', type:'trade' },
+    { num:7, name:'Volume > 500K',             desc:'Average daily volume > 500,000 shares (liquidity gate)', type:'trade' },
+    { num:8, name:'Lot × 100',                 desc:'Order must be a positive multiple of 100 shares (IDX lot)', type:'trade' },
+    { num:9, name:'Price ≤ 3% drift',          desc:'Current price within 3% of planned entry (no chasing)', type:'trade' },
+    { num:13, name:'Sector ≤ 40%',             desc:'Single sector concentration after fill ≤ 40% of equity', type:'risk' },
+    { num:14, name:'ADV participation ≤ 10%',  desc:'Order size ≤ 10% of 20-day avg daily volume (no market impact)', type:'risk' },
+    { num:15, name:'Risk budget ≤ 75bps',      desc:'shares × (entry − hard_cut) / equity ≤ 0.75% per idea', type:'risk' }
   ];
 
   const pipeEl = document.getElementById('gatePipeline');
+  const typeCls = { portfolio:'gate-card portfolio', trade:'gate-card', risk:'gate-card risk' };
+  const typeColor = { portfolio:'var(--red)', trade:'var(--amber)', risk:'var(--purple)' };
   let html = '';
   gates.forEach((g, i) => {
-    html += `<div class="gate-card">
-      <div class="gate-num">GATE ${g.num}</div>
+    html += `<div class="${typeCls[g.type]||'gate-card'}" style="border-top-color:${typeColor[g.type]||'var(--amber)'}">
+      <div class="gate-num" style="color:${typeColor[g.type]||'var(--amber)'}">${typeof g.num === 'number' ? 'GATE '+g.num : g.num}</div>
       <div class="gate-name">${g.name}</div>
       <div class="gate-desc">${g.desc}</div>
     </div>`;
-    if (i < gates.length - 1) {
-      html += '<div class="gate-arrow">→</div>';
-    }
+    if (i < gates.length - 1) html += '<div class="gate-arrow">→</div>';
   });
-  html += '<div class="gate-arrow">→</div><div class="gate-outcome"><div class="gate-pass">✓ BUY ORDER</div><div class="gate-fail">✗ SKIP + LOG</div></div>';
+  html += '<div class="gate-arrow">→</div><div class="gate-outcome"><div class="gate-pass">✓ BUY ORDER</div><div class="gate-fail">✗ ALL FAILS LOGGED</div></div>';
   pipeEl.innerHTML = html;
 
   // 3B: SELL TRIGGERS
@@ -854,18 +903,22 @@ function renderDecisionEngine() {
 
   // 3C: PARAMS
   const params = [
-    ['Max positions',    '6'],
-    ['Max per position', '20% of equity'],
-    ['Max weekly trades','3'],
-    ['Capital target',   '75–85% deployed'],
-    ['Trailing stop',    '10% GTC (all)'],
-    ['Stop tighten',     '7% at +15%; 5% at +20%'],
-    ['Stop floor',       'Never within 3% of price'],
-    ['Hard cut',         '-7% from entry'],
-    ['Daily loss cap',   '-2% → halt trading'],
-    ['Weekly loss cap',  '-5% → 50% smaller sizing'],
-    ['Max drawdown',     '-15% → close everything'],
-    ['Sector exit',      '2 consecutive sector losses']
+    ['Max positions',       '6'],
+    ['Max per position',    '15% (EM-outflow) / 20% (normal)'],
+    ['Risk budget',         '≤75bps per idea (primary sizing)'],
+    ['Max weekly trades',   '3'],
+    ['Capital target',      '75–85% deployed'],
+    ['Sector cap',          '≤40% of equity per sector'],
+    ['ADV cap',             '≤10% of avg daily volume'],
+    ['Stop: initial state', 'Hard-cut -7% from entry (fixed)'],
+    ['Stop: transition',    '+7% return → 10% trailing from HWM'],
+    ['Stop tighten',        '+15% → 7% trail; +20% → 5% trail'],
+    ['Stop floor',          'Never within 3% of price; never lower'],
+    ['Daily loss cap',      '-2% → halt trading for the day'],
+    ['Weekly loss cap',     '-5% → halve all new position sizes'],
+    ['Max drawdown',        '-15% → close everything + alert'],
+    ['Sector exit',         '2 consecutive sector losses → exit all'],
+    ['Thesis pre-mortem',   'Name invalidation event before entry']
   ];
   const half = Math.ceil(params.length / 2);
   const leftRows  = params.slice(0, half);
@@ -875,6 +928,71 @@ function renderDecisionEngine() {
   ).join('');
   document.getElementById('paramsLeft').innerHTML  = makeRows(leftRows);
   document.getElementById('paramsRight').innerHTML = makeRows(rightRows);
+}
+
+// ═══════ EXPOSURE BARS ═══════
+function renderExposureBars(exposure, positions, portfolioValue) {
+  const sectorEl  = document.getElementById('sectorExposureBars');
+  const factorEl  = document.getElementById('factorExposureBars');
+
+  // Sector exposure — compute from positions if not pre-calculated
+  const SECTOR_MAP = {
+    BBCA:'Banking',BBRI:'Banking',BMRI:'Banking',BBNI:'Banking',
+    ADRO:'Coal',ITMG:'Coal',PTBA:'Coal',
+    ANTM:'Nickel',INCO:'Nickel',MDKA:'Nickel',
+    TLKM:'Telco',EXCL:'Telco',ISAT:'Telco',MTEL:'Telco',
+    UNVR:'Consumer',ICBP:'Consumer',INDF:'Consumer',
+    BSDE:'Property',CTRA:'Property',SMRA:'Property',
+  };
+  const sectorData = (exposure && exposure.sectors && Object.keys(exposure.sectors).length)
+    ? exposure.sectors
+    : positions.reduce((acc, p) => {
+        const sec = SECTOR_MAP[p.ticker] || 'Other';
+        const cost = (p.entry_price || 0) * (p.shares || 0);
+        acc[sec] = (acc[sec] || 0) + cost;
+        return acc;
+      }, {});
+
+  const barHTML = (label, pct, capPct, warn) => `
+    <div class="exposure-bar-wrap">
+      <div class="exposure-bar-label"><span>${label}</span><span class="pct">${pct.toFixed(1)}%</span></div>
+      <div class="exposure-bar-track">
+        <div class="exposure-bar-fill${warn?' warn':''}" style="width:${Math.min(pct, 100)}%"></div>
+        <div class="exposure-bar-cap" style="left:${capPct}%"></div>
+      </div>
+    </div>`;
+
+  if (Object.keys(sectorData).length === 0) {
+    sectorEl.innerHTML = '<div style="font-size:11px;color:var(--text-mute);padding:8px 0">No open positions</div>';
+  } else {
+    sectorEl.innerHTML = Object.entries(sectorData)
+      .sort((a,b) => b[1]-a[1])
+      .map(([sec, idr]) => {
+        const pct = portfolioValue > 0 ? idr / portfolioValue * 100 : 0;
+        return barHTML(sec, pct, 40, pct > 40);
+      }).join('');
+  }
+
+  // Factor exposure
+  const factors = (exposure && exposure.factors) ? exposure.factors : {};
+  const factorDefs = [
+    { key:'ihsg',    label:'IHSG (β)',   max:2 },
+    { key:'coal',    label:'Coal (β)',   max:1 },
+    { key:'nickel',  label:'Nickel (β)', max:1 },
+    { key:'idr',     label:'IDR (β)',    max:1 },
+    { key:'bi_rate', label:'BI Rate (β)',max:1 },
+  ];
+  const factorHTML = factorDefs.map(f => {
+    const val = factors[f.key];
+    if (val == null) return `
+      <div class="exposure-bar-wrap">
+        <div class="exposure-bar-label"><span>${f.label}</span><span class="pct" style="color:var(--text-mute)">—</span></div>
+        <div class="exposure-bar-track"><div class="exposure-bar-fill" style="width:0%"></div></div>
+      </div>`;
+    const pct = Math.abs(val) / f.max * 100;
+    return barHTML(f.label, val, 100, false);
+  }).join('');
+  factorEl.innerHTML = factorHTML || '<div style="font-size:11px;color:var(--text-mute);padding:8px 0">Computed weekly by performance.py</div>';
 }
 
 // ═══════ DECISIONS LOG ═══════
@@ -919,25 +1037,55 @@ function renderPositions(positions) {
     el.innerHTML = '<div class="empty"><span>📭</span>No open positions — trial starts Monday</div>';
     return;
   }
+
+  const rows = positions.map(p => {
+    const last  = p.current_price || p.last_price || p.entry_price;
+    const entry = p.entry_price;
+    const pnlIDR = (last - entry) * p.shares;
+    const pnlPct = entry ? (last - entry) / entry * 100 : 0;
+    const stop   = p.trail_stop || p.hard_cut || p.stop_level || 0;
+    const hardCut = p.hard_cut || Math.round(entry * 0.93);
+    const pctToStop = stop > 0 ? (last - stop) / last * 100 : null;
+
+    // R-multiple: gain / initial risk. Initial risk = entry - hard_cut
+    const initialRisk = entry - hardCut;
+    const rMultiple = initialRisk > 0 ? (last - entry) / initialRisk : null;
+
+    const stopState = p.stop_state || 'hard-cut';
+    const stopStateCls = stopState === 'hard-cut' ? 'badge-amber' : 'badge-green';
+
+    // Thesis state
+    const ts = p.thesis_state || 'pending';
+    const tsCls = ts === 'valid' ? 'badge-green' : ts === 'invalid' ? 'badge-red' : 'badge-amber';
+    const catalystDate = p.catalyst_date ? fmtDate(p.catalyst_date) : '—';
+    const catalystPassed = p.catalyst_date && p.catalyst_date < new Date().toISOString().split('T')[0];
+
+    return `<tr>
+      <td><span class="badge badge-blue">${p.ticker}</span></td>
+      <td>${fmtDate(p.entry_date)}</td>
+      <td>${Number(entry).toLocaleString('id-ID')}</td>
+      <td>${Number(p.shares).toLocaleString('id-ID')}</td>
+      <td class="${pClass(pnlPct)}">${Number(last).toLocaleString('id-ID')}</td>
+      <td class="${pClass(pnlPct)}">${fmtPct(pnlPct)}</td>
+      <td class="${pClass(pnlIDR)}">${fmtIDR(pnlIDR)}</td>
+      <td>${Number(hardCut).toLocaleString('id-ID')}</td>
+      <td>${stop > 0 ? Number(stop).toLocaleString('id-ID') : '—'}</td>
+      <td class="${pctToStop != null ? (pctToStop < 3 ? 'neg' : pctToStop < 6 ? 'amb' : '') : ''}">${pctToStop != null ? '+'+pctToStop.toFixed(1)+'%' : '—'}</td>
+      <td class="${rMultiple != null ? pClass(rMultiple) : ''}">${rMultiple != null ? (rMultiple >= 0 ? '+' : '')+rMultiple.toFixed(2)+'R' : '—'}</td>
+      <td><span class="badge ${stopStateCls}" style="font-size:9px">${stopState}</span></td>
+      <td><span class="badge ${tsCls}" style="font-size:9px;${catalystPassed && ts==='pending' ? 'border-color:var(--amber);animation:pulse 1.5s infinite' : ''}">${ts}</span> ${catalystDate}</td>
+      <td style="max-width:160px;font-family:var(--sans);font-size:10px;color:var(--text-dim)">${p.thesis||'—'}</td>
+    </tr>`;
+  });
+
   el.innerHTML = `<table>
     <thead><tr>
-      <th>Ticker</th><th>Entry Date</th><th>Entry Price</th><th>Shares</th>
-      <th>Current</th><th>P&amp;L %</th><th>P&amp;L IDR</th><th>Stop</th><th>Thesis</th>
+      <th>Ticker</th><th>Entry</th><th>Entry IDR</th><th>Shares</th>
+      <th>Last IDR</th><th>P&amp;L %</th><th>P&amp;L IDR</th>
+      <th>Hard Cut</th><th>Trail Stop</th><th>% to Stop</th><th>R-Mult</th>
+      <th>Stop State</th><th>Thesis / Catalyst</th><th>Thesis</th>
     </tr></thead>
-    <tbody>${positions.map(p => {
-      const pnlIDR = (p.current_price - p.entry_price) * p.shares;
-      return `<tr>
-        <td><span class="badge badge-blue">${p.ticker}</span></td>
-        <td>${fmtDate(p.entry_date)}</td>
-        <td>${Number(p.entry_price).toLocaleString('id-ID')}</td>
-        <td>${Number(p.shares).toLocaleString('id-ID')}</td>
-        <td>${Number(p.current_price).toLocaleString('id-ID')}</td>
-        <td class="${pClass(p.unrealized_pnl_pct)}">${fmtPct(p.unrealized_pnl_pct)}</td>
-        <td class="${pClass(pnlIDR)}">${fmtIDR(pnlIDR)}</td>
-        <td>${Number(p.stop_level).toLocaleString('id-ID')}</td>
-        <td style="max-width:200px;font-family:var(--sans);font-size:11px;color:var(--text-dim)">${p.thesis||'—'}</td>
-      </tr>`;
-    }).join('')}</tbody>
+    <tbody>${rows.join('')}</tbody>
   </table>`;
 }
 

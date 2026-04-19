@@ -6,11 +6,11 @@ _Source of truth for all trades and daily EOD snapshots. Append-only. Never dele
 
 ## Active Positions
 
-| Ticker | Entry Date | Entry Price (IDR) | Shares | Avg Cost (IDR) | Stop (IDR) | Thesis (1 line) |
-|--------|-----------|-------------------|--------|----------------|------------|-----------------|
-| BBRI | 2026-04-21 | 3,220 | 17,400 | 59,228,000 | 2,995 | Ex-div buy; institutional accumulation + Q1 earnings Apr 29 |
-| ANTM | 2026-04-21 | 3,950 | 15,200 | 60,040,000 | 3,674 | HPM ore price reset (Decree 144); nickel at $17,635 |
-| ITMG | 2026-04-21 | 27,000 | 2,200 | 59,400,000 | 25,110 | 9.4x P/E, 11% yield; Q1 earnings May 7; coal >$130 |
+_Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) → trailing (10% from high) once +7% up. See memory/STOPS.json for full stop ledger._
+
+| Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
+|--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
+| — | — | — | — | — | — | — | Trial starts 2026-04-20 |
 
 ---
 
@@ -94,7 +94,7 @@ First live run expected when all five routines are configured and tested.
 
 ## Simulation — Week of 2026-04-21
 
-_Simulating the first live week to validate strategy profitability in paper mode._
+_Proof-of-concept simulation only. Run on IDR 300,000,000 test capital (33× smaller than the IDR 10,000,000,000 trial account). Position sizes reflect 300M, not 10B. Actual trial entries on 2026-04-20 will be sized to 10B with max 15% per position = IDR 1,500,000,000 per idea. Use this section for strategy logic review only — not for P&L benchmarking._
 
 ---
 
@@ -116,9 +116,10 @@ _Simulating the first live week to validate strategy profitability in paper mode
 - Side: BUY
 - Shares: 17,400 shares at IDR 3,220 (ex-dividend open, adjusted from plan IDR 3,430 − IDR 209 div)
 - Fill price: IDR 3,220
-- Position size: IDR 56,028,000 (18.7% of equity)
-- Stop: IDR 2,995 (10% trailing GTC placed — IDR 3,220 × 0.90)
-- Hard cut: IDR 2,995 (-7% would be IDR 2,995 from 3,220 entry)
+- Position size: IDR 56,028,000 (18.7% of 300M test equity)
+- Hard cut: IDR 2,995 (-7% from entry: 3,220 × 0.93 = 2,995) — stop state: hard-cut
+- Trailing stop activates once +7% (≥ IDR 3,445): 10% below high water mark
+- Note: stop labelled "10% trailing" in original entry was incorrect; -7% hard cut is the initial stop.
 - Target: IDR 3,640 (+13% from ex-div entry)
 - Catalyst: Ex-dividend capture + institutional accumulation + Q1 2026 earnings Apr 29
 - Thesis: "BBRI is Indonesia's largest micro-lender at a 10.1% dividend yield, going ex-div today with BlackRock and JPMorgan accumulating against the foreign outflow trend. Q1 earnings April 29 is the re-rating catalyst."
@@ -141,9 +142,9 @@ _Simulating the first live week to validate strategy profitability in paper mode
 - Side: BUY
 - Shares: 15,200 shares at IDR 3,950
 - Fill price: IDR 3,950
-- Position size: IDR 60,040,000 (20.0% of equity)
-- Stop: IDR 3,555 (10% trailing GTC placed — IDR 3,950 × 0.90)
-- Hard cut: IDR 3,674 (-7% from entry)
+- Position size: IDR 60,040,000 (20.0% of 300M test equity)
+- Hard cut: IDR 3,674 (-7% from entry: 3,950 × 0.93 = 3,674) — stop state: hard-cut
+- Trailing stop activates once +7% (≥ IDR 4,227): 10% below high water mark
 - Target: IDR 4,600 (+16.5%)
 - Catalyst: HPM ore price reset doubles nickel ore realization; Q2 margins structurally higher
 - Thesis: "ANTM's 18.1M wmt nickel quota gets a windfall from the HPM benchmark price doubling ($17→$40/wmt) under Decree 144. First full-quarter impact in Q2 earnings will force analyst estimate upgrades."
@@ -168,9 +169,9 @@ IHSG held flat (+0.1%) at 09:30 — proceeded with ITMG per plan.
 - Side: BUY
 - Shares: 2,200 shares at IDR 27,000
 - Fill price: IDR 27,000
-- Position size: IDR 59,400,000 (19.8% of equity)
-- Stop: IDR 24,300 (10% trailing GTC placed — IDR 27,000 × 0.90)
-- Hard cut: IDR 25,110 (-7% from entry)
+- Position size: IDR 59,400,000 (19.8% of 300M test equity)
+- Hard cut: IDR 25,110 (-7% from entry: 27,000 × 0.93 = 25,110) — stop state: hard-cut
+- Trailing stop activates once +7% (≥ IDR 28,890): 10% below high water mark
 - Target: IDR 31,300 (+15.9%)
 - Catalyst: Newcastle coal $133.55 with Q1 export realizations elevated; May 7 earnings release
 - Thesis: "ITMG trades at 9.4x P/E and 11% yield — cheapest in 3 years — while exporting coal at $130+ for a full quarter. Q1 earnings on May 7 should beat consensus and trigger a re-rating."

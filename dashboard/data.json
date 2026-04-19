@@ -43,6 +43,28 @@
     "rules_followed": true,
     "violations": []
   },
+  "risk": {
+    "beta_ihsg": null,
+    "var_95_1d_pct": null,
+    "annual_vol_pct": null,
+    "sharpe_10d": null,
+    "sortino_10d": null,
+    "drawdown_from_peak_pct": 0.0,
+    "risk_budget_used_pct": 0.0,
+    "risk_budget_cap_pct": 5.0,
+    "note": "Populated by performance.py risk after Day 1"
+  },
+  "exposure": {
+    "sectors": {},
+    "factors": {
+      "ihsg": null,
+      "idr": null,
+      "coal": null,
+      "nickel": null,
+      "bi_rate": null
+    },
+    "note": "Populated by performance.py after positions are open"
+  },
   "macro": {
     "ihsg": 7634.0,
     "ihsg_change_pct": 0.6,

@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-# deps: pandas pyyaml yfinance
+# deps: pandas yfinance
 
 """
-performance.py — Performance measurement scaffolding for the IDX trading agent.
+performance.py — Performance measurement for the IDX trading agent.
 
 Subcommands:
   snapshot       Compute today's portfolio snapshot vs last EOD in TRADE-LOG.md.
   weekly         Compute weekly stats from TRADE-LOG.md EOD entries.
   benchmark      Fetch IHSG (^JKSE) cumulative % change over N days via yfinance.
+  risk           Vol, Sharpe, Sortino, max drawdown, IHSG beta, 95% VaR.
   lessons-diff   Compare last two weekly reviews and flag repeated lessons.
 
 Output: JSON by default; --markdown for markdown blocks ready to append to memory/.
@@ -352,13 +353,23 @@ def cmd_weekly(args):
     trade_count = len(week_trades)
     win_rate = round(len(wins) / len(week_trades) * 100, 1) if week_trades else None
 
-    # Sector exposure from last snapshot of the week
+    # Sector exposure from last snapshot of the week (requires sector field in position)
+    SECTOR_MAP = {
+        "BBCA": "Banking", "BBRI": "Banking", "BMRI": "Banking", "BBNI": "Banking",
+        "ADRO": "Coal", "ITMG": "Coal", "PTBA": "Coal",
+        "ANTM": "Nickel", "INCO": "Nickel", "MDKA": "Nickel",
+        "TLKM": "Telco", "EXCL": "Telco", "ISAT": "Telco", "MTEL": "Telco",
+        "UNVR": "Consumer", "ICBP": "Consumer", "INDF": "Consumer",
+        "BSDE": "Property", "CTRA": "Property", "SMRA": "Property",
+    }
     sector_exposure: dict[str, int] = {}
     if end_snap and end_equity:
         for pos in end_snap.get("positions", []):
-            sector = pos.get("sector", "Unknown")
+            ticker = pos.get("ticker", "")
+            sector = SECTOR_MAP.get(ticker, pos.get("sector", "Unknown"))
             cost = pos.get("shares", 0) * pos.get("avg_cost", 0)
-            sector_exposure[sector] = sector_exposure.get(sector, 0) + cost
+            if cost > 0:
+                sector_exposure[sector] = sector_exposure.get(sector, 0) + cost
 
     data = {
         "week_start": monday,
@@ -499,6 +510,156 @@ def cmd_benchmark(args):
 
 
 # ---------------------------------------------------------------------------
+# Subcommand: risk
+# ---------------------------------------------------------------------------
+
+def cmd_risk(args):
+    """
+    Compute portfolio risk metrics from EOD equity series in TRADE-LOG.md.
+    Requires yfinance for IHSG beta computation. Works with as few as 2 data points
+    (returns NaN for metrics that need more samples).
+
+    Metrics:
+      - daily_vol_10d    10-day realised daily vol (annualised)
+      - sharpe_10d       annualised Sharpe (rf = BI rate 4.75%, trailing 10d)
+      - sortino_10d      Sortino ratio (downside vol denominator)
+      - max_drawdown_pct max drawdown from peak equity
+      - beta_ihsg        60d portfolio beta vs IHSG (^JKSE)
+      - var_95_1d_pct    95% historical 1-day VaR (% of equity)
+    """
+    _require("pandas", pd)
+
+    trade_log_text = TRADE_LOG.read_text(encoding="utf-8")
+    snapshots = _parse_eod_snapshots(trade_log_text)
+
+    if len(snapshots) < 2:
+        data: dict = {
+            "status": "insufficient_data",
+            "message": f"Need at least 2 EOD snapshots; found {len(snapshots)}.",
+            "daily_vol_10d": None, "sharpe_10d": None, "sortino_10d": None,
+            "max_drawdown_pct": None, "beta_ihsg": None, "var_95_1d_pct": None,
+        }
+        if args.markdown:
+            print("**Risk metrics:** insufficient EOD data (need ≥ 2 EOD snapshots).")
+        else:
+            print(json.dumps(data, indent=2))
+        return
+
+    import math
+
+    equities = [s["equity"] for s in snapshots if s["equity"] is not None]
+    dates    = [s["date"]   for s in snapshots if s["equity"] is not None]
+
+    # Daily returns
+    returns = [(equities[i] - equities[i-1]) / equities[i-1]
+               for i in range(1, len(equities))]
+
+    n = len(returns)
+    rf_daily = 0.0475 / 252  # BI rate 4.75%
+
+    # Annualised vol (last 10 days or all available)
+    window = min(10, n)
+    recent_returns = returns[-window:]
+    mean_r = sum(recent_returns) / len(recent_returns)
+    variance = sum((r - mean_r) ** 2 for r in recent_returns) / max(len(recent_returns) - 1, 1)
+    daily_vol = math.sqrt(variance)
+    annual_vol = daily_vol * math.sqrt(252)
+
+    # Sharpe (annualised)
+    excess = [r - rf_daily for r in recent_returns]
+    mean_excess = sum(excess) / len(excess)
+    sharpe = (mean_excess / daily_vol * math.sqrt(252)) if daily_vol > 0 else None
+
+    # Sortino (downside vol)
+    downside = [r for r in recent_returns if r < 0]
+    if len(downside) > 1:
+        ds_var = sum(r ** 2 for r in downside) / len(downside)
+        ds_vol = math.sqrt(ds_var)
+        sortino = (mean_excess / ds_vol * math.sqrt(252)) if ds_vol > 0 else None
+    else:
+        sortino = None
+
+    # Max drawdown from peak
+    peak = equities[0]
+    max_dd = 0.0
+    for eq in equities:
+        if eq > peak:
+            peak = eq
+        dd = (peak - eq) / peak * 100
+        if dd > max_dd:
+            max_dd = dd
+
+    # 95% VaR (historical, 1-day)
+    if n >= 5:
+        sorted_r = sorted(returns)
+        var_idx = max(0, int(len(sorted_r) * 0.05) - 1)
+        var_95 = abs(sorted_r[var_idx]) * 100
+    else:
+        var_95 = None
+
+    # IHSG beta (rolling 60d via yfinance — skips gracefully if no internet)
+    beta_ihsg = None
+    if yf is not None and n >= 5:
+        try:
+            wib = __import__("datetime").timezone(__import__("datetime").timedelta(hours=7))
+            start = dates[max(0, len(dates) - 62)]
+            end_dt = dates[-1]
+            ticker = yf.Ticker("^JKSE")
+            hist = ticker.history(start=start, end=end_dt)
+            if not hist.empty and len(hist) >= 2:
+                closes = list(hist["Close"])
+                ihsg_returns = [(closes[i] - closes[i-1]) / closes[i-1]
+                                for i in range(1, len(closes))]
+                r_len = min(len(returns), len(ihsg_returns))
+                port_r = returns[-r_len:]
+                mkt_r  = ihsg_returns[-r_len:]
+                if r_len >= 2:
+                    # OLS beta
+                    pm = sum(mkt_r) / r_len
+                    pp = sum(port_r) / r_len
+                    cov = sum((port_r[i] - pp) * (mkt_r[i] - pm) for i in range(r_len)) / (r_len - 1)
+                    mkt_var = sum((mkt_r[i] - pm) ** 2 for i in range(r_len)) / (r_len - 1)
+                    beta_ihsg = round(cov / mkt_var, 3) if mkt_var > 0 else None
+        except Exception:
+            beta_ihsg = None
+
+    data = {
+        "as_of_date": dates[-1] if dates else None,
+        "data_points": n,
+        "daily_vol_10d": round(daily_vol * 100, 4) if daily_vol else None,
+        "annual_vol_pct": round(annual_vol * 100, 2) if annual_vol else None,
+        "sharpe_10d": round(sharpe, 3) if sharpe is not None else None,
+        "sortino_10d": round(sortino, 3) if sortino is not None else None,
+        "max_drawdown_pct": round(max_dd, 3),
+        "beta_ihsg": beta_ihsg,
+        "var_95_1d_pct": round(var_95, 3) if var_95 is not None else None,
+        "rf_annual_pct": 4.75,
+    }
+
+    if args.markdown:
+        _print_risk_markdown(data)
+    else:
+        print(json.dumps(data, indent=2))
+
+
+def _print_risk_markdown(data: dict):
+    lines = [
+        "### Risk Metrics — " + (data.get("as_of_date") or "N/A"),
+        "",
+        f"- Daily vol (10d, ann.): {data['annual_vol_pct']}%",
+        f"- Sharpe (10d, rf=4.75%): {data['sharpe_10d'] or 'N/A'}",
+        f"- Sortino (10d): {data['sortino_10d'] or 'N/A'}",
+        f"- Max drawdown from peak: {data['max_drawdown_pct']}%",
+        f"- IHSG beta (rolling): {data['beta_ihsg'] or 'N/A'}",
+        f"- 95% 1-day VaR: {data['var_95_1d_pct']}%" if data['var_95_1d_pct'] else "- 95% 1-day VaR: N/A (need ≥5 data points)",
+        "",
+        f"_Based on {data['data_points']} EOD data point(s). Generated by scripts/performance.py risk_",
+        "",
+    ]
+    print("\n".join(lines))
+
+
+# ---------------------------------------------------------------------------
 # Subcommand: lessons-diff
 # ---------------------------------------------------------------------------
 
@@ -585,10 +746,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="Number of trading days to look back (default: 5).",
     )
 
+    # risk
+    sub.add_parser(
+        "risk",
+        help="Vol, Sharpe, Sortino, max drawdown, IHSG beta, 95%% VaR from EOD equity series.",
+    )
+
     # lessons-diff
     sub.add_parser(
         "lessons-diff",
-        help="Compare last two weekly reviews and flag repeated lessons (stub).",
+        help="Compare last two weekly reviews and flag repeated lessons.",
     )
 
     return parser
@@ -602,6 +769,7 @@ def main():
         "snapshot": cmd_snapshot,
         "weekly": cmd_weekly,
         "benchmark": cmd_benchmark,
+        "risk": cmd_risk,
         "lessons-diff": cmd_lessons_diff,
     }
     dispatch[args.command](args)
