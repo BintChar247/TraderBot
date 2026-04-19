@@ -327,3 +327,38 @@ _Account state: paper, IDR 300,000,000 equity, IDR 270,000,000 cash. No open pos
 
 ---
 
+## 2026-04-19 (Sunday — Pre-market Manual Run, Final Confirmation)
+
+_Prior two April 19 entries confirmed by fresh searches. This entry records deltas and locks in the market-open plan._
+
+### Macro Snapshot — Updated Values
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | ~7,621–7,735 | +6-session win streak | Apr 16 close 7,621; intraday sessions reached 7,735 on risk-on; Monday open uncertain |
+| IDR/USD | 17,023–17,128 | Avg 17,023 past 30d | Apr 15 close 17,128; range 16,870–17,194; rupiah near record lows |
+| Newcastle coal (USD/ton) | 133.50 | +40.5% YoY | Holding above $130 support; open 133.50 today; Middle East premium intact |
+| Palm oil (CPO, MYR/ton) | 4,495 | Sideways / slight down | Apr 17 slipped on weak exports (-34% Apr 1–15) + declining crude |
+| Nickel (USD/ton) | 17,635 | +4.81% MoM | Apr 14 LME high since March (revising prior $17,985 estimate — $17,635 confirmed) |
+| Asia overnight (Apr 18) | Nikkei -1.75%; HSI -1.01% | Profit-taking Friday | Risk-OFF heading into Monday; watch IHSG open |
+| Foreign flow (IDX) | Net SELL ~IDR 3.31T (Apr 6–10) | YTD IDR 37.14T net sell | BBRI IDR 1.42T foreign sell; BlackRock/JPMorgan offsetting |
+
+### Key Deltas vs Prior Entries
+
+- **Nickel**: Revising to $17,635 (Apr 14 LME confirmed), not $17,985. Still supportive for ANTM thesis.
+- **IHSG**: Reached 7,735 intraday mid-week; Apr 16 close 7,621. Monday threshold holds at ≥7,600.
+- **BI rate**: Governor explicitly said cut scope "increasingly limited" (Apr 8). Removes rate-cut angle for BBRI — Q1 earnings Apr 29 is the sole catalyst.
+- **ITMG Q1 beat**: 114% EPS beat (IDR 890 vs IDR 416) confirmed. HIGH conviction maintained.
+- **CPO**: Apr 17 prices slipped on weak exports + declining crude. Zero agri exposure confirmed.
+
+### Plan for /market-open — FINAL (Monday 2026-04-21)
+
+- [ ] IHSG open check: ≥7,600 = proceed; <7,600 = hold all entries until 09:30 WIB reassessment
+- [ ] **ITMG** (Priority 1 — HIGH): BUY limit IDR 27,000–27,200. Size IDR ~59,400,000. Stop 10% GTC (floor IDR 25,110). Target IDR 31,500.
+- [ ] **BBRI** (Priority 2 — HIGH): BUY limit IDR 3,200–3,250 (confirm ex-div adjusted open). Size IDR ~56–60M. Stop 10% GTC (floor IDR 2,990). Target IDR 3,700. Monday is ex-div date.
+- [ ] **ANTM** (Priority 3 — MEDIUM-HIGH): BUY limit IDR 3,900–3,960 if holds above 3,900. Size IDR ~60M. Stop 10% GTC. Target IDR 4,600. Do not chase above IDR 4,050.
+- [ ] Set 10% trailing GTC stop immediately after each fill — no exceptions.
+- [ ] Max deployed IDR 180,000,000 (3 × 20%). Cash reserve IDR 120,000,000. Weekly cap: 3/3 after all fills.
+
+---
+
