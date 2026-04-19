@@ -362,3 +362,32 @@ _Prior two April 19 entries confirmed by fresh searches. This entry records delt
 
 ---
 
+## 2026-04-19 (Sunday — Pre-market Price Confirmation Run #4)
+
+_Confirmatory run. Three prior entries today contain full analysis. This entry records final Saturday prices and Monday open setup._
+
+### Final Prices Confirmed (Apr 16–18 closes)
+
+| Ticker | Last Price | vs Entry Target | Status |
+|--------|-----------|-----------------|--------|
+| BBRI | IDR 3,420 | Ex-div open target IDR 3,200–3,250 (−IDR 209 adj) | ON TRACK — confirm ex-div open Monday |
+| ANTM | IDR 3,970 | Target entry IDR 3,900–3,960 | SLIGHTLY HIGH — buy only if opens at or below 3,960 |
+| ITMG | IDR 27,050 | Target entry IDR 27,000–27,200 | ON TRACK — within range |
+
+### Macro Confirmation
+
+| Indicator | Value | Confirmed |
+|-----------|-------|-----------|
+| Newcastle coal | $131–133.55/ton | ✓ Holding above $130; +40.5% YoY |
+| IHSG last close | ~7,621–7,660 | ✓ JCI +2.1% mid-week on US-Iran ceasefire news |
+| IDR/USD | 17,115 | ✓ Near record lows; BI 4.75% hold confirmed |
+| Nickel LME | $17,635 | ✓ Revised from $17,985; HPM Decree 144 intact |
+
+### Monday Setup — Key Signal
+
+US-Iran 2-week ceasefire + Strait of Hormuz reopened → **risk-ON catalyst** for Monday April 21 open. If IHSG gaps up (likely toward 7,660–7,700), all 3 entries are valid. Priority order unchanged: ITMG → BBRI → ANTM.
+
+No new risks vs prior entries. No alerts triggered. Plan for /market-open is unchanged from Final Confirmation entry above.
+
+---
+
