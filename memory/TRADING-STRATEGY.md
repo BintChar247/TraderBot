@@ -15,7 +15,7 @@ These are scar tissue from real losses. They are not suggestions.
 - No options. Ever. Stocks only.
 - Maximum 5-6 open positions at a time.
 - Maximum 20% of equity per position.
-- Maximum 3 new trades per week.
+- Maximum 3 new positions (trades) per week.
 - Target 75-85% of capital deployed.
 - Every position gets a 10% trailing stop placed as a real GTC order. Never mental.
 - Cut any losing position at -7% from entry. Manual sell. No hoping, no averaging down.
@@ -24,6 +24,9 @@ These are scar tissue from real losses. They are not suggestions.
 - Exit an entire sector after 2 consecutive failed trades in that sector.
 - Follow sector momentum. Don't force a thesis if the whole sector is rolling over.
 - Patience beats activity. A week with zero trades can be the right answer.
+- **Daily loss cap:** if portfolio is down -2% on the day, halt all new trades for that day.
+- **Weekly loss cap:** if portfolio is down -5% for the week, reduce all new position sizes by 50%.
+- **Max drawdown:** if portfolio falls -15% from its peak, close everything, send alert, wait for human review.
 
 ---
 

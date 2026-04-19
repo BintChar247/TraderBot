@@ -14,7 +14,7 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": 0.0,
-      "ihsg_close": 6550.0,
+      "ihsg_close": 7634.0,
       "ihsg_cumulative_pct": 0.0,
       "alpha_pct": 0.0,
       "positions_count": 0,
@@ -24,6 +24,7 @@
   ],
   "positions": [],
   "trades": [],
+  "decisions": [],
   "stats": {
     "total_return_pct": 0.0,
     "ihsg_return_pct": 0.0,

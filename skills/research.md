@@ -15,6 +15,12 @@ Canonical rules live in `memory/TRADING-STRATEGY.md`. Do not restate them here �
 - Tail of `memory/RESEARCH-LOG.md` (last 2 entries for continuity).
 - Tail of `memory/TRADE-LOG.md` (current open positions — don't re-propose what's already held).
 
+## Tools used
+
+- **WebSearch** (native Claude tool) — for macro data, IDX catalysts, news
+- **`scripts/market-data.sh`** — for OHLCV history, quotes, fundamentals (yfinance / GoAPI / Sectors.app)
+- **`scripts/yfinance_helper.py`** — via market-data.sh; no direct calls
+
 ## Web search queries to issue
 
 Run these verbatim (adapt the IDX adaptations in the TRADING-STRATEGY.md "Morning Research Queries" table). Issue at least six:

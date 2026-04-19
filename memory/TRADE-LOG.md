@@ -72,7 +72,7 @@ Generate with: `python scripts/performance.py snapshot --markdown`
 
 - Total equity: IDR 300,000,000 (paper)
 - Daily P&L: IDR 0 (0.00%)
-- IHSG daily: N/A (scaffold phase, market not tracked yet)
+- IHSG close (baseline): 7,634 (last close 2026-04-17; used as Day 0 benchmark)
 - Daily alpha: N/A
 - Cash: IDR 300,000,000 (100% of equity)
 - Trades this week: 0/3

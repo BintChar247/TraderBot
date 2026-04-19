@@ -82,21 +82,31 @@ Routines are never scheduled less than 30 minutes apart. Two routines must never
 All broker interactions MUST go through `scripts/broker.sh`. Never call broker APIs with curl or
 any HTTP client directly. This keeps auth in one place and standardizes error handling.
 
+All market data requests MUST go through `scripts/market-data.sh`. This handles the tiered
+fallback: GoAPI (real-time) → yfinance (delayed) → Sectors.app (fundamentals). Never call
+these APIs directly with curl or Python.
+
 All notifications MUST go through `scripts/notify.sh`. Never post to Telegram or email directly.
 
 For market research, use the native WebSearch tool. No external AI services, no Perplexity.
 
 ```
-bash scripts/broker.sh account          # equity, cash, buying power
-bash scripts/broker.sh positions        # all open positions with unrealized P&L
-bash scripts/broker.sh position SYM     # single position
-bash scripts/broker.sh quote SYM        # latest bid/ask
-bash scripts/broker.sh orders           # open orders
-bash scripts/broker.sh order '<json>'   # place new order
-bash scripts/broker.sh cancel ID        # cancel order
-bash scripts/broker.sh close SYM        # sell entire position
+bash scripts/broker.sh portfolio        # equity, cash, positions (JSON)
+bash scripts/broker.sh positions        # list open positions only
+bash scripts/broker.sh cash             # available cash (IDR integer)
+bash scripts/broker.sh quote SYM        # latest price, volume, lot size
+bash scripts/broker.sh buy SYM SHARES   # buy (9-gate checked); sets 10% trailing stop
+bash scripts/broker.sh sell SYM SHARES  # sell SHARES of SYM at market
+bash scripts/broker.sh set-stop SYM PCT # set/replace trailing stop at PCT% below price
 
-bash scripts/notify.sh "<message>"      # send notification
+bash scripts/notify.sh send "<message>" # send notification
+
+bash scripts/market-data.sh quote BBCA          # real-time price (GoAPI → yfinance)
+bash scripts/market-data.sh intraday BBCA 1m    # 1-min intraday bars
+bash scripts/market-data.sh history BBCA 30d    # daily OHLCV history
+bash scripts/market-data.sh fundamentals BBCA   # financial statements
+bash scripts/market-data.sh index JKSE          # IHSG index level
+bash scripts/market-data.sh commodity coal       # commodity prices via WebSearch
 ```
 
 ---
