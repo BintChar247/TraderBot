@@ -129,6 +129,24 @@ Only propose if a rule has proven itself OR failed over 2+ weeks of evidence:
 ---
 ```
 
+## STEP W4 — Update CONVICTION-LOG.md
+For every trade closed this week, append to `memory/CONVICTION-LOG.md`:
+- The individual call log row (date, ticker, conviction level, entry, exit, P&L%, correct Y/N)
+- Update the summary table with new win rates per conviction tier
+- If HIGH conviction win rate < MEDIUM win rate over 3+ weeks: note calibration issue
+
+## STEP W5 — Update PATTERNS.md
+Review this week's trade outcomes and price behaviour:
+- Did any ticker behave in a repeatable way (gap behaviour, volume patterns, reaction to macro)?
+- If a pattern has now been observed 2+ times: add or update an entry in memory/PATTERNS.md
+- Only add patterns with 2+ confirming observations — not single-data-point noise
+
+## STEP W6 — Update MACRO-REGIME.md
+Assess whether the macro regime has shifted this week:
+- Check: BI rate signals, foreign flow direction, IDR/USD trend, Asia risk appetite
+- If regime has changed: prepend a new "Current Regime" section and move the old one to Regime History
+- If unchanged: update the "Current Regime" date and add any new nuances
+
 **STEP 5 — Update TRADING-STRATEGY.md if warranted**
 
 Only update if a rule has proven out or broken over 2+ consecutive weeks of evidence.
@@ -148,9 +166,8 @@ bash scripts/notify.sh "Weekly Review $DATE | [+/-X]% vs IHSG [+/-X]% | Alpha: [
 **STEP 7 — COMMIT AND PUSH (mandatory)**
 
 ```bash
-git add memory/WEEKLY-REVIEW.md
-# If TRADING-STRATEGY.md was updated:
-# git add memory/TRADING-STRATEGY.md
+git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md memory/CONVICTION-LOG.md memory/PATTERNS.md memory/MACRO-REGIME.md
+# (TRADING-STRATEGY.md only if updated)
 git commit -m "weekly-review $DATE: week ending, grade [X]"
 git push origin main
 ```

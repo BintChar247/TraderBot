@@ -21,6 +21,10 @@ Fresh clone every run. Changes VANISH unless committed and pushed.
 
 ---
 
+## STEP 0 — Read regime context
+Read `memory/MACRO-REGIME.md`. Note the current regime label and any position sizing adjustments it specifies. Apply these to all orders placed today.
+Read `memory/MISTAKES.md`. Check if any planned trade matches a documented mistake pattern — if so, flag it explicitly before proceeding.
+
 ## STEP 1 — Read memory and today's plan
 
 Read:

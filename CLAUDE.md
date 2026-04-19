@@ -25,6 +25,10 @@ Before doing anything else, open these files:
    yet run).
 4. `memory/PROJECT-CONTEXT.md` — overall mission, platform notes, broker details.
 5. `memory/WEEKLY-REVIEW.md` — Friday afternoons; template for new entries; lessons from prior weeks.
+6. `memory/MISTAKES.md` — every prior hard cut and thesis failure. Read before placing any trade.
+7. `memory/PATTERNS.md` — observed ticker/sector behavioural patterns (2+ observations to qualify).
+8. `memory/CONVICTION-LOG.md` — calibration of HIGH/MEDIUM/LOW calls over time.
+9. `memory/MACRO-REGIME.md` — current regime label and sizing/sector implications. Read before market-open.
 
 ---
 
@@ -60,6 +64,10 @@ These are non-negotiable. The full rationale lives in `memory/TRADING-STRATEGY.m
 | `memory/RESEARCH-LOG.md` | Dated research entries | Every pre-market run; optional midday addendum |
 | `memory/WEEKLY-REVIEW.md` | Friday recaps with letter grade | Weekly review routine only |
 | `memory/PROJECT-CONTEXT.md` | Static background, mission, platform | Rarely — only when setup facts change |
+| `memory/MISTAKES.md` | Permanent mistake record | Midday: on every hard cut or thesis break |
+| `memory/PATTERNS.md` | Ticker/sector behavioural patterns | Weekly review: when 2+ data points confirm a pattern |
+| `memory/CONVICTION-LOG.md` | HIGH/MEDIUM/LOW call accuracy | Weekly review: append each closed trade's outcome |
+| `memory/MACRO-REGIME.md` | Current macro regime + trading implications | Weekly review: update if regime has shifted |
 
 ---
 

@@ -50,6 +50,14 @@ For any position where unrealized P&L <= -7%:
    ```
 2. Log the exit in TRADE-LOG.md (see format below).
 
+## On every hard cut or thesis break — write to MISTAKES.md
+Append an entry to `memory/MISTAKES.md` immediately after closing the position:
+- Ticker, entry/exit prices, loss %
+- Original thesis vs what actually happened
+- Root cause (RESEARCH-ERROR | MACRO-MISS | POSITION-SIZING | STOP-TOO-WIDE | CHASED-ENTRY | SECTOR-IGNORED | OTHER)
+- One specific thing to do differently
+- Whether this connects to any prior mistake in the log
+
 **STEP 4 — Apply sell-side rules: winners**
 
 For positions up +20% or more: replace trailing stop with 5% trail.
@@ -110,7 +118,7 @@ If no positions, or all positions held with no changes: SILENT.
 **STEP 9 — COMMIT AND PUSH (only if something changed)**
 
 ```bash
-git add memory/TRADE-LOG.md
+git add memory/TRADE-LOG.md memory/MISTAKES.md
 # If midday addendum written:
 # git add memory/RESEARCH-LOG.md
 git commit -m "midday $DATE: [brief summary of actions]"
