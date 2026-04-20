@@ -125,10 +125,24 @@ If no trades fired (all candidates failed gate checks): no notification.
 
 ---
 
-## STEP 8 — COMMIT AND PUSH (mandatory only if trades were placed)
+## STEP 8 — LOG ACTIVITY (always)
 
 ```bash
-git add memory/TRADE-LOG.md
+bash scripts/log-activity.sh \
+  --routine "market-open" \
+  --status  "[success|warning|error]" \
+  --summary "[e.g.: Bought ITMG 2400sh @ 4050 + BBRI 5000sh @ 3220. No other candidates passed gates.]" \
+  --actions '[{"type":"buy","ticker":"ITMG","detail":"2400sh @ 4050"},{"type":"stop","ticker":"ITMG","detail":"hard-cut @ 3767"}]'
+```
+
+For no-trade runs: `--status warning --summary "No trades placed. [reason, e.g.: all candidates missed gate 9 on drift]"`
+
+---
+
+## STEP 9 — COMMIT AND PUSH (mandatory only if trades were placed)
+
+```bash
+git add memory/TRADE-LOG.md dashboard/data.json
 git add memory/RESEARCH-LOG.md  # if fallback research was written
 git commit -m "market-open $DATE: BUY [TICKERS] / no trades"
 git push origin main

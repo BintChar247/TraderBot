@@ -358,6 +358,74 @@ tbody tr:hover { background: var(--bg2); }
 .exposure-bar-fill { height: 100%; background: var(--amber); transition: width 0.4s ease; }
 .exposure-bar-fill.warn { background: var(--red); }
 .exposure-bar-cap  { position: absolute; top: 0; height: 100%; width: 2px; background: var(--text-mute); opacity: 0.5; }
+
+/* ─── ACTIVITY LOG ─── */
+.activity-filter-bar { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px; }
+.activity-filter-btn {
+  padding:3px 12px; font-size:10px; font-weight:600; font-family:var(--sans);
+  text-transform:uppercase; letter-spacing:0.5px; border:1px solid var(--border);
+  background:var(--bg2); color:var(--text-dim); cursor:pointer; transition:all 0.15s;
+}
+.activity-filter-btn:hover { color:var(--text); border-color:var(--text-dim); }
+.activity-filter-btn.active { border-color:var(--amber); color:var(--amber); background:var(--amber-dim); }
+.activity-stats-row { display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-bottom:18px; }
+@media (max-width:700px) { .activity-stats-row { grid-template-columns:repeat(2,1fr); } }
+.activity-stat { background:var(--bg1); border:1px solid var(--border); padding:10px 12px; }
+.activity-stat .lbl { font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.8px; color:var(--text-mute); margin-bottom:4px; }
+.activity-stat .val { font-size:18px; font-weight:700; font-family:var(--mono); color:var(--text); }
+.activity-timeline { position:relative; }
+.activity-timeline::before {
+  content:''; position:absolute; left:16px; top:0; bottom:0;
+  width:2px; background:var(--border);
+}
+.activity-entry {
+  display:flex; gap:14px; margin-bottom:12px; position:relative;
+}
+.activity-dot {
+  width:14px; height:14px; border-radius:50%; flex-shrink:0; margin-top:11px;
+  border:2px solid; position:relative; z-index:1; background:var(--bg);
+}
+.activity-dot.success { border-color:var(--green); background:var(--green-dim); }
+.activity-dot.warning { border-color:var(--amber); background:var(--amber-dim); }
+.activity-dot.error   { border-color:var(--red);   background:var(--red-dim); }
+.activity-dot.running { border-color:var(--blue);  background:var(--blue-dim); animation:pulse 1.5s infinite; }
+.activity-card {
+  flex:1; background:var(--bg1); border:1px solid var(--border);
+  padding:12px 14px; border-left-width:3px;
+}
+.activity-card.pre-market    { border-left-color:var(--blue); }
+.activity-card.market-open   { border-left-color:var(--green); }
+.activity-card.midday        { border-left-color:var(--amber); }
+.activity-card.daily-summary { border-left-color:var(--purple); }
+.activity-card.weekly-review { border-left-color:var(--cyan); }
+.activity-card.error         { border-left-color:var(--red); }
+.activity-card-hdr { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:6px; }
+.activity-routine-badge {
+  font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:0.5px;
+  padding:1px 7px; border:1px solid;
+}
+.routine-pre-market    { color:var(--blue);   border-color:var(--blue);   background:var(--blue-dim); }
+.routine-market-open   { color:var(--green);  border-color:var(--green);  background:var(--green-dim); }
+.routine-midday        { color:var(--amber);  border-color:var(--amber);  background:var(--amber-dim); }
+.routine-daily-summary { color:var(--purple); border-color:var(--purple); background:var(--purple-dim); }
+.routine-weekly-review { color:var(--cyan);   border-color:var(--cyan);   background:rgba(6,182,212,0.15); }
+.activity-ts { font-family:var(--mono); font-size:10px; color:var(--text-mute); margin-left:auto; }
+.activity-duration { font-family:var(--mono); font-size:9px; color:var(--text-mute); padding:1px 5px; border:1px solid var(--border); }
+.activity-summary { font-size:12px; color:var(--text); line-height:1.5; margin-bottom:8px; }
+.activity-actions { display:flex; flex-wrap:wrap; gap:5px; }
+.action-chip {
+  font-family:var(--mono); font-size:9px; padding:2px 7px; border:1px solid var(--border);
+  color:var(--text-dim); display:inline-flex; align-items:center; gap:4px;
+}
+.action-chip.buy    { color:var(--green); border-color:var(--green); background:var(--green-dim); }
+.action-chip.sell   { color:var(--red);   border-color:var(--red);   background:var(--red-dim); }
+.action-chip.cut    { color:var(--red);   border-color:var(--red);   background:var(--red-dim); }
+.action-chip.alert  { color:var(--amber); border-color:var(--amber); background:var(--amber-dim); }
+.action-chip.commit { color:var(--text-mute); }
+.action-chip.stop   { color:var(--purple); border-color:var(--purple); background:var(--purple-dim); }
+.activity-commit { font-family:var(--mono); font-size:9px; color:var(--text-mute); margin-top:6px; }
+.activity-empty { text-align:center; padding:60px 24px; color:var(--text-mute); font-size:13px; }
+.activity-empty span { display:block; font-size:28px; margin-bottom:10px; color:var(--border2); }
 </style>
 </head>
 <body>
@@ -393,6 +461,7 @@ tbody tr:hover { background: var(--bg2); }
   <button class="tab-btn" data-tab="decisions">Trade Decisions</button>
   <button class="tab-btn" data-tab="positions">Positions &amp; Trades</button>
   <button class="tab-btn" data-tab="history">History</button>
+  <button class="tab-btn" data-tab="activity">Bot Activity</button>
 </div>
 
 <!-- ══════════════════════════════════════
@@ -488,7 +557,14 @@ tbody tr:hover { background: var(--bg2); }
 
   <!-- NEWS FEED -->
   <div class="panel">
-    <div class="panel-hdr">NEWS FEED &amp; CATALYSTS</div>
+    <div class="panel-hdr" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>NEWS FEED &amp; CATALYSTS</span>
+      <span style="display:flex;gap:12px;font-size:9px;font-weight:400;letter-spacing:.04em;">
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:3px;height:12px;background:var(--green);display:inline-block;border-radius:1px;"></span><span style="color:var(--text-mute);">BULLISH</span></span>
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:3px;height:12px;background:var(--amber);display:inline-block;border-radius:1px;"></span><span style="color:var(--text-mute);">NEUTRAL</span></span>
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:3px;height:12px;background:var(--red);display:inline-block;border-radius:1px;"></span><span style="color:var(--text-mute);">BEARISH</span></span>
+      </span>
+    </div>
     <div id="newsFeed"></div>
   </div>
 </div>
@@ -562,6 +638,29 @@ tbody tr:hover { background: var(--bg2); }
   </div>
   <div class="sec-hdr" style="margin-top:4px"><span class="tag">DAY-BY-DAY PERFORMANCE</span></div>
   <div class="tbl-wrap" id="historyTable"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 7: BOT ACTIVITY LOG
+═══════════════════════════════════════ -->
+<div class="tab-panel" id="panel-activity">
+  <div class="sec-hdr"><span class="tag">BOT RUN HISTORY</span></div>
+
+  <!-- Stats summary row -->
+  <div class="activity-stats-row" id="activityStats"></div>
+
+  <!-- Filter bar -->
+  <div class="activity-filter-bar" id="activityFilters">
+    <button class="activity-filter-btn active" data-routine="all">All Runs</button>
+    <button class="activity-filter-btn" data-routine="pre-market">Pre-Market</button>
+    <button class="activity-filter-btn" data-routine="market-open">Market Open</button>
+    <button class="activity-filter-btn" data-routine="midday">Midday</button>
+    <button class="activity-filter-btn" data-routine="daily-summary">EOD Summary</button>
+    <button class="activity-filter-btn" data-routine="weekly-review">Weekly Review</button>
+  </div>
+
+  <!-- Timeline -->
+  <div class="activity-timeline" id="activityTimeline"></div>
 </div>
 
 <div class="footer">IDX PAPER TRADING BOT — CLAUDE SONNET — SIMULATION ONLY · NOT FINANCIAL ADVICE<br>Prices via yfinance · No real orders placed · Trial window: <span id="trialFooter">—</span></div>
@@ -709,6 +808,7 @@ function render() {
   renderTrades(d.trades || []);
   renderHistoryTable(d.daily);
   renderExposureBars(d.exposure, d.positions || [], latest.portfolio_value || d.trial.starting_capital);
+  renderActivityLog(d.activity_log || []);
   setTimeout(drawAllCharts, 20);
 }
 
@@ -1112,6 +1212,96 @@ function renderTrades(trades) {
       <td class="${pClass(t.realized_pnl_pct||0)}">${t.realized_pnl_pct!=null?fmtPct(t.realized_pnl_pct):'—'}</td>
     </tr>`).join('')}</tbody>
   </table>`;
+}
+
+// ═══════ ACTIVITY LOG ═══════
+let _activityFilter = 'all';
+
+function renderActivityLog(log) {
+  const statsEl    = document.getElementById('activityStats');
+  const timelineEl = document.getElementById('activityTimeline');
+  const filtersEl  = document.getElementById('activityFilters');
+
+  // Stats summary
+  const total    = log.length;
+  const success  = log.filter(e => e.status === 'success').length;
+  const warnings = log.filter(e => e.status === 'warning').length;
+  const errors   = log.filter(e => e.status === 'error').length;
+  const trades   = log.reduce((s, e) => s + (e.actions||[]).filter(a => a.type==='buy'||a.type==='sell').length, 0);
+
+  statsEl.innerHTML = [
+    { lbl:'Total Runs',    val: total,    cls:'' },
+    { lbl:'Successful',    val: success,  cls:'pos' },
+    { lbl:'Warnings',      val: warnings, cls:'amb' },
+    { lbl:'Errors',        val: errors,   cls: errors > 0 ? 'neg' : '' },
+    { lbl:'Trades Logged', val: trades,   cls: trades > 0 ? 'amb' : '' }
+  ].map(s => `<div class="activity-stat"><div class="lbl">${s.lbl}</div><div class="val ${s.cls}">${s.val}</div></div>`).join('');
+
+  // Filter buttons
+  filtersEl.querySelectorAll('.activity-filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.routine === _activityFilter);
+    btn.onclick = () => {
+      _activityFilter = btn.dataset.routine;
+      renderActivityLog(log);
+    };
+  });
+
+  // Filtered + sorted (newest first)
+  const filtered = (_activityFilter === 'all' ? log : log.filter(e => e.routine === _activityFilter))
+    .slice().sort((a,b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+  if (!filtered.length) {
+    timelineEl.innerHTML = `<div class="activity-empty"><span>🤖</span>No runs recorded yet — the bot will log every execution here automatically.</div>`;
+    return;
+  }
+
+  const ROUTINE_LABELS = {
+    'pre-market':    'Pre-Market',
+    'market-open':   'Market Open',
+    'midday':        'Midday Scan',
+    'daily-summary': 'EOD Summary',
+    'weekly-review': 'Weekly Review'
+  };
+
+  const ACTION_ICONS = { buy:'↑', sell:'↓', cut:'✂', stop:'⬖', alert:'⚠', commit:'⎇', research:'🔍', error:'✗' };
+
+  timelineEl.innerHTML = filtered.map(entry => {
+    const routineKey = entry.routine || 'unknown';
+    const routineLabel = ROUTINE_LABELS[routineKey] || routineKey;
+    const status = entry.status || 'success';
+
+    const ts = entry.timestamp ? new Date(entry.timestamp) : null;
+    const tsStr = ts ? ts.toLocaleDateString('en-GB',{day:'numeric',month:'short'}) + ' ' +
+      ts.toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}) + ' WIB' : '—';
+
+    const durStr = entry.duration_s ? `${entry.duration_s}s` : '';
+
+    const actionsHtml = (entry.actions || []).map(a => {
+      const icon = ACTION_ICONS[a.type] || '•';
+      const chipCls = a.type;
+      const label = a.ticker ? `${a.ticker} ${a.detail||''}` : (a.detail || a.type);
+      return `<span class="action-chip ${chipCls}">${icon} ${label}</span>`;
+    }).join('');
+
+    const commitHtml = entry.commit_hash
+      ? `<div class="activity-commit">⎇ ${entry.commit_hash} — ${entry.commit_message||''}</div>`
+      : '';
+
+    return `<div class="activity-entry">
+      <div class="activity-dot ${status}"></div>
+      <div class="activity-card ${routineKey}">
+        <div class="activity-card-hdr">
+          <span class="activity-routine-badge routine-${routineKey}">${routineLabel}</span>
+          <span class="badge ${status==='success'?'badge-green':status==='warning'?'badge-amber':'badge-red'}">${status.toUpperCase()}</span>
+          ${durStr ? `<span class="activity-duration">${durStr}</span>` : ''}
+          <span class="activity-ts">${tsStr}</span>
+        </div>
+        <div class="activity-summary">${entry.summary || '—'}</div>
+        ${actionsHtml ? `<div class="activity-actions">${actionsHtml}</div>` : ''}
+        ${commitHtml}
+      </div>
+    </div>`;
+  }).join('');
 }
 
 // ═══════ HISTORY TABLE ═══════

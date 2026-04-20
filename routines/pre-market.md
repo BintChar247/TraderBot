@@ -278,10 +278,27 @@ bash scripts/notify.sh send "IDX Pre-market ALERT $DATE: [brief reason]"
 
 ---
 
-## STEP 6 — COMMIT AND PUSH (mandatory)
+## STEP 6 — LOG ACTIVITY
+
+Before committing, log this run to the dashboard activity feed:
 
 ```bash
-git add memory/RESEARCH-LOG.md
+COMMIT_SHA=$(git rev-parse --short HEAD 2>/dev/null || echo "")
+bash scripts/log-activity.sh \
+  --routine "pre-market" \
+  --status  "success" \
+  --summary "[top 2-3 ideas in one sentence, e.g.: Top ideas: ITMG (HIGH), BBRI (HIGH). Coal bull thesis intact.]" \
+  --actions '[{"type":"research","detail":"[N] candidates evaluated"},{"type":"research","ticker":"[TOP_TICKER]","detail":"[one-line catalyst}"}]'
+```
+
+Use `--status warning` if no strong ideas found, or `--status error` if a required step failed.
+
+---
+
+## STEP 7 — COMMIT AND PUSH (mandatory)
+
+```bash
+git add memory/RESEARCH-LOG.md dashboard/data.json
 git commit -m "pre-market $DATE: [3-word summary of top idea]"
 git push origin main
 ```

@@ -93,10 +93,20 @@ bash scripts/notify.sh "EOD $DATE | Equity: IDR [X] | Day: [+/-X]% | IHSG: [+/-X
 
 Keep it under 15 lines. No fluff.
 
-**STEP 7 — COMMIT AND PUSH (mandatory — this is the critical persistence step)**
+**STEP 7 — LOG ACTIVITY (always)**
 
 ```bash
-git add memory/TRADE-LOG.md
+bash scripts/log-activity.sh \
+  --routine "daily-summary" \
+  --status  "[success|warning]" \
+  --summary "[e.g.: EOD: IDR 10.32B (+3.2%). Alpha +1.8% vs IHSG. 2 positions open. Trades this week: 2/3.]" \
+  --actions '[{"type":"research","detail":"Day [N] snapshot committed"}]'
+```
+
+**STEP 8 — COMMIT AND PUSH (mandatory — this is the critical persistence step)**
+
+```bash
+git add memory/TRADE-LOG.md dashboard/data.json
 git commit -m "daily-summary $DATE: EOD snapshot"
 git push origin main
 ```

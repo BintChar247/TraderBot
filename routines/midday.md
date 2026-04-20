@@ -115,10 +115,22 @@ bash scripts/notify.sh "Midday $DATE: [describe action]. [TICKER] [action] at ID
 
 If no positions, or all positions held with no changes: SILENT.
 
-**STEP 9 — COMMIT AND PUSH (only if something changed)**
+**STEP 9 — LOG ACTIVITY (always)**
 
 ```bash
-git add memory/TRADE-LOG.md memory/MISTAKES.md
+bash scripts/log-activity.sh \
+  --routine "midday" \
+  --status  "[success|warning|error]" \
+  --summary "[e.g.: All positions healthy. No cuts triggered. or: Hard-cut COAL at -7.1%.]" \
+  --actions '[{"type":"cut","ticker":"ITMG","detail":"-7.1% hard cut"},{"type":"stop","ticker":"BBRI","detail":"tightened to 7%"}]'
+```
+
+Use `--actions '[]'` if no actions taken.
+
+**STEP 10 — COMMIT AND PUSH (only if something changed)**
+
+```bash
+git add memory/TRADE-LOG.md memory/MISTAKES.md dashboard/data.json
 # If midday addendum written:
 # git add memory/RESEARCH-LOG.md
 git commit -m "midday $DATE: [brief summary of actions]"

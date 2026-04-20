@@ -54,6 +54,7 @@
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1"
   },
+  "activity_log": [],
   "exposure": {
     "sectors": {},
     "factors": {
