@@ -942,8 +942,8 @@ function renderNewsFeed(headlines) {
   el.innerHTML = headlines.map(h => {
     const sentimentBadgeCls = h.sentiment === 'bullish' ? 'badge-green' : h.sentiment === 'bearish' ? 'badge-red' : 'badge-amber';
     // Use stored URL, or fall back to a Google News search for the headline
-    const searchQ = encodeURIComponent((h.ticker !== 'MACRO' ? h.ticker + ' ' : '') + h.headline);
-    const href = h.url || `https://www.google.com/search?q=${searchQ}&tbm=nws`;
+    const searchQ = encodeURIComponent((h.ticker !== 'MACRO' ? h.ticker + ' IDX ' : '') + h.headline);
+    const href = h.url || `https://www.google.com/search?q=${searchQ}`;
     const headlineHtml = `<a href="${href}" target="_blank" rel="noopener noreferrer">${h.headline}<span class="news-link-icon">↗</span></a>`;
     return `<div class="news-card">
       <div class="news-sentiment ${h.sentiment}"></div>
@@ -1047,12 +1047,20 @@ function renderExposureBars(exposure, positions, portfolioValue) {
 
   // Sector exposure — compute from positions if not pre-calculated
   const SECTOR_MAP = {
-    BBCA:'Banking',BBRI:'Banking',BMRI:'Banking',BBNI:'Banking',
-    ADRO:'Coal',ITMG:'Coal',PTBA:'Coal',
-    ANTM:'Nickel',INCO:'Nickel',MDKA:'Nickel',
-    TLKM:'Telco',EXCL:'Telco',ISAT:'Telco',MTEL:'Telco',
-    UNVR:'Consumer',ICBP:'Consumer',INDF:'Consumer',
-    BSDE:'Property',CTRA:'Property',SMRA:'Property',
+    BBCA:'Banking',BBRI:'Banking',BMRI:'Banking',BBNI:'Banking',BNGA:'Banking',NISP:'Banking',BBTN:'Banking',
+    ADRO:'Coal',ITMG:'Coal',PTBA:'Coal',BUMI:'Coal',HRUM:'Coal',
+    MEDC:'Energy',PGAS:'Energy',
+    ANTM:'Nickel',INCO:'Nickel',MDKA:'Nickel',NCKL:'Nickel',MBMA:'Nickel',
+    TINS:'Metals',
+    UNVR:'Consumer',ICBP:'Consumer',INDF:'Consumer',MYOR:'Consumer',SIDO:'Consumer',
+    TLKM:'Telco',EXCL:'Telco',ISAT:'Telco',MTEL:'Telco',TOWR:'Telco',
+    BSDE:'Property',CTRA:'Property',SMRA:'Property',PWON:'Property',
+    GOTO:'Tech',BUKA:'Tech',EMTK:'Tech',
+    ASII:'Industrial',UNTR:'Industrial',AKRA:'Industrial',
+    AALI:'Plantation',LSIP:'Plantation',
+    JSMR:'Infrastructure',WSKT:'Infrastructure',PTPP:'Infrastructure',ADHI:'Infrastructure',
+    KLBF:'Healthcare',MIKA:'Healthcare',
+    SMGR:'Cement',INTP:'Cement',
   };
   const sectorData = (exposure && exposure.sectors && Object.keys(exposure.sectors).length)
     ? exposure.sectors

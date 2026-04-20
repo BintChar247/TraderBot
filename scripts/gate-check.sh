@@ -116,16 +116,21 @@ fi
 _sector_for() {
   local s="${1:-}"
   case "${s}" in
-    BBCA|BBRI|BMRI|BBNI|BNGA|NISP) echo "Banking" ;;
-    ADRO|ITMG|PTBA|BUMI)           echo "Coal" ;;
-    ANTM|INCO|MDKA)                echo "Nickel" ;;
-    TLKM|EXCL|ISAT|MTEL|TOWR)     echo "Telco" ;;
-    UNVR|ICBP|INDF|MYOR|SIDO)     echo "Consumer" ;;
-    BSDE|CTRA|SMRA|PWON)          echo "Property" ;;
-    KLBF|KAEF)                    echo "Healthcare" ;;
-    ASII)                          echo "Auto" ;;
-    GOTO|BUKA|EMTK)               echo "Tech" ;;
-    *)                             echo "Unknown" ;;
+    BBCA|BBRI|BMRI|BBNI|BNGA|NISP|BBTN) echo "Banking" ;;
+    ADRO|ITMG|PTBA|BUMI|HRUM)           echo "Coal" ;;
+    MEDC|PGAS)                          echo "Energy" ;;
+    ANTM|INCO|MDKA|NCKL|MBMA)          echo "Nickel" ;;
+    TINS)                               echo "Metals" ;;
+    UNVR|ICBP|INDF|MYOR|SIDO)          echo "Consumer" ;;
+    TLKM|EXCL|ISAT|MTEL|TOWR)          echo "Telco" ;;
+    BSDE|CTRA|SMRA|PWON)               echo "Property" ;;
+    GOTO|BUKA|EMTK)                    echo "Tech" ;;
+    ASII|UNTR|AKRA)                    echo "Industrial" ;;
+    AALI|LSIP)                         echo "Plantation" ;;
+    JSMR|WSKT|PTPP|ADHI)              echo "Infrastructure" ;;
+    KLBF|MIKA)                         echo "Healthcare" ;;
+    SMGR|INTP)                         echo "Cement" ;;
+    *)                                  echo "Unknown" ;;
   esac
 }
 SYMBOL_SECTOR="$(_sector_for "${SYMBOL}")"
@@ -377,12 +382,20 @@ if [[ "${SYMBOL_SECTOR}" != "Unknown" && "${equity}" -gt 0 && "${position_cost}"
     sector_deployed="$(python3 -c "
 import json
 sector_map = {
-  'BBCA':'Banking','BBRI':'Banking','BMRI':'Banking','BBNI':'Banking','BNGA':'Banking',
-  'ADRO':'Coal','ITMG':'Coal','PTBA':'Coal','BUMI':'Coal',
-  'ANTM':'Nickel','INCO':'Nickel','MDKA':'Nickel',
-  'TLKM':'Telco','EXCL':'Telco','ISAT':'Telco','MTEL':'Telco',
-  'UNVR':'Consumer','ICBP':'Consumer','INDF':'Consumer','MYOR':'Consumer',
-  'BSDE':'Property','CTRA':'Property','SMRA':'Property',
+  'BBCA':'Banking','BBRI':'Banking','BMRI':'Banking','BBNI':'Banking','BNGA':'Banking','NISP':'Banking','BBTN':'Banking',
+  'ADRO':'Coal','ITMG':'Coal','PTBA':'Coal','BUMI':'Coal','HRUM':'Coal',
+  'MEDC':'Energy','PGAS':'Energy',
+  'ANTM':'Nickel','INCO':'Nickel','MDKA':'Nickel','NCKL':'Nickel','MBMA':'Nickel',
+  'TINS':'Metals',
+  'UNVR':'Consumer','ICBP':'Consumer','INDF':'Consumer','MYOR':'Consumer','SIDO':'Consumer',
+  'TLKM':'Telco','EXCL':'Telco','ISAT':'Telco','MTEL':'Telco','TOWR':'Telco',
+  'BSDE':'Property','CTRA':'Property','SMRA':'Property','PWON':'Property',
+  'GOTO':'Tech','BUKA':'Tech','EMTK':'Tech',
+  'ASII':'Industrial','UNTR':'Industrial','AKRA':'Industrial',
+  'AALI':'Plantation','LSIP':'Plantation',
+  'JSMR':'Infrastructure','WSKT':'Infrastructure','PTPP':'Infrastructure','ADHI':'Infrastructure',
+  'KLBF':'Healthcare','MIKA':'Healthcare',
+  'SMGR':'Cement','INTP':'Cement',
 }
 try:
     d = json.load(open('${PAPER_STATE}'))
