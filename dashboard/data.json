@@ -64,7 +64,59 @@
       "realized_pnl_pct": null
     }
   ],
-  "decisions": [],
+  "decisions": [
+    {
+      "ticker": "ITMG",
+      "action": "BUY",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": 27300,
+      "price": 26075,
+      "thesis": "Q1 2026 EPS IDR 890 vs consensus IDR 416 — 114% beat unreacted. Newcastle coal $131/t +40.5% YoY.",
+      "inputs": [
+        {"type": "catalyst", "label": "Q1 EPS IDR 890 vs consensus 416 (114% beat)"},
+        {"type": "catalyst", "label": "Newcastle coal $131/t, +40.5% YoY"},
+        {"type": "macro", "label": "IHSG 7,594 (-0.52%) — slight risk-off but above 7,500 support"},
+        {"type": "macro", "label": "Coal sector momentum score 9/10"},
+        {"type": "risk", "label": "Risk budget: 50bps (under 75bps cap)"},
+        {"type": "sizing", "label": "Risk-based: 27,300sh × IDR 1,825 risk/sh = IDR 49.8M risk"}
+      ],
+      "reasoning": "ITMG opened at IDR 26,075 — below planned entry range 27,000-27,200, giving a better price with unchanged thesis. All 15 gates passed. Position sized via risk formula: (0.5% equity) / (entry - hard-cut) = 27,300 shares = 7.12% of equity. BBRI skipped: ex-div April 21, pre-div price 3,440 far above post-div plan 3,200-3,250 (Gate 9 fail + hard-cut risk). ANTM skipped: price 4,010 above researcher's own entry ceiling of 3,960.",
+      "gate_results": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": 3440,
+      "thesis": "Ex-dividend April 21 — pre-div price 3,440 too far above post-div entry plan (3,200-3,250).",
+      "inputs": [
+        {"type": "catalyst", "label": "Ex-div Apr 21: IDR 209/share (10.1% yield)"},
+        {"type": "risk", "label": "Gate 9: price 3,440 vs plan 3,220 = +6.8% drift (max 3%)"},
+        {"type": "risk", "label": "Hard cut 3,199 would be below ex-div adjusted open ~3,231"}
+      ],
+      "reasoning": "Re-evaluate April 21 at post-ex-div open. Target entry: IDR 3,200-3,250.",
+      "gate_results": [true, true, true, true, true, true, true, true, false, true, true, true, true, true, true]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": 4010,
+      "thesis": "HPM Decree 144 re-rating thesis intact but price opened above researcher's entry ceiling.",
+      "inputs": [
+        {"type": "catalyst", "label": "HPM Decree 144: ore price factor 17%→30%"},
+        {"type": "risk", "label": "Price 4,010 above researcher's ceiling 3,960 (own rule)"},
+        {"type": "macro", "label": "Nickel $17,635 (+4.81% MoM) supportive"}
+      ],
+      "reasoning": "Thesis valid but entry discipline requires waiting for pullback to 3,900-3,960. Do not chase. Will monitor daily.",
+      "gate_results": [true, true, true, true, true, true, true, true, false, true, true, true, true, true, true]
+    }
+  ],
   "stats": {
     "total_return_pct": 0.0,
     "ihsg_return_pct": -0.52,
