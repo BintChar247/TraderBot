@@ -20,6 +20,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-04-20",
+      "day_label": "Day 1",
+      "portfolio_value": 10000000000,
+      "cash": 9288152500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.0,
+      "ihsg_close": 7594.0,
+      "ihsg_cumulative_pct": -0.52,
+      "alpha_pct": 0.52,
+      "positions_count": 1,
+      "trades_today": 1,
+      "trades_this_week": 1
     }
   ],
   "positions": [
@@ -55,10 +70,10 @@
     "ihsg_return_pct": 0.0,
     "alpha_pct": 0.0,
     "win_rate_pct": 0.0,
-    "total_trades": 0,
+    "total_trades": 1,
     "winning_trades": 0,
     "losing_trades": 0,
-    "open_trades": 0,
+    "open_trades": 1,
     "avg_winner_pct": 0.0,
     "avg_loser_pct": 0.0,
     "profit_factor": 0.0,
