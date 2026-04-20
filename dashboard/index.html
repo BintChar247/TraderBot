@@ -941,9 +941,15 @@ function renderNewsFeed(headlines) {
   }
   el.innerHTML = headlines.map(h => {
     const sentimentBadgeCls = h.sentiment === 'bullish' ? 'badge-green' : h.sentiment === 'bearish' ? 'badge-red' : 'badge-amber';
-    // Use stored URL, or fall back to a Google News search for the headline
-    const searchQ = encodeURIComponent((h.ticker !== 'MACRO' ? h.ticker + ' IDX ' : '') + h.headline);
-    const href = h.url || `https://www.google.com/search?q=${searchQ}`;
+    // Use stored URL, or fall back to a reliable source per type
+    let href;
+    if (h.url) {
+      href = h.url;
+    } else if (h.ticker && h.ticker !== 'MACRO' && h.ticker !== 'BI' && h.ticker !== 'IDR' && h.ticker !== 'CPO' && h.ticker !== 'COAL') {
+      href = `https://finance.yahoo.com/quote/${h.ticker}.JK/news/`;
+    } else {
+      href = `https://www.google.com/search?q=${encodeURIComponent(h.headline + ' Indonesia')}`;
+    }
     const headlineHtml = `<a href="${href}" target="_blank" rel="noopener noreferrer">${h.headline}<span class="news-link-icon">↗</span></a>`;
     return `<div class="news-card">
       <div class="news-sentiment ${h.sentiment}"></div>
