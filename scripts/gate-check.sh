@@ -111,20 +111,24 @@ if [[ "${TRADING_HALTED}" == "true" ]]; then
   exit 1
 fi
 
-# ---- SECTOR MAP (IDX equities) ---------------------------------------------
+# ---- SECTOR MAP (IDX equities) — bash 3.2 compatible ----------------------
 
-declare -A SECTOR_MAP=(
-  [BBCA]=Banking  [BBRI]=Banking  [BMRI]=Banking  [BBNI]=Banking  [BNGA]=Banking  [NISP]=Banking
-  [ADRO]=Coal     [ITMG]=Coal     [PTBA]=Coal     [BUMI]=Coal
-  [ANTM]=Nickel   [INCO]=Nickel   [MDKA]=Nickel
-  [TLKM]=Telco    [EXCL]=Telco    [ISAT]=Telco    [MTEL]=Telco    [TOWR]=Telco
-  [UNVR]=Consumer [ICBP]=Consumer [INDF]=Consumer [MYOR]=Consumer [SIDO]=Consumer
-  [BSDE]=Property [CTRA]=Property [SMRA]=Property [PWON]=Property
-  [KLBF]=Healthcare [KAEF]=Healthcare
-  [ASII]=Auto
-  [GOTO]=Tech     [BUKA]=Tech     [EMTK]=Tech
-)
-SYMBOL_SECTOR="${SECTOR_MAP[${SYMBOL}]:-Unknown}"
+_sector_for() {
+  local s="${1:-}"
+  case "${s}" in
+    BBCA|BBRI|BMRI|BBNI|BNGA|NISP) echo "Banking" ;;
+    ADRO|ITMG|PTBA|BUMI)           echo "Coal" ;;
+    ANTM|INCO|MDKA)                echo "Nickel" ;;
+    TLKM|EXCL|ISAT|MTEL|TOWR)     echo "Telco" ;;
+    UNVR|ICBP|INDF|MYOR|SIDO)     echo "Consumer" ;;
+    BSDE|CTRA|SMRA|PWON)          echo "Property" ;;
+    KLBF|KAEF)                    echo "Healthcare" ;;
+    ASII)                          echo "Auto" ;;
+    GOTO|BUKA|EMTK)               echo "Tech" ;;
+    *)                             echo "Unknown" ;;
+  esac
+}
+SYMBOL_SECTOR="$(_sector_for "${SYMBOL}")"
 
 # ═══════════════════════════════════════════════════════════════════════════
 # PORTFOLIO-LEVEL CAPS — Checks 10-12
@@ -340,13 +344,12 @@ if [[ -f "${RESEARCH_LOG}" ]]; then
     /^#+/ && index($0, date) > 0 { in_section=1; next }
     /^#+/ { if (in_section) in_section=0 }
     in_section && index($0, sym) > 0 { found_sym=1 }
-    found_sym && /[Pp]lanned[[:space:]]+[Ee]ntry[[:space:]]*:[[:space:]]*[0-9]+/ {
-      match($0, /[0-9]+/)
-      print substr($0, RSTART, RLENGTH); exit
-    }
-    found_sym && /[Ee]ntry[[:space:]]*:[[:space:]]*[0-9]+/ {
-      match($0, /[0-9]+/)
-      print substr($0, RSTART, RLENGTH); exit
+    found_sym && tolower($0) ~ /entry[[:space:]]*:/ {
+      # strip commas, then find first price-like number (4-6 digits)
+      line = $0; gsub(/,/, "", line)
+      if (match(line, /[1-9][0-9]{3,6}/)) {
+        print substr(line, RSTART, RLENGTH); exit
+      }
     }
   ' "${RESEARCH_LOG}" 2>/dev/null || echo 0)"
 fi

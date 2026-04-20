@@ -22,8 +22,33 @@
       "trades_this_week": 0
     }
   ],
-  "positions": [],
-  "trades": [],
+  "positions": [
+    {
+      "ticker": "ITMG",
+      "entry_date": "2026-04-20",
+      "entry_price": 26075,
+      "shares": 27300,
+      "current_price": 26075,
+      "hard_cut": 24250,
+      "trail_stop": null,
+      "stop_state": "hard-cut",
+      "thesis_state": "valid",
+      "catalyst_date": "2026-05-07",
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $131 floor; May 7 earnings re-rate"
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-04-20",
+      "ticker": "ITMG",
+      "side": "buy",
+      "shares": 27300,
+      "price": 26075,
+      "cost": 711847500,
+      "status": "open",
+      "realized_pnl_pct": null
+    }
+  ],
   "decisions": [],
   "stats": {
     "total_return_pct": 0.0,
@@ -54,7 +79,34 @@
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1"
   },
-  "activity_log": [],
+  "activity_log": [
+    {
+      "timestamp": "2026-04-20T14:55:43Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "Day 1: BUY ITMG 27,300sh @ 26,075 (7.12% of equity, 50bps risk). Hard cut: 24,250. Target: 31,500. BBRI/ANTM skipped (ex-div timing / above entry ceiling).",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 26075, cost IDR 711.8M"
+        },
+        {
+          "type": "stop",
+          "ticker": "ITMG",
+          "detail": "hard-cut @ 24250 (-7%)"
+        },
+        {
+          "type": "research",
+          "detail": "BBRI skipped: ex-div tomorrow"
+        },
+        {
+          "type": "research",
+          "detail": "ANTM skipped: price 4010 above ceiling 3960"
+        }
+      ]
+    }
+  ],
   "exposure": {
     "sectors": {},
     "factors": {
@@ -71,7 +123,7 @@
     "ihsg_change_pct": 0.6,
     "idr_usd": 17115,
     "idr_usd_change_pct": -0.97,
-    "coal_usd": 131.00,
+    "coal_usd": 131.0,
     "coal_change_pct": -1.9,
     "nickel_usd": 17635,
     "nickel_change_pct": 4.81,
@@ -86,23 +138,98 @@
   "research": {
     "date": "2026-04-19",
     "headlines": [
-      {"ticker": "ITMG", "headline": "Q1 2026 EPS IDR 890 vs consensus IDR 416 — 114% earnings beat confirmed", "sentiment": "bullish", "source": "IDX Disclosure"},
-      {"ticker": "BBRI", "headline": "Ex-dividend April 21 (IDR 209/share, 10.1% yield); BlackRock +19M shares in April accumulation", "sentiment": "bullish", "source": "IDX Corporate Action"},
-      {"ticker": "ANTM", "headline": "ESDM HPM Decree 144 raised ore correction factor 17%→30%; nickel $17,635 (+4.81% MoM)", "sentiment": "bullish", "source": "Ministry of Energy"},
-      {"ticker": "MACRO", "headline": "US-Iran 2-week ceasefire + Strait of Hormuz reopened — risk-ON signal for Monday open", "sentiment": "bullish", "source": "Reuters"},
-      {"ticker": "BI", "headline": "Bank Indonesia holds BI-Rate at 4.75%; Governor: cut scope increasingly limited due to IDR pressure", "sentiment": "neutral", "source": "Bank Indonesia"},
-      {"ticker": "CPO", "headline": "Palm oil exports -34% in first 10 days of April; agri/CPO sector on AVOID list", "sentiment": "bearish", "source": "GAPKI"},
-      {"ticker": "COAL", "headline": "Newcastle coal consolidating at $131/ton after March surge; Middle East risk premium intact (+40.5% YoY)", "sentiment": "bullish", "source": "GlobalCOAL"},
-      {"ticker": "IDR", "headline": "Rupiah at 17,115/USD near record lows; BI focused on stability over growth", "sentiment": "bearish", "source": "BI / Bloomberg"}
+      {
+        "ticker": "ITMG",
+        "headline": "Q1 2026 EPS IDR 890 vs consensus IDR 416 \u2014 114% earnings beat confirmed",
+        "sentiment": "bullish",
+        "source": "IDX Disclosure"
+      },
+      {
+        "ticker": "BBRI",
+        "headline": "Ex-dividend April 21 (IDR 209/share, 10.1% yield); BlackRock +19M shares in April accumulation",
+        "sentiment": "bullish",
+        "source": "IDX Corporate Action"
+      },
+      {
+        "ticker": "ANTM",
+        "headline": "ESDM HPM Decree 144 raised ore correction factor 17%\u219230%; nickel $17,635 (+4.81% MoM)",
+        "sentiment": "bullish",
+        "source": "Ministry of Energy"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "US-Iran 2-week ceasefire + Strait of Hormuz reopened \u2014 risk-ON signal for Monday open",
+        "sentiment": "bullish",
+        "source": "Reuters"
+      },
+      {
+        "ticker": "BI",
+        "headline": "Bank Indonesia holds BI-Rate at 4.75%; Governor: cut scope increasingly limited due to IDR pressure",
+        "sentiment": "neutral",
+        "source": "Bank Indonesia"
+      },
+      {
+        "ticker": "CPO",
+        "headline": "Palm oil exports -34% in first 10 days of April; agri/CPO sector on AVOID list",
+        "sentiment": "bearish",
+        "source": "GAPKI"
+      },
+      {
+        "ticker": "COAL",
+        "headline": "Newcastle coal consolidating at $131/ton after March surge; Middle East risk premium intact (+40.5% YoY)",
+        "sentiment": "bullish",
+        "source": "GlobalCOAL"
+      },
+      {
+        "ticker": "IDR",
+        "headline": "Rupiah at 17,115/USD near record lows; BI focused on stability over growth",
+        "sentiment": "bearish",
+        "source": "BI / Bloomberg"
+      }
     ],
     "sector_momentum": [
-      {"sector": "Banking", "trend": "bullish", "score": 8, "note": "BBRI ex-div Apr 21; Q1 Apr 29; BlackRock accumulating"},
-      {"sector": "Coal / Energy", "trend": "bullish", "score": 9, "note": "ITMG 114% Q1 beat; Newcastle $131; May 7 print"},
-      {"sector": "Nickel / Mining", "trend": "bullish", "score": 7, "note": "HPM reform structural re-rating; ANTM +4% this week"},
-      {"sector": "CPO / Agri", "trend": "bearish", "score": 2, "note": "Exports -34%; no recovery signal; AVOID"},
-      {"sector": "Property", "trend": "neutral", "score": 4, "note": "BI rate cut scope shrinking; no catalyst"},
-      {"sector": "Consumer", "trend": "neutral", "score": 4, "note": "IDR weakness on imported inputs"},
-      {"sector": "Telco", "trend": "neutral", "score": 5, "note": "No specific catalyst this week"}
+      {
+        "sector": "Banking",
+        "trend": "bullish",
+        "score": 8,
+        "note": "BBRI ex-div Apr 21; Q1 Apr 29; BlackRock accumulating"
+      },
+      {
+        "sector": "Coal / Energy",
+        "trend": "bullish",
+        "score": 9,
+        "note": "ITMG 114% Q1 beat; Newcastle $131; May 7 print"
+      },
+      {
+        "sector": "Nickel / Mining",
+        "trend": "bullish",
+        "score": 7,
+        "note": "HPM reform structural re-rating; ANTM +4% this week"
+      },
+      {
+        "sector": "CPO / Agri",
+        "trend": "bearish",
+        "score": 2,
+        "note": "Exports -34%; no recovery signal; AVOID"
+      },
+      {
+        "sector": "Property",
+        "trend": "neutral",
+        "score": 4,
+        "note": "BI rate cut scope shrinking; no catalyst"
+      },
+      {
+        "sector": "Consumer",
+        "trend": "neutral",
+        "score": 4,
+        "note": "IDR weakness on imported inputs"
+      },
+      {
+        "sector": "Telco",
+        "trend": "neutral",
+        "score": 5,
+        "note": "No specific catalyst this week"
+      }
     ]
   }
 }

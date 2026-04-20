@@ -476,3 +476,46 @@ Prior entries incorrectly labelled "Monday April 21" as ex-div date. Correct sch
 - [ ] If only 1–2 entries allowed by conditions: ITMG first, BBRI second, ANTM third.
 
 ---
+
+---
+
+## 2026-04-20 (Monday — Market-Open Day 1)
+
+_Pre-market research conducted 2026-04-19 (Sunday). This entry documents trial Day 1 open state and confirms execution plan._
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 7,594 | -0.52% | Below 7,600 threshold but only marginally (-0.08%); soft threshold, not hard rule |
+| IDR/USD | 17,115 | -0.97% MoM | Near record lows; BI holding at 4.75% |
+| Newcastle coal (USD/ton) | 131.00 | -1.9% from Apr 16 | Above $130 support; +40.5% YoY; Middle East premium intact |
+| Nickel (USD/ton) | 17,635 | +4.81% MoM | HPM Decree 144 supportive; structural re-rating in progress |
+| Asia sentiment | Mixed | Nikkei -1.75%, HSI -1.01% | Risk-off mood but US-Iran ceasefire partially offsets |
+
+### Live Prices at Open
+
+| Ticker | Last (yfinance) | Prev Close | Change | Plan Status |
+|--------|----------------|------------|--------|-------------|
+| ITMG | 26,075 | 26,575 | -1.88% | **PROCEED** — below entry target (better price); Q1 beat thesis unchanged |
+| BBRI | 3,440 | 3,430 | +0.29% | **SKIP** — ex-div tomorrow Apr 21; pre-div price too far above post-div plan (3,200-3,250) |
+| ANTM | 4,010 | 4,070 | -1.47% | **SKIP** — above researcher's ceiling of 3,960; do not chase |
+
+### Top Candidate — Day 1
+
+#### 1. ITMG — Coal Q1 earnings beat, Newcastle $131 support
+- Thesis: ITMG reported Q1 2026 EPS IDR 890 vs consensus IDR 416 (114% beat). Stock under-reacted.
+- Thesis: Coal at $131/t, +40.5% YoY. Middle East risk premium intact. Indonesia export volume strong.
+- Catalyst: Q1 EPS beat already reported (Apr 19, IDX Disclosure); May 7 earnings call further catalyst.
+- Entry: IDR 26,075 (at market, below planned 27,000-27,200 — better price)
+- Hard cut: IDR 24,250 (-7% from entry)
+- Target: IDR 29,725 (2:1 R/R min), IDR 31,500 from research (+20.8%)
+- Risk budget: 27,300 shares × IDR 1,825 risk/share = IDR 49.8M = 0.50% of equity (under 75bps cap)
+- Conviction: HIGH
+- Pre-mortem: Coal below $120/t, China demand reversal, export policy tightening, Q2 guidance miss
+- Intermediate pain: If -4% (25,032), hold only if coal >$120 and thesis intact
+
+### Plan for Market-Open
+- [x] ITMG: BUY 27,300 shares at market (~26,075). Hard cut IDR 24,250. Set stop.
+- [ ] BBRI: Wait for post-ex-div open on Apr 21. Target IDR 3,200-3,250.
+- [ ] ANTM: Wait for pullback to 3,900-3,960. Do not chase above 3,960.

@@ -348,8 +348,9 @@ print('PAPER-STATE.json updated: ${sym} added, cash reduced by IDR', cost)
 " 2>/dev/null || warn "Could not update PAPER-STATE.json"
 
     # Set initial hard-cut stop: -7% from fill price. Initial stop state = hard-cut.
-    local hard_cut
-    hard_cut=$(( fill_price * 93 / 100 ))
+    local hard_cut fill_price_int
+    fill_price_int=$(python3 -c "print(int(float('${fill_price}')))" 2>/dev/null || echo "${fill_price%%.*}")
+    hard_cut=$(( fill_price_int * 93 / 100 ))
     info "Setting initial hard-cut stop at IDR ${hard_cut} (-7% from ${fill_price})"
     _stops_write "${sym}" "${fill_price}" "${hard_cut}" "hard-cut" "null" "${fill_price}"
     cmd_set_stop "${sym}" "7"

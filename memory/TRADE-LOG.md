@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| — | — | — | — | — | — | — | Trial starts 2026-04-20 |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $131/t +40.5% YoY |
 
 ---
 
@@ -255,3 +255,23 @@ _Prices estimated from web search (best available data for April 21-25, 2026). E
 - BI Rate decision: April 21-22 results digesting; any dovish signal benefits BBRI
 - ITMG: Monitor coal price (Newcastle benchmark $130+); May 7 earnings approaching
 - ANTM: HPM decree implementation news; any nickel price moves on LME
+
+---
+
+### 2026-04-20 09:15 WIB — BUY ITMG
+
+- Side: BUY
+- Shares: 27,300 shares at IDR 26,075
+- Fill price: IDR 26,075 (below planned 27,000–27,200 — better entry)
+- Position size: IDR 711,847,500 (7.12% of IDR 10B equity)
+- Hard cut: IDR 24,250 (-7% from entry) — STATE 1 (fixed)
+- Stop transitions: at +7% (IDR 27,900) → trailing 10%; at +15% → 7%; at +20% → 5%
+- Target: IDR 31,500 (+20.8%, from research) | Minimum 2:1 R/R: IDR 29,725
+- Risk budget: 27,300 × 1,825 = IDR 49.8M = 0.50% of equity (under 75bps cap)
+- 15-gate checklist: PASS all 15 gates
+- Catalyst: Q1 2026 EPS IDR 890 vs consensus IDR 416 — 114% beat (IDX Disclosure 2026-04-19). Coal $131/t, +40.5% YoY, above $130 support.
+- Thesis: "ITMG is the cheapest-to-produce IDX coal name with a massive Q1 earnings surprise that the market has not fully priced in. Coal price stability above $130 provides a floor while the earnings rerating plays out over 4-6 weeks."
+- Pre-mortem: Newcastle coal below $120/t, China demand reversal, Q2 guidance miss, or Indonesia export policy tightening → exit immediately.
+- Intermediate pain plan: If -4% (25,032) with no invalidation event, hold. If any above trigger, exit.
+- BBRI skipped: ex-div tomorrow Apr 21; current price 3,440 too far above post-div plan (3,200-3,250).
+- ANTM skipped: price 4,010 above researcher's 3,960 ceiling.
