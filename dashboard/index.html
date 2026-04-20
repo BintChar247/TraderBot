@@ -228,6 +228,12 @@ tbody tr:hover { background: var(--bg2); }
 .news-sentiment.bearish  { background: var(--red); }
 .news-body { flex: 1; }
 .news-headline { font-size: 12px; font-weight: 500; color: var(--text); line-height: 1.4; margin-bottom: 4px; }
+.news-headline a { color: inherit; text-decoration: none; }
+.news-headline a:hover { color: var(--amber); text-decoration: underline; text-underline-offset: 3px; }
+.news-card:hover .news-headline { color: var(--amber); }
+.news-card:hover .news-headline a { color: var(--amber); }
+.news-link-icon { font-size: 9px; color: var(--text-mute); margin-left: 4px; opacity: 0; transition: opacity 0.15s; }
+.news-card:hover .news-link-icon { opacity: 1; }
 .news-meta { display: flex; gap: 8px; align-items: center; font-size: 10px; color: var(--text-mute); font-family: var(--mono); }
 
 /* ─── DECISION ENGINE ─── */
@@ -935,10 +941,14 @@ function renderNewsFeed(headlines) {
   }
   el.innerHTML = headlines.map(h => {
     const sentimentBadgeCls = h.sentiment === 'bullish' ? 'badge-green' : h.sentiment === 'bearish' ? 'badge-red' : 'badge-amber';
+    // Use stored URL, or fall back to a Google News search for the headline
+    const searchQ = encodeURIComponent((h.ticker !== 'MACRO' ? h.ticker + ' ' : '') + h.headline);
+    const href = h.url || `https://www.google.com/search?q=${searchQ}&tbm=nws`;
+    const headlineHtml = `<a href="${href}" target="_blank" rel="noopener noreferrer">${h.headline}<span class="news-link-icon">↗</span></a>`;
     return `<div class="news-card">
       <div class="news-sentiment ${h.sentiment}"></div>
       <div class="news-body">
-        <div class="news-headline">${h.headline}</div>
+        <div class="news-headline">${headlineHtml}</div>
         <div class="news-meta">
           <span class="badge ${sentimentBadgeCls}">${h.ticker}</span>
           <span>${h.source}</span>

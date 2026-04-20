@@ -100,18 +100,51 @@ Also search:
 21. `"Bank Indonesia rate decision schedule $DATE"`
 22. `"Indonesia economic data release CPI GDP trade balance $DATE"`
 
-### Tier 4: Deep Fundamentals (for top candidates)
+### Tier 4: Watchlist Scan (all 20 tickers — mandatory)
 
-For the 2-3 stocks you are considering as trade candidates, run:
+**Defined watchlist (screen every session):**
+
+| # | Ticker | Sector |
+|---|--------|--------|
+| 1 | BBCA | Banking |
+| 2 | BBRI | Banking |
+| 3 | BMRI | Banking |
+| 4 | BBNI | Banking |
+| 5 | ADRO | Coal |
+| 6 | ITMG | Coal |
+| 7 | PTBA | Coal |
+| 8 | ANTM | Nickel |
+| 9 | INCO | Nickel |
+| 10 | MDKA | Nickel |
+| 11 | TLKM | Telco |
+| 12 | EXCL | Telco |
+| 13 | UNVR | Consumer |
+| 14 | ICBP | Consumer |
+| 15 | INDF | Consumer |
+| 16 | BSDE | Property |
+| 17 | CTRA | Property |
+| 18 | ASII | Auto/Industrial |
+| 19 | KLBF | Healthcare |
+| 20 | GOTO | Tech |
+
+For each of the 20 tickers, run:
+```bash
+bash scripts/market-data.sh quote [TICKER]
+```
+
+Search for any overnight news per ticker (batch query acceptable):
+23. `"[TICKER1] [TICKER2] [TICKER3] IDX news today $DATE"` — batch 4-5 at a time
+
+Then, for the top 5 highest-scoring candidates, run deep fundamentals:
 ```bash
 bash scripts/market-data.sh fundamentals [TICKER]
 bash scripts/market-data.sh history [TICKER] 30d
 ```
 
 And search:
-23. `"[TICKER] IDX earnings results latest $DATE"`
-24. `"[TICKER] analyst target price upgrade downgrade"`
-25. `"[TICKER] insider transaction director commissioner shares"`
+24. `"[TICKER] IDX earnings results latest $DATE"`
+25. `"[TICKER] analyst target price upgrade downgrade"`
+26. `"[TICKER] insider transaction director commissioner shares"`
 
 ### Tier 5: Sentiment & News
 
@@ -204,7 +237,38 @@ Append a new entry (do not modify previous entries). Format:
 
 (Earnings releases, ex-dividend dates, rights issues, OJK filings, economic data)
 
-### Top 3 Candidates
+### Watchlist Scan — All 20 Tickers
+
+Score each ticker 1–10 (10 = strongest buy setup). Apply sector momentum filter first.
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | | | | | |
+| 2 | BBRI | Banking | | | | | |
+| 3 | BMRI | Banking | | | | | |
+| 4 | BBNI | Banking | | | | | |
+| 5 | ADRO | Coal | | | | | |
+| 6 | ITMG | Coal | | | | | |
+| 7 | PTBA | Coal | | | | | |
+| 8 | ANTM | Nickel | | | | | |
+| 9 | INCO | Nickel | | | | | |
+| 10 | MDKA | Nickel | | | | | |
+| 11 | TLKM | Telco | | | | | |
+| 12 | EXCL | Telco | | | | | |
+| 13 | UNVR | Consumer | | | | | |
+| 14 | ICBP | Consumer | | | | | |
+| 15 | INDF | Consumer | | | | | |
+| 16 | BSDE | Property | | | | | |
+| 17 | CTRA | Property | | | | | |
+| 18 | ASII | Auto/Industrial | | | | | |
+| 19 | KLBF | Healthcare | | | | | |
+| 20 | GOTO | Tech | | | | | |
+
+Status options: `WATCH` / `CANDIDATE` / `SKIP` / `HOLD` (already in portfolio)
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
 
 #### 1. [TICKER] — [1-line hook]
 
@@ -233,6 +297,8 @@ Append a new entry (do not modify previous entries). Format:
 
 #### 3. [TICKER] — [1-line hook]
 ...
+
+_(Continue for all tickers scoring ≥ 6. No cap — if 8 tickers score ≥ 6, write all 8.)_
 
 ### Held Position Updates
 
@@ -287,8 +353,8 @@ COMMIT_SHA=$(git rev-parse --short HEAD 2>/dev/null || echo "")
 bash scripts/log-activity.sh \
   --routine "pre-market" \
   --status  "success" \
-  --summary "[top 2-3 ideas in one sentence, e.g.: Top ideas: ITMG (HIGH), BBRI (HIGH). Coal bull thesis intact.]" \
-  --actions '[{"type":"research","detail":"[N] candidates evaluated"},{"type":"research","ticker":"[TOP_TICKER]","detail":"[one-line catalyst}"}]'
+  --summary "[e.g.: Scanned 20 tickers. Top ideas: ITMG (HIGH, score 9), BBRI (HIGH, score 8). 5 candidates scored ≥6. Coal/Banking bull.]" \
+  --actions '[{"type":"research","detail":"20 tickers scanned"},{"type":"research","detail":"[N] candidates scored ≥6"},{"type":"research","ticker":"[TOP_TICKER]","detail":"score [X]/10 — [one-line catalyst]"}]'
 ```
 
 Use `--status warning` if no strong ideas found, or `--status error` if a required step failed.
