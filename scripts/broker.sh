@@ -205,25 +205,49 @@ print(json.dumps({'mode':'paper','positions':positions,'count':len(positions)},i
 
 _paper_quote() {
   local sym="$1"
-  # Try market-data.sh quote first; fall back to stub
+  # Live quote via market-data.sh (GoAPI → yfinance). If that fails, try to
+  # return the last-known entry price from PAPER-STATE.json for an existing
+  # position. Never return a hardcoded stub — that would corrupt gate checks.
   local result
   result="$("${SCRIPT_DIR}/market-data.sh" quote "${sym}" 2>/dev/null || true)"
   if [[ -n "${result}" ]] && echo "${result}" | python3 -c "import json,sys; d=json.load(sys.stdin); sys.exit(0 if d.get('last') or d.get('last_price') else 1)" 2>/dev/null; then
     echo "${result}"
     return 0
   fi
-  # Stub fallback
-  cat <<JSON
+
+  # Fallback: last-known entry price for a held position
+  local last_known
+  last_known="$(python3 -c "
+import json, os, sys
+path = '${PAPER_STATE}'
+if not os.path.exists(path): sys.exit(1)
+d = json.load(open(path))
+for p in d.get('positions', []):
+    if p.get('ticker') == '${sym}':
+        print(int(p.get('entry_price', 0)))
+        sys.exit(0)
+sys.exit(1)
+" 2>/dev/null || true)"
+
+  if [[ -n "${last_known}" ]] && [[ "${last_known}" -gt 0 ]] 2>/dev/null; then
+    cat <<JSON
 {
   "mode": "paper",
   "symbol": "${sym}",
-  "last_price": 5000,
+  "last_price": ${last_known},
   "avg_daily_volume": 1500000,
   "lot_size": 100,
   "currency": "IDR",
-  "note": "Stub quote — market-data.sh unavailable."
+  "note": "Stale quote — live market-data.sh unavailable; using last-known entry_price."
 }
 JSON
+    return 0
+  fi
+
+  # No live quote AND no held position → cannot safely produce a price.
+  # Exit non-zero so gate-check fails closed rather than accepting bad data.
+  echo "ERROR: _paper_quote cannot produce a price for ${sym} — market-data.sh failed and no held position in PAPER-STATE.json. Refusing to stub." >&2
+  return 1
 }
 
 _paper_cash() {

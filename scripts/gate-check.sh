@@ -301,9 +301,9 @@ catalyst_ok=0
 if [[ -f "${RESEARCH_LOG}" ]]; then
   if grep -qF "${TODAY_DATE}" "${RESEARCH_LOG}" 2>/dev/null; then
     if awk -v date="${TODAY_DATE}" -v sym="${SYMBOL}" '
-      /^#+/ && index($0, date) > 0 { in_section=1; next }
-      /^#+/ { if (in_section) in_section=0 }
-      in_section && index($0, sym) > 0 { found=1; exit }
+      /^## / && index($0, date) > 0 { in_date=1; next }
+      /^## /                         { in_date=0; next }
+      in_date && index($0, sym) > 0  { found=1; exit }
       END { exit !found }
     ' "${RESEARCH_LOG}" 2>/dev/null; then
       catalyst_ok=1
@@ -345,12 +345,22 @@ fi
 
 planned_entry=0
 if [[ -f "${RESEARCH_LOG}" ]]; then
+  # Ticker-scoped parse:
+  #   - Enter date section on `## YYYY-MM-DD` heading matching TODAY_DATE
+  #   - Exit date section on any other `## ` heading (next day's entry)
+  #   - Enter ticker subsection on `#### ` heading containing SYMBOL
+  #   - Exit ticker subsection on next `### ` or `#### ` heading (new subsection)
+  #   - Only the first `Entry: IDR XXXXX` inside the ticker subsection counts
   planned_entry="$(awk -v date="${TODAY_DATE}" -v sym="${SYMBOL}" '
-    /^#+/ && index($0, date) > 0 { in_section=1; next }
-    /^#+/ { if (in_section) in_section=0 }
-    in_section && index($0, sym) > 0 { found_sym=1 }
-    found_sym && tolower($0) ~ /entry[[:space:]]*:/ {
-      # strip commas, then find first price-like number (4-6 digits)
+    /^## / && index($0, date) > 0 { in_date=1; in_ticker=0; next }
+    /^## /                         { in_date=0; in_ticker=0; next }
+    in_date && /^### /             { in_ticker=0; next }
+    in_date && /^#### / {
+      if (index($0, sym) > 0) in_ticker=1
+      else                    in_ticker=0
+      next
+    }
+    in_ticker && tolower($0) ~ /entry[[:space:]]*:/ {
       line = $0; gsub(/,/, "", line)
       if (match(line, /[1-9][0-9]{3,6}/)) {
         print substr(line, RSTART, RLENGTH); exit

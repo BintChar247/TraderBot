@@ -49,3 +49,6 @@ yarn-error.log*
 
 # OS temp files
 Thumbs.db
+
+# Lazy-bootstrap sentinel (market-data.sh writes this once yfinance is installed)
+.yfinance_ready

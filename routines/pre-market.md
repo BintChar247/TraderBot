@@ -100,40 +100,70 @@ Also search:
 21. `"Bank Indonesia rate decision schedule $DATE"`
 22. `"Indonesia economic data release CPI GDP trade balance $DATE"`
 
-### Tier 4: Watchlist Scan (all 20 tickers — mandatory)
+### Tier 4: Watchlist Scan (all 50 tickers — mandatory)
 
-**Defined watchlist (screen every session):**
+**Defined watchlist (screen every session). ★ = LQ45 constituent. ☆ = non-LQ45 quality name.**
 
-| # | Ticker | Sector |
-|---|--------|--------|
-| 1 | BBCA | Banking |
-| 2 | BBRI | Banking |
-| 3 | BMRI | Banking |
-| 4 | BBNI | Banking |
-| 5 | ADRO | Coal |
-| 6 | ITMG | Coal |
-| 7 | PTBA | Coal |
-| 8 | ANTM | Nickel |
-| 9 | INCO | Nickel |
-| 10 | MDKA | Nickel |
-| 11 | TLKM | Telco |
-| 12 | EXCL | Telco |
-| 13 | UNVR | Consumer |
-| 14 | ICBP | Consumer |
-| 15 | INDF | Consumer |
-| 16 | BSDE | Property |
-| 17 | CTRA | Property |
-| 18 | ASII | Auto/Industrial |
-| 19 | KLBF | Healthcare |
-| 20 | GOTO | Tech |
+| # | Ticker | Sector | LQ45 |
+|---|--------|--------|------|
+| 1 | BBCA | Banking | ★ |
+| 2 | BBRI | Banking | ★ |
+| 3 | BMRI | Banking | ★ |
+| 4 | BBNI | Banking | ★ |
+| 5 | BNGA | Banking | ★ |
+| 6 | NISP | Banking | ★ |
+| 7 | BBTN | Banking | ★ |
+| 8 | ADRO | Coal | ★ |
+| 9 | ITMG | Coal | ★ |
+| 10 | PTBA | Coal | ★ |
+| 11 | BUMI | Coal | ★ |
+| 12 | HRUM | Coal | ★ |
+| 13 | MEDC | Energy/Oil&Gas | ★ |
+| 14 | PGAS | Gas/Energy | ★ |
+| 15 | ANTM | Nickel | ★ |
+| 16 | INCO | Nickel | ★ |
+| 17 | MDKA | Nickel | ★ |
+| 18 | NCKL | Nickel | ★ |
+| 19 | MBMA | Nickel | ★ |
+| 20 | TINS | Metals/Tin | ★ |
+| 21 | UNVR | Consumer | ★ |
+| 22 | ICBP | Consumer | ★ |
+| 23 | INDF | Consumer | ★ |
+| 24 | MYOR | Consumer | ★ |
+| 25 | SIDO | Consumer | ☆ |
+| 26 | TLKM | Telco | ★ |
+| 27 | EXCL | Telco | ★ |
+| 28 | ISAT | Telco | ★ |
+| 29 | MTEL | Telco/Tower | ★ |
+| 30 | TOWR | Telco/Tower | ★ |
+| 31 | BSDE | Property | ★ |
+| 32 | CTRA | Property | ★ |
+| 33 | SMRA | Property | ★ |
+| 34 | PWON | Property | ★ |
+| 35 | GOTO | Tech | ★ |
+| 36 | BUKA | Tech | ★ |
+| 37 | EMTK | Tech/Media | ★ |
+| 38 | ASII | Auto/Industrial | ★ |
+| 39 | UNTR | Heavy Equipment | ★ |
+| 40 | AKRA | Distribution | ★ |
+| 41 | AALI | Plantation | ★ |
+| 42 | LSIP | Plantation | ★ |
+| 43 | JSMR | Infrastructure | ★ |
+| 44 | WSKT | Construction | ★ |
+| 45 | PTPP | Construction | ★ |
+| 46 | ADHI | Construction | ☆ |
+| 47 | KLBF | Healthcare | ★ |
+| 48 | MIKA | Healthcare | ★ |
+| 49 | SMGR | Cement | ★ |
+| 50 | INTP | Cement | ★ |
 
-For each of the 20 tickers, run:
+For each of the 50 tickers, run:
 ```bash
 bash scripts/market-data.sh quote [TICKER]
 ```
 
 Search for any overnight news per ticker (batch query acceptable):
-23. `"[TICKER1] [TICKER2] [TICKER3] IDX news today $DATE"` — batch 4-5 at a time
+23. `"[TICKER1] [TICKER2] [TICKER3] IDX news today $DATE"` — batch 5-6 at a time (10 batches for 50 tickers)
 
 Then, for the top 5 highest-scoring candidates, run deep fundamentals:
 ```bash

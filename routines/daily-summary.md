@@ -85,6 +85,39 @@ Append (do NOT overwrite) using this exact format:
 
 If daily P&L < -2% of portfolio: add flag "⚠️ DAILY LOSS CAP HIT — no new trades tomorrow until reset."
 
+**STEP 5b — Update memory/RISK-STATE.json (mandatory)**
+
+Tomorrow's gate-check reads this file to decide position sizing and halt flags.
+Update these fields atomically with today's EOD numbers:
+
+```bash
+python3 - <<PYEOF
+import json
+from datetime import date
+path = "memory/RISK-STATE.json"
+d = json.load(open(path))
+# Substitute values computed in STEP 4:
+d["daily_pnl_pct"]           = float("[DAILY_PNL_PCT]")      # e.g. -1.23
+d["weekly_pnl_pct"]          = float("[WEEKLY_PNL_PCT]")     # cumulative this week
+d["current_equity"]          = int("[CURRENT_EQUITY_IDR]")
+d["peak_equity"]             = max(d.get("peak_equity", 0), d["current_equity"])
+d["drawdown_from_peak_pct"]  = round(((d["current_equity"] - d["peak_equity"]) / d["peak_equity"]) * 100, 2)
+# Halt flags
+if d["daily_pnl_pct"] <= -2.0:
+    d["trading_halted"] = True
+    d["halt_reason"]    = f"daily_loss_cap_hit:{d['daily_pnl_pct']}%"
+elif d["drawdown_from_peak_pct"] <= -15.0:
+    d["trading_halted"] = True
+    d["halt_reason"]    = f"max_drawdown_breach:{d['drawdown_from_peak_pct']}%"
+else:
+    d["trading_halted"] = False
+    d["halt_reason"]    = None
+d["updated"] = date.today().isoformat()
+json.dump(d, open(path, "w"), indent=2)
+print(f"RISK-STATE updated: daily={d['daily_pnl_pct']}% dd={d['drawdown_from_peak_pct']}% halted={d['trading_halted']}")
+PYEOF
+```
+
 **STEP 6 — Send daily summary notification (always, even on no-trade days)**
 
 ```bash
@@ -106,7 +139,7 @@ bash scripts/log-activity.sh \
 **STEP 8 — COMMIT AND PUSH (mandatory — this is the critical persistence step)**
 
 ```bash
-git add memory/TRADE-LOG.md dashboard/data.json
+git add memory/TRADE-LOG.md memory/RISK-STATE.json dashboard/data.json
 git commit -m "daily-summary $DATE: EOD snapshot"
 git push origin main
 ```

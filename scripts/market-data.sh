@@ -65,6 +65,30 @@ die()  { echo "ERROR: $*" >&2; exit 1; }
 warn() { echo "WARN:  $*" >&2; }
 info() { echo "INFO:  $*" >&2; }
 
+# ---- lazy dependency bootstrap ---------------------------------------------
+# Cloud workspaces boot without yfinance. Install on first use and cache a flag
+# so we don't re-probe on every call. Fails loud instead of silently returning
+# bad data.
+
+_YFINANCE_READY_FLAG="${REPO_ROOT}/.yfinance_ready"
+
+_ensure_yfinance() {
+  [[ -f "${_YFINANCE_READY_FLAG}" ]] && return 0
+  if "${PYTHON}" -c "import yfinance" 2>/dev/null; then
+    touch "${_YFINANCE_READY_FLAG}"
+    return 0
+  fi
+  info "yfinance not installed — bootstrapping via pip..."
+  if "${PYTHON}" -m pip install --quiet --disable-pip-version-check yfinance pandas 2>&1 | tail -5 >&2; then
+    if "${PYTHON}" -c "import yfinance" 2>/dev/null; then
+      touch "${_YFINANCE_READY_FLAG}"
+      info "yfinance ready."
+      return 0
+    fi
+  fi
+  die "Failed to install yfinance. Check pip availability and network. Aborting rather than return bad data."
+}
+
 # Normalize IDX ticker: strip .JK suffix, uppercase (bash 3 compatible)
 _clean_sym() { echo "${1}" | tr '[:lower:]' '[:upper:]' | sed 's/\.JK$//'; }
 
@@ -138,6 +162,7 @@ cmd_quote() {
 
   # Tier 2: yfinance (delayed)
   info "GoAPI unavailable or key not set — falling back to yfinance"
+  _ensure_yfinance
   "${PYTHON}" "${YFINANCE_HELPER}" quote "${sym}"
 }
 
@@ -167,6 +192,7 @@ cmd_intraday() {
   # yfinance fallback: price-history with 1d period uses intraday intervals for recent data
   # yfinance_helper doesn't have intraday natively; emit 1-day bars as proxy
   warn "yfinance intraday: returning today's minute bars (requires yfinance >= 0.2)"
+  _ensure_yfinance
   "${PYTHON}" - <<PYEOF
 import yfinance as yf, json, sys
 
@@ -204,6 +230,7 @@ cmd_history() {
   # Normalise: remove trailing 'd' to get day count for yfinance_helper
   local days
   days="${period%d}"
+  _ensure_yfinance
   if [[ "${days}" =~ ^[0-9]+$ ]]; then
     "${PYTHON}" "${YFINANCE_HELPER}" price-history "${sym}" --days "${days}"
   else
@@ -250,6 +277,7 @@ cmd_fundamentals() {
 
   # Tier 2: yfinance
   info "Sectors.app unavailable or key not set — falling back to yfinance"
+  _ensure_yfinance
   "${PYTHON}" "${YFINANCE_HELPER}" fundamentals "${sym}"
 }
 
@@ -271,6 +299,7 @@ cmd_index() {
     *)           yf_sym="^${idx_upper}" ;;
   esac
 
+  _ensure_yfinance
   "${PYTHON}" - <<PYEOF
 import yfinance as yf, json, sys
 from datetime import datetime
