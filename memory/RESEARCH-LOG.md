@@ -519,3 +519,187 @@ _Pre-market research conducted 2026-04-19 (Sunday). This entry documents trial D
 - [x] ITMG: BUY 27,300 shares at market (~26,075). Hard cut IDR 24,250. Set stop.
 - [ ] BBRI: Wait for post-ex-div open on Apr 21. Target IDR 3,200-3,250.
 - [ ] ANTM: Wait for pullback to 3,900-3,960. Do not chase above 3,960.
+
+---
+
+## 2026-04-21 (Tuesday)
+
+_Automated pre-market research. Trial Day 3. 20 tickers scanned; broker quotes unavailable (yfinance missing in workspace) — all prices via WebSearch._
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,109.14 | -0.24% | Nasdaq snapped 13-day win streak; Iran tensions | url: https://www.cnbc.com/2026/04/19/stock-market-today-live-updates.html |
+| Nasdaq | 24,404.39 | -0.26% | Longest positive streak since 1992 ended |
+| Dow | 49,442.56 | -0.01% | Flat close |
+| Shanghai Composite | 4,068 | -0.3% | Property-sector drag |
+| Hang Seng | 26,382 | +0.1% | Muted Greater China |
+| Nikkei 225 | 59,485 | +1.1% | Tech-led momentum |
+| VIX | 19.08 | +9.15% | Iron/Iran geopol spike | url: https://www.cnbc.com/quotes/.VIX |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 7,539 | -0.72% | Apr 21 close; BBRI ex-div + broad risk-off | url: https://databoks.katadata.co.id/en/market/statistics/69e5fe69d2dd0/the-indonesia-stock-exchange-index-ihsg-closed-down-by-052-monday-april-20-2026 |
+| IDR/USD | 17,128 | -0.02% d/d | Near record lows; BI hold Apr 15 limits relief |
+| Indo 10Y SUN yield | 6.58% | -36bp MoM | Easing from rate-cut disappointment fading |
+| US 10Y yield | 4.25% | flat | |
+| Indo-US spread | 233 | bp | Tight vs historical; limited carry cushion |
+| Newcastle coal (USD/t) | 132.30 | stable | Above $130 support; ITMG thesis intact | url: https://www.oilpriceapi.com/live/coal-price |
+| CPO palm oil (MYR/t) | 4,494 | +0.83% | July contract rallying |
+| LME nickel (USD/t) | 17,200-17,400 | stable | HPM decree supportive |
+| Brent crude (USD/bbl) | 96.32 | +0.06 | Iran risk premium intact | url: https://angle360ng.com/brent-crude-oil-price-today-april-21-2026/ |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | Net sell ~1.23B shares on Apr 20 | url: https://www.idnfinancials.com/news/62071/foreign-buy-weakens-net-sell-reaches-2-97-billion-shares |
+| Foreign flow streak | Net sell; YTD IDR ~37T outflow | EM-OUTFLOW regime continues |
+| Top buying brokers | N/A (no KSEI summary retrieved) | |
+| Top selling brokers | N/A | |
+| BI reserves | (not refreshed since last weekly review) | |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Weakening (BBRI ex-div drag) | BI hold 4.75%, Q1 earnings upcoming | BBRI, BBCA |
+| Coal / Energy | Neutral/soft | Newcastle $132 stable | ITMG (held), PTBA |
+| Nickel / Mining | Strong (+4% today) | HPM decree effective Apr 15; LME steady | ANTM, INCO |
+| CPO / Agri | Rising | Palm oil rally on oil spike | (off watchlist) |
+| Property | Weak | BI rate hold hurts | BSDE, CTRA |
+| Consumer | Mixed | ICBP strong, UNVR weak | ICBP, INDF |
+| Telco | Weak | EXCL -2.4% | TLKM |
+| Auto | Flat | ASII ~6,300 | ASII |
+
+### Corporate Calendar Today
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| Ex-dividend IDR 209 | BBRI | cum → ex Apr 21 | -6.3% mechanical drop; absorption risk | url: https://stockanalysis.com/quote/idx/BBRI/dividend/ |
+| HPM decree effective Apr 15 (in-force) | ANTM/INCO | — | Nickel pricing reform tailwind |
+| Q1 earnings | BBRI | Apr 29 | Re-rating catalyst |
+| Q1 earnings | ITMG | May 7 | Coal earnings follow-through |
+
+### Watchlist Scan — All 20 Tickers
+
+| # | Ticker | Sector | Price (IDR) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,525 | flat | 6 | Defensive, P/B premium vs peers; no near-term catalyst | WATCH |
+| 2 | BBRI | Banking | 3,340 (cum) → ~3,131 ex | -6.3% mech | **8** | Ex-div today; Q1 earnings Apr 29 re-rating; prior plan 3,200-3,250 post-ex | CANDIDATE |
+| 3 | BMRI | Banking | 4,700 | flat | 6 | Stable but no immediate catalyst | WATCH |
+| 4 | BBNI | Banking | 3,710 | flat | 5 | Trails BBRI/BMRI | WATCH |
+| 5 | ADRO | Coal | 2,540 | -1.55% | 5 | Coal soft; overshadowed by ITMG thesis | SKIP |
+| 6 | ITMG | Coal | 27,050 | -1.30% | 8 | In portfolio (entry 26,075, +3.74%); coal $132 support; May 7 earnings | HOLD |
+| 7 | PTBA | Coal | 2,880 | -0.69% | 5 | Coal beta but no ITMG-grade surprise | WATCH |
+| 8 | ANTM | Nickel | 3,900 | +4.00% | **7** | HPM decree rally; approaching researcher ceiling 3,960 | CANDIDATE |
+| 9 | INCO | Nickel | 5,575 | +4.21% | **7** | Vale nickel momentum; diversifier to ANTM | CANDIDATE |
+| 10 | MDKA | Nickel/Copper | 3,370 | +0.60% | 5 | Copper/gold hybrid; less direct HPM leverage | WATCH |
+| 11 | TLKM | Telco | 3,120-3,270 | flat | 4 | No catalyst; ARPU flat | SKIP |
+| 12 | EXCL | Telco | 3,200 | -2.44% | 4 | Weakness continues | SKIP |
+| 13 | UNVR | Consumer | 2,000 | -0.80% | 3 | Margin pressure; IDR weak hurts imports | SKIP |
+| 14 | ICBP | Consumer | 10,000 | +2.20% | **6** | Strong day move; noodle demand resilient | WATCH |
+| 15 | INDF | Consumer | 8,300 | +0.90% | 5 | Holding parent of ICBP; diluted exposure | WATCH |
+| 16 | BSDE | Property | 895 | -1.10% | 3 | BI hold hurts property; regime avoid | SKIP |
+| 17 | CTRA | Property | 715 | +0.70% | 3 | Same rate-sensitivity | SKIP |
+| 18 | ASII | Auto/Ind | 6,300 | flat | 4 | Auto volumes pressured; no near catalyst | WATCH |
+| 19 | KLBF | Healthcare | 1,035 | -4.55% | 3 | Sharp weakness; thesis break risk | SKIP |
+| 20 | GOTO | Tech | 51 | -1.92% | 2 | -37.8% YoY; avoid per regime | SKIP |
+
+### Top Candidates (score ≥ 6)
+
+#### 1. BBRI — Ex-div today, Q1 earnings Apr 29, re-rating setup
+
+**Fundamental case:**
+- Thesis: BBRI's dividend yield 10.13% underpins valuation; ex-div mechanical drop IDR 209 from cum-price 3,340 opens a cleaner entry window around 3,131.
+- Thesis: Q1 2026 earnings April 29 — BI rate hold preserves NIM; micro loan growth resilient; prior beats (+6.9% EPS, +13.52% revenue surprise history).
+- Valuation: P/B ~1.9x vs big-bank median; yield cushion on downside.
+- Catalyst: Ex-div Apr 21 (today); Q1 results Apr 29. Two discrete catalysts within 8 trading days.
+- Analyst view: 40 analysts cover; broad buy bias on dividend + earnings story.
+- Insider activity: No notable recent director/commissioner transactions surfaced.
+
+**Technical context:**
+- Price: IDR 3,340 cum (post-ex implied ~3,131) | 52w range includes 3,000s
+- Volume: high on ex-date absorption; broad market sold BBRI -4.7% intraday
+- Support: IDR 3,069 (prior weekly review trailing-stop ref) | Resistance: IDR 3,410 (prior high)
+- Trend: range-bound; sideways consolidation between 3,100–3,410
+
+**Trade plan:**
+- Entry: IDR 3,130–3,180 (on confirmed post-ex open; no chase above 3,200)
+- Hard cut: IDR 2,911 (-7% from 3,130) | Target: IDR 3,500 (+12%, 2:1 R/R to 3,420)
+- Risk: per risk-based sizing, (0.005 × 10,020,475,000) / (3,130 − 2,911) × 3,130 ≈ 715,000,000 → capped at 15% regime max = IDR 1.503B
+- Position size candidate: ~400,000 shares ≈ IDR 1.252B (12.5% of equity) — well under 15% regime cap
+- Conviction: HIGH (two near-term catalysts, dividend yield support, banking sector regime-favoured)
+
+#### 2. ANTM — HPM decree nickel rally, sector momentum
+
+**Fundamental case:**
+- Thesis: HPM decree (effective Apr 15) revises nickel pricing mechanism in producer favour; ANTM is Indonesia's largest nickel producer.
+- Thesis: Gold production target 935kg (+25.8% YoY) + nickel 18.1Mt (+12.7% YoY) = dual-commodity leverage.
+- Valuation: Historical P/B mid-cycle; riding structural re-rating.
+- Catalyst: HPM flow-through into Q2 reported margins; Q1 earnings window approaching.
+- Analyst view: Mixed; recent price-target cluster 3,600–4,500.
+
+**Technical context:**
+- Price: IDR 3,900 (+4.00%) | Researcher ceiling prior session: 3,960 (do-not-chase line)
+- Volume: elevated on nickel breakout
+- Support: IDR 3,663 (prior weekly stop ref) | Resistance: IDR 4,070 (Apr high)
+- Trend: uptrend; gold-nickel dual tailwind
+
+**Trade plan:**
+- Entry: IDR 3,800–3,870 (wait for pullback; no chase above 3,900)
+- Hard cut: IDR 3,534 (-7%) | Target: IDR 4,300 (+11%, 2:1 R/R)
+- Position size candidate: ~350,000 shares ≈ IDR 1.365B (13.6% of equity) — under 15% cap
+- Conviction: MEDIUM (strong momentum but entry already extended; price has already moved; chase risk)
+
+#### 3. INCO — Vale nickel breakout, EV supply-chain leverage
+
+**Fundamental case:**
+- Thesis: INCO is Indonesia's largest pure-nickel producer; Q3 2025 matte production +4% QoQ; 2026 focus on reliability + cost baseline.
+- Thesis: HPM decree and LME stability together support margin recovery.
+- Valuation: Below mid-cycle; turnaround story on operational discipline.
+- Catalyst: Q1 2026 earnings release window; LME nickel follow-through.
+- Analyst view: Covered by major houses; recent neutral-to-positive.
+
+**Technical context:**
+- Price: IDR 5,575 (+4.21%)
+- Volume: strong on breakout
+- Support: ~IDR 5,300 recent swing low | Resistance: IDR 5,800–6,000
+- Trend: uptrend
+
+**Trade plan:**
+- Entry: IDR 5,400–5,500 (wait for pullback — today's +4.2% is already extended)
+- Hard cut: IDR 5,022 (-7% from 5,400) | Target: IDR 6,000 (+11%)
+- Position size candidate: ~220,000 shares ≈ IDR 1.188B (11.9% of equity)
+- Conviction: MEDIUM (momentum solid; correlated with ANTM — don't size both full)
+
+### Held Position Updates
+
+- ITMG: Current price IDR 27,050 (entry 26,075, +3.74% unrealised). Thesis intact: coal at $132.30 above $130 support, Q1 EPS beat May 7 follow-through. Stop at IDR 24,250 (hard-cut; +7% threshold not yet reached to activate trailing). Overnight news: no adverse; Dian Swastatika Sentosa -12.2% sell-off not related. Technical: holding above 50-day MA proxy; uptrend intact. **Action: HOLD.** No stop adjustment (below +7% threshold — State 1 hard-cut only).
+
+### Macro Regime Assessment
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged from Apr 19 update)**
+- Reasoning: IDR 17,128 near record lows; BI held Apr 15; foreign net sell continues; VIX +9% spike on Iran tensions. No trigger to upgrade. Nickel/coal sector strength is commodity-specific, not a broad regime shift.
+- Position sizing adjustment: max position 15% of equity (down from 20% default); prefer near-term-catalyst ideas (BBRI Q1 Apr 29, ITMG May 7).
+
+### Flagged Risks
+
+- **US–Iran tensions escalating** — Brent $96+, VIX +9%. Gap-down risk for IDX on any hot-war headline.
+- **BBRI ex-div absorption** — post-ex open may overshoot lower before reverting; avoid FOMO chase if it gaps down hard (watch 3,069 stop level from prior weekly review).
+- **IDR weakness** — 17,128 close to breakout; import-heavy consumer names (UNVR) exposed.
+- **Foreign outflow persistence** — ~37T YTD net sell; liquidity events could gap any beta name.
+- **Nickel chase risk** — ANTM/INCO already +4% today; entering at these levels risks buying the top.
+
+### Plan for /market-open
+
+- [ ] **BBRI — BUY conditionally** at IDR 3,130–3,180 post-ex-div open. Size ≤ 15% equity (~400,000 shares). Hard cut IDR 2,911. Skip if price gaps below 3,050 (absorption failure) or above 3,200 (chase). Weekly budget 2/3.
+- [ ] **ANTM — WAIT** for pullback to 3,800–3,870. Do not chase at 3,900+. Note correlation with INCO; if taking ANTM, skip INCO.
+- [ ] **INCO — WAIT** for pullback to 5,400–5,500. Only take if ANTM not executed (correlation).
+- [ ] **ITMG — HOLD.** Stop unchanged at 24,250 (State 1 hard-cut). No action.
+- [ ] **No new coal, property, consumer, telco, tech.** Regime avoid list.
+- [ ] If no fills by 11:30: reassess at midday scan — no-trade day acceptable.
+

@@ -288,6 +288,37 @@
           "detail": "ITMG marked to IDR 26,825"
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-21T13:46:42Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Trial Day 3 pre-market. Scanned 20 tickers. 5 candidates scored \u22656: BBRI (8, ex-div + Apr 29 earnings), ITMG (8, HOLD), ANTM (7, HPM), INCO (7, nickel), ICBP (6). IHSG 7,539 (-0.72%). Regime EM-OUTFLOW unchanged.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "20 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 8/10 - ex-div today + Q1 earnings Apr 29"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 7/10 - HPM decree nickel rally"
+        },
+        {
+          "type": "research",
+          "ticker": "INCO",
+          "detail": "score 7/10 - Vale nickel breakout"
+        }
+      ]
     }
   ],
   "exposure": {
