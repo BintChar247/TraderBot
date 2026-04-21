@@ -432,6 +432,53 @@ tbody tr:hover { background: var(--bg2); }
 .activity-commit { font-family:var(--mono); font-size:9px; color:var(--text-mute); margin-top:6px; }
 .activity-empty { text-align:center; padding:60px 24px; color:var(--text-mute); font-size:13px; }
 .activity-empty span { display:block; font-size:28px; margin-bottom:10px; color:var(--border2); }
+
+/* ─── ADMIN TAB ─── */
+.admin-banner {
+  background:rgba(255,176,46,0.06); border:1px solid rgba(255,176,46,0.3);
+  border-radius:6px; padding:14px 18px; margin-bottom:18px; color:var(--text);
+  font-size:12px; line-height:1.5;
+}
+.admin-banner strong { color:var(--amber); }
+.admin-grid {
+  display:grid; grid-template-columns:repeat(2, 1fr); gap:14px;
+}
+@media (max-width: 800px) { .admin-grid { grid-template-columns:1fr; } }
+.admin-card {
+  background:var(--bg2); border:1px solid var(--border);
+  border-left:4px solid var(--border2); border-radius:6px;
+  padding:16px 18px; display:flex; flex-direction:column; gap:10px;
+}
+.admin-card.pre-market    { border-left-color:var(--blue); }
+.admin-card.market-open   { border-left-color:var(--green); }
+.admin-card.midday        { border-left-color:var(--amber); }
+.admin-card.daily-summary { border-left-color:var(--purple); }
+.admin-card-hdr {
+  display:flex; justify-content:space-between; align-items:baseline;
+  padding-bottom:8px; border-bottom:1px solid var(--border);
+}
+.admin-card-name { font-size:15px; font-weight:600; color:var(--text); letter-spacing:0.4px; }
+.admin-card-schedule { font-family:var(--mono); font-size:10px; color:var(--text-mute); }
+.admin-card-desc { font-size:11px; color:var(--text-mute); line-height:1.5; }
+.admin-card-cron {
+  font-family:var(--mono); font-size:10px; color:var(--text-mute);
+  background:var(--bg); padding:4px 8px; border-radius:3px; display:inline-block;
+}
+.admin-card-actions { display:flex; gap:8px; margin-top:4px; }
+.admin-btn {
+  flex:1; text-align:center; padding:10px 12px; border-radius:4px;
+  font-size:11px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase;
+  text-decoration:none; transition:all 0.12s; cursor:pointer;
+  border:1px solid var(--border2);
+}
+.admin-btn.primary {
+  background:var(--amber); color:#0a0a0a; border-color:var(--amber);
+}
+.admin-btn.primary:hover { background:#ffc45a; transform:translateY(-1px); }
+.admin-btn.secondary {
+  background:var(--bg); color:var(--text); border-color:var(--border2);
+}
+.admin-btn.secondary:hover { border-color:var(--amber); color:var(--amber); }
 </style>
 </head>
 <body>
@@ -468,6 +515,7 @@ tbody tr:hover { background: var(--bg2); }
   <button class="tab-btn" data-tab="positions">Positions &amp; Trades</button>
   <button class="tab-btn" data-tab="history">History</button>
   <button class="tab-btn" data-tab="activity">Bot Activity</button>
+  <button class="tab-btn" data-tab="admin">Admin</button>
 </div>
 
 <!-- ══════════════════════════════════════
@@ -667,6 +715,120 @@ tbody tr:hover { background: var(--bg2); }
 
   <!-- Timeline -->
   <div class="activity-timeline" id="activityTimeline"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     TAB 8: ADMIN — MANUAL TRIGGER CONTROLS
+═══════════════════════════════════════ -->
+<div class="tab-panel" id="panel-admin">
+  <div class="sec-hdr"><span class="tag">MANUAL TRIGGER CONTROLS</span></div>
+
+  <div class="admin-banner">
+    <strong>Backup controls.</strong> The 4 routines fire automatically on their WIB schedule.
+    Use these buttons only when a scheduled run failed, was missed, or you want to force
+    an off-schedule run. Each button opens the trigger in claude.ai where you authenticate
+    and confirm the run — no credentials are stored in this page.
+  </div>
+
+  <div class="admin-grid">
+    <!-- Pre-market -->
+    <div class="admin-card pre-market">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">PRE-MARKET RESEARCH</div>
+        <div class="admin-card-schedule">07:00 WIB · Mon–Fri</div>
+      </div>
+      <div class="admin-card-desc">
+        Screens the 50-ticker watchlist, scores each, writes tomorrow's trade plan to
+        <code>memory/RESEARCH-LOG.md</code>, updates dashboard with headlines and
+        sector momentum.
+      </div>
+      <div class="admin-card-cron">cron: 0 0 * * 1-5 (UTC)</div>
+      <div class="admin-card-actions">
+        <a class="admin-btn primary" href="https://claude.ai/code/scheduled/trig_01VQSd2FXWRazF1AaPLQD81m" target="_blank" rel="noopener noreferrer">Run Now ↗</a>
+      </div>
+    </div>
+
+    <!-- Market-open -->
+    <div class="admin-card market-open">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">MARKET-OPEN EXECUTION</div>
+        <div class="admin-card-schedule">09:15 WIB · Mon–Fri</div>
+      </div>
+      <div class="admin-card-desc">
+        Reads today's research, runs the 15-gate buy checklist per candidate, executes
+        trades that pass all gates, writes hard-cut stops, updates
+        <code>TRADE-LOG.md</code> + <code>STOPS.json</code>.
+      </div>
+      <div class="admin-card-cron">cron: 15 2 * * 1-5 (UTC)</div>
+      <div class="admin-card-actions">
+        <a class="admin-btn primary" href="https://claude.ai/code/scheduled/trig_01FvNaoS2cymuZ2q31JidqQD" target="_blank" rel="noopener noreferrer">Run Now ↗</a>
+      </div>
+    </div>
+
+    <!-- Midday -->
+    <div class="admin-card midday">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">MIDDAY RISK SCAN</div>
+        <div class="admin-card-schedule">11:30 WIB · Mon–Fri</div>
+      </div>
+      <div class="admin-card-desc">
+        Checks all open positions. Cuts any position at -7% from entry (no exceptions).
+        Tightens trailing stops: 7% at +15% gain, 5% at +20%.
+      </div>
+      <div class="admin-card-cron">cron: 30 4 * * 1-5 (UTC)</div>
+      <div class="admin-card-actions">
+        <a class="admin-btn primary" href="https://claude.ai/code/scheduled/trig_0147zgn6J6QWFjXKrNrbFBKg" target="_blank" rel="noopener noreferrer">Run Now ↗</a>
+      </div>
+    </div>
+
+    <!-- Daily summary / EOD -->
+    <div class="admin-card daily-summary">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">DAILY SUMMARY (EOD)</div>
+        <div class="admin-card-schedule">15:15 WIB · Mon–Fri</div>
+      </div>
+      <div class="admin-card-desc">
+        Marks positions to market, computes daily P&amp;L + alpha vs IHSG, writes EOD
+        snapshot, updates <code>RISK-STATE.json</code> with halt flags for tomorrow,
+        commits dashboard state.
+      </div>
+      <div class="admin-card-cron">cron: 15 8 * * 1-5 (UTC)</div>
+      <div class="admin-card-actions">
+        <a class="admin-btn primary" href="https://claude.ai/code/scheduled/trig_01Yb3BuHsdAiXS8qNyfH9a7p" target="_blank" rel="noopener noreferrer">Run Now ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-hdr" style="margin-top:22px"><span class="tag">TRIGGER MANAGEMENT</span></div>
+  <div class="admin-grid">
+    <div class="admin-card">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">ALL SCHEDULED TRIGGERS</div>
+        <div class="admin-card-schedule">claude.ai dashboard</div>
+      </div>
+      <div class="admin-card-desc">
+        View or edit any trigger — change schedule, enable/disable, inspect run history,
+        read the prompt. Use this if a trigger auto-disabled or needs re-enabling.
+      </div>
+      <div class="admin-card-actions">
+        <a class="admin-btn secondary" href="https://claude.ai/code/scheduled" target="_blank" rel="noopener noreferrer">Open Scheduled ↗</a>
+      </div>
+    </div>
+
+    <div class="admin-card">
+      <div class="admin-card-hdr">
+        <div class="admin-card-name">GITHUB WORKFLOWS</div>
+        <div class="admin-card-schedule">deploy-dashboard + pages</div>
+      </div>
+      <div class="admin-card-desc">
+        View Deploy Dashboard + GitHub Pages deployments. Every push to main triggers
+        a rebuild of this page within ~30 seconds.
+      </div>
+      <div class="admin-card-actions">
+        <a class="admin-btn secondary" href="https://github.com/BintChar247/TraderBot/actions" target="_blank" rel="noopener noreferrer">View Actions ↗</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="footer">IDX PAPER TRADING BOT — CLAUDE SONNET — SIMULATION ONLY · NOT FINANCIAL ADVICE<br>Prices via yfinance · No real orders placed · Trial window: <span id="trialFooter">—</span></div>
