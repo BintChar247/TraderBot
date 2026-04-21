@@ -275,3 +275,26 @@ _Prices estimated from web search (best available data for April 21-25, 2026). E
 - Intermediate pain plan: If -4% (25,032) with no invalidation event, hold. If any above trigger, exit.
 - BBRI skipped: ex-div tomorrow Apr 21; current price 3,440 too far above post-div plan (3,200-3,250).
 - ANTM skipped: price 4,010 above researcher's 3,960 ceiling.
+
+---
+
+### 2026-04-21 EOD — Day 2
+
+- Total equity: IDR 10,020,475,000
+- Daily P&L: IDR +20,475,000 (+0.20%)
+- IHSG close: 7,539 (−0.72%)
+- Daily alpha: +0.92%
+- Cash: IDR 9,288,152,500 (92.69% of equity)
+- Trades today: 0
+- Trades this week: 1/3
+- Phase-to-date P&L: IDR +20,475,000 (+0.20%)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 26,825 | +IDR 20,475,000 (+2.88%) | 1 |
+
+#### Notes
+
+Day 2 of trial. Broker reconciliation: ITMG position in broker matches TRADE-LOG Active Positions (27,300 shares @ 26,075) — no discrepancy. Mark-to-market used ITMG close IDR 26,825 (web-search; market-data.sh yfinance unavailable in this workspace). ITMG +2.88% from entry; below +7% trailing-stop activation threshold — stop remains hard-cut at IDR 24,250. No action needed. IHSG fell −0.72% today (7,594→7,539); position outperformed index by +3.6pp, portfolio alpha +0.92%. No new trades placed (midday/open routines did not fire new entries; weekly budget 1/3 used). No risk alerts: no daily loss cap breach, no position at −6% or worse, no drawdown alert. Next catalyst to watch: Newcastle coal print and any Q2 China demand data; ITMG Q1 earnings officially dated May 7.
