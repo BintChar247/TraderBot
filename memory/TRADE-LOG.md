@@ -258,6 +258,20 @@ _Prices estimated from web search (best available data for April 21-25, 2026). E
 
 ---
 
+### 2026-04-22 09:15 WIB — NO TRADES (market-open)
+
+- Candidates evaluated: ANTM (planned 380,000 sh @ 3,850-3,960), BBRI (planned 425,000 sh @ 3,400-3,480)
+- Gate-check outcome: BOTH REJECTED (3 of 15 gates failed per candidate)
+  - Gate 3 FAIL: Cannot determine price (market-data.sh unavailable)
+  - Gate 4 FAIL: Cannot determine cash vs. cost (price input = 0)
+  - Gate 7 FAIL: Avg daily volume returned 0 (data-source outage, not actual illiquidity)
+- Root cause: yfinance cannot reach Yahoo Finance from this workspace; GoAPI key not provisioned. `_paper_quote` refuses to stub for non-held tickers (correct fail-safe).
+- ITMG: HOLD. Position intact (27,300 sh @ 26,075). Stop unchanged at 24,250 (State 1 hard-cut; +7% threshold 27,900 not yet reached).
+- Weekly trade count: 1/3 (unchanged).
+- Decision: no-trade day. Reassess at midday scan when conditions may allow live-data retrieval; otherwise acceptable per regime guidance ("A week with zero trades can be the right answer").
+
+---
+
 ### 2026-04-20 09:15 WIB — BUY ITMG
 
 - Side: BUY

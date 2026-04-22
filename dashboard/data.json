@@ -352,6 +352,29 @@
       ],
       "commit_hash": "ce53b0d",
       "commit_message": "pre-market 2026-04-22: 5 candidates; ANTM/BBRI lead"
+    },
+    {
+      "timestamp": "2026-04-22T02:23:50Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. ANTM + BBRI gate-check rejected (gates 3/4/7 failed: market-data.sh quote infra down, yfinance unreachable). ITMG hold. Weekly 1/3.",
+      "actions": [
+        {
+          "type": "gate-reject",
+          "ticker": "ANTM",
+          "detail": "planned 380000sh @ 3850-3960; rejected on gate 3/4/7 (no live quote)"
+        },
+        {
+          "type": "gate-reject",
+          "ticker": "BBRI",
+          "detail": "planned 425000sh @ 3400-3480; rejected on gate 3/4/7 (no live quote)"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 26075, stop 24250 (hard-cut)"
+        }
+      ]
     }
   ],
   "exposure": {
