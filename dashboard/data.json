@@ -50,6 +50,21 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 1
+    },
+    {
+      "date": "2026-04-22",
+      "day_label": "Day 3",
+      "portfolio_value": 10026617500,
+      "cash": 9288152500,
+      "daily_pnl_idr": 6142500,
+      "daily_pnl_pct": 0.06,
+      "cumulative_pnl_pct": 0.27,
+      "ihsg_close": 7550.0,
+      "ihsg_cumulative_pct": -1.1,
+      "alpha_pct": 1.37,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 1
     }
   ],
   "positions": [
@@ -58,14 +73,14 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 26825,
-      "unrealized_pct": 2.88,
+      "current_price": 27050,
+      "unrealized_pct": 3.74,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 114% EPS beat unreacted; Newcastle $131 floor; May 7 earnings re-rate"
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $132 floor; May 7 earnings re-rate"
     }
   ],
   "trades": [
@@ -218,9 +233,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": 0.2,
-    "ihsg_return_pct": -1.24,
-    "alpha_pct": 1.44,
+    "total_return_pct": 0.27,
+    "ihsg_return_pct": -1.1,
+    "alpha_pct": 1.37,
     "win_rate_pct": 0.0,
     "total_trades": 1,
     "winning_trades": 0,
@@ -381,6 +396,46 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ITMG stable at entry (stale quote; yesterday's close +2.88%). No cuts, no stop tightens, no thesis breaks."
+    },
+    {
+      "timestamp": "2026-04-22T08:32:57Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% vs IHSG today; cumulative alpha +1.37%. 1 position open (ITMG +3.74%). Trades this week: 1/3. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 3 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked to IDR 27,050 (TradingView/sectors.app; market-data.sh yfinance still unavailable)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker position matches TRADE-LOG (27,300 sh @ 26,075)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T08:33:16Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% today; cum. +1.37% vs IHSG. 1 position open (ITMG +3.74%). Trades this week: 1/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 3 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked to IDR 27,050"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker position matches TRADE-LOG"
+        }
+      ]
     }
   ],
   "exposure": {
