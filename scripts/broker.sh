@@ -344,9 +344,18 @@ cmd_buy() {
     info "PAPER MODE — simulating buy of ${shares} shares of ${sym}"
     local order_id="PAPER-BUY-$(date +%s)"
     local fill_price
-    fill_price="$(cmd_quote "${sym}" 2>/dev/null \
-      | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('last_price') or d.get('last') or 5000)" 2>/dev/null \
-      || echo 5000)"
+
+    # WebSearch override takes precedence when market-data.sh is down.
+    # Gate-check already validated against this same override, so the fill
+    # price stays consistent with the price the gates saw.
+    if [[ -n "${MD_LAST_PRICE_OVERRIDE:-}" ]] && [[ "${MD_LAST_PRICE_OVERRIDE}" -gt 0 ]] 2>/dev/null; then
+      fill_price="${MD_LAST_PRICE_OVERRIDE}"
+      info "Using WebSearch override fill_price=${fill_price} (yfinance unavailable)"
+    else
+      fill_price="$(cmd_quote "${sym}" 2>/dev/null \
+        | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('last_price') or d.get('last') or 5000)" 2>/dev/null \
+        || echo 5000)"
+    fi
 
     cat <<JSON
 {"paper_mode":true,"status":"filled","order_id":"${order_id}","symbol":"${sym}","shares":${shares},"fill_price":${fill_price},"side":"buy"}

@@ -50,6 +50,47 @@ For each trade candidate from today's research plan, check current price:
 bash scripts/broker.sh quote TICKER
 ```
 
+### STEP 2b — WebSearch fallback when yfinance is down
+
+`scripts/market-data.sh` tries GoAPI first, then yfinance. Yahoo Finance has
+repeatedly rate-limited / blocked egress from the cloud workspace, which leaves
+`broker.sh quote TICKER` returning an error (no held position) or a stale entry
+price (for held positions). Watch for these signatures:
+
+- stderr contains `ERROR: _paper_quote cannot produce a price` or yfinance
+  tracebacks
+- JSON output has `"last_price": 0` or `"note": "Stale quote..."`
+
+When detected, do NOT proceed with stale data. Instead, for each candidate:
+
+1. WebSearch the live price:  
+   `"[TICKER] IDX stock price today $DATE"`  
+   Accept the freshest source (Investing.com, Stockbit, IDX website, Reuters).
+2. WebSearch the 20-day average daily volume if not already known from Tier 4
+   research (or use the sector typical: banking ≥ 30M, coal/nickel ≥ 20M,
+   consumer/property ≥ 10M, small caps ≥ 1M).
+3. Export the override env vars (integers, no commas, no currency symbols):
+   ```bash
+   export MD_LAST_PRICE_OVERRIDE=3920       # live IDR price from search
+   export MD_AVG_VOLUME_OVERRIDE=30000000   # 20-day ADV estimate
+   ```
+4. Run `bash scripts/broker.sh buy TICKER SHARES` — `gate-check.sh` will
+   print `⚠ Using WebSearch price override: last=..., avg_vol=...` confirming
+   it picked up the override. The paper fill price will equal the override.
+5. After the trade (or if the trade is rejected), UNSET before the next symbol
+   so a different candidate doesn't inherit the wrong price:
+   ```bash
+   unset MD_LAST_PRICE_OVERRIDE MD_AVG_VOLUME_OVERRIDE
+   ```
+6. In the TRADE-LOG.md entry, add a one-line note:
+   `- Price source: WebSearch (yfinance blocked); manual: IDR 3,920 from <source>`
+7. In the `scripts/log-activity.sh` actions array, include:
+   `{"type":"warning","detail":"WebSearch price override used (yfinance down)"}`
+
+This keeps discipline: price is documented, gates still run, the 15-gate
+checklist still enforces every rule. We only relax the data-source strictness,
+not the rule enforcement.
+
 ---
 
 ## STEP 3 — Run the 9-gate buy-side checklist for each candidate

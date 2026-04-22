@@ -195,7 +195,17 @@ PAPER_STATE="${REPO_ROOT}/memory/PAPER-STATE.json"
 
 positions_json="$("${BROKER}" positions 2>/dev/null || echo '{"positions":[]}')"
 portfolio_json="$("${BROKER}" portfolio 2>/dev/null || echo '{"equity":10000000000}')"
-quote_json="$("${BROKER}" quote "${SYMBOL}" 2>/dev/null || echo '{"last_price":0,"avg_daily_volume":0}')"
+
+# --- WebSearch override path --------------------------------------------------
+# If the agent couldn't get a live quote from market-data.sh (yfinance rate-
+# limited / blocked), it may do a WebSearch for the price and pass it via these
+# env vars. Both must be set together. When set, we skip broker.sh quote.
+if [[ -n "${MD_LAST_PRICE_OVERRIDE:-}" ]] && [[ "${MD_LAST_PRICE_OVERRIDE}" -gt 0 ]] 2>/dev/null; then
+  quote_json="{\"last_price\":${MD_LAST_PRICE_OVERRIDE},\"avg_daily_volume\":${MD_AVG_VOLUME_OVERRIDE:-0},\"source\":\"websearch_override\"}"
+  echo "    ⚠ Using WebSearch price override: last=${MD_LAST_PRICE_OVERRIDE}, avg_vol=${MD_AVG_VOLUME_OVERRIDE:-0}"
+else
+  quote_json="$("${BROKER}" quote "${SYMBOL}" 2>/dev/null || echo '{"last_price":0,"avg_daily_volume":0}')"
+fi
 
 # Parse equity, price, volume via python3
 read -r equity last_price avg_vol <<< "$(python3 -c "

@@ -321,6 +321,8 @@ Status options: `WATCH` / `CANDIDATE` / `SKIP` / `HOLD` (already in portfolio)
 - R:R ratio: [X]:1
 - Position size: IDR [amount] ([X]% of equity)
 - Conviction: HIGH / MEDIUM / LOW
+- ADV (20-day avg daily volume): [N shares] — required for gate-check Gate 7 + 14
+  when yfinance is blocked. Record as integer (no commas), e.g. `30000000`.
 
 #### 2. [TICKER] — [1-line hook]
 ...
