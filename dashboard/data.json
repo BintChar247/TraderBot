@@ -319,6 +319,39 @@
           "detail": "score 7/10 - Vale nickel breakout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-22T00:51:16Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 5 candidates scored >=6: BBRI/ANTM (7), BMRI/INCO/MBMA (6). Top picks: ANTM (HPM tailwind), BBRI (Q1 earnings). Regime: EM OUTFLOW \u2014 15% pos cap.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 7/10 \u2014 HPM Decree 144 tailwind; pullback entry"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 post-ex-div recovery; Q1 earnings Apr 29"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "HOLD +1.92% unrealised; coal $132/t supportive"
+        }
+      ],
+      "commit_hash": "ce53b0d",
+      "commit_message": "pre-market 2026-04-22: 5 candidates; ANTM/BBRI lead"
     }
   ],
   "exposure": {
