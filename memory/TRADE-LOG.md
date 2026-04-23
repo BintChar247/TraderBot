@@ -11,6 +11,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
 | ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $131/t +40.5% YoY (last mark 27,050; +3.74%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29; post-div entry in original plan zone (3,200–3,250) |
 
 ---
 
@@ -269,6 +270,28 @@ _Prices estimated from web search (best available data for April 21-25, 2026). E
 - ITMG: HOLD. Position intact (27,300 sh @ 26,075). Stop unchanged at 24,250 (State 1 hard-cut; +7% threshold 27,900 not yet reached).
 - Weekly trade count: 1/3 (unchanged).
 - Decision: no-trade day. Reassess at midday scan when conditions may allow live-data retrieval; otherwise acceptable per regime guidance ("A week with zero trades can be the right answer").
+
+---
+
+### 2026-04-23 09:15 WIB — BUY BBRI
+
+- Side: BUY
+- Shares: 220,000 shares at IDR 3,260
+- Fill price: IDR 3,260 (paper; WebSearch override — yfinance blocked)
+- Position size: IDR 717,200,000 (≈7.15% of IDR 10.027B equity)
+- Hard cut: IDR 3,031 (-7% from entry) — STATE 1 (fixed hard-cut)
+- Stop transitions: at +7% (IDR 3,488) → trailing 10%; at +15% → 7%; at +20% → 5%
+- Target: IDR 3,780 (+16.0%) | R:R ≈ 2.28:1
+- Risk budget: 220,000 × 229 = IDR 50.38M = 0.50% of equity (under 75bps cap)
+- 9-gate checklist: PASS (all 9); 15-gate gate-check.sh: PASS (all 15)
+- Catalyst: Q1 2026 earnings on Apr 29 (6 trading days out) — primary re-rating event. Post-div re-entry into original Apr 20 plan zone (3,200–3,250 ceiling); current 3,260 is +0.3% above ceiling, within gate 9 chase tolerance.
+- Thesis: "BBRI Q1 2026 earnings 6 days away is the highest-probability re-rating event on the IDX this week; post-dividend price cleansing puts us in the original research entry zone with IDR 3,780 target. BI-hold regime is absorbed; foreign outflow is the main risk, mitigated by 15% regime sizing cap and a hard −7% cut."
+- Pre-mortem: Q1 earnings miss vs consensus by >10%, surprise NPL deterioration, or IHSG gap below 7,450 → exit before hard cut fires.
+- Intermediate pain plan: if −4% (3,130) with no thesis break → hold into Apr 29; if news catalyst invalidates → exit.
+- Price source: WebSearch (yfinance blocked); manual: IDR 3,260 from tradingeconomics/BBRI (Apr 23, 2026); ADV override 60M shares (banking blue chip; conservative vs typical 70–90M).
+- Sector after fill: Banking 7.15% of equity (cap 40%).
+- Weekly trades: 1/3 → 2/3.
+- STOPS.json: updated manually (broker warning on auto-write; stop reflected via STOPS.json edit).
 
 ---
 

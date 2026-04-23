@@ -436,6 +436,41 @@
           "detail": "Broker position matches TRADE-LOG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-23T02:29:23Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "BUY BBRI 220000sh @ 3260 (post-div re-entry; Q1 earnings Apr 29 catalyst). ITMG held (+3.74%). ANTM skipped (+3.5% above plan ceiling = chase). Research written inline (fallback).",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "BBRI",
+          "detail": "220000sh @ 3260 (WebSearch override; yfinance blocked)"
+        },
+        {
+          "type": "stop",
+          "ticker": "BBRI",
+          "detail": "hard-cut @ 3031 (-7%)"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27300sh; stop 24250 hard-cut unchanged"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance down)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send blocked by host allowlist; fallback to stdout"
+        },
+        {
+          "type": "research",
+          "detail": "Pre-market fallback: 2026-04-23 entry written inline at market-open"
+        }
+      ]
     }
   ],
   "exposure": {

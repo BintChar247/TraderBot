@@ -8,5 +8,13 @@
     "trail_pct": null,
     "high_water_price": 26075,
     "last_updated": "2026-04-20T09:15:00+07:00"
+  },
+  "BBRI": {
+    "entry": 3260,
+    "current_stop": 3031,
+    "state": "hard-cut",
+    "trail_pct": null,
+    "high_water_price": 3260,
+    "last_updated": "2026-04-23T09:15:00+07:00"
   }
 }

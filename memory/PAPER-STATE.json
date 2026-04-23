@@ -2,7 +2,7 @@
   "_comment": "Paper broker ledger. broker.sh paper paths read/write this file instead of returning hard-coded stubs. Equity = starting_capital + sum(realised_pnl) + unrealised (fetched live). Positions array drives positions subcommand and gate-check sector-concentration check.",
   "mode": "paper",
   "starting_capital": 10000000000,
-  "cash": 9288152500.0,
+  "cash": 8570952500.0,
   "realised_pnl": 0,
   "positions": [
     {
@@ -10,9 +10,15 @@
       "shares": 27300,
       "entry_price": 26075.0,
       "entry_date": "2026-04-20"
+    },
+    {
+      "ticker": "BBRI",
+      "shares": 220000,
+      "entry_price": 3260,
+      "entry_date": "2026-04-23"
     }
   ],
   "closed_trades": [],
-  "updated": "2026-04-20",
+  "updated": "2026-04-23",
   "_trial_note": "Trial starts 2026-04-20. Positions array will be populated by broker.sh paper buy on first market-open execution. Cash will decrease by position cost on each buy."
 }

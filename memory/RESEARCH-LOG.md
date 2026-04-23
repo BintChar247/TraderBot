@@ -969,3 +969,91 @@ Apr 21 last prices (best available from web search; some stocks sparse data, not
 - [ ] If no fills by 11:30: reassess at midday; no-trade day acceptable.
 
 ---
+
+## 2026-04-23 (Thursday) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today (2026-04-23). Research written inline at market-open per routine fallback, STEP 1. Source: WebSearch — yfinance remains blocked from this workspace (same infra condition as Apr 21/22)._
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| IHSG (prior) | 7,541.61 | -0.24% (Apr 22) | Weakened after BI held 4.75% |
+| USD/IDR | 17,190 | +0.36% | Weakening further; above prior 17,128 |
+| Newcastle coal | $133.75/t | flat | Above $130 floor; intact |
+| LME nickel | ~$18,100/t | flat | Range-bound |
+| Brent crude | ~$95/bbl | flat | Iran risk-on/off balanced |
+
+- [IHSG Apr 22](https://databoks.katadata.co.id/en/market/statistics/69e89bd1897d9/the-jci-weakens-after-bank-indonesia-holds-interest-rate-wednesday-april-22-2026)
+- [USD/IDR Apr 23](https://tradingeconomics.com/indonesia/currency)
+- [Newcastle coal Apr 2026](https://tradingeconomics.com/commodity/coal)
+
+### Macro Snapshot
+
+- BI held policy rate at 4.75% Apr 22 (as expected). No dovish surprise. EM OUTFLOW regime unchanged.
+- IDR weakened to 17,190 (worse) — pressure on IDR-denominated asset flows persists.
+- Foreign net sell trend continues; capital market reform package (OJK+IDX) remains medium-term supportive.
+- Q1 2026 earnings season active: BBRI Apr 29, ITMG May 7.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| BBRI | 3,260 | tradingeconomics (Apr 23) | -4.94% 24h; in post-div plan range (3,200-3,250); 0.3% above ceiling |
+| ANTM | 4,100 | investing.com (Apr 22 4:10PM WIB) | Above Apr 22 plan ceiling of 3,960 by +3.5% → violates gate 9 (chase) |
+| ITMG | 27,050 | tradingview (Apr 23) | Held position; +3.74% from entry; below +7% threshold (27,900) |
+
+### Held Position Updates
+
+- **ITMG**: 27,050 IDR last mark; +3.74% unrealised. Stop remains 24,250 (State 1 hard-cut; +7% trail threshold 27,900 not yet reached). Newcastle coal $133.75/t above $130 support. Thesis intact. **Action: HOLD.**
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged).** BI hold confirmed; IDR weakening further (17,190); foreign net sell persists. Max position 15% of equity. Prefer near-term-catalyst ideas. ITMG/BBRI both fit the bill.
+
+### Flagged Risks
+
+- IDR 17,200+ breakout → pressure on all IDR paper; could accelerate foreign sell.
+- BBRI Apr 29 Q1 earnings — 6 days out — misses from consensus would gap -5% easily.
+- Broader IHSG weakness post-BI hold — banking drag if regime continues risk-off.
+- ANTM at 4,100 is +3.5% above prior plan ceiling — chasing invalidates entry.
+
+### Candidate Deep-Dives
+
+#### 1. BBRI — Primary trade for today (post-div re-entry)
+
+**Fundamental case:**
+- Thesis: Largest Indonesian bank by mcap; Q1 2026 earnings on Apr 29 (6 days) — re-rating catalyst.
+- Post-dividend pullback into the original Apr 20 research plan zone (3,200–3,250 post-div).
+- Dividend IDR 209 fully absorbed (ex-date Apr 21). Current IDR 3,260 is 0.3% above plan ceiling — within gate 9 chase tolerance (3%).
+- Valuation: ~2.2× P/B; ~10% dividend yield supportive.
+
+**Technical context:**
+- Price IDR 3,260 (WebSearch tradingeconomics, -4.94% 24h post-div + BI hold absorption)
+- Support IDR 3,200 (pre-div plan floor); Resistance IDR 3,480 (pre-correction range)
+- Trend: cleansed after div; entry zone reclaimed
+
+**Trade plan:**
+- Entry: IDR 3,260 (current; at plan ceiling +0.3% — acceptable)
+- Shares: 220,000 (multiple of 100)
+- Position cost: IDR 717,200,000 (7.15% of equity; under 15% EM regime cap)
+- Hard cut: IDR 3,032 (−7%)
+- Target: IDR 3,780 (+16%); R:R ≈ 2.28:1
+- Risk budget: (220,000 × 228) / equity = 0.50% (under 75bps cap)
+- Catalyst: Q1 2026 earnings Apr 29
+- Conviction: MEDIUM
+- Pre-mortem: Q1 miss versus consensus by >10%, NPL surprise, or IHSG gap below 7,450 would invalidate before hard-cut
+- Intermediate pain (-4% = 3,130): hold if thesis intact (Apr 29 earnings); reassess if news break
+
+### Plan for /market-open (2026-04-23)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250. Below +7% threshold — no trail transition yet. No action.
+- [ ] **BUY BBRI — primary trade for today.** Entry IDR 3,260. 220,000 shares ≈ IDR 717.2M (≈7.15% equity; under 15% regime cap). Hard cut 3,032 (-7%). Target 3,780 (+16%). R:R ≈ 2.28:1. Weekly trades 1/3 → 2/3.
+- [ ] **ANTM — SKIP.** Price 4,100 is 3.5% above the Apr 22 plan ceiling of 3,960 — violates gate 9 (max 3% chase). Not worth re-scoping mid-run.
+- [ ] **INCO — WAIT.** No fresh price; correlation risk with ANTM; no action.
+- [ ] **BMRI — SKIP.** R:R remains insufficient.
+- [ ] **MBMA — WATCH.** Still no debt maturity resolution flagged; WATCH only.
+- [ ] **No new coal, property, consumer, telco, tech, construction.** Regime avoid list.
+- [ ] **Price source discipline:** use MD_LAST_PRICE_OVERRIDE (WebSearch) on BBRI buy; document in TRADE-LOG; unset after.
+
+---
