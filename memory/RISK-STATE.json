@@ -4,12 +4,12 @@
   "max_position_pct": 0.15,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
-  "daily_pnl_pct": 0.06,
+  "daily_pnl_pct": 0.0,
   "weekly_pnl_pct": 0.27,
   "peak_equity": 10026617500,
   "current_equity": 10026617500,
   "drawdown_from_peak_pct": 0.0,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-04-22"
+  "updated": "2026-04-23"
 }

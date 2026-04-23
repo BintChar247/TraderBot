@@ -65,6 +65,21 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 1
+    },
+    {
+      "date": "2026-04-23",
+      "day_label": "Day 4",
+      "portfolio_value": 10026617500,
+      "cash": 8570952500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.27,
+      "ihsg_close": 7489.82,
+      "ihsg_cumulative_pct": -1.89,
+      "alpha_pct": 2.15,
+      "positions_count": 2,
+      "trades_today": 1,
+      "trades_this_week": 2
     }
   ],
   "positions": [
@@ -80,7 +95,21 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 114% EPS beat unreacted; Newcastle $132 floor; May 7 earnings re-rate"
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $136 floor; May 7 earnings re-rate"
+    },
+    {
+      "ticker": "BBRI",
+      "entry_date": "2026-04-23",
+      "entry_price": 3260,
+      "shares": 220000,
+      "current_price": 3260,
+      "unrealized_pct": 0.0,
+      "hard_cut": 3031,
+      "trail_stop": null,
+      "stop_state": "hard-cut",
+      "thesis_state": "valid",
+      "catalyst_date": "2026-04-29",
+      "thesis": "Post-div re-entry in plan zone; Q1 earnings Apr 29 (T-3) is primary re-rating event"
     }
   ],
   "trades": [
@@ -91,6 +120,16 @@
       "shares": 27300,
       "price": 26075,
       "cost": 711847500,
+      "status": "open",
+      "realized_pnl_pct": null
+    },
+    {
+      "date": "2026-04-23",
+      "ticker": "BBRI",
+      "side": "buy",
+      "shares": 220000,
+      "price": 3260,
+      "cost": 717200000,
       "status": "open",
       "realized_pnl_pct": null
     }
@@ -234,13 +273,13 @@
   ],
   "stats": {
     "total_return_pct": 0.27,
-    "ihsg_return_pct": -1.1,
-    "alpha_pct": 1.37,
+    "ihsg_return_pct": -1.89,
+    "alpha_pct": 2.15,
     "win_rate_pct": 0.0,
-    "total_trades": 1,
+    "total_trades": 2,
     "winning_trades": 0,
     "losing_trades": 0,
-    "open_trades": 1,
+    "open_trades": 2,
     "avg_winner_pct": 0.0,
     "avg_loser_pct": 0.0,
     "profit_factor": 0.0,
@@ -257,7 +296,7 @@
     "sharpe_10d": null,
     "sortino_10d": null,
     "drawdown_from_peak_pct": 0.0,
-    "risk_budget_used_pct": 0.5,
+    "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1"
   },
@@ -477,6 +516,46 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (ITMG +3.74%, BBRI 0.00%). No cuts, no tightening, no thesis breaks."
+    },
+    {
+      "timestamp": "2026-04-23T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 4 EOD: IDR 10.027B (0.00% day). Alpha +0.69% vs IHSG today; cum. +2.15%. 2 positions open (ITMG +3.74%, BBRI 0.00%). Trades this week: 2/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 4 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked IDR 27,050; BBRI marked IDR 3,260 (WebSearch override; yfinance still down)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-23T08:33:05Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 4 EOD: IDR 10.027B (0.00% day). Alpha +0.69% vs IHSG today; cum. +2.15%. 2 positions open (ITMG +3.74%, BBRI 0.00%). Trades this week: 2/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 4 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG IDR 27,050; BBRI IDR 3,260 (WebSearch override)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG"
+        }
+      ]
     }
   ],
   "exposure": {

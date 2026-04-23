@@ -374,3 +374,28 @@ Day 2 of trial. Broker reconciliation: ITMG position in broker matches TRADE-LOG
 #### Notes
 
 Day 3 of trial. Broker reconciliation: ITMG position in broker (27,300 sh @ 26,075) matches TRADE-LOG Active Positions — no discrepancy. Mark-to-market used ITMG close IDR 27,050 (TradingView / sectors.app web-search; market-data.sh yfinance remains unavailable in this workspace — same infra issue as 04-21/04-22 market-open gate-rejects). ITMG +3.74% from entry; still below +7% trailing-stop activation threshold (needs 27,900) — stop remains hard-cut at IDR 24,250. IHSG fluctuated around BI-Rate decision: session I closed 7,544.36 (-0.20%); estimated EOD 7,550 (+0.15% vs prior 7,539) after BI held 4.75% as expected with transport sector leading gains. Day trailed IHSG slightly (alpha −0.09%) but cumulative alpha since baseline remains strong at +1.37%. No new trades today (market-open rejected ANTM/BBRI on gate 3/4/7 — live quote infra down; midday confirmed no action). No risk alerts: no daily loss cap breach, no position at −6% or worse, no drawdown from peak. Key items for tomorrow: (a) watch for BBRI ex-div absorption completion and possible re-entry if post-div price lands in 3,200–3,250 plan; (b) ANTM pullback to 3,900–3,960 entry ceiling; (c) ITMG holds above entry with coal $132/t supportive; catalyst dates unchanged (ITMG Q1 May 7, BBRI Q1 Apr 29).
+
+---
+
+### 2026-04-23 EOD — Day 4
+
+- Total equity: IDR 10,026,617,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG close: 7,489.82 (−0.69%)
+- Daily alpha: +0.69%
+- Cash: IDR 8,570,952,500 (85.48% of equity)
+- Trades today: 1 (BUY BBRI 220,000 @ 3,260)
+- Trades this week: 2/3
+- Phase-to-date P&L: IDR +26,617,500 (+0.27%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,489.82 = −1.89%): +2.15%
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 27,050 | +IDR 26,617,500 (+3.74%) | 3 |
+| BBRI | 220,000 | 3,260 | 3,260 | IDR 0 (0.00%) | 0 |
+
+#### Notes
+
+Day 4 of trial. Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market used ITMG IDR 27,050 (unchanged from prior; TradingView quote) and BBRI IDR 3,260 (entry-day close; investing.com / TradingView). market-data.sh yfinance still unavailable in this workspace (same infra issue since Apr 21) — WebSearch override used for both marks. ITMG +3.74%, still below +7% trailing-stop activation (27,900); BBRI flat (bought today at 3,260) — stops both remain hard-cut (ITMG 24,250; BBRI 3,031). IHSG closed 7,489.82 (−0.69%) — Rupiah hit fresh low intraday and energy/infra sectors led the selloff (CNBC Indonesia, Media Indonesia). Portfolio held flat against a red tape — daily alpha +0.69% — and cumulative alpha vs IHSG since Day 0 expanded to +2.15%. Today's only execution: BUY BBRI at market-open (220,000 sh @ IDR 3,260, 7.15% of equity, 50bps risk; full 9-gate + 15-gate PASS); midday HOLD on both. Sector exposure now Banking 7.15% + Coal 7.36% = 14.51% gross, well under regime caps. No risk alerts: no daily loss cap breach, no position at −6% or worse, no drawdown from peak. Watch for tomorrow (Fri Apr 24): (a) BBRI Q1 2026 earnings now T−3 trading days (Apr 29) — institutional accumulation continues; (b) coal Newcastle ~$136/t holds ITMG floor; (c) IDR pressure remains the dominant macro tail risk on banks; (d) weekly review fires Friday 16:00 WIB — final week-1 grade due.
