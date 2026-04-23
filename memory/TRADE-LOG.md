@@ -338,6 +338,21 @@ Day 2 of trial. Broker reconciliation: ITMG position in broker matches TRADE-LOG
 
 ---
 
+### 2026-04-23 11:30 WIB — MIDDAY SCAN (no action)
+
+- Positions evaluated: ITMG (27,300 @ 26,075), BBRI (220,000 @ 3,260)
+- ITMG mark: ~IDR 27,050 (WebSearch; tradingview) → +3.74% from entry. Below +7% trailing activation (27,900). Stop unchanged: hard-cut 24,250.
+- BBRI mark: IDR 3,260 (WebSearch; same as entry; purchased at 09:15 today) → 0.00%. Stop unchanged: hard-cut 3,031.
+- Hard cuts (≤-7%): none.
+- Tightening (+15% / +20%): none — no position at threshold.
+- Thesis checks:
+  - ITMG: Newcastle coal ~$136.50/t (above $130 thesis floor; Gulf tensions supportive). Thesis intact.
+  - BBRI: Q1 2026 earnings on track for Apr 29 (T-6 trading days). Institutional accumulation (BlackRock/JPMorgan) continues per heygotrade Apr 13. Thesis intact.
+- Market-data.sh yfinance unavailable (pip/wheel build failure in this workspace) — same infra issue as Apr 21/22 runs. Prices sourced via WebSearch override.
+- Decision: HOLD both. No sells, no stop modifications, no new research addendum.
+
+---
+
 ### 2026-04-22 EOD — Day 3
 
 - Total equity: IDR 10,026,617,500
