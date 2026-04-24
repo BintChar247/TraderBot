@@ -153,6 +153,44 @@ For each trade executed, append under "Trade History":
 
 Also update the Active Positions table at the top of TRADE-LOG.md.
 
+## STEP 6b — Append one entry to dashboard/data.json `decisions[]` per candidate (MANDATORY)
+
+The Trade Decisions tab reads this array. Every candidate you evaluated today
+— whether BUY or SKIP — must get an entry so the dashboard reflects the
+decision audit trail.
+
+```bash
+python3 - <<'PYEOF'
+import json
+path = "dashboard/data.json"
+d = json.load(open(path))
+d.setdefault("decisions", []).append({
+    "ticker":  "[TICKER]",
+    "action":  "[BUY|SKIP]",
+    "date":    "$DATE",
+    "time":    "09:15 WIB",
+    "shares":  [N_or_null],          # null for SKIP
+    "price":   [PRICE_or_null],       # null for SKIP
+    "thesis":  "[one-sentence case]",
+    "inputs":  [
+      {"type":"catalyst","label":"[specific event]"},
+      {"type":"macro",   "label":"[regime / sector]"},
+      {"type":"risk",    "label":"[risk bps or gate reason]"},
+      {"type":"sizing",  "label":"[position % of equity]"}
+      # add {"type":"warning","label":"WebSearch price override used"} if fallback
+    ],
+    "reasoning": "[why buy or skip in 1-2 sentences]",
+    "gate_results": [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    # 15 booleans matching P10, P11, P12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15
+    # use False for the gate(s) that failed on SKIP; use null if not evaluated
+})
+json.dump(d, open(path, "w"), indent=2)
+print(f"decision appended: [TICKER] [BUY|SKIP]")
+PYEOF
+```
+
+Include `dashboard/data.json` in the final `git add` (STEP 8).
+
 ---
 
 ## STEP 7 — Notification
