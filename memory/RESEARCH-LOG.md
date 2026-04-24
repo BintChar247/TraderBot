@@ -1057,3 +1057,67 @@ _Pre-market routine did not fire today (2026-04-23). Research written inline at 
 - [ ] **Price source discipline:** use MD_LAST_PRICE_OVERRIDE (WebSearch) on BBRI buy; document in TRADE-LOG; unset after.
 
 ---
+
+## 2026-04-24 (Friday) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today (2026-04-24). Research written inline at market-open per routine fallback, STEP 1. Source: WebSearch — yfinance remains blocked from this workspace (same infra condition as Apr 21/22/23)._
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| IHSG (prior) | 7,378 | -2.16% (Apr 23) | Sharp selloff after Rupiah hit fresh low + oil spike |
+| USD/IDR | 17,322 | +0.25% | Fresh record; breaking through 17,300 |
+| Newcastle coal | $132.90/t | flat | Above $130 floor; intact |
+| Brent crude | ~$101.91/bbl | +3.5% | Iran blocked Strait of Hormuz again |
+| LME nickel | ~$18,100/t | flat | Range-bound |
+
+- [IHSG Apr 23 -1%](https://www.cnbcindonesia.com/market/20260423100759-17-729130/breaking-ihsg-ambruk-1-usai-rupiah-sentuh-level-terendah)
+- [IHSG Apr 23 -2.16% close](https://market.bisnis.com/read/20260423/7/1968622/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-kamis-23-april-2026)
+- [USD/IDR Apr 24](https://tradingeconomics.com/indonesia/currency)
+- [Newcastle coal](https://tradingeconomics.com/commodity/coal)
+
+### Macro Snapshot
+
+- **IHSG gap down Thursday**: -2.16% to 7,378 on broad foreign outflow + Rupiah breakdown. 531 decliners vs 201 advancers. Panicky tone.
+- **Rupiah record low**: USD/IDR 17,322 — breached 17,300 for the first time. Bank margin pressure intensifies for the IDR-denominated financials.
+- **Oil spike**: Brent +3.5% to $101.91 after Iran re-blocked Strait of Hormuz. Supportive for coal/energy substitution, bearish for input-cost-sensitive sectors.
+- **Foreign flow**: net sell accelerating on the risk-off gap.
+- Q1 earnings cadence unchanged: BBRI Wed Apr 29 (T-3 trading days), ITMG May 7.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| ITMG | 26,825 | Yahoo Finance (Apr 24) | Held position; +2.88% from entry 26,075; below +7% activation 27,900 |
+| BBRI | 3,260 | TradingView (Apr 24) | Held position; flat vs entry; Q1 earnings T-3 |
+| ANTM | 4,100 | TradingView (Apr 24) | +3.5% above prior plan ceiling of 3,960 — still violates gate 9 |
+
+### Held Position Updates
+
+- **ITMG**: 26,825 IDR last mark (Yahoo Finance); +2.88% unrealised. Stop remains 24,250 (State 1 hard-cut; +7% trail activation at 27,900 not reached). Coal $132.90/t above $130 floor. Oil/commodity backdrop supportive. Thesis intact. **Action: HOLD.**
+- **BBRI**: 3,260 IDR last mark (TradingView); flat unrealised. Stop remains 3,031 (State 1 hard-cut). Q1 2026 earnings next Wednesday Apr 29 (T-3). IDR weakening is the dominant macro tail risk — NIM compression if worsening banks' USD funding costs, but institutional accumulation unchanged. Thesis intact pending earnings print. **Action: HOLD.**
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (intensifying, unchanged label).** IDR breaking 17,300 + IHSG -2.16% + oil shock = risk-off deepening. Max position 15% of equity. Adding risk on Friday into a bleeding tape before weekly review and BBRI earnings next week = low-probability edge.
+
+### Flagged Risks
+
+- IHSG follow-through selloff on Rupiah break — could gap BBRI below 3,130 (-4% intermediate pain) intraday.
+- BBRI Q1 Apr 29 miss would compound current drawdown.
+- Oil spike: possible gas substitution demand supports ITMG, but macro shock beyond a level could rotate flows out of EM broadly.
+- Eagerness: only 2/3 weekly slots used + 14.5% deployed is under-target, but forcing a trade on Friday into the teeth of a selloff = classic mistake pattern.
+
+### Plan for /market-open (2026-04-24)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250 (State 1 hard-cut). Below +7% threshold — no trail transition. No action.
+- [ ] **HOLD BBRI.** Stop unchanged at 3,031 (State 1 hard-cut). Pre-earnings hold; Q1 Apr 29 re-rating catalyst intact. No action.
+- [ ] **ANTM — SKIP.** 4,100 IDR = +3.5% above Apr 22 plan ceiling 3,960 → still violates gate 9 (no chase). Unchanged from Apr 23.
+- [ ] **No new coal (ITMG sector exposure already 7.4%).**
+- [ ] **No new banks beyond BBRI (Q1 earnings overhang across the sector; IDR macro tail).**
+- [ ] **No new property/consumer/telco/tech/construction/CPO** — regime avoid list.
+- [ ] **Eagerness check: FAIL to add a third name today.** Not trading = correct answer. Friday before earnings week + Rupiah record low + IHSG -2.16% day prior = hold discipline.
+- [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 2/3.
+
+---

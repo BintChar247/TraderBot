@@ -556,6 +556,33 @@
           "detail": "Broker matches TRADE-LOG"
         }
       ]
+    },
+    {
+      "timestamp": "2026-04-24T02:27:43Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 9-gate: ITMG/BBRI already held (HOLD); ANTM fails gate 9 (price 4,100 = +3.5% above plan ceiling 3,960, > 3% chase tolerance). Eagerness check FAIL: Friday + IDR record low 17,322 + IHSG -2.16% yesterday + BBRI earnings T-3 = no-trade is correct. Weekly trades 2/3 unchanged.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "+2.88% unrealised; stop unchanged 24,250 hard-cut"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "flat; stop unchanged 3,031 hard-cut; Q1 earnings T-3"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "gate 9 fail (chase > 3%)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price sourcing used (yfinance blocked)"
+        }
+      ]
     }
   ],
   "exposure": {
