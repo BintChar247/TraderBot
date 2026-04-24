@@ -21,12 +21,18 @@ _Purpose: give the bot institutional memory about how IDX instruments actually b
 
 ## Macro Patterns
 
-_(None yet)_
+### IHSG risk-off days drag banking names more than coal
+
+- **Observed:** 2026-04-23 (IHSG −0.69%), 2026-04-24 (IHSG −1.49%)
+- **Pattern:** On IHSG risk-off sessions during EM-OUTFLOW regime, banking names (BBRI) sold off with or beyond the index while commodity names (ITMG) held or outperformed.
+- **Confidence:** LOW (2 obs, same week)
+- **Trading implication:** Prefer commodity catalysts over bank catalysts during EM-OUTFLOW regime unless bank has a same-day idiosyncratic catalyst. Require IHSG flat-or-green before entering a bank name in this regime.
+- **Counter-evidence:** None yet — pattern needs out-of-week confirmation before promoting to MEDIUM.
 
 ## Ticker Patterns
 
-_(None yet)_
+_(None yet — 2+ observations required)_
 
 ## Sector Patterns
 
-_(None yet)_
+_(None yet — 2+ observations required)_

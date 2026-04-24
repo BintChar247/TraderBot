@@ -76,7 +76,80 @@ _Only propose if a rule proved out or failed over 2+ weeks of evidence._
 
 ---
 
-## Week ending 2026-04-25 (Week 1)
+## Week ending 2026-04-24 (Week 1 — Trial, IDR 10B capital)
+
+### Grade: B+
+
+### Performance Summary
+
+| Metric | This Week | IHSG Benchmark | Alpha |
+|--------|-----------|---------------|-------|
+| P&L (IDR) | IDR −22,537,500 | — | — |
+| P&L (%) | −0.23% | −3.35% | +3.12% |
+| Equity (EOW) | IDR 9,977,462,500 | — | — |
+
+_IHSG: Day 0 baseline 7,634 (Apr 17 close) → 7,378 (Apr 24 close) = −3.35%. Portfolio lost 0.23% gross; alpha +3.12% driven by (a) 85.9% cash buffer through a risk-off week and (b) ITMG coal resilience offsetting BBRI pre-earnings weakness._
+
+### Trade Summary
+
+| # | Date | Ticker | Side | Entry (IDR) | Exit (IDR) | P&L (IDR) | P&L (%) | Result |
+|---|------|--------|------|-------------|------------|-----------|---------|--------|
+| 1 | 2026-04-20 | ITMG | BUY | 26,075 | Open (26,700) | +17,062,500 unrealized | +2.40% | Open |
+| 2 | 2026-04-23 | BBRI | BUY | 3,260 | Open (3,080) | −39,600,000 unrealized | −5.52% | Open |
+
+- Trades this week: 2/3
+- Wins: 0 | Losses: 0 | Open: 2 | Win rate: N/A (no closes)
+- Largest winner (unrealized): ITMG +2.40%
+- Largest loser (unrealized): BBRI −5.52%
+- Profit factor: N/A (no closed trades)
+- No stops triggered. No hard cuts. No tightening (no position at +15%).
+
+### Open Positions at Week End
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 26,700 | +IDR 17,062,500 (+2.40%) | 4 |
+| BBRI | 220,000 | 3,260 | 3,080 | −IDR 39,600,000 (−5.52%) | 1 |
+
+- Cash at week end: IDR 8,570,952,500 (85.90%)
+- Gross exposure: 14.10% (Coal 7.31% + Banking 6.79%) — well below 75–85% target
+- Stop state: both HARD-CUT (neither at +7% trailing activation)
+
+### What Worked
+
+- **Pre-market discipline on Apr 20**: Skipped BBRI (ex-div Apr 21, price too far above post-div plan) and ANTM (above 3,960 ceiling) — only ITMG met entry criteria. Caught the Q1 EPS 114% beat catalyst at IDR 26,075 (below planned 27,000–27,200). Single best trade of the week.
+- **Cash preservation under risk-off**: IHSG fell −3.35% across the week; we deployed only 14.1% gross and generated +3.12% alpha. Regime-aware sizing (15% cap in EM-OUTFLOW) did its job.
+- **ITMG coal thesis intact**: Newcastle $131–136.50/t held the $130 thesis floor all week. Position +2.40% with coal tailwind intact through Gulf tensions.
+- **Midday gate discipline (Apr 22)**: Market-data outage rejected ANTM/BBRI re-entry attempts on gates 3/4/7. Rather than override, accepted a no-trade day. "Patience beats activity" principle validated.
+
+### What Didn't Work
+
+- **BBRI timing on Apr 23**: Entered at IDR 3,260 the same day IHSG dropped −0.69%, and the stock slid to IDR 3,080 by Friday (−5.52% from entry). Entry took the full weekly budget risk without waiting for price confirmation. Thesis (Q1 earnings Apr 29) intact but timing was early into a risk-off tape.
+- **Market-data infra outage all week**: yfinance unreachable from workspace from Apr 21 onward. All marks via WebSearch fallback. This is a systemic infra problem — in a faster-moving regime, missing intraday data could cost real money.
+- **Only 2/3 weekly trades used**: ANTM HPM catalyst was on the plan but price never pulled back to the 3,900–3,960 entry zone; no re-attempt on Thu/Fri despite continued positive nickel narrative. Missed a potential third entry.
+
+### Lessons Learned
+
+- **Wait for the IHSG tape on banking entries**: BBRI bought into a −0.69% IHSG day and kept bleeding with it. For next cycle: on a banking name, require IHSG flat-or-green OR a same-day stock-specific catalyst (not a 6-day-out catalyst) before entering during EM-OUTFLOW regime.
+- **Coal names reward patience, bank names punish it**: ITMG bought Monday with immediate catalyst (Q1 beat Apr 19) held gains all week. BBRI bought pre-earnings (T−6) was exposed to every risk-off day until the catalyst lands. Pair catalyst distance with regime — closer catalyst preferred in risk-off.
+- **Cash is a position in EM-OUTFLOW**: 85.9% cash generated +3.12% alpha this week. Stop romanticizing the 75–85% deployed target as always-on; treat it as a regime-dependent ceiling, not a floor.
+- **Fix market-data infra before Week 2**: Five straight days on WebSearch fallback is not sustainable. Without reliable intraday data, stop logic is executed with eyes half-closed.
+
+### Rule Changes Proposed
+
+- No changes. One week is not 2+ weeks of evidence for any rule revision. Rules held. TRADING-STRATEGY.md unchanged.
+
+### Watchlist Updates
+
+- **Keep watching: BBRI** — Q1 earnings Wed Apr 29 is the pivot. If it beats (prior quarter beat consensus by 12.86%) and price rips above IDR 3,400, thesis validated; if it misses or IDR weakens further, exit likely precedes hard-cut 3,031.
+- **Keep watching: ITMG** — May 7 earnings approaching. Trail activates at 27,900 (+7%). Watch Newcastle coal; below $120/t would break thesis.
+- **Keep watching: ANTM** — HPM narrative intact but price above 3,960 entry ceiling all week. Re-add if pulls back; consider paired with INCO as diversified nickel exposure.
+- **Add: INCO** — Vale Indonesia, second nickel play on HPM decree; pair-trade candidate if ANTM runs without pullback.
+- **Remove: none.**
+
+---
+
+## Week ending 2026-04-25 (Week 1 — SIMULATION, IDR 300M test)
 
 ### Grade: B+
 
