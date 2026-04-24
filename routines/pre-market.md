@@ -267,9 +267,21 @@ Append a new entry (do not modify previous entries). Format:
 
 (Earnings releases, ex-dividend dates, rights issues, OJK filings, economic data)
 
-### Watchlist Scan — All 20 Tickers
+### Watchlist Scan — All 50 Tickers
 
 Score each ticker 1–10 (10 = strongest buy setup). Apply sector momentum filter first.
+
+**Two-track scoring:**
+- **Catalyst track (primary):** score based on near-term catalyst + valuation.
+  Promote to CANDIDATE if score ≥ 6.
+- **Defensive Quality track (experimental, per TRADING-STRATEGY.md):** for any
+  LQ45 mega-cap (market cap > IDR 100T: BBCA, BBRI, BMRI, BBNI, TLKM, ASII,
+  UNVR, ICBP, ADRO) scoring 5–6 on the catalyst track, also check: is current
+  P/E or P/B ≥ 1.0σ below the ticker's own 10-year mean? If yes, cite the
+  numeric mean and σ, tag `DEFENSIVE-CANDIDATE`, and produce a Top Candidates
+  deep-dive entry with conviction MEDIUM (never HIGH) and max size 10% of
+  equity. If the valuation check fails or you can't source the long-term mean,
+  keep as WATCH — do NOT fabricate numbers.
 
 | # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
 |---|--------|--------|-------|------|-------|---------------------|--------|

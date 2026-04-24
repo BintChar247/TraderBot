@@ -99,11 +99,50 @@ Document **all six items** before placing any trade. If any cannot be answered, 
 
 ## What Triggers a BUY on IDX
 
+The primary track is **catalyst-driven**. All five below must hold:
+
 1. **Undervalued fundamental story** — P/E or P/B below sector median, growth above.
 2. **Catalyst identified** — earnings beat, BI rate cut, commodity tailwind, regulatory change, insider buying.
 3. **Macro alignment** — the trade fits IDR trend, commodity cycle, foreign flow direction.
 4. **Sector in momentum** — don't fight a sector that's rolling over.
 5. **Thesis in 2 sentences** — if you can't write it, don't buy.
+
+---
+
+## Defensive Quality Track (experimental, added 2026-04-24)
+
+A second, narrow entry path for LQ45 blue-chip compounders that screen cheap on
+long-term valuation but lack a discrete near-term catalyst. Added after BBCA
+repeatedly scored 5–6 and stayed on WATCH with note *"defensive, no near-term
+catalyst"* — the catalyst-only rule was leaving a long-term value signal on the
+table. Flagged EXPERIMENTAL: weekly-review evaluates after ≥2 defensive trades.
+
+**Eligibility (all must hold):**
+1. **Ticker is LQ45** and IDX market cap > IDR 100T. At writing: BBCA, BBRI,
+   BMRI, BBNI, TLKM, ASII, UNVR, ICBP, ADRO, ASII. No mid-caps, no illiquids.
+2. **Deep valuation trigger:** current P/E OR P/B is ≥ 1.0 standard deviation
+   below the ticker's own trailing 10-year mean. "Below sector median" (the
+   catalyst-track bar) is insufficient here — must be a long-term own-history
+   discount. Research must cite the numeric mean and σ, not just "looks cheap".
+3. **No adverse catalyst within 2 weeks:** no upcoming earnings where consensus
+   looks stretched, no pending regulatory risk, no ex-div timing trap.
+4. **Regime is not DEFENSIVE:** if `MACRO-REGIME.md` says DEFENSIVE (broad
+   risk-off halt), defensive-track entries are suspended.
+
+**Sizing and stops (tighter than catalyst track):**
+- **Max position size: 10% of equity** (vs 15% for catalyst track).
+- Counts against weekly max-3-trades cap.
+- Standard stops: -7% hard cut, same trailing logic from +7%.
+- Tagged `trade_type: "defensive"` in PAPER-STATE.json and data.json decisions[]
+  so weekly-review can slice performance by track.
+
+**Conviction assignment:** defensive-track positions are always MEDIUM at best
+— never HIGH. A HIGH conviction call requires both valuation AND catalyst.
+
+**Review trigger:** on the first defensive-track stop-out, weekly-review must
+re-evaluate the track. After 2 defensive trades, if combined realized P&L is
+negative AND worse than track-1 same-period alpha, remove the track from this
+strategy. This is a *proposed* edge, not a proven one.
 
 ---
 

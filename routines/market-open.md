@@ -109,6 +109,22 @@ Before placing any order, ALL 9 checks must pass. Log PASS/FAIL for each:
 
 If ANY check fails → skip the trade, log the gate number and reason.
 
+### Defensive Quality Track sizing override
+
+If a candidate is tagged `DEFENSIVE-CANDIDATE` in today's RESEARCH-LOG.md (per
+TRADING-STRATEGY.md "Defensive Quality Track"), apply a **stricter 10% cap**
+on position size — not the normal 15% regime cap. The 15-gate check uses the
+regime cap; to enforce the defensive 10% cap you must size the order yourself:
+
+```
+max_shares = floor( (equity * 0.10) / current_price / 100 ) * 100
+```
+
+Then pass that share count to `broker.sh buy`. Also:
+- Conviction must be logged as MEDIUM (never HIGH) for defensive trades.
+- Tag the decisions[] entry with `"trade_type": "defensive"`.
+- Tag the TRADE-LOG.md entry with `- Track: DEFENSIVE (experimental, per TRADING-STRATEGY.md)`.
+
 Also run the Eagerness Check: Am I trading because the thesis is genuinely compelling, or because I want to trade? If uncertain → don't trade.
 
 ---
