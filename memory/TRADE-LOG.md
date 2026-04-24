@@ -10,8 +10,8 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $131/t +40.5% YoY (last mark 27,050; +3.74%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29; post-div entry in original plan zone (3,200–3,250) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $131/t +40.5% YoY (last mark 26,700; +2.40%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29; post-div entry in original plan zone (last mark 3,080; −5.52%) |
 
 ---
 
@@ -415,3 +415,28 @@ Day 4 of trial. Broker reconciliation: both positions in broker (ITMG 27,300 @ 2
 - Intraday move check: no position >3% move requiring ad-hoc research. ITMG -1.30% on day, BBRI -0.31% on day — within normal range.
 - Market-data.sh yfinance unavailable (same infra condition since Apr 21) — prices sourced via WebSearch override.
 - Decision: HOLD both. No sells, no stop modifications, no research addendum required.
+
+---
+
+### 2026-04-24 EOD — Day 5 (Week 1 Close)
+
+- Total equity: IDR 9,977,462,500
+- Daily P&L: IDR −49,155,000 (−0.49%)
+- IHSG close: 7,378 (−1.49%)
+- Daily alpha: +1.00%
+- Cash: IDR 8,570,952,500 (85.90% of equity)
+- Trades today: 0
+- Trades this week: 2/3
+- Phase-to-date P&L: IDR −22,537,500 (−0.23%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,378 = −3.35%): +3.12%
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 26,700 | +IDR 17,062,500 (+2.40%) | 4 |
+| BBRI | 220,000 | 3,260 | 3,080 | −IDR 39,600,000 (−5.52%) | 1 |
+
+#### Notes
+
+Day 5 of trial (Friday, Week 1 close). Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market via WebSearch (market-data.sh yfinance still unavailable — same infra condition since Apr 21): ITMG IDR 26,700 (investing.com intraday quote), BBRI IDR 3,080 (investing.com intraday quote, −2.53% on day). IHSG closed 7,378 (−1.49%) per asatunews / liputan6 — sharp session I selloff (−3%) partially recovered into close; broad risk-off driven by foreign outflows, Middle East tension, Rupiah pressure. Portfolio held up relatively well (daily alpha +1.00%) thanks to ITMG's coal/energy resilience offsetting BBRI weakness. BBRI at −5.52% — approaching −6% position warning threshold but NOT yet there; hard cut remains IDR 3,031 (further −1.53% room); Q1 earnings T−3 trading days (Apr 29) remains the re-rating catalyst. ITMG at +2.40%, still below +7% trailing-stop activation (27,900); stop unchanged at 24,250. Sector exposure: Coal 7.31% + Banking 6.79% = 14.10% gross (well under caps). Cumulative alpha since Day 0 expanded to +3.12% — best running alpha of the trial. No risk alerts: no daily loss cap breach (−0.49% vs −2% cap), no position at −6% or worse, no drawdown alert. Week 1 letter grade pending weekly-review routine at 16:00 WIB. Watch for Monday Apr 27: (a) BBRI pre-Q1 positioning (earnings Wed Apr 29 after hours); (b) ITMG coal / Newcastle print; (c) IDR stability vs USD; (d) IHSG technical damage — 7,378 prints a fresh week low, regime remains EM-OUTFLOW-RISK-CAUTIOUS.
