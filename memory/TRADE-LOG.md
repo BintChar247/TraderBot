@@ -399,3 +399,19 @@ Day 3 of trial. Broker reconciliation: ITMG position in broker (27,300 sh @ 26,0
 #### Notes
 
 Day 4 of trial. Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market used ITMG IDR 27,050 (unchanged from prior; TradingView quote) and BBRI IDR 3,260 (entry-day close; investing.com / TradingView). market-data.sh yfinance still unavailable in this workspace (same infra issue since Apr 21) — WebSearch override used for both marks. ITMG +3.74%, still below +7% trailing-stop activation (27,900); BBRI flat (bought today at 3,260) — stops both remain hard-cut (ITMG 24,250; BBRI 3,031). IHSG closed 7,489.82 (−0.69%) — Rupiah hit fresh low intraday and energy/infra sectors led the selloff (CNBC Indonesia, Media Indonesia). Portfolio held flat against a red tape — daily alpha +0.69% — and cumulative alpha vs IHSG since Day 0 expanded to +2.15%. Today's only execution: BUY BBRI at market-open (220,000 sh @ IDR 3,260, 7.15% of equity, 50bps risk; full 9-gate + 15-gate PASS); midday HOLD on both. Sector exposure now Banking 7.15% + Coal 7.36% = 14.51% gross, well under regime caps. No risk alerts: no daily loss cap breach, no position at −6% or worse, no drawdown from peak. Watch for tomorrow (Fri Apr 24): (a) BBRI Q1 2026 earnings now T−3 trading days (Apr 29) — institutional accumulation continues; (b) coal Newcastle ~$136/t holds ITMG floor; (c) IDR pressure remains the dominant macro tail risk on banks; (d) weekly review fires Friday 16:00 WIB — final week-1 grade due.
+
+---
+
+### 2026-04-24 11:30 WIB — MIDDAY SCAN (no action)
+
+- Positions evaluated: ITMG (27,300 @ 26,075), BBRI (220,000 @ 3,260)
+- ITMG mark: IDR 27,050 (WebSearch; TradingView/Yahoo Finance Apr 24) → +3.74% from entry. Below +7% trailing activation (27,900). Stop unchanged: hard-cut 24,250.
+- BBRI mark: IDR 3,230 (WebSearch; TradingView/sectors.app Apr 24) → −0.92% from entry. Above hard-cut 3,031 (−6.08% further room). Stop unchanged: hard-cut 3,031.
+- Hard cuts (≤−7%): none.
+- Tightening (+15% / +20%): none — no position at threshold.
+- Thesis checks:
+  - ITMG: Newcastle coal $132.30/t holds above $130 thesis floor; Gulf tensions supportive of energy prices. Thesis intact.
+  - BBRI: Q1 2026 earnings confirmed for Apr 29 (T-3 trading days); prior quarter beat consensus by 12.86%; institutional accumulation narrative unchanged. Thesis intact pending earnings print.
+- Intraday move check: no position >3% move requiring ad-hoc research. ITMG -1.30% on day, BBRI -0.31% on day — within normal range.
+- Market-data.sh yfinance unavailable (same infra condition since Apr 21) — prices sourced via WebSearch override.
+- Decision: HOLD both. No sells, no stop modifications, no research addendum required.
