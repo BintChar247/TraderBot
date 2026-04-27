@@ -460,6 +460,104 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Pulled-back nickel name (3,670 vs prior 4,100) but HPM catalyst stale (T+12) and LME nickel range-bound; no discrete near-term catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144 stale (12 days post-event); no fresh nickel news"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW regime intact; IDR 17,174 still elevated; coal $129 below $130 floor"
+        },
+        {
+          "type": "risk",
+          "label": "Final trial week (5 days left) \u2014 closing-week tail risk for limited upside"
+        },
+        {
+          "type": "sizing",
+          "label": "Eagerness check FAIL: trading because slot 0/3 used, not because thesis compelling"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Pulled-back price alone is not a catalyst. No discrete event inside 3 trading days; HPM thesis stale. Defer until LME nickel inflection or fresh news.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-04-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Second nickel play but WebSearch price quotes split 5,575 vs 6,800 \u2014 data-quality failure prevents safe gate-9 chase check.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Same HPM nickel thesis as ANTM; no idiosyncratic catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "Nickel sector range-bound; LME flat $18,100"
+        },
+        {
+          "type": "risk",
+          "label": "Price source unreliable (5,575 vs 6,800 spread); cannot confirm gate 9"
+        },
+        {
+          "type": "sizing",
+          "label": "Skip on data integrity, not on thesis"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override unreliable (data quality)"
+        }
+      ],
+      "reasoning": "Cannot place a buy with two WebSearch sources disagreeing by ~20%. Discipline: no trade without confirmed price.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -790,6 +888,42 @@
         {
           "type": "research",
           "detail": "Day 5 / Week 1 close snapshot committed"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-27T02:29:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Week 2 Day 1 \u2014 regime EM-OUTFLOW intact; coal $129/t below $130 ITMG thesis floor; BBRI Q1 earnings T-2 (Wed Apr 29); ANTM HPM catalyst stale (T+12); INCO data unreliable (5,575 vs 6,800 spread). Held ITMG + BBRI; stops unchanged.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300sh @ 26,075; +3.74% unrealised; stop 24,250 (hard-cut); coal-floor watch"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "220,000sh @ 3,260; ~flat; stop 3,031 (hard-cut); Q1 earnings T-2"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "HPM catalyst stale; LME nickel range-bound; eagerness FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "WebSearch price data unreliable (5,575 vs 6,800)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance blocked since Apr 21)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify HTTP 403 (host not in allowlist) \u2014 fell back to stdout"
         }
       ]
     }

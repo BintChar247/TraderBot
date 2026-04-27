@@ -1121,3 +1121,90 @@ _Pre-market routine did not fire today (2026-04-24). Research written inline at 
 - [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 2/3.
 
 ---
+
+## 2026-04-27 (Monday — Week 2 Day 1) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today (2026-04-27). Research written inline at market-open per routine fallback, STEP 1. Source: WebSearch — yfinance remains blocked from this workspace (same infra condition since Apr 21)._
+
+### Global Overnight
+
+| Market | Level / Price | Source | Note |
+|--------|---------------|--------|------|
+| IHSG (Friday close) | 7,378 | tradingeconomics, asatunews | Week 1 close; -3.35% on the week; fresh week low |
+| USD/IDR | 17,174 (off Friday's 17,322 record) | tradingeconomics, exchange-rates.org | Easing slightly; still in EM-stress range |
+| Newcastle coal | $129.00/t | oilpriceapi, tradingeconomics | **Below the $130 thesis floor**; lowest since March 2026 |
+| Brent crude | ~$101/bbl | (carry-over from Apr 24) | Strait of Hormuz tension still elevated |
+| LME nickel | ~$18,100/t | (carry-over) | Range-bound |
+
+### Macro Snapshot
+
+- **IHSG into Week 2 with technical damage**: Friday closed 7,378 (−1.49%), week −3.35%. No Apr 27 print available pre-open. Foreign flow remained net-sell into Friday close.
+- **Rupiah backing off slightly**: 17,174 vs 17,322 high — first sign of stabilization but still in EM-stress range. Insufficient to flip regime.
+- **Coal breaking down**: Newcastle $129/t is BELOW the $130 thesis floor for ITMG. First time below floor since the Gulf-tension surge. Watch closely — single tick below is not regime change, but a sustained move <$125/t breaks ITMG thesis.
+- **BBRI Q1 2026 earnings: T−2 trading days (Wed Apr 29 after-hours).** This is the binary catalyst that defines BBRI position outcome. Prior quarter beat consensus +12.86%.
+- **Trial calendar:** today Apr 27 (Mon) → final week of trial (closes May 2 Sat). Only 5 trading days remaining, including today.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| ITMG | 27,050 | Yahoo Finance / TradingView | Held; +3.74% from entry 26,075; below +7% activation 27,900; coal at thesis floor |
+| BBRI | 3,160–3,430 (noisy; ~3,200 best estimate) | TradingView / sectors.app | Held; entry 3,260; T−2 to Q1 earnings; price source noisy |
+| ANTM | 3,670 (open) – 3,900 (range) | investing.com / TradingView | Pulled back from 4,100 area on IHSG selloff; below prior 3,900–3,960 plan ceiling |
+| INCO | 5,575 vs 6,800 (highly noisy) | mixed | Data unreliable; SKIP this candidate on data quality alone |
+
+### Held Position Updates
+
+- **ITMG**: 27,050 IDR last mark. +3.74% unrealised. Stop remains 24,250 (State 1 hard-cut; +7% trail activation at 27,900). **WARNING:** Newcastle coal $129/t is below the $130 thesis floor for the first time in this trial. Single-day below is not a thesis break, but if coal sustains <$125/t over the next 2-3 sessions, exit ITMG even if hard-cut is not yet hit (sell-side rule: thesis-break exit). Today: monitor coal print at end-of-session. **Action: HOLD (with thesis-break watch).**
+- **BBRI**: Last mark noisy (3,160–3,430). Stop remains 3,031 (State 1 hard-cut). Q1 2026 earnings T−2 (Wed Apr 29 after-hours). Re-rating catalyst intact; institutional accumulation unchanged. IDR easing slightly off Friday record is marginally supportive. **Action: HOLD through Wednesday's print.**
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged; coal weakening adds incremental concern).** Max position 15% of equity. Rupiah ticking off the highs is a positive but not yet a regime-change signal (would need IDR < 17,000 + foreign inflow + IHSG reclaim 7,500). Coal breaking $130 floor is a sector-specific concern, not a regime shift.
+
+### Candidate Evaluation for Today
+
+**ANTM (re-evaluation from Friday SKIP):**
+- Price source: WebSearch — opening range 3,670–3,900 today; 3,670 = pulled back from 4,100 area
+- Plan ceiling from Apr 22 entry plan: 3,960 (now well below)
+- Thesis: HPM Decree 144 (Apr 15) — 12 days stale, no fresh nickel catalyst
+- LME nickel range-bound at $18,100; no commodity tailwind to support fresh entry
+- IHSG entering Week 2 weak; Monday entries into red tape historically poor (BBRI Apr 23 lesson)
+- Eagerness check: pulled-back price is tempting but no near-term discrete catalyst inside 3 trading days
+- **Decision: SKIP** — pulled-back price alone is not a catalyst. Watch for genuine nickel news or LME inflection.
+
+**INCO:**
+- Price data unreliable (5,575 vs 6,800 spread = data quality issue)
+- Cannot pass gate-9 chase check without confirmed price
+- **Decision: SKIP on data integrity.**
+
+**BBRI add-on:** Already held at 7.15% size; adding pre-earnings = doubling down on unconfirmed thesis. **SKIP.**
+
+**ITMG add-on:** Coal at $129 below floor + already held = wrong sizing decision. **SKIP.**
+
+### Flagged Risks
+
+- **Coal $130 floor break**: sustained sub-$130 print invalidates ITMG thesis. Monitor daily.
+- **BBRI binary risk Wed Apr 29**: Q1 print could swing position by 5–10%. Hard cut 3,031 limits downside.
+- **Final week of trial**: 5 trading days left. Adding new positions today exposes to closing-week tail risk for very limited upside given the trial endpoint.
+- **Eagerness pressure**: weekly slot 0/3 used + 14.1% deployed + final-week clock = classic forced-trade setup. Resist.
+
+### Plan for /market-open (2026-04-27)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250 (State 1 hard-cut). Below +7% threshold — no trail transition. Coal-floor watch active. No action.
+- [ ] **HOLD BBRI.** Stop unchanged at 3,031 (State 1 hard-cut). T−2 to Q1 earnings. No action.
+- [ ] **ANTM — SKIP.** Pullback alone is not a catalyst; HPM stale; LME range-bound. Watch for Q1 earnings date / fresh nickel news.
+- [ ] **INCO — SKIP on data integrity.** Price spread too wide (5,575 vs 6,800) to clear gate 9 with confidence.
+- [ ] **No new banks beyond BBRI, no new coal beyond ITMG, no property/consumer/telco/tech/construction/CPO** — regime avoid list intact.
+- [ ] **Eagerness check: FAIL.** No discrete near-term catalyst on any non-held name today; final trial week skews risk:reward to defense.
+- [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 0/3 (Week 2).
+
+### Sources
+
+- [Newcastle coal $129/t](https://www.oilpriceapi.com/live/coal-price)
+- [USD/IDR 17,174](https://tradingeconomics.com/indonesia/currency)
+- [BBRI quote (TradingView/sectors)](https://sectors.app/idx/bbri)
+- [ITMG quote (Yahoo Finance)](https://finance.yahoo.com/quote/ITMG.JK/)
+- [ANTM quote (Investing.com)](https://www.investing.com/equities/aneka-tambang)
+
+---
