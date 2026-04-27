@@ -95,6 +95,21 @@
       "positions_count": 2,
       "trades_today": 0,
       "trades_this_week": 2
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "Day 6",
+      "portfolio_value": 9949480000,
+      "cash": 8570952500,
+      "daily_pnl_idr": -27982500,
+      "daily_pnl_pct": -0.28,
+      "cumulative_pnl_pct": -0.51,
+      "ihsg_close": 7166.56,
+      "ihsg_cumulative_pct": -6.12,
+      "alpha_pct": 5.62,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -103,14 +118,14 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 26700,
-      "unrealized_pct": 2.4,
+      "current_price": 25675,
+      "unrealized_pct": -1.53,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
-      "thesis_state": "valid",
+      "thesis_state": "watch",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 114% EPS beat unreacted; Newcastle $136 floor; May 7 earnings re-rate"
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $129/t below $130 floor (above $125 break); May 7 earnings"
     },
     {
       "ticker": "BBRI",
@@ -124,7 +139,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-04-29",
-      "thesis": "Post-div re-entry in plan zone; Q1 earnings Apr 29 (T-3) is primary re-rating event"
+      "thesis": "Post-div re-entry in plan zone; Q1 earnings Apr 29 (T-2) is primary re-rating event"
     }
   ],
   "trades": [
@@ -561,9 +576,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.23,
-    "ihsg_return_pct": -3.35,
-    "alpha_pct": 3.12,
+    "total_return_pct": -0.51,
+    "ihsg_return_pct": -6.12,
+    "alpha_pct": 5.62,
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
@@ -572,11 +587,19 @@
     "avg_winner_pct": 0.0,
     "avg_loser_pct": 0.0,
     "profit_factor": 0.0,
-    "max_drawdown_pct": -0.49,
+    "max_drawdown_pct": -0.77,
     "best_trade": null,
     "worst_trade": null,
     "rules_followed": true,
-    "violations": []
+    "violations": [],
+    "current_equity": 9949480000,
+    "cum_return_pct": -0.51,
+    "ihsg_cum_pct": -6.12,
+    "cum_alpha_pct": 5.62,
+    "positions_count": 2,
+    "cash_pct": 86.14,
+    "trades_this_week": 0,
+    "last_updated": "2026-04-27"
   },
   "risk": {
     "beta_ihsg": null,
@@ -584,10 +607,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -0.49,
+    "drawdown_from_peak_pct": -0.77,
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
-    "note": "Populated by performance.py risk after Day 1"
+    "note": "Populated by performance.py risk after Day 1",
+    "daily_pnl_pct": -0.28,
+    "weekly_pnl_pct": -0.28,
+    "peak_equity": 10026617500,
+    "current_equity": 9949480000,
+    "trading_halted": false,
+    "halt_reason": null,
+    "updated": "2026-04-27"
   },
   "activity_log": [
     {
@@ -932,6 +962,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts, no stop tightenings. ITMG +2.88%, BBRI -5.52% (T-2 to Q1)."
+    },
+    {
+      "timestamp": "2026-04-27T08:37:25Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 6: IDR 9.95B (-0.28%). Daily alpha -0.80% (first negative daily alpha; ITMG -2.75% on coal weakness). Cum alpha +5.62% vs IHSG. Positions 2 (ITMG -1.53%, BBRI -5.52%). Trades this week: 0/3. DATA CORRECTION: Apr 24 IHSG actual close 7,129.49 vs prior log 7,378.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 6 EOD snapshot committed; baseline IHSG corrected"
+        }
+      ]
     }
   ],
   "exposure": {

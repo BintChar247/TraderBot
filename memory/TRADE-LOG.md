@@ -10,8 +10,8 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $131/t +40.5% YoY (last mark 26,700; +2.40%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29; post-div entry in original plan zone (last mark 3,080; −5.52%) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $129/t (below $130 thesis floor, above $125 break) (last mark 25,675; −1.53%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29 (T−2); post-div entry in plan zone (last mark 3,080; −5.52%) |
 
 ---
 
@@ -478,3 +478,28 @@ Day 5 of trial (Friday, Week 1 close). Broker reconciliation: both positions in 
 #### Notes
 
 Week 2 Day 1 (Mon). No trades placed. Both held positions (ITMG, BBRI) HOLD per Friday plan and pre-market fallback research (RESEARCH-LOG 2026-04-27 entry). Macro backdrop: IHSG entering Week 2 from Friday close 7,378 (week −3.35%); USD/IDR easing slightly to 17,174 (vs Friday's 17,322 record); Newcastle coal $129/t — first print BELOW the $130 ITMG thesis floor in this trial (sustained sub-$125/t would be a thesis-break exit signal). Regime EM-OUTFLOW-RISK-CAUTIOUS unchanged. Held positions: ITMG +3.74% from entry (last 27,050 via WebSearch / Yahoo Finance); BBRI ~flat (price source noisy, ~3,200 best estimate; T−2 to Wed Apr 29 Q1 earnings — the binary catalyst defining BBRI outcome). No new entries: ANTM pulled back to 3,670 area but the HPM nickel catalyst is now 12 days stale and LME nickel is range-bound — pullback alone is not a thesis. INCO data quality (5,575 vs 6,800 quotes) blocked any safe gate-9 evaluation. Eagerness check: weekly slot 0/3 + 14.1% deployed + final-week clock = classic forced-trade temptation; resisted. Cash buffer at 85.9% remains a position in this regime (Week 1 evidence: +3.12% alpha generated from cash + ITMG resilience). Sector exposure: Coal 7.31% + Banking 6.79% = 14.10% gross. No risk alerts: daily/weekly P&L within caps; no position at −6% or worse; drawdown from peak −0.49%. Watch for tomorrow (Tue Apr 28): (a) BBRI pre-Q1 positioning into T−1; (b) Newcastle coal print — must hold ≥$125/t to keep ITMG thesis intact; (c) IDR direction post-Friday record; (d) IHSG technical reaction to Week 1 close. Price source: WebSearch (yfinance blocked since Apr 21).
+
+---
+
+### 2026-04-27 EOD — Day 6 (Week 2 Day 1)
+
+- Total equity: IDR 9,949,480,000
+- Daily P&L: IDR −27,982,500 (−0.28%)
+- IHSG close: 7,166.56 (+0.52%)
+- Daily alpha: −0.80%
+- Cash: IDR 8,570,952,500 (86.14% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Week 2 reset)
+- Phase-to-date P&L: IDR −50,520,000 (−0.51%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,166.56 = −6.12%): +5.62%
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,675 | −IDR 10,920,000 (−1.53%) | 5 |
+| BBRI | 220,000 | 3,260 | 3,080 | −IDR 39,600,000 (−5.52%) | 2 |
+
+#### Notes
+
+Day 6 of trial (Mon, Week 2 Day 1). Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market via WebSearch (market-data.sh yfinance still unavailable in this workspace — same infra condition since Apr 21): ITMG IDR 25,675 (Investing.com 14:13 WIB intraday read, −2.75% on day), BBRI IDR 3,080 (Investing.com / IR-BRI Session I close, ~flat from Friday). DATA CORRECTION: prior TRADE-LOG entries (Apr 24 EOD) recorded IHSG Friday close at 7,378; actual Friday close was 7,129.49 (−3.38%, IHSG weekly −6.61%) per okezone/asatunews/liputan6. Prior cumulative-alpha figures were inflated; today's snapshot uses corrected baseline. Today IHSG opened 7,158.51 (+0.41% from 7,129.49), peaked 7,212.2, settled mid-session II at ~7,166.56 (+0.52%) — used as today's close estimate. Portfolio held −0.28% vs IHSG +0.52% → daily alpha −0.80% (first negative daily alpha of trial; ITMG's −2.75% drag dominated as coal weakness widened). Coal Newcastle $129/t — first sustained print BELOW the $130 thesis floor but ABOVE $125 thesis-break exit signal. ITMG +7% trailing-stop activation (27,900) not approached; stop unchanged at 24,250 (further −5.71% room from current 25,675). BBRI at −5.52%, hard-cut 3,031 still −1.53% below current — Q1 earnings T−2 (Wed Apr 29 after hours) is the binary; if a beat-and-rerate, position recovers; if a miss, hard cut likely fires. Drawdown from peak −0.77% (peak Apr 22 IDR 10,026,617,500). No risk alerts: no daily loss cap breach, no position at −6% or worse (BBRI at −5.52% — within 0.5pp of warning threshold, monitor at open tomorrow), no drawdown alert. Sector exposure: Coal 7.04% + Banking 6.81% = 13.85% gross. Watch tomorrow (Tue Apr 28): (a) BBRI pre-Q1 positioning into T−1 — ANY thesis-breaking news pre-print → exit before close; (b) Newcastle coal print — must hold ≥$125/t to keep ITMG thesis intact, sub-$125 = invalidation; (c) IDR direction post-17,174 vs Friday 17,322 record; (d) IHSG technical reaction to today's bounce — failure to clear 7,250 keeps EM-OUTFLOW-RISK-CAUTIOUS regime.
