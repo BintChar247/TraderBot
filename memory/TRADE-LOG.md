@@ -506,6 +506,22 @@ Day 6 of trial (Mon, Week 2 Day 1). Broker reconciliation: both positions in bro
 
 ---
 
+### 2026-04-28 11:30 WIB — MIDDAY SCAN (no action)
+
+- Positions evaluated: ITMG (27,300 @ 26,075), BBRI (220,000 @ 3,260)
+- ITMG mark: IDR 27,050 (WebSearch; TradingView/Investing.com Apr 28) → +3.74% from entry. Below +7% trailing activation (27,900). Stop unchanged: hard-cut 24,250.
+- BBRI mark: IDR 3,080 (WebSearch; TradingView/Investing.com Apr 28) → −5.52% from entry. Above hard-cut 3,031 (−1.59% further room). Stop unchanged: hard-cut 3,031.
+- Hard cuts (≤−7%): none.
+- Tightening (+15% / +20%): none — no position at threshold.
+- Thesis checks:
+  - ITMG: Newcastle coal $129/t — below $130 thesis floor (second print, same level as Apr 27) but ABOVE $125 thesis-break exit signal. Coal +1.76% on the day. Thesis intact under watch.
+  - BBRI: Q1 2026 earnings Wed Apr 29 after hours (T−1, the binary catalyst). 2026 loan growth guided 7–9%, NIM 7.4–7.8%; Q4 2025 beat. Fitch outlook cut to negative on big-4 banks already absorbed. Thesis intact pending earnings print.
+- Intraday move check: no position >3% move requiring ad-hoc research. ITMG ~flat to morning mark, BBRI flat — within normal range.
+- Market-data.sh yfinance unavailable (same infra condition since Apr 21) — broker.sh quote returned stale fallback (entry prices); WebSearch override used for both marks.
+- Decision: HOLD both. No sells, no stop modifications, no research addendum required.
+
+---
+
 ### 2026-04-28 09:15 WIB — MARKET-OPEN (no trades)
 
 - Side: NONE — no orders placed
