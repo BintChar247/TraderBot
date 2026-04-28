@@ -110,6 +110,21 @@
       "positions_count": 2,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-04-28",
+      "day_label": "Day 7",
+      "portfolio_value": 9987017500,
+      "cash": 8570952500,
+      "daily_pnl_idr": 37537500,
+      "daily_pnl_pct": 0.38,
+      "cumulative_pnl_pct": -0.13,
+      "ihsg_close": 7057.0,
+      "ihsg_cumulative_pct": -7.56,
+      "alpha_pct": 7.43,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -118,14 +133,14 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 25675,
-      "unrealized_pct": -1.53,
+      "current_price": 27050,
+      "unrealized_pct": 3.74,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "watch",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 114% EPS beat unreacted; Newcastle $129/t below $130 floor (above $125 break); May 7 earnings"
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $133.75/t back above $130 floor; May 7 earnings"
     },
     {
       "ticker": "BBRI",
@@ -139,7 +154,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-04-29",
-      "thesis": "Post-div re-entry in plan zone; Q1 earnings Apr 29 (T-2) is primary re-rating event"
+      "thesis": "Q1 2026 earnings Apr 29 (T-1, after-hours binary); post-div re-entry in plan zone"
     }
   ],
   "trades": [
@@ -772,9 +787,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.51,
-    "ihsg_return_pct": -6.12,
-    "alpha_pct": 5.62,
+    "total_return_pct": -0.13,
+    "ihsg_return_pct": -7.56,
+    "alpha_pct": 7.43,
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
@@ -783,19 +798,19 @@
     "avg_winner_pct": 0.0,
     "avg_loser_pct": 0.0,
     "profit_factor": 0.0,
-    "max_drawdown_pct": -0.77,
+    "max_drawdown_pct": -0.4,
     "best_trade": null,
     "worst_trade": null,
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9949480000,
-    "cum_return_pct": -0.51,
-    "ihsg_cum_pct": -6.12,
-    "cum_alpha_pct": 5.62,
+    "current_equity": 9987017500,
+    "cum_return_pct": -0.13,
+    "ihsg_cum_pct": -7.56,
+    "cum_alpha_pct": 7.43,
     "positions_count": 2,
-    "cash_pct": 86.14,
+    "cash_pct": 85.82,
     "trades_this_week": 0,
-    "last_updated": "2026-04-27"
+    "last_updated": "2026-04-28"
   },
   "risk": {
     "beta_ihsg": null,
@@ -803,17 +818,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -0.77,
+    "drawdown_from_peak_pct": -0.4,
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.28,
-    "weekly_pnl_pct": -0.28,
+    "daily_pnl_pct": 0.38,
+    "weekly_pnl_pct": 0.1,
     "peak_equity": 10026617500,
-    "current_equity": 9949480000,
+    "current_equity": 9987017500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-04-27"
+    "updated": "2026-04-28"
   },
   "activity_log": [
     {
@@ -1212,6 +1227,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered, no stops tightened. ITMG +3.74%, BBRI -5.52%."
+    },
+    {
+      "timestamp": "2026-04-28T08:32:15Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "Day 7 EOD: IDR 9.987B (+0.38%). Alpha +1.91% vs IHSG today; cum alpha +7.43%. Positions 2 (ITMG +3.74%, BBRI -5.52%). Trades this week: 0/3. No risk alerts. Telegram 403 (host allowlist) \u2014 fell back to stdout.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 7 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG IDR 27,050; BBRI IDR 3,080 (WebSearch override; yfinance still blocked)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (403 host not in allowlist) \u2014 fell back to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
