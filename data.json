@@ -1,0 +1,1381 @@
+{
+  "trial": {
+    "start_date": "2026-04-20",
+    "end_date": "2026-05-02",
+    "starting_capital": 10000000000,
+    "currency": "IDR"
+  },
+  "daily": [
+    {
+      "date": "2026-04-19",
+      "day_label": "Day 0",
+      "portfolio_value": 10000000000,
+      "cash": 10000000000,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.0,
+      "ihsg_close": 7634.0,
+      "ihsg_cumulative_pct": 0.0,
+      "alpha_pct": 0.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
+    },
+    {
+      "date": "2026-04-20",
+      "day_label": "Day 1",
+      "portfolio_value": 10000000000,
+      "cash": 9288152500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.0,
+      "ihsg_close": 7594.0,
+      "ihsg_cumulative_pct": -0.52,
+      "alpha_pct": 0.52,
+      "positions_count": 1,
+      "trades_today": 1,
+      "trades_this_week": 1
+    },
+    {
+      "date": "2026-04-21",
+      "day_label": "Day 2",
+      "portfolio_value": 10020475000,
+      "cash": 9288152500,
+      "daily_pnl_idr": 20475000,
+      "daily_pnl_pct": 0.2,
+      "cumulative_pnl_pct": 0.2,
+      "ihsg_close": 7539.0,
+      "ihsg_cumulative_pct": -1.24,
+      "alpha_pct": 1.44,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 1
+    },
+    {
+      "date": "2026-04-22",
+      "day_label": "Day 3",
+      "portfolio_value": 10026617500,
+      "cash": 9288152500,
+      "daily_pnl_idr": 6142500,
+      "daily_pnl_pct": 0.06,
+      "cumulative_pnl_pct": 0.27,
+      "ihsg_close": 7550.0,
+      "ihsg_cumulative_pct": -1.1,
+      "alpha_pct": 1.37,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 1
+    },
+    {
+      "date": "2026-04-23",
+      "day_label": "Day 4",
+      "portfolio_value": 10026617500,
+      "cash": 8570952500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.27,
+      "ihsg_close": 7489.82,
+      "ihsg_cumulative_pct": -1.89,
+      "alpha_pct": 2.15,
+      "positions_count": 2,
+      "trades_today": 1,
+      "trades_this_week": 2
+    },
+    {
+      "date": "2026-04-24",
+      "day_label": "Day 5",
+      "portfolio_value": 9977462500,
+      "cash": 8570952500,
+      "daily_pnl_idr": -49155000,
+      "daily_pnl_pct": -0.49,
+      "cumulative_pnl_pct": -0.23,
+      "ihsg_close": 7378.0,
+      "ihsg_cumulative_pct": -3.35,
+      "alpha_pct": 3.12,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 2
+    },
+    {
+      "date": "2026-04-27",
+      "day_label": "Day 6",
+      "portfolio_value": 9949480000,
+      "cash": 8570952500,
+      "daily_pnl_idr": -27982500,
+      "daily_pnl_pct": -0.28,
+      "cumulative_pnl_pct": -0.51,
+      "ihsg_close": 7166.56,
+      "ihsg_cumulative_pct": -6.12,
+      "alpha_pct": 5.62,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 0
+    },
+    {
+      "date": "2026-04-28",
+      "day_label": "Day 7",
+      "portfolio_value": 9987017500,
+      "cash": 8570952500,
+      "daily_pnl_idr": 37537500,
+      "daily_pnl_pct": 0.38,
+      "cumulative_pnl_pct": -0.13,
+      "ihsg_close": 7057.0,
+      "ihsg_cumulative_pct": -7.56,
+      "alpha_pct": 7.43,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 0
+    }
+  ],
+  "positions": [
+    {
+      "ticker": "ITMG",
+      "entry_date": "2026-04-20",
+      "entry_price": 26075,
+      "shares": 27300,
+      "current_price": 27050,
+      "unrealized_pct": 3.74,
+      "hard_cut": 24250,
+      "trail_stop": null,
+      "stop_state": "hard-cut",
+      "thesis_state": "watch",
+      "catalyst_date": "2026-05-07",
+      "thesis": "Q1 114% EPS beat unreacted; Newcastle $133.75/t back above $130 floor; May 7 earnings"
+    },
+    {
+      "ticker": "BBRI",
+      "entry_date": "2026-04-23",
+      "entry_price": 3260,
+      "shares": 220000,
+      "current_price": 3080,
+      "unrealized_pct": -5.52,
+      "hard_cut": 3031,
+      "trail_stop": null,
+      "stop_state": "hard-cut",
+      "thesis_state": "valid",
+      "catalyst_date": "2026-04-29",
+      "thesis": "Q1 2026 earnings Apr 29 (T-1, after-hours binary); post-div re-entry in plan zone"
+    }
+  ],
+  "trades": [
+    {
+      "date": "2026-04-20",
+      "ticker": "ITMG",
+      "side": "buy",
+      "shares": 27300,
+      "price": 26075,
+      "cost": 711847500,
+      "status": "open",
+      "realized_pnl_pct": null
+    },
+    {
+      "date": "2026-04-23",
+      "ticker": "BBRI",
+      "side": "buy",
+      "shares": 220000,
+      "price": 3260,
+      "cost": 717200000,
+      "status": "open",
+      "realized_pnl_pct": null
+    }
+  ],
+  "decisions": [
+    {
+      "ticker": "ITMG",
+      "action": "BUY",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": 27300,
+      "price": 26075,
+      "thesis": "Q1 2026 EPS IDR 890 vs consensus IDR 416 \u2014 114% beat unreacted. Newcastle coal $131/t +40.5% YoY.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 EPS IDR 890 vs consensus 416 (114% beat)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal $131/t, +40.5% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "IHSG 7,594 (-0.52%) \u2014 slight risk-off but above 7,500 support"
+        },
+        {
+          "type": "macro",
+          "label": "Coal sector momentum score 9/10"
+        },
+        {
+          "type": "risk",
+          "label": "Risk budget: 50bps (under 75bps cap)"
+        },
+        {
+          "type": "sizing",
+          "label": "Risk-based: 27,300sh \u00d7 IDR 1,825 risk/sh = IDR 49.8M risk"
+        }
+      ],
+      "reasoning": "ITMG opened at IDR 26,075 \u2014 below planned entry range 27,000-27,200, giving a better price with unchanged thesis. All 15 gates passed. Position sized via risk formula: (0.5% equity) / (entry - hard-cut) = 27,300 shares = 7.12% of equity. BBRI skipped: ex-div April 21, pre-div price 3,440 far above post-div plan 3,200-3,250 (Gate 9 fail + hard-cut risk). ANTM skipped: price 4,010 above researcher's own entry ceiling of 3,960.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": 3440,
+      "thesis": "Ex-dividend April 21 \u2014 pre-div price 3,440 too far above post-div entry plan (3,200-3,250).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Apr 21: IDR 209/share (10.1% yield)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9: price 3,440 vs plan 3,220 = +6.8% drift (max 3%)"
+        },
+        {
+          "type": "risk",
+          "label": "Hard cut 3,199 would be below ex-div adjusted open ~3,231"
+        }
+      ],
+      "reasoning": "Re-evaluate April 21 at post-ex-div open. Target entry: IDR 3,200-3,250.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": 4010,
+      "thesis": "HPM Decree 144 re-rating thesis intact but price opened above researcher's entry ceiling.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144: ore price factor 17%\u219230%"
+        },
+        {
+          "type": "risk",
+          "label": "Price 4,010 above researcher's ceiling 3,960 (own rule)"
+        },
+        {
+          "type": "macro",
+          "label": "Nickel $17,635 (+4.81% MoM) supportive"
+        }
+      ],
+      "reasoning": "Thesis valid but entry discipline requires waiting for pullback to 3,900-3,960. Do not chase. Will monitor daily.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Quote infrastructure down \u2014 yfinance blocked; no live price to gate against. Failed gates 3/4/7.",
+      "inputs": [
+        {
+          "type": "risk",
+          "label": "Gates 3/4/7 failed: position cost, cash check, ADV all unresolvable"
+        },
+        {
+          "type": "risk",
+          "label": "market-data.sh yfinance egress blocked \u2014 no live quote"
+        },
+        {
+          "type": "catalyst",
+          "label": "HPM decree thesis still valid; waiting for price re-validation"
+        }
+      ],
+      "reasoning": "Refuse to trade on stale/missing price data. Hardening kept us out.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Quote infrastructure down \u2014 same as ANTM. Post-ex-div BBRI plan held for tomorrow.",
+      "inputs": [
+        {
+          "type": "risk",
+          "label": "Gates 3/4/7 failed: same quote outage"
+        },
+        {
+          "type": "catalyst",
+          "label": "Post-ex-div plan 3,200-3,250 still intact; re-evaluate tomorrow"
+        }
+      ],
+      "reasoning": "No live BBRI quote means no way to validate 3% chase-guard. Defer.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "BUY",
+      "date": "2026-04-23",
+      "time": "09:15 WIB",
+      "shares": 220000,
+      "price": 3260,
+      "thesis": "Post-ex-div re-entry at 3,260 (within 3,200-3,250 plan + 0.3%). Q1 2026 earnings Apr 29 (T-4) re-rating catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 2026 earnings Apr 29 (T-4 trading days)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Post-ex-div absorption complete; price in plan range"
+        },
+        {
+          "type": "catalyst",
+          "label": "BlackRock/JPMorgan institutional accumulation narrative"
+        },
+        {
+          "type": "macro",
+          "label": "Banking sector resilient vs EM-OUTFLOW regime"
+        },
+        {
+          "type": "risk",
+          "label": "Risk budget: 50bps (220k sh * 229 IDR risk = IDR 50.4M)"
+        },
+        {
+          "type": "sizing",
+          "label": "7.15% of equity \u2014 under 15% regime cap"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance still blocked)"
+        }
+      ],
+      "reasoning": "All 15 gates passed with WebSearch price override. Hard cut set at IDR 3,031.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ANTM price above 3,960 research ceiling. Chase-guard (Gate 9) rejects.",
+      "inputs": [
+        {
+          "type": "risk",
+          "label": "Gate 9 failed: ANTM price exceeds researcher ceiling 3,960"
+        },
+        {
+          "type": "catalyst",
+          "label": "HPM decree thesis intact but entry discipline required"
+        },
+        {
+          "type": "risk",
+          "label": "ITMG + BBRI already held (2/6 positions); space for 1 more trade this week"
+        }
+      ],
+      "reasoning": "Do not chase. Wait for pullback to 3,800-3,870 plan range.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Pulled-back nickel name (3,670 vs prior 4,100) but HPM catalyst stale (T+12) and LME nickel range-bound; no discrete near-term catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144 stale (12 days post-event); no fresh nickel news"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW regime intact; IDR 17,174 still elevated; coal $129 below $130 floor"
+        },
+        {
+          "type": "risk",
+          "label": "Final trial week (5 days left) \u2014 closing-week tail risk for limited upside"
+        },
+        {
+          "type": "sizing",
+          "label": "Eagerness check FAIL: trading because slot 0/3 used, not because thesis compelling"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Pulled-back price alone is not a catalyst. No discrete event inside 3 trading days; HPM thesis stale. Defer until LME nickel inflection or fresh news.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-04-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Second nickel play but WebSearch price quotes split 5,575 vs 6,800 \u2014 data-quality failure prevents safe gate-9 chase check.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Same HPM nickel thesis as ANTM; no idiosyncratic catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "Nickel sector range-bound; LME flat $18,100"
+        },
+        {
+          "type": "risk",
+          "label": "Price source unreliable (5,575 vs 6,800 spread); cannot confirm gate 9"
+        },
+        {
+          "type": "sizing",
+          "label": "Skip on data integrity, not on thesis"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override unreliable (data quality)"
+        }
+      ],
+      "reasoning": "Cannot place a buy with two WebSearch sources disagreeing by ~20%. Discipline: no trade without confirmed price.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel re-evaluation; HPM Decree 144 catalyst now T+13 stale and LME nickel range-bound \u2014 no discrete near-term catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144 stale (T+13 days); no fresh nickel news today"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW regime intact; IDR 17,219 (firmer at margin); coal recovered to $133.75"
+        },
+        {
+          "type": "risk",
+          "label": "Final trial week \u2014 4 trading days remain; closing-week tail risk"
+        },
+        {
+          "type": "sizing",
+          "label": "Eagerness check FAIL: weekly slot 0/3 + final-week clock"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "No fresh near-term catalyst; pullback alone is not a thesis. Defer until LME nickel inflection or genuine sector news.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-04-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Same nickel thesis as ANTM but data integrity unresolved \u2014 multi-source WebSearch price spread blocks gate-9 chase check.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Same stale HPM nickel thesis; no idiosyncratic catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "LME nickel flat ~$18,100; range-bound"
+        },
+        {
+          "type": "risk",
+          "label": "Price source unreliable; cannot confirm gate 9 chase tolerance"
+        },
+        {
+          "type": "sizing",
+          "label": "Skip on data integrity, not on thesis"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price spread (yfinance blocked, data quality issue)"
+        }
+      ],
+      "reasoning": "Cannot place a buy without a confirmed price. Discipline: no trade without trustworthy data.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Add-on into Q1 2026 earnings T-1 binary + Fitch outlook downgrade overhang = wrong sizing decision.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 2026 earnings T-1 (Wed Apr 29 after-hours) is the binary"
+        },
+        {
+          "type": "macro",
+          "label": "Fitch cut outlook on BBCA/BBRI/BMRI/BBNI from stable to negative"
+        },
+        {
+          "type": "risk",
+          "label": "Already 7.15% sized; adding pre-binary doubles unconfirmed thesis"
+        },
+        {
+          "type": "sizing",
+          "label": "Discipline skip; eagerness check FAIL"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Discipline says do not double down before a binary. Wait for Wed earnings print before any add-on consideration.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-04-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Coal back above $130 floor is supportive but not a discrete fresh add-on catalyst; already held.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal $133.75/t \u2014 back above $130 thesis floor (vs Apr 27 $129)"
+        },
+        {
+          "type": "macro",
+          "label": "Coal-floor break was single-print; need second print >=$130 to fully confirm"
+        },
+        {
+          "type": "risk",
+          "label": "Already held 7.31% Coal exposure; sector concentration discipline"
+        },
+        {
+          "type": "sizing",
+          "label": "No add-on; one-day recovery insufficient for fresh entry"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Coal recovery is encouraging but a single print is not a fresh discrete catalyst. Hold existing position; no add-on.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    }
+  ],
+  "stats": {
+    "total_return_pct": -0.13,
+    "ihsg_return_pct": -7.56,
+    "alpha_pct": 7.43,
+    "win_rate_pct": 0.0,
+    "total_trades": 2,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "open_trades": 2,
+    "avg_winner_pct": 0.0,
+    "avg_loser_pct": 0.0,
+    "profit_factor": 0.0,
+    "max_drawdown_pct": -0.4,
+    "best_trade": null,
+    "worst_trade": null,
+    "rules_followed": true,
+    "violations": [],
+    "current_equity": 9987017500,
+    "cum_return_pct": -0.13,
+    "ihsg_cum_pct": -7.56,
+    "cum_alpha_pct": 7.43,
+    "positions_count": 2,
+    "cash_pct": 85.82,
+    "trades_this_week": 0,
+    "last_updated": "2026-04-28"
+  },
+  "risk": {
+    "beta_ihsg": null,
+    "var_95_1d_pct": null,
+    "annual_vol_pct": null,
+    "sharpe_10d": null,
+    "sortino_10d": null,
+    "drawdown_from_peak_pct": -0.4,
+    "risk_budget_used_pct": 1.0,
+    "risk_budget_cap_pct": 5.0,
+    "note": "Populated by performance.py risk after Day 1",
+    "daily_pnl_pct": 0.38,
+    "weekly_pnl_pct": 0.1,
+    "peak_equity": 10026617500,
+    "current_equity": 9987017500,
+    "trading_halted": false,
+    "halt_reason": null,
+    "updated": "2026-04-28"
+  },
+  "activity_log": [
+    {
+      "timestamp": "2026-04-20T14:55:43Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "Day 1: BUY ITMG 27,300sh @ 26,075 (7.12% of equity, 50bps risk). Hard cut: 24,250. Target: 31,500. BBRI/ANTM skipped (ex-div timing / above entry ceiling).",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 26075, cost IDR 711.8M"
+        },
+        {
+          "type": "stop",
+          "ticker": "ITMG",
+          "detail": "hard-cut @ 24250 (-7%)"
+        },
+        {
+          "type": "research",
+          "detail": "BBRI skipped: ex-div tomorrow"
+        },
+        {
+          "type": "research",
+          "detail": "ANTM skipped: price 4010 above ceiling 3960"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T13:25:09Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 2 EOD: IDR 10.02B (+0.20%). Alpha +0.92% vs IHSG. 1 position open (ITMG +2.88%). Trades this week: 1/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 2 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked to IDR 26,825"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-21T13:46:42Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Trial Day 3 pre-market. Scanned 20 tickers. 5 candidates scored \u22656: BBRI (8, ex-div + Apr 29 earnings), ITMG (8, HOLD), ANTM (7, HPM), INCO (7, nickel), ICBP (6). IHSG 7,539 (-0.72%). Regime EM-OUTFLOW unchanged.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "20 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 8/10 - ex-div today + Q1 earnings Apr 29"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 7/10 - HPM decree nickel rally"
+        },
+        {
+          "type": "research",
+          "ticker": "INCO",
+          "detail": "score 7/10 - Vale nickel breakout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T00:51:16Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 5 candidates scored >=6: BBRI/ANTM (7), BMRI/INCO/MBMA (6). Top picks: ANTM (HPM tailwind), BBRI (Q1 earnings). Regime: EM OUTFLOW \u2014 15% pos cap.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 7/10 \u2014 HPM Decree 144 tailwind; pullback entry"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 post-ex-div recovery; Q1 earnings Apr 29"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "HOLD +1.92% unrealised; coal $132/t supportive"
+        }
+      ],
+      "commit_hash": "ce53b0d",
+      "commit_message": "pre-market 2026-04-22: 5 candidates; ANTM/BBRI lead"
+    },
+    {
+      "timestamp": "2026-04-22T02:23:50Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. ANTM + BBRI gate-check rejected (gates 3/4/7 failed: market-data.sh quote infra down, yfinance unreachable). ITMG hold. Weekly 1/3.",
+      "actions": [
+        {
+          "type": "gate-reject",
+          "ticker": "ANTM",
+          "detail": "planned 380000sh @ 3850-3960; rejected on gate 3/4/7 (no live quote)"
+        },
+        {
+          "type": "gate-reject",
+          "ticker": "BBRI",
+          "detail": "planned 425000sh @ 3400-3480; rejected on gate 3/4/7 (no live quote)"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 26075, stop 24250 (hard-cut)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T04:33:31Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. ITMG stable at entry (stale quote; yesterday's close +2.88%). No cuts, no stop tightens, no thesis breaks."
+    },
+    {
+      "timestamp": "2026-04-22T08:32:57Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% vs IHSG today; cumulative alpha +1.37%. 1 position open (ITMG +3.74%). Trades this week: 1/3. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 3 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked to IDR 27,050 (TradingView/sectors.app; market-data.sh yfinance still unavailable)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker position matches TRADE-LOG (27,300 sh @ 26,075)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-22T08:33:16Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% today; cum. +1.37% vs IHSG. 1 position open (ITMG +3.74%). Trades this week: 1/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 3 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked to IDR 27,050"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker position matches TRADE-LOG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-23T02:29:23Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "BUY BBRI 220000sh @ 3260 (post-div re-entry; Q1 earnings Apr 29 catalyst). ITMG held (+3.74%). ANTM skipped (+3.5% above plan ceiling = chase). Research written inline (fallback).",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "BBRI",
+          "detail": "220000sh @ 3260 (WebSearch override; yfinance blocked)"
+        },
+        {
+          "type": "stop",
+          "ticker": "BBRI",
+          "detail": "hard-cut @ 3031 (-7%)"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27300sh; stop 24250 hard-cut unchanged"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance down)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send blocked by host allowlist; fallback to stdout"
+        },
+        {
+          "type": "research",
+          "detail": "Pre-market fallback: 2026-04-23 entry written inline at market-open"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-23T04:34:10Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy (ITMG +3.74%, BBRI 0.00%). No cuts, no tightening, no thesis breaks."
+    },
+    {
+      "timestamp": "2026-04-23T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 4 EOD: IDR 10.027B (0.00% day). Alpha +0.69% vs IHSG today; cum. +2.15%. 2 positions open (ITMG +3.74%, BBRI 0.00%). Trades this week: 2/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 4 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG marked IDR 27,050; BBRI marked IDR 3,260 (WebSearch override; yfinance still down)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-23T08:33:05Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 4 EOD: IDR 10.027B (0.00% day). Alpha +0.69% vs IHSG today; cum. +2.15%. 2 positions open (ITMG +3.74%, BBRI 0.00%). Trades this week: 2/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 4 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG IDR 27,050; BBRI IDR 3,260 (WebSearch override)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-24T02:27:43Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 9-gate: ITMG/BBRI already held (HOLD); ANTM fails gate 9 (price 4,100 = +3.5% above plan ceiling 3,960, > 3% chase tolerance). Eagerness check FAIL: Friday + IDR record low 17,322 + IHSG -2.16% yesterday + BBRI earnings T-3 = no-trade is correct. Weekly trades 2/3 unchanged.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "+2.88% unrealised; stop unchanged 24,250 hard-cut"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "flat; stop unchanged 3,031 hard-cut; Q1 earnings T-3"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "gate 9 fail (chase > 3%)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price sourcing used (yfinance blocked)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-24T04:39:56Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts triggered, no stop tightening required. ITMG +3.74%, BBRI -0.92%; both below +7% trail activation and above hard-cut."
+    },
+    {
+      "timestamp": "2026-04-24T08:35:39Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 5: IDR 9.977B (\u22120.49%). Alpha +1.00% vs IHSG. 2 positions open (ITMG +2.40%, BBRI \u22125.52%). Trades this week: 2/3. Cum alpha +3.12%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 5 / Week 1 close snapshot committed"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-27T02:29:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Week 2 Day 1 \u2014 regime EM-OUTFLOW intact; coal $129/t below $130 ITMG thesis floor; BBRI Q1 earnings T-2 (Wed Apr 29); ANTM HPM catalyst stale (T+12); INCO data unreliable (5,575 vs 6,800 spread). Held ITMG + BBRI; stops unchanged.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300sh @ 26,075; +3.74% unrealised; stop 24,250 (hard-cut); coal-floor watch"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "220,000sh @ 3,260; ~flat; stop 3,031 (hard-cut); Q1 earnings T-2"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "HPM catalyst stale; LME nickel range-bound; eagerness FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "WebSearch price data unreliable (5,575 vs 6,800)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance blocked since Apr 21)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify HTTP 403 (host not in allowlist) \u2014 fell back to stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-27T04:35:58Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts, no stop tightenings. ITMG +2.88%, BBRI -5.52% (T-2 to Q1)."
+    },
+    {
+      "timestamp": "2026-04-27T08:37:25Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 6: IDR 9.95B (-0.28%). Daily alpha -0.80% (first negative daily alpha; ITMG -2.75% on coal weakness). Cum alpha +5.62% vs IHSG. Positions 2 (ITMG -1.53%, BBRI -5.52%). Trades this week: 0/3. DATA CORRECTION: Apr 24 IHSG actual close 7,129.49 vs prior log 7,378.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 6 EOD snapshot committed; baseline IHSG corrected"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-28T02:26:01Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 4 candidates (ANTM, INCO, BBRI add-on, ITMG add-on) SKIPPED. Eagerness check FAIL; BBRI Q1 binary T-1; HOLD ITMG + BBRI.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "Gate 5 catalyst freshness (HPM T+13 stale)"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "Gate 9 chase / data integrity (price spread unresolved)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "Discipline (T-1 Q1 earnings + Fitch downgrade)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG",
+          "detail": "Single-day coal recovery insufficient for add-on"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (403 host not in allowlist)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-28T04:35:56Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts triggered, no stops tightened. ITMG +3.74%, BBRI -5.52%."
+    },
+    {
+      "timestamp": "2026-04-28T08:32:15Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "Day 7 EOD: IDR 9.987B (+0.38%). Alpha +1.91% vs IHSG today; cum alpha +7.43%. Positions 2 (ITMG +3.74%, BBRI -5.52%). Trades this week: 0/3. No risk alerts. Telegram 403 (host allowlist) \u2014 fell back to stdout.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 7 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG IDR 27,050; BBRI IDR 3,080 (WebSearch override; yfinance still blocked)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (403 host not in allowlist) \u2014 fell back to stdout"
+        }
+      ]
+    }
+  ],
+  "exposure": {
+    "sectors": {},
+    "factors": {
+      "ihsg": null,
+      "idr": null,
+      "coal": null,
+      "nickel": null,
+      "bi_rate": null
+    },
+    "note": "Populated by performance.py after positions are open"
+  },
+  "macro": {
+    "ihsg": 7634.0,
+    "ihsg_change_pct": 0.6,
+    "idr_usd": 17115,
+    "idr_usd_change_pct": -0.97,
+    "coal_usd": 131.0,
+    "coal_change_pct": -1.9,
+    "nickel_usd": 17635,
+    "nickel_change_pct": 4.81,
+    "cpo_myr": 4495,
+    "cpo_change_pct": -0.5,
+    "bi_rate": 4.75,
+    "bi_rate_note": "Held; cut scope limited",
+    "asia_sentiment": "Mixed (Nikkei -1.75%, HSI -1.01%)",
+    "foreign_flow_idr_bn": -3310,
+    "updated": "2026-04-19"
+  },
+  "research": {
+    "date": "2026-04-19",
+    "headlines": [
+      {
+        "ticker": "ITMG",
+        "headline": "Q1 2026 EPS IDR 890 vs consensus IDR 416 \u2014 114% earnings beat confirmed",
+        "sentiment": "bullish",
+        "source": "IDX Disclosure"
+      },
+      {
+        "ticker": "BBRI",
+        "headline": "Ex-dividend April 21 (IDR 209/share, 10.1% yield); BlackRock +19M shares in April accumulation",
+        "sentiment": "bullish",
+        "source": "IDX Corporate Action"
+      },
+      {
+        "ticker": "ANTM",
+        "headline": "ESDM HPM Decree 144 raised ore correction factor 17%\u219230%; nickel $17,635 (+4.81% MoM)",
+        "sentiment": "bullish",
+        "source": "Ministry of Energy"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "US-Iran 2-week ceasefire + Strait of Hormuz reopened \u2014 risk-ON signal for Monday open",
+        "sentiment": "bullish",
+        "source": "Reuters"
+      },
+      {
+        "ticker": "BI",
+        "headline": "Bank Indonesia holds BI-Rate at 4.75%; Governor: cut scope increasingly limited due to IDR pressure",
+        "sentiment": "neutral",
+        "source": "Bank Indonesia"
+      },
+      {
+        "ticker": "CPO",
+        "headline": "Palm oil exports -34% in first 10 days of April; agri/CPO sector on AVOID list",
+        "sentiment": "bearish",
+        "source": "GAPKI"
+      },
+      {
+        "ticker": "COAL",
+        "headline": "Newcastle coal consolidating at $131/ton after March surge; Middle East risk premium intact (+40.5% YoY)",
+        "sentiment": "bullish",
+        "source": "GlobalCOAL"
+      },
+      {
+        "ticker": "IDR",
+        "headline": "Rupiah at 17,115/USD near record lows; BI focused on stability over growth",
+        "sentiment": "bearish",
+        "source": "BI / Bloomberg"
+      }
+    ],
+    "sector_momentum": [
+      {
+        "sector": "Banking",
+        "trend": "bullish",
+        "score": 8,
+        "note": "BBRI ex-div Apr 21; Q1 Apr 29; BlackRock accumulating"
+      },
+      {
+        "sector": "Coal / Energy",
+        "trend": "bullish",
+        "score": 9,
+        "note": "ITMG 114% Q1 beat; Newcastle $131; May 7 print"
+      },
+      {
+        "sector": "Nickel / Mining",
+        "trend": "bullish",
+        "score": 7,
+        "note": "HPM reform structural re-rating; ANTM +4% this week"
+      },
+      {
+        "sector": "CPO / Agri",
+        "trend": "bearish",
+        "score": 2,
+        "note": "Exports -34%; no recovery signal; AVOID"
+      },
+      {
+        "sector": "Property",
+        "trend": "neutral",
+        "score": 4,
+        "note": "BI rate cut scope shrinking; no catalyst"
+      },
+      {
+        "sector": "Consumer",
+        "trend": "neutral",
+        "score": 4,
+        "note": "IDR weakness on imported inputs"
+      },
+      {
+        "sector": "Telco",
+        "trend": "neutral",
+        "score": 5,
+        "note": "No specific catalyst this week"
+      }
+    ]
+  }
+}
