@@ -1208,3 +1208,80 @@ _Pre-market routine did not fire today (2026-04-27). Research written inline at 
 - [ANTM quote (Investing.com)](https://www.investing.com/equities/aneka-tambang)
 
 ---
+
+## 2026-04-28 (Tuesday — Week 2 Day 2) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today. Research written inline at market-open per routine STEP 1 fallback. Source: WebSearch — yfinance remains blocked (same infra condition since Apr 21)._
+
+### Global Overnight
+
+| Market | Level / Price | Source | Note |
+|--------|---------------|--------|------|
+| IHSG (Apr 27 close) | 7,166.56 (+0.52%) | databoks/asatunews carry-over | Tue intraday softer; market reportedly closed +0.04% on the day |
+| USD/IDR | ~17,219 (range 17,188–17,338) | tradingeconomics, exchange-rates.org | Modestly firmer rupiah trend; off Friday's 17,322 record |
+| Newcastle coal | $133.75/t (open $133.70, range $136.50) | tradingeconomics, investing.com | **BACK ABOVE the $130 thesis floor** — supportive for ITMG |
+| Brent crude | ~$101/bbl | (carry-over) | Hormuz/Iran ceasefire fragile per overnight headlines |
+| LME nickel | ~$18,100/t | (carry-over) | Range-bound; no fresh catalyst |
+
+### Macro Snapshot
+
+- **IHSG holding above 7,100**: Apr 27 closed +0.52% (7,166.56 estimate). Apr 28 reportedly closed +0.04% per Investing.com headline — a flat consolidation day after Monday's bounce. Technical reaction to last week's −3.35% remains tentative.
+- **Rupiah firmer at the margin**: 17,219 area is below Friday's 17,322 record but still in EM-stress range. Bloomberg headlines flag "second session of strength" — incremental positive but insufficient to flip regime.
+- **Coal recovers $130 floor**: Newcastle $133.75/t vs Apr 27's $129/t. The thesis-floor break was a single-print event, not a trend break. ITMG thesis intact.
+- **BBRI Q1 2026 earnings T−1**: Wednesday Apr 29 after-hours print is THE binary catalyst. Prior quarter beat consensus +12.86%. Position outcome decided tomorrow.
+- **Banking sector overhang**: Fitch outlook cut for BBCA/BBRI/BMRI/BBNI from stable to negative (per overnight wires). Marginal incremental headwind for BBRI but does not change Q1 earnings binary.
+- **Trial calendar**: Apr 28 (Tue) → 4 trading days remain to May 2 close. Window for new catalyst-driven entries is narrowing.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| ITMG | ~25,850 (−2.08%) | Yahoo Finance Apr 28 | Held; entry 26,075; mark −0.86%; coal recovering |
+| BBRI | 3,080 (flat) | TradingView / sectors.app | Held; entry 3,260; T−1 Q1 print; Fitch negative outlook |
+| ANTM | (no fresh discrete catalyst) | n/a | LME nickel range-bound; HPM Decree 144 now T+13 stale |
+| INCO | (data quality unresolved) | mixed | Same dual-source spread issue as Apr 27; SKIP on integrity |
+
+### Held Position Updates
+
+- **ITMG** at ~25,850 IDR. Unrealised −0.86% from entry 26,075. State 1 hard-cut at 24,250 unchanged (further −6.19% room). Coal back above $130 floor — thesis floor restored. Below +7% trail activation (27,900). **Action: HOLD.**
+- **BBRI** at 3,080 IDR. Unrealised −5.52% from entry 3,260. State 1 hard-cut at 3,031 unchanged (further −1.59% room). Q1 2026 earnings T−1 (Wed Apr 29 after-hours). Fitch outlook cut to negative — incremental headwind but does not invalidate the Q1 binary. **Action: HOLD into earnings. If a thesis-breaking pre-print headline emerges intraday, exit before close.**
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged).** Max position 15% of equity. IDR ticking off the highs is supportive but not yet regime-change (would need IDR < 17,000 + foreign inflow + IHSG reclaim 7,500). Coal regaining $130 is a local positive but not regime-shift. Banking Fitch downgrade adds incremental sector caution.
+
+### Candidate Evaluation for Today
+
+**ANTM (re-evaluation):** No fresh catalyst since Apr 27. HPM Decree 144 now T+13 stale. LME nickel range-bound. Eagerness check FAIL. **Decision: SKIP — Gate 5 (catalyst freshness).**
+
+**INCO:** Data integrity unchanged from Apr 27 (multi-source spread). **Decision: SKIP on data integrity / Gate 9.**
+
+**BBRI add-on (pre-earnings):** Already 7.15% sized; adding into binary T−1 = doubling unconfirmed thesis + Fitch outlook cut overhang. **Decision: SKIP on discipline.**
+
+**ITMG add-on:** Coal recovering off the floor is supportive but not a discrete fresh catalyst; already held. **Decision: SKIP — sector concentration discipline.**
+
+### Flagged Risks
+
+- **BBRI binary T−1**: Q1 print could swing position 5–10%. Fitch outlook cut adds asymmetric downside if results disappoint. Hard cut 3,031 limits intraday damage.
+- **Coal sustainability**: $133.75 print is one day; need a second confirming print ≥$130 to fully restore conviction. A relapse to <$125 would be a thesis-break exit signal.
+- **Final-week tail risk**: 4 trading days left. New entries today face full close-out risk for marginal upside.
+- **Eagerness pressure**: 0/3 weekly slot + 14.1% deployed + final-week clock — classic forced-trade setup. Resist again.
+
+### Plan for /market-open (2026-04-28)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250. Coal-floor watch active (recovering signal). No action.
+- [ ] **HOLD BBRI.** Stop unchanged at 3,031. T−1 Q1 earnings. No action.
+- [ ] **ANTM — SKIP (Gate 5 catalyst freshness).**
+- [ ] **INCO — SKIP (Gate 9 / data integrity).**
+- [ ] **No add-ons; no new sectors.**
+- [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 0/3 (Week 2).
+
+### Sources
+
+- [Newcastle coal $133.75/t](https://tradingeconomics.com/commodity/coal)
+- [USD/IDR 17,219](https://tradingeconomics.com/indonesia/currency)
+- [BBRI quote (TradingView/sectors)](https://sectors.app/idx/bbri)
+- [ITMG quote (Yahoo Finance)](https://finance.yahoo.com/quote/ITMG.JK/)
+- [Indonesia stocks +0.04% Apr 28](https://www.investing.com/news/stock-market-news/indonesia-stocks-higher-at-close-of-trade-idx-composite-index-up-004-4637853)
+
+---
