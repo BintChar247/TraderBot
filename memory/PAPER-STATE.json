@@ -19,6 +19,6 @@
     }
   ],
   "closed_trades": [],
-  "updated": "2026-04-23",
+  "updated": "2026-04-29",
   "_trial_note": "Trial starts 2026-04-20. Positions array will be populated by broker.sh paper buy on first market-open execution. Cash will decrease by position cost on each buy."
 }

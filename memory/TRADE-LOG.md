@@ -10,8 +10,8 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle ~$132–133/t (2nd print ≥$130 confirms floor) (last mark 25,475; −2.30%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings TODAY Apr 29 after-hours (T−0 binary); 0.62% above hard-cut (last mark 3,050; −6.44%) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle ~$132–133/t (3rd print ≥$130 confirms floor) (last mark 25,475; −2.30%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings released Apr 29 after-hours; awaiting post-print reaction (last mark 3,060; −6.13%; 0.95% above hard-cut) |
 
 ---
 
@@ -602,3 +602,38 @@ Week 2 Day 3 (Wed). No trades placed. Both held positions HOLD per RESEARCH-LOG 
 - Intraday move check: no position >3% move requiring ad-hoc research. ITMG ~flat to morning mark, BBRI ~flat — within normal range.
 - Market-data.sh yfinance unavailable (same infra condition since Apr 21) — broker.sh quote returned stale fallback (entry prices); WebSearch override used for both marks.
 - Decision: HOLD both. No sells, no stop modifications, no research addendum required. **Post-earnings thesis check at next routine (15:15 EOD) is the next decision point.**
+
+---
+
+### 2026-04-29 EOD — Day 8 (Week 2 Day 3)
+
+- Total equity: IDR 9,939,620,000
+- Daily P&L: IDR −47,397,500 (−0.47%)
+- IHSG close (est): 7,055 (−0.25%; closed in zona merah per harianbasis; Apr 28 corrected baseline 7,072.39 per databoks/tradingeconomics)
+- Daily alpha: −0.23%
+- Cash: IDR 8,570,952,500 (86.23% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −60,380,000 (−0.60%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,055 = −7.58%): +6.98%
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,475 | −IDR 16,380,000 (−2.30%) | 7 |
+| BBRI | 220,000 | 3,260 | 3,060 | −IDR 44,000,000 (−6.13%) | 4 |
+
+#### Notes
+
+Day 8 of trial (Wed, Week 2 Day 3). **POSITION WARNING: BBRI at −6.13% (close 3,060), only IDR 29 / 0.95% buffer above hard-cut 3,031.** Q1 2026 earnings released TODAY after-hours — the binary catalyst defining BBRI outcome. Pre-print sentiment hostile: Fitch outlook cut to negative on big-4 banks; foreign selling on banking continued today; rupiah pierced 17,200 (peak intraday 17,322). Headlines (idnfinancials): "BBRI/BBCA at the lowest level". Tomorrow's open will reflect post-earnings reaction; if Q1 miss → hard cut likely fires at open; if beat-and-rerate → recovery candidate.
+
+Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market via WebSearch (market-data.sh yfinance still unavailable in this workspace — same infra condition since Apr 21): ITMG IDR 25,475 (+0.10% on day per Investing.com/Yahoo), BBRI IDR 3,060 (close per Google Finance/Investing.com; intraday low matched close — pre-earnings de-risking).
+
+DATA CORRECTION: Apr 28 IHSG actual close per databoks/tradingeconomics is 7,072.39 (vs prior log 7,057). Today's daily IHSG calculated against 7,072.39; cumulative IHSG against Day 0 baseline 7,634. IHSG Apr 29 closed in zona merah after morning session opened higher (open 7,092.585 +0.29%; session I close 7,080.632 +0.12%; session II reversed lower per harianbasis "IHSG Parkir di Zona Merah Sore Ini"). Estimate ~7,055 (−0.25%). Foreign sell-flow into banking + rupiah weakness drove the reversal.
+
+ITMG +0.10% on the day at 25,475 — coal Newcastle ~$132–133/t (3rd consecutive print ≥$130; floor confirmed); below +7% trail activation (27,900); stop unchanged at 24,250 (−4.81% further room). BBRI down 0.65% on the day to 3,060 (low equals close — weakness into earnings) — hard-cut 3,031 just 0.95% below. Drawdown from peak (10,026,617,500 on Apr 22): −0.87%. Sector exposure: Coal 7.00% + Banking 6.77% = 13.77% gross (well under caps).
+
+RISK ALERTS sent: ⚠️ POSITION WARNING — BBRI at −6.13%, approaching −7% hard cut. NO daily loss cap breach (−0.47% vs −2% cap). NO drawdown alert (−0.87% vs −15% cap).
+
+Watch tomorrow (Thu Apr 30): (a) **BBRI post-earnings open reaction — if Q1 miss + gap below 3,031, hard cut fires; if beat, recovery into final 2 trading days**; (b) Newcastle coal continuation (need ≥$130 to keep ITMG thesis intact); (c) IHSG technical reaction — failure to reclaim 7,072 keeps EM-OUTFLOW-RISK-CAUTIOUS regime in force; (d) IDR direction (17,322 record matched). Final 2 trading days of trial remain (May 1 likely Labor Day holiday → trial closes May 2 effectively).
