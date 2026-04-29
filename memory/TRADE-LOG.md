@@ -10,8 +10,8 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.75/t (back above $130 thesis floor) (last mark 27,050; +3.74%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings Apr 29 (T−1, after-hours binary); post-div entry in plan zone (last mark 3,080; −5.52%) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle ~$132–133/t (2nd print ≥$130 confirms floor) (last mark 25,475; −2.30%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings TODAY Apr 29 after-hours (T−0 binary); 0.62% above hard-cut (last mark 3,050; −6.44%) |
 
 ---
 
@@ -565,3 +565,24 @@ Week 2 Day 2 (Tue). No trades placed. Both held positions HOLD per RESEARCH-LOG 
 #### Notes
 
 Day 7 of trial (Tue, Week 2 Day 2). Broker reconciliation: both positions in broker (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260) match TRADE-LOG Active Positions — no discrepancy. Mark-to-market via WebSearch (market-data.sh yfinance still unavailable — same infra condition since Apr 21): ITMG IDR 27,050 (TradingView Apr 28; recovered from yesterday's 25,675 as coal rebounded), BBRI IDR 3,080 (Investing.com / TradingView Apr 28; flat at session-II close). IHSG closed 7,057 (−1.53% from Apr 27's 7,166.56) per Trading Economics — broad weakness with foreign outflow continuing despite IDR easing slightly to ~17,219. Portfolio gained +0.38% against a sharply red tape (daily alpha +1.91% — best single-day alpha since Apr 24); ITMG's coal-rebound bounce drove the day. Newcastle coal $133.75/t — BACK ABOVE the $130 ITMG thesis floor (vs Apr 27 sub-floor print of $129). Single-print sub-floor was not trend invalidation; thesis intact under watch (need second print ≥$130 to fully confirm floor recovery). ITMG +3.74%, still below +7% trailing-stop activation (27,900); stop unchanged at 24,250. BBRI flat at −5.52%, hard-cut 3,031 still −1.59% below current — Q1 earnings T−1 (Wed Apr 29 after-hours) is THE binary catalyst. Fitch outlook cut to negative on big-4 banks (BBCA/BBRI/BMRI/BBNI) is incremental headwind but does not flip the Q1 binary thesis. Drawdown from peak (10,026,617,500 on Apr 22): -0.40%. No risk alerts: no daily loss cap breach, no position at −6% or worse (BBRI at −5.52% — within 0.5pp of warning threshold, monitor at open tomorrow), no drawdown alert. Sector exposure: Coal 7.40% + Banking 6.78% = 14.18% gross (well under caps). Cumulative alpha since Day 0 expanded to +7.43% — best running alpha of the trial; cash defensiveness (85.82%) continues to pay off in EM-OUTFLOW regime. Watch tomorrow (Wed Apr 29): (a) **BBRI Q1 2026 earnings after-hours — the binary catalyst defining BBRI outcome**; (b) Newcastle coal continuation — second print ≥$130 confirms floor; (c) IDR direction; (d) IHSG technical reaction to today's 7,057 close (below 7,100 support).
+
+### 2026-04-29 09:15 WIB — MARKET-OPEN (no trades)
+
+- Side: NONE — no orders placed
+- Trades this week: 0/3 (Week 2)
+- Active positions held: ITMG (27,300 sh @ 26,075), BBRI (220,000 sh @ 3,260)
+- Stops unchanged: ITMG 24,250 (hard-cut); BBRI 3,031 (hard-cut)
+- Price source: WebSearch (yfinance blocked since Apr 21; broker.sh quote returned stale fallback note)
+
+#### Candidates Evaluated
+
+| Ticker | Decision | Gate Failed | Reason |
+|--------|----------|-------------|--------|
+| ANTM | SKIP | Gate 5 (catalyst freshness) | HPM Decree 144 catalyst now T+14 stale; no fresh nickel catalyst; LME nickel range-bound; eagerness check FAIL |
+| INCO | SKIP | Gate 9 (no chase) — data integrity | WebSearch price quotes still unresolved (multi-source spread same as Apr 27/28) |
+| BBRI add-on | SKIP | Discipline (T−0 binary) | Adding into Q1 earnings T−0 + Fitch outlook overhang = textbook wrong sizing |
+| ITMG add-on | SKIP | Sector concentration / discipline | Coal floor confirmation is not a fresh add-on catalyst; 3 trading days remain |
+
+#### Notes
+
+Week 2 Day 3 (Wed). No trades placed. Both held positions HOLD per RESEARCH-LOG 2026-04-29 inline-fallback entry. **TODAY: BBRI Q1 2026 earnings after-hours — THE binary catalyst defining BBRI position outcome.** Macro backdrop (WebSearch — yfinance still blocked since Apr 21): IHSG Apr 28 close 7,072.39 (−0.48%, −32.12 pts) per databoks/tradingeconomics — broke below 7,100 support; 8 IDX-IC sectors red, 350 declines vs 339 advances. Apr 29 open expected to test 7,109–7,270 zone (bisnis.com pre-market). USD/IDR ~17,210–17,266 area (last 17,265.9) — incremental rupiah weakness vs Apr 28 17,219; per harianbasis IHSG Apr 29 correction tied to rupiah pressure. Newcastle coal ~$132–133/t — 2nd consecutive print ≥$130 fully confirms ITMG thesis-floor restoration after the single-print sub-floor on Apr 27. ITMG mark ~25,475 (Investing.com Apr 28, −0.10%) → unrealised −2.30% from entry 26,075; below +7% trail activation 27,900; hard-cut 24,250 unchanged (−4.81% further room). BBRI mark ~3,050 (sectors.app/Google Finance Apr 27/28) → unrealised −6.44% from entry 3,260; **hard-cut 3,031 only −0.62% below current** — narrow buffer into the binary; T−0 to Q1 2026 after-hours print. Q4 2025 beat consensus +6.9% EPS / +13.5% revenue; consensus next-Q est ~99.94 IDR EPS / 50.24T IDR revenue. Fitch outlook cut to negative on big-4 banks already absorbed. No new entries today: ANTM has no fresh near-term catalyst (HPM Decree 144 T+14 stale); INCO data integrity unresolved (multi-source price spread); BBRI add-on T−0 is textbook wrong sizing decision; ITMG add-on premature given coal floor confirmation is not a discrete fresh add-on catalyst. Eagerness check FAIL: weekly slot 0/3 + 14.18% deployed + final-week clock (3 trading days remain to May 2 close) = classic forced-trade temptation; resisted (4th consecutive day). Sector exposure: Coal 7.40% + Banking 6.78% = 14.18% gross (well under caps). No risk alerts: no daily loss cap breach, no drawdown alert. **WATCH INTRADAY: BBRI hard-cut breach (3,031) before earnings → exit per rule; thesis-breaking pre-print headline → exit before close; Newcastle coal continuation; IHSG reclaim/fail of 7,109 support.** Price source: WebSearch (yfinance blocked).

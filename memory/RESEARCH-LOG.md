@@ -1285,3 +1285,83 @@ _Pre-market routine did not fire today. Research written inline at market-open p
 - [Indonesia stocks +0.04% Apr 28](https://www.investing.com/news/stock-market-news/indonesia-stocks-higher-at-close-of-trade-idx-composite-index-up-004-4637853)
 
 ---
+
+## 2026-04-29 (Wednesday — Week 2 Day 3) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today. Research written inline at market-open per routine STEP 1 fallback. Source: WebSearch — yfinance still blocked (same infra condition since Apr 21; confirmed today by `broker.sh quote` returning entry-price fallback note "live market-data.sh unavailable")._
+
+### Global Overnight
+
+| Market | Level / Price | Source | Note |
+|--------|---------------|--------|------|
+| IHSG (Apr 28 close) | 7,072.39 (−0.48% / −32.12 pts) | databoks/tradingeconomics | Below 7,100 support; consumer non-cyclicals hit hardest |
+| USD/IDR | ~17,210–17,266 (last 17,265.9) | tradingeconomics, exchange-rates.org | Rupiah back near 17,200 — incremental weakness vs Apr 28 17,219 |
+| Newcastle coal | ~$132–133/t (range $129–133) | tradingeconomics, oilpriceapi | **2nd consecutive print ≥$130** — confirms ITMG thesis floor recovery |
+| Brent crude | ~$101/bbl | (carry-over) | No fresh Hormuz/Iran headlines |
+| LME nickel | ~$18,100/t | (carry-over) | Range-bound; no fresh catalyst |
+
+### Macro Snapshot
+
+- **IHSG closed below 7,100 support**: Apr 28 close 7,072.39 (−0.48%) per databoks/tradingeconomics — broad weakness, 8 IDX-IC sectors red, 350 declines vs 339 advances. Open today expected to test 7,109–7,270 zone (bisnis.com pre-market call).
+- **Rupiah at 17,200 area**: Slight incremental weakness vs Apr 28 — still in EM-stress range. Harianbasis confirms IHSG correction tied to rupiah pressure today.
+- **Coal floor RECONFIRMED**: Newcastle $132.25/t (Apr 27) and ~$133/t (Apr 28) — second print ≥$130 fully confirms thesis-floor restoration after the single-print sub-floor on Apr 27. Coal-floor watch resolved positive.
+- **BBRI Q1 2026 EARNINGS TODAY (after-hours)**: Per Yahoo Finance / Quartr / Investing.com — BBRI Q1 print scheduled Apr 29. THE binary catalyst defining BBRI position outcome. Q4 2025 beat consensus +6.9% EPS / +13.5% revenue. Consensus next-Q est ~99.94 IDR EPS / 50.24T IDR revenue. Position outcome decided today.
+- **Banking sector overhang**: Fitch outlook cut for BBCA/BBRI/BMRI/BBNI from stable to negative (carried over from Apr 28 wires).
+- **Trial calendar**: Apr 29 (Wed) → 3 trading days remain to May 2 close (Wed/Thu/Fri). Window for new catalyst-driven entries effectively closed except for binary catalysts triggering today.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| ITMG | ~25,475 (−0.10%) | Investing.com Apr 28 | Held; entry 26,075; mark −2.30%; coal floor confirmed |
+| BBRI | ~3,050 (−0.65%) | sectors.app/Google Finance Apr 27/28 | Held; entry 3,260; mark −6.44%; **0.62% above hard-cut 3,031**; Q1 print today |
+| ANTM | (no fresh discrete catalyst) | n/a | LME nickel range-bound; HPM Decree 144 now T+14 stale |
+| INCO | (data quality unresolved) | mixed | Same dual-source spread issue as Apr 27/28; SKIP on integrity |
+
+### Held Position Updates
+
+- **ITMG** at ~25,475 IDR. Unrealised −2.30% from entry 26,075. State 1 hard-cut at 24,250 unchanged (further −4.81% room). Coal floor reconfirmed (2nd print ≥$130). Below +7% trail activation (27,900). **Action: HOLD.**
+- **BBRI** at ~3,050 IDR. Unrealised −6.44% from entry 3,260. State 1 hard-cut at 3,031 unchanged (only −0.62% further room — narrow). Q1 2026 earnings TODAY after-hours — THE binary catalyst that defined the entry. **Action: HOLD into earnings.** Hard cut at 3,031 enforces the downside; if it fires intraday before the print, exit per rule. If a thesis-breaking pre-print headline hits, exit immediately. Adding into the binary is forbidden (eagerness check + sizing discipline).
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged).** Max position 15% of equity. IDR back near 17,200 / IHSG broke below 7,100 support / Fitch outlook cut on big-4 banks — net incremental risk-off. Coal floor restoration is a local positive but not regime-shift. No regime change triggers met (need IDR < 17,000 + foreign inflow + IHSG reclaim 7,500).
+
+### Candidate Evaluation for Today
+
+**ANTM (re-evaluation):** No fresh catalyst since Apr 27. HPM Decree 144 now T+14 stale. LME nickel range-bound. Eagerness check FAIL (3 days left + 0/3 weekly slot + 14.18% deployed). **Decision: SKIP — Gate 5 (catalyst freshness).**
+
+**INCO:** Data integrity unchanged from Apr 27/28 (multi-source spread). **Decision: SKIP on data integrity / Gate 9.**
+
+**BBRI add-on (pre-earnings, T-0):** Already 7.18% sized; adding into binary T−0 with Fitch outlook overhang = doubling unconfirmed thesis on the day it is decided. Textbook wrong sizing decision. **Decision: SKIP on discipline.**
+
+**ITMG add-on:** Coal floor confirmed but already held; no discrete fresh add-on catalyst, just confirmation of held thesis. Sector concentration discipline + 3-days-to-close window. **Decision: SKIP — sector concentration / discipline.**
+
+### Flagged Risks
+
+- **BBRI binary T−0 (TODAY)**: Q1 print after-hours could swing position +5–10% (beat) or −10–15% (miss + Fitch overhang). Hard cut 3,031 is the only intraday safety net; mark 3,050 leaves only 0.62% buffer. If BBRI breaks 3,031 intraday before the print, exit per rule (no hoping into the binary).
+- **IHSG below 7,100 support**: Sub-7,100 close on Apr 28 is technically negative; failure to reclaim 7,109 today increases tail risk for both held positions.
+- **Rupiah back to 17,200**: Marginal IDR weakness — not regime-changing but compounds banking and consumer-import headwinds.
+- **Final-week tail risk**: 3 trading days remain. Any new entry today faces full close-out risk for marginal upside. Eagerness check FAIL: weekly slot 0/3 + 14.18% deployed + final-week clock — resist.
+
+### Plan for /market-open (2026-04-29)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250 (hard-cut). Coal floor confirmed. No action.
+- [ ] **HOLD BBRI.** Stop unchanged at 3,031 (hard-cut). Q1 earnings binary today after-hours. No action at open. Monitor intraday for hard-cut breach pre-print or thesis-breaking headline.
+- [ ] **ANTM — SKIP (Gate 5 catalyst freshness).**
+- [ ] **INCO — SKIP (Gate 9 / data integrity).**
+- [ ] **BBRI add-on — SKIP (discipline; T−0 binary).**
+- [ ] **ITMG add-on — SKIP (sector concentration / discipline).**
+- [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 0/3 (Week 2).
+
+### Sources
+
+- [IHSG Apr 28 close 7,072.39 (−0.48%)](https://databoks.katadata.co.id/en/market/statistics/69f07feb4c79c/8-idx-ic-sectors-decline-consumer-non-cyclicals-hit-hardest-tuesday-april-28-2026)
+- [Newcastle coal $132–133/t](https://tradingeconomics.com/commodity/coal)
+- [USD/IDR ~17,265 / 17,210 area](https://tradingeconomics.com/indonesia/currency)
+- [BBRI Q1 earnings Apr 29 release](https://www.investing.com/equities/bank-rakyat-in-earnings)
+- [BBRI quote ~3,050 (Apr 27)](https://sectors.app/idx/bbri)
+- [ITMG quote ~25,475 (Apr 28)](https://www.investing.com/equities/indo-tambangra)
+- [IHSG Wednesday Apr 29 outlook 7,109–7,270 / rupiah 17,200](https://market.bisnis.com/read/20260429/189/1969978/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-rabu-29-april-2026)
+
+---

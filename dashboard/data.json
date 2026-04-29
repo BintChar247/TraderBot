@@ -784,6 +784,202 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "No fresh nickel catalyst; HPM Decree 144 now T+14 stale; LME nickel range-bound.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144 catalyst now T+14 days stale"
+        },
+        {
+          "type": "macro",
+          "label": "LME nickel ~$18,100/t range-bound; no fresh policy print"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 (catalyst freshness) FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "Eagerness check FAIL: 0/3 weekly slot + 14.18% deployed + 3 trading days left"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "No discrete near-term catalyst; final-week clock raises tail risk for marginal upside. Skip on Gate 5.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-04-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "WebSearch price quotes still split across sources; cannot safely confirm price for chase tolerance.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "No fresh idiosyncratic catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "Same dual-source spread issue as Apr 27/28"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 (no chase) FAIL on data integrity"
+        },
+        {
+          "type": "sizing",
+          "label": "No safe sizing without trustworthy price"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price integrity blocked (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Cannot trade on unreliable price. Skip pending data resolution.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Add-on into Q1 2026 earnings T-0 (today after-hours) + Fitch outlook overhang = textbook wrong sizing.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 2026 earnings TODAY after-hours \u2014 the binary catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "Fitch outlook on BBCA/BBRI/BMRI/BBNI cut to negative"
+        },
+        {
+          "type": "risk",
+          "label": "Already 7.18% sized; mark \u22126.44% pre-print, hard-cut 0.62% below"
+        },
+        {
+          "type": "sizing",
+          "label": "Discipline skip; eagerness check FAIL on T-0 binary"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Adding into a same-day binary doubles an unconfirmed thesis. Wait for the earnings print.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-04-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Coal floor confirmed (2nd print >=$130) is thesis-supportive but not a fresh discrete add-on catalyst; already held.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal ~$132\u2013133/t \u2014 2nd consecutive print confirms $130 floor"
+        },
+        {
+          "type": "macro",
+          "label": "Coal-floor recovery is local positive, not regime-shift"
+        },
+        {
+          "type": "risk",
+          "label": "Already held 7.40% Coal exposure; sector concentration discipline"
+        },
+        {
+          "type": "sizing",
+          "label": "3 trading days remain; no add-on for marginal upside"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Floor confirmation supports holding; it does not justify a fresh discretionary add-on into the close-out window.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -1249,6 +1445,48 @@
         {
           "type": "warning",
           "detail": "Telegram send failed (403 host not in allowlist) \u2014 fell back to stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-29T02:27:11Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. HOLD ITMG + BBRI. BBRI Q1 2026 earnings TODAY after-hours is the binary. ANTM SKIP (Gate 5 catalyst freshness, T+14 stale), INCO SKIP (Gate 9 data integrity), BBRI add-on SKIP (T-0 discipline), ITMG add-on SKIP (sector concentration). 0/3 weekly slot, 14.18% deployed, 3 trading days remain. yfinance still blocked (since Apr 21); WebSearch overrides used for marks.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 26075; mark 25475; -2.30%; stop 24250 unchanged"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "220000sh @ 3260; mark 3050; -6.44%; stop 3031 unchanged; Q1 binary today"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "Gate 5 catalyst freshness; HPM Decree 144 T+14 stale"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "Gate 9 data integrity; multi-source price spread"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI-addon",
+          "detail": "Discipline; T-0 binary + Fitch outlook overhang"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG-addon",
+          "detail": "Sector concentration; coal floor confirmed but not fresh add-on catalyst"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance blocked since Apr 21)"
         }
       ]
     }
