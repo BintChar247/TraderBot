@@ -688,3 +688,58 @@ Sector exposure: Coal 7.00% + Banking 6.77% = 13.77% gross (well under caps). No
 - Intraday move check: no position >3% move requiring ad-hoc research. ITMG ~flat to morning mark, BBRI ~flat (+0.66% within normal band) — no addendum required.
 - Market-data.sh yfinance unavailable (same infra condition since Apr 21) — broker.sh quote returned stale fallback (entry prices); WebSearch override used for both marks.
 - Decision: HOLD both. No sells, no stop modifications, no research addendum required.
+
+---
+
+### 2026-04-30 EOD — Day 9 (Week 2 Day 4)
+
+- Total equity: IDR 9,911,252,500
+- Daily P&L: IDR −28,367,500 (−0.29%)
+- IHSG close: 6,888 (−3.00%)
+- Daily alpha: +2.71%
+- Cash: IDR 8,570,952,500 (86.48% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −88,747,500 (−0.89%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,888 = −9.77%): +8.88%
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,000 | −IDR 29,347,500 (−4.12%) | 8 |
+| BBRI | 220,000 | 3,260 | 2,990 | −IDR 59,400,000 (−8.28%) | 5 |
+
+#### Notes
+
+Day 9 of trial (Thu, Week 2 Day 4). **⚠️ BBRI HARD CUT BREACHED — close ~2,990 vs hard-cut 3,031 (−8.28% from entry 3,260). GTC stop SHOULD have fired intraday: confirmed BBRI hit intraday low 2,990 at 11:08 WIB (per beritajejakfakta.id; session I close 3,010, −1.95%). The 11:30 WIB midday scan recorded BBRI at 3,070 — that read was WRONG/STALE (likely Yahoo Finance lag; same infra condition as yfinance block since Apr 21). Procedural failure: midday should have detected the hard-cut breach at 11:08 WIB and issued the kill order. Action: TOMORROW MAY 2 MARKET-OPEN MUST EXECUTE BBRI SELL AT OPEN — not optional, this is the hard-cut rule firing late.** Strategy mandates "sell immediately, no hoping, no averaging down" on hard-cut breach. Realized loss locked in by close: −IDR 59.4M (−8.28%) on BBRI position.
+
+Broker reconciliation: both positions still in broker state at entry prices (paper-mode broker does not auto-execute GTC stops; broker.sh portfolio shows ITMG 27,300 @ 26,075 and BBRI 220,000 @ 3,260, both with last_price stale = entry). TRADE-LOG marks corrected via WebSearch: ITMG 25,000 (−4.12%); BBRI 2,990 (−8.28%). Mark-to-market discipline preserved despite broker-side execution lag.
+
+Macro: IHSG closed 6,888 (−3.00% / approx. −213 pts from 7,101.22) — sharpest single-day drop of the trial. Session I close 6,926.54 (−2.46%, all 8 IDX-IC sectors red, banking and energy hit hardest); session II deepened to 6,876.57 intraday low before partial recovery. CNBC headline: "IHSG Anjlok 3% Balik ke Level 6.800-an"; liputan6: "IHSG Tersungkur 2,46%". Driver: Fed held rate steady (DM-policy hawkish read); Asia-Pac follow-through; rupiah pierced 17,390 (fresh record); $130M+ foreign net sell on banks (BBRI net sell IDR 69.64bn). Brent crude broke $120/bbl on geopolitical risk (concurrent driver; coal-positive but bank-negative through inflation channel).
+
+Despite the −3% market shock, portfolio delivered +2.71% daily alpha (best single-day alpha of trial). 86.48% cash defensiveness paid off enormously on this red-tape day. Cumulative alpha expanded from +6.98% to +8.88% — best running alpha of the trial.
+
+Position-level:
+- ITMG: 25,000 (−4.12% from entry 26,075). Newcastle coal recovered to $133.50 midday (oilpriceapi) after sub-$130 single print Apr 28/29; thesis-floor restored. ITMG below +7% trail activation 27,900; hard-cut 24,250 unchanged (−3.00% buffer remaining). Position survived the IHSG −3% shock relatively well: −1.86% on the day vs market −3%.
+- BBRI: 2,990 close (−8.28%). Hard-cut breached. Confirmed beritajejakfakta.id intraday low 2,990 at 11:08 WIB; session I close 3,010 (lowest 5-yr touch on session-I close); session II saw banks sold further with foreign outflow. Q1 print released Apr 29 was in-line but post-print sentiment worsened today as Fed-hawkish + Fitch-negative-outlook overhang dominated. THESIS BROKEN by execution rule: hard-cut firing supersedes thesis.
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,911,252,500 − 10,026,617,500)/10,026,617,500 = −1.15%.
+
+RISK ALERTS sent (stdout — Telegram 403 host not in allowlist same as prior days):
+- ⚠️ POSITION WARNING: BBRI at −8.28% — HARD CUT 3,031 BREACHED. Execute sell at open tomorrow.
+- NO daily loss cap breach (−0.29% vs −2% cap).
+- NO drawdown alert (−1.15% vs −15% cap).
+
+Sector exposure pre-BBRI-exit: Coal 6.89% + Banking 6.64% = 13.53% gross.
+Sector exposure post-BBRI-exit (effective tomorrow): Coal 6.89% only = 6.89% gross + 93.11% cash.
+
+Watch tomorrow (Fri May 2 — last trial day; May 1 Labor Day holiday confirmed):
+1. **EXECUTE BBRI SELL AT OPEN — HARD CUT RULE NON-NEGOTIABLE** (regardless of pre-market price action; this is rule-enforced not discretionary)
+2. ITMG hold/sell decision: with 1 trading day left, May 7 earnings catalyst still 5 days out; consider whether to sell into the strength or hold for last-day performance
+3. IHSG technical reaction to today's −3% break — does it bounce or continue lower?
+4. Coal Newcastle continuation (need second print ≥$130 to confirm floor restoration)
+5. IDR direction (17,390 record; intervention risk)
+6. Weekly review routine fires Friday 16:00 WIB — captures end-of-trial assessment
+
+Lesson logged for MISTAKES.md (to be captured in tomorrow's weekly review): midday scan price-source lag failure — when a position is within 1% of hard-cut, midday must use multi-source price verification rather than a single (potentially stale) WebSearch read. The 11:30 WIB midday scan today reported BBRI at 3,070 (+0.66%) when actual intraday tape was 2,990 to 3,010 — a 60-80 IDR gap that mattered. Recommend: when buffer to hard-cut < 1.5%, midday must cross-verify via 2+ sources or pull a fresh tape print rather than relying on broker.sh stale fallback.

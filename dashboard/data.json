@@ -140,6 +140,21 @@
       "positions_count": 2,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-04-30",
+      "day_label": "Day 9",
+      "portfolio_value": 9911252500,
+      "cash": 8570952500,
+      "daily_pnl_idr": -28367500,
+      "daily_pnl_pct": -0.29,
+      "cumulative_pnl_pct": -0.89,
+      "ihsg_close": 6888.0,
+      "ihsg_cumulative_pct": -9.77,
+      "alpha_pct": 8.88,
+      "positions_count": 2,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -148,28 +163,28 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 25475,
-      "unrealized_pct": -2.3,
+      "current_price": 25000,
+      "unrealized_pct": -4.12,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 114% EPS beat unreacted; Newcastle ~$132-133/t (3rd print >=$130 confirms floor); May 7 earnings"
+      "thesis": "Coal $133.50 floor restored; May 7 earnings catalyst; portfolio defensive on -3% IHSG day"
     },
     {
       "ticker": "BBRI",
       "entry_date": "2026-04-23",
       "entry_price": 3260,
       "shares": 220000,
-      "current_price": 3060,
-      "unrealized_pct": -6.13,
+      "current_price": 2990,
+      "unrealized_pct": -8.28,
       "hard_cut": 3031,
       "trail_stop": null,
       "stop_state": "hard-cut",
-      "thesis_state": "watch",
+      "thesis_state": "broken",
       "catalyst_date": "2026-04-30",
-      "thesis": "Q1 2026 earnings released Apr 29 after-hours; post-print reaction tomorrow; hard-cut 0.95% below"
+      "thesis": "HARD CUT 3,031 BREACHED \u2014 execute sell at May 2 open per rule (intraday low 2,990 at 11:08 WIB)"
     }
   ],
   "trades": [
@@ -1194,9 +1209,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.6,
-    "ihsg_return_pct": -7.58,
-    "alpha_pct": 6.98,
+    "total_return_pct": -0.89,
+    "ihsg_return_pct": -9.77,
+    "alpha_pct": 8.88,
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
@@ -1205,19 +1220,19 @@
     "avg_winner_pct": 0.0,
     "avg_loser_pct": 0.0,
     "profit_factor": 0.0,
-    "max_drawdown_pct": -0.87,
+    "max_drawdown_pct": -1.15,
     "best_trade": null,
     "worst_trade": null,
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9939620000,
-    "cum_return_pct": -0.6,
-    "ihsg_cum_pct": -7.58,
-    "cum_alpha_pct": 6.98,
+    "current_equity": 9911252500,
+    "cum_return_pct": -0.89,
+    "ihsg_cum_pct": -9.77,
+    "cum_alpha_pct": 8.88,
     "positions_count": 2,
-    "cash_pct": 86.23,
+    "cash_pct": 86.48,
     "trades_this_week": 0,
-    "last_updated": "2026-04-29"
+    "last_updated": "2026-04-30"
   },
   "risk": {
     "beta_ihsg": null,
@@ -1225,17 +1240,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -0.87,
+    "drawdown_from_peak_pct": -1.15,
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.47,
-    "weekly_pnl_pct": -0.37,
+    "daily_pnl_pct": -0.29,
+    "weekly_pnl_pct": -0.38,
     "peak_equity": 10026617500,
-    "current_equity": 9939620000,
+    "current_equity": 9911252500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-04-29"
+    "updated": "2026-04-30"
   },
   "activity_log": [
     {
@@ -1786,6 +1801,66 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts, no tightens, both theses intact. ITMG -2.30% (coal 33.5/t, floor confirmed); BBRI -5.83% (Q1 print resolved benign, hard-cut buffer 1.27%)."
+    },
+    {
+      "timestamp": "2026-04-30T08:30:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "Day 9 EOD: IDR 9.911B (-0.29% day). Daily alpha +2.71% on IHSG -3.00% \u2014 best alpha day of trial. Cum alpha +8.88%. BBRI HARD CUT BREACHED (close ~2,990 vs 3,031 cut, -8.28% from entry); GTC stop should have fired intraday (low 2,990 at 11:08 WIB); midday scan missed it. EXECUTE BBRI SELL at May 2 open. ITMG HOLD (-4.12%; coal floor restored at $133.50). Trades this week 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 9 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG IDR 25,000 (-4.12%); BBRI IDR 2,990 (-8.28%) \u2014 WebSearch override"
+        },
+        {
+          "type": "alert",
+          "detail": "Position warning sent: BBRI HARD CUT 3,031 BREACHED \u2014 execute at May 2 open"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker still shows positions at entry (paper auto-stop not executed); TRADE-LOG marks corrected via WebSearch"
+        },
+        {
+          "type": "warning",
+          "detail": "Midday scan procedural failure: BBRI hard-cut breach at 11:08 WIB missed; midday read 3,070 was stale"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram 403 host not in allowlist \u2014 fell back to stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-30T08:39:35Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "Day 9 EOD: IDR 9.911B (-0.29% day). Daily alpha +2.71% on IHSG -3.00% (best alpha day of trial). Cum alpha +8.88%. BBRI HARD CUT BREACHED (-8.28%, close 2,990 vs 3,031 cut); execute at May 2 open per rule. ITMG HOLD (-4.12%; coal floor restored). Trades this week 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 9 EOD snapshot committed"
+        },
+        {
+          "type": "mark-to-market",
+          "detail": "ITMG 25,000 / BBRI 2,990 (WebSearch override; yfinance blocked)"
+        },
+        {
+          "type": "alert",
+          "detail": "BBRI hard-cut 3,031 breached; sell at May 2 open"
+        },
+        {
+          "type": "warning",
+          "detail": "Midday procedural miss: BBRI low 2,990 at 11:08 WIB not detected"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram 403 host not in allowlist"
+        }
+      ]
     }
   ],
   "exposure": {
