@@ -10,8 +10,8 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle ~$132–133/t (3rd print ≥$130 confirms floor) (last mark 25,475; −2.30%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 earnings released Apr 29 after-hours; awaiting post-print reaction (last mark 3,060; −6.13%; 0.95% above hard-cut) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $129–131/t (single sub-floor print Apr 28/29; needs second print to flip) (last mark 25,475; −2.30%) |
+| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 print resolved benign (flat post-earnings = in-line, no negative surprise) (last mark 3,070; −5.83%; 1.27% above hard-cut) |
 
 ---
 
@@ -637,3 +637,38 @@ ITMG +0.10% on the day at 25,475 — coal Newcastle ~$132–133/t (3rd consecuti
 RISK ALERTS sent: ⚠️ POSITION WARNING — BBRI at −6.13%, approaching −7% hard cut. NO daily loss cap breach (−0.47% vs −2% cap). NO drawdown alert (−0.87% vs −15% cap).
 
 Watch tomorrow (Thu Apr 30): (a) **BBRI post-earnings open reaction — if Q1 miss + gap below 3,031, hard cut fires; if beat, recovery into final 2 trading days**; (b) Newcastle coal continuation (need ≥$130 to keep ITMG thesis intact); (c) IHSG technical reaction — failure to reclaim 7,072 keeps EM-OUTFLOW-RISK-CAUTIOUS regime in force; (d) IDR direction (17,322 record matched). Final 2 trading days of trial remain (May 1 likely Labor Day holiday → trial closes May 2 effectively).
+
+---
+
+### 2026-04-30 09:15 WIB — MARKET-OPEN (no trades)
+
+- Side: NONE — no orders placed
+- Trades this week: 0/3 (Week 2)
+- Active positions held: ITMG (27,300 sh @ 26,075), BBRI (220,000 sh @ 3,260)
+- Stops unchanged: ITMG 24,250 (hard-cut); BBRI 3,031 (hard-cut)
+- Price source: WebSearch (yfinance blocked since Apr 21; broker.sh quote returned stale entry-price fallback)
+
+#### Candidates Evaluated
+
+| Ticker | Decision | Gate Failed | Reason |
+|--------|----------|-------------|--------|
+| ANTM | SKIP | Gate 5 (catalyst freshness) | HPM Decree 144 catalyst now T+15 stale; no fresh nickel catalyst; LME nickel range-bound |
+| INCO | SKIP | Gate 9 (no chase) — data integrity | WebSearch price quotes still unresolved (multi-source spread) |
+| BBRI add-on | SKIP | No fresh catalyst / final-week clock | Q1 print flat post-earnings = in-line, no rerate signal; Fitch overhang; 2 trading days remain |
+| ITMG add-on | SKIP | Adverse single-print signal / final-week clock | Newcastle Apr 28/29 sub-$130 single print is risk-negative; 2 trading days remain |
+
+#### Notes
+
+Week 2 Day 4 (Thu). No trades placed — 5th consecutive no-trade day. Final 2 trading days of trial remain (Apr 30 today + May 2; May 1 likely Labor Day holiday). Both held positions HOLD per RESEARCH-LOG 2026-04-30 inline-fallback entry.
+
+**KEY EVENT: BBRI Q1 2026 print resolved benign.** BBRI Apr 30 quote 3,070 IDR (Yahoo Finance), prev close 3,070, day range 3,060–3,110 — flat post-earnings = no negative surprise / in-line print. Position survived the binary catalyst; mark improved from Apr 29 EOD −6.13% to −5.83%, hard-cut 3,031 buffer widened from 0.95% → 1.27%. THE binary catalyst that defined the entry has resolved without triggering the hard-cut. Thesis intact pending post-print drift.
+
+Macro backdrop (WebSearch — yfinance still blocked since Apr 21): IHSG Apr 29 closed 7,101 (+0.41%, industrials-led) per heygotrade — short-term technical reclaim of 7,100 support but foreign outflow continues ($130M Apr 29 with banks hit hardest, same source). USD/IDR 17,273 (+0.12% vs Apr 28; sell rate to 17,331) — fresh local high. Newcastle coal Apr 28 $131.25 (−0.76%) and Apr 29 ~$129 (intraday) per tradingeconomics — first sub-$130 print of week. Single-print sub-floor (same pattern as Apr 27 which recovered next print). Need second consecutive print <$130 to flip ITMG thesis.
+
+ITMG mark ~25,475 (last known Apr 28 — Apr 30 mark not yet refreshed; range expected 25,400–25,800 absent shock) → unrealised −2.30% from entry 26,075; hard-cut 24,250 unchanged (−4.81% further room). Coal sub-$130 single print is risk-flag not invalidation. BBRI mark 3,070 (Apr 30 Yahoo Finance) → unrealised −5.83% from entry 3,260; hard-cut 3,031 unchanged (1.27% further room — buffer widened).
+
+No new entries today: ANTM no fresh discrete catalyst (HPM Decree 144 T+15 stale); INCO data integrity unresolved; BBRI add-on has no fresh rerate catalyst (in-line print); ITMG add-on adversely signalled by sub-$130 coal. Eagerness check FAIL: weekly slot 0/3 + 14% deployed + final-week clock (2 trading days remain) + cumulative alpha +6.98% (cash defensiveness already paying off) = textbook eagerness mistake to force a final-week trade. Resisted (5th consecutive day).
+
+Sector exposure: Coal 7.00% + Banking 6.77% = 13.77% gross (well under caps). No risk alerts: no daily loss cap breach, no drawdown alert. Drawdown from peak (10,026,617,500 on Apr 22): −0.87% (Apr 29 EOD baseline; not yet refreshed for Apr 30 open).
+
+**WATCH INTRADAY (Apr 30):** (a) BBRI post-print drift — hard-cut 3,031 fires per rule on breach; thesis-breaking headline → exit; (b) Newcastle coal — second consecutive sub-$130 print would flip ITMG floor thesis; (c) IHSG hold of 7,100 reclaim; (d) IDR direction (17,331 sell rate). Price source: WebSearch (yfinance blocked).

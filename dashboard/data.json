@@ -995,6 +995,202 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-04-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "HPM Decree 144 nickel catalyst now T+15 stale; no fresh discrete catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPM Decree 144 stale (T+15)"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW intensified; LME nickel range-bound"
+        },
+        {
+          "type": "risk",
+          "label": "Final-week clock; 2 trading days remain"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 SKIP"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked)"
+        }
+      ],
+      "reasoning": "No fresh near-term catalyst; nickel range-bound; eagerness check FAIL with 2 trading days remaining. Catalyst freshness gate fails.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-04-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Multi-source price spread unresolved; data integrity gate fails.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "No fresh nickel catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW intensified"
+        },
+        {
+          "type": "risk",
+          "label": "Data integrity (price spread)"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 SKIP"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked)"
+        }
+      ],
+      "reasoning": "Multi-source WebSearch price spread persists; cannot validate Gate 9 (no chase/3% drift). Discipline: do not trade on stale or conflicting data.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-04-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI Q1 print resolved benign (flat post-earnings = in-line); no fresh add-on catalyst; final-week clock.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 print in-line, no rerate"
+        },
+        {
+          "type": "macro",
+          "label": "Fitch outlook negative; foreign outflow continues"
+        },
+        {
+          "type": "risk",
+          "label": "2 trading days remain to trial close"
+        },
+        {
+          "type": "sizing",
+          "label": "Already 7.18% sized; held position"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked)"
+        }
+      ],
+      "reasoning": "Q1 earnings print resolved benign (flat post-earnings = in-line, no rerate signal). No fresh discrete add-on catalyst. With 2 trading days to trial close, avoid forced final-week sizing.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-04-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Newcastle coal Apr 28/29 sub-$130 single-print signal is risk-negative; final-week clock; no fresh add-on catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "No fresh add-on catalyst; coal sub-floor risk"
+        },
+        {
+          "type": "macro",
+          "label": "Coal $129\u2013131/t; EM-OUTFLOW intensified"
+        },
+        {
+          "type": "risk",
+          "label": "Sector concentration discipline; 2 trading days remain"
+        },
+        {
+          "type": "sizing",
+          "label": "Already 7.00% sized; held position"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked)"
+        }
+      ],
+      "reasoning": "First sub-$130 coal print of week is risk-flag, not opportunity. No fresh discrete add-on catalyst; with 2 trading days remaining, avoid forced final-week sizing into adverse signal.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -1536,6 +1732,52 @@
         {
           "type": "warning",
           "detail": "Telegram 403 host not in allowlist \u2014 fell back to stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-04-30T02:28:54Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed (5th consecutive no-trade day). BBRI Q1 print resolved benign (3,070 flat = in-line); both held positions HOLD. 4 candidates SKIP \u2014 final-week clock + eagerness FAIL.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "hard-cut 24,250 unchanged; mark ~25,475 (-2.30%); coal sub-$130 single-print risk-flag"
+        },
+        {
+          "type": "hold",
+          "ticker": "BBRI",
+          "detail": "hard-cut 3,031 unchanged; mark 3,070 (-5.83%); Q1 print resolved benign"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "Gate 5 (catalyst freshness) \u2014 HPM Decree T+15 stale"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "Gate 9 (data integrity) \u2014 multi-source price spread"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI add-on",
+          "detail": "No fresh catalyst; final-week clock"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG add-on",
+          "detail": "Adverse single-print coal; final-week clock"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override path (yfinance blocked since Apr 21)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify failed (host not in allowlist) \u2014 printed to stdout"
         }
       ]
     }

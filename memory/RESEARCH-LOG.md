@@ -1365,3 +1365,81 @@ _Pre-market routine did not fire today. Research written inline at market-open p
 - [IHSG Wednesday Apr 29 outlook 7,109–7,270 / rupiah 17,200](https://market.bisnis.com/read/20260429/189/1969978/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-rabu-29-april-2026)
 
 ---
+
+## 2026-04-30 (Thursday — Week 2 Day 4) — pre-market fallback (written inline at market-open)
+
+_Pre-market routine did not fire today. Research written inline at market-open per routine STEP 1 fallback. Source: WebSearch — yfinance still blocked (same infra condition since Apr 21; broker.sh quote returns entry-price fallback)._
+
+### Global Overnight
+
+| Market | Level / Price | Source | Note |
+|--------|---------------|--------|------|
+| IHSG (Apr 29 close) | 7,101 (+0.41%, industrials-led) | heygotrade | Reclaimed 7,100 support intraday from morning weakness |
+| USD/IDR | ~17,273 (+0.12% vs Apr 28) | tradingeconomics | Fresh incremental rupiah weakness; new local high near 17,331 sell rate |
+| Newcastle coal | $129–131/t | tradingeconomics, oilpriceapi | **BACK BELOW $130 floor on Apr 28/29** — single-day sub-floor print; needs second print to flip thesis |
+| Brent crude | ~$101/bbl | (carry-over) | No fresh Hormuz/Iran headlines |
+| LME nickel | ~$18,100/t | (carry-over) | Range-bound; no fresh catalyst |
+
+### Macro Snapshot
+
+- **IHSG reclaimed 7,100 on Apr 29**: Closed +0.41% at 7,101 led by industrials (per heygotrade). This is a short-term technical positive vs Apr 28's 7,072.39 sub-7,100 close, but does NOT flip the EM-OUTFLOW regime — same source flagged $130M foreign outflow continuing with banks hit hardest.
+- **Rupiah marginally weaker**: 17,273 (Apr 29 close) vs 17,219 (Apr 28). Fresh local high in sell rate (17,331). Net incremental EM-stress.
+- **BBRI Q1 2026 print resolved benign**: BBRI Apr 30 quote 3,070 (Yahoo Finance / Investing.com) — prev close 3,070, day range 3,060–3,110. Flat/marginally up post-earnings = no negative surprise. Q1 print landed in-line; thesis intact, no thesis-breaking miss. THE binary catalyst has resolved without triggering the hard-cut.
+- **Coal floor wobble**: Newcastle Apr 28 $131.25 (−0.76%) and Apr 29 ~$129 (−1.7% intraday) per tradingeconomics — first sub-$130 print of week. Single-print sub-floor (same pattern as Apr 27). Need second consecutive print <$130 to flip ITMG thesis.
+- **Trial calendar**: Apr 30 (Thu) → 2 trading days remain to May 2 close (Thu today + Fri May 2; May 1 likely Labor Day holiday). Window for new catalyst-driven entries effectively closed.
+
+### Tier 4 Candidate Prices (WebSearch — yfinance blocked)
+
+| Ticker | Price (IDR) | Source | Notes |
+|--------|-------------|--------|-------|
+| ITMG | ~25,475 (last known Apr 28; Apr 30 expected ~25,400–25,800 in absence of fresh data) | Investing.com | Held; entry 26,075; mark −2.30%; coal $129–131/t (single sub-floor) |
+| BBRI | 3,070 (Apr 30 quote) | Yahoo Finance | Held; entry 3,260; mark −5.83%; **+1.27% above hard-cut 3,031**; Q1 print resolved benign |
+
+### Held Position Updates
+
+- **ITMG** at ~25,475 IDR (last known). Unrealised −2.30% from entry 26,075. State 1 hard-cut at 24,250 unchanged (further −4.81% room). Coal $129–131/t — first sub-floor print of week (single print). Below +7% trail activation (27,900). **Action: HOLD.** Single sub-floor print is not thesis invalidation per Apr 27 precedent (recovered next print).
+- **BBRI** at 3,070 IDR. Unrealised −5.83% from entry 3,260 (improved from Apr 29 EOD −6.13%). State 1 hard-cut at 3,031 unchanged (further −1.27% room). **Q1 2026 print resolved benign — flat post-earnings = no thesis-breaking miss.** **Action: HOLD.** Binary catalyst resolved; position survived and is recovering toward entry. With 2 trading days remaining, hold to trial close.
+
+### Macro Regime
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged; intensified).** Max position 15% of equity. IDR fresh local high 17,273 / IHSG bounced to 7,101 but foreign outflow continues / Banking sector still under Fitch overhang. No regime change triggers met. Final 2 trading days of trial — eagerness check critical.
+
+### Candidate Evaluation for Today
+
+**ANTM:** No fresh catalyst since Apr 27. HPM Decree 144 now T+15 stale. LME nickel range-bound. **Decision: SKIP — Gate 5 (catalyst freshness).**
+
+**INCO:** Data integrity unchanged. **Decision: SKIP on data integrity / Gate 9.**
+
+**BBRI add-on (post-earnings):** Q1 print resolved benign; not a beat-and-rerate catalyst (price flat post-print = in-line, no rerate signal). With 2 trading days remaining in trial, no fresh add-on catalyst, sector under Fitch overhang. **Decision: SKIP — no fresh discrete catalyst; final-week clock.**
+
+**ITMG add-on:** Coal sub-$130 single print is risk-negative not opportunity. **Decision: SKIP — adverse single-print signal; final-week clock.**
+
+**Eagerness Check:** 0/3 weekly slot, 14% deployed, 2 trading days remaining, cumulative alpha +6.98% (Apr 29 EOD) — strong cash defensiveness has paid off. Forcing a final-week trade is the textbook eagerness mistake. **FAIL — resist.** No new entries.
+
+### Flagged Risks
+
+- **Coal sub-$130 second-print risk**: If Newcastle prints <$130 again Apr 30/May 2, ITMG thesis floor invalidated → reassess. First sub-floor print is a single-print event per Apr 27 precedent.
+- **IHSG technical**: Reclaim of 7,100 is constructive but EM-OUTFLOW regime unchanged. Single-day bounce is not regime shift.
+- **BBRI post-earnings drift**: Flat post-print = in-line; if downward drift Apr 30 to <3,031 hard-cut fires per rule.
+- **Final-week tail risk**: 2 trading days remain. Any new entry today faces full close-out risk for marginal upside.
+
+### Plan for /market-open (2026-04-30)
+
+- [ ] **HOLD ITMG.** Stop unchanged at 24,250 (hard-cut). No action. Watch coal Apr 30 print.
+- [ ] **HOLD BBRI.** Stop unchanged at 3,031 (hard-cut). Q1 binary resolved benign. No action.
+- [ ] **ANTM — SKIP (Gate 5 catalyst freshness).**
+- [ ] **INCO — SKIP (Gate 9 / data integrity).**
+- [ ] **BBRI add-on — SKIP (no fresh catalyst; final-week clock).**
+- [ ] **ITMG add-on — SKIP (adverse single-print coal; final-week clock).**
+- [ ] **No new trade today. Log no-trade on market-open with reason.** Trades this week stay 0/3 (Week 2). 5th consecutive no-trade day.
+
+### Sources
+
+- [BBRI Apr 30 quote 3,070 / range 3,060–3,110](https://finance.yahoo.com/quote/BBRI.JK/)
+- [IHSG Apr 29 close 7,101 (+0.41%)](https://www.heygotrade.com/en/news/indonesia-ihsg-closes-up-041-percent-7101-29-april-2026/)
+- [USD/IDR Apr 29 17,273 (+0.12%)](https://tradingeconomics.com/indonesia/currency)
+- [Newcastle coal Apr 28 $131.25 / Apr 29 sub-$130](https://tradingeconomics.com/commodity/coal)
+- [ITMG last quote ~25,475 (Apr 28)](https://www.investing.com/equities/indo-tambangra)
+- [BBRI earnings calendar Apr 29](https://www.investing.com/equities/bank-rakyat-in-earnings)
+
+---
