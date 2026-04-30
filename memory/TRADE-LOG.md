@@ -672,3 +672,19 @@ No new entries today: ANTM no fresh discrete catalyst (HPM Decree 144 T+15 stale
 Sector exposure: Coal 7.00% + Banking 6.77% = 13.77% gross (well under caps). No risk alerts: no daily loss cap breach, no drawdown alert. Drawdown from peak (10,026,617,500 on Apr 22): −0.87% (Apr 29 EOD baseline; not yet refreshed for Apr 30 open).
 
 **WATCH INTRADAY (Apr 30):** (a) BBRI post-print drift — hard-cut 3,031 fires per rule on breach; thesis-breaking headline → exit; (b) Newcastle coal — second consecutive sub-$130 print would flip ITMG floor thesis; (c) IHSG hold of 7,100 reclaim; (d) IDR direction (17,331 sell rate). Price source: WebSearch (yfinance blocked).
+
+---
+
+### 2026-04-30 11:30 WIB — MIDDAY SCAN (no action)
+
+- Positions evaluated: ITMG (27,300 @ 26,075), BBRI (220,000 @ 3,260)
+- ITMG mark: IDR 25,475 (WebSearch; Investing.com / Yahoo Finance Apr 30, −0.10% change basis) → −2.30% from entry. Below +7% trail activation (27,900). Stop unchanged: hard-cut 24,250 (−4.81% further room).
+- BBRI mark: IDR 3,070 (WebSearch; Yahoo Finance / sectors.app Apr 30, +0.66% from prior close 3,050) → −5.83% from entry. Above hard-cut 3,031 (−1.27% further room). Stop unchanged: hard-cut 3,031.
+- Hard cuts (≤−7%): none.
+- Tightening (+15% / +20%): none — no position at threshold.
+- Thesis checks:
+  - ITMG: Newcastle coal $133.50/t (current futures) vs prior close $131.25/t per Trading Economics / oilpriceapi — second consecutive print ≥$130 confirms thesis-floor restoration after Apr 28/29 sub-$130 single prints. Thesis intact.
+  - BBRI: Q1 2026 earnings released Apr 29 after-hours — flat post-earnings print (3,050 → 3,070, +0.66%) = in-line / no negative surprise. The binary catalyst that defined the position has resolved without invalidation; hard-cut buffer widened from 0.95% (Apr 29 EOD) to 1.27%. Thesis intact pending post-print drift.
+- Intraday move check: no position >3% move requiring ad-hoc research. ITMG ~flat to morning mark, BBRI ~flat (+0.66% within normal band) — no addendum required.
+- Market-data.sh yfinance unavailable (same infra condition since Apr 21) — broker.sh quote returned stale fallback (entry prices); WebSearch override used for both marks.
+- Decision: HOLD both. No sells, no stop modifications, no research addendum required.
