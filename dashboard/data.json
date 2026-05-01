@@ -1861,6 +1861,40 @@
           "detail": "Telegram 403 host not in allowlist"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-01T01:04:29Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market 2026-05-01 (IDX CLOSED Labor Day): 50-ticker scan complete; 0 candidates \u22656 with fresh catalyst. BBRI hard-cut 3,031 BREACHED at Apr 30 close 2,990 \u2014 EXECUTE SELL at May 2 open. ITMG HOLD; coal $137.80 breakout (+2.99%). Final trial day tomorrow.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored >=6 (final-day eagerness FAIL across all tickers)"
+        },
+        {
+          "type": "alert",
+          "ticker": "BBRI",
+          "detail": "HARD-CUT 3,031 BREACHED at Apr 30 close 2,990 \u2014 sell at May 2 open per rule"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "25,000 close (-4.12%); coal $137.80 breakout supportive; HOLD into trial close"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram 403 host not in allowlist \u2014 fallback to stdout"
+        },
+        {
+          "type": "warning",
+          "detail": "yfinance still blocked since Apr 21; broker.sh quote returns entry-price fallback"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -1875,116 +1909,130 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 7634.0,
-    "ihsg_change_pct": 0.6,
-    "idr_usd": 17115,
-    "idr_usd_change_pct": -0.97,
-    "coal_usd": 131.0,
-    "coal_change_pct": -1.9,
-    "nickel_usd": 17635,
-    "nickel_change_pct": 4.81,
-    "cpo_myr": 4495,
-    "cpo_change_pct": -0.5,
+    "ihsg": 6888.0,
+    "ihsg_change_pct": -3.0,
+    "idr_usd": 17390,
+    "idr_usd_change_pct": 0.12,
+    "coal_usd": 137.8,
+    "coal_change_pct": 2.99,
+    "nickel_usd": 19423,
+    "nickel_change_pct": 0.92,
+    "cpo_myr": 4570,
+    "cpo_change_pct": -0.17,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held; cut scope limited",
-    "asia_sentiment": "Mixed (Nikkei -1.75%, HSI -1.01%)",
-    "foreign_flow_idr_bn": -3310,
-    "updated": "2026-04-19"
+    "bi_rate_note": "Held; next meeting mid-May (post-trial)",
+    "asia_sentiment": "Risk-off (Nikkei -1.13%, HSI -1.14%, CSI300 flat); US records (S&P +1.02%)",
+    "foreign_flow_idr_bn": -2000,
+    "updated": "2026-05-01"
   },
   "research": {
-    "date": "2026-04-19",
+    "date": "2026-05-01",
     "headlines": [
       {
-        "ticker": "ITMG",
-        "headline": "Q1 2026 EPS IDR 890 vs consensus IDR 416 \u2014 114% earnings beat confirmed",
-        "sentiment": "bullish",
-        "source": "IDX Disclosure"
-      },
-      {
         "ticker": "BBRI",
-        "headline": "Ex-dividend April 21 (IDR 209/share, 10.1% yield); BlackRock +19M shares in April accumulation",
-        "sentiment": "bullish",
-        "source": "IDX Corporate Action"
-      },
-      {
-        "ticker": "ANTM",
-        "headline": "ESDM HPM Decree 144 raised ore correction factor 17%\u219230%; nickel $17,635 (+4.81% MoM)",
-        "sentiment": "bullish",
-        "source": "Ministry of Energy"
-      },
-      {
-        "ticker": "MACRO",
-        "headline": "US-Iran 2-week ceasefire + Strait of Hormuz reopened \u2014 risk-ON signal for Monday open",
-        "sentiment": "bullish",
-        "source": "Reuters"
-      },
-      {
-        "ticker": "BI",
-        "headline": "Bank Indonesia holds BI-Rate at 4.75%; Governor: cut scope increasingly limited due to IDR pressure",
-        "sentiment": "neutral",
-        "source": "Bank Indonesia"
-      },
-      {
-        "ticker": "CPO",
-        "headline": "Palm oil exports -34% in first 10 days of April; agri/CPO sector on AVOID list",
+        "headline": "Q1 2026 net profit Rp 15.5T (+13.74% YoY) \u2014 BEAT; but stock closed 2,990 (-1.95%) on macro selling, hard-cut 3,031 BREACHED",
         "sentiment": "bearish",
-        "source": "GAPKI"
+        "source": "Kompas / Bisnis",
+        "url": "https://money.kompas.com/read/2026/04/30/100124826/bri-cetak-laba-bersih-rp-155-triliun-pada-kuartal-i-2026-naik-137-persen"
       },
       {
         "ticker": "COAL",
-        "headline": "Newcastle coal consolidating at $131/ton after March surge; Middle East risk premium intact (+40.5% YoY)",
+        "headline": "Newcastle coal $137.80/t May 1 (+2.99% 24h) \u2014 BREAKOUT above floor; ITMG thesis fully restored",
         "sentiment": "bullish",
-        "source": "GlobalCOAL"
+        "source": "OilPriceAPI",
+        "url": "https://www.oilpriceapi.com/live/coal-price"
+      },
+      {
+        "ticker": "IHSG",
+        "headline": "IHSG closed Apr 30 at 6,888 (-3.00%) \u2014 sharpest single-day drop of trial; Fed-hawkish + Fitch overhang + Brent $126 spike",
+        "sentiment": "bearish",
+        "source": "Liputan6 / CNBC Indonesia",
+        "url": "https://www.cnbc.com/2026/04/30/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html"
       },
       {
         "ticker": "IDR",
-        "headline": "Rupiah at 17,115/USD near record lows; BI focused on stability over growth",
+        "headline": "Rupiah pierced 17,390/USD record Apr 30; intervention risk both directions",
         "sentiment": "bearish",
-        "source": "BI / Bloomberg"
+        "source": "TradingEconomics",
+        "url": "https://tradingeconomics.com/indonesia/currency"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "US records: S&P +1.02% to 7,209.01, Nasdaq +0.89% record close \u2014 best month since 2020 (decoupled from Asia)",
+        "sentiment": "bullish",
+        "source": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html"
+      },
+      {
+        "ticker": "SUN",
+        "headline": "Indonesia 10Y SUN yield 6.30% \u2014 lowest since Aug 2023; bond rally constructive longer-term",
+        "sentiment": "bullish",
+        "source": "TradingEconomics",
+        "url": "https://tradingeconomics.com/indonesia/government-bond-yield"
+      },
+      {
+        "ticker": "BRENT",
+        "headline": "Brent $108.82 May 1 cooled from $126 Iran spike (Apr 30 intraday); volatility elevated",
+        "sentiment": "neutral",
+        "source": "TradingEconomics",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "ticker": "IDX",
+        "headline": "IDX closed May 1 (Labor Day); trial resumes May 2 (final trial day)",
+        "sentiment": "neutral",
+        "source": "TradingHours.com",
+        "url": "https://www.tradinghours.com/markets/idx"
       }
     ],
     "sector_momentum": [
       {
         "sector": "Banking",
-        "trend": "bullish",
-        "score": 8,
-        "note": "BBRI ex-div Apr 21; Q1 Apr 29; BlackRock accumulating"
+        "trend": "bearish",
+        "score": 3,
+        "note": "Fitch outlook negative; foreign net sell; IDR record; AVOID new entries"
       },
       {
         "sector": "Coal / Energy",
         "trend": "bullish",
-        "score": 9,
-        "note": "ITMG 114% Q1 beat; Newcastle $131; May 7 print"
+        "score": 8,
+        "note": "Newcastle $137.80 breakout (+2.99% 24h); ITMG hold-through-trial-close"
       },
       {
         "sector": "Nickel / Mining",
-        "trend": "bullish",
-        "score": 7,
-        "note": "HPM reform structural re-rating; ANTM +4% this week"
+        "trend": "neutral",
+        "score": 5,
+        "note": "LME 19,423 (+0.92%); HPM Decree 144 stale T+16; no fresh catalyst"
       },
       {
         "sector": "CPO / Agri",
         "trend": "bearish",
-        "score": 2,
-        "note": "Exports -34%; no recovery signal; AVOID"
+        "score": 3,
+        "note": "Exports -16% MoM; Bursa Malaysia weak; AVOID"
       },
       {
         "sector": "Property",
         "trend": "neutral",
-        "score": 4,
-        "note": "BI rate cut scope shrinking; no catalyst"
+        "score": 3,
+        "note": "BI 4.75% held; rate cut not imminent"
       },
       {
         "sector": "Consumer",
         "trend": "neutral",
         "score": 4,
-        "note": "IDR weakness on imported inputs"
+        "note": "IDR record-weak hits import inputs"
       },
       {
         "sector": "Telco",
         "trend": "neutral",
-        "score": 5,
-        "note": "No specific catalyst this week"
+        "score": 4,
+        "note": "TLKM 2,840; defensive but no fresh catalyst"
+      },
+      {
+        "sector": "Infrastructure",
+        "trend": "bearish",
+        "score": 3,
+        "note": "Fiscal tightening; AVOID"
       }
     ]
   }

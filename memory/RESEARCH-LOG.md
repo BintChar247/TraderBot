@@ -1443,3 +1443,188 @@ _Pre-market routine did not fire today. Research written inline at market-open p
 - [BBRI earnings calendar Apr 29](https://www.investing.com/equities/bank-rakyat-in-earnings)
 
 ---
+
+## 2026-05-01 (Friday — Week 2 Day 5) — IDX CLOSED (Labor Day)
+
+_Pre-market routine for tomorrow's final trial day (May 2 Friday). IDX closed today — no live prices. All tickers "current" = Apr 30 close. yfinance blocked since Apr 21; broker.sh quote returns entry-price fallback. Prices below sourced via WebSearch with caveat. **Critical action carried in: BBRI hard-cut 3,031 breached at Apr 30 close 2,990 → MUST EXECUTE SELL AT MAY 2 OPEN per rule.**_
+
+### Global Overnight
+
+| Market | Close (Apr 30) | Change | Note |
+|--------|----------------|--------|------|
+| S&P 500 | 7,209.01 | +1.02% | Record close; best month since 2020 |
+| Nasdaq | 24,892.31 | +0.89% | Record close |
+| Dow | +790 pts | +1.62% | Strong tape |
+| Shanghai (CSI 300) | 4,807.30 | flat | China subdued |
+| Hang Seng | 25,814.12 | −1.14% | Asia-Pac risk-off |
+| Nikkei 225 | 59,240 | −1.13% | Asia-Pac risk-off |
+| VIX | 18.81 (Apr 29) | — | Below 20 — calm US tape |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Apr 30 close) | 6,888 | −3.00% | Sharpest single-day drop of trial |
+| IDR/USD | ~17,273–17,390 | +0.12% Apr 29; record Apr 30 | Fresh all-time high pierced 17,390 |
+| Indo 10Y SUN yield | 6.30% | −0.36 pp MoM | Lowest since Aug 2023 — bond rally constructive |
+| US 10Y yield | 4.43% | — | — |
+| Indo-US spread | 187 bp | tightening | Spread compression supportive longer term |
+| Newcastle coal | $137.80 (May 1) | +2.99% 24h | **BREAKING OUT — coal floor restored AND moving higher** |
+| CPO palm oil | 4,570 MYR/T | −0.17% | Range-bound |
+| LME nickel | 19,423 USD/T | +0.92% | Modest bid |
+| Brent crude | $108.82 (May 1) | from $114 close, $126 intraday Apr 30 | Cooled from Iran-spike high |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net sell Apr 30 | $130M+ (banks hit hardest) | Continued EM-OUTFLOW; BBRI net sell IDR 69.64bn intraday |
+| Foreign flow streak | Multi-day net sell | Apr 27 already saw IDR 2T net sell on banks |
+| Driver | Fed-hawkish + Fitch outlook overhang | Concurrent driver: Brent $126 spike on Iran |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Read |
+|--------|-------|------------|----------------|
+| Banking | BEARISH | Fed-hawkish, Fitch outlook negative on big-4, IDR record | Avoid new entries |
+| Coal / Energy | BULLISH | Newcastle $137.80 breakout (+2.99% 24h); ITMG May 7 catalyst pending | ITMG HOLD |
+| Nickel / Mining | NEUTRAL | LME 19,423 (+0.92%); HPM Decree 144 stale T+16 | Skip |
+| CPO / Agri | BEARISH (carry) | Exports −16% MoM; Bursa Malaysia weak | Avoid |
+| Property | NEUTRAL | BI 4.75% held; no rate cut imminent | Skip |
+| Consumer | NEUTRAL | IDR record-weak hits import inputs | Skip |
+| Telco | NEUTRAL | No fresh catalyst; TLKM 2,840 last | Skip |
+| Infrastructure / Construction | NEUTRAL/NEG | Fiscal tightening | Skip |
+
+### Corporate Calendar (May 2 + early week ahead)
+
+| Event | Ticker | Date | Expected Impact |
+|-------|--------|------|-----------------|
+| Q1 earnings | ITMG | May 7 | Coal print; outside trial window |
+| BI rate decision | — | mid-May (next meeting) | Outside trial window (Apr meeting held 4.75%) |
+| BBRI Q1 (already released) | BBRI | Apr 30 (after-hours) | **Net profit Rp 15.5T +13.74% YoY — BEAT** but stock hard-cut on macro selling |
+| IDX closed | — | May 1 (Labor Day) | No trading today |
+
+### Watchlist Scan — All 50 Tickers (Apr 30 close basis)
+
+Score 1–10. **Final-day context: 1 trading day remains (May 2). Eagerness check FAIL across the board for new entries (0/3 weekly slot, 14% deployed, 8.88% cumulative alpha already paying off cash defensiveness, mandatory BBRI exit pending). Any new entry today is the textbook final-week mistake.**
+
+| # | Ticker | Sector | Apr 30 Px (IDR) | Score | Catalyst / Note | Status |
+|---|--------|--------|-----------------|-------|-----------------|--------|
+| 1 | BBCA | Banking | 5,825 (−2.51%) | 4 | Down with sector; Fitch outlook negative | SKIP (final-day) |
+| 2 | BBRI | Banking | 2,990 (−1.95% S1) | n/a | **HELD; HARD-CUT 3,031 BREACHED — exit at May 2 open** | EXIT |
+| 3 | BMRI | Banking | n/a (Apr 30 IHSG −3%) | 3 | Sector under Fitch + Fed hawkish | SKIP |
+| 4 | BBNI | Banking | n/a | 3 | Same as BMRI | SKIP |
+| 5 | BNGA | Banking | n/a | 3 | Same | SKIP |
+| 6 | NISP | Banking | n/a | 3 | Same | SKIP |
+| 7 | BBTN | Banking | n/a | 3 | State-bank, weakest of cohort | SKIP |
+| 8 | ADRO | Coal | n/a | 6 | Coal $137.80 breakout supportive; no fresh catalyst | WATCH (final-day; no entry) |
+| 9 | ITMG | Coal | 25,000 (−4.12%) | n/a | **HELD; coal breakout +2.99%; May 7 Q1 print** | HOLD |
+| 10 | PTBA | Coal | n/a | 6 | Coal tailwind; SOE; dividend story | WATCH (final-day) |
+| 11 | BUMI | Coal | n/a | 4 | Levered story; volatile | SKIP |
+| 12 | HRUM | Coal | n/a | 5 | Coal tailwind; nickel exposure | SKIP |
+| 13 | MEDC | Energy | n/a | 5 | Brent $108 cooling from spike | SKIP |
+| 14 | PGAS | Gas | n/a | 4 | No discrete catalyst | SKIP |
+| 15 | ANTM | Nickel | n/a | 4 | HPM Decree 144 T+16 stale; eagerness FAIL | SKIP |
+| 16 | INCO | Nickel | n/a | 3 | Data integrity unresolved (multi-source spread) | SKIP |
+| 17 | MDKA | Nickel | n/a | 4 | Range-bound | SKIP |
+| 18 | NCKL | Nickel | n/a | 4 | Range-bound | SKIP |
+| 19 | MBMA | Nickel | n/a | 3 | Range-bound | SKIP |
+| 20 | TINS | Tin | n/a | 4 | LME tin steady; no catalyst | SKIP |
+| 21 | UNVR | Consumer | n/a | 4 | IDR record-weak hits import inputs | SKIP |
+| 22 | ICBP | Consumer | ~7,100 (carry) | 5 | IDR-import drag; recovery thesis intact long-term | WATCH (post-trial) |
+| 23 | INDF | Consumer | ~5,975 (carry) | 4 | Same | SKIP |
+| 24 | MYOR | Consumer | ~1,860 (carry) | 4 | Same | SKIP |
+| 25 | SIDO | Consumer | n/a | 4 | Defensive | SKIP |
+| 26 | TLKM | Telco | 2,840 (Apr 29) | 5 | TP IDR 4,051 mean; defensive but no catalyst | WATCH (post-trial) |
+| 27 | EXCL | Telco | n/a | 4 | No catalyst | SKIP |
+| 28 | ISAT | Telco | n/a | 4 | No catalyst | SKIP |
+| 29 | MTEL | Tower | n/a | 4 | Defensive yield; no catalyst | SKIP |
+| 30 | TOWR | Tower | n/a | 4 | Same | SKIP |
+| 31 | BSDE | Property | n/a | 3 | BI rate cut not imminent | SKIP |
+| 32 | CTRA | Property | n/a | 3 | Same | SKIP |
+| 33 | SMRA | Property | n/a | 3 | Same | SKIP |
+| 34 | PWON | Property | n/a | 3 | Same | SKIP |
+| 35 | GOTO | Tech | n/a | 3 | Risk-off tape; no catalyst | SKIP |
+| 36 | BUKA | Tech | n/a | 3 | Same | SKIP |
+| 37 | EMTK | Tech | n/a | 3 | Same | SKIP |
+| 38 | ASII | Auto | n/a | 5 | Q1 print released Apr 27; buyback intact | WATCH (post-trial) |
+| 39 | UNTR | Heavy Eq | n/a | 5 | Coal cap-ex tailwind; buyback intact | WATCH (post-trial) |
+| 40 | AKRA | Distribution | n/a | 4 | Brent volatility neutral | SKIP |
+| 41 | AALI | Plantation | n/a | 3 | CPO export weakness | SKIP |
+| 42 | LSIP | Plantation | n/a | 3 | Same | SKIP |
+| 43 | JSMR | Infra | n/a | 4 | No fresh catalyst | SKIP |
+| 44 | WSKT | Constr | n/a | 2 | Balance-sheet stress; AVOID | SKIP |
+| 45 | PTPP | Constr | n/a | 3 | Fiscal tightening | SKIP |
+| 46 | ADHI | Constr | n/a | 3 | Same | SKIP |
+| 47 | KLBF | Healthcare | n/a | 4 | Defensive; no catalyst | SKIP |
+| 48 | MIKA | Healthcare | n/a | 4 | Defensive premium | SKIP |
+| 49 | SMGR | Cement | n/a | 3 | Volume weakness | SKIP |
+| 50 | INTP | Cement | n/a | 3 | Same | SKIP |
+
+**Result: ZERO tickers score ≥ 6 with a fresh discrete catalyst inside the 1-trading-day trial window.**
+ADRO/PTBA score 6 on coal-breakout sector momentum, but no discrete idiosyncratic catalyst, and the final-day clock + 0/3 weekly slot + cash defensiveness already paying off mean any new entry is procedurally an eagerness mistake. **No CANDIDATE promotions.**
+
+### Defensive Quality Track Check
+
+LQ45 mega-caps scoring 5–6: BBCA (4) — fails primary score gate; ICBP (5) — no fresh long-term mean/σ valuation data sourced (cannot fabricate); TLKM (5) — same; ASII (5) — same; UNTR (5) — not in defensive list.
+
+**No DEFENSIVE-CANDIDATE promotions.** Per strategy: "If valuation check fails or you can't source the long-term mean, keep as WATCH — do NOT fabricate numbers." Compliant.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+**None.** No ticker scores ≥ 6 with a fresh discrete catalyst inside the 1-trading-day window. Coal sector (ADRO, PTBA) has supportive macro (Newcastle $137.80 breakout) but no idiosyncratic catalyst, and final-day timing fails the eagerness gate.
+
+---
+
+### Held Position Updates
+
+- **BBRI** — Apr 30 close: **2,990 IDR** (intraday low at 11:08 WIB confirmed by beritajejakfakta.id; session I close 3,010, final 2,990). Unrealised −8.28% from entry 3,260. **HARD-CUT 3,031 BREACHED.** Q1 print released Apr 30 was a BEAT (Rp 15.5T net profit, +13.74% YoY; interest income +5.94%, expenses −9.31%, loans +13%) — but the macro tape (Fed hawkish + Fitch overhang + IHSG −3%) overwhelmed the print. **The earnings beat does NOT override the hard-cut rule.** Strategy: "sell immediately, no hoping, no averaging down" on hard-cut breach. Action: **EXIT AT MAY 2 OPEN — non-negotiable. Realized loss locked at ~−IDR 59.4M (−8.28%).**
+- **ITMG** — Apr 30 close: 25,000 IDR. Unrealised −4.12% from entry 26,075. State 1 hard-cut at 24,250 unchanged (further −3.00% room — narrowed from −4.81% pre-IHSG-shock). Coal breakout: Newcastle $133.65 (Apr 29) → $137.80 (May 1) = +2.99% 24h, fully reconfirmed thesis-floor and breaking higher. May 7 Q1 print is the carry-forward catalyst (5 days post-trial-close). Below +7% trail activation (27,900). On Apr 30 (IHSG −3%) ITMG outperformed at −1.86% vs market −3% — defensive coal exposure paid. **Action: HOLD into trial close.** Trial ends May 2 EOD; ITMG carries through.
+
+### Macro Regime Assessment
+
+**Regime: EM OUTFLOW / RISK-CAUTIOUS (unchanged; intensified further).** Apr 30 −3% break + IDR 17,390 record + Fitch overhang + Fed-hawkish all reinforce the regime label. Coal-floor restoration (now $137.80 breakout) and Indo 10Y SUN at 6.30% (lowest since Aug 2023) are local positives but not regime-shift triggers. Position sizing on hypothetical new entries: 15% cap (no relaxation). Cash buffer 86.48% — appropriate; final-day discipline required.
+
+### Flagged Risks
+
+- **BBRI execution risk at May 2 open:** Stop is GTC but paper-mode broker did not auto-execute on Apr 30 intraday breach. Must manually execute SELL at open regardless of pre-market price action. If BBRI gaps up at open, sell anyway — the rule is the rule.
+- **ITMG narrowing buffer:** −4.12% from entry, −3.00% from hard-cut. An IHSG continuation lower on May 2 could test the hard-cut. Pre-commit: if ITMG breaches 24,250 intraday, EXIT per rule (do not wait for May 7 print).
+- **IDR record at 17,390:** Intervention risk both directions. A coordinated BI defense could move banks/consumer; a runaway move could pressure ITMG (stronger USD = stronger coal revenue, but volatility risk).
+- **Final-day eagerness:** Strongest cumulative alpha (+8.88%) sits at the desk going into the last trading day. Forcing a "victory lap" trade is the textbook destruction-of-edge move. Resist.
+- **Coal sustainability:** $137.80 is one print; need confirmation. May 2 print direction matters for ITMG hold-through-trial-close decision (currently HOLD).
+- **IDX closed today:** No new market signal until May 2 open. Pre-market plan locked.
+
+### Plan for /market-open (2026-05-02)
+
+- [ ] **EXECUTE BBRI SELL — 220,000 shares at market open, all available.** Reason: hard-cut 3,031 breached at Apr 30 close (2,990); rule mandates immediate exit. NOT optional, NOT discretionary. Realized loss ~−IDR 59.4M (−8.28%) → realized.
+- [ ] **HOLD ITMG.** Stop unchanged at hard-cut 24,250. Newcastle coal $137.80 breakout supportive; trial closes EOD May 2; May 7 catalyst sits 5 days post-trial.
+- [ ] **No new entries.** Eagerness check FAIL on all 50 tickers; final-day; 0/3 weekly slot; cumulative alpha already paying off cash defensiveness.
+- [ ] **No add-ons.** ITMG sector concentration unchanged; BBRI exiting.
+- [ ] Log no-new-trade with reason on market-open. Trades this week stay 0/3 (Week 2).
+- [ ] Watch IHSG technical: a continuation lower (sub-6,800) tests ITMG hard-cut; a bounce relieves pressure.
+
+### Sources
+
+- [S&P 500 +1.02% / Nasdaq +0.89% record close Apr 30](https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html)
+- [Stock Market Today Apr 30 2026 — best month since 2020](https://www.thestreet.com/latest-news/stock-market-today-apr-30-2026-updates)
+- [Asia-Pacific Apr 30 — Nikkei −1.13% / HSI −1.14%](https://www.cnbc.com/2026/04/30/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html)
+- [Newcastle coal $137.80 May 1 (+2.99% 24h)](https://www.oilpriceapi.com/live/coal-price)
+- [Newcastle coal $133.65 Apr 29 (+1.83%)](https://tradingeconomics.com/commodity/coal)
+- [USD/IDR 17,265.9 (May 1 reference)](https://www.investing.com/currencies/usd-idr-historical-data)
+- [US 10Y yield 4.43% Apr 30](https://tradingeconomics.com/united-states/government-bond-yield)
+- [Indo 10Y SUN yield 6.30% Apr 29 (lowest since Aug 2023)](https://tradingeconomics.com/indonesia/government-bond-yield)
+- [VIX 18.81 Apr 29](https://finance.yahoo.com/quote/%5EVIX/history/)
+- [LME nickel $19,423 Apr 30 (+0.92%)](https://tradingeconomics.com/commodity/nickel)
+- [CPO palm oil 4,570 MYR/T Apr 30 (−0.17%)](https://tradingeconomics.com/commodity/palm-oil)
+- [Brent $108.82 May 1 (cooled from $126 Iran spike)](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [BBRI Q1 2026 net profit Rp 15.5T +13.74% YoY (released Apr 30)](https://money.kompas.com/read/2026/04/30/100124826/bri-cetak-laba-bersih-rp-155-triliun-pada-kuartal-i-2026-naik-137-persen)
+- [BBRI Q1 detail bisnis.com](https://finansial.bisnis.com/read/20260430/90/1970337/laba-bersih-bbri-tumbuh-137-menjadi-rp1563-triliun-kuartal-i2026)
+- [BBCA Apr 30 close 5,825 (−2.51%)](https://stockanalysis.com/quote/idx/BBCA/)
+- [TLKM Apr 29 close 2,840](https://sectors.app/idx/tlkm)
+- [IDX closed Friday May 1 2026 (Labor Day)](https://www.tradinghours.com/markets/idx)
+- [BI rate held 4.75% April meeting](https://tradingeconomics.com/indonesia/interest-rate)
+- [Foreign net sell IDR 2T Apr 27 banks pressured](https://indikatorbisnis.com/detail/853036/net-sell-asing-rp2-triliun-picu-tekanan-saham-bbca-bmri-dan-bbri)
+
+---
