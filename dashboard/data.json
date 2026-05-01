@@ -1895,6 +1895,31 @@
           "detail": "yfinance still blocked since Apr 21; broker.sh quote returns entry-price fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-01T02:25:38Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDX CLOSED (Labor Day, May 1). Carry-forward: BBRI hard-cut breached at Apr 30 close (2,990 vs 3,031) \u2014 mandatory exit at May 2 open per rule. ITMG HOLD. Telegram 403 host-not-allowlisted (same infra condition since trial start).",
+      "actions": [
+        {
+          "type": "info",
+          "detail": "IDX closed Labor Day; no orders possible"
+        },
+        {
+          "type": "warning",
+          "detail": "BBRI hard-cut 3,031 breached Apr 30 close 2,990 \u2014 mandatory sell at May 2 open"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "hard-cut 24,250 unchanged; coal Newcastle $137.80 breakout +2.99% 24h"
+        },
+        {
+          "type": "info",
+          "detail": "No new entries \u2014 final-day eagerness check FAIL on all 50 tickers"
+        }
+      ]
     }
   ],
   "exposure": {
