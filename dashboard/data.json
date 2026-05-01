@@ -1920,6 +1920,24 @@
           "detail": "No new entries \u2014 final-day eagerness check FAIL on all 50 tickers"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-01T04:40:01Z",
+      "routine": "midday",
+      "status": "warning",
+      "summary": "Hard-cut BBRI executed at -8.28% (Apr 30 close 2,990 vs hard-cut 3,031). ITMG held -4.12%, thesis intact.",
+      "actions": [
+        {
+          "type": "cut",
+          "ticker": "BBRI",
+          "detail": "-8.28% hard cut; sold 220,000 @ IDR 2,990; realized -IDR 59.4M"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "-4.12%, hard-cut 24,250, 3.00% buffer; thesis intact"
+        }
+      ]
     }
   ],
   "exposure": {

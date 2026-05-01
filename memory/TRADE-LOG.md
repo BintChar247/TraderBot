@@ -10,8 +10,9 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $129–131/t (single sub-floor print Apr 28/29; needs second print to flip) (last mark 25,475; −2.30%) |
-| BBRI | 2026-04-23 | 3,260 | 220,000 | 717,200,000 | 3,031 | hard-cut | Q1 2026 print resolved benign (flat post-earnings = in-line, no negative surprise) (last mark 3,070; −5.83%; 1.27% above hard-cut) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.50/t (back above $130 floor Apr 30) (last mark 25,000; −4.12%; 3.00% above hard-cut) |
+
+_BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
 ---
 
@@ -743,3 +744,52 @@ Watch tomorrow (Fri May 2 — last trial day; May 1 Labor Day holiday confirmed)
 6. Weekly review routine fires Friday 16:00 WIB — captures end-of-trial assessment
 
 Lesson logged for MISTAKES.md (to be captured in tomorrow's weekly review): midday scan price-source lag failure — when a position is within 1% of hard-cut, midday must use multi-source price verification rather than a single (potentially stale) WebSearch read. The 11:30 WIB midday scan today reported BBRI at 3,070 (+0.66%) when actual intraday tape was 2,990 to 3,010 — a 60-80 IDR gap that mattered. Recommend: when buffer to hard-cut < 1.5%, midday must cross-verify via 2+ sources or pull a fresh tape print rather than relying on broker.sh stale fallback.
+
+---
+
+### 2026-05-01 11:30 WIB — MIDDAY SCAN (BBRI hard-cut executed)
+
+**Context:** Today is May 1 (Labor Day) — IDX is closed for the holiday, no live trading session. This automated midday routine is firing per schedule. BBRI hard-cut was breached at Apr 30 close (mark 2,990 vs hard-cut 3,031 → −8.28% from entry 3,260), and the Apr 30 EOD note explicitly queued execution for the next routine.
+
+- Positions evaluated at start: ITMG (27,300 @ 26,075), BBRI (220,000 @ 3,260)
+- Price sources: market-data.sh / yfinance still blocked (host not in allowlist + 403; same infra condition since Apr 21). broker.sh quote returns stale entry-price fallback. WebSearch unavailable today (market closed → no fresh tape). Last verified marks = Apr 30 close: ITMG 25,000, BBRI 2,990.
+
+**ITMG (HOLD):**
+- Mark: IDR 25,000 (Apr 30 close, last verified) → −4.12% from entry. Below +7% trail activation (27,900). Hard-cut 24,250 unchanged (3.00% buffer remaining).
+- Thesis: Newcastle coal $133.50/t per oilpriceapi (Apr 30 reading) — back above $130 floor after Apr 28/29 sub-$130 single prints. Thesis intact.
+- No tightening, no thesis break, no action.
+
+**BBRI (HARD CUT — executed):**
+- Mark: IDR 2,990 (Apr 30 close, intraday low matched close) → −8.28% from entry. Hard-cut 3,031 BREACHED (Apr 30 intraday low 2,990 hit at 11:08 WIB per beritajejakfakta.id; session I close 3,010; session II close 2,990).
+- Action: `bash scripts/broker.sh sell BBRI 220000` executed.
+- Broker fill (paper): IDR 3,260 (stale fill — broker.sh sell uses cmd_quote which falls back to entry_price when market-data.sh is blocked; sell-side has no MD_LAST_PRICE_OVERRIDE path).
+- **Manual ledger correction:** PAPER-STATE.json patched to reflect actual exit at IDR 2,990 (Apr 30 verified close mark). Realized P&L: (2,990 − 3,260) × 220,000 = −IDR 59,400,000 (−8.28%). Cash adjusted: 9,288,152,500 → 9,228,752,500. realised_pnl: 0 → −59,400,000. closed_trades[BBRI].exit_price 3260→2990; pnl_idr 0→−59,400,000.
+- STOPS.json: BBRI entry removed by broker.sh (confirmed).
+- MISTAKES.md: entry appended (2026-05-01 BBRI HARD-CUT) — root cause OTHER (price-source lag during Apr 30 midday combined with macro tail risk overpowering benign Q1 print).
+- Notification sent: 🔴 HARD CUT BBRI — sold 220,000 @ IDR 2,990 | Loss: −8.28% | Rule: −7% stop hit.
+
+**Trade History entry:**
+
+### 2026-05-01 [paper-fill via broker.sh] — SELL BBRI (hard-cut)
+
+- Side: SELL
+- Shares: 220,000 at IDR 2,990 (ledger-corrected; broker paper fill landed at stale 3,260)
+- Entry was: IDR 3,260 (2026-04-23)
+- Realized P&L: −IDR 59,400,000 (−8.28%)
+- Reason: −7% hard cut breach (Apr 30 close 2,990 < hard-cut 3,031); Apr 30 midday read stale price 3,070 and missed the intraday breach; rule-enforced exit fired at next routine.
+- Days held: 8
+
+**Post-exit portfolio state:**
+- Active positions: ITMG only (27,300 sh @ 26,075).
+- Cash: IDR 9,228,752,500 (effective ~93.1% of equity once deployed cost is netted; mark-to-market equity computed at next EOD).
+- Realized P&L (cumulative): −IDR 59,400,000.
+- Sector exposure: Coal 7.18% only (Banking exposure removed).
+- Trades this week: 0/3 (sell does not consume buy slot).
+- Drawdown from peak (10,026,617,500 on Apr 22): mark-to-market equity ~9,851,852,500 = −1.74% (ITMG unrealized −IDR 29,347,500 + realized −IDR 59,400,000). Below all alert thresholds.
+- No daily loss cap breach, no weekly loss cap breach, no max-drawdown alert.
+
+**Notes:**
+- IDX is closed today (Labor Day). The broker paper-mode sell still simulates a fill regardless of session state — this is a known broker.sh behaviour. The fill price was wrong (stale entry 3,260) so PAPER-STATE.json was patched manually to preserve trial-P&L integrity. This is a documented infra limitation, not a rule breach.
+- The procedural failure (stale midday read on Apr 30 missing the hard-cut breach) is logged in MISTAKES.md with a concrete recommendation: when buffer to hard-cut <1.5%, midday must cross-verify price via ≥2 sources and check intraday low (not just last-print).
+- Trial calendar: trial closes Fri May 2 (May 2 is Saturday so effective last trading day was Apr 30; weekly review fires later today per schedule).
+- Decision: BBRI SOLD. ITMG HOLD pending weekly review.
