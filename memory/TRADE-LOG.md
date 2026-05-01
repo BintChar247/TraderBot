@@ -793,3 +793,49 @@ Lesson logged for MISTAKES.md (to be captured in tomorrow's weekly review): midd
 - The procedural failure (stale midday read on Apr 30 missing the hard-cut breach) is logged in MISTAKES.md with a concrete recommendation: when buffer to hard-cut <1.5%, midday must cross-verify price via ≥2 sources and check intraday low (not just last-print).
 - Trial calendar: trial closes Fri May 2 (May 2 is Saturday so effective last trading day was Apr 30; weekly review fires later today per schedule).
 - Decision: BBRI SOLD. ITMG HOLD pending weekly review.
+
+---
+
+### 2026-05-01 EOD — Day 10 (Week 2 Day 5, Labor Day — IDX closed)
+
+- Total equity: IDR 9,911,252,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: 0.00% (IDX closed Labor Day; close held at 6,888 from Apr 30)
+- Daily alpha: 0.00%
+- Cash: IDR 9,228,752,500 (93.11% of equity)
+- Trades today: 1 (BBRI hard-cut sell executed at midday)
+- Trades this week: 0/3 (sells do not consume buy slots)
+- Phase-to-date P&L: IDR −88,747,500 (−0.89%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,888 = −9.77%): +8.88%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,000 | −IDR 29,347,500 (−4.12%) | 9 |
+
+#### Notes
+
+Day 10 of trial (Fri, Week 2 Day 5). **IDX closed for Labor Day** — no live trading session. The day's sole portfolio action was the BBRI hard-cut sell executed by the 11:30 WIB midday routine (220,000 sh at ledger-corrected IDR 2,990; realized −IDR 59,400,000 / −8.28%). Equity unchanged day-over-day because BBRI's loss was already captured in yesterday's mark-to-market — today's transition is P&L-neutral, only converting unrealized → realized.
+
+Broker reconciliation: broker.sh portfolio shows ITMG only (27,300 sh @ 26,075, last_price stale at entry); BBRI removed from positions list (confirmed). PAPER-STATE.json reflects realized −IDR 59,400,000 and cash 9,228,752,500. STOPS.json: BBRI entry removed by broker.sh; ITMG hard-cut 24,250 unchanged. Reconciliation clean — no discrepancies between broker, ledger, and TRADE-LOG.
+
+Mark-to-market: ITMG held at IDR 25,000 (last verified close, Apr 30) — market closed, no fresh tape today; market-data.sh yfinance still blocked (same infra condition since Apr 21). Position unchanged: ITMG −4.12% from entry, hard-cut 24,250 (3.00% buffer remaining), below +7% trail activation 27,900.
+
+Macro: IDX closed; Asia mixed (US S&P record-high prior session +1.02%; risk-off in Asia muted by holiday). Newcastle coal $137.80/t (+2.99% 24h per oilpriceapi) — breakout above $130 thesis floor, fully restoring ITMG thesis. IDR 17,390 Apr 30 record holds; Brent cooled to $108.82 from $126 spike. No catalysts for active positions today.
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,911,252,500 − 10,026,617,500) / 10,026,617,500 = −1.15% — unchanged from Apr 30. No daily loss cap breach (0.00% vs −2% cap). No position at −6% or worse (ITMG only, −4.12%). No max-drawdown alert.
+
+Sector exposure: Coal 6.89% only (Banking exposure removed via BBRI sell); 93.11% cash.
+
+Watch tomorrow (Sat May 2 — IDX also closed for weekend; Apr 30 was effective last trading day of the trial):
+1. Weekly review fires today 16:00 WIB — captures end-of-trial assessment, letter grade, lessons (BBRI hard-cut procedural failure already drafted for MISTAKES.md by midday routine)
+2. ITMG hold/sell decision: trial effectively over; Apr 30 was last live session. ITMG stays open through weekly review for final P&L accounting.
+3. May 7 ITMG Q1 earnings catalyst is post-trial — outside the Apr 20–May 2 trial window
+4. No new trades possible: trial closing; weekly slot 0/3 unused but moot
+
+Trial recap (preliminary, full assessment at weekly review):
+- Phase-to-date: −0.89% portfolio vs IHSG −9.77% = **+8.88% cumulative alpha** over the 10-day trial. Best running alpha of the trial.
+- Trades: 2 buys (ITMG ✓ open −4.12%, BBRI ✗ hard-cut −8.28%), 1 sell. Win-rate 0/1 closed; ITMG still open into trial close.
+- Discipline outcome: hard-cut rule fired (one routine late but rule honored); 86–93% cash deployed defensively; declined all candidates Days 5–10 on eagerness/freshness/data-integrity gates. Selectivity preserved capital through IHSG −3% red-tape and rupiah record-low session.

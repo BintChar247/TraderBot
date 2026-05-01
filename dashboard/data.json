@@ -155,6 +155,21 @@
       "positions_count": 2,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-05-01",
+      "day_label": "Day 10",
+      "portfolio_value": 9911252500,
+      "cash": 9228752500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.89,
+      "ihsg_close": 6888.0,
+      "ihsg_cumulative_pct": -9.77,
+      "alpha_pct": 8.88,
+      "positions_count": 1,
+      "trades_today": 1,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -170,21 +185,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Coal $133.50 floor restored; May 7 earnings catalyst; portfolio defensive on -3% IHSG day"
-    },
-    {
-      "ticker": "BBRI",
-      "entry_date": "2026-04-23",
-      "entry_price": 3260,
-      "shares": 220000,
-      "current_price": 2990,
-      "unrealized_pct": -8.28,
-      "hard_cut": 3031,
-      "trail_stop": null,
-      "stop_state": "hard-cut",
-      "thesis_state": "broken",
-      "catalyst_date": "2026-04-30",
-      "thesis": "HARD CUT 3,031 BREACHED \u2014 execute sell at May 2 open per rule (intraday low 2,990 at 11:08 WIB)"
+      "thesis": "Coal $137.80 breakout above $130 floor; thesis fully restored; HOLD into trial close"
     }
   ],
   "trades": [
@@ -205,8 +206,18 @@
       "shares": 220000,
       "price": 3260,
       "cost": 717200000,
-      "status": "open",
-      "realized_pnl_pct": null
+      "status": "closed",
+      "realized_pnl_pct": -8.28
+    },
+    {
+      "date": "2026-05-01",
+      "ticker": "BBRI",
+      "side": "sell",
+      "shares": 220000,
+      "price": 2990,
+      "cost": 657800000,
+      "status": "closed",
+      "realized_pnl_pct": -8.28
     }
   ],
   "decisions": [
@@ -1215,24 +1226,29 @@
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
-    "losing_trades": 0,
-    "open_trades": 2,
+    "losing_trades": 1,
+    "open_trades": 1,
     "avg_winner_pct": 0.0,
-    "avg_loser_pct": 0.0,
+    "avg_loser_pct": -8.28,
     "profit_factor": 0.0,
     "max_drawdown_pct": -1.15,
     "best_trade": null,
-    "worst_trade": null,
+    "worst_trade": {
+      "ticker": "BBRI",
+      "realized_pnl_pct": -8.28,
+      "realized_pnl_idr": -59400000,
+      "exit_reason": "hard-cut"
+    },
     "rules_followed": true,
     "violations": [],
     "current_equity": 9911252500,
     "cum_return_pct": -0.89,
     "ihsg_cum_pct": -9.77,
     "cum_alpha_pct": 8.88,
-    "positions_count": 2,
-    "cash_pct": 86.48,
+    "positions_count": 1,
+    "cash_pct": 93.11,
     "trades_this_week": 0,
-    "last_updated": "2026-04-30"
+    "last_updated": "2026-05-01"
   },
   "risk": {
     "beta_ihsg": null,
@@ -1244,13 +1260,13 @@
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.29,
+    "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": -0.38,
     "peak_equity": 10026617500,
     "current_equity": 9911252500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-04-30"
+    "updated": "2026-05-01"
   },
   "activity_log": [
     {
@@ -1936,6 +1952,48 @@
           "type": "hold",
           "ticker": "ITMG",
           "detail": "-4.12%, hard-cut 24,250, 3.00% buffer; thesis intact"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-01T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 10 EOD: IDR 9.911B (0.00% day; IDX closed Labor Day). Cum return -0.89% vs IHSG -9.77% = +8.88% alpha. 1 position open (ITMG -4.12%). Trades this week: 0/3. BBRI hard-cut realized -IDR 59.4M earlier today.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 10 snapshot committed; trial closing tomorrow"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300 sh @ 25,000 (-4.12%); hard-cut 24,250; coal $137.80 breakout"
+        },
+        {
+          "type": "info",
+          "detail": "IDX closed Labor Day; mark unchanged; daily P&L 0.00%"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-01T08:39:28Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 10 EOD: IDR 9.911B (0.00% day; IDX closed Labor Day). Cum return -0.89% vs IHSG -9.77% = +8.88% cum alpha. 1 position open (ITMG -4.12%). BBRI hard-cut realized -IDR 59.4M earlier today. Trades this week: 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 10 snapshot committed (final-trial-day baseline)"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300 sh @ 25,000 mark; hard-cut 24,250; coal $137.80 breakout"
+        },
+        {
+          "type": "info",
+          "detail": "IDX closed Labor Day; daily P&L 0.00%; cash 93.11%"
         }
       ]
     }
