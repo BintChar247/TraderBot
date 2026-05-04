@@ -170,6 +170,21 @@
       "positions_count": 1,
       "trades_today": 1,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-05-04",
+      "day_label": "Day 11",
+      "portfolio_value": 9924220000,
+      "cash": 9228752500,
+      "daily_pnl_idr": 12967500,
+      "daily_pnl_pct": 0.13,
+      "cumulative_pnl_pct": -0.76,
+      "ihsg_close": 7053.0,
+      "ihsg_cumulative_pct": -7.61,
+      "alpha_pct": 6.85,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -178,14 +193,14 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 25000,
-      "unrealized_pct": -4.12,
+      "current_price": 25475,
+      "unrealized_pct": -2.3,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Coal $137.80 breakout above $130 floor; thesis fully restored; HOLD into trial close"
+      "thesis": "Coal $137.80 above $130 floor; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-3); post-trial carry pending weekly-review accounting decision"
     }
   ],
   "trades": [
@@ -1318,9 +1333,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.89,
-    "ihsg_return_pct": -9.77,
-    "alpha_pct": 8.88,
+    "total_return_pct": -0.76,
+    "ihsg_return_pct": -7.61,
+    "alpha_pct": 6.85,
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
@@ -1339,14 +1354,14 @@
     },
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9911252500,
-    "cum_return_pct": -0.89,
-    "ihsg_cum_pct": -9.77,
-    "cum_alpha_pct": 8.88,
+    "current_equity": 9924220000,
+    "cum_return_pct": -0.76,
+    "ihsg_cum_pct": -7.61,
+    "cum_alpha_pct": 6.85,
     "positions_count": 1,
-    "cash_pct": 93.11,
+    "cash_pct": 92.99,
     "trades_this_week": 0,
-    "last_updated": "2026-05-01"
+    "last_updated": "2026-05-04"
   },
   "risk": {
     "beta_ihsg": null,
@@ -1354,17 +1369,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.15,
+    "drawdown_from_peak_pct": -1.02,
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": -0.38,
+    "daily_pnl_pct": 0.13,
+    "weekly_pnl_pct": 0.13,
     "peak_equity": 10026617500,
-    "current_equity": 9911252500,
+    "current_equity": 9924220000,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-01"
+    "updated": "2026-05-04"
   },
   "activity_log": [
     {
@@ -2154,6 +2169,26 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ITMG \u22122.30% (above hard-cut buffer 4.81%). No cuts, no tightenings, no thesis break."
+    },
+    {
+      "timestamp": "2026-05-04T08:42:31Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-04 (Day 11, post-trial): IDR 9.924B (+0.13%). Alpha \u22121.17% daily / +6.85% cum vs IHSG. 1 position open (ITMG \u22122.30%). 92.99% cash. Trades this week: 0/3. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 11 EOD snapshot committed (post-trial)"
+        },
+        {
+          "type": "research",
+          "detail": "ITMG marked-to-market 25,475 (+1.90% from Apr 30 close)"
+        },
+        {
+          "type": "research",
+          "detail": "IHSG 7,053 (+1.30%); coal $137.80 floor intact"
+        }
+      ]
     }
   ],
   "exposure": {

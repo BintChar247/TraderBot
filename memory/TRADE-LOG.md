@@ -870,3 +870,52 @@ Trial recap (preliminary, full assessment at weekly review):
 - Trial is technically closed (Apr 20 – May 2 window); ITMG carry into post-trial pending weekly-review final-accounting decision.
 - No commit-worthy state changes other than this midday log entry.
 - Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+
+---
+
+### 2026-05-04 EOD — Day 11 (Post-Trial Mon, Week 3 Day 1)
+
+- Total equity: IDR 9,924,220,000
+- Daily P&L: IDR +12,967,500 (+0.13%)
+- IHSG close: 7,053 (+1.30%)
+- Daily alpha: −1.17%
+- Cash: IDR 9,228,752,500 (92.99% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −75,780,000 (−0.76%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,053 = −7.61%): +6.85%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut, locked Apr 30 mark)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,475 | −IDR 16,380,000 (−2.30%) | 14 |
+
+#### Notes
+
+Day 11 — first trading session post-trial-window (trial Apr 20–May 2 closed; May 1 Labor Day holiday, May 2–3 weekend). ITMG carried into post-trial pending weekly-review final-accounting decision. Equity rose +IDR 12.97M (+0.13%) on ITMG mark recovery from 25,000 (Apr 30 close, frozen through holiday) to 25,475 (today's verified close). Loss vs entry narrowed from −4.12% → −2.30%; hard-cut buffer widened from 3.00% → 4.81%.
+
+Broker reconciliation: broker.sh portfolio shows ITMG only (27,300 sh @ 26,075, last_price stale at entry); equity field reports 9,940,600,000 — this includes broker's stale-mark and differs from TRADE-LOG mark-to-market (9,924,220,000) by IDR 16.4M. Reconciliation note: TRADE-LOG mark uses today's verified WebSearch close 25,475; broker stale fallback uses entry 26,075. No state discrepancy — only price-source lag (same yfinance/GoAPI infra block since Apr 21). Position counts and shares match (1 position, 27,300 sh).
+
+Mark-to-market source: WebSearch returned ITMG IDR 25,475 with previous close 25,450 (Apr 30: log marked 25,000, external sources show end-of-Apr range). Used 25,475 as today's close — same value used by 11:30 WIB midday scan; no further intraday move detected.
+
+Macro: IHSG rebounded from Apr 30 sell-off — closed 7,053 (+1.30% per mediaindonesia.com headline; sesi I close 6,968.52 +0.17% per kompas/RRI; final session II strength carried index above 7,000 again). Driver: lower-than-expected April CPI inflation print, IDR consolidation off 17,390 record. Note: external sources show some divergence vs internal log baseline (Apr 30 close varies between 6,888 internal vs ~6,956 external Yahoo/TradingEconomics) — internal accounting maintained for trial-period consistency. Today's daily IHSG % uses source-stated +1.30% directly.
+
+Coal: Newcastle still firm above $130/t thesis floor (last verified $137.80 Apr 30). No fresh ITMG-specific catalyst; May 7 Q1 earnings remains the next binary (T−3).
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,924,220,000 − 10,026,617,500) / 10,026,617,500 = −1.02% (improved from −1.15% Apr 30 / May 1).
+
+RISK ALERTS: NONE.
+- Daily P&L +0.13% — far from −2% cap.
+- ITMG at −2.30% — well above −6% warning threshold.
+- Drawdown −1.02% — well above −15% hard limit.
+
+Sector exposure: Coal 7.01% only (ITMG); 92.99% cash. Banking exposure removed via BBRI hard-cut May 1.
+
+Watch tomorrow (Tue May 5):
+1. ITMG May 7 Q1 earnings T−2 — pre-print drift; thesis-break test if any negative pre-announce
+2. Newcastle coal continuation — needs holds ≥$130 to keep thesis intact
+3. IHSG follow-through above 7,000 (or fade back below) — rate of rebound confirms or rejects today's bounce
+4. IDR direction post-CPI print — sustained strength would lift IHSG further
+5. Trial weekly review decision: hold ITMG into earnings or close pre-print to lock the trial-window result — pending weekly review (already filed Fri May 1 16:00 WIB per schedule, but final ITMG accounting decision deferred to next routine)
