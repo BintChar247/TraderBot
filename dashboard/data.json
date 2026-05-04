@@ -1217,6 +1217,104 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "ADRO",
+      "action": "SKIP",
+      "date": "2026-05-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Coal name with Newcastle floor intact; only score-6 candidate, but post-trial window precludes new entries.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal $133.90/t holding $130 floor"
+        },
+        {
+          "type": "macro",
+          "label": "EM OUTFLOW / RISK-CAUTIOUS regime; IDR 17,310"
+        },
+        {
+          "type": "risk",
+          "label": "Post-trial discipline: trial window closed Apr 30; no new buys"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 not entered"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Apr 20\u2013May 2 trial window has closed; today is post-trial. Per research plan, no new entries \u2014 preserve realized P&L and let ITMG carry to May 7 Q1 print.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "HOLD",
+      "date": "2026-05-04",
+      "time": "09:15 WIB",
+      "shares": 27300,
+      "price": 26075,
+      "thesis": "Coal carry into May 7 Q1 print; Newcastle $130+ floor intact; hard-cut 24,250 unchanged.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "ITMG Q1 2026 earnings May 7 (3 trading days out)"
+        },
+        {
+          "type": "macro",
+          "label": "Coal floor $130+ supportive; EM regime unchanged"
+        },
+        {
+          "type": "risk",
+          "label": "Apr 30 mark 25,000; -3.00% buffer to hard-cut 24,250"
+        },
+        {
+          "type": "sizing",
+          "label": "7.18% of equity (within 15% regime cap)"
+        },
+        {
+          "type": "warning",
+          "label": "Mark-to-market sourced from WebSearch (yfinance blocked)"
+        }
+      ],
+      "reasoning": "Held position; no add. Hard-cut non-discretionary if intraday breach of 24,250.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -2024,6 +2122,32 @@
       ],
       "commit_hash": "0870824",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-05-04T02:31:14Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Post-trial session (Apr 20\u2013May 2 trial window closed Apr 30 effective). Plan = HOLD ITMG only into May 7 Q1 earnings; no candidates scored >=6 outside the held position; cash 92.84% preserved.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300 sh @ 26,075 entry; mark Apr 30 25,000; hard-cut 24,250 (3.00% buffer)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ADRO",
+          "detail": "score 6 informational only; post-trial window \u2014 no new entries"
+        },
+        {
+          "type": "warning",
+          "detail": "yfinance blocked; quotes via WebSearch"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram host-not-in-allowlist; notification printed to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
