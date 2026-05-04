@@ -839,3 +839,34 @@ Trial recap (preliminary, full assessment at weekly review):
 - Phase-to-date: −0.89% portfolio vs IHSG −9.77% = **+8.88% cumulative alpha** over the 10-day trial. Best running alpha of the trial.
 - Trades: 2 buys (ITMG ✓ open −4.12%, BBRI ✗ hard-cut −8.28%), 1 sell. Win-rate 0/1 closed; ITMG still open into trial close.
 - Discipline outcome: hard-cut rule fired (one routine late but rule honored); 86–93% cash deployed defensively; declined all candidates Days 5–10 on eagerness/freshness/data-integrity gates. Selectivity preserved capital through IHSG −3% red-tape and rupiah record-low session.
+
+---
+
+### 2026-05-04 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Post-trial Monday (trial window closed Fri May 2). ITMG remains the sole open position pending final accounting at weekly review. Routine fires per schedule.
+
+- Positions evaluated: ITMG only (27,300 sh @ 26,075 entry).
+- broker.sh quote: stale (returns entry price 26,075; market-data.sh yfinance still 403-blocked, GoAPI key not set — same infra condition since Apr 21).
+- WebSearch verified mark: IDR 25,475 (most recent print, search returned previous close 25,450 / last 25,475).
+
+**ITMG (HOLD):**
+- Mark: IDR 25,475 → P&L (25,475 − 26,075) / 26,075 = **−2.30%** from entry.
+- Buffer to hard-cut 24,250: (25,475 − 24,250) / 25,475 = +4.81% — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: WebSearch on "ITMG IDX news today 2026-05-04" returned no adverse catalyst. Consensus rating still "Buy" (13 analysts, 12-mo PT 26,908). May 7 Q1 earnings catalyst still pending. Newcastle coal floor (last verified $137.80/t Apr 30 oilpriceapi) intact. Thesis intact.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO — ITMG at −2.30%
+- Tighten to 5% (+20%): NO — ITMG at −2.30%
+- Thesis break: NO — no adverse catalyst found
+- Intraday >3% move: NO — mark vs Apr 30 close (25,000 → 25,475 = +1.90%, within normal range)
+
+**Notification sent:** 📊 Midday 2026-05-04: All positions healthy. No action taken.
+
+**Notes:**
+- Trial is technically closed (Apr 20 – May 2 window); ITMG carry into post-trial pending weekly-review final-accounting decision.
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
