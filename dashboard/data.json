@@ -2373,6 +2373,12 @@
           "detail": "WebSearch price override path used (yfinance blocked since Apr 21)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-05T04:37:01Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. ITMG \u22122.30% (buffer +4.81% to hard-cut 24,250). No cuts, no stop tightenings, no thesis breaks. UBS upgrade Neutral\u2192Buy surfaced (thesis-confirming)."
     }
   ],
   "exposure": {

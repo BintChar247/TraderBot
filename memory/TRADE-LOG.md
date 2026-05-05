@@ -958,3 +958,34 @@ Watch tomorrow (Tue May 5):
 - Stops modified: 0
 
 **Notification sent:** 📊 Market-open 2026-05-05: No trades placed. MEDC failed Gate 9 (intraday −9.93% from planned 1,915 to 1,725, Iran de-escalation premium retrace); ITMG held, no add.
+
+---
+
+### 2026-05-05 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 12 (post-trial-window). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). ITMG sole open position; cash 92.82% of equity.
+
+- Positions evaluated: ITMG only (27,300 sh @ 26,075 entry).
+- broker.sh quote: stale (returns entry price 26,075; market-data.sh yfinance still 403-blocked since Apr 21, GoAPI key not set — same infra condition).
+- WebSearch verified mark: IDR 25,475 (multi-source: Investing.com / TradingView / Yahoo / Stockanalysis.com cluster — open 26,500, range 25,800–26,525, last 25,475, −0.10% 24h). Same mark as 09:15 WIB — no fresh intraday move detected.
+
+**ITMG (HOLD):**
+- Mark: IDR 25,475 → P&L (25,475 − 26,075) / 26,075 = **−2.30%** from entry.
+- Buffer to hard-cut 24,250: (25,475 − 24,250) / 25,475 = **+4.81%** — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: WebSearch on "ITMG IDX news today 2026-05-05" — UBS upgrade Neutral → Buy surfaced (thesis-confirming, not adverse). May 7 Q1 earnings T−2 still on. Newcastle coal floor (last verified $137.80/t Apr 30 oilpriceapi) intact (no fresh contradiction). Thesis intact.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO — ITMG at −2.30%
+- Tighten to 5% (+20%): NO — ITMG at −2.30%
+- Thesis break: NO — UBS upgrade is positive; no adverse catalyst
+- Intraday >3% move: NO — mark unchanged from 09:15 WIB scan (25,475)
+
+**Notification sent:** 📊 Midday 2026-05-05: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- Earnings catalyst T−2: maintain ITMG into Thu May 7 Q1 print per RESEARCH-LOG pre-commit plan; no pre-print close decision triggered.
