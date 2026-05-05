@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.90/t (above $130 floor) (last mark 25,475; −2.30%; 4.81% above hard-cut) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $137.80/t (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; T−2 to May 7 Q1 print) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
@@ -989,3 +989,52 @@ Watch tomorrow (Tue May 5):
 - No commit-worthy state changes other than this midday log entry.
 - Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
 - Earnings catalyst T−2: maintain ITMG into Thu May 7 Q1 print per RESEARCH-LOG pre-commit plan; no pre-print close decision triggered.
+
+---
+
+### 2026-05-05 EOD — Day 12 (Post-Trial Tue, Week 3 Day 2)
+
+- Total equity: IDR 9,924,220,000
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +1.03% (sesi II midday 7,043.5 last verified WebSearch reading; sesi II closing print not yet in news cycle at 15:15 WIB. Internal IHSG level: 7,053 × 1.0103 ≈ 7,126)
+- Daily alpha: −1.03%
+- Cash: IDR 9,228,752,500 (92.99% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −75,780,000 (−0.76%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,126 = −6.65%): +5.89%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut, locked Apr 30 mark)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,475 | −IDR 16,380,000 (−2.30%) | 15 |
+
+#### Notes
+
+Day 12 (Tue, post-trial Week 3 Day 2). Equity flat at IDR 9,924,220,000 — ITMG mark unchanged from 09:15 WIB market-open and 11:30 WIB midday scan (25,475, multi-source: TradingView/Investing.com/Yahoo/Stockanalysis.com). No fresh sesi II tape available via WebSearch by 15:15 WIB; mid-session II IHSG was 7,043.5 (+1.03%) at jeda siang per RRI.co.id, with Phintraco target 7,050 for sesi II close. Internal IHSG accounting rolls source-stated daily % off prior internal baseline (7,053 → 7,126).
+
+Broker reconciliation: broker.sh portfolio shows ITMG only (27,300 sh @ 26,075, last_price stale at entry 26,075); equity field reports 9,940,600,000 — includes broker's stale-mark and differs from TRADE-LOG mark-to-market (9,924,220,000) by IDR 16.4M. Reconciliation note: TRADE-LOG mark uses today's verified WebSearch close 25,475 (same as yesterday); broker stale fallback uses entry 26,075. No state discrepancy — only price-source lag (same yfinance/GoAPI infra block since Apr 21). Position counts and shares match (1 position, 27,300 sh).
+
+Mark-to-market source: WebSearch ITMG IDR 25,475 (multi-source verified at 09:15 WIB and 11:30 WIB; no further intraday move detected; energy sector +0.41% on day per source did not lift ITMG above midday print). Used 25,475 as today's close — same value used by both intraday routines.
+
+Macro: IHSG continued rebound on PDB beat (5.61% YoY Q1 vs ~4.9% consensus) — sesi I closed 7,029.85 (+0.83%), sesi II opened 7,043 (+1.03%), Phintraco target 7,050. Energy and finance sectors led; raw materials +1.33%, financial +1.32%. IDR weak at 17,400 vs USD intraday (vs 17,390 record set Apr 30) — kept downside contained but rupiah pressure persists. Coal: Newcastle still firm above $130/t thesis floor (last verified $137.80 Apr 30, no fresh contradiction surfaced).
+
+ITMG specific: BCA Sek BUY PT 30,100 (from May 4 pre-market). UBS upgrade Neutral → Buy surfaced at midday (thesis-confirming). May 7 Q1 earnings T−2 (Thu) — binary catalyst maintained per RESEARCH-LOG pre-commit plan; no pre-print close decision triggered today.
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,924,220,000 − 10,026,617,500) / 10,026,617,500 = −1.02% (unchanged from yesterday). Cumulative alpha narrowed from +6.85% (May 4) → +5.89% (today) due to IHSG rebound while portfolio held flat.
+
+RISK ALERTS: NONE.
+- Daily P&L 0.00% — far from −2% cap.
+- ITMG at −2.30% — well above −6% warning threshold.
+- Drawdown −1.02% — well above −15% hard limit.
+
+Sector exposure: Coal 7.01% only (ITMG); 92.99% cash. Banking removed since BBRI hard-cut May 1.
+
+Watch tomorrow (Wed May 6):
+1. ITMG May 7 Q1 earnings T−1 — pre-print drift; thesis-break test if any negative pre-announce; final pre-print close decision (hold-to-print vs sell-the-news lock-in)
+2. Newcastle coal continuation — needs holds ≥$130 to keep thesis intact
+3. IHSG follow-through above 7,050 (or fade back to 6,950 support) — confirms or rejects PDB-driven rebound
+4. IDR direction off 17,400 — sustained pressure could cap risk-asset bid
+5. MEDC re-look only if Brent geopolitical premium re-firms (Iran-US headline reversal); current intraday −9.93% drift kept it gate-9-rejected at open
