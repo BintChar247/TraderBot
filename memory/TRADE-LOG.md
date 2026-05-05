@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.50/t (back above $130 floor Apr 30) (last mark 25,000; −4.12%; 3.00% above hard-cut) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.90/t (above $130 floor) (last mark 25,475; −2.30%; 4.81% above hard-cut) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
@@ -919,3 +919,42 @@ Watch tomorrow (Tue May 5):
 3. IHSG follow-through above 7,000 (or fade back below) — rate of rebound confirms or rejects today's bounce
 4. IDR direction post-CPI print — sustained strength would lift IHSG further
 5. Trial weekly review decision: hold ITMG into earnings or close pre-print to lock the trial-window result — pending weekly review (already filed Fri May 1 16:00 WIB per schedule, but final ITMG accounting decision deferred to next routine)
+
+
+---
+
+### 2026-05-05 09:15 WIB — MARKET-OPEN (no trades placed)
+
+**Context:** Day 12 (post-trial-window; Apr 20 – May 2 trial closed). Routine fires per schedule. Weekly trades 0/3. ITMG sole open position; cash 92.82% of equity.
+
+**Candidates evaluated:**
+
+1. **MEDC (BUY candidate from RESEARCH-LOG plan):** SKIP — Gate 9 fail.
+   - Planned entry: IDR 1,915 (per RESEARCH-LOG 2026-05-05 deep-dive)
+   - Live WebSearch price (yfinance still 403-blocked, GoAPI not set): IDR 1,725 (−4.17% intraday)
+   - Drift from planned entry: (1,725 − 1,915) / 1,915 = **−9.93%** → exceeds Gate 9 ±3% tolerance
+   - Interpretation: Brent geopolitical premium fragility flagged in RESEARCH-LOG ("Iran-US de-escalation announcement → Brent retraces below $105 → thesis loses geopolitical premium") has materialized intraday. Catalyst no longer fresh / direction reversed.
+   - 9-gate result: 1✓ 2✓ 3✓ 4✓ 5✓ 6✓ 7✓ (ADV 15,089,600 verified WebSearch — well above 500k threshold) 8✓ 9✗
+   - ADV verification: 15.09M shares — would have satisfied Gate 7 had thesis still been intact.
+   - Conviction call: HIGH thesis at plan time → invalidated by intraday tape; correct action is SKIP, not chase down.
+
+2. **ITMG (HELD):** HOLD — no add per RESEARCH-LOG plan.
+   - Mark IDR 25,475 (WebSearch verified, multi-source: TradingView/Investing.com/Yahoo cluster around 25,475–25,800; opening 26,500, range 25,800–26,525, last 25,475)
+   - P&L from entry: −2.30%; hard-cut buffer +4.81% (not at trigger)
+   - Below +7% trail activation 27,900; below +15% (29,986) and +20% (31,290) tighten thresholds → no stop modification
+   - Q1 2026 earnings catalyst T−2 (Thu May 7) — binary risk maintained per pre-commit plan
+   - Multi-source verification check (per MISTAKES.md 2026-05-01 lesson): ITMG buffer to hard-cut now 4.81% > 1.5% trigger; standard verification suffices.
+   - Action: NONE.
+
+**No-trade reason:** Sole eligible candidate (MEDC) failed Gate 9 on −9.93% drift from planned entry; ITMG at 7.18% of equity is held with no add per plan. No banking entries (1-of-2 sector-exit strike, EM-OUTFLOW). No consumer entries (INDF +2.96% same-day chase risk). 0/3 weekly trades used.
+
+**Active stops:** ITMG hard-cut 24,250 (unchanged). No trailing stop adjustments.
+
+**Decision matrix this run:**
+- Hard cut (-7%) trigger: NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO
+- Tighten to 5% (+20%): NO
+- New entries fired: 0
+- Stops modified: 0
+
+**Notification sent:** 📊 Market-open 2026-05-05: No trades placed. MEDC failed Gate 9 (intraday −9.93% from planned 1,915 to 1,725, Iran de-escalation premium retrace); ITMG held, no add.

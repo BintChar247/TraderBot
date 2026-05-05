@@ -1330,6 +1330,100 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-05-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent +5.80% Iran/UAE oil shock pure-play; UBS PT 2,570; 11/0/1 BUY consensus.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent +5.80% on Iran/UAE incident May 4 (planned)"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW with oil-shock overlay"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail: live 1,725 vs plan 1,915 = -9.93% drift"
+        },
+        {
+          "type": "sizing",
+          "label": "intended 13.7% (capped 15%); not executed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price source (yfinance blocked); thesis fragility realized intraday"
+        }
+      ],
+      "reasoning": "Live WebSearch shows MEDC at 1,725 (-4.17% intraday), -9.93% below planned entry 1,915. Iran de-escalation premium retrace flagged in RESEARCH-LOG materialized; thesis no longer fresh. Skip per Gate 9 rule (no chase >3% from plan).",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-05-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Held position; Q1 2026 earnings T-2 (May 7); Newcastle $133.90 holds floor.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 2026 earnings May 7 (T-2 binary)"
+        },
+        {
+          "type": "macro",
+          "label": "Coal complex supportive; Newcastle $133.90"
+        },
+        {
+          "type": "risk",
+          "label": "Mark 25,475; -2.30% from entry; hard-cut buffer 4.81%"
+        },
+        {
+          "type": "sizing",
+          "label": "already 7.18% of equity (no add per plan)"
+        }
+      ],
+      "reasoning": "Position already held at 7.18% of equity; plan specifies HOLD with no add into May 7 binary. Buffer to hard-cut sufficient; no stop modification triggers met (below +15%/+20% tighten levels).",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -2255,6 +2349,28 @@
         {
           "type": "macro",
           "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-05T02:18:51Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. MEDC failed Gate 9: live IDR 1,725 vs planned IDR 1,915 = -9.93% drift (Iran de-escalation premium retrace, thesis fragility realized). ITMG held (mark 25,475, -2.30%, hard-cut buffer 4.81%); no add per plan. Weekly slot 0/3.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "Gate 9 fail: -9.93% from plan 1,915"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "-2.30%; hard-cut 24,250 unchanged"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override path used (yfinance blocked since Apr 21)"
         }
       ]
     }
