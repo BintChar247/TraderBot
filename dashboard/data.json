@@ -1383,6 +1383,40 @@
   },
   "activity_log": [
     {
+      "timestamp": "2026-05-05T00:11:42Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-05-05: Scanned 50 watchlist tickers. 6 candidates scored \u22656: MEDC (8, Brent +5.8% catalyst), ITMG (7, HOLD; Q1 May 7 T-2), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro shock: Iran/UAE missile incident drove Brent +5.80% to $114.44 \u2014 energy/coal complex bid. April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred \u2014 ADV unverifiable (yfinance blocked since Apr 21).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (all watchlist, no skips)"
+        },
+        {
+          "type": "research",
+          "detail": "6 candidates scored \u22656 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 8/10 \u2014 Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T\u22122 May 7; coal floor $133.90 intact"
+        },
+        {
+          "type": "macro",
+          "detail": "Iran/UAE missile shock \u2014 Brent +5.80%; VIX +7.36%; oil/coal complex bid"
+        },
+        {
+          "type": "macro",
+          "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
+        }
+      ]
+    },
+    {
       "timestamp": "2026-04-20T14:55:43Z",
       "routine": "market-open",
       "status": "success",
@@ -2189,6 +2223,40 @@
           "detail": "IHSG 7,053 (+1.30%); coal $137.80 floor intact"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-05T00:12:15Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 watchlist tickers. 6 candidates scored \u22656: MEDC (8, Brent +5.8% pure-play), ITMG (7, HOLD; Q1 May 7 T\u22122), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro: Iran/UAE missile incident drove Brent +5.80% to $114.44; April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred \u2014 ADV unverifiable (yfinance blocked since Apr 21).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (all watchlist, no skips)"
+        },
+        {
+          "type": "research",
+          "detail": "6 candidates scored \u22656 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 8/10 \u2014 Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T\u22122 May 7; coal floor $133.90 intact"
+        },
+        {
+          "type": "macro",
+          "detail": "Iran/UAE missile shock \u2014 Brent +5.80%; VIX +7.36%; oil/coal complex bid"
+        },
+        {
+          "type": "macro",
+          "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -2203,131 +2271,156 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6888.0,
-    "ihsg_change_pct": -3.0,
-    "idr_usd": 17390,
-    "idr_usd_change_pct": 0.12,
-    "coal_usd": 137.8,
-    "coal_change_pct": 2.99,
-    "nickel_usd": 19423,
-    "nickel_change_pct": 0.92,
-    "cpo_myr": 4570,
-    "cpo_change_pct": -0.17,
+    "ihsg": 6971.95,
+    "ihsg_change_pct": 0.22,
+    "idr_usd": 17335,
+    "idr_usd_change_pct": 0.15,
+    "coal_usd": 133.9,
+    "coal_change_pct": 0.0,
+    "nickel_usd": 19365,
+    "nickel_change_pct": -0.53,
+    "cpo_myr": 4540,
+    "cpo_change_pct": 0.8,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held; next meeting mid-May (post-trial)",
-    "asia_sentiment": "Risk-off (Nikkei -1.13%, HSI -1.14%, CSI300 flat); US records (S&P +1.02%)",
-    "foreign_flow_idr_bn": -2000,
-    "updated": "2026-05-01"
+    "bi_rate_note": "Held; April CPI 2.42% (down from 3.48%) reopens cut runway; next RDG mid-May",
+    "asia_sentiment": "Risk-off (US -0.41%/-0.19%/-1.13%; VIX +7.36%; HK/CN/JP closed for holidays)",
+    "foreign_flow_idr_bn": -3310,
+    "updated": "2026-05-05"
   },
   "research": {
-    "date": "2026-05-01",
+    "date": "2026-05-05",
     "headlines": [
       {
-        "ticker": "BBRI",
-        "headline": "Q1 2026 net profit Rp 15.5T (+13.74% YoY) \u2014 BEAT; but stock closed 2,990 (-1.95%) on macro selling, hard-cut 3,031 BREACHED",
-        "sentiment": "bearish",
-        "source": "Kompas / Bisnis",
-        "url": "https://money.kompas.com/read/2026/04/30/100124826/bri-cetak-laba-bersih-rp-155-triliun-pada-kuartal-i-2026-naik-137-persen"
+        "ticker": "BRENT",
+        "headline": "Brent +5.80% to $114.44 \u2014 Iran missile launches at US warships; UAE Fujairah oil-hub fire. Major geopolitical premium reset",
+        "sentiment": "bullish-energy",
+        "source": "TheStreet / Yahoo Finance / Fortune",
+        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-4-231452685.html"
       },
       {
-        "ticker": "COAL",
-        "headline": "Newcastle coal $137.80/t May 1 (+2.99% 24h) \u2014 BREAKOUT above floor; ITMG thesis fully restored",
+        "ticker": "MEDC",
+        "headline": "Pure-play Brent rally beneficiary; UBS PT raised IDR 2,000\u21922,570; 165\u2013170 kboepd 2026 production target; 11/0/1 buy/hold/sell consensus",
         "sentiment": "bullish",
-        "source": "OilPriceAPI",
-        "url": "https://www.oilpriceapi.com/live/coal-price"
-      },
-      {
-        "ticker": "IHSG",
-        "headline": "IHSG closed Apr 30 at 6,888 (-3.00%) \u2014 sharpest single-day drop of trial; Fed-hawkish + Fitch overhang + Brent $126 spike",
-        "sentiment": "bearish",
-        "source": "Liputan6 / CNBC Indonesia",
-        "url": "https://www.cnbc.com/2026/04/30/asia-pacific-markets-nikkei-225-kospi-hang-seng-index.html"
-      },
-      {
-        "ticker": "IDR",
-        "headline": "Rupiah pierced 17,390/USD record Apr 30; intervention risk both directions",
-        "sentiment": "bearish",
-        "source": "TradingEconomics",
-        "url": "https://tradingeconomics.com/indonesia/currency"
+        "source": "Hargasaham / TradingView (Reuters)",
+        "url": "https://www.hargasaham.id/harga-minyak-dunia-naik-saham-migas-menguat-2026/"
       },
       {
         "ticker": "MACRO",
-        "headline": "US records: S&P +1.02% to 7,209.01, Nasdaq +0.89% record close \u2014 best month since 2020 (decoupled from Asia)",
-        "sentiment": "bullish",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html"
+        "headline": "Indonesia April CPI 2.42% YoY (down from 3.48%) \u2014 biggest dovish surprise of 2026; comfortably within BI 1.5\u20133.5% target band",
+        "sentiment": "bullish-banks",
+        "source": "Trading Economics / Samuel Sekuritas",
+        "url": "https://tradingeconomics.com/indonesia/inflation-cpi"
       },
       {
-        "ticker": "SUN",
-        "headline": "Indonesia 10Y SUN yield 6.30% \u2014 lowest since Aug 2023; bond rally constructive longer-term",
-        "sentiment": "bullish",
-        "source": "TradingEconomics",
-        "url": "https://tradingeconomics.com/indonesia/government-bond-yield"
+        "ticker": "MSCI",
+        "headline": "MSCI froze Indonesia May rebalancing \u2014 BREN/DSSA HSC removal risk ($270M outflows); broader country weight cut threatened",
+        "sentiment": "bearish",
+        "source": "Heygotrade / IDNFinancials",
+        "url": "https://www.idnfinancials.com/news/60811/msci-halts-rebalancing-indonesia-risks-downgrade-to-frontier-market"
       },
       {
-        "ticker": "BRENT",
-        "headline": "Brent $108.82 May 1 cooled from $126 Iran spike (Apr 30 intraday); volatility elevated",
+        "ticker": "ITMG",
+        "headline": "Q1 2026 earnings T\u22122 (Thu May 7); Newcastle coal $133.90 holds the $130 thesis floor; BCA Sek BUY PT IDR 30,100",
         "sentiment": "neutral",
-        "source": "TradingEconomics",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        "source": "MarketScreener / sectors.app / BCA Sekuritas",
+        "url": "https://www.marketscreener.com/quote/stock/PT-INDO-TAMBANGRAYA-MEGAH-6500080/calendar/"
       },
       {
-        "ticker": "IDX",
-        "headline": "IDX closed May 1 (Labor Day); trial resumes May 2 (final trial day)",
+        "ticker": "FLOW",
+        "headline": "Foreign net sell \u2212IDR 3.31T week to Apr 30; concentrated on banks (BBCA/BMRI/BBRI); rotation into commodity names",
+        "sentiment": "bearish",
+        "source": "Hargasaham / Heygotrade",
+        "url": "https://www.hargasaham.id/investor-asing-net-foreign-sell-ihsg-april-2026/"
+      },
+      {
+        "ticker": "INDF",
+        "headline": "INDF closed +2.96% at IDR 6,950 May 4 \u2014 consumer staples lift on CPI cooling; recovery momentum noted",
+        "sentiment": "bullish",
+        "source": "Bisnis Premium",
+        "url": "https://premium.bisnis.com/read/20260119/664/1945121/recovery-momentum-builds-across-consumer-issuers-from-icbp-myor-unvr-indf-amrt"
+      },
+      {
+        "ticker": "BBCA",
+        "headline": "BBCA close IDR 5,900 May 4; P/E 12.51; foreign top sell name week to Apr 30",
         "sentiment": "neutral",
-        "source": "TradingHours.com",
-        "url": "https://www.tradinghours.com/markets/idx"
+        "source": "stockanalysis.com",
+        "url": "https://stockanalysis.com/quote/idx/BBCA/"
       }
     ],
     "sector_momentum": [
       {
         "sector": "Banking",
-        "trend": "bearish",
-        "score": 3,
-        "note": "Fitch outlook negative; foreign net sell; IDR record; AVOID new entries"
-      },
-      {
-        "sector": "Coal / Energy",
-        "trend": "bullish",
-        "score": 8,
-        "note": "Newcastle $137.80 breakout (+2.99% 24h); ITMG hold-through-trial-close"
-      },
-      {
-        "sector": "Nickel / Mining",
         "trend": "neutral",
         "score": 5,
-        "note": "LME 19,423 (+0.92%); HPM Decree 144 stale T+16; no fresh catalyst"
+        "note": "April CPI 2.42% reopens rate-cut runway; foreign sell pressure caps; 1-of-2 sector-exit strike"
       },
       {
-        "sector": "CPO / Agri",
-        "trend": "bearish",
-        "score": 3,
-        "note": "Exports -16% MoM; Bursa Malaysia weak; AVOID"
+        "sector": "Coal",
+        "trend": "constructive",
+        "score": 7,
+        "note": "Newcastle $133.90 holds $130 floor; ITMG Q1 May 7 binary; BCA Sek BUY PT 30,100"
+      },
+      {
+        "sector": "Oil & Gas",
+        "trend": "bullish",
+        "score": 8,
+        "note": "Brent +5.80% on Iran/UAE missile incident; MEDC pure-play (UBS PT raised); PGAS modest"
+      },
+      {
+        "sector": "Nickel",
+        "trend": "neutral",
+        "score": 5,
+        "note": "LME \u22120.53%; range-bound around $19.4k; HPM intact but no fresh trigger"
+      },
+      {
+        "sector": "Consumer",
+        "trend": "constructive",
+        "score": 6,
+        "note": "CPI cooling tailwind; INDF +2.96%, UNVR +1.63% May 4"
       },
       {
         "sector": "Property",
         "trend": "neutral",
-        "score": 3,
-        "note": "BI 4.75% held; rate cut not imminent"
-      },
-      {
-        "sector": "Consumer",
-        "trend": "neutral",
-        "score": 4,
-        "note": "IDR record-weak hits import inputs"
+        "score": 5,
+        "note": "BI rate hold caps near-term; CPI dovish supportive medium-term"
       },
       {
         "sector": "Telco",
-        "trend": "neutral",
+        "trend": "neutral-bearish",
         "score": 4,
-        "note": "TLKM 2,840; defensive but no fresh catalyst"
+        "note": "Lagged data; no fresh catalyst; XLSMART merger overhang on EXCL"
       },
       {
-        "sector": "Infrastructure",
+        "sector": "CPO",
+        "trend": "neutral",
+        "score": 5,
+        "note": "Indonesia May ref USD 1,049.58/MT; CPO 4,540 MYR (+36 pts)"
+      },
+      {
+        "sector": "Tech",
+        "trend": "neutral",
+        "score": 4,
+        "note": "GOTO +5.7% noted in movers; no specific catalyst sourced"
+      },
+      {
+        "sector": "Healthcare",
+        "trend": "neutral",
+        "score": 5,
+        "note": "Defensive pharma KLBF, MIKA \u2014 no near catalyst"
+      },
+      {
+        "sector": "Construction/Infra",
         "trend": "bearish",
         "score": 3,
-        "note": "Fiscal tightening; AVOID"
+        "note": "SOE balance-sheet overhang; WSKT/PTPP/ADHI distressed"
+      },
+      {
+        "sector": "Cement",
+        "trend": "neutral-bearish",
+        "score": 4,
+        "note": "Property/infra cycle proxy; awaiting infra spending lift"
       }
     ]
-  }
+  },
+  "last_updated": "2026-05-05T00:11:42Z"
 }
