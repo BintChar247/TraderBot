@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $137.80/t (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; T−2 to May 7 Q1 print) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.90–135.55/t (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; T−1 to May 7 Q1 print) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
@@ -1038,3 +1038,58 @@ Watch tomorrow (Wed May 6):
 3. IHSG follow-through above 7,050 (or fade back to 6,950 support) — confirms or rejects PDB-driven rebound
 4. IDR direction off 17,400 — sustained pressure could cap risk-asset bid
 5. MEDC re-look only if Brent geopolitical premium re-firms (Iran-US headline reversal); current intraday −9.93% drift kept it gate-9-rejected at open
+
+---
+
+### 2026-05-06 09:15 WIB — MARKET-OPEN (no trades placed)
+
+**Context:** Day 13 (post-trial-window; Wed, Week 3 Day 3). Routine fires per schedule. Weekly trades 0/3. ITMG sole open position; cash 92.82% of equity. T−1 to ITMG Q1 2026 earnings (Thu May 7).
+
+**Candidates evaluated:**
+
+1. **ANTM (top CANDIDATE from RESEARCH-LOG plan, score 8):** SKIP — Gate 9 fail.
+   - Planned entry reference: IDR ~3,500–3,600 (per RESEARCH-LOG 2026-05-06 deep-dive; historical 3,520 ref Mar 30)
+   - Live WebSearch price (yfinance still 403-blocked, GoAPI not set): IDR 3,750 (+3.02% intraday)
+   - Drift from plan ref 3,520: (3,750 − 3,520) / 3,520 = **+6.53%** → exceeds Gate 9 ±3% tolerance (3,520 × 1.03 = 3,625.6)
+   - Compounded by +3.02% same-day chase risk
+   - ADV verification: 114,095,000 shares (Yahoo / TradingView WebSearch) — well above 500k Gate 7 threshold; Gate 14 (≤10% ADV) trivially passes for any reasonable size
+   - 9-gate result: 1✓ 2✓ 3✓ 4✓ 5✓ 6✓ 7✓ 8✓ **9✗**
+   - Conviction at plan time: MEDIUM (Q1 +60% net beat genuine; LME nickel firm) → invalidated by intraday chase
+   - Correct action: SKIP, not chase up. Re-look on pullback to ≤3,625 (Gate 9 tolerance ceiling) within next 3 trading days.
+
+2. **INDF (CANDIDATE-watch, score 6):** SKIP — entry-checklist R:R fail + ADV unverifiable.
+   - Live price IDR 5,975 (+1.65%); plan ref 5,975 — Gate 9 trivially passes
+   - Trade-plan R:R: stop 5,557 (−7%) → target 6,400–6,600 (+7–10%); R:R 1.0–1.4:1 vs Entry-Checklist minimum 2:1 → **fail Entry Checklist Step 4**
+   - ADV unverifiable in this run (yfinance/GoAPI block); Gate 7/14 cannot fire
+   - Correct action: SKIP. Re-look on pullback to ~5,700 (improves R:R) or after ADV path restored.
+
+3. **SMGR (CANDIDATE-watch, score 6):** SKIP — Gate 9 chase.
+   - +4.5% one-day move (May 5) flagged as gainer; live price not multi-source confirmed
+   - +4.5% breakout = chase risk, blocks Gate 9 against any sub-day-old plan
+   - ADV unverifiable
+   - Correct action: SKIP. Wait for consolidation / pullback.
+
+4. **ITMG (HELD):** HOLD — no add per RESEARCH-LOG plan.
+   - Mark IDR 25,475 (WebSearch verified, multi-source: TradingView/Investing.com/Google Finance/Stockanalysis.com cluster — last 25,475, range 24,600–25,600, prior close 25,450)
+   - Search did surface 26,925 alternative print but not multi-source-confirmed → preserved conservative 25,475 mark
+   - P&L from entry: −2.30%; hard-cut buffer +4.81% (mark 25,475 vs hard-cut 24,250)
+   - Multi-source verification check (per MISTAKES.md 2026-05-01 lesson): buffer 4.81% > 1.5% trigger → standard verification suffices
+   - Below +7% trail activation 27,900; below +15% (29,986) and +20% (31,290) tighten thresholds → no stop modification
+   - Q1 2026 earnings catalyst T−1 (Thu May 7) — binary risk maintained per pre-commit plan
+   - Pre-commit reaffirmed: HOLD into print; if intraday May 6 prints < 24,250 → EXIT; if intraday prints > 27,900 → transition stop to TRAILING (10% trail)
+   - Action: NONE.
+
+**No-trade reason:** ANTM (highest-conviction Q1 beat) failed Gate 9 on +6.53% live drift above plan ref; INDF blocked by sub-2:1 R:R + ADV unverifiable; SMGR blocked by +4.5% chase. ITMG held with no add per pre-commit plan into Thu Q1 print. No banking entries (1-of-2 sector-exit strike, EM-OUTFLOW intact, foreign net-sell continuing IDR 791B even on green tape). 0/3 weekly trades used.
+
+**Active stops:** ITMG hard-cut 24,250 (unchanged). No trailing stop adjustments.
+
+**Decision matrix this run:**
+- Hard cut (-7%) trigger: NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO
+- Tighten to 5% (+20%): NO
+- New entries fired: 0
+- Stops modified: 0
+
+**Price source: WebSearch (yfinance blocked since Apr 21);** ITMG mark 25,475 multi-source verified; ANTM live 3,750 single-source (Yahoo) — used for Gate 9 directional reject only, no fill executed.
+
+**Notification sent:** 📊 Market-open 2026-05-06: No trades placed. ANTM Gate 9 fail (+6.53% drift to 3,750 vs plan 3,520); INDF R:R below 2:1; SMGR +4.5% chase. ITMG held into Thu Q1 print.
