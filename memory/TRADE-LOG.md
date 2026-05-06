@@ -1125,3 +1125,54 @@ Watch tomorrow (Wed May 6):
 - No commit-worthy state changes other than this midday log entry.
 - Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
 - Earnings catalyst T−1: maintain ITMG into Thu May 7 Q1 print per RESEARCH-LOG pre-commit plan; pre-print close vs hold-to-print decision deferred to tomorrow's market-open routine.
+
+---
+
+### 2026-05-06 EOD — Day 13 (Post-Trial Wed, Week 3 Day 3)
+
+- Total equity: IDR 9,924,220,000
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +0.64% (sesi I close 7,102 verified multi-source: Kompas/RRI/Investing.com/HargaSaham; sesi II close not yet in news cycle at 15:15 WIB. Day-over-day vs verified May 5 close 7,057.11)
+- Daily alpha: −0.64%
+- Cash: IDR 9,228,752,500 (92.99% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −75,780,000 (−0.76%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,102 = −6.97%): +6.21%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut, locked Apr 30 mark)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,475 | −IDR 16,380,000 (−2.30%) | 16 |
+
+#### Notes
+
+Day 13 (Wed, post-trial Week 3 Day 3). Equity flat at IDR 9,924,220,000 — ITMG mark held at 25,475 across the 09:15 WIB market-open scan, 11:30 WIB midday scan, and EOD (no fresh intraday move detected vs verified earlier-in-day prints; coal sector +0.41% on day per source did not lift ITMG above mid-25k print). T−1 to ITMG Q1 2026 earnings (Thu May 7 — binary catalyst).
+
+Broker reconciliation: broker.sh portfolio shows ITMG only (27,300 sh @ 26,075, last_price stale at entry 26,075); equity field reports 9,940,600,000 — broker uses stale-mark fallback that differs from TRADE-LOG mark-to-market (9,924,220,000) by IDR 16.4M. No state discrepancy — only price-source lag (yfinance/GoAPI infra block since Apr 21). Position counts and shares match (1 position, 27,300 sh).
+
+Mark-to-market source: WebSearch ITMG IDR 25,475 (multi-source verified at 09:15 WIB and 11:30 WIB; same value used for EOD). Investing.com snapshot at one point during the day showed today's range 25,800–26,525 with open 26,500, while another source (TradingView/Yahoo cluster) showed range 24,600–25,600 with last 25,475. Conservative same-day mark 25,475 preserved (consistent with both intraday routines); divergence noted for tomorrow's pre-market re-verification given the binary Q1 print.
+
+IHSG accounting: today's report uses externally-verified IHSG levels (May 5 actual close 7,057.11 per Kompas/Liputan6/Investing.com vs prior internal baseline 7,126; May 6 sesi I close 7,102 per multi-source). Internal baseline corrected to verified series this run; cumulative alpha recomputed from Day 0 baseline 7,634 → today 7,102 (−6.97%) yielding +6.21% cumulative alpha (vs +5.89% reported May 5 EOD using internal baseline). One-time correction; no retroactive backfill of prior daily entries.
+
+Macro: IHSG continued its rebound on PDB-beat momentum — sesi I closed 7,102 (+0.65%), supported by TPIA (+7.4%), BRPT (+2.6%), UNVR (+8.8%); transportation and basic materials sectors led, financial sector lagged (only red sector at sesi I). Phintraco target 7,100–7,150 — sesi I matched the lower bound. Coal: Newcastle $133.90/t (vs prev close $135.55, monthly −1.70%) — above $130 thesis floor intact, no contradiction surfaced. IDR: 17,400 vs USD area, weak but stable.
+
+ITMG specific: Q1 2026 earnings T−1 (Thu May 7 release). Last quarter EPS surprise +114.10% (per midday scan thesis check). UBS upgrade Neutral→Buy (May 5) and BCA Sek BUY PT 30,100 (May 4) maintained. Pre-commit decision matrix per RESEARCH-LOG: HOLD into print; if intraday May 7 prints < 24,250 → EXIT; if > 27,900 → transition stop to TRAILING (10%). No pre-print close action triggered today.
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,924,220,000 − 10,026,617,500) / 10,026,617,500 = −1.02% (unchanged from yesterday).
+
+RISK ALERTS: NONE.
+- Daily P&L 0.00% — far from −2% cap.
+- ITMG at −2.30% — well above −6% warning threshold.
+- Drawdown −1.02% — well above −15% hard limit.
+
+Sector exposure: Coal 7.01% only (ITMG); 92.99% cash. Banking removed since BBRI hard-cut May 1.
+
+Watch tomorrow (Thu May 7):
+1. **ITMG Q1 2026 earnings release (binary catalyst day)** — pre-print close decision at 09:15 WIB market-open; intraday hard-cut 24,250 monitored; if print > +7% → transition stop to TRAILING 10%
+2. Newcastle coal continuation — $130 thesis floor must hold; sub-$125 invalidates
+3. IHSG follow-through above sesi I 7,102 — needs confirmation toward Phintraco 7,150 or fade back to 6,950 support
+4. IDR direction off 17,400 — sustained pressure caps risk-asset bid
+5. Foreign net flow direction post-IHSG +0.65% sesi I — sustained outflow keeps EM-OUTFLOW regime / banking sector-exit-watch intact

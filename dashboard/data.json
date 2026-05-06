@@ -200,6 +200,21 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-05-06",
+      "day_label": "Day 13",
+      "portfolio_value": 9924220000,
+      "cash": 9228752500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.76,
+      "ihsg_close": 7102.0,
+      "ihsg_cumulative_pct": -6.97,
+      "alpha_pct": 6.21,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -215,7 +230,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Coal $137.80 above $130 floor; UBS Neutral\u2192Buy upgrade May 5; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-2); pre-print close decision deferred to Wed May 6"
+      "thesis": "Coal $133.90 above $130 floor; UBS Neutral\u2192Buy upgrade May 5; BCA Sek BUY PT 30,100; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-1); pre-commit: hard-cut 24,250, transition to trailing 10% if intraday print > 27,900"
     }
   ],
   "trades": [
@@ -1661,12 +1676,12 @@
     "violations": [],
     "current_equity": 9924220000,
     "cum_return_pct": -0.76,
-    "ihsg_cum_pct": -6.65,
-    "cum_alpha_pct": 5.89,
+    "ihsg_cum_pct": -6.97,
+    "cum_alpha_pct": 6.21,
     "positions_count": 1,
     "cash_pct": 92.99,
     "trades_this_week": 0,
-    "last_updated": "2026-05-05"
+    "last_updated": "2026-05-06"
   },
   "risk": {
     "beta_ihsg": null,
@@ -1684,7 +1699,7 @@
     "current_equity": 9924220000,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-05"
+    "updated": "2026-05-06"
   },
   "activity_log": [
     {
@@ -2683,6 +2698,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ITMG at -2.30% (mark 25,475 vs entry 26,075); +4.81% buffer to hard-cut. No cuts, no stop tightenings. Thesis intact (Q1 earnings T-1, Newcastle coal 33.90 above 30 floor)."
+    },
+    {
+      "timestamp": "2026-05-06T08:20:05Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-06 (Day 13, post-trial Wed): IDR 9.924B (0.00%). Alpha \u22120.64% daily / +6.21% cum vs IHSG 7,102 sesi I. 1 position open (ITMG \u22122.30%). 92.99% cash. Trades this week: 0/3. T\u22121 to ITMG Q1 print (Thu May 7). No risk alerts. IHSG baseline corrected to verified 7,057.11 May 5 / 7,102 May 6 sesi I.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 13 EOD snapshot committed; RISK-STATE updated; dashboard refreshed"
+        }
+      ]
     }
   ],
   "exposure": {
