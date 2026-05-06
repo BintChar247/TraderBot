@@ -2677,6 +2677,12 @@
           "detail": "WebSearch price override path used (yfinance/GoAPI blocked since Apr 21)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-06T04:36:15Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. ITMG at -2.30% (mark 25,475 vs entry 26,075); +4.81% buffer to hard-cut. No cuts, no stop tightenings. Thesis intact (Q1 earnings T-1, Newcastle coal 33.90 above 30 floor)."
     }
   ],
   "exposure": {

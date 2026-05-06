@@ -1093,3 +1093,35 @@ Watch tomorrow (Wed May 6):
 **Price source: WebSearch (yfinance blocked since Apr 21);** ITMG mark 25,475 multi-source verified; ANTM live 3,750 single-source (Yahoo) — used for Gate 9 directional reject only, no fill executed.
 
 **Notification sent:** 📊 Market-open 2026-05-06: No trades placed. ANTM Gate 9 fail (+6.53% drift to 3,750 vs plan 3,520); INDF R:R below 2:1; SMGR +4.5% chase. ITMG held into Thu Q1 print.
+
+---
+
+### 2026-05-06 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 13 (post-trial-window; Wed, Week 3 Day 3). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). ITMG sole open position; cash 92.82% of equity. **T−1 to ITMG Q1 2026 earnings (Thu May 7).**
+
+- Positions evaluated: ITMG only (27,300 sh @ 26,075 entry).
+- broker.sh quote: stale (returns entry price 26,075; market-data.sh yfinance still 403-blocked since Apr 21, GoAPI key not set — same infra condition).
+- WebSearch verified mark: IDR 25,475 (multi-source: TradingView / Yahoo / Investing.com / Stockanalysis.com cluster — open 26,500, range 25,800–26,525, last 25,475, −0.10% 24h). Same mark as 09:15 WIB market-open scan — no fresh intraday move detected.
+
+**ITMG (HOLD):**
+- Mark: IDR 25,475 → P&L (25,475 − 26,075) / 26,075 = **−2.30%** from entry.
+- Buffer to hard-cut 24,250: (25,475 − 24,250) / 25,475 = **+4.81%** — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: WebSearch on "ITMG IDX news today 2026-05-06" — Q1 earnings T−1 confirmed (release May 7 2026); last quarter EPS surprise +114.10% (890.23 vs 415.80 consensus) — base catalyst still on. Dividend yield TTM 11.72%. No adverse news; no intraday tape break. Newcastle coal $133.90/t (vs prev close $135.55, monthly −1.70% but still +37.61% YoY) — **above $130 thesis floor** intact. Thesis fully intact.
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 4.81% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO — ITMG at −2.30%
+- Tighten to 5% (+20%): NO — ITMG at −2.30%
+- Thesis break: NO — Q1 earnings catalyst on track for tomorrow's print; coal floor intact
+- Intraday >3% move: NO — mark unchanged from 09:15 WIB scan (25,475)
+
+**Notification sent:** 📊 Midday 2026-05-06: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- Earnings catalyst T−1: maintain ITMG into Thu May 7 Q1 print per RESEARCH-LOG pre-commit plan; pre-print close vs hold-to-print decision deferred to tomorrow's market-open routine.
