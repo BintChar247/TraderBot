@@ -215,7 +215,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Coal $137.80 above $130 floor; UBS Neutral\u2192Buy upgrade May 5; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-2); pre-print close decision deferred to Wed May 6"
+      "thesis": "Coal $137.80 above $130 floor; UBS Neutral→Buy upgrade May 5; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-2); pre-print close decision deferred to Wed May 6"
     }
   ],
   "trades": [
@@ -258,7 +258,7 @@
       "time": "09:15 WIB",
       "shares": 27300,
       "price": 26075,
-      "thesis": "Q1 2026 EPS IDR 890 vs consensus IDR 416 \u2014 114% beat unreacted. Newcastle coal $131/t +40.5% YoY.",
+      "thesis": "Q1 2026 EPS IDR 890 vs consensus IDR 416 — 114% beat unreacted. Newcastle coal $131/t +40.5% YoY.",
       "inputs": [
         {
           "type": "catalyst",
@@ -270,7 +270,7 @@
         },
         {
           "type": "macro",
-          "label": "IHSG 7,594 (-0.52%) \u2014 slight risk-off but above 7,500 support"
+          "label": "IHSG 7,594 (-0.52%) — slight risk-off but above 7,500 support"
         },
         {
           "type": "macro",
@@ -282,10 +282,10 @@
         },
         {
           "type": "sizing",
-          "label": "Risk-based: 27,300sh \u00d7 IDR 1,825 risk/sh = IDR 49.8M risk"
+          "label": "Risk-based: 27,300sh × IDR 1,825 risk/sh = IDR 49.8M risk"
         }
       ],
-      "reasoning": "ITMG opened at IDR 26,075 \u2014 below planned entry range 27,000-27,200, giving a better price with unchanged thesis. All 15 gates passed. Position sized via risk formula: (0.5% equity) / (entry - hard-cut) = 27,300 shares = 7.12% of equity. BBRI skipped: ex-div April 21, pre-div price 3,440 far above post-div plan 3,200-3,250 (Gate 9 fail + hard-cut risk). ANTM skipped: price 4,010 above researcher's own entry ceiling of 3,960.",
+      "reasoning": "ITMG opened at IDR 26,075 — below planned entry range 27,000-27,200, giving a better price with unchanged thesis. All 15 gates passed. Position sized via risk formula: (0.5% equity) / (entry - hard-cut) = 27,300 shares = 7.12% of equity. BBRI skipped: ex-div April 21, pre-div price 3,440 far above post-div plan 3,200-3,250 (Gate 9 fail + hard-cut risk). ANTM skipped: price 4,010 above researcher's own entry ceiling of 3,960.",
       "gate_results": [
         true,
         true,
@@ -311,7 +311,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": 3440,
-      "thesis": "Ex-dividend April 21 \u2014 pre-div price 3,440 too far above post-div entry plan (3,200-3,250).",
+      "thesis": "Ex-dividend April 21 — pre-div price 3,440 too far above post-div entry plan (3,200-3,250).",
       "inputs": [
         {
           "type": "catalyst",
@@ -356,7 +356,7 @@
       "inputs": [
         {
           "type": "catalyst",
-          "label": "HPM Decree 144: ore price factor 17%\u219230%"
+          "label": "HPM Decree 144: ore price factor 17%→30%"
         },
         {
           "type": "risk",
@@ -393,7 +393,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null,
-      "thesis": "Quote infrastructure down \u2014 yfinance blocked; no live price to gate against. Failed gates 3/4/7.",
+      "thesis": "Quote infrastructure down — yfinance blocked; no live price to gate against. Failed gates 3/4/7.",
       "inputs": [
         {
           "type": "risk",
@@ -401,7 +401,7 @@
         },
         {
           "type": "risk",
-          "label": "market-data.sh yfinance egress blocked \u2014 no live quote"
+          "label": "market-data.sh yfinance egress blocked — no live quote"
         },
         {
           "type": "catalyst",
@@ -434,7 +434,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null,
-      "thesis": "Quote infrastructure down \u2014 same as ANTM. Post-ex-div BBRI plan held for tomorrow.",
+      "thesis": "Quote infrastructure down — same as ANTM. Post-ex-div BBRI plan held for tomorrow.",
       "inputs": [
         {
           "type": "risk",
@@ -495,7 +495,7 @@
         },
         {
           "type": "sizing",
-          "label": "7.15% of equity \u2014 under 15% regime cap"
+          "label": "7.15% of equity — under 15% regime cap"
         },
         {
           "type": "warning",
@@ -581,7 +581,7 @@
         },
         {
           "type": "risk",
-          "label": "Final trial week (5 days left) \u2014 closing-week tail risk for limited upside"
+          "label": "Final trial week (5 days left) — closing-week tail risk for limited upside"
         },
         {
           "type": "sizing",
@@ -618,7 +618,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null,
-      "thesis": "Second nickel play but WebSearch price quotes split 5,575 vs 6,800 \u2014 data-quality failure prevents safe gate-9 chase check.",
+      "thesis": "Second nickel play but WebSearch price quotes split 5,575 vs 6,800 — data-quality failure prevents safe gate-9 chase check.",
       "inputs": [
         {
           "type": "catalyst",
@@ -667,7 +667,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null,
-      "thesis": "Nickel re-evaluation; HPM Decree 144 catalyst now T+13 stale and LME nickel range-bound \u2014 no discrete near-term catalyst.",
+      "thesis": "Nickel re-evaluation; HPM Decree 144 catalyst now T+13 stale and LME nickel range-bound — no discrete near-term catalyst.",
       "inputs": [
         {
           "type": "catalyst",
@@ -679,7 +679,7 @@
         },
         {
           "type": "risk",
-          "label": "Final trial week \u2014 4 trading days remain; closing-week tail risk"
+          "label": "Final trial week — 4 trading days remain; closing-week tail risk"
         },
         {
           "type": "sizing",
@@ -716,7 +716,7 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null,
-      "thesis": "Same nickel thesis as ANTM but data integrity unresolved \u2014 multi-source WebSearch price spread blocks gate-9 chase check.",
+      "thesis": "Same nickel thesis as ANTM but data integrity unresolved — multi-source WebSearch price spread blocks gate-9 chase check.",
       "inputs": [
         {
           "type": "catalyst",
@@ -818,7 +818,7 @@
       "inputs": [
         {
           "type": "catalyst",
-          "label": "Newcastle coal $133.75/t \u2014 back above $130 thesis floor (vs Apr 27 $129)"
+          "label": "Newcastle coal $133.75/t — back above $130 thesis floor (vs Apr 27 $129)"
         },
         {
           "type": "macro",
@@ -965,7 +965,7 @@
       "inputs": [
         {
           "type": "catalyst",
-          "label": "Q1 2026 earnings TODAY after-hours \u2014 the binary catalyst"
+          "label": "Q1 2026 earnings TODAY after-hours — the binary catalyst"
         },
         {
           "type": "macro",
@@ -973,7 +973,7 @@
         },
         {
           "type": "risk",
-          "label": "Already 7.18% sized; mark \u22126.44% pre-print, hard-cut 0.62% below"
+          "label": "Already 7.18% sized; mark −6.44% pre-print, hard-cut 0.62% below"
         },
         {
           "type": "sizing",
@@ -1014,7 +1014,7 @@
       "inputs": [
         {
           "type": "catalyst",
-          "label": "Newcastle coal ~$132\u2013133/t \u2014 2nd consecutive print confirms $130 floor"
+          "label": "Newcastle coal ~$132–133/t — 2nd consecutive print confirms $130 floor"
         },
         {
           "type": "macro",
@@ -1075,7 +1075,7 @@
         },
         {
           "type": "sizing",
-          "label": "n/a \u2014 SKIP"
+          "label": "n/a — SKIP"
         },
         {
           "type": "warning",
@@ -1124,7 +1124,7 @@
         },
         {
           "type": "sizing",
-          "label": "n/a \u2014 SKIP"
+          "label": "n/a — SKIP"
         },
         {
           "type": "warning",
@@ -1214,7 +1214,7 @@
         },
         {
           "type": "macro",
-          "label": "Coal $129\u2013131/t; EM-OUTFLOW intensified"
+          "label": "Coal $129–131/t; EM-OUTFLOW intensified"
         },
         {
           "type": "risk",
@@ -1271,14 +1271,14 @@
         },
         {
           "type": "sizing",
-          "label": "N/A \u2014 not entered"
+          "label": "N/A — not entered"
         },
         {
           "type": "warning",
           "label": "WebSearch price source (yfinance blocked since Apr 21)"
         }
       ],
-      "reasoning": "Apr 20\u2013May 2 trial window has closed; today is post-trial. Per research plan, no new entries \u2014 preserve realized P&L and let ITMG carry to May 7 Q1 print.",
+      "reasoning": "Apr 20–May 2 trial window has closed; today is post-trial. Per research plan, no new entries — preserve realized P&L and let ITMG carry to May 7 Q1 print.",
       "gate_results": [
         true,
         true,
@@ -1495,7 +1495,7 @@
       "timestamp": "2026-05-05T00:11:42Z",
       "routine": "pre-market",
       "status": "success",
-      "summary": "Pre-market 2026-05-05: Scanned 50 watchlist tickers. 6 candidates scored \u22656: MEDC (8, Brent +5.8% catalyst), ITMG (7, HOLD; Q1 May 7 T-2), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro shock: Iran/UAE missile incident drove Brent +5.80% to $114.44 \u2014 energy/coal complex bid. April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred \u2014 ADV unverifiable (yfinance blocked since Apr 21).",
+      "summary": "Pre-market 2026-05-05: Scanned 50 watchlist tickers. 6 candidates scored ≥6: MEDC (8, Brent +5.8% catalyst), ITMG (7, HOLD; Q1 May 7 T-2), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro shock: Iran/UAE missile incident drove Brent +5.80% to $114.44 — energy/coal complex bid. April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred — ADV unverifiable (yfinance blocked since Apr 21).",
       "actions": [
         {
           "type": "research",
@@ -1503,25 +1503,25 @@
         },
         {
           "type": "research",
-          "detail": "6 candidates scored \u22656 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
+          "detail": "6 candidates scored ≥6 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
         },
         {
           "type": "research",
           "ticker": "MEDC",
-          "detail": "score 8/10 \u2014 Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
+          "detail": "score 8/10 — Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
         },
         {
           "type": "research",
           "ticker": "ITMG",
-          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T\u22122 May 7; coal floor $133.90 intact"
+          "detail": "score 7/10 — HOLD into Q1 earnings T−2 May 7; coal floor $133.90 intact"
         },
         {
           "type": "macro",
-          "detail": "Iran/UAE missile shock \u2014 Brent +5.80%; VIX +7.36%; oil/coal complex bid"
+          "detail": "Iran/UAE missile shock — Brent +5.80%; VIX +7.36%; oil/coal complex bid"
         },
         {
           "type": "macro",
-          "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
+          "detail": "Indonesia April CPI 2.42% (down from 3.48%) — major dovish surprise"
         }
       ]
     },
@@ -1571,7 +1571,7 @@
       "timestamp": "2026-04-21T13:46:42Z",
       "routine": "pre-market",
       "status": "success",
-      "summary": "Trial Day 3 pre-market. Scanned 20 tickers. 5 candidates scored \u22656: BBRI (8, ex-div + Apr 29 earnings), ITMG (8, HOLD), ANTM (7, HPM), INCO (7, nickel), ICBP (6). IHSG 7,539 (-0.72%). Regime EM-OUTFLOW unchanged.",
+      "summary": "Trial Day 3 pre-market. Scanned 20 tickers. 5 candidates scored ≥6: BBRI (8, ex-div + Apr 29 earnings), ITMG (8, HOLD), ANTM (7, HPM), INCO (7, nickel), ICBP (6). IHSG 7,539 (-0.72%). Regime EM-OUTFLOW unchanged.",
       "actions": [
         {
           "type": "research",
@@ -1602,7 +1602,7 @@
       "timestamp": "2026-04-22T00:51:16Z",
       "routine": "pre-market",
       "status": "success",
-      "summary": "Scanned 50 tickers. 5 candidates scored >=6: BBRI/ANTM (7), BMRI/INCO/MBMA (6). Top picks: ANTM (HPM tailwind), BBRI (Q1 earnings). Regime: EM OUTFLOW \u2014 15% pos cap.",
+      "summary": "Scanned 50 tickers. 5 candidates scored >=6: BBRI/ANTM (7), BMRI/INCO/MBMA (6). Top picks: ANTM (HPM tailwind), BBRI (Q1 earnings). Regime: EM OUTFLOW — 15% pos cap.",
       "actions": [
         {
           "type": "research",
@@ -1615,12 +1615,12 @@
         {
           "type": "research",
           "ticker": "ANTM",
-          "detail": "score 7/10 \u2014 HPM Decree 144 tailwind; pullback entry"
+          "detail": "score 7/10 — HPM Decree 144 tailwind; pullback entry"
         },
         {
           "type": "research",
           "ticker": "BBRI",
-          "detail": "score 7/10 \u2014 post-ex-div recovery; Q1 earnings Apr 29"
+          "detail": "score 7/10 — post-ex-div recovery; Q1 earnings Apr 29"
         },
         {
           "type": "research",
@@ -1818,7 +1818,7 @@
       "timestamp": "2026-04-24T08:35:39Z",
       "routine": "daily-summary",
       "status": "success",
-      "summary": "EOD Day 5: IDR 9.977B (\u22120.49%). Alpha +1.00% vs IHSG. 2 positions open (ITMG +2.40%, BBRI \u22125.52%). Trades this week: 2/3. Cum alpha +3.12%.",
+      "summary": "EOD Day 5: IDR 9.977B (−0.49%). Alpha +1.00% vs IHSG. 2 positions open (ITMG +2.40%, BBRI −5.52%). Trades this week: 2/3. Cum alpha +3.12%.",
       "actions": [
         {
           "type": "research",
@@ -1830,7 +1830,7 @@
       "timestamp": "2026-04-27T02:29:24Z",
       "routine": "market-open",
       "status": "warning",
-      "summary": "No trades placed. Week 2 Day 1 \u2014 regime EM-OUTFLOW intact; coal $129/t below $130 ITMG thesis floor; BBRI Q1 earnings T-2 (Wed Apr 29); ANTM HPM catalyst stale (T+12); INCO data unreliable (5,575 vs 6,800 spread). Held ITMG + BBRI; stops unchanged.",
+      "summary": "No trades placed. Week 2 Day 1 — regime EM-OUTFLOW intact; coal $129/t below $130 ITMG thesis floor; BBRI Q1 earnings T-2 (Wed Apr 29); ANTM HPM catalyst stale (T+12); INCO data unreliable (5,575 vs 6,800 spread). Held ITMG + BBRI; stops unchanged.",
       "actions": [
         {
           "type": "hold",
@@ -1858,7 +1858,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram notify HTTP 403 (host not in allowlist) \u2014 fell back to stdout"
+          "detail": "Telegram notify HTTP 403 (host not in allowlist) — fell back to stdout"
         }
       ]
     },
@@ -1926,7 +1926,7 @@
       "timestamp": "2026-04-28T08:32:15Z",
       "routine": "daily-summary",
       "status": "warning",
-      "summary": "Day 7 EOD: IDR 9.987B (+0.38%). Alpha +1.91% vs IHSG today; cum alpha +7.43%. Positions 2 (ITMG +3.74%, BBRI -5.52%). Trades this week: 0/3. No risk alerts. Telegram 403 (host allowlist) \u2014 fell back to stdout.",
+      "summary": "Day 7 EOD: IDR 9.987B (+0.38%). Alpha +1.91% vs IHSG today; cum alpha +7.43%. Positions 2 (ITMG +3.74%, BBRI -5.52%). Trades this week: 0/3. No risk alerts. Telegram 403 (host allowlist) — fell back to stdout.",
       "actions": [
         {
           "type": "research",
@@ -1942,7 +1942,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram send failed (403 host not in allowlist) \u2014 fell back to stdout"
+          "detail": "Telegram send failed (403 host not in allowlist) — fell back to stdout"
         }
       ]
     },
@@ -1998,7 +1998,7 @@
       "timestamp": "2026-04-29T08:35:33Z",
       "routine": "daily-summary",
       "status": "warning",
-      "summary": "Day 8 EOD: IDR 9.940B (-0.47%). Alpha -0.23% today; cum alpha +6.98% vs IHSG. Positions 2 (ITMG -2.30%, BBRI -6.13% triggered position warning). Trades this week: 0/3. BBRI Q1 binary released after-hours; tomorrow open is reaction. Telegram 403 (host allowlist) \u2014 fell back to stdout.",
+      "summary": "Day 8 EOD: IDR 9.940B (-0.47%). Alpha -0.23% today; cum alpha +6.98% vs IHSG. Positions 2 (ITMG -2.30%, BBRI -6.13% triggered position warning). Trades this week: 0/3. BBRI Q1 binary released after-hours; tomorrow open is reaction. Telegram 403 (host allowlist) — fell back to stdout.",
       "actions": [
         {
           "type": "research",
@@ -2018,7 +2018,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram 403 host not in allowlist \u2014 fell back to stdout"
+          "detail": "Telegram 403 host not in allowlist — fell back to stdout"
         }
       ]
     },
@@ -2026,7 +2026,7 @@
       "timestamp": "2026-04-30T02:28:54Z",
       "routine": "market-open",
       "status": "warning",
-      "summary": "No trades placed (5th consecutive no-trade day). BBRI Q1 print resolved benign (3,070 flat = in-line); both held positions HOLD. 4 candidates SKIP \u2014 final-week clock + eagerness FAIL.",
+      "summary": "No trades placed (5th consecutive no-trade day). BBRI Q1 print resolved benign (3,070 flat = in-line); both held positions HOLD. 4 candidates SKIP — final-week clock + eagerness FAIL.",
       "actions": [
         {
           "type": "hold",
@@ -2041,12 +2041,12 @@
         {
           "type": "skip",
           "ticker": "ANTM",
-          "detail": "Gate 5 (catalyst freshness) \u2014 HPM Decree T+15 stale"
+          "detail": "Gate 5 (catalyst freshness) — HPM Decree T+15 stale"
         },
         {
           "type": "skip",
           "ticker": "INCO",
-          "detail": "Gate 9 (data integrity) \u2014 multi-source price spread"
+          "detail": "Gate 9 (data integrity) — multi-source price spread"
         },
         {
           "type": "skip",
@@ -2064,7 +2064,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram notify failed (host not in allowlist) \u2014 printed to stdout"
+          "detail": "Telegram notify failed (host not in allowlist) — printed to stdout"
         }
       ]
     },
@@ -2078,7 +2078,7 @@
       "timestamp": "2026-04-30T08:30:00Z",
       "routine": "daily-summary",
       "status": "warning",
-      "summary": "Day 9 EOD: IDR 9.911B (-0.29% day). Daily alpha +2.71% on IHSG -3.00% \u2014 best alpha day of trial. Cum alpha +8.88%. BBRI HARD CUT BREACHED (close ~2,990 vs 3,031 cut, -8.28% from entry); GTC stop should have fired intraday (low 2,990 at 11:08 WIB); midday scan missed it. EXECUTE BBRI SELL at May 2 open. ITMG HOLD (-4.12%; coal floor restored at $133.50). Trades this week 0/3.",
+      "summary": "Day 9 EOD: IDR 9.911B (-0.29% day). Daily alpha +2.71% on IHSG -3.00% — best alpha day of trial. Cum alpha +8.88%. BBRI HARD CUT BREACHED (close ~2,990 vs 3,031 cut, -8.28% from entry); GTC stop should have fired intraday (low 2,990 at 11:08 WIB); midday scan missed it. EXECUTE BBRI SELL at May 2 open. ITMG HOLD (-4.12%; coal floor restored at $133.50). Trades this week 0/3.",
       "actions": [
         {
           "type": "research",
@@ -2086,11 +2086,11 @@
         },
         {
           "type": "mark-to-market",
-          "detail": "ITMG IDR 25,000 (-4.12%); BBRI IDR 2,990 (-8.28%) \u2014 WebSearch override"
+          "detail": "ITMG IDR 25,000 (-4.12%); BBRI IDR 2,990 (-8.28%) — WebSearch override"
         },
         {
           "type": "alert",
-          "detail": "Position warning sent: BBRI HARD CUT 3,031 BREACHED \u2014 execute at May 2 open"
+          "detail": "Position warning sent: BBRI HARD CUT 3,031 BREACHED — execute at May 2 open"
         },
         {
           "type": "reconcile",
@@ -2102,7 +2102,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram 403 host not in allowlist \u2014 fell back to stdout"
+          "detail": "Telegram 403 host not in allowlist — fell back to stdout"
         }
       ]
     },
@@ -2138,7 +2138,7 @@
       "timestamp": "2026-05-01T01:04:29Z",
       "routine": "pre-market",
       "status": "warning",
-      "summary": "Pre-market 2026-05-01 (IDX CLOSED Labor Day): 50-ticker scan complete; 0 candidates \u22656 with fresh catalyst. BBRI hard-cut 3,031 BREACHED at Apr 30 close 2,990 \u2014 EXECUTE SELL at May 2 open. ITMG HOLD; coal $137.80 breakout (+2.99%). Final trial day tomorrow.",
+      "summary": "Pre-market 2026-05-01 (IDX CLOSED Labor Day): 50-ticker scan complete; 0 candidates ≥6 with fresh catalyst. BBRI hard-cut 3,031 BREACHED at Apr 30 close 2,990 — EXECUTE SELL at May 2 open. ITMG HOLD; coal $137.80 breakout (+2.99%). Final trial day tomorrow.",
       "actions": [
         {
           "type": "research",
@@ -2151,7 +2151,7 @@
         {
           "type": "alert",
           "ticker": "BBRI",
-          "detail": "HARD-CUT 3,031 BREACHED at Apr 30 close 2,990 \u2014 sell at May 2 open per rule"
+          "detail": "HARD-CUT 3,031 BREACHED at Apr 30 close 2,990 — sell at May 2 open per rule"
         },
         {
           "type": "hold",
@@ -2160,7 +2160,7 @@
         },
         {
           "type": "warning",
-          "detail": "Telegram 403 host not in allowlist \u2014 fallback to stdout"
+          "detail": "Telegram 403 host not in allowlist — fallback to stdout"
         },
         {
           "type": "warning",
@@ -2172,7 +2172,7 @@
       "timestamp": "2026-05-01T02:25:38Z",
       "routine": "market-open",
       "status": "warning",
-      "summary": "No trades placed. IDX CLOSED (Labor Day, May 1). Carry-forward: BBRI hard-cut breached at Apr 30 close (2,990 vs 3,031) \u2014 mandatory exit at May 2 open per rule. ITMG HOLD. Telegram 403 host-not-allowlisted (same infra condition since trial start).",
+      "summary": "No trades placed. IDX CLOSED (Labor Day, May 1). Carry-forward: BBRI hard-cut breached at Apr 30 close (2,990 vs 3,031) — mandatory exit at May 2 open per rule. ITMG HOLD. Telegram 403 host-not-allowlisted (same infra condition since trial start).",
       "actions": [
         {
           "type": "info",
@@ -2180,7 +2180,7 @@
         },
         {
           "type": "warning",
-          "detail": "BBRI hard-cut 3,031 breached Apr 30 close 2,990 \u2014 mandatory sell at May 2 open"
+          "detail": "BBRI hard-cut 3,031 breached Apr 30 close 2,990 — mandatory sell at May 2 open"
         },
         {
           "type": "hold",
@@ -2189,7 +2189,7 @@
         },
         {
           "type": "info",
-          "detail": "No new entries \u2014 final-day eagerness check FAIL on all 50 tickers"
+          "detail": "No new entries — final-day eagerness check FAIL on all 50 tickers"
         }
       ]
     },
@@ -2257,7 +2257,7 @@
       "timestamp": "2026-05-04T00:16:05Z",
       "routine": "pre-market",
       "status": "success",
-      "summary": "Post-trial pre-market scan: 50 tickers screened, 1 candidate \u22656 (ITMG=8, HOLD). EM-OUTFLOW regime intensified; banks foreign-sell magnet; coal floor 30 holds. No new entries planned.",
+      "summary": "Post-trial pre-market scan: 50 tickers screened, 1 candidate ≥6 (ITMG=8, HOLD). EM-OUTFLOW regime intensified; banks foreign-sell magnet; coal floor 30 holds. No new entries planned.",
       "actions": [
         {
           "type": "research",
@@ -2285,7 +2285,7 @@
       "timestamp": "2026-05-04T02:31:14Z",
       "routine": "market-open",
       "status": "warning",
-      "summary": "No trades placed. Post-trial session (Apr 20\u2013May 2 trial window closed Apr 30 effective). Plan = HOLD ITMG only into May 7 Q1 earnings; no candidates scored >=6 outside the held position; cash 92.84% preserved.",
+      "summary": "No trades placed. Post-trial session (Apr 20–May 2 trial window closed Apr 30 effective). Plan = HOLD ITMG only into May 7 Q1 earnings; no candidates scored >=6 outside the held position; cash 92.84% preserved.",
       "actions": [
         {
           "type": "hold",
@@ -2295,7 +2295,7 @@
         {
           "type": "skip",
           "ticker": "ADRO",
-          "detail": "score 6 informational only; post-trial window \u2014 no new entries"
+          "detail": "score 6 informational only; post-trial window — no new entries"
         },
         {
           "type": "warning",
@@ -2311,13 +2311,13 @@
       "timestamp": "2026-05-04T04:43:07Z",
       "routine": "midday",
       "status": "success",
-      "summary": "All positions healthy. ITMG \u22122.30% (above hard-cut buffer 4.81%). No cuts, no tightenings, no thesis break."
+      "summary": "All positions healthy. ITMG −2.30% (above hard-cut buffer 4.81%). No cuts, no tightenings, no thesis break."
     },
     {
       "timestamp": "2026-05-04T08:42:31Z",
       "routine": "daily-summary",
       "status": "success",
-      "summary": "EOD 2026-05-04 (Day 11, post-trial): IDR 9.924B (+0.13%). Alpha \u22121.17% daily / +6.85% cum vs IHSG. 1 position open (ITMG \u22122.30%). 92.99% cash. Trades this week: 0/3. No risk alerts.",
+      "summary": "EOD 2026-05-04 (Day 11, post-trial): IDR 9.924B (+0.13%). Alpha −1.17% daily / +6.85% cum vs IHSG. 1 position open (ITMG −2.30%). 92.99% cash. Trades this week: 0/3. No risk alerts.",
       "actions": [
         {
           "type": "research",
@@ -2337,7 +2337,7 @@
       "timestamp": "2026-05-05T00:12:15Z",
       "routine": "pre-market",
       "status": "success",
-      "summary": "Scanned 50 watchlist tickers. 6 candidates scored \u22656: MEDC (8, Brent +5.8% pure-play), ITMG (7, HOLD; Q1 May 7 T\u22122), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro: Iran/UAE missile incident drove Brent +5.80% to $114.44; April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred \u2014 ADV unverifiable (yfinance blocked since Apr 21).",
+      "summary": "Scanned 50 watchlist tickers. 6 candidates scored ≥6: MEDC (8, Brent +5.8% pure-play), ITMG (7, HOLD; Q1 May 7 T−2), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro: Iran/UAE missile incident drove Brent +5.80% to $114.44; April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred — ADV unverifiable (yfinance blocked since Apr 21).",
       "actions": [
         {
           "type": "research",
@@ -2345,25 +2345,25 @@
         },
         {
           "type": "research",
-          "detail": "6 candidates scored \u22656 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
+          "detail": "6 candidates scored ≥6 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
         },
         {
           "type": "research",
           "ticker": "MEDC",
-          "detail": "score 8/10 \u2014 Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
+          "detail": "score 8/10 — Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
         },
         {
           "type": "research",
           "ticker": "ITMG",
-          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T\u22122 May 7; coal floor $133.90 intact"
+          "detail": "score 7/10 — HOLD into Q1 earnings T−2 May 7; coal floor $133.90 intact"
         },
         {
           "type": "macro",
-          "detail": "Iran/UAE missile shock \u2014 Brent +5.80%; VIX +7.36%; oil/coal complex bid"
+          "detail": "Iran/UAE missile shock — Brent +5.80%; VIX +7.36%; oil/coal complex bid"
         },
         {
           "type": "macro",
-          "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
+          "detail": "Indonesia April CPI 2.42% (down from 3.48%) — major dovish surprise"
         }
       ]
     },
@@ -2393,7 +2393,7 @@
       "timestamp": "2026-05-05T04:37:01Z",
       "routine": "midday",
       "status": "success",
-      "summary": "All positions healthy. ITMG \u22122.30% (buffer +4.81% to hard-cut 24,250). No cuts, no stop tightenings, no thesis breaks. UBS upgrade Neutral\u2192Buy surfaced (thesis-confirming)."
+      "summary": "All positions healthy. ITMG −2.30% (buffer +4.81% to hard-cut 24,250). No cuts, no stop tightenings, no thesis breaks. UBS upgrade Neutral→Buy surfaced (thesis-confirming)."
     },
     {
       "timestamp": "2026-05-05T08:20:26Z",
@@ -2404,6 +2404,49 @@
         {
           "type": "research",
           "detail": "Day 12 EOD snapshot committed; ITMG mark 25,475 unchanged from intraday"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-06T00:22:40Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-05-06: Scanned 50 watchlist tickers. 6 candidates scored ≥6: ANTM (8, Q1 +60% net beat), ITMG (7, HOLD; Q1 T-1 May 7), INDF (6), BMRI (6), TLKM (6), SMGR (6). Brent reversed -5.55% killing yesterday's MEDC oil-shock thesis. IHSG +1.22% to 7,057 on GDP 5.61% beat + CPI 2.42% cooling, but foreign net sell -IDR 791B continues — EM-OUTFLOW regime intact. Banking Q1 prints +14-17% but sector-exit-watch (1 strike) blocks re-entry. Data infra still 403-blocked (yfinance/GoAPI) — ADV unverifiable for new entries; gate-check Gate 7/14 cannot fire. ITMG HOLD into print; pre-commit hard-cut 24,250.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "6 candidates scored ≥6 (ANTM, ITMG, INDF, BMRI, TLKM, SMGR)"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 8/10 — Q1 net +60% YoY, rev +12% YoY"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "score 7/10 — HOLD into Q1 earnings T-1 May 7; UBS upgrade Buy"
+        },
+        {
+          "type": "research",
+          "ticker": "INDF",
+          "detail": "score 6/10 — Q1 net +9%; R:R below 2:1 blocks entry"
+        },
+        {
+          "type": "macro",
+          "detail": "Brent reversal -5.55% to $108 — Iran ceasefire holds, geopolitical premium unwound"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG +1.22% to 7,057.10; foreign net sell -IDR 791B continues"
+        },
+        {
+          "type": "macro",
+          "detail": "Q1 GDP 5.61% beat (fastest since Q3 2022); April CPI 2.42% cooling"
         }
       ]
     }
@@ -2420,156 +2463,184 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6971.95,
-    "ihsg_change_pct": 0.22,
-    "idr_usd": 17335,
-    "idr_usd_change_pct": 0.15,
+    "ihsg": 7057.1,
+    "ihsg_change_pct": 1.22,
+    "idr_usd": 17396,
+    "idr_usd_change_pct": -0.02,
     "coal_usd": 133.9,
-    "coal_change_pct": 0.0,
-    "nickel_usd": 19365,
-    "nickel_change_pct": -0.53,
-    "cpo_myr": 4540,
-    "cpo_change_pct": 0.8,
+    "coal_change_pct": -1.22,
+    "nickel_usd": 19275.5,
+    "nickel_change_pct": 0.21,
+    "cpo_myr": 4659,
+    "cpo_change_pct": 1.29,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held; April CPI 2.42% (down from 3.48%) reopens cut runway; next RDG mid-May",
-    "asia_sentiment": "Risk-off (US -0.41%/-0.19%/-1.13%; VIX +7.36%; HK/CN/JP closed for holidays)",
-    "foreign_flow_idr_bn": -3310,
-    "updated": "2026-05-05"
+    "bi_rate_note": "Held at 4.75%; April CPI 2.42% + Q1 GDP 5.61% beat reopen cut runway; next RDG mid-May",
+    "asia_sentiment": "Risk-on (US records: S&P +0.81%, Nasdaq +1.03%, Dow +0.73%; VIX -4.59%; Brent reversal -5.55%; HK -0.76%, JP holiday)",
+    "foreign_flow_idr_bn": -791,
+    "updated": "2026-05-06"
   },
   "research": {
-    "date": "2026-05-05",
+    "date": "2026-05-06",
     "headlines": [
       {
-        "ticker": "BRENT",
-        "headline": "Brent +5.80% to $114.44 \u2014 Iran missile launches at US warships; UAE Fujairah oil-hub fire. Major geopolitical premium reset",
-        "sentiment": "bullish-energy",
-        "source": "TheStreet / Yahoo Finance / Fortune",
-        "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-4-231452685.html"
-      },
-      {
-        "ticker": "MEDC",
-        "headline": "Pure-play Brent rally beneficiary; UBS PT raised IDR 2,000\u21922,570; 165\u2013170 kboepd 2026 production target; 11/0/1 buy/hold/sell consensus",
+        "ticker": "ANTM",
+        "headline": "Q1 2026 net income IDR 3.41T (+60% YoY); revenue IDR 29.32T (+12% YoY) — material fundamental beat",
         "sentiment": "bullish",
-        "source": "Hargasaham / TradingView (Reuters)",
-        "url": "https://www.hargasaham.id/harga-minyak-dunia-naik-saham-migas-menguat-2026/"
+        "source": "Smartkarma earnings alert",
+        "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/aneka-tambang-persero-antm-earnings-q1-net-income-surges-60-to-3-41t-rupiah/"
       },
       {
-        "ticker": "MACRO",
-        "headline": "Indonesia April CPI 2.42% YoY (down from 3.48%) \u2014 biggest dovish surprise of 2026; comfortably within BI 1.5\u20133.5% target band",
-        "sentiment": "bullish-banks",
-        "source": "Trading Economics / Samuel Sekuritas",
-        "url": "https://tradingeconomics.com/indonesia/inflation-cpi"
+        "ticker": "BRENT",
+        "headline": "Brent reversal -5.55% to $108.09 — Iran ceasefire holds; Mon's geopolitical premium unwound in 24h",
+        "sentiment": "bearish-energy",
+        "source": "TradingEconomics / CNBC",
+        "url": "https://www.cnbc.com/2026/05/05/oil-prices-today-wti-brent-iran-war-trump-hormuz.html"
       },
       {
-        "ticker": "MSCI",
-        "headline": "MSCI froze Indonesia May rebalancing \u2014 BREN/DSSA HSC removal risk ($270M outflows); broader country weight cut threatened",
-        "sentiment": "bearish",
-        "source": "Heygotrade / IDNFinancials",
-        "url": "https://www.idnfinancials.com/news/60811/msci-halts-rebalancing-indonesia-risks-downgrade-to-frontier-market"
+        "ticker": "IHSG",
+        "headline": "IHSG +1.22% to 7,057.10 May 5 on Q1 GDP 5.61% beat + April CPI 2.42% cooling; foreign net sell -IDR 791B continues",
+        "sentiment": "mixed",
+        "source": "TradingEconomics / heygotrade",
+        "url": "https://tradingeconomics.com/indonesia/stock-market"
       },
       {
         "ticker": "ITMG",
-        "headline": "Q1 2026 earnings T\u22122 (Thu May 7); Newcastle coal $133.90 holds the $130 thesis floor; BCA Sek BUY PT IDR 30,100",
-        "sentiment": "neutral",
-        "source": "MarketScreener / sectors.app / BCA Sekuritas",
+        "headline": "Q1 2026 earnings T-1 (Thu May 7); UBS upgraded Neutral → Buy May 5; sector consensus rev -6.3%/EPS -29.5% YoY (downside-skewed print)",
+        "sentiment": "neutral-binary",
+        "source": "MarketScreener / Investing consensus",
         "url": "https://www.marketscreener.com/quote/stock/PT-INDO-TAMBANGRAYA-MEGAH-6500080/calendar/"
       },
       {
-        "ticker": "FLOW",
-        "headline": "Foreign net sell \u2212IDR 3.31T week to Apr 30; concentrated on banks (BBCA/BMRI/BBRI); rotation into commodity names",
-        "sentiment": "bearish",
-        "source": "Hargasaham / Heygotrade",
-        "url": "https://www.hargasaham.id/investor-asing-net-foreign-sell-ihsg-april-2026/"
+        "ticker": "BBRI",
+        "headline": "Q1 2026 net +13.8% YoY; EPS 103 (slight miss vs 104 est); revenue beat 52.84T vs 52.38T est; NIM 7.9% above guidance",
+        "sentiment": "neutral",
+        "source": "Investing.com",
+        "url": "https://uk.investing.com/news/company-news/bank-rakyat-indonesia-q1-2026-slides-profit-jumps-14-nim-beats-guidance-93CH-4646372"
+      },
+      {
+        "ticker": "BMRI",
+        "headline": "Q1 2026 net +16.6% YoY (IDR 15.4T); NIM 4.7%; provisioning -20% YoY; KB Valbury top pick",
+        "sentiment": "bullish",
+        "source": "Samuel Sekuritas",
+        "url": "https://samuel.co.id/wp-content/uploads/2026/04/BMRI-1Q26-Results.pdf"
       },
       {
         "ticker": "INDF",
-        "headline": "INDF closed +2.96% at IDR 6,950 May 4 \u2014 consumer staples lift on CPI cooling; recovery momentum noted",
+        "headline": "Q1 2026 net profit +9% YoY on +7% revenue; April CPI cooling tailwind; +1.65% May 5 close 5,975",
         "sentiment": "bullish",
-        "source": "Bisnis Premium",
-        "url": "https://premium.bisnis.com/read/20260119/664/1945121/recovery-momentum-builds-across-consumer-issuers-from-icbp-myor-unvr-indf-amrt"
+        "source": "IDNFinancials",
+        "url": "https://www.idnfinancials.com/news/63470/cbp-contribution-rises-7-6-indf-profit-grows-9-in-q1"
       },
       {
-        "ticker": "BBCA",
-        "headline": "BBCA close IDR 5,900 May 4; P/E 12.51; foreign top sell name week to Apr 30",
+        "ticker": "ICBP",
+        "headline": "Q1 2026 sales +8% but net profit -3% YoY (margin compression); +2.41% May 5 close 7,100 — chase risk",
         "sentiment": "neutral",
-        "source": "stockanalysis.com",
-        "url": "https://stockanalysis.com/quote/idx/BBCA/"
+        "source": "IDNFinancials",
+        "url": "https://www.idnfinancials.com/news/63470/cbp-contribution-rises-7-6-indf-profit-grows-9-in-q1"
+      },
+      {
+        "ticker": "TLKM",
+        "headline": "TLKM +2.85% to 2,890 — telco sector momentum; data-revenue thesis intact",
+        "sentiment": "bullish",
+        "source": "Heygotrade IHSG flow",
+        "url": "https://www.heygotrade.com/en/news/indonesia-ihsg-falls-7560-msci-freezes-rebalancing/"
+      },
+      {
+        "ticker": "SMGR",
+        "headline": "Semen Indonesia led IDX gainers May 5 (+4.5%); cement-sector reflation on property recovery + BI cut runway",
+        "sentiment": "bullish",
+        "source": "TradingEconomics jci",
+        "url": "https://tradingeconomics.com/indonesia/stock-market"
       }
     ],
     "sector_momentum": [
       {
         "sector": "Banking",
-        "trend": "neutral",
+        "trend": "up",
+        "score": 6,
+        "note": "Q1 prints +14-17% net; BBNI +3.23%/BBTN +3.46% chase; sector-exit-watch 1 strike"
+      },
+      {
+        "sector": "Coal/Energy",
+        "trend": "flat",
         "score": 5,
-        "note": "April CPI 2.42% reopens rate-cut runway; foreign sell pressure caps; 1-of-2 sector-exit strike"
+        "note": "Newcastle ~$134 holds; ITMG Q1 T-1; consensus -29.5% EPS forward"
       },
       {
-        "sector": "Coal",
-        "trend": "constructive",
-        "score": 7,
-        "note": "Newcastle $133.90 holds $130 floor; ITMG Q1 May 7 binary; BCA Sek BUY PT 30,100"
-      },
-      {
-        "sector": "Oil & Gas",
-        "trend": "bullish",
+        "sector": "Nickel/Mining",
+        "trend": "up",
         "score": 8,
-        "note": "Brent +5.80% on Iran/UAE missile incident; MEDC pure-play (UBS PT raised); PGAS modest"
-      },
-      {
-        "sector": "Nickel",
-        "trend": "neutral",
-        "score": 5,
-        "note": "LME \u22120.53%; range-bound around $19.4k; HPM intact but no fresh trigger"
+        "note": "ANTM Q1 +60% net beat; LME firm $19,275; HPM policy tailwind"
       },
       {
         "sector": "Consumer",
-        "trend": "constructive",
+        "trend": "up",
         "score": 6,
-        "note": "CPI cooling tailwind; INDF +2.96%, UNVR +1.63% May 4"
-      },
-      {
-        "sector": "Property",
-        "trend": "neutral",
-        "score": 5,
-        "note": "BI rate hold caps near-term; CPI dovish supportive medium-term"
+        "note": "CPI 2.42% cooling; INDF +9% / ICBP -3% mixed"
       },
       {
         "sector": "Telco",
-        "trend": "neutral-bearish",
-        "score": 4,
-        "note": "Lagged data; no fresh catalyst; XLSMART merger overhang on EXCL"
+        "trend": "up",
+        "score": 6,
+        "note": "TLKM +2.85% momentum"
       },
       {
-        "sector": "CPO",
-        "trend": "neutral",
+        "sector": "Property",
+        "trend": "up",
         "score": 5,
-        "note": "Indonesia May ref USD 1,049.58/MT; CPO 4,540 MYR (+36 pts)"
+        "note": "BSDE/SMRA/CTRA buy-rated; BI rate-cut beneficiary"
       },
       {
-        "sector": "Tech",
-        "trend": "neutral",
-        "score": 4,
-        "note": "GOTO +5.7% noted in movers; no specific catalyst sourced"
-      },
-      {
-        "sector": "Healthcare",
-        "trend": "neutral",
+        "sector": "CPO/Agri",
+        "trend": "up",
         "score": 5,
-        "note": "Defensive pharma KLBF, MIKA \u2014 no near catalyst"
-      },
-      {
-        "sector": "Construction/Infra",
-        "trend": "bearish",
-        "score": 3,
-        "note": "SOE balance-sheet overhang; WSKT/PTPP/ADHI distressed"
+        "note": "CPO MYR 4,659 +1.29%; B15 program tailwind"
       },
       {
         "sector": "Cement",
-        "trend": "neutral-bearish",
-        "score": 4,
-        "note": "Property/infra cycle proxy; awaiting infra spending lift"
+        "trend": "up",
+        "score": 6,
+        "note": "SMGR +4.5% IDX leader; property+infra tailwind"
+      }
+    ],
+    "candidates": [
+      {
+        "ticker": "ANTM",
+        "score": 8,
+        "status": "CANDIDATE",
+        "thesis": "Q1 net +60% YoY, rev +12% — strong fundamental beat; nickel sector favoured per regime"
+      },
+      {
+        "ticker": "ITMG",
+        "score": 7,
+        "status": "HOLD",
+        "thesis": "Held; Q1 earnings T-1 (May 7); BCA Sek BUY PT 30,100; UBS upgrade to Buy"
+      },
+      {
+        "ticker": "INDF",
+        "score": 6,
+        "status": "CANDIDATE-watch",
+        "thesis": "Q1 +9% net profit; CPI tailwind; R:R below 2:1 blocks fresh entry"
+      },
+      {
+        "ticker": "BMRI",
+        "score": 6,
+        "status": "WATCH",
+        "thesis": "Q1 +16.6% net; KB Valbury top pick; banking 1-strike sector watch"
+      },
+      {
+        "ticker": "TLKM",
+        "score": 6,
+        "status": "CANDIDATE-watch",
+        "thesis": "+2.85% telco momentum; data-revenue thesis"
+      },
+      {
+        "ticker": "SMGR",
+        "score": 6,
+        "status": "CANDIDATE-watch",
+        "thesis": "+4.5% IDX leader May 5; cement+property reflation"
       }
     ]
   },
-  "last_updated": "2026-05-05T08:20:06Z"
+  "last_updated": "2026-05-06T00:22:40Z"
 }
