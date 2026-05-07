@@ -215,6 +215,21 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-05-07",
+      "day_label": "Day 14",
+      "portfolio_value": 9924220000,
+      "cash": 9228752500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.76,
+      "ihsg_close": 7117.0,
+      "ihsg_cumulative_pct": -6.77,
+      "alpha_pct": 6.01,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -230,7 +245,7 @@
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Coal $133.90 above $130 floor; UBS Neutral\u2192Buy upgrade May 5; BCA Sek BUY PT 30,100; thesis intact; HOLD into ITMG Q1 earnings May 7 (T-1); pre-commit: hard-cut 24,250, transition to trailing 10% if intraday print > 27,900"
+      "thesis": "Q1 2026 earnings release day (post-close); coal Newcastle ~$135 above $130 floor; UBS Neutral->Buy May 5; BCA Sek BUY PT 30,100; pre-commit triggers all unbreached at EOD; tomorrow pre-market read priority on print"
     }
   ],
   "trades": [
@@ -1850,8 +1865,8 @@
   ],
   "stats": {
     "total_return_pct": -0.76,
-    "ihsg_return_pct": -6.65,
-    "alpha_pct": 5.89,
+    "ihsg_return_pct": -6.77,
+    "alpha_pct": 6.01,
     "win_rate_pct": 0.0,
     "total_trades": 2,
     "winning_trades": 0,
@@ -1872,12 +1887,12 @@
     "violations": [],
     "current_equity": 9924220000,
     "cum_return_pct": -0.76,
-    "ihsg_cum_pct": -6.97,
-    "cum_alpha_pct": 6.21,
+    "ihsg_cum_pct": -6.77,
+    "cum_alpha_pct": 6.01,
     "positions_count": 1,
     "cash_pct": 92.99,
     "trades_this_week": 0,
-    "last_updated": "2026-05-06"
+    "last_updated": "2026-05-07"
   },
   "risk": {
     "beta_ihsg": null,
@@ -1895,7 +1910,7 @@
     "current_equity": 9924220000,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-06"
+    "updated": "2026-05-07"
   },
   "activity_log": [
     {
@@ -2997,6 +3012,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ITMG at -2.30% (mark 25,475 vs entry 26,075), +4.81% buffer to hard-cut 24,250. Q1 print release scheduled today (post-close)."
+    },
+    {
+      "timestamp": "2026-05-07T08:20:24Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-07 (Day 14): Equity flat IDR 9.924B (0.00% day); ITMG mark 25,475 unchanged. IHSG sesi I 7,117 (+0.35% DoD); alpha -0.35%. Cum return -0.76% / cum alpha +6.01%. Q1 ITMG print expected post-close \u2014 pre-commit triggers unbreached intraday.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 14 EOD snapshot committed; ITMG held into Q1 release; pre-commit decision matrix re-affirmed for May 8 pre-market"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -3011,8 +3038,8 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 7092.46,
-    "ihsg_change_pct": 0.5,
+    "ihsg": 7117.0,
+    "ihsg_change_pct": 0.35,
     "idr_usd": 17414,
     "idr_usd_change_pct": 0.08,
     "coal_usd": 135.0,
@@ -3119,5 +3146,5 @@
       }
     ]
   },
-  "last_updated": "2026-05-07T00:17:53Z"
+  "last_updated": "2026-05-07T08:20:02Z"
 }

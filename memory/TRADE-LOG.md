@@ -1273,3 +1273,63 @@ Watch tomorrow (Thu May 7):
 - No commit-worthy state changes other than this midday log entry.
 - Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
 - Q1 print post-close release expected; pre-print close vs hold-to-print decision was made at 09:15 WIB (HOLD per pre-commit). EOD routine to assess intraday close vs pre-commit triggers; actual Q1 print likely lands post-15:00 WIB or after-hours per IDX issuer norms.
+
+---
+
+### 2026-05-07 EOD — Day 14 (Post-Trial Thu, Week 3 Day 4)
+
+- Total equity: IDR 9,924,220,000
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +0.35% (sesi I close 7,117 verified multi-source: Asatunews/Okezone/Bloomberg Technoz/market.bisnis. Sesi II final close not yet in news cycle at 15:15 WIB. Day-over-day vs verified May 6 actual close 7,092 per Kontan "Menguat 3 Hari Beruntun, IHSG Ditutup 7.092 Hari Ini (6/5)".)
+- Daily alpha: −0.35%
+- Cash: IDR 9,228,752,500 (92.99% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR −75,780,000 (−0.76%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,117 = −6.77%): +6.01%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut, locked Apr 30 mark)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 25,475 | −IDR 16,380,000 (−2.30%) | 17 |
+
+#### Notes
+
+Day 14 (Thu, post-trial Week 3 Day 4) — **Q1 2026 ITMG earnings release day (binary catalyst)**. Equity flat at IDR 9,924,220,000 — ITMG mark held at 25,475 across 09:15 WIB market-open, 11:30 WIB midday, and EOD (no fresh intraday move detected; multi-source WebSearch cluster Yahoo/Investing.com/TradingView/Stockanalysis still anchored at 25,475 with prev close 25,450). Pre-commit triggers (intraday <24,250 → EXIT; intraday >27,900 → transition stop to TRAILING; Q1 miss material → close on open May 8) ALL UNBREACHED at EOD.
+
+Broker reconciliation: broker.sh portfolio shows ITMG only (27,300 sh @ 26,075, last_price stale at entry 26,075); equity field reports 9,940,600,000 — broker uses stale-mark fallback that differs from TRADE-LOG mark-to-market (9,924,220,000) by IDR 16.4M. No state discrepancy — only price-source lag (yfinance/GoAPI infra block since Apr 21). Position counts and shares match (1 position, 27,300 sh).
+
+Mark-to-market source: WebSearch ITMG IDR 25,475 (multi-source verified at 09:15 WIB, 11:30 WIB, and EOD; consistent across Yahoo Finance / Investing.com / TradingView / Stockanalysis cluster — last 25,475, prev close 25,450, 24h change −0.10%). Per MISTAKES.md 2026-05-01 lesson: hard-cut buffer 4.81% > 1.5% trigger → standard verification suffices.
+
+IHSG accounting: today's report uses externally-verified IHSG levels — May 6 actual full-day close 7,092 per Kontan (vs prior internal log using 7,102 sesi I as proxy; one-time correction reflected in cumulative-alpha math, not retroactive backfill). May 7 sesi I 7,117 (+0.36% intraday from open 7,086.34, day high 7,204) per multi-source. Day-over-day +0.35% (7,092 → 7,117); slight underperformance of −0.35% alpha given ITMG mark unchanged.
+
+Macro: IHSG sesi I extended its rebound to 7,117 (+0.36% intraday; +0.35% DoD), top driver BBRI +2.22% to 3,230, infrastructure sector lift. Volume Rp12.32T / 26.12B shares / 1.54M txns (above-average activity confirms continuation of the post-PDB-beat rally). Phintraco target band 7,100–7,150 — sesi I within band, day high 7,204 momentarily breached. Brent collapsed −6.96% to $102.22 on Iran-US deal hopium (US session) — risk-on for IDX equities (lower fuel input cost) but bearish for energy names short-term.
+
+Coal: Newcastle ~$135/t per macro snapshot (above $130 thesis floor; intra-day no fresh contradiction). Coal sector mixed — Brent crash spillover risk to be monitored.
+
+ITMG specific: **Q1 print release expected post-close per IDX issuer norms.** Pre-commit re-affirmed at 09:15 and 11:30 WIB; intraday triggers all unbreached. Last quarter EPS surprise +114.10% (per midday scan thesis check). UBS Neutral→Buy (May 5) and BCA Sek BUY PT 30,100 (May 4) maintained. **Tomorrow's pre-market (May 8) priority: pull Q1 print and execute decision matrix — if material miss, close on open regardless of intraday level.**
+
+Drawdown from peak (10,026,617,500 on Apr 22): (9,924,220,000 − 10,026,617,500) / 10,026,617,500 = −1.02% (unchanged from yesterday).
+
+Weekly P&L (from May 1 EOD baseline 9,911,252,500): +IDR 12,967,500 (+0.13%) — unchanged from yesterday, since equity flat all week.
+
+RISK ALERTS: NONE.
+- Daily P&L 0.00% — far from −2% cap.
+- ITMG at −2.30% — well above −6% warning threshold.
+- Drawdown −1.02% — well above −15% hard limit.
+- Weekly P&L +0.13% — far from −5% reduction trigger.
+
+Sector exposure: Coal 7.01% only (ITMG); 92.99% cash. Banking removed since BBRI hard-cut May 1.
+
+Watch tomorrow (Fri May 8 — Weekly Review day):
+1. **ITMG Q1 2026 print release (post-close May 7 expected)** — pre-market read priority; pre-commit decision matrix executes at 09:15 WIB market-open (material miss → close on open regardless of intraday level)
+2. Brent follow-through after −6.96% crash — sustained pressure could spill to coal complex via correlation (Newcastle floor risk)
+3. IHSG follow-through above sesi I 7,117 toward day-high 7,204 — needs confirmation; fade back to 7,000–7,050 invalidates Phintraco target
+4. IDR direction off 17,414 vs USD — Iran-US deal momentum risk-on tone supports rupiah; sustained sub-17,400 lifts foreign-flow confidence
+5. Foreign net flow direction post-IHSG +0.35% DoD — net buy Rp1.92T per macro snapshot supports continuation; sustained outflow keeps EM-OUTFLOW regime / banking sector-exit-watch intact
+6. Weekly review (16:00 WIB Friday May 8) — letter grade for Week 3, regime label re-check, optional MACRO-REGIME update
+
+---
+
