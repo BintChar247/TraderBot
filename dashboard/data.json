@@ -2710,6 +2710,54 @@
           "detail": "Day 13 EOD snapshot committed; RISK-STATE updated; dashboard refreshed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-07T00:18:32Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-05-07: Scanned 50 watchlist tickers. 6 candidates scored \u22656: SMGR (8, Q1 +88.7% net beat + cement reflation), UNVR (8, Q1 +73% headline + June EGMS dividend; +8.84% chase blocked), ANTM (8, Q1 +60% net carryover; nickel firm), AKRA (7, controller Rp 282.5B 3-day insider buy), ITMG (7, HOLD into Q1 earnings TODAY), INTP (6, cement sympathy). ITMG Q1 binary day \u2014 pre-commit triggers active (intraday <24,250 EXIT; >27,900 trail). Brent crash -6.96% kills MEDC/PGAS oil thesis. Foreign net sell continues -IDR 518B May 5. ADV unverifiable for non-ITMG names (data infra block) \u2014 Gate 7/14 cannot fire on new entries.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (all watchlist, no skips)"
+        },
+        {
+          "type": "research",
+          "detail": "6 candidates scored \u22656 (SMGR, UNVR, ANTM, AKRA, ITMG, INTP)"
+        },
+        {
+          "type": "research",
+          "ticker": "SMGR",
+          "detail": "score 8/10 \u2014 Q1 net +88.7% YoY (Rp 80B) + cement reflation; Maybank top pick"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 8/10 \u2014 Q1 net +73% headline + June EGMS dividend; +8.84% chase blocked"
+        },
+        {
+          "type": "research",
+          "ticker": "AKRA",
+          "detail": "score 7/10 \u2014 controller Rp 282.5B 3-day insider buy at 1,520-1,580"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "HOLD into Q1 earnings TODAY; buffer 6.91% to hard-cut 24,250"
+        },
+        {
+          "type": "macro",
+          "detail": "Brent -6.96% to $102.22 \u2014 kills MEDC/PGAS oil sympathy thesis"
+        },
+        {
+          "type": "macro",
+          "detail": "Foreign net sell -IDR 518B May 5 (~6th straight session); BMRI/BBCA distributed, BBRI re-accumulated"
+        },
+        {
+          "type": "infra",
+          "detail": "yfinance/GoAPI ADV unverifiable for non-ITMG \u2014 Gate 7/14 cannot fire on new entries"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -2724,184 +2772,113 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 7057.1,
-    "ihsg_change_pct": 1.22,
-    "idr_usd": 17396,
-    "idr_usd_change_pct": -0.02,
-    "coal_usd": 133.9,
-    "coal_change_pct": -1.22,
-    "nickel_usd": 19275.5,
-    "nickel_change_pct": 0.21,
-    "cpo_myr": 4659,
-    "cpo_change_pct": 1.29,
+    "ihsg": 7092.46,
+    "ihsg_change_pct": 0.5,
+    "idr_usd": 17414,
+    "idr_usd_change_pct": 0.08,
+    "coal_usd": 135.0,
+    "coal_change_pct": 0.0,
+    "nickel_usd": 19652.25,
+    "nickel_change_pct": 0.09,
+    "cpo_myr": 4650,
+    "cpo_change_pct": 1.0,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held at 4.75%; April CPI 2.42% + Q1 GDP 5.61% beat reopen cut runway; next RDG mid-May",
-    "asia_sentiment": "Risk-on (US records: S&P +0.81%, Nasdaq +1.03%, Dow +0.73%; VIX -4.59%; Brent reversal -5.55%; HK -0.76%, JP holiday)",
-    "foreign_flow_idr_bn": -791,
-    "updated": "2026-05-06"
+    "bi_rate_note": "Held at 4.75%; April CPI 2.42% + Q1 GDP 5.61% beat keep cut runway open; next RDG mid-May",
+    "asia_sentiment": "Risk-on US (S&P +1.46%, Nasdaq +2.02%, Dow +1.24% \u2014 fresh records on Iran-US deal hopium; VIX ~17.4); Asia mixed (Shanghai +1.17%, HK -0.80%, JP closed Golden Week); Brent crash -6.96% to $102.22",
+    "foreign_flow_idr_bn": -518,
+    "updated": "2026-05-07"
   },
   "research": {
-    "date": "2026-05-06",
+    "date": "2026-05-07",
     "headlines": [
       {
-        "ticker": "ANTM",
-        "headline": "Q1 2026 net income IDR 3.41T (+60% YoY); revenue IDR 29.32T (+12% YoY) \u2014 material fundamental beat",
-        "sentiment": "bullish",
-        "source": "Smartkarma earnings alert",
-        "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/aneka-tambang-persero-antm-earnings-q1-net-income-surges-60-to-3-41t-rupiah/"
-      },
-      {
-        "ticker": "BRENT",
-        "headline": "Brent reversal -5.55% to $108.09 \u2014 Iran ceasefire holds; Mon's geopolitical premium unwound in 24h",
-        "sentiment": "bearish-energy",
-        "source": "TradingEconomics / CNBC",
-        "url": "https://www.cnbc.com/2026/05/05/oil-prices-today-wti-brent-iran-war-trump-hormuz.html"
-      },
-      {
-        "ticker": "IHSG",
-        "headline": "IHSG +1.22% to 7,057.10 May 5 on Q1 GDP 5.61% beat + April CPI 2.42% cooling; foreign net sell -IDR 791B continues",
-        "sentiment": "mixed",
-        "source": "TradingEconomics / heygotrade",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
-      },
-      {
         "ticker": "ITMG",
-        "headline": "Q1 2026 earnings T-1 (Thu May 7); UBS upgraded Neutral \u2192 Buy May 5; sector consensus rev -6.3%/EPS -29.5% YoY (downside-skewed print)",
+        "headline": "Q1 2026 earnings release TODAY (Thu May 7) \u2014 binary catalyst day; held position; 6.91% buffer to hard-cut 24,250",
         "sentiment": "neutral-binary",
-        "source": "MarketScreener / Investing consensus",
+        "source": "MarketScreener calendar",
         "url": "https://www.marketscreener.com/quote/stock/PT-INDO-TAMBANGRAYA-MEGAH-6500080/calendar/"
       },
       {
-        "ticker": "BBRI",
-        "headline": "Q1 2026 net +13.8% YoY; EPS 103 (slight miss vs 104 est); revenue beat 52.84T vs 52.38T est; NIM 7.9% above guidance",
-        "sentiment": "neutral",
-        "source": "Investing.com",
-        "url": "https://uk.investing.com/news/company-news/bank-rakyat-indonesia-q1-2026-slides-profit-jumps-14-nim-beats-guidance-93CH-4646372"
-      },
-      {
-        "ticker": "BMRI",
-        "headline": "Q1 2026 net +16.6% YoY (IDR 15.4T); NIM 4.7%; provisioning -20% YoY; KB Valbury top pick",
+        "ticker": "SMGR",
+        "headline": "Q1 2026 net +88.7% YoY (Rp 80B); revenue Rp 8.29T (+8.3%); volume 8.71M tons; cost discipline confirmed; +4.5% on May 5",
         "sentiment": "bullish",
-        "source": "Samuel Sekuritas",
-        "url": "https://samuel.co.id/wp-content/uploads/2026/04/BMRI-1Q26-Results.pdf"
+        "source": "Kompas / StockWatch",
+        "url": "https://money.kompas.com/read/2026/05/04/150530126/semen-indonesia-smgr-cetak-laba-naik-887-persen-per-kuartal-i-2026"
       },
       {
-        "ticker": "INDF",
-        "headline": "Q1 2026 net profit +9% YoY on +7% revenue; April CPI cooling tailwind; +1.65% May 5 close 5,975",
+        "ticker": "UNVR",
+        "headline": "Q1 2026 net +73% YoY (Rp 2.1T headline; +14.1% normalised continuing ops Rp 1.3T); +8.84% breakout May 6 to IDR 1,785; ice-cream divest dividend pending June EGMS",
         "sentiment": "bullish",
-        "source": "IDNFinancials",
-        "url": "https://www.idnfinancials.com/news/63470/cbp-contribution-rises-7-6-indf-profit-grows-9-in-q1"
+        "source": "Investing.com Warta Ekonomi / Unilever PR",
+        "url": "https://id.investing.com/news/stock-market-news/unilever-unvr-raih-penjualan-rp84-triliun-di-kuartal-i-2026-laba-naik-73-2955235"
       },
       {
-        "ticker": "ICBP",
-        "headline": "Q1 2026 sales +8% but net profit -3% YoY (margin compression); +2.41% May 5 close 7,100 \u2014 chase risk",
-        "sentiment": "neutral",
-        "source": "IDNFinancials",
-        "url": "https://www.idnfinancials.com/news/63470/cbp-contribution-rises-7-6-indf-profit-grows-9-in-q1"
-      },
-      {
-        "ticker": "TLKM",
-        "headline": "TLKM +2.85% to 2,890 \u2014 telco sector momentum; data-revenue thesis intact",
+        "ticker": "AKRA",
+        "headline": "Controlling shareholder PT Arthakencana Rayatama bought 181M shares for Rp 282.5B over May 4-6 at 1,520-1,580 (lifted stake to 64.607%); stock +2.63% to IDR 1,560",
         "sentiment": "bullish",
-        "source": "Heygotrade IHSG flow",
-        "url": "https://www.heygotrade.com/en/news/indonesia-ihsg-falls-7560-msci-freezes-rebalancing/"
+        "source": "StockWatch / Liputan6",
+        "url": "https://stockwatch.id/serok-181-juta-saham-akra-pengendali-kuasai-64607-gelontorkan-dana-rp28598-miliar/"
       },
+      {
+        "ticker": "BRENT",
+        "headline": "Brent crude crashed -6.96% to $102.22 \u2014 geopolitical premium fully unwound; net constructive for IDR/CPI; kills MEDC/PGAS oil sympathy thesis",
+        "sentiment": "bearish-energy",
+        "source": "Trading Economics Brent",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+      },
+      {
+        "ticker": "IHSG",
+        "headline": "IHSG +0.50% to 7,092.46 May 6 (3-day rally); basic materials sector +1.91% led, financials -0.64%, health -0.65%; foreign net sell -IDR 518B May 5 continues",
+        "sentiment": "mixed",
+        "source": "Trading Economics JCI / Cetro",
+        "url": "https://tradingeconomics.com/indonesia/stock-market"
+      },
+      {
+        "ticker": "ANTM",
+        "headline": "Q1 2026 net IDR 3.41T (+60% YoY); revenue IDR 29.32T (+12% YoY); LME nickel firm at $19,652; carries forward as CANDIDATE",
+        "sentiment": "bullish",
+        "source": "Smartkarma earnings alert",
+        "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/aneka-tambang-persero-antm-earnings-q1-net-income-surges-60-to-3-41t-rupiah/"
+      }
+    ],
+    "top_candidates": [
       {
         "ticker": "SMGR",
-        "headline": "Semen Indonesia led IDX gainers May 5 (+4.5%); cement-sector reflation on property recovery + BI cut runway",
-        "sentiment": "bullish",
-        "source": "TradingEconomics jci",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
-      }
-    ],
-    "sector_momentum": [
-      {
-        "sector": "Banking",
-        "trend": "up",
-        "score": 6,
-        "note": "Q1 prints +14-17% net; BBNI +3.23%/BBTN +3.46% chase; sector-exit-watch 1 strike"
-      },
-      {
-        "sector": "Coal/Energy",
-        "trend": "flat",
-        "score": 5,
-        "note": "Newcastle ~$134 holds; ITMG Q1 T-1; consensus -29.5% EPS forward"
-      },
-      {
-        "sector": "Nickel/Mining",
-        "trend": "up",
         "score": 8,
-        "note": "ANTM Q1 +60% net beat; LME firm $19,275; HPM policy tailwind"
+        "conviction": "MEDIUM",
+        "catalyst": "Q1 +88.7% net beat + cement sector reflation; Maybank top pick"
       },
       {
-        "sector": "Consumer",
-        "trend": "up",
-        "score": 6,
-        "note": "CPI 2.42% cooling; INDF +9% / ICBP -3% mixed"
+        "ticker": "UNVR",
+        "score": 8,
+        "conviction": "MEDIUM",
+        "catalyst": "Q1 +73% net + ice-cream divest dividend June EGMS; chase blocked at +8.84%"
       },
-      {
-        "sector": "Telco",
-        "trend": "up",
-        "score": 6,
-        "note": "TLKM +2.85% momentum"
-      },
-      {
-        "sector": "Property",
-        "trend": "up",
-        "score": 5,
-        "note": "BSDE/SMRA/CTRA buy-rated; BI rate-cut beneficiary"
-      },
-      {
-        "sector": "CPO/Agri",
-        "trend": "up",
-        "score": 5,
-        "note": "CPO MYR 4,659 +1.29%; B15 program tailwind"
-      },
-      {
-        "sector": "Cement",
-        "trend": "up",
-        "score": 6,
-        "note": "SMGR +4.5% IDX leader; property+infra tailwind"
-      }
-    ],
-    "candidates": [
       {
         "ticker": "ANTM",
         "score": 8,
-        "status": "CANDIDATE",
-        "thesis": "Q1 net +60% YoY, rev +12% \u2014 strong fundamental beat; nickel sector favoured per regime"
+        "conviction": "MEDIUM",
+        "catalyst": "Q1 +60% net; LME nickel firm; ADV verification needed"
+      },
+      {
+        "ticker": "AKRA",
+        "score": 7,
+        "conviction": "MEDIUM",
+        "catalyst": "Controlling shareholder Rp 282.5B 3-day insider buy completed May 4-6"
       },
       {
         "ticker": "ITMG",
         "score": 7,
-        "status": "HOLD",
-        "thesis": "Held; Q1 earnings T-1 (May 7); BCA Sek BUY PT 30,100; UBS upgrade to Buy"
+        "conviction": "MEDIUM",
+        "catalyst": "HOLD \u2014 Q1 earnings TODAY (binary)"
       },
       {
-        "ticker": "INDF",
+        "ticker": "INTP",
         "score": 6,
-        "status": "CANDIDATE-watch",
-        "thesis": "Q1 +9% net profit; CPI tailwind; R:R below 2:1 blocks fresh entry"
-      },
-      {
-        "ticker": "BMRI",
-        "score": 6,
-        "status": "WATCH",
-        "thesis": "Q1 +16.6% net; KB Valbury top pick; banking 1-strike sector watch"
-      },
-      {
-        "ticker": "TLKM",
-        "score": 6,
-        "status": "CANDIDATE-watch",
-        "thesis": "+2.85% telco momentum; data-revenue thesis"
-      },
-      {
-        "ticker": "SMGR",
-        "score": 6,
-        "status": "CANDIDATE-watch",
-        "thesis": "+4.5% IDX leader May 5; cement+property reflation"
+        "conviction": "LOW-MEDIUM",
+        "catalyst": "Cement sympathy to SMGR Q1 beat"
       }
     ]
   },
-  "last_updated": "2026-05-06T00:22:40Z"
+  "last_updated": "2026-05-07T00:17:53Z"
 }
