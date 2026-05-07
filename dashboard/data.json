@@ -2991,6 +2991,12 @@
           "detail": "WebSearch price source used (yfinance 403-blocked since Apr 21; GoAPI not set); ADV unverifiable for all 4 candidates"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-07T04:38:24Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. ITMG at -2.30% (mark 25,475 vs entry 26,075), +4.81% buffer to hard-cut 24,250. Q1 print release scheduled today (post-close)."
     }
   ],
   "exposure": {

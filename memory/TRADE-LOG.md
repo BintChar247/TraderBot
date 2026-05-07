@@ -1237,3 +1237,39 @@ Watch tomorrow (Thu May 7):
 **Price source: WebSearch (yfinance blocked since Apr 21).** ITMG mark 25,475 multi-source verified; SMGR/AKRA/ANTM/UNVR all single-source or conflicting → no fill executed (rule discipline preserved per MISTAKES.md 2026-05-01 lesson).
 
 **Notification sent:** 📊 Market-open 2026-05-07: No trades placed. SMGR R:R <2:1; AKRA live price not verified (possible thesis-break); ANTM Gate 9 chase carry-over; UNVR chase blocked. ITMG held into Q1 print (binary today).
+
+---
+
+### 2026-05-07 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 14 (post-trial-window; Thu, Week 3 Day 4). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). ITMG sole open position; cash 92.99% of equity. **Q1 2026 ITMG earnings release day (binary catalyst — release scheduled today).**
+
+- Positions evaluated: ITMG only (27,300 sh @ 26,075 entry).
+- broker.sh quote: stale (returns entry price 26,075; market-data.sh yfinance still 403-blocked since Apr 21, GoAPI key not set — same infra condition).
+- WebSearch verified mark: IDR 25,475 (multi-source: Yahoo Finance / Investing.com / TradingView / Stockanalysis.com cluster). Same mark as 09:15 WIB market-open scan today and 11:30 WIB midday yesterday — no fresh intraday move detected pre-lunch.
+
+**ITMG (HOLD):**
+- Mark: IDR 25,475 → P&L (25,475 − 26,075) / 26,075 = **−2.30%** from entry.
+- Buffer to hard-cut 24,250: (25,475 − 24,250) / 25,475 = **+4.81%** — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: WebSearch on "ITMG IDX news today 2026-05-07" — Q1 earnings release scheduled today (May 7) confirmed; last quarter EPS surprise +114.10% (890.23 vs 415.80 consensus). No print on the wire pre-lunch yet (typical IDX issuer release timing post-close). No adverse news; no intraday tape break. Coal sector floor thesis intact (Newcastle $130-137 range above $130 floor per yesterday's close).
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 4.81% > 1.5% trigger → standard verification suffices.
+- Pre-commit triggers (re-affirmed at market-open today, still unbreached at 11:30 WIB):
+  1. If intraday May 7 prints < 24,250 → EXIT (hard-cut)
+  2. If intraday May 7 prints > 27,900 → transition stop to TRAILING (10% trail)
+  3. If Q1 print misses materially (post-close release) → close on open May 8 regardless of intraday level
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO — ITMG at −2.30%
+- Tighten to 5% (+20%): NO — ITMG at −2.30%
+- Thesis break: NO — Q1 earnings release on track for today (post-close); coal floor intact
+- Intraday >3% move: NO — mark unchanged from 09:15 WIB scan (25,475)
+
+**Notification sent:** 📊 Midday 2026-05-07: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- Q1 print post-close release expected; pre-print close vs hold-to-print decision was made at 09:15 WIB (HOLD per pre-commit). EOD routine to assess intraday close vs pre-commit triggers; actual Q1 print likely lands post-15:00 WIB or after-hours per IDX issuer norms.
