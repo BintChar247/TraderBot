@@ -1650,6 +1650,202 @@
         null,
         true
       ]
+    },
+    {
+      "ticker": "SMGR",
+      "action": "SKIP",
+      "date": "2026-05-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cement reflation: Q1 +88.7% net; Maybank top pick over INTP; basic-materials sector +1.91% led IDX May 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 +88.7% net beat (Rp 80B); cement-sector reflation"
+        },
+        {
+          "type": "macro",
+          "label": "BI cut runway open (CPI 2.42%); property recovery emerging"
+        },
+        {
+          "type": "risk",
+          "label": "Entry-checklist R:R 1.79:1 < 2:1 from 2,000 entry / 1,860 hard-cut / 2,250 target"
+        },
+        {
+          "type": "sizing",
+          "label": "Not sized \u2014 entry rejected"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price not multi-source verified (yfinance blocked); ADV unverifiable"
+        }
+      ],
+      "reasoning": "Live price not multi-source confirmed; even if 2,000 accurate, R:R falls below 2:1 minimum. Per RESEARCH-LOG, ~1,950 entry required.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-05-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Controller insider buy Rp 282.5B over May 4\u20136 at 1,520\u20131,580; 13/0/0 buy consensus PT 1,605.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Controller PT Arthakencana Rayatama 181M-share insider buy completed May 6"
+        },
+        {
+          "type": "macro",
+          "label": "Distribution sector quietly bullish; analyst unanimity"
+        },
+        {
+          "type": "risk",
+          "label": "Conflicting WebSearch: 1,260 / 1,390 / 1,560 \u2014 possible thesis-break (controller floor failed)"
+        },
+        {
+          "type": "sizing",
+          "label": "Not sized \u2014 entry rejected"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price not multi-source verified; if \u22641,500 confirmed \u2192 thesis broken per pre-mortem"
+        }
+      ],
+      "reasoning": "Live price not reliably resolved across sources; conflicting prints (1,260\u20131,560) may signal controller-floor failure. SKIP until multi-source agreement and thesis-integrity re-confirmation.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-05-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q1 +60% net (IDR 3.41T) / rev +12% (IDR 29.32T); LME nickel $19,652 firm.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 +60% net beat; LME nickel firm $19,652 (+0.09%)"
+        },
+        {
+          "type": "macro",
+          "label": "Nickel-sector tailwind (favoured per regime)"
+        },
+        {
+          "type": "risk",
+          "label": "Yesterday Gate 9 fail at +6.53% drift (3,750 vs plan 3,520); no fresh re-verification today"
+        },
+        {
+          "type": "sizing",
+          "label": "Not sized \u2014 entry rejected"
+        },
+        {
+          "type": "warning",
+          "label": "Carry-over Gate 9 chase from 2026-05-06; await pullback \u22643,625 within 3 trading days"
+        }
+      ],
+      "reasoning": "Carry-over of yesterday's Gate 9 chase reject. No fresh multi-source price today. SKIP until pullback or new RESEARCH-LOG plan-ref reset.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-05-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q1 +73% headline net (continuing-ops +14.1%); ice-cream divest dividend pending June EGMS.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 +73% headline net (Rp 2.1T); June EGMS dividend decision forward catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "Consumer-staples sector strong; UNVR +8.84% breakout May 6"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase: today WebSearch 1,805 (+10.06%) / 2,000 \u2014 even worse vs plan; chase blocked"
+        },
+        {
+          "type": "sizing",
+          "label": "Not sized \u2014 chase blocks entry"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source not aligned; live price 1,805 vs 2,000 conflict"
+        }
+      ],
+      "reasoning": "Chase remains blocked (Gate 9). Re-evaluate on pullback to 1,650\u20131,700 zone; June EGMS dividend keeps watchlist 3\u20134 weeks.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        null,
+        true
+      ]
     }
   ],
   "stats": {
@@ -2756,6 +2952,43 @@
         {
           "type": "infra",
           "detail": "yfinance/GoAPI ADV unverifiable for non-ITMG \u2014 Gate 7/14 cannot fire on new entries"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-07T02:22:16Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. SMGR R:R <2:1; AKRA live price not verified (possible thesis-break); ANTM Gate 9 chase carry-over; UNVR chase blocked. ITMG held into Q1 2026 print (binary today).",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "27,300 sh @ 26,075 entry; mark 25,475; buffer to hard-cut 24,250 = 4.81%; pre-commit triggers active for Q1 print"
+        },
+        {
+          "type": "skip",
+          "ticker": "SMGR",
+          "detail": "R:R 1.79:1 < 2:1 from 2,000 entry; live price not multi-source verified"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "WebSearch returned conflicting prints 1,260/1,390/1,560 \u2014 possible controller-floor failure / thesis-break"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "Gate 9 chase carry-over from 2026-05-06 (live 3,750 vs plan 3,520)"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Gate 9 chase remains blocked; today WebSearch 1,805 / 2,000 worse than yesterday 1,785"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price source used (yfinance 403-blocked since Apr 21; GoAPI not set); ADV unverifiable for all 4 candidates"
         }
       ]
     }

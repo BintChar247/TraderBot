@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $133.90–135.55/t (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; T−1 to May 7 Q1 print) |
+| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $130–137 (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; Q1 2026 print TODAY May 7 — binary catalyst day) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
@@ -1176,3 +1176,64 @@ Watch tomorrow (Thu May 7):
 3. IHSG follow-through above sesi I 7,102 — needs confirmation toward Phintraco 7,150 or fade back to 6,950 support
 4. IDR direction off 17,400 — sustained pressure caps risk-asset bid
 5. Foreign net flow direction post-IHSG +0.65% sesi I — sustained outflow keeps EM-OUTFLOW regime / banking sector-exit-watch intact
+
+---
+
+### 2026-05-07 09:15 WIB — MARKET-OPEN (no trades placed)
+
+**Context:** Day 14 (post-trial-window; Thu, Week 3 Day 4). Routine fires per schedule. Weekly trades 0/3. ITMG sole open position; cash 92.99% of equity. **Q1 2026 ITMG earnings release scheduled today (binary catalyst day).** Regime EM-OUTFLOW / RISK-CAUTIOUS unchanged.
+
+**Candidates evaluated (per RESEARCH-LOG 2026-05-07 plan):**
+
+1. **SMGR (CANDIDATE, score 8):** SKIP — Entry-checklist R:R fail + live price not multi-source verified.
+   - Planned entry reference: IDR ~2,050 (per RESEARCH-LOG; ~+4.5% breakout May 5)
+   - WebSearch live price: IDR 2,000 (Investing.com snapshot, but timestamp resolves to May 1 reference, prior close 2,090, −4.31% on day) — fresh May 6/7 multi-source agreement NOT achieved (data infra block continues; yfinance 403-blocked since Apr 21, GoAPI not set)
+   - Even if 2,000 is live: hard-cut 1,860 → R:R to consensus PT zone 2,150–2,200 = 1.79:1 (below entry-checklist 2:1 minimum); RESEARCH-LOG explicitly required ~1,950 entry to clear 2:1
+   - ADV unverifiable (data infra block) → Gate 7 + Gate 14 cannot fire
+   - 9-gate result: 1✓ 2✓ 3✓ 4✓ 5✓ 6✓ 7∅ 8✓ 9∅ (∅ = cannot evaluate due to data infra)
+   - Correct action: SKIP. Re-look on (a) restored ADV verification path, (b) pullback to ≤1,950 enabling ≥2:1 R:R.
+
+2. **AKRA (CANDIDATE, score 7):** SKIP — Live price not multi-source verified; conflicting WebSearch returns suggest possible thesis-break.
+   - Planned entry reference: IDR 1,560 (May 6 close per RESEARCH-LOG); Gate 9 band ≤ 1,607
+   - WebSearch live price returned conflicting values: 1,390 (one source, +0.71% 24h), 1,240–1,260 range (another source, day open 1,240). Neither multi-source confirmed.
+   - If live is 1,390: −10.9% from 1,560 reference; if 1,260: −19.2% — either implies controller-buy support failed to hold the floor, which would invalidate the insider catalyst thesis (research pre-mortem: "if controller's buy stops AND price drops below IDR 1,500 within 5 trading days, thesis broken")
+   - ADV unverifiable
+   - 9-gate result: 1✓ 2✓ 3✓ 4✓ 5✓ 6✓ 7∅ 8✓ 9∅ (price not reliably resolved)
+   - Correct action: SKIP. Live price + thesis integrity must both be re-confirmed before any re-look. If a multi-source print confirms ≤1,500, treat thesis as BROKEN and remove from CANDIDATE list.
+
+3. **ANTM (CANDIDATE, score 8):** SKIP — Carry-over from 2026-05-06 Gate 9 reject; no fresh price re-verification today.
+   - Yesterday's market-open: SKIP on Gate 9 fail (live IDR 3,750 vs plan 3,520, +6.53% drift)
+   - No fresh multi-source confirmation today; data infra block persists
+   - Correct action: SKIP. Re-look only on confirmed pullback to ≤3,625 (Gate 9 ceiling vs plan 3,520) within 3 trading days, OR new RESEARCH-LOG entry resetting plan reference.
+
+4. **UNVR (WATCH):** SKIP — Chase remains blocked.
+   - Yesterday's plan: chase blocked at 1,785 (+8.84% one-day)
+   - WebSearch today returned 1,805 (+10.06%) and 2,000 — both worse for entry. Multi-source not aligned.
+   - Gate 9 fails on any plan with sub-day-old reference.
+   - Correct action: SKIP. Re-evaluate on pullback to 1,650–1,700 (June EGMS dividend catalyst keeps watchlist 3–4 weeks).
+
+5. **ITMG (HELD):** HOLD — pre-commit triggers active, no breach.
+   - Mark IDR 25,475 (WebSearch verified, multi-source: TradingView/Investing.com cluster — last 25,475, −0.10% 24h, prior close mark consistent with yesterday's 25,475)
+   - P&L from entry: −2.30%; hard-cut buffer +4.81% (mark 25,475 vs hard-cut 24,250)
+   - Multi-source verification check (per MISTAKES.md 2026-05-01 lesson): buffer 4.81% > 1.5% trigger → standard verification suffices
+   - Below +7% trail activation 27,900; below +15% (29,986) and +20% (31,290) tighten thresholds → no stop modification
+   - **Pre-commit reaffirmed for today (Q1 print day):**
+     1. If intraday May 7 prints < 24,250 → EXIT (hard-cut)
+     2. If intraday May 7 prints > 27,900 → transition stop to TRAILING (10% trail)
+     3. If Q1 print misses materially (post-close release) → close on open May 8 regardless of intraday level
+   - Action at 09:15 WIB: NONE. Intraday discipline mandatory through Q1 release; midday scan to re-verify.
+
+**No-trade reason:** All four buy candidates blocked by data-infra (yfinance 403 since Apr 21; GoAPI not set) preventing reliable Gate 9 fire AND/OR by entry-checklist R:R failure. SMGR R:R 1.79:1 < 2:1 from current 2,000 (would need ~1,950 for 2:1). AKRA live price not confirmed; conflicting WebSearch returns risk thesis-break. ANTM Gate 9 chase carry-over. UNVR chase remains blocked. ITMG held into Q1 print per pre-commit. 0/3 weekly trades used. No banking entries (1-of-2 sector-exit strike intact, EM-OUTFLOW unchanged).
+
+**Active stops:** ITMG hard-cut 24,250 (unchanged). No trailing stop adjustments today.
+
+**Decision matrix this run:**
+- Hard cut (-7%) trigger: NO — ITMG at −2.30%
+- Tighten to 7% (+15%): NO
+- Tighten to 5% (+20%): NO
+- New entries fired: 0
+- Stops modified: 0
+
+**Price source: WebSearch (yfinance blocked since Apr 21).** ITMG mark 25,475 multi-source verified; SMGR/AKRA/ANTM/UNVR all single-source or conflicting → no fill executed (rule discipline preserved per MISTAKES.md 2026-05-01 lesson).
+
+**Notification sent:** 📊 Market-open 2026-05-07: No trades placed. SMGR R:R <2:1; AKRA live price not verified (possible thesis-break); ANTM Gate 9 chase carry-over; UNVR chase blocked. ITMG held into Q1 print (binary today).
