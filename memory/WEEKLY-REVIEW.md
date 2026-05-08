@@ -276,3 +276,82 @@ No positions. 100% cash.
 - No watchlist entries yet. First candidates expected from /pre-market on first live weekday.
 
 ---
+
+## Week ending 2026-05-08 (Week 3 — Post-trial continuation, IDR 10B capital)
+
+### Grade: C
+
+### Performance Summary
+
+| Metric | This Week | IHSG Benchmark | Alpha |
+|--------|-----------|---------------|-------|
+| P&L (IDR) | IDR +7,695,000 | — | — |
+| P&L (%) | +0.08% | +4.07% | −3.99% |
+| Equity (EOW) | IDR 9,918,947,500 | — | — |
+
+_IHSG: Week-baseline 6,888 (Apr 30 close, frozen through May 1 Labor Day) → 7,168.47 (May 8 sesi I anchor; sesi II final not in cycle by 15:15 WIB) = +4.07%. Portfolio gained only +0.08% on the week — cash drag through a +4% recovery rally. Cumulative trial-period alpha trimmed from +8.88% (May 1 peak) to +5.29% (today) — gave back ~360 bps of accumulated alpha by sitting on 92–93% cash through 4 of 5 sessions._
+
+### Trade Summary
+
+| # | Date | Ticker | Side | Entry (IDR) | Exit (IDR) | P&L (IDR) | P&L (%) | Result |
+|---|------|--------|------|-------------|------------|-----------|---------|--------|
+| 1 | 2026-05-08 | ADRO | BUY | 2,550 | Open (2,500) | −19,605,000 unrealized | −1.96% | Open |
+
+- Trades this week: 1/3
+- Wins: 0 | Losses: 0 | Open: 1 | Win rate: N/A (no closes this week)
+- Largest winner: N/A (no closed gainers)
+- Largest loser (unrealized): ADRO −1.96% (same-day, first-day noise within bounds)
+- Profit factor: N/A (no closed trades)
+- No stops triggered. No hard cuts. No tightening (no position at +15%).
+- Sells/closes this week: 0. BBRI hard-cut sat in last week's tally (May 1).
+
+### Open Positions at Week End
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 26,000 | −IDR 2,047,500 (−0.29%) | 18 |
+| ADRO | 392,100 | 2,550 | 2,500 | −IDR 19,605,000 (−1.96%) | 0 |
+
+- Cash at week end: IDR 8,228,897,500 (82.96%)
+- Gross exposure: 17.04% (Coal: ITMG 7.16% + ADRO 9.88%) — well below 75–85% target
+- Sector exposure: Coal 17.04%; Banking 0% (BBRI removed via May 1 hard-cut)
+- Stop state: ITMG hard-cut 24,250 (buffer +6.73%); ADRO hard-cut 2,371 (buffer +5.16%) — both pre-trail
+
+### What Worked
+
+- **Discipline through SMGR/AKRA/ANTM/UNVR (May 5–7)**: Four candidate days, four SKIP decisions on legitimate grounds (Gate 9 chase failures, R:R <2:1, multi-source price not verifiable under data-infra block since Apr 21). No rule overrides, no chasing into a rally. The "patience beats activity" principle was honored — even when wrong-footed by the bounce.
+- **ITMG carry through Q1 print day (May 7)**: Pre-commit triggers held through 09:15 WIB / 11:30 WIB / EOD scans on print day. Hard-cut buffer 4.81%+ throughout. Position closed the week at −0.29%, well-positioned for any post-print rerate. Multi-source verification protocol from MISTAKES.md 2026-05-01 lesson applied at every scan.
+- **ADRO entry on May 8**: Real fundamental catalyst (Q1 net +67.07% YoY, US$128.14M; rev +23.4%) inside coal-complex 5-of-5 positive Q1 prints. 15-gate buy-side check passed. Pair-wise add to held ITMG. Position 10.06% of equity (well within 15% EM-OUTFLOW cap), sector concentration 17.22% post-fill (well below 35–40% cap). Tighter R:R (1.96:1) than alternatives (PTBA 1.71:1).
+- **No rule breaches all week**: No daily-cap, no weekly-cap, no max-drawdown alerts. Stops ledger clean. Drawdown −1.07% from peak (vs −15% hard limit). Risk hygiene perfect.
+
+### What Didn't Work
+
+- **Cash drag during a +4% IHSG bounce**: 92.99% cash from May 4–7 through a recovery rally driven by lower-than-expected April CPI + PDB beat momentum. The regime label EM-OUTFLOW remained appropriate ex-ante, but ex-post the tape said risk-on. We collected only +0.08% while the index ran +4.07%. This is the single biggest weekly alpha-bleed of the trial.
+- **Three candidates failed Gate 9 on intraday chase, never revisited**: MEDC May 5 (−9.93% drift), ANTM May 6 (+6.53% drift carried into May 7), UNVR May 7 (+8.84%/+10.06% chase). All three were on the morning research plan. None returned to plan zones; none triggered a re-research. The agent skipped, but did not adapt — the static plan zones became noise as the market moved.
+- **Data-infra still blocking after 17 days**: yfinance has been 403-blocked since Apr 21; GoAPI key never set. Every mark this week was multi-source WebSearch. Conservative anchors held (e.g., May 8 ITMG mid-range 26,000), but this is not a sustainable production posture. ITMG Q1 print release timing was uncertain into EOD May 7 partly because no live tape feed could confirm a wire post.
+- **ADRO entry on the last possible day, with the worst structural deployment**: From a portfolio-construction view, sitting cash for 4 days then deploying 10% of equity on Friday concentrates entry timing risk into the same-day-of-data, same-day-as-weekly-review tape. Smaller stagger / earlier-week deployment would have been cleaner.
+
+### Lessons Learned
+
+- **Re-evaluate plan-zone Gate 9 rejects on a 24-hour clock**: When a candidate fails Gate 9 by a chase margin one day (e.g., MEDC May 5 −9.93%, ANTM May 6 +6.53%), force a same-evening RESEARCH-LOG re-entry to either reset the plan zone or formally drop the name. The drift IS new information — sticking with a stale zone for 3+ days while the market trends through it = systematically missing the move. Add to /pre-market routine: any prior-day Gate 9 reject must be either re-priced (new entry zone, new R:R) or removed from the candidate slate.
+- **Cumulative alpha is path-dependent and asymmetric**: Saving +8.88% alpha through Week 1's risk-off requires keeping it through Week 3's risk-on. Sitting 93% cash during a +4% IHSG bounce surrenders alpha that took 8 sessions of cash-discipline to earn. Rule the agent should self-impose: when IHSG closes ≥+1% on a session in EM-OUTFLOW regime AND cumulative alpha > +5%, the next pre-market should explicitly re-evaluate the regime label, not default to "EM-OUTFLOW unchanged" by inertia. The regime label should follow tape, not anchor it.
+- **Coal-sector Q1 prints are converging up — sector-level conviction is now stronger than name-level**: ITMG Q1 (last quarter +114%), ADRO Q1 (+67.07%), PTBA (+105%), BUMI (+34.6%), HRUM (+14.67% rev). Five of five coal Q1 prints positive in 2026 cycle. Pattern: coal complex is in a synchronized earnings rerate, not isolated names. PATTERNS.md eligible for promotion (2+ obs).
+- **Multi-source verification protocol works**: From MISTAKES.md 2026-05-01 (BBRI stale-source lag during hard-cut), the 1.5%-buffer trigger for multi-source confirmation was applied at every midday/market-open this week. Zero stale-mark errors. The procedural fix from the BBRI failure stuck. Keep this protocol; do not relax it.
+
+### Rule Changes Proposed
+
+- **No formal TRADING-STRATEGY.md changes this week.** One week of cash-drag during a bounce is one data point, not 2+ weeks of evidence. The 15% EM-OUTFLOW position cap held; the 75–85% deployed target was missed but the regime call was the operative constraint. If Week 4 shows the same cash-drag pattern under a continued risk-on tape AND regime label still EM-OUTFLOW, that's grounds for a regime-recheck rule change. For now: rules held.
+- Watch-list candidate change: **promote "regime-recheck on +1% IHSG day with cumulative alpha >+5%" to a soft rule** in the next weekly review if Week 4 confirms. Not codifying yet.
+
+### Watchlist Updates
+
+- **Add: PTBA** — coal complex Q1 +105% YoY confirmed; if ADRO works as a pair-trade, PTBA is the third-leg coal name to watch on a sector continuation. Wait for Newcastle continuation above $135/t before adding (sector concentration cap 35–40% must be respected).
+- **Add: BUMI** — coal Q1 +34.6%; complementary to ADRO/ITMG. Liquidity and ADV check needed before promotion.
+- **Keep watching: ITMG** — Q1 2026 print release timing uncertain into May 8 close; pre-market Mon May 11 priority is to surface the print. If material miss → close on open per pre-commit. If beat (last quarter +114% surprise) → transition stop to TRAILING 10% on intraday >27,900.
+- **Keep watching: ADRO** — first-day −1.96%, within first-day noise. Pre-mortem triggers (Brent <$95 sustained 3 days, Newcastle <$125, ADRO −4% within 5 days) all unbreached. Dividend payment day (May 8) was mechanical, not signal.
+- **Keep watching: SMGR** — re-look on pullback to ≤1,950 enabling ≥2:1 R:R. Cement-sector consolidation thesis intact.
+- **Remove: UNVR** — chase has run too far for the EGMS dividend catalyst window (June). Pullback to 1,650–1,700 needed to re-enter consideration.
+- **Remove: ANTM** — Gate 9 chase carry-over since May 6; no fresh research re-entry. Drop from candidate list pending HPM/nickel re-thesis.
+- **Remove: MEDC** — Iran-US de-escalation premium has retraced; thesis structurally weakened. Off candidate list.
+
+---
