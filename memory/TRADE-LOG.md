@@ -1399,3 +1399,63 @@ Watch tomorrow (Fri May 8 — Weekly Review day):
 
 ---
 
+### 2026-05-08 EOD — Day 15 (Post-Trial Fri, Week 3 Day 5)
+
+- Total equity: IDR 9,918,947,500 (mark-to-market: cash 8,228,897,500 + ITMG 709,800,000 + ADRO 980,250,000)
+- Daily P&L: IDR −5,272,500 (−0.05%)
+- IHSG daily: −0.08% (sesi I close 7,168.47 used as conservative anchor; multi-source — Liputan6 / Bisnis / RRI cluster — sesi II range 7,107.17–7,207.07; final close not yet in news cycle at 15:15 WIB. Day-over-day vs verified May 7 actual close 7,174.32 per Trading Economics / Babelinsight / Databoks.)
+- Daily alpha: +0.03%
+- Cash: IDR 8,228,897,500 (82.96% of equity)
+- Trades today: 1 (BUY ADRO 392,100 sh @ 2,550 at 09:15 WIB)
+- Trades this week: 1/3
+- Phase-to-date P&L: IDR −81,052,500 (−0.81%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 7,168.47 = −6.10%): +5.29%
+- Realized P&L (cumulative): −IDR 59,400,000 (BBRI hard cut, locked Apr 30 mark)
+- Weekly P&L (from May 1 EOD baseline 9,911,252,500): IDR +7,695,000 (+0.08%)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ITMG | 27,300 | 26,075 | 26,000 | −IDR 2,047,500 (−0.29%) | 18 |
+| ADRO | 392,100 | 2,550 | 2,500 | −IDR 19,605,000 (−1.96%) | 0 |
+
+#### Notes
+
+Day 15 (Fri, post-trial Week 3 Day 5 — Weekly Review day). Equity IDR 9,918,947,500 (−0.05% day, −0.81% phase-to-date). One new trade today: BUY ADRO 392,100 sh @ 2,550 IDR (10.06% of equity at entry; pair-wise coal add to held ITMG; Q1 +67% YoY catalyst; PT 2,900 IDR; -7% hard-cut stop GTC at 2,371). Both positions closed the day with mild slippage from entry within first-day / catalyst-window noise.
+
+**Broker reconciliation:** broker.sh portfolio shows ITMG (27,300 sh @ 26,075 entry) and ADRO (392,100 sh @ 2,550 entry); both stale marks at entry price (last_price = entry_price; broker uses entry-price fallback because yfinance/GoAPI infra block has been in effect since Apr 21). Cash 8,228,897,500 matches expected ledger after ADRO buy (9,228,752,500 prior cash − 999,855,000 ADRO cost = 8,228,897,500). Equity field reports 9,940,600,000 (broker stale-mark fallback) vs TRADE-LOG mark-to-market 9,918,947,500 (delta IDR 21.65M lower from MTM); discrepancy is purely price-source lag, not state. Position counts and shares match (2 positions, 27,300 + 392,100 sh).
+
+**Mark-to-market sources (multi-source WebSearch — yfinance blocked):**
+- ITMG: IDR 26,000 (held from midday — multi-source TradingView/Yahoo/Investing.com/Stockanalysis cluster; intraday range 25,800–26,525, open 26,500. No fresh post-midday divergence). Q1 print release timing per IDX issuer norms typically post-close — no fresh post-print news in cycle yet (will be assessed in Mon May 11 pre-market re-verification).
+- ADRO: IDR 2,500 (held from midday — multi-source; today is dividend payment day Rp 118.26/sh / Rp 3.40T total — mechanical cash event; ex-div was earlier so payment doesn't move price). Same-day mild slippage from 2,550 entry within first-day noise.
+- IHSG: 7,168.47 (sesi I close, used as conservative anchor pending sesi II final cycle; multi-source — Liputan6 / Bisnis / RRI). Day-over-day −0.08% (vs prev 7,174.32). Sesi II range 7,107.17–7,207.07 — fluctuated meaningfully but conservative anchor preserved.
+
+**Macro:** IHSG bergejolak fluktuatif mayoritas sektor melemah (Liputan6). Energy −0.74%, basic materials −1.14%, industrial −1.31%, financial −0.32% — broad red. Only infra and healthcare green. US session pressure (S&P −0.38%, Dow −0.63%, Nasdaq −0.13%) on Iran-US negotiations uncertainty. Brent 101.96+ recovering from May 6 −6.96% Iran-deal spike. Newcastle ~$132–140 above $130 thesis floor (intra-day no fresh contradiction).
+
+**ITMG specific:** Q1 print release awaited (post-close May 7 / pre-market May 8 issuer norms). Pre-commit triggers from May 7 EOD all unbreached: intraday <24,250 NOT breached (low 25,800 today); intraday >27,900 NOT breached (high 26,525); Q1 miss material → close on open Mon May 11 (carry-over: print not yet released or news not propagated in cycle). UBS Neutral→Buy + BCA Sek BUY PT 30,100 maintained. Buffer to hard-cut 24,250: +6.73% — comfortable.
+
+**ADRO specific:** First-day at −1.96% within bounds. Pre-mortem trigger check: −4% intermediate pain trigger (IDR 2,448) NOT breached. Brent <$95 NOT breached (101+). Newcastle <$125 NOT breached. Buffer to hard-cut 2,371: +5.16% — comfortable. Sector −0.74% energy slip is broad-market driven (Brent partial recovery / Iran-deal noise), not ADRO-specific.
+
+**Drawdown from peak:** (9,918,947,500 − 10,026,617,500) / 10,026,617,500 = −1.07% (vs −1.02% yesterday — slightly deeper but within noise; nowhere near −15% hard limit).
+
+**RISK ALERTS: NONE.**
+- Daily P&L −0.05% — far from −2% cap.
+- ITMG −0.29% — far from −6% warning.
+- ADRO −1.96% — far from −6% warning.
+- Drawdown −1.07% — well above −15% hard limit.
+- Weekly P&L +0.08% — far from −5% reduction trigger.
+
+**Sector exposure:** Coal 17.04% (ITMG 7.16% + ADRO 9.88%) of equity; cash 82.96%. Banking sector empty since BBRI hard-cut May 1.
+
+**Watch Mon May 11 (next session):**
+1. **ITMG Q1 2026 print** — if released over weekend / pre-market re-verification, apply pre-commit decision matrix; material miss → close on open regardless of intraday level
+2. **Brent direction** — sustained <$95 for 3 days breaks ADRO pre-mortem trigger; recovery above $105 supportive
+3. **Newcastle thermal coal** — sustained <$125 breaks pre-mortem floor for both ITMG and ADRO
+4. **IHSG follow-through** — Friday's bergejolak / broad-red profile; Monday gap-down risk if US session bleeds into Asia
+5. **IDR vs USD** — current 17,414; sustained >17,500 lifts EM-OUTFLOW concern; <17,300 lifts foreign-flow confidence
+6. **Foreign flow** — net buy/sell direction Friday and Monday; sustained outflow keeps EM-OUTFLOW regime intact
+7. **Weekly Review (16:00 WIB today)** — letter grade Week 3, regime label re-check, optional MACRO-REGIME update; potentially update PATTERNS / CONVICTION-LOG
+
+---
+

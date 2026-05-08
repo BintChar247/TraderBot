@@ -230,6 +230,21 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-05-08",
+      "day_label": "Day 15",
+      "portfolio_value": 9918947500,
+      "cash": 8228897500,
+      "daily_pnl_idr": -5272500,
+      "daily_pnl_pct": -0.05,
+      "cumulative_pnl_pct": -0.81,
+      "ihsg_close": 7168.47,
+      "ihsg_cumulative_pct": -6.1,
+      "alpha_pct": 5.29,
+      "positions_count": 2,
+      "trades_today": 1,
+      "trades_this_week": 1
     }
   ],
   "positions": [
@@ -238,26 +253,28 @@
       "entry_date": "2026-04-20",
       "entry_price": 26075,
       "shares": 27300,
-      "current_price": 25475,
-      "unrealized_pct": -2.3,
+      "current_price": 26000,
+      "unrealized_pct": -0.29,
       "hard_cut": 24250,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
-      "thesis": "Q1 2026 earnings release day (post-close); coal Newcastle ~$135 above $130 floor; UBS Neutral->Buy May 5; BCA Sek BUY PT 30,100; pre-commit triggers all unbreached at EOD; tomorrow pre-market read priority on print"
+      "thesis": "Q1 2026 earnings (release per IDX issuer norms post-close May 7 / pre-market Mon May 11); coal Newcastle ~$132-140 above $130 floor; UBS Neutral->Buy May 5; BCA Sek BUY PT 30,100; pre-commit triggers all unbreached at EOD May 8; Mon pre-market re-verification priority on Q1 print"
     },
     {
       "ticker": "ADRO",
-      "shares": 392100,
-      "entry_price": 2550,
       "entry_date": "2026-05-08",
-      "last_price": 2550,
-      "unrealised_idr": 0,
-      "unrealised_pct": 0,
+      "entry_price": 2550,
+      "shares": 392100,
+      "current_price": 2500,
+      "unrealized_pct": -1.96,
+      "hard_cut": 2371,
+      "trail_stop": null,
       "stop_state": "hard-cut",
-      "stop_price": 2371,
-      "thesis": "Q1 +67% YoY; coal sector tailwind; PT 2,900"
+      "thesis_state": "valid",
+      "catalyst_date": "2026-05-08",
+      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4%; coal sector tailwind (PTBA +105%, BUMI +34.6%, HRUM rev +14.67%); Newcastle $132-140 above $130 floor; PT 2,900 (BCA Sek/UBS cluster); div payment day May 8 mechanical cash event"
     }
   ],
   "trades": [
@@ -290,6 +307,16 @@
       "cost": 657800000,
       "status": "closed",
       "realized_pnl_pct": -8.28
+    },
+    {
+      "date": "2026-05-08",
+      "ticker": "ADRO",
+      "side": "buy",
+      "shares": 392100,
+      "price": 2550,
+      "cost": 999855000,
+      "status": "open",
+      "realized_pnl_pct": null
     }
   ],
   "decisions": [
@@ -2155,14 +2182,14 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.76,
-    "ihsg_return_pct": -6.77,
-    "alpha_pct": 6.01,
+    "total_return_pct": -0.81,
+    "ihsg_return_pct": -6.1,
+    "alpha_pct": 5.29,
     "win_rate_pct": 0.0,
-    "total_trades": 2,
+    "total_trades": 3,
     "winning_trades": 0,
     "losing_trades": 1,
-    "open_trades": 1,
+    "open_trades": 2,
     "avg_winner_pct": 0.0,
     "avg_loser_pct": -8.28,
     "profit_factor": 0.0,
@@ -2176,14 +2203,14 @@
     },
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9924220000,
-    "cum_return_pct": -0.76,
-    "ihsg_cum_pct": -6.77,
-    "cum_alpha_pct": 6.01,
-    "positions_count": 1,
-    "cash_pct": 92.99,
-    "trades_this_week": 0,
-    "last_updated": "2026-05-07"
+    "current_equity": 9918947500,
+    "cum_return_pct": -0.81,
+    "ihsg_cum_pct": -6.1,
+    "cum_alpha_pct": 5.29,
+    "positions_count": 2,
+    "cash_pct": 82.96,
+    "trades_this_week": 1,
+    "last_updated": "2026-05-08"
   },
   "risk": {
     "beta_ihsg": null,
@@ -2191,17 +2218,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.02,
+    "drawdown_from_peak_pct": -1.07,
     "risk_budget_used_pct": 1.0,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.13,
+    "daily_pnl_pct": -0.05,
+    "weekly_pnl_pct": 0.08,
     "peak_equity": 10026617500,
-    "current_equity": 9924220000,
+    "current_equity": 9918947500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-07"
+    "updated": "2026-05-08"
   },
   "activity_log": [
     {
@@ -3410,10 +3437,43 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. ITMG -0.29%, ADRO -1.96% (same-day). Both within bands; no tighten thresholds reached."
+    },
+    {
+      "timestamp": "2026-05-08T08:20:43Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-08 (Day 15): Equity IDR 9.919B (-0.05% day). Alpha +0.03% vs IHSG -0.08% (sesi I 7168.47 anchor). 2 positions: ITMG -0.29% (mark 26,000), ADRO -1.96% (mark 2,500, entered today). Cash 82.96%. Trades this week 1/3. PTD -0.81%; cum alpha +5.29%; DD -1.07%. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 15 EOD snapshot committed; 2 positions marked-to-market"
+        },
+        {
+          "type": "buy",
+          "ticker": "ADRO",
+          "detail": "392,100 sh @ 2,550 (already executed at 09:15 WIB; logged in EOD)"
+        },
+        {
+          "type": "reconcile",
+          "detail": "Broker positions match TRADE-LOG (ITMG 27,300sh + ADRO 392,100sh); broker equity 9.941B uses stale-mark fallback vs MTM 9.919B (delta IDR 21.65M; data-infra block since Apr 21)"
+        }
+      ]
     }
   ],
   "exposure": {
-    "sectors": {},
+    "sectors": {
+      "coal": {
+        "pct_of_equity": 17.04,
+        "tickers": [
+          "ITMG",
+          "ADRO"
+        ]
+      },
+      "cash": {
+        "pct_of_equity": 82.96,
+        "tickers": []
+      }
+    },
     "factors": {
       "ihsg": null,
       "idr": null,
@@ -3424,8 +3484,8 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 7117.0,
-    "ihsg_change_pct": 0.35,
+    "ihsg": 7168.47,
+    "ihsg_change_pct": -0.08,
     "idr_usd": 17414,
     "idr_usd_change_pct": 0.08,
     "coal_usd": 135.0,
@@ -3438,7 +3498,7 @@
     "bi_rate_note": "Held at 4.75%; April CPI 2.42% + Q1 GDP 5.61% beat keep cut runway open; next RDG mid-May",
     "asia_sentiment": "Risk-on US (S&P +1.46%, Nasdaq +2.02%, Dow +1.24% \u2014 fresh records on Iran-US deal hopium; VIX ~17.4); Asia mixed (Shanghai +1.17%, HK -0.80%, JP closed Golden Week); Brent crash -6.96% to $102.22",
     "foreign_flow_idr_bn": -518,
-    "updated": "2026-05-07"
+    "updated": "2026-05-08"
   },
   "research": {
     "date": "2026-05-07",
@@ -3532,5 +3592,5 @@
       }
     ]
   },
-  "last_updated": "2026-05-07T08:20:02Z"
+  "last_updated": "2026-05-08T08:20:13Z"
 }
