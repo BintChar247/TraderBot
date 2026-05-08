@@ -8,5 +8,13 @@
     "trail_pct": null,
     "high_water_price": 26075,
     "last_updated": "2026-04-20T09:15:00+07:00"
+  },
+  "ADRO": {
+    "entry": 2550,
+    "current_stop": 2371,
+    "state": "hard-cut",
+    "trail_pct": null,
+    "high_water_price": 2550,
+    "last_updated": "2026-05-08T09:15:00+07:00"
   }
 }

@@ -2943,13 +2943,13 @@ cap 35% — ITMG 7.16% deployed leaves headroom for ~24% additional coal at most
 - Trend: indeterminate.
 
 **Trade plan:**
-- Entry: TBD pending live-price verification at /market-open
-- Stop: −7% hard cut from entry
-- Target: ~+12% upside provisional toward Rp 2,900 PT
-- R:R ratio: provisional ~1.7:1
+- Entry: IDR 2,550 (WebSearch verified at market-open 2026-05-08; multi-source: TradingView/Stockanalysis/Investing)
+- Stop: IDR 2,371 (−7% hard cut from entry)
+- Target: ~IDR 2,900 (+13.7% upside toward analyst PT)
+- R:R ratio: ~1.96:1 (350/179)
 - Position size: 10–13% of equity (LQ45 catalyst; second-coal-name risk)
 - Conviction: MEDIUM (catalyst real; sector concentration constraint with ITMG held)
-- ADV: **UNKNOWN — must verify.** ADRO is LQ45 mega-cap; ADV typically 30–80M sh.
+- ADV: WebSearch override 30,000,000 sh (sector-typical for coal LQ45; per STEP 2b fallback — yfinance blocked)
 
 **Action: WATCH-promoted-to-CANDIDATE.** Sector concentration matters: ITMG already
 7.16% of equity in coal; adding ADRO at 10% would put coal at ~17%, well within

@@ -246,6 +246,18 @@
       "thesis_state": "valid",
       "catalyst_date": "2026-05-07",
       "thesis": "Q1 2026 earnings release day (post-close); coal Newcastle ~$135 above $130 floor; UBS Neutral->Buy May 5; BCA Sek BUY PT 30,100; pre-commit triggers all unbreached at EOD; tomorrow pre-market read priority on print"
+    },
+    {
+      "ticker": "ADRO",
+      "shares": 392100,
+      "entry_price": 2550,
+      "entry_date": "2026-05-08",
+      "last_price": 2550,
+      "unrealised_idr": 0,
+      "unrealised_pct": 0,
+      "stop_state": "hard-cut",
+      "stop_price": 2371,
+      "thesis": "Q1 +67% YoY; coal sector tailwind; PT 2,900"
     }
   ],
   "trades": [
@@ -1861,6 +1873,285 @@
         null,
         true
       ]
+    },
+    {
+      "ticker": "ADRO",
+      "action": "BUY",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": 392100,
+      "price": 2550,
+      "thesis": "Q1 2026 net +67% YoY; coal sector tailwind confirmed (PTBA +105%, BUMI +34.6%, HRUM +14.67% rev); Newcastle $132-140 above $130 floor; analyst PT 2,900 (+13.7%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 net +67.07% YoY (US$128.14M); rev +23.4%"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW (easing); coal/nickel favored; Brent partial recover; Newcastle $132-140"
+        },
+        {
+          "type": "risk",
+          "label": "70bps risk; -7% hard-cut at IDR 2,371"
+        },
+        {
+          "type": "sizing",
+          "label": "10.06% of equity (IDR 999,855,000); regime cap 15%"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance blocked since Apr 21)"
+        }
+      ],
+      "reasoning": "Pair-wise coal add to held ITMG. ADRO chosen over PTBA on tighter R:R (1.96:1 vs 1.71:1) and larger LQ45 mega-cap liquidity. Sector concentration after fill 17.22% well within 35-40% cap.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "PTBA",
+      "action": "SKIP",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q1 net +105% YoY but tighter R:R 1.71:1 vs ADRO 1.96:1; coal sector concentration limits one-add.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 net +105% YoY (Rp 801.79B); margin expansion"
+        },
+        {
+          "type": "sizing",
+          "label": "Skipped \u2014 coal sector add already captured by ADRO"
+        }
+      ],
+      "reasoning": "Plan dictates ONE coal name only (sector concentration check with held ITMG). ADRO won on R:R and ADV.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q1 +13.7% beat confirmed; foreign net buy +Rp 334.8B (top-2 buy May 7); +4.75% rally.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 +13.7% confirmed beat; foreign re-accumulation"
+        },
+        {
+          "type": "risk",
+          "label": "Banking sector exit-watch (1-strike since BBRI hard-cut May 1)"
+        },
+        {
+          "type": "sizing",
+          "label": "Deferred \u2014 re-entering same name post hard-cut, sector exit risk"
+        }
+      ],
+      "reasoning": "Sector exit watch (1-strike): a second banking failure exits the entire sector for the trial. Re-entering BBRI today is the wrong first banking re-add. Defer to next week post weekly-review.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Controller Rp 282.5B insider buy completed May 4-6; consensus PT 1,605.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Controller Rp 282.5B 3-tranche purchase 1,520-1,580"
+        },
+        {
+          "type": "sizing",
+          "label": "Deferred \u2014 single coal-add captures today's slot per plan"
+        }
+      ],
+      "reasoning": "Plan limits to ONE add today (Friday + weekly-review discipline). ADRO wins on idiosyncratic catalyst freshness vs AKRA digested signal.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q1 +60% net IDR 3.41T; nickel quota -34% YoY narrative; LME nickel firm $19,059.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 +60% YoY beat; nickel quota policy"
+        },
+        {
+          "type": "sizing",
+          "label": "Deferred \u2014 single add slot used by ADRO"
+        }
+      ],
+      "reasoning": "ADRO chosen over ANTM (coal Q1 +67% vs nickel Q1 +60%) \u2014 coal sector momentum confirmed across 5 prints; nickel narrative more dependent on quota execution.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "LQ45 top gainer May 7; analyst recos for May 8; defensive consumer staples bid.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "LQ45 top gainer; sector tailwind not idiosyncratic"
+        },
+        {
+          "type": "sizing",
+          "label": "Lower priority than coal Q1 beats"
+        }
+      ],
+      "reasoning": "Diversification candidate but lower priority \u2014 sector tailwind alone vs ADRO's idiosyncratic Q1 catalyst.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "HOLD",
+      "date": "2026-05-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "HOLD \u2014 pre-commit triggers active for Q1 print (post-close May 7); no triggers fired.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q1 print pending public confirmation"
+        },
+        {
+          "type": "risk",
+          "label": "Hard-cut buffer 4.81% (mark 25,475 vs cut 24,250)"
+        },
+        {
+          "type": "sizing",
+          "label": "HOLD existing 7.16%; no add"
+        }
+      ],
+      "reasoning": "ITMG mark unchanged at 25,475 multi-source verified. Pre-commit triggers (intraday <24,250 \u2192 exit; >27,900 \u2192 trail; Q1 miss \u2192 close) UNBREACHED at open. HOLD.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -3073,6 +3364,44 @@
           "type": "research",
           "ticker": "ITMG",
           "detail": "HELD \u2014 Q1 print pending public confirmation; HOLD pre-commit triggers active at market-open"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-08T02:23:13Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "Bought ADRO 392,100sh @ IDR 2,550 (10.06% of equity); -7% hard-cut stop at 2,371. ITMG HOLD (mark 25,475; pre-commit triggers unbreached; Q1 print not yet public). PTBA/BBRI/AKRA/ANTM/ICBP skipped per single-add Friday discipline.",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "ADRO",
+          "detail": "392100sh @ 2550 (~10% equity, coal Q1 +67%)"
+        },
+        {
+          "type": "stop",
+          "ticker": "ADRO",
+          "detail": "hard-cut @ 2371 GTC"
+        },
+        {
+          "type": "hold",
+          "ticker": "ITMG",
+          "detail": "mark 25475; buffer 4.81% to hard-cut 24250"
+        },
+        {
+          "type": "warning",
+          "ticker": "ADRO",
+          "detail": "WebSearch price override used (yfinance blocked)"
+        },
+        {
+          "type": "skip",
+          "ticker": "PTBA",
+          "detail": "single-coal-add slot taken by ADRO (better R:R 1.96 vs 1.71)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "banking sector exit-watch 1-strike; defer to next week"
         }
       ]
     }

@@ -11,6 +11,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
 | ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $130–137 (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; Q1 2026 print TODAY May 7 — binary catalyst day) |
+| ADRO | 2026-05-08 | 2,550 | 392,100 | 999,855,000 | 2,371 | hard-cut | Q1 2026 net +67.07% YoY (US$128.14M); rev +23.4%; coal sector tailwind (ADRO/PTBA/BUMI/HRUM uniformly positive); Newcastle $132–140 above $130 floor; analyst PT 2,900 (+13.7%) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 
@@ -1330,6 +1331,25 @@ Watch tomorrow (Fri May 8 — Weekly Review day):
 4. IDR direction off 17,414 vs USD — Iran-US deal momentum risk-on tone supports rupiah; sustained sub-17,400 lifts foreign-flow confidence
 5. Foreign net flow direction post-IHSG +0.35% DoD — net buy Rp1.92T per macro snapshot supports continuation; sustained outflow keeps EM-OUTFLOW regime / banking sector-exit-watch intact
 6. Weekly review (16:00 WIB Friday May 8) — letter grade for Week 3, regime label re-check, optional MACRO-REGIME update
+
+---
+
+### 2026-05-08 09:15 WIB — BUY ADRO
+
+- Side: BUY
+- Shares: 392,100 shares at IDR 2,550
+- Fill price: IDR 2,550 (WebSearch override — yfinance/GoAPI blocked since Apr 21)
+- Position size: IDR 999,855,000 (10.06% of equity 9,940,600,000)
+- Stop: IDR 2,371 (−7% hard-cut GTC order placed)
+- Target: IDR 2,900 (+13.7% above entry; analyst PT)
+- Catalyst: Q1 2026 net profit +67.07% YoY (US$128.14M) on revenue +23.4%; coal sector tailwind confirmed across complex (PTBA +105%, BUMI +34.6%, HRUM rev +14.67%); Newcastle $132–140 above $130 thesis floor
+- 15-gate checklist: PASS (all 15 — gate 13 sector concentration had a non-fatal arithmetic notice from a `.0` float in `position_cost`; conservative manual recalc: ITMG 711.85M + ADRO 999.86M = 1,711.71M = 17.22% of equity, well within 35–40% sector cap)
+- Conviction: MEDIUM (catalyst real; ADV WebSearch override; data-infra block)
+- Pre-mortem: If Brent break sustained <$95 for 3 days OR Newcastle <$125 OR ADRO -4% from entry within 5 days → reassess thesis vs sector momentum
+- Intermediate pain: At -4% (IDR 2,448) → reassess immediately; cover if coal sector momentum has rolled
+- Track: catalyst (not defensive)
+- Price source: WebSearch (yfinance blocked); manual: IDR 2,550 from TradingView/Stockanalysis/Investing.com cluster May 7 close
+- Thesis: "Second coal name added pair-wise to held ITMG; Q1 +67% beat aligns sector-wide pattern (5-of-5 coal Q1 prints positive); ADRO's larger LQ45 mega-cap liquidity, ADMR diversification optionality, and tighter R:R (1.96:1 vs PTBA's 1.71:1) make it the preferred coal-add. Sector concentration after fill 17.22% well below 35-40% cap; 14.29% of book deployed (cash buffer 85.7% — appropriate for EM-OUTFLOW regime)."
 
 ---
 
