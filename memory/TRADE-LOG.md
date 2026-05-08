@@ -1353,3 +1353,49 @@ Watch tomorrow (Fri May 8 — Weekly Review day):
 
 ---
 
+### 2026-05-08 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 15 (post-trial-window; Fri, Week 3 Day 5 — Weekly Review day). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). ITMG + ADRO both open; cash 82.78% of equity (post-ADRO entry). ADRO entered today 09:15 WIB at 2,550. ITMG Q1 2026 print release scheduled post-close May 7 / pre-market May 8.
+
+- Positions evaluated: ITMG (27,300 sh @ 26,075) and ADRO (392,100 sh @ 2,550 — entered today).
+- broker.sh quote: stale on both (returns entry price; market-data.sh yfinance still 403-blocked since Apr 21, GoAPI key not set — same infra condition).
+- WebSearch verified marks (multi-source: TradingView / Yahoo / Investing.com / Stockanalysis cluster):
+  - ITMG: intraday range 25,800–26,525, open 26,500. Market cap 29.42T implies ~26,000 mark consistent with range midpoint. **Conservative midday mark: IDR 26,000.**
+  - ADRO: IDR 2,500 (multi-source). **Today is dividend payment day** (Rp 118.26/sh final dividend disbursed; ex-div was earlier — paid out today does not move price). Slight slippage from 2,550 entry within sector profit-take noise.
+
+**ITMG (HOLD):**
+- Mark: IDR 26,000 → P&L (26,000 − 26,075) / 26,075 = **−0.29%** from entry.
+- Buffer to hard-cut 24,250: (26,000 − 24,250) / 26,000 = **+6.73%** — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: Q1 2026 print release per IDX issuer norms post-close May 7 / pre-market May 8 — no fresh post-print news in cycle yet pre-lunch (per WebSearch); intraday range 25,800–26,525 with open 26,500 consistent with print-day digestion (no gap-down panic). Last quarter EPS surprise +114.10% (890.23 vs 415.80 consensus) — base catalyst still on. Newcastle ~$132–140 above $130 thesis floor intact. Energy sector −0.74% intraday is mild profit-take, not regime shift.
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 6.73% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**ADRO (HOLD):**
+- Mark: IDR 2,500 → P&L (2,500 − 2,550) / 2,550 = **−1.96%** from entry (same-day, within first-day noise).
+- Buffer to hard-cut 2,371: (2,500 − 2,371) / 2,500 = **+5.16%** — comfortable.
+- Below +7% trail activation (2,729); below +15% tighten threshold (2,933); below +20% threshold (3,060). No tightening triggered.
+- Thesis check: Today is ADRO dividend payment day (Rp 118.26/sh; Rp 3.40T total) — cash distribution per market.bisnis report; ex-div was earlier. Coal Q1 +67.07% YoY catalyst intact. Newcastle $132–140 above thesis floor. Sector profit-take −0.74% mild and broad-market driven (Brent partial recovery from May 6 −6.96% Iran-deal spike), not ADRO-specific adverse news.
+- Pre-mortem trigger check: −1.96% from entry; −4% intermediate pain trigger (IDR 2,448) NOT breached. Brent <$95 threshold NOT breached (Brent currently 101.96+, recovering). Newcastle <$125 NOT breached.
+- Multi-source verification: buffer 5.16% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG −0.29%, ADRO −1.96%
+- Tighten to 7% (+15%): NO — neither at +15%
+- Tighten to 5% (+20%): NO — neither at +20%
+- Thesis break: NO — ITMG Q1 print catalyst on track; ADRO div payment normal; coal floor intact
+- Intraday >3% move: NO — ITMG +/− within range, ADRO same-day −1.96% normal first-day noise
+- Sector exit (2 consecutive losses): N/A — only one prior coal trade (BBRI was banking, not coal)
+
+**Notification sent:** 📊 Midday 2026-05-08: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- ITMG Q1 2026 print: release timing per IDX issuer norms typically post-close; intraday no panic gap. EOD routine to assess Q1 print impact (if released) and apply pre-commit decision matrix carry-over (intraday <24,250 → EXIT; intraday >27,900 → transition to TRAILING 10%).
+- ADRO first day: same-day noise within bounds; dividend payment is mechanical cash event, not signal.
+- Weekly Review (16:00 WIB today) — letter grade for Week 3, regime label re-check, optional MACRO-REGIME update.
+
+---
+
