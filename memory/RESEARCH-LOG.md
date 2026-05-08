@@ -2739,3 +2739,508 @@ Score 1-10 (10 = strongest buy setup). Sector momentum filter applied. Two-track
 - [Maybank cement sector recovery 2026 — BusinessToday](https://www.businesstoday.com.my/2025/12/09/maybank-sees-indonesias-cement-sector-recovering-in-2026/)
 
 ---
+
+## 2026-05-08 (Friday)
+
+### Global Overnight (May 7 close)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,337.11 | down (off record) | Energy −1.95%, Industrials −1.66% laggards |
+| Nasdaq | 25,806.20 | −0.13% | pulled back from record close |
+| Dow Jones | 49,596.97 | down | broad sector pullback |
+| Shanghai Composite | 4,180 | +0.48% | two-month high |
+| Hang Seng | 26,626 | +1.6% | highest since Feb 2026 |
+| Nikkei 225 | 62,833.84 | +3,320 pts | record single-day point gain post-Golden Week, AI/semis lead |
+| VIX | ~17.39 | low | risk-on regime in Asia |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (May 7 close) | 7,174.32 | +1.15% (+81.85 pts) | range 7,107–7,207; broke above 7,200 intraday |
+| USD/IDR | 17,304–17,358 (Investing) / 17,512 (BI Kamis) | mixed | improvement vs 17,414 prior cluster; sources diverge |
+| Indo 10Y SUN yield | 6.81–6.96% | range | eased from 6.96% peak |
+| US 10Y yield | 4.35% | −10 bp | off 9-month high on oil-driven inflation cool-down |
+| Indo–US spread | ~246 bp | narrower | constructive (lower carry pressure) |
+| Newcastle coal (USD/t) | 132.05 (May 6 TE) / 139.7 (May 5 close) | sources differ | range $132–140; below $130 thesis floor risk if sustained at lower end |
+| CPO palm oil (MYR/t) | 4,541 | +0.31% | B15 Malaysia mandate June 1 supportive; India imports −27% drag |
+| LME nickel (USD/t) | 19,059 | −0.73% | profit-take from $19,600+ two-year high |
+| Brent crude (USD/bbl) | 101.96 | +0.68% | partial recovery from May 6 −6.96% Iran-deal crash |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net sell (whole market, May 7) | −Rp 76.39B | improvement vs −Rp 484B May 6, −Rp 518B May 5 |
+| Foreign net sell (regular market only, May 7) | −Rp 360.34B | cash/nego: +Rp 283.95B (offsetting) |
+| Top foreign net buy (regular) | INKP +Rp 347.5B; **BBRI +Rp 334.8B**; TINS +Rp 77.6B | banking re-accumulation despite EM-OUTFLOW label |
+| Foreign flow streak | net sell streak moderating (Apr 30 −3T → May 7 −76B) | possible regime softening signal |
+| BI rate | 4.75% (held Apr 22) | next decision likely May 21–22 |
+| BI foreign reserves | $148.2B (Apr) | low but stable |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | UP (rebound) | BBRI +4.75% May 7, foreign net buy Rp 334.8B; Q1 BBRI +13.7% YoY confirmed beat | BBRI, BBCA, BMRI, BBNI |
+| Coal / Energy | UP | Q1 prints uniformly positive: ADRO +67%, PTBA +105%, BUMI +34.6%, HRUM +14.67% rev; Newcastle holding $132–140 | ITMG (held), PTBA, ADRO |
+| Nickel / Mining | UP | RKAB 2026 quota cut −34% YoY; LME nickel firm at $19,059; ANTM Q1 +60% | ANTM, INCO, NCKL, MBMA |
+| CPO / Agri | NEUTRAL | B15 Malaysia June 1 vs India imports −27%; mixed | AALI, LSIP |
+| Property | NEUTRAL | VAT 100% incentive extended to 2027; no fresh catalyst | BSDE, CTRA, SMRA, PWON |
+| Consumer | UP | UNVR +73% Q1 headline (+14.1% continuing-ops); ICBP top gainer LQ45 May 7 | UNVR, ICBP, INDF, MYOR |
+| Telco | NEUTRAL | Spectrum auction 700 MHz / 2.6 GHz pending; ISAT Q1 +13.7% net | TLKM, EXCL, ISAT |
+| Cement | UP | SMGR Q1 +88.7% net; Maybank top pick over INTP | SMGR, INTP |
+| Healthcare | UP | KLBF top gainer LQ45 May 7 (defensive bid) | KLBF, MIKA |
+| Energy / Oil | DOWN | Brent −6.96% May 6 → +0.68% partial recover; MEDC −5.81% sesi I to 1,620 | MEDC, PGAS |
+
+### Corporate Calendar Today / This Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| Q1 2026 earnings release (post-close May 7) | ITMG | post-close May 7 / pre-market May 8 | **Binary catalyst — held position; pre-commit triggers active** |
+| Q1 2026 print already digested | BBRI | Apr 29–30 | +13.7% YoY beat (Rp 15.5T) — Ciptadana Buy PT 4,800 |
+| Q1 2026 print already digested | ADRO | early May | +67.07% YoY net (US$128.14M); rev +23.4% |
+| Q1 2026 print already digested | PTBA | early May | +105% YoY net (Rp 801.79B); rev flat (Rp 9.93T) |
+| Q1 2026 print already digested | BUMI | early May | +34.6% net (US$21.1M) |
+| Q1 2026 print already digested | HRUM | early May | rev +14.67% (US$340.36M) |
+| Q1 2026 print already digested | SMGR | May 4 | +88.7% net (Rp 80B); rev +8.3% (Rp 8.29T) |
+| Q1 2026 print already digested | UNVR | May 6 | +73% headline / +14.1% continuing-ops; +8.84% pop |
+| Q1 2026 print already digested | ANTM | early May | +60% YoY net (IDR 3.41T); rev +12% |
+| Q1 2026 print already digested | ISAT | early May | +13.7% net |
+| Q1 2026 print already digested | JSMR | early May | rev +10.4%; net Rp 774.7B |
+| Insider buy completed May 4–6 | AKRA | done | controlling shareholder Rp 282.5B over 3 days |
+| MSCI BREN/DSSA HSC removal | BREN/DSSA | pending | ~$270M passive outflow risk |
+| BI rate decision | — | likely May 21–22 | held 4.75% Apr 22 |
+
+### Watchlist Scan — All 50 Tickers
+
+**Data infra constraint:** yfinance/GoAPI fully blocked since Apr 21; market-data.sh quote returns 403.
+broker.sh quote returns stale at entry price for ITMG only. Live prices below are
+WebSearch-derived; many tickers showed "May 7 close not specifically surfaced" — used
+prior close + sector cluster reasoning. **ADV unverifiable for 49 of 50 tickers
+(ITMG broker-verified at 1.5M sh)** — Gate 7+14 cannot fire on any new entry.
+
+| # | Ticker | Sector | Price (IDR) | Day% (May 7) | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------------|--------------|-------|---------------------|--------|
+| 1 | BBCA | Banking | n/a | up (banking rally) | 6 | Banking sector "bersinar" May 7; no fresh BBCA catalyst; mega-cap defensive | WATCH |
+| 2 | BBRI | Banking | 3,310 | +4.75% | 7 | **Q1 +13.7% Rp 15.5T confirmed beat; foreign net buy +Rp 334.8B (top buy); Ciptadana BUY PT 4,800** | CANDIDATE (sector-watch caveat) |
+| 3 | BMRI | Banking | n/a | up | 5 | Banking rally; MSCI risk; no fresh idiosyncratic catalyst | WATCH |
+| 4 | BBNI | Banking | n/a | up | 5 | Banking rally; no fresh catalyst | WATCH |
+| 5 | BNGA | Banking | n/a | n/a | 4 | Mid-tier bank; cheap valuation; no catalyst | WATCH |
+| 6 | NISP | Banking | n/a | n/a | 4 | Mid-tier bank; cheap valuation; no catalyst | WATCH |
+| 7 | BBTN | Banking | n/a | n/a | 4 | Mid-tier; property-loan exposure; no catalyst | WATCH |
+| 8 | ADRO | Coal | n/a | likely up | 8 | **Q1 net +67.07% US$128.14M; rev +23.4%; coal sector tailwind; analyst PT Rp 2,900** | CANDIDATE |
+| 9 | ITMG | Coal | 25,475 (last verified Apr 28) – 26,850 (May 5) | unknown May 7 | 7 | **Q1 release post-close May 7; print not yet in news cycle; HOLD pre-commit triggers** | HOLD |
+| 10 | PTBA | Coal | n/a | likely up | 8 | **Q1 net +105% Rp 801.79B; SOE high yield; rev flat Rp 9.93T (margin expansion)** | CANDIDATE |
+| 11 | BUMI | Coal | n/a | n/a | 5 | Q1 net +34.6% (US$21.1M small base); penny stock | WATCH |
+| 12 | HRUM | Coal | n/a | n/a | 6 | Q1 rev +14.67% (US$340.36M); diversified into nickel | CANDIDATE |
+| 13 | MEDC | Energy/Oil&Gas | 1,620 | −5.81% (sesi I) | 3 | Brent crash kills oil sympathy; thesis dead | SKIP |
+| 14 | PGAS | Gas/Energy | n/a | n/a | 4 | Business-27 May rebalancing constituent; Brent overhang | WATCH |
+| 15 | ANTM | Nickel | ~3,940 (recent) | +1.03% (recent) | 7 | **Q1 +60% net IDR 3.41T; nickel quota −34% YoY narrative; BRI Danareksa PT 4,800** | CANDIDATE |
+| 16 | INCO | Nickel | ~6,800 (recent) | +5.84% (recent) | 6 | Nickel sympathy; LME firm; BRI Danareksa PT 7,500 | CANDIDATE |
+| 17 | MDKA | Nickel | n/a | n/a | 5 | Diversified miner; no fresh catalyst | WATCH |
+| 18 | NCKL | Nickel | n/a | n/a | 6 | Quota narrative; MNC reco for May 8 trading; BRI PT 1,800 | CANDIDATE |
+| 19 | MBMA | Nickel | 655 | −1.53% | 4 | Battery thesis; Business-27 new constituent (rebalancing) | WATCH |
+| 20 | TINS | Metals/Tin | n/a | up | 6 | Foreign net buy +Rp 77.6B May 7; Bareksa reco; tin tailwind | CANDIDATE |
+| 21 | UNVR | Consumer | ~1,785 | n/a | 6 | Q1 +73% headline / +14.1% cont. ops; +8.84% chase blocked Gate 9; June EGMS dividend | WATCH (chase) |
+| 22 | ICBP | Consumer | n/a | up (LQ45 top gainer) | 7 | LQ45 top gainer May 7; MNC + Samuel reco for May 8 trading; cheap multiples | CANDIDATE |
+| 23 | INDF | Consumer | n/a | n/a | 6 | Samuel Sekuritas top buy for May 8; consumer tailwind | CANDIDATE |
+| 24 | MYOR | Consumer | n/a | n/a | 5 | Consumer tailwind; no fresh catalyst | WATCH |
+| 25 | SIDO | Consumer | n/a | n/a | 4 | Defensive; no near-term catalyst | WATCH |
+| 26 | TLKM | Telco | n/a | n/a | 5 | Spectrum auction; no fresh catalyst | WATCH |
+| 27 | EXCL | Telco | n/a | n/a | 4 | Merged XLSmart; no fresh catalyst | WATCH |
+| 28 | ISAT | Telco | n/a | n/a | 5 | Q1 +13.7% net beat; spectrum auction | WATCH |
+| 29 | MTEL | Telco/Tower | n/a | n/a | 4 | Tower; no catalyst | WATCH |
+| 30 | TOWR | Telco/Tower | n/a | n/a | 4 | Tower; no catalyst | WATCH |
+| 31 | BSDE | Property | n/a | n/a | 5 | Property VAT incentive 2027; analyst target 1,200 | WATCH |
+| 32 | CTRA | Property | n/a | n/a | 5 | Top property pref per analyst rerank; target 1,300 | WATCH |
+| 33 | SMRA | Property | n/a | n/a | 5 | Township diversification | WATCH |
+| 34 | PWON | Property | n/a | n/a | 5 | Recurring mall income; target 530 | WATCH |
+| 35 | GOTO | Tech | ~50 | flat | 3 | Bottom-bucket; ojol regulation overhang | SKIP |
+| 36 | BUKA | Tech | n/a | n/a | 3 | Tech beta; weak fundamentals | SKIP |
+| 37 | EMTK | Tech/Media | n/a | n/a | 4 | Media; no catalyst | WATCH |
+| 38 | ASII | Auto/Industrial | n/a | n/a | 4 | Heavy IDX weight; profit pressure 2026 | WATCH |
+| 39 | UNTR | Heavy Equipment | n/a | n/a | 5 | Coal-sympathy proxy via subsidiary AADI (sesi I −4.4% to 9,775) | WATCH |
+| 40 | AKRA | Distribution | 1,560 (May 6) | n/a (not surfaced May 7) | 7 | **Controlling shareholder Rp 282.5B insider buy 3 tranches at 1,520–1,580; consensus PT 1,605** | CANDIDATE |
+| 41 | AALI | Plantation | n/a | n/a | 5 | CPO 4,541 mixed; B15 mandate Jun 1 | WATCH |
+| 42 | LSIP | Plantation | n/a | n/a | 5 | CPO mixed | WATCH |
+| 43 | JSMR | Infrastructure | n/a | n/a | 5 | Q1 net Rp 774.7B (+10.4% rev) | WATCH |
+| 44 | WSKT | Construction | n/a | n/a | 3 | SOE construction; restructuring overhang | SKIP |
+| 45 | PTPP | Construction | n/a | n/a | 4 | SOE construction; weak fundamentals | WATCH |
+| 46 | ADHI | Construction | n/a | n/a | 5 | "Highest BUMN Q1 profit growth" Bisnis May 5 | WATCH |
+| 47 | KLBF | Healthcare | n/a | up (LQ45 top gainer) | 6 | LQ45 top gainer May 7; defensive bid | CANDIDATE |
+| 48 | MIKA | Healthcare | n/a | n/a | 5 | Defensive hospitals; rebound candidate | WATCH |
+| 49 | SMGR | Cement | ~2,000 (May 1) | n/a | 7 | Q1 +88.7% net Rp 80B already digested; Maybank top pick | CANDIDATE |
+| 50 | INTP | Cement | n/a | n/a | 5 | Cement sympathy to SMGR; Maybank prefers SMGR | WATCH |
+
+**Status options:** `WATCH` / `CANDIDATE` / `SKIP` / `HOLD`
+
+**Defensive Quality track:** No qualifying valuation × σ data accessible (data-infra block).
+Mega-caps BBCA/BMRI/BBNI scored 5–6 catalyst-track but no own-history P/E/P/B σ
+verification possible — **kept as WATCH per TRADING-STRATEGY.md** ("If the valuation
+check fails or you can't source the long-term mean, keep as WATCH — do NOT fabricate
+numbers").
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+#### 1. PTBA — Q1 net +105% YoY, score 8 (CANDIDATE)
+
+**Fundamental case:**
+- Thesis: PT Bukit Asam (SOE coal). Q1 2026 net Rp 801.79B (+105% YoY) on revenue
+  Rp 9.93T (flat). Massive margin expansion via cost discipline; SOE coal play with
+  high dividend yield. Cheapest Q1 beat in coal complex measured by net surprise.
+- Thesis: Coal sector tailwind confirmed across complex (ADRO +67%, BUMI +34.6%,
+  HRUM rev +14.67%); Newcastle $132–140 above $130 thesis floor; Brent recovery
+  removes near-term sympathy drag.
+- Valuation: P/E and P/B vs sector not surfaced today (data-infra block).
+- Catalyst: Q1 print already digested (early May); rerate runway if market hasn't
+  fully priced +105% net surprise. Dividend announcement watch over coming weeks.
+- Analyst view: Specific PT not freshly surfaced today.
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: not multi-source verified today — **must verify at market-open**.
+- Volume: ADV unverifiable (data-infra block) — Gate 7+14 cannot fire.
+- Support / Resistance: cannot determine.
+- Trend: indeterminate without 60-day history.
+
+**Trade plan:**
+- Entry: TBD pending live-price verification at /market-open (within 3% of plan per Gate 9)
+- Stop: −7% hard cut from entry
+- Target: +12% upside provisional
+- R:R ratio: provisional 1.7:1 — must improve before order
+- Position size: 10–12% of equity (catalyst-driven mid-cap LQ45)
+- Conviction: MEDIUM (real catalyst; ADV unverifiable kills HIGH)
+- ADV: **UNKNOWN — must verify before order.** PTBA is LQ45; ADV typically 5–15M sh.
+
+**Action: WATCH-promoted-to-CANDIDATE.** At market-open: (a) verify live PTBA price
+within 3% of plan, (b) attempt ADV verification via WebSearch/sectors.app, (c) confirm
+coal sector still green. Pair with held-ITMG sector exposure check (sector concentration
+cap 35% — ITMG 7.16% deployed leaves headroom for ~24% additional coal at most).
+
+#### 2. ADRO — Q1 net +67.07% YoY, score 8 (CANDIDATE)
+
+**Fundamental case:**
+- Thesis: PT Adaro Energy Indonesia (private coal mega-cap). Q1 2026 net US$128.14M
+  (+67.07% YoY); revenue US$470.91M (+23.4% YoY). Diversified through ADMR (mineral
+  arm) — captures both coal and metallurgical exposure. Analyst PT Rp 2,900.
+- Thesis: Coal sector momentum confirmed; Newcastle floor intact; ADRO + ADMR pair
+  structure provides nickel/EV optionality not present in pure-play ITMG/PTBA.
+- Valuation: P/E and P/B not surfaced; ADRO trades at low single-digit multiples
+  historically.
+- Catalyst: Q1 print already digested; potential dividend announcement; ADMR coal-to-
+  battery narrative continuation.
+- Analyst view: Kontan-cited PT Rp 2,900 (target).
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: not multi-source verified today — **must verify at market-open**.
+- Volume: ADV unverifiable.
+- Support / Resistance: cannot determine.
+- Trend: indeterminate.
+
+**Trade plan:**
+- Entry: TBD pending live-price verification at /market-open
+- Stop: −7% hard cut from entry
+- Target: ~+12% upside provisional toward Rp 2,900 PT
+- R:R ratio: provisional ~1.7:1
+- Position size: 10–13% of equity (LQ45 catalyst; second-coal-name risk)
+- Conviction: MEDIUM (catalyst real; sector concentration constraint with ITMG held)
+- ADV: **UNKNOWN — must verify.** ADRO is LQ45 mega-cap; ADV typically 30–80M sh.
+
+**Action: WATCH-promoted-to-CANDIDATE.** Sector concentration matters: ITMG already
+7.16% of equity in coal; adding ADRO at 10% would put coal at ~17%, well within
+sector cap 35%. Two-coal-name sizing rationale: PTBA OR ADRO (not both) to keep
+diversification — pick whichever shows tighter R:R at open. ADRO probably more
+liquid, PTBA probably better risk-reward post-Q1.
+
+#### 3. BBRI — Q1 +13.7% YoY confirmed beat, score 7 (CANDIDATE — sector-watch caveat)
+
+**Fundamental case:**
+- Thesis: Bank Rakyat Indonesia (state-owned mega bank). Q1 2026 net Rp 15.5T
+  (+13.7% YoY) — confirmed beat. Margin resilience, credit growth +14% YoY, asset
+  quality stable. Foreign net buy +Rp 334.8B on May 7 (top-2 buy whole market) —
+  institutional re-accumulation underway after Apr 30 capitulation.
+- Thesis: Banking sector "bersinar" May 7 (Kompas headline); BBRI led the day +4.75%
+  to 3,310. The asymmetric flow pattern (BBRI accumulated, BBCA/BMRI distributed)
+  suggests selective re-rating, not broad banking risk-on.
+- Valuation: Ciptadana BUY PT Rp 4,800; UOB Kay Hian Hold PT Rp 5,150; consensus avg
+  Rp 4,093 (~+24% upside from 3,310). Wide spread but central tendency well above spot.
+- Catalyst: Q1 print already digested (Apr 29-30); dividend yield ~10%; cycle bottom
+  thesis (BBRI was hard-cut May 1 at 2,990 — this is now repriced to 3,310 +10.7%
+  recovery).
+- Analyst view: 3 of 3 surveyed = Buy/Hold; consensus +24% upside.
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: 3,310 (May 7 close, +4.75%) — vs prior hard-cut exit 2,990 = +10.7% recovery
+- 50-day MA: indicative ~3,150 (recent base estimate); 200-day MA: ~3,400 (estimate)
+- Volume: ADV unverifiable (BBRI typically 200M+ sh — no liquidity concern)
+- Support: ~3,100 (recent base) | Resistance: ~3,400 (200-day ref) / 3,500 (Apr high)
+- Trend: short-term up (4-day rally); longer-term recovering off May 1 capitulation low
+
+**Trade plan:**
+- Entry: 3,310 today is 3,310 vs hypothetical plan ~3,250 = +1.85% drift (within Gate 9 ≤+3%)
+  — **but plan must be re-validated at market-open**
+- Stop: ~3,078 (−7% hard cut from 3,310) | Target: ~3,650 (+10% upside, well below consensus PT)
+- R:R ratio: ~1.4:1 to 3,650; ~2.4:1 to consensus PT 4,093 (acceptable)
+- Position size: 10–12% of equity (catalyst-track regime cap 15%)
+- Conviction: MEDIUM (catalyst real; sector exit watch 1-strike makes HIGH unsafe)
+- ADV: **UNKNOWN — must verify but BBRI typically 200M+ sh = ample**
+
+**Action: WATCH-promoted-to-CANDIDATE with sector-watch caveat.** Per
+MISTAKES.md 2026-05-01: BBRI hard-cut May 1 was procedural (price-source lag) not
+thesis-break — Q1 print confirmed +13.7% beat. **However**, sector exit watch (1-strike
+since BBRI hard-cut) requires care: a second banking failure exits the entire sector
+for the trial. Re-entering BBRI at 3,310 = re-entering the same name that just stopped
+out. PATTERNS.md note "banking names sell off more than coal in EM-OUTFLOW" is now
+showing counter-evidence (2 obs vs vs new 1 counter-obs May 7). Pre-commit at
+market-open: **HOLD off BBRI re-entry today**; defer to next week post weekly-review.
+The asymmetric flow is institutional-buying-dip, not regime-shift confirmation.
+
+#### 4. AKRA — Controller Rp 282.5B insider buy, score 7 (CANDIDATE — carry-over)
+
+**Fundamental case:** (carry-over from yesterday — unchanged)
+- Thesis: PT AKR Corporindo (fuel/petroleum/chemicals distributor + KEK Gresik
+  industrial estate). Controlling shareholder Arthakencana Rayatama executed
+  3-tranche purchase: 181M shares for Rp 282.5B at 1,520–1,580 over May 4–6,
+  lifting AKRT stake to 64.607%. Strongest insider signal in the watchlist.
+- Catalyst: Insider accumulation completed May 6.
+- Analyst view: 13/0/0 buy consensus; PT Rp 1,605 (avg).
+- Insider activity: **CONFIRMED** — Rp 282.5B over 3 days at 1,520–1,580.
+
+**Technical context:**
+- Price: 1,560 (May 6 close); May 7 close not specifically surfaced
+- Volume: ADV unverifiable
+- Support: ~1,500 (insider-buy zone) | Resistance: ~1,600 (consensus PT)
+
+**Trade plan:**
+- Entry: target 1,560 (Gate 9 tolerance ≤ 1,607) | Stop: ~1,450 (−7%)
+- Target: 1,750 (+12%) or insider PT 1,800 (+15%)
+- R:R: ~1.7:1 to consensus PT, ~2.2:1 to upper-band
+- Position size: 10–12% of equity
+- Conviction: MEDIUM
+- ADV: **UNKNOWN — must verify.**
+
+**Action: WATCH-promoted-to-CANDIDATE.** Insider catalyst still fresh (last tranche
+T-2). At market-open: verify (a) live AKRA price within Gate 9 band, (b) ADV
+verification, (c) sector still flat-or-green. Pre-mortem: if controller's buy stops
+AND price drops below 1,500 within 5 trading days, thesis broken.
+
+#### 5. ANTM — Q1 +60% net beat, score 7 (CANDIDATE — carry-over)
+
+**Fundamental case:** (carry-over — Q1 already digested)
+- Thesis: Q1 2026 net IDR 3.41T (+60% YoY) / rev IDR 29.32T (+12% YoY). Nickel
+  quota cut −34% YoY narrative driver. LME nickel $19,059 firm above $19K floor.
+- Catalyst: Q1 print already digested; nickel ore quota policy continuation.
+- Analyst view: BRI Danareksa BUY PT Rp 4,800.
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: ~3,940 (recent reference, +1.03%); not multi-source verified today
+- Volume: ADV unverifiable
+
+**Trade plan:**
+- Entry: TBD ~3,940 plan if verified | Stop: ~3,664 (−7%)
+- Target: ~4,335 (+10%) or consensus PT 4,800 (+22%)
+- R:R: ~1.4:1 to short target, ~3.1:1 to consensus PT (acceptable)
+- Position size: 10–13% of equity (regime cap 15%)
+- Conviction: MEDIUM
+- ADV: **UNKNOWN — must verify.** ANTM is LQ45 mega-cap; ADV typically 50–150M sh.
+
+**Action: WATCH-promoted-to-CANDIDATE.** Verify live price + ADV at market-open.
+
+#### 6. ITMG — HELD position, Q1 print pending public confirmation, score 7 (HOLD)
+
+**Fundamental case:**
+- Thesis: Held from 2026-04-20 entry IDR 26,075. Q1 2026 earnings release
+  scheduled May 7 post-close — **print not yet visible in news cycle as of May 8 morning**
+  (ITMG calendar confirmed by MarketScreener; actual numbers not yet surfaced via
+  WebSearch). Coal sector Q1 prints across complex are uniformly positive
+  (ADRO +67%, PTBA +105%, BUMI +34.6%, HRUM +14.67% rev) — supports a high prior
+  for a positive ITMG print.
+- Catalyst: Q1 print release. Pre-commit triggers ALL still active:
+  1. Material miss (post-close release) → close on open May 8 regardless of intraday level
+  2. Intraday <24,250 → EXIT (hard-cut)
+  3. Intraday >27,900 → transition stop to TRAILING (10% trail)
+- Analyst view: BCA Sek BUY PT 30,100; UBS upgrade Buy May 5; consensus 26,908;
+  Ciptadana upgrade Hold→BUY PT 34,200 (recent, on coal price improvement).
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: 26,075 broker stale (yfinance blocked); last public ref May 5 close 26,850
+  per WebSearch; May 7 close not surfaced. Best estimate range: 26,050–26,850.
+  Hard-cut buffer at 26,000 mark ≈ 6.7%; at 26,850 mark ≈ 9.7% — comfortable either way.
+- 50-day MA: ~26,500 (per yesterday's research)
+- 200-day MA: ~25,800
+- Volume: ADV 1,500,000 (broker-verified)
+- Support: 24,250 (hard-cut) | Resistance: 27,900 (+7% trail trigger)
+- Trend: range-bound around 50/200-day MAs
+
+**Trade plan (HOLD-only):**
+- Entry: 26,075 (already filled) | Stop: 24,250 hard-cut
+- Position size: 7.16% of equity (within 15% regime cap)
+- Conviction: MEDIUM
+- ADV: 1,500,000 (broker-verified)
+- **Pre-commit (TODAY, market-open priority):**
+  1. Pull Q1 print first (BEI corporate filings + WebSearch news cycle)
+  2. If material miss → close on open regardless of intraday level
+  3. If intraday <24,250 → EXIT (hard-cut)
+  4. If intraday >27,900 → transition stop to TRAILING (10% trail)
+  5. Do NOT add — already 7.16% of equity; weekly trade slot preserved
+
+#### 7. ICBP — LQ45 top gainer May 7, score 7 (CANDIDATE)
+
+**Fundamental case:**
+- Thesis: Indofood CBP Sukses Makmur (consumer staples blue-chip). LQ45 top gainer
+  May 7 (per Investing/Kontan). MNC + Samuel Sekuritas reco for May 8 trading.
+  Consumer sector tailwind via cooling CPI (2.42% Apr) + IDR stabilization.
+  BRI Danareksa PT Rp 11,500.
+- Catalyst: Sector tailwind; analyst recos for May 8 trading; defensive consumer
+  staples bid in macro environment.
+- Valuation: BRI Danareksa PT 11,500 (target).
+- Analyst view: Multiple Buy recos; ICBP > MYOR > INDF > UNVR per analyst preference.
+- Insider activity: None surfaced.
+
+**Technical context:**
+- Price: not specifically surfaced May 7 (LQ45 top gainer)
+- Volume: ADV unverifiable
+
+**Trade plan:**
+- Entry: TBD pending live-price verification at /market-open
+- Stop: −7% hard cut from entry
+- Target: +12% upside provisional toward Rp 11,500 PT
+- Position size: 8–10% of equity (defensive consumer; lower-conviction than coal Q1 beats)
+- Conviction: MEDIUM (sector tailwind + analyst reco; not idiosyncratic catalyst)
+- ADV: **UNKNOWN — must verify.** ICBP is LQ45; ADV typically 5–15M sh.
+
+**Action: WATCH-promoted-to-CANDIDATE.** Diversification candidate (consumer is a
+non-coal, non-banking, non-nickel sector) for portfolio-construction purposes only.
+Lower priority than PTBA/ADRO/BBRI which have idiosyncratic catalysts.
+
+### Held Position Updates
+
+- **ITMG**: Mark unverified at 25,475–26,850 range; broker stale at 26,075.
+  Unrealized estimated −0.10% to +2.97% from entry 26,075. Hard-cut buffer comfortable
+  at 6.7–9.7%. Thesis INTACT — coal sector Q1 prints uniformly positive (ADRO +67%,
+  PTBA +105%, BUMI +34.6%); Newcastle $132–140; Q1 print pending public confirmation.
+  Stop unchanged: hard-cut 24,250. Below +7% trail trigger 27,900 — hard-cut state
+  still active. Overnight news: Brent partial recover +0.68%; coal slipped slightly to
+  $132 on Iran-deal sympathy but still above floor; basic-materials sector +1.91%
+  May 6 + IHSG +1.15% May 7 = net constructive backdrop.
+  Technical: range-bound at 50/200-day MAs.
+  **Action: HOLD pending Q1 print verification at market-open.** Pre-commit triggers as above.
+
+### Macro Regime Assessment
+
+**Regime: EM-OUTFLOW / RISK-CAUTIOUS — but easing on multiple metrics.**
+
+- Reasoning: Foreign net sell streak moderating: −Rp 76.39B May 7 vs −Rp 484B May 6
+  vs −Rp 518B May 5 vs −Rp 3T+ Apr 30. **BBRI re-accumulation +Rp 334.8B (top-2 buy)
+  contradicts pure-EM-OUTFLOW thesis.** IHSG +1.15% to 7,174.32 broke above 7,200
+  intraday for first time since rally start (high 7,207). Indo 10Y eased 6.81%;
+  US 10Y dropped 4.35% (−10bp); Asia broadly bid (Hang Seng +1.6%, Shanghai +0.48%,
+  Nikkei record). Brent partial recovery removes oil-complex panic. IDR 17,304–17,358
+  (Investing) is cleaner than 17,512 (BI Kamis) — directionally improving.
+- Position sizing adjustment: max 15% per RISK-STATE.json (no relaxation YET).
+  Defensive Quality track suspended (no qualifying valuation × σ data accessible —
+  same constraint).
+- What would shift to CONSTRUCTIVE: one full week of foreign net buy ≥ Rp 1T,
+  IDR break below 17,000 sustained, IHSG holds 7,200 multiple sessions, BI dovish
+  signal at May 21–22 meeting.
+- Weekly-review (today 16:00 WIB) should evaluate whether to formally update the
+  regime label.
+
+### Flagged Risks
+
+- **ITMG Q1 print not yet public:** Held position 6.7–9.7% buffer to hard-cut.
+  Coal-complex Q1 prints all positive sets a positive prior, but ITMG-specific
+  numbers not yet confirmed. Pre-commit triggers active; intraday discipline mandatory
+  at market-open.
+- **Coal Newcastle slipped to $132 May 6** (one source) vs $139.7 May 5 (another) —
+  source divergence; thesis floor at $130 is not yet breached but proximity warrants
+  monitoring. ITMG/PTBA/ADRO theses depend on coal floor holding.
+- **Brent partial recovery only:** +0.68% May 7 follows −6.96% May 6. MEDC −5.81%
+  sesi I confirms oil-complex repricing. MEDC/PGAS theses dead near-term.
+- **Banking sector exit watch (1-strike since BBRI hard-cut May 1):** Re-entering
+  BBRI today would put another banking trade at risk of being the second strike,
+  triggering sector exit. **Defer banking re-entry to next week post weekly-review.**
+- **Data infra block (yfinance/GoAPI):** ADV unverifiable for 49 of 50 watchlist
+  tickers; only ITMG broker-verified. **Hard constraint on all market-open entries
+  until ADV verification path restored.** PTBA/ADRO/BBRI/AKRA/ANTM/ICBP are all
+  LQ45 mega-caps with credibly ample ADV but the rule is the rule.
+- **Friday + Weekly-Review day:** No urgency to add positions today. Weekly-review
+  at 16:00 WIB evaluates Week 3 grade and may update MACRO-REGIME.md.
+- **MSCI BREN/DSSA HSC removal pending:** ~$270M tail outflow risk; affects LQ45
+  mega-cap weights this rebalancing.
+- **Currency divergence:** USD/IDR Investing 17,304 vs BI Kamis 17,512 — sources
+  conflict. Conservative read: 17,400 mid. Break above 17,500 sustained = risk-off
+  escalation; break below 17,300 = constructive.
+- **Brent–Newcastle spread narrowing:** Coal Brent recovery + nickel firm + IDR
+  improving = directionally bullish for Indonesian equity ex-energy. Broad
+  constructive macro tape.
+
+### Plan for /market-open (2026-05-08, Fri)
+
+- [ ] **PRIORITY: ITMG Q1 print verification at open.** Pull BEI corporate filings
+  + multi-source WebSearch (Kontan, Bisnis, Stockwatch, Liputan6) for actual Q1
+  numbers. Pre-commit triggers active:
+  1. Material miss → close on open regardless of intraday level
+  2. Intraday <24,250 → EXIT (hard-cut)
+  3. Intraday >27,900 → transition to TRAILING (10% trail)
+- [ ] **PTBA / ADRO: deferred — ADV verification + R:R required.** Q1 prints both
+  major beats (+105% / +67%). Sector concentration check: with ITMG already 7.16%,
+  add ONE coal name (not both) at 10–12% to keep coal under 20%. Pick whichever
+  shows tighter R:R + ADV verifiable at open. Skip if both fail ADV check.
+- [ ] **AKRA: deferred — ADV verification.** Insider catalyst Rp 282.5B fresh.
+  Verify (a) live price within Gate 9 band, (b) ADV verification, (c) sector flat/green.
+- [ ] **ANTM: deferred — ADV verification.** Q1 +60% beat; nickel quota narrative.
+  Verify same 3 conditions as AKRA.
+- [ ] **ICBP: low-priority CANDIDATE.** Defensive diversification; defer to PTBA/ADRO
+  unless those fail.
+- [ ] **BBRI: WAIT — sector exit watch.** Q1 print confirms +13.7% beat; foreign
+  net buy +Rp 334.8B; +4.75% May 7 = recovery confirmed. But sector exit watch
+  (1-strike) makes BBRI re-entry the wrong first banking re-add. Defer to next week
+  post weekly-review.
+- [ ] **No MEDC/PGAS — Brent crash kills oil thesis.**
+- [ ] **No new entries if any of:** (a) Q1 ITMG miss → defensive day, (b) IHSG
+  gaps below 7,100 at open, (c) IDR breaches 17,500 sustained.
+- [ ] **Trades this week: 0/3 — slot available, but Friday discipline.** Maximum
+  ONE add today, sized at 10–12% (one notch under regime max).
+- [ ] Weekly-review at 16:00 WIB (separate routine).
+
+### Sources
+
+- [S&P 500 May 7 close 7,337 — TheStreet](https://www.thestreet.com/latest-news/stock-market-today-may-7-2026-updates)
+- [Hang Seng 26,626 +1.6% May 7 — bbntimes](https://www.bbntimes.com/global-economy/hong-kong-stock-exchange-hang-seng-surges-to-highest-since-february-2026-on-7-may)
+- [Nikkei 62,833 record — Japan Times](https://www.japantimes.co.jp/business/2026/05/07/markets/nikkei-surge-iran-deal/)
+- [IHSG May 7 close 7,174.32 +1.15% — Kompas](https://money.kompas.com/read/2026/05/07/162748226/ihsg-ditutup-naik-115-persen-ke-7174-saham-bbca-hingga-bbri-bersinar)
+- [IHSG range 7,107–7,207 / top losers May 7 — Warta Ekonomi](https://wartaekonomi.co.id/read610706/betah-di-zona-hijau-ihsg-hari-ini-ditutup-meroket-115-ke-level-7174)
+- [USD/IDR 17,304 May 7 — Investing.com](https://www.investing.com/currencies/usd-idr-historical-data)
+- [USD/IDR 17,512 BI Kamis May 7 — Asatunews](https://www.asatunews.co.id/kurs-rupiah-hari-ini-7-mei-2026-dolar-as)
+- [US 10Y 4.35% May 7 — Trading Economics US bond](https://tradingeconomics.com/united-states/government-bond-yield)
+- [Indo 10Y 6.81% — Trading Economics Indo bond](https://tradingeconomics.com/indonesia/government-bond-yield)
+- [Newcastle coal $132.05 May 6 — Trading Economics coal](https://tradingeconomics.com/commodity/coal)
+- [LME nickel $19,059 May 7 — Trading Economics nickel](https://tradingeconomics.com/commodity/nickel)
+- [CPO 4,541 May 7 — Trading Economics palm oil](https://tradingeconomics.com/commodity/palm-oil)
+- [Brent $101.96 May 7 +0.68% — Trading Economics Brent](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [Foreign net sell −Rp 76.39B May 7 / regular −Rp 360B / BBRI +Rp 334.8B top buy — Kontan](https://pusatdata.kontan.co.id/news/ihsg-naik-4-hari-net-sell-asing-masih-berlanjut-hari-ini-75)
+- [Foreign net buy stocks May 7 — Investing/Warta Ekonomi](https://id.investing.com/news/stock-market-news/net-sell-rp51839-miliar-ini-saham-yang-dilepas-asing-saat-ihsg-menguat-2957544)
+- [BBRI Q1 +13.7% Rp 15.5T Buy PT 4,800 — Bareksa](https://www.bareksa.com/berita/saham/2026-04-30/bbri-catat-laba-rp155-triliun-di-q1-2026-rekomendasi-buy-ini-target-harganya)
+- [Coal Q1 prints ADRO/HRUM/BUMI/PTBA — Kontan](https://investasi.kontan.co.id/news/kinerja-emiten-batubara-beragam-di-kuartal-i-2026-ini-yang-paling-untung-dan-boncos)
+- [LQ45 top gainers BRPT/KLBF/ICBP — Kontan](https://investasi.kontan.co.id/news/ihsg-melesat-14-ke-71923-di-pagi-ini-75-top-gainers-lq45-brpt-klbf-icbp)
+- [IHSG forecast May 8 MNC 6,645–7,418 / Phintraco 7,200 — Investor.id](https://investor.id/market/438301/prediksi-ihsg-dan-rekomendasi-saham-jumat-8-mei-2026)
+- [MNC reco May 8 ICBP/NCKL/PGAS/BNBR & Samuel ANTM/BUMI/BULL/INDF/SILO — search consolidated](https://investor.id/market/438301/prediksi-ihsg-dan-rekomendasi-saham-jumat-8-mei-2026)
+- [Samuel Sekuritas IHSG target cut to 7,500 — Bisnis](https://market.bisnis.com/read/20260507/7/1972157/samuel-sekuritas-pangkas-target-ihsg-ke-7500-intip-saham-jagoannya)
+- [MSCI BREN/DSSA HSC removal pending — heygotrade](https://www.heygotrade.com/en/news/msci-freezes-indonesia-index-rebalancing-threatens-bren-dssa/)
+- [BI rate held 4.75% Apr 22 — bi.go.id](https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2727425.aspx)
+- [ITMG Q1 calendar Thu May 7 — MarketScreener](https://www.marketscreener.com/quote/stock/PT-INDO-TAMBANGRAYA-MEGAH-6500080/calendar/)
+- [AKRA controller Rp 282.5B insider buy — StockWatch](https://stockwatch.id/serok-181-juta-saham-akra-pengendali-kuasai-64607-gelontorkan-dana-rp28598-miliar/)
+- [ANTM Q1 +60% net IDR 3.41T — Smartkarma](https://www.smartkarma.com/home/newswire/earnings-alerts/aneka-tambang-persero-antm-earnings-q1-net-income-surges-60-to-3-41t-rupiah/)
+- [Ciptadana ITMG upgrade BUY PT 34,200 — Bareksa](https://www.bareksa.com/berita/saham/2026-04-28/rekomendasi-itmg-upgrade-jadi-buy-di-tengah-sentimen-geopolitik-global-ini-alasannya)
+- [Property analyst rerank CTRA>BSDE>SMRA>PWON — Katadata/InvestorTrust](https://katadata.co.id/finansial/bursa/695b65f509232/prospek-saham-properti-di-2026-ctra-pwon-ssia-hingga-bsde-berpotensi-bangkit)
+
+---
