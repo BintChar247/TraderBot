@@ -1459,3 +1459,48 @@ Day 15 (Fri, post-trial Week 3 Day 5 — Weekly Review day). Equity IDR 9,918,94
 
 ---
 
+### 2026-05-11 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 16 (post-trial-window; Mon, Week 4 Day 1). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). ITMG + ADRO both open; cash 82.78% of equity. IHSG opened red (6,959.94, −0.14% from prev close 7,168.47) amid mineral royalty sentiment + pre-MSCI rebalancing pressure.
+
+- Positions evaluated: ITMG (27,300 sh @ 26,075) and ADRO (392,100 sh @ 2,550).
+- broker.sh quote: stale on both (returns entry price; market-data.sh yfinance still 403-blocked since Apr 21, GoAPI key not set — same infra condition).
+- WebSearch verified marks (multi-source cluster — TradingView / Yahoo / Investing.com / Stockanalysis):
+  - ITMG: IDR 25,475 (−0.10% 24h; unchanged from May 7/8 marks).
+  - ADRO: IDR 2,550 (TradingView/Investing.com — flat from entry; +0.80% 24h per cluster).
+
+**ITMG (HOLD):**
+- Mark: IDR 25,475 → P&L (25,475 − 26,075) / 26,075 = **−2.30%** from entry.
+- Buffer to hard-cut 24,250: (25,475 − 24,250) / 25,475 = **+4.81%** — comfortable.
+- Below +7% trail activation (27,900); below +15% tighten threshold (29,986); below +20% threshold (31,290). No tightening triggered.
+- Thesis check: Q1 2026 print release still awaited per IDX issuer norms (pre-commit carry-over from May 7 EOD: <24,250 → EXIT; >27,900 → transition to TRAILING; Q1 miss material → close on open). WebSearch surfaced KB Valbury downgrade buy→hold, PT 27,000 → 25,000 — mild adverse but offset by UBS Neutral→Buy (May 5) and BCA Sek BUY PT 30,100 (May 4) maintained; current mark 25,475 within KB's new PT. Newcastle ~$132–137 above $130 thesis floor (multi-source: Barchart 132.00 / globalCOAL 137.60 / TE 131.75). No tape break or panic gap.
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 4.81% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**ADRO (HOLD):**
+- Mark: IDR 2,550 → P&L (2,550 − 2,550) / 2,550 = **0.00%** from entry (Day 3 hold).
+- Buffer to hard-cut 2,371: (2,550 − 2,371) / 2,550 = **+7.02%** — comfortable.
+- Below +7% trail activation (2,729); below +15% tighten threshold (2,933); below +20% threshold (3,060). No tightening triggered.
+- Thesis check: Coal sector floor intact (Newcastle $132–137 above $130 thesis floor); ADRO Q1 +67.07% YoY catalyst still in effect. Next dividend ex-date June 15, 2026 (Rp166.69/sh) supports holder return profile. No adverse company-specific news in cycle.
+- Pre-mortem trigger check: 0.00% from entry; −4% intermediate pain trigger (IDR 2,448) NOT breached. Brent <$95 threshold NOT breached. Newcastle <$125 NOT breached.
+- Multi-source verification: buffer 7.02% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ITMG −2.30%, ADRO 0.00%
+- Tighten to 7% (+15%): NO — neither at +15%
+- Tighten to 5% (+20%): NO — neither at +20%
+- Thesis break: NO — ITMG Q1 print catalyst still on track (mild KB Valbury downgrade not invalidating); ADRO Q1 +67% catalyst intact; coal floor intact
+- Intraday >3% move: NO — both marks flat from prior session
+- Sector exit (2 consecutive losses): N/A — only one coal trade history (BBRI was banking, not coal)
+
+**Notification sent:** 📊 Midday 2026-05-11: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- IHSG opened −0.14% on mineral royalty + pre-MSCI rebalancing pressure; broad-market headwind but neither held name showed idiosyncratic break.
+- Carry-over watch into EOD: ITMG Q1 print release; Brent direction; IDR vs USD direction; foreign flow.
+
+---
+
