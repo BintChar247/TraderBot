@@ -1567,3 +1567,40 @@ Day 15 (Fri, post-trial Week 3 Day 5 — Weekly Review day). Equity IDR 9,918,94
 
 ---
 
+### 2026-05-18 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 21 (post-trial-window; Mon, Week 5 Day 1 — first session post-ITMG hard-cut). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). Single position open (ADRO 392,100 sh @ 2,550, Day 6 hold); cash 89.89% of equity (intentionally heavy in intensified EM-OUTFLOW regime). ITMG sold this morning 09:15 WIB at 24,150 (−7.38%, realized −IDR 52.55M); ASII candidate skipped per gate framework (distribution against tape).
+
+- Positions evaluated: ADRO (392,100 sh @ 2,550).
+- broker.sh quote: stale (returns entry price 2,550; market-data.sh yfinance still 403-blocked since Apr 21 / Day 28 of blackout, GoAPI key not set).
+- WebSearch verified marks (multi-source: TradingView / Yahoo / Investing.com / Stockanalysis / Bloomberg cluster):
+  - ADRO: cluster range 2,520–2,550 (Investing.com 2,540 / Yahoo 2,520 +0.40% / TradingView 2,550 / one outlier ad-hoc-news 2,450). **Conservative midday mark: IDR 2,520** (consistent with this morning's market-open verified mark and May 13 close; outlier 2,450 not corroborated).
+
+**ADRO (HOLD):**
+- Mark: IDR 2,520 → P&L (2,520 − 2,550) / 2,550 = **−1.18%** from entry.
+- Buffer to hard-cut 2,371: (2,520 − 2,371) / 2,520 = **+5.91%** — comfortable.
+- Below +7% trail activation (2,729); below +15% tighten threshold (2,933); below +20% threshold (3,060). No tightening triggered.
+- Thesis check: ADRO Q1 +67.07% YoY catalyst still INTACT (ADRO did not miss like ITMG; ADRO's own print was a clean beat). Coal sector partial pattern break is ITMG-specific (Q1 miss, rainfall seasonality + GPM compression at ITMG; not company-wide). Newcastle thermal coal ~$130/ton at floor per recent macro (DBS 2026 outlook flat $100–110 forward — bearish multi-quarter but spot still above $125 pre-mortem trigger). Brent recovering ~$109 (well above $95 pre-mortem). ADRO mark held above 2,500 watch trigger from this morning's plan — confirms "isolated ITMG event, ADRO thesis preserved" branch.
+- Pre-mortem trigger check: −1.18% from entry; −4% intermediate pain trigger (IDR 2,448) NOT breached (current 2,520 = +2.86% above). Brent <$95 NOT breached. Newcastle <$125 NOT breached.
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 5.91% > 1.5% trigger → standard verification suffices.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ADRO −1.18%
+- Tighten to 7% (+15%): NO — ADRO below +15%
+- Tighten to 5% (+20%): NO — ADRO below +20%
+- Thesis break: NO — ADRO Q1 +67% catalyst intact; coal floor intact ($130 spot, above $125 trigger); ITMG miss is idiosyncratic, not sector-wide
+- Intraday >3% move: NO — ADRO mark held within 2,520–2,550 cluster (flat vs morning)
+- Sector exit (2 consecutive losses): N/A — ITMG was the 1st coal loss; ADRO still open with thesis intact
+
+**Notification sent:** 📊 Midday 2026-05-18: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- ADRO held above 2,500 morning watch trigger — confirms ITMG was an idiosyncratic Q1-miss event, not coal-sector contagion. Single-name coal exposure 10.11% of equity (well below 25% EM-OUTFLOW sector cap).
+- Carry-over watch into EOD: ADRO mark vs 2,500 floor; IHSG vs 6,682 support; Newcastle thermal coal vs $125 trigger; foreign flow direction post-MSCI rebal week.
+- BI RDG May 21–22 remains key macro event of the week (hawkish-surprise risk).
+
+---
+
