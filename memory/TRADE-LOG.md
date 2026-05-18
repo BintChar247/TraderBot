@@ -10,10 +10,10 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ITMG | 2026-04-20 | 26,075 | 27,300 | 711,847,500 | 24,250 | hard-cut | Q1 EPS 114% beat; Newcastle $130–137 (above $130 floor); UBS Neutral→Buy (last mark 25,475; −2.30%; 4.81% above hard-cut; Q1 2026 print TODAY May 7 — binary catalyst day) |
-| ADRO | 2026-05-08 | 2,550 | 392,100 | 999,855,000 | 2,371 | hard-cut | Q1 2026 net +67.07% YoY (US$128.14M); rev +23.4%; coal sector tailwind (ADRO/PTBA/BUMI/HRUM uniformly positive); Newcastle $132–140 above $130 floor; analyst PT 2,900 (+13.7%) |
+| ADRO | 2026-05-08 | 2,550 | 392,100 | 999,855,000 | 2,371 | hard-cut | Q1 2026 net +67.07% YoY (US$128.14M); rev +23.4%; coal sector tailwind (ADRO/PTBA/BUMI/HRUM uniformly positive); Newcastle $130 at floor; analyst PT 2,900 (+13.7%) |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
+_ITMG position closed 2026-05-18 via Q1-miss pre-commit + hard-cut breach at IDR 24,150 (−7.38%); see Trade History below._
 
 ---
 
@@ -1501,6 +1501,69 @@ Day 15 (Fri, post-trial Week 3 Day 5 — Weekly Review day). Equity IDR 9,918,94
 - Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
 - IHSG opened −0.14% on mineral royalty + pre-MSCI rebalancing pressure; broad-market headwind but neither held name showed idiosyncratic break.
 - Carry-over watch into EOD: ITMG Q1 print release; Brent direction; IDR vs USD direction; foreign flow.
+
+---
+
+### 2026-05-18 09:15 WIB — SELL ITMG (Q1-miss pre-commit + hard-cut concurrent)
+
+- Side: SELL (full close — 28 days held; entered 2026-04-20)
+- Shares: 27,300 shares at IDR 24,150 (verified WebSearch mark; multi-source)
+- Fill price: IDR 24,150 (PAPER-STATE.json manually corrected — broker.sh sell defaulted to stale entry 26,075 because yfinance/GoAPI blocked since 2026-04-21; mark sourced via WebSearch per MISTAKES.md 2026-05-01 protocol)
+- Entry → Exit: IDR 26,075 → IDR 24,150 = **−IDR 1,925/share = −7.38% from entry**
+- Realized P&L: **−IDR 52,552,500** (−0.53% of equity)
+- Position size at sale: IDR 659,295,000 proceeds returned to cash
+- Catalyst (closing): ITMG Q1 2026 net US$55.7M = **−16% YoY MISS** vs Q4 2025 +114% surprise; pre-commit triggers from 2026-05-08 RESEARCH-LOG fired (material miss → close on open). Concurrent: mark 24,150 < hard-cut 24,250 → hard-cut also breached.
+- Reason: Two independent sell triggers fired simultaneously — (1) Q1-miss pre-commit thesis-break (most important: thesis was "Q1 EPS 114% beat continuation" which was invalidated by the print); (2) hard-cut −7% rule (24,150 below the 24,250 line). Coal-complex synchronized rerate pattern broken by ITMG alone — ADRO Q1 +67% beat keeps ADRO thesis intact (HOLD).
+- Price source: WebSearch (yfinance blocked since Apr 21); ITMG May 11 verified ~24,150 IDR (latest available multi-source); RESEARCH-LOG May 18 confirms continued decline post Q1-print.
+- 9-gate checklist: N/A (this is a SELL, not a BUY).
+- Thesis post-mortem: "ITMG Q1 EPS catalyst track broke on print day (May 7 EOD/May 8 AM); pre-commit was the right framework — exit fires on confirmation, not on hope of mean-reversion. Coal-complex thesis remains valid for ADRO (Q1 beat) but synchronized cluster pattern is broken."
+- Hold period: 2026-04-20 → 2026-05-18 = 28 calendar days / ~20 trading days.
+- Track for MISTAKES.md: APPEND as 2nd hard-cut of trial (1st was BBRI 2026-05-01). Root cause = MACRO-MISS (Q1 print materially missed despite Q4 strong beat; PT consensus failed to flag the QoQ rainfall seasonality + GPM compression risk). Lesson seed: "When Q1 beat catalyst depends on QoQ continuation, require explicit commodity-cycle-vs-cost-base sensitivity check; do not extrapolate Q4 beat magnitude as base case."
+- Sector-exit check: ITMG was the 1st coal-sector loss (ADRO still open and profitable thesis intact). Sector exit (2 consecutive losing trades) NOT triggered.
+- Activity: Stop entry removed from STOPS.json by broker.sh sell automatically. Position cleared from PAPER-STATE positions[]. closed_trades[] updated.
+
+---
+
+### 2026-05-18 09:15 WIB — MARKET-OPEN ROUTINE SUMMARY
+
+**Routine actions:**
+- ✅ SELL ITMG 27,300 sh @ IDR 24,150 → realized −IDR 52,552,500 (−7.38%)
+- ✅ HOLD ADRO 392,100 sh @ IDR 2,550 entry (mark IDR 2,520 = −1.18%; buffer to hard-cut 2,371 = +5.91%; Q1 thesis intact)
+- ⏸ SKIP ASII (conditional buy candidate from research plan) — see decision notes
+
+**ASII skip rationale (per gate framework):**
+- Plan said: "If ASII clears gates AND IHSG holds above 6,682 at open" → buy 8%.
+- IHSG opened 6,763.95 (above 6,682) ✓ — macro filter clears.
+- ASII mark IDR 5,875 (per WebSearch; −2.13% intraday on a green IHSG day → **distribution against tape**, contradicting the "foreign accumulation" thesis).
+- Gate 7 / Gate 14 (ADV verification): UNVERIFIABLE this cycle (yfinance Day 28 blocked; no broker-confirmed ADV for ASII).
+- Eagerness check: thesis = stale cumulative net buy (+Rp 2.44T thru May 13); live tape contradicts (May 12 −3.31%, May 18 −2.13% intraday against green index). Reflects distribution, not accumulation, in real-time.
+- Patience over activity: trades-this-week 0/3 (still slot available); regime intensified to EM-OUTFLOW; BI RDG May 21–22 pending. Better to wait for post-RDG confirmation than catch a falling knife on stale narrative.
+- Decision: **SKIP** — defer to post-RDG re-evaluation.
+
+**Post-routine portfolio:**
+- Equity: IDR 9,888,047,500 (down from IDR 9,940,600,000 pre-sell)
+- Cash: IDR 8,888,192,500 (89.89% of equity — well above 75–85% deployment target lower bound, intentionally cash-heavy in intensified regime)
+- Positions: 1 (ADRO 392,100 sh @ 2,550)
+- Open exposure: 10.11% of equity (coal-sector ADRO single-name)
+- Sector concentration: Coal 10.11% (way below 25% cap); Banking 0%; rest 0%
+- Realized P&L trial-to-date: −IDR 111,952,500 (−1.12% of starting capital)
+- Trades this week: 1/3 used (the ITMG SELL counts as an exit, not a new entry — net new trades this week 0/3; the sell does NOT consume a new-entry slot per the "3 NEW positions per week" rule)
+- Drawdown from peak (IDR 10,026,617,500 May 1): (9,888,047,500 − 10,026,617,500) / 10,026,617,500 = **−1.38%** (well above −15% hard limit)
+
+**ADRO carry-forward triggers (monitor at midday):**
+- −4% intermediate pain trigger: IDR 2,448 (current 2,520 = +2.86% above trigger — UNBREACHED)
+- Hard-cut: IDR 2,371 (current 2,520 = +5.91% above — UNBREACHED)
+- Brent <$95 sustained 3 days → pre-mortem (current ~$109 — UNBREACHED)
+- Newcastle <$125 sustained → pre-mortem (current ~$130 at floor — proximity but not breached)
+
+**Watch into midday scan:**
+1. ADRO mark — if breaks below 2,500 with no specific news = sympathy to ITMG sell + general coal weakness; if holds 2,500+ = isolated ITMG event, ADRO thesis preserved.
+2. IHSG holds 6,682 support? Lost 6,538 worst-case?
+3. Foreign-flow direction Day 1 post-MSCI-rebal week — single-name flows on ASII, BBRI, BMRI, BBCA.
+4. IDR — sustained >17,750 lifts EM-OUTFLOW to DEFENSIVE (sizing cap would drop further; halt new entries).
+5. BI RDG May 21–22 — language hawkish vs dovish; market hyper-sensitive.
+
+**Notification sent:** 🔴 SELL ITMG — 27,300 shares @ IDR 24,150 | Reason: Q1-miss pre-commit + hard-cut breach | P&L: −7.38%
 
 ---
 

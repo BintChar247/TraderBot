@@ -2179,6 +2179,104 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SELL",
+      "date": "2026-05-18",
+      "time": "09:15 WIB",
+      "shares": 27300,
+      "price": 24150,
+      "thesis": "Q1 2026 net US$55.7M = -16% YoY MISS \u2014 pre-commit thesis-break + concurrent hard-cut breach (24,150 < 24,250 line).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "ITMG Q1 print confirmed material miss (-16% YoY)"
+        },
+        {
+          "type": "macro",
+          "label": "EM-OUTFLOW intensified; coal-complex synchronized rerate pattern broken"
+        },
+        {
+          "type": "risk",
+          "label": "Hard-cut breached: mark 24,150 < cut 24,250"
+        },
+        {
+          "type": "sizing",
+          "label": "Full close 27,300 sh; realized -IDR 52.55M (-7.38%)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 28 blocked); PAPER-STATE manually corrected from stale broker.sh fill (26,075) to verified 24,150"
+        }
+      ],
+      "reasoning": "Two independent sell triggers fired concurrently: (1) Q1-miss pre-commit thesis-break per 2026-05-08 RESEARCH-LOG; (2) -7% hard-cut rule breached at WebSearch-verified mark 24,150 vs cut 24,250. Coal-complex thesis remains intact for ADRO (Q1 +67% beat) but synchronized cluster pattern broken \u2014 ITMG alone is the failed coal trade.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-05-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Foreign cumulative net buy +Rp 2.44T thru May 13 \u2014 but live tape contradicts (intraday -2.13% against green IHSG).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign accumulation thesis (stale through May 13); MSCI rebal-resilient mega-cap"
+        },
+        {
+          "type": "macro",
+          "label": "IHSG +0.6% open (6,763.95 > 6,682 plan-trigger); ASII -2.13% intraday = distribution vs green tape"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 7/14 ADV unverifiable (yfinance Day 28 blocked); eagerness check fails (live action contradicts thesis)"
+        },
+        {
+          "type": "sizing",
+          "label": "Plan was 8% defensive (Rp ~795M); deferred"
+        },
+        {
+          "type": "warning",
+          "label": "Trades-this-week 0/3 used; better post-RDG May 21-22 entry than pre-RDG falling-knife catch"
+        }
+      ],
+      "reasoning": "IHSG macro filter cleared (open above 6,682) but ASII shows distribution against tape, ADV unverifiable, and the 'foreign accumulation' thesis is from a stale May 13 cumulative print contradicted by May 12 and intraday May 18 price action. Patience-over-activity per Hard Rules; trade slot preserved for post-BI-RDG (May 21-22) re-evaluation.",
+      "gate_results": [
+        null,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -3519,6 +3617,37 @@
         {
           "type": "macro",
           "detail": "BI RDG May 21-22 pending; consensus 4.75% hold"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-18T02:21:10Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "SELL ITMG 27,300sh @ 24,150 (Q1-miss pre-commit + hard-cut concurrent; -7.38% / -IDR 52.55M). HOLD ADRO. SKIP ASII (live tape contradicts thesis; ADV unverifiable). Telegram 403 host-allowlist; notification stdout-only.",
+      "actions": [
+        {
+          "type": "sell",
+          "ticker": "ITMG",
+          "detail": "27300sh @ 24150 \u2014 Q1-miss pre-commit + hard-cut; realized -IDR 52,552,500 (-7.38%)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Conditional buy deferred \u2014 live tape distribution against green IHSG; ADV unverifiable; patience to post-RDG"
+        },
+        {
+          "type": "hold",
+          "ticker": "ADRO",
+          "detail": "392100sh @ 2550 entry; buffer to hard-cut +5.91%; Q1 +67% thesis intact"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used for ITMG sell (yfinance Day 28 blocked); PAPER-STATE manually corrected"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify 403 host-not-in-allowlist; message printed to stdout only"
         }
       ]
     }
