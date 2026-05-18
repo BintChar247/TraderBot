@@ -245,36 +245,38 @@
       "positions_count": 2,
       "trades_today": 1,
       "trades_this_week": 1
+    },
+    {
+      "date": "2026-05-18",
+      "day_label": "Day 21",
+      "portfolio_value": 9876284500,
+      "cash": 8888192500,
+      "daily_pnl_idr": -42663000,
+      "daily_pnl_pct": -0.43,
+      "cumulative_pnl_pct": -1.24,
+      "ihsg_close": 6472.0,
+      "ihsg_cumulative_pct": -15.22,
+      "alpha_pct": 13.98,
+      "positions_count": 1,
+      "trades_today": 1,
+      "trades_this_week": 0,
+      "note": "First EOD since May 8 \u2014 May 11-15 EOD gap (routine did not fire). Today: SELL ITMG @24,150 (-7.38% / -IDR 52.55M realized; Q1-miss + hard-cut concurrent); HOLD ADRO; SKIP ASII. IHSG ambruk -3.73% on MSCI/FTSE rebal + foreign outflow; portfolio +3.30% daily alpha via 90% cash buffer."
     }
   ],
   "positions": [
-    {
-      "ticker": "ITMG",
-      "entry_date": "2026-04-20",
-      "entry_price": 26075,
-      "shares": 27300,
-      "current_price": 26000,
-      "unrealized_pct": -0.29,
-      "hard_cut": 24250,
-      "trail_stop": null,
-      "stop_state": "hard-cut",
-      "thesis_state": "valid",
-      "catalyst_date": "2026-05-07",
-      "thesis": "Q1 2026 earnings (release per IDX issuer norms post-close May 7 / pre-market Mon May 11); coal Newcastle ~$132-140 above $130 floor; UBS Neutral->Buy May 5; BCA Sek BUY PT 30,100; pre-commit triggers all unbreached at EOD May 8; Mon pre-market re-verification priority on Q1 print"
-    },
     {
       "ticker": "ADRO",
       "entry_date": "2026-05-08",
       "entry_price": 2550,
       "shares": 392100,
-      "current_price": 2500,
-      "unrealized_pct": -1.96,
+      "current_price": 2520,
+      "unrealized_pct": -1.18,
       "hard_cut": 2371,
       "trail_stop": null,
       "stop_state": "hard-cut",
       "thesis_state": "valid",
       "catalyst_date": "2026-05-08",
-      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4%; coal sector tailwind (PTBA +105%, BUMI +34.6%, HRUM rev +14.67%); Newcastle $132-140 above $130 floor; PT 2,900 (BCA Sek/UBS cluster); div payment day May 8 mechanical cash event"
+      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4%; clean beat \u2014 ADRO did not miss like ITMG. Newcastle ~$130 at $125 pre-mortem trigger but above floor; Brent ~$109 (>$95); PT 2,900 (BCA Sek/UBS cluster). Day 10 hold; buffer to hard-cut 2,371 = +5.91%."
     }
   ],
   "trades": [
@@ -317,6 +319,16 @@
       "cost": 999855000,
       "status": "open",
       "realized_pnl_pct": null
+    },
+    {
+      "date": "2026-05-18",
+      "ticker": "ITMG",
+      "side": "sell",
+      "shares": 27300,
+      "price": 24150,
+      "cost": 659295000,
+      "status": "closed",
+      "realized_pnl_pct": -7.38
     }
   ],
   "decisions": [
@@ -2280,18 +2292,18 @@
     }
   ],
   "stats": {
-    "total_return_pct": -0.81,
-    "ihsg_return_pct": -6.1,
-    "alpha_pct": 5.29,
+    "total_return_pct": -1.24,
+    "ihsg_return_pct": -15.22,
+    "alpha_pct": 13.98,
     "win_rate_pct": 0.0,
-    "total_trades": 3,
+    "total_trades": 5,
     "winning_trades": 0,
-    "losing_trades": 1,
-    "open_trades": 2,
+    "losing_trades": 2,
+    "open_trades": 1,
     "avg_winner_pct": 0.0,
-    "avg_loser_pct": -8.28,
+    "avg_loser_pct": -7.83,
     "profit_factor": 0.0,
-    "max_drawdown_pct": -1.15,
+    "max_drawdown_pct": -1.5,
     "best_trade": null,
     "worst_trade": {
       "ticker": "BBRI",
@@ -2301,14 +2313,14 @@
     },
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9918947500,
-    "cum_return_pct": -0.81,
-    "ihsg_cum_pct": -6.1,
-    "cum_alpha_pct": 5.29,
-    "positions_count": 2,
-    "cash_pct": 82.96,
-    "trades_this_week": 1,
-    "last_updated": "2026-05-08"
+    "current_equity": 9876284500,
+    "cum_return_pct": -1.24,
+    "ihsg_cum_pct": -15.22,
+    "cum_alpha_pct": 13.98,
+    "positions_count": 1,
+    "cash_pct": 90.0,
+    "trades_this_week": 0,
+    "last_updated": "2026-05-18"
   },
   "risk": {
     "beta_ihsg": null,
@@ -2316,17 +2328,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.07,
-    "risk_budget_used_pct": 1.0,
+    "drawdown_from_peak_pct": -1.5,
+    "risk_budget_used_pct": 0.6,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.05,
-    "weekly_pnl_pct": 0.08,
+    "daily_pnl_pct": -0.43,
+    "weekly_pnl_pct": -0.43,
     "peak_equity": 10026617500,
-    "current_equity": 9918947500,
+    "current_equity": 9876284500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-08"
+    "updated": "2026-05-18"
   },
   "activity_log": [
     {
@@ -3650,19 +3662,42 @@
           "detail": "Telegram notify 403 host-not-in-allowlist; message printed to stdout only"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-18T08:20:43Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 21: IDR 9.876B (-0.43% day vs May 8 baseline). Alpha +3.30% vs IHSG -3.73%. ITMG SELL realized -52.55M (-7.38% Q1-miss/hard-cut). ADRO HOLD (-1.18%, buffer +5.91%). 1 position, 90% cash. Trades this week 0/3 new entries.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 21 EOD snapshot committed; first since May 8 EOD (May 11-15 gap)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-18T08:20:58Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-18 Day 21: IDR 9.876B (-0.43%/day vs May 8 baseline; spans EOD gap). Alpha +3.30% vs IHSG -3.73% (worst in Asia on MSCI/FTSE rebal). ITMG SELL realized -52.55M (-7.38%, Q1-miss + hard-cut). HOLD ADRO (-1.18%, buffer +5.91%). 1/6 positions, 90% cash, 0/3 new entries this week. Cumulative alpha +13.98%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 21 EOD snapshot committed; first since May 8 EOD (May 11-15 routines did not fire)"
+        }
+      ]
     }
   ],
   "exposure": {
     "sectors": {
       "coal": {
-        "pct_of_equity": 17.04,
+        "pct_of_equity": 10.0,
         "tickers": [
-          "ITMG",
           "ADRO"
         ]
       },
       "cash": {
-        "pct_of_equity": 82.96,
+        "pct_of_equity": 90.0,
         "tickers": []
       }
     },
@@ -3676,19 +3711,19 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6723.32,
-    "ihsg_change_pct": -1.98,
-    "idr_usd": 17623,
-    "idr_usd_change_pct": 1.2,
+    "ihsg": 6472.0,
+    "ihsg_change_pct": -3.73,
+    "idr_usd": 17672,
+    "idr_usd_change_pct": 0.28,
     "coal_usd": 130.0,
-    "coal_change_pct": -3.7,
+    "coal_change_pct": 0.0,
     "nickel_usd": 18580,
-    "nickel_change_pct": -5.45,
+    "nickel_change_pct": 0.0,
     "cpo_myr": 4541,
-    "cpo_change_pct": 6.06,
+    "cpo_change_pct": 0.0,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held at 4.75%; RDG May 21-22 pending; market hyper-sensitive to dovish/hawkish language as IDR hits record 17,623",
-    "asia_sentiment": "Risk-off: US S&P -1.24%, Nasdaq -1.54%, Dow -1.07% May 15 on no Trump-Xi breakthrough; Nikkei -2.00%, HK -1.62%, CSI 300 -1.12%; VIX ~18; US 10Y 4.59% +10bp fresh 1Y high",
+    "bi_rate_note": "RDG May 21-22 \u2014 Bloomberg consensus = potential hike to 5.00% to stabilize rupiah / stem capital outflow",
+    "asia_sentiment": "IHSG worst in Asia today (-3.73% on MSCI/FTSE rebal + foreign outflow); 6 Indonesian stocks removed from MSCI Global Standard; 715 stocks declined vs 90 advanced; IDR 17,672+ above 17,500 EM-OUTFLOW intensification trigger",
     "foreign_flow_idr_bn": -1410,
     "updated": "2026-05-18"
   },
@@ -3841,5 +3876,5 @@
       }
     ]
   },
-  "last_updated": "2026-05-18T00:00:00Z"
+  "last_updated": "2026-05-18T08:20:43Z"
 }

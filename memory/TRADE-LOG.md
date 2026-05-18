@@ -1604,3 +1604,60 @@ Day 15 (Fri, post-trial Week 3 Day 5 — Weekly Review day). Equity IDR 9,918,94
 
 ---
 
+### 2026-05-18 EOD — Day 21 (Post-Trial Mon, Week 5 Day 1)
+
+- Total equity: IDR 9,876,284,500 (mark-to-market: cash 8,888,192,500 + ADRO 988,092,000)
+- Daily P&L: IDR −42,663,000 (−0.43%) — vs prior EOD baseline 9,918,947,500 (May 8); spans the May 11–15 EOD gap and today's actions
+- IHSG daily: −3.73% (close 6,472 vs prev close 6,723; multi-source — asatunews / Liputan6 / CNBC Indonesia / IDNFinancials; intraday low 6,453.25 / sesi I close 6,470.35; pelemahan terdalam di Asia hari ini)
+- Daily alpha: +3.30%
+- Cash: IDR 8,888,192,500 (90.00% of equity)
+- Trades today: 1 (SELL ITMG 27,300 sh @ 24,150 at 09:15 WIB; realized −IDR 52,552,500 / −7.38%)
+- Trades this week: 0/3 new entries (ITMG SELL = exit, does not consume new-entry slot per "3 NEW positions per week" rule; ASII candidate SKIPPED)
+- Phase-to-date P&L: IDR −123,715,500 (−1.24%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,472 = −15.22%): +13.98%
+- Realized P&L (cumulative): −IDR 111,952,500 (BBRI −59.4M + ITMG −52,552,500)
+- Weekly P&L (Week 5 Day 1 — week begins today): −0.43% (= today's daily; no prior in-week baseline)
+- Drawdown from peak (10,026,617,500 May 1): −1.50% (deeper than May 8 −1.07% on ITMG hard-cut realization + IHSG −3.73% session pressure; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ADRO | 392,100 | 2,550 | 2,520 | −IDR 11,763,000 (−1.18%) | 10 |
+
+#### Notes
+
+Day 21 (Mon, post-trial Week 5 Day 1). First EOD snapshot since May 8 EOD — the May 11–15 EOD window was not executed (workspace ephemeral; routine did not fire those days). Today executes the catch-up EOD post a heavy session: ITMG hard-cut/Q1-miss SELL at 09:15 WIB locked −IDR 52.55M realized; ADRO HOLD with thesis intact; ASII conditional candidate SKIPPED per gate framework. IHSG had its worst Asian-session day on MSCI/FTSE rebalancing + foreign outflow, closing 6,472 (−3.73%) — yet portfolio outperformed by +3.30% daily (90% cash buffer absorbed the broad-market hit; single-name ADRO −1.18% vs IHSG −3.73% relative resilience as ADRO Q1 +67% catalyst remains intact).
+
+**Broker reconciliation:** `broker.sh portfolio` shows 1 position (ADRO 392,100 sh @ 2,550 entry), cash 8,888,192,500, equity 9,888,047,500 (broker stale-mark fallback using entry-price), realised_pnl −111,952,500. PAPER-STATE.json matches (1 position, 2 closed_trades: BBRI exited May 1, ITMG exited May 18). TRADE-LOG MTM equity 9,876,284,500 vs broker stale 9,888,047,500 (delta −IDR 11.76M = ADRO unrealized at 2,520 vs 2,550 entry-price fallback). Position count and shares match exactly. No state discrepancy — purely price-source lag (yfinance/GoAPI blocked since Apr 21 = Day 28 of blackout).
+
+**Mark-to-market sources (multi-source WebSearch — yfinance blocked):**
+- ADRO: IDR 2,520 (held from midday — cluster Investing.com 2,540 / Yahoo 2,520 / TradingView 2,550; conservative 2,520 preserved; one ad-hoc outlier 2,450 not corroborated, discarded). Thesis intact: Q1 +67.07% YoY catalyst clean beat; coal sector floor Newcastle ~$130 at trigger.
+- IHSG: 6,472 (sesi II final close, −3.73%; multi-source — asatunews 6,472 (−3.73%) / Liputan6 6,600-zone (−2.49% intraday earlier) / IDNFinancials 6,470.35 sesi I (−3.76%) / Warta Garut 6,453.25 (−4.02%). Conservative cluster anchor 6,472 (−3.73%) used; aligns with prior close ~6,723.
+- Newcastle thermal coal: ~$130/ton (multi-source unchanged from midday; DBS 2026 outlook still flat $100–110 forward but spot above $125 pre-mortem trigger).
+
+**Macro:** IHSG ambruk 3,73% to 6,472 — pelemahan terdalam di Asia. Triggers: (1) MSCI Global Standard/Small Cap rebalancing — 6 Indonesian stocks removed; (2) FTSE rebal pressure; (3) foreign outflow Rp ~1,410B (per dashboard macro carry); (4) IDR weakness 17,623+ (above 17,500 EM-OUTFLOW escalation trigger; Tempo reported 17,672 intraday); (5) Trump-Xi pertemuan no breakthrough sentiment carrying from US sessions; (6) BI RDG May 21–22 pending — Bloomberg consensus = potential rate hike to 5.00% (currently 4.75%) to stabilize rupiah / stem capital outflow. 715 stocks declined, 154 unchanged, 90 advanced — broad-market capitulation. Asia: Nikkei / HK / CSI all red on US risk-off carry. Asia-Pacific 10Y / VIX elevated.
+
+**ADRO specific:** Day 10 hold. Mark 2,520 = −1.18% from entry 2,550. Buffer to hard-cut 2,371: +5.91% — comfortable. Below +7% trail activation (2,729), below +15% / +20% tighten thresholds. ADRO held above 2,500 morning watch floor across open / midday / EOD — confirms isolated ITMG event (Q1-miss specific), not coal-sector contagion. Q1 +67.07% catalyst intact; June 15 dividend ex-date (Rp 166.69/sh) supports holder base.
+
+**Pre-mortem trigger check (ADRO):** −4% intermediate pain (IDR 2,448) NOT breached (current 2,520 = +2.86%). Brent ~$109 (NOT <$95 threshold). Newcastle ~$130 (NOT <$125 threshold; at floor, watch carefully). All ADRO pre-commit triggers unbreached.
+
+**RISK ALERTS: NONE.**
+- Daily P&L −0.43% — far from −2% cap.
+- ADRO −1.18% — far from −6% warning / −7% hard-cut.
+- Drawdown from peak −1.50% — well above −15% hard limit.
+- Weekly P&L −0.43% — far from −5% reduction trigger (Week 5 Day 1).
+- Trading NOT halted.
+
+**Sector exposure:** Coal 10.00% (ADRO only) of equity; cash 90.00%. Banking sector empty since BBRI hard-cut May 1; mining sector ITMG cleared this morning. Single-name coal exposure well below 25% EM-OUTFLOW sector cap.
+
+**Watch Tue May 19 (next session):**
+1. **BI RDG May 21–22 pre-positioning** — last day before T−2 to RDG; market hyper-sensitive; Bloomberg consensus = hike to 5.00%; hawkish surprise = rupiah relief but bank-sector pressure; dovish surprise = rupiah crisis escalation.
+2. **MSCI/FTSE rebalancing aftermath** — Day 1 post-rebal selling exhausted? Or follow-through bleed?
+3. **IDR vs USD** — current 17,623–17,672; sustained >17,750 lifts to DEFENSIVE regime (new halt new entries).
+4. **ADRO mark vs 2,500** — if breaks 2,500 on follow-through coal weakness (Newcastle <$125), reassess; if holds, thesis fully preserved.
+5. **Foreign flow** — net buy/sell direction continuing — outflow intensification keeps EM-OUTFLOW intensified.
+6. **IHSG vs 6,453 (today's intraday low)** — break = continuation; hold = reflex bounce candidate.
+
+---
+
