@@ -3464,6 +3464,63 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ITMG -2.30%, ADRO 0.00%. No cuts triggered. No stops tightened."
+    },
+    {
+      "timestamp": "2026-05-18T00:16:02Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-05-18 (Mon): Scanned 50 watchlist tickers. Regime reverts EM-OUTFLOW INTENSIFIED (all 4 May-8 RECOVERING triggers reversed). ITMG Q1 confirmed MISS (US$55.7M -16% YoY) \u2014 pre-commit fires EXIT on open. ADRO HOLD (Q1 +67% intact, buffer +5.91%). 12 candidates scored \u22656 led by ASII (foreign net buy +Rp 2.44T), GOTO (first-ever Q1 profit), SMGR carry. Plan: SELL ITMG; HOLD ADRO; defer new entries pre-RDG May 21-22 except possible ASII if gates clear.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (all watchlist)"
+        },
+        {
+          "type": "research",
+          "detail": "12 candidates scored \u22656 (ASII, GOTO, SMGR, AKRA, JSMR, KLBF, ICBP, TLKM, MTEL, SMRA, AALI, PTBA)"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "score 7/10 \u2014 foreign net buy +Rp 2.44T cumulative thru May 13, single biggest accumulation"
+        },
+        {
+          "type": "research",
+          "ticker": "GOTO",
+          "detail": "score 7/10 \u2014 first-ever Q1 net profit Rp 171B; rev +26%"
+        },
+        {
+          "type": "research",
+          "ticker": "SMGR",
+          "detail": "score 7/10 \u2014 Q1 +88.7% carry; pullback entry zone \u22641,950"
+        },
+        {
+          "type": "warning",
+          "ticker": "ITMG",
+          "detail": "Q1 confirmed MISS US$55.7M -16% YoY; pre-commit triggers EXIT on open; buffer \u22643% to hard-cut 24,250"
+        },
+        {
+          "type": "hold",
+          "ticker": "ADRO",
+          "detail": "mark 2,520; -0.30% from entry; buffer +5.91% to hard-cut 2,371; Q1 +67% thesis intact"
+        },
+        {
+          "type": "macro",
+          "detail": "Regime EM-OUTFLOW INTENSIFIED \u2014 all 4 May-8 shift triggers reversed (IDR 17,623 record-high, no BI dovish, foreign net sell -Rp 1.41T BMRI, IHSG -3.53% week)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG closed 6,723.32 May 13 (-1.98% / week -3.53%); IDX closed May 14-15 Ascension Day"
+        },
+        {
+          "type": "macro",
+          "detail": "MSCI rebalance effective May 29: AMMN/BREN/TPIA/DSSA/CUAN/AMRT removed \u2014 ~$1.8B passive outflow"
+        },
+        {
+          "type": "macro",
+          "detail": "BI RDG May 21-22 pending; consensus 4.75% hold"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -3490,113 +3547,170 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 7168.47,
-    "ihsg_change_pct": -0.08,
-    "idr_usd": 17414,
-    "idr_usd_change_pct": 0.08,
-    "coal_usd": 135.0,
-    "coal_change_pct": 0.0,
-    "nickel_usd": 19652.25,
-    "nickel_change_pct": 0.09,
-    "cpo_myr": 4650,
-    "cpo_change_pct": 1.0,
+    "ihsg": 6723.32,
+    "ihsg_change_pct": -1.98,
+    "idr_usd": 17623,
+    "idr_usd_change_pct": 1.2,
+    "coal_usd": 130.0,
+    "coal_change_pct": -3.7,
+    "nickel_usd": 18580,
+    "nickel_change_pct": -5.45,
+    "cpo_myr": 4541,
+    "cpo_change_pct": 6.06,
     "bi_rate": 4.75,
-    "bi_rate_note": "Held at 4.75%; April CPI 2.42% + Q1 GDP 5.61% beat keep cut runway open; next RDG mid-May",
-    "asia_sentiment": "Risk-on US (S&P +1.46%, Nasdaq +2.02%, Dow +1.24% \u2014 fresh records on Iran-US deal hopium; VIX ~17.4); Asia mixed (Shanghai +1.17%, HK -0.80%, JP closed Golden Week); Brent crash -6.96% to $102.22",
-    "foreign_flow_idr_bn": -518,
-    "updated": "2026-05-08"
+    "bi_rate_note": "Held at 4.75%; RDG May 21-22 pending; market hyper-sensitive to dovish/hawkish language as IDR hits record 17,623",
+    "asia_sentiment": "Risk-off: US S&P -1.24%, Nasdaq -1.54%, Dow -1.07% May 15 on no Trump-Xi breakthrough; Nikkei -2.00%, HK -1.62%, CSI 300 -1.12%; VIX ~18; US 10Y 4.59% +10bp fresh 1Y high",
+    "foreign_flow_idr_bn": -1410,
+    "updated": "2026-05-18"
   },
   "research": {
-    "date": "2026-05-07",
+    "date": "2026-05-18",
     "headlines": [
       {
         "ticker": "ITMG",
-        "headline": "Q1 2026 earnings release TODAY (Thu May 7) \u2014 binary catalyst day; held position; 6.91% buffer to hard-cut 24,250",
-        "sentiment": "neutral-binary",
-        "source": "MarketScreener calendar",
-        "url": "https://www.marketscreener.com/quote/stock/PT-INDO-TAMBANGRAYA-MEGAH-6500080/calendar/"
-      },
-      {
-        "ticker": "SMGR",
-        "headline": "Q1 2026 net +88.7% YoY (Rp 80B); revenue Rp 8.29T (+8.3%); volume 8.71M tons; cost discipline confirmed; +4.5% on May 5",
-        "sentiment": "bullish",
-        "source": "Kompas / StockWatch",
-        "url": "https://money.kompas.com/read/2026/05/04/150530126/semen-indonesia-smgr-cetak-laba-naik-887-persen-per-kuartal-i-2026"
-      },
-      {
-        "ticker": "UNVR",
-        "headline": "Q1 2026 net +73% YoY (Rp 2.1T headline; +14.1% normalised continuing ops Rp 1.3T); +8.84% breakout May 6 to IDR 1,785; ice-cream divest dividend pending June EGMS",
-        "sentiment": "bullish",
-        "source": "Investing.com Warta Ekonomi / Unilever PR",
-        "url": "https://id.investing.com/news/stock-market-news/unilever-unvr-raih-penjualan-rp84-triliun-di-kuartal-i-2026-laba-naik-73-2955235"
-      },
-      {
-        "ticker": "AKRA",
-        "headline": "Controlling shareholder PT Arthakencana Rayatama bought 181M shares for Rp 282.5B over May 4-6 at 1,520-1,580 (lifted stake to 64.607%); stock +2.63% to IDR 1,560",
-        "sentiment": "bullish",
-        "source": "StockWatch / Liputan6",
-        "url": "https://stockwatch.id/serok-181-juta-saham-akra-pengendali-kuasai-64607-gelontorkan-dana-rp28598-miliar/"
-      },
-      {
-        "ticker": "BRENT",
-        "headline": "Brent crude crashed -6.96% to $102.22 \u2014 geopolitical premium fully unwound; net constructive for IDR/CPI; kills MEDC/PGAS oil sympathy thesis",
-        "sentiment": "bearish-energy",
-        "source": "Trading Economics Brent",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        "headline": "Q1 2026 net US$55.7M (\u221216% YoY) \u2014 MATERIAL MISS. Rev \u22123% QoQ; vol \u22127% QoQ (rainfall); GPM compression. Coal-cluster Q1 rerate pattern broken. Pre-commit triggers EXIT on open.",
+        "sentiment": "bearish-thesis-break",
+        "source": "Investortrust",
+        "url": "https://investortrust.id/market/103175/laba-indo-tambangraya-itmg-turun-ke-us-55-70-juta-di-kuartal-i-2026-ini-pemicunya"
       },
       {
         "ticker": "IHSG",
-        "headline": "IHSG +0.50% to 7,092.46 May 6 (3-day rally); basic materials sector +1.91% led, financials -0.64%, health -0.65%; foreign net sell -IDR 518B May 5 continues",
-        "sentiment": "mixed",
-        "source": "Trading Economics JCI / Cetro",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
+        "headline": "IHSG \u22121.98% to 6,723.32 May 13; week \u22123.53%; market cap menguap Rp 581T; MSCI rebalancing churn (6 mega-caps removed); IDX closed Thu-Fri Ascension Day",
+        "sentiment": "bearish",
+        "source": "Bisnis",
+        "url": "https://market.bisnis.com/read/20260513/7/1973587/rebalancing-msci-ihsg-ditutup-melemah-ke-level-672332-hari-ini-135"
       },
       {
-        "ticker": "ANTM",
-        "headline": "Q1 2026 net IDR 3.41T (+60% YoY); revenue IDR 29.32T (+12% YoY); LME nickel firm at $19,652; carries forward as CANDIDATE",
+        "ticker": "IDR",
+        "headline": "USD/IDR 17,623 record-high May 18 (+1.20% from 17,414 May 8 anchor); crossed 17,500 sustained trigger \u2014 EM-OUTFLOW intensified",
+        "sentiment": "bearish",
+        "source": "exchange-rates.org",
+        "url": "https://www.exchange-rates.org/exchange-rate-history/usd-idr-2026"
+      },
+      {
+        "ticker": "MSCI",
+        "headline": "MSCI removes AMMN, BREN, TPIA, DSSA, CUAN, AMRT from Global Standard Indexes effective close May 29; modelled passive outflow ~$1.8B; BSDE removed from MSCI SmallCap",
+        "sentiment": "bearish",
+        "source": "Tempo / heygotrade",
+        "url": "https://en.tempo.co/read/2103366/msci-removes-6-indonesian-stocks-from-global-standard-index"
+      },
+      {
+        "ticker": "ASII",
+        "headline": "Foreign investors net buy +Rp 2.44T cumulative thru May 13 \u2014 single largest single-name accumulation during MSCI selloff week. Remains in MSCI Global Standard.",
         "sentiment": "bullish",
-        "source": "Smartkarma earnings alert",
-        "url": "https://www.smartkarma.com/home/newswire/earnings-alerts/aneka-tambang-persero-antm-earnings-q1-net-income-surges-60-to-3-41t-rupiah/"
+        "source": "Asatunews",
+        "url": "https://www.asatunews.co.id/investor-asing-borong-saham-asii"
+      },
+      {
+        "ticker": "GOTO",
+        "headline": "Q1 2026 first-ever net profit Rp 171B (vs \u2212Rp 367B Q1 25); rev Rp 5.34T +26% YoY; +7.55% post-print to Rp 57; FY EBITDA guidance Rp 3.2-3.4T maintained",
+        "sentiment": "bullish",
+        "source": "Indopremier / Seeking Alpha",
+        "url": "https://seekingalpha.com/article/4895058-pt-goto-gojek-tokopedia-tbk-2026-q1-results-earnings-call-presentation"
+      },
+      {
+        "ticker": "BMRI",
+        "headline": "Largest single-name foreign net sell of the week \u2212Rp 1.41T; \u22126.87% week to Rp 4,200; MSCI churn collateral; banking-sector pressure",
+        "sentiment": "bearish",
+        "source": "Kontan banking outlook",
+        "url": "https://keuangan.kontan.co.id/news/menakar-prospek-saham-big-banks-bbca-bbri-bmri-bbni-pasca-pengumuman-msci"
+      },
+      {
+        "ticker": "NICKEL",
+        "headline": "LME nickel $18,580 May 15 \u22121.90%; off recent $19,600 peak; below $19K narrative threshold; INCO \u22123.29%, MDKA \u22124.88%, ANTM \u22126.44% confirm sector pressure",
+        "sentiment": "bearish-nickel",
+        "source": "Trading Economics nickel",
+        "url": "https://tradingeconomics.com/commodity/nickel"
+      },
+      {
+        "ticker": "COAL",
+        "headline": "Newcastle thermal coal $130/ton May 11 \u2014 at $130 thesis floor; eased from $135.6 May 4; proximity risk to ADRO/PTBA/HRUM/BUMI pre-mortem triggers",
+        "sentiment": "bearish-coal",
+        "source": "Trading Economics coal",
+        "url": "https://tradingeconomics.com/commodity/coal"
+      },
+      {
+        "ticker": "REGIME",
+        "headline": "Regime reverts EM-OUTFLOW / RISK-CAUTIOUS \u2014 INTENSIFIED. All four May-8 'shift to RISK-NEUTRAL' triggers reversed: IDR record-high, no BI dovish, heavy foreign net sell, IHSG broke 7,200. Drop max position cap 15%\u219212% this week.",
+        "sentiment": "bearish",
+        "source": "self / MACRO-REGIME.md update pending",
+        "url": "https://tradingeconomics.com/indonesia/stock-market"
       }
     ],
     "top_candidates": [
       {
+        "ticker": "ASII",
+        "score": 7,
+        "conviction": "MEDIUM",
+        "catalyst": "Foreign net buy +Rp 2.44T cumulative thru May 13 \u2014 biggest single-name accumulation; remains MSCI"
+      },
+      {
+        "ticker": "GOTO",
+        "score": 7,
+        "conviction": "MEDIUM",
+        "catalyst": "First-ever Q1 profit Rp 171B; rev +26%; structural break-even moment"
+      },
+      {
         "ticker": "SMGR",
-        "score": 8,
+        "score": 7,
         "conviction": "MEDIUM",
-        "catalyst": "Q1 +88.7% net beat + cement sector reflation; Maybank top pick"
-      },
-      {
-        "ticker": "UNVR",
-        "score": 8,
-        "conviction": "MEDIUM",
-        "catalyst": "Q1 +73% net + ice-cream divest dividend June EGMS; chase blocked at +8.84%"
-      },
-      {
-        "ticker": "ANTM",
-        "score": 8,
-        "conviction": "MEDIUM",
-        "catalyst": "Q1 +60% net; LME nickel firm; ADV verification needed"
+        "catalyst": "Q1 +88.7% beat carry; cement reflation; pullback re-entry zone \u22641,950"
       },
       {
         "ticker": "AKRA",
-        "score": 7,
-        "conviction": "MEDIUM",
-        "catalyst": "Controlling shareholder Rp 282.5B 3-day insider buy completed May 4-6"
-      },
-      {
-        "ticker": "ITMG",
-        "score": 7,
-        "conviction": "MEDIUM",
-        "catalyst": "HOLD \u2014 Q1 earnings TODAY (binary)"
-      },
-      {
-        "ticker": "INTP",
         "score": 6,
         "conviction": "LOW-MEDIUM",
-        "catalyst": "Cement sympathy to SMGR Q1 beat"
+        "catalyst": "Controller Rp 282.5B insider buy; price now 1,455 below 1,500 trigger \u2014 pre-mortem partially fired"
+      },
+      {
+        "ticker": "JSMR",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "PE 7x vs 5-yr 14.5x; P/B 0.8x; PT 5,200; BI RDG May 21-22 rate-cut leverage"
+      },
+      {
+        "ticker": "KLBF",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "Defensive healthcare; PT 1,710 (+88%); near 52-week low Rp 910"
+      },
+      {
+        "ticker": "ICBP",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "Consumer staples defensive bid in EM-OUTFLOW; PT 11,500"
+      },
+      {
+        "ticker": "TLKM",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "Telco yield uplift + BI RDG rate-cut sensitivity; LQ45 defensive"
+      },
+      {
+        "ticker": "MTEL",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "Tower fiber pivot; PT 860 (+69% upside); rate-cut beneficiary"
+      },
+      {
+        "ticker": "SMRA",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "Property top-pick; townships Serpong/Bekasi; rate-cut sensitivity"
+      },
+      {
+        "ticker": "AALI",
+        "score": 6,
+        "conviction": "MEDIUM",
+        "catalyst": "CPO ref +6.06% MoM; Q1 +28.5% net; biodiesel mandate; R:R near threshold"
+      },
+      {
+        "ticker": "PTBA",
+        "score": 6,
+        "conviction": "LOW-MEDIUM",
+        "catalyst": "Q1 +105% beat intact; sector concentration cap binding; ITMG miss broke cluster"
       }
     ]
   },
-  "last_updated": "2026-05-08T08:20:13Z"
+  "last_updated": "2026-05-18T00:00:00Z"
 }
