@@ -2289,6 +2289,251 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-05-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco defensive rotation flagship +4.05% on -1.85% IHSG day; score 7.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation; foreign-flow into telco yield-defensives"
+        },
+        {
+          "type": "macro",
+          "label": "Regime escalating to DEFENSIVE; BI RDG May 21-22 binary 2 sessions out"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.48:1 at 3,080 \u2014 SUB-THRESHOLD <2:1; would need pullback to <=2,950"
+        },
+        {
+          "type": "sizing",
+          "label": "Defensive-track SUSPENDED per regime; would have been 10% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "Day 29 yfinance blackout; ADV unverifiable"
+        }
+      ],
+      "reasoning": "Defer post-RDG. Day-1 reflex chase into hawkish-surprise binary 2 sessions out is exactly what patience-over-activity rules out. R:R sub-threshold even before considering RDG tail risk.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-05-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Idiosyncratic foreign-flow flagship +4.35% on red day; score 7.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign cumulative net buy +Rp 2.44T thru May 13; UNTR Rp 3.86T final-div carry"
+        },
+        {
+          "type": "macro",
+          "label": "Astra-complex consolidation as defensive blue-chip; RDG hawkish-surprise binary"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.67:1 at 6,000 \u2014 SUB-THRESHOLD; tightens to 2:1 only at <=5,860"
+        },
+        {
+          "type": "sizing",
+          "label": "Defensive-track SUSPENDED per regime; would have been 8-10% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "Day 29 yfinance blackout; ADV unverifiable"
+        }
+      ],
+      "reasoning": "Defer post-RDG. Same gate framework that SKIPPED ASII on May 18 still binds \u2014 chase into RDG uncertainty fails patience-over-activity. Re-research post-RDG May 22 pre-market.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-05-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Insider accumulation Rp 282.5B + div yield 6.87%; held green +0.69% on red day; score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Insider buy 6-8 week leading indicator; div ex-May 7 past"
+        },
+        {
+          "type": "macro",
+          "label": "Regime escalating DEFENSIVE; RDG binary T-2"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.51:1 at 1,465 \u2014 SUB-THRESHOLD; tightens to 2:1 only at <=1,440"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 8% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "Day 29 yfinance blackout; ADV unverifiable"
+        }
+      ],
+      "reasoning": "Defer pre-RDG. R:R sub-threshold; revisit if pullback to <=1,440 with cleared regime post-RDG.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-05-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive bank flagship +0.41% on -1.85% day; only big bank green; score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG May 21-22 binary; hawkish=BBCA outperforms peers (lower NIM beta)"
+        },
+        {
+          "type": "macro",
+          "label": "Regime escalating DEFENSIVE; defensive-track SUSPENDED"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.10:1 at 6,125 \u2014 WELL SUB-THRESHOLD <2:1"
+        },
+        {
+          "type": "sizing",
+          "label": "Defensive-track SUSPENDED; would have been 8% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "Day 29 yfinance blackout; P/B 4.5x+ valuation rich"
+        }
+      ],
+      "reasoning": "Defer pre-RDG. R:R well sub-threshold; defensive-track suspended per regime. Revisit only on pullback to <=5,800.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-05-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO tailwind +2.31% to 4,522 MYR + Q1 +28.5%; div Rp 458 paid May 13; score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO uptrend + biodiesel mandate; ringgit-weak headline tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "Regime escalating DEFENSIVE; CPO is rare green commodity"
+        },
+        {
+          "type": "risk",
+          "label": "Price not freshly verified (last 8,125 May 4); Gate 9 chase ceiling unverifiable"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 8% of equity; sector overlap consideration"
+        },
+        {
+          "type": "warning",
+          "label": "Day 29 yfinance blackout; ADV unverifiable; no fresh quote"
+        }
+      ],
+      "reasoning": "Defer pre-RDG. Cannot price-verify entry; gate 9 not testable without fresh quote. Lowest priority given sector overlap with held ADRO position.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -3729,6 +3974,48 @@
         {
           "type": "regime",
           "detail": "Regime escalating EM-OUTFLOW-INTENSIFIED \u2192 likely DEFENSIVE pending BI RDG May 21-22; 3 of 4 triggers met"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-19T02:17:21Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 5 top candidates (TLKM, ASII, AKRA, BBCA, AALI) WATCH-defer-post-RDG (May 21-22). Regime escalating to DEFENSIVE; IHSG broke 6,682 support (closed 6,599); IDR breached 17,500 / 17,700 intraday record. ADRO HOLD intact (mark 2,520, buffer to hard-cut +5.91%). Trades this week: 0/3 used.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "R:R 1.48:1 sub-threshold; defensive-track suspended; defer post-RDG"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "R:R 1.67:1 sub-threshold; defer post-RDG May 22"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "R:R 1.51:1 sub-threshold; defer pre-RDG"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "R:R 1.10:1 well sub-threshold; defensive-track suspended"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "Price not freshly verified; gate 5/9 untestable"
+        },
+        {
+          "type": "hold",
+          "ticker": "ADRO",
+          "detail": "392,100 sh @ 2,550; mark 2,520; buffer to hard-cut 2,371 +5.91%; thesis Q1 +67% intact"
+        },
+        {
+          "type": "warning",
+          "detail": "Day 29 yfinance blackout; ADV unverifiable for all candidates; WebSearch fallback binding"
         }
       ]
     }
