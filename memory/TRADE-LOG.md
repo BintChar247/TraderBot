@@ -1661,3 +1661,40 @@ Day 21 (Mon, post-trial Week 5 Day 1). First EOD snapshot since May 8 EOD — th
 
 ---
 
+### 2026-05-19 11:30 WIB — MIDDAY SCAN (no action)
+
+**Context:** Day 22 (post-trial-window; Tue, Week 5 Day 2 — T−2 to BI RDG May 21–22). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). Single position open (ADRO 392,100 sh @ 2,550, Day 11 hold); cash 89.89% of equity. IHSG opened soft (6,568–6,576 cluster; −0.35–0.46% from prior close 6,599.24) — modest red, not capitulation; market pre-positioning ahead of BI RDG hawkish-surprise binary.
+
+- Positions evaluated: ADRO (392,100 sh @ 2,550).
+- broker.sh quote: stale (returns entry price 2,550; market-data.sh yfinance still 403-blocked since Apr 21 / Day 29 of blackout, GoAPI key not set).
+- WebSearch verified marks (multi-source: TradingView / Investing.com / Stockanalysis / Yahoo / Bloomberg cluster):
+  - ADRO: cluster 2,540–2,550 today (TradingView 2,550 +0.80% 24h / Investing.com 2,540 / day range 2,500–2,550). One outlier source (Investasiku) showed range 2,350–2,440 / open 2,390 / −3.08% 24h — INCONSISTENT with broader cluster + with IHSG only opening −0.4%; not corroborated by any other source; DISCARDED per multi-source verification protocol. **Conservative midday mark: IDR 2,540** (cluster anchor, supports IHSG-relative resilience pattern observed since May 18).
+
+**ADRO (HOLD):**
+- Mark: IDR 2,540 → P&L (2,540 − 2,550) / 2,550 = **−0.39%** from entry.
+- Buffer to hard-cut 2,371: (2,540 − 2,371) / 2,540 = **+6.65%** — comfortable.
+- Below +7% trail activation (2,729); below +15% tighten threshold (2,933); below +20% threshold (3,060). No tightening triggered.
+- Thesis check: ADRO Q1 +67.07% YoY catalyst still INTACT. Coal sector pre-mortem triggers unbreached — Newcastle ~$131.70/ton (above $125 floor; per yesterday's RESEARCH-LOG); Brent ~$107.71 (above $95 floor). Mark holds above 2,500 watch trigger from yesterday's morning plan — confirms ITMG idiosyncratic-event branch; ADRO thesis fully preserved. June 15 dividend ex-date (Rp 166.69/sh) supports holder base into RDG event window.
+- Pre-mortem trigger check: −0.39% from entry; −4% intermediate pain trigger (IDR 2,448) NOT breached (current 2,540 = +3.62% above). Brent <$95 NOT breached. Newcastle <$125 NOT breached. ADRO break of 2,500 morning watch trigger NOT breached.
+- Multi-source verification (per MISTAKES.md 2026-05-01 lesson): buffer 6.65% > 1.5% trigger → standard verification suffices. Outlier source discarded; cluster anchor used.
+- Action: NONE.
+
+**Decision matrix this run:**
+- Hard cut (-7%): NO — ADRO −0.39%
+- Tighten to 7% (+15%): NO — ADRO below +15%
+- Tighten to 5% (+20%): NO — ADRO below +20%
+- Thesis break: NO — Q1 +67% catalyst intact; coal floor intact; mark holds 2,500 watch trigger
+- Intraday >3% move: NO confirmed — single outlier source flagged −3.08% but cluster shows flat-to-slightly-up; discarded as data noise
+- Sector exit (2 consecutive losses): N/A — ITMG was 1st coal loss; ADRO thesis intact
+
+**Notification sent:** 📊 Midday 2026-05-19: All positions healthy. No action taken.
+
+**Notes:**
+- No commit-worthy state changes other than this midday log entry.
+- Stops ledger unchanged; broker positions unchanged; PAPER-STATE unchanged.
+- ADRO held above 2,500 morning watch trigger — second consecutive session preserving "ITMG idiosyncratic event, not coal-sector contagion" branch.
+- T−2 to BI RDG May 21–22 — market hyper-sensitive; patience over activity holds (trades this week 0/3, no new entries pre-RDG per yesterday's RESEARCH-LOG plan).
+- Carry-over watch into EOD: ADRO mark vs 2,500 floor; IHSG vs 6,470 (May 18 sesi-I low) / 6,453 (May 18 intraday low); IDR vs 17,750 DEFENSIVE-escalation trigger; Newcastle vs $125; foreign flow direction; BI RDG pre-positioning tone.
+
+---
+
