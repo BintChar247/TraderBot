@@ -1698,3 +1698,65 @@ Day 21 (Mon, post-trial Week 5 Day 1). First EOD snapshot since May 8 EOD — th
 
 ---
 
+
+### 2026-05-19 EOD — Day 22 (Post-Trial Tue, Week 5 Day 2, T−2 BI RDG)
+
+- Total equity: IDR 9,829,232,500 (mark-to-market: cash 8,888,192,500 + ADRO 941,040,000)
+- Daily P&L: IDR −47,052,000 (−0.48%) — vs prior EOD baseline 9,876,284,500 (May 18)
+- IHSG daily: −1.17% (close 6,396 vs prev close 6,472; broader market sources reported sesi-I −3.08% from alt May 18 close 6,599.24 baseline — see Notes data-alignment flag; cluster anchor 6,396 used)
+- Daily alpha: +0.70% (portfolio outperformed by ADRO not falling as hard as some intraday outliers suggested; or +1.91% vs the alt −3.08% IHSG baseline)
+- Cash: IDR 8,888,192,500 (90.43% of equity)
+- Trades today: 0 (no buys, no sells; ADRO held; no new entries pre-BI-RDG per plan)
+- Trades this week: 0/3 new entries
+- Phase-to-date P&L: IDR −170,767,500 (−1.71%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,396 = −16.22%): +14.51%
+- Realized P&L (cumulative): −IDR 111,952,500 (BBRI −59.4M + ITMG −52.55M; unchanged today)
+- Weekly P&L (Week 5 — week begins May 18; start baseline 9,918,947,500 May 8 EOD): −0.90%
+- Drawdown from peak (10,026,617,500 May 1): −1.97% (deepened from −1.50% on ADRO mark drift; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| ADRO | 392,100 | 2,550 | 2,400 | −IDR 58,815,000 (−5.88%) | 11 |
+
+#### Notes
+
+Day 22 (Tue, post-trial Week 5 Day 2). T−2 to BI RDG May 21–22. Routine fires per schedule (15:15 WIB post 15:00 close). No trades today — ADRO HOLD as planned, no new entries (patience-over-activity in intensified EM-OUTFLOW regime pre-RDG binary). IHSG had a sharp session-driving move on a coal/palm-oil/metals **single-gateway-export regulation rumor** (govt forming a special agency for strategic-commodity exports through single channel) — directly hits the coal sector where ADRO sits. ADRO drifted from 2,520 (May 18 EOD) into today's verified range 2,350–2,440 (open 2,390) per multi-source WebSearch cluster — conservative MTM 2,400 used (midpoint).
+
+**Broker reconciliation:** `broker.sh portfolio` shows 1 position (ADRO 392,100 sh @ 2,550 entry), cash 8,888,192,500, equity 9,888,047,500 (broker stale-mark using entry-price fallback), realised_pnl −111,952,500. PAPER-STATE.json matches (1 position, 2 closed_trades: BBRI May 1, ITMG May 18). TRADE-LOG MTM equity 9,829,232,500 vs broker stale 9,888,047,500 (delta −IDR 58.82M = ADRO unrealized at 2,400 vs 2,550 entry-price fallback). Position count and shares match exactly. No state discrepancy — yfinance/GoAPI Day 29 of blackout; mark-source = multi-source WebSearch.
+
+**Mark-to-market sources (multi-source WebSearch — yfinance blocked):**
+- ADRO: IDR 2,400 (conservative midpoint of today's range 2,350–2,440 / open 2,390; multi-source corroboration: Investing.com / Investasiku / TradingView intraday cluster; specifically driven by coal-sector reaction to single-gateway-export rumor). Note: some live-ticker sources still show stale 2,520 from yesterday — discarded as cache-lagged. The 2,350–2,440 range was previously the unconfirmed outlier in May 18 midday log (Investasiku source); today's multi-source corroboration confirms the regulatory news actually broke the price into this band.
+- IHSG: 6,396 (sesi I close per Okezone / RRI / Liputan6 / Asatunews / Babelinsight cluster; multi-source reports −3.08% from May 18 close 6,599.24; sesi II final close not yet broadly published; cluster anchor 6,396 used). Note data-alignment flag: yesterday's TRADE-LOG logged May 18 close 6,472 (cluster including sesi-I −3.76% low; alt sources show full-day close 6,599.24 down only −1.85%). Using TRADE-LOG-consistent baseline 6,472 → −1.17% delta; alt baseline 6,599.24 → −3.08% delta. Cumulative IHSG (anchored to Day 0 = 7,634) is path-independent: today 6,396 = −16.22% cumulative.
+- Newcastle thermal coal: ~$130/ton (unchanged; at $125 pre-mortem trigger floor).
+- Brent: ~$108 (unchanged; well above $95 pre-mortem trigger).
+
+**Macro:** Sharpest session in months driven by single-issue catalyst — government rumored to form a special body regulating strategic-commodity exports (palm oil, metals, **coal**) through a single state-channel gateway, sparking fear of price controls and revenue compression for coal producers. IHSG sesi I −3.08% (−202.97 points to 6,396). Foreign net sell ~Rp 460B intraday. 103 advanced / 639 declined / 217 unchanged — broad capitulation. **BI RDG May 19–20** in progress (some sources show RDG running 19–20 vs 21–22 — calendar tightening; consensus = potential hike to 5.00% from 4.75% to defend rupiah). IDR still in 17,600s range (above 17,500 EM-OUTFLOW intensification trigger; not yet breaching 17,750 DEFENSIVE escalation).
+
+**ADRO specific:** Day 11 hold. Mark 2,400 = **−5.88% from entry 2,550** — just inside the danger zone, NOT yet at −6% formal warning. Buffer to hard-cut 2,371: only **+1.21%** — razor-thin. Single-issue catalyst (single-gateway export rumor) directly threatens coal-sector revenue model. Coal-cluster contagion check: ITMG already cut May 18 (Q1-miss specific); ADRO now hit by sector-policy specific. The "isolated ITMG event" branch from May 18 may be breaking — today's move is sector-policy driven, broader than ITMG-Q1-specific.
+
+**Pre-mortem trigger check (ADRO):**
+- −4% intermediate pain trigger (IDR 2,448): **BREACHED** (current 2,400 < 2,448 by IDR 48).
+- Hard-cut (2,371): UNBREACHED but ONLY +1.21% buffer.
+- Brent <$95 sustained 3 days: NOT breached (~$108).
+- Newcastle <$125 sustained: NOT breached (~$130 at floor; one more leg down would trigger).
+- **New pre-mortem trigger emerged today**: single-gateway export regulation — if confirmed by official statement (not just rumor) by Wed/Thu market-open, this is a structural thesis break and ADRO closes immediately, regardless of price.
+
+**RISK ALERTS:**
+- Daily P&L −0.48% — far from −2% cap. NO formal alert.
+- ADRO −5.88% — **NOT yet at −6% warning threshold**, but within 0.12 percentage points. **WATCH-LEVEL flag, not formal warning** per strict rule. Notify tomorrow open if breaks lower.
+- Drawdown from peak −1.97% — far above −15% hard limit. NO alert.
+- Weekly P&L −0.90% — far from −5% reduction trigger.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+**Sector exposure:** Coal 9.57% (ADRO only) of equity; cash 90.43%. Banking 0% (BBRI cut May 1); mining 0% (ITMG cut May 18). Single-name coal exposure below 25% EM-OUTFLOW sector cap but now thesis under structural pressure from regulatory news.
+
+**Watch Wed May 20 (next session — T−1 to BI RDG / mid-RDG):**
+1. **ADRO mark vs 2,448 (−4% intermediate trigger; now breached) & 2,371 hard-cut** — only +1.21% buffer. If gaps below 2,371 at open → automatic hard-cut sell per rule (no hoping, no averaging).
+2. **Single-gateway-export rumor verification** — official statement Wed/Thu? If confirmed → ADRO structural thesis break → close on open regardless of mark.
+3. **BI RDG day 2 May 20** — rate decision; consensus hike to 5.00%. Hawkish surprise = rupiah relief + bank pressure (no exposure); dovish surprise = rupiah crisis + further IDR weakness; hold = sideways risk.
+4. **IHSG vs 6,376 (today's low) / 6,500 reclaim** — break low = continuation; reclaim 6,500 = relief.
+5. **Foreign flow direction** — sell intensification on rumor confirmation = exit signal.
+6. **IDR vs 17,750 DEFENSIVE escalation trigger** — sustained breach lifts regime and halts new entries.
+

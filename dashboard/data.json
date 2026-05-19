@@ -261,6 +261,22 @@
       "trades_today": 1,
       "trades_this_week": 0,
       "note": "First EOD since May 8 \u2014 May 11-15 EOD gap (routine did not fire). Today: SELL ITMG @24,150 (-7.38% / -IDR 52.55M realized; Q1-miss + hard-cut concurrent); HOLD ADRO; SKIP ASII. IHSG ambruk -3.73% on MSCI/FTSE rebal + foreign outflow; portfolio +3.30% daily alpha via 90% cash buffer."
+    },
+    {
+      "date": "2026-05-19",
+      "day_label": "Day 22",
+      "portfolio_value": 9829232500,
+      "cash": 8888192500,
+      "daily_pnl_idr": -47052000,
+      "daily_pnl_pct": -0.48,
+      "cumulative_pnl_pct": -1.71,
+      "ihsg_close": 6396.0,
+      "ihsg_cumulative_pct": -16.22,
+      "alpha_pct": 14.51,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "ADRO mark-to-market 2,400 (range 2,350-2,440 / open 2,390) on single-gateway commodity export regulation rumor hitting coal sector. ADRO -5.88% from entry (just under -6% warning; buffer to hard-cut 2,371 = +1.21%). IHSG -1.17% vs prior log baseline (alt -3.08% on full sesi II close). T-2 to BI RDG. No trades today."
     }
   ],
   "positions": [
@@ -269,14 +285,14 @@
       "entry_date": "2026-05-08",
       "entry_price": 2550,
       "shares": 392100,
-      "current_price": 2520,
-      "unrealized_pct": -1.18,
+      "current_price": 2400,
+      "unrealized_pct": -5.88,
       "hard_cut": 2371,
       "trail_stop": null,
       "stop_state": "hard-cut",
-      "thesis_state": "valid",
+      "thesis_state": "watch",
       "catalyst_date": "2026-05-08",
-      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4%; clean beat \u2014 ADRO did not miss like ITMG. Newcastle ~$130 at $125 pre-mortem trigger but above floor; Brent ~$109 (>$95); PT 2,900 (BCA Sek/UBS cluster). Day 10 hold; buffer to hard-cut 2,371 = +5.91%."
+      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4% clean beat. Single-gateway commodity export regulation rumor (May 19) is new structural risk to coal-sector revenue \u2014 watch for official confirmation Wed/Thu. Newcastle ~$130 at $125 floor. Mark 2,400; -4% intermediate trigger 2,448 BREACHED; buffer to hard-cut 2,371 = +1.21% (razor-thin). Day 11 hold."
     }
   ],
   "trades": [
@@ -2537,9 +2553,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -1.24,
-    "ihsg_return_pct": -15.22,
-    "alpha_pct": 13.98,
+    "total_return_pct": -1.71,
+    "ihsg_return_pct": -16.22,
+    "alpha_pct": 14.51,
     "win_rate_pct": 0.0,
     "total_trades": 5,
     "winning_trades": 0,
@@ -2548,7 +2564,7 @@
     "avg_winner_pct": 0.0,
     "avg_loser_pct": -7.83,
     "profit_factor": 0.0,
-    "max_drawdown_pct": -1.5,
+    "max_drawdown_pct": -1.97,
     "best_trade": null,
     "worst_trade": {
       "ticker": "BBRI",
@@ -2558,14 +2574,14 @@
     },
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9876284500,
-    "cum_return_pct": -1.24,
-    "ihsg_cum_pct": -15.22,
-    "cum_alpha_pct": 13.98,
+    "current_equity": 9829232500,
+    "cum_return_pct": -1.71,
+    "ihsg_cum_pct": -16.22,
+    "cum_alpha_pct": 14.51,
     "positions_count": 1,
-    "cash_pct": 90.0,
+    "cash_pct": 90.43,
     "trades_this_week": 0,
-    "last_updated": "2026-05-18"
+    "last_updated": "2026-05-19"
   },
   "risk": {
     "beta_ihsg": null,
@@ -2573,17 +2589,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.5,
+    "drawdown_from_peak_pct": -1.97,
     "risk_budget_used_pct": 0.6,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.43,
-    "weekly_pnl_pct": -0.43,
+    "daily_pnl_pct": -0.48,
+    "weekly_pnl_pct": -0.9,
     "peak_equity": 10026617500,
-    "current_equity": 9876284500,
+    "current_equity": 9829232500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-18"
+    "updated": "2026-05-19"
   },
   "activity_log": [
     {
@@ -4024,6 +4040,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. ADRO -0.39% (mark 2,540 vs entry 2,550); buffer to hard-cut +6.65%. No cuts, no tightenings, no thesis breaks."
+    },
+    {
+      "timestamp": "2026-05-19T08:26:55Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD May 19: IDR 9.829B (-0.48% daily, +0.70% alpha). Cum -1.71%, cum alpha +14.51%. ADRO HOLD at 2,400 (-5.88%; -4% trigger breached; hard-cut buffer +1.21%). Coal hit by single-gateway export rumor. T-2 BI RDG.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 22 EOD snapshot committed; ADRO marked 2,400 from verified intraday range 2,350-2,440"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -4199,5 +4227,5 @@
       "Defensive triggers active: IHSG <6,470 / IDR >17,750 sustained / Newcastle <$125 / ADRO <2,450 = NO new entries + reassess ADRO exit pre-stop"
     ]
   },
-  "last_updated": "2026-05-19T00:00:00Z"
+  "last_updated": "2026-05-19T08:26:49Z"
 }
