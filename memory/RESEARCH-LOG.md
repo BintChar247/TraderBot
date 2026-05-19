@@ -3738,3 +3738,322 @@ Two-track scoring applied. Prices below are last-verified WebSearch marks (multi
 - [BI rate held 4.75% Apr — Bank Indonesia / ING](https://think.ing.com/snaps/bank-indonesia-keeps-rates-steady-as-rupiah-weakness-threatens-to-delay-easing/)
 
 ---
+
+## 2026-05-19 (Tuesday)
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,403.05 | −0.07% | 10Y at 1-yr high; inflation re-acceleration fears |
+| Nasdaq | 26,090.73 | −0.51% | Bond yields drag growth/tech |
+| Dow | 49,686.12 | +0.32% | Energy / defensives outperform on Iran/oil surge |
+| Nikkei 225 | 60,815.95 | −0.97% | Carry from US risk-off; lifted slightly off lows |
+| Hang Seng | n/a | n/a | Source not surfaced; carry assumed risk-off |
+| Shanghai | n/a | n/a | Source not surfaced |
+| VIX | 17.82 | −3.31% | Mid-band; not a fear print despite yield run |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (May 18 sesi II close) | 6,599.24 | −1.85% (−124.07 pts) | Sesi I had touched 6,470.34 (−3.76%) / intraday low 6,434 (−4.30%); reflex bounce sesi II; reconciles to TRADE-LOG (which used sesi-I/intraday mark 6,472) |
+| IDR/USD | 17,500+ (record-low; intraday 17,700) | −1%+ | "USD/IDR conquers 17,700" / breached EM-OUTFLOW 17,500 escalation trigger |
+| Indo 10Y SUN yield | 6.81% | flat | Off 6.96% May 5 peak; pressure persists pre-RDG |
+| US 10Y yield | 4.61–4.63% | +14bp wk | 1-year high; reignites EM-funding pressure |
+| Indo-US spread | ~218bp | tighter | Compression continues; bearish IDR / EM equities |
+| Newcastle coal (USD/ton) | 131.70 | −1pt vs May 11 | At/above $130 thesis floor; below $135.6 May 4 peak |
+| CPO palm oil (MYR/ton) | 4,522 | +2.31% | Strongest in months; weak ringgit + soyoil firm |
+| LME nickel (USD/ton) | 18,555 | −0.13% | One-month low; demand weakness in China |
+| Brent crude (USD/bbl) | 107.71 | −1.42% | Off intraday $110+; Iran tension ongoing |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX May 18) | −Rp 464B | Net sell; reg market −Rp 460.34B + cash/nego −Rp 3.65B |
+| Foreign flow streak | net-sell extended | MSCI rebal wave May 13 → ongoing; Day 21 cumulative outflow |
+| Top foreign net-sell stocks | ANTM −Rp 315B, BREN −Rp 152.5B, AMMN −Rp 149.1B | Mining + conglomerate complex hardest hit |
+| Top foreign net-buy stocks | not surfaced in search | — |
+
+### Sector Momentum (May 18 read)
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | MIXED | BI hike risk (consensus 5.00%); BBCA defended green, big banks red | BBCA (+0.41%), BBRI/BMRI/BBNI (−1.7–1.9%) |
+| Coal / Energy | NEUTRAL-WEAK | Newcastle $131 at floor; spec-buy ranges signal weak tape | ADRO held |
+| Nickel / Mining | BEARISH | LME $18.5K below $19K; ANTM −12% intraday; sector −8.14% on day | ANTM, INCO, MDKA |
+| CPO / Agri | CONSTRUCTIVE | CPO +2.31% to 4,522 MYR; ringgit weak tailwind | AALI, LSIP |
+| Property | BEARISH | Risk-off; broker rec stale; BI hike-risk hurts pre-sales | BSDE, CTRA, SMRA, PWON |
+| Consumer | DEFENSIVE-MIXED | IDR record-low hurts UNVR/ICBP imports; SIDO defensive insulated | UNVR, ICBP, INDF |
+| Telco | STRONG | TLKM +4.05% to 3,080 — defensive rotation flagship | TLKM, MTEL, TOWR |
+| Infrastructure | WEAK | Sector −4.16%; JSMR ~2,960 (24h −5.73%) | JSMR |
+| Heavy Equip/Auto | STRONG | ASII +4.35% to 6,000 (foreign rotation/idiosyncratic flow); UNTR partial −2.79% intraday | ASII, UNTR |
+| Healthcare | BEARISH | Sector −3.84% session | KLBF, MIKA |
+| Cement | NEUTRAL | SMGR last verified 2,070 (May 13) — no fresh print | SMGR, INTP |
+
+### Corporate Calendar Today (May 19) / This Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| BI RDG May 21–22 (Thu–Fri) | macro | T−2 / T−3 | HIGH — Bloomberg/economist consensus = potential hike to 5.00% to defend IDR; hawkish surprise risk |
+| MSCI rebalancing effective close | macro | May 29 (T−10) | HIGH — passive outflow $1.6–1.8B continues to weigh; AMMN/BREN/TPIA/DSSA/CUAN/AMRT pass-through pressure |
+| ADRO div ex-date (Rp 106/sh, USD 197.5M tot) | ADRO | (paid May 8 — past) | mechanical — supports holder base only |
+| ADRO 2nd interim div (Rp 166.69/sh) | ADRO | ex-June 15 | mid-term holder support |
+
+### Watchlist Scan — All 50 Tickers (May 18 close marks, multi-source WebSearch)
+
+Score 1–10 (10 = strongest buy). Apply sector momentum filter; regime DEFENSIVE-escalating → defensive-track suspended per TRADING-STRATEGY.md.
+
+| # | Ticker | Sector | Price (IDR) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,125 | +0.41% | 6 | Defensive flagship; only big bank green on −1.85% IHSG day; BI hike risk binary | WATCH (defensive-track SUSPENDED per regime) |
+| 2 | BBRI | Banking | 3,060 | −1.92% | 4 | Hard-cut burn May 1 (sector exit 1/2 strike); BI hike risk; foreign net-sell carry | SKIP |
+| 3 | BMRI | Banking | 4,130 | −1.67% | 3 | Heaviest foreign net-sell wk1 (Rp 1.41T); MSCI churn carry | SKIP |
+| 4 | BBNI | Banking | 3,800 | −1.81% | 4 | Same complex as BMRI; BI hike risk | SKIP |
+| 5 | BNGA | Banking | 1,690 | +0.90% | 4 | Mid-cap bank; thin liquidity | WATCH |
+| 6 | NISP | Banking | 1,300 | −2.62% | 3 | Thin liquidity; thesis-less | SKIP |
+| 7 | BBTN | Banking | 1,270 | −5.22% | 3 | Worst-of-sector; momentum bear | SKIP |
+| 8 | ADRO | Coal | 2,520 (held mark) | est. flat | n/a | HELD 392,100 sh @ 2,550; Q1 +67% intact; buffer to hard-cut 2,371 +5.91% | HOLD |
+| 9 | ITMG | Coal | 24,150 (sold) | n/a | n/a | EXITED May 18 09:15 WIB — pre-commit Q1-miss thesis-break | n/a (closed) |
+| 10 | PTBA | Coal | est. ~2,800 (Apr ref 2,830) | n/a | 5 | Q1 +105% intact but ITMG miss broke synchronized rerate pattern; sector cap binding | WATCH-defer-post-RDG |
+| 11 | BUMI | Coal | not surfaced | n/a | 4 | Q1 +34.6% beat; volume/ADV unverifiable; coal-complex weight | WATCH |
+| 12 | HRUM | Coal | not surfaced | n/a | 4 | Q1 rev +14.67%; smaller-cap; coal sector cap binding | WATCH |
+| 13 | MEDC | Energy/O&G | not surfaced | n/a | 4 | Brent volatility on Iran; sector consolidation | SKIP |
+| 14 | PGAS | Gas/Energy | not surfaced | n/a | 5 | Defensive yield play; no fresh catalyst | WATCH |
+| 15 | ANTM | Nickel | est. 3,300–3,500 (intraday low 3,080 = −12%) | down sharp | 3 | Top foreign net-sell Rp 315B; LME $18.5K below threshold; sector −8.14% | SKIP |
+| 16 | INCO | Nickel | not surfaced (last verified May 13 ~5,875 −3.29%) | est. down | 3 | Sector bearish; smelter policy uncertain | SKIP |
+| 17 | MDKA | Nickel/Copper | not surfaced (last verified May 13 ~2,730 −4.88%) | est. down | 3 | Same sector wedge | SKIP |
+| 18 | NCKL | Nickel | not surfaced (last 1,050 May 11) | n/a | 3 | Smelter policy carryover; sector bearish | SKIP |
+| 19 | MBMA | Nickel | not surfaced (last 615 May 11) | n/a | 3 | Smaller-cap; sector bearish | SKIP |
+| 20 | TINS | Metals/Tin | not surfaced (last 3,640 May 11) | n/a | 4 | Royalty postponement helped earlier; no fresh print | WATCH |
+| 21 | UNVR | Consumer | not surfaced | n/a | 4 | IDR record-low hurts imported raw; EGMS chase past | SKIP |
+| 22 | ICBP | Consumer | not surfaced | n/a | 5 | Defensive consumer; IDR drag balanced by domestic mix | WATCH-defer-post-RDG |
+| 23 | INDF | Consumer | not surfaced | n/a | 5 | Same complex as ICBP, hybrid CPO exposure | WATCH-defer-post-RDG |
+| 24 | MYOR | Consumer | not surfaced | n/a | 4 | No fresh print | WATCH |
+| 25 | SIDO | Consumer | not surfaced | n/a | 5 | Defensive jamu/herbal; insulated from IDR; no fresh print | WATCH |
+| 26 | TLKM | Telco | 3,080 | +4.05% | 7 | DEFENSIVE ROTATION FLAGSHIP — green on −1.85% IHSG day; foreign rotation candidate post-RDG | CANDIDATE-defer-post-RDG |
+| 27 | EXCL | Telco | not surfaced | n/a | 4 | Sector positive but post-merger consolidation | WATCH |
+| 28 | ISAT | Telco | ~2,350 (carry) | n/a | 4 | Same complex; ARPU pressure | WATCH |
+| 29 | MTEL | Telco/Tower | ~610 (carry) | n/a | 5 | PT 860 (+69%) Katadata; defensive tower play; thin liquidity | WATCH |
+| 30 | TOWR | Telco/Tower | ~555 (carry) | n/a | 4 | Sector rotation play; thin liquidity | WATCH |
+| 31 | BSDE | Property | not surfaced | n/a | 3 | MSCI SmallCap removal pressure | SKIP |
+| 32 | CTRA | Property | not surfaced | n/a | 4 | Insentif PPN tailwind diluted by BI-hike risk | WATCH |
+| 33 | SMRA | Property | not surfaced | n/a | 4 | TrenAsia top pick but RDG binary | WATCH-defer-post-RDG |
+| 34 | PWON | Property | not surfaced | n/a | 4 | Same sector wedge | WATCH |
+| 35 | GOTO | Tech | ~50 | flat | 5 | Q1 first profit Rp 171B (Apr 29 print, +7.55%); penny-name; thin band | WATCH |
+| 36 | BUKA | Tech | not surfaced | n/a | 3 | Penny ticker; no near-term catalyst | SKIP |
+| 37 | EMTK | Tech/Media | ~815 (May 5 carry) | n/a | 4 | Media; thin liquidity | SKIP |
+| 38 | ASII | Auto/Industrial | 6,000 | +4.35% | 7 | IDIOSYNCRATIC FOREIGN FLOW — green on red day; +Rp 2.44T cumulative net buy thru May 13; was SKIPPED-pre-RDG at May 18 market-open per gate framework | CANDIDATE-defer-post-RDG |
+| 39 | UNTR | Heavy Equip | ~26,150 (intraday −2.79%) | down | 4 | UNTR Cairkan Dividen Final Rp 3.86T (today/this week per babelinsight); Agincourt issue overhang | WATCH |
+| 40 | AKRA | Distribution | 1,465 | +0.69% | 6 | Insider +Rp 282.5B accumulation May 4–6; quarterly div Rp 25 ex-May 7; held green on red day | CANDIDATE-defer-post-RDG |
+| 41 | AALI | Plantation | not surfaced | n/a | 6 | Q1 +28.5%; CPO +2.31% +6.06% MoM tailwind; div Rp 458 paid May 13 | CANDIDATE-defer-post-RDG |
+| 42 | LSIP | Plantation | not surfaced | n/a | 5 | CPO tailwind shared; smaller-cap | WATCH |
+| 43 | JSMR | Infrastructure | ~2,960 (24h −5.73%) | down | 4 | Infrastructure sector −4.16%; PE 7x vs 5-yr avg 14.5x value | WATCH |
+| 44 | WSKT | Construction | not surfaced | n/a | 2 | BUMN Karya merger carry; weak fundamentals | SKIP |
+| 45 | PTPP | Construction | not surfaced | n/a | 3 | Same complex; merger overhang | SKIP |
+| 46 | ADHI | Construction | not surfaced | n/a | 2 | Same complex; thin | SKIP |
+| 47 | KLBF | Healthcare | not surfaced | n/a | 5 | PT 1,710 — defensive; sector −3.84% session | WATCH |
+| 48 | MIKA | Healthcare | not surfaced | n/a | 5 | PT 3,450 — defensive; sector pressure | WATCH |
+| 49 | SMGR | Cement | not surfaced (last 2,070 May 13) | n/a | 5 | Q1 +88.7% Maybank top pick; cement consolidation; thin liquidity | WATCH-defer-post-RDG |
+| 50 | INTP | Cement | not surfaced | n/a | 4 | Same sector; thinner ADV | WATCH |
+
+**Tally:** 50 screened. 5 candidates scoring ≥6 (BBCA-6, TLKM-7, ASII-7, AKRA-6, AALI-6). PTBA-5, ICBP-5, INDF-5, SIDO-5, MTEL-5, GOTO-5, KLBF-5, MIKA-5, SMGR-5, PGAS-5 in WATCH band.
+
+**Defensive Quality Track check (per TRADING-STRATEGY.md):** Regime escalating toward DEFENSIVE → defensive-track SUSPENDED. No BBCA/BBRI/BMRI/BBNI/TLKM/ASII/UNVR/ICBP/ADRO eligibility this session. Re-check after BI RDG resolves (May 22 weekly review).
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+#### 1. TLKM — Telco defensive rotation flagship, score 7
+
+**Fundamental case:**
+- Thesis: PT Telkom Indonesia. Defensive blue-chip; data revenue/ARPU stable; was green +4.05% on a −1.85% IHSG / −3.76% sesi-I day — confirms foreign rotation into defensive yield-paying telcos.
+- Thesis: Sector tailwind from Katadata 2026 outlook ranking MTEL/TOWR; TLKM as anchor name.
+- Valuation: P/E mid-teens vs sector; dividend yield typically 5–6%; long-term own-history P/B not verified this session.
+- Catalyst: Defensive rotation continuation IF BI hawkish surprise May 21–22 → rate-up = telco yield-defensive bid; defensive-flow flag from May 18 tape (green on red day).
+- Analyst view: Katadata outlook 2026 cites TLKM as anchor (no fresh PT surfaced).
+- Insider activity: not surfaced.
+
+**Technical context:**
+- Price: IDR 3,080 (May 18 close) | 50-day MA: not verified | 200-day MA: not verified
+- Volume: not verified
+- Support: 2,950 (recent base) | Resistance: 3,150–3,200 zone
+- Trend: short-term reflex up off broad-market low
+
+**Trade plan:**
+- Entry: 3,000–3,080 (post-RDG; current session 3,080 = Gate 9 chase ceiling)
+- Stop: 2,864 (−7% from 3,080)
+- Target: 3,400 (+10.4%) — sector continuation if BI dovish, OR defensive bid if hawkish
+- R:R ratio: 1.48:1 — **SUB-THRESHOLD** (<2:1); needs tighter entry zone <2,950 to clear gate
+- Position size: 10% of equity (regime DEFENSIVE-escalating cap)
+- Conviction: MEDIUM (catalyst is reactive to RDG, not predictive)
+- ADV: not verifiable under data-infra block; would need broker.sh quote at market-open + WebSearch verification
+
+**Action: WATCH — defer entry until BI RDG resolves AND TLKM pulls back to ≤2,950 for ≥2:1 R:R.** Do NOT chase post Day-1 reflex.
+
+#### 2. ASII — Idiosyncratic foreign-flow flagship, score 7
+
+**Fundamental case:**
+- Thesis: PT Astra International. Idiosyncratic foreign net-buy carry: +Rp 2.44T cumulative thru May 13 per Asatunews; closed +4.35% to 6,000 on a broadly red day — confirms thesis. UNTR (Astra heavy-eq subsidiary) Rp 3.86T final-div this week is additional capital-return signal to the Astra complex.
+- Catalyst: Foreign-rotation continuation; UNTR div carry-on; Astra-complex consolidation as defensive blue-chip.
+- Valuation: P/E single-digits typical; P/B sub-1.5x; well below sector median historically. Long-term own-history mean not sourced this session.
+- Catalyst-track score: 7 (foreign-flow + price-action confirmed; idiosyncratic alpha).
+- Analyst view: not surfaced this session.
+- Insider activity: not surfaced.
+
+**Technical context:**
+- Price: IDR 6,000 (May 18 close, +4.35%) | 50-day MA: not verified | 200-day MA: not verified
+- Volume: above-average (move +4.35% on red-day requires participation)
+- Support: 5,700–5,800 (May 13 base) | Resistance: 6,150–6,300 zone
+- Trend: Reflex-up; mean-reverting from May 11–13 weakness
+
+**Trade plan:**
+- Entry: 5,900–6,000 (Gate 9 ceiling 6,180); ideally pullback to 5,800
+- Stop: 5,580 (−7%)
+- Target: 6,700 (+11.7%) — Astra-complex consolidation top of recent range
+- R:R ratio: 1.67:1 — **SUB-THRESHOLD** at 6,000; tightens to 2:1 at entry ≤5,860
+- Position size: 8–10% of equity (regime DEFENSIVE-escalating cap)
+- Conviction: MEDIUM (foreign-flow flag is real but binary on BI hawkish surprise)
+- ADV: not verifiable under data-infra block
+
+**Action: WATCH — defer entry until BI RDG resolves AND ASII pulls back ≤5,860.** Do NOT chase Day-1 reflex into RDG uncertainty.
+
+#### 3. AKRA — Insider accumulation + dividend yield, score 6
+
+**Fundamental case:**
+- Thesis: PT AKR Corporindo. Insider/controlling shareholder accumulation Rp 282.5B May 4–6 per StockWatch; quarterly div Rp 25 ex-May 7 (yield ~6.87%); held green +0.69% to 1,465 on a −1.85% IHSG day.
+- Catalyst: Insider buy is a 6–8 week leading indicator typically; div ex-date already past; reflex from May 13 base 1,490 area.
+- Valuation: distribution/fuel infra; defensive cash-flow; P/E not surfaced this session.
+- Analyst view: not surfaced this session.
+
+**Technical context:**
+- Price: IDR 1,465 (May 18 close) | 50-day MA: not verified | 200-day MA: not verified
+- Volume: not verified
+- Support: 1,420 | Resistance: 1,520
+- Trend: range-bound 1,420–1,520 since insider-buy disclosure
+
+**Trade plan:**
+- Entry: 1,420–1,465 (Gate 9 ceiling 1,508)
+- Stop: 1,362 (−7%)
+- Target: 1,620 (+10.6%) — insider-buy follow-through median 2–3 mo
+- R:R ratio: 1.51:1 — **SUB-THRESHOLD** at current 1,465; tightens to 2:1 at entry ≤1,440
+- Position size: 8% of equity
+- Conviction: MEDIUM
+- ADV: not verifiable
+
+**Action: WATCH — defer pre-RDG; revisit if entry pulls to ≤1,440 with ≥2:1 R:R after BI tone lands.**
+
+#### 4. BBCA — Defensive bank flagship, score 6
+
+**Fundamental case:**
+- Thesis: PT Bank Central Asia. Only big bank to close green (+0.41%) on a −1.85% IHSG day; confirms defensive-flagship status. Core deposit franchise; CASA-led NIM resilience even into BI rate-up.
+- Catalyst: BI RDG May 21–22 binary — hawkish surprise = BBCA outperforms peer big banks (lower beta to NIM compression); dovish = sector relief rally.
+- Valuation: rich vs sector — P/B 4.5x+ typical; would need own-history valuation check for defensive-track eligibility (suspended in DEFENSIVE regime anyway).
+
+**Trade plan:**
+- Entry: 6,000–6,125 (Gate 9 ceiling 6,309); ideally pullback to 5,950
+- Stop: 5,696 (−7%)
+- Target: 6,600 (+7.7%) — sector defensive-bid post-RDG
+- R:R ratio: 1.10:1 — **WELL SUB-THRESHOLD**; needs entry ≤5,800 for 2:1
+- Position size: 8% of equity
+- Conviction: MEDIUM-LOW (defensive-rich; reward asymmetric upside)
+
+**Action: WATCH — sub-threshold R:R; defer pre-RDG; revisit only on pullback to ≤5,800.** Defensive-quality track suspended per regime.
+
+#### 5. AALI — CPO tailwind + Q1 +28.5%, score 6
+
+**Fundamental case:**
+- Thesis: PT Astra Agro Lestari. CPO +2.31% to 4,522 MYR/ton today / +6.06% MoM USD 1,049/ton; Q1 +28.5% net per Kabar Bursa; dividend Rp 458/sh paid May 13. CPO is one of the few commodities GREEN in this complex (vs coal at floor, nickel at low, Brent down −1.42%).
+- Catalyst: CPO uptrend continuation + biodiesel mandate Indonesia tailwind; ringgit-weak helping headline price.
+- Valuation: not deep-dived this session; uses prior research (PE mid-teens).
+
+**Trade plan:**
+- Entry: not freshly priced (last verified 8,125 May 4 / Gate 9 ceiling 8,369). **Requires fresh quote at market-open before any action.**
+- Stop: ~−7%
+- Target: 9,200 (+13% sector continuation)
+- R:R: ~1.7:1 if entry ≤8,000 — sub-threshold; needs tighter entry
+- Position size: 8% of equity (regime cap)
+- Conviction: MEDIUM
+- ADV: not verifiable
+
+**Action: WATCH — fresh price required before scoring entry. Defer pre-RDG; lowest-priority sector concentration risk if added to held ADRO.**
+
+---
+
+### Held Position Updates
+
+- **ADRO**: Last verified mark IDR 2,520 (May 18 EOD, conservative cluster mark per TRADE-LOG; cluster 2,520–2,550 from Investing.com / Yahoo / TradingView). Position 392,100 sh @ 2,550 entry = unrealized **−1.18%**. Buffer to hard-cut 2,371: **+5.91%** comfortable. Below +7% trail activation (2,729); below +15% (2,933) / +20% (3,060) tighten thresholds. **Thesis check:** Q1 +67.07% YoY clean beat intact; coal sector ITMG-miss is idiosyncratic (rainfall seasonality + GPM compression at ITMG only), not company-wide. Newcastle $131.70 at floor (above $125 pre-mortem trigger). Brent $107.71 (above $95 pre-mortem trigger). CPO +2.31% supportive of broader commodities tape. Pre-mortem triggers (Brent <$95 sustained 3d, Newcastle <$125 sustained, ADRO at −4% intermediate-pain IDR 2,448 within 5 days) **all unbreached**. Multi-source verification per MISTAKES.md: buffer 5.91% > 1.5% trigger → standard verification suffices. Technical: above 2,500 watch floor across Open/Midday/EOD May 18. **Action: HOLD.** Action escalates to MULTI-SOURCE-VERIFY at 11:30 WIB midday if Day 11 mark drifts to 2,450 (within 3.3% of hard-cut).
+
+### Macro Regime Assessment
+
+**Regime: ESCALATING — EM-OUTFLOW-INTENSIFIED → likely DEFENSIVE (formal label change pending weekly-review May 22).**
+
+- Reasoning: IDR breached the 17,500 EM-OUTFLOW escalation trigger and pierced 17,700 intraday (record low); IHSG broke the 6,682 May 18 morning support and closed at 6,599.24 (below 6,682); foreign net sell extended into Day 21 of MSCI/FTSE rebal wave (Rp 464B today); ANTM crashed −12% intraday with Rp 315B foreign net-sell on it alone; sector heatmap: basic-mat −8.14%, transport −6.12%, industrial −4.76%, infrastructure −4.16%, healthcare −3.84% — all sectors red. BBCA / TLKM / ASII green is the textbook DEFENSIVE rotation signature, NOT a risk-on reversal.
+- Three of the four "shift from EM-OUTFLOW to DEFENSIVE" criteria appear met:
+  1. IDR broke 17,500 sustained ✓ (now 17,500+ / intraday 17,700+ record)
+  2. IHSG broke key 6,682 support ✓ (closed 6,599.24)
+  3. Foreign flow continues net-sell ✓
+  4. BI signal awaited — RDG May 21–22 hawkish surprise = full DEFENSIVE confirmation
+- Position sizing adjustment: **drop max position size to 10% of equity on any new entry until BI RDG resolves.** Apply RISK-STATE.json max_position_pct edit at next state-write.
+- Defensive Quality Track: SUSPENDED per TRADING-STRATEGY.md (regime would be DEFENSIVE one-notch up). No BBCA/BBRI/BMRI/BBNI/TLKM/ASII/UNVR/ICBP/ADRO defensive-track entries this session.
+- Risk implication: drawdown from peak now −1.50%; any move that takes it above −5% triggers immediate defensive review.
+
+### Flagged Risks
+
+- **BI RDG May 21–22 hawkish-surprise** — Bloomberg/economist consensus = potential hike to 5.00% from 4.75% to defend rupiah; market hyper-sensitive. Hawkish surprise pushes regime to FULL DEFENSIVE; dovish surprise = rupiah crisis escalation (worse outcome).
+- **IDR record-low 17,500+ / 17,700+ intraday** — broke EM-OUTFLOW escalation; capital-outflow accelerating; reserve depletion (BI spent $8.3B Q1; reserves $148.2B end-March). Consumer-import names (UNVR/ICBP raw-material drag), MSCI churn names hurt.
+- **IHSG broke 6,682 support — closed 6,599.24** — next support 6,270 / 6,148 (MNC); 6,307–6,379 test target (Bisnis). If gaps below 6,470 (sesi-I low May 18) at open: defensive day, no new entries.
+- **Foreign outflow continuation** — Day 21 of MSCI/FTSE wave; passive outflow $1.6–1.8B continues to weigh through May 29 effective close. ANTM −Rp 315B today / AMMN −Rp 149.1B / BREN −Rp 152.5B leading.
+- **LME nickel $18,555 below $19K narrative threshold** — nickel sector confirmed bearish; ANTM/INCO/MDKA/NCKL/MBMA all SKIP.
+- **Coal Newcastle $131.70 at floor** — proximity to $130 thesis floor uncomfortable; ADRO pre-mortem trigger $125 not yet breached but watch-list.
+- **US 10Y at 4.61–4.63% 1-year high** — keeps Indo-US compression noise; hawkish global rate backdrop.
+- **Brent $107.71 down −1.42%** but Iran-tension volatility ongoing.
+- **Data infra block — Day 29 of yfinance blackout / GoAPI not set.** All ticker prices today WebSearch-only; ADV unverifiable. Hard constraint on any new entry. Multi-source verification protocol per MISTAKES.md 2026-05-01 binding on any near-hard-cut position.
+- **Trades this week 0/3 used** — patience over activity. Expected use this week ≤1 (only if post-RDG tape clearly clears all 15 gates and regime stabilizes).
+
+### Plan for /market-open (2026-05-19, Tue)
+
+- [ ] **HOLD ADRO 392,100 sh** — Q1 +67% catalyst intact; buffer +5.91%; all pre-mortem triggers unbreached. Multi-source verify mark at 09:15 WIB if mark drifts to ≤2,450 (within 3.3% of hard-cut 2,371).
+- [ ] **NO NEW ENTRIES pre-RDG (May 21–22).** Regime escalating to DEFENSIVE; IHSG below 6,682 support; IDR breached 17,500. The combined risk-stack does not justify gate-clearing a new buy 2 sessions before a hawkish-surprise binary.
+- [ ] **CANDIDATE deferral list (all WATCH-defer-post-RDG):** TLKM, ASII, AKRA, BBCA (sub-threshold R:R), AALI (price unverified). Re-research these post-RDG (May 22 pre-market) with fresh quotes.
+- [ ] **Defensive triggers active:** if any of: (a) IHSG gaps below 6,470 (sesi-I low May 18), (b) IDR sustained >17,750, (c) Newcastle <$125, (d) ADRO breaks 2,450 → defensive day: NO new entries; reassess whether to also pre-emptively exit ADRO ahead of stop.
+- [ ] **Watch tape for capitulation low** — if IHSG tests 6,270–6,379 and reverses, post-RDG entries become more attractive. Do NOT pre-position; wait for confirmation.
+- [ ] **Multi-source verification protocol BINDING** per MISTAKES.md 2026-05-01: any entry where buffer-to-stop <1.5% must cross-verify 2+ sources.
+- [ ] **Trades this week: 0/3 — slot available; expected use this week ≤1.** Patience over activity holds today.
+
+### Sources
+
+- [S&P 500 7,403.05 / Nasdaq 26,090.73 / Dow 49,686.12 May 18 — TheStreet](https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates)
+- [Oil up $110+, 10Y +14bp, Bitcoin $77k — Sunday Guardian Live](https://sundayguardianlive.com/business/us-stock-market-today-18-may-2026-dow-falls-nasdaq-sp-500-flat-as-bond-yields-shake-oil-surges-108-on-us-iran-deal-gold-silver-hit-bitcoin-retreats-77k-what-investors-should-watch-193848/)
+- [Nikkei 225 60,815.95 (−0.97%) May 18 — CNBC Asia markets](https://www.cnbc.com/2026/05/18/asia-pacific-markets-today-live-updates-nikkei-225-hang-seng-index-kospi-nifty-50.html)
+- [IHSG sesi II close 6,599.24 (−1.85%) / foreign net sell Rp 464B / ANTM-BREN-AMMN top sells — Kontan / CNBC Indonesia](https://pusatdata.kontan.co.id/news/ihsg-ambles-185-616-saham-turun-disertai-net-sell-asing-hari-ini-185)
+- [IHSG sempat ambruk 4%+ to intraday 6,434 — CNBC Indonesia](https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar)
+- [IHSG sesi-I close 6,470.34 (−3.76%) all-sector red; basic-mat −8.14% / transport −6.12% — Cetro](https://cetro.or.id/artikel/ihsg-turun-3-76-di-penutupan-sesi-pertama-18-mei-2026-tekanan-global-picu-pelemahan-pasar-indonesia)
+- [IHSG May 19 prediksi support 6,270/6,148 / resistance 6,640/6,745; rawan koreksi 6,307–6,379 — Investor.id MNC/Phintraco](https://investor.id/market/439503/prediksi-ihsg-dan-rekomendasi-saham-selasa-19-mei-2026)
+- [Bisnis prediksi IHSG selasa 19 Mei 2026](https://market.bisnis.com/read/20260519/7/1974631/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-selasa-19-mei-2026)
+- [USD/IDR conquers 17,700; record-low May 18 — FXStreet](https://www.fxstreet.com/news/indonesian-rupiah-hits-record-low-vs-usd-on-middle-east-tensions-usd-idr-conquers-17-700-202605180901)
+- [USD/IDR 17,500+ record-low; BI speculation hike to 5.00% — Trading Economics](https://tradingeconomics.com/indonesia/currency/news/542383)
+- [US 10Y 4.61% (+14bp wk) May 18 — ECIKS / Federal Reserve H.15](https://eciks.org/4297-71780-10-year-treasury-yield-rises-to-4-61-up-14-basis-points-from-may-14)
+- [Indonesia 10Y 6.81% — Trading Economics Indo bond](https://tradingeconomics.com/indonesia/government-bond-yield)
+- [VIX 17.82 (−3.31%) May 18 — VIX historical](https://finance.yahoo.com/quote/%5EVIX/history/)
+- [Newcastle thermal coal $131.70 May 19 — Trading Economics](https://tradingeconomics.com/commodity/coal)
+- [LME nickel $18,555 May 18 — Trading Economics nickel](https://tradingeconomics.com/commodity/nickel)
+- [Brent $107.71 (−1.42%) May 18 — Trading Economics Brent](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [CPO 4,522 MYR/T (+2.31%) May 18 — Trading Economics palm oil](https://tradingeconomics.com/commodity/palm-oil)
+- [MSCI Indonesia rebalance May 29 effective $1.6–1.8B outflow — Heygotrade](https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/)
+- [Goldman Sachs $1.6B outflow risk MSCI Indonesia — Prism](https://www.prismnews.com/workplace/goldman-sachs/goldman-sachs-sees-16-billion-outflow-risk-from-msci)
+- [BBCA 6,125 (+0.41%) May 18 (only big-bank green) — Babelinsight](https://www.babelinsight.id/saham-bbca-anjlok-18-mei-2026)
+- [Banking sector May 18: BBCA / BBRI / BMRI / BBNI / BNGA / NISP / BBTN closes — Investor.id Pemicu Saham Bank](https://investor.id/market/439442/pemicu-saham-bbri-bbca-cs-turun)
+- [TLKM 3,080 (+4.05%) May 18 — Bisnis Indeks Bisnis-27](https://market.bisnis.com/read/20260518/7/1974509/indeks-bisnis-27-melemah-saham-asii-tlkm-hingga-medc-masih-bertenaga)
+- [ASII 6,000 (+4.35%) May 18 — Bisnis Indeks Bisnis-27](https://market.bisnis.com/read/20260518/7/1974365/indeks-bisnis-27-dibuka-melemah-saham-asii-medc-cpin-masih-bertenaga)
+- [AKRA 1,465 (+0.69%) May 18 close — Investing.com / babelinsight](https://www.investing.com/equities/akr-corporindo)
+- [UNTR Cairkan Dividen Final Rp 3.86T — Babelinsight](https://www.babelinsight.id/united-tractors-cairkan-dividen-final)
+- [ANTM intraday 3,080 (−12%) / foreign net sell Rp 315B — CNBC Indonesia](https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar)
+- [JSMR 2,960 (24h −5.73%) — Investing.com](https://www.investing.com/equities/jasa-marga)
+- [ADRO SpecBuy 2,470–2,500 May 18 — Liputan6 rekomendasi](https://www.liputan6.com/saham/read/6744068/rekomendasi-saham-hari-ini-18-mei-2026-enrg-adro-wifi-smdr-hingga-itmg)
+- [Bareksa rekomendasi saham 18 Mei 2026 AMMN BBCA INKP SMGR — Bareksa](https://www.bareksa.com/berita/saham/2026-05-18/rekomendasi-saham-hari-ini-ammn-bbca-inkp-smgr-ihsg-diprediksi-masih-tertekan)
+- [BI rate held 4.75% Apr; speculation hike to 5% May — ING / Bank Indonesia](https://think.ing.com/snaps/bank-indonesia-keeps-rates-steady-as-rupiah-weakness-threatens-to-delay-easing/)
+
+---

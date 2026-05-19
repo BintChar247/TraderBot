@@ -3686,6 +3686,51 @@
           "detail": "Day 21 EOD snapshot committed; first since May 8 EOD (May 11-15 routines did not fire)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-19T00:00:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-05-19 Day 22 (Tue). 50-ticker scan complete; 5 candidates scored >=6 (TLKM-7, ASII-7, BBCA-6, AKRA-6, AALI-6) \u2014 ALL deferred post-RDG (sub-threshold R:R / regime DEFENSIVE-escalating). Plan: HOLD ADRO; NO NEW ENTRIES pre-RDG May 21-22. IHSG broke 6,682 support (close 6,599.24); IDR breached 17,500/17,700 record; defensive rotation in tape (TLKM/ASII/BBCA green on red day). Regime escalating to DEFENSIVE pending BI RDG hawkish/dovish surprise.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned across 14 sectors"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6 \u2014 all WATCH-defer-post-RDG"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 7/10 \u2014 defensive rotation flagship (+4.05% green on red day)"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "score 7/10 \u2014 foreign-flow idiosyncratic carry (+Rp 2.44T cumulative)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 defensive flagship; defensive-track SUSPENDED per regime"
+        },
+        {
+          "type": "research",
+          "ticker": "AKRA",
+          "detail": "score 6/10 \u2014 insider buy +Rp 282.5B + div carry"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 6/10 \u2014 CPO +2.31% tailwind + Q1 +28.5%"
+        },
+        {
+          "type": "regime",
+          "detail": "Regime escalating EM-OUTFLOW-INTENSIFIED \u2192 likely DEFENSIVE pending BI RDG May 21-22; 3 of 4 triggers met"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -3711,170 +3756,155 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6472.0,
-    "ihsg_change_pct": -3.73,
-    "idr_usd": 17672,
-    "idr_usd_change_pct": 0.28,
-    "coal_usd": 130.0,
-    "coal_change_pct": 0.0,
-    "nickel_usd": 18580,
-    "nickel_change_pct": 0.0,
-    "cpo_myr": 4541,
-    "cpo_change_pct": 0.0,
+    "ihsg": 6599.24,
+    "ihsg_change_pct": -1.85,
+    "idr_usd": 17700,
+    "idr_usd_change_pct": 0.44,
+    "coal_usd": 131.7,
+    "coal_change_pct": 1.3,
+    "nickel_usd": 18555,
+    "nickel_change_pct": -0.13,
+    "cpo_myr": 4522,
+    "cpo_change_pct": 2.31,
     "bi_rate": 4.75,
-    "bi_rate_note": "RDG May 21-22 \u2014 Bloomberg consensus = potential hike to 5.00% to stabilize rupiah / stem capital outflow",
-    "asia_sentiment": "IHSG worst in Asia today (-3.73% on MSCI/FTSE rebal + foreign outflow); 6 Indonesian stocks removed from MSCI Global Standard; 715 stocks declined vs 90 advanced; IDR 17,672+ above 17,500 EM-OUTFLOW intensification trigger",
-    "foreign_flow_idr_bn": -1410,
-    "updated": "2026-05-18"
+    "bi_rate_note": "RDG May 21-22 \u2014 Bloomberg/economist consensus = potential hike to 5.00% to defend rupiah; HAWKISH SURPRISE risk",
+    "asia_sentiment": "IHSG sesi II close 6,599.24 (-1.85%) \u2014 broke 6,682 support; intraday low 6,434 (-4.30%); foreign net sell Rp 464B (ANTM -Rp 315B / BREN -Rp 152.5B / AMMN -Rp 149.1B top sells). Defensive rotation: BBCA +0.41%, TLKM +4.05%, ASII +4.35% \u2014 three green names on red day signal DEFENSIVE rotation, not risk-on reversal. IDR breached 17,500/17,700 record low.",
+    "foreign_flow_idr_bn": -464,
+    "updated": "2026-05-19"
   },
   "research": {
-    "date": "2026-05-18",
+    "date": "2026-05-19",
     "headlines": [
       {
-        "ticker": "ITMG",
-        "headline": "Q1 2026 net US$55.7M (\u221216% YoY) \u2014 MATERIAL MISS. Rev \u22123% QoQ; vol \u22127% QoQ (rainfall); GPM compression. Coal-cluster Q1 rerate pattern broken. Pre-commit triggers EXIT on open.",
-        "sentiment": "bearish-thesis-break",
-        "source": "Investortrust",
-        "url": "https://investortrust.id/market/103175/laba-indo-tambangraya-itmg-turun-ke-us-55-70-juta-di-kuartal-i-2026-ini-pemicunya"
-      },
-      {
         "ticker": "IHSG",
-        "headline": "IHSG \u22121.98% to 6,723.32 May 13; week \u22123.53%; market cap menguap Rp 581T; MSCI rebalancing churn (6 mega-caps removed); IDX closed Thu-Fri Ascension Day",
+        "headline": "IHSG sesi II close 6,599.24 (-1.85%) on May 18; intraday low 6,434 (-4.30%); broke 6,682 support; May 19 prediksi support 6,270/6,148, test 6,307-6,379 (MNC); resistance 6,640/6,745",
         "sentiment": "bearish",
-        "source": "Bisnis",
-        "url": "https://market.bisnis.com/read/20260513/7/1973587/rebalancing-msci-ihsg-ditutup-melemah-ke-level-672332-hari-ini-135"
+        "source": "Kontan / Investor.id",
+        "url": "https://pusatdata.kontan.co.id/news/ihsg-ambles-185-616-saham-turun-disertai-net-sell-asing-hari-ini-185"
       },
       {
         "ticker": "IDR",
-        "headline": "USD/IDR 17,623 record-high May 18 (+1.20% from 17,414 May 8 anchor); crossed 17,500 sustained trigger \u2014 EM-OUTFLOW intensified",
+        "headline": "USD/IDR conquers 17,700 record low May 18; BI speculation hike to 5.00% next week; reserves down to $148.2B (BI spent $8.3B Q1)",
         "sentiment": "bearish",
-        "source": "exchange-rates.org",
-        "url": "https://www.exchange-rates.org/exchange-rate-history/usd-idr-2026"
+        "source": "FXStreet",
+        "url": "https://www.fxstreet.com/news/indonesian-rupiah-hits-record-low-vs-usd-on-middle-east-tensions-usd-idr-conquers-17-700-202605180901"
+      },
+      {
+        "ticker": "BI-RDG",
+        "headline": "Bank Indonesia RDG May 21-22 \u2014 Bloomberg/economist consensus = potential hike to 5.00% from 4.75% to defend IDR; HAWKISH SURPRISE risk binary; market hyper-sensitive",
+        "sentiment": "bearish-neutral",
+        "source": "Trading Economics",
+        "url": "https://tradingeconomics.com/indonesia/currency/news/542383"
+      },
+      {
+        "ticker": "FOREIGN-FLOW",
+        "headline": "Foreign net sell Rp 464B May 18 (Day 21 of MSCI/FTSE rebal wave); top sells ANTM -Rp 315B, BREN -Rp 152.5B, AMMN -Rp 149.1B; outflow continues to weigh through May 29 effective close",
+        "sentiment": "bearish",
+        "source": "CNBC Indonesia",
+        "url": "https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar"
+      },
+      {
+        "ticker": "TLKM",
+        "headline": "TLKM +4.05% to 3,080 May 18 \u2014 green on -1.85% IHSG day; defensive rotation flagship; candidate-defer-post-RDG (sub-threshold R:R at entry 3,080)",
+        "sentiment": "bullish-idiosyncratic",
+        "source": "Bisnis Indeks Bisnis-27",
+        "url": "https://market.bisnis.com/read/20260518/7/1974509/indeks-bisnis-27-melemah-saham-asii-tlkm-hingga-medc-masih-bertenaga"
+      },
+      {
+        "ticker": "ASII",
+        "headline": "ASII +4.35% to 6,000 May 18 \u2014 foreign net-buy carry +Rp 2.44T cumulative thru May 13; candidate-defer-post-RDG (chase ceiling 6,180)",
+        "sentiment": "bullish-idiosyncratic",
+        "source": "Bisnis Indeks Bisnis-27",
+        "url": "https://market.bisnis.com/read/20260518/7/1974365/indeks-bisnis-27-dibuka-melemah-saham-asii-medc-cpin-masih-bertenaga"
+      },
+      {
+        "ticker": "BBCA",
+        "headline": "BBCA +0.41% to 6,125 May 18 \u2014 only big bank green on red day; defensive flagship; sub-threshold R:R for entry at current; defensive-track SUSPENDED per regime",
+        "sentiment": "bullish-defensive",
+        "source": "Babelinsight",
+        "url": "https://www.babelinsight.id/saham-bbca-anjlok-18-mei-2026"
+      },
+      {
+        "ticker": "AKRA",
+        "headline": "AKRA +0.69% to 1,465 May 18 \u2014 insider buy +Rp 282.5B May 4-6 carryover; quarterly div Rp 25 ex-May 7 (yield ~6.87%); candidate-defer-post-RDG",
+        "sentiment": "bullish-quiet",
+        "source": "Investing.com / StockWatch",
+        "url": "https://www.investing.com/equities/akr-corporindo"
+      },
+      {
+        "ticker": "AALI",
+        "headline": "CPO +2.31% to 4,522 MYR/ton May 18 / +6.06% MoM USD 1,049; AALI Q1 +28.5% / div Rp 458 paid May 13; candidate (price not freshly verified)",
+        "sentiment": "bullish",
+        "source": "Trading Economics palm oil",
+        "url": "https://tradingeconomics.com/commodity/palm-oil"
+      },
+      {
+        "ticker": "ANTM",
+        "headline": "ANTM intraday -12% (3,080 at 11:05 WIB) on May 18; foreign net sell Rp 315B (top in market); LME nickel $18,555 below $19K narrative threshold; nickel sector -8.14% on day",
+        "sentiment": "bearish",
+        "source": "CNBC Indonesia",
+        "url": "https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar"
+      },
+      {
+        "ticker": "ADRO",
+        "headline": "ADRO HELD 392,100 sh @ 2,550; last mark 2,520 (-1.18%); buffer to hard-cut 2,371 +5.91%; Q1 +67% catalyst intact; pre-mortem triggers (Brent <$95, Newcastle <$125, -4% pain 2,448) all unbreached",
+        "sentiment": "neutral-hold",
+        "source": "TRADE-LOG May 18 EOD",
+        "url": null
       },
       {
         "ticker": "MSCI",
-        "headline": "MSCI removes AMMN, BREN, TPIA, DSSA, CUAN, AMRT from Global Standard Indexes effective close May 29; modelled passive outflow ~$1.8B; BSDE removed from MSCI SmallCap",
+        "headline": "MSCI Indonesia rebalance effective close May 29 \u2014 $1.6-1.8B passive outflow modelled (Goldman/CGS); AMMN/BREN/TPIA/DSSA/CUAN/AMRT continue to weigh through end-May",
         "sentiment": "bearish",
-        "source": "Tempo / heygotrade",
-        "url": "https://en.tempo.co/read/2103366/msci-removes-6-indonesian-stocks-from-global-standard-index"
-      },
-      {
-        "ticker": "ASII",
-        "headline": "Foreign investors net buy +Rp 2.44T cumulative thru May 13 \u2014 single largest single-name accumulation during MSCI selloff week. Remains in MSCI Global Standard.",
-        "sentiment": "bullish",
-        "source": "Asatunews",
-        "url": "https://www.asatunews.co.id/investor-asing-borong-saham-asii"
-      },
-      {
-        "ticker": "GOTO",
-        "headline": "Q1 2026 first-ever net profit Rp 171B (vs \u2212Rp 367B Q1 25); rev Rp 5.34T +26% YoY; +7.55% post-print to Rp 57; FY EBITDA guidance Rp 3.2-3.4T maintained",
-        "sentiment": "bullish",
-        "source": "Indopremier / Seeking Alpha",
-        "url": "https://seekingalpha.com/article/4895058-pt-goto-gojek-tokopedia-tbk-2026-q1-results-earnings-call-presentation"
-      },
-      {
-        "ticker": "BMRI",
-        "headline": "Largest single-name foreign net sell of the week \u2212Rp 1.41T; \u22126.87% week to Rp 4,200; MSCI churn collateral; banking-sector pressure",
-        "sentiment": "bearish",
-        "source": "Kontan banking outlook",
-        "url": "https://keuangan.kontan.co.id/news/menakar-prospek-saham-big-banks-bbca-bbri-bmri-bbni-pasca-pengumuman-msci"
-      },
-      {
-        "ticker": "NICKEL",
-        "headline": "LME nickel $18,580 May 15 \u22121.90%; off recent $19,600 peak; below $19K narrative threshold; INCO \u22123.29%, MDKA \u22124.88%, ANTM \u22126.44% confirm sector pressure",
-        "sentiment": "bearish-nickel",
-        "source": "Trading Economics nickel",
-        "url": "https://tradingeconomics.com/commodity/nickel"
-      },
-      {
-        "ticker": "COAL",
-        "headline": "Newcastle thermal coal $130/ton May 11 \u2014 at $130 thesis floor; eased from $135.6 May 4; proximity risk to ADRO/PTBA/HRUM/BUMI pre-mortem triggers",
-        "sentiment": "bearish-coal",
-        "source": "Trading Economics coal",
-        "url": "https://tradingeconomics.com/commodity/coal"
+        "source": "Heygotrade",
+        "url": "https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/"
       },
       {
         "ticker": "REGIME",
-        "headline": "Regime reverts EM-OUTFLOW / RISK-CAUTIOUS \u2014 INTENSIFIED. All four May-8 'shift to RISK-NEUTRAL' triggers reversed: IDR record-high, no BI dovish, heavy foreign net sell, IHSG broke 7,200. Drop max position cap 15%\u219212% this week.",
-        "sentiment": "bearish",
-        "source": "self / MACRO-REGIME.md update pending",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
+        "headline": "Regime escalating: EM-OUTFLOW-INTENSIFIED \u2192 likely DEFENSIVE pending BI RDG May 21-22. 3 of 4 shift triggers met (IDR breached 17,500, IHSG broke 6,682, foreign net sell continues). Defensive-track SUSPENDED. Max position size 10% on any new entry until RDG resolves. NO NEW ENTRIES this week pre-RDG.",
+        "sentiment": "bearish-regime",
+        "source": "MACRO-REGIME.md (analyst update)",
+        "url": null
       }
     ],
-    "top_candidates": [
+    "candidates_scored_6_plus": [
+      {
+        "ticker": "TLKM",
+        "score": 7,
+        "status": "WATCH-defer-post-RDG",
+        "note": "Defensive rotation flagship; sub-threshold R:R at 3,080"
+      },
       {
         "ticker": "ASII",
         "score": 7,
-        "conviction": "MEDIUM",
-        "catalyst": "Foreign net buy +Rp 2.44T cumulative thru May 13 \u2014 biggest single-name accumulation; remains MSCI"
+        "status": "WATCH-defer-post-RDG",
+        "note": "Foreign-flow carry +Rp 2.44T; sub-threshold R:R at 6,000"
       },
       {
-        "ticker": "GOTO",
-        "score": 7,
-        "conviction": "MEDIUM",
-        "catalyst": "First-ever Q1 profit Rp 171B; rev +26%; structural break-even moment"
-      },
-      {
-        "ticker": "SMGR",
-        "score": 7,
-        "conviction": "MEDIUM",
-        "catalyst": "Q1 +88.7% beat carry; cement reflation; pullback re-entry zone \u22641,950"
+        "ticker": "BBCA",
+        "score": 6,
+        "status": "WATCH-defer-post-RDG",
+        "note": "Defensive flagship; sub-threshold R:R; defensive-track SUSPENDED per regime"
       },
       {
         "ticker": "AKRA",
         "score": 6,
-        "conviction": "LOW-MEDIUM",
-        "catalyst": "Controller Rp 282.5B insider buy; price now 1,455 below 1,500 trigger \u2014 pre-mortem partially fired"
-      },
-      {
-        "ticker": "JSMR",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "PE 7x vs 5-yr 14.5x; P/B 0.8x; PT 5,200; BI RDG May 21-22 rate-cut leverage"
-      },
-      {
-        "ticker": "KLBF",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Defensive healthcare; PT 1,710 (+88%); near 52-week low Rp 910"
-      },
-      {
-        "ticker": "ICBP",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Consumer staples defensive bid in EM-OUTFLOW; PT 11,500"
-      },
-      {
-        "ticker": "TLKM",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Telco yield uplift + BI RDG rate-cut sensitivity; LQ45 defensive"
-      },
-      {
-        "ticker": "MTEL",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Tower fiber pivot; PT 860 (+69% upside); rate-cut beneficiary"
-      },
-      {
-        "ticker": "SMRA",
-        "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Property top-pick; townships Serpong/Bekasi; rate-cut sensitivity"
+        "status": "WATCH-defer-post-RDG",
+        "note": "Insider buy +Rp 282.5B carry; sub-threshold R:R at 1,465"
       },
       {
         "ticker": "AALI",
         "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "CPO ref +6.06% MoM; Q1 +28.5% net; biodiesel mandate; R:R near threshold"
-      },
-      {
-        "ticker": "PTBA",
-        "score": 6,
-        "conviction": "LOW-MEDIUM",
-        "catalyst": "Q1 +105% beat intact; sector concentration cap binding; ITMG miss broke cluster"
+        "status": "WATCH-defer-post-RDG",
+        "note": "CPO tailwind + Q1 +28.5%; price not freshly verified"
       }
+    ],
+    "plan_for_market_open": [
+      "HOLD ADRO 392,100 sh @ 2,550 (Day 11); multi-source verify mark if drifts to <=2,450 (within 3.3% of hard-cut)",
+      "NO NEW ENTRIES pre-RDG (May 21-22) \u2014 regime escalating to DEFENSIVE",
+      "All 5 candidates (TLKM, ASII, BBCA, AKRA, AALI) deferred \u2014 sub-threshold R:R at current marks; re-research post-RDG May 22 pre-market",
+      "Defensive triggers active: IHSG <6,470 / IDR >17,750 sustained / Newcastle <$125 / ADRO <2,450 = NO new entries + reassess ADRO exit pre-stop"
     ]
   },
-  "last_updated": "2026-05-18T08:20:43Z"
+  "last_updated": "2026-05-19T00:00:00Z"
 }
