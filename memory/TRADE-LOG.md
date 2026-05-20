@@ -1830,3 +1830,66 @@ Day 22 (Tue, post-trial Week 5 Day 2). T−2 to BI RDG May 21–22. Routine fire
 
 ---
 
+### 2026-05-20 EOD — Day 23 (Post-Trial Wed, Week 5 Day 3, BI RDG Decision Day)
+
+- Total equity: IDR 9,809,627,500 (100% cash — 0 open positions post-ADRO hard-cut at 09:15)
+- Daily P&L: IDR −19,605,000 (−0.20%) — vs prior EOD baseline 9,829,232,500 (May 19)
+- IHSG daily: −0.81% (close ~6,319 vs prev close 6,370.68; post-BI Rate +50bps to 5.25% reaction at 14:25 print)
+- Daily alpha: +0.61% (cash-only portfolio insulated from IHSG decline; ADRO hard-cut executed before BI announcement)
+- Cash: IDR 9,809,627,500 (100% of equity)
+- Trades today: 1 (SELL ADRO 392,100 sh @ 2,350 — hard-cut breach on gap-down open)
+- Trades this week: 0/3 new entries (ADRO sell consumed no new-trade allowance; closed existing position)
+- Phase-to-date P&L: IDR −190,372,500 (−1.90%)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,319 = −17.23%): +15.32%
+- Realized P&L (cumulative): −IDR 190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M)
+- Weekly P&L (Week 5 — start baseline 9,876,284,500 May 18 EOD): −0.67%
+- Drawdown from peak (10,026,617,500 May 1): −2.16% (unchanged from market-open post-sell; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none)_ | — | — | — | — | — |
+
+#### Notes
+
+Day 23 (Wed, post-trial Week 5 Day 3). BI RDG decision day: Bank Indonesia raised BI-Rate +50bps to 5.25% (vs market consensus +25bps to 5.00%) — more hawkish than expected; rupiah defense move amid USD/IDR 17,738 record territory + Middle East volatility. IHSG reacted with broad capitulation in commodity/transport/energy sectors (raw materials −4.56%, transport −3.90%, energy −3.32%); cluster anchor 6,319 used for close (post-BI announcement 14:25 print; sesi I closed 6,332.18, day range 6,215.56–6,459.56).
+
+**Broker reconciliation:** `broker.sh portfolio` shows 0 positions, cash 9,809,627,500, equity 9,809,627,500, realised_pnl −190,372,500, unrealised_pnl 0. TRADE-LOG Active Positions table also shows _(none)_ post-ADRO close. **No discrepancy.** PAPER-STATE.json: 3 closed_trades (BBRI May 1, ITMG May 18, ADRO May 20), 0 open positions.
+
+**Today's only execution:** SELL ADRO 392,100 sh @ IDR 2,350 (auto-cut trigger (a) — intraday mark ≤ hard-cut 2,371; gap-down open). Realized −IDR 78.42M (−7.84% from entry 2,550). Stop fired as designed; manual stale-fill correction per MISTAKES.md 2026-05-01 procedure (broker.sh fill landed at stale 2,550 → corrected to verified open 2,350 in PAPER-STATE.json). Multi-source verification binding (Investing.com fresh open 2,350 vs TradingView/Stockbit cached stale 2,540/2,550 — safe-assumption rule applied).
+
+**Mark-to-market sources (multi-source WebSearch — yfinance Day 30 blocked):**
+- IHSG: ~6,319 (post-BI announcement 14:25 print, −0.80% on day; CNBC Indonesia / Liputan6 cluster; sesi I close 6,332.18 confirmed by RRI/Liputan6). Cumulative IHSG vs Day 0 baseline 7,634 = −17.23%.
+- USD/IDR: 17,738 record territory (asatunews / multi-source; above 17,750 DEFENSIVE-escalation trigger by mere 12bps — watchlist).
+- Newcastle thermal coal: ~$134.50–135.80/ton (supportive; well above $125 pre-mortem floor).
+- Brent: ~$111 (well above $95 pre-mortem trigger).
+- BI-Rate: 5.25% (+50bps; first hike in 2 years).
+
+**Macro:** Today's BI hike +50bps is a regime-defining hawkish surprise — rupiah defense priority over growth. IHSG reaction in commodity sectors confirms the single-gateway export agency overhang remains live (no official Prabowo statement today either way per latest cluster). Foreign outflow continued; sectoral rotation away from raw materials/energy/transport into defensive consumer/banking. Coal-sector capitulation (post-ADRO/ITMG exits) means our remaining sector exposure is zero — fully insulated from today's commodity carnage.
+
+**Portfolio impact:** Daily P&L −0.20% from broker equity drift only (small reconciliation delta between yesterday's MTM 9,829,232,500 and today's actual cash post-sell 9,809,627,500 = −IDR 19.6M = effective ADRO exit price difference 2,400 MTM vs 2,350 realized). No new positions opened (KLBF/TLKM/ASII deferred to Thu May 21 post-RDG pre-market per RESEARCH-LOG plan). Patience-over-activity discipline maintained — 100% cash going into post-RDG / Prabowo announcement / Thursday pre-market.
+
+**RISK ALERTS:**
+- Daily P&L −0.20% — far from −2% cap. NO formal alert.
+- Position warnings: N/A (0 positions).
+- Drawdown from peak −2.16% — far above −15% hard limit. NO alert.
+- Weekly P&L −0.67% (Week 5) — far from −5% reduction trigger.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+- **USD/IDR watch:** 17,738 vs 17,750 DEFENSIVE escalation trigger — within 12bps; tomorrow's open may breach.
+
+**Sector exposure:** 0% all sectors. 100% cash defensive posture.
+
+**Cumulative alpha trajectory:** +15.32% vs IHSG since Day 0 — strongest running alpha of trial. The cash buffer absorbed today's BI hawkish surprise AND yesterday's IHSG capitulation; the ADRO hard-cut executed at open removed final single-name risk before BI tape.
+
+**Watch Thu May 21 (next session — post-RDG / Prabowo / pre-market opportunity day):**
+1. **Pre-market candidates** — KLBF/TLKM/ASII deferred from today; re-evaluate post-RDG (T+1) for fresh entries. Defensive consumer (KLBF) and large-cap defensive (TLKM, ASII) may benefit from rate-shock rotation.
+2. **Rupiah path** — USD/IDR 17,750 DEFENSIVE escalation trigger 12bps away. Sustained breach → regime tightens to DEFENSIVE-strict (new entries paused).
+3. **IHSG technical** — today's print near 6,319; support at 6,148 / 6,084 (analyst projections from buletinfinansial). Reclaim of 6,500 = relief; break of 6,148 = continuation capitulation.
+4. **Foreign flow direction** — post-BI hawkish, flow direction will signal whether hike narrative is rupiah-positive (inflow) or growth-negative (outflow continues).
+5. **Prabowo single-gateway export agency** — official statement still pending; if confirmed Thu/Fri, commodity sector reset continues; if denied, relief rally in coal/CPO/metals.
+6. **Newcastle coal $134.50–135.80** — supportive floor; commodity tailwind for any post-clearing coal re-entry.
+7. **Brent $111** — well above $95 pre-mortem trigger; energy thesis intact for selective re-entry post-RDG dust settle.
+
+---
+

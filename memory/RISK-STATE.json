@@ -5,7 +5,7 @@
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
   "daily_pnl_pct": -0.2,
-  "weekly_pnl_pct": -1.1,
+  "weekly_pnl_pct": -0.67,
   "peak_equity": 10026617500,
   "current_equity": 9809627500,
   "drawdown_from_peak_pct": -2.16,

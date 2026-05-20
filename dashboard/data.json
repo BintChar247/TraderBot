@@ -279,6 +279,23 @@
       "note": "ADRO mark-to-market 2,400 (range 2,350-2,440 / open 2,390) on single-gateway commodity export regulation rumor hitting coal sector. ADRO -5.88% from entry (just under -6% warning; buffer to hard-cut 2,371 = +1.21%). IHSG -1.17% vs prior log baseline (alt -3.08% on full sesi II close). T-2 to BI RDG. No trades today.",
       "ihsg_close_revised_to_sesi_ii": 6370.68,
       "ihsg_revised_note": "Databoks/multi-source sesi-II final 6,370.68 (-3.46%) \u2014 1-year low; supersedes prior sesi-I cluster anchor 6,396. ADRO mark held 2,400."
+    },
+    {
+      "date": "2026-05-20",
+      "day_label": "Day 23",
+      "portfolio_value": 9809627500,
+      "cash": 9809627500,
+      "daily_pnl_idr": -19605000,
+      "daily_pnl_pct": -0.2,
+      "cumulative_pnl_pct": -1.9,
+      "ihsg_close": 6319.0,
+      "ihsg_cumulative_pct": -17.23,
+      "alpha_pct": 15.32,
+      "positions_count": 0,
+      "trades_today": 1,
+      "trades_this_week": 0,
+      "note": "BI RDG day: BI-Rate +50bps to 5.25% (vs consensus +25bps) \u2014 first hike in 2yrs; rupiah defense. ADRO hard-cut at 09:15 open (392,100 sh @ 2,350, -7.84% / -IDR 78.42M realized) on gap-down breach of 2,371. Portfolio now 100% cash (0 positions). IHSG -0.81% post-BI announcement; raw materials -4.56%, transport -3.90%, energy -3.32%. Cash buffer insulated from commodity sector carnage. KLBF/TLKM/ASII deferred to Thu May 21 post-RDG pre-market.",
+      "realized_pnl_cumulative": -190372500
     }
   ],
   "positions": [],
@@ -332,6 +349,16 @@
       "cost": 659295000,
       "status": "closed",
       "realized_pnl_pct": -7.38
+    },
+    {
+      "date": "2026-05-20",
+      "ticker": "ADRO",
+      "side": "sell",
+      "shares": 392100,
+      "price": 2350,
+      "cost": 921435000,
+      "status": "closed",
+      "realized_pnl_pct": -7.84
     }
   ],
   "decisions": [
@@ -4304,6 +4331,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions (100% cash post-ADRO hard-cut at 09:15). No sell-side actions to evaluate. Defensive posture pre-BI RDG / Prabowo announcement."
+    },
+    {
+      "timestamp": "2026-05-20T08:20:37Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 23: IDR 9.81B (-0.20% day; cash 100%). ADRO hard-cut @ 2,350 (-7.84%/-IDR 78.42M). IHSG -0.81% on BI +50bps hike to 5.25%. Daily alpha +0.61%; cum alpha +15.32% trial-best. 0 positions, 0/3 new entries this week.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 23 EOD snapshot committed; ADRO sell logged; RISK-STATE + dashboard updated"
+        }
+      ]
     }
   ],
   "exposure": {
