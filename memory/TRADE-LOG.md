@@ -10,10 +10,11 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| ADRO | 2026-05-08 | 2,550 | 392,100 | 999,855,000 | 2,371 | hard-cut | Q1 2026 net +67.07% YoY (US$128.14M); rev +23.4%; coal sector tailwind (ADRO/PTBA/BUMI/HRUM uniformly positive); Newcastle $130 at floor; analyst PT 2,900 (+13.7%) |
+| _(none)_ | — | — | — | — | — | — | All positions closed. 100% cash. |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 _ITMG position closed 2026-05-18 via Q1-miss pre-commit + hard-cut breach at IDR 24,150 (−7.38%); see Trade History below._
+_ADRO position closed 2026-05-20 via hard-cut breach at IDR 2,350 (−7.84%) on gap-down open (single-gateway export agency risk + BI RDG day); see Trade History below._
 
 ---
 
@@ -1760,3 +1761,37 @@ Day 22 (Tue, post-trial Week 5 Day 2). T−2 to BI RDG May 21–22. Routine fire
 5. **Foreign flow direction** — sell intensification on rumor confirmation = exit signal.
 6. **IDR vs 17,750 DEFENSIVE escalation trigger** — sustained breach lifts regime and halts new entries.
 
+
+
+### 2026-05-20 09:15 WIB — SELL ADRO (HARD-CUT breach on gap-down open)
+
+- Side: SELL (hard-cut breach; auto-cut trigger (a) armed in 2026-05-20 RESEARCH-LOG plan)
+- Shares: 392,100 shares at IDR 2,350
+- Fill price: IDR 2,350 (verified open mark; broker.sh paper fill landed at stale entry 2,550 → ledger corrected per MISTAKES.md 2026-05-01 procedure)
+- Position size at exit: IDR 921,435,000
+- Realized P&L: −IDR 78,420,000 (**−7.84% from entry 2,550**)
+- Hard-cut: IDR 2,371 — BREACHED at open (ADRO opened 2,350; gapped below)
+- Stop state: hard-cut → CLOSED (STOPS.json: ADRO removed)
+- Catalyst (exit): Bloomberg-confirmed Prabowo single-gateway export agency rumor (coal/palm-oil/metals); BI RDG day 2 (May 20) consensus +25bp hike; IHSG capitulated −3.46% to 6,370.68 (1-yr low) May 19. Gap-down at open immediately tripped hard-cut.
+- Price source: WebSearch multi-source (yfinance Day 30 blocked). Investing.com fresh: open 2,350, day range 2,210–2,430, prev close 2,320, last 2,210 (−4.74%). TradingView/cached sources showed stale 2,540/2,550 — discarded per safe-assumption rule (lower price fires when discrepancy >0.5%).
+- Multi-source verification: BINDING (buffer was <1.5% per yesterday's EOD; today's gap-down at open + intraday low 2,210 dispositive).
+- Auto-cut trigger fired: (a) intraday mark ≤ 2,371 — YES (open 2,350 < 2,371; intraday low 2,210).
+- Other triggers status: (b) official Prabowo announcement — pending confirmation (Bloomberg-sourced rumor stronger than May 19 but not yet "official statement"); (c) Newcastle <$125 — NO ($134.50–135.80, supportive); (d) IHSG gaps below 6,250 — pending session data.
+- 9-gate checklist: N/A (sell-side; gates are buy-side only)
+- Thesis at exit: "Q1 +67% YoY thesis preserved fundamentally (commodity floor intact: Newcastle $134.50, Brent $111.22), but structural sector-policy risk (single-gateway export agency) + macro capitulation (IDR 17,752 record, IHSG 1-yr low) overwhelmed bottom-up thesis. Hard-cut fired as designed — discipline preserved over hope."
+- Procedural note: Following MISTAKES.md 2026-05-01 lesson — multi-source verification with one fresh source (Investing.com) vs cached stale sources (TradingView/Stockbit); safe-assumption rule applied; broker.sh sell stale-fill at 2,550 manually corrected to verified open 2,350 in PAPER-STATE.json.
+
+---
+
+### 2026-05-20 09:15 WIB — MARKET-OPEN ROUTINE SUMMARY
+
+- **Action:** SELL ADRO 392,100 sh @ IDR 2,350 (hard-cut breach). No new entries.
+- **Trades this week:** 1/3 used (ADRO sell consumes no new-trade allowance — closes existing position).
+- **Open positions:** 0 (100% cash post-sell).
+- **Cash post-sell:** IDR 9,809,627,500.
+- **Equity post-sell:** IDR 9,809,627,500.
+- **Cumulative realized P&L:** −IDR 190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M).
+- **Drawdown from peak (10,026,617,500):** −2.16% (deepened from −1.97% May 19 EOD).
+- **No new entries decision:** All 3 candidates scoring ≥6 (KLBF/TLKM/ASII) deferred to post-RDG (Thu May 21 pre-market) per RESEARCH-LOG plan. Pre-binary-event timing + regime DEFENSIVE-confirmed (4/4 shift triggers met). Patience-over-activity rule binding.
+- **Regime escalation note:** RISK-STATE to update — peak 10,026,617,500; new equity 9,809,627,500; drawdown −2.16%. Weekly P&L recalculation pending EOD.
+- **Notification:** Telegram blocked by network policy (host not in allowlist) — message logged to stdout. Equivalent to MISTAKES.md 2026-05-01 procedural fallback.

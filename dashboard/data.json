@@ -281,22 +281,7 @@
       "ihsg_revised_note": "Databoks/multi-source sesi-II final 6,370.68 (-3.46%) \u2014 1-year low; supersedes prior sesi-I cluster anchor 6,396. ADRO mark held 2,400."
     }
   ],
-  "positions": [
-    {
-      "ticker": "ADRO",
-      "entry_date": "2026-05-08",
-      "entry_price": 2550,
-      "shares": 392100,
-      "current_price": 2400,
-      "unrealized_pct": -5.88,
-      "hard_cut": 2371,
-      "trail_stop": null,
-      "stop_state": "hard-cut",
-      "thesis_state": "watch",
-      "catalyst_date": "2026-05-08",
-      "thesis": "Q1 2026 net +67.07% YoY (US$128.14M); Rev +23.4% clean beat. Single-gateway commodity export regulation rumor (May 19) is new structural risk to coal-sector revenue \u2014 watch for official confirmation Wed/Thu. Newcastle ~$130 at $125 floor. Mark 2,400; -4% intermediate trigger 2,448 BREACHED; buffer to hard-cut 2,371 = +1.21% (razor-thin). Day 11 hold."
-    }
-  ],
+  "positions": [],
   "trades": [
     {
       "date": "2026-04-20",
@@ -2552,6 +2537,190 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "ADRO",
+      "action": "SELL",
+      "date": "2026-05-20",
+      "time": "09:15 WIB",
+      "shares": 392100,
+      "price": 2350,
+      "thesis": "Hard-cut breach: gap-down open 2,350 < stop 2,371. Single-gateway export agency risk + BI RDG day. P&L -7.84%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Bloomberg-confirmed single-gateway export agency rumor (coal/CPO/metals)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime 4/4 triggers confirmed; IHSG -3.46% to 1-yr low May 19"
+        },
+        {
+          "type": "risk",
+          "label": "Hard-cut auto-trigger fired at open; multi-source verification BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "Position closed; cash 100% post-sell"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 30 blocked)"
+        }
+      ],
+      "reasoning": "Auto-cut trigger (a) armed in 2026-05-20 RESEARCH-LOG plan: intraday mark <= 2,371 -> immediate sell at market. ADRO gapped down at open to 2,350 (verified multi-source: Investing.com fresh; safe-assumption rule applied vs stale TradingView 2,540 cache). Sell executed; PAPER-STATE corrected to verified open mark per MISTAKES.md 2026-05-01 procedure.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-05-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole-green-sector defensive (healthcare); score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation candidate; deferred pre-RDG"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime 4/4 triggers confirmed; BI RDG binary today"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 / R:R sub-threshold; pre-binary-event timing"
+        },
+        {
+          "type": "sizing",
+          "label": "Regime cap 10% (DEFENSIVE-escalating)"
+        }
+      ],
+      "reasoning": "WATCH-defer pre-RDG. R:R sub-threshold; pre-binary-event timing. Re-research post-RDG (Thu May 21 pre-market) with fresh quote.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-05-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive telco; Pilarmas BoW today; score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation candidate; deferred pre-RDG"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime 4/4 triggers confirmed; BI RDG binary today"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 / R:R sub-threshold; pre-binary-event timing"
+        },
+        {
+          "type": "sizing",
+          "label": "Regime cap 10% (DEFENSIVE-escalating)"
+        }
+      ],
+      "reasoning": "WATCH-defer pre-RDG. Entry zone 2,900-2,950 needed for >=2:1 R:R; mark n/v under data-infra block. Re-research post-RDG.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-05-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Idiosyncratic foreign-flow carry; held green-relative on May 19 capitulation; score 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation candidate; deferred pre-RDG"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime 4/4 triggers confirmed; BI RDG binary today"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 / R:R sub-threshold; pre-binary-event timing"
+        },
+        {
+          "type": "sizing",
+          "label": "Regime cap 10% (DEFENSIVE-escalating)"
+        }
+      ],
+      "reasoning": "WATCH-defer pre-RDG. R:R 1.25:1 at 5,975 (sub-threshold); needs pullback to <=5,800 for 2.1:1. Re-research post-RDG.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -2591,17 +2760,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.97,
+    "drawdown_from_peak_pct": -2.16,
     "risk_budget_used_pct": 0.6,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
     "daily_pnl_pct": -0.48,
     "weekly_pnl_pct": -0.9,
     "peak_equity": 10026617500,
-    "current_equity": 9829232500,
+    "current_equity": 9809627500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-19"
+    "updated": "2026-05-20"
   },
   "activity_log": [
     {
@@ -4093,6 +4262,42 @@
           "detail": "Regime DEFENSIVE-confirmed (all 4 shift triggers met)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-20T02:21:32Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "HARD-CUT ADRO 392,100 sh @ IDR 2,350 (-7.84%, -IDR 78.42M) on gap-down open below stop 2,371. No new entries; KLBF/TLKM/ASII deferred post-RDG. 100% cash post-sell.",
+      "actions": [
+        {
+          "type": "sell",
+          "ticker": "ADRO",
+          "detail": "392100sh @ 2350 (hard-cut breach, gap-down open)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 30 blocked); broker.sh sell stale-fill 2550 corrected to verified open 2350 in PAPER-STATE.json"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram blocked by network policy (host not in allowlist); notification logged to stdout"
+        },
+        {
+          "type": "skip",
+          "ticker": "KLBF",
+          "detail": "deferred post-RDG"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "deferred post-RDG"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "deferred post-RDG"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -4278,5 +4483,5 @@
       "Patience-over-activity holds; trades this week 0/3; expected use this week = 0 entries"
     ]
   },
-  "last_updated": "2026-05-20T00:15:00Z"
+  "last_updated": "2026-05-20T09:15:00+07:00"
 }
