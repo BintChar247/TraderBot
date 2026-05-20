@@ -1795,3 +1795,38 @@ Day 22 (Tue, post-trial Week 5 Day 2). T−2 to BI RDG May 21–22. Routine fire
 - **No new entries decision:** All 3 candidates scoring ≥6 (KLBF/TLKM/ASII) deferred to post-RDG (Thu May 21 pre-market) per RESEARCH-LOG plan. Pre-binary-event timing + regime DEFENSIVE-confirmed (4/4 shift triggers met). Patience-over-activity rule binding.
 - **Regime escalation note:** RISK-STATE to update — peak 10,026,617,500; new equity 9,809,627,500; drawdown −2.16%. Weekly P&L recalculation pending EOD.
 - **Notification:** Telegram blocked by network policy (host not in allowlist) — message logged to stdout. Equivalent to MISTAKES.md 2026-05-01 procedural fallback.
+
+---
+
+### 2026-05-20 11:30 WIB — MIDDAY SCAN (no action — 0 positions)
+
+**Context:** Day 23 (post-trial Wed, Week 5 Day 3 — BI RDG decision day May 19–20 / Prabowo single-gateway export agency announcement watch). Routine fires per schedule, pre-IDX-lunch (12:00–13:30 WIB). **Portfolio is 100% cash** following ADRO hard-cut at 09:15 WIB open (sold 392,100 sh @ IDR 2,350 = −7.84% realized; gap-down breach of hard-cut 2,371).
+
+- broker.sh positions: `{"mode":"paper","positions":[],"count":0}` — verified zero positions
+- broker.sh portfolio: equity IDR 9,809,627,500 (100% cash); realised_pnl −IDR 190,372,500; unrealised_pnl 0
+- Sell-side rules (hard-cut, stop tighten, thesis break): N/A — no positions to evaluate
+- Thesis-check WebSearch (STEP 5): N/A — no positions
+- Intraday research addendum (STEP 6): N/A — no positions moving against us
+
+**Decision matrix this run:**
+- Hard cut (-7%): N/A — no positions
+- Tighten to 7% (+15%): N/A — no positions
+- Tighten to 5% (+20%): N/A — no positions
+- Thesis break exit: N/A — no positions
+- Intraday >3% adverse move: N/A — no positions
+- Sector exit (2 consecutive losses): N/A — coal sector already cleared (ITMG May 18 + ADRO today)
+
+**Action: NONE.** Portfolio in full-cash defensive posture per plan — waiting on BI RDG resolution (May 19–20 decision pending ~14:00 WIB) and Prabowo single-gateway export agency announcement. No new entries today regardless (KLBF/TLKM/ASII deferred to Thu May 21 post-RDG pre-market per RESEARCH-LOG plan).
+
+**Notification sent:** 📊 Midday 2026-05-20: All positions healthy. No action taken.
+
+**Notes:**
+- 0 positions, 100% cash — by definition all positions "healthy" (none open).
+- Stops ledger unchanged (no open stops). PAPER-STATE unchanged (no trades since 09:15 hard-cut).
+- Trades this week: 1/3 used (ADRO sell consumes no new-trade allowance — closes existing position).
+- Drawdown from peak (10,026,617,500): −2.16% — far above −15% hard limit.
+- Cumulative trial alpha vs IHSG: +14.51% (May 19 EOD baseline; today's IHSG print pending).
+- Carry-over watch into EOD: BI RDG decision tape (~14:00 WIB); Prabowo announcement watch; IHSG vs 6,270/6,148 supports; IDR vs 17,750 DEFENSIVE-escalation trigger; Newcastle/Brent commodity floor; coal-sector aftermath of ADRO/ITMG capitulation; foreign flow direction.
+
+---
+
