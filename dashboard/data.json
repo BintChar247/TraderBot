@@ -276,7 +276,9 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0,
-      "note": "ADRO mark-to-market 2,400 (range 2,350-2,440 / open 2,390) on single-gateway commodity export regulation rumor hitting coal sector. ADRO -5.88% from entry (just under -6% warning; buffer to hard-cut 2,371 = +1.21%). IHSG -1.17% vs prior log baseline (alt -3.08% on full sesi II close). T-2 to BI RDG. No trades today."
+      "note": "ADRO mark-to-market 2,400 (range 2,350-2,440 / open 2,390) on single-gateway commodity export regulation rumor hitting coal sector. ADRO -5.88% from entry (just under -6% warning; buffer to hard-cut 2,371 = +1.21%). IHSG -1.17% vs prior log baseline (alt -3.08% on full sesi II close). T-2 to BI RDG. No trades today.",
+      "ihsg_close_revised_to_sesi_ii": 6370.68,
+      "ihsg_revised_note": "Databoks/multi-source sesi-II final 6,370.68 (-3.46%) \u2014 1-year low; supersedes prior sesi-I cluster anchor 6,396. ADRO mark held 2,400."
     }
   ],
   "positions": [
@@ -4052,6 +4054,45 @@
           "detail": "Day 22 EOD snapshot committed; ADRO marked 2,400 from verified intraday range 2,350-2,440"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-20T00:12:53Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market 2026-05-20: 50-ticker scan complete amid 1-yr-low capitulation (IHSG -3.46% to 6,370.68 May 19). DOUBLE BINARY today: (1) BI RDG decision (16/29 economists expect +25bp); (2) Bloomberg-confirmed Prabowo could TODAY announce new state agency to control coal/palm-oil/metals exports. ADRO at razor-thin +1.21% buffer to hard-cut; pre-mortem trigger ARMED. Only 3 candidates scored >=6 (KLBF-6, TLKM-6, ASII-6) \u2014 all deferred to post-RDG. NO NEW ENTRIES today. Regime DEFENSIVE-confirmed (all 4 shift triggers met). URGENT pre-market alert sent.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "3 candidates scored >=6 (KLBF, TLKM, ASII)"
+        },
+        {
+          "type": "alert",
+          "detail": "URGENT pre-market alert sent: ADRO pre-mortem trigger ARMED on Bloomberg-confirmed export agency announcement risk"
+        },
+        {
+          "type": "research",
+          "ticker": "KLBF",
+          "detail": "score 6/10 - sole green sector (healthcare) on May 19 capitulation"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 - Pilarmas BoW today; defensive telco"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "score 6/10 - foreign-flow carry; only -0.42% vs market -3.46%"
+        },
+        {
+          "type": "regime",
+          "detail": "Regime DEFENSIVE-confirmed (all 4 shift triggers met)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -4077,112 +4118,133 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6599.24,
-    "ihsg_change_pct": -1.85,
-    "idr_usd": 17700,
-    "idr_usd_change_pct": 0.44,
-    "coal_usd": 131.7,
-    "coal_change_pct": 1.3,
-    "nickel_usd": 18555,
-    "nickel_change_pct": -0.13,
-    "cpo_myr": 4522,
-    "cpo_change_pct": 2.31,
+    "ihsg": 6370.68,
+    "ihsg_change_pct": -3.46,
+    "idr_usd": 17666,
+    "idr_usd_change_pct": 0.1,
+    "coal_usd": 135.0,
+    "coal_change_pct": 2.5,
+    "nickel_usd": 18780,
+    "nickel_change_pct": 1.21,
+    "cpo_myr": 4542,
+    "cpo_change_pct": 1.13,
+    "brent_usd": 111.22,
+    "brent_change_pct": -0.79,
+    "us_10y_yield": 4.68,
+    "us_30y_yield": 5.19,
+    "indo_10y_sun_yield": 6.78,
+    "vix": 18.17,
     "bi_rate": 4.75,
-    "bi_rate_note": "RDG May 21-22 \u2014 Bloomberg/economist consensus = potential hike to 5.00% to defend rupiah; HAWKISH SURPRISE risk",
-    "asia_sentiment": "IHSG sesi II close 6,599.24 (-1.85%) \u2014 broke 6,682 support; intraday low 6,434 (-4.30%); foreign net sell Rp 464B (ANTM -Rp 315B / BREN -Rp 152.5B / AMMN -Rp 149.1B top sells). Defensive rotation: BBCA +0.41%, TLKM +4.05%, ASII +4.35% \u2014 three green names on red day signal DEFENSIVE rotation, not risk-on reversal. IDR breached 17,500/17,700 record low.",
+    "bi_rate_note": "RDG DECISION TODAY (May 20 \u2014 calendar tightened from May 21-22); 16/29 economists expect +25bp to 5.00% to defend IDR; HAWKISH HIKE vs HOLD = binary",
+    "asia_sentiment": "IHSG -3.46% to 6,370.68 May 19 \u2014 1-year low; 10 of 11 sectors red (healthcare ONLY green); commodity -7.30%, energy -6.94%, transport -6.58%; foreign net sell Rp 464B+ (ANTM top sell -99M sh, BNBR/CUAN/BUMI/DSSA next). Top buys GOTO +240M sh, MDIA, MBMA, DMAS. US 30Y 5.19% 19-yr high; Hang Seng outlier green +0.5%; Nikkei -0.44%; S&P -0.67% third straight down session. IDR 17,666-17,752 record-low band sustained.",
     "foreign_flow_idr_bn": -464,
-    "updated": "2026-05-19"
+    "key_event_today": "Bloomberg-confirmed: Prabowo could announce TODAY new state agency (Danantara-supervised) to control coal/palm-oil/metals exports \u2014 the rumor that crashed IHSG yesterday. BI RDG decision today.",
+    "updated": "2026-05-20"
   },
   "research": {
-    "date": "2026-05-19",
+    "date": "2026-05-20",
     "headlines": [
       {
         "ticker": "IHSG",
-        "headline": "IHSG sesi II close 6,599.24 (-1.85%) on May 18; intraday low 6,434 (-4.30%); broke 6,682 support; May 19 prediksi support 6,270/6,148, test 6,307-6,379 (MNC); resistance 6,640/6,745",
-        "sentiment": "bearish",
-        "source": "Kontan / Investor.id",
-        "url": "https://pusatdata.kontan.co.id/news/ihsg-ambles-185-616-saham-turun-disertai-net-sell-asing-hari-ini-185"
+        "headline": "IHSG -3.46% to 6,370.68 May 19 \u2014 1-year low; sesi-I 6,396 (-3.08%); sesi-II final 6,370.68; 10 of 11 sectors red (healthcare ONLY green); commodity -7.30%, energy -6.94%, transport -6.58%",
+        "sentiment": "bearish-capitulation",
+        "source": "Databoks Katadata",
+        "url": "https://databoks.katadata.co.id/en/market/statistics/6a0c2c99a2aac/the-ihsg-hits-6370-its-lowest-in-a-year-tuesday-may-19-2026"
+      },
+      {
+        "ticker": "BI-RDG-TODAY",
+        "headline": "BI RDG DECISION TODAY (May 20) \u2014 calendar tightened from May 21-22; 16/29 economists in Reuters poll expect +25bp hike to 5.00%; hold = IDR continuation crisis; binary either way",
+        "sentiment": "bearish-binary",
+        "source": "Reuters / MarketScreener",
+        "url": "https://www.marketscreener.com/news/bank-indonesia-to-hike-interest-rates-on-may-20-slim-majority-of-economists-said-ce7f5adada8ef72c"
+      },
+      {
+        "ticker": "EXPORT-AGENCY",
+        "headline": "Bloomberg-confirmed: Indonesia plans new state agency (Danantara-supervised) to control coal/palm-oil/metals exports \u2014 Prabowo could announce TODAY (May 20). Same rumor crashed IHSG -3.46% yesterday. STRUCTURAL THESIS RISK to ADRO and coal/CPO/nickel complex.",
+        "sentiment": "bearish-structural",
+        "source": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/indonesia-plans-to-tighten-state-control-over-commodity-exports"
       },
       {
         "ticker": "IDR",
-        "headline": "USD/IDR conquers 17,700 record low May 18; BI speculation hike to 5.00% next week; reserves down to $148.2B (BI spent $8.3B Q1)",
+        "headline": "USD/IDR 17,666-17,752 record-low band May 19 sustained; intraday 17,752; above 17,750 DEFENSIVE-escalation trigger; reserves down $148.2B end-March (BI spent $8.3B Q1)",
         "sentiment": "bearish",
-        "source": "FXStreet",
-        "url": "https://www.fxstreet.com/news/indonesian-rupiah-hits-record-low-vs-usd-on-middle-east-tensions-usd-idr-conquers-17-700-202605180901"
+        "source": "Trading Economics Indonesia currency",
+        "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "ticker": "BI-RDG",
-        "headline": "Bank Indonesia RDG May 21-22 \u2014 Bloomberg/economist consensus = potential hike to 5.00% from 4.75% to defend IDR; HAWKISH SURPRISE risk binary; market hyper-sensitive",
-        "sentiment": "bearish-neutral",
-        "source": "Trading Economics",
-        "url": "https://tradingeconomics.com/indonesia/currency/news/542383"
+        "ticker": "US-YIELDS",
+        "headline": "US 10Y 4.68% (+8bp) May 19; 30Y briefly topped 5.19% \u2014 19-year high; S&P -0.67% third straight loss; Nasdaq -0.84%; global yield shock weighs EM",
+        "sentiment": "bearish",
+        "source": "CNBC US markets",
+        "url": "https://www.cnbc.com/2026/05/18/stock-market-today-live-updates.html"
       },
       {
         "ticker": "FOREIGN-FLOW",
-        "headline": "Foreign net sell Rp 464B May 18 (Day 21 of MSCI/FTSE rebal wave); top sells ANTM -Rp 315B, BREN -Rp 152.5B, AMMN -Rp 149.1B; outflow continues to weigh through May 29 effective close",
+        "headline": "Foreign net sell -Rp 464B+ intraday May 19 (Day 22 of MSCI/FTSE rebal wave); top sells ANTM -99M sh, BNBR, CUAN, BUMI -79M, DSSA. Top buys GOTO +240M sh, MDIA, MBMA, DMAS \u2014 defensive idiosyncratic rotation",
         "sentiment": "bearish",
-        "source": "CNBC Indonesia",
-        "url": "https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar"
+        "source": "IDNFinancials / Infovesta",
+        "url": "https://www.idnfinancials.com/id/news/63881/ihsg-turun-3-76-di-sesi-i-asing-lepas-saham-dssa-hingga-antm"
+      },
+      {
+        "ticker": "COAL",
+        "headline": "Newcastle thermal coal $134.50-135.80 May 19 (Asia LNG-squeeze tailwind from Iran war); above $125 ADRO pre-mortem trigger floor; structurally bullish but policy risk dominates",
+        "sentiment": "bullish-commodity-bearish-policy",
+        "source": "Trading Economics coal",
+        "url": "https://tradingeconomics.com/commodity/coal"
+      },
+      {
+        "ticker": "CPO",
+        "headline": "CPO 4,542 MYR/T June ctt May 19 (+51 / +1.13%) \u2014 green on red commodity day; supply-tight; same single-gateway-export-policy overhang",
+        "sentiment": "bullish-commodity-bearish-policy",
+        "source": "Agropost",
+        "url": "https://agropost.wordpress.com/2026/05/19/19-may-2026-palm-oil-prices-at-closing/"
+      },
+      {
+        "ticker": "BRENT",
+        "headline": "Brent $111.22 (-0.79%) May 19 \u2014 Trump called off Iran strike (de-escalation premium fading); still well above $95 ADRO pre-mortem trigger",
+        "sentiment": "neutral",
+        "source": "Fortune oil",
+        "url": "https://fortune.com/article/price-of-oil-05-19-2026/"
+      },
+      {
+        "ticker": "KLBF",
+        "headline": "KLBF (Healthcare) \u2014 sole sector GREEN on May 19's -3.46% capitulation; defensive signal; score 6/10; entry deferred to post-RDG with fresh quote",
+        "sentiment": "bullish-defensive",
+        "source": "Liputan6 IHSG sector heatmap",
+        "url": "https://www.liputan6.com/saham/read/6821554/ihsg-hari-ini-19-mei-2026-tinggalkan-posisi-6400"
       },
       {
         "ticker": "TLKM",
-        "headline": "TLKM +4.05% to 3,080 May 18 \u2014 green on -1.85% IHSG day; defensive rotation flagship; candidate-defer-post-RDG (sub-threshold R:R at entry 3,080)",
-        "sentiment": "bullish-idiosyncratic",
-        "source": "Bisnis Indeks Bisnis-27",
-        "url": "https://market.bisnis.com/read/20260518/7/1974509/indeks-bisnis-27-melemah-saham-asii-tlkm-hingga-medc-masih-bertenaga"
+        "headline": "TLKM \u2014 Pilarmas Sekuritas BoW pick today (TLKM/EMAS/ITMG); defensive yield rotation; score 6/10; WATCH-defer-post-RDG",
+        "sentiment": "bullish-defensive",
+        "source": "Liputan6 rekomendasi",
+        "url": "https://www.liputan6.com/saham/read/6821554/ihsg-hari-ini-19-mei-2026-tinggalkan-posisi-6400"
       },
       {
         "ticker": "ASII",
-        "headline": "ASII +4.35% to 6,000 May 18 \u2014 foreign net-buy carry +Rp 2.44T cumulative thru May 13; candidate-defer-post-RDG (chase ceiling 6,180)",
-        "sentiment": "bullish-idiosyncratic",
-        "source": "Bisnis Indeks Bisnis-27",
-        "url": "https://market.bisnis.com/read/20260518/7/1974365/indeks-bisnis-27-dibuka-melemah-saham-asii-medc-cpin-masih-bertenaga"
-      },
-      {
-        "ticker": "BBCA",
-        "headline": "BBCA +0.41% to 6,125 May 18 \u2014 only big bank green on red day; defensive flagship; sub-threshold R:R for entry at current; defensive-track SUSPENDED per regime",
+        "headline": "ASII 5,975 May 19 (only -0.42% vs market -3.46%); idiosyncratic foreign-flow carry +Rp 2.44T thru May 13; UNTR Rp 3.86T div paid; score 6/10; WATCH-defer-post-RDG (pullback ideal <=5,800)",
         "sentiment": "bullish-defensive",
-        "source": "Babelinsight",
-        "url": "https://www.babelinsight.id/saham-bbca-anjlok-18-mei-2026"
-      },
-      {
-        "ticker": "AKRA",
-        "headline": "AKRA +0.69% to 1,465 May 18 \u2014 insider buy +Rp 282.5B May 4-6 carryover; quarterly div Rp 25 ex-May 7 (yield ~6.87%); candidate-defer-post-RDG",
-        "sentiment": "bullish-quiet",
-        "source": "Investing.com / StockWatch",
-        "url": "https://www.investing.com/equities/akr-corporindo"
-      },
-      {
-        "ticker": "AALI",
-        "headline": "CPO +2.31% to 4,522 MYR/ton May 18 / +6.06% MoM USD 1,049; AALI Q1 +28.5% / div Rp 458 paid May 13; candidate (price not freshly verified)",
-        "sentiment": "bullish",
-        "source": "Trading Economics palm oil",
-        "url": "https://tradingeconomics.com/commodity/palm-oil"
-      },
-      {
-        "ticker": "ANTM",
-        "headline": "ANTM intraday -12% (3,080 at 11:05 WIB) on May 18; foreign net sell Rp 315B (top in market); LME nickel $18,555 below $19K narrative threshold; nickel sector -8.14% on day",
-        "sentiment": "bearish",
-        "source": "CNBC Indonesia",
-        "url": "https://www.cnbcindonesia.com/market/20260518185922-17-735724/ihsg-sempat-ambruk-4-lebih-asing-net-sell-rp-464-miliar"
+        "source": "Investing.com ASII",
+        "url": "https://www.investing.com/equities/astra-intl-tbk"
       },
       {
         "ticker": "ADRO",
-        "headline": "ADRO HELD 392,100 sh @ 2,550; last mark 2,520 (-1.18%); buffer to hard-cut 2,371 +5.91%; Q1 +67% catalyst intact; pre-mortem triggers (Brent <$95, Newcastle <$125, -4% pain 2,448) all unbreached",
-        "sentiment": "neutral-hold",
-        "source": "TRADE-LOG May 18 EOD",
+        "headline": "ADRO HELD 392,100 sh @ 2,550; last mark 2,400; unrealized -5.88%. -4% intermediate-pain (2,448) BREACHED. Buffer to hard-cut 2,371 = +1.21% razor-thin. Pre-mortem trigger ARMED on Bloomberg-confirmed single-gateway export agency announcement risk TODAY. Multi-source verification BINDING.",
+        "sentiment": "bearish-hold-watch-exit",
+        "source": "TRADE-LOG May 19 EOD",
         "url": null
       },
       {
         "ticker": "MSCI",
-        "headline": "MSCI Indonesia rebalance effective close May 29 \u2014 $1.6-1.8B passive outflow modelled (Goldman/CGS); AMMN/BREN/TPIA/DSSA/CUAN/AMRT continue to weigh through end-May",
+        "headline": "MSCI Indonesia rebalance effective close May 29 \u2014 $1.6-1.8B passive outflow continues; OJK monitoring DSSA/BREN HSC-removal risk; AMMN/TPIA/CUAN/AMRT continue to weigh",
         "sentiment": "bearish",
-        "source": "Heygotrade",
-        "url": "https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/"
+        "source": "Asatunews OJK",
+        "url": "https://www.asatunews.co.id/ojk-pantau-potensi-penghapusan-saham-indonesia-dari-indeks-msci"
       },
       {
         "ticker": "REGIME",
-        "headline": "Regime escalating: EM-OUTFLOW-INTENSIFIED \u2192 likely DEFENSIVE pending BI RDG May 21-22. 3 of 4 shift triggers met (IDR breached 17,500, IHSG broke 6,682, foreign net sell continues). Defensive-track SUSPENDED. Max position size 10% on any new entry until RDG resolves. NO NEW ENTRIES this week pre-RDG.",
+        "headline": "Regime: DEFENSIVE-confirmed \u2014 all 4 shift triggers now met (IDR >17,500 sustained, IHSG <6,470 broken, foreign net sell continues, BI signal TODAY). Defensive-track SUSPENDED. Max position size capped at 10%. NO NEW ENTRIES today regardless. Formal label change pending May 22 weekly review.",
         "sentiment": "bearish-regime",
         "source": "MACRO-REGIME.md (analyst update)",
         "url": null
@@ -4190,42 +4252,31 @@
     ],
     "candidates_scored_6_plus": [
       {
-        "ticker": "TLKM",
-        "score": 7,
+        "ticker": "KLBF",
+        "score": 6,
         "status": "WATCH-defer-post-RDG",
-        "note": "Defensive rotation flagship; sub-threshold R:R at 3,080"
+        "note": "Sole-green-sector defensive (Healthcare) on May 19 capitulation; entry deferred (R:R sub-threshold; price n/v)"
+      },
+      {
+        "ticker": "TLKM",
+        "score": 6,
+        "status": "WATCH-defer-post-RDG",
+        "note": "Pilarmas BoW today; defensive telco; sub-threshold R:R at anchor 3,080; revisit post-RDG"
       },
       {
         "ticker": "ASII",
-        "score": 7,
-        "status": "WATCH-defer-post-RDG",
-        "note": "Foreign-flow carry +Rp 2.44T; sub-threshold R:R at 6,000"
-      },
-      {
-        "ticker": "BBCA",
         "score": 6,
         "status": "WATCH-defer-post-RDG",
-        "note": "Defensive flagship; sub-threshold R:R; defensive-track SUSPENDED per regime"
-      },
-      {
-        "ticker": "AKRA",
-        "score": 6,
-        "status": "WATCH-defer-post-RDG",
-        "note": "Insider buy +Rp 282.5B carry; sub-threshold R:R at 1,465"
-      },
-      {
-        "ticker": "AALI",
-        "score": 6,
-        "status": "WATCH-defer-post-RDG",
-        "note": "CPO tailwind + Q1 +28.5%; price not freshly verified"
+        "note": "5,975 (only -0.42% vs market -3.46%); idiosyncratic foreign-flow carry; R:R 2.1:1 only at <=5,800; defer pre-RDG"
       }
     ],
     "plan_for_market_open": [
-      "HOLD ADRO 392,100 sh @ 2,550 (Day 11); multi-source verify mark if drifts to <=2,450 (within 3.3% of hard-cut)",
-      "NO NEW ENTRIES pre-RDG (May 21-22) \u2014 regime escalating to DEFENSIVE",
-      "All 5 candidates (TLKM, ASII, BBCA, AKRA, AALI) deferred \u2014 sub-threshold R:R at current marks; re-research post-RDG May 22 pre-market",
-      "Defensive triggers active: IHSG <6,470 / IDR >17,750 sustained / Newcastle <$125 / ADRO <2,450 = NO new entries + reassess ADRO exit pre-stop"
+      "HOLD ADRO 392,100 sh @ 2,550 (Day 12); multi-source verify mark at 09:15 open; auto-cut triggers ARMED",
+      "AUTO-CUT TRIGGERS: (a) ADRO breach 2,371 intraday = immediate sell; (b) Official Prabowo announcement of single-gateway export agency = immediate sell regardless of price; (c) Newcastle <$125 verified sustained 2nd day; (d) IHSG gap below 6,250 + ADRO testing 2,400 = defensive pre-stop exit",
+      "NO NEW ENTRIES today \u2014 BI RDG decision today + possible Prabowo export-agency announcement = double binary",
+      "All 3 candidates scoring >=6 (KLBF, TLKM, ASII) deferred to Thu May 21 pre-market with fresh quotes",
+      "Patience-over-activity holds; trades this week 0/3; expected use this week = 0 entries"
     ]
   },
-  "last_updated": "2026-05-19T08:26:49Z"
+  "last_updated": "2026-05-20T00:15:00Z"
 }
