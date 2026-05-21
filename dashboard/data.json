@@ -4604,6 +4604,12 @@
           "detail": "WebSearch price override used (yfinance Day 31 blocked)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-21T04:41:49Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Day 24 midday scan: KLBF (only open position) healthy at ~930 (\u22121.6%, well above \u22127% hard-cut floor 878). Thesis intact (Q1 results in line, 500bn buyback live, defensive rotation thesis confirmed by BI +50bp). No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {

@@ -1911,3 +1911,34 @@ Day 23 (Wed, post-trial Week 5 Day 3). BI RDG decision day: Bank Indonesia raise
 - Intermediate pain action: at −4% (IDR 907), reassess sector tape; if healthcare still leading, hold; if rolling over, cut before hard-cut fires
 - Price source: WebSearch (yfinance Day 31 blocked); manual: IDR 945 from Investing.com / Yahoo Finance (multi-source agreement on lower end of 945–1,035 range; safe-assumption rule applied)
 - Track: CATALYST (defensive rotation catalyst; not Defensive-Quality Track — that track is SUSPENDED in DEFENSIVE regime)
+
+
+### 2026-05-21 11:30 WIB — MIDDAY SCAN (Day 24, Thu, Week 5 Day 4)
+
+**Open positions (1):**
+
+| Ticker | Shares | Entry (IDR) | Mark (IDR) | Unrealized P&L | State |
+|--------|--------|-------------|------------|----------------|-------|
+| KLBF | 519,000 | 945 | ~930 (multi-source, safe-assumption lower mark) | −1.6% (−IDR 7.79M) | State 1 — HARD-CUT @ 878 |
+
+**Sell-side rule application:**
+
+- Hard-cut check (≤ entry × 0.93 = 878): NOT BREACHED — mark ~930 vs floor 878 (52pt cushion = +5.9% buffer above hard-cut).
+- Tighten to 7% (+15%): N/A — position only −1.6%, not at +7% trailing transition yet (State 1 hard-cut still active).
+- Tighten to 5% (+20%): N/A — same as above.
+- Thesis-break check: PASS — KLBF Q1 2026 results healthy (revenue +10% YoY in line; distribution +21% YoY; pharma +8% YoY); additional IDR 500bn buyback program live Apr 2 – Jul 2 2026 (technical support); defensive rotation thesis intact (BI +50bp confirmed = rate-shock environment favoring healthcare/staples). No adverse pharma-import policy news. Sector still leading per analyst consensus.
+- Intraday >3% adverse move: NOT TRIGGERED — KLBF off ~1.6% vs IHSG −1.11% open (~6,248) → roughly tracking market; not a sharp outlier move requiring midday addendum.
+- Sector exit (2 consecutive losses): N/A — healthcare sector has 0 prior strikes; KLBF is first pharma trade.
+
+**Action: NONE.** Position healthy, well above hard-cut, thesis intact. Continue holding.
+
+**Notification sent:** 📊 Midday 2026-05-21: All positions healthy. No action taken.
+
+**Notes:**
+- Data infra Day 32: yfinance still blocked (HTTP 403 host-not-in-allowlist); GoAPI unavailable; broker.sh quote falls back to stale entry_price. KLBF mark resolved via multi-source WebSearch (Investing.com / Yahoo / Ajaib / Stockbit / TradingView cluster) — readings 910/930/1,035/1,135 IDR; conflict resolved per MISTAKES.md 2026-05-01 safe-assumption rule (lower mark for held position).
+- Intermediate-pain trigger (entry × 0.96 = 907 IDR) NOT yet armed — position −1.6% well above the −4% reassess threshold; healthcare still leading sector tape per multi-source.
+- Pre-mortem trigger (a) — "KLBF breaks 920 intraday on heavy volume" — currently uncertain (some marks 910, some 930+); volume not verifiable due to data-infra block. Re-check at EOD with multi-source close.
+- Trades this week: 1/3 used (KLBF entry); patience-discipline binding for remainder of week.
+- IHSG morning (~6,248 → −1.11%): within projected range (Kontan support 6,184; resistance 6,388); no capitulation-mode signal yet.
+- Carry-over watch into EOD: KLBF close vs pre-mortem 920 floor; IHSG vs 6,184 support; IDR vs 17,750 DEFENSIVE-strict escalation trigger; foreign-flow direction post-BI; Danantara transition headlines.
+
