@@ -1942,3 +1942,67 @@ Day 23 (Wed, post-trial Week 5 Day 3). BI RDG decision day: Bank Indonesia raise
 - IHSG morning (~6,248 → −1.11%): within projected range (Kontan support 6,184; resistance 6,388); no capitulation-mode signal yet.
 - Carry-over watch into EOD: KLBF close vs pre-mortem 920 floor; IHSG vs 6,184 support; IDR vs 17,750 DEFENSIVE-strict escalation trigger; foreign-flow direction post-BI; Danantara transition headlines.
 
+
+### 2026-05-21 EOD — Day 24 (Thu, Week 5 Day 4, Post-RDG)
+
+- Total equity: IDR 9,791,462,500 (1 open position — KLBF; 95.18% cash)
+- Daily P&L: IDR −18,165,000 (−0.19%) — vs prior EOD baseline 9,809,627,500 (May 20)
+- IHSG daily: −2.76% (close 6,144.36 vs prior close 6,318.50; sesi II final per Liputan6/Okezone multi-source)
+- Daily alpha: +2.57% (KLBF defensive name + 95% cash buffer absorbed broad capitulation)
+- Cash: IDR 9,319,172,500 (95.18% of equity)
+- Trades today: 1 (BUY KLBF 519,000 sh @ IDR 945 at market-open)
+- Trades this week: 1/3 new entries (KLBF entry consumed this week's first slot)
+- Phase-to-date P&L: IDR −208,537,500 (−2.09% vs IDR 10B starting capital)
+- Cumulative alpha vs IHSG (Day 0 baseline 7,634; today 6,144.36 = −19.51%): +17.43%
+- Realized P&L (cumulative): −IDR 190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M)
+- Weekly P&L (Week 5 — start baseline 9,876,284,500 May 18 EOD): −0.86%
+- Drawdown from peak (10,026,617,500 May 1): −2.35% (deepened from −2.16% May 20; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 910 | IDR −18,165,000 (−3.70%) | 1 |
+
+#### Notes
+
+Day 24 (Thu, post-trial Week 5 Day 4, T+1 post-BI RDG +50bp hike). Market context turned hostile mid-session: IHSG opened weak, sesi I closed −2.76% at ~6,144, sesi II final 6,144.36 (−174.14 pts / −2.76%). Catalyst: Prabowo presidential speech triggered renewed risk-off; MSCI/FTSE rebalance excluded several Prajogo Pangestu group conglomerate names (BRPT/CUAN/PTRO cluster), accelerating foreign outflow. Asia bourses mostly green (decoupling) — IHSG isolated weakness.
+
+**Broker reconciliation:** `broker.sh portfolio` shows 1 position (KLBF 519,000 sh @ entry 945), cash 9,319,172,500, equity (broker MTM-at-entry-price) 9,809,627,500, realised_pnl −190,372,500, unrealised_pnl 0 (broker uses entry as last_price; yfinance blocked Day 32). TRADE-LOG Active Positions table matches. **No discrepancy** — broker mark differs from WebSearch-verified close because broker's yfinance fallback returns stale entry price.
+
+**Today's only execution:** BUY KLBF 519,000 sh @ IDR 945 at 09:15 WIB (defensive rotation post-BI hike; healthcare was sole green sector May 19 capitulation). All 15 gates passed via Layer-2 gate-check.sh. Stop set at IDR 878 (−7% hard-cut GTC, State 1 until +7% trailing transition). Position size 5.00% of equity (well within 15% regime cap).
+
+**Mark-to-market sources (multi-source WebSearch — yfinance Day 32 blocked):**
+- IHSG: 6,144.36 sesi II close (−2.76%; Liputan6/Okezone/babelinsight cluster; sesi I closed 6,143–6,144). Cumulative IHSG vs Day 0 baseline 7,634 = −19.51%.
+- KLBF: 910 IDR (safe-assumption lower mark; multi-source cluster 905/910/930/1,035 per Stockbit/Yahoo/Investing/TradingView; midday anchor 930 declined into close tracking IHSG sesi II weakness; lower-mark rule per MISTAKES.md 2026-05-01 for held position). Position −3.70% from entry 945; hard-cut floor 878 sits 3.52% below current mark = +3.52% buffer.
+- USD/IDR: rupiah modestly strengthened today per babelinsight headline ("Rupiah Menguat Tipis dan IHSG Melemah") — slight relief vs prior 17,738 record territory; below 17,750 DEFENSIVE-strict escalation trigger.
+- Newcastle thermal coal: ~$134–136/ton (no fresh prints; supportive but no held coal position).
+- Brent: ~$110–112 (no fresh prints; well above $95 floor).
+- BI-Rate: 5.25% (post-yesterday hike; no fresh policy news).
+
+**Macro:** Today's capitulation was a Prabowo-speech + MSCI-rebalance combo, not a fundamental re-rate. Prajogo group names (BRPT/CUAN/PTRO/DSSA) drove broad-market decline. Healthcare sector (KLBF positioning) less impacted but not immune. Sole Asia-Pacific decliner (IHSG isolated weakness vs Nikkei/Hang Seng/KOSPI green) — confirms idiosyncratic Indonesia risk-off rather than EM-wide rotation. Foreign outflow continues; BI hike +50bp insufficient to anchor rupiah re-rating despite +50bp surprise.
+
+**Portfolio impact:** Daily P&L −0.19% from KLBF unrealized only; 95% cash buffer absorbed broad −2.76% market decline → +2.57% daily alpha (largest positive alpha session this week). Cumulative trial alpha now +17.43% — strongest of trial (vs +15.32% May 20 EOD). KLBF position behaving as designed: defensive name down −3.70% vs IHSG −2.76% (slight underperformance vs market, expected as defensive names don't capture sell-off-driven volatility skew on entry day with no flight-to-quality dynamic yet).
+
+**RISK ALERTS:**
+- Daily P&L −0.19% — far from −2% cap. NO formal alert.
+- KLBF −3.70% — well above −6% warning threshold (margin +2.30 percentage points). NO alert.
+- Drawdown from peak −2.35% — far above −15% hard limit. NO alert.
+- Weekly P&L −0.86% — far from −5% reduction trigger.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+**Sector exposure:** Healthcare 4.82% of equity (KLBF only); cash 95.18%. No coal/banking/mining exposure (post May 20 ADRO cut).
+
+**Cumulative alpha trajectory:** +17.43% vs IHSG since Day 0 — new trial high. Cash buffer + ADRO hard-cut discipline May 20 + selective KLBF entry today compounding favorably during sustained IHSG capitulation (now −19.51% from Day 0).
+
+**Watch Fri May 22 (next session — Week 5 Day 5, weekly-review day):**
+1. **KLBF mark vs 920 pre-mortem trigger (a) intraday floor** — if breaks 920 on heavy volume, defensive rotation thesis weakening. Today's close 910 already below pre-mortem trigger — monitor sesi I tape Fri; potential cut signal if volume confirms.
+2. **Healthcare sector relative strength** — was sole green sector May 19; if turns red while IHSG bounces (sector leadership reversal), pre-mortem trigger (b) fires → close KLBF.
+3. **Hard-cut floor 878** — KLBF buffer +3.52% from today's 910 close. Hard-cut binding if breached.
+4. **Intermediate pain trigger** — entry × 0.96 = 907 IDR. Position already at 910 = within 33bps of intermediate-pain reassess threshold. If breaks 907 Fri AM, reassess sector tape; cut if healthcare rolling over.
+5. **Prabowo follow-up / Danantara news** — single-gateway export agency announcement still pending; weekend headline risk.
+6. **MSCI/FTSE rebalance aftermath** — Prajogo cluster continuation or relief? Prajogo names disposal flow may continue dragging IHSG.
+7. **Weekly review** — Fri 16:00 WIB: Week 5 letter grade, CONVICTION-LOG ADRO closure entry, MISTAKES.md (none today), MACRO-REGIME potential update (DEFENSIVE escalation watch).
+8. **Cumulative alpha protection** — +17.43% trial-high alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary.
+
+---
