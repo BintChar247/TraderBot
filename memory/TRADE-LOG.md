@@ -10,7 +10,7 @@ _Updated by market-open and EOD routines. Stop state: hard-cut (-7% from entry) 
 
 | Ticker | Entry Date | Entry Price (IDR) | Shares | Total Cost (IDR) | Hard Cut (IDR) | Stop State | Thesis (1 line) |
 |--------|-----------|-------------------|--------|------------------|----------------|------------|-----------------|
-| _(none)_ | — | — | — | — | — | — | All positions closed. 100% cash. |
+| KLBF | 2026-05-21 | 945 | 519,000 | 490,455,000 | 878 | hard-cut | Defensive pharma rotation post-BI +50bp; healthcare sole green May 19; analyst PT 1,554 (+64%). |
 
 _BBRI position closed 2026-05-01 via hard-cut execution at IDR 2,990 (−8.28%); see Trade History below._
 _ITMG position closed 2026-05-18 via Q1-miss pre-commit + hard-cut breach at IDR 24,150 (−7.38%); see Trade History below._
@@ -1893,3 +1893,21 @@ Day 23 (Wed, post-trial Week 5 Day 3). BI RDG decision day: Bank Indonesia raise
 
 ---
 
+
+### 2026-05-21 09:15 WIB — BUY KLBF
+
+- Side: BUY
+- Shares: 519,000 shares at IDR 945
+- Fill price: IDR 945
+- Position size: IDR 490,455,000 (5.00% of equity 9,809,627,500)
+- Stop: IDR 878 (-7% hard-cut GTC order placed; State 1 — hard-cut until +7%)
+- Target: IDR 1,150 (+21.7% from entry)
+- Catalyst: Post-BI +50bp defensive rotation; healthcare was the sole green sector on May 19 capitulation day; analyst consensus Strong Buy (15 of 16 analysts), PT 1,554 IDR (+64% from entry)
+- 9-gate checklist: PASS (all 15 gates passed via Layer-2 gate-check.sh)
+- Thesis: "Dominant Indonesian pharma franchise with defensive cash-flow profile; healthcare sector demonstrated relative strength on capitulation day amid EM-OUTFLOW/DEFENSIVE regime — rotation magnet for rate-shock defensive bid with embedded analyst-upside cushion."
+- R:R: 3.11:1 (target 1,150 vs hard-cut 878 from entry 945)
+- Conviction: MEDIUM (defensive trade, multi-source price-anchor conflict resolved via safe-assumption lower mark)
+- Pre-mortem trigger: thesis invalidated if (a) KLBF breaks 920 intraday on heavy volume (defensive rotation failing), (b) healthcare sector turns red while IHSG bounces (sector leadership reversal), or (c) Danantara-style policy shock extends to pharma imports
+- Intermediate pain action: at −4% (IDR 907), reassess sector tape; if healthcare still leading, hold; if rolling over, cut before hard-cut fires
+- Price source: WebSearch (yfinance Day 31 blocked); manual: IDR 945 from Investing.com / Yahoo Finance (multi-source agreement on lower end of 945–1,035 range; safe-assumption rule applied)
+- Track: CATALYST (defensive rotation catalyst; not Defensive-Quality Track — that track is SUSPENDED in DEFENSIVE regime)

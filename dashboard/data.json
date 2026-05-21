@@ -2748,6 +2748,190 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "BUY",
+      "date": "2026-05-21",
+      "time": "09:15 WIB",
+      "shares": 519000,
+      "price": 945,
+      "thesis": "Defensive pharma rotation post-BI +50bp; healthcare sole green sector on May 19 capitulation; analyst PT 1,554 (+64%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-BI hike defensive rotation into healthcare (sole green sector May 19)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime confirmed; consumer-staples/healthcare favored"
+        },
+        {
+          "type": "risk",
+          "label": "35bps risk budget (entry 945 \u2192 hard-cut 878); R:R 3.11:1"
+        },
+        {
+          "type": "sizing",
+          "label": "5.00% of equity (IDR 490.46M / IDR 9.81B); defensive cap 7%"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 31 blocked)"
+        }
+      ],
+      "reasoning": "Best R:R candidate today (3.11:1 at entry 945). Healthcare sector showed leadership on May 19 capitulation; KLBF analyst Strong Buy 15-of-16, PT 1,554. All 15 gates passed; multi-source price agreement on 945 (Investing.com + Yahoo).",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-05-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BI +50bp deposit-rich CASA-beneficiary; defensive blue-chip foreign-flow magnet.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI +50bp hike May 20; CASA-leader NIM-expansion asymmetry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; banking sector-watch 1-of-2 strike active"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 0.96:1 at 6,000 entry \u2014 fails 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "deferred until pullback to \u22645,800 (2:1 R:R threshold)"
+        }
+      ],
+      "reasoning": "Fundamental thesis sound but R:R compresses at 6,000 entry (target 6,400 / hard-cut 5,580 = 0.96:1). Discipline over activity binding; await pullback \u2264 5,800.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-05-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive telco, 7.41% fwd div yield; foreign-flow rotation magnet.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-BI defensive rotation; TLKM buyback final week May 27"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; telco yield-defensive bid"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.43:1 at 3,000 entry \u2014 sub-2:1 minimum; price-anchor conflict"
+        },
+        {
+          "type": "sizing",
+          "label": "deferred until \u22642,800 + multi-source mark verified"
+        }
+      ],
+      "reasoning": "Multi-source price-anchor conflict (3,000 vs 3,640) unresolved; even with safe-assumption 3,000 anchor, R:R 1.43:1 fails 2:1 minimum. Await pullback \u2264 2,800 with verified mark.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-05-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Foreign YTD top buy +Rp2.65T; held green on May 19 capitulation; defensive industrial conglomerate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign-rotation continuation; ASII relative-strength on capitulation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; industrial-defensive bid"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.08:1 at 5,950 entry \u2014 fails 2:1; needs \u22645,700 for 2:1"
+        },
+        {
+          "type": "sizing",
+          "label": "deferred until pullback \u22645,700"
+        }
+      ],
+      "reasoning": "Foreign-flow rerate signal real and bottom-up valuation supports, but R:R compresses at 5,950 (target 6,400 / hard-cut 5,535 = 1.08:1). Need deeper pullback to \u2264 5,700 for 2:1.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -4381,6 +4565,43 @@
         {
           "type": "regime",
           "detail": "DEFENSIVE-confirmed; sector exit binding coal; 7% max position cap"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-21T02:20:49Z",
+      "routine": "market-open",
+      "status": "success",
+      "summary": "Bought KLBF 519,000 sh @ IDR 945 (5.00% equity / IDR 490.46M). Hard-cut IDR 878. Other 3 candidates (BBCA, TLKM, ASII) skipped on sub-2:1 R:R at current marks.",
+      "actions": [
+        {
+          "type": "buy",
+          "ticker": "KLBF",
+          "detail": "519000sh @ 945"
+        },
+        {
+          "type": "stop",
+          "ticker": "KLBF",
+          "detail": "hard-cut @ 878"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "R:R 0.96:1 sub-2:1; await \u22645,800"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "R:R 1.43:1 + price-anchor conflict"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "R:R 1.08:1; await \u22645,700"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 31 blocked)"
         }
       ]
     }

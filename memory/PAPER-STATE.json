@@ -2,9 +2,16 @@
   "_comment": "Paper broker ledger. broker.sh paper paths read/write this file instead of returning hard-coded stubs. Equity = starting_capital + sum(realised_pnl) + unrealised (fetched live). Positions array drives positions subcommand and gate-check sector-concentration check.",
   "mode": "paper",
   "starting_capital": 10000000000,
-  "cash": 9809627500.0,
+  "cash": 9319172500.0,
   "realised_pnl": -190372500.0,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "KLBF",
+      "shares": 519000,
+      "entry_price": 945,
+      "entry_date": "2026-05-21"
+    }
+  ],
   "closed_trades": [
     {
       "ticker": "BBRI",
@@ -37,6 +44,6 @@
       "exit_reason": "hard-cut breach (-7.84% from entry); ADRO gapped down to open 2,350 < hard-cut 2,371 at market-open May 20. Bloomberg-confirmed single-gateway export agency risk + BI RDG day. Multi-source verified mark (Investing.com fresh): open 2,350, day range 2,210-2,430, prev close 2,320, last 2,210. broker.sh sell filled at stale entry-price (yfinance blocked Day 30 since Apr 21); ledger corrected to verified open mark 2,350 for trial-P&L integrity (per MISTAKES.md 2026-05-01 procedure)."
     }
   ],
-  "updated": "2026-05-20",
+  "updated": "2026-05-21",
   "_trial_note": "Trial starts 2026-04-20. Positions array will be populated by broker.sh paper buy on first market-open execution. Cash will decrease by position cost on each buy."
 }
