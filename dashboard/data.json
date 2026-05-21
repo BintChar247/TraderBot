@@ -4343,6 +4343,46 @@
           "detail": "Day 23 EOD snapshot committed; ADRO sell logged; RISK-STATE + dashboard updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-21T00:11:55Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers post-BI +50bp hike + Danantara confirmation. 4 candidates scored \u22656 (BBCA 7, TLKM 7, ASII 7, KLBF 6). Only KLBF passes 2:1 R:R; others need pullbacks. Coal sector EXITED (binding). Regime DEFENSIVE-confirmed.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned post-BI +50bp / Danantara"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "KLBF",
+          "detail": "score 6/10 - defensive pharma, analyst PT +78%, only 2:1 R:R qualifier"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 - deposit-rich BI hike beneficiary, R:R sub-2:1"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 7/10 - defensive telco 7.41% div yield, R:R sub-2:1"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "score 7/10 - YTD foreign top buy +Rp2.65T, R:R sub-2:1"
+        },
+        {
+          "type": "regime",
+          "detail": "DEFENSIVE-confirmed; sector exit binding coal; 7% max position cap"
+        }
+      ]
     }
   ],
   "exposure": {
