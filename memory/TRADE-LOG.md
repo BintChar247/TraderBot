@@ -2006,3 +2006,19 @@ Day 24 (Thu, post-trial Week 5 Day 4, T+1 post-BI RDG +50bp hike). Market contex
 8. **Cumulative alpha protection** — +17.43% trial-high alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary.
 
 ---
+
+### 2026-05-22 09:15 WIB — MARKET-OPEN ROUTINE SUMMARY
+
+- **Action:** NO NEW ENTRIES. HOLD KLBF. All 5 candidates from pre-market (UNVR/ICBP/INDF/BBCA/MIKA) scored ≥6 but **all fail 2:1 R:R at current marks**; tape in capitulation continuation (IHSG 6,094 −3.54% May 21 close, below 6,184 support); Friday + weekly-review day + MSCI rebalance May 29 ahead; cumulative-alpha protection binding (+17.43% trial-high alpha).
+- **9-gate check:** Not run (no candidate qualifies — Gate 9 R:R structurally fails per RESEARCH-LOG pullback thresholds: UNVR ≤1,930, ICBP ≤7,950, INDF ≤7,400, BBCA ≤5,900, MIKA ≤2,180 needed).
+- **Eagerness check:** PASS — patience binding; no thesis genuinely compelling at current marks; rejection of chase risk.
+- **Open positions:** 1 (KLBF 519,000 sh @ entry 945; hard-cut 878; +3.65% buffer at last 910 mark).
+- **Trades this week:** 1/3 new entries used (KLBF May 21); 2 slots reserved.
+- **Cash:** IDR 9,319,172,500 (95.18% of equity 9,809,627,500 broker MTM-at-entry).
+- **Held-position monitor (KLBF):** Pre-mortem trigger (a) "breaks 920 intraday on heavy volume" already breached on close May 21 (910 < 920). Sesi I May 22 tape will be decisive — multi-source mark + healthcare sector relative-strength vs IHSG. Decision tree at midday: (a) above 925 + sector green → continue HOLD; (b) breaks 905 heavy volume + sector red → CUT pre-hard-cut; (c) hard-cut 878 breached → AUTO-CUT.
+- **Data infra Day 33:** yfinance still blocked (broker.sh quote returns ERROR for non-held tickers; stale entry_price for KLBF). All marks via multi-source WebSearch with safe-assumption lower-mark rule per MISTAKES.md 2026-05-01.
+- **Regime:** DEFENSIVE-confirmed (Week 5 entrenched; formal label flip pending today's weekly-review 16:00 WIB). 5% max sizing cap; Defensive-Quality Track suspended.
+- **Sector posture:** Coal EXITED (2 strikes: ITMG/ADRO). Banking sector-watch 1-of-2 strike active (BBRI May 1). New leadership: Consumer (UNVR/ICBP/INDF) + Healthcare (KLBF/MIKA) — but R:R compression denies entry today.
+- **Notification:** No-trade notification sent (📊 Market-open 2026-05-22: No trades placed. All 5 candidates fail 2:1 R:R; capitulation continuation; cumulative-alpha protection binding).
+
+---

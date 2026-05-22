@@ -3037,6 +3037,251 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-05-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer-staples defensive leader; +5.45% on May 21 capitulation; CPO input cost tailwind + Ramadan/Lebaran extension",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation post-BI +50bp; CPO \u22122.73% input cost tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; IHSG capitulation tape; MSCI rebalance May 29 ahead"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 R:R 1.20:1 fails 2:1 minimum at 2,030; need pullback \u22641,930"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap (DEFENSIVE regime) \u2014 not deployed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source price (yfinance Day 33 blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.20:1 fails 2:1 at 2,030 (target 2,200 +8.4% vs hard-cut 1,888 \u22127%). Premium valuation (P/E 19\u201322x, P/B 13x) + +5.45% momentum = chase risk. Wait for pullback \u22641,930 for 2:1 R:R; defensive-rotation thesis intact but entry compromised today.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-05-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive consumer; resilient through capitulation at 8,225; CPO input tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation; CPO input cost down; Indomie/Pop Mie franchise"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; IHSG capitulation continuation"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 R:R 1.00:1 fails 2:1 at 8,225; need pullback \u22647,950"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u2014 not deployed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source price (yfinance Day 33 blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.00:1 fails 2:1 at 8,225 (target 8,800 +7% vs hard-cut 7,649 \u22127%). Defensive resilience thesis intact but mark too rich. Wait for pullback \u22647,950 OR target raise \u22659,150 for 2:1 R:R.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-05-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Parent of ICBP + CPO direct exposure; closed 7,600 (+3.31%) on capitulation day",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation + dual exposure (consumer staples via ICBP + Indofood Agri CPO)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; export-control narrative double-edged"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 R:R 1.13:1 at 7,600 entry; needs pullback \u22647,400 for 2.41:1"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u2014 not deployed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source price (yfinance Day 33 blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.13:1 fails 2:1 at 7,600 (target 8,200 +7.9% vs hard-cut 7,068 \u22127%). Becomes 2.41:1 at 7,400 entry. Sum-of-parts thesis strong (P/E 7\u20139x, conglomerate discount) but mark too rich to enter today. Wait for pullback \u22647,400.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-05-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive bank; both MNC + Pilarmas pick May 22; +1.26% on capitulation day; sole banking-cluster green",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole banking-cluster green May 21; analyst Strong Buy 23 (+48.76% upside consensus); ongoing buyback"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; foreign-flow rotation magnet (largest LQ45 weight)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 R:R 1.06:1 at 6,050; needs pullback \u22645,900 for 2.06:1"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap (DEFENSIVE regime) \u2014 not deployed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source price (yfinance Day 33 blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.06:1 fails 2:1 at 6,050 (target 6,500 +7.4% vs hard-cut 5,627 \u22127%). Valuation already premium (P/E 22x, P/B 4.4x). Need pullback \u22645,900 for marginal 2:1; not compelling at trial-end stage.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-05-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare sector co-leader with KLBF; private hospital franchise; below 5-yr valuation average",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Healthcare sector co-leadership; InvestorTrust top-pick 2026; private-patient mix + cost efficiency"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; healthcare defensive earnings"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 R:R 1.66:1 at 2,240; needs pullback \u22642,180 for 2.79:1; ADV borderline (5\u201310M)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u2014 not deployed; sector-concentration concern (already long KLBF healthcare 4.82%)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source price (yfinance Day 33 blocked); ADV unverifiable"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.66:1 fails 2:1 at 2,240 (target 2,500 +11.6% vs hard-cut 2,083 \u22127%). Plus sector-concentration risk: adding to healthcare via MIKA while holding KLBF = correlated bet on same defensive-rotation thesis. Wait for pullback \u22642,180 + sector exposure review.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -4762,6 +5007,52 @@
           "detail": "HOLD-only plan: no new entries at open; conditional re-evaluate at midday IF tape stabilizes + R:R unlocks via pullback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-22T02:18:33Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 5 candidates (UNVR/ICBP/INDF/BBCA/MIKA) fail 2:1 R:R at current marks; tape in capitulation continuation (IHSG 6,094 \u22123.54% May 21); MSCI rebalance May 29 ahead; cumulative-alpha protection binding (+17.43% trial-high). HOLD KLBF (519,000 sh @ 945; hard-cut 878); trades 1/3 used; 95.18% cash.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ entry 945; hard-cut 878; mark ~910 (\u22123.70%); buffer +3.65%"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "R:R 1.20:1 fails 2:1 at 2,030; need \u22641,930"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "R:R 1.00:1 fails 2:1 at 8,225; need \u22647,950"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "R:R 1.13:1 fails 2:1 at 7,600; need \u22647,400"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "R:R 1.06:1 fails 2:1 at 6,050; need \u22645,900"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "R:R 1.66:1 fails 2:1 at 2,240; need \u22642,180; sector-concentration concern (KLBF held)"
+        },
+        {
+          "type": "warning",
+          "detail": "yfinance Day 33 blocked; broker.sh quote ERROR for non-held tickers; WebSearch multi-source marks per MISTAKES.md 2026-05-01"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram blocked (host not in allowlist); notification logged to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -4947,5 +5238,5 @@
       "Patience-over-activity holds; trades this week 0/3; expected use this week = 0 entries"
     ]
   },
-  "last_updated": "2026-05-21T15:15:00+07:00"
+  "last_updated": "2026-05-22T09:15:00+07:00"
 }
