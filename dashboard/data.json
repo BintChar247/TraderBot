@@ -4727,6 +4727,41 @@
           "detail": "Day 24 EOD snapshot committed; KLBF mark-to-market 910 IDR (safe-assumption lower); IHSG sesi II 6,144.36 verified Liputan6/Okezone cluster"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-22T00:19:28Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Day 25 (Fri, Week 5 Day 5). 50-ticker scan; 5 candidates \u22656: UNVR(7), ICBP(6), INDF(6), BBCA(6), MIKA(6). New sector leadership = consumer staples + healthcare. All 5 candidates sub-2:1 R:R at current marks \u2014 no new entries planned. KLBF held position, pre-mortem trigger 920 breached on close 910 May 21; monitor sesi I tape. IHSG 6,094 (\u22123.54%) sole Asia decliner; MSCI rebalance May 29 ahead; DEFENSIVE-confirmed regime entrenched.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (full watchlist)"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6: UNVR/ICBP/INDF/BBCA/MIKA"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 7/10 \u2014 +5.45% capitulation-day relative strength; CPO input cost tailwind; defensive rotation; R:R sub-2:1 at 2,030"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 defensive bank; analyst dual pick MNC+Pilarmas; held green +1.26% on capitulation"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "score 6/10 \u2014 healthcare sector co-leader with KLBF; valuation below 5-yr avg"
+        },
+        {
+          "type": "plan",
+          "detail": "HOLD-only plan: no new entries at open; conditional re-evaluate at midday IF tape stabilizes + R:R unlocks via pullback"
+        }
+      ]
     }
   ],
   "exposure": {
