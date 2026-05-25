@@ -2084,3 +2084,28 @@ Day 25 of trial — extended post-trial monitoring; Friday Week 5 close. Broker 
 6. **Candidates parked from May 22 market-open** (UNVR/ICBP/INDF/BBCA/MIKA): all failed 2:1 R:R at current marks. Re-evaluate Mon AM if any pull back to entry zones (UNVR ≤1,930; ICBP ≤7,950; INDF ≤7,400; BBCA ≤5,900; MIKA ≤2,180).
 
 ---
+
+### 2026-05-25 09:15 WIB — MARKET-OPEN ROUTINE SUMMARY
+
+- **Action:** NO NEW ENTRIES. HOLD KLBF. 6 candidates from pre-market scored ≥6 (UNVR/PGAS/BBCA/ICBP/INDF/MIKA); all SKIP under disciplined plan-gates.
+- **Open positions:** 1 (KLBF 519,000 sh @ entry 945; hard-cut 878; +7.09% buffer at 945 mark).
+- **Trades this week:** 0/3 (Week 6 fresh; KLBF was Week 5 entry).
+- **Cash:** IDR 9,319,172,500 (95.00% of equity 9,809,627,500).
+- **IHSG open (multi-source):** 6,187–6,217 sesi I open vs Friday 6,162 close = marginally green; Liputan6 notes "lesu" risk to 5,899 support; resistance 6,318–6,459. Condition "flat-or-green not gap-down through 6,050" SATISFIED.
+- **Per-candidate skip rationale:**
+  - **PGAS:** Primary conditional entry — DEFERRED. Multi-source spread 1,790 (Indonesian source) / 1,820 (TradingView) / 1,850 (Simply Wall St) / 1,825 (May 21 Bisnis anchor) = 3.4% spread. Resolved the major 1,825 vs 2,400 discrepancy (2,400 invalidated — no source supports it) BUT 3.4% exceeds the plan's strict 1% verification threshold (Gate a). Also, Abadi LNG catalyst confirmed by only 1 source today (lngindustry.com) — falls short of "2+ independent sources" requirement (Gate d). R:R would pass at 1,820 mark (~2.5:1 to 2,150 target) but cannot proceed with both gating conditions unmet. Re-evaluate midday with tighter cluster + second catalyst source.
+  - **BBCA:** SUB-2:1 R:R at 5,900 current mark (risk 413 vs reward 600 to 6,500 target = 1.45:1). Pullback to ≤5,800 needed for clean 2:1. Defer.
+  - **UNVR:** Unresolvable multi-source spread (Yahoo May 22 close 1,765 vs TradingView 2,000 = 13% spread). Cannot establish safe entry mark. Defer until convergence.
+  - **ICBP:** Only stale data surfaced (Investing.com May 20 6,750). Cannot verify R:R vs 8,800 target without fresh live mark. Defer.
+  - **INDF:** No fresh live mark verified. Entry trigger ≤7,400 unconfirmed. Defer.
+  - **MIKA:** No fresh multi-source price verification today; sector-concentration concern — already long KLBF 5% healthcare, MIKA would push to ~10% same-sector idiosyncratic. Defer.
+- **9-gate check:** Not run (no candidate qualifies — PGAS fails Gate 9 verification/Gate d; others fail Gate 9 (R:R) or data verification).
+- **Eagerness check:** PASS — patience binding; no thesis genuinely compelling at current verified marks; +18.26% cumulative trial alpha is precious and protected.
+- **Held-position monitor (KLBF):** Mark 945 (Yahoo) / 1,035 (TradingView) — safe-assumption lower 945 (entry level). Hard-cut 878 (+7.09% buffer). Pre-mortem triggers all reset post-May-22 false-alarm resolution. Thesis intact — healthcare sector defensive leadership continues; KLBF buyback program live through Jul 2 provides bid floor. Action: HOLD.
+- **Data infra Day 36:** yfinance still blocked (broker.sh quote returns ERROR for non-held tickers). All candidate marks via WebSearch multi-source with safe-assumption lower-mark rule per MISTAKES.md 2026-05-01.
+- **Regime:** DEFENSIVE-confirmed (formal Week 5 weekly-review flip per WEEKLY-REVIEW.md). 5% max sizing cap; Defensive-Quality Track suspended.
+- **Sector posture:** Coal EXITED (2 strikes); Banking sector-watch 1-of-2 strike (BBRI May 1); Property/Construction/Cement suspended (BI 5.25% rate-sensitive headwind). New leadership Consumer FMCG + Healthcare + Defensive Utility — but R:R compression and data ambiguity deny entry today.
+- **MSCI rebalance May 29 T-4 trading days** — passive-outflow headwind structurally pressures IHSG into Friday close; one more justification for deferring entry today vs midweek pullback opportunities.
+- **Notification:** No-trade notification sent (📊 Market-open 2026-05-25: No trades placed. All 6 candidates SKIP — PGAS multi-source/catalyst gates not met; BBCA sub-2:1; UNVR/ICBP/INDF/MIKA data unverified. HOLD KLBF.).
+
+---

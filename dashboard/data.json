@@ -3299,6 +3299,300 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "thesis": "Abadi LNG offtake catalyst fresh + defensive utility yield + zero export-control overhang",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "INPEX Abadi LNG offtake agreement (announced May 22 at IPA Convex)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source spread 1,790\u20131,850 IDR (3.4%) exceeds 1% verification threshold"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; ADV ample"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "Primary conditional entry deferred \u2014 multi-source price spread (1,790\u20131,850, 3.4%) exceeds plan's strict 1% verification threshold AND only 1 catalyst-confirming source surfaced today (Gate a + d not met). 2,400 reference in research log invalidated (no source supports it). Defer one day for tighter convergence + second catalyst source.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "thesis": "Defensive bank flagship; 2-session capitulation RS; largest LQ45 weight",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive bank rotation + 23-analyst Strong Buy; MNC pick"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.45:1 at 5,900 mark \u2014 fails 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; ADV ample"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "Sub-2:1 R:R at current 5,900 mark (risk 413 vs reward 600 to 6,500 target = 1.45:1). Needs pullback to \u22645,800 for clean 2:1. Defer pending pullback to entry trigger.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "thesis": "Defensive rotation leader continuation; CPO + IDR input tailwind; FMCG franchise",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "2-session capitulation RS; CPO + IDR tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source spread 1,765 (Yahoo) vs 2,000 (TradingView) = 13% unresolvable"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; ADV ample"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "Unresolvable 13% multi-source spread (Yahoo 1,765 vs TradingView 2,000) \u2014 cannot verify safe entry mark. R:R sub-2:1 at either mark vs 2,200 target. Defer until tighter multi-source convergence.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "thesis": "Defensive food franchise (Indomie); CPO input tailwind; capitulation resilience",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation + CPO + IDR input cost tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "Data stale (May 20 6,750); current mark not multi-source verified"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; ADV ample"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "Only stale data (May 20 6,750) surfaced today; need multi-source live mark before evaluating R:R vs 8,800 target. Defer pending fresh verification.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "thesis": "Parent ICBP + CPO direct exposure; capitulation outperformer; conglomerate NAV discount",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation + dual exposure consumer+CPO; SOP discount"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "No fresh live mark verified today; entry trigger 7,400 unconfirmed"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; ADV ample"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "No fresh live mark verified. Entry trigger \u22647,400 unconfirmed without multi-source today. Defer pending verification.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "thesis": "Healthcare co-leader with KLBF; private hospital franchise; BRI Danareksa PT 3,450",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive sector leadership + 2026 healthcare top-pick reaffirmation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +18.26% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "Data unverified + same-sector concentration with KLBF held"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; sector concentration would push healthcare to ~10%"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 36 blocked)"
+        }
+      ],
+      "reasoning": "No fresh multi-source price verification today; sector-concentration concern with KLBF already held (would double healthcare to ~10%). Defer pending price verification and sector-stacking review.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ],
+      "date": "2026-05-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null
     }
   ],
   "stats": {
@@ -5116,6 +5410,57 @@
           "type": "hold",
           "ticker": "KLBF",
           "detail": "519,000 sh @ 945; thesis intact; hard-cut 878 +7.09% buffer"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-25T02:21:04Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 6 candidates SKIP \u2014 PGAS primary deferred (multi-source 1,790-1,850 spread 3.4% > 1% threshold + only 1 Abadi LNG source); BBCA sub-2:1 at 5,900 (needs \u22645,800); UNVR/ICBP/INDF/MIKA data unverified or stale. HOLD KLBF (519k sh @ 945; hard-cut 878; +7.09% buffer). Cash 95%; +18.26% trial alpha protection binding.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ 945; hard-cut 878 GTC; +7.09% buffer"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "multi-source spread 3.4% > 1% threshold; Abadi LNG only 1 source"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "sub-2:1 R:R at 5,900 (need \u22645,800)"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Yahoo 1,765 vs TradingView 2,000 = 13% spread unresolvable"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "stale data (May 20 6,750); unverified"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "no fresh live mark verified"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "data unverified + sector-concentration with KLBF"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 36 blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification host-blocked; logged to stdout"
         }
       ]
     }
