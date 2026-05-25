@@ -2141,3 +2141,61 @@ Day 25 of trial — extended post-trial monitoring; Friday Week 5 close. Broker 
 - Carry-over watch into EOD: KLBF close vs entry 945 (any break below 920 on heavy volume); IHSG vs 6,184 support / 6,318–6,459 resistance; foreign-flow direction post-Fri Rp 309B sell moderation; MSCI rebalance T-4 trading days into Friday close.
 
 ---
+
+### 2026-05-25 EOD — Day 26 (Mon, Week 6 Day 1, Post-RDG T+3)
+
+- Total equity: IDR 9,809,627,500
+- Daily P&L: IDR 0 (0.00%) — vs prior EOD baseline 9,809,627,500 (May 22)
+- IHSG close: 6,210.82 (+1.90% vs May 22 close 6,094.94)
+- Daily alpha: −1.90% (cash-heavy book lagged broad bounce; expected behavior on green tape)
+- Cash: IDR 9,319,172,500 (95.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Week 6 fresh; full slot allocation available)
+- Phase-to-date P&L: IDR −190,372,500 (−1.90%) — matches realized P&L cumulative (KLBF unrealized 0%)
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today 6,210.82 = −18.64%): +16.74% (gave back +1.52% from May 22 trial-high +18.26%)
+- Realized P&L (cumulative): −IDR 190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M)
+- Weekly P&L (Week 6 — start baseline 9,809,627,500 May 22 EOD): 0.00%
+- Drawdown from peak (10,026,617,500 May 1): −2.16% (unchanged from May 22; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 945 | IDR 0 (0.00%) | 3 |
+
+#### Notes
+
+Day 26 of trial — extended post-trial monitoring; Mon Week 6 Day 1, Post-RDG T+3. Broker reconciliation: KLBF position in broker (519,000 sh @ 945, entry 2026-05-21) matches TRADE-LOG Active Positions and STOPS.json (hard-cut 878) — no discrepancy. broker.sh quote returns stale entry_price (yfinance Day 36 blocked); mark-to-market via multi-source WebSearch.
+
+**Mark-to-market sources (multi-source WebSearch — yfinance Day 36 blocked):**
+- KLBF: 945 IDR (safe-assumption lower mark; Yahoo Finance intraday 11:59 GMT+7 945 +0.53%/+5 confirmed at midday; convergent with broker stale anchor 945; TradingView 1,035 outlier excluded per multi-source lower-mark rule MISTAKES.md 2026-05-01). Unrealized P&L 0.00%; hard-cut buffer +7.09% (878 floor; 7.09% below 945).
+- IHSG: 6,210.82 sesi II close (+1.90% vs May 22 close 6,094.94; multi-source confirmed: babelinsight + Bisnis Market + Liputan6 cluster; sesi I closed +0.93% at 6,219.34, sesi II faded marginally to 6,210.82 final). IHSG cumulative vs Day 0 baseline 7,634: −18.64% (recovered from May 22 trial-low −20.16%).
+- Sector breadth: 10 sectors green; raw materials +6.74% led broad-tape recovery; energy +4.82%; non-primary consumer +2.43%. Foreign net sell Rp 309B persists but absorbed by domestic bid (371 advancers / 105 decliners / 200 stagnant per Bisnis Market mid-session).
+- USD/IDR: no fresh print of significance; rupiah stable per market commentary.
+- Newcastle thermal coal: no fresh print (no held coal position).
+- BI-Rate: 5.25% unchanged (post-May 21 +50bp hike).
+
+**Macro:** Risk-on rebound day — IHSG bounced +1.90% led by raw materials (+6.74%) and energy (+4.82%) — sectors most beaten down by Prajogo-cluster MSCI/FTSE rebalance disposal flow. This is technical rebound off May 22 trial-low 6,094.94, not fundamental regime shift. US-Iran peace-talk sentiment positive for global risk; Indonesia-specific MSCI rebalance flow event still ahead (Friday May 29 T-4 trading days). Healthcare sector (KLBF) lagged broad bounce (defensive names underperform on risk-on days as expected per pattern PATTERNS.md). Cash-heavy book (95%) structurally lagged today's broad move — known cost of defensive positioning.
+
+**Portfolio impact:** Daily P&L 0.00% (KLBF unrealized unchanged at entry; 95% cash earned no return); IHSG +1.90% bounce → daily alpha −1.90% (largest single-day alpha give-back of trial). Cumulative trial alpha contracted from +18.26% (May 22 high) to +16.74% (today). Drawdown from peak unchanged at −2.16%. This is the expected cost of cash-defensive positioning on a risk-on day — accepted trade-off vs catastrophic downside protection on capitulation days (May 19, May 21). Trial cumulative alpha still strongly positive (+16.74% vs IHSG since Day 0).
+
+**RISK ALERTS:**
+- Daily P&L 0.00% — far from −2% cap. NO formal alert.
+- KLBF 0.00% — well above −6% warning threshold. NO alert.
+- Drawdown from peak −2.16% — far above −15% hard limit. NO alert.
+- Weekly P&L (Week 6) 0.00% — far from −5% reduction trigger.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+**Sector exposure:** Healthcare 5.00% of equity (KLBF only); cash 95.00%. No coal/banking/mining exposure (post May 20 ADRO cut).
+
+**Cumulative alpha trajectory:** +16.74% vs IHSG since Day 0 — gave back +1.52% from May 22 trial-high but remains strongly positive. Cash buffer + ADRO hard-cut discipline May 20 + selective KLBF defensive entry May 21 continues to compound favorably vs sustained IHSG capitulation (still −18.64% from Day 0 baseline).
+
+**Watch Tue May 26 (next session — Week 6 Day 2):**
+1. **KLBF mark vs entry 945** — held position; hard-cut 878 (+7.09% buffer). +7% trailing activation at 1,011 (currently 6.99% below trigger). State 1 hard-cut continues; thesis intact (buyback program through Jul 2; sector defensive leadership thesis intact even on lag day).
+2. **Healthcare sector relative strength on continuation green tape** — today KLBF flat while broad-tape +1.90% is the expected defensive-on-green-tape pattern. If IHSG continues green Tue and healthcare LAGS but KLBF holds 945+, defensive thesis still works. If KLBF breaks below 920 on red tape, re-evaluate.
+3. **MSCI/FTSE rebalance May 29 T-3 trading days** — passive-outflow flow event ahead. Today's bounce may be relief rally; rebalance day itself can re-introduce selling pressure on Prajogo names. Watch IHSG vs 6,318–6,459 resistance band.
+4. **Parked candidate re-evaluation** — Tue AM pre-market: PGAS (multi-source verify gate + 2-source Abadi LNG catalyst gate), BBCA (R:R recompression needed), UNVR/ICBP/INDF/MIKA (fresh marks needed). If any qualify under disciplined gates, deploy.
+5. **Cumulative alpha protection** — +16.74% trial-high alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary. Today's −1.90% alpha give-back was structural (cash-heavy on green tape), not discretionary error.
+6. **Data infra Day 37 (yfinance still blocked)** — continue multi-source WebSearch with safe-assumption lower-mark rule; broker.sh quote remains stale entry_price for KLBF.
+
+---
