@@ -2109,3 +2109,35 @@ Day 25 of trial — extended post-trial monitoring; Friday Week 5 close. Broker 
 - **Notification:** No-trade notification sent (📊 Market-open 2026-05-25: No trades placed. All 6 candidates SKIP — PGAS multi-source/catalyst gates not met; BBCA sub-2:1; UNVR/ICBP/INDF/MIKA data unverified. HOLD KLBF.).
 
 ---
+
+### 2026-05-25 11:30 WIB — MIDDAY SCAN (Day 26, Mon, Week 6 Day 1)
+
+**Open positions (1):**
+
+| Ticker | Shares | Entry (IDR) | Mark (IDR) | Unrealized P&L | State |
+|--------|--------|-------------|------------|----------------|-------|
+| KLBF | 519,000 | 945 | 945 (Yahoo Finance intraday 11:59 GMT+7 +0.53% / +5) | 0.00% (IDR 0) | State 1 — HARD-CUT @ 878 |
+
+**Sell-side rule application:**
+
+- Hard-cut check (≤ entry × 0.93 = 878): NOT BREACHED — mark 945 vs floor 878 = +7.09% buffer above hard-cut. No cut.
+- Tighten to 7% (+15%): N/A — position at 0.00%, far below +15% trigger (1,087 IDR). State 1 hard-cut still active.
+- Tighten to 5% (+20%): N/A — same; far below +20% trigger (1,134 IDR).
+- Thesis-break check: PASS — KLBF buyback program IDR 500B live through Jul 2, 2026 confirmed (Bloomberg Technoz / Neraca / IPOTNews multi-source); AGM held May 21 healthy; defensive rotation thesis intact (healthcare sole green sector May 19 capitulation; InvestorTrust + BRI Danareksa top pick reaffirmation); no adverse pharma-import or sector-rotation policy news today. NH Korindo BUY PT IDR 1,100 unchanged.
+- Intraday >3% adverse move: NOT TRIGGERED — KLBF +0.53% on day (Yahoo intraday); within normal range; tracking with marginally-green IHSG open (6,187–6,217 vs Friday 6,162).
+- Sector exit (2 consecutive losses): N/A — healthcare sector has 0 prior strikes; KLBF is first pharma trade and unrealized 0.00%.
+
+**Action: NONE.** Position healthy, well above hard-cut, thesis intact, no intraday outlier move. Continue holding.
+
+**Notification sent:** 📊 Midday 2026-05-25: All positions healthy. No action taken.
+
+**Notes:**
+- Data infra Day 36: yfinance still blocked (broker.sh quote returns stale entry_price 945 for KLBF). KLBF mark resolved via Yahoo Finance intraday quote 945 IDR (+0.53% / +5, 11:59 GMT+7). Convergent with broker stale anchor — safe-assumption rule not stressed today (single-source confirms entry-level mark).
+- IHSG sesi I opened 6,187–6,217 (marginally green vs Friday 6,162 close); 372 advancers / 105 decliners / 200 stagnant per Bisnis Market — broad-tape healthy through morning despite Liputan6 weakness-to-5,899 risk note. KLBF tracking market.
+- Pre-mortem trigger (a) "breaks 920 intraday on heavy volume" — NOT TRIGGERED. Position holds 945 well above 920 floor; resolved post-May-22 false-alarm continues.
+- Pre-mortem trigger (b) "healthcare sector turns red while IHSG bounces" — NOT TRIGGERED. KLBF +0.53% confirms sector leadership intact on a marginally-green tape.
+- Intermediate-pain trigger (entry × 0.96 = 907 IDR) NOT armed — position at entry; +4.0% buffer above reassess threshold.
+- Trades this week: 0/3 used (Week 6 fresh; full slot allocation available); patience-discipline binding; market-open deferrals (PGAS multi-source verify still loose; UNVR/ICBP/INDF/BBCA/MIKA R:R / data) remain unmet at midday — no fresh entry triggered by midday tape behavior.
+- Carry-over watch into EOD: KLBF close vs entry 945 (any break below 920 on heavy volume); IHSG vs 6,184 support / 6,318–6,459 resistance; foreign-flow direction post-Fri Rp 309B sell moderation; MSCI rebalance T-4 trading days into Friday close.
+
+---
