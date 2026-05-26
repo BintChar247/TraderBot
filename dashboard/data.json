@@ -5498,6 +5498,52 @@
           "detail": "Day 26 EOD snapshot committed; KLBF mark 945 (unchanged); RISK-STATE updated; dashboard daily entry appended"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-26T00:21:03Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 5 candidates scored \u22656: PGAS (Abadi LNG catalyst, lead), ICBP/INDF (pullback gate), MIKA (concentration risk), ISAT (chase risk). KLBF HOLD safe-mark 930. DEFENSIVE-confirmed regime intact; max sizing 5%. Brent crashed -6.38% to $96.93 on US-Iran de-escalation.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (yfinance Day 37 blocked - multi-source WebSearch)"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 6/10 - Abadi LNG offtake catalyst CONFIRMED multi-source; entry blocked pending 09:15 mark verification (1,820 vs 2,400 spread)"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 - defensive food + CPO/Brent input tailwind; entry <=7,950 for 2.82:1 R:R"
+        },
+        {
+          "type": "research",
+          "ticker": "INDF",
+          "detail": "score 6/10 - parent ICBP conglomerate discount; entry <=7,400 for 2.41:1 R:R"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "score 6/10 - healthcare co-leader; entry <=2,180 + multi-source verify; KLBF sector-concentration concern"
+        },
+        {
+          "type": "research",
+          "ticker": "ISAT",
+          "detail": "score 6/10 but WATCH-chase-risk - sub-2:1 R:R after Mon +5.37%"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ 945; safe-mark 930 (-1.59%); hard-cut 878 buffer +5.6%; pre-mortem floor 920 monitor"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -5523,161 +5569,155 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6162.04,
-    "ihsg_change_pct": 1.1,
+    "ihsg": 6206.35,
+    "ihsg_change_pct": 0.72,
     "idr_usd": 17695,
-    "idr_usd_change_pct": -0.51,
-    "coal_usd": 131.0,
-    "coal_change_pct": -3.3,
+    "idr_usd_change_pct": 0.0,
+    "coal_usd": 132.0,
+    "coal_change_pct": 0.0,
     "nickel_usd": 18880,
     "nickel_change_pct": 0.67,
-    "cpo_myr": 4498,
-    "cpo_change_pct": 0.9,
-    "brent_usd": 103.94,
-    "brent_change_pct": 1.33,
-    "us_10y_yield": 4.56,
+    "cpo_myr": 4500,
+    "cpo_change_pct": -1.0,
+    "brent_usd": 96.93,
+    "brent_change_pct": -6.38,
+    "us_10y_yield": 4.57,
     "us_30y_yield": null,
     "indo_10y_sun_yield": 6.74,
-    "vix": 16.7,
+    "vix": 16.76,
     "bi_rate": 5.25,
-    "bi_rate_note": "+50bp surprise hike May 19-20 (vs consensus +25bp); rupiah-defense; next RDG Jun 17-18 (~50% +25bp odds)",
-    "asia_sentiment": "Nikkei +2.68% / Shanghai +0.87% / S&P +0.37% Fri May 22 - broad Asia/US risk-on on US-Iran peace-talk progress. IHSG closed week -8.35% to 6,162.04 (Tempo) but bounced +1.10% intraday Friday. Defensive rotation (UNVR/ICBP/INDF/KLBF/MIKA) confirmed 2 sessions running.",
-    "foreign_flow_idr_bn": -310,
-    "key_event_today": "Week 6 Day 1 pre-market. MSCI rebalance Fri May 29 (effective close) - $1.6-1.8B passive outflow concentrated near close; 5 sessions of headwind. Prabowo Danantara export-control Stage 1 starts Jun 1 (docs gateway). PGAS NEW CATALYST: INPEX Abadi LNG offtake agreement (gas-only, INSULATED from export-control). 6 candidates scored >=6: UNVR/PGAS/BBCA/ICBP/INDF/MIKA.",
-    "updated": "2026-05-25"
+    "bi_rate_note": "+50bp surprise hike May 19-20; rupiah-defense; next RDG Jun 17-18 (~50% +25bp odds)",
+    "asia_sentiment": "Mon May 25: IHSG +0.72% to 6,206.35 led by big-bank rebound (BBRI +4.6% sesi I, BBCA +3.8%, BMRI +3.4%); LQ45 +1.74%; AMMN/BBTN/ISAT top LQ45 gainers. US closed Memorial Day. Asia risk-on continuation (Nikkei 52-wk high 65,408 May 25). Brent crashed -6.38% to $96.93 on US-Iran de-escalation. DEFENSIVE-confirmed regime intact; tactical relief continues.",
+    "foreign_flow_idr_bn": null,
+    "key_event_today": "Week 6 Day 2 pre-market. MSCI rebalance Fri May 29 T-3 trading days - $1.6-1.8B passive outflow. Prabowo Danantara export-control Stage 1 Jun 1. Brent -6.38% commodity shock (positive consumer/transport, negative coal/CPO/energy). 5 candidates scored >=6: PGAS (catalyst lead) / ICBP / INDF / ISAT (chase risk) / MIKA. KLBF held safe-mark 930.",
+    "updated": "2026-05-26"
   },
   "research": {
-    "date": "2026-05-25",
+    "date": "2026-05-26",
     "headlines": [
       {
         "ticker": "IHSG",
-        "headline": "IHSG closed week May 18-22 -8.35% to 6,162.04 (Tempo print; sesi-II anchor 6,094.94). Worst week of trial. Foreign net sell -Rp 309.52B Fri (moderated from -Rp 515B sesi I Thu).",
-        "sentiment": "bearish-recovering",
-        "source": "Tempo",
-        "url": "https://en.tempo.co/read/2105165/jci-drops-8-35-percent-this-week-as-foreign-outflows-continue"
+        "headline": "IHSG closed Mon May 25 +0.72% to 6,206.35 led by big-bank rebound (BBRI +4.6% sesi I, BBCA +3.8%, BMRI +3.4%). LQ45 +1.74% to 631.21. 470 advancers / 236 decliners / 114 unchanged. 2nd consecutive day of relief post Fri +1.10% intraday.",
+        "sentiment": "bullish-relief",
+        "source": "Kompas",
+        "url": "https://money.kompas.com/read/2026/05/25/162630126/ihsg-hari-ini-25-5-menguat-ke-6206-ammn-dan-bbtn-top-gainers-lq45"
+      },
+      {
+        "ticker": "BRENT",
+        "headline": "Brent crude crashed -6.38% to $96.93 May 25 on US-Iran peace-talk progress (broke below $100 first time this trial). NEGATIVE for coal/CPO/energy names; POSITIVE for transport/aviation/FMCG (input cost relief).",
+        "sentiment": "mixed-commodity-shock",
+        "source": "Trading Economics Brent",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       },
       {
         "ticker": "PGAS",
-        "headline": "NEW CATALYST May 22: INPEX announced agreements in principle with PGAS + bp + PLN-EPI + Shell for Abadi LNG offtake (Masela Block). Major multi-year LNG procurement deal. Gas-only = INSULATED from Prabowo export-control DSI scope.",
-        "sentiment": "bullish-catalyst",
-        "source": "LNG Industry",
-        "url": "https://www.lngindustry.com/liquid-natural-gas/22052026/inpex-advances-lng-and-pipeline-natural-gas-offtake-discussions-for-abadi-lng/"
+        "headline": "Abadi LNG offtake catalyst CONFIRMED multi-source (LNG Industry, Yahoo Reuters wire, Enerdata, Upstream Online, euro-petrole). Gas exempt from Prabowo DSI export-control. Multi-source price SPREAD persists: TradingView 1,820 vs Investing 2,400 (~32% spread). Verify mandatory at 09:15.",
+        "sentiment": "bullish-catalyst-verify-binding",
+        "source": "Yahoo Finance Energy (Reuters wire)",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/inpex-signs-agreements-offtake-abadi-104517730.html"
+      },
+      {
+        "ticker": "MSCI",
+        "headline": "MSCI rebalance T-3 trading days - implementation Fri May 29 close. $1.6-1.8B passive outflow (Goldman / CGS); drops AMMN/BREN/TPIA/DSSA/CUAN/AMRT. Mechanical-flow drag concentrated near Fri close.",
+        "sentiment": "bearish-event-risk",
+        "source": "Heygotrade",
+        "url": "https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/"
       },
       {
         "ticker": "DANANTARA",
-        "headline": "Prabowo Danantara export-control PHASED: Jun 1-Aug 31 documentation gateway via DSI (companies still execute own contracts); Sept 1 full state monopoly. Coal/CPO/Ferro overhang persists; gas/banks/consumer/healthcare INSULATED.",
+        "headline": "Prabowo Danantara export-control Stage 1 Jun 1 (T+5 trading days) - DSI documentation gateway for coal/CPO/ferro begins; companies still execute own contracts until Sept 1. Gas/banks/consumer/healthcare INSULATED.",
         "sentiment": "bearish-coal-cpo-only",
         "source": "Jakarta Globe / S&P Global",
         "url": "https://jakartaglobe.id/business/what-we-know-so-far-about-danantara-sumberdaya-indonesias-new-export-entity"
       },
       {
-        "ticker": "MSCI",
-        "headline": "MSCI rebalance effective close Fri May 29 - $1.6-1.8B passive outflow (Goldman / CGS); drops AMMN/BREN/TPIA/DSSA/CUAN/AMRT; 5 sessions of mechanical-flow drag this week.",
-        "sentiment": "bearish-event-risk",
-        "source": "Heygotrade / Bloomberg Technoz",
-        "url": "https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/"
+        "ticker": "IDR",
+        "headline": "USD/IDR ~17,695 stable (range 17,677-17,727); below 17,750 DEFENSIVE-strict trigger. BI FX reserves Apr USD 146.2B (-2B vs Mar 148.2B) on rupiah defense; 5.8 mo imports cover adequate. Indo 10Y 6.74% steady.",
+        "sentiment": "bullish-improving",
+        "source": "InvestorTrust / BI",
+        "url": "https://investortrust.id/macro/102706/indonesias-fx-reserves-hold-firm-at-1462-billion-despite-aggressive-rupiah-defense"
       },
       {
-        "ticker": "IDR",
-        "headline": "USD/IDR ~17,695 firmed from May 20 record 17,786; below 17,750 DEFENSIVE-strict trigger. Post-BI +50bp hike + reserve intervention supportive. Indo 10Y -15bp to 6.74% - rates relief.",
-        "sentiment": "bullish-improving",
-        "source": "Trading Economics Indonesia",
-        "url": "https://tradingeconomics.com/indonesia/currency"
+        "ticker": "ASIA-RISK",
+        "headline": "Asia risk-on continuation Mon May 25 (US closed Memorial Day). Nikkei 52-wk high 65,408.87 set May 25. VIX 16.76 compressed. External sentiment tailwind into IHSG Tue open.",
+        "sentiment": "bullish-external",
+        "source": "Trading Economics Japan",
+        "url": "https://tradingeconomics.com/japan/stock-market"
       },
       {
         "ticker": "COAL",
-        "headline": "Newcastle ~$131/t May 22 (off May 4 peak $135.6); LNG-squeeze tailwind intact above $125 floor. Export-control overhang dominates sector pricing despite commodity bias.",
-        "sentiment": "neutral-overhang",
-        "source": "Trading Economics coal",
-        "url": "https://tradingeconomics.com/commodity/coal"
+        "headline": "Coal complex mixed Mon: PTBA +4.04% to 2,830, ADRO flat 2,300, ITMG -1.94% to 22,725. Newcastle ~$132/t intact. Brent -6.38% incremental energy-headwind. Sector exit BINDING (2 strikes).",
+        "sentiment": "neutral-mixed-sector-exit",
+        "source": "Yahoo Finance coal cluster",
+        "url": "https://finance.yahoo.com/quote/PTBA.JK/"
       },
       {
-        "ticker": "CPO",
-        "headline": "CPO MYR 4,498/t Aug ctt May 22 (+0.9% Fri bargain hunting); $1,049/t USD reference; weekly weak on Indonesia export-monitoring news.",
-        "sentiment": "neutral-recovering",
-        "source": "Palm Oil Magazine",
-        "url": "https://www.palmoilmagazine.com/cpo-price/2026/05/23/cpo-prices-on-bursa-malaysia-recover-amid-mixed-global-vegetable-oil-market/"
+        "ticker": "BANKING",
+        "headline": "Banking sector strong Mon May 25: BBRI 3,160 (+3.59%) / BMRI 4,230 (+2.67%) / BBNI 3,900 (+3.17%) / BBTN 1,390 (+8.17% top LQ45-3). CGS BBCA PT 10,000 BUY; KB Valbury BMRI PT 5,660 BUY. BBCA chase-risk sub-2:1 R:R post-rally.",
+        "sentiment": "bullish-tactical-bounce",
+        "source": "Bareksa / InvestorTrust",
+        "url": "https://investortrust.id/market/102278/saham-big-bank-rebound-pagi-ini-intip-kembali-target-harga-bbca-bbri-bmri-dan-bbni-berikut"
       },
       {
-        "ticker": "US-ASIA",
-        "headline": "Friday Risk-On rally: Nikkei +2.68% to 63,339 / Shanghai +0.87% / S&P +0.37% / VIX 16.70. US-Iran peace-talk progress drove broad risk-on. External sentiment tailwind into IHSG Monday open.",
-        "sentiment": "bullish-external",
-        "source": "CNBC Asia / Investtech",
-        "url": "https://www.cnbc.com/2026/05/22/asia-markets-today-brent-nikkei-225-kospi-hang-seng-index.html"
-      },
-      {
-        "ticker": "KLBF",
-        "headline": "KLBF HELD 519,000 sh @ 945 (Day 4). MTM 945 entry-level (May 22 recovery from May 21 lower-mark 910). Hard-cut 878 (+7.09% buffer). Pre-mortem trigger (a) breach RESOLVED Fri. Q1 +10% YoY revenue; buyback Rp 500B live Apr 2 - Jul 2. NH Korindo BUY PT 1,100. Action: HOLD.",
-        "sentiment": "bullish-defensive-hold",
-        "source": "NH Korindo / KLBF Q1 26",
-        "url": "https://www.nhis.co.id/klbf-1q26/"
+        "ticker": "ISAT",
+        "headline": "ISAT 2,160 (+5.37%) Mon May 25 - LQ45 top-3 gainer. Telco sector among LQ45 momentum drivers. Score 6 but momentum-chase risk binds R:R sub-2:1 even with realistic pullback.",
+        "sentiment": "bullish-but-chase-risk",
+        "source": "Kompas",
+        "url": "https://money.kompas.com/read/2026/05/25/162630126/ihsg-hari-ini-25-5-menguat-ke-6206-ammn-dan-bbtn-top-gainers-lq45"
       },
       {
         "ticker": "UNVR",
-        "headline": "UNVR 2,030 May 22 (held +5.45% May 21 capitulation candle). 2-session defensive rotation CONFIRMED. CPO input cost tailwind + IDR relief. Score 7. R:R sub-2:1 at 2,030; entry \u22641,930 for clean 2:1.",
-        "sentiment": "bullish-defensive",
-        "source": "Yahoo Finance UNVR",
-        "url": "https://finance.yahoo.com/quote/UNVR.JK/"
+        "headline": "UNVR retraced to 1,765 IDR live (TradingView) - erased May 21 +5.45% capitulation candle entirely (-13% from 2,030). Defensive-rotation thesis SPECIFICALLY for UNVR weakening (other consumer names not retraced as sharply). Dropped from CANDIDATE to WATCH.",
+        "sentiment": "bearish-thesis-weakening",
+        "source": "TradingView UNVR",
+        "url": "https://id.tradingview.com/symbols/IDX-UNVR/"
       },
       {
-        "ticker": "BBCA",
-        "headline": "BBCA 5,950 May 22 (down from 6,050 May 21 -1.65%). Defensive bank leader; 23 analysts Strong Buy; dividend yield 5.62%. Score 6. R:R 1.32:1 at 5,950; entry \u22645,800 for clean 2:1.",
-        "sentiment": "bullish-defensive",
-        "source": "Investing.com BBCA",
-        "url": "https://www.investing.com/equities/bnk-central-as"
-      },
-      {
-        "ticker": "MIKA",
-        "headline": "MIKA healthcare co-leader w/ KLBF. BRI Danareksa PT 3,450 (+54% upside). Below 5-yr valuation. Multi-source price spread 2,070-2,240 (verify mandatory). Sector-concentration concern w/ KLBF.",
-        "sentiment": "bullish-defensive-concentration-risk",
-        "source": "InvestorTrust / BRI Danareksa",
-        "url": "https://investortrust.id/market/86159/prospek-saham-sektor-kesehatan-2026-tetap-solid-mika-dan-klbf-pilihan-teratas"
+        "ticker": "KLBF",
+        "headline": "KLBF HELD 519,000 sh @ 945 Day 5. Multi-source mark cluster: Investing 930 / TradingView 1,035 / Stockbit 810-outlier. Safe-mark 930 = -1.59% unrealized; hard-cut 878 buffer +5.6%. Pre-mortem floor 920 (close watch). Q1 results healthy; buyback Rp 500B live through Jul 2. Action: HOLD.",
+        "sentiment": "bullish-defensive-hold-monitor",
+        "source": "TradingView KLBF cluster",
+        "url": "https://id.tradingview.com/symbols/IDX-KLBF/"
       },
       {
         "ticker": "REGIME",
-        "headline": "Regime: DEFENSIVE-confirmed (Week 6 Day 1). Max position size 5% of equity. Defensive-Quality Track SUSPENDED. Sector exits: Coal (2 strikes); banking watch 1-of-2 (BBRI). Leadership: Consumer FMCG + Healthcare + Defensive Utility (PGAS).",
-        "sentiment": "bearish-regime",
-        "source": "MACRO-REGIME.md",
+        "headline": "Regime: DEFENSIVE-confirmed - RELIEF CONTINUING (Week 6 Day 2). 2 days of bounce \u2260 regime flip; 4 confirmed triggers from May 22 weekly-review remain intact (Danantara overhang, MSCI flow, IDR >17,000, foreign outflow YTD -41.6T). Max position size 5% of equity. Defensive-Quality Track SUSPENDED.",
+        "sentiment": "bearish-regime-relief-continuing",
+        "source": "MACRO-REGIME.md / WEEKLY-REVIEW.md",
         "url": null
       },
       {
         "ticker": "BI-RATE",
-        "headline": "BI Rate 5.25% (post +50bp May 19-20). Next RDG Jun 17-18. Market pricing ~50% +25bp follow-on to 5.50% to defend IDR.",
+        "headline": "BI Rate 5.25% (post +50bp May 19-20). Next RDG Jun 17-18; ~50% pricing of +25bp follow-on to 5.50% to defend IDR. NIM headwind binding through Jun for banks.",
         "sentiment": "neutral-binary",
-        "source": "Heygotrade BI",
-        "url": "https://www.heygotrade.com/en/news/bank-indonesia-rate-hike-5-25-percent-rupiah-defense/"
+        "source": "BI press release",
+        "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2810726.aspx"
       }
     ],
     "candidates_scored_6_plus": [
       {
-        "ticker": "UNVR",
-        "score": 7,
-        "status": "CANDIDATE-await-pullback",
-        "note": "Defensive rotation LEADER 2-session; entry \u22641,930 for 2:1 R:R; conviction MEDIUM"
-      },
-      {
         "ticker": "PGAS",
         "score": 6,
         "status": "CANDIDATE-conditional-verify",
-        "note": "NEW Abadi LNG offtake catalyst; R:R 2.08:1 at 2,400 IF multi-source verifies (1,825 vs 2,400 spread)"
-      },
-      {
-        "ticker": "BBCA",
-        "score": 6,
-        "status": "CANDIDATE-await-pullback",
-        "note": "Defensive bank flagship; entry \u22645,800 for 2:1; sub-2:1 at 5,950"
+        "note": "Abadi LNG catalyst multi-source CONFIRMED; price spread 1,820 vs 2,400 BINDING - DO NOT enter without multi-source agreement at 09:15; R:R likely passes 2:1 if mark verifies"
       },
       {
         "ticker": "ICBP",
         "score": 6,
         "status": "CANDIDATE-await-pullback",
-        "note": "Defensive food + CPO input tailwind; entry \u22647,950 for 3:1 R:R"
+        "note": "Defensive food + CPO input tailwind + Brent -6.38% transport tailwind; entry \u22647,950 for 2.82:1 R:R"
       },
       {
         "ticker": "INDF",
         "score": 6,
         "status": "CANDIDATE-await-pullback",
-        "note": "Parent ICBP + CPO direct; entry \u22647,400 for 2.4:1 R:R"
+        "note": "Parent ICBP + Agri + Bogasari; entry \u22647,400 for 2.41:1 R:R"
+      },
+      {
+        "ticker": "ISAT",
+        "score": 6,
+        "status": "WATCH-chase-risk",
+        "note": "Mon +5.37% top LQ45 gainer; sub-2:1 R:R even with realistic pullback; momentum-chase; SKIP today"
       },
       {
         "ticker": "MIKA",
@@ -5687,14 +5727,17 @@
       }
     ],
     "plan_for_market_open": [
-      "HOLD KLBF 519,000 sh @ 945 (Day 4 held); hard-cut 878 GTC; multi-source verify mark at 09:15",
-      "CONDITIONAL ENTRY #1 \u2014 PGAS IF multi-source price agrees within 1% (resolves 1,825 vs 2,400 spread) AND \u22652:1 R:R AND IHSG flat-or-green AND Abadi LNG catalyst 2-source confirmed",
-      "CONDITIONAL ENTRY #2 \u2014 Any of UNVR \u22641,930 / BBCA \u22645,800 / ICBP \u22647,950 / INDF \u22647,400 / MIKA \u22642,180 IF pullback enables 2:1 R:R AND IHSG flat-or-green; max 1 additional beyond PGAS",
-      "NO COAL/CPO-EXPORTER/PROPERTY/CONSTRUCTION/TECH entries \u2014 sector exits + structural overhang + rate-sensitive headwind",
-      "NO BANKING beyond BBCA \u2014 BBRI sector-watch 1-of-2; BMRI NIM compression; lower-tier no catalyst",
+      "HOLD KLBF 519,000 sh @ 945 (Day 5 held); hard-cut 878 GTC; safe-mark 930 (multi-source cluster); pre-mortem floor 920 close watch",
+      "CONDITIONAL ENTRY #1 \u2014 PGAS IF multi-source price agrees within 2% across \u22652 independent sources (resolves 1,820 vs 2,400 spread) AND \u22652:1 R:R AND IHSG flat-or-green (\u22656,200) AND Abadi LNG catalyst intact in pre-market wire",
+      "CONDITIONAL ENTRY #2 \u2014 ICBP \u22647,950 / INDF \u22647,400 / MIKA \u22642,180 IF pullback enables 2:1 R:R AND IHSG holds Mon gains (sesi I above 6,150); max 1 additional beyond PGAS",
+      "NO BBCA today \u2014 sub-2:1 R:R post Mon +3.8%; chase risk",
+      "NO ISAT today \u2014 sub-2:1 R:R even with realistic pullback after Mon +5.37%",
+      "NO UNVR today \u2014 thesis weakening (retraced to 1,765); needs UNVR-specific catalyst before re-entry",
+      "NO COAL/CPO-EXPORTER/PROPERTY/CONSTRUCTION/TECH \u2014 sector exits + structural overhang + rate-sensitive headwind",
+      "NO BBRI/BMRI/BBNI \u2014 BBRI sector-exit watch 1-of-2; chase risk on Mon momentum",
       "Trades this week target: 0-2 new entries (Week 6 fresh; preserve 1 slot for midweek opportunistic)",
-      "Monitor IHSG 6,162 Friday close / 6,000 support / 6,300 resistance; IDR vs 17,750 DEFENSIVE-strict; MSCI rebalance T-4 to Fri close; foreign flow direction post-Fri Rp 309B sell moderation"
+      "Monitor IHSG 6,206 Mon close / 6,145 support / 6,239 resistance (Kontan Tue range); IDR vs 17,750 DEFENSIVE-strict; Brent vs $95 floor (continuation risk); MSCI rebalance T-3 to Fri close"
     ]
   },
-  "last_updated": "2026-05-25T00:19:27+07:00"
+  "last_updated": "2026-05-26T07:00:00+07:00"
 }
