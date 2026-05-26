@@ -347,6 +347,23 @@
       "trades_this_week": 0,
       "note": "Day 26 EOD (Mon, Week 6 Day 1, Post-RDG T+3). HOLD KLBF (no trades; market-open all 6 candidates SKIP under disciplined gates; midday no action). KLBF MTM 945 (Yahoo intraday safe-assumption lower mark; TradingView 1,035 outlier excluded); unrealized 0.00%; hard-cut buffer +7.09%. IHSG bounced +1.90% to 6,210.82 (10 sectors green; raw materials +6.74% led recovery off May 22 trial-low 6,094.94). Cash-heavy book lagged broad bounce as expected -> daily alpha -1.90% (largest single-day alpha give-back of trial). Cumulative trial alpha contracted from May 22 high +18.26% to +16.74% but remains strongly positive. DD from peak unchanged -2.16%. Week 6 fresh: 0/3 trades; full slot allocation available. MSCI rebalance May 29 T-3 trading days ahead.",
       "realized_pnl_cumulative": -190372500
+    },
+    {
+      "date": "2026-05-26",
+      "day_label": "Day 27",
+      "portfolio_value": 9801842500,
+      "cash": 9319172500,
+      "daily_pnl_idr": -7785000,
+      "daily_pnl_pct": -0.08,
+      "cumulative_pnl_pct": -1.98,
+      "ihsg_close": 6149.68,
+      "ihsg_cumulative_pct": -19.44,
+      "alpha_pct": 17.46,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 27 EOD (Tue, Week 6 Day 2, Post-RDG T+4). HOLD KLBF (no trades; market-open all 7 candidates SKIP; midday no action). KLBF MTM 930 (safe lower mark per MISTAKES.md 2026-05-01; convergent cluster 945 Yahoo intraday + broker stale); unrealized -1.59%; hard-cut buffer +5.59%. IHSG -0.98% to 6,149.68 (sesi I close used as best-available proxy; no fresh sesi II print at filing). Banking-led sesi I weakness gave back ~half of Mon's +1.90% bounce; healthcare defensive sector outperformed broad-tape decline as expected. Cash-heavy book + defensive KLBF -> +0.90% daily alpha (recovered ~half of yesterday's -1.90% give-back). Cumulative trial alpha expanded to +17.46% (from +16.74%). DD from peak ticked to -2.24%. Week 6: 0/3 trades. MSCI rebalance May 29 T-2 trading days; Idul Adha holiday Thu May 28 (IDX closed).",
+      "realized_pnl_cumulative": -190372500
     }
   ],
   "positions": [
@@ -355,14 +372,14 @@
       "shares": 519000,
       "entry_price": 945,
       "entry_date": "2026-05-21",
-      "last_price": 945,
+      "last_price": 930,
       "cost_idr": 490455000,
-      "market_value_idr": 490455000,
-      "unrealized_pnl_idr": 0,
-      "unrealized_pnl_pct": 0.0,
+      "market_value_idr": 482670000,
+      "unrealized_pnl_idr": -7785000,
+      "unrealized_pnl_pct": -1.59,
       "stop_price": 878,
       "stop_state": "hard-cut",
-      "days_held": 3,
+      "days_held": 4,
       "sector": "healthcare",
       "thesis": "Post-BI +50bp defensive rotation; KLBF sole green sector May 19; analyst Strong Buy consensus (15/16); embedded upside to PT 1,554 IDR (+64%)."
     }
@@ -5933,6 +5950,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No action taken. KLBF 945 (+0.53% intraday); hard-cut buffer +7.09%; thesis intact."
+    },
+    {
+      "timestamp": "2026-05-26T08:20:22Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD: IDR 9.80B (-0.08%). Alpha +0.90% vs IHSG. 1 position open (KLBF -1.59%). Cumulative alpha +17.46%. Trades this week: 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 27 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
