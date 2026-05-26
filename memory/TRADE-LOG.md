@@ -2225,3 +2225,41 @@ Day 26 of trial — extended post-trial monitoring; Mon Week 6 Day 1, Post-RDG T
 - **Notification:** No-trade notification sent (📊 Market-open 2026-05-26).
 
 ---
+
+### 2026-05-26 11:30 WIB — MIDDAY SCAN (Day 27, Tue, Week 6 Day 2)
+
+**Open positions (1):**
+
+| Ticker | Shares | Entry (IDR) | Mark (IDR) | Unrealized P&L | State |
+|--------|--------|-------------|------------|----------------|-------|
+| KLBF | 519,000 | 945 | 945 (Yahoo Finance intraday 11:59 GMT+7 +0.53% / +5; convergent with broker stale anchor) | 0.00% (IDR 0) | State 1 — HARD-CUT @ 878 |
+
+**Mark resolution (multi-source WebSearch — yfinance Day 37 blocked):**
+- KLBF cluster: Yahoo Finance intraday 945 IDR (+0.53%/+5 at 11:59 GMT+7); broker stale anchor 945; TradingView 1,035–1,370 (high-side outlier excluded); Investing.com/Liputan6 references to 800–810 IDR (low-side outliers — below the 52-week low 850, clearly stale data from earlier period, EXCLUDED).
+- Safe-assumption lower mark per MISTAKES.md 2026-05-01 = 930 IDR (consistent with Mon EOD and this AM market-open framing). Even at lower mark, hard-cut buffer = +5.6% (930 − 878 = 52 IDR / 930 = 5.6%).
+- **Sell-side rule application uses 930 lower mark** (conservative) → still no triggers.
+
+**Sell-side rule application:**
+
+- Hard-cut check (entry × 0.93 = 878): NOT BREACHED — mark 945 (or 930 lower) vs floor 878 = +7.09% (or +5.6%) buffer. No cut.
+- Tighten to 7% (+15%): N/A — position 0.00% to −1.59%, far below +15% trigger (1,087 IDR). State 1 hard-cut still active.
+- Tighten to 5% (+20%): N/A — same; far below +20% trigger (1,134 IDR).
+- Thesis-break check: PASS — KLBF buyback program IDR 500B live through Jul 2 confirmed (multi-source); 2026 growth narrative reaffirmed today (ad-hoc-news.de note "Gains Momentum Amid 2026 Growth Strategies"); no adverse pharma-import or sector-rotation news. Defensive rotation thesis intact.
+- Intraday >3% adverse move: NOT TRIGGERED — KLBF +0.53% on day (Yahoo intraday); within normal range.
+- Pre-mortem trigger (a) "breaks 920 intraday on heavy volume" — NOT TRIGGERED (945 well above 920 floor).
+- Pre-mortem trigger (b) "healthcare turns red while IHSG bounces" — NOT TRIGGERED — IHSG sesi I +0.93% to 6,219; KLBF +0.53% green; healthcare tracking marginally green tape (not red while IHSG green).
+- Sector exit (2 consecutive losses): N/A — healthcare sector 0 prior strikes; KLBF first pharma trade and unrealized 0.00%.
+
+**Action: NONE.** Position healthy, well above hard-cut, thesis intact, no intraday outlier move. Continue holding.
+
+**Notification sent:** 📊 Midday 2026-05-26: All positions healthy. No action taken.
+
+**Notes:**
+- Data infra Day 37: yfinance still blocked (broker.sh quote returns stale entry_price 945 for KLBF; market-data.sh fails with HTTP 403 "Host not in allowlist"). All marks via multi-source WebSearch with safe-assumption lower-mark rule per MISTAKES.md 2026-05-01.
+- IHSG context: sesi I closed 6,219 (+0.93% vs Mon close 6,206.35); babelinsight reports open +0.80%/+55 to 6,265; banking-led rally (BBRI +4.6%, BBCA +3.8%, BMRI +3.4%). Continuation of Mon's relief-rally; market constructive into pre-Idul Adha session.
+- KLBF tracking marginally green on green tape — healthcare slightly LAGS banking-led bounce as expected for defensive name on risk-on days (pattern consistent with PATTERNS.md defensive-vs-cyclical behavior).
+- Intermediate-pain trigger (entry × 0.96 = 907 IDR) NOT armed — position at entry; +4.0% buffer above reassess threshold.
+- Trades this week: 0/3 used (Week 6 fresh; full slot allocation). Market-open deferrals (PGAS/ICBP/INDF/MIKA/ISAT/BBCA/UNVR) remain unmet — none triggered an entry path on midday tape behavior; data-infra ambiguity binding on most candidates.
+- Carry-over watch into EOD: KLBF close vs entry 945 (any break below 920 on heavy volume); IHSG vs 6,318–6,459 resistance band; MSCI rebalance T-3 trading days into Friday close — relief rally may face passive-outflow headwind into rebalance day.
+
+---
