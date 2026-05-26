@@ -2199,3 +2199,29 @@ Day 26 of trial — extended post-trial monitoring; Mon Week 6 Day 1, Post-RDG T
 6. **Data infra Day 37 (yfinance still blocked)** — continue multi-source WebSearch with safe-assumption lower-mark rule; broker.sh quote remains stale entry_price for KLBF.
 
 ---
+
+### 2026-05-26 09:15 WIB — MARKET-OPEN ROUTINE SUMMARY
+
+- **Action:** NO NEW ENTRIES. HOLD KLBF. 5 candidates from pre-market scored ≥6 (PGAS / ICBP / INDF / MIKA / ISAT); all SKIP under disciplined plan-gates. BBCA (6) and UNVR (5) also SKIP per plan.
+- **Open positions:** 1 (KLBF 519,000 sh @ entry 945; hard-cut 878; +7.09% buffer at 945 broker stale mark).
+- **Trades this week:** 0/3 (Week 6 Day 2; full slot allocation intact).
+- **Cash:** IDR 9,319,172,500 (95.00% of equity 9,809,627,500).
+- **IHSG open (verify):** Tue 26/5 Kontan projection range 6,145–6,239 vs Mon close 6,206.35. Open data pending live mark; ATR-frame "flat-or-green" gate likely satisfied but no entries triggered regardless.
+- **Per-candidate skip rationale:**
+  - **PGAS (CONDITIONAL ENTRY #1 — DEFERRED):** Multi-source price spread persists at 09:15 WIB verification. TradingView 1,850 IDR vs Investing.com 2,400 IDR = ~30% spread, **fails strict 2% multi-source verification gate** (Gate a from plan). Abadi LNG catalyst confirmed in pre-market wire (5 independent sources May 22) but live-mark ambiguity is binding. Second day in a row PGAS blocked by same data-source issue (May 25 saw 3.4% spread which also failed). Re-evaluate midday with tighter cluster.
+  - **ICBP (CONDITIONAL #2 — DEFERRED):** Multi-source spread ~22% (TradingEconomics/cluster 6,750–6,900 vs Investing.com 8,225 stale anchor). Pullback gate (≤7,950) technically satisfied by lower-mark cluster, BUT (a) multi-source verify gate fails on >2% spread, AND (b) if lower-mark accurate, price has moved >3% from planned entry 7,950 = **Gate 9 fails**. Safe-assumption rule per MISTAKES.md 2026-05-01 = use higher mark for buys = 8,225 ≥ Gate 9 ceiling 8,472 ✓ but R:R fails at that mark. No clean entry path. Defer.
+  - **INDF (CONDITIONAL #2 — DEFERRED):** Bloomberg-cited 6,725 IDR vs research Fri 7,600 anchor = −11.5% move. If accurate → price has moved >3% from planned entry 7,400 = **Gate 9 fails**. If inaccurate → multi-source verify gate fails. Either way, blocked. Also raises thesis-break question (what drove the −11.5% drop if real?) — needs midday verification before any action.
+  - **MIKA (CONDITIONAL #2 — DEFERRED):** Single-source 2,070 IDR (Google Finance, likely stale Mar 2026 reference per research note). Multi-source verify mandatory and not achieved. Healthcare sector-concentration concern with held KLBF (would push exposure to ~10%) remains. Defer.
+  - **ISAT (NO ENTRY per plan):** Mon +5.37% candle compressed R:R sub-2:1 even with realistic pullback. Chase risk. SKIP confirmed.
+  - **BBCA (NO ENTRY per plan):** Sub-2:1 R:R post Mon +3.8% rally to ~6,150. Chase risk. Pullback to ≤5,800 needed for clean 2.6:1. SKIP.
+  - **UNVR (NO ENTRY per plan):** Thesis weakening (retraced to 1,765 erasing May 21 +5.45% candle); needs UNVR-specific catalyst before re-evaluation. SKIP.
+- **9-gate check:** Not formally run (no candidate cleared pre-conditions for gate execution).
+- **Eagerness check:** PASS — no thesis genuinely compelling at current verified marks. Cumulative trial alpha +16.74% precious; protect via discipline not forced entry.
+- **Held-position monitor (KLBF):** Broker stale mark 945; safe-assumption lower-mark 930 (per Mon EOD multi-source cluster). At 930 = −1.59% from entry; hard-cut 878 = +5.6% buffer. Thesis intact (healthcare defensive leadership; IDR 500B buyback live through Jul 2; Q1 results healthy). Pre-mortem trigger (a) "breaks 920 on heavy volume" — NOT triggered. Pre-mortem trigger (b) "healthcare turns red while IHSG bounces" — NOT triggered (would need sesi I confirmation). **Action: HOLD with close monitoring.**
+- **Mistake-pattern check:** No planned trade matches BBRI (banking macro shock during EM-OUTFLOW), ITMG (commodity Q1 miss), or ADRO (coal+regulatory+IDR). Banking explicitly avoided; coal sector-exited; CPO export-control overhang skipped. Clean.
+- **Data infra Day 37:** yfinance still blocked. Multi-source WebSearch BINDING per MISTAKES.md 2026-05-01. Today's blocking factor on 4 of 5 candidates = same data-infra issue compounding into actionability gates.
+- **Regime:** DEFENSIVE-confirmed — RELIEF CONTINUING (Week 6 Day 2). Max 5% position size; Defensive Quality Track suspended. Coal EXITED (2 strikes); Banking sector-watch 1-of-2 strike (BBRI specifically blocked). Cumulative trial alpha +16.74% protection binding.
+- **MSCI rebalance T-3 trading days into Fri May 29** — passive outflow $1.6–1.8B concentrated near close; structural headwind argues for capital preservation through week (additional weight against any forced entry today).
+- **Notification:** No-trade notification sent (📊 Market-open 2026-05-26).
+
+---

@@ -3610,6 +3610,337 @@
       "time": "09:15 WIB",
       "shares": null,
       "price": null
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility + Abadi LNG offtake catalyst (multi-source confirmed); gas exempt from DSI export-control",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi LNG offtake confirmed multi-source (5 wires May 22)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; gas insulated from coal/CPO/ferro DSI scope"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source spread ~30% (TV 1,850 vs Investing 2,400) \u2014 Gate a fails"
+        },
+        {
+          "type": "sizing",
+          "label": "5% DEFENSIVE cap; deferred \u2014 no entry"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override could not resolve spread (yfinance Day 37 blocked)"
+        }
+      ],
+      "reasoning": "Primary conditional entry deferred for 2nd consecutive day: live-mark multi-source spread persists (~30%), fails strict 2% verification gate. Catalyst remains intact but data ambiguity is binding.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive FMCG; CPO input cost tailwind; Indomie franchise; pullback gate \u22647,950 for 2:1 R:R",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation + CPO/Brent input cost tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; consumer FMCG leadership"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source spread ~22% (cluster 6,750-6,900 vs Investing 8,225) \u2014 verify gate fails"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; no entry \u2014 Gate 9 fails on lower-mark interpretation"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override ambiguous (yfinance Day 37 blocked)"
+        }
+      ],
+      "reasoning": "Multi-source price spread blocks clean entry: lower-mark cluster 6,750-6,900 implies >3% move from planned entry 7,950 (Gate 9 fail); higher-mark 8,225 implies R:R sub-2:1. No clean path either way.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Parent ICBP + Indofood Agri + Bogasari; sum-of-parts discount; pullback gate \u22647,400 for 2:1 R:R",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation + dual FMCG/Agri exposure"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; consumer FMCG leadership"
+        },
+        {
+          "type": "risk",
+          "label": "Bloomberg-cited 6,725 vs Fri 7,600 anchor = -11.5% move; if real \u2192 Gate 9 fails; if not \u2192 verify gate fails"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; no entry"
+        },
+        {
+          "type": "warning",
+          "label": "Single-source Bloomberg mark + research anchor diverge ~11% (yfinance Day 37 blocked)"
+        }
+      ],
+      "reasoning": "Bloomberg-cited 6,725 IDR diverges -11.5% from research Fri anchor 7,600 \u2014 either a real thesis-break-magnitude move (needs midday verification) or data ambiguity. Either way blocks entry; defer to midday.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare co-leader with KLBF; private hospital franchise; BRI Danareksa PT 3,450",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive sector leadership + 2026 healthcare top-pick reaffirmation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; 5% cap; cumulative alpha +16.74% protection binding"
+        },
+        {
+          "type": "risk",
+          "label": "Single-source 2,070 (Google Finance stale); multi-source verify gate fails"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; sector concentration would push healthcare to ~10% (within 35% cap but stacks correlated bet)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch single-source verify (yfinance Day 37 blocked)"
+        }
+      ],
+      "reasoning": "No fresh multi-source price verification. Single Google Finance 2,070 mark likely stale Mar 2026 reference per pre-market note. Sector-concentration concern with held KLBF compounds the defer call.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco sector breakout; LQ45 Mon +5.37% top-3 gainer; ARPU growth + cellular consolidation",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mon +5.37% breakout candle; telco sector LQ45 momentum"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed regime; momentum-chase risk elevated"
+        },
+        {
+          "type": "risk",
+          "label": "Sub-2:1 R:R even with realistic pullback; chase risk after +5.37% candle"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; no entry"
+        }
+      ],
+      "reasoning": "Mon +5.37% candle compressed R:R to sub-2:1 at all realistic entry points (2,160 \u2192 1.59:1; 2,120 \u2192 1.89:1; 2,050 \u2192 1.83:1). Chase risk binding. SKIP confirmed.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-bank rebound leader Mon +3.8%; CGS PT 10,000 BUY; defensive bank franchise",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mon +3.8% big-bank rebound; sector financial +1.42%"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; banking sector-watch 1-of-2 strike active (BBRI specifically blocked)"
+        },
+        {
+          "type": "risk",
+          "label": "Sub-2:1 R:R post Mon rally; chase risk; need pullback \u22645,800"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; no entry \u2014 Gate 9 R:R fails"
+        }
+      ],
+      "reasoning": "Post Mon +3.8% rally the R:R compressed to ~1.45:1 (sub-2:1). Pullback to \u22645,800 needed for clean 2.6:1. Chase risk binding. SKIP confirmed per plan.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-05-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive FMCG rotation; CPO input cost tailwind; Unilever Indonesia franchise",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive rotation thesis (but weakening)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-confirmed; UNVR-specific weakness vs ICBP/INDF"
+        },
+        {
+          "type": "risk",
+          "label": "Retraced to 1,765 erasing May 21 +5.45% capitulation candle; thesis weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap; no entry"
+        }
+      ],
+      "reasoning": "UNVR retraced to 1,765 IDR \u2014 full unwind of May 21 capitulation candle vs ICBP/INDF which held better. UNVR-specific weakness suggests idiosyncratic concern beyond the defensive-rotation thesis. SKIP pending UNVR-specific catalyst.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        false,
+        true,
+        null
+      ]
     }
   ],
   "stats": {
@@ -5544,6 +5875,58 @@
           "detail": "519,000 sh @ 945; safe-mark 930 (-1.59%); hard-cut 878 buffer +5.6%; pre-mortem floor 920 monitor"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-26T02:20:56Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 7 candidates SKIP under disciplined gates: PGAS multi-source spread ~30% (Day 2 deferral); ICBP cluster spread ~22%; INDF Bloomberg cite -11.5% vs Fri anchor; MIKA single-source stale; ISAT/BBCA sub-2:1 R:R; UNVR thesis weakening. HOLD KLBF (mark 945, hard-cut 878). Cumulative trial alpha +16.74% protected. MSCI rebalance T-3.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519000sh @ 945; hard-cut 878; +5.6% buffer at safe-mark 930"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "multi-source spread ~30% TV vs Investing \u2014 Day 2 deferral"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "cluster spread ~22%; Gate 9 R:R fails either side"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "Bloomberg 6725 vs Fri 7600 = -11.5% \u2014 Gate 9 fails or thesis-break risk"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "single-source 2070 stale Google ref; sector concen w/ KLBF"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "chase risk; sub-2:1 R:R post Mon +5.37%"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "sub-2:1 R:R post Mon +3.8%; need pullback \u22645800"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "thesis weakening; retraced May 21 candle"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 37 blocked); multi-source verify gate binding"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -5739,5 +6122,5 @@
       "Monitor IHSG 6,206 Mon close / 6,145 support / 6,239 resistance (Kontan Tue range); IDR vs 17,750 DEFENSIVE-strict; Brent vs $95 floor (continuation risk); MSCI rebalance T-3 to Fri close"
     ]
   },
-  "last_updated": "2026-05-26T07:00:00+07:00"
+  "last_updated": "2026-05-26 09:15 WIB"
 }
