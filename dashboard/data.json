@@ -396,7 +396,7 @@
       "unrealized_pnl_pct": -1.59,
       "stop_price": 878,
       "stop_state": "hard-cut",
-      "days_held": 4,
+      "days_held": 5,
       "sector": "healthcare",
       "thesis": "Post-BI +50bp defensive rotation; KLBF sole green sector May 19; analyst Strong Buy consensus (15/16); embedded upside to PT 1,554 IDR (+64%)."
     }
@@ -6066,6 +6066,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "IDX closed Idul Adha \u2014 no live mark possible; KLBF frozen at 930 lower-mark (\u22121.59%); thesis intact; no action."
+    },
+    {
+      "timestamp": "2026-05-27T08:19:24Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-05-27 (Day 28, IDX closed Idul Adha): IDR 9.80B (0.00%). Cum trial alpha +17.71% vs IHSG. KLBF only position; cash 95.08%; trades wk 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 28 snapshot committed (IDX closed Idul Adha; equity carry; cumulative alpha +17.71% via Tue sesi II IHSG anchor correction)"
+        }
+      ]
     }
   ],
   "exposure": {
