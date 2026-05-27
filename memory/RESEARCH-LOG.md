@@ -5674,3 +5674,275 @@ UNVR retraced to 1,765 IDR (TradingView live, est −13% from May 21 close 2,030
 - [Indonesia stocks 8-session losing streak; Prabowo export controls; Q1 current account watched — Trading Economics Indonesia](https://tradingeconomics.com/indonesia/stock-market)
 
 ---
+
+## 2026-05-27 (Wednesday) — IDUL ADHA HOLIDAY: IDX CLOSED
+
+**Critical correction to prior log assumption:** Idul Adha 1447 H falls on Wed May 27 (not Thu May 28 as Tue EOD log assumed). IDX closed Wed May 27 + Thu May 28 (cuti bersama); reopens Fri May 29 (MSCI rebalance implementation day). This pre-market is preparation for the **Fri May 29 reopen**, not a same-day plan. No trades possible today.
+
+**Anchor correction:** Tue May 26 IHSG sesi II final close = **6,130.19** (−1.23% / −76.16 pts), updated from Tue EOD log sesi I proxy 6,149.68. Day 27 alpha and DD figures stand within rounding; KLBF mark unchanged (929-930 working).
+
+### Global Overnight (Tue May 26 closes)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,519.12 | +0.61% | New record close; Micron +19% on UBS upgrade ($1T cap) |
+| Nasdaq | 26,656.18 | +1.19% | New record close; tech leadership broadening |
+| Dow Jones | 50,461.68 | −0.23% | Lagged on oil pullback |
+| Shanghai Comp | ~4,153 (May 25) | +0.96% | Closed Tue (Dragon Boat carryover; sparse fresh print) |
+| Hang Seng | 25,606 | +0.86% | Recovery extension; mainland-tech leadership |
+| Nikkei 225 | 64,996.09 | −0.25% | Off 65,408 record set May 25; consolidation near highs |
+| VIX | 16.59 | flat | Low-vol regime persists; risk-on US tape |
+
+### Macro Snapshot (May 26-27)
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 6,130.19 (Tue May 26 close) | −1.23% on day | Sesi II final correction from Tue EOD log; market closed Wed-Thu |
+| IDR/USD | 17,793–17,796 | weaker | Stress level (above 17,700 = elevated) |
+| Indo 10Y SUN | ~6.74–6.81% | range | Off May 19 peak; BI +50bp Apr-21 fully digested |
+| US 10Y | 4.51% | slight ease | From 4.57% May 23 prior |
+| Indo-US spread | ~223–230 bp | narrowed slightly | Risk premium compression marginal |
+| Newcastle coal | $131–132/t | ~flat | Off $135.6 May 4 peak; thesis floor $130 holding |
+| CPO Jun '26 | RM 4,429/t | +RM19 | MPOC forecast RM4,400 Jun base; export concerns weigh |
+| LME nickel | $18,790/t | +0.59% | Range-bound; smelter policy in focus |
+| Brent crude | $98.11–99.58/bbl | recovery | Bounced from May 25 $96.93 low on Iran retaliation rhetoric |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net flow May 25 | −Rp 2.08T | Net sell despite IHSG +0.72%; YTD outflow Rp 54.58T |
+| Foreign net flow May 26 | net sell est (no firm print) | Heavy outflow likely w/ IHSG −1.23% + MSCI T-3 |
+| Top buying May 26 | DMAS (90.4M sh), BBRI (47M sh), MDKA (40M sh), GOTO (20.7M sh) | Bargain hunting on banking/mining |
+| Top selling May 26 | BUMI (−907M sh), BNBR (−209M sh), DEWA (−155M sh), BIPI (−138M sh), CUAN (−136M sh) | MSCI-flagged + speculative coal-adj |
+| BI FX reserves | $146.2B (Apr) | Down $2B vs Mar; 5.8 mo import cover |
+| MSCI rebalance Fri | $1.6–1.8B passive outflow | T-1 trading day; concentrated near close |
+
+### Sector Momentum (post-Tue close)
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Soft post-bounce | BI 5.25% NIM headwind; Mon rally faded | BBCA (defensive) |
+| Coal / Energy | Mixed | Brent +$98 recovered; Newcastle $131 holding | EXITED (2 strikes) |
+| Nickel / Mining | Range | LME nickel flat; MSCI removed ANTM small-cap | NONE active |
+| CPO / Agri | Soft | RM4,400 base; export weak; SIDO/AALI MSCI removed | AVOID |
+| Property | Weak | BI hike + sector overhang | AVOID |
+| Consumer FMCG | Defensive | Idul Adha demand pulse; IDR stress headwind | ICBP/INDF/MYOR |
+| Healthcare | Defensive lead | KLBF buyback live; MIKA MSCI small-cap removed | KLBF held |
+| Telco | Mixed | TLKM 3,050 rebound; ISAT post-rally fade | TLKM watch |
+| Infrastructure | Stronger | Tue infra led sector gainers | JSMR |
+
+### Corporate Calendar (Wed–Fri context)
+
+| Event | Ticker | Date | Expected Impact |
+|-------|--------|------|-----------------|
+| **IDX CLOSED — Idul Adha 1447 H** | — | Wed May 27 | No trading |
+| **IDX CLOSED — Cuti bersama** | — | Thu May 28 | No trading |
+| **MSCI Indonesia rebalance — implementation** | AMMN, BREN, TPIA, DSSA, CUAN, AMRT (Global Std removal); ANTM, AALI, BANK, BSDE, DSNG, SIDO, MIDI, MIKA, MSIN, TKIM, APIC, SSMS, TAPG (Small Cap removal) | **Fri May 29 close** | $1.6–1.8B mechanical outflow concentrated near 15:00 WIB |
+| PGAS dividend announcement | PGAS | May 26 | IDR 125.61/share; ~6.9% yield context |
+
+### Watchlist Scan — All 50 Tickers (May 26 close anchors; market closed May 27-28)
+
+**Caveat:** Live quotes unavailable today (market closed). Scores set from May 26 EOD anchors + sector regime + MSCI flow risk into Fri May 29. Friday's open will require fresh re-verification.
+
+| # | Ticker | Sector | Last (IDR) | May 26 Day% (est) | Score | Note | Status |
+|---|--------|--------|------------|---------|-------|------|--------|
+| 1 | BBCA | Banking | ~5,900 (Mon close ref) | ~−2% est | 5 | Defensive bank; sub-2:1 R:R after Mon +3.8%; dividend Rp281 ex Mar 30 paid; forward yield ~5.88%. **Defensive Quality Track check:** P/E and P/B σ data not sourced this scan → keep WATCH not DEFENSIVE-CANDIDATE per strategy guard | WATCH |
+| 2 | BBRI | Banking | ~3,100 (est, −Mon high) | ~−1% est | 3 | BBRI sector-watch strike 1-of-2 (May 1 hard-cut) — BLOCKED | SKIP |
+| 3 | BMRI | Banking | ~4,150 (est) | ~−1.5% est | 4 | Mon +2.67% bounce; no fresh catalyst; chase risk | WATCH |
+| 4 | BBNI | Banking | ~3,830 (est) | ~−1.5% est | 4 | Similar to BMRI; defensive bank but no near-term catalyst | WATCH |
+| 5 | BNGA | Banking | ~1,640 | ~−0.5% | 3 | Smaller bank; low liquidity vs big-4 | SKIP |
+| 6 | NISP | Banking | ~1,290 | ~−0.5% | 3 | Low conviction; not in BUMN focus | SKIP |
+| 7 | BBTN | Banking | ~1,360 | ~−2% est | 4 | Mon +8.17% top gainer reversed; volatility unfavorable | SKIP |
+| 8 | ADRO | Coal | ~2,290 (est) | ~−0.5% est | 2 | **Sector EXITED** (2 strikes: ITMG May 18 + ADRO May 20) — BLOCKED | SKIP |
+| 9 | ITMG | Coal | ~22,500 (est) | ~−1% est | 2 | **Sector EXITED** — BLOCKED | SKIP |
+| 10 | PTBA | Coal | ~2,800 (est) | ~−1% est | 2 | **Sector EXITED** — BLOCKED | SKIP |
+| 11 | BUMI | Coal | ~120 (est) | sharp drop | 2 | Heavy foreign sell (−907M sh May 26); **sector EXITED** | SKIP |
+| 12 | HRUM | Coal | ~790 | ~−1% est | 2 | **Sector EXITED** — BLOCKED | SKIP |
+| 13 | MEDC | Energy | TBD | ~+1% (Brent up) | 4 | Brent recovery tailwind but Iran-US flip-flop risk | WATCH |
+| 14 | PGAS | Gas | 1,790–1,820 (TradingView) vs 2,400 (Investing.com prior spread) | mixed | 6 | **CANDIDATE** — Abadi LNG offtake CONFIRMED multi-source (May 24); Q1 dividend announced May 26 IDR 125.61/share; gas-only insulated from coal/CPO export-control; price-source spread BINDING (need Fri 09:30 verify ≤2%) | CANDIDATE (gated) |
+| 15 | ANTM | Nickel | ~2,000 (est) | mixed | 3 | **MSCI Small Cap REMOVAL May 29** — mechanical outflow risk binding into Fri close | SKIP |
+| 16 | INCO | Nickel | ~2,800 (est) | flat | 3 | Range; no fresh nickel-supply catalyst | WATCH |
+| 17 | MDKA | Nickel/Gold | 2,720 (IPOT entry rec) | + Mon strength | 5 | Mon gainer; copper+gold leverage; sub-2:1 R:R | WATCH |
+| 18 | NCKL | Nickel | TBD | flat | 3 | No fresh catalyst | SKIP |
+| 19 | MBMA | Nickel | TBD | flat | 3 | No catalyst | SKIP |
+| 20 | TINS | Tin | TBD | + sentiment | 4 | Tin sentiment improving (Liputan6 Tue rec); thin liquidity | WATCH |
+| 21 | UNVR | Consumer | ~1,765 (TradingView) | retraced from May 21 peak | 3 | **Thesis WEAKENED** per Tue research; sector specifically rotating away from UNVR | SKIP |
+| 22 | ICBP | Consumer | ~6,750 (May 20 ref) | weak | 6 | **CANDIDATE** — Indomie defensive demand pulse into Idul Adha; Q1 net −3.1% YoY mild miss; IDR stress is input-cost headwind. R:R requires pullback ≤6,650 for 2:1 | CANDIDATE (gated) |
+| 23 | INDF | Consumer | TBD | weak | 5 | INDF holding ICBP; vertically integrated; lower idiosyncratic catalyst urgency | WATCH |
+| 24 | MYOR | Consumer | TBD | weak | 4 | No fresh catalyst; consumer-discretionary lean | WATCH |
+| 25 | SIDO | Consumer | TBD | weak | 3 | **MSCI Small Cap REMOVAL May 29** — mechanical outflow risk | SKIP |
+| 26 | TLKM | Telco | 3,050 (vs prev close 2,930) | +recovery | 6 | **CANDIDATE** — Telco sector rebound; ARPU growth; defensive name; verify Fri R:R ≥ 2:1 | CANDIDATE (gated) |
+| 27 | EXCL | Telco | ~2,300 (est) | flat | 4 | Cellular consolidation; smaller sub-base vs TLKM | WATCH |
+| 28 | ISAT | Telco | 2,160 (Mon +5.37%) | post-rally fade | 4 | Sub-2:1 R:R after Mon candle per Tue research; chase risk | SKIP |
+| 29 | MTEL | Tower | TBD | flat | 3 | Tower stability but no catalyst | SKIP |
+| 30 | TOWR | Tower | TBD | flat | 3 | Same as MTEL | SKIP |
+| 31 | BSDE | Property | TBD (mixed reads) | weak | 2 | **MSCI Small Cap REMOVAL May 29**; rate headwind | SKIP |
+| 32 | CTRA | Property | TBD | weak | 3 | Rate-sensitive; no catalyst | SKIP |
+| 33 | SMRA | Property | TBD | weak | 3 | Same headwind | SKIP |
+| 34 | PWON | Property | TBD | weak | 3 | Same headwind | SKIP |
+| 35 | GOTO | Tech | TBD | Tue net foreign buy 20.7M sh | 4 | Foreign buying on Tue red day; structural tech decline; speculative | WATCH |
+| 36 | BUKA | Tech | TBD | weak | 2 | Structural decline; no catalyst | SKIP |
+| 37 | EMTK | Tech/Media | ~665 (Mon +2.31%) | mixed | 3 | Mon top gainer faded; thin float | SKIP |
+| 38 | ASII | Auto/Industrial | TBD | weak | 4 | Buyback program live; Mon UNTR/ASII insider buying noted; defensive value | WATCH |
+| 39 | UNTR | Heavy Equip | TBD | weak | 5 | Coal-adjacent (revenue from contract mining); structural risk from coal sector exit | WATCH |
+| 40 | AKRA | Distribution | TBD | flat | 3 | No catalyst | SKIP |
+| 41 | AALI | Plantation | TBD | weak | 2 | **MSCI Small Cap REMOVAL May 29**; CPO weakness | SKIP |
+| 42 | LSIP | Plantation | TBD | weak | 3 | CPO weakness; no catalyst | SKIP |
+| 43 | JSMR | Infrastructure | TBD | + (infra led Tue) | 6 | **CANDIDATE** — infrastructure sector led Tue gainers; toll-road defensive; verify Fri R:R | CANDIDATE (gated) |
+| 44 | WSKT | Construction | TBD | weak | 2 | BUMN merger overhang; rate-sensitive | SKIP |
+| 45 | PTPP | Construction | TBD | weak | 2 | Same | SKIP |
+| 46 | ADHI | Construction | TBD | weak | 2 | Same | SKIP |
+| 47 | KLBF | Healthcare | 930–945 working (multi-source) | flat | n/a | **HELD** — 519,000 sh @ 945 entry; hard-cut 878; thesis intact (buyback live; defensive lead confirmed both red+green tape) | HOLD |
+| 48 | MIKA | Healthcare | ~2,070–2,240 prior range | weak | 3 | **MSCI Small Cap REMOVAL May 29** — mechanical outflow risk into Fri close; downgrade from prior CANDIDATE | SKIP |
+| 49 | SMGR | Cement | TBD | weak | 4 | Cement consolidation thesis intact; awaiting pullback | WATCH |
+| 50 | INTP | Cement | TBD | weak | 4 | Same as SMGR | WATCH |
+
+**Counts:** CANDIDATE ≥6: **4** (PGAS, ICBP, TLKM, JSMR — all gated on Fri reopen verification). HOLD: 1 (KLBF). SKIP: 27 (sector-exit, MSCI removal, chase, no catalyst). WATCH: 18.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive — concise given market-closed pre-market and Fri reopen verification still binding)
+
+#### 1. PGAS — Gas-only utility w/ confirmed Abadi LNG offtake catalyst, dividend announced
+
+- **Score 6/10** — held over from Tue research; price-source spread BINDING (TradingView 1,820 vs Investing.com 2,400; ~32% gap unresolved)
+- **Fundamental case:**
+  - Thesis: PT Perusahaan Gas Negara — gas-only utility, insulated from coal/CPO Danantara export-control overhang; INPEX Abadi LNG offtake confirmed multi-source May 24 (PGAS share of 9.5 Mt/yr) — 5-10 yr supply security
+  - Catalyst: Dividend Rp 125.61/share announced May 26 (Kompas) → cash-yield support; Abadi offtake structural rerate
+  - Valuation: P/E mid-single-digit historically (defensive utility band); not stretched
+- **Trade plan (pending Fri verify):**
+  - Entry: 1,820–1,900 IF multi-source price agreement ≤2% spread (BLOCKING gate)
+  - Stop: −7% hard cut from verified entry (e.g., entry 1,850 → cut 1,720)
+  - Target: 2,200 (catalyst rerate path) — R:R ~2.7:1 at 1,850 entry
+  - Position size: 5% of equity (DEFENSIVE cap binding)
+  - Conviction: MEDIUM (catalyst strong; price-source ambiguity binding)
+  - ADV: PGAS ~20-30M shares/day historically → 5% × ~9.8B equity / 1,850 = ~265K shares ≪ 2-3M ADV cap (10%) → no participation issue
+- **Pre-mortem:** Brent crashes <$80 sustained 3 days (gas-substitution lost) OR Abadi project regulatory pause OR price-source spread fails to converge by Fri 09:30 → SKIP
+
+#### 2. ICBP — FMCG defensive into Idul Adha demand pulse
+
+- **Score 6/10** — Indomie staple demand pulse
+- **Fundamental case:**
+  - Thesis: ICBP — Indofood CBP, Indomie staple; defensive FMCG; Idul Adha holiday demand pulse historically positive
+  - Catalyst: Idul Adha 27-28 May = +2-day demand pulse priced gradually post-holiday; FMCG defensive bid under EM-OUTFLOW regime
+  - Valuation: ICBP last at ~6,750 (May 20 ref); 52w range 6,650–11,225 → near 52w low; Q1 net −3.1% YoY mild
+  - Risk: IDR stress = imported input-cost (wheat) headwind; ICBP not in MSCI removal list
+- **Trade plan (pending Fri verify):**
+  - Entry: ≤ 6,650 (need pullback for 2:1 R:R)
+  - Stop: ~6,180 (−7%)
+  - Target: 7,400 (+11% recovery)
+  - R:R: ~1.6:1 at 6,650 → likely sub-2:1, FAILS R:R gate unless deeper pullback
+  - Position size: 5% (DEFENSIVE cap)
+  - Conviction: MEDIUM-LOW (sub-2:1 R:R is binding; gate-check Check 14 ADV likely OK)
+- **Pre-mortem:** IDR breaks 18,000 (input-cost spike) OR ICBP-specific Q2 guide-down OR R:R fails at 09:30 mark → SKIP
+
+#### 3. TLKM — Telco defensive; sector recovery tape
+
+- **Score 6/10** — telco sector breadth + defensive yield
+- **Fundamental case:**
+  - Thesis: TLKM — largest telco, ARPU growth + cellular consolidation; defensive name w/ ~5-6% dividend yield context
+  - Catalyst: Telco sector rebounded Tue (per sector breadth); TLKM 3,050 vs prev close 2,930 = +4.1% recovery; defensive name on tape rotation
+  - Valuation: 52w range 2,560–3,990; mid-range; P/E single-digit defensive band; not stretched
+  - Risk: TLKM not in MSCI removal list
+- **Trade plan (pending Fri verify):**
+  - Entry: ≤ 2,930 (prev close anchor) for 2:1 R:R
+  - Stop: 2,725 (−7%)
+  - Target: 3,350 (+14%)
+  - R:R: ~2.0:1 — borderline; at 3,050 R:R compresses to ~1.5:1, FAILS gate without pullback
+  - Position size: 5% (DEFENSIVE cap)
+  - Conviction: MEDIUM (catalyst defensive rotation; entry timing critical)
+- **Pre-mortem:** Telco-sector regulatory adverse OR ARPU compression headline OR fails 2:1 R:R at Fri 09:30 → SKIP
+
+#### 4. JSMR — Infrastructure leadership, toll-road defensive
+
+- **Score 6/10** — infra sector led Tue gainers
+- **Fundamental case:**
+  - Thesis: JSMR — toll-road defensive; Brent recovery tailwind (transport beneficiary); infrastructure sector breadth led Tue
+  - Catalyst: Govt infrastructure spending push; sector momentum confirmed Tue gainers list
+  - Valuation: stable cash-yield utility-like; near-term catalyst from infrastructure sector budget allocation
+  - Risk: rate-sensitive (high capex); JSMR not in MSCI removal list
+- **Trade plan (pending Fri verify):**
+  - Entry: TBD (need fresh mark at Fri open; targeted ≤ 5% deviation from Tue close)
+  - Stop: −7% from entry hard cut
+  - Target: +14-15% (2:1 R:R minimum)
+  - Position size: 5% (DEFENSIVE cap)
+  - Conviction: MEDIUM (catalyst sector-momentum; idiosyncratic story thinner than PGAS)
+- **Pre-mortem:** Infra-sector reverses on rate hike concerns OR JSMR-specific traffic data miss → SKIP
+
+### Held Position Updates
+
+- **KLBF** (519,000 sh @ 945 entry, Day 6 held, Wed mark frozen at Tue working 930): Market closed Wed-Thu; mark unchanged from Tue working 930 IDR (safe-assumption lower mark). Unrealized −1.59% (−IDR 7,785,000). Hard-cut **878** (buffer +5.6% from 930). Thesis check: **intact** — KLBF NOT in MSCI removal list (MIKA is, but KLBF stays); buyback program IDR 500B live through Jul 2, 2026; healthcare defensive lead confirmed bilaterally (green Mon May 25 lag pattern; red Tue May 26 outperformance). Pre-mortem trigger (a) "breaks 920 intraday on heavy volume" — 930 holds 10 IDR above floor; will re-evaluate Fri AM. Pre-mortem trigger (b) "healthcare turns red while IHSG bounces" — NOT TRIGGERED; healthcare outperformed Tue. Intermediate-pain trigger (entry × 0.96 = 907) NOT armed. State 1 hard-cut continues. Action: **HOLD into Fri reopen**; monitor MSCI rebalance flow effect on broader healthcare sector (MIKA outflow may not contaminate KLBF directly; KLBF Global Standard inclusion intact).
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE-confirmed (Week 6 entering Day 3 — holiday-truncated week; MSCI rebalance Fri = key event-risk)**
+
+- Reasoning: 4 DEFENSIVE triggers from May 22 weekly-review intact: (a) Prabowo Danantara export-control structural overhang persists; (b) MSCI rebalance Fri = $1.6-1.8B mechanical outflow; (c) IDR still ~17,793 above 17,000 inflection; (d) cumulative foreign outflow YTD −Rp 54.58T sustained. Tue −1.23% pullback gave back ~half of Mon's +1.90% bounce, validating that Mon was a tactical relief rally not a regime flip. Holiday-truncated week (only Mon-Tue + Fri trading) limits exposure window to 3 sessions. MSCI rebalance Fri close = SECOND structural event-risk catalyst (after Iduladha pre-positioning concluded).
+- **Position sizing adjustment: Max position size 5% of equity** (DEFENSIVE cap binding; per MISTAKES.md 2026-05-20 lesson).
+- **Defensive Quality Track: SUSPENDED** (DEFENSIVE regime).
+- Sector exits BINDING: Coal EXITED (2 strikes); Banking BBRI-specific block (1-of-2 strike).
+- **Tactical sector leadership Tue May 26:** Infrastructure, Raw Materials, Transportation, Energy led the sector breadth list of gainers (despite IHSG −1.23%). Defensive sectors (FMCG, Healthcare, Utility) likely outperformed on broad-tape red day.
+- **Cumulative trial alpha +17.46% (Day 27 close):** protect at all costs through MSCI rebalance event. Trial-period alpha non-negotiable; defensive caps appropriate.
+
+### Flagged Risks
+
+- **MSCI Indonesia rebalance Fri May 29 close** — T-1 trading day (only Fri before implementation). Mechanical outflow $1.6-1.8B concentrated near 15:00 WIB Fri close. Confirmed removals from Global Standard: AMMN, BREN, TPIA, DSSA, CUAN, AMRT. Small Cap removals: ANTM, AALI, BANK, BSDE, DSNG, **SIDO**, MIDI, **MIKA**, MSIN, TKIM, APIC, SSMS, TAPG. **MIKA + SIDO removal converts both from prior CANDIDATE to SKIP** — mechanical outflow risk binding.
+- **Holiday-truncated week** — only Mon-Tue + Fri tradeable; 2 of 5 sessions lost. Compressed information flow + late-week catalyst concentration (MSCI close).
+- **IDR ~17,793** — elevated stress level; below May 21 record but well above 17,000 inflection. Continued IDR weakness = imported inflation + foreign-flow drag.
+- **PGAS price-source ambiguity persists** — TradingView 1,820 vs Investing.com 2,400 spread = ~32%. Cannot enter without multi-source agreement at Fri 09:30; BINDING gate.
+- **Banking sector tactical bounce faded Tue** — BBCA/BMRI/BBNI gave back ~half of Mon's +3-4% rally per IHSG −1.23%; structural NIM compression remains. Mon big-bank bounce was technical not fundamental.
+- **R:R compression persists across CANDIDATE slate** — PGAS gated on multi-source verify; ICBP needs pullback ≤6,650 for 2:1 (sub-2:1 at 6,750); TLKM 2.0:1 borderline at 2,930 entry, sub-2:1 at 3,050; JSMR R:R TBD pending Fri mark. Realistic Fri outcome: 0-1 quality entries, not 2-3.
+- **Healthcare concentration risk** — KLBF held at 4.92% equity; adding healthcare names (MIKA blocked by MSCI) stacks defensive-rotation correlated bet. No additional healthcare adds this week.
+- **Consumer concentration risk** — if ICBP fills, do not also fill INDF/MYOR (same defensive-rotation thesis).
+- **Data-infra Day 38** — yfinance still blocked; multi-source WebSearch verify BINDING for all marks.
+- **Trades this week: 0/3 used** (Week 6 Day 3; 1 trading session left — Fri only). Budget: 0–1 conditional fill Fri, preferring slot preservation given MSCI event-risk overhang.
+- **Cumulative alpha +17.46%** — non-negotiable to protect through MSCI rebalance.
+- **Date arithmetic error in Tue EOD log** — Tue 11:30 midday + Tue 15:15 EOD entries stated "Idul Adha holiday Thu May 28; Wed last trading day". CORRECTED today: Idul Adha is Wed May 27; cuti bersama Thu May 28; trading resumes Fri May 29. This pre-market is for Fri May 29 reopen, not for a same-day Wed plan. No trade impact (no positions changed); thesis-tracking impact only.
+
+### Plan for /market-open (Friday 2026-05-29 reopen — Week 6 Day 3 trading session)
+
+- [ ] **PRIMARY: HOLD KLBF.** Mark-to-market multi-source verify at 09:15 WIB Fri; if 930 cluster holds with healthcare sector RS intact → continue HOLD. Hard-cut 878 GTC; pre-mortem trigger (a) live at 920 floor. KLBF NOT in MSCI removal → no mechanical-flow risk to position.
+- [ ] **CONDITIONAL ENTRY #1 — PGAS** IF (a) multi-source price agreement at 09:30 ≤2% spread (RESOLVES 1,820 vs 2,400 ambiguity), AND (b) verified mark allows ≥2:1 R:R with 5% sizing, AND (c) IHSG opens flat-or-green (≥6,100), AND (d) Abadi LNG catalyst remains intact. Gate-check binding (all 15). Best risk-adjusted opportunity given fresh catalyst + dividend announcement + zero export-control overhang. **MSCI insulation: PGAS NOT in removal list.**
+- [ ] **CONDITIONAL ENTRY #2 — ICBP / TLKM / JSMR** IF any prints pullback that enables ≥2:1 R:R (ICBP ≤6,650, TLKM ≤2,930, JSMR TBD at open), AND IHSG holds 6,100 support. Max 1 additional beyond PGAS (preserve slot vs MSCI rebalance event-risk). **All three NOT in MSCI removal list.**
+- [ ] **MSCI REBALANCE DAY DISCIPLINE:** No entry after 13:00 WIB Fri (avoid being caught in mechanical close-window outflow); prefer entries in 09:30–11:30 window with multi-source verify. If MSCI-flow turbulence materially adverse (IHSG > −1.5% by 13:00 WIB), DEFER all new entries to next week.
+- [ ] **NO entries in MSCI-removed names:** AMMN, BREN, TPIA, DSSA, CUAN, AMRT (Global Std); ANTM, AALI, BANK, BSDE, DSNG, SIDO, MIDI, MIKA, MSIN, TKIM, APIC, SSMS, TAPG (Small Cap). MIKA + SIDO + ANTM + AALI + BSDE specifically downgraded from prior WATCH/CANDIDATE.
+- [ ] **NO BBCA/BMRI/BBNI entry** — sub-2:1 R:R after Mon rally faded Tue; chase risk; BBRI specifically blocked by sector-strike.
+- [ ] **NO COAL / CPO-exporter / Property / Construction / Tech entries** — sector-exit (coal); structural overhang (CPO); rate-sensitive headwind (property/construction); structural decline (tech).
+- [ ] **NO UNVR** — thesis weakened per Tue research (retraced to 1,765); needs UNVR-specific catalyst before re-evaluation.
+- [ ] **NO MIKA / SIDO / ANTM / AALI** — MSCI mechanical outflow Fri close BINDING; risk-reward unfavorable on event-day.
+- [ ] **Trades this week target: 0–1 new entry on Fri** (1 trading session left in Week 6). Best path = 0-1 quality entry, not forced.
+- [ ] **Monitor Fri:** IHSG vs 6,130 Tue close / 6,094 trial-low support / 6,239 resistance; IDR vs 17,750 DEFENSIVE-strict trigger (currently 17,793 = above trigger; flag for fresh print); Brent vs $95-100 range (commodity); Nikkei + S&P record-tape spillover; MSCI rebalance flow direction (foreign net buy/sell Fri AM = directional signal for Fri close).
+- [ ] **Pre-market re-run Fri AM 07:00 WIB** — fresh macro + price verification + R:R recomputation BEFORE 09:00 market-open decisions.
+- [ ] **Activity log update at run end** — pre-market complete; 4 candidates scored ≥6 (PGAS lead pending multi-source verify, ICBP/TLKM/JSMR sub-R:R gated); KLBF HOLD into Fri reopen; market closed Wed-Thu Iduladha.
+
+### Sources
+
+- [S&P 500 record close 7,519.12 +0.61% / Nasdaq 26,656.18 +1.19% / Dow 50,461.68 -0.23% May 26 — Motley Fool](https://www.fool.com/coverage/stock-market-today/2026/05/26/stock-market-today-may-26-soaring-tech-stocks-push-s-and-p-500-and-nasdaq-to-new-highs/)
+- [Nikkei 225 64,996.09 -0.25% May 26 close — Trading Economics Japan](https://tradingeconomics.com/japan/stock-market)
+- [Hang Seng 25,606 +0.86%; Shanghai Composite ~4,153 May 25 — Trading Economics HK/China](https://tradingeconomics.com/hong-kong/stock-market)
+- [VIX 16.59 May 26 close — Yahoo Finance VIX](https://finance.yahoo.com/quote/%5EVIX/)
+- [IHSG closed 6,130.19 -1.23%/-76.16pts Tue May 26 (pre-Idul Adha) — Liputan6](https://www.liputan6.com/saham/read/7297946/ihsg-anjlok-123-jelang-libur-idul-adha)
+- [IHSG opening +0.14% to 6,214.95 May 26; LQ45 top gainers CUAN/BRPT/EMTK; sector breadth: infrastructure/raw materials/transportation/energy led — Kontan](https://investasi.kontan.co.id/news/ihsg-dibuka-menguat-ke-6214-top-gainers-lq45cuanbrpt-dan-emtk-selasa-265)
+- [USD/IDR 17,793-17,796 May 26 — Trading Economics Indonesia currency](https://tradingeconomics.com/indonesia/currency)
+- [US 10Y 4.51% May 26 — Trading Economics US bond](https://tradingeconomics.com/united-states/government-bond-yield)
+- [Indo 10Y SUN 6.74-6.81% range — Trading Economics Indonesia bond](https://tradingeconomics.com/indonesia/government-bond-yield)
+- [Newcastle thermal coal $131-132/t — Trading Economics coal](https://tradingeconomics.com/commodity/coal)
+- [CPO Jun 2026 RM 4,429/t; MPOC RM4,400 Jun base — agropost / Palm Oil Magazine](https://agropost.wordpress.com/2026/05/26/26-may-2026-palm-oil-prices-at-closing/)
+- [LME nickel $18,790/t +0.59% May 26 — Trading Economics nickel](https://tradingeconomics.com/commodity/nickel)
+- [Brent crude $98.11-99.58/bbl recovery from $96.93 May 25 low — Trading Economics Brent](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [Foreign net sell Rp 2.08T May 25; YTD Rp 54.58T outflow — Infobanknews](https://infobanknews.com/outflow-dana-asing-kembali-tercatat-rp208-triliun-pada-senin-25-5)
+- [Foreign top buy DMAS/BBRI/MDKA/GOTO + top sell BUMI/BNBR/DEWA/BIPI/CUAN May 26 — Infovesta](https://www.infovesta.com/index/data_info/saham/topbuy)
+- [MSCI Indonesia rebalance May 29 implementation; $1.6-1.8B passive outflow; Global Std removal AMMN/BREN/TPIA/DSSA/CUAN/AMRT; Small Cap removal 13 names incl ANTM/AALI/BSDE/SIDO/MIKA — Tempo](https://en.tempo.co/read/2103366/msci-removes-6-indonesian-stocks-from-global-standard-index)
+- [MSCI Indonesia $1.8B outflow risk — Heygotrade](https://www.heygotrade.com/en/news/msci-indonesia-rebalancing-may-2026-outflow/)
+- [BEI libur Iduladha 27-28 Mei 2026; trading hanya Mon May 25 / Tue May 26 / Fri May 29 — Bareksa](https://www.bareksa.com/berita/belajar-investasi/2026-05-25/bei-libur-idul-adha-2728-mei-2026-cek-penyesuaian-transaksi-saham-reksadana-emas-st016)
+- [IDX trading holiday Iduladha 1447 H Wed May 27 + cuti bersama Thu May 28 — Suara](https://www.suara.com/bisnis/2026/05/24/151611/kapan-ihsg-kembali-dibuka-setelah-iduladha-2026-ini-jadwalnya)
+- [PGAS dividend Rp 125.61/share announced May 26 — Kompas](https://money.kompas.com/read/2026/05/26/080134126/pgn-pgas-tebar-dividen-rp-1256-per-saham-simak-jadwal-pembagiannya)
+- [PGAS live price 1,820 IDR (TradingView) — TradingView PGAS](https://id.tradingview.com/symbols/IDX-PGAS/)
+- [INPEX Abadi LNG 9.5 Mt/year offtake confirmed multi-source — Enerdata](https://www.enerdata.net/publications/daily-energy-news/inpex-secures-key-agreements-95-mtyear-abadi-lng-indonesia.html)
+- [BBCA forward dividend yield 5.88% May 19; Rp281 ex Mar 30 paid — Stock Events](https://stockevents.app/en/stock/BBCA.JK/dividends)
+- [TLKM 3,050 vs prev close 2,930 (+4.1%) — Yahoo Finance TLKM](https://finance.yahoo.com/quote/TLKM.JK/)
+- [ICBP 6,750 May 20; 52w 6,650-11,225; Q1 net -3.1% YoY — Yahoo Finance ICBP](https://finance.yahoo.com/quote/ICBP.JK/)
+- [Bumi Resources foreign sell -907M shares May 26 (heavy outflow) — Suara](https://www.suara.com/bisnis/2026/05/26/080702/daftar-saham-paling-banyak-dijual-asing-emiten-konglomerat-rontok)
+
+---
