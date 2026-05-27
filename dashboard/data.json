@@ -6060,6 +6060,12 @@
           "detail": "Telegram notify blocked by sandbox allowlist (HTTP 403)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-27T04:38:07Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "IDX closed Idul Adha \u2014 no live mark possible; KLBF frozen at 930 lower-mark (\u22121.59%); thesis intact; no action."
     }
   ],
   "exposure": {
