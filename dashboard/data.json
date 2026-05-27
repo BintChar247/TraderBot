@@ -6039,6 +6039,27 @@
           "detail": "Tue EOD log Idul Adha date error: actual Wed May 27 (not Thu May 28)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-27T02:16:11Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed \u2014 IDX CLOSED for Idul Adha 1447 H (Wed May 27 + Thu May 28 cuti bersama). Reopens Fri May 29. KLBF held; 4 CANDIDATEs gated for Fri verify (PGAS, ICBP, TLKM, JSMR).",
+      "actions": [
+        {
+          "type": "info",
+          "detail": "IDX closed Idul Adha holiday \u2014 no trades possible"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000sh @ 945 entry; mark 930; hard-cut 878"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify blocked by sandbox allowlist (HTTP 403)"
+        }
+      ]
     }
   ],
   "exposure": {
