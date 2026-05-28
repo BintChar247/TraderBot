@@ -2409,3 +2409,38 @@ Day 28 of trial — extended post-trial monitoring; Wed Week 6 Day 3. **IDX CLOS
 5. **Cumulative alpha protection** — +17.71% recovered alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary. Cash-heavy defensive structure has earned +17.71pp of relative outperformance since Day 0.
 
 ---
+
+### 2026-05-28 11:30 WIB — MIDDAY SCAN (Day 29, Thu, Week 6 Day 4) — IDX CLOSED cuti bersama Idul Adha
+
+**Status: NO MIDDAY ACTION POSSIBLE — Market closed for cuti bersama post-Idul Adha 1447 H.**
+
+IDX closed Wed May 27 (Idul Adha) + Thu May 28 (cuti bersama); reopens Fri May 29 (MSCI rebalance implementation day, only remaining Week 6 trading session).
+
+**Open positions (1) — frozen at Tue May 26 working mark (carry through 2-day closure):**
+
+| Ticker | Shares | Entry (IDR) | Frozen Mark (IDR) | Unrealized P&L | State |
+|--------|--------|-------------|-------------------|----------------|-------|
+| KLBF | 519,000 | 945 | 930 (safe lower mark, Tue May 26 working) | −1.59% (IDR −7,785,000) | State 1 — HARD-CUT @ 878 |
+
+**Sell-side rule application — N/A (no live prices during holiday closure):**
+- Hard-cut (entry × 0.93 = 878): Cannot evaluate intraday — last available mark 930 = +5.6% buffer above floor; no new triggers can fire while exchange is closed.
+- Tighten to 7% (+15% trigger at 1,087): N/A — last mark far below threshold.
+- Tighten to 5% (+20% trigger at 1,134): N/A — same; far below threshold.
+- Thesis-break check: PASS (carryover from 2026-05-28 pre-market refresh) — KLBF NOT in MSCI Small Cap removal list (MIKA is, KLBF stays); buyback program IDR 500B live through Jul 2; healthcare defensive lead pattern confirmed bilaterally on green (Mon lag) and red (Tue outperform) tape this week. No fresh adverse news during 2-day holiday closure window.
+- Intraday >3% adverse move: N/A — no intraday tape.
+- Sector exit (2 consecutive losses): N/A — healthcare 0 prior strikes; KLBF first pharma trade.
+
+**Action: NONE.** Market closed. Position carries through holiday at last known mark. Next live re-evaluation: Fri May 29 09:15 WIB market-open (MSCI rebalance day).
+
+**Broker reconciliation:** `broker.sh positions` returns KLBF 519,000 sh @ 945 entry — matches Active Positions table + STOPS.json (hard-cut 878). `broker.sh quote KLBF` returns stale entry_price 945 with explicit note: "Stale quote — live market-data.sh unavailable; using last-known entry_price." `market-data.sh quote KLBF` confirms yfinance Day 39 blocked ("HTTP Error 403: Host not in allowlist"). No mark resolution possible until Fri reopen.
+
+**Notification sent:** 📊 Midday 2026-05-28: All positions healthy. No action taken. (IDX closed cuti bersama post-Idul Adha — frozen mark carry; reopens Fri.)
+
+**Notes:**
+- Data infra Day 39: yfinance + GoAPI both blocked; market closed regardless. Carry mark 930 unchanged from Tue May 26 working safe lower mark.
+- Trades this week: 0/3 used (Week 6 Day 4 holiday; full slot allocation intact, available only on Fri reopen).
+- Pre-market 2026-05-28 entry already covered Fri reopen plan in full (4 conditional candidates: PGAS, ICBP, TLKM, JSMR; KLBF HOLD primary).
+- Cumulative trial alpha vs IHSG: +17.71% (May 27 carry basis) — protection binding into MSCI rebalance day Fri.
+- DEFENSIVE regime + MSCI rebalance event-risk: pre-emptive de-risk rule binding (no entries after 13:00 WIB Fri).
+
+---

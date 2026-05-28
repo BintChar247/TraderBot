@@ -6174,6 +6174,12 @@
           "detail": "Telegram notification blocked by host allowlist - printed to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-28T04:37:09Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Day 29 (Thu) IDX CLOSED cuti bersama Idul Adha \u2014 no action possible. KLBF held @ carry mark 930 (\u22121.59%); hard-cut 878 (+5.6% buffer). Reopens Fri May 29 MSCI rebalance day."
     }
   ],
   "exposure": {
