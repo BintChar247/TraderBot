@@ -6153,6 +6153,27 @@
           "detail": "DEFENSIVE-confirmed; IDR approaching record 17,786; MSCI rebalance Fri close"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-28T02:16:31Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDX CLOSED for cuti bersama post-Idul Adha (Thu May 28). Next live session Fri May 29 09:15 WIB (MSCI rebalance implementation day).",
+      "actions": [
+        {
+          "type": "info",
+          "detail": "IDX closed - cuti bersama post-Idul Adha"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ 945; hard-cut 878; frozen carry mark 930"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification blocked by host allowlist - printed to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
