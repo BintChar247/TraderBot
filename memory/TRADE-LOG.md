@@ -2444,3 +2444,59 @@ IDX closed Wed May 27 (Idul Adha) + Thu May 28 (cuti bersama); reopens Fri May 2
 - DEFENSIVE regime + MSCI rebalance event-risk: pre-emptive de-risk rule binding (no entries after 13:00 WIB Fri).
 
 ---
+
+### 2026-05-28 EOD — Day 29 (Thu, Week 6 Day 4 — IDX CLOSED cuti bersama Idul Adha 1447 H)
+
+- Total equity: IDR 9,801,842,500 (unchanged from May 27 EOD — IDX closed cuti bersama)
+- Daily P&L: IDR 0 (0.00%) — no trading session (2nd consecutive closed day)
+- IHSG daily: 0.00% (closed; carry Tue May 26 sesi II final 6,130.19)
+- Daily alpha: 0.00% (both portfolio and IHSG flat by closure)
+- Cash: IDR 9,319,172,500 (95.08% of equity)
+- Trades today: 0 (market closed)
+- Trades this week: 0/3 (Week 6 Day 4 holiday; full slot allocation intact, available only on Fri May 29 reopen)
+- Phase-to-date P&L: IDR −198,157,500 (−1.98%) — realized −190,372,500 + KLBF unrealized −7,785,000
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; carry IHSG 6,130.19 = −19.69%): +17.71% (unchanged from Day 28)
+- Realized P&L (cumulative): −IDR 190,372,500 (unchanged — no closes today)
+- Weekly P&L (Week 6 — start baseline 9,809,627,500 May 22 EOD): −0.08% (unchanged from yesterday)
+- Drawdown from peak (10,026,617,500 May 1): −2.24% (unchanged; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 930 (frozen carry mark — IDX closed cuti bersama) | IDR −7,785,000 (−1.59%) | 6 |
+
+#### Notes
+
+Day 29 of trial — extended post-trial monitoring; Thu Week 6 Day 4. **IDX CLOSED full session for cuti bersama Idul Adha 1447 H** (2nd consecutive closed day after Wed May 27 Idul Adha; reopens Fri May 29 = MSCI rebalance implementation day). No trading session occurred; equity, MTM, and IHSG anchors carry from prior session. Broker reconciliation: KLBF position in broker (519,000 sh @ 945, entry 2026-05-21) matches TRADE-LOG Active Positions and STOPS.json (hard-cut 878) — no discrepancy. broker.sh quote returns stale entry_price 945 (yfinance Day 39 blocked); no fresh mark resolution possible during closure.
+
+**Mark-to-market sources — N/A today (market closed):**
+- KLBF: 930 IDR (frozen carry from Tue May 26 working safe lower mark; no intraday tape during 2-day holiday). Unrealized P&L −1.59% (IDR −7,785,000); hard-cut buffer +5.59% (878 floor; 5.59% below 930). All sell-side triggers (hard-cut, tighten +15%/+20%, intraday >3% adverse, sector exit, thesis break) are non-evaluable during closure — Fri May 29 09:15 WIB is the next live re-evaluation point.
+- IHSG: 6,130.19 carry-forward (Tue May 26 sesi II final; same anchor as Day 28 EOD). No fresh tape today. IHSG cumulative vs Day 0 baseline 7,634: −19.69%.
+- Newcastle thermal coal: no held coal position; not material today.
+- USD/IDR: no fresh print; rupiah stable per prior commentary.
+- BI-Rate: 5.25% unchanged (post-May 21 +50bp hike).
+
+**Macro:** IDX-closed cuti bersama Idul Adha day 2. Regional context (informational only — no IDX impact today): global markets trading normally; no overnight surprise that would change Fri reopen plan. Pre-market 2026-05-28 entry already locked Fri reopen plan: 4 deferred candidates (PGAS, ICBP, TLKM, JSMR — all gated on Fri 09:30 multi-source price verify + ≥2:1 R:R + IHSG-open behavior); MIKA/SIDO/ANTM/AALI/BSDE/DSNG SKIP (MSCI Small Cap removals Fri close); KLBF HOLD primary (NOT in removal list). Next material event: **Fri May 29 MSCI Indonesia rebalance implementation** — $1.6–1.8B estimated passive outflow concentrated at 15:00 WIB market-on-close.
+
+**Portfolio impact:** Daily P&L 0% (no session). Cumulative trial alpha unchanged +17.71%. Drawdown from peak unchanged −2.24%. Cash buffer 95.08% remains structurally insulating into Fri MSCI rebalance event.
+
+**RISK ALERTS:**
+- Daily P&L 0.00% — NO alert (market closed; no movement possible). Well clear of −2% cap.
+- KLBF carry-mark −1.59% — well above −6% warning threshold. NO alert.
+- Drawdown from peak −2.24% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 6) −0.08% — far from −5% reduction trigger.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+**Sector exposure:** Healthcare 4.92% of equity (KLBF only); cash 95.08%. No coal/banking/mining exposure (post May 20 ADRO cut).
+
+**Cumulative alpha trajectory:** +17.71% vs IHSG since Day 0 — unchanged from Day 28 (anchor identical due to back-to-back closure). Cash buffer + ADRO hard-cut discipline May 20 + selective KLBF defensive entry May 21 continues to compound favorably vs sustained IHSG capitulation (carry −19.69% from Day 0 baseline).
+
+**Watch Fri May 29 (next live session — Week 6 Day 5 — MSCI rebalance implementation day):**
+1. **KLBF fresh mark vs entry 945** — held position; hard-cut 878 (+5.59% buffer at carry 930). +7% trailing activation at 1,011 (not yet armed). State 1 hard-cut continues; thesis re-verify on reopen: KLBF NOT in MSCI removal list confirmed; buyback program live through Jul 2; healthcare defensive leadership pattern. Pre-mortem trigger (a) "breaks 920 intraday on heavy volume" — re-evaluate on reopen tape.
+2. **MSCI Indonesia rebalance — 15:00 WIB close** — $1.6–1.8B passive outflow concentrated at MOC; broad-tape pressure expected; healthcare defensive sector relative-strength test. Cumulative alpha protection binding.
+3. **4 deferred candidates for Fri 09:15 WIB market-open** — PGAS, ICBP, TLKM, JSMR — all gated on Fri verification (≤2% multi-source price spread + ≥2:1 R:R + full 9-gate re-run); data-infra Day 40 outlook uncertain (continued yfinance blocking expected).
+4. **Eagerness check on reopen** — 2-day closure + MSCI rebalance volatility + Week 6 slot 0/3 = classic forced-trade temptation; default posture is patience unless gates cleanly pass. DEFENSIVE regime + MSCI event-risk: no entries after 13:00 WIB Fri.
+5. **Cumulative alpha protection** — +17.71% recovered alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary. Cash-heavy defensive structure has earned +17.71pp of relative outperformance since Day 0.
+
+---

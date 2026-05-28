@@ -381,6 +381,23 @@
       "trades_this_week": 0,
       "note": "Day 28 (Wed, Week 6 Day 3 - IDX CLOSED Idul Adha 1447 H). No trading; equity unchanged from May 26 EOD. CORRECTION: prior Tue EOD log assumed Idul Adha was Thu May 28; actual is Wed May 27 + cuti bersama Thu May 28; reopens Fri May 29 (MSCI rebalance day). IHSG anchor corrected to Tue May 26 sesi II final 6,130.19 (-1.23%) vs prior sesi I proxy 6,149.68. Pre-market entry posted for Fri May 29 reopen with 4 CANDIDATEs \u22656 (PGAS, ICBP, TLKM, JSMR - all gated on Fri 09:30 multi-source verify + R:R + IHSG-open behavior). MIKA + SIDO downgraded SKIP (MSCI Small Cap removal Fri close); ANTM/AALI/BSDE/DSNG also removed. KLBF unchanged (NOT in MSCI removal); HOLD into Fri reopen.",
       "realized_pnl_cumulative": -190372500
+    },
+    {
+      "date": "2026-05-28",
+      "day_label": "Day 29",
+      "portfolio_value": 9801842500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.98,
+      "ihsg_close": 6130.19,
+      "ihsg_cumulative_pct": -19.69,
+      "alpha_pct": 17.71,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 29 (Thu, Week 6 Day 4 \u2014 IDX CLOSED cuti bersama Idul Adha 1447 H, 2nd consecutive closed day). No trading; equity unchanged from May 27 EOD. IHSG carry 6,130.19 (Tue May 26 sesi II final; no fresh print during 2-day holiday). KLBF held at carry mark 930 (-1.59%; hard-cut 878 = +5.59% buffer); thesis intact (NOT in MSCI removal list; buyback live; healthcare defensive lead). Cumulative trial alpha +17.71% unchanged. Fri May 29 reopens = MSCI rebalance implementation day; 4 deferred candidates (PGAS, ICBP, TLKM, JSMR) gated on Fri verify; DEFENSIVE regime + MSCI event-risk binds no-entries-after-13:00-WIB Fri.",
+      "realized_pnl_cumulative": -190372500
     }
   ],
   "positions": [
@@ -396,9 +413,9 @@
       "unrealized_pnl_pct": -1.59,
       "stop_price": 878,
       "stop_state": "hard-cut",
-      "days_held": 5,
+      "days_held": 6,
       "sector": "healthcare",
-      "thesis": "Post-BI +50bp defensive rotation; KLBF sole green sector May 19; analyst Strong Buy consensus (15/16); embedded upside to PT 1,554 IDR (+64%)."
+      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; healthcare defensive sector leadership confirmed bilaterally."
     }
   ],
   "trades": [
@@ -3978,9 +3995,9 @@
     }
   ],
   "stats": {
-    "total_return_pct": -2.09,
-    "ihsg_return_pct": -19.51,
-    "alpha_pct": 17.43,
+    "total_return_pct": -1.98,
+    "ihsg_return_pct": -19.69,
+    "alpha_pct": 17.71,
     "win_rate_pct": 0.0,
     "total_trades": 6,
     "winning_trades": 0,
@@ -3999,14 +4016,14 @@
     },
     "rules_followed": true,
     "violations": [],
-    "current_equity": 9791462500,
-    "cum_return_pct": -2.09,
-    "ihsg_cum_pct": -19.51,
-    "cum_alpha_pct": 17.43,
+    "current_equity": 9801842500,
+    "cum_return_pct": -1.98,
+    "ihsg_cum_pct": -19.69,
+    "cum_alpha_pct": 17.71,
     "positions_count": 1,
-    "cash_pct": 95.18,
-    "trades_this_week": 1,
-    "last_updated": "2026-05-21"
+    "cash_pct": 95.08,
+    "trades_this_week": 0,
+    "last_updated": "2026-05-28"
   },
   "risk": {
     "beta_ihsg": null,
@@ -4014,17 +4031,17 @@
     "annual_vol_pct": null,
     "sharpe_10d": null,
     "sortino_10d": null,
-    "drawdown_from_peak_pct": -2.35,
+    "drawdown_from_peak_pct": -2.24,
     "risk_budget_used_pct": 0.6,
     "risk_budget_cap_pct": 5.0,
     "note": "Populated by performance.py risk after Day 1",
-    "daily_pnl_pct": -0.19,
-    "weekly_pnl_pct": -0.86,
+    "daily_pnl_pct": 0.0,
+    "weekly_pnl_pct": -0.08,
     "peak_equity": 10026617500,
-    "current_equity": 9791462500,
+    "current_equity": 9801842500,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-05-21"
+    "updated": "2026-05-28"
   },
   "activity_log": [
     {
@@ -6180,18 +6197,36 @@
       "routine": "midday",
       "status": "success",
       "summary": "Day 29 (Thu) IDX CLOSED cuti bersama Idul Adha \u2014 no action possible. KLBF held @ carry mark 930 (\u22121.59%); hard-cut 878 (+5.6% buffer). Reopens Fri May 29 MSCI rebalance day."
+    },
+    {
+      "timestamp": "2026-05-28T08:17:44Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 29 EOD (Thu, IDX CLOSED cuti bersama Idul Adha): equity 9.802B unchanged (+0.00% day). KLBF held @ carry 930 (-1.59%; hard-cut 878 +5.59% buffer). Cum. alpha +17.71%. Trades 0/3. Fri reopen = MSCI rebalance day."
+    },
+    {
+      "timestamp": "2026-05-28T08:17:58Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 29 EOD (Thu, IDX CLOSED cuti bersama Idul Adha day 2/2): equity 9.802B unchanged (+0.00%). KLBF held @ carry 930 (-1.59%; hard-cut 878). Cum. alpha +17.71%. Trades 0/3. Fri reopen = MSCI rebalance day.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 29 EOD snapshot committed (no-session holiday carry)"
+        }
+      ]
     }
   ],
   "exposure": {
     "sectors": {
       "healthcare": {
-        "pct_of_equity": 4.82,
+        "pct_of_equity": 4.92,
         "tickers": [
           "KLBF"
         ]
       },
       "cash": {
-        "pct_of_equity": 95.18,
+        "pct_of_equity": 95.08,
         "tickers": []
       }
     },
@@ -6315,5 +6350,5 @@
     "trades_week_budget": 3,
     "next_session": "Fri May 29 09:15 WIB market-open (MSCI rebalance day)"
   },
-  "last_updated": "2026-05-28T00:30:00Z"
+  "last_updated": "2026-05-28T08:17:44Z"
 }
