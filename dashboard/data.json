@@ -6078,6 +6078,81 @@
           "detail": "Day 28 snapshot committed (IDX closed Idul Adha; equity carry; cumulative alpha +17.71% via Tue sesi II IHSG anchor correction)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-28T00:00:00+07:00",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan refreshed (IDX closed Thu cuti bersama). 4 candidates scored \u22656 carry-forward: PGAS (catalyst lead, price-source spread converging), ICBP / TLKM (R:R-binding), JSMR (R:R TBD). KLBF HOLD into Fri May 29 reopen (MSCI rebalance day). Macro: Dow record vs HK 1-month low divergence; IDR approaching record 17,786; Brent $99 recovery; MSCI Fri close = $1.6-1.8B passive outflow event.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (carry-forward marks Tue May 26 close; data infra Day 39)"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 (PGAS, ICBP, TLKM, JSMR \u2014 all gated)"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 6/10 \u2014 Abadi LNG + dividend; price-spread converging (TradingView+Yahoo 1,820-1,835 vs Investing.com 2,400 stale); Fri 09:30 verify BINDING"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 \u2014 Q1 EPS -3.1% YoY but rev +7.6% YoY; R:R sub-2:1 binding"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 \u2014 17/0 analyst Buy consensus; R:R 1.5:1 at 3,050"
+        },
+        {
+          "type": "research",
+          "ticker": "JSMR",
+          "detail": "score 6/10 \u2014 infra sector led Tue; R:R TBD Fri open"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Hard-cut 878; +5.6% buffer at carry 930; thesis intact; NOT in MSCI removal"
+        },
+        {
+          "type": "risk",
+          "detail": "DEFENSIVE-confirmed; IDR 17,823 approaching record 17,786; MSCI rebalance Fri close $1.6-1.8B outflow"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-28T00:14:19Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan refreshed (IDX closed Thu cuti bersama). 4 candidates carry-forward \u22656: PGAS (catalyst lead, price-spread converging), ICBP/TLKM (R:R-binding), JSMR (R:R TBD). KLBF HOLD into Fri reopen (MSCI rebalance day).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored >=6: PGAS, ICBP, TLKM, JSMR"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 6/10 - Abadi LNG + dividend; price-spread converging; Fri 09:30 verify binding"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Hard-cut 878; +5.6% buffer at carry 930"
+        },
+        {
+          "type": "risk",
+          "detail": "DEFENSIVE-confirmed; IDR approaching record 17,786; MSCI rebalance Fri close"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -6103,136 +6178,115 @@
     "note": "Populated by performance.py after positions are open"
   },
   "macro": {
-    "ihsg": 6206.35,
-    "ihsg_change_pct": 0.72,
-    "idr_usd": 17695,
-    "idr_usd_change_pct": 0.0,
+    "ihsg": 6130.19,
+    "ihsg_change_pct": 0.0,
+    "ihsg_note": "Carry-forward Tue May 26 sesi II final; IDX CLOSED Wed-Thu Idul Adha + cuti bersama; next live print Fri May 29 09:00 WIB",
+    "idr_usd": 17823,
+    "idr_usd_change_pct": 0.17,
+    "idr_usd_note": "Approaching/exceeding May 20 record 17,786; 5th DEFENSIVE trigger forming if Fri AM \u226517,820 sustained",
     "coal_usd": 132.0,
     "coal_change_pct": 0.0,
-    "nickel_usd": 18880,
-    "nickel_change_pct": 0.67,
+    "nickel_usd": 18895,
+    "nickel_change_pct": -0.6,
     "cpo_myr": 4500,
-    "cpo_change_pct": -1.0,
-    "brent_usd": 96.93,
-    "brent_change_pct": -6.38,
-    "us_10y_yield": 4.57,
+    "cpo_change_pct": 0.0,
+    "brent_usd": 99.18,
+    "brent_change_pct": -0.41,
+    "brent_note": "Recovery from $96.93 May 25 low; Iran-US geopolitical-rumor whipsaw persists",
+    "us_10y_yield": 4.49,
     "us_30y_yield": null,
-    "indo_10y_sun_yield": 6.74,
-    "vix": 16.76,
+    "indo_10y_sun_yield": 6.81,
+    "vix": 17.01,
     "bi_rate": 5.25,
     "bi_rate_note": "+50bp surprise hike May 19-20; rupiah-defense; next RDG Jun 17-18 (~50% +25bp odds)",
-    "asia_sentiment": "Mon May 25: IHSG +0.72% to 6,206.35 led by big-bank rebound (BBRI +4.6% sesi I, BBCA +3.8%, BMRI +3.4%); LQ45 +1.74%; AMMN/BBTN/ISAT top LQ45 gainers. US closed Memorial Day. Asia risk-on continuation (Nikkei 52-wk high 65,408 May 25). Brent crashed -6.38% to $96.93 on US-Iran de-escalation. DEFENSIVE-confirmed regime intact; tactical relief continues.",
+    "asia_sentiment": "Wed May 27: US strong (Dow record 50,644.28; S&P 7,520 marginal record; Nasdaq 26,674 marginal record); Asia-EM diverged sharply - HK 25,328 1-month low (-1.10%), Shanghai 4,095 (-1.21%), Nikkei 64,999 flat at record. EM-Asia risk-off-leaning into MSCI rebalance Fri close. Brent recovery $99.18 from $96.93 May 25 low. VIX 17.01 benign. IDX closed Wed-Thu.",
     "foreign_flow_idr_bn": null,
-    "key_event_today": "Week 6 Day 2 pre-market. MSCI rebalance Fri May 29 T-3 trading days - $1.6-1.8B passive outflow. Prabowo Danantara export-control Stage 1 Jun 1. Brent -6.38% commodity shock (positive consumer/transport, negative coal/CPO/energy). 5 candidates scored >=6: PGAS (catalyst lead) / ICBP / INDF / ISAT (chase risk) / MIKA. KLBF held safe-mark 930.",
-    "updated": "2026-05-26"
+    "key_event_today": "Week 6 Day 4 (Thu cuti bersama, IDX CLOSED). MSCI rebalance Fri May 29 = T-1 trading day = $1.6-1.8B outflow risk concentrated 15:00 WIB close (worst case $10B; each $1B = 1-1.5% IDR depreciation). IDR approaching record 17,786; if Fri AM \u226517,820 sustained = 5th DEFENSIVE trigger. 4 candidates scored >=6 carry-forward: PGAS (catalyst lead pending Fri 09:30 multi-source verify) / ICBP (R:R-binding) / TLKM (R:R-binding) / JSMR (R:R TBD). KLBF HOLD into Fri reopen; not in MSCI removal.",
+    "updated": "2026-05-28"
   },
   "research": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "headlines": [
       {
         "ticker": "IDX",
-        "headline": "IDX CLOSED Wed May 27 (Idul Adha 1447 H) + Thu May 28 (cuti bersama). Reopens Fri May 29 (MSCI rebalance implementation day). Only 1 trading session left in Week 6.",
+        "headline": "IDX CLOSED Thu May 28 (cuti bersama post-Idul Adha). Reopens Fri May 29 (MSCI rebalance implementation day = only Fri trading session left in Week 6).",
         "sentiment": "neutral-holiday",
         "source": "Bareksa",
         "url": "https://www.bareksa.com/berita/belajar-investasi/2026-05-25/bei-libur-idul-adha-2728-mei-2026-cek-penyesuaian-transaksi-saham-reksadana-emas-st016"
       },
       {
-        "ticker": "IHSG",
-        "headline": "IHSG closed Tue May 26 -1.23%/-76.16pts to 6,130.19 ahead of Idul Adha holiday (sesi II final, correcting prior Tue EOD log sesi I proxy 6,149.68). Gave back ~half of Mon's +1.90% bounce.",
-        "sentiment": "bearish-pre-holiday",
-        "source": "Liputan6",
-        "url": "https://www.liputan6.com/saham/read/7297946/ihsg-anjlok-123-jelang-libur-idul-adha"
+        "ticker": "GLOBAL",
+        "headline": "US records: Dow 50,644.28 (+0.36% record close), S&P 500 7,520.36 (+0.02%), Nasdaq 26,674.73 (+0.07%) May 27. Asia-EM diverged: HK 25,328 1-month low (-1.10%), Shanghai 4,095 (-1.21%), Nikkei 64,999 flat. Regional risk-off divergence binding for IDX Fri.",
+        "sentiment": "mixed-divergence",
+        "source": "TheStreet",
+        "url": "https://www.thestreet.com/latest-news/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-27-2026"
+      },
+      {
+        "ticker": "IDR",
+        "headline": "USD/IDR ~17,800-17,823 approaching/exceeding May 20 record 17,786. If Fri AM print \u226517,820 sustained = 5th DEFENSIVE trigger. BI foreign reserves drained to $146.2B end-April from $154.6B Jan = ~$2B/month run-rate on rupiah defense.",
+        "sentiment": "bearish-record-test",
+        "source": "TradingEconomics",
+        "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
         "ticker": "MSCI",
-        "headline": "MSCI Indonesia rebalance Fri May 29 close - confirmed Global Std removal: AMMN/BREN/TPIA/DSSA/CUAN/AMRT. Small Cap removal (13 names): ANTM/AALI/BANK/BSDE/DSNG/SIDO/MIDI/MIKA/MSIN/TKIM/APIC/SSMS/TAPG. $1.6-1.8B passive outflow concentrated near 15:00 WIB Fri close. MIKA + SIDO downgraded from prior CANDIDATE to SKIP.",
+        "headline": "MSCI Indonesia rebalance Fri May 29 close = Implementation Day. $1.6-1.8B passive outflow concentrated 15:00 WIB MOC; worst-case $10B (each $1B = 1-1.5% IDR depreciation). Global Std removal: AMMN/BREN/TPIA/DSSA/CUAN/AMRT. Small Cap removal: ANTM/AALI/BANK/BSDE/DSNG/SIDO/MIDI/MIKA/MSIN/TKIM/APIC/SSMS/TAPG. KLBF NOT in removal list.",
         "sentiment": "bearish-event-risk",
         "source": "Tempo / Heygotrade",
         "url": "https://en.tempo.co/read/2103366/msci-removes-6-indonesian-stocks-from-global-standard-index"
       },
       {
         "ticker": "PGAS",
-        "headline": "Dividend Rp 125.61/share announced May 26 (~6.9% yield context); Abadi LNG offtake catalyst remains multi-source CONFIRMED; gas-only insulated from Danantara export-control. Multi-source price SPREAD persists (TradingView 1,820 vs Investing 2,400 ~32%) - verify mandatory Fri 09:30. PGAS NOT in MSCI removal list.",
+        "headline": "PGAS 1,820-1,835 (TradingView+Yahoo cluster) vs 2,400 (Investing.com Mar 5 stale outlier). Price-source spread converging but BINDING until Fri 09:30 live print. Dividend Rp 125.61/share announced May 26; Abadi LNG offtake confirmed multi-source; gas-only insulated from Danantara overhang. NOT in MSCI removal. Score 6/10 candidate.",
         "sentiment": "bullish-catalyst-verify-binding",
-        "source": "Kompas",
-        "url": "https://money.kompas.com/read/2026/05/26/080134126/pgn-pgas-tebar-dividen-rp-1256-per-saham-simak-jadwal-pembagiannya"
-      },
-      {
-        "ticker": "USOVERNIGHT",
-        "headline": "S&P 500 record close 7,519.12 (+0.61%); Nasdaq record 26,656.18 (+1.19%); Dow -0.23%. Micron +19% on UBS upgrade ($1T cap). VIX 16.59 compressed. External tape risk-on tailwind into Fri Indonesia reopen.",
-        "sentiment": "bullish-external",
-        "source": "Motley Fool",
-        "url": "https://www.fool.com/coverage/stock-market-today/2026/05/26/stock-market-today-may-26-soaring-tech-stocks-push-s-and-p-500-and-nasdaq-to-new-highs/"
-      },
-      {
-        "ticker": "BRENT",
-        "headline": "Brent crude recovered to $98.11-99.58/bbl from May 25 $96.93 low on Iran retaliation rhetoric. Energy headwind/tailwind cycling rapidly on geopolitical headlines. Newcastle thermal coal $131-132/t holding floor.",
-        "sentiment": "mixed-commodity-volatile",
-        "source": "Trading Economics Brent",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-      },
-      {
-        "ticker": "IDR",
-        "headline": "USD/IDR 17,793-17,796 May 26 - elevated stress level above 17,700; well above 17,000 inflection. Continued rupiah weakness = imported inflation + foreign-flow drag. BI defense via FX reserves binding.",
-        "sentiment": "bearish-currency-stress",
-        "source": "Trading Economics Indonesia",
-        "url": "https://tradingeconomics.com/indonesia/currency"
-      },
-      {
-        "ticker": "FOREIGN-FLOW",
-        "headline": "Foreign net sell -Rp 2.08T Mon May 25; YTD outflow Rp 54.58T sustained. Tue heavy outflow likely with IHSG -1.23% + MSCI T-1 trading day approach. Top foreign sell May 26: BUMI (-907M sh), BNBR, DEWA, BIPI, CUAN.",
-        "sentiment": "bearish-flow-sustained",
-        "source": "Infobanknews",
-        "url": "https://infobanknews.com/outflow-dana-asing-kembali-tercatat-rp208-triliun-pada-senin-25-5"
-      },
-      {
-        "ticker": "TLKM",
-        "headline": "TLKM bounced to 3,050 from prev close 2,930 (+4.1%); telco sector recovery breadth; defensive name with ~5-6% dividend yield; 52w range 2,560-3,990 mid-range. NOT in MSCI removal. CANDIDATE score 6 - R:R compressed at 3,050; need pullback \u22642,930 for 2:1.",
-        "sentiment": "bullish-defensive",
-        "source": "Yahoo Finance TLKM",
-        "url": "https://finance.yahoo.com/quote/TLKM.JK/"
-      }
-    ],
-    "candidates_scored_6_plus": [
-      {
-        "ticker": "PGAS",
-        "score": 6,
-        "status": "CANDIDATE-conditional-verify",
-        "note": "Abadi LNG offtake multi-source confirmed; dividend Rp 125.61/sh announced May 26; gas-only sector insulated from export-control; price spread 1,820 vs 2,400 BINDING - verify Fri 09:30. NOT in MSCI removal. Top candidate."
+        "source": "Investing.com",
+        "url": "https://www.investing.com/equities/p-gas-negara-t"
       },
       {
         "ticker": "ICBP",
-        "score": 6,
-        "status": "CANDIDATE-await-pullback",
-        "note": "Defensive FMCG Indomie; Idul Adha demand pulse; 52w range 6,650-11,225 near low; Q1 net -3.1% YoY mild miss. NOT in MSCI removal. Entry \u22646,650 for 2:1; sub-2:1 at 6,750."
+        "headline": "ICBP Q1 2026 EPS Rp 221 (vs Rp 228 Q1 2025 = -3.1% YoY mild miss); rev Rp 22T (+7.6% YoY = volume growth intact). Indomie defensive demand pulse post-Idul Adha. Score 6/10 but R:R sub-2:1 at 6,750; needs \u22646,650 pullback. CANDIDATE gated.",
+        "sentiment": "neutral-defensive",
+        "source": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/id/food-beverage-tobacco/idx-icbp/indofood-cbp-sukses-makmur-shares"
       },
       {
         "ticker": "TLKM",
-        "score": 6,
-        "status": "CANDIDATE-await-pullback",
-        "note": "Telco defensive; ARPU growth; dividend yield ~5-6%; rebounded to 3,050 (+4.1% from prev close 2,930). NOT in MSCI removal. Entry \u22642,930 for 2:1; sub-2:1 at 3,050."
+        "headline": "TLKM 3,050 May 26 (+4.1% recovery); 17 analysts Buy / 0 Sell consensus. Telco defensive rotation; ARPU growth + dividend yield. Score 6/10 but R:R 1.5:1 at 3,050 / borderline 2.0:1 at \u22642,930 pullback. CANDIDATE gated.",
+        "sentiment": "bullish-consensus-r-r-binding",
+        "source": "Investing.com",
+        "url": "https://www.investing.com/equities/telkom-indones"
       },
       {
         "ticker": "JSMR",
-        "score": 6,
-        "status": "CANDIDATE-conditional-verify",
-        "note": "Infrastructure sector led Tue gainer breadth; toll-road defensive; Brent recovery tailwind. NOT in MSCI removal. Entry/R:R TBD pending Fri open mark."
+        "headline": "JSMR infrastructure-sector tactical leadership Tue May 26 (sector led gainers); toll-road defensive; Brent $99 recovery transport tailwind. Score 6/10 but entry mark TBD pending Fri open verify.",
+        "sentiment": "neutral-leadership",
+        "source": "Kontan",
+        "url": "https://investasi.kontan.co.id/news/inilah-saham-lapis-2-3-yang-masih-prospektif-ada-aali-ptba-medc-excl-lsip-jsmr"
+      },
+      {
+        "ticker": "KLBF",
+        "headline": "KLBF (HELD 519,000 sh @ 945) carry-mark 930 (safe lower) into Fri reopen. Hard-cut 878 (+5.6% buffer). Thesis intact: buyback Rp 500B live through Jul 2; KLBF NOT in MSCI removal (MIKA is, KLBF stays); healthcare defensive lead bilaterally confirmed.",
+        "sentiment": "neutral-hold",
+        "source": "Yahoo Finance KLBF",
+        "url": "https://finance.yahoo.com/quote/KLBF.JK/"
       }
     ],
-    "plan_for_market_open": [
-      "Market CLOSED Wed May 27 (Idul Adha) + Thu May 28 (cuti bersama). This plan is for Fri May 29 reopen.",
-      "PRIMARY: HOLD KLBF 519,000 sh @ 945 (Day 6 held); hard-cut 878 GTC; safe-mark 930 (multi-source cluster); pre-mortem floor 920. KLBF NOT in MSCI removal.",
-      "CONDITIONAL ENTRY #1 \u2014 PGAS IF multi-source price agrees \u22642% spread Fri 09:30 (RESOLVES 1,820 vs 2,400) AND \u22652:1 R:R AND IHSG flat-or-green (\u22656,100) AND Abadi catalyst intact",
-      "CONDITIONAL ENTRY #2 \u2014 ICBP \u22646,650 / TLKM \u22642,930 / JSMR TBD IF pullback enables 2:1 R:R AND IHSG holds 6,100; max 1 additional beyond PGAS (preserve slot vs MSCI event-risk)",
-      "MSCI REBALANCE DAY DISCIPLINE: NO entry after 13:00 WIB Fri (avoid mechanical close-window outflow); if IHSG > -1.5% by 13:00, DEFER all new entries to next week",
-      "NO entries in MSCI-removed names: AMMN/BREN/TPIA/DSSA/CUAN/AMRT (Global Std); ANTM/AALI/BANK/BSDE/DSNG/SIDO/MIDI/MIKA/MSIN/TKIM/APIC/SSMS/TAPG (Small Cap). MIKA + SIDO downgraded SKIP.",
-      "NO BBCA/BMRI/BBNI - sub-2:1 R:R after Mon rally faded Tue; BBRI blocked by sector-strike",
-      "NO COAL/CPO-EXPORTER/PROPERTY/CONSTRUCTION/TECH - sector exits + structural overhang",
-      "NO UNVR - thesis weakened per Tue research",
-      "Trades this week target: 0-1 new entry Fri (1 session left, MSCI overhang)",
-      "Monitor Fri: IHSG vs 6,130 Tue close / 6,094 trial-low / 6,239 resistance; IDR 17,750 trigger (currently 17,793 = above); MSCI rebalance flow direction (Fri AM foreign flow = directional signal)",
-      "Pre-market re-run Fri 07:00 WIB - fresh macro + price verification BEFORE Fri 09:00 market-open"
-    ]
+    "watchlist_scan_count": 50,
+    "candidates_scored_6_plus": 4,
+    "candidates_list": [
+      "PGAS",
+      "ICBP",
+      "TLKM",
+      "JSMR"
+    ],
+    "held_positions": [
+      "KLBF"
+    ],
+    "regime": "DEFENSIVE-confirmed",
+    "max_position_pct": 0.05,
+    "trades_week_used": 0,
+    "trades_week_budget": 3,
+    "next_session": "Fri May 29 09:15 WIB market-open (MSCI rebalance day)"
   },
-  "last_updated": "2026-05-27T00:30:00Z"
+  "last_updated": "2026-05-28T00:30:00Z"
 }
