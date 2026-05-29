@@ -6491,6 +6491,19 @@
           "detail": "Telegram notification host blocked; logged to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-29T04:39:37Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "KLBF +9.52% (safe-lower 1,035) \u2014 first state-machine transition: hard-cut 878 \u2192 10% trailing 931. No cuts, no thesis exits. Data infra Day 40 blocked; spread-discipline defers +15%/+20% tightening.",
+      "actions": [
+        {
+          "type": "stop",
+          "ticker": "KLBF",
+          "detail": "hard-cut 878 \u2192 10% trailing 931 (state transition at +9.52% safe-lower mark)"
+        }
+      ]
     }
   ],
   "exposure": {

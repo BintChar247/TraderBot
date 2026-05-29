@@ -2579,3 +2579,80 @@ All 4 candidates tested against the full 9-gate buy-side checklist plus plan-man
 📊 Market-open 2026-05-29: No trades placed. PGAS skipped (IHSG opened 6,065 < 6,100 plan floor); ICBP/TLKM/JSMR all failed 2:1 R:R gate. KLBF HOLD +9.5% (safe-lower mark). Discipline preserved into MSCI rebalance close.
 
 ---
+
+### 2026-05-29 11:30 WIB — MIDDAY SCAN (Day 30, Fri, Week 6 Day 5 — MSCI rebalance day)
+
+**Actions: 1 stop-state transition. 0 cuts. 0 thesis exits.**
+
+#### Open positions surveyed
+
+| Ticker | Shares | Entry (IDR) | Safe-lower mark (IDR) | Unrealized | Pre-state | Post-state |
+|--------|--------|-------------|------------------------|------------|-----------|------------|
+| KLBF | 519,000 | 945 | 1,035 (carry from 09:15 multi-source) | +9.52% | hard-cut @ 878 | trailing 10% @ 931 |
+
+#### Live data snapshot (11:30 WIB)
+
+- Data infra Day 40: yfinance + GoAPI both still blocked (HTTP 403 allowlist + ticker parse failure). broker.sh quote KLBF returns stale 945 (entry-price fallback).
+- WebSearch multi-source on KLBF intraday: cluster 1,035 (carry safe-lower from market-open) / 1,135 (Yahoo Finance Jakarta delayed quote +4.61%) / 1,370 (outlier — discarded). Plausible cluster spread 1,035–1,135 = ~9.7% > 2% threshold.
+- Per BBRI 2026-05-01 spread-discipline procedure: use **safe-lower mark 1,035** for all gates. Defer precise +15%/+20% tightening at high mark until cluster narrows.
+
+#### STEP 3 — Losers check (hard-cut −7%)
+
+- KLBF at safe-lower 1,035 vs entry 945 = +9.52% gain → NOT at −7%. No hard cut.
+- No other positions open.
+
+#### STEP 4 — Winners check (stop tightening)
+
+State machine evaluation (per broker.sh stop state machine: hard-cut → 10% trailing once return ≥ +7%; → 7% once ≥ +15%; → 5% once ≥ +20%):
+
+- KLBF return at safe-lower mark: +9.52% ≥ +7% → **state transition triggered**: hard-cut → 10% trailing.
+- +15% trigger: at safe-lower 1,035 NOT fired (9.52% < 15%). At high mark 1,135 would fire (+20.1%) — DEFERRED per spread-discipline.
+- +20% trigger: at safe-lower NOT fired. At high mark borderline — DEFERRED per spread-discipline.
+
+**Action taken:**
+1. Patched `memory/STOPS.json` high_water_price 945 → 1,035 (safe-lower mark).
+2. `bash scripts/broker.sh set-stop KLBF 10` → confirmed.
+3. Result: stop_state hard-cut → trailing; trail_pct null → 10; current_stop IDR 878 → 931; hwm IDR 945 → 1,035.
+
+Guardrails:
+- New stop 931 > old stop 878 → moving UP, never down. ✓
+- New stop 931 vs current safe-lower 1,035 = 10.04% below → ≥ 3% floor. ✓
+- Trail at 10% (initial trailing tier) — never tightens below 5%. ✓
+
+#### STEP 5 — Thesis check (KLBF)
+
+WebSearch "Kalbe Farma KLBF news today May 29 2026":
+- Q1 2026 revenue +10% YoY to IDR 9.7T; Distribution & Logistics segment +21% YoY. GPM compressed 41% → 38%; OPM stable 14% (analyst-reported).
+- BUY rating with target 1,100 (NH Korindo).
+- IDR 500B buyback program **live through 2-Jul-2026** — supportive.
+- KLBF NOT in MSCI removal list (confirmed Day 30 09:15).
+- No adverse intraday news.
+
+**Verdict: thesis intact. Healthcare defensive leadership continues to vindicate.**
+
+#### STEP 6 — Intraday research addendum
+
+No >3% sharp move requiring addendum. KLBF moving WITH thesis (defensive bid + buyback program backstop). MSCI MOC event remains the dominant Fri data point at 15:00 WIB.
+
+#### Portfolio impact
+
+- Cash: 9,319,172,500 IDR (unchanged — no buys, no sells).
+- KLBF position: 519,000 sh × safe-lower 1,035 = IDR 537,165,000 mark-to-market vs cost IDR 490,455,000 = unrealized +IDR 46,710,000 (+9.52%).
+- Equity at safe-lower: 9,319,172,500 (cash) + 537,165,000 (KLBF) = **IDR 9,856,337,500** (vs IDR 10,026,617,500 peak = drawdown −1.70% from peak; vs prior carry IDR 9,801,842,500 = +0.56% intraday).
+- Risk envelope: KLBF stop now 931 (down-side risk: 519,000 sh × (945 − 931) = IDR 7,266,000 from entry, equivalent to 0.07% of equity — drastically reduced from prior 0.69% pre-transition). Locked-in floor: 519,000 × (931 − 945) = IDR −7,266,000 hypothetical max loss if 931 hit (vs original −IDR 34,754,000 at hard-cut 878).
+
+#### Risk alerts
+
+- KLBF carry +9.52% (safe-lower) — well clear of hard-cut and now within 10% trail of fresh high-water mark.
+- Drawdown from peak −1.70% — far above −12% / −15% hard limit.
+- Weekly P&L (Week 6): unchanged from −0.08% carry (no closed P&L today).
+- Daily P&L (intraday): +0.56% from prior carry (KLBF mark-to-market).
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+#### Notes
+
+- This is the first state-machine transition (hard-cut → trailing) of the trial — first position to cross the +7% threshold. Confirms strategy stop ladder fires as designed.
+- Defer precise +15%/+20% tightening evaluation to next session (Monday 02-Jun market-open) once data infra resolves OR cluster narrows below 2% spread. Until then, stop ladder anchored at safe-lower hwm 1,035.
+- MSCI 15:00 WIB MOC remains today's dominant flow event; healthcare defensive bid should hold or extend KLBF. EOD scan + weekly review will assess actual MOC tape.
+- Routine adherence: `routines/midday.md` followed STEP 1 → STEP 10 in order.
+

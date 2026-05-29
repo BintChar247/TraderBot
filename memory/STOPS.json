@@ -3,10 +3,10 @@
   "_stop_states": "hard-cut: fixed -7% from entry. trailing: trail_pct% below high_water_price. Transition: hard-cut \u2192 trailing once return >= +7%.",
   "KLBF": {
     "entry": 945,
-    "current_stop": 878,
-    "state": "hard-cut",
-    "trail_pct": null,
-    "high_water_price": 945,
-    "last_updated": "2026-05-21T09:19:12+07:00"
+    "current_stop": 931,
+    "state": "trailing",
+    "trail_pct": 10,
+    "high_water_price": 1035,
+    "last_updated": "2026-05-29T11:38:28+07:00"
   }
 }
