@@ -3992,6 +3992,202 @@
         true,
         null
       ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-05-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Gas-only utility w/ Abadi LNG offtake confirmed + Rp 125.61 dividend ex Jun 5; insulated from Danantara coal/CPO export-control.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi LNG offtake (9.5 Mt/yr); dividend ex-date Jun 5"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE 5/5 regime; MSCI rebalance day; IHSG opened 6,065.63 (-0.48%)"
+        },
+        {
+          "type": "risk",
+          "label": "Plan gate (c) FAILS: IHSG opened 6,065.63 < 6,100 floor"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 40 blocked)"
+        }
+      ],
+      "reasoning": "Price-source spread CONVERGED (1,820/1,835/1,850 \u22641.8%) but IHSG opened below 6,100 floor specified in pre-market plan gate (c). Plan-mandated SKIP. Discipline preserved into MSCI rebalance event.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-05-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FMCG defensive; Q1 EPS Rp 221 mild miss but rev +7.6% YoY; Indomie staple demand post-Idul Adha.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-Idul Adha demand pulse; rev +7.6% YoY intact"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE 5/5 regime; consumer defensive sector"
+        },
+        {
+          "type": "risk",
+          "label": "R:R sub-2:1 at current 6,750-6,900 vs entry \u22646,650 needed"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 40 blocked)"
+        }
+      ],
+      "reasoning": "Current price 6,750-6,900 exceeds 6,650 entry threshold required for 2:1 R:R. Plan-mandated R:R gate FAILS. No deep pullback materialized at open.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-05-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco defensive; 17 analysts Buy / 0 Sell; 7.28% div yield; ARPU growth.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Analyst consensus 17 Buy/0 Sell; defensive yield"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE 5/5; non-MSCI-affected; telco rotation tactical"
+        },
+        {
+          "type": "risk",
+          "label": "R:R sub-2:1 at current 3,050 vs entry \u22642,930 needed"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 40 blocked)"
+        }
+      ],
+      "reasoning": "Carry mark 3,050 exceeds 2,930 entry threshold for 2:1 R:R; R:R compresses to ~1.5:1. Plan-mandated R:R gate FAILS. No deep pullback at open.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "JSMR",
+      "action": "SKIP",
+      "date": "2026-05-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Toll-road infrastructure defensive; 11 analysts Buy / 0 Sell; PT 4,509 (+50%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent rebound transport tailwind; infra sector leadership"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE 5/5; infrastructure tactical lead"
+        },
+        {
+          "type": "risk",
+          "label": "Current 3,730-3,770 reported vs 2,950-3,000 plan entry = +24% chase risk"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 40 blocked)"
+        }
+      ],
+      "reasoning": "Live mark 3,730-3,770 far above 2,950-3,000 plan entry target = chase risk + sub-2:1 R:R from elevated entry. Data-uncertainty also flagged. Plan-mandated R:R gate FAILS plus discipline rule against chasing post-pullback bounce.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -6254,6 +6450,47 @@
           "detail": "IDR record 17,850 BREACHED May 27 (DEFENSIVE 5/5 confirmed); current 17,695 retracement not reversal"
         }
       ]
+    },
+    {
+      "timestamp": "2026-05-29T02:21:49Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 4 candidates failed plan-mandated gates: PGAS (IHSG 6,065 < 6,100 floor); ICBP/TLKM/JSMR (sub-2:1 R:R). KLBF held +9.5% unrealized. Discipline preserved into MSCI rebalance close.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "IHSG opened 6,065.63 < 6,100 plan floor"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "R:R sub-2:1 at 6,750-6,900 vs 6,650 entry needed"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "R:R sub-2:1 at 3,050 vs 2,930 entry needed"
+        },
+        {
+          "type": "skip",
+          "ticker": "JSMR",
+          "detail": "3,730 reported vs 2,950-3,000 plan = chase risk + R:R fail"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "+9.5% safe-lower unrealized; stop tightening deferred to midday"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance/GoAPI Day 40 blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification host blocked; logged to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -6395,5 +6632,5 @@
     "trades_week_budget": 3,
     "next_session": "Fri May 29 09:00 WIB market-open (Week 6 Day 5 / MSCI rebalance implementation day; only remaining session)"
   },
-  "last_updated": "2026-05-29T00:12:24Z"
+  "last_updated": "2026-05-29T09:30:00+07:00"
 }

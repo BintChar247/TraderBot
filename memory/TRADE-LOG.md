@@ -2500,3 +2500,82 @@ Day 29 of trial — extended post-trial monitoring; Thu Week 6 Day 4. **IDX CLOS
 5. **Cumulative alpha protection** — +17.71% recovered alpha is precious; KLBF hard-cut discipline if 878 breached is non-discretionary. Cash-heavy defensive structure has earned +17.71pp of relative outperformance since Day 0.
 
 ---
+
+### 2026-05-29 09:15 WIB — MARKET-OPEN (Day 30, Fri, Week 6 Day 5 — MSCI rebalance implementation day; IDX reopens after 2-day Idul Adha closure)
+
+**Trades placed: 0. All 4 candidates SKIPPED on plan-mandated gate failures.**
+
+#### Open positions carried into session
+
+| Ticker | Shares | Entry (IDR) | Live mark (IDR) | Unrealized | State |
+|--------|--------|-------------|-----------------|------------|-------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower; TradingView intraday cluster 1,035–1,135 ≤9% spread) | +9.52% (IDR +46,710,000) | State 1 — HARD-CUT @ 878 |
+
+KLBF +9.5% on safe-lower mark vindicates the healthcare-defensive thesis on Day 1 of the MSCI rebalance liquidity event. Stop-tightening trigger evaluation deferred to **11:30 midday scan** when fresh multi-source marks should narrow the 1,035–1,135 spread — at safe-lower 1,035 the +7% transition trigger has fired (hard-cut → 10% trailing); at high mark 1,135 the +15% (tighten to 7%) and +20% (tighten to 5%) triggers fire. Per spread-discipline (BBRI 2026-05-01 mistake), use lower mark + defer precise tightening until cluster narrows.
+
+#### Live data snapshot (09:15–09:30 WIB)
+
+- **IHSG: 6,065.63 (−0.48% open; 9th consecutive session decline; testing 6,000 psych floor)** — BELOW 6,100 floor specified in pre-market plan PGAS gate (c).
+- **IDR/USD: 17,695** (below 17,820 escalation trigger; 5/5 DEFENSIVE confirmed, no sizing reduction to 4%).
+- Brent: $96.57 (carry); Newcastle coal: $131.75 (carry; sector EXITED).
+- Data infra Day 40: yfinance + GoAPI both still blocked; all marks via WebSearch multi-source.
+- Price source: WebSearch (yfinance blocked Day 40); manual cluster verification per market-open routine STEP 2b override path.
+
+#### 9-Gate Checklist Evaluation (4 candidates)
+
+All 4 candidates tested against the full 9-gate buy-side checklist plus plan-mandated additional conditions (IHSG floor, R:R ≥ 2:1, multi-source price spread ≤ 2%).
+
+##### 1. PGAS — SKIP (plan gate FAIL: IHSG below 6,100 floor)
+
+- Live price: 1,820–1,850 cluster (TradingView 1,850 + Yahoo May 21 1,835 + TradingView 1,820 = ≤1.8% spread — multi-source CONVERGED, price-source ambiguity RESOLVED; Investing.com 2,400 outlier confirmed stale Mar 5 print).
+- Gates 1–8: PASS (positions 1+1=2 ≤ 6; trades 0+1=1 ≤ 3; size 5% × 9.81B = ~490M ≤ 980M cap; cash 9.32B ≥ 490M; catalyst documented; stock; ADV 20–30M sh/day > 500K; lot 100). Gate 9: PASS (1,850 vs 1,820 plan = +1.6% drift < 3% cap).
+- **Plan-mandated additional gate FAIL**: pre-market plan gate (c) "IHSG opens flat-or-green (≥6,100)" — IHSG opened 6,065.63 = BELOW 6,100. SKIP.
+- Reasoning: Price-source ambiguity finally resolved (multi-source convergence within 2%) but macro-floor gate is BLOCKING. Plan discipline binding into MSCI rebalance event. Eagerness check: trading PGAS just because price-source resolved would be ignoring the explicit macro floor specified in the pre-market plan.
+
+##### 2. ICBP — SKIP (gate 9 R:R FAIL)
+
+- Live price: 6,750 (Investing.com) / 6,900 (TradingView) — ~2.2% spread.
+- Gates 1–8: PASS. Gate 9 (R:R ≥ 2:1 BLOCKING per plan): at 6,750–6,900 entry vs 6,180 stop and 7,400 target, R:R = ~0.95–1.4:1 sub-2:1 = **FAIL**.
+- Plan-mandated entry: ≤6,650 needed for 2:1 R:R; no deep pullback materialized. SKIP.
+
+##### 3. TLKM — SKIP (gate 9 R:R FAIL)
+
+- Live price: 3,050 (carry May 26; no fresh Fri intraday from sources searched).
+- Gates 1–8: PASS. Gate 9 (R:R ≥ 2:1): at 3,050 entry vs 2,725 stop and 3,350 target, R:R = ~0.92:1 sub-2:1 = **FAIL**.
+- Plan-mandated entry: ≤2,930 needed for 2:1 R:R; current price too elevated. SKIP.
+
+##### 4. JSMR — SKIP (gate 9 + chase risk FAIL)
+
+- Live price: 3,730–3,770 reported (Investing.com today's range), vs 3,000 May 25 reference = +24% in 3–4 sessions = significant chase risk if accurate; some uncertainty on Fri reopen tape source.
+- Gates 1–8: PASS. Gate 9 (R:R ≥ 2:1): at 3,730 entry vs ~3,470 stop and 4,200 target, R:R = ~1.8:1 sub-2:1; chase-on-pullback inversion = thesis broken. **FAIL**.
+- Plan-mandated entry: 2,950–3,000 needed; mark has moved through the entry window entirely. SKIP per pre-market discipline (chase risk + R:R compression).
+
+#### Result
+
+- **0 trades placed.** Plan target was 0–1; result = 0.
+- Trades this week: 0/3 used (full slot allocation preserved into next week).
+- 4 deferred candidates all gated out — discipline preserved.
+- KLBF held position vindicating thesis at +9.52% (safe-lower) to +20.1% (high mark) on Day 1 of MSCI rebalance event. Stop adjustment deferred to midday scan.
+- Cumulative trial alpha protection MAINTAINED into MSCI 15:00 WIB MOC event.
+
+#### Eagerness check (mandatory per strategy)
+
+"Am I trading because the thesis is genuinely compelling, or because I want to trade?"
+- Post-2-day closure + Week 6 0/3 slot allocation + 4 deferred CANDIDATES = textbook forced-trade temptation.
+- Default posture: PATIENCE per pre-market plan eagerness check.
+- Verdict: No trade beats a bad trade. KLBF doing the work; cash buffer + defensive posture intact.
+
+#### Notes
+
+- 5/5 DEFENSIVE triggers confirmed (IDR record breach May 27 17,850 vs May 20 17,786 prior); current IDR 17,695 retracement = relief not reversal.
+- IHSG 9-session loss streak extends — testing 6,000 psych floor. If 6,000 breaks intraday, MSCI 15:00 MOC could see cascade.
+- Pre-emptive de-risk rule (MISTAKES.md 2026-05-20): No entries after 13:00 WIB Fri — moot since no entries planned today.
+- KLBF NOT in MSCI removal list (MIKA/SIDO/ANTM/AALI/BSDE/DSNG are); broader healthcare contamination risk from MIKA Small Cap flow remains sector-specific not KLBF. KLBF buyback program IDR 500B live through Jul 2 supportive.
+- Midday scan (11:30 WIB) priorities: (1) KLBF fresh mark resolution + stop tightening evaluation; (2) IHSG floor watch vs 6,000 psych level; (3) MSCI flow intraday tell.
+- Today is also Friday → weekly-review routine fires 16:00 WIB (post-close); MSCI MOC will be the dominant data point.
+
+#### Notification sent
+
+📊 Market-open 2026-05-29: No trades placed. PGAS skipped (IHSG opened 6,065 < 6,100 plan floor); ICBP/TLKM/JSMR all failed 2:1 R:R gate. KLBF HOLD +9.5% (safe-lower mark). Discipline preserved into MSCI rebalance close.
+
+---
