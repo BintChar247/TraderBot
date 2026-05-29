@@ -355,3 +355,82 @@ _IHSG: Week-baseline 6,888 (Apr 30 close, frozen through May 1 Labor Day) → 7,
 - **Remove: MEDC** — Iran-US de-escalation premium has retraced; thesis structurally weakened. Off candidate list.
 
 ---
+
+## Week ending 2026-05-29 (Week 6 — Post-trial continuation, IDR 10B capital; Idul Adha shortened week)
+
+### Grade: B
+
+### Performance Summary
+
+| Metric | This Week | IHSG Benchmark | Alpha |
+|--------|-----------|---------------|-------|
+| P&L (IDR) | IDR +46,710,000 | — | — |
+| P&L (%) | +0.48% | +1.40% | −0.92% |
+| Equity (EOW) | IDR 9,856,337,500 | — | — |
+
+_IHSG: Mon May 25 opening anchor 6,094.94 (Fri May 22 close) → Fri May 29 safe-midrange close 6,180 = +1.40% (multi-source spread issue persists at filing; sesi I close 6,217.87, intraday correction 6,112; safe-midrange used as conservative anchor). Portfolio +0.48% via KLBF unrealized mark uplift (entry 945 → safe-lower 1,035 = +9.52% on position); cash drag through a +1.40% bounce trimmed cumulative trial alpha from +18.26% (May 22 high) to +17.61% (today) = ~65bp give-back. 3-trading-day week (Wed/Thu IDX closed Idul Adha 1447 H)._
+
+### Trade Summary
+
+| # | Date | Ticker | Side | Entry | Exit | P&L (IDR) | P&L (%) | Result |
+|---|------|--------|------|-------|------|-----------|---------|--------|
+| — | — | — | — | — | — | — | — | No trades placed this week |
+
+- Trades this week: 0/3 (Mon SKIP, Tue SKIP, Wed/Thu IDX closed, Fri SKIP — full slot allocation preserved unused into Week 7)
+- Wins: 0 | Losses: 0 | Open closes: 0 | Win rate: N/A (no closed trades)
+- Largest winner: N/A (no closed trades; KLBF carry +9.52% unrealized is the live winner)
+- Largest loser: none (no closed trades; no hard cuts)
+- Profit factor: N/A (no closed trades)
+- Stop-state transitions: **1 — KLBF hard-cut 878 → trailing 10% @ 931 (HWM 1,035)** on Fri Day 30 midday (first state-machine transition fired of the trial)
+- No stops triggered; no hard cuts; no tightening to 7%/5% (deferred per spread-discipline pending cluster narrowing)
+
+### Open Positions at Week End
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower) | +IDR 46,710,000 (+9.52%) | 7 |
+
+- Cash at week end: IDR 9,319,172,500 (94.55%)
+- Gross exposure: 5.45% (Healthcare only — KLBF) — well below 75–85% target; consistent with DEFENSIVE regime 5% cap
+- Sector exposure: Healthcare 5.45%; coal/banking/mining/nickel all 0%
+- Stop state: KLBF now TRAILING 10% (state-1 transition fired Fri midday); current stop 931 = floor locks max realized loss at IDR −7,266,000 (~0.07% of equity) vs original hard-cut at 878 (~0.69% of equity) — ~10× downside risk reduction post-transition
+
+### What Worked
+
+- **First stop-state transition fired correctly (KLBF, Fri midday)** — Position crossed +7% threshold; hard-cut 878 transitioned to trailing 10% @ 931 (HWM 1,035). Spread-discipline applied: safe-lower 1,035 used for stop placement; +15%/+20% tightening deferred pending cluster narrowing. This is the first state-machine validation of the multi-stage stop ladder in the live trial — confirms the state machine fires as designed when winners materialize. Strategy validation milestone.
+- **Disciplined SKIP through 15 candidate-evaluations across 3 trading days** — Mon (6 candidates), Tue (5), Fri (4). Every SKIP rooted in concrete plan-gate failures (Gate 9 chase, sub-2:1 R:R, multi-source price spread >2% verification floor, single-source catalyst confirmation, MSCI Small Cap removal contamination). Zero forced entries despite 3/3 weekly slot allocation untouched and cumulative trial alpha already strongly positive (+17.61% — the kind of cushion that tempts loosening).
+- **MSCI rebalance flow event navigated without entering** — Friday May 29 was the MSCI Indonesia implementation day ($1.6–1.8B passive outflow concentrated at MOC). Plan said "deferred candidates re-enter consideration only on IHSG-open behavior + R:R ≥2:1". PGAS skipped on IHSG opening 6,065 below the 6,100 plan floor; ICBP/TLKM/JSMR all failed 2:1 R:R gate at verified marks. Discipline preserved through structural flow event without capital deployment risk.
+- **KLBF entry thesis (Week 5) validated through Week 6** — Healthcare defensive sector leadership held on red tape (Tue −0.98%, KLBF +0.53%) AND held its bid on green tape (Mon +1.90%, KLBF flat). Buyback program IDR 500B live through Jul 2 continued to provide structural bid floor. KLBF NOT in MSCI Small Cap removal list (MIKA was — sector-localized contamination, name-specific clean). +9.52% unrealized at week close.
+- **Multi-source verification + safe-lower-mark rule held under spread stress** — KLBF cluster 1,035–1,135 (~9.7% spread) on Fri; per MISTAKES.md 2026-05-01 procedure, used safe-lower 1,035 for all gates and EOD MTM. No stale-mark error this week. The procedural fix from the BBRI May 1 failure continues to stick.
+
+### What Didn't Work
+
+- **Cash drag on a +1.40% IHSG recovery week** — 94.55% cash through a relief-rally week trimmed cumulative trial alpha by ~65bp (from +18.26% May 22 high to +17.61% May 29). Less severe than Week 3's −3.99% alpha give-back, but the same structural pattern: defensive cash positioning underperforms on recovery tape. The week's −0.92% alpha is the binding cost of the DEFENSIVE regime label held through a partial relief rally.
+- **Data infrastructure Day 36–40 — yfinance still blocked, broker.sh sell override still not patched** — Six full weeks of WebSearch fallback for all marks. KLBF MTM uplift required multi-source synthesis with 9.7% cluster spread on Fri (safe-lower used; high-mark deferred). The MD_LAST_PRICE_OVERRIDE codification for broker.sh cmd_sell (called out in MISTAKES.md 2026-05-20 ADRO entry) remains unimplemented after 3 hard-cut corruptions of broker.sh fill prices (BBRI / ITMG / ADRO). Repeat infra debt.
+- **Multi-source spread on PGAS persisted Mon AND Tue, blocking the highest-scoring candidate twice** — Mon spread 3.4% (1,790–1,850); Tue spread ~30% (1,850 vs 2,400 Investing.com outlier). Abadi LNG catalyst confirmed by 5 independent sources but live-mark ambiguity binding under the 2% verification gate. Data-infra forces a hard SKIP on the most catalyst-fresh candidate two days running. Skip was right; the cost is invisible (counterfactual entry P&L) but real.
+- **WEEKLY-REVIEW.md gap (Weeks 4 and 5 never written)** — TRADE-LOG narrative repeatedly references "DEFENSIVE-confirmed (formal Week 5 weekly-review flip per WEEKLY-REVIEW.md)" but no Week 4 or Week 5 entry exists in this file. MACRO-REGIME.md still shows "EM OUTFLOW — RECOVERING" as of May 8 (Week 3). The regime-label drift between TRADE-LOG operational language and MACRO-REGIME / WEEKLY-REVIEW canonical records is a process miss. (This week's entry only covers Week 6 — does not retroactively fill Weeks 4–5.)
+
+### Lessons Learned
+
+- **State-machine transitions should be a celebrated artifact, not a sidebar** — Fri's KLBF hard-cut → trailing transition is the first time the multi-stage stop ladder fired in the live trial. The transition reduces position-level downside by ~10× (0.69% → 0.07% of equity at risk). For Week 7+: explicitly log every state-machine transition in TRADE-LOG with a dedicated header, and in WEEKLY-REVIEW track how often each state fires across the trial — this is the strategy's compounding-edge mechanism and deserves accumulated evidence.
+- **Cash drag during DEFENSIVE on a partial-recovery week is the right cost, not a mistake** — Week 6 −0.92% alpha vs Week 3 −3.99% alpha shows the cost scales with rally magnitude, not with regime-label correctness. The DEFENSIVE label held the right call through Tue's −0.98% red day (alpha +0.90%) and surrendered ~65bp on Mon's +1.90% and Fri's +0.81% green prints. Net week alpha is negative but the regime call would have been validated by a single sustained capitulation day (and there are likely more coming — IHSG cumulative −19.05% from Day 0). Do not loosen the label on one mild-recovery week.
+- **PGAS multi-source spread is a recurring data-infra surface area, not a candidate problem** — Same name failed the same gate (Gate a verification, <2% multi-source spread) on Mon AND Tue. The candidate is fine; the data infra is the bottleneck. Codify: when the same candidate fails the same verification gate on 2 consecutive sessions due to source-spread, escalate to a pre-market data-infra investigation task (which source is right? can we whitelist a primary?) rather than re-running the same SKIP rationale a third day. This is the same root cause as the yfinance-blocked debt — different symptom.
+- **Close the WEEKLY-REVIEW.md / MACRO-REGIME.md / TRADE-LOG label-drift gap** — The "DEFENSIVE-confirmed" label is in operational use in TRADE-LOG narrative but not formally codified in MACRO-REGIME.md or backfilled in WEEKLY-REVIEW.md (Weeks 4–5 missing). Next weekly-review (Week 7) should either backfill Weeks 4–5 retroactively from TRADE-LOG evidence OR explicitly accept the gap and move forward with a Week 7 MACRO-REGIME.md update that re-anchors the label timeline.
+
+### Rule Changes Proposed
+
+- **No formal TRADING-STRATEGY.md changes this week.** Week 6 is one week of mild cash drag (−0.92%) during a partial recovery in a 3-trading-day Idul Adha-shortened window. Not 2+ weeks of new evidence requiring strategy revision. Rules held; DEFENSIVE regime call held; 5% sizing cap held; gates fired correctly on every SKIP.
+- **Process change (non-strategy):** schedule a Week 7 MACRO-REGIME.md formal update to (a) flip the canonical label to DEFENSIVE matching the operational TRADE-LOG language since Week 5, OR (b) re-evaluate and document why the EM-OUTFLOW-RECOVERING label is still operative. Either way, close the doc drift.
+- **Process change (non-strategy):** weekend infra patch carryover — add MD_LAST_PRICE_OVERRIDE support to broker.sh cmd_sell (mirror cmd_buy at line 351). Open since MISTAKES.md 2026-05-01 (BBRI), reinforced 2026-05-20 (ADRO). Three hard-cuts have corrupted broker.sh fill prices. Codify as Week 7 priority infra task.
+
+### Watchlist Updates
+
+- **Keep watching: KLBF** — Now in state-2 trailing (current_stop 931, HWM 1,035, trail_pct 10). Mon Jun 1 priority: re-evaluate multi-source cluster for narrowing. If cluster converges ≤2% spread AND mark ≥1,087 (+15%), tighten trail to 7%; ≥1,134 (+20%), tighten to 5%. State-2 transitions deferred only on data-quality grounds, not discretion. Buyback program through Jul 2 supportive.
+- **Keep watching: PGAS** — Abadi LNG catalyst remains fresh (5-source confirmed). Block was data-infra (multi-source price spread) two days running, NOT thesis. If Mon Jun 1 cluster narrows ≤2% AND R:R ≥2:1 at verified mark, top-priority Week 7 entry candidate.
+- **Keep watching: ICBP, TLKM, JSMR** — Deferred candidates from Fri SKIP on R:R compression. Re-evaluate Mon Jun 1 if any pull back to entry zones (ICBP ≤7,950; TLKM, JSMR ≤ research-spec floors). Consumer FMCG (ICBP) leadership pattern still operative under DEFENSIVE regime.
+- **Keep watching: BBCA** — Pullback to ≤5,800 needed for clean 2:1 R:R. Banking sector-watch 1-of-2 strike (BBRI May 1) still binding — entry requires same-day catalyst or BI-cut signal, not just R:R compression.
+- **Remove: MIKA** — MSCI Small Cap removal Fri May 29 close = passive-flow contamination on top of the held-KLBF sector-concentration concern. Off candidate list pending fresh thesis and post-flow stabilization.
+- **Remove: INDF, UNVR** — INDF Bloomberg-cited 6,725 vs research 7,600 anchor = unresolved data quality issue and possible thesis-break trigger that was never adjudicated. UNVR retracement post May 21 +5.45% candle erased the entry zone. Both off candidate list pending fresh research re-entry.
+- **Watch the deferred Week 7 entry queue closely** — 4 carry-over candidates (PGAS, ICBP, TLKM, JSMR) into Week 7 with full 3/3 slot allocation available. Weekly trade discipline is intact (0 used in Week 6) but Week 7 needs to make capital work if R:R / data-infra clears.
+
+---
