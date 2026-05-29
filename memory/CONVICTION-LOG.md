@@ -11,6 +11,7 @@ _If HIGH conviction calls don't beat MEDIUM calls, the research process is misca
 |--------|-----------|--------------|-------------|----------------|----------|-------------|-------------|
 | Week 1 (2026-04-20 → 04-24) | 1 (ITMG) | Open (+2.40% unrealized) | 1 (BBRI) | Open (−5.52% unrealized) | 0 | — | Directionally on track — HIGH green, MEDIUM red — but no closed trades yet to confirm |
 | Week 3 (2026-05-04 → 05-08) | 0 | — | 1 (ADRO) | Open (−1.96% same-day) | 0 | — | One new MEDIUM open. ITMG (HIGH from Week 1) still open at −0.29% pre-Q1-print outcome |
+| Week 6 (2026-05-25 → 05-29) | 0 | — | 0 | — | 0 | — | No new entries (0/3 slot used); no closes. KLBF (HIGH from Week 5) carries open at +9.52%, first +7% threshold crossed → stop-state transitioned to 10% trailing. Calibration data still deferred until first close. |
 | Cumulative (closed only) | 0 closed | — | 1 closed (BBRI) | 0% (1 loss, −8.28%) | 0 | — | Insufficient sample. 1 closed trade across all conviction tiers — calibration cannot be assessed yet. |
 
 ---
@@ -41,3 +42,10 @@ _(Weekly review appends observations here when patterns emerge)_
 - ADRO open at MEDIUM despite a strong real catalyst (+67.07% Q1 already printed). Conviction was held to MEDIUM specifically because (a) data-infra block forced WebSearch-override ADV verification rather than primary-source GoAPI/yfinance, and (b) sector pair-trade rather than standalone idiosyncratic. The conviction-rating discipline correctly noted the infra constraint — a HIGH call requires both fundamentals AND data integrity.
 - ITMG (HIGH, Week 1) still open into Q1 print outcome — calibration outcome on this call deferred until print-driven move resolves (Mon May 11).
 - After 3 weeks: HIGH = 1 open; MEDIUM = 2 (1 closed loss, 1 open). Cannot conclude HIGH calls outperform MEDIUM yet — needs ≥3 closes per tier.
+
+### 2026-05-29 — Week 6
+
+- No new entries this week; full 0/3 slot allocation preserved. No closes either — KLBF (HIGH from Week 5) carries open at +9.52% with first state-machine transition fired (hard-cut → 10% trailing) Fri midday.
+- KLBF's continued strength under DEFENSIVE regime + MSCI rebalance event is directionally consistent with the HIGH conviction call (defensive sector + buyback program + Q1 +10% revenue growth + healthcare leadership pattern bilaterally validated on green Mon / red Tue tape this week).
+- Cumulative tally unchanged: 1 closed call total (BBRI MEDIUM, hard-cut −8.28%). Need ≥3 closes per tier before any statistical inference. KLBF outcome will be the next data point — currently advancing the HIGH thesis but unrealized.
+- Calibration note: trial period showed all 3 hard-cut casualties (BBRI MEDIUM, ITMG HIGH on Q1 miss, ADRO MEDIUM) clustered in regime-shift windows — pure conviction tier may matter less than regime fit. Track over more closes.

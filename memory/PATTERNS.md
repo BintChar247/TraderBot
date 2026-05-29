@@ -35,6 +35,16 @@ _(None yet — 2+ observations required)_
 
 ## Sector Patterns
 
+### Healthcare (KLBF) — defensive lag-on-green / outperform-on-red under DEFENSIVE regime
+
+- **Observed:** 2026-05-25 (Mon: IHSG +1.90% relief bounce / KLBF flat — lagged broad tape), 2026-05-26 (Tue: IHSG −0.98% pullback / KLBF held flat — outperformed broad tape), 2026-05-29 (Fri: MSCI rebalance day, IHSG bounced sesi I + corrected intraday / KLBF reached +9.52% on safe-lower mark vs entry — defensive sector bid sustained)
+- **Pattern:** Under DEFENSIVE regime with active macro stress (BI +50bp hike May 21; IDR record-territory 17,695–17,850; MSCI rebalance flow), healthcare-defensive holdings exhibit a bilateral asymmetry: they lag broad-tape on relief-bounce sessions (cyclicals lead) and outperform on risk-off sessions (defensive bid). Net effect over a mixed-tape week is positive relative strength because the down-day protection > up-day give-back.
+- **Confidence:** LOW (3 observations — single week, single ticker, single regime). Promote to MEDIUM when confirmed across a separate week and/or with a second healthcare-defensive name.
+- **Trading implication:** Use healthcare-defensive names as core holdings during DEFENSIVE regime, accepting that they will lag broad-tape relief bounces. Do NOT abandon the position because of single-day lag-on-green — the down-day asymmetric protection is the source of the relative strength. Watch closely for thesis break only if KLBF turns RED on a red tape (loses defensive premium = pattern broken).
+- **Counter-evidence:** None this week. Pattern breaks if (a) KLBF loses defensive bid on a risk-off session (lags on red tape), (b) sector relative strength reverses (healthcare turns into a laggard regardless of tape direction), or (c) regime label flips back to RISK-NEUTRAL/RISK-ON and defensive premium evaporates.
+
+### Coal complex — synchronized Q1 2026 earnings rerate
+
 ### Coal complex — synchronized Q1 2026 earnings rerate
 
 - **Observed:** ITMG Q4 2025 print +114.10% EPS surprise (per Apr 20 entry research); ADRO Q1 2026 net +67.07% YoY / rev +23.4% (per May 8 entry research); PTBA Q1 2026 +105% YoY; BUMI Q1 2026 +34.6%; HRUM Q1 2026 rev +14.67% — all confirmed prior to ADRO entry on 2026-05-08.
