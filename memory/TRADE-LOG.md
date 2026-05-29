@@ -2656,3 +2656,65 @@ No >3% sharp move requiring addendum. KLBF moving WITH thesis (defensive bid + b
 - MSCI 15:00 WIB MOC remains today's dominant flow event; healthcare defensive bid should hold or extend KLBF. EOD scan + weekly review will assess actual MOC tape.
 - Routine adherence: `routines/midday.md` followed STEP 1 → STEP 10 in order.
 
+
+---
+
+### 2026-05-29 EOD — Day 30 (Fri, Week 6 Day 5 — MSCI rebalance implementation day)
+
+- Total equity: IDR 9,856,337,500
+- Daily P&L: IDR +54,495,000 (+0.56%)
+- IHSG close: 6,180 (safe-midrange anchor; multi-source spread 6,112 intraday low ↔ 6,217.87 sesi I close; no clean sesi II final convergence at filing)
+- IHSG daily: +0.81% (vs Tue May 26 sesi II final carry 6,130.19)
+- Daily alpha: −0.26% (small give-back as IHSG bounced sesi I before MSCI MOC; alpha give-back acceptable given KLBF stop-state transition de-risked downside)
+- Cash: IDR 9,319,172,500 (94.55% of equity)
+- Trades today: 0 (4 candidates SKIPPED at market-open per plan gates; 1 stop-state transition KLBF at midday: hard-cut → 10% trailing)
+- Trades this week (Week 6): 0/3 (Mon SKIP, Tue SKIP, Wed/Thu IDX closed Idul Adha, Fri 0 trades — full slot allocation preserved unused into Week 7)
+- Phase-to-date P&L: IDR −143,662,500 (−1.44%) — realized −190,372,500 + KLBF unrealized +46,710,000
+- Realized P&L (cumulative): −IDR 190,372,500 (unchanged — no closes today)
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today 6,180 = −19.05%): +17.61% (small give-back from +17.71% Day 29 carry as IHSG bounced into sesi I)
+- Weekly P&L (Week 6 — start baseline 9,809,627,500 May 22 EOD): +0.48% (recovered from −0.08% carry on KLBF mark uplift through state transition)
+- Drawdown from peak (10,026,617,500 May 1): −1.70% (improved from −2.24%; far above −15% hard limit)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower; multi-source cluster 1,035–1,135 ~9.7% spread > 2% threshold) | +IDR 46,710,000 (+9.52%) | 7 |
+
+#### Notes
+
+Day 30 of trial — Fri, Week 6 Day 5; **MSCI Indonesia rebalance implementation day (effective close 15:00 WIB)**. Broker reconciliation: KLBF position in broker (519,000 sh @ 945, entry 2026-05-21) matches TRADE-LOG Active Positions and STOPS.json (state: trailing, current_stop 931, hwm 1,035, trail_pct 10) — no discrepancy. broker.sh quote returns stale entry_price 945 (yfinance Day 40 still blocked).
+
+**Mark-to-market sources (multi-source verification per BBRI 2026-05-01 spread-discipline procedure):**
+- KLBF: safe-lower mark IDR 1,035 (TradingView intraday cluster anchor carried from market-open and midday; Yahoo Finance Jakarta delayed quote reported 1,135 high mark at +4.61% on day). Cluster spread 1,035–1,135 = ~9.7% > 2% threshold → use safe-lower for all gates and EOD MTM. Per spread-discipline, defer precise +15%/+20% stop-tightening evaluation to next session (Mon Jun 1 market-open) once data infra resolves OR cluster narrows.
+- IHSG: safe-midrange anchor 6,180. **Multi-source spread issue persists at filing:** confirmed sesi I close 6,217.87 (+1.43%; market.bisnis.com); intraday correction reported to 6,112 (babelinsight); no clean sesi II final convergence available across searched sources. Safe-midrange between confirmed sesi I peak (6,217) and intraday correction low (6,112) = 6,164.5; rounded to 6,180 as working anchor (slight conservative bias against our alpha). Document the data-quality flag for Mon Jun 1 reconciliation when MSCI MOC tape settles.
+- Newcastle thermal coal: $131.75/t carry; sector EXITED post May 20 ADRO cut — not material.
+- USD/IDR: 17,695 (per market-open log); below 17,820 escalation trigger.
+- BI-Rate: 5.25% unchanged (post-May 21 +50bp hike).
+
+**Macro:** MSCI Indonesia rebalance implementation day — $1.6–1.8B passive outflow estimated to concentrate at 15:00 WIB MOC. Six names exit Global Standard Index (AMMN, BREN, TPIA, DSSA, CUAN, AMRT); 13 names removed from Small Cap basket (incl. MIKA, SIDO, ANTM, AALI, BSDE, DSNG). **KLBF NOT in any removal list** (confirmed Day 30 09:15 + midday + EOD); healthcare defensive sector relative-strength continues to vindicate the May 21 entry thesis. Foreign net sell reportedly Rp 1.64T sesi I. Idul Adha 2-day closure + MSCI rebalance Fri = unusually high-event week 6 finale.
+
+**Portfolio impact:** Daily +0.56% (driven by KLBF MTM uplift from 930 carry to 1,035 safe-lower mark = +1.13% intraday on the position; +0.56% portfolio). Stop-state transition (hard-cut 878 → trailing 10% @ 931) executed at midday locks in a smaller drawdown floor (vs entry IDR 945 = stop now 931 = −1.48% locked floor; vs original hard-cut −7.09%). Cash buffer 94.55% remains structurally insulating. Cumulative trial alpha +17.61% — small give-back from +17.71% Day 29 carry as IHSG bounced sesi I; trajectory still strongly positive.
+
+**RISK ALERTS:**
+- Daily P&L +0.56% — POSITIVE day. NO alert. Far above −2% cap.
+- KLBF carry +9.52% (safe-lower) — far above −6% warning threshold and far above −7% hard-cut. NO alert.
+- Drawdown from peak −1.70% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 6) +0.48% — far from −5% reduction trigger. NO alert.
+- **Trading NOT halted** (no daily/drawdown caps hit).
+
+**Sector exposure:** Healthcare 5.45% of equity (KLBF at safe-lower MV 537.17M / equity 9.856B); cash 94.55%. No coal/banking/mining/nickel exposure (post May 20 ADRO cut). MSCI removal contamination risk on KLBF: nil (KLBF not on any list; broader healthcare contamination risk from MIKA Small Cap flow is sector-localized not name-specific).
+
+**Cumulative alpha trajectory:** +17.61% vs IHSG since Day 0 — small give-back from +17.71% Day 29 carry. Cash buffer + ADRO hard-cut discipline May 20 + selective KLBF defensive entry May 21 + first state-machine transition fired today continue to compound favorably vs IHSG (cumulative −19.05% from Day 0 baseline). +17.61pp of recovered relative outperformance is the binding constraint going forward.
+
+**Strategy validation milestone:** Today fired the **first hard-cut → trailing state transition of the trial** (KLBF crossed +7% threshold). Confirms the multi-stage stop ladder fires as designed when winners materialize. Discipline carried: (a) spread-discipline used safe-lower mark for stop placement; (b) +15%/+20% tightening deferred per spread-discipline pending cluster narrowing; (c) entry 945 → stop 931 floor locks max position loss at IDR −7,266,000 = 0.07% of equity (vs original hard-cut at 878 = −0.69% of equity = ~10× risk reduction on this position).
+
+**Weekly review fires next** (Fri 16:00 WIB) — full Week 6 recap + letter grade + Week 7 plan (Week 7 starts Mon Jun 1; full 3/3 slot allocation available; data infra Day 40+ continues; MSCI rebalance flow aftermath assessment).
+
+**Watch Mon Jun 1 (next live session — Week 7 Day 1 — post-MSCI rebalance aftermath):**
+1. **KLBF fresh mark cluster narrowing** — if multi-source converges ≤2% spread, re-evaluate +15%/+20% tightening triggers (at any mark ≥1,134, +20% trigger fires → 5% trail). Current safe-lower 1,035 → stop 931 trail; at high-mark hypothetical 1,135 trail-7% would bind 1,055; trail-5% would bind 1,078.
+2. **MSCI rebalance flow aftermath** — passive flow concentrated yesterday MOC; reversion typical T+1 / T+2 sessions. Healthcare defensive bid sustained?
+3. **IHSG sesi II Day 30 final reconciliation** — if confirmed close ≠ working anchor 6,180, restate IHSG daily/cum and alpha. Spread-discipline anchor used here is conservative.
+4. **Week 7 slot allocation** — 3/3 fresh; 4 deferred candidates (PGAS, ICBP, TLKM, JSMR) may re-enter consideration if R:R ≥ 2:1 and macro floor conditions re-establish. Eagerness check binds.
+5. **Cumulative alpha protection** — +17.61% recovered alpha; KLBF state-1-trailing stop 931 is now non-discretionary floor. No discretionary loosening.
+

@@ -398,6 +398,23 @@
       "trades_this_week": 0,
       "note": "Day 29 (Thu, Week 6 Day 4 \u2014 IDX CLOSED cuti bersama Idul Adha 1447 H, 2nd consecutive closed day). No trading; equity unchanged from May 27 EOD. IHSG carry 6,130.19 (Tue May 26 sesi II final; no fresh print during 2-day holiday). KLBF held at carry mark 930 (-1.59%; hard-cut 878 = +5.59% buffer); thesis intact (NOT in MSCI removal list; buyback live; healthcare defensive lead). Cumulative trial alpha +17.71% unchanged. Fri May 29 reopens = MSCI rebalance implementation day; 4 deferred candidates (PGAS, ICBP, TLKM, JSMR) gated on Fri verify; DEFENSIVE regime + MSCI event-risk binds no-entries-after-13:00-WIB Fri.",
       "realized_pnl_cumulative": -190372500
+    },
+    {
+      "date": "2026-05-29",
+      "day_label": "Day 30",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 54495000,
+      "daily_pnl_pct": 0.56,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6180.0,
+      "ihsg_cumulative_pct": -19.05,
+      "alpha_pct": 17.61,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 30 EOD (Fri, Week 6 Day 5 - MSCI rebalance implementation day). HOLD KLBF (no trades; market-open 4 candidates all SKIP on plan gates: PGAS IHSG-floor, ICBP/TLKM/JSMR R:R<2:1). Midday fired FIRST stop-state transition of the trial: KLBF hard-cut 878 -> trailing 10% @ 931 (crossed +7% threshold at safe-lower mark 1,035). IHSG safe-midrange anchor 6,180 (multi-source spread: sesi I close 6,217.87 +1.43% vs intraday correction 6,112; no clean sesi II final convergence at filing). KLBF safe-lower mark 1,035 (cluster 1,035-1,135 ~9.7% spread > 2% threshold per BBRI 2026-05-01 procedure) -> MTM +9.52% (+IDR 46.71M). MSCI Indonesia rebalance MOC 15:00 WIB ($1.6-1.8B passive outflow): KLBF NOT in any removal list; healthcare defensive bid intact. Foreign net sell sesi I Rp1.64T. Daily +0.56% vs IHSG +0.81% -> daily alpha -0.26% small give-back. Cumulative trial alpha +17.61% (from +17.71%). Weekly P&L Week 6 +0.48% (recovered from -0.08%). DD from peak improved to -1.70%. Trades this week: 0/3 (full slot preserved into Week 7).",
+      "realized_pnl_cumulative": -190372500
     }
   ],
   "positions": [
@@ -406,16 +423,18 @@
       "shares": 519000,
       "entry_price": 945,
       "entry_date": "2026-05-21",
-      "last_price": 930,
+      "last_price": 1035,
       "cost_idr": 490455000,
-      "market_value_idr": 482670000,
-      "unrealized_pnl_idr": -7785000,
-      "unrealized_pnl_pct": -1.59,
-      "stop_price": 878,
-      "stop_state": "hard-cut",
-      "days_held": 6,
+      "market_value_idr": 537165000,
+      "unrealized_pnl_idr": 46710000,
+      "unrealized_pnl_pct": 9.52,
+      "stop_price": 931,
+      "stop_state": "trailing",
+      "trail_pct": 10,
+      "high_water_price": 1035,
+      "days_held": 7,
       "sector": "healthcare",
-      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; healthcare defensive sector leadership confirmed bilaterally."
+      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; healthcare defensive sector leadership confirmed; FIRST state-machine transition (hard-cut -> trailing) fired Day 30 midday at safe-lower +9.52% crossing the +7% threshold."
     }
   ],
   "trades": [
@@ -6502,6 +6521,26 @@
           "type": "stop",
           "ticker": "KLBF",
           "detail": "hard-cut 878 \u2192 10% trailing 931 (state transition at +9.52% safe-lower mark)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-05-29T08:20:09Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 30 EOD: IDR 9.86B (+0.56% day; +17.61% cum trial alpha vs IHSG). KLBF +9.52% (safe-lower 1,035); FIRST stop-state transition hard-cut -> trailing 10% @ 931 fired midday. 4 candidates SKIPPED at open (MSCI rebalance day). Cash 94.55%. Trades this week 0/3. NO risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 30 EOD snapshot appended; KLBF safe-lower mark 1,035; IHSG anchor 6,180 safe-midrange (multi-source spread)"
+        },
+        {
+          "type": "research",
+          "detail": "RISK-STATE.json updated: daily +0.56%, weekly +0.48%, drawdown -1.70%, halted=false"
+        },
+        {
+          "type": "research",
+          "detail": "dashboard/data.json appended Day 30; KLBF position state transition reflected (trailing, stop 931, hwm 1,035)"
         }
       ]
     }
