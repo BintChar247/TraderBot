@@ -6815,6 +6815,12 @@
           "detail": "Telegram notification fell back to stdout (host not in allowlist)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-01T04:38:22Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "IDX closed Hari Lahir Pancasila \u2014 no trading session. KLBF held; frozen carry mark 1,035 (+9.52%); state-2 trailing 10% @ 931. No cuts, no tightening, no thesis breaks possible during closure."
     }
   ],
   "exposure": {

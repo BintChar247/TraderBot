@@ -2799,3 +2799,50 @@ All 4 candidates tested against full gate set + plan-mandated additional conditi
 
 📊 Market-open 2026-06-01: No trades placed. PGAS skipped (multi-source cluster not verified ≤2% — only stale Mar print returned); TLKM skipped (live 3,650 vs plan ≤2,930 = +24.6% chase, R:R inverted); ICBP skipped (multi-source spread ~18%); JSMR skipped (R:R 1.62:1 sub-2:1). KLBF HOLD +9.52% trailing 931. Discipline preserved; Week 7 0/3 slots fresh.
 
+---
+
+### 2026-06-01 11:30 WIB — MIDDAY SCAN (Day 31, Mon, Week 7 Day 1) — IDX CLOSED Hari Lahir Pancasila
+
+**Status: NO MIDDAY ACTION POSSIBLE — Market closed for Hari Lahir Pancasila national holiday.**
+
+Calendar correction vs market-open 09:15 entry: IDX is closed today (Mon Jun 1) for Hari Lahir Pancasila (Keppres 24/2016). Per multi-source verification (kontan.co.id, sumbarbisnis.com, ajaib.co.id, metrotvnews.com, kompas.com): no trading session today; bourse reopens Tue Jun 2. The market-open 09:15 entry above was filed under the incorrect assumption that IDX was open — gate-checks were defensive (SKIP all) so no harm done, but flagged here for the record. Treat today as a frozen-carry holiday day.
+
+**Open positions (1) — frozen at Fri May 29 EOD working mark:**
+
+| Ticker | Shares | Entry (IDR) | Frozen Mark (IDR) | Unrealized P&L | State |
+|--------|--------|-------------|-------------------|----------------|-------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower carry from Fri May 29 EOD; multi-source spread on Fri >2% threshold; no fresh tape today) | +9.52% (IDR +46,710,000) | State 2 — TRAILING 10% @ 931 (hwm 1,035) |
+
+**Sell-side rule application — N/A (no live prices during holiday closure):**
+- Hard-cut (entry × 0.93 = 878): superseded by trailing 931 since Fri state transition. Cannot evaluate intraday today — no tape.
+- Trailing 10% @ 931 (Fri hwm 1,035): no fresh print can lower the trail or trigger a stop; no new high-water mark can be set. Stop unchanged.
+- Tighten to 7% (+15% trigger at ≥1,087): N/A — last mark 1,035 = +9.52% from entry; below trigger. Even if a fresh tape were available today (it is not), no upside print is possible while exchange is closed.
+- Tighten to 5% (+20% trigger at ≥1,134): N/A — same; far below trigger.
+- Thesis-break check: PASS (carryover) — KLBF NOT in MSCI Global Standard / Small Cap removal list (six Global Standard removals + 13 Small Cap removals all confirmed; KLBF not on any list per Fri 09:15 + midday + EOD); healthcare defensive sector relative-strength continues to vindicate the May 21 entry thesis. Buyback program IDR 500B live through Jul 2 unchanged.
+- Intraday >3% adverse move: N/A — no intraday tape.
+- Sector exit (2 consecutive losses): N/A — healthcare 0 prior strikes; KLBF first pharma trade.
+
+**Action: NONE.** Market closed. Position carries through holiday at last known safe-lower mark 1,035. Next live re-evaluation: Tue Jun 2 09:15 WIB market-open.
+
+**Multi-source price spread on KLBF (informational; no actionable mark today):**
+- TradingView: 1,035 (carry; "-4.55% in past 24 hours" cited — likely Fri-to-Fri delta, not Mon move since Mon is closed)
+- Yahoo Finance (KLBF.JK): 945 (stale entry-price echo; same as broker.sh paper stub)
+- Ajaib: 800 (-1.23% — stale or different reference; not a live Mon print since Mon is closed)
+- Stockbit / CNBC Indonesia: no fresh Mon print available
+- Decision: safe-lower carry mark 1,035 from Fri May 29 EOD is the appropriate frozen anchor (per spread-discipline procedure). Mon Jun 1 source noise reflects stale snapshots, not live trades.
+
+**Notification sent:** 📊 Midday 2026-06-01: All positions healthy. No action taken. (IDX closed Hari Lahir Pancasila — frozen mark carry.)
+
+**Notes:**
+- Data infra Day 41: yfinance still blocked; market closed regardless. broker.sh quote returns stale entry_price 945; market-data.sh unavailable. No mark resolution possible until Tue Jun 2 reopen.
+- Trades this week (Week 7): 0/3 used; Week 7 slot allocation fully intact, available from Tue Jun 2.
+- KLBF state-2 trailing stop 931 is the non-discretionary floor; no discretionary loosening on a closed day.
+- Cumulative trial alpha vs IHSG carries +17.61% (Fri May 29 basis) — protection binding into Tue reopen.
+- Carry-over to Tue Jun 2 09:15 WIB market-open:
+  1. KLBF fresh mark + cluster narrowing re-eval; if multi-source converges ≤2% spread, re-evaluate +15%/+20% tightening triggers (≥1,087 → 7% trail; ≥1,134 → 5% trail).
+  2. MSCI rebalance flow aftermath T+2 — passive disposal residual typical T+1/T+2; healthcare defensive bid sustainability.
+  3. IDR escalation watch vs 17,820 trigger / 17,900 sustain / 18,000 cascade (Fri close 17,870 above 17,820 trigger).
+  4. IHSG floor vs 6,000 psych level (Fri carry 6,127.38).
+  5. 4 deferred candidates (PGAS, ICBP, TLKM, JSMR) re-gate on fresh tape: ≤2% multi-source spread, ≥2:1 R:R, full 9/15-gate re-run.
+- Pre-emptive de-risk rule (MISTAKES.md 2026-05-20): No entries after 13:00 WIB — moot today, market closed.
+
