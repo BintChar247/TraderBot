@@ -4207,6 +4207,202 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-06-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility with Abadi LNG 15-yr HoA signed at IPA Convex 2026; favoured by Danantara reg (SOE channel).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi LNG HoA signed (multi-source confirmed)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; PGAS works WITH Danantara reg (gas channel)"
+        },
+        {
+          "type": "risk",
+          "label": "Plan gate (a) multi-source cluster narrowing \u22642% NOT met; only Mar 5 stale print 2,400 returned"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override unavailable: yfinance Day 41 blocked AND no fresh Jun 1 source"
+        }
+      ],
+      "reasoning": "Pre-market plan mandated multi-source cluster \u22642% spread as binding pre-condition. WebSearch only returned stale Mar 5 2,400 print; no fresh Jun 1 tape across surveyed sources. Plan-gate FAIL \u2014 defer to midday/next session.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco SOE defensive blue-chip; AGM Jun 8 with buyback agenda; 17 analysts Buy / 0 Sell; PT 4,051 (+33%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM Jun 8 buyback agenda (+5 trading days)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED; non-MSCI-affected; telco rotation favoured"
+        },
+        {
+          "type": "risk",
+          "label": "WebSearch live 3,650 (open) vs planned entry \u22642,930 = +24.6% drift \u2014 gate 9 chase FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 41 blocked); single-source 3,650 \u2014 chase risk binding"
+        }
+      ],
+      "reasoning": "Live tape 3,620\u20133,660 cluster (open 3,650) vs prior Fri carry 3,050 vs plan-mandated entry \u22642,930. Drift +24.6% vs plan = chase territory. R:R at 3,650 entry vs 3,395 stop / 3,350 target = INVERTED (target below entry). Plan-gate FAIL \u2014 SKIP per chase risk + eagerness check.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staple defensive; Indomie parent; Q1 rev +7.6% YoY; 28 buy / 5 hold / 0 sell.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive sector leadership in DEFENSIVE regime; post-Idul Adha demand pulse"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; non-MSCI-affected; IDR pass-through risk binding"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source spread: TradingView 6,900 vs Investing.com 8,100\u20138,250 = ~18% \u2014 far above 2% threshold"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override unreliable: 18% multi-source spread \u2014 cluster discipline binding"
+        }
+      ],
+      "reasoning": "Plan-mandated multi-source spread \u22642% required for entry; live spread ~18%. Even safe-lower 6,900 vs plan entry \u22646,650 = +3.8% drift > 3% gate 9 cap. Plan-gate FAIL \u2014 defer to midday for spread resolution.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "JSMR",
+      "action": "SKIP",
+      "date": "2026-06-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Toll-road SOE defensive cash flow; 11 buy / 0 sell; PT 4,509 (+50%); H2 2026 tariff cycle.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Periodic tariff cycle + defensive rotation; no fresh discrete catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; rate-sensitive DCF risk under BI 5.25%"
+        },
+        {
+          "type": "risk",
+          "label": "WebSearch only May 29 ref 3,010 \u2014 no Jun 1 fresh print; R:R at 3,010 vs 2,800 stop / 3,350 target = 1.62:1 sub-2:1"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 41 blocked); single-source May 29 carry"
+        }
+      ],
+      "reasoning": "Single-source carry 3,010 above plan entry \u22642,950 (drift +2% within gate 9). However R:R 1.62:1 sub-2:1 plan-mandated threshold. Plan-gate FAIL on R:R discipline. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -6576,6 +6772,47 @@
         {
           "type": "research",
           "detail": "Regime DEFENSIVE-INTENSIFYING \u2014 IDR fresh record 17,970 + Danantara export reg Phase 1 effective today"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-01T02:19:06Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "0 trades placed Day 31. PGAS/ICBP failed multi-source \u22642% spread gate; TLKM +24.6% chase + R:R inverted; JSMR R:R 1.62:1 sub-2:1. KLBF HOLD +9.52% trailing 931. Week 7 0/3 slots preserved.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "plan gate (a) multi-source cluster not verified \u22642%; only stale Mar 5 print returned"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "gate 9 chase FAIL: live 3,650 vs plan \u22642,930 = +24.6% drift; R:R inverted"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "multi-source spread ~18% (TradingView 6,900 vs Investing.com 8,100\u20138,250); gate 9 drift +3.8%"
+        },
+        {
+          "type": "skip",
+          "ticker": "JSMR",
+          "detail": "R:R 1.62:1 sub-2:1 plan threshold; no pullback to \u22642,950 entry zone"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "+9.52% safe-lower carry; state-2 trailing 10% @ 931; midday tightening eval pending"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 41 blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification fell back to stdout (host not in allowlist)"
         }
       ]
     }
