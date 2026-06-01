@@ -2846,3 +2846,63 @@ Calendar correction vs market-open 09:15 entry: IDX is closed today (Mon Jun 1) 
   5. 4 deferred candidates (PGAS, ICBP, TLKM, JSMR) re-gate on fresh tape: ≤2% multi-source spread, ≥2:1 R:R, full 9/15-gate re-run.
 - Pre-emptive de-risk rule (MISTAKES.md 2026-05-20): No entries after 13:00 WIB — moot today, market closed.
 
+---
+
+### 2026-06-01 EOD — Day 31 (Mon, Week 7 Day 1 — IDX CLOSED Hari Lahir Pancasila)
+
+- Total equity: IDR 9,856,337,500 (unchanged from May 29 EOD — IDX closed national holiday)
+- Daily P&L: IDR 0 (0.00%)
+- IHSG close: 6,180 carry (Fri May 29 safe-midrange anchor; no fresh tape today — market closed)
+- IHSG daily: 0.00%
+- Daily alpha: 0.00%
+- Cash: IDR 9,319,172,500 (94.55% of equity)
+- Trades today: 0 (market closed; midday log filed STEP-by-STEP holiday correction vs morning's incorrectly-assumed open)
+- Trades this week (Week 7): 0/3 (full slot allocation preserved into Tue Jun 2)
+- Phase-to-date P&L: IDR −143,662,500 (−1.44%) — realized −190,372,500 + KLBF unrealized +46,710,000
+- Realized P&L (cumulative): −IDR 190,372,500 (unchanged — no closes today)
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today 6,180 carry = −19.05%): +17.61% (unchanged from Day 30 EOD)
+- Weekly P&L (Week 7 — start baseline 9,856,337,500 May 29 EOD): 0.00%
+- Drawdown from peak (10,026,617,500 May 1): −1.70% (unchanged from Day 30)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (frozen safe-lower carry from Fri May 29 EOD — IDX closed today) | +IDR 46,710,000 (+9.52%) | 8 |
+
+#### Notes
+
+Day 31 of trial — **Mon, Week 7 Day 1; IDX CLOSED for Hari Lahir Pancasila national holiday (Keppres 24/2016).** Multi-source confirmed during midday: kontan.co.id, sumbarbisnis.com, ajaib.co.id, metrotvnews.com, kompas.com — no trading session today; bourse reopens Tue Jun 2. Broker reconciliation: KLBF position in broker (519,000 sh @ 945, entry 2026-05-21) matches TRADE-LOG Active Positions and STOPS.json (state: trailing, current_stop 931, hwm 1,035, trail_pct 10) — no discrepancy. broker.sh quote returns stale entry_price 945 (yfinance Day 41 still blocked); MTM uses frozen safe-lower carry 1,035 from Fri May 29 EOD per spread-discipline (Fri multi-source cluster 1,035–1,135 ~9.7% spread > 2% threshold; no fresh tape today to converge).
+
+**Routine note:** Morning 09:15 market-open entry was filed under incorrect assumption that IDX was open; gate-checks were defensive (SKIP all 4 candidates — PGAS/TLKM/ICBP/JSMR — on plan-mandated discipline) so no actionable harm done. Midday 11:30 entry corrected the calendar error and re-confirmed frozen-mark carry. Today is effectively a no-tape carry day for both equity and IHSG.
+
+**Mark-to-market sources (frozen carry — no live tape possible today):**
+- KLBF: IDR 1,035 (carry safe-lower from Fri May 29 EOD; multi-source spread on Fri >2% threshold; Mon source noise 1,035/945/800 across TradingView/Yahoo/Ajaib reflects stale snapshots not live trades since exchange is closed).
+- IHSG: 6,180 (Fri May 29 safe-midrange anchor; no Mon print).
+- USD/IDR: 17,870 (Fri May 29 close; informational only — no FX MTM today).
+- Newcastle thermal coal: $132.5/t carry; sector EXITED post May 20 ADRO cut — not material.
+- BI-Rate: 5.25% unchanged (post-May 21 +50bp hike).
+
+**Macro:** First trading-week day of Week 7 lost to Hari Lahir Pancasila — effective Week 7 calendar reduced to Tue Jun 2 → Fri Jun 5 (4 sessions). Danantara Phase 1 (CPO/coal/ferroalloy export single-gateway) became effective today during closure — no IDX price discovery; Tue Jun 2 reopen will reflect cumulative reaction to MSCI rebalance T+1 + Danantara Phase 1 + IDR record breach 17,970 (Thu May 28 during Idul Adha closure) all at once. Defensive-intensified 5/5 regime triggers remain active.
+
+**Portfolio impact:** Zero intraday P&L (no tape). Cumulative trial alpha +17.61% preserved through forced holiday closure. KLBF state-2 trailing stop @ 931 binds as non-discretionary floor; cannot be raised today (no upside print can establish a new hwm); cannot trigger downside (no print). Cash buffer 94.55% remains structurally insulating against the Tue Jun 2 reopen catch-up gap risk (IDR record + Danantara Phase 1 + MSCI flow aftermath all priced into the same open print).
+
+**RISK ALERTS:**
+- Daily P&L 0.00% — flat-frozen day. NO alert. Far above −2% cap.
+- KLBF carry +9.52% (safe-lower) — far above −6% warning threshold and far above −7% hard-cut. NO alert.
+- Drawdown from peak −1.70% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 7) 0.00% — far from −5% reduction trigger. NO alert.
+- **Trading NOT halted** (no daily/drawdown caps hit; trading not halted by policy — market closed by calendar).
+
+**Sector exposure:** Healthcare 5.45% of equity (KLBF at safe-lower MV 537.17M / equity 9.856B); cash 94.55%. No coal/banking/mining/nickel exposure (post May 20 ADRO cut). MSCI removal contamination risk on KLBF: nil.
+
+**Cumulative alpha trajectory:** +17.61% vs IHSG since Day 0 — held flat through holiday closure. The cash-heavy defensive book continues to compound vs IHSG cumulative −19.05% from Day 0 baseline. +17.61pp of recovered relative outperformance remains the binding constraint going into Tue Jun 2 reopen.
+
+**Watch Tue Jun 2 (next live session — Week 7 Day 2 — gap-reopen catch-up day):**
+1. **KLBF fresh mark cluster narrowing** — if multi-source converges ≤2% spread, re-evaluate +15%/+20% tightening triggers (at any confirmed mark ≥1,087, +15% trigger fires → 7% trail at 1,011; at ≥1,134 → 5% trail at 1,077). Current state-2 trailing 10% @ 931 binds until cluster narrows.
+2. **Tue gap-reopen risk** — Mon was closed during 3 simultaneous events: MSCI rebalance T+1 settle, Danantara Phase 1 effective, IDR record breach Thu May 28. Tue open will pack ≥3 days of catch-up flow into one tape. Wait for sesi I close before any new entries.
+3. **IDR escalation watch** — Fri 17,870 > 17,820 trigger; Thu intraday 17,970 within 17,900 sustain-watch; 18,000 is cascade. Any sustained breach above 17,900 on Tue cuts new-entry posture.
+4. **IHSG floor vs 6,000 psych level** — Fri carry 6,180; Tue downside risk material.
+5. **4 deferred candidates (PGAS, ICBP, TLKM, JSMR)** re-gate on fresh tape: multi-source ≤2% spread, ≥2:1 R:R, full 9/15-gate re-run; Tue eagerness check binds — Week 7 0/3 slots fresh BUT effective Week 7 = 4 sessions only.
+6. **Pre-emptive de-risk rule** (MISTAKES.md 2026-05-20): No entries after 13:00 WIB Tue Jun 2 — gap-reopen day raises this discipline.
+

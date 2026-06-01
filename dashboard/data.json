@@ -415,6 +415,23 @@
       "trades_this_week": 0,
       "note": "Day 30 EOD (Fri, Week 6 Day 5 - MSCI rebalance implementation day). HOLD KLBF (no trades; market-open 4 candidates all SKIP on plan gates: PGAS IHSG-floor, ICBP/TLKM/JSMR R:R<2:1). Midday fired FIRST stop-state transition of the trial: KLBF hard-cut 878 -> trailing 10% @ 931 (crossed +7% threshold at safe-lower mark 1,035). IHSG safe-midrange anchor 6,180 (multi-source spread: sesi I close 6,217.87 +1.43% vs intraday correction 6,112; no clean sesi II final convergence at filing). KLBF safe-lower mark 1,035 (cluster 1,035-1,135 ~9.7% spread > 2% threshold per BBRI 2026-05-01 procedure) -> MTM +9.52% (+IDR 46.71M). MSCI Indonesia rebalance MOC 15:00 WIB ($1.6-1.8B passive outflow): KLBF NOT in any removal list; healthcare defensive bid intact. Foreign net sell sesi I Rp1.64T. Daily +0.56% vs IHSG +0.81% -> daily alpha -0.26% small give-back. Cumulative trial alpha +17.61% (from +17.71%). Weekly P&L Week 6 +0.48% (recovered from -0.08%). DD from peak improved to -1.70%. Trades this week: 0/3 (full slot preserved into Week 7).",
       "realized_pnl_cumulative": -190372500
+    },
+    {
+      "date": "2026-06-01",
+      "day_label": "Day 31",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6180.0,
+      "ihsg_cumulative_pct": -19.05,
+      "alpha_pct": 17.61,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 31 EOD (Mon, Week 7 Day 1 - IDX CLOSED Hari Lahir Pancasila national holiday per Keppres 24/2016; multi-source verified). No trading; equity frozen from Fri May 29 EOD baseline 9,856,337,500. KLBF held at frozen safe-lower carry mark 1,035 (Fri spread 1,035-1,135 >2% threshold; Mon source noise reflects stale snapshots not live trades). State-2 trailing stop 931 binds non-discretionary; cannot move today (no tape can set new hwm or trigger downside). Morning 09:15 market-open entry filed under incorrect calendar assumption (SKIP-all 4 candidates defensively so no harm); midday 11:30 corrected. Cumulative trial alpha +17.61% preserved through holiday closure. Effective Week 7 reduced to 4 sessions Tue Jun 2 - Fri Jun 5. Tue gap-reopen catch-up risk: MSCI T+1 + Danantara Phase 1 effective today + IDR record breach 17,970 Thu May 28 - all 3 events pack into Tue open print.",
+      "realized_pnl_cumulative": -190372500
     }
   ],
   "positions": [
@@ -432,9 +449,9 @@
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "days_held": 7,
+      "days_held": 8,
       "sector": "healthcare",
-      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; healthcare defensive sector leadership confirmed; FIRST state-machine transition (hard-cut -> trailing) fired Day 30 midday at safe-lower +9.52% crossing the +7% threshold."
+      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; healthcare defensive sector leadership confirmed; State-2 trailing 10% @ 931 fired Day 30 midday. Day 31 IDX CLOSED Hari Lahir Pancasila - frozen safe-lower carry 1,035."
     }
   ],
   "trades": [
@@ -6821,6 +6838,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "IDX closed Hari Lahir Pancasila \u2014 no trading session. KLBF held; frozen carry mark 1,035 (+9.52%); state-2 trailing 10% @ 931. No cuts, no tightening, no thesis breaks possible during closure."
+    },
+    {
+      "timestamp": "2026-06-01T08:18:13Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD: IDR 9.856B (0.00%, IDX closed Hari Lahir Pancasila). Alpha +17.61% vs IHSG preserved. KLBF held +9.52% (frozen carry, state-2 trailing 931). Trades this week: 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 31 snapshot committed (frozen holiday carry)"
+        }
+      ]
     }
   ],
   "exposure": {
