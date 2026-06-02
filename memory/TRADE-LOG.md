@@ -2906,3 +2906,98 @@ Day 31 of trial — **Mon, Week 7 Day 1; IDX CLOSED for Hari Lahir Pancasila nat
 5. **4 deferred candidates (PGAS, ICBP, TLKM, JSMR)** re-gate on fresh tape: multi-source ≤2% spread, ≥2:1 R:R, full 9/15-gate re-run; Tue eagerness check binds — Week 7 0/3 slots fresh BUT effective Week 7 = 4 sessions only.
 6. **Pre-emptive de-risk rule** (MISTAKES.md 2026-05-20): No entries after 13:00 WIB Tue Jun 2 — gap-reopen day raises this discipline.
 
+---
+
+### 2026-06-02 09:15 WIB — MARKET-OPEN (Day 32, Tue, Week 7 Day 2 — Gap-reopen catch-up tape; post 4-day cumulative IDX pause)
+
+**Trades placed: 0. All 5 entry candidates DEFERRED to midday per plan-mandated pre-11:00 WIB rule (gap-reopen catch-up tape risk).**
+
+#### Open positions carried into session
+
+| Ticker | Shares | Entry (IDR) | Live mark (IDR) | Unrealized | State |
+|--------|--------|-------------|-----------------|------------|-------|
+| KLBF | 519,000 | 945 | 1,035 (frozen safe-lower carry from Fri May 29 EOD; 9.7% cluster spread > 2% — multi-source resolution deferred to midday with fresh Tue tape) | +9.52% (IDR +46,710,000) | State 2 — TRAILING 10% @ 931 (hwm 1,035) |
+
+KLBF state-2 trailing 10% @ 931 binds non-discretionarily. State-machine transitions (+15% → 7% trail at ≥1,087; +20% → 5% trail at ≥1,134) deferred to midday on cluster resolution.
+
+#### Live data snapshot (09:15 WIB)
+
+- **IHSG: 6,127.38 carry (Fri May 29 final close — Mon IDX closed Hari Lahir Pancasila). Tue Jun 2 reopen analyst proj 6,000–6,300 sideways; floor 5,996/5,899; resistance 6,318/6,459.**
+- **IDR/USD: 17,813 (Bloomberg) / 17,824.50 (Fri close); intra-closure record breach 17,970 Thu May 28 ⚠️.** Slight improvement vs Fri but still above 17,820 escalation trigger; forecast high 17,903 Jun 2.
+- Newcastle coal: $139.90 (favourable for coal complex but **sector EXITED 2-strike + Danantara Phase 1 Day 2 binding**); Brent: $92.10–92.53 (-2.5% from Fri).
+- VIX 15.32 carry; global tape risk-on (S&P ATH 7,599.96 Jun 1; Nasdaq ATH 27,086.81); Indo-specific defensive stance unchanged.
+- **Data infra Day 42**: yfinance + GoAPI both still blocked; broker.sh quote returns ERROR for all non-held tickers; market-data.sh unavailable. KLBF returns stale entry-price 945 stub. WebSearch override path required for any entry per STEP 2b — but plan-mandated 11:00 WIB defer makes this moot at 09:15 routine.
+
+#### 9/15-Gate Checklist Evaluation (5 entry candidates + KLBF HOLD)
+
+Plan rule binding above the 9-gate set: **"No new entries pre 11:00 WIB — Tue gap-reopen catch-up tape; wait for sesi I close (post-MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR record breach 17,970 catch-up)."** This is the single dispositive constraint at 09:15 WIB.
+
+##### 1. PGAS — SKIP (plan-mandated pre-11:00 WIB defer; cluster-narrowing re-eval pending sesi I tape)
+
+- Plan-mandated execution-window gate FAIL at 09:15: pre-11:00 WIB entry blocked by gap-reopen catch-up discipline.
+- Gates 1–8: PASS in principle (positions 1+1=2 ≤ 6; trades 0+1=1 ≤ 3; size 5% × 9.81B = ~490M ≤ 980M cap; cash 9.32B ≥ 490M; catalyst Abadi LNG HoA documented; stock; ADV ~25M sh/day > 500K; lot 100). **Gate 9: cannot verify — no live price (yfinance Day 42 blocked); WebSearch override path moot under plan defer rule.**
+- Catalyst quality remains HIGH (Abadi LNG 15-yr HoA signed; Danantara SOE-channel beneficiary; defensive utility); re-gate at midday on fresh tape with multi-source cluster ≤2% spread requirement.
+- Reasoning: Plan defer is the binding constraint. Defer to midday for cluster resolution + IHSG sesi I floor confirmation ≥6,100 + IDR sustain check <17,900.
+
+##### 2. TLKM — SKIP (plan-mandated pre-11:00 WIB defer; Mon residual chase risk persists)
+
+- Plan-mandated execution-window gate FAIL at 09:15.
+- Gates 1–8: PASS in principle. Gate 9: cannot verify pre-tape. Prior session Mon (gate-rejected, calendar-corrected to closed-day no-op) Investing.com had cited live 3,650 vs plan ≤2,930 = +24.6% chase — if that spread persists on Tue, R:R inverts and Gate 9 + R:R both fail again.
+- AGM Jun 8 buyback catalyst remains intact (T-4 trading days); cluster discipline + chase discipline binding.
+- Reasoning: Defer to midday for live multi-source cluster verification + chase/R:R re-validation.
+
+##### 3. ICBP — SKIP (plan-mandated pre-11:00 WIB defer; Mon cluster spread ~18% persists)
+
+- Plan-mandated execution-window gate FAIL at 09:15.
+- Gates 1–8: PASS in principle. Mon evaluation showed TradingView 6,900 vs Investing.com 8,100–8,250 = ~18% spread >> 2% threshold. Mon was closed-day stale — Tue tape needed to resolve.
+- Catalyst (Q1 rev +7.6% YoY + defensive sector leadership) intact; non-MSCI-affected.
+- Reasoning: Defer to midday for cluster resolution + IDR <18,000 confirmation.
+
+##### 4. JSMR — SKIP (plan-mandated pre-11:00 WIB defer; R:R compression risk persists)
+
+- Plan-mandated execution-window gate FAIL at 09:15.
+- Gates 1–8: PASS in principle. Prior single-source May 29 ref 3,010 produced R:R 1.62:1 < plan 2:1 threshold; Investing.com 3,730 outlier remains unresolved.
+- Catalyst (H2 2026 tariff cycle + defensive cash flow) intact; 11 Buy / 0 Sell consensus.
+- Reasoning: Defer to midday for cluster resolution + R:R re-validation at fresh tape.
+
+##### 5. MYOR — SKIP (plan watch-only; no pullback yet to plan entry ≤2,300)
+
+- Plan-mandated execution-window gate FAIL at 09:15.
+- Plan posture: WATCH on pullback to ≤2,300 (Fri carry 2,360 = above entry zone).
+- Reasoning: No actionable entry at 09:15; defer to midday for fresh tape.
+
+##### KLBF — HOLD (deferred cluster narrowing re-eval to midday)
+
+- Position state: 519,000 sh @ 945 entry; safe-lower carry 1,035; +9.52% unrealized.
+- Stop state: trailing 10% @ 931 (hwm 1,035 from Fri May 29 midday state-1 transition).
+- Action: HOLD into midday. Midday priority: multi-source cluster narrowing re-eval; if cluster converges ≤2% spread AND mark ≥1,087, tighten trail to 7%; if ≥1,134, tighten to 5%. State transitions non-discretionary on confirmed marks; deferred only on data-quality grounds.
+
+#### Result
+
+- **0 trades placed.** Plan target 0–2 (Week 7 4-session calendar); result = 0 at 09:15.
+- Trades this week: 0/3 used (Week 7 Day 2 — full slot allocation preserved).
+- 5 entry candidates DEFERRED to midday on plan-mandated pre-11:00 WIB rule.
+- KLBF held position carries +9.52% (safe-lower carry) — state-2 trailing 10% stop @ 931 binding.
+- Cumulative trial alpha +17.61% protected; cash buffer 94.55% maintained into Tue gap-reopen catch-up window.
+
+#### Eagerness check (mandatory per strategy)
+
+"Am I trading because the thesis is genuinely compelling, or because I want to trade?"
+- Week 7 starts 0/3 slots, +17.6% alpha protected, 4-day cumulative pause (Idul Adha + weekend + Pancasila) into a single Tue reopen carrying MSCI rebalance T+2/T+3 + Danantara Phase 1 Day 2 + IDR record-breach catch-up = textbook forced-entry pressure on a gap-reopen day.
+- Pre-market plan eagerness check binds: PATIENCE default; max 0–2 entries on full Week 7; pre-emptive de-risk window 11:00–13:00 WIB.
+- Verdict: 0/5 candidates clean at 09:15 — plan defer is dispositive. Defer to midday with fresh tape. No trade beats a bad trade.
+
+#### Notes
+
+- Plan-mandated pre-11:00 WIB defer rule is the single binding constraint at 09:15 routine; STEP 2b WebSearch override moot since the plan dictates wait-for-sesi-I-close regardless of price source.
+- Data infra Day 42: yfinance + GoAPI both blocked since Apr 21; market-data.sh unavailable; broker.sh quote returns ERROR for non-held tickers and stale entry-price stub for KLBF.
+- DEFENSIVE-INTENSIFIED 5/5 triggers active. IDR 17,813 Bloomberg vs 17,824.50 Fri TE = marginal improvement but firmly elevated; intra-closure record 17,970 Thu May 28 hangs over Tue reopen as latent gap risk.
+- Danantara Phase 1 Day 2 active — CPO/coal/ferroalloy export single-gateway sector-negative for AALI/LSIP/ADRO/ITMG/PTBA/BUMI/HRUM (all already SKIP); partial ferroalloy scope for ANTM/INCO/MDKA (WATCH).
+- MSCI flow aftermath T+2/T+3: passive disposal residual selling possible; reversion typical T+1/T+2 — Tue is the reversion base case but residual sell on Small Caps (SIDO/MIKA/BSDE/AALI) possible. KLBF NOT in removal list.
+- Pre-emptive de-risk rule (MISTAKES.md 2026-05-20): No entries after 13:00 WIB — Tue execution window is effectively 11:00–13:00 WIB (~2 hours).
+- Midday scan (11:30 WIB) priorities: (1) KLBF fresh multi-source cluster narrowing + state-machine tightening eval; (2) PGAS/ICBP/TLKM/JSMR cluster + R:R + drift re-gate on fresh tape; (3) MYOR pullback watch ≤2,300; (4) IHSG floor vs 6,000 psych level / sesi I close direction; (5) IDR escalation watch vs 17,820/17,900/18,000 ladder; (6) MSCI removal-name reversion direction.
+
+#### Notification sent
+
+📊 Market-open 2026-06-02: No trades placed. All 5 candidates (PGAS/TLKM/ICBP/JSMR/MYOR) deferred to midday per plan-mandated pre-11:00 WIB rule on gap-reopen catch-up tape (4-day IDX pause + MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR 17,970 record-breach catch-up). KLBF HOLD +9.52% trailing 931. Discipline preserved; Week 7 0/3 slots fresh.
+

@@ -4420,6 +4420,251 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-06-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility SOE; Abadi LNG 15-yr HoA signed; Danantara SOE-channel beneficiary.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi Masela LNG 15-yr HoA + Danantara SOE-channel beneficiary + defensive utility leadership"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,813 still elevated; gap-reopen catch-up tape risk"
+        },
+        {
+          "type": "risk",
+          "label": "Plan rule: no entries pre 11:00 WIB on Tue gap-reopen; data infra Day 42 \u2014 yfinance + GoAPI both blocked"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap) \u2248 IDR 490M / 265,000 sh at 1,850"
+        },
+        {
+          "type": "warning",
+          "label": "Plan-mandated pre-11:00 WIB defer; re-gate at midday on fresh tape"
+        }
+      ],
+      "reasoning": "Plan-mandated execution-window defer (pre-11:00 WIB on gap-reopen catch-up tape). Catalyst quality HIGH; defer to midday for multi-source cluster \u22642% spread + IHSG sesi I floor \u22656,100 + IDR <17,900 sustain.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco SOE defensive blue-chip; AGM Jun 8 buyback Rp1T agenda (T-4 trading days); 7.28% yield.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM Jun 8 buyback Rp1T agenda confirmed (Jun 9 2026 \u2014 Jun 8 2027 program)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; non-MSCI-affected; gap-reopen catch-up tape risk"
+        },
+        {
+          "type": "risk",
+          "label": "Plan rule: no entries pre 11:00 WIB; Mon residual chase risk (Investing.com 3,650 vs plan \u22642,930 = +24.6%)"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap) \u2248 IDR 490M / 167,000 sh at 2,930"
+        },
+        {
+          "type": "warning",
+          "label": "Plan-mandated pre-11:00 WIB defer; re-gate at midday on cluster + chase/R:R re-eval"
+        }
+      ],
+      "reasoning": "Plan-mandated execution-window defer. AGM Jun 8 catalyst intact; cluster discipline + chase discipline both pending Tue tape. Defer to midday.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staple defensive; Indomie parent; Q1 rev +7.6% YoY; defensive sector leadership.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive sector leadership in DEFENSIVE regime + post-Idul Adha consumption pulse"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; non-MSCI-affected; IDR pass-through risk binding"
+        },
+        {
+          "type": "risk",
+          "label": "Plan rule: no entries pre 11:00 WIB; Mon multi-source spread ~18% (TradingView 6,900 vs Investing.com 8,100\u20138,250)"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap) \u2248 IDR 490M / 73,000 sh at 6,650"
+        },
+        {
+          "type": "warning",
+          "label": "Plan-mandated pre-11:00 WIB defer; re-gate at midday on cluster resolution"
+        }
+      ],
+      "reasoning": "Plan-mandated execution-window defer. Cluster resolution + IDR <18,000 confirmation pending Tue tape. Defer to midday.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "JSMR",
+      "action": "SKIP",
+      "date": "2026-06-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Toll-road SOE defensive cash flow; 11 buy / 0 sell; PT 4,509 (+50%); H2 2026 tariff cycle.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Periodic tariff cycle + defensive cash flow rotation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; rate-sensitive DCF risk under BI 5.25%"
+        },
+        {
+          "type": "risk",
+          "label": "Plan rule: no entries pre 11:00 WIB; Mon single-source R:R 1.62:1 < plan 2:1 threshold"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap) \u2248 IDR 490M / 166,000 sh at 2,950"
+        },
+        {
+          "type": "warning",
+          "label": "Plan-mandated pre-11:00 WIB defer; re-gate at midday on cluster + R:R re-eval"
+        }
+      ],
+      "reasoning": "Plan-mandated execution-window defer. R:R compression risk persists; cluster + R:R re-validation pending Tue tape. Defer to midday.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Mid-cap consumer staple defensive; less crowded vs ICBP/INDF; MENA export IDR-tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Structural defensive bid + MENA export IDR-weak tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR-export-positive; consumer staples defensive leadership"
+        },
+        {
+          "type": "risk",
+          "label": "Plan posture: WATCH on pullback to \u22642,300; Fri carry 2,360 above entry zone; plan rule pre-11:00 defer"
+        },
+        {
+          "type": "sizing",
+          "label": "Would have been 5% of equity (DEFENSIVE cap) \u2248 IDR 490M / 213,000 sh at 2,300"
+        },
+        {
+          "type": "warning",
+          "label": "Plan-mandated pre-11:00 WIB defer; no pullback yet to entry zone"
+        }
+      ],
+      "reasoning": "Plan-mandated execution-window defer + no actionable entry zone hit (Fri 2,360 above plan \u22642,300 pullback target). Defer to midday for pullback watch + cluster.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -6883,6 +7128,52 @@
         {
           "type": "macro",
           "detail": "Tue gap-reopen risk: MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR record breach catch-up tape"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-02T02:19:30Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 5 entry candidates (PGAS/TLKM/ICBP/JSMR/MYOR) deferred to midday per plan-mandated pre-11:00 WIB rule on gap-reopen catch-up tape (4-day IDX pause + MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR 17,970 record-breach catch-up). KLBF HOLD +9.52% trailing 931.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ 945; mark 1,035 carry; +9.52%; trailing 10% @ 931 (hwm 1,035); state-2; tightening eval deferred to midday on cluster narrowing"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "Plan-mandated pre-11:00 WIB defer; gap-reopen catch-up tape risk; re-gate midday on cluster \u22642% + IHSG sesi I \u22656,100 + IDR <17,900"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Plan-mandated pre-11:00 WIB defer; Mon residual chase risk Investing.com 3,650 vs plan \u22642,930 = +24.6%; re-gate midday on cluster + R:R"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Plan-mandated pre-11:00 WIB defer; Mon multi-source spread ~18% pending Tue resolution"
+        },
+        {
+          "type": "skip",
+          "ticker": "JSMR",
+          "detail": "Plan-mandated pre-11:00 WIB defer; Mon R:R 1.62:1 < plan 2:1; re-gate midday on cluster + R:R"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "Plan-mandated pre-11:00 WIB defer; no pullback to plan entry \u22642,300 (Fri carry 2,360); watch midday"
+        },
+        {
+          "type": "warning",
+          "detail": "Data infra Day 42 \u2014 yfinance + GoAPI both blocked since Apr 21; broker.sh quote returns ERROR for all non-held tickers and stale entry-price stub for KLBF"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram host not in environment allowlist; notification printed to stdout via notify.sh fallback"
         }
       ]
     }
