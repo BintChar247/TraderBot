@@ -7176,6 +7176,12 @@
           "detail": "Telegram host not in environment allowlist; notification printed to stdout via notify.sh fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-02T04:39:04Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Day 32 (Tue, Wk7 D2) midday gap-reopen catch-up tape: 0 cuts, 0 stop tightenings, 0 thesis exits, 0 buys. KLBF +9.52% safe-lower carry (cluster spread 9.7% > 2% blocks state-3/state-4 tightening triggers; Yahoo single-source 1135 = +20.11% ARMS State 4 pending narrowing). State 2 trail 10% @ 931 unchanged. IHSG sesi I +1.41% defensive recovery; IDR 17,813 cooling vs 17,820 trigger."
     }
   ],
   "exposure": {

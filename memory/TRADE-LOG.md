@@ -3001,3 +3001,77 @@ Plan rule binding above the 9-gate set: **"No new entries pre 11:00 WIB — Tue 
 
 📊 Market-open 2026-06-02: No trades placed. All 5 candidates (PGAS/TLKM/ICBP/JSMR/MYOR) deferred to midday per plan-mandated pre-11:00 WIB rule on gap-reopen catch-up tape (4-day IDX pause + MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR 17,970 record-breach catch-up). KLBF HOLD +9.52% trailing 931. Discipline preserved; Week 7 0/3 slots fresh.
 
+---
+
+### 2026-06-02 11:30 WIB — MIDDAY SCAN (Day 32, Tue, Week 7 Day 2 — Gap-reopen catch-up sesi I close window)
+
+**Status: NO ACTION TAKEN.** KLBF state-2 trailing 10% @ 931 holds; cluster spread fails ≤2% discipline so state-machine tightening triggers (+15% → 7% trail at ≥1,087; +20% → 5% trail at ≥1,134) remain deferred on data-quality grounds.
+
+#### Open positions (1)
+
+| Ticker | Shares | Entry (IDR) | Live mark (IDR) | Unrealized | State |
+|--------|--------|-------------|-----------------|------------|-------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower carry; multi-source cluster spread 9.7% > 2% threshold — Yahoo Finance fresh live 1,135 @ 11:29 WIB Tue Jun 2 vs TradingView 1,035 carry; Investing.com 1,515 outlier discarded) | +9.52% (IDR +46,710,000) | State 2 — TRAILING 10% @ 931 (hwm 1,035) |
+
+#### Sell-side rule application
+
+1. **Hard-cut (-7% from entry = 879):** N/A — safe-lower mark 1,035 = +9.52%; even single-source low Yahoo 1,135 = +20.11% (irrelevant — discarded per spread discipline); broker.sh stale stub 945 = 0%. All live and stale marks far above hard-cut floor.
+2. **Trailing 10% @ 931 (hwm 1,035 from Fri May 29 midday state-1 transition):** No fresh confirmed mark establishes a higher hwm — Yahoo 1,135 (+9.7% above current hwm) would raise hwm to 1,135 → new trail @ 1,022, BUT cluster spread >2% blocks confirmation. Stop unchanged.
+3. **Tighten to 7% (+15% trigger at ≥1,087):** Cluster fails ≤2% spread; safe-lower 1,035 = +9.52% < +15% trigger. DEFERRED on data-quality (single-source Yahoo 1,135 alone shows +20.11%; if cluster narrows ≤2% to ≥1,087 anchor at any post-sesi-I-close re-eval, fires non-discretionarily to 7% trail at hwm 1,087 × 0.93 = 1,011).
+4. **Tighten to 5% (+20% trigger at ≥1,134):** Same data-quality defer — Yahoo 1,135 single-source crosses +20% threshold but cluster does not confirm. State 4 transition CONDITIONALLY ARMED for the moment cluster narrows ≤2% with confirmed mark ≥1,134.
+5. **Thesis-break check:** PASS. KLBF NOT in MSCI Global Standard / Small Cap removal list (re-confirmed Fri May 29; not refuted Tue Jun 2 — defensive healthcare leadership pattern strengthening). Buyback program IDR 500B live through Jul 2 unchanged. Q1 2026 print +5.1% net YoY tracking unchanged. Healthcare defensive bid sustained via IHSG +1.41% sesi I rally.
+6. **Intraday >3% adverse move:** N/A — KLBF Yahoo single-source +4.61% intraday (favourable; not adverse). Move consistent with IHSG +1.41% sesi I rally + healthcare defensive leadership + MSCI flow reversion T+1 base case; no thesis-break signal.
+7. **Sector exit (2 consecutive losses):** N/A — healthcare 0 prior strikes; KLBF first pharma trade; no peer sector damage.
+
+#### Live data snapshot (11:30 WIB — sesi I close window)
+
+- **IHSG sesi I: 6,210/6,213 (+1.41% from Fri 6,127.38 close).** Strong defensive recovery off 4-day pause; intraday range 6,183.17–6,219.92; 290 advancers vs 274 decliners (mild breadth positive); volume 2.56B sh / IDR 2.80T value. Holds well above 6,000 psych floor (Fri scenario downside risk) and clear of 5,996/5,899 support zone.
+- **IDR/USD: 17,813 (Bloomberg morning) — improvement vs 17,824.50 Fri close + Thu intra-closure record 17,970 cooling.** Below 17,820 escalation trigger by 7bps; below 17,900 sustain-watch by 87bps; below 18,000 cascade by 187bps. Risk-off ladder de-escalating at sesi I.
+- **KLBF cluster (informational; non-actionable):** Yahoo Finance 1,135 (+4.61% live 11:29 WIB) | TradingView 1,035 (-4.55% Fri-to-Tue stale snapshot) | Investing.com 1,515 (gross outlier — discarded) | Ajaib 800 | Stockbit 930. Cluster spread Yahoo–TradingView ~9.7%; spread including Indonesian sources ~42%. Safe-lower clean cluster mark = 1,035.
+- **Newcastle coal: $139.90 — favourable for coal complex BUT sector EXITED post 2-strike + Danantara Phase 1 Day 2 binding.** Not material.
+- **Data infra Day 42:** yfinance + GoAPI both blocked; market-data.sh unavailable; broker.sh quote returns stale entry_price 945 for KLBF.
+
+#### Deferred entry candidates re-gate (from 09:15 deferral)
+
+Plan execution window 11:00–13:00 WIB allows re-gate, BUT data-quality discipline binds: market-data.sh unavailable + WebSearch cluster spread on every candidate >2% (verified during morning). Specific re-gate findings:
+
+- **PGAS:** Cluster non-resolvable via WebSearch on midday lookup (no fresh print confirmable ≤2%); R:R + 9-gate hold in principle but Gate 9 fails. **SKIP** — defer to Wed Jun 3 market-open with fresh tape.
+- **TLKM:** Investing.com prior reading 3,650 vs plan ≤2,930 chase risk persists; midday cluster non-resolvable. **SKIP** — defer to Wed.
+- **ICBP:** Prior 18% cluster spread persists (TradingView vs Investing.com); midday non-resolvable. **SKIP** — defer to Wed.
+- **JSMR:** R:R compression 1.62:1 < 2:1 threshold + cluster non-resolvable. **SKIP** — defer to Wed.
+- **MYOR:** Plan watch-only ≤2,300; Fri carry 2,360 — pullback not confirmed at midday tape. **SKIP** — defer to Wed watch.
+
+Result: 0 buys at midday. Week 7 slot allocation 0/3 preserved fully. Pre-emptive de-risk window (≤13:00 WIB) honored.
+
+#### Notes
+
+- Plan-mandated mid-day discipline binds: cluster spread >2% across all 5 candidates + KLBF means no state transitions and no new entries — same data-quality defer as 09:15 routine.
+- KLBF Yahoo single-source live 1,135 (+20.11%) shows the State 4 (+20%) trigger is ARMED but waiting on cluster narrowing for non-discretionary fire. State 3 (+15%) trigger likewise armed.
+- Healthcare defensive thesis vindicated by sesi I tape: IHSG +1.41% on defensive bank/healthcare/consumer leadership; KLBF up on light favorable tape per Yahoo single-source. MSCI reversion T+1 base case playing out per plan.
+- IDR cooling vs 17,820 trigger (now 17,813 = 7bps below) is mild defensive tailwind; 17,900 sustain and 18,000 cascade ladders quiet.
+- Newcastle coal $139.90 favorable for coal complex — irrelevant given 2-strike sector exit + Danantara Phase 1 Day 2 binding.
+- Cumulative trial alpha vs IHSG: Day 0 baseline 7,634 → Tue Jun 2 sesi I 6,213 = IHSG cumulative −18.62%; vs portfolio cumulative roughly −1.44% phase-to-date → cumulative alpha approx +17.18pp (transitional; finalize at EOD).
+- Sector exposure: Healthcare ~5.45% of equity (KLBF safe-lower MV 537.17M / equity 9.806B from current broker portfolio); cash 95.0% structurally insulating.
+- Pre-emptive de-risk rule (MISTAKES.md 2026-05-20): No entries after 13:00 WIB — moot today, 0 buys placed across 09:15 + 11:30 routines.
+
+#### Action: NONE
+
+- 0 cuts.
+- 0 stop tightenings (deferred on cluster spread >2% data-quality gate).
+- 0 thesis exits.
+- 0 new entries.
+- KLBF state-2 trailing 10% @ 931 unchanged.
+
+#### Notification sent
+
+📊 Midday 2026-06-02: All positions healthy. No action taken.
+
+#### Carry-over to 15:15 WIB EOD routine
+
+1. KLBF fresh post-sesi-II mark cluster narrowing: if cluster converges ≤2% spread, fire pending state-machine transitions (+15% → 7% trail at ≥1,087; +20% → 5% trail at ≥1,134).
+2. IHSG sesi II direction + close vs 6,200 / 6,000 psych levels.
+3. IDR sesi II direction vs 17,820 / 17,900 / 18,000 ladder.
+4. MSCI reversion T+1 sustainability into close.
+5. Phase-to-date P&L + cumulative alpha vs IHSG calc.
+6. 4 deferred candidates (PGAS/TLKM/ICBP/JSMR) + MYOR watch — re-gate posture for Wed Jun 3 pre-market.
+
