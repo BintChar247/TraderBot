@@ -3075,3 +3075,86 @@ Result: 0 buys at midday. Week 7 slot allocation 0/3 preserved fully. Pre-emptiv
 5. Phase-to-date P&L + cumulative alpha vs IHSG calc.
 6. 4 deferred candidates (PGAS/TLKM/ICBP/JSMR) + MYOR watch — re-gate posture for Wed Jun 3 pre-market.
 
+---
+
+### 2026-06-02 EOD — Day 32 (Tue, Week 7 Day 2 — Gap-reopen catch-up tape; post 4-day cumulative IDX pause)
+
+- Total equity: IDR 9,856,337,500 (unchanged from Day 31 EOD May 29 baseline — KLBF mark frozen at safe-lower carry 1,035; cluster spread >2% persists per midday discipline)
+- Daily P&L: IDR 0 (+0.00%)
+- IHSG daily: +1.49% (sesi I close 6,218.86 vs Fri May 29 actual sesi II close 6,127.38 — multi-source confirmed via Bloomberg/Kompas/IDX Channel/Liputan6; sesi II final not yet published at 15:15 WIB filing — sesi I close used as best-available anchor)
+- Daily alpha: −1.49% (modest give-back; cash-heavy defensive book held flat through bouncing-IHSG day on Prajogo Pangestu group reversion + bank/healthcare bid)
+- Cash: IDR 9,319,172,500 (94.55% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Mon Jun 1 IDX closed Hari Lahir Pancasila + Tue Jun 2 0 trades; Week 7 slot allocation fully preserved into Wed Jun 3 / Thu Jun 4 / Fri Jun 5)
+- Phase-to-date P&L: IDR −143,662,500 (−1.44%)
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today 6,218.86 = −18.54%): +17.10% (give-back from +17.61% Day 31 carry)
+- Weekly P&L (Week 7 — start baseline 9,856,337,500 May 29 EOD): 0.00%
+- Peak equity: IDR 10,026,617,500 (Apr 22 Day 3 trial high — unchanged)
+- Drawdown from peak: −1.70% (unchanged)
+- Realised P&L cumulative: IDR −190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M — unchanged)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower carry from Fri May 29 EOD; Tue Jun 2 cluster TradingView 1,035 vs Yahoo Finance live 1,135 = 9.7% spread > 2% threshold; Investing.com 1,515 outlier discarded; multi-source non-convergence procedurally requires safe-lower per MISTAKES.md 2026-05-01) | +IDR 46,710,000 (+9.52%) | 9 |
+
+#### Broker reconciliation
+
+- Broker portfolio (`bash scripts/broker.sh portfolio`): KLBF 519,000 sh @ entry 945, entry_date 2026-05-21 — matches PAPER-STATE.json and TRADE-LOG Active Positions.
+- STOPS.json: KLBF state=trailing, current_stop=931, trail_pct=10, hwm=1,035 — matches state-2 transition fired Day 30 midday; no fresh hwm move possible today (cluster spread >2% blocks confirmation of Yahoo 1,135 single-source uplift).
+- broker.sh quote returns stale entry_price 945 stub (yfinance Day 42 still blocked; GoAPI not configured); MTM uses frozen safe-lower carry 1,035 per spread discipline.
+- **No discrepancy.** Position in broker = position in TRADE-LOG = position in STOPS.json = position in dashboard.
+
+#### Mark-to-market sources (frozen safe-lower carry — cluster spread persists Day 42 data infra outage):
+
+- KLBF: IDR 1,035 (safe-lower carry; Tue Jun 2 sesi I Yahoo Finance live 1,135 +4.61% intraday on confirmed move but TradingView 1,035 carry holds; cluster ~9.7% > 2% threshold; safe-lower discipline binds).
+- IHSG: 6,218.86 (sesi I close +1.49% from Fri May 29 actual sesi II close 6,127.38; multi-source convergent: Bloomberg Technoz, Kompas, IDX Channel, Liputan6, RRI all cite 6,218.86 or 6,218.9; range 6,161.98–6,264.26).
+- USD/IDR: 17,813 (Bloomberg morning) — improvement vs Fri close 17,824.50 + cooling from Thu May 28 intra-closure record 17,970; below 17,820 escalation trigger by 7bps.
+- Newcastle thermal coal: $139.90/t — favourable but coal sector EXITED post May 20 ADRO cut + Danantara Phase 1 Day 2 binding; non-material.
+- Brent: $92.10–92.53 (−2.5% from Fri).
+- BI-Rate: 5.25% unchanged (post-May 21 +50bp hike).
+
+#### Macro
+
+Tue Jun 2 = Week 7 Day 2 = first live IDX session of Week 7 after 4-day cumulative pause (Idul Adha + weekend + Pancasila). Sesi I tape packed ≥3 catch-up events into one open print: MSCI rebalance T+1 reversion flow + Danantara Phase 1 effective Day 2 + IDR record breach 17,970 Thu May 28 — all priced cleanly into 6,218.86 sesi I close (+1.49%). Prajogo Pangestu group (BREN, CUAN, DSSA, TPIA) led the bounce post-MSCI removal disposal: DSSA +25%, CUAN +24.6%, BREN +24.5%, TPIA +12% — classic post-rebalance T+1 reversion. Bank-led (BBCA, BBRI) defensive bid + healthcare defensive leadership confirmed; raw materials/energy mixed under Danantara Phase 1 single-gateway overhang. 347 advancers vs 338 decliners (slight breadth positive); volume sesi I 16.03B sh / IDR 14.81T value. IDR 17,813 Bloomberg = 7bps below 17,820 escalation trigger = de-escalating but firmly elevated. Defensive-intensified 5/5 regime triggers remain active.
+
+#### Portfolio impact
+
+Daily P&L 0.00% — KLBF frozen safe-lower carry holds. Cumulative trial alpha contracted from +17.61% (Day 31 carry through holiday) to +17.10% on −1.49% daily alpha give-back (cash-heavy book lagged the broad bounce as expected). Cumulative alpha remains strongly positive and ~17pp above IHSG. Cash buffer 94.55% structurally insulating against any Wed/Thu/Fri Week 7 reversal. KLBF state-2 trailing stop @ 931 binds non-discretionarily; cannot raise today (no confirmed hwm move ≥1,035); cannot trigger downside (mark above stop by +11.2%).
+
+#### RISK ALERTS
+
+- Daily P&L 0.00% — flat-frozen day. NO alert. Far above −2% daily loss cap.
+- KLBF carry +9.52% (safe-lower) — far above −6% warning threshold and far above −7% hard-cut 879. NO alert.
+- Drawdown from peak −1.70% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 7) 0.00% — far from −5% reduction trigger. NO alert.
+- **Trading NOT halted** (no daily/drawdown caps hit; cluster-spread discipline binds intraday but does not halt trading by policy).
+
+#### Sector exposure
+
+Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 94.55%. No banking/coal/mining/nickel exposure (post May 20 ADRO cut). MSCI removal contamination risk on KLBF: nil (KLBF NOT in any removal list — re-confirmed Fri May 29; Tue Jun 2 reversion tape vindicates the defensive healthcare thesis without removal-list contagion).
+
+#### Cumulative alpha trajectory
+
+- Day 0 baseline IHSG 7,634 → Tue Jun 2 sesi I close 6,218.86 = IHSG cumulative −18.54%.
+- Day 0 baseline equity 10,000,000,000 → today equity 9,856,337,500 = portfolio cumulative −1.44%.
+- **Cumulative alpha = +17.10%** (give-back of 0.51pp from +17.61% Day 31 carry).
+- The cash-heavy defensive book continues to compound vs IHSG: even after today's give-back, +17.10pp of cumulative outperformance remains the binding constraint going into Wed Jun 3 pre-market.
+
+#### Notes
+
+- **Day 42 data infrastructure outage:** yfinance + GoAPI both blocked since Apr 21; market-data.sh non-functional; broker.sh quote returns ERROR for non-held tickers and stale entry-price stub for KLBF. WebSearch-only override path remains operational for IHSG (multi-source convergent) but KLBF cluster spread >2% blocks confirmation of intraday uplift. Safe-lower carry discipline holds.
+- **IHSG anchor reconciliation:** Day 30 (Fri May 29) EOD logged safe-midrange anchor 6,180 (no sesi II final convergence at filing). Tue Jun 2 news confirms actual Fri May 29 sesi II close = 6,127.38 (via reverse-calc from +1.49%/+91.48pt cite). Today's IHSG daily % uses actual prior close 6,127.38 for accuracy; dashboard ihsg_close field will reflect today's 6,218.86.
+- **Trial trajectory:** Beyond original April 20–May 2 trial window (current Day 32 trial continuation). Cumulative alpha +17.10% strongly positive; phase-to-date P&L −1.44% modest; drawdown discipline (−1.70% from peak) deeply within tolerances.
+- **No trades placed Tue Jun 2:** 09:15 + 11:30 routines both deferred 5 candidates (PGAS/TLKM/ICBP/JSMR/MYOR) on plan-mandated pre-11:00 WIB + data-quality cluster discipline. Week 7 0/3 slots fresh into Wed Jun 3 pre-market.
+- **KLBF state-machine tightening triggers ARMED but not fired:** +15% trigger fires at confirmed mark ≥1,087 → 7% trail at 1,011 hwm × 0.93; +20% trigger fires at confirmed mark ≥1,134 → 5% trail at 1,077 hwm × 0.95. Yahoo single-source 1,135 alone would cross +20% threshold but cluster confirmation required.
+- **Macro overhangs into Wed Jun 3:** Danantara Phase 1 Day 3 (CPO/coal/ferroalloy export single-gateway) effective; IDR 17,813 Bloomberg below 17,820 trigger but 17,900 sustain and 18,000 cascade ladders remain quiet; MSCI reversion T+1 sustainability questionable on T+2/T+3 (Wed/Thu); IHSG floor vs 6,000 psych level holding (intraday low 6,161.98 well above).
+- **Carry-over to Wed Jun 3 pre-market:**
+  1. KLBF fresh multi-source cluster narrowing — if Wed cluster converges ≤2% spread at confirmed mark ≥1,087, fire state-3 transition (7% trail at 1,011); if ≥1,134, fire state-4 (5% trail at 1,077).
+  2. 4 deferred candidates (PGAS/TLKM/ICBP/JSMR) — re-gate on fresh Wed tape: multi-source ≤2% spread, ≥2:1 R:R, full 9-gate re-run. Plan target 0–2 entries on Week 7 remaining 3 sessions.
+  3. MYOR pullback watch ≤2,300 (Tue carry 2,360 — no pullback yet).
+  4. IHSG Wed direction vs 6,200 (Tue sesi I anchor) / 6,000 psych floor.
+  5. IDR Wed direction vs 17,820 / 17,900 / 18,000 ladder.
+  6. Sesi II final reconciliation: when published, confirm Tue Jun 2 actual close vs sesi I 6,218.86 anchor used here.
+
