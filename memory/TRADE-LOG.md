@@ -3158,3 +3158,83 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
   5. IDR Wed direction vs 17,820 / 17,900 / 18,000 ladder.
   6. Sesi II final reconciliation: when published, confirm Tue Jun 2 actual close vs sesi I 6,218.86 anchor used here.
 
+---
+
+### 2026-06-03 09:15 WIB — MARKET-OPEN EXECUTION (Day 33, Wed, Week 7 Day 3)
+
+**Status: NO TRADES PLACED.** All 6 candidates (TLKM, PGAS, ICBP, INDF, MYOR, JSMR) fail data-quality discipline — multi-source cluster spread >2% threshold persists Day 43+ on yfinance/GoAPI outage; broker.sh quote returns ERROR for all non-held tickers. KLBF HOLD; state-machine tightening triggers (state-3 +15% → 7% trail; state-4 +20% → 5% trail) remain ARMED but cluster spread blocks confirmation of any mark ≥1,087 / ≥1,134.
+
+#### Pre-open snapshot (WebSearch fallback; yfinance Day 43 blocked)
+
+| Indicator | Value | Note |
+|-----------|-------|------|
+| IHSG (Tue Jun 2 sesi II final carry) | 6,195.43 | +1.11% Tue; Wed sesi I open mark not multi-source convergent at filing |
+| USD/IDR | **17,899 (Bloomberg) / 17,813 (Investing.com)** | **17,899 = 1bps below 17,900 sustain ladder; ABOVE 17,820 escalation trigger by 79bps**; 18,000 cascade ~101bps away — escalation watch ARMED, pre-emptive de-risk territory |
+| Newcastle thermal coal | 139.90 carry | 9-week high — favourable but sector EXITED (non-material) |
+| KLBF cluster | Yahoo 945 / TradingView 745 / Investing.com 930 / Ajaib 800 | Spread 745↔945 = 26.8% > 2% threshold → safe-lower discipline binds; Tue carry safe-lower 1,035 frozen |
+| TLKM cluster | Yahoo Tue 2,950 / Investing.com 3,620-3,660 range | Spread ~24% > 2% → Gate 9 (≤3% from planned entry 2,930) cannot be verified; chase-risk vs plan |
+| PGAS cluster | TradingView 1,900 carry; no fresh multi-source resolution | 3rd+ session > 2% spread persists |
+| ICBP cluster | 6,875 / 6,750 prior; no fresh Wed Jun 3 resolution | Spread unresolved; CPI 3.08% + IDR 17,899 import-cost headwind |
+| INDF cluster | 6,925 May 29 carry vs 7,600 historic anchor | Anchor spread unreconciled |
+| MYOR cluster | 2,360 Fri May 29 carry; no Wed pullback to ≤2,300 watch trigger | No actionable signal |
+| JSMR cluster | 3,000 May 25 carry vs 3,730 Investing.com outlier | Spread unresolved; rate-DCF headwind |
+
+#### 9-gate (15-gate) checklist results per candidate
+
+| Candidate | Plan Entry | Cluster status | Gate 9 verdict | Decision | Conviction |
+|-----------|------------|----------------|----------------|----------|------------|
+| TLKM | ≤2,930 | Yahoo 2,950 / Investing 3,620 = 24% spread | **FAIL Gate 9** (no verifiable mark ≤2,930+3%); + Gate-9 chase risk | **SKIP** | MEDIUM (best near-term catalyst — AGM Jun 8 T+3 — but data discipline binds) |
+| PGAS | ≤1,820 | TV 1,900 single-source; multi-source fails | **FAIL Gate 9** | **SKIP** | MEDIUM |
+| ICBP | ≤6,500 | 6,875/6,750 carry, no Wed multi-source | **FAIL Gate 9** | **SKIP** | MEDIUM |
+| INDF | ≤6,200 | 6,925/7,600 anchor unresolved | **FAIL Gate 9** | **SKIP** | MEDIUM |
+| MYOR | ≤2,300 (pullback watch) | 2,360 carry — no pullback to entry | **FAIL Gate 9** (above plan entry by ~2.6%); pullback not confirmed | **SKIP** | MEDIUM |
+| JSMR | ≤2,950 | 3,000 vs 3,730 outlier unresolved | **FAIL Gate 9** | **SKIP** | MEDIUM |
+
+#### Eagerness Check (TRADING-STRATEGY.md)
+
+- Week 7 0/3 slot fresh; cumulative trial alpha +17.10% to protect; 4-day cumulative pause + IDR 17,899 escalation-ladder near 17,900 sustain = forced-entry pressure HIGH.
+- Trading because data discipline supports an edge? NO — multi-source non-convergence makes every candidate a single-source bet.
+- Verdict: **Patience binds. Defer.**
+
+#### Pre-emptive de-risk applied
+
+- IDR 17,899 within 1bps of 17,900 sustain ladder = pre-emptive de-risk territory per MISTAKES.md 2026-05-20 (ADRO regulatory-rumor lesson).
+- Per Wed plan: "No new entries after 13:00 WIB" — moot today, 0 entries placed at 09:15.
+
+#### KLBF state-machine status (HELD; no transitions fired)
+
+- Position: 519,000 sh @ entry 945 (May 21).
+- Stop: TRAILING 10% @ 931 (hwm 1,035; state-1 transition fired Fri May 29 midday).
+- State-3 (+15% trigger ≥1,087 → 7% trail at 1,011): **ARMED**; cluster spread blocks confirmation.
+- State-4 (+20% trigger ≥1,134 → 5% trail at 1,077): **ARMED**; Yahoo single-source 1,135 would cross threshold but cluster discipline blocks fire.
+- Thesis check: PASS — buyback Rp500B through Jul 2 active (~29 days remain); healthcare-defensive bid sustained; not MSCI-removed.
+- Hard-cut check: 879 floor; safe-lower carry 1,035 = +9.52% (no risk-firing). Note WebSearch outlier reads 745/800 — discarded per cluster non-convergence; midday will re-evaluate.
+
+#### Trades
+
+- **BUYS: 0**
+- **SELLS: 0**
+- **Stop adjustments: 0** (state-machine triggers cluster-deferred)
+- **Trades this week: 0/3** (Week 7 slot allocation preserved fully)
+
+#### Notification sent
+
+📊 Market-open 2026-06-03: No trades placed. All 6 candidates (TLKM/PGAS/ICBP/INDF/MYOR/JSMR) fail multi-source cluster ≤2% data-quality discipline (yfinance Day 43 blocked); IDR 17,899 at 17,900 sustain ladder = pre-emptive de-risk. KLBF HOLD trailing 931; state-machine tightening ARMED, cluster blocks fire. Week 7 0/3 slots fresh.
+
+#### Carry-over to 11:30 WIB midday scan
+
+1. KLBF cluster narrowing re-eval — if Wed sesi I close cluster converges ≤2% AND mark ≥1,087, fire state-3 transition (7% trail at 1,011 from hwm 1,087); if ≥1,134, fire state-4 (5% trail at 1,077 from hwm 1,134).
+2. KLBF safe-lower discipline — if cluster confirms low end ≤879, hard-cut floor fires non-discretionarily (would also fire trailing 931 first).
+3. Deferred candidates (TLKM/PGAS/ICBP/INDF/JSMR/MYOR) — re-gate on fresh sesi I close: multi-source ≤2% spread, ≥2:1 R:R, ≤3% from planned entry, IHSG ≥6,150, IDR <17,900 sustained.
+4. IHSG Wed direction vs 6,000 floor / 6,200 carry / 6,300 reclaim threshold.
+5. IDR Wed direction vs 17,820 (BREACHED) / 17,900 sustain / 18,000 cascade ladder — primary kill-switch today.
+6. Pre-emptive de-risk window 13:00 WIB binding.
+
+#### Notes
+
+- Day 43 data infrastructure outage persistent: yfinance + GoAPI blocked since Apr 21; market-data.sh non-functional; broker.sh quote returns ERROR for non-held tickers, stale entry-price stub (945) for KLBF.
+- IHSG search returned conflicting prints (one cite "fell 3.76% to 6,470" appears to be a stale carry-cite from prior MSCI announcement window; Tue Jun 2 sesi II final carry 6,195.43 is the working anchor until Wed sesi I close converges).
+- KLBF WebSearch outlier reads 745 (TradingView) / 800 (Ajaib) — if these confirm at midday with cluster convergence, trailing stop 931 GTC fires non-discretionarily (broker-side). At market-open the WebSearch single-source outliers cannot fire pre-emptive close per multi-source discipline.
+- No infra patch executed this run — broker.sh cmd_sell MD_LAST_PRICE_OVERRIDE path remains deferred to weekend infra patch per MISTAKES.md 2026-05-20.
+- Trial alpha protection binding: +17.10% cumulative alpha is the precious resource; defensive cash-heavy posture earned it.
+

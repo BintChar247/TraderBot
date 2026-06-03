@@ -4682,6 +4682,300 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM Jun 8 Rp1T buyback approval (T+3 trading days); Danantara consolidation 67\u219219 entities governance positive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "Best near-term defined catalyst on slate; SKIP because multi-source cluster spread Yahoo 2,950 vs Investing 3,620 = ~24% > 2% data-quality threshold mandated by today's plan. Gate 9 (\u22643% from planned entry 2,930) cannot be verified.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "SOE gas utility defensive; Abadi LNG 15-yr HoA + Danantara channel consolidation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "3rd+ session multi-source cluster spread >2% persists; Brent retracement to 1 erodes premium; DHE SDA non-mining 100%/12m friction risk. Gate 9 fails on data quality.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staple defensive; Q1 rev +7.6% volume growth; Phintraco Jun 2 pick.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "CPI 3.08% re-acceleration + IDR 17,899 above escalation = wheat/sugar import-cost headwind acute. Cluster 6,875/6,750 carry unresolved at Wed open; Gate 9 fails. Pre-mortem critical headwind.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Parent of ICBP plus integrated plantation; defensive FMCG + commodity hedge.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "Historic anchor 6,925 vs 7,600 spread unreconciled; plantation Danantara Phase 1 CPO single-gateway friction risk. Cluster fails \u22642% discipline; Gate 9 fails.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MENA-export IDR-weak tailwind = regime-friendly snack/beverage mid-cap.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "Only regime-friendly candidate via IDR-weak MENA tailwind; pullback to \u22642,300 entry watch NOT triggered (carry 2,360); above plan entry by ~2.6%. Gate 9 fails; data discipline binds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "JSMR",
+      "action": "SKIP",
+      "date": "2026-06-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Toll-road defensive; H2 2026 tariff cycle structural bid; PT 4,509 +50%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "see RESEARCH-LOG.md 2026-06-03"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED 5/5; IDR 17,899 @ 17,900 sustain ladder; CPI 3.08% re-accel"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 multi-source cluster spread >2% (yfinance Day 43 blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% regime cap (would-be); 0 placed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback \u2014 cluster non-convergence blocks override"
+        }
+      ],
+      "reasoning": "Rate-sensitive DCF: CPI 3.08% + IDR 17,899 + BI Jun 17-18 +25bp scenario all squeeze valuation. Cluster 3,000 vs 3,730 outlier unresolved; Gate 9 fails.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -7244,6 +7538,53 @@
         {
           "type": "regime",
           "detail": "DEFENSIVE-INTENSIFIED deepening; IDR 17,879 above 17,820 escalation by 59bps; CPI 3.08% May re-accel; 5% sizing cap; eagerness check binds"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-03T02:19:31Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 6 candidates (TLKM/PGAS/ICBP/INDF/MYOR/JSMR) fail multi-source cluster \u22642% data-quality discipline (yfinance Day 43 blocked). IDR 17,899 at 17,900 sustain ladder. KLBF HOLD trailing 931; state-machine ARMED, cluster blocks fire. Week 7 0/3 slots fresh.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "cluster spread ~24% \u2014 Gate 9 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "cluster spread >2% \u2014 Gate 9 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "cluster unresolved \u2014 Gate 9 fail; CPI/IDR import-cost headwind"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "historic anchor 6,925/7,600 unreconciled \u2014 Gate 9 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "no pullback to \u22642,300 \u2014 Gate 9 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "JSMR",
+          "detail": "3,000/3,730 outlier unresolved \u2014 Gate 9 fail"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh; trailing 931; state-3/state-4 ARMED, cluster blocks fire"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch cluster non-convergence; Telegram 403 host-not-in-allowlist (notification fell back to stdout)"
         }
       ]
     }
