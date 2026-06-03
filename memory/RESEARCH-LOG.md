@@ -7174,3 +7174,418 @@ Two-track scoring applied. Defensive-Quality Track SUSPENDED in DEFENSIVE-INTENS
 - [JSMR PT 4,509 +50% — Investing.com JSMR](https://www.investing.com/equities/jasa-marga)
 
 ---
+
+## 2026-06-03 (Wednesday) — Day 33, Week 7 Day 3 — Post Tue gap-reopen tape; DHE SDA + Danantara Phase 1 Day 3 effective
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,609.78 | +0.13% | Fresh ATH; chipmaker rally; tenth consecutive weekly leg up |
+| Nasdaq | 27,093.90 | +0.03% | Marginal record; AI/semi leadership intact |
+| Dow | 51,307.79 | +0.45% | Broader participation; financials helped |
+| Shanghai Composite | n/a | n/a | Sparse data; ts2 reports mainland sideways waiting policy signal |
+| Hang Seng | 25,757.04 | +1.41% | Strong bounce; Asia-EM risk-on relative |
+| Nikkei 225 | 66,734.24 | −0.30% | Mild profit-take off recent record |
+| VIX | 16.05 | +4.77% | Benign; no global stress signal |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Tue Jun 2 sesi II final) | 6,195.43 | +1.11% (+68.05) | Sesi I high 6,218.86 (+1.49%) gave back in sesi II; multi-source convergent (Infobanknews/Kontan/Bisnis cite 6,195.42–6,195.43) |
+| IDR/USD | 17,879.40 | +0.30% | **ABOVE 17,820 escalation trigger by 59bps (+0.33%)**; below 17,900 sustain; 18,000 cascade quiet — escalation watch ARMED |
+| Indo 10Y SUN yield | 6.85% | flat | Carry; CPI re-acceleration + IDR breach implies upward pressure into Jun 17-18 BI BOG |
+| US 10Y yield | 4.46% | +1bp | Stable; not driving EM stress |
+| Indo-US spread | 239bp | −1bp | Tight spread = limited carry cushion vs IDR pressure |
+| Newcastle thermal coal (USD/t) | 139.90 | flat (+5.6% W-o-W) | 9-week high on China mine accident supply-disruption fear; sector EXITED — irrelevant |
+| CPO palm oil (MYR/t) | 4,470 | n/a (Bursa CLOSED Jun 1-2 King's Birthday/Wesak; resumes Wed) | June contract carry; Wed Bursa reopen direction signal |
+| LME nickel (USD/t) | 19,278.38 | +0.28% | Zimbabwe export ban + LME inventories declining = tightening supply |
+| Brent crude (USD/bbl) | 94.58 (TE) / 91 (intraday) | −0.42% to −2.5% | Iran-US negotiation uncertainty; range $91–$96; MEDC structural premium fading further |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX, Tue Jun 2) | **−Rp 1.39T** | Improvement vs Fri −Rp 8.52T sesi I but **still net sell on a +1.11% green day** = persistent outflow regime |
+| Foreign flow YTD | **−Rp 45.45T** | Cumulative outflow extends; structural risk-off bias intact |
+| Top sold (Tue) | TPIA −Rp 254.59B; ASII −Rp 244.22B; MAPI −Rp 88.86B | TPIA = Prajogo cluster MSCI removal disposal continues; **ASII heaviest LQ45 sale → watchlist negative signal** |
+| Top gainers (Tue session) | DSSA +~25%; BREN +24.5%; CUAN +24.6%; XIPI +29.89%; NZIA +26.52% | Prajogo cluster post-MSCI-removal T+1 reversion (low-quality bounce; non-actionable) |
+| BI FX reserves | $146.2B (April) | Fell from $148.2B March; intervention-related; coverage 5.8m imports |
+
+### Sector Momentum
+
+| Sector | Trend (Tue Jun 2) | Key Driver | Watchlist Ticker |
+|--------|-------------------|------------|------------------|
+| Banking | Tue +0.27% mild green | BI 5.25% restrictive; Jun 17-18 BOG (50% prob +25bp Kenanga); CPI 3.08% pressure | BBCA 5,750; BBRI 3,030 (strike-1) |
+| Energy (broad) | **Tue +1.61% leader** | Newcastle 9wk high; DSSA/BREN/CUAN MSCI reversion (non-fundamental) | PGAS gated; coal EXITED |
+| Coal (sub-sector) | EXITED per 2-strike rule | Danantara Phase 1 Day 3 binds; DHE SDA mining 30%/3m repat | — |
+| Raw Materials | Tue +1.32% strong | Nickel bid; MSCI removal reversion (ANTM/INCO) | Nickel sector under Danantara watch |
+| Nickel / Mining | Mixed; LME bid + supply-cut tailwind | DHE SDA mining 30%/3m repat; Danantara Phase 1 ferroalloy gateway | ANTM 3,700-3,940 (MSCI removal contam); INCO 6,825; MDKA 3,750 |
+| CPO / Agri | Neutral; Bursa Malaysia reopen Wed for fresh print | Danantara Phase 1 Day 3 CPO single-gateway; Jakarta Post Jun 3 "industry braces" headline | AALI/LSIP under Danantara watch — avoid |
+| Property / Construction | Suspended (rate-sensitive) | BI 5.25% restrictive + CPI 3.08% re-accel | BSDE/CTRA/SMRA/PWON SKIP; WSKT/PTPP/ADHI SKIP |
+| Consumer | Improving on Phintraco Tue picks (INDF/UNVR/ICBP/MTEL/HMSP/GGRM) | CPI 3.08% margin watch; IDR-weak = ICBP/INDF wheat/sugar import-cost headwind | UNVR / ICBP / INDF / MYOR all CANDIDATE-gated |
+| Telco | Defensive bid; AGM Jun 8 TLKM buyback (T-3 trading days) | Danantara Telkom consolidation 67→19 entities = governance positive | TLKM 2,810-3,050 CANDIDATE; MTEL absorbing 2 subs |
+| Healthcare | Defensive leadership Week 6 (KLBF +9.52%); MSCI removal cleansed | KLBF buyback Rp500B through Jul 2 = structural bid | KLBF HELD; MIKA MSCI-removal contam SKIP |
+| Infrastructure | Tue +0.64% mild green | Govt spending; JSMR H2 toll tariff cycle | JSMR 3,000 CANDIDATE |
+| Auto/Industrial | Tue heavy foreign sell (ASII −Rp 244B) | Agincourt overhang residual; export-policy contagion via UNTR Komatsu/coal exposure | ASII / UNTR caution |
+| Cement / Tech | Negative; structural decline | Property weak + IDR pressure | SMGR / INTP / GOTO / BUKA SKIP |
+
+### Corporate Calendar Today / Near-term
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **AGM with Rp1T buyback approval** | TLKM | Mon Jun 8 14:00 WIB | Structural buyback bid Jun 9 2026 → Jun 8 2027 = defensive catalyst within 3 trading days of Wed entry |
+| Next earnings | TLKM | Jun 29 2026 | Q1/H1 print; non-near-term |
+| Next earnings | MEDC | Jul 30 2026 | Non-near-term |
+| MTEL absorbs PST + UMT subs | MTEL | Q2-Q3 2026 | Governance simplification; modest near-term |
+| BI BOG meeting | MACRO | Jun 17-18 (T+10 trading days) | 50% prob +25bp hike (Kenanga); IDR breach 17,879 raises odds |
+| BPS CPI (May print delivered) | MACRO | Released Tue Jun 2 | **3.08% YoY (vs 2.42% April) → re-acceleration; CPI 111.40; supports BI hawkish bias** |
+| **DHE SDA new regulation (PP 21/2026) effective** | MACRO | Jun 1 2026 (Day 3) | Non-mining 100% / 12m placement; mining 30% / 3m; max 50% IDR conversion; PPh incentive to 0%. IDR supportive over 3-12m; near-term flow-mechanical |
+| **Danantara Phase 1 single-gateway (coal/CPO/ferroalloy export reporting via DSI)** | MACRO | Jun 1 2026 (Day 3) | Jakarta Post Jun 3 "industry braces" — operational frictions emerging; sector overhang persists |
+
+### Watchlist Scan — All 50 Tickers
+
+Score each ticker 1–10. Sector momentum filter applied. Multi-source price spread persists across most tickers due to Day 43 data-infra outage; carry from prior sessions used where Tue Jun 2 close is single-source.
+
+| # | Ticker | Sector | Price (carry/Tue ref) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-----------------------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 5,750 (Tue) | +0.27% sect | 5 | LQ45 mega-cap defensive bid; sector strike-1 binding; CPI 3.08% re-accel + IDR 17,879 = NIM compression + asset quality watch; no fresh catalyst | WATCH |
+| 2 | BBRI | Banking | 3,030 (Tue) | sect | 3 | Strike-1 of sector-exit (May 1 hard-cut); second BBRI hard-cut forces full banking exit; no fresh thesis | SKIP |
+| 3 | BMRI | Banking | 4,120 carry | sect | 4 | Mega-cap defensive; IDR-pressure NIM watch; no near-term catalyst | WATCH |
+| 4 | BBNI | Banking | n/a | sect | 4 | LQ45; defensive but no near-term catalyst; CPI/IDR pressure | WATCH |
+| 5 | BNGA | Banking | n/a | sect | 3 | Tier-2 bank; data-thin; no thesis | SKIP |
+| 6 | NISP | Banking | n/a | sect | 3 | Niche bank; no near-term catalyst | SKIP |
+| 7 | BBTN | Banking | n/a | sect | 3 | Mortgage bank → property-cycle rate-sensitive; BI 5.25% adverse | SKIP |
+| 8 | ADRO | Coal | n/a | n/a | 0 | **SECTOR EXITED** (2-strike rule, May 18 ITMG + May 20 ADRO); Danantara Phase 1 Day 3 binds; DHE SDA 30%/3m extra friction | SKIP |
+| 9 | ITMG | Coal | n/a | n/a | 0 | **SECTOR EXITED**; Newcastle $139.90 favourable but counterfactual | SKIP |
+| 10 | PTBA | Coal | n/a | n/a | 0 | **SECTOR EXITED** | SKIP |
+| 11 | BUMI | Coal | n/a (high-freq Tue) | n/a | 0 | **SECTOR EXITED**; Tue high-freq turnover = speculative bounce not fundamental | SKIP |
+| 12 | HRUM | Coal | n/a | n/a | 0 | **SECTOR EXITED** | SKIP |
+| 13 | MEDC | Energy/Oil&Gas | n/a | n/a | 4 | Brent retracement $94→$91 erodes structural premium; Jul 30 next earnings non-near-term; data-thin | WATCH |
+| 14 | PGAS | Gas/Energy | 1,900 (TradingView carry) | n/a | **7** | Abadi LNG 15-yr HoA + Danantara consolidation = SOE channel beneficiary; DHE SDA non-mining 100%/12m on PGAS gas exports = friction risk; multi-source spread 3rd session blocks entry; IDR-pressure adverse for IDR debt | CANDIDATE — gated on cluster ≤2% + R:R ≥2:1 |
+| 15 | ANTM | Nickel | 3,700–3,940 carry | sect +1.03% | 4 | MSCI Small Cap removal T+2 contam risk; Q1 net +61.9% strong; Danantara ferroalloy gateway risk; mining DHE 30%/3m mild | WATCH |
+| 16 | INCO | Nickel | 6,825 (carry; recent ATH bounce) | n/a | 5 | Nickel up + LME tightening; IDXSHAGROW removal mild flow risk; Danantara ferroalloy gateway risk | WATCH |
+| 17 | MDKA | Nickel | 3,750 carry | n/a | 5 | Copper/gold tailwind; data-thin on Tue; Danantara ferroalloy risk peripheral | WATCH |
+| 18 | NCKL | Nickel | n/a | n/a | 4 | Nickel sector beta; data-thin | WATCH |
+| 19 | MBMA | Nickel | n/a | n/a | 4 | Battery materials thesis; Tue n/a; Danantara ferroalloy gateway exposure | WATCH |
+| 20 | TINS | Metals/Tin | n/a | n/a | 3 | Tin-cycle peripheral; no near-term catalyst; Danantara Phase 1 Day 3 mineral overhang | SKIP |
+| 21 | UNVR | Consumer | n/a | n/a | 5 | Phintraco picks UNVR for Jun 2; defensive FMCG; Q1 retracement post-May 21 +5.45% candle erased entry zone; CPI/IDR mixed | WATCH |
+| 22 | ICBP | Consumer | 6,875/6,750 prior cluster | n/a | **6** | Consumer staple defensive; Q1 rev +7.6% / EPS −3.1% mild margin pinch; **CPI 3.08% + IDR 17,879 = wheat/sugar import-cost headwind acute**; entry ≤6,650 for 2:1 R:R | CANDIDATE — pullback to ≤6,650 |
+| 23 | INDF | Consumer | 6,925 (May 29 carry) | n/a | **6** | Parent of ICBP + plantation; Phintraco Jun 2 pick; same IDR-import headwind as ICBP; spread vs 7,600 historic anchor unresolved | CANDIDATE — gated on cluster ≤2% + ≤6,400 |
+| 24 | MYOR | Consumer | 2,360 carry | n/a | **6** | Mid-cap snack/beverage; MENA/Saudi export = **IDR-weak tailwind favourable in 17,879 regime**; pullback to ≤2,300 needed | CANDIDATE — pullback watch ≤2,300 |
+| 25 | SIDO | Consumer | n/a | n/a | 3 | MSCI Small Cap removal T+2 contam | SKIP |
+| 26 | TLKM | Telco | 2,810–3,050 range (May carry) | n/a | **7** | **AGM Mon Jun 8 14:00 WIB Rp1T buyback approval = structural-bid catalyst T+3 trading days**; Danantara consolidation 67→19 entities governance positive; 7.28% div yield; not MSCI-affected; entry ≤2,930 for 2:1 R:R | CANDIDATE — gated on multi-source ≤2% + ≤2,930 |
+| 27 | EXCL | Telco | n/a | n/a | 4 | XLSmart merger digestion; MTEL absorbing customer counterparty; data-thin | WATCH |
+| 28 | ISAT | Telco | n/a | n/a | 4 | Defensive but no near-term catalyst | WATCH |
+| 29 | MTEL | Telco/Tower | n/a | n/a | 4 | Subsidiary absorption (PST + UMT) governance positive but EPS-dilutive Q2-Q3 noise; data-thin | WATCH |
+| 30 | TOWR | Telco/Tower | n/a | n/a | 4 | Tower defensive; no near-term catalyst | WATCH |
+| 31 | BSDE | Property | n/a | n/a | 2 | **Suspended sector** (BI 5.25% + CPI 3.08% re-accel + IDR 17,879 rate-sensitive headwind) | SKIP |
+| 32 | CTRA | Property | n/a | n/a | 2 | **Suspended sector** | SKIP |
+| 33 | SMRA | Property | n/a | n/a | 2 | **Suspended sector** | SKIP |
+| 34 | PWON | Property | n/a | n/a | 2 | **Suspended sector**; recurring income mildly more defensive but BI-cycle binds | SKIP |
+| 35 | GOTO | Tech | n/a | n/a | 2 | Structural decline; no thesis | SKIP |
+| 36 | BUKA | Tech | n/a | n/a | 2 | Structural decline; no thesis | SKIP |
+| 37 | EMTK | Tech/Media | n/a | n/a | 3 | Media-tech mid-cap; data-thin | SKIP |
+| 38 | ASII | Auto/Industrial | 5,400–5,600 carry | n/a (Tue **foreign top-sell −Rp 244B**) | 3 | Agincourt revocation residual + foreign top-sell signal; CPI/IDR adverse for auto credit; UNTR mining/Komatsu pipeline overhang | SKIP |
+| 39 | UNTR | Heavy Equipment | 22,400–24,400 range | n/a | 3 | Komatsu/coal-mining pipeline + Agincourt; Danantara Phase 1 Day 3 indirect drag | SKIP |
+| 40 | AKRA | Distribution | n/a | n/a | 4 | Petroleum/chemical distribution; Brent retracement adverse; data-thin | WATCH |
+| 41 | AALI | Plantation | n/a | n/a | 2 | **Danantara Phase 1 CPO single-gateway binds**; "industry braces" Jakarta Post Jun 3 = operational friction | SKIP |
+| 42 | LSIP | Plantation | n/a | n/a | 2 | **Danantara Phase 1 CPO single-gateway binds** | SKIP |
+| 43 | JSMR | Infrastructure | 3,000 carry (3,000 vs 3,730 spread unresolved) | n/a | **6** | Toll-road defensive cash flow; PT 4,509 +50%; H2 2026 tariff cycle structural bid; **rate-sensitive DCF vs IDR 17,879 + CPI 3.08% headwind**; mark resolution still needed | CANDIDATE — gated on cluster ≤2% + R:R ≥2:1 |
+| 44 | WSKT | Construction | n/a | n/a | 1 | **Suspended sector** + balance-sheet stress | SKIP |
+| 45 | PTPP | Construction | n/a | n/a | 2 | **Suspended sector** | SKIP |
+| 46 | ADHI | Construction | n/a | n/a | 2 | **Suspended sector** | SKIP |
+| 47 | KLBF | Healthcare | 1,035/1,135 cluster carry | n/a | **8** | **HELD 519,000 sh @ entry 945**; first state-machine transition fired Fri May 29; buyback Rp500B through Jul 2 (~30 days); defensive-lag-on-green / outperform-on-red pattern; NOT MSCI-removed | **HOLD** |
+| 48 | MIKA | Healthcare | n/a | n/a | 2 | MSCI Small Cap removal T+2 contam | SKIP |
+| 49 | SMGR | Cement | n/a | n/a | 2 | **Suspended sector** (rate-sensitive + Property cycle) | SKIP |
+| 50 | INTP | Cement | n/a | n/a | 2 | **Suspended sector** | SKIP |
+
+**Watchlist summary:** 50 tickers screened. **5 CANDIDATES (score ≥6): KLBF (HELD, 8), TLKM (7), PGAS (7), ICBP (6), INDF (6), MYOR (6), JSMR (6).** Net 7 names ≥6 — slimmer than Tue carry (6) because INDF promoted on Phintraco confirmation and CPI/IDR re-pricing weighed on ICBP scoring (held at 6, not raised). Note: ICBP/INDF wheat/sugar import-cost headwind is acute at IDR 17,879 — pre-mortem critical.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+#### 1. KLBF — score 8/10 — HELD; healthcare defensive leader, state-machine transition fired
+
+**Fundamental case (HELD position update):**
+- Thesis intact: Q1 2026 rev +10% YoY Rp 9.7T; Distribution & Logistics +21%; GPM 41→38% with OPM stable 14%.
+- IDR 500B buyback active through Jul 2 = ~30 calendar days structural bid remaining.
+- Defensive sector leadership pattern confirmed (PATTERNS.md): bilateral lag-on-green / outperform-on-red under DEFENSIVE regime.
+- NOT in MSCI removal list. MIKA contagion fully avoided.
+- Catalyst: continued buyback execution + healthcare-defensive bid sustained under intensifying IDR / CPI stress.
+- Analyst view: PT 1,495 (16 Buy / 0 Sell); high 1,975 / low 1,070.
+
+**Technical context:**
+- Price: 1,035 safe-lower carry (Fri May 29) / 1,135 Yahoo Tue Jun 2 = ~9.7% cluster spread > 2% threshold. Data-infra Day 43 outage persists.
+- Volume: TBD Wed open; defensive bid pattern suggests outperform-on-red bias.
+- vs 50DMA/200DMA: above both (entry 945 mid-May, base 920-940).
+- Support: 950–970 / 920 hard floor. Resistance: 1,100–1,135.
+- Trend: uptrend intact.
+
+**Stop state:** TRAILING 10% @ 931 (state-1 transition fired Fri May 29 midday).
+- +15% trigger @ 1,087 → 7% trail @ 1,011.
+- +20% trigger @ 1,134 → 5% trail @ 1,077.
+
+**Action:** HOLD. Wed priority — re-evaluate multi-source cluster for narrowing. If cluster converges ≤2% spread AND mark ≥1,087, tighten trail to 7%. If ≥1,134, tighten to 5%. Yahoo single-source 1,135 (Tue) alone would cross +20% threshold, but cluster confirmation required (data-quality discipline binds; not discretion).
+- ADV: ~30,000,000 sh.
+- **Pre-mortem:** Thesis breaks if (a) buyback program suspended pre Jul 2; (b) IDR-pressure leads to forced healthcare price control / regulation; (c) defensive bid pattern fails on a red day (loses sector premium).
+- **Intermediate pain (mark to ≤980, ~−5% from carry):** Re-validate buyback execution + cluster narrowing before any sell-side action; state-1 trailing 931 binds non-discretionarily.
+
+---
+
+#### 2. TLKM — score 7/10 — Telco defensive, AGM Rp1T buyback approval Mon Jun 8 (T+3 trading days from Wed entry)
+
+**Fundamental case:**
+- Thesis: Telkom Indonesia — dominant integrated telco; structural-bid catalyst Mon Jun 8 14:00 WIB AGM agenda includes Rp1T buyback approval running Jun 9 2026 → Jun 8 2027 (10% cap, 15% min free float).
+- Thesis: Danantara consolidation 67 subsidiaries → 19 entities = governance positive over 6-12m.
+- Valuation: 7.28% div yield, 295T mkt cap.
+- Catalyst: AGM Mon Jun 8 14:00 WIB (T+3 trading days from Wed Jun 3 entry); buyback execution start Tue Jun 9 = immediate structural bid.
+- Analyst view: 17 Buy / 0 Sell; PT 4,051 (+33% vs 2,930 entry).
+- Insider activity: n/a fresh; Danantara is effectively the largest stakeholder.
+
+**Technical context:**
+- Price: 2,810 May ref / 3,050 May 26 high = ~8.5% spread; Tue Jun 2 mark needed.
+- Support: ~2,800. Resistance: 3,150–3,200.
+- Trend: range with mild improving bias on AGM-event approach.
+- NOT MSCI-affected.
+
+**Trade plan:**
+- Entry: ≤ 2,930 IFF (a) multi-source spread ≤2%, (b) AGM agenda confirmed not withdrawn pre-open, (c) IHSG sesi I ≥6,150, (d) IDR not breaking 17,900 sustained.
+- Stop: 2,725 (hard-cut −7%).
+- Target: 3,150 (+7.5%) → 3,350 (+14.3% stretch).
+- R:R: 2.05:1 at 2,930.
+- Position size: 5% of equity = ~165,000 sh at 2,930 (regime cap).
+- Conviction: MEDIUM-HIGH (best near-term defined catalyst on the slate).
+- ADV: ~45,000,000 sh (deep liquidity).
+- **Pre-mortem:** Breaks if (a) AGM agenda withdraws buyback item; (b) Danantara consolidation tax/restructuring drag exceeds 2-3% near-term EPS hit; (c) regulatory pricing action on telco tariffs.
+- **Intermediate pain (−4% to 2,815):** Hold if AGM agenda intact AND IDR <18,000; cover if AGM news adverse OR IDR breaks 18,000.
+
+---
+
+#### 3. PGAS — score 7/10 — Defensive utility / SOE channel beneficiary; data-infra spread still binding
+
+**Fundamental case:**
+- Thesis: Perusahaan Gas Negara — SOE gas utility; defensive cash-flow; Abadi Masela 15-yr LNG HoA confirmed ($20.94B Inpex-operated, ops 2029) = long-dated supply-secure.
+- Thesis: Danantara consolidating SOE structure = PGAS IS the SOE channel for downstream gas → governance positive.
+- Valuation: P/E ~7x estimated; div yield ~6%.
+- Catalyst: Abadi LNG validation + Danantara channel role.
+- Analyst view: positive consensus; PT carry +20-30%.
+- **DHE SDA risk:** non-mining sector 100%/12m placement requirement may apply to PGAS gas export proceeds = mild near-term IDR-cash-flow friction.
+
+**Technical context:**
+- Price: 1,900 TradingView carry; multi-source spread persists ≥3 sessions per prior log.
+- Support: 1,800. Resistance: 1,950.
+- Trend: improving from May low; data-infra outage blocks confirmation.
+
+**Trade plan:**
+- Entry: ≤ 1,850 IFF (a) multi-source spread ≤2% (resolve TradingView vs Investing.com), (b) IHSG sesi I ≥6,150, (c) IDR not breaking 17,900 sustained, (d) R:R ≥2:1 at verified mark, (e) post 11:00 WIB execution window.
+- Stop: 1,721 (hard-cut −7%).
+- Target: 2,050 (+10.8%).
+- R:R: 1.55:1 at 1,850 (below 2:1 floor → STRICT entry ≤1,820 to achieve 2:1 with same target).
+- Position size: 5% of equity at verified mark = ~265,000 sh at 1,850 (regime cap).
+- Conviction: MEDIUM.
+- ADV: ~25,000,000 sh.
+- **Pre-mortem:** Breaks if (a) DHE SDA non-mining 100%/12m placement creates funding-mix shock; (b) Danantara restructuring drag emerges; (c) Brent <$85 weighs on LNG-linked pricing; (d) cluster spread fails to narrow third session running → infra-debt blocks entry indefinitely.
+- **Intermediate pain (−4% to 1,776):** Hold if cluster narrows and thesis intact; cover on DHE adverse application clarity.
+
+---
+
+#### 4. ICBP — score 6/10 — Consumer staple; CPI/IDR pre-mortem critical
+
+**Fundamental case:**
+- Thesis: Indofood CBP — dominant Indonesia FMCG / instant noodles; Q1 rev +7.6% YoY = volume growth intact; Q1 EPS −3.1% = modest input/margin pinch.
+- Thesis: defensive demand under stress regime; brand pricing power.
+- Valuation: P/E ~12x; below sector median.
+- Catalyst: continued defensive bid + Phintraco Jun 2 BUY recommendation (with INDF/UNVR/MTEL/HMSP/GGRM).
+- Analyst view: 28 Buy / 5 Hold / 0 Sell.
+- **CRITICAL HEADWIND:** CPI 3.08% re-acceleration + IDR 17,879 above escalation = wheat/sugar/dairy import-cost headwind directly compresses GPM. Re-test of Q2 margin signal incoming. This is exactly the regime where ICBP MAY fail to defend its multiple.
+
+**Technical context:**
+- Price: 6,875/6,750 prior cluster ~1.8% spread (acceptable); Tue Jun 2 mark needed for fresh verification.
+- Support: 6,500-6,650. Resistance: 7,200-7,400.
+- Trend: range with downward bias post Q1 EPS miss.
+
+**Trade plan:**
+- Entry: ≤ 6,650 IFF (a) Tue Jun 2 close cluster ≤2%, (b) IDR not breaking 18,000 sustained, (c) IHSG sesi I ≥6,150.
+- Stop: 6,184 (hard-cut −7%).
+- Target: 7,250 (+9%) → R:R 1.3:1 at 6,650 (insufficient — STRICT entry ≤6,500 to achieve 2:1 with target 7,250).
+- Position size: 5% of equity at verified mark = ~75,000 sh at 6,650.
+- Conviction: MEDIUM (downgraded from prior carry given CPI/IDR re-pricing).
+- ADV: ~12,000,000 sh.
+- **Pre-mortem:** Breaks if (a) IDR > 18,000 → wheat/sugar/dairy import shock cascades into GPM; (b) Q2 GPM further decompresses (signal at any guidance/preview); (c) consumer staples cascade.
+- **Intermediate pain (−4% to ~6,384):** Hold if IDR <17,900 and CPI projection stable; cover on either rule breach.
+
+---
+
+#### 5. INDF — score 6/10 — Consumer staple parent + plantation; same IDR-import headwind
+
+**Fundamental case:**
+- Thesis: Indofood Sukses Makmur — parent of ICBP plus integrated plantation/agri exposure; defensive FMCG + commodity hedge.
+- Catalyst: Phintraco Jun 2 BUY recommendation; co-pick with ICBP/UNVR/MTEL/HMSP/GGRM = consumer-rotation thesis sustained.
+- Valuation: P/E ~7x (below ICBP); discount partly reflects plantation overhang.
+- **DHE SDA / Danantara Phase 1 risk peripheral:** INDF's Indofood Agri / SIMP plantation segment exposed to CPO single-gateway via DSI (mining-side DHE 30%/3m friction).
+
+**Technical context:**
+- Price: 6,925 (May 29 carry); historical anchor spread vs 7,600 unresolved.
+- Support: 6,500. Resistance: 7,200-7,600.
+- Trend: range; data-quality risk binds.
+
+**Trade plan:**
+- Entry: ≤ 6,400 IFF (a) multi-source cluster ≤2% AND historic anchor reconciled to 6,925 vs 7,600 spread, (b) IDR not breaking 18,000.
+- Stop: 5,952 (hard-cut −7%).
+- Target: 7,200 (+12.5%).
+- R:R: 1.8:1 at 6,400 — below 2:1 floor → STRICT entry ≤6,200 needed for 2:1.
+- Position size: 5% of equity = ~78,000 sh at 6,400.
+- Conviction: MEDIUM.
+- ADV: ~15,000,000 sh.
+- **Pre-mortem:** Breaks if (a) historic anchor 7,600 reconfirmed → entry zone is chase; (b) plantation Danantara Phase 1 friction materializes in Q2 guidance; (c) IDR cascade > 18,000.
+- **Intermediate pain (−4% to 6,144):** Hold if data-quality clear and IDR <17,900; cover on either rule breach.
+
+---
+
+#### 6. MYOR — score 6/10 — Mid-cap consumer with **IDR-weak tailwind** (regime-friendly)
+
+**Fundamental case:**
+- Thesis: Mayora Indah — snack/beverage; MENA/Saudi export exposure provides **net positive IDR-weak tailwind** in current 17,879 regime — REGIME-FRIENDLY uniquely.
+- Thesis: less crowded vs ICBP/INDF positioning; defensive demand.
+- Valuation: P/E ~16x; GPM resilient.
+- Catalyst: no discrete near-term catalyst (structural defensive bid + IDR tailwind).
+
+**Technical context:**
+- Price: 2,360 (Fri May 29 +2.16% relative-strength on red tape; Tue Jun 2 mark needed).
+- Support: ~2,250. Resistance: ~2,500.
+- Trend: range with mild uptrend.
+
+**Trade plan:**
+- Entry: ≤ 2,300 (pullback to support).
+- Stop: 2,139 (hard-cut −7%).
+- Target: 2,650 (+15.2%).
+- R:R: 2.2:1 at 2,300 (passes 2:1 floor).
+- Position size: 5% of equity = ~213,000 sh at 2,300.
+- Conviction: MEDIUM.
+- ADV: ~5,000,000 sh.
+- **Pre-mortem:** Breaks if (a) MENA conflict cuts export volume; (b) sugar/cocoa input spike compresses GPM; (c) consumer staples broad cascade on IDR shock > 18,500.
+- **Intermediate pain (−4% to 2,208):** Hold if export channel intact; cover on single ARB-down day with no recovery bid.
+
+---
+
+#### 7. JSMR — score 6/10 — Toll-road defensive; rate-DCF sensitive
+
+**Fundamental case:**
+- Thesis: Jasa Marga — dominant toll-road SOE; defensive recurring cash flow; H2 2026 tariff adjustment cycle = structural bid.
+- Thesis: 11 Buy / 0 Sell; PT 4,509 (+50%); 52w bottom-quartile.
+- Valuation: P/E ~10x.
+- Catalyst: tariff adjustment cycle H2 2026.
+- **CRITICAL HEADWIND:** rate-sensitive DCF — CPI 3.08% re-acceleration + IDR 17,879 + BI Jun 17-18 (50% prob +25bp) all squeeze the discount-rate side of valuation.
+
+**Technical context:**
+- Price: 3,000 (May 25 carry); 3,730 Investing.com outlier prior week needs Tue tape resolution; May 29 ref 3,010.
+- Support: 2,890. Resistance: 3,150-3,200.
+- Trend: range with mild downward bias on rate-cycle hawkish prints.
+
+**Trade plan:**
+- Entry: ≤ 2,950 IFF (a) multi-source spread ≤2%, (b) BI no hawkish news pre-AGM Jun 17-18, (c) IHSG ≥6,150.
+- Stop: 2,743 (hard-cut −7%).
+- Target: 3,350 (+13.6%).
+- R:R: 2.0:1 at 2,950 (passes 2:1 floor).
+- Position size: 5% of equity = ~166,000 sh at 2,950.
+- Conviction: MEDIUM (best R:R on slate, but DCF rate-sensitive).
+- ADV: ~12,000,000 sh.
+- **Pre-mortem:** Breaks if (a) BI hawkish escalation > 5.25%; (b) tariff cycle delayed; (c) 3,730 tape proves correct → entry zone gone (chase blocked by Gate 9).
+- **Intermediate pain (−4% to 2,832):** Hold if tariff cycle on track and no BI escalation; cover on BI hawkish surprise.
+
+---
+
+### Held Position Updates
+
+- **KLBF**: 519,000 sh @ entry 945. Last carry safe-lower **1,035** (Fri May 29; 9.7% cluster spread > 2% threshold; Yahoo Tue 1,135 single-source). Unrealized: +9.52% on safe-lower carry. Stop state: TRAILING 10% @ 931 (state-1 transition fired Fri midday — first of trial). Thesis: intact. Buyback IDR 500B through Jul 2 (~30 days remain). NOT in MSCI removal. Technical: vs trailing stop 931 = +10.0% buffer on safe-lower; +18.0% on Yahoo single-source. **Action: HOLD.** Wed priority: cluster narrowing re-eval; tighten +15%→7% / +20%→5% if cluster narrows ≤2% AND mark crosses thresholds.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — CONFIRMED — INTENSIFIED (5/5 + IDR escalation breach + CPI re-acceleration)**
+
+- Reasoning: 5/5 triggers active and worsening on three fronts vs prior carry. (1) BI 5.25% restrictive UNCHANGED + Jun 17-18 BOG hike risk RISING (Kenanga 50% prob → effectively higher post-CPI). (2) **IDR 17,879 ABOVE 17,820 escalation trigger by 59bps** (vs Fri partial-improvement carry 17,813); 17,900 sustain ladder approaching; 18,000 cascade quiet but armed. (3) IHSG 6,195.43 sesi II — recovered above 6,100 floor but well below 6,300 reclaim threshold; sesi II gave back +38bps of sesi I gains = real distribution behavior. (4) Foreign net sell Rp 1.39T Tue (improvement vs Fri −8.52T BUT **still net sell on a +1.11% green day** = structurally insistent outflow regime). (5) Danantara Phase 1 Day 3 (CPO/coal/ferroalloy DSI gateway) + **NEW: DHE SDA PP 21/2026 effective Jun 1** (non-mining 100%/12m, mining 30%/3m, 50% IDR conversion cap, PPh incentive to 0%) — twin structural friction layer. **(6) NEW: CPI 3.08% YoY May print** (vs 2.42% April) = re-acceleration directly opposing the BI dovish/hold path and validating the +25bp hike scenario.
+- What would change the label: (a) IDR <17,500 with sustained BI intervention success — NO (now 17,879, deteriorating); (b) BI dovish signal — NO (CPI 3.08% re-accel argues opposite); (c) IHSG reclaim 6,300 with conviction — NO (carry 6,195); (d) foreign flow inflection net buy — NO (still −Rp 1.39T on a green day). **0 of 4 triggers active.** Regime deepening.
+- **Position sizing: MAX 5% of equity per position. Defensive-Quality Track SUSPENDED. Catalyst-only entries permitted with R:R ≥ 2:1 and multi-source spread ≤ 2% mandatory.**
+
+### Flagged Risks
+
+- **IDR 17,879 above 17,820 escalation trigger** — DIRECT macro risk; 17,900 sustain ladder ~21bps away; 18,000 cascade ~120bps away. Any sesi I reopen breach of 17,900 sustained = cuts entry posture; 18,000 breach = halt-and-de-risk discussion. Pre-emptive de-risk rule binds.
+- **CPI 3.08% re-acceleration** (vs 2.42% April) — DIRECTLY adverse for consumer staples (ICBP/INDF wheat/sugar/dairy import-cost), rate-sensitive DCF names (JSMR), and banking NIM/asset-quality (BBCA/BMRI). Raises Jun 17-18 BI +25bp hike probability above the Kenanga 50% prior.
+- **DHE SDA PP 21/2026 effective Jun 1 (Day 3)** — non-mining 100%/12m placement; mining 30%/3m; 50% IDR conversion cap. PGAS gas-export proceeds subject to non-mining 100%/12m = funding-mix friction risk. Tax incentive offsets compliance cost; net medium-term IDR-supportive but near-term operational drag.
+- **Danantara Phase 1 Day 3** — Jakarta Post Jun 3 "industry braces for on-the-ground reality" headline = operational frictions emerging. Coal/CPO/ferroalloy export reporting via DSI continues to overhang ADRO/ITMG/PTBA/BUMI/HRUM (SECTOR EXITED) + AALI/LSIP/ANTM/INCO/NCKL/MBMA (WATCH/SKIP).
+- **Newcastle coal $139.90 9-week high** — favourable on commodity bull but **sector EXITED** per 2-strike rule; counterfactual opportunity cost is real but cannot be acted on. No re-entry without full sector-watch reset.
+- **PGAS multi-source cluster spread** — 3rd+ session of >2% spread blocks highest-scoring fundamental candidate. Data-infra debt (yfinance Day 43 blocked) is the binding bottleneck — codified for Week 7 weekend infra patch per prior weekly review.
+- **Banking sector strike-1 watch** — BBRI May 1 hard-cut = 1-of-2 sector-exit strike. Second hard-cut forces full banking exit. CPI/IDR re-pricing raises BBCA/BMRI/BBNI marginal forced-cut risk.
+- **MSCI Small Cap removal T+3 residual** — Fri T+0, Mon Holiday T+0, Tue T+1, Wed T+2 — SIDO/MIKA/ANTM/AALI/BSDE residual passive-sell pressure may continue. Avoid contaminated names.
+- **Foreign net sell on a +1.11% green day** — Tue −Rp 1.39T = passive money still leaving even on rally; not a confirmation that risk-on is back. ASII −Rp 244B + TPIA −Rp 254B = LQ45 large-cap distribution continues.
+- **Eagerness check binds** — Week 7 0/3 slots fresh; cumulative trial alpha ~+17.10% to protect; 4-day cumulative closure raised forced-entry pressure that did not materialize on Tue. Default: **PATIENCE; 0-2 new entries through Wed-Fri**.
+
+### Plan for /market-open (Wed Jun 3)
+
+- [ ] **Open verification:** confirm Tue Jun 2 sesi II final 6,195.43 anchor + Wed sesi I IDR mark + IDR escalation status (17,820 / 17,900 / 18,000 ladder).
+- [ ] **Cluster verification multi-source:** Yahoo Finance + Investing.com + TradingView + Sectors.app per ticker; ≤2% spread MANDATORY before any gate-check buy.
+- [ ] **NO COAL / CPO / FERROALLOY entries** — Danantara Phase 1 Day 3 binding (Jakarta Post operational-friction headline confirmation).
+- [ ] **NO PROPERTY / CONSTRUCTION / CEMENT entries** — BI 5.25% + CPI 3.08% re-accel + IDR 17,879 rate-sensitive headwind compounded.
+- [ ] **NO MSCI removal names** — SIDO/MIKA/ANTM/AALI/BSDE T+2/T+3 residual flow risk continuing.
+- [ ] **NO TECH / EMTK / GOTO / BUKA entries** — structural decline.
+- [ ] **NO BANKING entries** — BBRI strike-1 binding; BBCA/BMRI/BBNI require simultaneous IHSG green + IDR <17,900 + same-day idiosyncratic catalyst (gate inactive today).
+- [ ] **Trades this week target: 0-2 new entries** in DEFENSIVE-INTENSIFIED regime. Eagerness check binds.
+- [ ] **TLKM** — BUY ≤2,930 IFF (a) multi-source spread ≤2%, (b) AGM Jun 8 buyback agenda confirmed not withdrawn, (c) R:R ≥ 2:1 at verified mark, (d) IHSG sesi I ≥6,150, (e) IDR not breaking 17,900 sustained. **Highest-conviction near-term defined catalyst on slate (AGM T+3).**
+- [ ] **PGAS** — BUY ≤1,820 IFF (a) cluster narrows to ≤2%, (b) R:R ≥2:1 at verified mark, (c) IDR not breaking 17,900 sustained, (d) post 11:00 WIB execution window. Strict R:R-derived entry (vs 1,850 prior) given Brent retracement + DHE non-mining 100%/12m risk.
+- [ ] **ICBP** — BUY ≤6,500 IFF (a) cluster ≤2%, (b) R:R ≥2:1 at verified mark, (c) IDR <17,900 sustained. Strict entry given CPI/IDR import-cost headwind.
+- [ ] **INDF** — BUY ≤6,200 IFF (a) cluster ≤2% AND historic anchor 7,600 spread reconciled, (b) R:R ≥2:1, (c) plantation Danantara friction not adverse. WATCH-bias given anchor unresolved.
+- [ ] **MYOR** — Watch entry on pullback to ≤2,300 (only regime-friendly candidate via MENA-export IDR-weak tailwind).
+- [ ] **JSMR** — BUY ≤2,950 IFF (a) cluster ≤2% (resolve 3,000 vs 3,730 ambiguity), (b) R:R ≥2:1, (c) BI no hawkish news.
+- [ ] **KLBF** — HOLD; midday cluster re-eval; tighten +15%→7% / +20%→5% if cluster narrows ≤2% AND mark crosses thresholds. Yahoo 1,135 single-source alone would cross +20% threshold but cluster confirmation required.
+- [ ] **Monitor Wed Jun 3 macro:** IHSG vs 6,000 floor / 6,200 carry-through / 6,300 reclaim; **IDR vs 17,820 (BREACHED) / 17,900 sustain / 18,000 cascade ladder — IDR ladder is the primary kill-switch today**; foreign flow direction (Tue −Rp 1.39T on green day = structurally negative).
+- [ ] **Pre-emptive de-risk rule:** No new entries after 13:00 WIB (MISTAKES.md 2026-05-20 ADRO lesson; raised priority on intensifying IDR ladder).
+- [ ] **Activity log update at run end** — pre-market complete; ≥6 candidates scored ≥6; KLBF HOLD into Wed.
+
+### Sources
+
+- [S&P 500 7,609.78 / Nasdaq 27,093.90 / Dow 51,307.79 Jun 2 ATH — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-02-2026)
+- [S&P 500 record chipmaker rally Jun 2 — Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-june-2-212210685.html)
+- [Hang Seng 25,757.04 +1.41% Jun 2 — Yahoo Finance HSI](https://finance.yahoo.com/quote/%5EHSI/history/)
+- [Nikkei 66,734.24 −0.3% Jun 3 — Yahoo Finance N225](https://uk.finance.yahoo.com/quote/%5EN225/)
+- [VIX 16.05 +4.77% Jun 1 — FRED VIXCLS](https://fred.stlouisfed.org/series/VIXCLS/)
+- [IHSG Tue Jun 2 sesi II close 6,195.43 +1.11% — Infobanknews](https://infobanknews.com/ihsg-ditutup-menguat-111-persen-ke-level-6-195-mayoritas-sektor-saham-masih-melemah)
+- [IHSG Tue sesi II close 6,195.42 / energy sector +1.61% Tue — Koran Jakarta](https://koran-jakarta.com/2026-06-02/ihsg-hari-ini-ditutup-menguat-hingga-akhir-sesi-investor-borong-saham-energi/amp)
+- [IHSG Wed Jun 3 prediction 6,220-6,280 sideways-mild-up — Inikata](https://inikata.co.id/ihsg-hari-ini-naik-1-11-ke-zona-hijau-investor-soroti-sektor-terbaru-2026)
+- [IHSG Wed Jun 3 support 5,960-6,060 / resistance 6,290-6,365 — Investor.id](https://investor.id/market/441188/prediksi-ihsg-dan-rekomendasi-saham-rabu-3-juni-2026)
+- [Asing Net Sell Rp 1.39T Tue Jun 2; TPIA/ASII/MAPI top-sold; YTD Rp 45.45T — Kontan](https://investasi.kontan.co.id/news/asing-net-sell-rp-139-triliun-di-awal-juni-2026-cek-saham-yang-banyak-dilepas)
+- [USD/IDR 17,879.40 Jun 2 +0.30% — TE Indonesia Currency](https://tradingeconomics.com/indonesia/currency)
+- [US 10Y 4.46% Jun 2 — TE US Bond](https://tradingeconomics.com/united-states/government-bond-yield)
+- [Indo 10Y SUN 6.85% carry — TE Indonesia Bond](https://tradingeconomics.com/indonesia/government-bond-yield)
+- [Newcastle thermal coal $139.90 9-week high; China mine accident — TE Coal](https://tradingeconomics.com/commodity/coal)
+- [Brent $94.58 −0.42% Jun 2; intraday $91 range on Iran negotiation — TE Brent](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [Brent current Jun 2 — Fortune](https://fortune.com/article/price-of-oil-06-02-2026/)
+- [LME nickel $19,278 +0.28% Jun 2 — TE Nickel](https://tradingeconomics.com/commodity/nickel)
+- [CPO RM4,470 May 30 carry; Bursa CLOSED Jun 1-2 — Palm Oil Magazine](https://www.palmoilmagazine.com/cpo-price/2026/05/30/kpbn-cpo-bids-surge-7-7-despite-withdrawn-tenders-malaysia-futures-end-mixed/)
+- [Indonesia CPI May 3.08% YoY release Tue Jun 2 — Xinhua](https://english.news.cn/20260602/ef4d66c05f2242168c084a006bb3ee4c/c.html)
+- [Indonesia FX reserves $146.2B April — IDNFinancials](https://www.idnfinancials.com/news/63624/indonesias-fx-reserves-fall-to-usd-146-2-billion-amid-rupiah-defence)
+- [BI BOG Meeting Jun 17-18 +25bp scenario 50% Kenanga — Kenanga research](https://www.kenanga.com.my/wp-content/uploads/2026/05/EV_ID_Bank-Indonesia_BOG5_260521-Kenanga.pdf)
+- [DHE SDA PP 21/2026 effective Jun 1; non-mining 100%/12m, mining 30%/3m, 50% IDR conv cap — CNBC Indonesia](https://www.cnbcindonesia.com/news/20260531165452-4-739060/pemerintah-rilis-aturan-baru-dhe-beri-insentif-bagi-eksportir-patuh)
+- [DHE SDA detailed rules + tax incentive 0% PPh — MUC Consulting](https://muc.co.id/id/article/aturan-baru-dhe-sda-berlaku-juni-2026-eksportir-patuh-dapat-insentif-pajak)
+- [Danantara Phase 1 single-gateway live Jun 1; industry braces — Jakarta Post Jun 3](https://www.thejakartapost.com/business/2026/06/03/industry-braces-for-on-the-ground-reality-as-new-coal-cpo-export-scheme-goes-live.html)
+- [Danantara Phase 1 transition coal/CPO — Jakarta Post Jun 2](https://www.thejakartapost.com/business/2026/06/02/govt-begins-transition-to-centralized-exports-for-coal-palm-oil.html)
+- [OJK POJK 3/2026 + POJK 5/2026 MIKU framework — Antara](https://www.antaranews.com/berita/5575019/ojk-terbitkan-dua-aturan-baru-perkuat-industri-pasar-modal-ri)
+- [TLKM AGM Jun 8 Rp1T buyback agenda — TipRanks](https://www.tipranks.com/news/company-announcements/pt-telekomunikasi-indonesia-tbk-sets-june-8-2026-online-agm-with-share-buyback-on-agenda)
+- [TLKM Rp1T buyback Jun 9 2026 → Jun 8 2027 — Globe and Mail](https://www.theglobeandmail.com/investing/markets/stocks/TLK-N/pressreleases/1666886/telkom-indonesia-unveils-rp1-trillion-share-buyback-plan-spanning-2026-2027/)
+- [Danantara Telkom consolidation 67 → 19 entities — Rancakmedia](https://www.rancakmedia.com/uncategorized/94943/danantara-overhauls-telkom-consolidating-67-subsidiaries-into-19-entities/)
+- [PGAS Abadi LNG 15-yr HoA — IDNFinancials](https://www.idnfinancials.com/news/61646/inpex-opens-tender-for-us21-billion-abadi-lng-project-in-2026)
+- [ICBP Q1 rev +7.6% / EPS −3.1% — Smartkarma](https://www.smartkarma.com/home/newswire/earnings-alerts/indofood-cbp-sukses-icbp-earnings-report-1q-net-income-declines-to-2-57t-rupiah-amid-stable-investor-confidence/)
+- [Consumer recovery UNVR/ICBP/MYOR/INDF — Premium Bisnis](https://premium.bisnis.com/read/20260119/664/1945121/recovery-momentum-builds-across-consumer-issuers-from-icbp-myor-unvr-indf-amrt)
+- [Phintraco Sekuritas Jun 2 picks INDF/UNVR/ICBP/MTEL/HMSP/GGRM — Indonesia IHSG outlook](https://www.heygotrade.com/en/news/indonesia-ihsg-june-2-outlook-stock-picks/)
+- [BBCA 5,750 / BBRI 3,030 Jun 2 — TradingView IDX](https://www.tradingview.com/symbols/IDX-BBRI/)
+- [BBRI Q1 in-line; banking sector RHB overweight — Kontan](https://stocksetup.kontan.co.id/news/saham-bank-big-cap-bbca-bbni-bbri-diprediksi-pulih-2026-cek-target-harga)
+- [ANTM Q1 net +61.9% gold sales surge — IDNFinancials](https://www.idnfinancials.com/news/63344/gold-sales-surge-antm-net-profit-jumps-61-9-in-q1-2026)
+- [MTEL absorbing PST + UMT subsidiaries — IDNFinancials](https://www.idnfinancials.com/news/63617/mtel-to-absorb-two-subsidiaries-adds-four-businesses-including-iot)
+- [Property sector BUY ratings BSDE/CTRA/SMRA — Digivestasi](https://www.digivestasi.com/news/detail/saham_terkini/3-property-stocks-get-buy-ratings-check-target-prices-for-bsde-smra-and-ctra?lang=eng)
+- [Sharia index restructuring Jun 2 — Jul 30; UNTR weight up 3.70 → 6.09; ASII removed IDXSHAGROW — Mediakompeten](https://www.mediakompeten.co.id/bei-rombak-indeks-saham-syariah)
+- [KLBF Yahoo single-source 1,135 — Yahoo Finance KLBF](https://sg.finance.yahoo.com/quote/KLBF.JK/)
+- [JSMR PT 4,509 +50% — Investing.com JSMR](https://www.investing.com/equities/jasa-marga)
+
+---
