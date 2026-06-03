@@ -7587,6 +7587,12 @@
           "detail": "WebSearch cluster non-convergence; Telegram 403 host-not-in-allowlist (notification fell back to stdout)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-03T04:39:28Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "KLBF cluster spread persists ~42% (745-1,060 across 4 sources) - data-quality discipline blocks both -7% hard cut on 745 outlier and state-machine tightening triggers (+15%/+20% ARMED). KLBF thesis INTACT (buyback Rp500B active through Jul 2). IDR cooling to 17,813-17,865 cluster (convergent <2% spread, below 17,900 sustain). 0 actions. Week 7 0/3 slots preserved. Cumulative alpha +17.10%."
     }
   ],
   "exposure": {

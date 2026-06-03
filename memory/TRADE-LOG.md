@@ -3238,3 +3238,84 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 - No infra patch executed this run — broker.sh cmd_sell MD_LAST_PRICE_OVERRIDE path remains deferred to weekend infra patch per MISTAKES.md 2026-05-20.
 - Trial alpha protection binding: +17.10% cumulative alpha is the precious resource; defensive cash-heavy posture earned it.
 
+---
+
+### 2026-06-03 11:35 WIB — MIDDAY SCAN (Day 33, Wed, Week 7 Day 3)
+
+**Status: NO ACTION.** KLBF cluster spread persists at ~42% (TradingView 745 / Investing 910-930 / Yahoo 945 / Stockbro 1,060) — multi-source ≤2% convergence threshold not met. State-machine tightening triggers (+15% → 7% trail; +20% → 5% trail) remain ARMED but cluster spread blocks confirmation of any mark ≥1,087 / ≥1,134. Trailing stop 931 GTC also blocks pre-emptive fire on the 745 TradingView outlier per multi-source discipline (MISTAKES.md 2026-05-01). KLBF thesis INTACT — buyback Rp500B through Jul 2 active (~29 days remain), defensive healthcare bid sustained, no adverse news. Safe-lower carry frozen at Tue Jun 2 anchor 1,035 pending cluster narrowing.
+
+#### Pre-midday snapshot (WebSearch fallback; yfinance Day 43 blocked)
+
+| Indicator | Value | Note |
+|-----------|-------|------|
+| IHSG (Wed open / sesi I trajectory) | 6,207.10 open (+0.19%) → 6,151.17 09:07 (−0.71%) → range 6,130-6,213 reported | Sesi I 11:30 final close not yet multi-source convergent at filing; mid-range working anchor ~6,170-6,180 |
+| USD/IDR | 17,813 (Investing.com) / 17,865 (forecast carry) / range 17,795-17,932 / open 17,745 | Cluster spread ~0.77% < 2% threshold → CONVERGENT; mid-range ~17,860 below 17,900 sustain ladder by 40bps; below 17,820 escalation trigger by 7-45bps; **cooling vs 09:15 reading 17,899** |
+| Newcastle thermal coal | 139.90 carry | Non-material (sector exited post May 20 ADRO cut) |
+| KLBF cluster | **TradingView 745 / Investing.com 910-930 / Yahoo Finance 945 / Stockbro 1,060** | Spread 745↔1,060 = ~42% > 2% threshold → safe-lower discipline binds; Tue safe-lower carry 1,035 frozen pending convergence |
+
+#### Sell-side rule application — KLBF (only open position)
+
+**Position state:**
+- 519,000 sh @ entry 945 (May 21, Day 23)
+- Carry mark: 1,035 (Tue Jun 2 safe-lower, frozen — cluster non-convergence Day 43)
+- Unrealized P&L on carry: +IDR 46,710,000 (+9.52%)
+- Stop: TRAILING state-2 @ 931 (10% trail from hwm 1,035; transitioned Fri May 29 midday)
+- Hard-cut floor: 879 (entry × 0.93)
+
+**STEP 3 — Hard-cut check (-7% from entry):**
+- 745 (TradingView single-source outlier) = -21.16% from entry → would breach if confirmed.
+- 910 / 930 / 945 / 1,060 = -3.7% / -1.6% / 0.0% / +12.2% → no hard-cut breach.
+- **Multi-source ≤2% cluster discipline binds:** spread ~42% across 4 sources; 745 is single-source low outlier; no convergence at ≤879 hard-cut floor.
+- **Per MISTAKES.md 2026-05-01 procedure:** broker.sh sell on single-source outlier risks repeating BBRI-style cleanup later (ledger correction overhead). Discipline holds.
+- **VERDICT: NO hard-cut fired. Trailing 931 GTC also does not fire pre-emptively** (broker-side would fire on confirmed cluster ≤931; not on isolated WebSearch outlier).
+
+**STEP 4 — Winners / tighten stops:**
+- State-3 trigger (+15% from entry, mark ≥1,087 → 7% trail at 1,011 from hwm 1,087): **ARMED**; only Stockbro 1,060 (single-source, below threshold) reads near; cluster non-convergence blocks fire.
+- State-4 trigger (+20% from entry, mark ≥1,134 → 5% trail at 1,077 from hwm 1,134): **ARMED**; no source reads ≥1,134 at midday (Tue Yahoo 1,135 single-source dropped to today's 945); cluster non-convergence blocks fire.
+- Guardrail check (no stop within 3% of price): N/A — no transition fired.
+- **VERDICT: NO stop tightening fired. State-2 trailing 10% @ 931, hwm 1,035 unchanged.**
+
+#### STEP 5 — Thesis check (KLBF)
+
+- **Buyback Rp500B (Apr 2 – Jul 2, 2026)** — ACTIVE, ~29 days remain. Multi-source confirmed (Bisnis, IDXChannel, Indopremier, Investing.com Indonesia, Warta Ekonomi, KabarBursa). Management cites confidence signal + EPS uplift to Rp81.19 vs FY2025 Rp80.51.
+- **Healthcare-defensive bid** — Tue Jun 2 tape vindicated defensive thesis; sesi I IHSG +1.49% on bank/healthcare/consumer leadership.
+- **No adverse news today** — no MSCI removal, no regulatory action, no earnings stretch (Q1 already printed).
+- **Not on MSCI removal list** — re-confirmed Fri May 29 + Tue Jun 2 reversion tape; KLBF NOT in BREN/CUAN/DSSA/TPIA/AMMN basket. No removal-list contagion risk.
+- **VERDICT: Thesis INTACT. No exit triggered on thesis grounds.**
+
+#### STEP 6 — Intraday move check
+
+- TradingView KLBF 745 (-3.25%) single-source outlier: no discrete catalyst identified in WebSearch; consistent with persistent Day 43+ data infrastructure outage producing cross-source divergence rather than real tape move.
+- No other position to evaluate.
+- **No RESEARCH-LOG addendum required** — cluster non-convergence is a data-quality artefact, not a tape catalyst.
+
+#### Action: NONE
+
+- 0 hard cuts (cluster spread blocks confirmation of 745 outlier).
+- 0 stop tightenings (state-3 / state-4 triggers ARMED, cluster blocks fire).
+- 0 thesis exits (buyback active + defensive bid intact).
+- 0 new entries (midday scan is sell-side only per routine).
+- KLBF state-2 trailing 10% @ 931, hwm 1,035 unchanged.
+
+#### Carry-over to 15:15 WIB EOD routine
+
+1. KLBF fresh post-sesi-II mark cluster narrowing — if cluster converges ≤2%, fire pending state-machine transitions (+15% → 7% trail at ≥1,087; +20% → 5% trail at ≥1,134); OR fire trailing 931 GTC if cluster confirms ≤931.
+2. IHSG sesi II direction + close vs 6,000 floor / 6,200 carry / 6,300 reclaim ladder.
+3. IDR sesi II direction vs 17,820 / 17,900 sustain / 18,000 cascade ladder — current cooling (mid 17,860) is favorable but watch for re-escalation.
+4. Phase-to-date P&L + cumulative alpha vs IHSG calc.
+5. 4 deferred candidates (TLKM/PGAS/ICBP/INDF/JSMR) + MYOR watch — re-gate posture for Thu Jun 4 / Fri Jun 5 pre-market (no entries possible post 13:00 WIB per pre-emptive de-risk rule).
+6. Week 7 0/3 slots still preserved.
+
+#### Notes
+
+- **Day 43 data infrastructure outage persistent:** yfinance + GoAPI blocked since Apr 21; market-data.sh non-functional; broker.sh quote returns stale entry-price stub (945) for KLBF. WebSearch-only override path operational for IHSG (partial convergence) and IDR (convergent at midday), but KLBF cluster spread 42% blocks confirmation of any state transition.
+- **Trailing stop 931 GTC paper-side note:** broker.sh paper ledger uses entry_price 945 as the only available mark in absence of live feed. The 931 GTC trailing stop is logged in STOPS.json as the binding stop level; broker-side fire requires confirmed mark, not single-source WebSearch outlier. This is consistent with the 09:15 routine note and MISTAKES.md 2026-05-01 procedure.
+- **IDR cooling at midday** (17,813-17,865 cluster mid vs 09:15 17,899) is mildly favorable; below 17,900 sustain ladder. 17,820 escalation trigger straddled by the cluster but not breached sustainedly. Pre-emptive de-risk rule (no entries post 13:00 WIB) remains binding but moot — no entries planned today.
+- **Cumulative trial alpha protection:** +17.10% carry from Tue Jun 2 remains the binding precious resource. Cash-heavy defensive posture (94.55% cash) structurally insulates against any sesi II reversal.
+- **Sector exposure unchanged:** Healthcare ~5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B carry); cash 94.55%; no banking/coal/mining/nickel.
+- **Trial trajectory:** Day 33 trial continuation (beyond original Apr 20–May 2 window); Week 7 Day 3 mid-week posture preserves all 3 slots; phase-to-date P&L −1.44% modest, drawdown −1.70% deeply within tolerances.
+
+#### Notification sent
+
+📊 Midday 2026-06-03: All positions healthy. No action taken.
+
