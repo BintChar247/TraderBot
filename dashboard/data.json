@@ -4991,6 +4991,251 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-06-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "HOLD pending cluster reconciliation; trailing 931 GTC armed but multi-source spread non-convergent at open.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Trailing 931 GTC armed (Wed 4-src conv @ 745) + ex-div IDR 20 Jun 4 mechanical adj"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DEEPENING 5/5; IHSG 5,941 (-4.11% Wed); IDR 17,976 above 17,900 sustain"
+        },
+        {
+          "type": "risk",
+          "label": "Cluster spread TradingView 745 / Sectors 745 / Investing 930 / Yahoo 945 = 26% > 2% \u2014 broker-side trailing fire BLOCKED per MISTAKES.md 2026-05-01 safe-lower discipline"
+        },
+        {
+          "type": "sizing",
+          "label": "HOLD existing 519,000 sh (entry 945); position MV TBD on cluster resolution"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override needed (yfinance Day 44 blocked); sell deferred to midday for cluster re-check"
+        }
+      ],
+      "reasoning": "Trailing-stop fire requires multi-source cluster \u22642% spread per discipline; current 4-source spread 26% blocks pre-emptive close. Defer SELL to midday 11:30 scan for fresh cluster reconciliation.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM Mon Jun 8 + Rp 3T buyback revised up; 7.25% yield; PT 4,051; deep liquidity.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM Jun 8 T+4 / Rp 3T buyback execution Jun 9 / 17 Buy 0 Sell"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DEEPENING; IDR 17,976 near 18,000 cascade; Moody's Danantara overhang"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 current 2,900 > 2,840 strict R:R cap by 2.1% (R:R 1.23 below 2:1 floor at 2,900)"
+        },
+        {
+          "type": "sizing",
+          "label": "Plan 5% cap = ~170,000 sh @ 2,840; deferred to post-11:00 WIB execution per research plan"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 44 blocked); single-source price; defer to midday for verification"
+        }
+      ],
+      "reasoning": "Best near-term defined catalyst on slate but strict R:R 2:1 cap requires entry \u22642,840; current carry 2,900 fails strict gate. Plus research plan defers execution to post-11:00 WIB window for cluster verification. Defer to midday scan.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-06-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cum-div Jun 4 today; SOE gas utility defensive; Abadi LNG; 9.53% yield.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-dividend today (ex Jun 5); IDR 182.08/sh annual; Abadi LNG HoA confirmed"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED; DHE SDA non-mining 100%/12m risk peripheral; SOE channel role"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 single-source Investing.com 2,400 far above 1,790 strict R:R cap (+34%); 5th consecutive session of cluster non-convergence"
+        },
+        {
+          "type": "sizing",
+          "label": "Plan 5% cap = ~270,000 sh @ 1,820; deferred indefinitely pending cluster narrowing"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 44 blocked); cluster fails 5th session; weekend infra patch escalated"
+        }
+      ],
+      "reasoning": "Cluster spread persists across 5 consecutive sessions (Mon-Tue-Wed-Thu-Fri carry) \u2014 codified PATTERN escalation per WEEKLY-REVIEW Week 6. Single Investing.com 2,400 read above all prior cluster carry; cannot pre-emptive fill at strict R:R \u22641,790. SKIP for the week.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Dividend total IDR 193/sh ~12.5% yield (regular + special divestiture); FMCG defensive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Dividend IDR 193/sh + Sariwangi+ice cream divestiture proceeds; Phintraco Jun 2 BUY co-pick"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED; FMCG defensive bid; Wed +2.40% reversal -2.84% Thu"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 marginal \u2014 research plan defines no explicit entry/target/R:R; current 1,710 down -2.84% Thu requires fresh R:R calc"
+        },
+        {
+          "type": "sizing",
+          "label": "Plan 5% cap = TBD; deferred to midday for explicit entry/target derivation"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 44 blocked); thesis-day Wed reversed Thu"
+        }
+      ],
+      "reasoning": "Research plan defers UNVR to 'BUY post-pullback verification IFF cluster \u22642% + R:R \u22652:1 at verified mark'; no explicit entry/target pre-defined. Current price 1,710 down -2.84% needs fresh R:R derivation at midday. Eagerness check binds \u2014 defer.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Only regime-friendly candidate \u2014 MENA/Saudi export = IDR-weak tailwind in 17,976 regime.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MENA-export IDR-weak tailwind (REGIME-FRIENDLY uniquely vs ICBP/INDF); structural defensive bid"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED; IDR 17,976 elevation = MYOR's structural tailwind"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 fail \u2014 current 1,860 above 1,800 strict R:R cap by +3.33% (gate 9 ceiling = 1,854); R:R 1.275 below 2:1 floor"
+        },
+        {
+          "type": "sizing",
+          "label": "Plan 5% cap = ~265,000 sh @ 1,800; gate 9 violation blocks execute"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 44 blocked); cluster was ~0.8% pre-open but mark drifted up"
+        }
+      ],
+      "reasoning": "Cluster pre-open was converged 0.8% but Thu mark 1,860 drifted above 1,800 strict R:R cap by +3.33% \u2014 violates gate 9 (3% chasing cap). At 1,860, R:R = 1.275 fails 2:1 floor. Defer; reassess at midday IFF pullback to 1,800 area.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -7666,6 +7911,47 @@
           "detail": "Regime DEFENSIVE-INTENSIFIED-DEEPENING; Moody Danantara Baa2 negative outlook fresh; IDR 17,976 above 17,900 sustain; IHSG sub-6,000 breached"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-04T02:20:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. KLBF SELL deferred (cluster spread 26% > 2% blocks safe-lower fire); all 4 buy candidates (TLKM/PGAS/UNVR/MYOR) defer to midday \u2014 gate 9 (price > strict R:R cap) and/or cluster non-convergence; research plan defers buy execution to post-11:00 WIB.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Trailing 931 GTC armed; cluster non-convergent (745/745/930/945 = 26% spread) per MISTAKES.md 2026-05-01 safe-lower discipline; defer SELL to midday"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Gate 9 \u2014 2,900 > 2,840 strict R:R cap; R:R 1.23 below 2:1; post-11:00 WIB deferred"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "Cluster 5th session non-convergent (Investing.com 2,400 single-source above all carry); strict R:R cap 1,790; SKIP for week"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Research plan defers to post-pullback verification + R:R derive at midday; eagerness check binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "Gate 9 \u2014 1,860 > 1,800 strict R:R cap by +3.33%; R:R 1.275 below 2:1; reassess at midday if pullback"
+        },
+        {
+          "type": "warning",
+          "detail": "yfinance + GoAPI Day 44 blocked; WebSearch fallback used for all price marks"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram API HTTP 403 (host not in allowlist) \u2014 message printed to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -7840,5 +8126,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-04T07:00:00+07:00"
+  "last_updated": "2026-06-04T09:30:00+07:00"
 }
