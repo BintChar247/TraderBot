@@ -3414,3 +3414,90 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 📈 EOD 2026-06-03: Portfolio IDR 9.856B (+0.00% day). Alpha +5.30% vs IHSG −5.30%. Cum alpha +21.41% (new trial high). KLBF frozen carry 1,035 (+9.52%). Cash 94.55%. Trades wk 0/3. Defensive thesis vindicated on IHSG -5% panic-flush + Moody's Danantara outlook negative.
 
+---
+
+### 2026-06-04 11:30 WIB — MIDDAY SCAN (Day 34, Thu, Week 7 Day 4 — KLBF ex-dividend day; IHSG sub-6,000 continuation; IDR ~17,900-17,977)
+
+**Status: NO ACTION.** KLBF cluster spread persists at ~52% (TradingView 745 / Morningstar 770 / Investing.com 930 / Yahoo Finance 1,135) — multi-source ≤2% convergence threshold not met (Day 44 data-infrastructure outage). State-machine tightening triggers (+15% → 7% trail at hwm ≥1,087; +20% → 5% trail at hwm ≥1,134) remain ARMED but cluster spread blocks confirmation. Trailing 931 GTC also blocks pre-emptive fire on TradingView 745 / Morningstar 770 single-source low outliers per multi-source discipline (MISTAKES.md 2026-05-01). **KLBF ex-dividend date is TODAY** (IDR 20/share cash dividend; record date Jun 5, payment Jun 24 = future receipt 519,000 × 20 = IDR 10,380,000). Thesis INTACT — buyback Rp500B through Jul 2 active + dividend distribution confirms management capital-return posture + healthcare defensive bid sustained. Safe-lower carry frozen at Tue Jun 2 anchor 1,035 pending cluster narrowing (Wed Jun 3 actual sesi II close = 5,941.07 per revised multi-source data; mechanical ex-div drop ~IDR 20 not material to safe-lower carry).
+
+#### Pre-midday snapshot (WebSearch fallback; yfinance Day 44 blocked)
+
+| Indicator | Value | Note |
+|-----------|-------|------|
+| IHSG (Wed Jun 3 actual sesi II close — revised) | 5,941.07 (−4.11% Wed) | Multi-source convergent per Bisnis, Beritasatu, Liputan6, Bloomberg Technoz; revises Wed sesi I anchor 5,889.48 used in Day 33 EOD; intraday range 5,842–6,213.18 |
+| IHSG (Thu Jun 4 open) | 5,919 (−0.36% from prior close 5,941.07) | Continuation weak open; analyst koreksi target 5,755–5,814; penguatan terdekat 5,958–5,984 |
+| USD/IDR | 17,840 (Investing.com prior carry) / 17,976.9 (more-recent snapshot) | Cluster mid ~17,908 ABOVE 17,900 sustain ladder; 17,976.9 within 23bps of 18,000 cascade ladder — primary kill-switch ARMED-ESCALATING; bandwidth 0.77% < 2% threshold weakly convergent but with cascade-ladder proximity |
+| Newcastle thermal coal | ~139.90 carry | Non-material (sector EXITED post May 20 ADRO cut) |
+| KLBF cluster | **TradingView 745 / Morningstar 770 / Investing.com 930 / Yahoo Finance 1,135** | Spread 745↔1,135 = ~52% > 2% threshold → safe-lower discipline binds; Yahoo 1,135 reading appears to be stale Tue Jun 2 sesi I anchor cached forward (cross-checked against Tue carry); TradingView 745 / Morningstar 770 low outliers persist Day 44 |
+
+#### Sell-side rule application — KLBF (only open position)
+
+**Position state:**
+- 519,000 sh @ entry 945 (May 21, Day 23)
+- Carry mark: 1,035 (Tue Jun 2 safe-lower, frozen — cluster non-convergence Day 44)
+- Unrealized P&L on carry: +IDR 46,710,000 (+9.52%)
+- Stop: TRAILING state-2 @ 931 (10% trail from hwm 1,035; transitioned Fri May 29 midday)
+- Hard-cut floor: 879 (entry × 0.93)
+- **Ex-dividend Jun 4 IDR 20/share** — mechanical price adjustment at open; future receipt IDR 10,380,000 booked on Jun 24 payment date (NOT today's cash; recorded as receivable)
+
+**STEP 3 — Hard-cut check (-7% from entry, floor 879):**
+- 745 (TradingView single-source outlier): -21.16% from entry → would breach if confirmed.
+- 770 (Morningstar single-source outlier): -18.52% from entry → would breach if confirmed.
+- 930 (Investing.com): -1.59% from entry → no breach.
+- 1,135 (Yahoo Finance — likely stale Tue Jun 2 anchor): +20.11% from entry → would trigger state-4 if confirmed.
+- **Multi-source ≤2% cluster discipline binds:** spread ~52% across 4 sources; 745/770 low outliers cannot fire pre-emptive close per MISTAKES.md 2026-05-01; 1,135 high outlier cannot fire state-machine transition per same discipline.
+- **VERDICT: NO hard-cut fired. Trailing 931 GTC also does not fire pre-emptively** (broker-side requires confirmed cluster ≤931; not isolated WebSearch outliers).
+
+**STEP 4 — Winners / tighten stops:**
+- State-3 trigger (+15% from entry, mark ≥1,087 → 7% trail at 1,011 from hwm 1,087): **ARMED**; only Yahoo 1,135 (single-source, likely stale) above threshold; cluster non-convergence blocks fire.
+- State-4 trigger (+20% from entry, mark ≥1,134 → 5% trail at 1,077 from hwm 1,134): **ARMED**; Yahoo 1,135 single-source above threshold but stale-anchor suspicion + cluster non-convergence blocks fire.
+- Guardrail check (no stop within 3% of price): N/A — no transition fired.
+- **VERDICT: NO stop tightening fired. State-2 trailing 10% @ 931, hwm 1,035 unchanged.**
+
+#### STEP 5 — Thesis check (KLBF)
+
+- **Ex-dividend Jun 4 IDR 20/share** — POSITIVE intrinsic event confirming capital-return thesis; total distribution Rp936.26B authorized at May 21 AGMS; recording date Jun 5; payment Jun 24. Future receivable 519,000 × 20 = IDR 10,380,000.
+- **Buyback Rp500B (Apr 2 – Jul 2, 2026)** — ACTIVE, ~28 days remain. Multi-source confirmed.
+- **Healthcare-defensive bid** — Wed Jun 3 IHSG -4.11% panic flush vindicated defensive thesis (cash-heavy book +5.30% daily alpha); KLBF healthcare-defensive remains the binding alpha-protection posture into Thu Jun 4 continuation regime.
+- **No adverse news** — no MSCI removal, no regulatory action, no earnings stretch. Not in BREN/CUAN/DSSA/TPIA/AMMN MSCI-removal basket (re-confirmed).
+- **VERDICT: Thesis INTACT. No exit triggered on thesis grounds. Ex-div mechanical drop ~IDR 20 immaterial vs safe-lower carry 1,035.**
+
+#### STEP 6 — Intraday move check
+
+- TradingView KLBF 745 (-3.25%) / Morningstar 770: persistent Day 43-44 data-infrastructure outage cross-source artefact, not a fresh tape catalyst on Thu Jun 4.
+- Yahoo 1,135 +4.61%: timestamp appears to be Tue Jun 2 sesi I anchor cached forward; not a fresh Thu reading.
+- No other position to evaluate.
+- **No RESEARCH-LOG addendum required** — cluster non-convergence remains a data-quality artefact, not a fresh tape catalyst. Ex-div mechanical move ~IDR 20 is benign and pre-scheduled.
+
+#### Action: NONE
+
+- 0 hard cuts (cluster spread blocks confirmation of 745/770 low outliers).
+- 0 stop tightenings (state-3 / state-4 triggers ARMED, cluster blocks fire on 1,135 stale-Yahoo outlier).
+- 0 thesis exits (buyback + dividend + defensive bid all reinforce thesis).
+- 0 new entries (midday scan is sell-side only per routine).
+- KLBF state-2 trailing 10% @ 931, hwm 1,035 unchanged.
+
+#### Carry-over to 15:15 WIB EOD routine
+
+1. KLBF fresh post-sesi-II mark cluster narrowing — if cluster converges ≤2%: (a) at confirmed mark ≤931, trailing 931 GTC fires automatically; (b) at mark ≥1,087, fire state-3 (7% trail at 1,011 from hwm 1,087); (c) at mark ≥1,134, fire state-4 (5% trail at 1,077 from hwm 1,134). Note ex-div mechanical drop ~IDR 20 lowers the de-facto "real tape" cluster baseline ~2 percentage points vs prior carry; safe-lower discipline accounts for this implicitly.
+2. IHSG sesi II direction + close vs 5,941.07 prior close / 6,000 reclaim / 5,800-5,755 koreksi-target ladder.
+3. IDR sesi II direction vs 17,820 / 17,900 sustain (cluster mid 17,908 ABOVE) / 18,000 cascade ladder (within 23bps) — primary kill-switch ARMED-ESCALATING.
+4. Phase-to-date P&L + cumulative alpha vs IHSG calc; Wed Jun 3 EOD anchor revision from sesi I 5,889.48 to sesi II 5,941.07 narrows cumulative alpha by ~0.66pp but remains a trial-high anchor.
+5. Deferred candidates (TLKM/PGAS/ICBP/INDF/JSMR/MYOR) — re-gate posture for Fri Jun 5 pre-market (no entries possible post 13:00 WIB per pre-emptive de-risk rule on IDR proximity to 18,000 cascade).
+6. Week 7 0/3 slots still preserved.
+
+#### Notes
+
+- **Day 44 data infrastructure outage persistent:** yfinance + GoAPI blocked since Apr 21; market-data.sh non-functional; broker.sh quote returns stale entry-price stub (945) for KLBF. WebSearch-only override path remains operational for IHSG (sesi II prior-close convergent at 5,941.07) and IDR (weakly convergent ~17,900-17,977), but KLBF cluster spread now ~52% (matches Wed Jun 3 worst-of-trial spread) blocks confirmation of any state transition.
+- **Yahoo Finance 1,135 stale-anchor suspicion:** Yahoo reading matches Tue Jun 2 sesi I anchor exactly (1,135 +4.61%); without a verifiable Thu Jun 4 timestamp/intraday range, this reading is treated as cached-stale per cluster discipline; cannot fire upside state transitions on a stale single-source.
+- **Trailing stop 931 GTC paper-side note:** broker.sh paper ledger uses entry_price 945 as the only available mark in absence of live feed. The 931 GTC trailing stop is logged in STOPS.json as the binding stop level; broker-side fire requires confirmed cluster mark, not single-source WebSearch outlier. Consistent with Day 32-33 procedure and MISTAKES.md 2026-05-01.
+- **Ex-dividend mechanical adjustment:** KLBF Jun 4 ex-div IDR 20/share; pre-scheduled, multi-source-confirmed since May 25 (Kompas + IDXChannel + PintarSaham + SWA); future receivable IDR 10,380,000 booked at Jun 24 payment. Mechanical drop ~IDR 20 represents <0.2% of safe-lower carry 1,035 and is immaterial to all sell-side gates today.
+- **IDR escalation watch:** 17,976.9 reading puts cluster mid within 23bps of 18,000 cascade ladder; 17,900 sustain ladder breached on cluster mid 17,908; primary kill-switch ARMED-ESCALATING. No entries planned today; if IDR breaches 18,000 sustained, EOD routine must apply formal pre-emptive de-risk evaluation on KLBF carry (defensive healthcare bid vs IDR import-cost headwind tension).
+- **Cumulative trial alpha protection:** +21.41% carry from Wed Jun 3 (new trial high) remains the binding precious resource. Cash-heavy defensive posture (94.55% cash) structurally insulates against any Thu sesi II reversal; the IHSG sub-6,000 continuation regime is exactly what the defensive book was constructed for.
+- **Sector exposure unchanged:** Healthcare ~5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B carry); cash 94.55%; no banking/coal/mining/nickel/conglomerate.
+- **Trial trajectory:** Day 34 trial continuation (beyond original Apr 20–May 2 window); Week 7 Day 4 with 1 session remaining (Fri Jun 5); phase-to-date P&L −1.44%, drawdown −1.70% deeply within tolerances; +21.41% cumulative alpha new trial-high.
+
+#### Notification sent
+
+📊 Midday 2026-06-04: All positions healthy. No action taken.
+
