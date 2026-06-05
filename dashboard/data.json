@@ -5252,6 +5252,263 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM Mon Jun 8 + Rp 4T buyback (T+3 catalyst) \u2014 HIGH-priority defensive telco candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM Mon Jun 8 + Rp 4T buyback (POJK 29/2023)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DEEPENING; IDR 17,930 ~30bps from 18,000 cascade"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: tape 3,620-3,660 vs plan \u22642,900 = +24.8% chase"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (defensive cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45 blocked"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source spread ~25% (2,900 carry vs 3,620-3,660 intraday) fails \u22642%"
+        }
+      ],
+      "reasoning": "Plan \u22642,900 vs WebSearch intraday 3,620-3,660 = +24.8% above gate-9 chase cap (+3% max). Multi-source spread Wed carry vs Fri intraday ~25% fails \u22642% threshold per MISTAKES.md 2026-05-01 procedure. SKIP per gate 9 + multi-source discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FY26 IDR 193/sh dividend (~12.5% yield) + divestiture proceeds + Wed defensive bid (+2.40% on IHSG \u22124.11%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "FY26 dividend + Sariwangi/ice-cream divestiture special-dividend"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; consumer FMCG defensive bid sustained"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: tape 1,985-2,090 vs plan \u22641,755 = +13.1% chase"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45 blocked"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source spread ~22% (1,710 vs 2,090) fails \u22642%"
+        }
+      ],
+      "reasoning": "Strict 2:1 R:R floor required entry \u22641,755 for PT 2,000; WebSearch tape 1,985-2,090 = +13.1% above cap = gate 9 FAIL. Multi-source spread 1,710 vs 2,090 ~22% fails \u22642% threshold. SKIP per gate 9 + multi-source discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Top FY26 consumer pick (Brights/Maybank OW) + downtrading resilience + +5.7% sector revenue forecast.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "FY26 consumer sector recovery thesis (no defined T+X event)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; consumer staples defensive fit"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: tape 8,100-8,250 vs plan \u22647,500 = +8.0% chase"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45 blocked"
+        }
+      ],
+      "reasoning": "Strict 2:1 R:R floor required entry \u22647,500 for PT 8,750; WebSearch tape 8,100-8,250 = +8.0% above cap = gate 9 FAIL. Today's intra-source cluster reasonably tight (~1.8%) but plan-vs-tape chase fails. SKIP per gate 9.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MENA/Saudi export = IDR-weak tailwind UNIQUELY regime-friendly in 17,930 IDR regime + sector +5.7%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR-weak regime export-margin tailwind (ongoing, no defined date)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE regime; uniquely USD-revenue consumer pick"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: no fresh Jun 5 mark to verify \u22641,765 plan"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45 blocked; no fresh Jun 5 mark surfaced"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source: only stale May 6/May 22 marks available; fails \u22642% spread requirement"
+        }
+      ],
+      "reasoning": "WebSearch surfaced only stale May 6 (1,785) / May 22 (1,860) marks; no Jun 5 multi-source convergent tape to verify \u22641,765 strict cap. Cannot satisfy multi-source \u22642% spread mandatory. SKIP per multi-source discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-06-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "HELD position evaluated for stop-state transition: trailing 931 GTC armed broker-side.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Position HOLD evaluation; safe-lower carry 1,035 frozen"
+        },
+        {
+          "type": "macro",
+          "label": "Healthcare defensive bid sustained in DEFENSIVE regime"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-source cluster ~52% spread (745/945/1,135) blocks state-transition"
+        },
+        {
+          "type": "sizing",
+          "label": "Held 5.45% of equity (519,000 sh @ 945 entry)"
+        },
+        {
+          "type": "warning",
+          "label": "Cluster spread persists Day 45 yfinance outage; no actionable tape"
+        }
+      ],
+      "reasoning": "Plan: HOLD with TRAILING-STOP-PRIORITY at open. Cluster spread persistent ~52% (Yahoo 1,135 / Investing 945 / TradingView 745) blocks any state-machine transition per MISTAKES.md 2026-05-01 \u22653-source convergence \u22642% discipline. Trailing 931 GTC remains armed broker-side; fires automatically if cluster converges \u2264931. HOLD.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -8020,6 +8277,47 @@
           "type": "research",
           "ticker": "MYOR",
           "detail": "score 6/10 - MENA IDR-weak tailwind REGIME-FRIENDLY uniquely; Wed cluster 0.8% convergent but Thu drifted above 1,800 R:R cap"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-05T02:20:00Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 4 candidates (TLKM/UNVR/ICBP/MYOR) all SKIP \u2014 gate 9 chase cap failure (+8% to +25% above plan) and/or multi-source \u22642% spread non-convergence per Day 45 yfinance outage. KLBF HOLD: cluster ~52% spread blocks state transition; safe-lower carry 1,035 frozen; trailing 931 GTC armed broker-side. Week 7 final: 0/3 trades (full slot preservation; alpha protection vindicated).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "gate 9 FAIL: 3,620-3,660 vs plan \u22642,900 = +24.8%"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "gate 9 FAIL: 1,985-2,090 vs plan \u22641,755 = +13.1%"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "gate 9 FAIL: 8,100-8,250 vs plan \u22647,500 = +8.0%"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "multi-source FAIL: no fresh Jun 5 mark; stale May 6/22 only"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "cluster ~52% spread; trailing 931 GTC armed"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override evaluated for all candidates (yfinance Day 45 blocked) \u2014 none reached buy stage; gate 9 SKIP before override needed"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send host-allowlist blocked (HTTP 403); stdout fallback fired"
         }
       ]
     }
