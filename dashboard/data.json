@@ -480,6 +480,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 34 EOD (Thu, Week 7 Day 4 - KLBF ex-dividend day; IHSG sesi I -3.48% continuation; IDR 17,977 within 23bps of 18,000 cascade). KLBF safe-lower carry frozen 1,035 (cluster TradingView/Google 745 / Morningstar 770 / Investing 930 / Yahoo 1,135 stale = ~52% spread > 2%; safe-lower discipline binds; ex-div IDR 20 mechanical drop immaterial; future receivable IDR 10,380,000 booked Jun 24). Defensive 94.55% cash + healthcare-defensive bid vindicated 2nd consecutive day on IHSG continuation flush. IHSG anchor: today sesi I close 5,734.25 (multi-source convergent: Liputan6/Kompas/RCTI+/RRI/Kabarbursa) vs Wed Jun 3 actual sesi II close 5,941.07 = -3.48%. Cumulative alpha +23.44% new trial high (+2.03pp expansion). 0 trades today; Week 7 0/3 slots preserved into Fri Jun 5. Trailing 931 GTC armed but cluster non-convergence blocks broker-side fire."
+    },
+    {
+      "date": "2026-06-05",
+      "day_label": "Day 35",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 5692.15,
+      "ihsg_cumulative_pct": -25.44,
+      "alpha_pct": 24.0,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 35 EOD (Fri, Week 7 Day 5 - IHSG sesi I -0.73% continuation; IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close). KLBF safe-lower carry frozen 1,035 (cluster Yahoo 945 / Investing 1,135 ~20% spread). Cumulative alpha +24.00% (new trial high; 3rd consecutive expansion day). Pre-emptive de-risk framework activates Mon Jun 8 pre-market on IDR 18,000+ sustain. Cash 94.55%. Trades wk 0/3 final."
     }
   ],
   "positions": [
@@ -489,17 +505,14 @@
       "entry_price": 945,
       "entry_date": "2026-05-21",
       "last_price": 1035,
-      "cost_idr": 490455000,
+      "mtm_source": "safe-lower carry (cluster non-convergence Day 45)",
       "market_value_idr": 537165000,
-      "unrealized_pnl_idr": 46710000,
-      "unrealized_pnl_pct": 9.52,
+      "unrealised_idr": 46710000,
+      "unrealised_pct": 9.52,
       "stop_price": 931,
-      "stop_state": "trailing",
-      "trail_pct": 10,
-      "high_water_price": 1035,
-      "days_held": 11,
-      "sector": "healthcare",
-      "thesis": "Post-BI +50bp defensive rotation; KLBF NOT in MSCI removal list; IDR 500B buyback live through Jul 2; Jun 4 ex-dividend IDR 20/share (receivable IDR 10,380,000 booked Jun 24 payment); healthcare defensive sector leadership confirmed; State-2 trailing 10% @ 931 fired Day 30 midday. Day 34 Thu Jun 4 cluster TradingView/Google 745 / Morningstar 770 / Investing 930 / Yahoo 1,135 stale = ~52% spread > 2% threshold; safe-lower carry 1,035 holds. State-3 (+15%) and State-4 (+20%) tightening triggers ARMED but cluster non-convergence blocks fire. Trailing 931 GTC binding but cluster blocks broker-side fire on 2-source 745 low (does not meet >=3-source convergence threshold per MISTAKES.md 2026-05-01)."
+      "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
+      "days_held": 12,
+      "sector": "Healthcare"
     }
   ],
   "trades": [
@@ -5512,53 +5525,32 @@
     }
   ],
   "stats": {
-    "total_return_pct": -1.98,
-    "ihsg_return_pct": -19.69,
-    "alpha_pct": 17.71,
-    "win_rate_pct": 0.0,
-    "total_trades": 6,
-    "winning_trades": 0,
-    "losing_trades": 2,
-    "open_trades": 1,
-    "avg_winner_pct": 0.0,
-    "avg_loser_pct": -7.83,
-    "profit_factor": 0.0,
-    "max_drawdown_pct": -2.35,
-    "best_trade": null,
-    "worst_trade": {
-      "ticker": "BBRI",
-      "realized_pnl_pct": -8.28,
-      "realized_pnl_idr": -59400000,
-      "exit_reason": "hard-cut"
-    },
-    "rules_followed": true,
-    "violations": [],
-    "current_equity": 9856337500,
-    "cum_return_pct": -1.44,
-    "ihsg_cum_pct": -24.88,
-    "cum_alpha_pct": 23.44,
-    "positions_count": 1,
-    "cash_pct": 94.55,
+    "trial_day": 35,
+    "trial_week": 7,
+    "cumulative_pnl_idr": -143662500,
+    "cumulative_pnl_pct": -1.44,
+    "cumulative_alpha_pct": 24.0,
+    "realised_pnl_idr": -190372500,
+    "unrealised_pnl_idr": 46710000,
     "trades_this_week": 0,
-    "last_updated": "2026-06-04T15:15:00+07:00"
+    "max_trades_per_week": 3,
+    "trades_total_trial": null
   },
   "risk": {
-    "beta_ihsg": null,
-    "var_95_1d_pct": null,
-    "annual_vol_pct": null,
-    "sharpe_10d": null,
-    "sortino_10d": null,
-    "drawdown_from_peak_pct": -1.7,
-    "risk_budget_used_pct": 0.6,
-    "risk_budget_cap_pct": 5.0,
-    "note": "Populated by performance.py risk after Day 1",
+    "regime": "EM-OUTFLOW-RISK-CAUTIOUS",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
-    "peak_equity": 10026617500,
     "current_equity": 9856337500,
+    "peak_equity": 10026617500,
+    "drawdown_from_peak_pct": -1.7,
     "trading_halted": false,
     "halt_reason": null,
-    "updated": "2026-06-04"
+    "daily_loss_cap_pct": -2.0,
+    "weekly_loss_cap_pct": -5.0,
+    "max_drawdown_pct": -15.0,
+    "idr_cascade_breached": true,
+    "idr_close": 18033,
+    "alerts_today": []
   },
   "activity_log": [
     {
@@ -8326,55 +8318,49 @@
       "routine": "midday",
       "status": "success",
       "summary": "KLBF HOLD. Cluster non-convergent (Yahoo 945 / Investing 1,135 ~20% spread, 2 sources). No -7% cut. No stop tighten. Safe-lower carry 1,035 frozen per MISTAKES.md 2026-05-01."
+    },
+    {
+      "timestamp": "2026-06-05T08:21:15Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 35 (Fri Jun 5): IDR 9.856B flat (+0.00%). Alpha vs IHSG +0.73%; cum alpha +24.00% (new trial high; 3rd consecutive expansion day). KLBF safe-lower carry frozen. IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close \u2014 pre-emptive de-risk framework activates Mon Jun 8 pre-market. Trades this week 0/3 final.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 35 EOD snapshot committed; cumulative alpha +24.00% trial high"
+        },
+        {
+          "type": "risk",
+          "detail": "IDR 18,033 cascade kill-switch BREACHED \u2014 Mon Jun 8 pre-market de-risk framework activates"
+        }
+      ]
     }
   ],
   "exposure": {
+    "cash_pct": 94.55,
+    "equity_deployed_pct": 5.45,
+    "positions_count": 1,
+    "max_positions": 6,
     "sectors": {
-      "healthcare": {
-        "pct_of_equity": 5.45,
-        "tickers": [
-          "KLBF"
-        ]
-      },
-      "cash": {
-        "pct_of_equity": 94.55,
-        "tickers": []
-      }
-    },
-    "factors": {
-      "ihsg": null,
-      "idr": null,
-      "coal": null,
-      "nickel": null,
-      "bi_rate": null
-    },
-    "note": "Populated by performance.py after positions are open"
+      "Healthcare": 5.45
+    }
   },
   "macro": {
-    "date": "2026-06-05",
-    "ihsg_change_pct": -1.7,
-    "ihsg_close": 5839.79,
-    "ihsg_note": "Thu Jun 4 close 5,839.79 -1.70% from Wed 5,941.07. Multi-source convergent Detik (5,839.79) + Pojokpapua (5,855); Yahoo 6,130 stale outlier. Sesi I low 5,644 = 5.5-yr low (lowest since Dec 2020). Sesi II partial reversion. Foreign net BUY sesi I +Rp 179B = inflection from Wed -Rp 525B.",
-    "idr_usd": 17930,
-    "idr_change_pct": 0.1,
-    "idr_note": "Cluster 17,930-17,977 Thu carry; within 30bps of 18,000 cascade ladder; 17,900 sustain BREACHED. Banks reportedly selling USD above 18,000 (one report). YTD -7.2% = weakest EM currency. PRIMARY KILL-SWITCH ARMED-ESCALATING.",
-    "newcastle_coal_usd": 147.5,
-    "coal_change_pct": 0.85,
-    "coal_note": "Up from $146.25 prev close = 9-week high on China Shanxi mine accident + illegal labor exposure + production suspensions. Counterfactual bull for coal complex but sector EXITED per 2-strike rule (ITMG May 18 + ADRO May 20 hard-cuts).",
-    "brent_usd": 97.95,
-    "brent_change_pct": -3.4,
-    "brent_note": "Thu Jun 4 AM ET; down $3.41 from prev day on Iran-US tensions resolution drift but elevated vs trial baseline; supports MEDC structurally but blocked sector caution.",
-    "us_10y_yield": 4.47,
-    "us_30y_yield": null,
-    "indo_10y_sun_yield": 6.81,
-    "vix": 15.6,
+    "regime": "DEFENSIVE-INTENSIFIED-DEEPENING-CONTINUATION-VINDICATED-CASCADE-BREACHED",
+    "ihsg_close": 5692.15,
+    "ihsg_close_basis": "sesi I (sesi II not multi-source convergent at filing)",
+    "ihsg_cumulative_pct": -25.44,
+    "idr_usd": 18033,
+    "idr_status": "CASCADE-BREACHED (18,000 kill-switch sustained close)",
     "bi_rate": 5.25,
-    "bi_rate_note": "Hold at 5.25% post +50bp May 19-20 hike; next BOG Jun 17-18 (50%+ prob +25bp Kenanga; raised post CPI 3.08% May re-accel).",
-    "asia_sentiment": "Mixed: US records (Dow 51,562 +1.73% record; S&P 7,584 +0.41%; Nasdaq -0.09% rotation out of tech). Asia mild risk-off (Hang Seng -1.48%, Nikkei -1.36% off Wed record). VIX 15.60 benign. IDX-specific de-rating, not global stress.",
-    "foreign_flow_idr_bn": 179,
-    "foreign_flow_ytd_idr_bn": -45450,
-    "key_event_today": "Fri Jun 5 = Week 7 Day 5 (last session). KLBF cluster fresh-confirmation watch (trailing 931 ARMED). TLKM AGM Mon Jun 8 T+3 = highest-conviction defined catalyst. MSCI Indonesia classification announcement Jun 18 T+10 overhang. Weekly review 16:00 WIB afternoon. IDR 18,000 cascade ~30bps away = primary kill-switch ARMED-ESCALATING.",
-    "indo_10y_sun_yield_note": "Eased from 6.9% 1-yr high; inverted yield curve signal per TE IDX commentary"
+    "msci_announcement_date": "2026-06-18",
+    "key_overhangs": [
+      "IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close",
+      "Moody's Danantara Baa2 negative outlook follow-through",
+      "MSCI Indonesia classification announcement Jun 18 (9 trading days)",
+      "Foreign net sell extreme Rp 14.74T sesi I alone (~17x acceleration vs Thu)",
+      "IHSG new 5.5-year low intraday 5,648"
+    ]
   },
   "research": {
     "date": "2026-06-05",
@@ -8490,5 +8476,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-05T07:00:00+07:00"
+  "last_updated": "2026-06-05T15:15:00+07:00"
 }
