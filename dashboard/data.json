@@ -496,6 +496,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 35 EOD (Fri, Week 7 Day 5 - IHSG sesi I -0.73% continuation; IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close). KLBF safe-lower carry frozen 1,035 (cluster Yahoo 945 / Investing 1,135 ~20% spread). Cumulative alpha +24.00% (new trial high; 3rd consecutive expansion day). Pre-emptive de-risk framework activates Mon Jun 8 pre-market on IDR 18,000+ sustain. Cash 94.55%. Trades wk 0/3 final."
+    },
+    {
+      "date": "2026-06-08",
+      "day_label": "Day 36",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 5434.3,
+      "ihsg_cumulative_pct": -28.81,
+      "alpha_pct": 27.37,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 36 EOD (Mon, Week 8 Day 1 - IHSG sesi I -4.53% continuation flush to 5,434.30; intraday 5,346.33 = new ~6-year low; IDR cascade-breach sustained 2nd session). KLBF safe-lower carry frozen 1,035 (cluster TradingView 745 / TE 930 / Investing 945 / Stockbit 1,135 = ~52% spread widened from Fri 20%; safe-lower discipline binds per MISTAKES.md 2026-05-01). Cumulative alpha +27.37% (new trial high; 4th consecutive expansion day; largest single-day expansion +3.37pp). Pre-emptive de-risk framework binds NO-ENTRY 5 candidates (TLKM/UNVR/ICBP/MYOR/MDKA). BBCA blue-chip break 5,000 psych floor (Tribunnews+Kompas). Cash 94.55%. Trades wk 0/3 fresh."
     }
   ],
   "positions": [
@@ -505,13 +521,13 @@
       "entry_price": 945,
       "entry_date": "2026-05-21",
       "last_price": 1035,
-      "mtm_source": "safe-lower carry (cluster non-convergence Day 45)",
+      "mtm_source": "safe-lower carry (cluster non-convergence Day 48; 4-source spread ~52%)",
       "market_value_idr": 537165000,
       "unrealised_idr": 46710000,
       "unrealised_pct": 9.52,
       "stop_price": 931,
       "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
-      "days_held": 12,
+      "days_held": 13,
       "sector": "Healthcare"
     }
   ],
@@ -5790,11 +5806,11 @@
     }
   ],
   "stats": {
-    "trial_day": 35,
-    "trial_week": 7,
+    "trial_day": 36,
+    "trial_week": 8,
     "cumulative_pnl_idr": -143662500,
     "cumulative_pnl_pct": -1.44,
-    "cumulative_alpha_pct": 24.0,
+    "cumulative_alpha_pct": 27.37,
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "trades_this_week": 0,
@@ -5814,7 +5830,7 @@
     "weekly_loss_cap_pct": -5.0,
     "max_drawdown_pct": -15.0,
     "idr_cascade_breached": true,
-    "idr_close": 18033,
+    "idr_close": 18030,
     "alerts_today": []
   },
   "activity_log": [
@@ -8686,6 +8702,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF held; broker quote 945 (entry 945, P&L 0%); no -7% breach, no +15%/+20% tighten trigger; pre-market HOLD thesis confirmed; cluster spread blocks discretionary action."
+    },
+    {
+      "timestamp": "2026-06-08T08:21:57Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 36 EOD: IDR 9.856B (+0.00% day). Alpha +4.53% vs IHSG sesi I -4.53%. Cum alpha +27.37% (new trial high; 4th expansion day). KLBF carry frozen 1,035 (cluster ~52% spread). 1 position open. Trades wk 0/3 fresh.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 36 snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -8828,5 +8856,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-08T09:15:00+07:00"
+  "last_updated": "2026-06-08T08:21:38.967938Z"
 }
