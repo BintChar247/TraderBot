@@ -8334,6 +8334,41 @@
           "detail": "IDR 18,033 cascade kill-switch BREACHED \u2014 Mon Jun 8 pre-market de-risk framework activates"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-08T00:19:40Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "50/50 tickers scanned. 5 candidates \u22656 (TLKM 8 HIGH AGM-day, UNVR 6, ICBP 6, MYOR 6, MDKA 6). DEFENSIVE-INTENSIFIED + IDR cascade 18,000+ kill-switch BREACHED sustained 2nd-session = NO entries (pre-emptive de-risk binds). KLBF cluster 33% spread (TE 930 / Investing 945 / TV-stale 710) blocks discretionary action \u2014 mid-cluster 930 AT 931 GTC; HOLD. TLKM AGM 14:00 WIB Rp 4T buyback approval today binary.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 8/10 \u2014 AGM 14:00 WIB Rp 4T buyback approval expected (multi-source SEC 6-K confirmed)"
+        },
+        {
+          "type": "research",
+          "ticker": "MDKA",
+          "detail": "score 6/10 \u2014 sole sector relative-strength Fri +7.33% on +Rp 99.99B foreign net buy"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "cluster 33% spread blocks pre-emptive de-risk; trailing 931 GTC armed; pre-emptive framework activated"
+        },
+        {
+          "type": "alert",
+          "detail": "IDR cascade 18,000+ kill-switch BREACHED sustained 2nd session \u2014 NO new entries Mon Jun 8"
+        }
+      ]
     }
   ],
   "exposure": {
