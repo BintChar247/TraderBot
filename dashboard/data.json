@@ -5522,6 +5522,271 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM TODAY 14:00 WIB \u2192 Rp 4T buyback approval expected (multi-source SEC 6-K confirm); execution Tue Jun 9; EPS lift 179.8\u2192183.1.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM 14:00 WIB Rp 4T buyback approval expected (binary catalyst day)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DEEPENING-CASCADE-BREACHED regime; telco-defensive"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: no Mon pre-open multi-source \u22642% convergent mark to verify \u22642,760 plan"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (~178,000 sh at 2,760)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR cascade-breach pre-emptive de-risk regime binds NO-ENTRY (Week 7 process change)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45+ blocked; no Mon pre-open multi-source \u22642% convergence surfaced"
+        }
+      ],
+      "reasoning": "HIGH-conviction catalyst-day candidate but pre-emptive de-risk regime gate BINDING (IDR \u226518,000 sustained 2nd session) = NO entry possible at 09:15 regardless of catalyst quality. Re-gate eligibility only on intraday IDR <18,000 recovery + post-AGM \u2265Rp 4T confirmation + multi-source \u22642% + Gate 9 \u2264+3% chase.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Final dividend Rp 114/sh (~7.06%) RUPS-approved Thu Jun 4; defensive bid sustained through Week 7 panic-flush (+0.94% on IHSG -3.48% Thu = +4.42% daily alpha).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Final dividend Rp 114/sh payment Jun 30 (T+15)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime; consumer-staples defensive aligned"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: no Mon pre-open multi-source \u22642% convergent mark"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (~305,000 sh at 1,615)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR cascade-breach pre-emptive de-risk regime binds NO-ENTRY (Week 7 process change)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45+ blocked; no Mon pre-open multi-source \u22642% convergence surfaced"
+        }
+      ],
+      "reasoning": "Defensive-rotation winner thesis valid but pre-emptive de-risk regime gate BINDING. NO entry possible while IDR \u226518,000 sustained.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FY26 top consumer pick + multi-broker OW; Week 7 -6.18% capitulation = severe-value entry but momentum-broken.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sector recovery thesis (no defined T+X event); Q2 print Aug 2026"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime; consumer-staples defensive"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: no Mon pre-open multi-source \u22642% convergent mark"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (~76,000 sh at 6,450)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR cascade-breach pre-emptive de-risk regime binds NO-ENTRY (Week 7 process change)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45+ blocked; no Mon pre-open multi-source \u22642% convergence surfaced"
+        }
+      ],
+      "reasoning": "Multi-broker OW + severe-value but no defined catalyst T+X + falling-knife risk vs IDR cascade-breach. Pre-emptive de-risk regime gate BINDING. NO entry possible.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "RUPST Thu dividend Rp 60/sh + ASEAN/MENA USD-export = uniquely IDR-weak regime-friendly + cocoa/coffee margin tailwind 2026.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Dividend payment + IDR-weak structural export tailwind (operational, not single-event)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime; uniquely USD-revenue consumer pick \u2014 REGIME-FRIENDLY"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: only single-source Mon pre-open 1,780; no \u22653-source \u22642% convergence"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (~280,000 sh at 1,760)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR cascade-breach pre-emptive de-risk regime binds NO-ENTRY (Week 7 process change)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45+ blocked; no Mon pre-open multi-source \u22642% convergence surfaced"
+        }
+      ],
+      "reasoning": "Uniquely regime-friendly USD-export exposure in IDR-weak cascade-breach regime \u2014 strongest fundamental fit of the 5 \u2014 BUT pre-emptive de-risk macro-rule pre-empts catalyst quality. NO entry possible.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-06-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Fri sole sector relative-strength outlier +7.33% on +Rp 99.99B foreign net buy; gold/copper/nickel diversified; NOT MSCI/FTSE affected.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Fri foreign net buy signal continuation; MBMA HPAL phase-3 mid-2026 commission"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime; gold-haven hedge vs IDR cascade-breach"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: no Mon pre-open multi-source \u22642% convergent mark (Fri close 2,490 is the carry)"
+        },
+        {
+          "type": "sizing",
+          "label": "Would be 5% of equity (~198,000 sh at 2,490)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR cascade-breach pre-emptive de-risk regime binds NO-ENTRY (Week 7 process change)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override evaluated \u2014 yfinance Day 45+ blocked; no Mon pre-open multi-source \u22642% convergence surfaced"
+        }
+      ],
+      "reasoning": "Sole sector relative-strength outlier Fri + gold-haven hedge unique vs IDR cascade-breach BUT single-day outlier risk + pre-emptive de-risk regime gate BINDING. NO entry possible.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -8369,6 +8634,52 @@
           "detail": "IDR cascade 18,000+ kill-switch BREACHED sustained 2nd session \u2014 NO new entries Mon Jun 8"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-08T02:19:49Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Week 8 Day 1. IDR ~18,015-18,045 sustained \u226518,000 cascade kill-switch BREACHED 2nd session = pre-emptive de-risk regime binds NO-ENTRY across all 5 candidates (TLKM/UNVR/ICBP/MYOR/MDKA). KLBF HOLD per cluster non-convergence (33% spread). Wk 0/3 fresh.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "de-risk regime gate + Gate 9 multi-source FAIL; AGM 14:00 WIB monitor"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "de-risk regime gate + Gate 9 multi-source FAIL (regime-friendly USD-export thesis)"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "cluster 33% spread blocks discretionary action; trailing 931 GTC armed broker-side"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR cascade kill-switch BREACHED sustained 2nd session \u2014 pre-emptive de-risk procedure active"
+        },
+        {
+          "type": "warning",
+          "detail": "Day 45+ yfinance HTTP 403 outage; WebSearch override path operational"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -8511,5 +8822,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-05T15:15:00+07:00"
+  "last_updated": "2026-06-08T09:15:00+07:00"
 }

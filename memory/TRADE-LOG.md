@@ -3771,3 +3771,53 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 📈 EOD 2026-06-05: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: +0.73% (IHSG sesi I −0.73% continuation). Cum alpha +24.00% (new trial high; 3rd consecutive expansion day). KLBF safe-lower carry 1,035 frozen (cluster 945/1,135 ~20% spread). IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close — pre-emptive de-risk framework activates Mon Jun 8 pre-market. Cash 94.55%. Trades wk 0/3 final.
 
+
+---
+
+## 2026-06-08 09:15 WIB — Market-open: NO TRADES (Week 8 Day 1 / Mon — IDR cascade-breach sustained pre-open binds NO-ENTRY)
+
+**Trade slot:** Week 8 = 0/3 fresh allocation pre-open; remains 0/3 post-open.
+
+**Pre-emptive de-risk framework binding:** IDR cluster ~18,015-18,045 sustained ≥18,000 2nd consecutive session (Fri 18,033 close → Mon pre-open). Primary kill-switch BREACHED → per MACRO-REGIME.md Week 7 process change "NO new entries possible Mon Jun 8 per pre-emptive de-risk rule." All 5 candidates blocked at the regime gate before 9-gate execution.
+
+**Broker state:** KLBF 519,000 sh @ entry 945 (single open position; entry stub price 945 due to Day 45+ yfinance HTTP 403 block); cash IDR 9,319,172,500 (94.55% of equity); equity 9,809,627,500 (broker MV stub) / 9,856,337,500 (trade-log safe-lower carry 1,035).
+
+**Open positions reviewed:**
+- KLBF — HOLD per Week 7 weekly-review process change framework. Mon pre-open cluster ~33% spread (Trading Economics 930 / Investing.com 945 / Stockbit-carry 1,135 / TradingView-stale 710) FAILS ≥3-source ≤2% convergence → no discretionary trim or close action possible per MISTAKES.md 2026-05-01. Trailing 931 GTC remains armed broker-side; fires automatic if cluster converges ≤931 across ≥3 sources within ≤2%. Midday cluster re-evaluation per the state-machine algorithm.
+
+**Candidates evaluated (5 — all SKIP per de-risk regime gate + 9-gate sub-checks):**
+
+1. **TLKM** — Plan: BUY ≤2,760, 178,000 sh, stop 2,567, target 3,312; HIGH conviction; AGM TODAY 14:00 WIB Rp 4T buyback approval expected (multi-source SEC 6-K + Bisnis + IDXChannel + Bareksa confirmed).
+   - **De-risk regime gate BINDING (IDR ≥18,000 sustained 2nd session)** → NO entry possible at 09:15 regardless of catalyst quality.
+   - 9-gate sub-check: Gate 5 PASS (catalyst documented); Gate 9 — no Mon pre-open multi-source convergent mark surfaced (no fresh tape for ≤2% verification) → FAIL on multi-source discipline.
+   - Re-gate eligibility: ONLY IF (a) IDR recovers <18,000 sustained intraday AND (b) post-AGM 14:00 WIB resolution confirms ≥Rp 4T AND (c) multi-source ≤2% convergence reached AND (d) Gate 9 chase cap ≤+3% from 2,760 (absolute ≤2,843).
+
+2. **UNVR** — Plan: BUY ≤1,615, 305,000 sh, stop 1,502, target 1,938; MEDIUM conviction; final dividend Rp 114/sh (~7.06% yield) RUPS-approved Thu Jun 4; payment Jun 30.
+   - **De-risk regime gate BINDING** → NO entry possible.
+   - 9-gate sub-check: Gate 5 PASS; Gate 9 — no Mon pre-open multi-source convergent mark surfaced → FAIL on multi-source discipline.
+
+3. **ICBP** — Plan: BUY ≤6,450, 76,000 sh, stop 5,999, target 7,740; MEDIUM conviction; FY26 top consumer pick + multi-broker OW; Week 7 capitulation -6.18%.
+   - **De-risk regime gate BINDING** → NO entry possible.
+   - 9-gate sub-check: Gate 5 PASS; Gate 9 — no Mon pre-open multi-source convergent mark surfaced → FAIL on multi-source discipline.
+
+4. **MYOR** — Plan: BUY ≤1,760, 280,000 sh, stop 1,637, target 2,112; MEDIUM (uniquely regime-friendly via ASEAN/MENA USD-export exposure in IDR-weak regime); RUPST Thu dividend Rp 60/sh.
+   - **De-risk regime gate BINDING** → NO entry possible (even though MYOR has uniquely regime-friendly thesis, the macro-rule pre-empts).
+   - 9-gate sub-check: Gate 5 PASS; Gate 9 — only single-source Mon pre-open 1,780 surfaced; no ≥3-source ≤2% convergence → FAIL.
+
+5. **MDKA** — Plan: BUY ≤2,490, 198,000 sh, stop 2,316, target 2,988; MEDIUM (Fri sole sector relative-strength outlier +7.33% on +Rp 99.99B foreign net buy; gold/copper/nickel diversified; NOT MSCI/FTSE affected).
+   - **De-risk regime gate BINDING** → NO entry possible.
+   - 9-gate sub-check: Gate 5 PASS; Gate 9 — no Mon pre-open multi-source convergent mark surfaced (Fri close 2,490 is the carry) → FAIL on multi-source discipline.
+
+**Sector/regime context:** DEFENSIVE — INTENSIFIED — DEEPENING — CASCADE-BREACHED (5/5 + IDR 18,000 cascade kill-switch BREACHED 2nd-session sustained Fri+Mon pre-open). VIX +39.68% Fri (US risk-off vol-spike); Nasdaq -4.18% (chip $1T mcap wipe); US 10Y to 4.544% (hot jobs); Indo 10Y SUN to 6.90% (1-yr high); Moody's Danantara overhang; MSCI Indonesia announcement Jun 18 (8 trading days). IHSG Fri sesi II final 5,594.77 (-4.20% intraday low 5,594.11 = trial-low); MNC support 5,517 / 5,381. 5,500 psych floor vulnerable.
+
+**Eagerness check:** Week 8 = 0/3 fresh slot allocation + +24% cumulative trial-high alpha protected + TLKM AGM-day catalyst pull = textbook forced-entry pressure. Discipline binds: pre-emptive de-risk rule overrides catalyst quality.
+
+**Notification sent:** 📊 Market-open 2026-06-08: No trades placed. IDR ~18,015-18,045 sustained ≥18,000 cascade kill-switch BREACHED 2nd session = pre-emptive de-risk procedure binds NO-ENTRY across all 5 candidates (TLKM/UNVR/ICBP/MYOR/MDKA). KLBF HOLD (cluster 33% spread blocks discretionary action). Wk 0/3 fresh.
+
+**Carry-over to midday + EOD:**
+- IDR monitor: if recovers <18,000 sustained intraday → re-gate candidates per normal procedure; if breaches ≥18,200 next cascade tier → SEND ALERT.
+- IHSG 5,500 psych floor monitor: break with conviction → SEND ALERT (DEFENSIVE-CASCADE-PEAK regime escalation trigger).
+- TLKM AGM 14:00 WIB monitor: document Rp 4T buyback resolution outcome regardless of action; re-gate ONLY if IDR-recovery + multi-source + Gate 9 all converge.
+- KLBF cluster watch: midday re-evaluate cluster convergence; state-machine action per WEEKLY-REVIEW.md algorithm if ≤2% convergence reached.
+
+
