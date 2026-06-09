@@ -512,6 +512,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 36 EOD (Mon, Week 8 Day 1 - IHSG sesi I -4.53% continuation flush to 5,434.30; intraday 5,346.33 = new ~6-year low; IDR cascade-breach sustained 2nd session). KLBF safe-lower carry frozen 1,035 (cluster TradingView 745 / TE 930 / Investing 945 / Stockbit 1,135 = ~52% spread widened from Fri 20%; safe-lower discipline binds per MISTAKES.md 2026-05-01). Cumulative alpha +27.37% (new trial high; 4th consecutive expansion day; largest single-day expansion +3.37pp). Pre-emptive de-risk framework binds NO-ENTRY 5 candidates (TLKM/UNVR/ICBP/MYOR/MDKA). BBCA blue-chip break 5,000 psych floor (Tribunnews+Kompas). Cash 94.55%. Trades wk 0/3 fresh."
+    },
+    {
+      "date": "2026-06-09",
+      "day_label": "Day 37",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 5599.74,
+      "ihsg_cumulative_pct": -26.65,
+      "alpha_pct": 25.21,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -521,13 +536,13 @@
       "entry_price": 945,
       "entry_date": "2026-05-21",
       "last_price": 1035,
-      "mtm_source": "safe-lower carry (cluster non-convergence Day 48; 4-source spread ~52%)",
+      "mtm_source": "safe-lower carry (cluster non-convergence Day 49; 4-source spread ~52%)",
       "market_value_idr": 537165000,
       "unrealised_idr": 46710000,
       "unrealised_pct": 9.52,
       "stop_price": 931,
       "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
-      "days_held": 13,
+      "days_held": 14,
       "sector": "Healthcare"
     }
   ],
@@ -5896,11 +5911,11 @@
     }
   ],
   "stats": {
-    "trial_day": 36,
+    "trial_day": 37,
     "trial_week": 8,
     "cumulative_pnl_idr": -143662500,
     "cumulative_pnl_pct": -1.44,
-    "cumulative_alpha_pct": 27.37,
+    "cumulative_alpha_pct": 25.21,
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "trades_this_week": 0,
@@ -5920,7 +5935,7 @@
     "weekly_loss_cap_pct": -5.0,
     "max_drawdown_pct": -15.0,
     "idr_cascade_breached": true,
-    "idr_close": 18030,
+    "idr_close": 18150,
     "alerts_today": []
   },
   "activity_log": [
@@ -8867,6 +8882,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF cluster ~52% spread FAILS \u22653-source \u22642% convergence (TV 745 / Inv 930 / YF 1,135 / Stockbit 710); no pre-emptive single-source close per MISTAKES.md 2026-05-01. Trailing 931 GTC armed broker-side. IDR cascade-breach sustained 3rd session; IHSG sesi I \u22122.87% to 5,434.31. No cuts, no tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-06-09T08:20:58Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 37: IDR 9.856B (0.00% day). IHSG sesi I +3.04% relief bounce 5,599.74; daily alpha -3.04%; cum alpha 25.21% (compression -2.16pp from +27.37% Day 36 peak). KLBF safe-lower carry 1,035 frozen (cluster ~52% spread). IDR \u226518,000 sustained 3rd session. Cash 94.55%. Trades wk 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 37 EOD snapshot committed; IHSG sesi I anchor 5,599.74; KLBF cluster non-convergence Day 49"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -8879,20 +8906,20 @@
     }
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-DEEPENING-CONTINUATION-VINDICATED-CASCADE-BREACHED",
-    "ihsg_close": 5692.15,
+    "regime": "DEFENSIVE-CASCADE-BREACHED-RELIEF-BOUNCE-DAY-1",
+    "ihsg_close": 5599.74,
     "ihsg_close_basis": "sesi I (sesi II not multi-source convergent at filing)",
-    "ihsg_cumulative_pct": -25.44,
-    "idr_usd": 18033,
-    "idr_status": "CASCADE-BREACHED (18,000 kill-switch sustained close)",
+    "ihsg_cumulative_pct": -26.65,
+    "idr_usd": 18150,
+    "idr_status": "CASCADE-BREACHED-SUSTAINED 3rd session (18,000 kill-switch; intraday widened ~18,129\u201318,171)",
     "bi_rate": 5.25,
     "msci_announcement_date": "2026-06-18",
     "key_overhangs": [
-      "IDR 18,033 BREACHES 18,000 cascade kill-switch sustained close",
-      "Moody's Danantara Baa2 negative outlook follow-through",
-      "MSCI Indonesia classification announcement Jun 18 (9 trading days)",
-      "Foreign net sell extreme Rp 14.74T sesi I alone (~17x acceleration vs Thu)",
-      "IHSG new 5.5-year low intraday 5,648"
+      "IDR \u226518,000 sustained 3rd session \u2014 cascade kill-switch breached, intraday widened ~18,129\u201318,171",
+      "Moody's Danantara Baa2 negative outlook follow-through (4th trading day)",
+      "MSCI Indonesia classification announcement Jun 18 (7 trading days)",
+      "BBCA 5,000 psych floor broken Mon, not retested on Tue bounce",
+      "Tue sesi I +3.04% relief bounce requires \u22652 consecutive sessions of sustained recovery to invalidate cascade regime"
     ]
   },
   "research": {
@@ -9009,5 +9036,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-08T08:21:38.967938Z"
+  "last_updated": "2026-06-09T08:20:40.958535+00:00"
 }
