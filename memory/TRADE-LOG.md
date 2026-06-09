@@ -3925,3 +3925,48 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 📈 EOD 2026-06-08: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: +4.53% (IHSG sesi I −4.53% continuation; intraday 5,346 = 6-yr low). Cum alpha +27.37% (new trial high; 4th consecutive expansion day; largest single-day expansion +3.37pp). KLBF safe-lower carry 1,035 frozen (cluster 745/930/945/1,135 ~52% spread widened from Fri 20%). IDR ≥18,000 sustained 2nd session — pre-emptive de-risk binds Tue Jun 9. Cash 94.55%. Trades wk 0/3 fresh.
 
 
+
+
+---
+
+### 2026-06-09 11:30 WIB — MIDDAY SCAN (Tue, Week 8 Day 2 — NO ACTION; KLBF cluster non-convergence persists Day 49; IDR cascade-breach sustained 3rd session)
+
+#### Positions reviewed
+
+| Ticker | Shares | Entry | Broker stub | Cluster (Tue Jun 9 11:30 WIB) | P&L (broker stub) | Stop | Action |
+|--------|--------|-------|-------------|-------------------------------|-------------------|------|--------|
+| KLBF | 519,000 | 945 | 945 | TradingView 745 / Investing.com 930 / Yahoo 1,135 / Stockbit 710 = 4-source spread ~52% (TV-low 745 to YF-high 1,135) FAILS ≥3-source ≤2% convergence | 0.00% (broker stub) | 931 GTC (state-2 trailing) | HOLD — cluster non-convergence binds per MISTAKES.md 2026-05-01; no pre-emptive single-source close |
+
+#### Sell-side rule evaluation
+
+- **−7% hard cut:** NOT triggered on broker stub (945 = 0% P&L). Cluster non-convergence (~52% spread) FAILS ≥3-source ≤2% threshold per discipline. Trailing 931 GTC armed broker-side will fire automatically if cluster converges ≤931.
+- **+15% tighten to 7%:** Not applicable (broker stub 0%; cluster non-convergent).
+- **+20% tighten to 5%:** Not applicable.
+- **Stop floor (3% buffer):** 931 GTC stop is below frozen safe-lower carry 1,035 by ~10.0%; far above the 3% guardrail floor.
+
+#### Thesis check (STEP 5)
+
+- KLBF: WebSearch returned price-action only (TV 745 −3.25% day / −8.02% wk / −15.34% mo). NO fundamental catalyst invalidation surfaced; no MSCI removal contamination; healthcare-defensive sector thesis intact. Price action consistent with IHSG sesi I −2.87% deepening + IDR cascade-breach sustained 3rd session (intra ~18,129–18,171 vs Mon ~18,015–18,045). No discretionary thesis-break exit warranted.
+- Catalyst monitor: KLBF dividend payment Jun 24 (IDR 20/sh × 519,000 = IDR 10,380,000 receivable) — unchanged.
+
+#### Cluster-state machine (per WEEKLY-REVIEW.md algorithm)
+
+- Tue Jun 9 11:30 WIB cluster: TradingView 745 / Investing.com 930 / Yahoo Finance 1,135 / Stockbit 710 → 4-source spread ~52% (TV-low 745 ↔ YF-high 1,135).
+- Spread widened further from Mon EOD 52% baseline (TV 745 / TE 930 / Inv 945 / Stockbit 1,135). YF 1,135 replacing Stockbit 1,135 (1-tick swap), Stockbit now reading 710 (single-source).
+- ≥3-source ≤2% convergence: FAILED — no action possible.
+- State machine: stays at state-2 (931 trailing GTC armed; safe-lower carry frozen at 1,035 baseline).
+- Per MISTAKES.md 2026-05-01: no pre-emptive single-source close. Trailing 931 GTC handles any real downside automatically.
+
+#### Macro carry-over to EOD
+
+- IHSG: sesi I 5,434.31 (−2.87% day per multi-source); deepening below Mon 5,434.30; 5,381 MNC support tested; 5,300/5,200 next-floor watch.
+- USD/IDR: ~18,129–18,171 (Tue intraday cluster); sustained ≥18,000 for 3rd consecutive session post-Fri 18,033 breach; pre-emptive de-risk pre-market continues to bind through Wed Jun 10. **18,200 next-cascade-tier watch — only ~30 pips away**; if breached → SEND ALERT (DEFENSIVE-CASCADE-PEAK regime escalation trigger).
+- Wk 8: 0/3 fresh slots preserved (Mon NO-ENTRY on 5 deferred candidates; Tue 09:15 routine status pending review).
+
+#### Action summary
+
+- **No sells.** No hard cuts. No stop tightenings. No discretionary thesis exits.
+- KLBF state-2 trailing 931 GTC remains armed broker-side; ≥3-source ≤2% convergence required for any state transition or pre-emptive fire.
+- No midday addendum to RESEARCH-LOG filed (no >3% confirmed move; cluster non-convergence blocks single-source confirmation).
+- Notification sent per user-prompt midday all-healthy protocol.
+

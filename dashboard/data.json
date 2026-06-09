@@ -8861,6 +8861,12 @@
           "detail": "Telegram allowlist HTTP 403 \u2014 notify.sh stdout fallback engaged"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-09T04:35:09Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. KLBF cluster ~52% spread FAILS \u22653-source \u22642% convergence (TV 745 / Inv 930 / YF 1,135 / Stockbit 710); no pre-emptive single-source close per MISTAKES.md 2026-05-01. Trailing 931 GTC armed broker-side. IDR cascade-breach sustained 3rd session; IHSG sesi I \u22122.87% to 5,434.31. No cuts, no tightenings, no thesis exits."
     }
   ],
   "exposure": {
