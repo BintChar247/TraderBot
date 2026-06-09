@@ -8714,6 +8714,36 @@
           "detail": "Day 36 snapshot committed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-09T00:09:07Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 watchlist tickers. Mon Jun 8 sesi II final IHSG 5,342 (-4.52%) breaks 5,500 psych floor; IDR 18,171 NEW RECORD 3rd session sustained \u226518,000 approaching 18,200 next cascade tier. 2 candidates scored \u22656: TLKM (6/10) Rp 4T buyback execution starts TODAY + Rp 21.9T dividend cum Jun 19; MDKA (6/10) sole watchlist gainer 2nd consecutive session + gold-haven hedge. Both BLOCKED by IDR cascade-breach pre-emptive de-risk gate. KLBF HOLD cluster Day 49 non-convergence ~60% spread persists.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 \u2014 Rp 4T buyback execution starts Jun 9 + Rp 21.9T dividend cum Jun 19"
+        },
+        {
+          "type": "research",
+          "ticker": "MDKA",
+          "detail": "score 6/10 \u2014 sole watchlist gainer 2nd consecutive session + gold-haven hedge"
+        },
+        {
+          "type": "research",
+          "detail": "IDR cascade-breach pre-emptive de-risk binds NO new entries"
+        }
+      ]
     }
   ],
   "exposure": {
