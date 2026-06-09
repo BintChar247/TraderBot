@@ -5803,6 +5803,96 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM Mon Jun 8 approved Rp 4T buyback (execution begins Tue Jun 9) + Rp 21.9T dividend cum Jun 19; dual fresh catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rp 4T buyback execution day 1 + Rp 21.9T dividend cum Jun 19"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-CASCADE-PEAK regime; IDR 18,171 sustained 3rd session"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL \u2014 IDR \u226518,000 sustained = pre-emptive de-risk binds NO new entries"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be \u22645% cap (Defensive Quality Track suspended)"
+        }
+      ],
+      "reasoning": "Fresh dual catalyst (buyback Day-1 + dividend) but regime gate IDR 18,171 sustained 3rd session pre-emptive de-risk procedure forbids all new entries irrespective of catalyst quality. Patience absolute through IDR <18,000 sustained recovery.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-06-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Mon +3.63% relative-strength outlier on cascade-breach green-on-red; gold-haven hedge + MBMA HPAL phase-3 catalyst; AGM Wed Jun 11 T+2.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "2-session relative-strength continuation; AGM Wed Jun 11"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-CASCADE-PEAK regime; IDR 18,171 sustained 3rd session"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL \u2014 IDR \u226518,000 sustained = pre-emptive de-risk binds NO new entries"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be ~5% (~191,000 sh @ 2,580) \u2014 blocked"
+        }
+      ],
+      "reasoning": "2-session relative-strength outlier + gold-haven hedge thematic compelling but regime gate IDR 18,171 sustained 3rd session pre-emptive de-risk procedure forbids all new entries. Re-evaluate ONLY on IDR recovery <18,000 sustained.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -8742,6 +8832,33 @@
         {
           "type": "research",
           "detail": "IDR cascade-breach pre-emptive de-risk binds NO new entries"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-09T02:17:21Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDR 18,171 sustained \u226518,000 3rd session = DEFENSIVE-CASCADE-PEAK pre-emptive de-risk regime gate forbids all new entries; TLKM (Rp 4T buyback Day-1) + MDKA (gold-haven +3.63%) SKIPPED on regime gate despite fresh catalysts. KLBF HOLD (broker GTC 931 armed; cluster Day-49 ~60% spread blocks discretionary action). Week 8 slot 0/3 preserved.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "regime gate: IDR cascade-breach sustained 3rd session pre-emptive de-risk binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "regime gate: IDR cascade-breach sustained 3rd session pre-emptive de-risk binds"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "broker-side GTC 931 armed; cluster ~60% spread blocks discretionary action"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram allowlist HTTP 403 \u2014 notify.sh stdout fallback engaged"
         }
       ]
     }
