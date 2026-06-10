@@ -9053,6 +9053,12 @@
           "detail": "Telegram API host-allowlist denied; notification stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-10T04:34:08Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. KLBF cluster non-convergence persists Day 50; no cuts, no tightenings, no thesis exits. Trailing 931 GTC armed."
     }
   ],
   "exposure": {
