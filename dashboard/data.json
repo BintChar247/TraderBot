@@ -5908,6 +5908,104 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-06-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "3-session relative-strength continuation + gold-haven hedge + AGM Wed Jun 11 (T+1) binary catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM Wed Jun 11 (T+1) + foreign net-buy 3-session continuation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-INFLECTION-PENDING regime; IDR Wed range 18,058-18,134 sustained \u226518,000"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL \u2014 IDR multi-source Wed intraday \u226518,000 = pre-emptive de-risk procedure binds NO new entries"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be ~5% (~195,000 sh @ \u22642,520) \u2014 blocked"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override path (yfinance Day 50 blocked) \u2014 IDR multi-source convergent \u226518,000"
+        }
+      ],
+      "reasoning": "3-session relative-strength + AGM T+1 catalyst compelling but regime gate IDR multi-source Wed intraday range 18,058-18,134 (mistar.id) confirms IDR continues \u226518,000 sustained \u2014 brief 17,988 pre-open snapshot did NOT translate to sesi I sustained sub-18,000 print. Pre-emptive de-risk procedure binds. Re-evaluate ONLY on multi-source IDR <18,000 \u22652-session sustained.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp 4T buyback Day 2 execution + Rp 21.9T dividend cum Jun 19 + Mon ARB bounce-back continuation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Buyback Day 2 + cum div Jun 19 (T+6); Tue sesi I +8.94% reclaim to 2,560 from Mon ARB 2,350"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-INFLECTION-PENDING regime; IDR Wed range 18,058-18,134 sustained \u226518,000"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL \u2014 IDR multi-source Wed intraday \u226518,000 = pre-emptive de-risk binds NO new entries"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be ~5% (~193,000 sh @ \u22642,550) \u2014 blocked"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override path (yfinance Day 50 blocked); Tue sesi II final + Wed open not multi-source convergent at filing"
+        }
+      ],
+      "reasoning": "Buyback Day 2 + cum div Jun 19 catalyst-dual structure compelling and Tue +8.94% sesi I reclaim from Mon ARB 2,350 reduces capitulation overhang, but regime gate IDR multi-source Wed range 18,058-18,134 confirms continued \u226518,000 sustained \u2014 pre-emptive de-risk procedure binds. Re-evaluate ONLY on multi-source IDR <18,000 \u22652-session sustained.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -8924,6 +9022,37 @@
           "detail": "BI off-cycle +25bp hike to 5.50%; IHSG +7.57% record bounce; IDR pre-open <18,000 first session"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-10T02:18:12Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDR Wed multi-source intraday range 18,058-18,134 = sustained \u226518,000; pre-emptive de-risk procedure binds (regime DEFENSIVE-INTENSIFIED-INFLECTION-PENDING). Both MDKA + TLKM SKIP on regime gate. KLBF HOLD.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "IDR \u226518,000 sustained Wed intraday \u2014 pre-emptive de-risk binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "IDR \u226518,000 sustained Wed intraday \u2014 pre-emptive de-risk binds"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "cluster Day 50 non-convergence; trailing 931 GTC armed"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override path engaged (yfinance Day 50 blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram API host-allowlist denied; notification stdout fallback"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9066,5 +9195,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-09T08:20:40.958535+00:00"
+  "last_updated": "2026-06-10T09:15:00+07:00"
 }
