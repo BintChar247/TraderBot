@@ -527,6 +527,22 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-06-10",
+      "day_label": "Day 38",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 5881.23,
+      "ihsg_cumulative_pct": -22.95,
+      "alpha_pct": 21.51,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 38 EOD (Wed, Week 8 Day 3 - IHSG sesi I +5.03% relief-bounce continuation T+1 to 5,881.23; IDR <18,000 1-of-2 sustained pending Thu confirmation; KLBF cluster non-convergence Day 50 persists 4-source ~60% spread). Equity unchanged IDR 9.856B - KLBF safe-lower carry frozen 1,035 per cluster non-convergence + safe-lower discipline binds per MISTAKES.md 2026-05-01. Cumulative alpha +21.51% (compression -3.70pp from +25.21% Day 37; 2nd consecutive single-day compression on relief-bounce continuation; still strong absolute). MDKA + TLKM candidates deferred at 09:15 on IDR multi-source verification gate failure. Wk 8 0/3 fresh preserved. MDKA AGM Thu Jun 11 T+0. Cash 94.55%."
     }
   ],
   "positions": [
@@ -536,13 +552,13 @@
       "entry_price": 945,
       "entry_date": "2026-05-21",
       "last_price": 1035,
-      "mtm_source": "safe-lower carry (cluster non-convergence Day 49; 4-source spread ~52%)",
+      "mtm_source": "safe-lower carry (cluster non-convergence Day 50; 4-source spread ~60%)",
       "market_value_idr": 537165000,
       "unrealised_idr": 46710000,
       "unrealised_pct": 9.52,
       "stop_price": 931,
       "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
-      "days_held": 14,
+      "days_held": 15,
       "sector": "Healthcare"
     }
   ],
@@ -9059,6 +9075,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF cluster non-convergence persists Day 50; no cuts, no tightenings, no thesis exits. Trailing 931 GTC armed."
+    },
+    {
+      "timestamp": "2026-06-10T08:20:07Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 38 EOD: IDR 9.856B (+0.00%). Alpha -5.03% (cum +21.51%). 1 position (KLBF +9.52%). 0 trades today; wk 0/3. IDR <18,000 1-of-2 sustained pending Thu confirmation.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 38 EOD snapshot committed; cumulative alpha +21.51% (compression -3.70pp from Day 37)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9201,5 +9229,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-10T09:15:00+07:00"
+  "last_updated": "2026-06-10T15:15:00+07:00"
 }

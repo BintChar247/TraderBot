@@ -4117,3 +4117,105 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 - Notification sent per all-healthy protocol.
 
 
+---
+
+### 2026-06-10 EOD — Day 38 (Wed, Week 8 Day 3 — IHSG sesi I +5.03% relief-bounce continuation T+1 to 5,881.23; IDR sub-18,000 1st-of-2 sustained confirmation pending; KLBF cluster non-convergence persists Day 50)
+
+- Total equity: IDR 9,856,337,500 (unchanged from Day 36/37 EOD baseline — KLBF safe-lower carry frozen 1,035 per cluster non-convergence Day 50 data infrastructure outage; cluster ~60% spread persists)
+- Daily P&L: IDR 0 (0.00%) — vs Day 37 EOD baseline 9,856,337,500
+- IHSG daily: +5.03% (Wed sesi I 5,881.23 vs Tue sesi I anchor 5,599.74; multi-source convergent per RRI, Liputan6, beritasatu, kompas; sesi II intraday 13:49 WIB ~5,870 +2.15% ongoing; sesi II final not multi-source convergent at 15:15 WIB filing; sesi I→sesi I anchor used per established Day 33/34/35/36/37 procedure)
+- Daily alpha: −5.03% (cash-heavy book holds flat through IHSG sesi I relief-bounce continuation T+1; 2nd consecutive single-day alpha compression after 4 consecutive expansion days)
+- Cash: IDR 9,319,172,500 (94.55% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Week 8 Day 3 = Wed; 0/3 fresh allocation preserved; IDR multi-source <18,000 ≤2% spread verification at 09:15 routine did not clear gate per persistent BCA-ref 18,125-18,215 spread; pre-emptive de-risk SOFT-BINDING continued)
+- Phase-to-date P&L: IDR −143,662,500 (−1.44%)
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today sesi I 5,881.23 = −22.95%): +21.51% (compression of −3.70pp from +25.21% Day 37 carry — 2nd consecutive single-day compression on relief-bounce continuation; still strong cumulative alpha position of trial well above mid-trial average)
+- Weekly P&L (Week 8 — start baseline 9,856,337,500 Fri Jun 5 EOD): 0.00%
+- Peak equity: IDR 10,026,617,500 (Apr 22 Day 3 trial high — unchanged)
+- Drawdown from peak: −1.70% (unchanged)
+- Realised P&L cumulative: IDR −190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M — unchanged)
+- Future dividend receivable: IDR 10,380,000 (KLBF ex-div Jun 4; payment Jun 24 — unchanged)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower carry frozen from Tue Jun 2 anchor; Wed Jun 10 cluster TradingView 710 / Stockbit 1,135 / Investing 945 / Yahoo 945 = 4-source spread ~60% FAILS ≥3-source ≤2% convergence mandatory; safe-lower discipline binds per MISTAKES.md 2026-05-01 procedure) | +IDR 46,710,000 (+9.52%) | 15 |
+
+#### Broker reconciliation
+
+- Broker portfolio (`bash scripts/broker.sh portfolio`): KLBF 519,000 sh @ entry 945, entry_date 2026-05-21 — matches PAPER-STATE.json and TRADE-LOG Active Positions.
+- STOPS.json: KLBF state=trailing, current_stop=931, trail_pct=10, hwm=1,035 — unchanged; cluster spread >2% blocks any state-3/state-4 transition; trailing 931 GTC armed broker-side; per discipline cannot fire on multi-source cluster-low without ≥3-source ≤2% convergence.
+- broker.sh quote (KLBF) returns stale entry_price 945 stub (yfinance Day 50 still blocked HTTP 403; GoAPI not configured); MTM uses frozen safe-lower carry 1,035 per spread discipline.
+- broker.sh portfolio equity 9,809,627,500 (uses entry-price stub 945 for KLBF MV); TRADE-LOG equity 9,856,337,500 (uses frozen safe-lower carry 1,035). Difference IDR 46,710,000 = (1,035 − 945) × 519,000. Procedural (broker stub vs trade-log carry); not a position-count or share-count discrepancy.
+- **No position discrepancy.** Position in broker = position in TRADE-LOG = position in STOPS.json = position in dashboard. Single open position: KLBF 519,000 sh.
+
+#### Mark-to-market sources (frozen safe-lower carry — cluster spread persists Day 50 data infrastructure outage):
+
+- KLBF: IDR 1,035 (safe-lower carry; Wed Jun 10 cluster TradingView 710 / Stockbit 1,135 / Investing 945 / Yahoo 945 = 4-source spread ~60% FAILS ≥3-source ≤2% convergence mandatory; safe-lower discipline binds; trailing 931 GTC remains armed broker-side; per MISTAKES.md 2026-05-01 no pre-emptive single-source close).
+- IHSG sesi I: 5,881.23 (Wed sesi I close, +5.03%/+281.49pt from Tue sesi I anchor 5,599.74; multi-source convergent per RRI.co.id, Liputan6, beritasatu, money.kompas.com; intraday range sesi I 5,677.97-5,939.35; sesi II intraday 13:49 WIB ~5,870 +2.15% ongoing; sesi II final not yet multi-source convergent at 15:15 WIB filing; 2nd consecutive relief-bounce session).
+- IHSG vs Tue sesi I anchor 5,599.74: +5.03% daily (sesi I → sesi I anchor reconciliation per Day 33/34/35/36/37 established procedure to avoid double-counting sesi I→sesi II give-back/recovery).
+- USD/IDR: ~17,988 Wed pre-open (range 17,874-17,988; first sub-18,000 session in 4); BCA bank reference Tue 08:26 still 18,125-18,215 cluster-spread; intraday Wed sustained <18,000 per multiple sources; **IDR INFLECTION 1-of-2 sessions confirmed**; ≥2-session sustained <18,000 required for full regime de-escalation.
+- Newcastle thermal coal: ~$148.75/t carry — non-material (coal sector EXITED post May 20 ADRO cut + Danantara Phase 1 Day 3 binding).
+- Brent: ~$91.11/bbl carry.
+- BI-Rate: 5.50% (post Tue off-cycle +25bp hike; cumulative +75bp YTD).
+
+#### Macro
+
+Wed Jun 10 = Week 8 Day 3 = second consecutive relief-bounce session after 4-session cascade flush. **IHSG sesi I closed +5.03% to 5,881.23** — extending Tue's +7.57% (largest single-day gain of trial). Drivers: (1) **BI off-cycle +25bp hike Tue Jun 9 to 5.50%** continues to stabilize sentiment; (2) **IDR rebounded sub-18,000** (Wed pre-open ~17,988 vs Tue intraday peak 18,234); (3) **Banking sector continuation rally** post BI hike (BBCA/BBNI/BBTN green); (4) **Wall Street mixed-overnight** with Dow +0.17% offsetting tech weakness; (5) **Nikkei +2.17% recovery** continuation. Macro overhangs partially de-escalating: **IDR <18,000 1-of-2 sustained confirmation**; MSCI Indonesia announcement Jun 18 (6 trading days away) still overhang; Moody's Danantara overhang persists. Regime label transitions DEFENSIVE-CASCADE-BREACHED → DEFENSIVE-INTENSIFIED-INFLECTION-PENDING; full de-escalation requires ≥2-session sustained IDR <18,000 + Moody's stabilization + foreign flow inflection.
+
+#### Portfolio impact
+
+Daily P&L 0.00% — KLBF frozen safe-lower carry holds non-discretionarily through IHSG +5.03% sesi I relief-bounce continuation. **Cumulative trial alpha compressed from +25.21% (Day 37) to +21.51%** on −5.03% daily alpha (cash-heavy defensive book gives back relative outperformance on 2nd consecutive relief-bounce day — structurally expected; the asymmetric cumulative alpha gained over the 4-session cascade flush still dominates). 2nd consecutive single-day cumulative-alpha compression. Cash buffer 94.55% structurally insulating book; KLBF state-2 trailing stop @ 931 GTC remains armed broker-side; cluster spread ~60% blocks any pre-emptive single-source fire per MISTAKES.md 2026-05-01. **Discipline lesson:** the structural defensive book is calibrated to outperform on cascade-deeper days and underperform on relief-bounce days; +21.51% cumulative alpha is still a strong absolute alpha position of the trial.
+
+#### RISK ALERTS
+
+- Daily P&L 0.00% — flat-frozen day. NO alert. Far above −2% daily loss cap.
+- KLBF carry +9.52% (safe-lower) — far above −6% warning threshold and far above −7% hard-cut 879. NO alert.
+  - Note: 4-source cluster low TradingView 710 does not meet ≥3-source ≤2% convergence threshold + remains below the trailing 931 GTC; per cluster discipline + MISTAKES.md 2026-05-01, no alert fired and no pre-emptive close.
+- Drawdown from peak −1.70% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 8 Day 3) 0.00% — far from −5% reduction trigger. NO alert.
+- **IDR <18,000 1-of-2 session confirmation** — regime de-escalation pending; pre-emptive de-risk SOFT-BINDING continues; full lift requires ≥2-session sustained <18,000 multi-source ≤2% spread.
+- **Trading NOT halted** (no daily/drawdown caps hit; IDR inflection-pending under SOFT-BINDING evaluable framework).
+
+#### Sector exposure
+
+Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 94.55%. No banking/coal/mining/nickel/conglomerate exposure (post May 20 ADRO cut). MSCI removal contamination risk on KLBF: nil (re-confirmed each session since May 29 — KLBF NOT in BREN/CUAN/DSSA/TPIA/AMMN removal basket).
+
+#### Cumulative alpha trajectory
+
+- Day 0 baseline IHSG 7,634 → Wed Jun 10 sesi I close 5,881.23 = IHSG cumulative −22.95%.
+- Day 0 baseline equity 10,000,000,000 → today equity 9,856,337,500 = portfolio cumulative −1.44%.
+- **Cumulative alpha = +21.51%** (compression of −3.70pp from +25.21% Day 37 carry; 2nd consecutive single-day compression on relief-bounce continuation; still strong absolute trial alpha position).
+- The cash-heavy defensive book gave back relative outperformance on the 2nd consecutive relief-bounce day, by design. Across the trial: cumulative alpha trajectory is +21.51% absolute — structurally strong position post the +27.37% Day 36 peak.
+
+#### Notes
+
+- **Day 50 data infrastructure outage:** yfinance + GoAPI both blocked since Apr 21; market-data.sh quote KLBF returns HTTP 403 host-allowlist error; broker.sh quote returns stale entry-price stub. WebSearch-only override path remains operational for IHSG (multi-source convergent at sesi I 5,881.23) but KLBF cluster spread ~60% (TradingView 710 / Stockbit 1,135 / Investing 945 / Yahoo 945) blocks confirmation of any intraday move. Safe-lower carry discipline holds.
+- **Trailing stop 931 GTC binding but unfired:** On a confirmed +5.03% IHSG sesi I day, real-tape KLBF likely traded at recovery levels closer to mid-cluster; however the 4-source cluster spread ~60% fails ≥3-source ≤2% convergence threshold per discipline. The 931 GTC stop will fire automatically if Thu cluster converges ≤931 with ≤2% spread across ≥3 sources.
+- **IDR inflection 1-of-2 sustained:** Wed intraday cluster sub-18,000 (range 17,874-17,988); BCA bank ref Tue 08:26 still 18,125-18,215 cluster-spread; regime de-escalation requires Thu Jun 11 to confirm ≥2-session sustained.
+- **IHSG anchor reconciliation:** Today's IHSG daily % uses Tue Jun 9 sesi I close anchor 5,599.74 (per Day 37 EOD log) → Wed Jun 10 sesi I close 5,881.23 = +5.03% daily. Sesi II final not multi-source convergent at filing time (sesi II intraday 13:49 WIB ~5,870 +2.15%; sesi I → sesi I anchor used per established Day 33/34/35/36/37 procedure). Cumulative alpha calc uses sesi I → sesi I across consecutive days.
+- **Trial trajectory:** Beyond original April 20–May 2 trial window (current Day 38 trial continuation; Week 8 Day 3 with 2 sessions remaining). Cumulative alpha +21.51% (compression from +25.21% Day 37); phase-to-date P&L −1.44% modest; drawdown discipline (−1.70% from peak) deeply within tolerances. Realised P&L unchanged at −190,372,500.
+- **No trades placed Wed Jun 10:** 09:15 routine deferred MDKA + TLKM candidates on IDR multi-source verification gate failure (BCA ref 18,125-18,215 cluster-spread vs intraday 17,988 sub-18,000) + post-relief-bounce Gate 9 chase cap evaluation pending Wed open; midday scan confirmed no >3% cluster-convergent move on KLBF; no thesis exits; no stop tightenings. Week 8 0/3 slots preserved into Thu Jun 11.
+- **Macro overhangs into Thu Jun 11 (Week 8 Day 4):**
+  - IDR <18,000 2nd-session sustained confirmation watch — if Thu pre-open + sesi I multi-source ≤2% spread <18,000 = full regime de-escalation to DEFENSIVE-CONFIRMED; if breaches back ≥18,000 = SOFT-BINDING re-imposes
+  - IHSG Wed sesi II final pending multi-source convergence; if confirms recovery hold above 5,800 = relief-bounce continuation locked in
+  - **MDKA AGM Wed Jun 11 (TOMORROW) = T+0 binary AGM-day catalyst** — dividend / strategy / Tujuh Bukit guidance can move stock materially either direction
+  - MSCI Indonesia classification announcement Jun 18 overhang (6 trading days away)
+  - Moody's Danantara Baa2 negative outlook + sovereign governance shock continuation
+  - US Trump tease Iran kinetic strikes (geopolitical shock relapse risk)
+- **Carry-over to Thu Jun 11 pre-market (Week 8 Day 4):**
+  1. KLBF fresh multi-source cluster narrowing — if Thu cluster converges ≤2% spread across ≥3 sources: (a) at confirmed mark ≤931, trailing 931 GTC fires automatically; (b) at mark ≥1,087 → fire state-3 (7% trail at 1,011); (c) at mark ≥1,134 → fire state-4 (5% trail at 1,077). Cluster has stayed at ~60% spread for 3 consecutive sessions — convergence increasingly unlikely on current data infrastructure.
+  2. IDR <18,000 2nd-session sustained evaluation — if confirms full de-escalation to DEFENSIVE-CONFIRMED → 9-gate run on MDKA/TLKM/UNVR/ICBP/MYOR candidates; if breaches ≥18,000 → SOFT-BINDING re-imposes; if breaches ≥18,200 → SEND ALERT (DEFENSIVE-CASCADE-PEAK escalation).
+  3. **MDKA AGM Thu Jun 11 = T+0 binary catalyst** — pre-AGM gate-run candidate; dividend amount / Tujuh Bukit guidance / strategy reset key risk-reward determinant; if approved + positive guidance + IDR <18,000 confirmed → entry candidate at Gate 9 chase cap.
+  4. TLKM buyback Day 3 print check + Tue close multi-source confirmation — if confirms recovery >2,500 from Mon ARB 2,350 + Wed direction confirms continuation → entry candidate.
+  5. IHSG Thu direction vs 5,881.23 (Wed sesi I anchor) / 5,746.65 (Tue sesi II final) / 5,939.35 (Wed sesi I intraday high) / 5,677.97 (Wed sesi I intraday low) — sesi II final pending multi-source confirmation.
+  6. IDR Thu direction vs 17,874-17,988 (Wed range) / 17,916.7 (Tue prev close) / 18,000 cascade ladder / 18,200 next-cascade-tier watch.
+  7. Defensive thesis maintenance: 94.55% cash buffer + KLBF healthcare-defensive carry remains the binding alpha-protection posture into Week 8 Day 4; cumulative alpha +21.51% remains structurally strong; 2nd-day compression −3.70pp does NOT change the structural defensive thesis but signals partial regime transition opportunity if IDR confirms.
+  8. Relief-bounce confirmation watch: regime de-escalation requires Thu Jun 11 ≥2-session sustained IDR + IHSG hold above 5,800 sesi II close + Moody's overhang abatement; partial confirmation evident at Wed close.
+
+#### Notification sent
+
+📈 EOD 2026-06-10: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: −5.03% (IHSG sesi I +5.03% relief-bounce continuation; 2nd consecutive alpha compression). Cum alpha +21.51% (compression −3.70pp from +25.21% Day 37; still strong absolute). KLBF safe-lower carry 1,035 frozen (cluster 710/945/945/1,135 ~60% spread persists Day 50). IDR sub-18,000 1-of-2 sustained pending Thu confirmation. Cash 94.55%. Trades wk 0/3 fresh.
+
+
