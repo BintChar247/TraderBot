@@ -8894,6 +8894,36 @@
           "detail": "Day 37 EOD snapshot committed; IHSG sesi I anchor 5,599.74; KLBF cluster non-convergence Day 49"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-10T00:10:02Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. Tue BI +25bp off-cycle hike \u2192 IHSG +7.57% record bounce to 5,746.65. IDR pre-open 17,988 first sub-18,000 session in 4. 2 candidates \u22656: MDKA (AGM T+1), TLKM (buyback Day 2). Regime DEFENSIVE-INTENSIFIED-INFLECTION-PENDING.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (full watchlist)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MDKA",
+          "detail": "score 6/10 \u2014 AGM Wed Jun 11 T+1 + gold-haven hedge + 3-session relative-strength"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 \u2014 Rp 4T buyback Day 2 active + Rp 21.9T div cum Jun 19"
+        },
+        {
+          "type": "macro",
+          "detail": "BI off-cycle +25bp hike to 5.50%; IHSG +7.57% record bounce; IDR pre-open <18,000 first session"
+        }
+      ]
     }
   ],
   "exposure": {
