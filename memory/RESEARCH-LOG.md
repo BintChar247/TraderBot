@@ -9259,4 +9259,24 @@ Score each ticker 1-10. Apply post-bounce Gate 9 chase cap filter (most banks +6
 - [TLKM live quote 2,900 -0.35% — Investing.com](https://www.investing.com/equities/telkom-indones)
 - [TLKM Mon Jun 8 ARB 2,350 -14.86% pre-AGM — Bisnis](https://market.bisnis.com/read/20260608/192/1979355/telkom-tlkm-kantongi-restu-buyback-saham-rp4-triliun)
 
+### 2026-06-11 Midday addendum — KLBF move
+
+**Trigger:** Sectors.app / Yahoo synthesis indicates KLBF -2.01% to -3.25% intraday (730-745 IDR cluster). Crosses >3% sharp-move threshold per midday.md STEP 6.
+
+**Multi-source check (Thu Jun 11 midday):**
+- Yahoo Finance close ~16:14 GMT+7 reading: 730 (-2.01%)
+- Sectors.app / consolidated web synthesis: 745 (-3.25% / 24h)
+- 2-source spread = ~2.05% (just outside ≤2% threshold)
+- Investing.com / Stockbit / TradingView: no clear Thu Jun 11 closing tick within search window
+- broker.sh quote: stale stub 945 (yfinance + GoAPI Day 52 blocked HTTP 403)
+
+**Move attribution:**
+- No KLBF-specific adverse catalyst surfaced in WebSearch for Jun 11 (no MSCI removal contamination, no earnings warning, no buyback suspension).
+- Most likely cause: 2nd-day relief-bounce cooling on healthcare-defensive sector as risk-on rotation into financials/conglomerates continues with IDR sub-18,000 sustained.
+- KLBF cluster lower-bound 730-745 reading is consistent with 4-session-running cluster Day 49 (TradingView 710 / Yahoo 945 / Investing 945 / Stockbit 1,135 ~60% spread); Yahoo persistently mid-cluster anchor.
+
+**Discipline applied:** Per MISTAKES.md 2026-05-01, 2-source non-convergent (spread >2%) does NOT meet ≥3-source ≤2% threshold required to fire pre-emptive close. Trailing 931 GTC armed broker-side; will fire automatically when cluster converges. No discretionary action.
+
+**Thesis status:** INTACT. Healthcare-defensive bid + Rp500B buyback through Jul 2 + ex-div IDR 20 Jun 4 mechanical drop already absorbed Jun 4. Cluster non-convergence Day 52 persists.
+
 ---

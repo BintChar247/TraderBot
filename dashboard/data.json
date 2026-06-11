@@ -9216,6 +9216,12 @@
           "detail": "Telegram notify host-blocked in sandbox; message printed stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-11T04:38:03Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "KLBF Day 52 cluster non-convergence (2-source 730/745 spread ~2.05% > 2%); safe-lower carry holds; no -7% cut, no stop tighten. All positions healthy."
     }
   ],
   "exposure": {
