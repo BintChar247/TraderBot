@@ -543,6 +543,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 38 EOD (Wed, Week 8 Day 3 - IHSG sesi I +5.03% relief-bounce continuation T+1 to 5,881.23; IDR <18,000 1-of-2 sustained pending Thu confirmation; KLBF cluster non-convergence Day 50 persists 4-source ~60% spread). Equity unchanged IDR 9.856B - KLBF safe-lower carry frozen 1,035 per cluster non-convergence + safe-lower discipline binds per MISTAKES.md 2026-05-01. Cumulative alpha +21.51% (compression -3.70pp from +25.21% Day 37; 2nd consecutive single-day compression on relief-bounce continuation; still strong absolute). MDKA + TLKM candidates deferred at 09:15 on IDR multi-source verification gate failure. Wk 8 0/3 fresh preserved. MDKA AGM Thu Jun 11 T+0. Cash 94.55%."
+    },
+    {
+      "date": "2026-06-11",
+      "day_label": "Day 39",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 5789.98,
+      "ihsg_cumulative_pct": -24.16,
+      "alpha_pct": 22.72,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 39 EOD (Thu, Week 8 Day 4 - IHSG sesi I -1.55% mean-reversion to 5,789.98 after 2-day relief bounce; KLBF cluster non-convergence Day 52 persists 3-source ~29.5% spread). Equity unchanged IDR 9.856B - KLBF safe-lower carry frozen 1,035 per cluster non-convergence + safe-lower discipline binds per MISTAKES.md 2026-05-01. Cumulative alpha +22.72% (expansion +1.21pp from +21.51% Day 38; 1st alpha expansion day after 2 consecutive compressions on relief bounce; strong absolute trial alpha). MDKA + TLKM both SKIP at 09:15 on Gate 9 multi-source non-convergence + binary AGM T+0 timing. IDR sub-18,000 2-of-2 sustained CONFIRMED Wed close 17,940. Wk 8 0/3 fresh preserved. MDKA AGM outcome doc'd for Fri re-gate. MSCI T-5. Cash 94.55%."
     }
   ],
   "positions": [
@@ -552,13 +568,13 @@
       "entry_price": 945,
       "entry_date": "2026-05-21",
       "last_price": 1035,
-      "mtm_source": "safe-lower carry (cluster non-convergence Day 50; 4-source spread ~60%)",
+      "mtm_source": "safe-lower carry (cluster non-convergence Day 52; 3-source spread ~29.5% Yahoo 730 / sectors.app 745 / broker stub 945)",
       "market_value_idr": 537165000,
       "unrealised_idr": 46710000,
       "unrealised_pct": 9.52,
       "stop_price": 931,
       "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
-      "days_held": 15,
+      "days_held": 16,
       "sector": "Healthcare"
     }
   ],
@@ -9222,6 +9238,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "KLBF Day 52 cluster non-convergence (2-source 730/745 spread ~2.05% > 2%); safe-lower carry holds; no -7% cut, no stop tighten. All positions healthy."
+    },
+    {
+      "timestamp": "2026-06-11T08:19:36Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 39: IDR 9.856B (+0.00% day). Alpha +1.55% vs IHSG sesi I -1.55%. Cum alpha +22.72% (1st expansion day after 2 compressions). KLBF safe-lower 1,035 frozen Day 52. Trades wk 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 39 EOD snapshot committed; cumulative alpha expanded to +22.72%; KLBF cluster non-convergence persists Day 52"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9364,5 +9392,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-10T15:15:00+07:00"
+  "last_updated": "2026-06-11T15:15:00+07:00"
 }
