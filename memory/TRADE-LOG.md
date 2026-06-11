@@ -4218,4 +4218,66 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 📈 EOD 2026-06-10: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: −5.03% (IHSG sesi I +5.03% relief-bounce continuation; 2nd consecutive alpha compression). Cum alpha +21.51% (compression −3.70pp from +25.21% Day 37; still strong absolute). KLBF safe-lower carry 1,035 frozen (cluster 710/945/945/1,135 ~60% spread persists Day 50). IDR sub-18,000 1-of-2 sustained pending Thu confirmation. Cash 94.55%. Trades wk 0/3 fresh.
 
+---
+
+## 2026-06-11 09:15 WIB — Market-open: NO TRADES (Week 8 Day 4 / Thu — MDKA AGM T+0 + IDR 2-session sub-18,000 de-escalation partial; both candidates SKIP on Gate 9 chase cap + multi-source non-convergence)
+
+**Trade slot:** Week 8 = 0/3 fresh pre-open; remains 0/3 post-open.
+
+**Pre-emptive de-risk framework SOFT-BINDING:** Wed Jun 10 IDR close 17,940 (+1.08%) = 2nd-consecutive sub-18,000 close → IDR de-escalation criterion (a) MET. IHSG Wed sesi II final 5,902.38 (+2.71%) = de-escalation criterion (c) MET (>5,500 reclaim). 2 of 4 de-escalation triggers checked = DOWNGRADE-PENDING (not yet DEFENSIVE-CONFIRMED). Pre-emptive blanket-block LIFTED; full 9-gate eligible on candidates with multi-source convergence — but Eagerness Check + 5% cap binding remain per regime label.
+
+**Broker state:** KLBF 519,000 sh @ entry 945 (single open position); cash IDR 9,319,172,500 (94.55% of equity); equity IDR 9,809,627,500 (broker MV stub) / 9,856,337,500 (trade-log safe-lower carry 1,035).
+
+**Open positions reviewed:**
+- KLBF — HOLD. Wed Jun 10 cluster (TradingView 710 / Stockbit 1,135 / Investing 945 / Yahoo 945) = 4-source spread ~60% FAILS ≥3-source ≤2% convergence per MISTAKES.md 2026-05-01 discipline. Trailing 931 GTC armed broker-side; fires automatic if cluster converges ≤931 across ≥3 sources within ≤2%. No discretionary action possible.
+
+**Candidates evaluated (2 — both SKIP per Gate 9 + multi-source non-convergence):**
+
+1. **MDKA — RUPS AGM Thu Jun 11 T+0 binary catalyst**
+   - Plan (per Wed research-log): BUY ~195,000 sh @ ≤2,520 (5% equity = IDR 491.4M), stop 2,343 (-7%), target 3,024 (+20%); R:R 2.86:1; MEDIUM conviction.
+   - Anchor analysis: Fri Jun 5 close 2,490 → Mon 2,580 → Tue 2,520 → Wed ~2,500 (web single-source Investing.com) = 4-day cumulative ~+0.4% but only after 3-session relative-strength move +15% Wed → Tue. Pre-AGM positioning Thu = binary AGM-day timing risk.
+   - 9-gate sub-check:
+     - Gates 1-4 portfolio caps: PASS (KLBF only; 0/3 trades; 5% cap = 492.8M ≤ cash 9.32B)
+     - Gate 5 catalyst documented: PASS (AGM RUPST Thu Jun 11 T+0 in Wed research log; gold-haven hedge + AGM)
+     - Gate 6 stock instrument: PASS
+     - Gate 7 ADV: PASS (LQ45 mid-cap; ADV historically high)
+     - Gate 8 lot size: PASS (195,000 = 1,950 lots × 100)
+     - **Gate 9 chase cap (no >3% above planned entry):** Web Wed close ~2,500 vs planned entry 2,520 = -0.79% (within Gate 9 if isolated tick read). HOWEVER: multi-source Wed close NOT CONVERGENT — only Investing.com 2,500 surfaced; yfinance/GoAPI Day 51 blocked HTTP 403; Sectors.app/Yahoo not refreshed. Per MISTAKES.md 2026-05-01 discipline: ≥3-source ≤2% spread mandatory; **single-source price = FAIL Gate 9 procedural** (cannot establish base anchor confidently).
+   - Additional discipline binds:
+     - **Binary AGM T+0 timing risk** — RUPS resolves TODAY; pre-resolution positioning = speculative; AGM-day outcome can move stock materially in EITHER direction. With +21.51% cumulative trial alpha exposed, asymmetric downside risk fails Eagerness Check.
+     - **4-day cumulative chase risk** — 3 prior days of relative-strength +15% cumulative (Fri/Mon/Tue) already chased; entering at session 4 = following extended move at the margin.
+   - **DECISION: SKIP** — Gate 9 procedural fail on multi-source non-convergence; binary AGM T+0 timing exposes alpha; Eagerness Check fails. Defer re-evaluation to Fri Jun 12 (weekly review day) post-AGM resolution.
+
+2. **TLKM — Rp 4T buyback Day 3 execution + Rp 21.9T dividend cum Jun 19 (T+5)**
+   - Plan (per Wed research-log): BUY ~193,000 sh @ ≤2,550 estimated (5% equity), stop 2,372 (-7%), target 3,060 (+20%); R:R 2.86:1; MEDIUM conviction.
+   - Anchor analysis: Mon Jun 8 ARB close 2,350 (capitulation low); Tue Jun 9 close pending multi-source confirmation (per Wed log); Wed Jun 10 web shows Investing.com "current 2,900 -0.35%" — possibly indicating recovery to 2,900 area but single-source.
+   - 9-gate sub-check:
+     - Gates 1-4 portfolio caps: PASS (same cash/slot/cap analysis as MDKA)
+     - Gate 5 catalyst documented: PASS (buyback Day 3 + cum div Jun 19 T+5)
+     - Gate 6 stock instrument: PASS
+     - Gate 7 ADV: PASS (LQ45 mega-cap)
+     - Gate 8 lot size: PASS
+     - **Gate 9 chase cap:** Multi-source Wed close NOT CONVERGENT (Investing 2,900; Yahoo blocked; Bisnis HTTP 403 on WebFetch). From Mon ARB 2,350 anchor → 2,900 = **+23.4% cumulative chase = FAIL Gate 9**. From planned entry 2,550 → 2,900 = +13.7% = **FAIL Gate 9 (+3% cap)**. Both anchor scenarios fail.
+   - Additional discipline binds:
+     - **Multi-source non-convergence** procedurally blocks confident anchor establishment
+     - **Buyback structural floor support real** but does not override entry discipline
+     - **Eagerness Check fails** — +21.51% alpha protection binds against chasing extended bounce
+   - **DECISION: SKIP** — Gate 9 procedural fail (from any reasonable anchor); multi-source non-convergence; Eagerness Check fails. Defer to Fri post Thu close multi-source convergence check + MSCI Jun 18 T-4 evaluation.
+
+**Sector/regime context:** DEFENSIVE — INTENSIFIED — DE-ESCALATION-PARTIAL. IDR de-escalation criterion (a) MET (Wed close 17,940 = 2-session sustained sub-18,000). IHSG criterion (c) MET (Wed close 5,902.38 = >5,500 sustained reclaim). Moody's (b) NOT confirmed; foreign flow (d) partially. 2 of 4 = downgrade-pending. MSCI Jun 18 BINARY T-5 trading days. Mean-reversion risk on +13% cumulative IHSG bounce Mon→Wed (statistically extended).
+
+**Eagerness check:** Week 8 = 0/3 fresh slot + 2 consecutive weeks 0/3 preservation + +21.51% cumulative trial-high alpha (compressed -5.86pp from +27.37% Day 36 peak on 2-day relief bounce — defending remainder binds patience) + MDKA AGM T+0 catalyst pull = textbook forced-entry pressure. Discipline binds: multi-source non-convergence + Gate 9 procedural fail + binary AGM timing risk = SKIP both.
+
+**Notification sent:** 📊 Market-open 2026-06-11: No trades placed. MDKA SKIP (Gate 9 multi-source non-convergence + binary AGM T+0 timing risk + 4-day cumulative +15% chase). TLKM SKIP (Gate 9 chase fail from any anchor; multi-source non-convergence). KLBF HOLD (cluster 60% spread Day 51 persists). IDR de-escalation criterion (a) MET on Wed 17,940 2-session sustained. Wk 0/3 fresh.
+
+**Carry-over to midday + EOD:**
+- IDR monitor sesi I: if Thu intraday breaches ≥18,000 single-session = de-escalation criterion (a) BREAKS, SOFT-BINDING re-imposes; ≥18,200 = SEND ALERT.
+- IHSG monitor: Thu open vs Wed close 5,902.38; resistance 5,941 (key) / 6,065; if break 5,941 with conviction = continuation; if rejected = mean-reversion likely.
+- MDKA AGM monitor: document resolution outcome (dividend / Tujuh Bukit guidance / strategy reset); re-gate ONLY for Fri Jun 12 if AGM positive + Thu close multi-source convergent + Gate 9 chase cap clearance.
+- TLKM Wed close multi-source watch: if ≥3-source ≤2% convergence reached → re-gate for Fri.
+- KLBF cluster Day 52 watch: midday re-evaluate; state-machine action per discipline if ≤2% convergence.
+
+---
+
+
 

@@ -6022,6 +6022,104 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-06-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Gold-haven hedge + AGM T+0 binary catalyst + 3-session relative-strength; skip on Gate 9 chase cap risk + binary AGM pre-resolution timing + multi-source non-convergent.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MDKA AGM RUPST Thu Jun 11 T+0 binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR 17,940 Wed close = 2-session sub-18,000 de-escalation criterion (a) MET"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap: 4-day cumulative +15% prior accumulation"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (regime DEFENSIVE-INTENSIFIED-DEESC-PARTIAL)"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source Wed close non-convergent (yfinance/GoAPI Day 51 blocked; Investing 2,500 single-source)"
+        }
+      ],
+      "reasoning": "Pre-AGM positioning is speculative binary timing; 4-day +15% cumulative chase risk + multi-source non-convergence blocks Gate 9 evaluation. Trial alpha +21.51% protection binds; defer to Fri post-AGM resolution.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        false,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp 4T buyback Day 3 active + Rp 21.9T div cum Jun 19 (T+5); skip on Gate 9 chase cap from Mon ARB 2,350 anchor \u2192 2,900 = +23.4% cumulative chase + multi-source non-convergent.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "TLKM buyback Day 3 execution + Rp 21.9T div cum Jun 19 T+5"
+        },
+        {
+          "type": "macro",
+          "label": "Telco defensive sector; regime DE-ESCALATION-PARTIAL"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap: Mon ARB 2,350 \u2192 web 2,900 = +23.4% chase fail"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source Wed close NOT convergent (Investing 2,900 single-source; Bisnis/Yahoo blocked)"
+        }
+      ],
+      "reasoning": "Multi-source Wed close non-convergent blocks Gate 9 base anchor; from any reasonable anchor (Mon ARB 2,350 / Tue est ~2,600), current 2,900 = chase. Eagerness check fails on +21.51% alpha protection.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        false,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -9085,6 +9183,37 @@
         {
           "type": "research",
           "detail": "Day 38 EOD snapshot committed; cumulative alpha +21.51% (compression -3.70pp from Day 37)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-11T02:21:25Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Thu Jun 11 2026. Both carry-over candidates SKIP: MDKA AGM T+0 binary timing + Gate 9 multi-source non-convergence (Day 51 data outage); TLKM Gate 9 chase fail from any anchor (Mon ARB 2,350 \u2192 web 2,900 = +23.4%). KLBF HOLD (cluster 60% spread persists Day 51). IDR de-escalation criterion (a) MET on Wed 17,940 sustained 2-session. Week 8 0/3 fresh preserved.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "Gate 9 multi-source non-convergence + binary AGM T+0 timing risk + 4-day cumulative +15% chase"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Gate 9 chase fail any anchor; multi-source Wed close non-convergent"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Cluster 60% spread Day 51; trailing 931 GTC armed broker-side"
+        },
+        {
+          "type": "warning",
+          "detail": "yfinance/GoAPI HTTP 403 Day 51 persists; WebSearch single-source fallback used; \u22653-source \u22642% convergence not achievable"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify host-blocked in sandbox; message printed stdout"
         }
       ]
     }

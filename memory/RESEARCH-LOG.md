@@ -9166,3 +9166,97 @@ Score each ticker 1-10. Apply post-bounce Gate 9 chase cap filter (most banks +6
 - [GOTO Q1 first profit Rp 257.9B; BUKA Q1 loss Rp 425B — Bisnis Premium](https://market.bisnis.com/read/20260429/192/1970094/beda-nasib-kinerja-emiten-teknologi-goto-vs-buka-kuartal-i2026)
 
 ---
+
+## 2026-06-11 (Thursday) — Day 39, Week 8 Day 4, MDKA AGM T+0 + IDR 2-session sub-18,000 sustained de-escalation confirmation candidate / **inline pre-market addendum (07:00 routine deferred; written at 09:15 market-open as fallback per routine STEP 1)**
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Wed Jun 10 sesi II final) | 5,902.38 | +2.71% / +155.73 pt | Multi-source convergent (dataindonesia + market.bisnis); broad-based +600 stocks up vs 156 down |
+| IHSG Thu Jun 11 levels | S: 5,594 / 5,344 · R: 5,941 / 6,065 (MNC 6,065-6,256 test) | Pending sesi I | Relief-bounce continuation T+2 watch |
+| IDR/USD (Wed Jun 10 close) | 17,940 | +1.08% strengthening | **2nd-consecutive sub-18,000 close = de-escalation criterion (a) MET** |
+| IDR Thu Jun 11 projection | 17,900-18,000 range (lean stronger) | Continuation | BCA bank ref cluster spread to monitor |
+| BI-Rate | 5.50% | Post-Tue +25bp off-cycle | Restrictive carry; cumulative +75bp YTD |
+| Newcastle thermal coal | ~$148.75/t carry | 9-week high | Coal sector EXITED still binding |
+| LME nickel | $18,319.75 carry | -0.44% | Quota -34% YoY supply tightness |
+| Brent crude | $91.11 carry | -3.42% | Iran-Israel attack halt de-escalation |
+| US 10Y | 4.57% carry | 16-mo high | Hot jobs 172k vs 85k consensus |
+| Foreign flow Wed Jun 10 | Pending multi-source | Direction key | Banks continued accumulation candidate signal |
+
+### Sector Momentum (Thu Jun 11 pre-open carry)
+
+| Sector | Trend | Note |
+|--------|-------|------|
+| Banking | REBOUND continuation watch | Tue +6-10% bounce; Wed continuation; Gate 9 chase cap binding on all |
+| Telco | TLKM buyback Day 3 active | Recovering from Mon ARB 2,350; multi-source non-convergent |
+| Nickel/Mining | LAGGED relief | MDKA AGM TODAY T+0 binary catalyst |
+| Coal/Energy | EXITED | 2-strike + Danantara single-gateway |
+| Consumer | DEFENSIVE-LAGGED | UNVR/ICBP cum div Jun 19 ahead |
+| Property/Construction | DOWN — rate-sensitive | BI 5.50% restrictive headwind |
+| Healthcare | KLBF HELD | Cluster Day 51 non-convergence persists |
+
+### Today's Carry-over Candidates (per Wed Jun 10 plan)
+
+#### 1. MDKA — RUPS Thu Jun 11 = T+0 binary AGM catalyst day
+
+- **Anchor:** Tue Jun 9 close 2,520; web Wed snapshot ~2,500 (-0.79% vs Tue; -5.84% over rolling 24h Investing.com note — Thursday pre-open mark)
+- **Catalyst:** AGM RUPST scheduled TODAY — dividend amount / Tujuh Bukit guidance / strategy reset
+- **4-day cumulative move:** Fri Jun 5 2,490 (+7.33%) → Mon 2,580 (+3.63%) → Tue 2,520 (+4.13%) → Wed ~2,500 (flat-down) = +0.4% cumulative since Fri (after 3 days of accumulation already chased)
+- **Thesis:** Gold-haven hedge + USD-IDR weakness offset + NOT in MSCI/FTSE removal baskets; AGM binary
+- **Decision: SKIP** — Gate 9 chase cap risk on 4-day cumulative +15% prior accumulation; **BINARY AGM TIMING RISK** = trading pre-AGM resolution is speculative; multi-source Wed close NOT convergent (Investing 2,500 is single-source; sectors.app/yahoo blocked Day 51); Eagerness Check fails — entering pre-AGM with +21.51% alpha exposed to binary downside = bad R:R asymmetry
+- **Better path:** Re-evaluate Fri Jun 12 (weekly review day) once AGM resolves + Thu close confirms multi-source
+
+#### 2. TLKM — Rp 4T buyback Day 3 execution + Rp 21.9T dividend cum Jun 19 (T+5)
+
+- **Anchor:** Mon ARB 2,350 (capitulation low); web search shows current 2,900 (-0.35%) per Investing.com → cumulative +23.4% from Mon low if real
+- **Multi-source Wed close: NOT CONVERGENT** — Investing 2,900; sectors.app/Yahoo blocked; Bisnis Wed close not extracted (HTTP 403 on WebFetch)
+- **Gate 9 evaluation:** From Mon anchor 2,350, current 2,900 = +23.4% chase = **FAIL Gate 9 (+3% cap)**. From projected Tue close ~2,600 estimate, 2,900 = +11.5% = **FAIL Gate 9**. From projected Wed close, no confirmation available.
+- **Decision: SKIP** — Multi-source Wed close non-convergent BLOCKS Gate 9 evaluation; from any reasonable anchor (Mon ARB 2,350 / Tue est 2,600), current web mark 2,900 = chase. Buyback structural support real but does not override entry discipline. Eagerness Check fails.
+- **Better path:** Wait for ≥3-source convergent Wed close, then re-evaluate at Fri pre-AGM-aftermath gate run with cum date Jun 19 still T+4.
+
+### KLBF Update (held position)
+
+- 519,000 sh @ entry 945; safe-lower carry 1,035 (+9.52%); trailing 931 GTC ARMED broker-side
+- Day 51 cluster Wed (TradingView 710 / Stockbit 1,135 / Investing 945 / Yahoo 945 — same 4-source ~60% spread persists)
+- IHSG Wed +2.71% continuation → healthcare lag-on-green PATTERNS.md MEDIUM pattern continues
+- **Action Thu:** HOLD — broker-side 931 GTC binding; cluster spread blocks discretionary action
+
+### Regime Assessment Thu Jun 11
+
+**Regime: DEFENSIVE — INTENSIFIED — DE-ESCALATION-PARTIAL (5/5 DEFENSIVE triggers degrading; IDR criterion (a) MET on 2-session sustained 17,940 Wed close; IHSG criterion (c) MET on 5,902.38 hold above 5,500; Moody's (b) and foreign flow (d) NOT confirmed; 2 of 4 de-escalation triggers checked = DOWNGRADE-PENDING but not yet DEFENSIVE-CONFIRMED)**
+
+- IDR cascade kill-switch ≥18,000 LIFTED Wed close 17,940 sustained 2-session
+- Pre-emptive de-risk procedure: regime SOFT-BINDING → 9-gate eligible IF multi-source convergent BUT eagerness check + 5% cap binding remain
+- MSCI Jun 18 BINARY overhang T-5 trading days (still imminent)
+- Moody's Danantara sovereign overhang persists (no upgrade signal Week 8)
+- Trial alpha protection: +21.51% cumulative remains structurally strong but already compressed -5.86pp from +27.37% Day 36 peak on 2-day relief-bounce — defending the remainder binds patience
+
+### Flagged Risks Thu Jun 11
+
+- **Multi-source data non-convergence Day 51** — yfinance/GoAPI blocked persistently; WebSearch can give single-source marks but ≥3-source convergence rarely achievable on intraday → entry discipline binds against speculative single-source entries
+- **MDKA AGM T+0 binary timing** — pre-AGM positioning = speculative; AGM outcome binary in either direction
+- **MSCI Jun 18 BINARY T-5** — frontier-market downgrade pre-announcement leaks possible Mon-Thu next week
+- **Moody's Danantara overhang persists** — sovereign-governance bid only partially abated even on +2-day relief bounce
+- **IDR Thu Jun 11 sustainability test** — if Thu breaches back ≥18,000 single session = de-escalation criterion (a) BREAKS, regime re-imposes SOFT-BINDING
+- **Mean-reversion risk** — IHSG up 2-of-3 sessions cumulative ~+13% from Mon trough is statistically extended; Thu give-back possible
+
+### Plan for /market-open Thu Jun 11 = TODAY
+
+- [x] **MDKA — SKIP** (decision logged: Gate 9 chase cap on 4-day cumulative move + binary AGM T+0 timing + multi-source non-convergent Wed close + Eagerness Check fail)
+- [x] **TLKM — SKIP** (decision logged: Multi-source Wed close NOT convergent + any reasonable anchor → current 2,900 = chase Gate 9 fail + Eagerness Check fail)
+- [ ] **KLBF HOLD** — broker-side 931 GTC binding; cluster spread Day 51 persists
+- [ ] **IDR monitor sesi I** — confirm sub-18,000 3rd-session sustained; if ≥18,000 breach = SOFT-BINDING re-imposes
+- [ ] **IHSG monitor** — Thu open vs Wed close 5,902.38; resistance 5,941 / 6,065
+- [ ] **Defer to Fri weekly review** — re-evaluate MDKA post-AGM resolution + TLKM with Thu close multi-source convergent
+
+### Sources
+
+- [Rekomendasi Saham dan Pergerakan IHSG Hari Ini Kamis 11 Juni 2026 — market.bisnis.com](https://market.bisnis.com/read/20260611/7/1980099/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-kamis-11-juni-2026)
+- [Proyeksi IHSG dan Rekomendasi Saham (Kamis, 11 Juni 2026) — Dataindonesia.id](https://dataindonesia.id/pasar-saham/detail/proyeksi-ihsg-dan-rekomendasi-saham-kamis-11-juni-2026)
+- [Nilai Tukar Rupiah Terhadap Dolar AS Hari Ini Kamis 11 Juni 2026 — market.bisnis.com](https://market.bisnis.com/read/20260611/93/1980101/nilai-tukar-rupiah-terhadap-dolar-as-hari-ini-kamis-11-juni-2026)
+- [MDKA live quote 2,500 -5.84% — Investing.com](https://www.investing.com/equities/merdeka-copper-gold-tbk-pt)
+- [TLKM live quote 2,900 -0.35% — Investing.com](https://www.investing.com/equities/telkom-indones)
+- [TLKM Mon Jun 8 ARB 2,350 -14.86% pre-AGM — Bisnis](https://market.bisnis.com/read/20260608/192/1979355/telkom-tlkm-kantongi-restu-buyback-saham-rp4-triliun)
+
+---
