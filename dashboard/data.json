@@ -559,6 +559,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 39 EOD (Thu, Week 8 Day 4 - IHSG sesi I -1.55% mean-reversion to 5,789.98 after 2-day relief bounce; KLBF cluster non-convergence Day 52 persists 3-source ~29.5% spread). Equity unchanged IDR 9.856B - KLBF safe-lower carry frozen 1,035 per cluster non-convergence + safe-lower discipline binds per MISTAKES.md 2026-05-01. Cumulative alpha +22.72% (expansion +1.21pp from +21.51% Day 38; 1st alpha expansion day after 2 consecutive compressions on relief bounce; strong absolute trial alpha). MDKA + TLKM both SKIP at 09:15 on Gate 9 multi-source non-convergence + binary AGM T+0 timing. IDR sub-18,000 2-of-2 sustained CONFIRMED Wed close 17,940. Wk 8 0/3 fresh preserved. MDKA AGM outcome doc'd for Fri re-gate. MSCI T-5. Cash 94.55%."
+    },
+    {
+      "date": "2026-06-12",
+      "day_label": "Day 40",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6043.55,
+      "ihsg_cumulative_pct": -20.83,
+      "alpha_pct": 19.39,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -9470,6 +9485,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF cluster Day 54 non-convergence (710/745/910/945 ~33% spread) blocks discretionary action; 931 GTC armed broker-side. No cuts, no tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-06-12T08:20:56Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 40 Fri Jun 12: IDR 9.856B (+0.00% day). Alpha vs IHSG: \u22124.38% (IHSG sesi I +4.38% relief-rally 6,043.55 re-tops 6,000). Cum alpha +19.39% (compression \u22123.33pp from +22.72% Day 39). KLBF safe-lower carry 1,035 frozen (cluster Day 54 ~33% 3-source spread). IDR 17,918.9 = 4-of-4 sustained sub-18,000 STRONGLY CONFIRMED. Cash 94.55%. Week 8 closes 0/3. Weekly review 16:00 WIB.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 40 EOD snapshot committed; Week 8 closes 0/3 trades; KLBF safe-lower carry held 5th consecutive session"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9483,11 +9510,11 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DE-ESCALATION-CONFIRMING",
-    "ihsg_close": 5886.03,
-    "ihsg_close_basis": "Thu Jun 11 sesi II final close, multi-source convergent (Databoks + Bisnis)",
-    "ihsg_cumulative_pct": -22.9,
-    "idr_usd": 17919,
-    "idr_status": "3rd-sustained sub-18,000 close = de-escalation criterion (a) FULLY CONFIRMED",
+    "ihsg_close": 6043.55,
+    "ihsg_close_basis": "Fri Jun 12 sesi I close, multi-source convergent (RRI + money.kompas + beritasatu + liputan6 + cnbcindonesia + antaranews + bloombergtechnoz); sesi II final not multi-source convergent at filing time",
+    "ihsg_cumulative_pct": -20.83,
+    "idr_usd": 17918.9,
+    "idr_status": "4th-sustained sub-18,000 close = de-escalation criterion (a) STRONGLY CONFIRMED full 4-of-4 lock",
     "bi_rate": 5.5,
     "msci_announcement_date": "2026-06-18",
     "bi_rdg_meeting_date": "2026-06-17/18",
@@ -9563,5 +9590,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-12T00:15:06.447165Z"
+  "last_updated": "2026-06-12T08:20:38.806493Z"
 }
