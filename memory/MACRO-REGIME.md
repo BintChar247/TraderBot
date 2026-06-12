@@ -5,7 +5,55 @@ _Updated weekly. The current regime label is the FIRST entry — always read thi
 
 ---
 
-## Current Regime (as of 2026-06-05)
+## Current Regime (as of 2026-06-12)
+
+**Label:** DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMED: (a) IDR sub-18,000 4-session sustained CONFIRMED Fri Jun 12 close 17,918.9; (c) IHSG >5,500 reclaim sustained 5+ sessions CONFIRMED Wed sesi II 5,902.38 → Fri sesi I 6,043.55; (b) Moody's stabilization PENDING; (d) foreign-flow inflection PARTIAL not confirmed)
+
+**Characteristics (updated Week 8 close):**
+- IHSG: Fri Jun 12 sesi I close 6,043.55 (re-tops 6,000 psychological); Week 8 net +6.17% (Mon baseline 5,692.15 → Fri 6,043.55) on shape: Mon −4.53% panic-flush (intraday 6-yr low 5,346.33) → Tue +3.04% / Wed +5.03% / Thu −1.55% / Fri +4.38% = cumulative +9.41% recovery from Mon ARB low. Day 0 baseline 7,634 → Fri 6,043.55 = cumulative −20.83% (recovery of +4.61pp from Week 7 close −25.44%).
+- IDR: **17,918.9 Fri Jun 12 close = 4-session sustained sub-18,000 = de-escalation criterion (a) FULLY CONFIRMED.** Trajectory Week 8: Mon ~18,015-18,045 (cascade-sustained) → Tue +25bp BI off-cycle hike → Wed 17,988 (1st sub-18,000 confirmation) → Thu 17,919 (2nd) → Fri 17,918.9 (4th of 4 sustained). Primary kill-switch DOWNGRADED from BREACHED to DE-ESCALATING.
+- BI rate: 5.50% (post Tue Jun 9 off-cycle +25bp hike from 5.25%; restrictive but stabilizing for IDR); BI RDG meeting Jun 17-18 NEXT with 50% pricing +25bp additional
+- Foreign flow: PARTIAL inflection on Wed/Thu (banks accumulation); Fri not multi-source convergent; cumulative YTD ~Rp 67T outflow persists; criterion (d) NOT YET confirmed
+- Newcastle thermal coal: ~$148.75/t (9-week high; sector EXITED still binding per 2-strike rule + Danantara Phase 1)
+- Brent: $89.14/bbl (−4.25% Fri on Trump-Iran deal-close optimism; WTI $85.13 = 2-month low)
+- Sector leadership: Banks (BBCA/BBRI/BMRI Wed-Fri accumulation rebound +25-28% from Mon ARB; chase risk binding); Commodities-broad on Fri rotation (INDY +22.5%, INCO +13.6%, BUMI +13.6% = noise per coal sector-EXIT); Healthcare (KLBF safe-lower carry frozen +9.52% — data-infra cluster non-convergence Day 50-54)
+- Sector laggards: Property (rate-sensitive); Cement (INTP −4.02% Thu); Energy/Transport (−2.12%/−1.41% Thu on Brent collapse)
+- Cumulative trial alpha: **+19.39% (Day 40 close — first trial-high alpha give-back week of trial: net −4.61pp Week 8 from +24.00% Week 7 close; intra-week trajectory +24.00% → +27.37% Mon peak → +19.39% Fri = −7.98pp from peak)** — structurally strong absolute position holds; bilateral pattern of healthcare-defensive lag-on-green / outperform-on-red CONFIRMED with 3rd distinct week of observation (now HIGH confidence in PATTERNS.md)
+- New Week 8 macro catalyst events:
+  - BI off-cycle +25bp hike Tue Jun 9 to 5.50% — second hike in 19 days; IDR stabilization mandate
+  - IDR de-escalation criteria (a) 4-session sustained sub-18,000 + (c) IHSG >5,500 sustained reclaim = 2 of 4 DEFENSIVE-INTENSIFIED downgrade triggers CONFIRMED
+  - MDKA AGM Thu Jun 11 POSTPONED to Tue Jun 23 RUPSLB — binary catalyst T+0 SKIP discipline vindicated Fri Jun 12 by real-world catalyst invalidation
+  - Trump Iran deal-close tease post-cancelled-kinetic-strikes — Brent −4.25% / WTI 2-month low Fri; geopolitical relapse risk de-escalating
+  - Danantara BP BUMN governance confirmation per ANTARA News Fri = foreign investor confidence partial restoration (criterion (d) supporting)
+  - UNVR / TLKM cum-div dates Fri Jun 19 (T+5) = near-term defensive bid catalysts
+  - KLBF buyback program through Jul 2 (20 days remaining); dividend receivable payment Jun 24 (T+8)
+
+**Week 8 evidence — regime label DOWNGRADE-PENDING (was INTENSIFIED-DEEPENING) confirmed:**
+- 2 of 4 de-escalation triggers met: (a) IDR sub-18,000 4-session sustained CONFIRMED + (c) IHSG >5,500 reclaim sustained CONFIRMED. 2 of 4 = DOWNGRADE-PENDING; if 3 of 4 confirm Mon Jun 15, formal downgrade to DEFENSIVE-CONFIRMED + 10% cap restoration eligibility (per Week 8 Rule Changes Proposed)
+- Portfolio 0.00% with 94.55% cash vs IHSG +6.17% = **−6.17% weekly alpha — largest single-week alpha-bleed of trial; bilateral confirmation of healthcare-defensive lag-on-green pattern**
+- KLBF state-machine state-3 (+15%) and state-4 (+20%) tightening triggers ARMED 14 consecutive sessions (Day 41-54) — data-infra debt now the primary blocker, not market action
+- Trial alpha protection: +19.39% cumulative still structurally strong absolute; +0.93% net 2-week alpha across full Wk 7-8 cascade-then-recovery cycle = the structural defensive edge holds across the cycle
+
+**Regime implications for trading (Week 9 forward):**
+- Max position size: 5% of equity (cap binding until DEFENSIVE-CONFIRMED downgrade — pending criterion (b) Moody's stabilization OR criterion (d) foreign-flow inflection Mon Jun 15)
+- **IDR pre-emptive de-risk procedure RELAXED** — IDR sub-18,000 4-session sustained = primary kill-switch DE-ESCALATING; new entries POSSIBLE with full 9-gate; KLBF carry trim/hold/close framework deferred to next cluster-narrow event
+- Prefer near-term catalysts (≤5 days) — UNVR/TLKM cum-div Jun 19 (T+5 = T+1 if Mon entry); ICBP cum-div similar window
+- Coal sector EXITED (2-strike rule + Danantara Phase 1 single-gateway compounding); Fri Jun 12 commodity rotation (INDY +22.5% / INCO +13.6% / BUMI +13.6%) = noise per exit binding; re-entry requires full sector-watch reset
+- Banking sector-watch 1-of-2 strike (BBRI specifically blocked); BBCA/BMRI re-eligible IF BI RDG Jun 17-18 dovish signal + Moody's stabilization; chase risk binding +25-28% from Mon ARB
+- Telco TLKM AGM-day rebound noise into Mon Jun 15; re-gate priority IF pullback to ≤2,990 (3% chase cap) AND multi-source convergent
+- MSCI Indonesia classification announcement Thu Jun 18 T-3 trading days — investor wait-and-see binding; binary frontier-downgrade overhang; KLBF MSCI removal contamination risk nil (NOT in BREN/CUAN/DSSA/TPIA/AMMN basket)
+- BI RDG Jun 17-18 T-2 = next binary macro event; 50% pricing +25bp; dovish signal = bank-positive, hawkish signal = defensive-reinforce
+- Eagerness check binds: Week 9 starts with 3/3 slot allocation + +19.39% cumulative trial alpha protected + 3 consecutive 0/3 weeks of cash drag pressure (per Week 8 WEEKLY-REVIEW.md Process change #3 "explicit slot-utilization evaluation")
+- **Regime shift triggers to watch for de-escalation to DEFENSIVE-CONFIRMED:** (a) IDR sub-18,000 sustained 5+ sessions CONFIRMED; (b) Moody's stabilization PENDING; (c) IHSG >5,500 sustained reclaim CONFIRMED; (d) foreign flow inflection PARTIAL — currently 2 of 4 confirmed; Mon Jun 15 check (b) + (d) for potential downgrade
+- Regime shift triggers to watch for re-escalation to DEFENSIVE-INTENSIFIED-DEEPENING: (a) IDR back ≥18,000 sustained 2 sessions, (b) IHSG break 5,500 psych floor, (c) MSCI Jun 18 frontier-downgrade outcome, (d) Moody's sovereign downgrade
+
+**Sectors to favour:** Healthcare-defensive (KLBF HIGH-confidence PATTERNS.md pattern after Week 8 vindication — 12 obs across 3 weeks); Telco-defensive on cum-div bid (TLKM Jun 19 T+5); Consumer staples on cum-div bid (UNVR/ICBP Jun 19); Defensive Utility (PGAS gated on data-infra)
+**Sectors to approach with caution:** Banking (BBRI strike-1; chase risk binding +25-28% rebound; await BI dovish signal Jun 17-18); Mining/Coal-rotation (Fri commodity noise per exit binding); MSCI Indonesia classification names (binary overhang Jun 18)
+**Sectors to avoid:** Coal (EXITED + Fri rotation noise); Property/Construction/Cement (rate-sensitive + sovereign overhang); MSCI Small Cap removal names (MIKA/SIDO/ANTM/AALI/BSDE/DSNG — passive outflow + overhang)
+
+---
+
+## Previous Regime (as of 2026-06-05)
 
 **Label:** DEFENSIVE — INTENSIFIED — DEEPENING — CONTINUATION-VINDICATED (5/5 triggers active + IDR 18,000 cascade kill-switch BREACHED Fri Jun 5 sustained close)
 
@@ -62,6 +110,7 @@ _Updated weekly. The current regime label is the FIRST entry — always read thi
 | 2026-05-22 | DEFENSIVE — CONFIRMED (Week 5 formal flip) | BI +50bp hike May 21 (4.75% → 5.25%); ITMG Q1 miss + ADRO regulatory hard-cuts (coal sector exited 2-strikes); IDR fresh record territory; KLBF healthcare defensive entry May 21 vindicates new leadership | Cap to 5%; suspend Defensive-Quality Track; coal sector EXITED; banking 1-of-2 strike watch; healthcare/consumer-staples/defensive-utility favoured |
 | 2026-05-29 | DEFENSIVE — CONFIRMED (5/5 triggers; MSCI event navigated) | Idul Adha 2-day closure + MSCI rebalance Fri = $1.6–1.8B passive outflow; IDR 17,695 (May 27 record 17,850); KLBF first state-machine transition (hard-cut → 10% trailing); cumulative trial alpha +17.61% protected | Keep 5% cap; eagerness check binds; Week 7 0/3 slot fresh — patience default; MSCI flow aftermath assessment Mon Jun 1 |
 | 2026-06-05 | DEFENSIVE — INTENSIFIED — DEEPENING — CONTINUATION-VINDICATED (5/5 triggers + IDR 18,000 cascade kill-switch BREACHED sustained close) | IDR 18,033 Fri close BREACHES 18,000 cascade kill-switch (escalation Tue 17,813 → Wed 17,920 → Thu 17,977 → Fri 18,033); Moody's Danantara Baa2 negative outlook downgrade (Wed Jun 3) cascading sovereign-governance shock; IHSG -7.10% week with Wed -5.30% panic-flush + Thu -3.48% continuation to 5.5-yr low 5,644; foreign flow Rp 14.74T sesi I Fri alone (~17x Thu pace); MSCI Indonesia classification announcement Jun 18 overhang; Danantara Phase 1 single-gateway export policy effective Jun 1; cumulative trial alpha +24.00% NEW HIGH (3 consecutive expansion days Wed/Thu/Fri); 0 trades placed Week 7 (full 0/3 slot preservation 2nd consecutive week) | Keep 5% cap; **NEW: IDR ≥18,000 sustained pre-emptive de-risk procedure** (no new entries; KLBF carry trim/hold/close framework Mon Jun 8 pre-market); eagerness check critical (+24% alpha protected); patience strongly binding; Mon Jun 8 TLKM AGM + Rp 4T buyback re-gate priority if tape moderates; MSCI Jun 18 announcement overhang ~9 trading days |
+| 2026-06-12 | DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMED) | IDR sub-18,000 4-session sustained CONFIRMED (Wed 17,988 / Thu 17,919 / Fri 17,918.9 = criterion (a) FULLY MET); IHSG >5,500 reclaim sustained 5+ sessions CONFIRMED (Wed sesi II 5,902.38 → Fri sesi I 6,043.55 re-tops 6,000 psych = criterion (c) FULLY MET); BI off-cycle +25bp Tue Jun 9 to 5.50% stabilizing IDR mandate; MDKA AGM Thu Jun 11 POSTPONED to Tue Jun 23 RUPSLB; Trump Iran deal-close tease + Brent collapse −4.25% Fri; cumulative trial alpha +19.39% (first trial-high give-back week −4.61pp Wk 8 net from +24.00% Wk 7 close; −7.98pp from Mon +27.37% intra-week peak); 0 trades placed Week 8 (full 0/3 slot preservation 3rd consecutive week); bilateral pattern of healthcare-defensive lag-on-green / outperform-on-red CONFIRMED across full Wk 7-8 cascade-then-recovery cycle (PATTERNS.md promoted to HIGH confidence); 14 consecutive sessions of state-machine transition blocking on KLBF cluster non-convergence Day 41-54 | Keep 5% cap pending Mon Jun 15 check of criteria (b) + (d) — if 3 of 4 confirm, formal downgrade to DEFENSIVE-CONFIRMED + 10% cap restoration eligibility; **IDR pre-emptive de-risk RELAXED** (sub-18,000 4-session sustained = primary kill-switch DE-ESCALATING); new entries POSSIBLE with full 9-gate; UNVR/TLKM cum-div Jun 19 (T+5) defensive bid catalyst; BI RDG Jun 17-18 T-2 next binary; MSCI Jun 18 T-3 binary overhang; eagerness check critical (3rd consecutive 0/3 week — Week 9 must include explicit slot-utilization evaluation per Wk 8 review Process change #3); chase risk binding on bank rebound +25-28% from Mon ARB |
 
 ---
 
