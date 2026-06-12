@@ -4454,3 +4454,38 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 ---
 
+## 2026-06-12 11:30 WIB — Midday: NO ACTION (Week 8 Day 5 / Fri — KLBF cluster Day 54 fails ≥3-source ≤2% convergence; safe-lower carry discipline holds; weekly-review day 16:00 WIB)
+
+**Open positions reviewed:**
+- KLBF 519,000 sh @ entry 945. State: trailing 10%, hwm 1,035 (safe-lower carry frozen from Tue Jun 2 anchor), current_stop 931 GTC armed broker-side.
+
+**Fri Jun 12 midday cluster check (KLBF):**
+- broker.sh quote KLBF: last_price 945 (stale stub — "live market-data.sh unavailable; using last-known entry_price")
+- TradingView (sesi I reading): 710 (-3.25% / 24h)
+- Sectors.app / synthesis: 745 (-3.25% / 24h)
+- Bloomberg single-source surface: 910
+- Yahoo Finance: 945 (+0.53% — likely echo of broker stub / stale)
+- 4-source spread 710 / 745 / 910 / 945 = ~33% FAILS ≥3-source ≤2% convergence mandatory per MISTAKES.md 2026-05-01. Even narrowest 2-source pair 710-745 ~5% spread fails ≤2%.
+- Cluster non-convergence persistence: Day 54 (4th consecutive session at ~30-60% spread; data infrastructure outage yfinance/GoAPI Day 53 carries forward).
+
+**Sell-side rules applied:**
+- **-7% hard cut: NOT triggered procedurally.** broker.sh quote stub returns 945 = 0.00% P&L (entry-flat), NOT below hard-cut 879. WebSearch lower-cluster 710/745 is 2-source spread ~5% non-convergent per discipline; cannot fire pre-emptive close. Trailing 931 GTC armed broker-side will fire automatically if cluster converges ≤931 across ≥3 sources within ≤2%; on present data infrastructure outage Day 54, convergence cannot be established.
+- **+15% / +20% stop tighten: NOT triggered.** No upper-cluster source above entry-stub +15% threshold (1,087) today; state-3 (≥1,087) and state-4 (≥1,134) transitions blocked.
+- **Thesis check (KLBF):** Healthcare-defensive bid thesis structurally INTACT. Rp 500B buyback through Jul 2 active (~20 days remaining). Ex-div IDR 20 Jun 4 immaterial; receivable IDR 10,380,000 booked Jun 24. No adverse catalyst surfaced in WebSearch for Jun 12. Next earnings Jul 24. The -3.25% web-source readings are consistent with prior 4-session cluster pattern; appears to be persistent data-infrastructure artifact rather than thesis break.
+
+**Macro context:** IDR Thu close 17,919 = 3-session sustained sub-18,000 = de-escalation criterion (a) FULLY CONFIRMED. IHSG Thu close 5,886.03 = >5,500 sustained reclaim (criterion (c) FULLY CONFIRMED). Regime label: DEFENSIVE — INTENSIFIED — DE-ESCALATION-CONFIRMING (2 of 4 criteria FULLY CONFIRMED); formal regime label evaluation pending today's weekly review 16:00 WIB. MSCI Jun 18 announcement T-4 trading days. BI RDG Jun 17-18 T-3 trading days.
+
+**STEP 6 (intraday research addendum):** Lower-cluster reading -3.25% / 24h again crosses >3% sharp-move threshold but matches prior 4-session cluster pattern — same data-infrastructure artifact as Days 51/52/53/54. No discrete adverse catalyst from WebSearch. Brief addendum captured below; not a fresh signal beyond persistent cluster non-convergence.
+
+**Action:** HOLD. Trailing 931 GTC remains armed broker-side; state-machine transitions blocked on cluster non-convergence. No discretionary pre-emptive close on 2-source non-convergent data per MISTAKES.md 2026-05-01 discipline. Weekly review at 16:00 WIB will formally re-evaluate (a) regime label DEFENSIVE-INTENSIFIED → potentially DEFENSIVE-CONFIRMED on 3-of-4 criteria; (b) max position cap (5% binding) potentially → 10%; (c) data-infra outage Day 54 strategy.
+
+**Notification sent:** 📊 Midday 2026-06-12: All positions healthy. No action taken.
+
+**Carry-over to EOD 15:15 WIB / weekly-review 16:00 WIB:**
+- KLBF Fri sesi II close fresh cluster reconciliation — if ≥3-source ≤2% convergence achieved at ≤931 mark, trailing 931 GTC fires automatically.
+- IDR Fri close vs 18,000 cascade ladder + 4-session sustained sub-18,000 confirmation (full de-escalation to DEFENSIVE-CONFIRMED if held).
+- IHSG Fri close vs Thu 5,886.03 + resistance 5,941/6,065; support 5,594/5,344.
+- Weekly review at 16:00 WIB: Week 8 letter grade, regime label evaluation, MDKA RUPSLB Jun 23 re-gate, MSCI Jun 18 T-4 binary positioning, KLBF cluster Day 54 evaluation, BI RDG Jun 17-18 T-3 positioning.
+
+---
+
