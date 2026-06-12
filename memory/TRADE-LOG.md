@@ -4415,3 +4415,42 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 ---
 
+### 2026-06-12 09:15 WIB — MARKET-OPEN (Fri, Week 8 Day 5 — NO TRADES; BBCA/TLKM/MDKA all SKIP; KLBF HOLD; weekly-review day 16:00 WIB)
+
+- **Trades placed:** 0
+- **Trades this week (Week 8):** 0/3 fresh allocation preserved into weekly review
+- **Open positions count:** 1 (KLBF 519,000 sh)
+- **Cash:** IDR 9,319,172,500 (94.55% of equity 9,856,337,500 with frozen safe-lower carry 1,035)
+
+#### Candidates evaluated
+
+| Ticker | Action | Gate failed | Reason |
+|--------|--------|-------------|--------|
+| BBCA | SKIP | Gate 9 (chase cap) | Thu Jun 11 close 5,600 +8.74% = extended 5-day bank rebound ~+25%; entering at Thu close = chasing top; Eagerness Check binds at +22.72% cumulative alpha. Re-evaluate IF Fri sesi I pullback ≥-3% from 5,600 (= ≤5,432) AND multi-source convergent. |
+| TLKM | SKIP | Gate 9 (chase cap) + Multi-source non-convergence | Thu close not multi-source convergent (Day 53 data-infra outage); from Mon ARB anchor 2,350 → web ~2,900 = +23.4% chase. Defer to post-cum-div ex-date Mon Jun 22 fresh anchor. |
+| MDKA | SKIP | Gate 5 (catalyst documented) | AGM POSTPONED to RUPSLB Tue Jun 23 = original Thu Jun 11 binary catalyst INVALIDATED. Downgrade CANDIDATE → WATCH; re-evaluate Mon Jun 22 pre-RUPSLB. |
+
+#### Held position action
+
+- **KLBF (519,000 sh @ entry 945)** — HOLD. Broker-side trailing 931 GTC armed; cluster non-convergence Day 53 persists (Thu midday Yahoo 730 / sectors.app 745 ~2.05% spread + broker stub 945 → 3-source ~29.5% spread FAILS ≥3-source ≤2% convergence). Discretionary close path blocked per MISTAKES.md 2026-05-01 procedure; safe-lower carry 1,035 frozen. Weekly review at 16:00 WIB will re-evaluate.
+
+#### Macro context at open
+
+- Regime: DEFENSIVE — INTENSIFIED — DE-ESCALATION-CONFIRMING (2 of 4 criteria FULLY CONFIRMED — (a) IDR 3-sustained sub-18,000 at Thu close 17,919; (c) IHSG sustained reclaim of 5,500 at Thu close 5,886.03). Formal regime label change pending today's weekly review.
+- 5% max position cap binding (regime SOFT-BINDING posture); Defensive-Quality Track SUSPENDED.
+- IDR Thu close 17,919 (-0.08%); IHSG Thu close 5,886.03 (-0.28%); Brent -4.25% to $89.14; coal $148.75 carry; LME nickel +0.37%.
+- US S&P +1.8% / Nasdaq +2.5% overnight on Trump Iran deal-close optimism + Brent collapse.
+- BI RDG Jun 17-18 (T+3 trading days); MSCI Jun 18 binary classification announcement (T+4); MDKA RUPSLB Jun 23 (T+7).
+
+#### Broker reconciliation
+
+- `broker.sh portfolio`: equity 9,809,627,500 (uses entry stub 945); cash 9,319,172,500; 1 position (KLBF 519,000 sh @ 945). TRADE-LOG equity 9,856,337,500 (uses frozen safe-lower carry 1,035 per cluster discipline). Difference IDR 46,710,000 = MV reconciliation only.
+- `broker.sh quote BBCA`: yfinance HTTP 403 Day 53; refusing to stub. No held position → SKIP path is gate-rejection only, not entry attempt with WebSearch override (Gate 9 chase cap fails by research-plan logic regardless).
+- `broker.sh quote KLBF`: stale entry stub 945 (Day 53); per cluster discipline carry uses 1,035 safe-lower.
+
+#### Notification sent
+
+📊 Market-open 2026-06-12: No trades placed. BBCA Gate 9 chase fail (+8.74% Thu rally); TLKM multi-source non-convergent + Gate 9 chase from Mon ARB; MDKA AGM postponed Jun 23 (catalyst invalidated). KLBF HOLD (931 GTC armed). Week 8 0/3.
+
+---
+

@@ -6136,6 +6136,153 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "5-day banking rebound continuation post-BI off-cycle hike + defensive-quality re-rate; SKIP on Gate 9 chase cap from Thu +8.74% to 5,600 rally (extended 5-day ~+25% bank rebound).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Banking rebound Day 5 + BI RDG Jun 17-18 dovish-pause possibility + defensive-quality bid"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2192 DE-ESCALATION-CONFIRMING (2 of 4); regime change pending weekly review 16:00 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap: Thu close 5,600 = +8.74% extended; +25% cumulative 5-day bank rebound chase"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (492.8M / 5,600 \u2248 88,000 sh)"
+        },
+        {
+          "type": "warning",
+          "label": "broker.sh quote BBCA fails (yfinance Day 53 blocked); multi-source convergence required for Fri pullback re-entry path"
+        }
+      ],
+      "reasoning": "Eagerness Check binds at +22.72% cumulative alpha protected; weekly review TODAY may shift 5%\u219210% cap; better to wait for Fri pullback \u2265-3% from 5,600 (=\u22645,432) OR Mon Jun 15 regime de-escalation confirmation.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        false,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp 4T buyback Day 4 active + Rp 21.9T div cum Jun 19 (T+5); SKIP on multi-source non-convergent Thu close + Gate 9 chase from Mon ARB 2,350 anchor \u2192 web ~2,900 = +23.4% cumulative chase.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "TLKM buyback Day 4 execution + Rp 21.9T div cum Jun 19 T+5"
+        },
+        {
+          "type": "macro",
+          "label": "Telco defensive sector; regime DE-ESCALATION-CONFIRMING (2 of 4)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap fail from Mon ARB 2,350 \u2192 web ~2,900 = +23.4%"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source Thu close NOT convergent Day 53 data-infra outage"
+        }
+      ],
+      "reasoning": "Multi-source Thu close non-convergent blocks Gate 9 base anchor; from Mon ARB 2,350 / Wed est ~2,900 = chase. Defer to post-cum-div ex-date Mon Jun 22 fresh anchor.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        false,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-06-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AGM postponed to Tue Jun 23 RUPSLB = original Thu Jun 11 catalyst INVALIDATED; downgrade CANDIDATE \u2192 WATCH; first-ever dividend proposal pending.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "AGM POSTPONED to Tue Jun 23 RUPSLB (private placement + dividend approval); original Thu Jun 11 catalyst invalidated"
+        },
+        {
+          "type": "macro",
+          "label": "Gold-haven hedge + Tujuh Bukit thesis intact; regime DE-ESCALATION-CONFIRMING"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst invalidated by postponement; thesis softens to wait-and-watch"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Multi-source data non-convergent Day 53"
+        }
+      ],
+      "reasoning": "Original near-term Thu Jun 11 AGM catalyst invalidated by postponement to Jun 23; gate 5 fails on no fresh documented near-term catalyst. Re-evaluate Mon Jun 22 pre-RUPSLB.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -9283,6 +9430,38 @@
         {
           "type": "warning",
           "detail": "Multi-source data non-convergence Day 53 persists; yfinance+GoAPI HTTP 403"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-12T02:18:44Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Fri Jun 12. BBCA SKIP (Gate 9 chase fail from Thu +8.74% rally); TLKM SKIP (multi-source non-convergent + Gate 9 chase from Mon ARB anchor); MDKA SKIP (AGM postponed to Jun 23 invalidates Gate 5 catalyst). KLBF HOLD (broker-side 931 GTC armed; cluster Day 53 non-convergence). Week 8 0/3 slots preserved into weekly review 16:00 WIB.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate 9 chase cap fail (Thu +8.74% to 5,600 = +25% cumulative 5-day rebound)"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Multi-source non-convergent + Gate 9 chase from Mon ARB 2,350 anchor (+23.4%)"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "AGM postponed to RUPSLB Jun 23 = Gate 5 catalyst invalidated"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Broker-side 931 GTC armed; cluster Day 53 non-convergence persists"
+        },
+        {
+          "type": "warning",
+          "detail": "Data-infra outage Day 53 (yfinance/GoAPI blocked); WebSearch override path operational for IHSG/IDR; cluster discipline binds Gate 9"
         }
       ]
     }
