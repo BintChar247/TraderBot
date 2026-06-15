@@ -9554,3 +9554,84 @@ Score each 1-10. Apply DEFENSIVE-INTENSIFIED + DE-ESCALATION-PARTIAL regime filt
 - [GOTO floor-locked Rp 50 FTSE Global removal — Jakarta Globe](https://jakartaglobe.id/business/goto-sinks-to-floor-price-as-ftse-russell-drops-stock-from-global-index)
 
 ---
+
+## 2026-06-15 (Monday) — Day 41, Week 9 Day 1 — MARKET-OPEN FALLBACK research (no separate pre-market entry today)
+
+_Written inline at 09:15 WIB by market-open routine per `routines/market-open.md` STEP 1 FALLBACK ("If today's entry is missing in RESEARCH-LOG.md, run pre-market STEPS 1-3 inline first"). Data infrastructure outage Day 55 (yfinance HTTP 403, GoAPI not configured) — all candidate price discovery via WebSearch._
+
+### Macro snapshot (multi-source where available; stale-tagged otherwise)
+
+| Metric | Value | Source / Note |
+|--------|-------|---------------|
+| IHSG | not multi-source convergent for Jun 15 sesi I | Last multi-source convergent: Fri Jun 12 sesi I 6,043.55 (+4.38% relief continuation re-tops 6,000); Jun 15 sesi I pending |
+| USD/IDR | ~17,870 (Jun 13-15) | exchange-rates.org weekend carry; **5-session sustained sub-18,000 = de-escalation criterion (a) FULL-LOCKED** (Wed 17,988 / Thu 17,919 / Fri 17,918.9 / weekend 17,870 carry) |
+| BI Rate | 5.50% | post Tue Jun 9 off-cycle +25bp; BI RDG Jun 17-18 T+2/T+3 (50% pricing +25bp incremental) |
+| MSCI Indonesia classification | T-3 trading days | Announcement Thu Jun 18 — binary frontier-downgrade overhang continues |
+| Moody's Danantara outlook | Baa2 negative | Criterion (b) NOT confirmed stabilized — pending |
+| Foreign flow inflection | partial Wed-Thu Wk 8 | Criterion (d) NOT fully confirmed Mon Jun 15 (no fresh multi-source data) |
+| Brent | $89.14 carry | Fri −4.25% Trump-Iran de-escalation tease; carry |
+| Newcastle coal | $148.75/t carry | Sector EXITED; non-material |
+
+**Regime status check (Mon Jun 15 09:15 WIB):** DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING. De-escalation criteria: (a) IDR sub-18,000 5-session sustained = FULL-LOCKED; (b) Moody's stabilization = pending NO; (c) IHSG >5,500 reclaim sustained = CONFIRMED Fri 6,043.55; (d) foreign flow inflection = partial NO. **2 of 4 confirmed — no upgrade trigger today; 5% cap binding holds.** Formal regime label re-evaluation deferred to next Friday weekly-review (Fri Jun 19) unless BI RDG Jun 17-18 produces binary de-escalation event.
+
+### Watchlist candidates — Week 9 entry queue (per Week 8 review carry-forward)
+
+7 candidates carried forward: KLBF (held), TLKM, BBCA, PGAS, ICBP, UNVR, MYOR. MDKA deferred to T-1 RUPSLB Mon Jun 22.
+
+| # | Ticker | Plan entry | Live price (WebSearch Mon Jun 15) | Multi-source spread | Status |
+|---|--------|-----------|-----------------------------------|---------------------|--------|
+| 1 | TLKM | ≤2,990 (3% chase cap from Wed ~2,900 ref) | Jun 7 carry 2,760 IDR only (Investing.com) — 5+ trading-day stale; no Jun 15 multi-source convergent | n/a (no Jun 15 tape) | SKIP — Gate 9 unverifiable on stale tape |
+| 2 | BBCA | ≤5,432 (3% chase cap from Thu 5,600 ref) | no Jun 15 multi-source | n/a | SKIP — Gate 9 unverifiable |
+| 3 | PGAS | data-infra block multi-week | no Jun 15 multi-source | n/a | SKIP — Gate 9 unverifiable |
+| 4 | UNVR | ≤1,800 with cum-div bid Jun 19 T+4 | no Jun 15 multi-source | n/a | SKIP — Gate 9 unverifiable |
+| 5 | ICBP | ≤7,725 (3% chase cap from Thu 7,100) | no Jun 15 multi-source | n/a | SKIP — Gate 9 unverifiable |
+| 6 | MYOR | ≤1,765 | no Jun 15 multi-source | n/a | SKIP — Gate 9 unverifiable |
+| 7 | KLBF (held) | n/a — held 519,000 sh | TradingView 745 / Investing 930 = 2-source spread ~25% | FAILS even relaxed ≤4% (per Wk 8 process change #3) | HOLD — trailing 931 GTC remains armed broker-side |
+
+### Process change #3 explicit check (per Week 8 review — slot-utilization eval after 3 consecutive 0/3 weeks)
+
+> "if 3 consecutive weeks of 0/3 slot usage AND cumulative trial alpha >+15%, the next pre-market routine MUST evaluate at least one candidate at relaxed multi-source threshold (≤4% under outage) AND document why no entry cleared the relaxed gate."
+
+**Relaxed ≤4% multi-source threshold applied to TLKM (Week 9 Priority 1) and KLBF (held — for state-machine transition check):**
+
+- **TLKM:** Only multi-source point on file is stale Investing.com Jun 7 carry 2,760 IDR. No Jun 15 sesi I source surfaces in WebSearch as of 09:15 WIB. Even relaxed ≤4% threshold cannot be applied — there is only ONE source, not 2+ for comparison. **Binding constraint: source count, not spread.** Cannot fire entry on a single 8-day-stale source under any threshold.
+- **KLBF:** TradingView 745 vs Investing 930 = 2-source spread ~25% on Jun 15 timeframe. FAILS relaxed ≤4% threshold by 6x. **Binding constraint: multi-source spread.** Safe-lower carry 1,035 holds per MISTAKES.md 2026-05-01 discipline; trailing 931 GTC remains armed broker-side; state-3 (+15% ≥1,087) and state-4 (+20% ≥1,134) transition triggers ARMED but blocked Day 55 consecutive.
+
+**Conclusion:** Process change #3 satisfied — two candidates evaluated at relaxed threshold, binding constraint documented per candidate. Data-infrastructure outage Day 55 is the structural binding constraint, not over-defensive gate stacking. Patience holds.
+
+### Sector / catalyst context (Mon Jun 15)
+
+- **Banking** — BBCA/BBRI/BMRI Wed-Fri Week 8 rebound +25-28% from Mon ARB. Chase risk binding. BI RDG Jun 17-18 T+2 will pivot direction binary.
+- **Telco** — TLKM/EXCL/ISAT cum-div Fri Jun 19 T+4. Defensive bid near-term; TLKM Rp 4T buyback active.
+- **Consumer staples** — UNVR/ICBP cum-div Jun 19 T+4. Defensive bid near-term.
+- **Healthcare** — KLBF buyback Rp 500B through Jul 2 (~17 days remain); dividend receivable Rp 10,380,000 payment Jun 24 (T+9).
+- **Coal/Mining** — EXITED 2-strike + Danantara Phase 1. Friday rotation noise (INDY/INCO/BUMI) per sector-EXIT binding.
+- **Property/Construction/Cement** — Rate-sensitive headwind + Moody's sovereign overhang. Avoid.
+
+### Eagerness Check (Week 9 Day 1)
+
+- 3/3 slot allocation fresh (4th week running of full fresh allocation).
+- Cumulative trial alpha +19.39% (Day 40 Fri close) — strong absolute position.
+- Forced-entry pressure: 3 consecutive 0/3 weeks + +19.39% cushion + Week 9 Day 1 = classic eagerness-induce setup.
+- **Eagerness check binds:** the SKIP rationale today is the structural data-infrastructure outage Day 55 — NOT a discretionary "wait for better setup" judgment. Every candidate fails Gate 9 (cannot verify price within 3% of plan) AND/OR multi-source ≤2% AND/OR ≤4% relaxed threshold. No entry possible under discipline. The patience pays for the +19.39% alpha protection.
+
+### Today's plan (carry-forward to 09:15 WIB execution)
+
+- **No buys.** All 6 fresh candidates SKIP at gate level on data-infra outage Day 55 binding (Gate 9 unverifiable / multi-source spread fails).
+- **KLBF HOLD** — trailing 931 GTC armed broker-side; state-machine state-3/state-4 transitions blocked on cluster non-convergence Day 55.
+- **Carry watches for Mon midday + EOD:**
+  - IHSG sesi I multi-source convergence at 09:00–11:30 WIB.
+  - IDR Mon close — 5th-session sustained sub-18,000 holds OR cascade re-imposition.
+  - Foreign flow Mon sesi (criterion (d) marker).
+  - BI RDG Jun 17-18 T-2/T-3 positioning.
+  - MSCI Jun 18 T-3 binary overhang.
+
+### Sources (multi-source where available)
+
+- [IHSG Fri Jun 12 sesi I 6,043.55 — Trading Economics carry](https://tradingeconomics.com/indonesia/stock-market)
+- [USD/IDR Jun 13-15 carry ~17,870 — exchange-rates.org](https://www.exchange-rates.org/exchange-rate-history/usd-idr-2026)
+- [KLBF TradingView Jun 15 ~745 / Investing.com Jun 15 ~930 — 2-source spread ~25% fails ≤4%](https://www.tradingview.com/symbols/IDX-KLBF/)
+- [TLKM Investing.com Jun 7 stale 2,760 IDR — 5+ day stale, single source only](https://www.investing.com/equities/telkom-indones)
+- [BI RDG Jun 17-18 50% pricing +25bp; MSCI Jun 18 binary — Trading Economics macro carry](https://tradingeconomics.com/indonesia/currency)
+
+---

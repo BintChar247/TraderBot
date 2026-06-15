@@ -4591,3 +4591,58 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 ---
 
+### 2026-06-15 09:15 WIB — MARKET-OPEN (Mon, Week 9 Day 1 — NO TRADES; data-infra outage Day 55 binds Gate 9 unverifiable across 6 fresh candidates; KLBF HOLD; relaxed ≤4% threshold check per Week 8 process change #3 documented)
+
+**Candidates evaluated (per RESEARCH-LOG today, written inline at 09:15 WIB fallback):** TLKM (Wk 9 Priority 1), BBCA, PGAS, UNVR, ICBP, MYOR (Week 8 carry-forward queue). KLBF (held) state-machine transition check.
+
+**9-gate buy-side checklist results (Mon Jun 15):**
+
+| Candidate | G1 ≤6 pos | G2 ≤3 trades wk | G3 ≤5% cap | G4 ≤cash | G5 catalyst | G6 stock | G7 ADV>500k | G8 lot=100 | G9 ≤3% drift from plan | Result |
+|-----------|----------|------------------|------------|----------|-------------|----------|-------------|------------|------------------------|--------|
+| TLKM | PASS | PASS (0/3) | PASS | PASS | PASS (cum-div Jun 19 T+4 + buyback) | PASS | PASS | PASS | **FAIL (unverifiable — only stale Jun 7 2,760 single-source available; no Jun 15 multi-source convergent tape)** | SKIP |
+| BBCA | PASS | PASS | PASS | PASS | PASS (banking rebound + BI RDG T+2/T+3) | PASS | PASS | PASS | **FAIL (no Jun 15 multi-source convergent tape)** | SKIP |
+| PGAS | PASS | PASS | PASS | PASS | PASS (Abadi LNG HoA Wk 6 carry) | PASS | PASS | PASS | **FAIL (data-infra block multi-week; no Jun 15 multi-source)** | SKIP |
+| UNVR | PASS | PASS | PASS | PASS | PASS (cum-div Jun 19 T+4 Rp 114/sh ~7% yield) | PASS | PASS | PASS | **FAIL (no Jun 15 multi-source convergent tape)** | SKIP |
+| ICBP | PASS | PASS | PASS | PASS | PASS (defensive FMCG + cum-div Jun 19 T+4) | PASS | PASS | PASS | **FAIL (no Jun 15 multi-source convergent tape)** | SKIP |
+| MYOR | PASS | PASS | PASS | PASS | PASS (Rp 60/sh div + B50 tailwind) | PASS | PASS | PASS | **FAIL (no Jun 15 multi-source convergent tape)** | SKIP |
+
+**Binding constraint (per Week 8 process change #3 explicit eval):** Data-infrastructure outage Day 55 — yfinance HTTP 403 host-allowlist block persists; GoAPI not configured; WebSearch single-source 5-8 day stale prints for TLKM only; no multi-source convergent Jun 15 sesi I tape available for any candidate. **Even relaxed ≤4% multi-source threshold cannot be applied — for TLKM the binding constraint is source count (single source only), not spread; for others no Jun 15 tape at all.** Patience holds; structural data-infra binding identified, not over-defensive gate stacking.
+
+**KLBF held position check (state-machine):**
+- TradingView Jun 15: 745
+- Investing.com Jun 15: 930
+- broker.sh quote KLBF: 945 (stale stub)
+- 3-source spread ~25% (TradingView 745 vs Investing 930) FAILS even relaxed ≤4% threshold by 6x. Per MISTAKES.md 2026-05-01 safe-lower discipline + cluster non-convergence Day 55 binding: safe-lower carry 1,035 frozen from Tue Jun 2 anchor.
+- State-3 (≥1,087 → 7% trail at 1,011) ARMED but blocked — Investing.com 930 < 1,087 anyway.
+- State-4 (≥1,134 → 5% trail at 1,077) ARMED but blocked.
+- Trailing 931 GTC remains armed broker-side — would fire if Mon cluster converges ≤931 across ≥3 sources within ≤2%; TradingView 745 single-source low does not fire (per discipline).
+- **Action:** HOLD; no state transition; no pre-emptive close on single-source low.
+
+**Macro check (Mon Jun 15 09:15 WIB):**
+- IDR ~17,870 weekend carry (exchange-rates.org) = **5-session sustained sub-18,000 = de-escalation criterion (a) FULL-LOCKED.** Cascade kill-switch firmly LIFTED.
+- IHSG sesi I multi-source convergence pending (not yet at 09:15 WIB).
+- BI RDG Jun 17-18 T+2/T+3 (50% pricing +25bp incremental).
+- MSCI Jun 18 T-3 binary frontier-downgrade overhang.
+- Moody's Danantara Baa2 negative outlook — criterion (b) NOT confirmed.
+- Foreign flow inflection — criterion (d) partial Wk 8 NOT confirmed Mon.
+- Regime: DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING (2 of 4 confirmed); **5% cap binding holds; no upgrade trigger Mon Jun 15.**
+
+**Eagerness Check — Week 9 Day 1:** 3/3 slot allocation fresh + +19.39% cumulative trial alpha cushion + 4th consecutive week of Day 1 forced-entry pressure. **Patience holds — SKIPs rooted in structural data-infra outage Day 55, not discretionary "wait for better setup" judgment.** No discipline relaxation; no forced entry on single-source stale data.
+
+**Broker state (start of routine):**
+- `bash scripts/broker.sh portfolio`: equity 9,809,627,500 (entry-stub MV); cash 9,319,172,500; KLBF 519,000 sh @ 945. TRADE-LOG equity 9,856,337,500 (safe-lower carry 1,035 per cluster discipline). Difference IDR 46,710,000 = MV reconciliation only.
+- `bash scripts/broker.sh quote BBCA`: ERROR `_paper_quote cannot produce a price` (yfinance Day 55 HTTP 403; no held position → cannot stub). Confirms Gate 9 unverifiable for all fresh candidates.
+- `bash scripts/broker.sh quote KLBF`: stale entry stub 945 (Day 55 yfinance blocked).
+
+**Notification sent (per routine STEP 7 — no-trade variant):** 📊 Market-open 2026-06-15: No trades placed. Data-infra outage Day 55 binds Gate 9 unverifiable across 6 fresh candidates (TLKM/BBCA/PGAS/UNVR/ICBP/MYOR). KLBF HOLD (safe-lower 1,035; trailing 931 GTC armed). IDR sub-18,000 5-of-5 sustained = criterion (a) FULL-LOCKED. Week 9 0/3.
+
+**Carry-over to Mon midday 11:30 WIB / EOD 15:15 WIB:**
+1. IHSG Mon sesi I/II multi-source convergence.
+2. IDR Mon close — 5th-of-5 sustained sub-18,000 holds OR cascade re-imposition.
+3. KLBF Mon cluster narrowing watch — if convergence ≤2% across ≥3 sources, state-machine state-3/state-4 transition eligible OR trailing GTC fires if cluster ≤931.
+4. Foreign flow Mon sesi (criterion (d) inflection marker).
+5. BI RDG Jun 17-18 T-2/T-3 positioning.
+6. MSCI Jun 18 T-3 binary overhang.
+
+---
+

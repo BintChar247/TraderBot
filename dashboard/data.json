@@ -6298,6 +6298,300 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco-defensive; cum-div Fri Jun 19 T+4 Rp 21.9T total + Rp 4T buyback active; plan \u22642,990 (3% chase cap from Wed ~2,900).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div Fri Jun 19 (T+4) + Rp 4T buyback Day 4 active"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 only stale Jun 7 single-source 2,760 IDR; no Jun 15 multi-source convergent tape (Day 55 data-infra outage)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable \u2014 no Jun 15 multi-source tape; single Jun 7 carry (5+ day stale) fails source-count check. Binding constraint: data-infra outage Day 55, not over-defensive gate stacking. Re-gate Tue Jun 16.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 bank rebound continuation; defensive-quality re-rate post BI +25bp; plan \u22645,432 (3% chase cap from Thu 5,600).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Jun 17-18 T+2/T+3 binary (50% pricing +25bp incremental); banking 1-of-2 strike binding"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape (Day 55 data-infra outage)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable \u2014 no Jun 15 multi-source tape available. BI RDG T+2/T+3 binary catalyst better re-gate post-decision Wed Jun 17 PM. Re-gate Tue Jun 16.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility; Abadi LNG HoA catalyst fresh (5-source confirmed Wk 6); Mirae PT Rp 2,140; 9.98% div yield.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi LNG HoA catalyst structurally intact; defensive utility regime fit DOWNGRADE-PENDING"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 multi-week data-infra block on PGAS pricing; no Jun 15 convergent tape"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable \u2014 chronic data-infra block on PGAS pricing across Weeks 6-8 carries to Mon Jun 15. Re-gate when cluster narrows.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples defensive; cum-div Fri Jun 19 T+4 Rp 114/sh ~7% yield; defensive bid intensifying.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div Jun 19 T+4 Rp 114/sh ~7% yield"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape (Day 55 data-infra outage)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable. UNVR plan \u22641,800 with cum-div bid support; no Mon multi-source data to verify \u22643% drift. Re-gate Tue Jun 16.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Top FY26 consumer pick multi-broker; defensive FMCG leadership; Q1 rev +7.6% YoY; cum-div Fri Jun 19 T+4.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div Jun 19 T+4 + defensive FMCG leadership + Q1 rev +7.6% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape (Day 55 data-infra outage)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable. ICBP plan \u22647,725 (3% cap from Thu 7,100); no Mon multi-source data. Re-gate Tue Jun 16.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-06-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples; Rp 60/sh FY25 div; export IDR-weak tailwind moderating; plan \u22641,765.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "FY25 div Rp 60/sh + B50 Jul 1 tailwind T+16"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria CONFIRMED: IDR sub-18,000 5-of-5 + IHSG >5,500 reclaim); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape (Day 55 data-infra outage)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback path active (Day 55 yfinance HTTP 403); no Jun 15 multi-source convergent tape \u2014 Gate 9 unverifiable per Week 8 process change #3"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable. No Mon multi-source data. Re-gate Tue Jun 16.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -9495,6 +9789,57 @@
         {
           "type": "research",
           "detail": "Day 40 EOD snapshot committed; Week 8 closes 0/3 trades; KLBF safe-lower carry held 5th consecutive session"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-15T02:22:05Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Day 55 data-infra outage binds Gate 9 unverifiable across 6 fresh candidates (TLKM/BBCA/PGAS/UNVR/ICBP/MYOR); no Jun 15 multi-source convergent tape. KLBF HOLD safe-lower 1,035 (trailing 931 GTC armed broker-side). IDR ~17,870 = 5-of-5 sub-18,000 sustained (criterion (a) FULL-LOCKED). Regime DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4); 5% cap binding. Week 9 0/3 fresh. Relaxed \u22644% threshold check per Wk 8 process change #3 satisfied: TLKM single-source 5-day stale fails source-count; KLBF 2-source ~25% spread fails \u22644% by 6x. Patience held; structural data-infra binding identified, not over-defensive gate stacking.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Gate 9 unverifiable \u2014 stale Jun 7 single-source 2,760 IDR; no Jun 15 multi-source"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "Gate 9 unverifiable \u2014 multi-week data-infra block on PGAS pricing"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "Gate 9 unverifiable \u2014 no Jun 15 multi-source convergent tape"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "safe-lower 1,035 carry; trailing 931 GTC armed; cluster ~25% spread Day 55 fails \u22644% by 6x"
+        },
+        {
+          "type": "warning",
+          "detail": "Day 55 data-infrastructure outage: yfinance HTTP 403 host-allowlist + GoAPI not configured + Telegram api.telegram.org host-allowlist; WebSearch-only fallback active"
+        },
+        {
+          "type": "warning",
+          "detail": "Week 8 process change #3 relaxed \u22644% threshold check satisfied: binding constraint = data-infra outage (source count + spread), not over-defensive gate stacking"
         }
       ]
     }
