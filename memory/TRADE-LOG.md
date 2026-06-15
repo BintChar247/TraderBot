@@ -4646,3 +4646,57 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 ---
 
+
+### 2026-06-15 11:30 WIB — MIDDAY SCAN (Mon, Week 9 Day 1 — HOLD all; no cut, no tighten, no thesis exit)
+
+**Open positions check (per `bash scripts/broker.sh positions`):**
+
+| Ticker | Shares | Entry | Broker stub | Unrealized P&L (stub) | Safe-lower carry | Carry P&L | Action |
+|--------|--------|-------|-------------|----------------------|------------------|-----------|--------|
+| KLBF | 519,000 | 945 | 945 | 0.00% | 1,035 (Tue Jun 2 anchor frozen) | +9.52% | HOLD |
+
+**Sell-side rule evaluation (STEP 3 — losers):**
+- KLBF broker stub 0.00% — NOT at -7% hard-cut threshold.
+- Real-tape single-source low TradingView 745 ( -21.2% if mark-able) does NOT fire cut — multi-source cluster non-convergence Day 55 binds per MISTAKES.md 2026-05-01 safe-lower discipline (≥3-source ≤2% spread required to mark a non-broker price). Trailing 931 GTC broker-side remains armed; would fire automatically if cluster converges ≤931 across ≥3 sources within ≤2% spread.
+- **No hard cut triggered.**
+
+**Sell-side rule evaluation (STEP 4 — winners / stop-tighten):**
+- KLBF safe-lower carry 1,035 vs entry 945 = +9.52% — BELOW +15% state-3 threshold (≥1,087) and +20% state-4 threshold (≥1,134).
+- State-machine state-3 (7% trail at 1,011) and state-4 (5% trail at 1,077) remain ARMED but BLOCKED on cluster non-convergence Day 55.
+- Even if cluster were to converge today: at safe-lower 1,035 carry, +9.52% does not yet trigger any tighten state.
+- **No stop-tightening action.**
+
+**STEP 5 — Thesis check (KLBF):**
+- WebSearch "KLBF Kalbe Farma news June 15 2026 IDX": no breaking adverse news; healthcare-defensive thesis intact.
+- Catalysts on track: KLBF buyback Rp 500B through Jul 2 (~17 days remain); dividend receivable Rp 10,380,000 pays Jun 24 (T+9).
+- MSCI Jun 18 T-3 binary overhang persists; KLBF NOT in typical frontier-removal basket (re-confirmed each session since May 29).
+- BI RDG Jun 17-18 T-2/T-3 binary — rate-sensitive but KLBF healthcare-defensive carries lower beta to rate path.
+- **No thesis break.**
+
+**STEP 6 — Intraday >3% move check:**
+- Broker stub 945 unchanged; no live multi-source tape to verify intraday move. No RESEARCH-LOG addendum required.
+
+**Macro check (Mon Jun 15 11:30 WIB):**
+- IDR Mon sesi I/midday cluster watch — sub-18,000 5-session sustained continuation watch pending close.
+- IHSG Mon sesi I multi-source convergence pending at filing time.
+- Foreign flow Mon sesi (criterion (d) inflection marker) pending.
+- Regime DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 criteria confirmed); 5% cap binding holds.
+
+**Eagerness check:** No discretionary trim/cut on single-source low; cluster discipline binds. No actions = correct outcome under data-infra Day 55 binding.
+
+**Broker state (end of routine):**
+- Positions: 1 (KLBF 519,000 sh @ 945).
+- Cash 9,319,172,500 IDR; equity 9,809,627,500 IDR (broker stub) / 9,856,337,500 IDR (TRADE-LOG safe-lower carry); drawdown -1.7% from peak — far from all caps.
+- Trailing 931 GTC armed broker-side on KLBF.
+- Trading NOT halted.
+
+**Notification sent:** 📊 Midday 2026-06-15: All positions healthy. No action taken.
+
+**Carry-over to Mon EOD 15:15 WIB:**
+1. IHSG Mon sesi I/II multi-source convergence.
+2. IDR Mon close — 5th-of-5 sustained sub-18,000.
+3. KLBF Mon close cluster convergence watch (state-3/state-4 transition eligible if ≤2% spread across ≥3 sources at mark ≥1,087/1,134; trailing 931 GTC fires if cluster ≤931).
+4. BI RDG Jun 17-18 T-2/T-3 positioning.
+5. MSCI Jun 18 T-3 binary overhang.
+
+---
