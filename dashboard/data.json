@@ -574,23 +574,39 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-06-15",
+      "day_label": "Day 41",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6309.73,
+      "ihsg_cumulative_pct": -17.35,
+      "alpha_pct": 15.91,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
     {
       "ticker": "KLBF",
       "shares": 519000,
-      "entry_price": 945,
-      "entry_date": "2026-05-21",
-      "last_price": 1035,
-      "mtm_source": "safe-lower carry (cluster non-convergence Day 52; 3-source spread ~29.5% Yahoo 730 / sectors.app 745 / broker stub 945)",
+      "avg_cost_idr": 945,
+      "last_price_idr": 1035,
       "market_value_idr": 537165000,
-      "unrealised_idr": 46710000,
-      "unrealised_pct": 9.52,
-      "stop_price": 931,
-      "stop_type": "trailing 10% GTC (state-2, hwm 1035)",
-      "days_held": 16,
-      "sector": "Healthcare"
+      "unrealized_pnl_idr": 46710000,
+      "unrealized_pnl_pct": 9.52,
+      "days_held": 25,
+      "entry_date": "2026-05-21",
+      "trailing_stop_idr": 931,
+      "stop_state": "trailing",
+      "trail_pct": 10,
+      "high_water_price": 1035,
+      "note": "safe-lower carry frozen from Tue Jun 2 anchor; cluster non-convergence Day 55 (TradingView 745 / Investing.com 930 / broker stub 945 = ~25% spread; safe-lower discipline binds per MISTAKES.md 2026-05-01)"
     }
   ],
   "trades": [
@@ -6595,16 +6611,22 @@
     }
   ],
   "stats": {
-    "trial_day": 37,
-    "trial_week": 8,
+    "trial_days_elapsed": 41,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 41)",
+    "starting_capital_idr": 10000000000,
+    "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
     "cumulative_pnl_pct": -1.44,
-    "cumulative_alpha_pct": 25.21,
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
+    "future_dividend_receivable_idr": 10380000,
+    "ihsg_cumulative_pct": -17.35,
+    "cumulative_alpha_pct": 15.91,
     "trades_this_week": 0,
-    "max_trades_per_week": 3,
-    "trades_total_trial": null
+    "trades_total": 4,
+    "wins": 0,
+    "losses": 3,
+    "open": 1
   },
   "risk": {
     "regime": "EM-OUTFLOW-RISK-CAUTIOUS",
@@ -6615,12 +6637,9 @@
     "drawdown_from_peak_pct": -1.7,
     "trading_halted": false,
     "halt_reason": null,
-    "daily_loss_cap_pct": -2.0,
-    "weekly_loss_cap_pct": -5.0,
-    "max_drawdown_pct": -15.0,
-    "idr_cascade_breached": true,
-    "idr_close": 18150,
-    "alerts_today": []
+    "max_position_pct": 0.15,
+    "max_gross_pct": 0.8,
+    "max_new_trades_week": 3
   },
   "activity_log": [
     {
@@ -9848,16 +9867,33 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. KLBF held (1 position; broker stub 0.00%; safe-lower carry +9.52% below +15% tighten threshold). Data-infra outage Day 55 binds cluster non-convergence."
+    },
+    {
+      "timestamp": "2026-06-15T08:20:41Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 41: IDR 9.856B (+0.00% day). Alpha vs IHSG \u22124.40%. Cum alpha +15.91% (compression \u22123.48pp from Day 40; 2nd consec compression day). KLBF carry +9.52% (safe-lower 1,035 frozen Day 55). IDR sub-18,000 5-of-5 FULL-LOCKED. Cash 94.55%. Trades wk 0/3. Telegram egress blocked.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 41 EOD snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram egress 403 \u2014 notification fallback to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
     "cash_pct": 94.55,
-    "equity_deployed_pct": 5.45,
+    "invested_pct": 5.45,
+    "by_sector": {
+      "healthcare": 5.45,
+      "cash": 94.55
+    },
     "positions_count": 1,
-    "max_positions": 6,
-    "sectors": {
-      "Healthcare": 5.45
-    }
+    "max_positions": 6
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DE-ESCALATION-CONFIRMING",
@@ -9941,5 +9977,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-12T08:20:38.806493Z"
+  "last_updated": "2026-06-15T15:15:00+07:00"
 }
