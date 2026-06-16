@@ -4802,3 +4802,41 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 📈 EOD 2026-06-15: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: −4.40% (IHSG sesi I +4.40% relief-rally continuation 6,309.73). Cum alpha +15.91% (compression −3.48pp from +19.39% Day 40; 2nd consecutive compression day; −6.81pp two-day total from +22.72% Day 39 peak). KLBF safe-lower carry 1,035 frozen (cluster Day 55 ~25% 3-source spread persists). IDR sub-18,000 5-of-5 sustained FULL-LOCKED (Mon ~17,667). Cash 94.55%. Trades wk 0/3 fresh.
 
 ---
+
+## 2026-06-16 11:30 WIB — Midday: NO ACTION (Week 9 Day 2 / Tue — IDX LIBUR 1 Muharam 1448 H; no trading session; cluster data-infra Day 56 carries; broker-side GTC 931 inactive without tape)
+
+**Holiday status:** Bursa Efek Indonesia CLOSED today per official IDX calendar (Peng-00171/BEI.POP09-2025; multi-source confirmed Viva.co.id / Bareksa). Next live tape: Wed Jun 17 09:00 WIB (= BI RDG Day 1). Pre-market routine ran at 07:00 WIB to record Mon Jun 15 close anchor + Wed-Thu binary-event positioning; today's midday is a procedural pass-through.
+
+**Open positions reviewed:**
+- KLBF 519,000 sh @ entry 945. State: trailing 10%, hwm 1,035 (safe-lower carry frozen from Tue Jun 2 anchor), current_stop 931 GTC armed broker-side. No live tape today; GTC inactive without market session.
+
+**Tue Jun 16 holiday-pass cluster check (KLBF):**
+- broker.sh quote KLBF: last_price 945 (stale stub — "live market-data.sh unavailable; using last-known entry_price"; same Day 56 outage).
+- WebSearch data point — Investing.com synthesis: 745 IDR (-3.25% / 24h carry — same Mon cluster low; no fresh Tue tape because market closed).
+- WebSearch data point — Yahoo Finance delayed quote: 1,135 IDR (+4.61% timestamp 11:29:57 GMT+7; stale-print echo of Mon sesi cluster, unverifiable without live session).
+- WebSearch data point — StockAnalysis cached: 945 IDR (+0.53% — echo of broker stub).
+- 3-source spread (745 / 945 / 1,135) = ~52% wide; FAILS ≥3-source ≤2% convergence mandatory per MISTAKES.md 2026-05-01. Cluster non-convergence persistence: Day 56 (data-infra outage yfinance/GoAPI continues; HTTP 403 host-allowlist).
+- **No fresh Tue mark possible:** market closed = no fresh tick generation possible; web data is recycled Mon prints + delayed echoes. Safe-lower carry 1,035 frozen since Tue Jun 2 anchor remains the binding non-discretionary MTM.
+
+**Sell-side rules applied:**
+- **-7% hard cut: NOT triggered procedurally.** broker.sh quote stub returns 945 = 0.00% P&L (entry-flat), NOT below hard-cut 879. WebSearch lower-cluster 745 is single-source non-convergent; cannot fire pre-emptive close. Trailing 931 GTC armed broker-side — INACTIVE today (no market session = no triggerable tape). Will re-arm Wed Jun 17 open.
+- **+15% / +20% stop tighten: NOT triggered.** Yahoo upper-source 1,135 is single-source non-convergent; cannot fire state-3/state-4 transition. State-3 (≥1,087) and state-4 (≥1,134) remain ARMED but BLOCKED on cluster non-convergence Day 56.
+- **Thesis check (KLBF):** Healthcare-defensive bid thesis structurally INTACT. Rp 500B buyback through Jul 2 active (~16 days remain). Receivable IDR 10,380,000 ex-div Jun 4 booked Jun 24 (T+5 from today). No adverse catalyst surfaced in WebSearch for Jun 16 (holiday session = no fresh news catalysts). MSCI Jun 18 T-2 binary overhang persists; KLBF NOT in typical frontier-removal basket (re-confirmed each session since May 29). BI RDG Jun 17-18 T-1/T-2 binary positioning ahead.
+
+**Macro context:** IDR Mon close ~17,870 (criterion (a) PERMANENTLY LOCKED 5-of-5 sustained). IHSG Mon sesi II final 6,254.97 +4.12% (criterion (c) STRONGLY CONFIRMED +13.7% above 5,500). Foreign flow Fri +287.84B + Mon +257.8B = 2-of-2 net-buy days (criterion (d) STRONGLY CONFIRMING — pending 3-of-3 lock at Wed open). Moody's Danantara Baa2 negative outlook PERSISTS (criterion (b) the lone gating constraint). Regime: DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING (3 of 4 confirming; formal regime label re-eval Fri Jun 19 weekly review unless BI RDG Wed-Thu produces binary de-escalation event).
+
+**STEP 6 (intraday research addendum):** No live session = no >3% intraday move possible by definition. WebSearch readings (Investing 745 / Yahoo 1,135) are Mon-cluster recycle + delayed echoes; not fresh Tue ticks. No addendum required per holiday-pass discipline.
+
+**Action:** HOLD. No trading session = no broker-side action possible today. Trailing 931 GTC armed but inactive without tape; will re-arm Wed Jun 17 open. State-machine transitions blocked on cluster non-convergence Day 56 regardless of session status. No discretionary pre-emptive close on stale Mon-cluster web data per MISTAKES.md 2026-05-01 discipline.
+
+**Notification sent:** 📊 Midday 2026-06-16: All positions healthy. No action taken.
+
+**Carry-over to Wed Jun 17 pre-market 07:00 WIB / market-open 09:15 WIB:**
+- KLBF Wed open fresh cluster reconciliation (first live tape in 48 hours; elevated gap risk). If ≥3-source ≤2% convergence achieved at ≤931 mark → trailing 931 GTC fires automatically.
+- IDR Wed open vs 6-of-6 sustained sub-18,000 watch (criterion (a) permanence holds if Wed sub-18,000 confirmed multi-source).
+- IHSG Wed open vs Mon close 6,254.97; relief-rally extension vs pre-BI give-back binary.
+- TLKM / ASII / ICBP Wed open multi-source Gate 9 re-eval per pre-market plan (5% cap binding; chase-cap from Mon Jun 15 close anchor).
+- BI RDG Wed Jun 17 19:30 WIB (post-close) — Day 1 sub-binary; full decision Thu.
+- MSCI Global Mkt Accessibility Review Thu Jun 18 announcement — binary frontier-EM risk.
+
+---

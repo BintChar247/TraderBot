@@ -9962,6 +9962,12 @@
           "detail": "Telegram egress blocked (host allowlist); notification printed to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-16T04:50:15Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Holiday pass-through (IDX LIBUR 1 Muharam). KLBF held; trailing 931 GTC armed but inactive without tape; cluster Day 56 non-convergence persists; safe-lower carry 1,035 frozen. No actions triggered."
     }
   ],
   "exposure": {
