@@ -9883,6 +9883,64 @@
           "detail": "Telegram egress 403 \u2014 notification fallback to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-16T00:16:36Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Day 42 Tue Jun 16 = IDX HOLIDAY (1 Muharam). 50-ticker scan from Mon Jun 15 close anchor. 7 candidates \u22656: TLKM(7) BBCA(7) BMRI(7) BBNI(6) UNVR(6) ICBP(6) ASII(6). Top Wed Jun 17 entry: TLKM cum-div Fri T+2 + buyback Day 6. Regime: 3-of-4 de-escalation criteria confirming; (b) Moody's lone gating; downgrade imminent pending Fri weekly review.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (mostly stale-tape due to holiday + Day 56 data-infra outage)"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656 (TLKM/BBCA/BMRI/BBNI/UNVR/ICBP/ASII)"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 7/10 \u2014 Rp4T buyback Day 6 + cum-div Fri Jun 19 T+2 (~7-8% yield)"
+        },
+        {
+          "type": "macro",
+          "detail": "Regime DOWNGRADE-IMMINENT: 3 of 4 de-escalation criteria confirming; (b) Moody's Danantara Baa2 negative outlook lone gating constraint"
+        },
+        {
+          "type": "warning",
+          "detail": "Tue Jun 16 IDX HOLIDAY \u2014 no trading session; Wed Jun 17 = BI RDG Day 1 binary"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-16T00:16:44Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Day 42 Tue Jun 16 IDX HOLIDAY (1 Muharam). Scan from Mon Jun 15 close anchor. 7 candidates \u22656: TLKM(7) BBCA(7) BMRI(7) BBNI(6) UNVR(6) ICBP(6) ASII(6). Top Wed Jun 17 entry: TLKM cum-div Fri T+2 + buyback Day 6. Regime 3-of-4 de-escalation criteria confirming; (b) Moody's lone gating; downgrade imminent.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (holiday + Day 56 data-infra outage stale-tape)"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 7/10 \u2014 Rp4T buyback Day 6 + cum-div Fri Jun 19 T+2"
+        },
+        {
+          "type": "macro",
+          "detail": "Regime DOWNGRADE-IMMINENT: 3 of 4 de-escalation criteria confirming; Moody Danantara lone gating constraint"
+        },
+        {
+          "type": "warning",
+          "detail": "Tue Jun 16 IDX HOLIDAY \u2014 no trading session; Wed Jun 17 = BI RDG Day 1 binary"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9896,86 +9954,125 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-DE-ESCALATION-CONFIRMING",
-    "ihsg_close": 6043.55,
-    "ihsg_close_basis": "Fri Jun 12 sesi I close, multi-source convergent (RRI + money.kompas + beritasatu + liputan6 + cnbcindonesia + antaranews + bloombergtechnoz); sesi II final not multi-source convergent at filing time",
-    "ihsg_cumulative_pct": -20.83,
-    "idr_usd": 17918.9,
-    "idr_status": "4th-sustained sub-18,000 close = de-escalation criterion (a) STRONGLY CONFIRMED full 4-of-4 lock",
+    "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING-DOWNGRADE-IMMINENT",
+    "ihsg_close": 6254.97,
+    "ihsg_close_basis": "Mon Jun 15 sesi II final, multi-source convergent (Databoks/Kompas/Liputan6/Mediaindonesia/Insiderindonesia/Infobanknews); +4.12% on US-Iran peace deal + foreign net-buy Rp 257.8B 2nd consecutive day",
+    "ihsg_cumulative_pct": -18.06,
+    "idr_usd": 17870.0,
+    "idr_status": "5-session sustained sub-18,000 FULL-LOCKED (Mon intraday low ~17,667); criterion (a) PERMANENTLY CONFIRMED",
     "bi_rate": 5.5,
     "msci_announcement_date": "2026-06-18",
     "bi_rdg_meeting_date": "2026-06-17/18",
+    "holiday_today": "Tue Jun 16 = 1 Muharam 1448 H \u2014 IDX CLOSED; next trading day Wed Jun 17 = BI RDG Day 1",
+    "deescalation_criteria_status": {
+      "(a)_IDR_sub_18000_sustained": "FULL-LOCKED 5-of-5",
+      "(b)_Moodys_stabilization": "NOT CONFIRMED \u2014 Danantara Baa2 negative outlook persists; LONE gating constraint",
+      "(c)_IHSG_above_5500_sustained": "STRONGLY CONFIRMED 6,254.97 +13.7% buffer",
+      "(d)_foreign_flow_inflection": "STRONGLY CONFIRMING \u2014 Fri Rp 287B + Mon Rp 257.8B = 2-of-2 net-buy days breaking 13-day outflow streak"
+    },
     "key_overhangs": [
-      "BI RDG Jun 17-18 BINARY (50% pricing +25bp hike)",
-      "MSCI Global Mkt Accessibility Review Thu Jun 18 (T+4) BINARY frontier downgrade risk",
-      "Moody's Danantara Baa2 negative outlook persists (not stabilized)",
-      "Foreign flow inflection to net buy NOT yet multi-source confirmed",
-      "Mean-reversion fragility: IHSG -0.28% Thu after Tue+Wed +10.5% cumulative",
-      "Brent -4.25% Trump Iran deal-close tease creates energy sector negative + V-shape risk",
-      "Multi-source data non-convergence Day 53 yfinance/GoAPI HTTP 403 persists",
-      "MDKA AGM postponed to RUPSLB Jun 23 (T+7) original Thu Jun 11 catalyst invalidated"
+      "BI RDG Wed Jun 17 Day 1 BINARY (50% pricing +25bp incremental hike)",
+      "MSCI Global Mkt Accessibility Review Thu Jun 18 BINARY frontier-EM classification",
+      "MSCI Annual Market Classification Review Mon Jun 23 (T+5 trading days)",
+      "Moody's Danantara Baa2 negative outlook persists \u2014 lone (b) gating constraint blocks DOWNGRADE-PENDING -> DEFENSIVE-CONFIRMED",
+      "IDX holiday gap Tue Jun 16 = stale-tape risk on Wed Jun 17 open",
+      "Banking chase risk: BBCA/BMRI/BBNI cumulative +20-41% rebound 5-day from Mon Jun 8 ARB lows",
+      "Data infrastructure Day 56 outage: yfinance + GoAPI HTTP 403 blocked persistently",
+      "KLBF cluster Day 56 non-convergence: 3-source spread ~33% blocks state-3/state-4 transitions",
+      "Mon US-Iran peace = oil/Brent -4%; energy sector compounding negative on top of coal sector exit"
     ]
   },
   "research": {
-    "date": "2026-06-12",
+    "date": "2026-06-16",
+    "holiday": "1 Muharam 1448 H \u2014 IDX CLOSED \u2014 pre-market still ran to update regime and prepare Wed Jun 17 BI RDG Day 1 open",
+    "candidates_count": 7,
+    "candidates_top_score": 7,
     "headlines": [
       {
         "ticker": "MACRO",
-        "headline": "IHSG Thu Jun 11 close 5,886.03 -0.28% (-16.35 pt) \u2014 mean-reversion moderation after 2-day relief bounce (Tue +7.57% + Wed +2.71% = +10.5% cumulative). Sesi I low 5,789.98 \u2192 sesi II reclaim. 6 sectoral indices corrected; commodities -4.27% leader down. Multi-source convergent Databoks/Bisnis. Cumulative trial -22.90% from Day 0 baseline 7,634.",
-        "sentiment": "mean-reversion-moderate-bearish",
-        "source": "Databoks/Katadata + Bisnis",
-        "url": "https://databoks.katadata.co.id/en/market/statistics/6a2a8591d73ec/the-ihsg-weakens-remains-below-6000-thursday-june-11-2026"
+        "headline": "Tue Jun 16 2026 = IDX LIBUR (1 Muharam 1448 Hijriah Tahun Baru Islam). No trading session. Next trading day Wed Jun 17 = BI RDG Day 1. Pre-market routine ran to record Mon Jun 15 close + prepare Wed open positioning.",
+        "sentiment": "neutral-holiday",
+        "source": "BEI announcement + Bareksa + Viva",
+        "url": "https://www.viva.co.id/bisnis/1906044-catat-bursa-efek-indonesia-libur-saat-tahun-baru-islam-16-juni-2026-ini-jadwal-lengkapnya"
       },
       {
         "ticker": "MACRO",
-        "headline": "IDR/USD Thu Jun 11 close 17,919 (-0.08%) = **3rd-sustained sub-18,000 close = de-escalation criterion (a) FULLY CONFIRMED**. Escalation Tue 17,813 \u2192 Wed 17,940 (Bloomberg) \u2192 Thu 17,919 (TE). Cascade kill-switch 18,000 LIFTED-CONFIRMED. Pending Friday close 4th-session confirmation.",
-        "sentiment": "bullish-idr-deescalation-confirmed",
-        "source": "Trading Economics + Bloomberg",
+        "headline": "IHSG Mon Jun 15 sesi II final 6,254.97 +4.12% multi-source convergent (Databoks/Kompas/Liputan6/Mediaindonesia/Insiderindonesia). Above 6,000 psych floor restored; +13.7% buffer above 5,500. 603 stocks up / 125 down / 90 flat; vol 54.5B sh; trxn IDR 30.1T. Driver: US-Iran peace deal + Bank Indonesia + PBOC bilateral currency swap deepening.",
+        "sentiment": "strongly-bullish-ihsg-confirmed-reclaim",
+        "source": "Kompas + Databoks multi-source",
+        "url": "https://money.kompas.com/read/2026/06/15/163945526/ihsg-ditutup-menguat-412-persen-ke-625497-senin-15-juni-2026"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "Foreign Net BUY Mon Jun 15 Rp 257.8B = 2ND consecutive net-buy day breaking 13-day outflow streak (Fri Rp 287.84B + Mon Rp 257.8B). Top accumulation: TPIA Rp 300.8B, BBCA Rp 262.8B, BMRI Rp 245.39B. **De-escalation criterion (d) STRONGLY CONFIRMING; 3rd consecutive day Wed Jun 17 would lock formal confirmation.**",
+        "sentiment": "bullish-foreign-flow-inflection",
+        "source": "CNBC Indonesia + Kabarbursa",
+        "url": "https://www.cnbcindonesia.com/market/20260615135235-17-742941/ihsg-hijau-asing-net-buy-rp-2578-m-saham-ini-diserbu"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "US Mon Jun 15 close: S&P +1.65% to 7,554.29 / Nasdaq +3.07% to 26,683.94 (best day since Mar 31) / Dow +0.92% to 51,671.03. Driver: Trump announces US-Iran peace deal agreement. VIX 16.20 vol compression. Asian Mon: Nikkei +5.41% / Hang Seng +0.50% / Shanghai +0.88%. Global risk-on Wed Jun 17 IDX open tailwind.",
+        "sentiment": "strongly-bullish-global-risk-on",
+        "source": "TheStreet + Trading Economics",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-15-2026"
+      },
+      {
+        "ticker": "MACRO",
+        "headline": "USD/IDR Mon ~17,870 intraday low ~17,667 = 5-session sustained sub-18,000. **De-escalation criterion (a) PERMANENTLY FULL-LOCKED.** Brent -4% to $83.14 on US-Iran peace + Strait of Hormuz reopening = oil supply de-risk. Newcastle coal $148-150 carry sustained on Indonesia export controls. LME nickel $18,507 -0.21% subdued. CPO MYR 4,475 -1.67%.",
+        "sentiment": "bullish-idr-bearish-oil",
+        "source": "exchange-rates.org + Trading Economics multi-commodity",
         "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "ticker": "BBCA",
-        "headline": "BBCA Thu Jun 11 close 5,600 (+8.74% = +450 IDR) \u2014 bank-rebound continuation Day 5 post-BI off-cycle +25bp hike. Cumulative ~+25% from Wed Jun 3 5-year-low panic-flush. **Gate 9 chase cap CRITICAL \u2014 entering Fri at Thu close = chasing the +25% 5-day rebound; only Fri pullback \u2265-3% cleanses Gate 9.** Score 6/10 CANDIDATE-chase-blocked.",
-        "sentiment": "bullish-but-chase-blocked",
-        "source": "Yahoo Finance + multi-source",
-        "url": "https://finance.yahoo.com/quote/BBCA.JK/"
-      },
-      {
-        "ticker": "MDKA",
-        "headline": "**MDKA AGM POSTPONED to Tue Jun 23 RUPSLB** (private placement + first-ever dividend proposal; was originally Thu Jun 11). Original catalyst INVALIDATED. Gold-haven hedge + Tujuh Bukit thesis intact but new T+7 catalyst window. Downgrade from CANDIDATE (6) to WATCH (5). Re-evaluate Mon Jun 22 pre-RUPSLB.",
-        "sentiment": "neutral-catalyst-postponed",
-        "source": "Kontan Investasi",
-        "url": "https://investasi.kontan.co.id/news/merdeka-copper-mdka-gelar-rupslb-23-juni-bahas-private-placement-bagi-dividen"
-      },
-      {
         "ticker": "TLKM",
-        "headline": "TLKM Rp 4T buyback Day 4 execution (started Jun 9; runs through Jun 8 2027). Rp 21.9T cash dividend cum date Fri Jun 19 (T+5). Mon ARB 2,350 \u2192 Wed Investing ~2,900 = +23.4% chase. **Gate 9 chase cap fails from any anchor + multi-source non-convergent Day 53.** Score 6/10 CANDIDATE-chase-blocked. Better path: post-ex-div Mon Jun 22 fresh anchor.",
-        "sentiment": "neutral-chase-blocked",
-        "source": "IDNFinancials + Investing.com",
+        "headline": "TLKM Mon Jun 15 morning ~2,940 +2.80% (sesi II final not multi-source surfaced); Rp 4T buyback Day 6 of 12-month program; **cum-div Fri Jun 19 T+2 trading days from Wed Jun 17 open** (~7-8% yield Rp 21.9T cash dividend). IDX Infrastructure sector +2.71% Mon. Score 7/10 CANDIDATE \u2014 entry plan \u22643,000 if Wed multi-source convergent + Gate 9 \u22643% chase pass.",
+        "sentiment": "bullish-buyback-cum-div-catalyst",
+        "source": "Beritamoneter + IDNFinancials",
         "url": "https://www.idnfinancials.com/news/64503/telkom-is-launching-idr4-trillion-share-buyback-here-is-the-schedule"
       },
       {
-        "ticker": "MACRO",
-        "headline": "Brent Thu Jun 11 $89.14 (-4.25%) / WTI 2-month low $85.13 (-3%) on Trump Iran deal-close tease + cancelled strikes. Energy sectoral -2.12% leader down on IDX. Coal Newcastle $148.75 carry holding 9-week high. Net regime impact: energy negative + risk-on tailwind for non-energy. CPO MYR 4,530 steady; nickel +0.37% $17,795.",
-        "sentiment": "energy-bearish-broader-risk-on",
-        "source": "Bloomberg + Trading Economics",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/latest-oil-market-news-and-analysis-for-june-12"
+        "ticker": "ASII",
+        "headline": "ASII Mon Jun 15 morning ~4,970 +4.85% sector-lead in IDX Industry +4.63% + IDX Cyclicals +3.42%; UNTR (subsidiary) Rp 2T buyback completed Apr 15. JP Morgan 2026 target Rp 6,250 (+25.7% upside). Score 6/10 CANDIDATE \u2014 entry plan \u22645,070 if Wed multi-source convergent + Gate 9 \u22643% chase pass.",
+        "sentiment": "bullish-sector-momentum",
+        "source": "Beritamoneter + Bisnis multi-source",
+        "url": "https://beritamoneter.com/naik-382-ihsg-pagi-ke-6-237253-berkat-saham-ammn-dssa-bbca-bmri-dan-tlkm/"
+      },
+      {
+        "ticker": "BBCA",
+        "headline": "BBCA Mon Jun 15 close 6,175 +4.22%; foreign accumulation Mon Rp 262.8B (2nd-highest after TPIA). Cumulative +41% rebound from Mon Jun 8 ARB low 4,375 in 5 trading days. Score 7/10 BUT **chase risk binds heavily \u2014 SKIP at Wed open even if Gate 9 \u22643% passes**; await BI/MSCI binary resolution + Fri pullback for clean re-anchor.",
+        "sentiment": "neutral-chase-risk-binds",
+        "source": "Kabarbursa + multi-source",
+        "url": "https://www.kabarbursa.com/market-hari-ini/sesi-i-ihsg-meledak-bmri-bbca-dan-bbni-diserbu-asing-bbri"
+      },
+      {
+        "ticker": "UNVR",
+        "headline": "UNVR ex-div Mon Jun 15 IDR 114/sh (~6.4% yield); payment Jun 30 (T+15). Mechanical drop captured. Post-ex fresh anchor; consumer staples defensive FMCG fit DEFENSIVE-INTENSIFIED regime. Score 6/10 CANDIDATE \u2014 Wed Jun 17 open multi-source eval; if confirmed \u22641,800 \u2192 entry; if downside continuation = skip.",
+        "sentiment": "neutral-post-ex-anchor",
+        "source": "Stockbit + Simply Wall St",
+        "url": "https://stockbit.com/symbol/UNVR"
+      },
+      {
+        "ticker": "ICBP",
+        "headline": "ICBP cum-div Fri Jun 19 T+2 trading days from Wed Jun 17; Q1 rev +7.6% YoY; defensive FMCG; IDX Consumer Non-Cyclicals +2.44% Mon. Score 6/10 CANDIDATE \u2014 entry \u22647,300 if Wed multi-source convergent.",
+        "sentiment": "bullish-cum-div-defensive",
+        "source": "Yahoo Finance + Bareksa",
+        "url": "https://www.bareksa.com/berita/saham/2025-02-26/sektor-konsumer-2025-begini-prospek-cuan-saham-unvr-myor-indf-icbp-dan-cmry"
       },
       {
         "ticker": "KLBF",
-        "headline": "KLBF Day 53 cluster non-convergence persists. Thu midday Yahoo 730 / Sectors.app 745 (~2.05% 2-source spread) + broker stub 945 (3-source ~29.5% spread) FAILS \u22653-source \u22642% convergence threshold. Safe-lower carry 1,035 (+9.52%) frozen. Trailing 931 GTC ARMED broker-side. HOLD. Weekly review TODAY 16:00 WIB re-eval.",
+        "headline": "KLBF Day 56 cluster non-convergence persists \u2014 Investing.com single-source 710 IDR -3.25% vs broker stub 945 vs TradingView ~745 = 3-source spread ~33% FAILS \u22653-source \u22642% convergence threshold. Safe-lower carry 1,035 (+9.52%) frozen per discipline. IDX Health -0.55% Mon = PATTERNS.md HIGH-confidence lag-on-green CONFIRMED 13th obs. HOLD; trailing 931 GTC ARMED.",
         "sentiment": "neutral-procedural-hold",
-        "source": "Yahoo Finance + Sectors.app",
-        "url": "https://sectors.app/idx/klbf"
+        "source": "Investing.com + cluster discipline",
+        "url": "https://www.investing.com/equities/kalbe-farma-tb"
       },
       {
         "ticker": "MACRO",
-        "headline": "Asia overnight Thu Jun 11 mixed: Nikkei -1.46% / Hang Seng -1.47% / Shanghai -0.64%. US Thu close strong: S&P +1.8%, Nasdaq +2.5%, Dow +930 to 50,848.75 on Trump Iran deal-optimism + tech rally pre-SpaceX IPO. VIX 22.22 elevated. Net Fri IDX setup mixed (Asia weak / US strong + Brent collapse).",
-        "sentiment": "mixed-global-setup",
-        "source": "TheStreet + BusinessUpturn",
-        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-11-2026"
+        "headline": "Regime: DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING approaching DOWNGRADE-IMMINENT. De-escalation criteria: (a) IDR sub-18,000 5-of-5 FULL-LOCKED \u2713 / (b) Moody's stabilization NOT CONFIRMED (Danantara Baa2 negative outlook persists) = LONE GATING CONSTRAINT / (c) IHSG >5,500 STRONGLY CONFIRMED \u2713 / (d) foreign-flow inflection STRONGLY CONFIRMING (2-of-2 net-buy). 3 of 4 confirming. Formal regime label re-evaluation deferred to Fri Jun 19 weekly review unless BI RDG Wed-Thu produces binary event.",
+        "sentiment": "regime-de-escalation-approaching",
+        "source": "Multi-source synthesis",
+        "url": "https://www.idnfinancials.com/news/64357/moodys-assigns-baa2-rating-to-danantara-investment-negative-outlook"
       }
     ]
   },
-  "last_updated": "2026-06-15T15:15:00+07:00"
+  "last_updated": "2026-06-16T07:30:00+07:00"
 }
