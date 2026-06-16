@@ -9941,6 +9941,27 @@
           "detail": "Tue Jun 16 IDX HOLIDAY \u2014 no trading session; Wed Jun 17 = BI RDG Day 1 binary"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-16T02:16:40Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed \u2014 IDX CLOSED for 1 Muharam 1448 H holiday (Tahun Baru Islam). No trading session today. KLBF 519k sh held; trailing 931 GTC remains armed broker-side (no tape). Next session Wed Jun 17 = BI RDG Day 1 binary. Plan: TLKM/ASII/ICBP candidates re-evaluate at Wed pre-market + 09:15 open.",
+      "actions": [
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ entry 945; safe-lower carry 1,035; trailing 931 GTC armed"
+        },
+        {
+          "type": "warning",
+          "detail": "IDX HOLIDAY 1 Muharam \u2014 market closed, no trading session"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram egress blocked (host allowlist); notification printed to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
