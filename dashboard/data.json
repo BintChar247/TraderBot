@@ -589,6 +589,22 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-06-16",
+      "day_label": "Day 42",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6254.97,
+      "ihsg_cumulative_pct": -18.06,
+      "alpha_pct": 16.62,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 42 EOD (Tue, Week 9 Day 2 \u2014 IDX LIBUR 1 Muharam 1448 H; no trading session; flat holiday pass). Equity unchanged IDR 9.856B; KLBF safe-lower carry frozen 1,035 per cluster non-convergence Day 56. Cumulative alpha +16.62% (anchor reconciliation +0.71pp from Day 41 +15.91% = Mon sesi II final 6,254.97 multi-source confirmed vs Day 41 provisional sesi I 6,309.73 anchor). Wk 9 0/3 fresh preserved. Next session Wed Jun 17 = BI RDG Day 1 + first live tape in 48 hours."
     }
   ],
   "positions": [
@@ -6611,8 +6627,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 41,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 41)",
+    "trial_days_elapsed": 42,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 42)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
@@ -6620,8 +6636,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -17.35,
-    "cumulative_alpha_pct": 15.91,
+    "ihsg_cumulative_pct": -18.06,
+    "cumulative_alpha_pct": 16.62,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -9968,6 +9984,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Holiday pass-through (IDX LIBUR 1 Muharam). KLBF held; trailing 931 GTC armed but inactive without tape; cluster Day 56 non-convergence persists; safe-lower carry 1,035 frozen. No actions triggered."
+    },
+    {
+      "timestamp": "2026-06-16T08:21:11Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 42 (Tue, Wk 9 Day 2 \u2014 IDX LIBUR 1 Muharam): equity IDR 9.856B flat. Cum alpha +16.62% (anchor reconciliation +0.71pp from Day 41 = Mon sesi II final 6,254.97 confirmed). KLBF +9.52% carry frozen. Wk trades 0/3 fresh. Next session Wed Jun 17 = BI RDG Day 1.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 42 holiday-pass EOD snapshot committed; IHSG anchor reconciled Mon sesi I 6,309.73 -> Mon sesi II final 6,254.97; cumulative alpha expansion +0.71pp"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -9983,14 +10011,14 @@
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING-DOWNGRADE-IMMINENT",
     "ihsg_close": 6254.97,
-    "ihsg_close_basis": "Mon Jun 15 sesi II final, multi-source convergent (Databoks/Kompas/Liputan6/Mediaindonesia/Insiderindonesia/Infobanknews); +4.12% on US-Iran peace deal + foreign net-buy Rp 257.8B 2nd consecutive day",
+    "ihsg_close_basis": "Mon Jun 15 sesi II final, multi-source convergent (Databoks/Kompas/Liputan6/Mediaindonesia/Insiderindonesia/Infobanknews); +4.12% on US-Iran peace deal + foreign net-buy Rp 257.8B 2nd consecutive day. Tue Jun 16 IDX HOLIDAY = no Tue print; this is the carry baseline forward.",
     "ihsg_cumulative_pct": -18.06,
     "idr_usd": 17870.0,
     "idr_status": "5-session sustained sub-18,000 FULL-LOCKED (Mon intraday low ~17,667); criterion (a) PERMANENTLY CONFIRMED",
     "bi_rate": 5.5,
     "msci_announcement_date": "2026-06-18",
     "bi_rdg_meeting_date": "2026-06-17/18",
-    "holiday_today": "Tue Jun 16 = 1 Muharam 1448 H \u2014 IDX CLOSED; next trading day Wed Jun 17 = BI RDG Day 1",
+    "holiday_today": "Tue Jun 16 = 1 Muharam 1448 H \u2014 IDX CLOSED; next trading day Wed Jun 17 = BI RDG Day 1 + first live tape in 48 hours",
     "deescalation_criteria_status": {
       "(a)_IDR_sub_18000_sustained": "FULL-LOCKED 5-of-5",
       "(b)_Moodys_stabilization": "NOT CONFIRMED \u2014 Danantara Baa2 negative outlook persists; LONE gating constraint",
@@ -10101,5 +10129,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-16T07:30:00+07:00"
+  "last_updated": "2026-06-16T15:15:00+07:00"
 }
