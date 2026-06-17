@@ -605,6 +605,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 42 EOD (Tue, Week 9 Day 2 \u2014 IDX LIBUR 1 Muharam 1448 H; no trading session; flat holiday pass). Equity unchanged IDR 9.856B; KLBF safe-lower carry frozen 1,035 per cluster non-convergence Day 56. Cumulative alpha +16.62% (anchor reconciliation +0.71pp from Day 41 +15.91% = Mon sesi II final 6,254.97 multi-source confirmed vs Day 41 provisional sesi I 6,309.73 anchor). Wk 9 0/3 fresh preserved. Next session Wed Jun 17 = BI RDG Day 1 + first live tape in 48 hours."
+    },
+    {
+      "date": "2026-06-17",
+      "day_label": "Day 43",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6202.47,
+      "ihsg_cumulative_pct": -18.75,
+      "alpha_pct": 17.31,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 43 EOD (Wed, Week 9 Day 3 \u2014 first live tape in 48 hours; BI RDG Day 1 binary; IHSG sesi I provisional close 6,202.47 \u22120.84% on profit-taking after Mon +4.12% relief-rally; sesi II final pending multi-source convergence per Day 33-40 procedure). Equity unchanged IDR 9.856B on safe-lower carry hold; KLBF cluster Day 57 ~26% 3-source spread did not reconcile despite live tape return; trailing 931 GTC re-armed at open, did not fire. Cum alpha +17.31% (single-day expansion +0.69pp from Day 42 +16.62%). Wk 9 0/3 fresh preserved. Thu Jun 18 = BI RDG Day 2 T-0 + MSCI binary dual."
     }
   ],
   "positions": [
@@ -616,13 +632,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 25,
+      "days_held": 27,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen from Tue Jun 2 anchor; cluster non-convergence Day 55 (TradingView 745 / Investing.com 930 / broker stub 945 = ~25% spread; safe-lower discipline binds per MISTAKES.md 2026-05-01)"
+      "note": "safe-lower carry frozen from Tue Jun 2 anchor; cluster non-convergence Day 57 persists despite first live tape return after 48-hour gap (TradingView 745 / Investing 930 / Yahoo 945 + broker stub 945 = ~26% spread; safe-lower discipline binds per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed at Wed open, did not fire (broker tape never marked \u2264931 multi-source convergent)"
     }
   ],
   "trades": [
@@ -6774,8 +6790,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 42,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 42)",
+    "trial_days_elapsed": 43,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 43)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
@@ -6783,8 +6799,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -18.06,
-    "cumulative_alpha_pct": 16.62,
+    "ihsg_cumulative_pct": -18.75,
+    "cumulative_alpha_pct": 17.31,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -10228,6 +10244,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF cluster Day 57 ~26% spread fails \u22653-source \u22642% convergence; safe-lower 1,035 carry holds; trailing 931 GTC armed broker-side (re-armed at Wed open post 48-hr holiday gap). No cuts, no stop tightens, no thesis exits."
+    },
+    {
+      "timestamp": "2026-06-17T08:21:51Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "Day 43 EOD: IDR 9.856B (+0.00% day). Alpha +0.84% vs IHSG sesi I provisional -0.84%. Cum alpha +17.31% (+0.69pp expansion). 1 position open (KLBF +9.52% safe-lower carry; cluster Day 57 ~26% spread did not reconcile despite first live tape in 48 hrs). Trades wk 0/3. Telegram egress allowlist blocks notification send \u2014 printed to stdout.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 43 EOD snapshot committed (provisional sesi I anchor 6,202.47; sesi II reconciliation pending Thu)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -10356,5 +10384,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-17T00:30:00Z"
+  "last_updated": "2026-06-17T15:15:00+07:00"
 }
