@@ -6624,6 +6624,153 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp 4T buyback Day 8 + cum-div Fri Jun 19 T+2; defensive telco with sector-low P/E + ~7-8% dividend yield.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Buyback Day 8 (Rp 4T 12-mo) + cum-div Fri Jun 19 IDR 221/sh T+2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (3 of 4 criteria CONFIRMED); BI RDG Day 1 19:30 WIB today T+0"
+        },
+        {
+          "type": "risk",
+          "label": "WebSearch sources spread 2,920-3,650 = non-convergent (Day 57 data-infra outage); Gate 9 unverifiable"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback non-convergent; BI RDG Day 1 binary post-close today"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable on non-convergent WebSearch sources. BI RDG binary tonight + MSCI Thu = T+0/T+1 binary risk. Re-gate Fri Jun 19 post-binary resolution.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-06-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp 8T buyback announced Jul 17 RUPSLB + JPM 2026 PT Rp 6,250; IDX Industry/Cyclicals dual-sector lead Mon Jun 15.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rp 8T buyback Jul 17 RUPSLB + Jun 16 existing buyback Rp 810.7B realized + JPM PT 6,250"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; BI RDG Day 1 today T+0; MSCI Thu Jun 18 T+1"
+        },
+        {
+          "type": "risk",
+          "label": "Stale WebSearch sources (Jun 6 carry 4,570; recent 4,860 date-unclear) = non-convergent; Gate 9 unverifiable"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch fallback non-convergent; no Wed Jun 17 multi-source convergent tape"
+        }
+      ],
+      "reasoning": "Gate 9 unverifiable on non-convergent WebSearch sources. BI RDG + MSCI binary T+0/T+1 binding. Re-gate Fri Jun 19 post-binary.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cum-div pending Jun 19-25 window + Q1 +7.6% rev YoY; defensive FMCG.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div pending + Q1 +7.6% rev YoY"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; consumer-staples defensive fit"
+        },
+        {
+          "type": "risk",
+          "label": "WebSearch current ~8,700 vs planned entry cap 7,300 = +19% Gate 9 CHASE-CAP BREACH"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (moot \u2014 Gate 9 fail)"
+        },
+        {
+          "type": "warning",
+          "label": "Planned entry stale (Jun 11 carry 7,100); fresh price 8,700 chases +22.5%"
+        }
+      ],
+      "reasoning": "Gate 9 chase-cap BREACH at +19-22% above planned entry \u2014 clear chase. Skip; re-research entry level next pre-market.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -10039,6 +10186,42 @@
       ],
       "commit_hash": "dc73e73",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-06-17T02:19:14Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. TLKM/ASII multi-source non-convergent (Day 57 data-infra outage); ICBP +19% chase Gate 9 breach. BI RDG binary tonight + MSCI Thu = T+0/T+1 binding. Re-gate Fri Jun 19 post-binary.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Multi-source non-convergent + BI RDG binary T+0"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Multi-source non-convergent (stale Jun 6 carry)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Gate 9 chase-cap breach +19-22% above planned entry"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Hold; trailing 931 GTC armed; cluster Day 57 non-convergence"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch fallback non-convergent across all 3 candidates; Day 57+ data-infra outage persists"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram blocked (host not in allowlist) \u2014 notification logged to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
