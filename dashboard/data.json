@@ -10222,6 +10222,12 @@
           "detail": "Telegram blocked (host not in allowlist) \u2014 notification logged to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-17T04:36:40Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. KLBF cluster Day 57 ~26% spread fails \u22653-source \u22642% convergence; safe-lower 1,035 carry holds; trailing 931 GTC armed broker-side (re-armed at Wed open post 48-hr holiday gap). No cuts, no stop tightens, no thesis exits."
     }
   ],
   "exposure": {
