@@ -9969,3 +9969,301 @@ Scoring: 1-10 (10 = strongest buy setup). Multi-source ≤2% convergence require
 - [Sector indices Mon Jun 15: IDX Basic +7.31% / Finance +3.76% / Industry +4.63% / Health -0.55% — Mediaindonesia](https://mediaindonesia.com/ekonomi/900574/ihsg-hari-ini-15-juni-2026-melesat-tajam-tembus-level-6200)
 
 ---
+
+## 2026-06-17 (Wednesday) — Week 9 Day 3 / first live tape in 48 hours / BI RDG Day 1
+
+### Global Overnight (Tue Jun 16)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,548.60 | -0.08% | Flat ahead of Fed decision; new Chair Warsh first meeting |
+| Nasdaq | 26,376.34 | -1.15% | Chip-stock drag; worst session since June 4 |
+| Dow Jones | ~51,948 | +0.64% | Record high; defensive rotation |
+| Shanghai Composite | 4,085.79 | -0.26% | Mild risk-off |
+| Hang Seng | n/a | n/a | Not multi-source surfaced for Tue close |
+| Nikkei 225 | 69,493.99 | +0.25% | BoJ rate hike absorbed; held near record |
+| VIX | 16.20 | flat | Iran-peace vol-compression sustained |
+
+### Macro Snapshot (Tue Jun 16 carry; Wed open will set Day 1 fresh)
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 6,254.97 | (Mon carry, IDX libur Tue) | Mon Jun 15 sesi II final multi-source confirmed; Tue holiday no fresh print |
+| IDR/USD | ~17,870 mid | flat | Tue intraday band 17,850-17,965; sub-18,000 5+ sustained FULL-LOCKED |
+| Indo 10Y SUN yield | ~6.62% carry | n/a | No fresh Tue print; last multi-source Apr 6 |
+| US 10Y yield | 4.48% | -2bp | Easing on chip-sector risk-off |
+| Indo-US spread | ~214 bp | flat | Carry/risk premium compressed vs Wk7 peak |
+| Newcastle coal (USD/ton) | ~$146.35–149.25 | -1.71% | Jun 15 -1.71%; Jun 16 settlement carry; sector EXITED binding |
+| CPO palm oil (MYR/ton) | ~4,503 | -0.4% | Jun 16 MDEX July contract; soft |
+| LME nickel (USD/ton) | ~$18,306 | flat-soft | Lowest since April 2026; sector caution |
+| Brent crude (USD/bbl) | $78.82 | -5.23% | Tue Jun 16 collapse on Iran-peace + Strait of Hormuz reopening plan |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | n/a Tue (IDX closed) | Carry: Fri Jun 12 +Rp 287.84B + Mon Jun 15 +Rp 257.8B = 2-of-2 net-buy days; Wed Jun 17 3rd day = criterion (d) FULLY CONFIRMED if extends |
+| Foreign flow streak | 2 net-buy days carry | Breaking 13-day outflow streak; pre-BI binary watch |
+| Top buying brokers | n/a Tue | UBS/Mandiri/CGS Mon carry on banks |
+| Top selling brokers | n/a Tue | Phillip/IndoPremier Mon retail rotation |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Up but CHASE-RISK | BI RDG Wed-Thu binary; +25-41% cum from Mon Jun 8 ARB | BBCA/BBRI/BMRI/BBNI |
+| Coal / Energy | DOWN; EXITED | Brent -5.23% Tue; Newcastle stagnant; sector-exit binding | ADRO/ITMG/PTBA — SKIP |
+| Nickel / Mining | Down-soft | LME 4-wk low; MSCI overhang | ANTM/INCO — caution |
+| CPO / Agri | Soft | Soybean weakness; weak demand | AALI/LSIP — neutral |
+| Property | Pre-BI binary | Rate-sensitive; await BI signal | BSDE/CTRA — wait |
+| Consumer | Stable defensive | UNVR ex-div Jun 15 (today = recording date); ICBP cum-div pending | UNVR/ICBP/INDF |
+| Telco | Up; defensive bid | TLKM cum-div Fri Jun 19 T+2; Rp 4T buyback Day 9 | TLKM ★ priority |
+| Industrial / Auto | Up STRONG | ASII Mon +4.85%; JPM 2026 PT 6,250; Rp 8T buyback announced Jul 17 RUPSLB; Jun 16 realized Rp 810.7B in existing program | ASII ★ secondary |
+| Infrastructure | Mixed | Govt spending steady; JSMR cum-div past | JSMR — neutral |
+| Healthcare | Defensive | KLBF buyback through Jul 2 | KLBF HOLD |
+
+### Corporate Calendar — Wed Jun 17 + this week
+
+| Event | Ticker | Time/Date | Expected Impact |
+|-------|--------|-----------|-----------------|
+| BI RDG Day 1 (sub-binary; Day 2 Thu full decision) | macro | Wed Jun 17 19:30 WIB | 50% pricing +25bp incremental; dovish = bank/rate-sensitive positive; hawkish = IDR support + defensive reinforce |
+| UNVR dividend recording date | UNVR | Wed Jun 17 16:00 WIB | Post-ex anchor confirmation; IDR 114/sh paid Jun 30 |
+| BI RDG Day 2 + decision | macro | Thu Jun 18 14:00 WIB | Full rate decision |
+| MSCI Global Mkt Accessibility Review | macro | Thu Jun 18 (US time) | BINARY frontier-EM transparency assessment |
+| GOTO RUPST + Rp 3.5T buyback approval | GOTO | Thu Jun 18 | Buyback + FTSE Mid Cap removal Jun 22 overhang |
+| TLKM cum date dividend (IDR 221/sh) | TLKM | Fri Jun 19 | T+2 from Wed open = catalyst window; dividend payout Jul 10 |
+| MSCI Annual Classification Review | macro | Mon Jun 23 | BINARY EM-vs-Frontier decision |
+| MDKA RUPSLB (re-AGM) | MDKA | Tue Jun 23 | Binary catalyst T+0; carries previous Thu Jun 11 AGM postponement |
+| KLBF buyback through Jul 2 | KLBF | ongoing | ~15 days remaining; Rp 500B program |
+| KLBF dividend payment | KLBF | Wed Jun 24 (T+5) | IDR 10.38M receivable booked to portfolio |
+| ASII RUPSLB Rp 8T buyback approval | ASII | Fri Jul 17 | Buyback runs Jul 20 2026 — Jul 16 2027 |
+
+### Watchlist Scan — All 50 Tickers (Mon Jun 15 carry; Tue IDX libur; Wed open = first live tape)
+
+Two-track scoring per TRADING-STRATEGY.md. **Scoring discipline:** Mon Jun 15 sesi II final 6,254.97 is the carry anchor; all candidate evaluations require Wed Jun 17 open multi-source convergence + Gate 9 chase cap ≤+3% from confirmed Mon close before promotion to live buy gate.
+
+| # | Ticker | Sector | Price (Mon carry) | Day% (Mon) | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------------------|-----------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,175 | +4.22% | 7 | Foreign Mon +Rp 262.8B; BI RDG binary; but +41% cum from Jun 8 ARB = CHASE-RISK | CANDIDATE → SKIP at Wed open (chase risk) |
+| 2 | BBRI | Banking | 2,940 | +6.74% | 6 | Q1 +13.7% YoY; sector strike-1; banking-watch active | WATCH |
+| 3 | BMRI | Banking | ~4,400 | +7.14% | 7 | Foreign accum +Rp 245.4B Mon; same chase-risk frame as BBCA | CANDIDATE → SKIP at Wed (chase risk) |
+| 4 | BBNI | Banking | 3,710 | +6.74% | 6 | Sector rebound; same chase-risk frame | WATCH |
+| 5 | BNGA | Banking | n/a Tue | n/a | 4 | Mid-bank PBV 1.08x highest among mid-banks; no fresh catalyst | WATCH |
+| 6 | NISP | Banking | n/a Tue | n/a | 3 | Mid-bank; no near-term catalyst | SKIP |
+| 7 | BBTN | Banking | n/a Tue | n/a | 3 | No dividend; acquisition-financing posture | SKIP |
+| 8 | ADRO | Coal | 2,300 | +2.22% (Jun 10 carry) | 1 | Sector EXITED 2-strike; Brent -5.23% Tue compounds | SKIP |
+| 9 | ITMG | Coal | 22,000 | +0.92% (Jun 10 carry) | 1 | Sector EXITED | SKIP |
+| 10 | PTBA | Coal | 2,740 | +3.79% (Jun 10 carry) | 1 | Sector EXITED | SKIP |
+| 11 | BUMI | Coal | ~135 | n/a | 1 | Sector EXITED + small-cap | SKIP |
+| 12 | HRUM | Coal | 730 | +3.55% (Jun 10 carry) | 1 | Sector EXITED | SKIP |
+| 13 | MEDC | Energy | n/a Tue | n/a | 2 | Brent -5.23% Tue = oil neg; no fresh catalyst | SKIP |
+| 14 | PGAS | Gas/Energy | n/a Tue | n/a | 4 | CFO Catur Dermawan accumulated 20K shares Jun 14 = INSIDER POSITIVE; but no near-term catalyst | WATCH |
+| 15 | ANTM | Nickel | n/a Tue | n/a | 3 | MSCI Small Cap removal flag; LME 4-wk low | SKIP |
+| 16 | INCO | Nickel | n/a Tue | n/a | 3 | LME nickel weak; analyst upgrade Q1 carry only | WATCH |
+| 17 | MDKA | Nickel | n/a Tue | n/a | 3 | RUPSLB Tue Jun 23 (5 days); binary catalyst — SKIP per T+0 discipline | SKIP until post-RUPSLB |
+| 18 | NCKL | Nickel | n/a Tue | n/a | 3 | Mid-nickel; no fresh | WATCH |
+| 19 | MBMA | Nickel | n/a Tue | n/a | 3 | Battery-materials; no fresh | WATCH |
+| 20 | TINS | Metals | n/a Tue | n/a | 3 | Tin secondary | WATCH |
+| 21 | UNVR | Consumer | post-ex carry ~1,800 | n/a | 6 | Ex-div Mon Jun 15 IDR 114 captured (mechanical drop in); **today Jun 17 = recording date 16:00 WIB**; defensive FMCG fit | WATCH — pending Wed open post-ex multi-source confirm |
+| 22 | ICBP | Consumer | ~7,100-7,300 carry | n/a | 6 | Cum-div pending; Q1 +7.6% rev YoY; defensive | CANDIDATE pending Wed multi-source |
+| 23 | INDF | Consumer | n/a Tue | n/a | 5 | Parent of ICBP; lower beta; defensive carry | WATCH |
+| 24 | MYOR | Consumer | n/a Tue | n/a | 4 | Cocoa/coffee input cost overhang | WATCH |
+| 25 | SIDO | Consumer | n/a Tue | n/a | 4 | MSCI Small Cap removal flag; defensive but caution | SKIP |
+| 26 | TLKM | Telco | 2,940 morning (Mon sesi I) | +2.80% | **7 ★** | **Rp 4T buyback Day 8 (Jun 9 start); cum-div Fri Jun 19 IDR 221/sh T+2 from Wed open captures; telco-defensive fit; structural daily bid** | **CANDIDATE — TOP PRIORITY** |
+| 27 | EXCL | Telco | n/a Tue | n/a | 5 | Telco secondary; XL Smartfren merger overhang | WATCH |
+| 28 | ISAT | Telco | n/a Tue | n/a | 5 | Telco secondary | WATCH |
+| 29 | MTEL | Telco/Tower | n/a Tue | n/a | 4 | Tower secondary; TLKM subsidiary | WATCH |
+| 30 | TOWR | Telco/Tower | n/a Tue | n/a | 4 | Tower secondary | WATCH |
+| 31 | BSDE | Property | n/a Tue | n/a | 3 | Pre-BI binary; rate-sensitive; sovereign overhang | SKIP |
+| 32 | CTRA | Property | n/a Tue | n/a | 4 | PPN incentive tail; pre-BI | WATCH |
+| 33 | SMRA | Property | n/a Tue | n/a | 3 | Pre-BI binary | SKIP |
+| 34 | PWON | Property | n/a Tue | n/a | 3 | Pre-BI binary | SKIP |
+| 35 | GOTO | Tech | n/a Tue | n/a | 5 | RUPST Thu Jun 18 + Rp 3.5T buyback; FTSE removal Jun 22 = sell-flow risk; net-negative | WATCH |
+| 36 | BUKA | Tech | n/a Tue | n/a | 3 | MSCI Small Cap removal flag | SKIP |
+| 37 | EMTK | Tech/Media | n/a Tue | n/a | 3 | MSCI Small Cap removal flag | SKIP |
+| 38 | ASII | Auto/Industrial | 4,970 morning | +4.85% | **7 ★** | **IDX Industry +4.63% / Cyclicals +3.42% sector lead Mon; JPM 2026 PT 6,250; Rp 8T buyback announced Jul 17 RUPSLB; existing buyback Jun 16 realized Rp 810.7B; BI dovish = auto-credit positive** | **CANDIDATE — SECONDARY** |
+| 39 | UNTR | Heavy Equipment | n/a Tue | n/a | 5 | Astra sub; existing Rp 2T buyback completed Apr; coal/Brent exposure neg drag | WATCH |
+| 40 | AKRA | Distribution | n/a Tue | n/a | 3 | Energy distribution; Brent crash neg | SKIP |
+| 41 | AALI | Plantation | n/a Tue | n/a | 3 | CPO -0.4% Tue; no fresh catalyst | SKIP |
+| 42 | LSIP | Plantation | n/a Tue | n/a | 3 | MSCI Small Cap removal flag; CPO soft | SKIP |
+| 43 | JSMR | Infrastructure | n/a Tue | n/a | 3 | Cum-div past Jun 2; defensive carry but no fresh | WATCH |
+| 44 | WSKT | Construction | n/a Tue | n/a | 2 | Sovereign overhang; BUMN construction | SKIP |
+| 45 | PTPP | Construction | n/a Tue | n/a | 2 | Sovereign overhang | SKIP |
+| 46 | ADHI | Construction | n/a Tue | n/a | 2 | Sovereign overhang | SKIP |
+| 47 | KLBF | Healthcare | 1,035 safe-lower carry | n/a | — | **In portfolio; cluster Day 57 non-convergence; trailing 931 GTC armed; Rp 500B buyback through Jul 2; dividend Jun 24 receivable** | HOLD |
+| 48 | MIKA | Healthcare | n/a Tue | n/a | 5 | Defensive healthcare; private-patient mix strong; no fresh catalyst | WATCH |
+| 49 | SMGR | Cement | n/a Tue | n/a | 3 | Cement rate-sensitive; pre-BI | SKIP |
+| 50 | INTP | Cement | n/a Tue | n/a | 3 | Cement rate-sensitive; -4.02% Wk 7 carry | SKIP |
+
+**Candidates scoring ≥6:** TLKM (7 ★), ASII (7 ★), BBCA (7 → SKIP chase), BMRI (7 → SKIP chase), BBRI (6 → WATCH), BBNI (6 → WATCH), UNVR (6 → WATCH post-ex), ICBP (6 → CANDIDATE) = **8 candidates**
+
+**Live actionable candidates (≥6 and not skipped for chase/binary risk):** TLKM, ASII, ICBP = **3 actionable**
+
+**Defensive Quality Track check (LQ45 mega-cap scoring 5-6):** none qualifying. BBCA/BBRI/BMRI/BBNI score ≥6 catalyst track; INDF/UNVR/ICBP at 5-6 require own-history P/E or P/B ≥1σ below 10-yr mean — no source available with required statistical bar; **DEFENSIVE TRACK NOT ELIGIBLE today.**
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive)
+
+#### 1. TLKM — Rp 4T buyback Day 8 + cum-div Fri Jun 19 T+2 captures + telco-defensive fit ★ TOP PRIORITY
+
+**Fundamental case:**
+- Thesis: TLKM Rp 4T buyback Day 8 of 12-month program (Jun 9 2026 — Jun 8 2027) = structural daily bid through 2027. Mon Jun 15 sesi I ~2,940 +2.80% confirms continued reversal from Mon Jun 8 ARB low 2,350 (cum +25.1%).
+- Thesis: Rp 21.99T cash dividend (Rp 221/sh) cum date Fri Jun 19 = T+2 trading days from Wed Jun 17 open; entry Wed captures cum + post-ex anchor opportunity (Mon Jun 22 mechanical ~ -7-8% drop captured by holding).
+- Valuation: Sector-low P/E; EPS lift 179.8 → 183.1 post-buyback (+1.8%). Dividend yield ~7-8% binds floor.
+- Catalyst: (a) Buyback Day 8; (b) Cum-div Fri Jun 19 T+2 (Wed entry captures); (c) BI RDG Wed-Thu binary — dovish = telco-rate-sensitive positive.
+- Analyst view: Mandiri Sek "only telco worth holding"; multi-broker BUY.
+- Insider activity: Buyback IS the insider-equivalent action.
+
+**Technical context (proxy from Mon Jun 15 sesi I carry):**
+- Mon Jun 15 morning ~2,940; sesi II final not multi-source surfaced
+- Support: ~2,700 (recent swing); Resistance: 3,000 psych then 3,100
+- Trend: Reversal candidate from Mon Jun 8 ARB low; sustained reclaim above 2,800 = above 50d MA inferred
+- Volume: high since Jun 8 reversal; Buyback Day 8 = structural bid
+
+**Trade plan (Wed Jun 17 open):**
+- Entry: IDR ≤3,000 (Gate 9 chase cap from Mon Jun 15 morning ~2,940 reference; +2% buffer)
+- Stop: IDR 2,790 (entry × 0.93 = -7% hard cut)
+- Target: IDR 3,600 (+20% conservative; would test pre-cascade level)
+- R:R ratio: 2.86:1 (≥2:1 floor satisfied)
+- Position size: 5% of equity (DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING cap binding) = IDR 492.8M / 3,000 = ~164,000 sh (1,640 lots)
+- Conviction: MEDIUM (catalyst-rich but holiday-stale tape + BI RDG binary T+0)
+- ADV (20d): very high (LQ45 mega-cap); est. ~80-120M sh/day
+- **Pre-mortem (5-day invalidator):** (a) BI RDG Wed-Thu hawkish surprise = bank/telco-rate-sensitive negative; (b) MSCI Thu Jun 18 frontier-EM downgrade = sell-off cascade; (c) cum-div Fri Jun 19 ex-effect mechanical ~ -7-8% drop on Mon Jun 22 vs forced exit; (d) Mon Jun 15 sesi II reversal fail (close not surfaced) = continuation of give-back risk.
+- **Intermediate pain:** -4% (~2,880) = reassess buyback Day 9-10 prints; -7% hard-cut 2,790 = full close immediate.
+- **DECISION: CANDIDATE — TOP PRIORITY pending Wed Jun 17 open multi-source convergence + Gate 9 chase ≤+3% from confirmed Mon close. If Wed open ≤3,000 AND ≥3-source ≤2% convergence AND IDR sustained sub-18,000 6-of-6 AND BI RDG positioning not flagrantly hawkish → execute entry at 5% cap.**
+
+#### 2. ASII — IDX Industry sector lead + JPM 2026 PT Rp 6,250 + Rp 8T buyback announced ★ SECONDARY
+
+**Fundamental case:**
+- Thesis: Conglomerate spanning auto/heavy-equipment/agribusiness/financial-services. Mon Jun 15 morning ~4,970 +4.85% confirms IDX Industry sector lead; IDX Cyclicals +3.42% dual-sector Mon leadership = restoration of risk-on appetite.
+- Thesis: **Rp 8T buyback announced Jun 11 (Bareksa-Bisnis multi-source confirmed); RUPSLB Jul 17 approval window; buyback runs Jul 20 2026 — Jul 16 2027 (12 months). Existing buyback program Jun 16 realized Rp 810.7B (TSR Jardine guidance fulfilled).** Structural daily bid into H2.
+- Valuation: P/E historically below sector median ~12; P/B ~1.2 trailing. Post-buyback EPS lift to Rp 149/sh.
+- Catalyst: (a) Sector momentum reversal (Mon dual-sector lead); (b) BI RDG Wed-Thu T+0-1; (c) JP Morgan 2026 PT Rp 6,250 = +25.7% from 4,970; (d) Jun 16 existing buyback Rp 810.7B realized confirms management capital-return.
+- Analyst view: JP Morgan 2026 pick + Buy; multi-broker overweight conglomerate.
+- Insider activity: Rp 8T buyback IS the insider-equivalent at scale.
+
+**Technical context:**
+- Mon Jun 15 morning ~4,970 (single-source); sesi II not multi-source surfaced
+- Support: 4,600 (recent swing); Resistance: 5,200 then 5,500
+- Trend: Reversal candidate from May/June lows; reclaim above 4,800 = above 50d MA inferred
+
+**Trade plan (Wed Jun 17 open):**
+- Entry: IDR ≤5,070 (Gate 9 chase cap from Mon Jun 15 morning ~4,970; +2% buffer)
+- Stop: IDR 4,715 (-7% hard cut)
+- Target: IDR 6,084 (+20% conservative)
+- R:R ratio: 2.86:1
+- Position size: 5% of equity = IDR 492.8M / 5,070 = ~97,000 sh (970 lots)
+- Conviction: MEDIUM (sector momentum + JP Morgan PT + Rp 8T buyback double catalyst, but BI RDG binary + holiday-stale tape)
+- ADV (20d): very high (LQ45 mega-cap)
+- **Pre-mortem:** (a) BI RDG Wed-Thu hawkish = auto-credit negative; (b) MSCI Thu frontier-EM downgrade overhang; (c) Mon sesi II final not multi-source surfaced — give-back risk; (d) RUPSLB Jul 17 buyback approval failure = thesis breaks structurally.
+- **Intermediate pain:** -4% (~4,867) = reassess BI/MSCI binary outcome; -7% hard-cut 4,715 = full close.
+- **DECISION: CANDIDATE — SECONDARY pending Wed Jun 17 open multi-source confirm + Gate 9 chase ≤+3% from confirmed Mon close. Same conditions as TLKM.**
+
+#### 3. ICBP — Cum-div + consumer-staples defensive + Q1 +7.6% rev YoY
+
+**Fundamental case:**
+- Thesis: ICBP cum-div pending (likely Jun 19-25 range per peer-group cadence). Defensive FMCG with positive Q1 earnings growth (+7.6% YoY rev). IDX Consumer N-C +2.44% Mon Jun 15 confirms sector bid.
+- Thesis: Mid-tier consumer vs UNVR but with positive earnings momentum; lower price-elasticity to IDR.
+- Catalyst: (a) Cum-div near-term (T-window 2-7 days); (b) defensive FMCG bid; (c) post-cum-div mechanical drop captured by hold.
+- Analyst view: Multi-broker BUY; Samuel Sekuritas ranking SIDO > ICBP > KLBF > INDF > UNVR.
+
+**Trade plan (Wed Jun 17 open):**
+- Entry: IDR ≤7,300 (Gate 9 chase from Thu Jun 11 carry 7,100; +3%)
+- Stop: IDR 6,789 (-7%)
+- Target: IDR 8,760 (+20%)
+- R:R ratio: 2.86:1
+- Position size: 5% = IDR 492.8M / 7,300 = ~67,500 sh (675 lots)
+- Conviction: MEDIUM (cum-div catalyst + Q1 earnings beat + sector bid)
+- **DECISION: CANDIDATE — TERTIARY pending Wed Jun 17 open multi-source confirm + Gate 9 chase ≤+3% from confirmed Mon Jun 15 close + cum-div date verification.**
+
+#### 4. BBCA — Banking sector lead but chase risk binds SKIP
+
+- Mon Jun 15 close 6,175 +4.22% with foreign accum Rp 262.8B. Cumulative +41% rebound 5 days from Mon Jun 8 ARB 4,375. Even Gate 9 ≤3% entry on Wed = textbook chase into BI/MSCI binary.
+- **DECISION: SKIP at Wed open** even if Gate 9 passes. Re-eval Fri Jun 19 pullback post-BI/MSCI binary resolution.
+
+#### 5. BMRI / BBNI / BBRI — Same chase-risk frame as BBCA
+
+- BMRI Mon morning ~4,400 +7.14%; foreign accum +Rp 245.4B. BBNI 3,710 +6.74%. BBRI 2,940 +6.74%. All face cumulative +20-30% rebound 5-day from Mon Jun 8 ARB.
+- **DECISION: SKIP at Wed open**; await post-binary Fri pullback.
+
+#### 6. UNVR — Post-ex anchor + recording date Wed Jun 17
+
+- Ex-div Mon Jun 15 IDR 114/sh (~6.4% yield); recording date **today Jun 17 16:00 WIB**; payment Jun 30. Defensive FMCG fit; multi-year downtrend overhang.
+- **DECISION: WATCH** — pending Wed Jun 17 open multi-source confirmation of post-ex price; if confirmed ≤1,800 → CANDIDATE re-eval; if downside continuation = skip.
+
+### Held Position Updates
+
+#### KLBF — Cluster non-convergence Day 57; healthcare-defensive lag-on-green PATTERN observation #14 incoming
+
+- **Current state:** 519,000 sh @ entry 945; safe-lower carry frozen 1,035 (+9.52% unrealized); trailing 931 GTC ARMED broker-side; Rp 500B buyback through Jul 2 (~15 days remaining); receivable IDR 10,380,000 ex-div Jun 4 booked Jun 24 T+5.
+- **Mon Jun 15 cluster Day 56 recap:** Investing 710 / TradingView ~745 / broker stub 945 = 3-source spread ~33%. Tue holiday no fresh print. Wed Jun 17 = first live tape in 48 hours.
+- **IDX Health -0.55% Mon Jun 15 vs IHSG +4.12%:** 13th observation across Wk 6-9 of healthcare-defensive lag-on-green pattern; HIGH-confidence pattern continues.
+- **De-risk framework (regime DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING):**
+  1. IDR sub-18,000 5-of-5 sustained CONFIRMED (criterion a permanent lock).
+  2. Foreign flow 2-of-2 net-buy STRONGLY CONFIRMING (criterion d strengthening).
+  3. IHSG 6,254.97 + 13.7% above 5,500 STRONGLY CONFIRMED (criterion c).
+  4. Moody's Danantara Baa2 NEGATIVE outlook PERSISTS (criterion b the lone gating constraint).
+  5. **3 of 4 confirming = DOWNGRADE-PENDING approaches DEFENSIVE-CONFIRMED trigger threshold; formal regime label re-evaluation deferred to Fri Jun 19 weekly review unless BI RDG Wed-Thu produces binary de-escalation event.**
+- **Action Wed Jun 17:** HOLD; trailing 931 GTC re-arms at open (first live tape in 48 hours). State-3 (+15% ≥1,087 → 7% trail at 1,011) and state-4 (+20% ≥1,134 → 5% trail at 1,077) ARMED but blocked on cluster non-convergence; Wed cluster eval = first chance to break Day 57+ block. If Wed cluster ≤2% convergence with mark ≤931 → trailing GTC fires automatically (full close at ~+9% gain).
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — DOWNGRADE-PENDING (3 of 4 de-escalation criteria CONFIRMED or STRONGLY CONFIRMING; criterion (b) Moody's stabilization the lone gating constraint)**
+
+- **Reasoning:** 3 distinct structural shifts confirmed by Mon Jun 15 data carry through Tue holiday: (a) IDR sub-18,000 5-of-5 sustained = primary kill-switch FULL-LOCKED; (c) IHSG +4.12% close 6,254.97 = +13.7% buffer above 5,500 psych floor, restored above 6,000 multi-source; (d) Foreign flow 2-of-2 net-buy days (Fri Rp 287B + Mon Rp 257.8B) breaks 13-day outflow streak — Wed Jun 17 3rd consecutive day would lock FULLY CONFIRMED. However: (b) Moody's Danantara Baa2 negative outlook PERSISTS = lone gating constraint. **Procedural call:** Fri Jun 19 weekly review formally evaluates label change; pending evaluation = regime stays DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; 5% cap binding remains.
+- **Position sizing adjustment:** 5% cap binding; Defensive-Quality Track SUSPENDED; regime change to DEFENSIVE-CONFIRMED (Fri Jun 19 possible outcome) would lift 5% → 10% cap.
+
+### Flagged Risks
+
+- **Wed Jun 17 19:30 WIB BI RDG Day 1 BINARY (post-close):** 50% pricing +25bp incremental hike. Dovish = bank/telco-rate-sensitive positive; hawkish = defensive-reinforce + IDR support double-edged.
+- **Thu Jun 18 BI Day 2 full decision + MSCI Global Mkt Accessibility Review BINARY DUAL:** Frontier-EM downgrade = sell-off cascade; EM-confirmed = relief continuation.
+- **Tue Brent crash -5.23% + US Nasdaq -1.15%:** Sector implication = energy/oil names skip; tech caution. Risk-off contagion possible Wed open if Asia opens weak.
+- **First live tape in 48 hours (Wed open):** Elevated gap risk on KLBF + 8 watchlist candidates; staggered fill discipline binding.
+- **Chase risk on BBCA/BMRI/BBNI/BBRI banks:** Cumulative +20-41% rebound 5-day from Mon Jun 8 ARB lows; Wed entry = chasing rebound BEFORE BI binary. Skip these at Wed open even if Gate 9 ≤3% passes.
+- **Data infrastructure Day 57 outage persists:** yfinance + GoAPI HTTP 403 blocked; broker.sh quote returns stale stub; multi-source cluster ≥3-source ≤2% threshold remains the binding Gate 9 verification path for most candidates.
+- **KLBF cluster Day 57 non-convergence:** State-3/state-4 transitions blocked. Fri Jun 19 weekly review must address.
+- **TLKM cum-div Fri Jun 19 T+2 mechanical -7-8% drop on Mon Jun 22:** If entered Wed, position must hold through cum date + tolerate post-ex anchor reset.
+
+### Plan for /market-open Wed Jun 17
+
+- [ ] **TLKM** — TOP PRIORITY entry IF Wed open ≤3,000 AND multi-source ≥3-source ≤2% convergent AND IDR sustained sub-18,000 6-of-6 AND BI RDG positioning not pre-flagged hawkish. Position 5% cap (~164,000 sh / 1,640 lots).
+- [ ] **ASII** — SECONDARY entry IF Wed open ≤5,070 AND multi-source convergent AND IDX Industry/Cyclicals sustained. Position 5% cap (~97,000 sh / 970 lots).
+- [ ] **ICBP** — TERTIARY entry IF Wed open ≤7,300 AND multi-source convergent AND ICBP cum-div date verified. Position 5% cap (~67,500 sh / 675 lots).
+- [ ] **BBCA/BMRI/BBNI/BBRI** — SKIP at Wed open even if Gate 9 passes — chase risk +20-41% pre-binary. Re-eval Fri Jun 19 pullback post-BI/MSCI binary.
+- [ ] **UNVR** — WATCH; Wed open post-ex anchor multi-source eval; if confirmed ≤1,800 → CANDIDATE re-promote.
+- [ ] **MDKA** — WATCH; re-gate Mon Jun 22 pre-RUPSLB T-1.
+- [ ] **KLBF** — HOLD; cluster discipline binds; trailing 931 GTC re-arms broker-side at Wed open.
+- [ ] **Eagerness Check Wed Jun 17:** Week 9 0/3 slots fresh into Day 3 (Mon Wk9 Day 1 traded 0; Tue holiday no possibility). Per Wk 8 review Process change #3 (3-week 0/3 streak + alpha >+15%): if Wed multi-source convergence + Gate 9 passes on TLKM or ASII, deploy 5% cap. Patience holds if data-infra Day 57+ binding persists.
+- [ ] **IDR monitor Wed open:** Confirm 6-of-6 sustained sub-18,000.
+- [ ] **Foreign flow Wed Jun 17:** Watch for 3rd consecutive net-buy day to lock criterion (d) FULLY CONFIRMED.
+- [ ] **BI RDG Day 1 Wed Jun 17 19:30 WIB (post-close):** Sub-binary; full decision Thu Jun 18.
+- [ ] **MSCI Thu Jun 18 announcement:** Binary frontier-EM watch; pre-positioning Wed cautious.
+
+### Sources
+
+- [Stock Market Today June 16 2026: Dow notches record high; Nasdaq Russell 2000 backslide ahead of Fed — TheStreet](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-16-2026)
+- [USD/IDR June 2026 history (sub-18,000 5-session sustained) — exchange-rates.org](https://www.exchange-rates.org/exchange-rate-history/usd-idr-2026)
+- [Newcastle thermal coal $146.35/t -1.71% Jun 15 + $149.25 Jun 26 settlement — Trading Economics / Investing.com](https://tradingeconomics.com/commodity/coal)
+- [Brent crude $78.82 -5.23% Tue Jun 16 (Iran-peace + Hormuz reopening) — Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil)
+- [LME nickel $18,306 4-week low — Trading Economics](https://tradingeconomics.com/commodity/nickel)
+- [CPO July contract MYR 4,503 Jun 16 close — agropost](https://agropost.wordpress.com/2026/06/16/16-june-2026-palm-oil-prices-at-closing/)
+- [VIX 16.20 Jun 16 + US 10Y 4.48% — Yahoo Finance / Trading Economics](https://tradingeconomics.com/united-states/government-bond-yield)
+- [Nikkei 69,493.99 +0.25% Jun 16 (BoJ hike absorbed) — Yahoo Finance](https://finance.yahoo.com/quote/%5EN225/history/)
+- [Shanghai Composite 4,085.79 -0.26% Jun 16 — Yahoo Finance](https://finance.yahoo.com/quote/%5EJKSE/history/)
+- [BI RDG Jun 17-18 50% pricing +25bp + Jun 9 off-cycle hike to 5.50% — Asian Banker](https://www.theasianbanker.com/press-releases/bank-indonesia-raises-bi-rate-to-5-50-to-stabilise-rupiah-amid-global-turmoil)
+- [MSCI Global Mkt Accessibility Review Thu Jun 18 + Annual Mon Jun 23 — IDNFinancials](https://www.idnfinancials.com/news/64395/msci-new-review-due-will-indonesia-stay-an-emerging-market)
+- [TLKM RUPST dividend Rp 21.99T (Rp 221/sh) cum date Fri Jun 19 + Rp 4T buyback Jun 9 2026 — Jun 8 2027 — Bisnis.com](https://market.bisnis.com/read/20260611/192/1980158/telkom-tlkm-tebar-dividen-rp2199-triliun-simak-jadwalnya)
+- [TLKM Rp 4T buyback details — Fortune IDN](https://www.fortuneidn.com/market/telkom-bagi-dividen-rp21-9-triliun-d7w02-00-fykp7-j9h27w)
+- [ASII Rp 8T buyback RUPSLB Jul 17, runs Jul 20 2026 — Jul 16 2027 — Bisnis.com](https://market.bisnis.com/read/20260610/192/1980070/astra-asii-siapkan-buyback-rp8-triliun-mulai-juli-2026)
+- [ASII existing buyback realized Rp 810.7B Jun 16 — Bisnis.com](https://market.bisnis.com/read/20260616/192/1981130/astra-asii-realisasikan-buyback-rp81070-miliar)
+- [UNVR ex-div Mon Jun 15 IDR 114/sh; recording Jun 17 16:00 WIB; payment Jun 30 — PintarSaham](https://pintarsaham.id/unvr-bagikan-dividen-final-simak-jadwal-pembayarannya/)
+- [PGAS CFO Catur Dermawan accumulation 20K sh Jun 14 (insider positive) — Stockbit](https://stockbit.com/symbol/PGAS)
+- [KLBF buyback Rp 150B 12-month program + price target Rp 1,554 — Investing.com](https://www.investing.com/equities/kalbe-farma-tb-consensus-estimates)
+- [GOTO RUPST Jun 18 + Rp 3.5T buyback + FTSE Mid Cap removal Jun 22 — IDNFinancials/Investor.id](https://investor.id/market/441101/saham-goto-tibatibadidepak)
+- [Mon Jun 15 sesi II final IHSG 6,254.97 +4.12% multi-source — Databoks/Kompas/Liputan6/Mediaindonesia](https://databoks.katadata.co.id/en/market/statistics/6a2fca2eefadd/ihsg-closes-up-412-surpasses-the-6254-level-june-15-2026)
+- [Mon Jun 15 foreign net buy +Rp 257.8B — CNBC Indonesia](https://www.cnbcindonesia.com/market/20260615135235-17-742941/ihsg-hijau-asing-net-buy-rp-2578-m-saham-ini-diserbu)
+- [Big banks +6% Mon Jun 15 (BBCA 6,175 / BMRI / BBNI 3,710 / BBRI accum) — Kabar Bursa](https://www.kabarbursa.com/market-hari-ini/sesi-i-ihsg-meledak-bmri-bbca-dan-bbni-diserbu-asing-bbri)
+- [Bareksa BEI Libur 1 Muharam Tue Jun 16 (no Tue trading session) — Bareksa](https://www.bareksa.com/berita/emas/2026-06-15/bei-libur-1-muharam-16-juni-2026-cek-penyesuaian-transaksi-saham-reksadana-dan-emas)
+
+---
