@@ -5077,3 +5077,40 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 📈 EOD 2026-06-17: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: +0.84% (IHSG sesi I −0.84% to 6,202.47 on profit-taking after Mon +4.12%; sesi II final pending multi-source convergence). Cum alpha +17.31% (single-day expansion +0.69pp from Day 42 +16.62% carry). KLBF safe-lower carry 1,035 frozen (cluster Day 57 ~26% 3-source spread persists; first live tape in 48 hours did not reconcile). IDR sub-18,000 5-of-5 sustained FULL-LOCKED. Cash 94.55%. Trades wk 0/3 fresh. Thu Jun 18 = BI RDG Day 2 T-0 + MSCI binary dual.
 
 
+
+---
+
+### 2026-06-18 11:30 WIB — MIDDAY SCAN (Day 58 / Week 9 Day 4 — BI RDG T-0 + MSCI binary dual)
+
+#### Pre-scan posture
+- Single open position: KLBF 519,000 sh @ entry 945, entry_date 2026-05-21.
+- Trailing stop 931 GTC remains armed broker-side (re-armed at Thu open per state-2 carry).
+- Broker.sh portfolio matches PAPER-STATE.json + TRADE-LOG Active Positions — no discrepancy.
+
+#### Sell-side rule evaluation
+
+**Step 3 — Hard-cut check (-7% from entry = 879):**
+- broker.sh quote KLBF returns stale stub 945 (Day 58 data infrastructure: yfinance HTTP 403 host-allowlist persists; GoAPI not configured). At broker mark 945 → P&L 0.00% → NO hard-cut trigger.
+- WebSearch cluster Day 58 reconciliation attempt: Stockbit 710 / Investing.com 710 / TradingView 745 / Yahoo 945 = 4-source spread ~33% → FAILS ≥3-source ≤2% convergence per MISTAKES.md 2026-05-01 cluster discipline.
+- Per Day 57 procedure (carried from EOD 2026-06-17): non-convergent cluster → hold safe-lower carry 1,035, no manual action on stale path; defer execution to broker-side trailing stop 931 GTC which auto-fires when broker tape registers ≤931 multi-source convergent.
+- Broker tape Thu morning has NOT yet marked ≤931 multi-source convergent (trailing 931 GTC remains armed, did not fire at open).
+
+**Step 4 — Winner tighten check (+15% → 7% trail; +20% → 5% trail):**
+- At safe-lower carry 1,035 → P&L +9.52% — below +15% threshold. No tighten.
+- State-3 (≥1,087 → 7% trail at 1,011) and state-4 (≥1,134 → 5% trail at 1,077) remain ARMED but BLOCKED on cluster non-convergence.
+
+**Step 5 — Thesis check:**
+- WebSearch "KLBF IDX news today 2026-06-18": no KLBF-specific catalyst news. No earnings, no corporate-action, no MSCI-removal contamination (KLBF NOT in BREN/CUAN/DSSA/TPIA/AMMN removal basket — re-confirmed).
+- Sector context: healthcare-defensive holds structurally on BI binary day per Day 41 EOD lesson "defensive book outperforms on cascade, underperforms on relief".
+- Thesis intact: healthcare-defensive carry remains binding alpha-protection posture into Thu BI RDG Day 2 T-0 + MSCI Global Mkt Accessibility Review binary dual.
+
+**Step 6 — Intraday sharp move check:**
+- IHSG opened −0.46% to 6,191.89 then dropped −1.21% to 6,144.55 within minutes (CNBC Indonesia, ANTARA News, money.kompas.com multi-source confirmed) on BI/MSCI wait-and-see + investor pre-event de-risking.
+- Phintraco Sekuritas range estimate sideways-to-weaken 6,100–6,350.
+- No KLBF-specific sharp move from stale broker mark; cluster non-convergence prevents intraday move confirmation.
+
+#### Decision
+**NO ACTION taken at midday Day 58.** Position held. Trailing stop 931 GTC remains armed broker-side. Cluster Day 58 non-convergence persists (~33% spread); state-machine state-2 (trailing 931) carries forward into Thu sesi II + EOD. Day 41 EOD lesson favours defensive hold posture into BI RDG Day 2 T-0 + MSCI binary dual (cascade risk = defensive outperforms; relief-rally risk = defensive underperforms but cash buffer 94.55% structurally insulates).
+
+#### Notification sent
+📊 Midday 2026-06-18: All positions healthy. No action taken.

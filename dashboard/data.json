@@ -10790,6 +10790,12 @@
           "detail": "BI RDG T-0 + MSCI T-0 binary dual + US overnight risk-off = pre-event hold"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-18T04:38:56Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Day 58 \u2014 All positions healthy. No action taken. KLBF held (cluster non-convergent ~33% spread); trailing 931 GTC armed broker-side. IHSG sesi I \u22121.21% on BI/MSCI binary wait."
     }
   ],
   "exposure": {
