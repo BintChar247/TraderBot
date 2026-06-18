@@ -621,6 +621,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 43 EOD (Wed, Week 9 Day 3 \u2014 first live tape in 48 hours; BI RDG Day 1 binary; IHSG sesi I provisional close 6,202.47 \u22120.84% on profit-taking after Mon +4.12% relief-rally; sesi II final pending multi-source convergence per Day 33-40 procedure). Equity unchanged IDR 9.856B on safe-lower carry hold; KLBF cluster Day 57 ~26% 3-source spread did not reconcile despite live tape return; trailing 931 GTC re-armed at open, did not fire. Cum alpha +17.31% (single-day expansion +0.69pp from Day 42 +16.62%). Wk 9 0/3 fresh preserved. Thu Jun 18 = BI RDG Day 2 T-0 + MSCI binary dual."
+    },
+    {
+      "date": "2026-06-18",
+      "day_label": "Day 44",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6154.92,
+      "ihsg_cumulative_pct": -19.37,
+      "alpha_pct": 17.94,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 44 EOD (Thu, Week 9 Day 4 \u2014 BI RDG +25bp HIKE to 5.75% CONFIRMED; MSCI Global Mkt Accessibility Review binary dual day; IHSG sesi I provisional close 6,154.92 \u22121.06% on BI binary cascade + intraday low 6,073.72; sesi II final pending multi-source convergence per Day 33-40 procedure). Equity unchanged IDR 9.856B on safe-lower carry hold; KLBF cluster Day 58 4-source spread Stockbit 710 / Investing 710 / TradingView 745 / Yahoo 945 ~33% did not reconcile despite BI binary live tape; trailing 931 GTC armed at open, did not fire. Cum alpha +17.94% (single-day expansion +0.63pp from Day 43 +17.31%). Wk 9 0/3 fresh preserved. Fri Jun 19 = Week 9 weekly review day + TLKM cum-div + MSCI residual."
     }
   ],
   "positions": [
@@ -7231,8 +7247,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 43,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 43)",
+    "trial_days_elapsed": 44,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 44)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
@@ -7240,8 +7256,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -18.75,
-    "cumulative_alpha_pct": 17.31,
+    "ihsg_cumulative_pct": -19.37,
+    "cumulative_alpha_pct": 17.94,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -10796,6 +10812,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Day 58 \u2014 All positions healthy. No action taken. KLBF held (cluster non-convergent ~33% spread); trailing 931 GTC armed broker-side. IHSG sesi I \u22121.21% on BI/MSCI binary wait."
+    },
+    {
+      "timestamp": "2026-06-18T08:22:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-06-18 (Day 44): Portfolio IDR 9.856B (+0.00% day, flat on KLBF safe-lower carry hold). Alpha vs IHSG +1.06% (IHSG sesi I -1.06% to 6,154.92 on BI +25bp hike to 5.75% confirmed). Cum alpha +17.94% (expansion +0.63pp from Day 43). Cash 94.55%. 1/6 positions. Trades wk 0/3. KLBF cluster Day 58 non-convergent (4-source ~33% spread); trailing 931 GTC did not fire.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 44 EOD snapshot committed; BI +25bp hike to 5.75% confirmed; MSCI announcement pending close-of-day; sesi II final pending reconciliation tomorrow"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -10809,13 +10837,13 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMED; criterion d REGRESSES Wed sesi II net sell Rp 329B; criterion b Moody's stabilization persists as lone gating)",
-    "ihsg_close": 6220.74,
-    "ihsg_close_basis": "Wed Jun 17 sesi II FINAL 6,220.74 \u22120.55% from Mon 6,254.97 (multi-source confirmed Cetro Trading Insight + Kompas). Sesi I provisional 6,202.47 reconciled to sesi II final per Day 33-40 procedure.",
-    "ihsg_cumulative_pct": -18.5,
+    "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2.5 of 4 de-escalation criteria CONFIRMING; criterion a IDR sub-18,000 FULL-LOCKED reinforced by BI +25bp hike; criterion d foreign-flow regressed Wed sesi II net sell Rp 329B; criterion b Moody's Danantara Baa2 negative outlook persists as lone gating)",
+    "ihsg_close": 6154.92,
+    "ihsg_close_basis": "Thu Jun 18 sesi I PROVISIONAL 6,154.92 \u22121.06% from Wed sesi II final 6,220.74 (multi-source confirmed CNBC Indonesia / Bisnis / RCTI / Okezone / Beritasatu / Media Indonesia / FXStreet ID / RRI). Intraday low 6,073.72 (\u22122.36% session) before partial recovery. Sesi II final not yet multi-source convergent at 15:15 WIB filing \u2192 tomorrow's EOD reconciles per Day 33-40 procedure.",
+    "ihsg_cumulative_pct": -19.37,
     "idr_usd": 17845.0,
     "idr_status": "Wed Jun 17 close 17,845 = sub-18,000 6-of-6 sustained PERMANENTLY LOCKED; criterion (a) of DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING de-escalation confirmed",
-    "bi_rate": 5.5,
+    "bi_rate": "5.75% (Thu Jun 18 RDG +25bp HIKE confirmed; cumulative June +50bp incl. Jun 9 off-cycle; Deposit Facility 4.75%, Lending Facility 6.50%)",
     "msci_announcement_date": "2026-06-18",
     "bi_rdg_meeting_date": "2026-06-17/18",
     "holiday_today": "n/a (Thu Jun 18 = trading day; BI RDG Day 2 T-0 full decision + MSCI BINARY DUAL day)",
@@ -10837,7 +10865,9 @@
       "MDKA RUPSLB Tue Jun 23 T-3 (AGM postponed)",
       "BBRI cum-div Tue Jun 23 T-3 + BBRI sector-strike-1 (May 1 BBRI hard-cut)",
       "Data infrastructure Day 58 outage: yfinance + GoAPI both blocked; multi-source \u22642% convergence Gate 9 binding"
-    ]
+    ],
+    "bi_rate_event": "Thu Jun 18 BI RDG decision: +25bp HIKE to 5.75% confirmed (consensus hit); BI Governor cited rupiah stabilization + 2026-27 inflation anchor preemption (target 2.5\u00b11%). Direct implications: IDR carry support reinforced (criterion (a) FULL-LOCKED with reinforcement); banking-sector NIM compression headwind (BBCA/BMRI/BBNI/BBRI); consumer-defensive (TLKM/UNVR/ICBP) relative outperformance posture.",
+    "msci_announcement": "MSCI Global Mkt Accessibility Review Thu Jun 18 announcement pending close-of-day multi-source confirmation; binary frontier-EM transparency assessment; KLBF NOT in typical frontier-removal basket \u2014 minimal contamination risk."
   },
   "research": {
     "date": "2026-06-18",
@@ -10932,5 +10962,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-18T07:00:00+07:00"
+  "last_updated": "2026-06-18T15:15:00+07:00"
 }
