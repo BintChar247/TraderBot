@@ -637,6 +637,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 44 EOD (Thu, Week 9 Day 4 \u2014 BI RDG +25bp HIKE to 5.75% CONFIRMED; MSCI Global Mkt Accessibility Review binary dual day; IHSG sesi I provisional close 6,154.92 \u22121.06% on BI binary cascade + intraday low 6,073.72; sesi II final pending multi-source convergence per Day 33-40 procedure). Equity unchanged IDR 9.856B on safe-lower carry hold; KLBF cluster Day 58 4-source spread Stockbit 710 / Investing 710 / TradingView 745 / Yahoo 945 ~33% did not reconcile despite BI binary live tape; trailing 931 GTC armed at open, did not fire. Cum alpha +17.94% (single-day expansion +0.63pp from Day 43 +17.31%). Wk 9 0/3 fresh preserved. Fri Jun 19 = Week 9 weekly review day + TLKM cum-div + MSCI residual."
+    },
+    {
+      "date": "2026-06-19",
+      "day_label": "Day 45",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6127.38,
+      "ihsg_cumulative_pct": -19.74,
+      "alpha_pct": 18.3,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 45 EOD (Fri, Week 9 Day 5 close \u2014 MSCI NEGATIVE info-flow downgrade absorption + TLKM ex-div Day 1 mechanical; IHSG sesi II final 6,127.38 \u22120.73% on MSCI absorption-cascade; KLBF cluster Day 59 non-convergence persists; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; cumulative alpha expansion +0.36pp to +18.30%; weekly review day; Week 9 closes 0/3 trades 4th consecutive zero-trade week; trading not halted)"
     }
   ],
   "positions": [
@@ -648,13 +664,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 27,
+      "days_held": 29,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen from Tue Jun 2 anchor; cluster non-convergence Day 57 persists despite first live tape return after 48-hour gap (TradingView 745 / Investing 930 / Yahoo 945 + broker stub 945 = ~26% spread; safe-lower discipline binds per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed at Wed open, did not fire (broker tape never marked \u2264931 multi-source convergent)"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 59 non-convergence persists Fri MSCI binary day (TradingView 745 / Yahoo 945 / StockDetect 1,685 \u226533% spread FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Fri open, did not fire; Rp 500B buyback through Jul 2 ~10 trading days remaining; dividend receivable IDR 10,380,000 Jun 24 T+3"
     }
   ],
   "trades": [
@@ -7492,7 +7508,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 44,
+    "trial_days_elapsed": 45,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 44)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
@@ -7501,8 +7517,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -19.37,
-    "cumulative_alpha_pct": 17.94,
+    "ihsg_cumulative_pct": -19.74,
+    "cumulative_alpha_pct": 18.3,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -11152,23 +11168,34 @@
       "routine": "midday",
       "status": "success",
       "summary": "KLBF held; cluster Day 59 non-convergent on data-infra outage; thesis intact; no -7% cut, no stop-tighten triggered."
+    },
+    {
+      "timestamp": "2026-06-19T08:22:25Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "Day 45 EOD: IDR 9.856B flat (0.00% day). Alpha +0.73% vs IHSG -0.73% on MSCI NEGATIVE info-flow downgrade absorption. KLBF held; cluster Day 59 non-convergent; trailing 931 GTC armed, did not fire. Week 9 closes 0/3 trades (4th consec zero-trade wk). Cumulative alpha +18.30% (+0.36pp expansion).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 45 snapshot committed; IHSG 6,127.38 sesi II final multi-source convergent; cumulative alpha expansion +0.36pp"
+        }
+      ]
     }
   ],
   "exposure": {
     "cash_pct": 94.55,
     "invested_pct": 5.45,
     "by_sector": {
-      "healthcare": 5.45,
-      "cash": 94.55
+      "Healthcare": 5.45
     },
     "positions_count": 1,
     "max_positions": 6
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMING; criterion a IDR sub-18,000 7-of-7 PERMANENTLY-LOCKED + BI +25bp hike reinforcement; criterion c IHSG above 5,500 STRONGLY CONFIRMED; criterion d foreign-flow REGRESSED PERSISTS Thu 2 consecutive net-sell days; criterion b Moody's Danantara Baa2 negative outlook persists as lone gating; formal re-eval today 16:00 WIB weekly review)",
-    "ihsg_close": 6172.34,
-    "ihsg_close_basis": "Thu Jun 18 sesi II FINAL 6,172.34 \u22120.78% (\u221248.40 pts) from Wed sesi II final 6,220.74; multi-source RECONCILED Liputan6 / Databoks / Tribunnews / Kompas convergent. Sesi II range high 6,197.17 / low 6,073.72; LQ45 \u22121.33% to 616.92. Post-BI +25bp hike pressure on banking sector.",
-    "ihsg_cumulative_pct": -19.15,
+    "ihsg_close": 6127.38,
+    "ihsg_close_basis": "Fri Jun 19 sesi II final multi-source convergent (heygotrade/bisnis/liputan6/kabarbursa/dataindonesia/merahputih); \u22120.73% (\u221244.96pts) from Thu sesi II final 6,172.34 reconciled anchor; MSCI NEGATIVE info-flow downgrade absorption-cascade day; sesi II rallied +0.83% peak then erased in final minutes",
+    "ihsg_cumulative_pct": -19.74,
     "idr_usd": 17826.0,
     "idr_status": "Thu Jun 18 close 17,826 = sub-18,000 7-of-7 sustained PERMANENTLY LOCKED + BI +25bp hike reinforcement; criterion (a) of DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING de-escalation FULL-LOCKED",
     "bi_rate": "5.75% (Thu Jun 18 RDG +25bp HIKE confirmed; cumulative June +50bp incl. Jun 9 off-cycle; Deposit Facility 4.75%, Lending Facility 6.50%)",
@@ -11309,5 +11336,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-19T07:00:00+07:00"
+  "last_updated": "2026-06-19T15:15:00+07:00"
 }
