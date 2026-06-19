@@ -5219,3 +5219,42 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 #### Notification sent
 
 📈 EOD 2026-06-18: Portfolio IDR 9.856B (+0.00% day). Alpha vs IHSG: +1.06% (IHSG sesi I −1.06% to 6,154.92 on BI +25bp hike to 5.75% + MSCI binary day; sesi II final pending multi-source convergence). Cum alpha +17.94% (single-day expansion +0.63pp from Day 43 +17.31% carry). KLBF safe-lower carry 1,035 frozen (cluster Day 58 ~33% 4-source spread persists; BI binary day did not reconcile; trailing 931 GTC armed, did not fire). IDR sub-18,000 6-of-6 sustained FULL-LOCKED with BI +25bp reinforcement. Cash 94.55%. Trades wk 0/3 fresh. Fri Jun 19 = Week 9 weekly review day + TLKM cum-div + MSCI residual.
+
+---
+
+## 2026-06-19 09:15 WIB — Market-open: NO TRADES (Week 9 Day 5 / Fri — MSCI NEGATIVE info-flow downgrade + data-infra Day 59 outage = all conditional candidates fail entry gates)
+
+### Decisions
+
+- **BMRI** — SKIP. Conditional entry required MSCI status-quo or accessibility-pass; outcome was NEGATIVE downgrade on information-flow criterion (Bloomberg/Reuters/Investing.com convergent). Foreign top-3 net buy Rp 106.9B Thu signal not enough to override macro shift. Data-infra Day 59 also prevents multi-source ≤2% convergence Gate 9. 5% cap binding.
+- **ASII** — SKIP. Same conditional gate failed (MSCI NEGATIVE info-flow). Compounded by Brent crash to $77.11 (2-month low) = cyclicals/heavy-equipment drag intensifies. Buyback Rp 8T + JPM PT 6,250 structural thesis intact but macro context shifted unfavorably. 5% cap binding.
+- **TLKM** — SKIP. Ex-div Day 1 mechanical −7.5% drop creates fresh post-ex anchor zone, but Gate 9 multi-source ≤2% convergence on post-ex price unverifiable on data-infra Day 59 (yfinance/GoAPI both blocked HTTP 403). MSCI NEGATIVE info-flow further muddies "not frontier-downgrade" conditional gate. Re-eval Mon Jun 22.
+- **UNVR** — SKIP. Pre-classified SKIP per research log on multi-year downtrend overhang + premium valuation (P/B carry ~12) + cum-div bid likely exhausted T-0.
+- **ICBP** — SKIP. Below ASII/BMRI/TLKM priority order; needs fresh multi-source ≤2% convergence which data-infra Day 59 prevents. MSCI NEGATIVE info-flow further compresses post-MSCI status-quo gate.
+- **BBCA** — WATCH only (pre-classified). Pullback Thu −2.39% to 6,125 reduces chase by 2.4pp but +40% cum from Jun 8 ARB still binds + NIM compression post-BI +25bp.
+- **BBRI / BBNI** — SKIP. Banking strike-1 (BBRI) + NIM compression + chase risk.
+- **GOTO** — SKIP. FTSE Mid Cap removal Mon Jun 22 sell-flow risk.
+- **MDKA** — DELAYED T-2; re-gate Mon Jun 22 pre-RUPSLB.
+- **KLBF** — HOLD. Cluster discipline binds Day 59; trailing 931 GTC re-arms broker-side at Fri open. State-machine state-3 (7% trail 1,011) and state-4 (5% trail 1,077) remain ARMED but BLOCKED on cluster non-convergence. Midday Day 59 re-eval at first live tape.
+
+### Why no trades
+
+- **MSCI Global Mkt Accessibility Review (announced 03:30 WIB Fri Jun 19): NEGATIVE downgrade on information-flow criterion** citing transparency concerns in shareholding structures, coordinated trading behavior, and FX market limitations. This is materially worse than status-quo and falls short of accessibility-pass. Per today's research plan conditional gate (i) "MSCI accessibility-pass OR status-quo (not frontier-downgrade)", the outcome FAILS the gate for BMRI/ASII/TLKM. Annual Classification Review Tue Jun 23 follow-up = elevated tail risk into next week.
+- **Data infrastructure Day 59 outage persists**: yfinance + GoAPI both blocked HTTP 403; market-data.sh quote returns stale entry-price stubs (KLBF 945 stub confirmed); multi-source ≤2% convergence Gate 9 verification path required for entry — unattainable for fresh candidates without held position.
+- **Eagerness Check binds**: Week 9 starts 0/3 slots; cumulative trial alpha +17.94% protected. Process change #3 carry: would allow max 1 entry IF MSCI status-quo + post-ex TLKM converges + ASII/BMRI multi-source clean — none of those triggers met. Defensive cash buffer remains the alpha-generator.
+- **Pre-mortem trigger codification (MISTAKES.md 2026-05-20 ADRO lesson)**: MSCI NEGATIVE info-flow announcement is a top-down regulatory shock affecting EM-Indonesia transparency status; entering BMRI/ASII/TLKM into this print = exactly the macro-shock-on-fresh-entry pattern that produced the Wk 5 ADRO/BBRI/ITMG hard-cut cluster. Discipline holds.
+
+### Slot status
+
+- **Trades this week: 0/3** preserved (4th consecutive 0/3 week; 3-week streak with cumulative alpha protection; weekly review 16:00 WIB will formally evaluate slot-utilization framework per Wk 8 Process change #3).
+
+### Held position status
+
+- **KLBF**: 519,000 sh @ 945 entry; safe-lower carry 1,035 frozen (+9.52% unrealized); trailing 931 GTC ARMED broker-side at Fri open; Rp 500B buyback through Jul 2 (~13 days remaining); receivable IDR 10,380,000 Jun 24 T+3. Cluster Day 59 re-eval at first live tape per midday routine.
+
+### Sources
+
+- [MSCI flags Indonesia transparency concerns in market review — Investing.com](https://www.investing.com/news/stock-market-news/msci-flags-indonesia-transparency-concerns-in-market-review-93CH-4751003)
+- [MSCI Flags Indonesia Market Accessibility Concerns in Review — Bloomberg Jun 18 2026](https://www.bloomberg.com/news/articles/2026-06-18/msci-sees-worsening-information-flow-in-indonesia-before-verdict)
+- [MSCI flags persistent transparency concerns in Indonesia — TradingView/Reuters](https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42Q1RA:0-msci-flags-persistent-transparency-concerns-in-indonesia/)
+- [4 Skenario Hasil Review MSCI untuk Indonesia — Stockbit Snips](https://snips.stockbit.com/snips-terbaru/-4-skenario-hasil-review-msci-untuk-indonesia)

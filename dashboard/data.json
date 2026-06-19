@@ -7244,6 +7244,251 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-06-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Selective mega-cap bank with fresh foreign top-3 net buy Rp 106.9B Thu despite BI +25bp hike.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign top-3 net buy Rp 106.9B Thu post-BI; cum-div Jun 23 T-2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; MSCI NEGATIVE info-flow downgrade Fri pre-open"
+        },
+        {
+          "type": "risk",
+          "label": "Conditional gate (i) MSCI status-quo/accessibility-pass FAILED on NEGATIVE info-flow downgrade"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (~492M)"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI NEGATIVE info-flow downgrade + data-infra Day 59 outage = Gate 9 multi-source convergence unverifiable"
+        }
+      ],
+      "reasoning": "Conditional entry gate (i) required MSCI status-quo or accessibility-pass; outcome was NEGATIVE downgrade on info-flow criterion. Also data-infra Day 59 prevents multi-source \u22642% convergence Gate 9. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-06-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Conglomerate buyback Rp 8T RUPSLB Jul 17 + JPM PT 6,250; structural daily bid into H2.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rp 8T buyback RUPSLB Jul 17 + JPM 2026 PT 6,250"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; MSCI NEGATIVE info-flow downgrade + Brent crash $77 cyclicals drag"
+        },
+        {
+          "type": "risk",
+          "label": "Conditional gate (i) MSCI status-quo/accessibility-pass FAILED on NEGATIVE info-flow downgrade"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (~492M)"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI NEGATIVE info-flow + Brent collapse $77 + data-infra Day 59 = Gate 9 multi-source unverifiable"
+        }
+      ],
+      "reasoning": "Conditional entry gate required MSCI status-quo or accessibility-pass; outcome was NEGATIVE downgrade. Brent crash to 2-month low adds cyclicals drag. Data-infra Day 59 unresolved. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "SOE telco-defensive leader with Rp 4T buyback; post-ex anchor reset day T-0 with mechanical \u22127.5% drop.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Day 1 mechanical drop ~\u22127.5%; Rp 4T buyback structural bid; consumer-defensive post-BI rotation fit"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; MSCI NEGATIVE info-flow downgrade Fri pre-open"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 multi-source \u22642% convergence on post-ex anchor UNVERIFIABLE on data-infra Day 59"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (~492M)"
+        },
+        {
+          "type": "warning",
+          "label": "Post-ex anchor + MSCI NEGATIVE info-flow + data-infra Day 59 = no verified entry price"
+        }
+      ],
+      "reasoning": "Post-ex anchor required \u22642,700 multi-source convergent Gate 9; data-infra Day 59 prevents verification. MSCI NEGATIVE info-flow shifts macro context unfavorably. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FMCG consumer staple cum-div recording today (Rp 114/sh paid Jun 30); defensive post-BI rotation candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div recording today Rp 114/sh paid Jun 30"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; MSCI NEGATIVE info-flow downgrade"
+        },
+        {
+          "type": "risk",
+          "label": "Multi-year downtrend overhang + premium valuation P/B ~12 + cum-div bid likely exhausted T-0"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-classified SKIP per research log; ICBP a better expression of same defensive thesis"
+        }
+      ],
+      "reasoning": "Pre-classified SKIP in research log on multi-year downtrend overhang + premium valuation (P/B ~12) + cum-div bid likely exhausted. Better defensive expression via ICBP. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FMCG defensive Q1 revenue +7.6% YoY; cum-div recording today; moderate valuation (P/E ~14, P/B ~2.4).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div recording today + consumer-defensive post-BI rotation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING; MSCI NEGATIVE info-flow downgrade"
+        },
+        {
+          "type": "risk",
+          "label": "Needs fresh multi-source \u22642% convergence; Gate 9 unverifiable on data-infra Day 59"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI NEGATIVE + data-infra Day 59 = no verified entry zone; below ASII/BMRI/TLKM priority"
+        }
+      ],
+      "reasoning": "Below ASII/BMRI/TLKM priority order; needs fresh multi-source convergence which data-infra Day 59 prevents. MSCI NEGATIVE info-flow further muddies post-MSCI status-quo gate. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -10853,6 +11098,52 @@
           "type": "research",
           "ticker": "TLKM",
           "detail": "score 5\u21926 conditional \u2014 post-ex anchor today; entry \u22642,700"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-19T02:19:09Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. MSCI Global Mkt Accessibility Review = NEGATIVE downgrade on information-flow criterion (announced 03:30 WIB Fri); conditional gate (i) MSCI status-quo/accessibility-pass FAILED for BMRI/ASII/TLKM. Data-infra Day 59 outage persists (Gate 9 multi-source convergence unverifiable). Week 9 trades 0/3 preserved (4th consecutive 0/3 week); cum alpha +17.94% protected. KLBF HOLD; trailing 931 GTC re-arms at open.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "MSCI NEGATIVE info-flow gate failure"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "MSCI NEGATIVE info-flow + Brent crash drag"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Post-ex anchor unverifiable on data-infra Day 59"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Multi-year downtrend + premium valuation"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Multi-source convergence unverifiable; below ASII/BMRI/TLKM priority"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "trailing 931 GTC re-arms; cluster Day 59 binds"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI NEGATIVE info-flow downgrade Fri 03:30 WIB pre-open binary"
+        },
+        {
+          "type": "warning",
+          "detail": "Data-infra Day 59 outage persists (yfinance/GoAPI HTTP 403)"
         }
       ]
     }
