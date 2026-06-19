@@ -2,7 +2,7 @@
 
 **Purpose:** This is the production rulebook for the IDX trading agent. Every routine reads this file first, before any research, scan, or order placement. It is the single source of truth for hard rules, the buy-side gate, sell-side rules, the entry checklist, the sector playbook, and the morning research queries.
 
-**Last reviewed:** 2026-04-19
+**Last reviewed:** 2026-06-19 (Week 9 weekly review — added Data Quality Gate section codifying 3-week multi-source ≤2% convergence pattern from Weeks 7-8-9)
 
 **Status:** Canonical. Routines read this file first. If a rule here conflicts with anything elsewhere, this file wins. Changes go through explicit review and a new last-reviewed date.
 
@@ -69,6 +69,35 @@ All 15 checks must pass before any buy order is placed. All failures are accumul
 13. Sector concentration after fill ≤ 40% of equity (same sector positions + new).
 14. Order size ≤ 10% of avg daily volume (ADV participation cap).
 15. Risk budget ≤ 75bps per idea: `(shares × (entry − hard_cut)) / equity ≤ 0.0075`.
+
+---
+
+## Data Quality Gate (canonical — added 2026-06-19)
+
+A required pre-entry data-quality check codified after 3 consecutive weeks (Weeks 7-8-9) of multi-source cluster non-convergence blocking all entries AND blocking 19 consecutive sessions of state-machine transitions on the held KLBF position. Promoted from MISTAKES.md 2026-05-01 procedural discipline to canonical entry gate per Week 9 weekly-review codification trigger (3-week marker met).
+
+**Applies to:** every buy order (in addition to the 15-check buy-side gate) AND every sell-side stop-fire decision (the broker-side trailing GTC fires automatically on real-tape; this gate governs discretionary trim/close decisions on cluster reads).
+
+**Canonical (strict) requirement — multi-source ≤2% convergence:**
+- Before any buy order is placed, the candidate's current price MUST be confirmed by ≥3 independent sources with multi-source spread ≤2% (max − min) / mean.
+- Sources counted as independent: Yahoo Finance, Investing.com, TradingView, Google Finance, Stockbit, GoAPI, yfinance, broker.sh quote. Wire-service feeds (Bloomberg, Reuters) count as one source each.
+- If <3 sources surface a fresh same-day timestamp, the candidate FAILS the gate.
+- If ≥3 sources surface fresh timestamps but spread >2%, the candidate FAILS the gate.
+
+**Relaxed-under-outage exception — ≤4% convergence:**
+- Applies only when documented data-infra outage is active (e.g., yfinance 403-blocked, GoAPI key unset, broker.sh quote returning stale fills).
+- Requires explicit RESEARCH-LOG.md documentation citing (a) which sources are unavailable, (b) the cluster spread observed, (c) the safe-lower mark used for sizing/stop-floor calculations.
+- The relaxed ≤4% threshold does NOT relax the "≥3 independent sources with fresh same-day timestamp" requirement — only the spread threshold widens.
+- If the relaxed gate fails (spread >4% OR <3 fresh sources), the candidate FAILS the gate and the pre-market routine must document the binding constraint (structural infra vs candidate-specific noise).
+
+**Safe-lower mark discipline (for held positions under outage):**
+- When holding a position whose cluster fails the canonical ≤2% gate, the safe-lower mark (lowest of the cluster's verified ≥3 sources, NOT including single-source outliers) is used for: (a) EOD MTM in TRADE-LOG, (b) dashboard data.json carry, (c) stop-floor calculations, (d) state-machine transition triggers (+7%/+15%/+20% thresholds).
+- Single-source outliers (e.g., one stale Yahoo cache while 2+ fresh sources cluster lower) are EXCLUDED from the cluster cohort.
+- State-machine transitions (HARD-CUT → TRAILING; trail-% tightening) only fire on confirmed cluster convergence at the relevant threshold (NOT on single-source readings).
+
+**Rationale:** This gate prevents three failure modes observed in the trial: (1) BBRI 2026-05-01 hard-cut procedural lag (stale-source MTM corruption of fill price); (2) 19 consecutive sessions Day 41-59 of state-machine transition false-positives that would have fired on stale single-source Yahoo 1,135 reads while 2-source cluster low TradingView/Google 745 readings existed; (3) candidate-entry false-positives where one source shows a clean entry price while the multi-source cluster shows a 5-15% gap above/below.
+
+**Implementation note:** Until the multi-source aggregator helper script ships, manual WebSearch polling against ≥3 sources is the required pre-market procedure. Document the cluster in every RESEARCH-LOG entry, every buy-side decision, and every midday scan that evaluates a held position.
 
 ---
 
