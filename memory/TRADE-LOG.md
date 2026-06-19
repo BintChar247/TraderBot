@@ -5393,3 +5393,10 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
   4. MSCI Annual Classification Review Tue Jun 23 = elevated tail-risk window into Week 10 Day 2; absorption pattern Fri = institutional MSCI post-trade redistribution sustained.
   5. MDKA RUPSLB Tue Jun 23 re-gate Mon Jun 22 T-1; BBRI/BMRI cum-div Tue Jun 23 T-1 catalyst evaluation.
 
+
+#### Notification sent
+
+📈 EOD 2026-06-19: Portfolio IDR 9.856B (0.00% day). Alpha vs IHSG: +0.73% (IHSG sesi II final 6,127.38 −0.73% on MSCI NEGATIVE info-flow downgrade absorption + TLKM ex-div Day 1 mechanical; sesi II rallied +0.83% peak then erased in final minutes). Cum alpha +18.30% (single-day expansion +0.36pp from Day 44 +17.94% carry). KLBF safe-lower carry 1,035 frozen (cluster Day 59 ≥33% 3-source spread persists; MSCI binary day did not reconcile; trailing 931 GTC armed, did not fire). IDR sub-18,000 8-of-8 sustained FULL-LOCKED with BI +25bp reinforcement. Cash 94.55%. Trades wk 0/3 — Week 9 closes 0/3 (4th consec zero-trade week). Mon Jun 22 = Week 10 Day 1 + FTSE Russell rebal effective + MDKA RUPSLB re-gate T-1. Tue Jun 23 = MSCI Annual Classification Review (elevated tail risk) + BBRI/BMRI cum-div T-0.
+
+Telegram delivery: host api.telegram.org not in sandbox egress allowlist; notify.sh fell back to stdout per its safe-fail design. Message text preserved in TRADE-LOG for ground-truth audit.
+
