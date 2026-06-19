@@ -5258,3 +5258,42 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 - [MSCI Flags Indonesia Market Accessibility Concerns in Review — Bloomberg Jun 18 2026](https://www.bloomberg.com/news/articles/2026-06-18/msci-sees-worsening-information-flow-in-indonesia-before-verdict)
 - [MSCI flags persistent transparency concerns in Indonesia — TradingView/Reuters](https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42Q1RA:0-msci-flags-persistent-transparency-concerns-in-indonesia/)
 - [4 Skenario Hasil Review MSCI untuk Indonesia — Stockbit Snips](https://snips.stockbit.com/snips-terbaru/-4-skenario-hasil-review-msci-untuk-indonesia)
+
+---
+
+## 2026-06-19 11:30 WIB — Midday scan: NO ACTION (KLBF held; cluster Day 59 non-convergent; thesis intact)
+
+### Held positions reviewed
+
+- **KLBF** — 519,000 sh @ 945 entry. broker.sh quote returns stale stub IDR 945 (last_price=945; mode=paper; note "Stale quote — live market-data.sh unavailable; using last-known entry_price"). market-data.sh quote KLBF returns HTTP 403 host-allowlist on yfinance + GoAPI unavailable (Day 59 data-infra outage carries from Day 58). WebSearch multi-source spot: TradingView 745 / Yahoo 945 / StockDetect 1,685 = ≥33% spread, ≥3-source ≤2% convergence FAILS — Gate 9 reverse path (sell-side stop-fire) cannot be confirmed midday. Carry-frozen safe-lower 1,035 (+9.52% unrealized) persists from Thu Jun 18 EOD.
+
+### Sell-side rule evaluation
+
+- **Hard cut −7% (≤ IDR 878):** broker stub mark 945 = 0% from entry → NO HARD CUT FIRED. Cluster non-convergence prevents adverse-side confirmation; trailing 931 GTC remains armed broker-side.
+- **+15% trail tighten to 7%:** carry +9.52% < +15% threshold → NO ACTION.
+- **+20% trail tighten to 5%:** carry +9.52% < +20% threshold → NO ACTION.
+
+### Thesis check (STEP 5)
+
+- WebSearch `KLBF IDX Kalbe Farma news 2026-06-19 stock price midday` — no adverse catalyst surfaced; multi-source cluster spread reflects data-infra outage, not company-specific shock.
+- MSCI Fri Jun 19 03:30 WIB outcome (NEGATIVE info-flow downgrade) confirmed pre-open per market-open routine — KLBF NOT in MSCI removal basket; sector contamination risk nil.
+- FTSE Russell Fri close rebal (DSSA/DAAZ/HILL/MLIA effective Mon Jun 22) — KLBF unaffected.
+- Rp 500B buyback through Jul 2 (~13 days remaining); receivable IDR 10,380,000 Jun 24 T+3 booked.
+- **Thesis INTACT** — no exit triggered; HOLD persists.
+
+### Data infrastructure (Day 59 outage continuation)
+
+- yfinance: HTTP 403 Host not in allowlist (query1/query2.finance.yahoo.com)
+- GoAPI: unavailable or key not set
+- broker.sh quote: paper-mode stub at last-known entry price
+- Multi-source ≥3-source ≤2% convergence Gate 9 binding both buy-side and sell-side state-machine transitions remains BLOCKED.
+
+### Action
+
+- **NO action taken.** KLBF held; trailing 931 GTC remains broker-side armed; safe-lower carry 1,035 frozen.
+- State-3 ARMED (≥1,087 → 7% trail 1,011) and state-4 ARMED (≥1,134 → 5% trail 1,077) both remain BLOCKED on cluster non-convergence.
+- Next checkpoint: weekly review 16:00 WIB Fri Jun 19 (formal regime re-eval + Week 9 recap).
+
+### Notification sent
+
+📊 Midday 2026-06-19: All positions healthy. No action taken.
