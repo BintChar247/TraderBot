@@ -7505,6 +7505,218 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-06-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "SOE bank Q1 NIM resilience + foreign top-3 net buy Rp 106.9B Thu DESPITE BI hike + Fri pullback \u22123.58% to 4,310 + cum-div Tue Jun 23 T-1.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div Tue Jun 23 T-1 + Thu foreign top-3 net buy Rp 106.9B"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; BI 5.75% post-HIKE; MSCI Annual Tue Jun 23 T-1"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 multi-source \u22642% convergence UNVERIFIED Mon open; data-infra Day 60 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding (DEFENSIVE-INTENSIFIED regime)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate FAIL: cannot achieve \u22653 fresh same-day sources \u22644% spread under outage"
+        },
+        {
+          "type": "warning",
+          "label": "Foreign-flow Mon direction NOT multi-source confirmed at 09:15 (#1 pre-market plan gate)"
+        }
+      ],
+      "reasoning": "Pre-market plan required (i) Mon foreign-flow reversal of Fri Rp 3.19T net sell, (ii) multi-source \u22642% Gate 9 convergence, (iii) MSCI Annual sentiment neutral/positive, (iv) \u2264+3% chase. Data Quality Gate fails on yfinance/GoAPI Day 60 outage (only 1 fresh source per ticker; \u22653-source \u22644% relaxed-under-outage unmet). Foreign-flow Mon direction not yet multi-source confirmed at 09:15. MSCI Annual Tue T-1 derisk pressure. SKIP per binding pre-market conditional rules.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-06-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Conglomerate auto/HE/agri; Rp 8T buyback (RUPSLB Jul 17); JPM 2026 PT 6,250 (+30%); Brent rebound cyclical tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rp 8T buyback structural daily bid; JPM PT 6,250; Brent +4.5% Fri"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; MSCI Annual Tue Jun 23 T-1"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 multi-source \u22642% convergence UNVERIFIED Mon open; data-infra Day 60 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate FAIL: cannot achieve \u22653 fresh same-day sources \u22644% spread under outage"
+        },
+        {
+          "type": "warning",
+          "label": "Foreign-flow Mon direction NOT multi-source confirmed at 09:15"
+        }
+      ],
+      "reasoning": "Pre-market plan required foreign-flow Mon reversal + multi-source \u22642% Gate 9 + MSCI sentiment neutral/positive + \u2264+3% chase from 4,810. Data Quality Gate fails on Day 60 outage. Foreign-flow Mon direction not yet confirmed. MSCI Annual T-1 derisk pressure. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-ex anchor reset Mon Jun 22 (pasar tunai ex-div); Rp 4T buyback Day 9 of 12-mo; consumer-defensive post-BI rotation; Fri sector +1.61% leadership.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pasar tunai ex-div Mon mechanical reset; structural Rp 4T buyback bid; sector leadership Fri"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; consumer-defensive favoured post-BI"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.96 below 2:1 minimum at 2,700 entry \u2192 3,025 target; must converge \u22642,700"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate FAIL: post-ex anchor multi-source \u22642% convergence unverifiable on Day 60 outage"
+        },
+        {
+          "type": "warning",
+          "label": "Foreign-flow Mon direction NOT multi-source confirmed at 09:15"
+        }
+      ],
+      "reasoning": "Pre-market plan: ENTRY only IF post-ex multi-source \u22642% convergent \u22642,700 (R:R 1.96:1 \u2014 must converge \u22642,700 per R:R rule). Post-ex anchor not multi-source confirmed at 09:15 (one source 3,650 likely stale, another reports range with 2,210 low after 32% drop). Data Quality Gate fails. SKIP per binding R:R + multi-source rules.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-06-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "FMCG defensive Q1 revenue +7.6% YoY; ex-div Mon mechanical drop; consumer-defensive post-BI rotation; sector +1.09% Fri.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Mon mechanical + consumer-defensive post-BI rotation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; MSCI Annual Tue T-1"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.87:1 below 2:1 minimum at 6,400 entry \u2192 7,200 target; needs converge \u22646,300"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate FAIL: post-ex anchor multi-source \u22642% convergence unverifiable on Day 60 outage"
+        },
+        {
+          "type": "warning",
+          "label": "LOW PRIORITY below BMRI/ASII/TLKM per pre-market plan"
+        }
+      ],
+      "reasoning": "Low priority candidate; ex-div Mon anchor not multi-source confirmed at 09:15; R:R compression issue (needs converge \u22646,300 for \u22652:1). Data Quality Gate fails. SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -11238,6 +11450,47 @@
       ],
       "commit_hash": "d4874e2",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-06-22T02:22:11Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Mon Jun 22 (Wk10 D1). All 4 candidates (BMRI/ASII/TLKM/ICBP) SKIP per Data Quality Gate fail (Day 60 yfinance/GoAPI outage; multi-source \u22644% relaxed-under-outage unmet) + foreign-flow Mon direction NOT multi-source confirmed + MSCI Annual Tue T-1 derisk + TLKM/ICBP R:R below 2:1. KLBF safe-lower carry 1,035 frozen (+9.52%); trailing 931 GTC re-armed; cluster Day 60 \u226533% spread persists. 5th consecutive 0/3 week pattern begins. Cumulative alpha +18.30% protected.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Data Quality Gate fail + foreign-flow Mon unverified"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Data Quality Gate fail + multi-source 32% spread (6,350 vs 4,810)"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "R:R 1.96 below 2:1 + ex-div anchor multi-source unverified (2,210 vs 3,650 spread)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Low priority; R:R 1.87 below 2:1 + ex-div anchor unverified"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519000sh safe-lower carry 1,035 frozen; trailing 931 GTC re-armed; cluster Day 60 non-convergence"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate binding on all 4 candidates per TRADING-STRATEGY.md L75 \u2014 Day 60 structural infra outage"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI Annual Classification Review Tue Jun 23 T-1 binary tail risk"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -11380,5 +11633,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-22T07:00:00+07:00"
+  "last_updated": "2026-06-22T02:20:52.596190Z"
 }

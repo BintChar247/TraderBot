@@ -5400,3 +5400,44 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 
 Telegram delivery: host api.telegram.org not in sandbox egress allowlist; notify.sh fell back to stdout per its safe-fail design. Message text preserved in TRADE-LOG for ground-truth audit.
 
+
+---
+
+### 2026-06-22 09:15 WIB — MARKET-OPEN — NO TRADES (Week 10 Day 1)
+
+**Routine:** market-open execution (Week 10 Day 1, Mon Jun 22; post-MSCI absorption + FTSE Russell rebal effective + post-ex Day 1 + pre-MSCI Annual T-1)
+
+**Candidates evaluated:** BMRI, ASII, TLKM, ICBP (per RESEARCH-LOG 2026-06-22 pre-market plan)
+
+**Decision: SKIP ALL 4 candidates.** No buys placed; 0/3 trades Week 10.
+
+**Binding constraints (all candidates):**
+1. **Data Quality Gate FAIL (TRADING-STRATEGY.md L75-100)** — Day 60 yfinance + GoAPI HTTP 403 outage persists; multi-source ≤2% canonical convergence unachievable; ≥3-source ≤4% relaxed-under-outage gate ALSO fails (only 1 source per ticker with fresh same-day Mon timestamp; remaining sources stale Fri close). Cluster spread spans implausible outliers (TLKM 3,650 vs 2,210; ASII 6,350 vs 4,810 = ~30% spread) = candidate-specific noise compounding structural infra outage.
+2. **Foreign-flow Mon direction NOT multi-source confirmed at 09:15** — Fri Jun 19 net SELL Rp 3.14T (3-consecutive-day streak Wed/Thu/Fri); pre-market plan #1 entry gate = "Mon foreign flow reverses Fri net sell"; signal not confirmed at market-open. MSCI Annual Tue Jun 23 T-1 derisk pressure binding.
+3. **TLKM/ICBP R:R compression** — TLKM 1.96:1 below 2:1 minimum at 2,700 entry → 3,025 target; ICBP 1.87:1 below 2:1 minimum at 6,400 entry → 7,200 target; both require lower-entry convergence which post-ex anchor multi-source non-confirmation prevents.
+
+**Per-candidate dispositions:**
+- **BMRI** SKIP — Stockbit single source Mon open 4,100 (≈−4.87% gap-down from Fri 4,310) NOT multi-source ≤4% confirmed; foreign-flow Mon direction unverified; MSCI Annual T-1.
+- **ASII** SKIP — Mon open multi-source non-convergent (one source 6,350 vs Fri close 4,810 = implausible 32% gap); Data Quality Gate fails.
+- **TLKM** SKIP — Pasar tunai ex-div Mon mechanical anchor not multi-source confirmed (sources span 2,210/3,650 = ~65% spread); R:R 1.96:1 below 2:1 unless converges ≤2,700; SKIP per binding R:R + multi-source rules.
+- **ICBP** SKIP — Low priority below BMRI/ASII/TLKM; ex-div Mon anchor not multi-source confirmed; R:R 1.87 below 2:1 unless converges ≤6,300.
+
+**Held position carry (no action):**
+- **KLBF 519,000 sh @ entry 945** — trailing 931 GTC re-arms broker-side at Mon open; safe-lower carry frozen 1,035 (+9.52% unrealized); cluster Day 60 ≥33% 3-source spread persists; state-machine state-3 (+15%) and state-4 (+20%) tightening triggers remain ARMED-BLOCKED on cluster non-convergence (20 consecutive sessions Day 41-60); MATERIAL stop-fire risk if Mon multi-source convergence narrows to 700-745 = trailing 931 fires automatically (exit at confirmed mark; −24.87% if at 710 = IDR −121,975,000 realized). Cluster Day 60 not reconciled at 09:15 — safe-lower carry 1,035 persists.
+
+**Macro context Mon Jun 22 (Week 10 Day 1):**
+- IHSG forecast Mon sideways 6,070-6,300 (testing 6,328-6,545); Fri Jun 19 close 6,177.14.
+- Foreign flow Fri net sell Rp 3.14T; Mon direction multi-source unconfirmed at 09:15.
+- IDR sub-18,000 8-of-8 sustained criterion (a) FULL-LOCKED post BI +25bp Jun 18 reinforcement.
+- MSCI Annual Classification Review Tue Jun 23 release Wed Jun 24 03:30 WIB pre-open = T-1 binary tail risk; Indonesia REMAINS EM Jun 18 (yellow card info-flow downgrade).
+- FTSE Russell rebal effective Mon Jun 22 (DSSA/DAAZ/HILL/MLIA removed; no portfolio overlap).
+- BBRI/BMRI cum-div Tue Jun 23 T-1; MDKA RUPSLB Tue Jun 23 T-1; KLBF dividend payment Wed Jun 24 T-2.
+
+**Price source notes:**
+- Price source: WebSearch (yfinance/GoAPI Day 60 blocked HTTP 403); BMRI Stockbit Mon open 4,100 (1 source, unconfirmed); ASII multi-source spread implausible (6,350 vs 4,810); TLKM multi-source spread implausible (2,210 vs 3,650); ICBP Mon ex-div anchor not surfaced. Data Quality Gate binding on all 4.
+
+**Eagerness Check pass:** 5th consecutive 0/3 week pattern beginning (Wks 6-9 = 12 cumulative slots unused → Wk 10 Day 1 = 13). Pre-market plan structural discipline holds: cumulative trial alpha +18.30% protected; multi-source non-convergence + foreign-flow Mon non-reversal = SKIP per discipline. Per Wk 9 Process change "explicit slot-utilization evaluation": Mon 09:15 evaluation = ALL 4 candidate-specific binding constraints fail OR overlap (Data Quality Gate is the structural binding constraint; candidate-specific R:R compression on TLKM/ICBP compounds; foreign-flow Mon unverified compounds for BMRI/ASII).
+
+**Trades this week: 0/3.** Week 10 slot allocation intact.
+
+**Notification sent:** 📊 Market-open 2026-06-22: No trades placed. All 4 candidates (BMRI/ASII/TLKM/ICBP) SKIP — Data Quality Gate fails (Day 60 yfinance/GoAPI outage; multi-source ≤4% relaxed-under-outage convergence unmet); foreign-flow Mon direction NOT confirmed; MSCI Annual Tue T-1 derisk; TLKM/ICBP R:R below 2:1. KLBF safe-lower carry 1,035 holds; trailing 931 GTC re-armed broker-side. 5th consecutive 0/3 week pattern begins.
