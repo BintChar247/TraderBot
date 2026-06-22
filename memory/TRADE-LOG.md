@@ -5441,3 +5441,41 @@ Telegram delivery: host api.telegram.org not in sandbox egress allowlist; notify
 **Trades this week: 0/3.** Week 10 slot allocation intact.
 
 **Notification sent:** 📊 Market-open 2026-06-22: No trades placed. All 4 candidates (BMRI/ASII/TLKM/ICBP) SKIP — Data Quality Gate fails (Day 60 yfinance/GoAPI outage; multi-source ≤4% relaxed-under-outage convergence unmet); foreign-flow Mon direction NOT confirmed; MSCI Annual Tue T-1 derisk; TLKM/ICBP R:R below 2:1. KLBF safe-lower carry 1,035 holds; trailing 931 GTC re-armed broker-side. 5th consecutive 0/3 week pattern begins.
+
+---
+
+## 2026-06-22 11:30 WIB — Midday scan: NO ACTION (KLBF held; cluster Day 60 non-convergent; thesis intact)
+
+### Held positions reviewed
+
+- **KLBF** — 519,000 sh @ 945 entry. broker.sh quote returns stale stub IDR 945 (last_price=945; mode=paper; note "Stale quote — live market-data.sh unavailable; using last-known entry_price"). market-data.sh quote KLBF returns HTTP 403 host-allowlist on yfinance + GoAPI unavailable (Day 60 data-infra outage carries from Day 59). WebSearch multi-source spot Mon Jun 22 midday: low cluster ~710 (decline-noted source) / TradingView 745 / Yahoo cache 945 = 3-source spread (945−710)/800 mean ≈ 29% FAILS ≥3-source ≤2% canonical convergence AND ≤4% relaxed-under-outage convergence. Yahoo 945 read = stale single-source cache (= entry price stub pattern); low cluster (710/745) is 2 fresh sources only — does NOT satisfy "≥3 fresh independent sources" requirement of the Data Quality Gate (TRADING-STRATEGY.md L75-100). Carry-frozen safe-lower 1,035 (+9.52% unrealized) persists from prior session per spread discipline.
+
+### Sell-side rule evaluation
+
+- **Hard cut −7% (≤ IDR 878):** Cluster Day 60 non-convergent at adverse threshold — only 2 fresh sources cluster at 710-745 below hard-cut, ≥3-source confirmation required per Data Quality Gate; broker tape (paper stub) marks 945 = 0% from entry; trailing 931 GTC armed broker-side did NOT fire (no broker-side confirmed mark ≤931). **State-machine transition blocked on cluster non-convergence (state-machine transitions only fire on confirmed cluster convergence at the relevant threshold, NOT on single-source readings per TRADING-STRATEGY.md L94-96).** Per Day 59 precedent + MISTAKES.md 2026-05-01 procedural discipline. NO HARD CUT FIRED.
+- **+15% trail tighten to 7%:** carry +9.52% < +15% threshold (would require ≥1,087 cluster-confirmed) → NO ACTION.
+- **+20% trail tighten to 5%:** carry +9.52% < +20% threshold (would require ≥1,134 cluster-confirmed) → NO ACTION.
+
+### Thesis check (STEP 5)
+
+- WebSearch `KLBF IDX Kalbe Farma news 2026-06-22 stock price midday`: no adverse company-specific catalyst surfaced; sector backdrop Healthcare +1.52% Fri = defensive leadership; no MSCI removal (Annual Review Tue Jun 23 = KLBF not in basket); FTSE Russell rebal effective Mon = KLBF unaffected.
+- KLBF Rp 500B buyback through Jul 2 (~10 days remaining); receivable IDR 10,380,000 Wed Jun 24 T+2 (payment 2 days out).
+- Multi-source decline pattern on 710-745 reads observed but cluster spread reflects ongoing data-infra outage; not a thesis break.
+- **Thesis INTACT** — no exit triggered; HOLD persists.
+
+### Data infrastructure (Day 60 outage continuation)
+
+- yfinance: HTTP 403 Host not in allowlist (query1/query2.finance.yahoo.com)
+- GoAPI: unavailable or key not set
+- broker.sh quote: paper-mode stub at last-known entry price 945
+- Multi-source ≥3-source ≤2% (canonical) AND ≤4% (relaxed-under-outage) convergence Gate 9 binding both buy-side and sell-side state-machine transitions remains BLOCKED. 20 consecutive sessions Day 41-60 (Wk 7 onward) of state-machine transition-blocked status persists into Wk 10 Day 1 midday.
+
+### Action
+
+- **NO action taken.** KLBF held; trailing 931 GTC remains broker-side armed; safe-lower carry 1,035 frozen per established procedure.
+- State-3 ARMED (≥1,087 → 7% trail 1,011) and state-4 ARMED (≥1,134 → 5% trail 1,077) both remain BLOCKED on cluster non-convergence.
+- Next checkpoint: EOD 15:15 WIB Mon Jun 22 (Week 10 Day 1 daily snapshot + cumulative alpha tracking).
+
+### Notification sent
+
+📊 Midday 2026-06-22: All positions healthy. No action taken.

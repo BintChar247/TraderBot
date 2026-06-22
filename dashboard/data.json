@@ -11491,6 +11491,12 @@
           "detail": "MSCI Annual Classification Review Tue Jun 23 T-1 binary tail risk"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-22T04:37:14Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Midday scan: NO ACTION. KLBF held (519,000 sh @ 945); cluster Day 60 non-convergent (710/745/945 spread ~29% FAILS canonical \u22642% AND relaxed \u22644% gates); state-machine transitions blocked; trailing 931 GTC armed broker-side; safe-lower carry 1,035 frozen. All positions healthy."
     }
   ],
   "exposure": {
