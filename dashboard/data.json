@@ -653,6 +653,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 45 EOD (Fri, Week 9 Day 5 close \u2014 MSCI NEGATIVE info-flow downgrade absorption + TLKM ex-div Day 1 mechanical; IHSG sesi II final 6,127.38 \u22120.73% on MSCI absorption-cascade; KLBF cluster Day 59 non-convergence persists; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; cumulative alpha expansion +0.36pp to +18.30%; weekly review day; Week 9 closes 0/3 trades 4th consecutive zero-trade week; trading not halted)"
+    },
+    {
+      "date": "2026-06-22",
+      "day_label": "Day 46",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6099.92,
+      "ihsg_cumulative_pct": -20.1,
+      "alpha_pct": 18.66,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 46 EOD (Mon, Week 10 Day 1 open \u2014 Mideast geopolitical risk-off + pre-MSCI Annual T-1 defensive derisk + FTSE rebal effective; IHSG sesi I provisional 6,099.92 \u22121.25% on Trump-Iran escalation + Strait of Hormuz catalyst; sesi II final pending multi-source convergence per Day 33-40 procedure; KLBF cluster Day 60 non-convergence persists; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; carry-corrected cumulative alpha expansion +1.01pp to +18.66%; trading not halted; CARRY CORRECTION re-confirmed: Day 45 Fri sesi II final reconciled to 6,177.14 +0.08% multi-source)"
     }
   ],
   "positions": [
@@ -664,13 +680,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 29,
+      "days_held": 32,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 59 non-convergence persists Fri MSCI binary day (TradingView 745 / Yahoo 945 / StockDetect 1,685 \u226533% spread FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Fri open, did not fire; Rp 500B buyback through Jul 2 ~10 trading days remaining; dividend receivable IDR 10,380,000 Jun 24 T+3"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 60 non-convergence persists Mon Mideast risk-off + pre-MSCI Annual T-1 day (TradingView 710 fresh LOW down from 745 Day 59 / Yahoo 945 stale stub / MarketScreener 1,100 / StockDetect 1,685 4-source spread \u226536% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Mon open, did not fire; Rp 500B buyback through Jul 2 (~9 trading days remaining); dividend receivable IDR 10,380,000 Wed Jun 24 T-2"
     }
   ],
   "trades": [
@@ -7720,8 +7736,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 45,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 44)",
+    "trial_days_elapsed": 46,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 46)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
@@ -7729,8 +7745,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -19.74,
-    "cumulative_alpha_pct": 18.3,
+    "ihsg_cumulative_pct": -20.1,
+    "cumulative_alpha_pct": 18.66,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -11497,6 +11513,48 @@
       "routine": "midday",
       "status": "success",
       "summary": "Midday scan: NO ACTION. KLBF held (519,000 sh @ 945); cluster Day 60 non-convergent (710/745/945 spread ~29% FAILS canonical \u22642% AND relaxed \u22644% gates); state-machine transitions blocked; trailing 931 GTC armed broker-side; safe-lower carry 1,035 frozen. All positions healthy."
+    },
+    {
+      "timestamp": "2026-06-22T08:23:01Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-06-22 (Day 46, Mon, Week 10 Day 1 open): Equity IDR 9.856B unchanged (0.00% day). Alpha vs IHSG +1.25% (IHSG sesi I provisional 6,099.92 \u22121.25% on Mideast escalation + pre-MSCI Annual T-1 derisk). Cum alpha +18.66% (single-day expansion +1.01pp from carry-corrected Day 45 +17.65% anchor). KLBF safe-lower carry 1,035 frozen (cluster Day 60 \u226536% 4-source spread; TradingView 710 fresh LOW); trailing 931 GTC armed, did not fire. Cash 94.55%. Trades wk 0/3 fresh. Trading NOT halted. Tue Jun 23 = MSCI Annual T-0 + BBRI/BMRI cum-div T-0 + MDKA RUPSLB T+0.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 46 snapshot committed"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ entry 945; safe-lower carry 1,035 frozen Day 60; trailing 931 GTC armed, did not fire"
+        },
+        {
+          "type": "research",
+          "detail": "Carry-corrected cumulative alpha +18.66% (vs +18.30% TRADE-LOG Day 45 sesi I anchor); +17.65% carry-corrected Day 45 baseline"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-22T08:23:19Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-06-22 (Day 46, Mon, Week 10 Day 1 open): Equity IDR 9.856B unchanged (0.00% day). Alpha vs IHSG +1.25% (IHSG sesi I provisional 6,099.92 \u22121.25% on Mideast escalation + pre-MSCI Annual T-1 derisk). Cum alpha +18.66% (single-day expansion +1.01pp from carry-corrected Day 45 +17.65% anchor). KLBF safe-lower carry 1,035 frozen (cluster Day 60 \u226536% 4-source spread; TradingView 710 fresh LOW); trailing 931 GTC armed, did not fire. Cash 94.55%. Trades wk 0/3 fresh. Trading NOT halted. Tue Jun 23 = MSCI Annual T-0 + BBRI/BMRI cum-div T-0 + MDKA RUPSLB T+0.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 46 EOD snapshot committed"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519000sh safe-lower carry 1,035 frozen Day 60; trailing 931 GTC armed, did not fire"
+        },
+        {
+          "type": "research",
+          "detail": "Carry-corrected cumulative alpha +18.66% (vs +18.30% TRADE-LOG Day 45 sesi I anchor; +17.65% carry-corrected Day 45 baseline)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -11510,10 +11568,10 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMING; criterion a IDR sub-18,000 7-of-7 PERMANENTLY-LOCKED + BI +25bp hike reinforcement; criterion c IHSG above 5,500 STRONGLY CONFIRMED; criterion d foreign-flow REGRESSED PERSISTS Thu 2 consecutive net-sell days; criterion b Moody's Danantara Baa2 negative outlook persists as lone gating; formal re-eval today 16:00 WIB weekly review)",
-    "ihsg_close": 6127.38,
-    "ihsg_close_basis": "Fri Jun 19 sesi II final multi-source convergent (heygotrade/bisnis/liputan6/kabarbursa/dataindonesia/merahputih); \u22120.73% (\u221244.96pts) from Thu sesi II final 6,172.34 reconciled anchor; MSCI NEGATIVE info-flow downgrade absorption-cascade day; sesi II rallied +0.83% peak then erased in final minutes",
-    "ihsg_cumulative_pct": -19.74,
-    "idr_usd": 17826.0,
+    "ihsg_close": 6099.92,
+    "ihsg_close_basis": "Mon Jun 22 sesi I provisional multi-source convergent (BeritaSatu/Bisnis/Kompas/Liputan6/RRI/Bloomberg Technoz/CNBC Indonesia/SindoNews); \u22121.25% (\u221277.21 pts) from Fri sesi II final 6,177.14 reconciled anchor [CARRY CORRECTION: Day 45 EOD recorded sesi I 6,127.38 as 'final' in error; pre-market 2026-06-22 confirmed Fri sesi II FINAL 6,177.14 +0.08% multi-source]; Mideast geopolitical escalation cascade-pattern + pre-MSCI Annual T-1 defensive derisk; sesi II touched 6,136 partial rebound per single source, final not multi-source convergent at 15:15 WIB filing",
+    "ihsg_cumulative_pct": -20.1,
+    "idr_usd": 17828.0,
     "idr_status": "Thu Jun 18 close 17,826 = sub-18,000 7-of-7 sustained PERMANENTLY LOCKED + BI +25bp hike reinforcement; criterion (a) of DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING de-escalation FULL-LOCKED",
     "bi_rate": "5.75% (Thu Jun 18 RDG +25bp HIKE confirmed; cumulative June +50bp incl. Jun 9 off-cycle; Deposit Facility 4.75%, Lending Facility 6.50%)",
     "msci_announcement_date": "2026-06-18 (announced 03:30 WIB Fri Jun 19; pending multi-source confirmation)",
@@ -11639,5 +11697,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-22T02:20:52.596190Z"
+  "last_updated": "2026-06-22T08:23:01.013288Z"
 }
