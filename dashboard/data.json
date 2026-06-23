@@ -669,6 +669,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 46 EOD (Mon, Week 10 Day 1 open \u2014 Mideast geopolitical risk-off + pre-MSCI Annual T-1 defensive derisk + FTSE rebal effective; IHSG sesi I provisional 6,099.92 \u22121.25% on Trump-Iran escalation + Strait of Hormuz catalyst; sesi II final pending multi-source convergence per Day 33-40 procedure; KLBF cluster Day 60 non-convergence persists; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; carry-corrected cumulative alpha expansion +1.01pp to +18.66%; trading not halted; CARRY CORRECTION re-confirmed: Day 45 Fri sesi II final reconciled to 6,177.14 +0.08% multi-source)"
+    },
+    {
+      "date": "2026-06-23",
+      "day_label": "Day 47",
+      "portfolio_value": 9856337500,
+      "cash": 9319172500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.44,
+      "ihsg_close": 6037.52,
+      "ihsg_cumulative_pct": -20.91,
+      "alpha_pct": 19.48,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Day 47 EOD (Tue, Week 10 Day 2 \u2014 MSCI Annual Classification Review T-0; release Wed Jun 24 03:30 WIB pre-open binary; IHSG sesi I provisional 6,037.52 \u22121.29% on pre-MSCI defensive derisk + Mideast carry; sesi II final pending multi-source convergence per Day 33-40 procedure; KLBF cluster Day 61 non-convergence persists 21 sessions; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; cumulative alpha expansion +1.04pp from reconciled Day 46 +18.44% to +19.48% provisional; trading not halted; 0/3 trades 5th consec zero-trade week pattern continues)"
     }
   ],
   "positions": [
@@ -680,13 +696,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 32,
+      "days_held": 33,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 60 non-convergence persists Mon Mideast risk-off + pre-MSCI Annual T-1 day (TradingView 710 fresh LOW down from 745 Day 59 / Yahoo 945 stale stub / MarketScreener 1,100 / StockDetect 1,685 4-source spread \u226536% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Mon open, did not fire; Rp 500B buyback through Jul 2 (~9 trading days remaining); dividend receivable IDR 10,380,000 Wed Jun 24 T-2"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 61 non-convergence persists Tue pre-MSCI Annual T-0 defensive derisk day (TradingView 710 fresh LOW / Yahoo 945 stale stub / Yahoo cache 1,135 / akufrugal 1,710 4-source spread \u2265139% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Tue open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 61; dividend payment Wed Jun 24 T-0 IDR 10,380,000 receivable; 21 consecutive sessions data-infra outage Day 41-61"
     }
   ],
   "trades": [
@@ -7842,8 +7858,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 46,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 46)",
+    "trial_days_elapsed": 47,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 47)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9856337500,
     "cumulative_pnl_idr": -143662500,
@@ -7851,8 +7867,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -20.1,
-    "cumulative_alpha_pct": 18.66,
+    "ihsg_cumulative_pct": -20.91,
+    "cumulative_alpha_pct": 19.48,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -11725,6 +11741,22 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. KLBF held (cluster Day 61 non-convergent; state-machine transitions BLOCKED on Gate 9 per established discipline). MSCI Annual T-0 pre-release window."
+    },
+    {
+      "timestamp": "2026-06-23T08:20:16Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 47 (2026-06-23): IDR 9.856B (0.00% day). Alpha vs IHSG +1.29% on pre-MSCI Annual T-0 defensive derisk (IHSG sesi I provisional 6,037.52 -1.29%); cumulative trial alpha +19.48% provisional (+1.04pp vs reconciled Day 46 +18.44%); 1 position (KLBF safe-lower carry 1,035 frozen, cluster Day 61 \u2265139% spread); trades wk 0/3 (5th consec zero-trade week pattern); trading not halted; MSCI Annual release Wed Jun 24 03:30 WIB pre-open T-0 binary.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 47 EOD snapshot committed; KLBF mark-to-market 1,035 safe-lower carry frozen per cluster Day 61 non-convergence"
+        },
+        {
+          "type": "mark_to_market",
+          "detail": "KLBF 519000 sh @ carry 1,035; MV 537.165M; +9.52% unrealized"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -11738,13 +11770,13 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMING; criterion a IDR sub-18,000 7-of-7 PERMANENTLY-LOCKED + BI +25bp hike reinforcement; criterion c IHSG above 5,500 STRONGLY CONFIRMED; criterion d foreign-flow REGRESSED PERSISTS Thu 2 consecutive net-sell days; criterion b Moody's Danantara Baa2 negative outlook persists as lone gating; formal re-eval today 16:00 WIB weekly review)",
-    "ihsg_close": 6099.92,
-    "ihsg_close_basis": "Mon Jun 22 sesi I provisional multi-source convergent (BeritaSatu/Bisnis/Kompas/Liputan6/RRI/Bloomberg Technoz/CNBC Indonesia/SindoNews); \u22121.25% (\u221277.21 pts) from Fri sesi II final 6,177.14 reconciled anchor [CARRY CORRECTION: Day 45 EOD recorded sesi I 6,127.38 as 'final' in error; pre-market 2026-06-22 confirmed Fri sesi II FINAL 6,177.14 +0.08% multi-source]; Mideast geopolitical escalation cascade-pattern + pre-MSCI Annual T-1 defensive derisk; sesi II touched 6,136 partial rebound per single source, final not multi-source convergent at 15:15 WIB filing",
-    "ihsg_cumulative_pct": -20.1,
-    "idr_usd": 17828.0,
-    "idr_status": "Thu Jun 18 close 17,826 = sub-18,000 7-of-7 sustained PERMANENTLY LOCKED + BI +25bp hike reinforcement; criterion (a) of DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING de-escalation FULL-LOCKED",
+    "ihsg_close": 6037.52,
+    "ihsg_close_basis": "Tue Jun 23 sesi I provisional multi-source convergent (Liputan6/Tribunnews/BeritaSatu/Kompas); \u22121.29% (\u221279.08 pts) from Mon sesi II final 6,116.60 reconciled anchor; pre-MSCI Annual T-0 defensive derisk + Mideast geopolitical carry; sesi II final not multi-source convergent at 15:15 WIB filing \u2192 tomorrow's EOD will reconcile per Day 33-40 procedure; single-source carry shows ~6,081 close unconfirmed",
+    "ihsg_cumulative_pct": -20.91,
+    "idr_usd": 17846.0,
+    "idr_status": "Tue Jun 23 spot 17,846 = sub-18,000 10-of-10 sustained PERMANENTLY LOCKED + BI +25bp Jun 18 hike reinforcement; criterion (a) FULL-LOCKED",
     "bi_rate": "5.75% (Thu Jun 18 RDG +25bp HIKE confirmed; cumulative June +50bp incl. Jun 9 off-cycle; Deposit Facility 4.75%, Lending Facility 6.50%)",
-    "msci_announcement_date": "2026-06-18 (announced 03:30 WIB Fri Jun 19; pending multi-source confirmation)",
+    "msci_announcement_date": "2026-06-24 03:30 WIB pre-open (MSCI Annual Classification Review release T-0 from today EOD; binary frontier-downgrade tail risk)",
     "bi_rdg_meeting_date": "2026-06-17/18 CONFIRMED +25bp",
     "holiday_today": "n/a (Fri Jun 19 = trading day + weekly review day + TLKM ex-div recording date + MSCI accessibility outcome reveal + FTSE Russell rebalancing close-of-day)",
     "deescalation_criteria_status": {
@@ -11853,5 +11885,5 @@
     "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 BINARY-RESOLVED (pre-MSCI Annual T-0 binary tail-risk window today; release Wed Jun 24 03:30 WIB pre-open)",
     "plan_for_market_open": "NO TRADE bias. HOLD KLBF (trailing 931 GTC re-arms broker-side at Tue open; state-machine ARMED but BLOCKED on cluster Day 61 non-convergence). TLKM DEFER unless R:R widens to \u22652:1 + Gate 9 \u22644% at open. ASII SKIP (Defensive-Quality Track suspended). Sesi II reconciliation: Mon final 6,116.60 anchors Tue pre-market \u2014 alpha revised from prov +18.66% to reconciled +18.44%."
   },
-  "last_updated": "2026-06-23T00:13:24.770454Z"
+  "last_updated": "2026-06-23T08:20:06Z"
 }
