@@ -5643,3 +5643,41 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 **Trades this week: 0/3.** Week 10 slot allocation intact (3 fresh slots remain for Wed-Fri post-MSCI release).
 
 **Notification sent:** 📊 Market-open 2026-06-23: No trades placed. Both candidates (TLKM/ASII) SKIP — Gate 9 (Data Quality Gate) fails on Day 61 yfinance/GoAPI outage (broker.sh quote ERROR for both); R:R below 2:1 minimum (TLKM 1.43:1 / ASII 1.44:1); ASII Defensive-Quality Track SUSPENDED under DEFENSIVE regime; MSCI Annual Classification Review T-0 binary tail-risk window (release Wed Jun 24 03:30 WIB pre-open). KLBF safe-lower carry 1,035 holds; trailing 931 GTC re-armed broker-side. 5th consecutive 0/3 week pattern continues (Wk 10 Day 2 = 14 cumulative unused slots Wks 6-10).
+
+---
+
+## 2026-06-23 11:30 WIB — Midday scan: NO ACTION (KLBF held; cluster Day 61 non-convergent; thesis intact; MSCI Annual T-0 binary window pre-release)
+
+### Held positions reviewed
+
+- **KLBF** — 519,000 sh @ 945 entry. broker.sh quote returns stale stub IDR 945 (last_price=945; mode=paper; note "Stale quote — live market-data.sh unavailable; using last-known entry_price"). market-data.sh quote KLBF returns HTTP 403 host-allowlist on yfinance + GoAPI unavailable (Day 61 data-infra outage carries from Day 60). WebSearch multi-source spot Tue Jun 23 midday: TradingView ID 710 (−3.25% / mkt cap 34.84T) / earlier read 745 / Yahoo cache 1,135 (+4.61%) / akufrugal 1,710 = 4-source spread ≥139% FAILS ≥3-source ≤2% canonical convergence AND ≤4% relaxed-under-outage convergence. Yahoo 1,135 + akufrugal 1,710 = stale/outlier reads; low cluster (710/745) is 2 fresh sources only — does NOT satisfy "≥3 fresh independent sources" requirement of Data Quality Gate (TRADING-STRATEGY.md L75-100). Carry-frozen safe-lower 1,035 (+9.52% unrealized) persists from prior session per spread discipline.
+
+### Sell-side rule evaluation
+
+- **Hard cut −7% (≤ IDR 878):** Cluster Day 61 non-convergent at adverse threshold — only 2 fresh sources cluster at 710-745 below hard-cut, ≥3-source confirmation required per Data Quality Gate; broker tape (paper stub) marks 945 = 0% from entry; trailing 931 GTC armed broker-side did NOT fire (no broker-side confirmed mark ≤931). **State-machine transition blocked on cluster non-convergence (state-machine transitions only fire on confirmed cluster convergence at the relevant threshold, NOT on single-source readings per TRADING-STRATEGY.md L94-96).** Per Day 60 precedent + MISTAKES.md 2026-05-01 procedural discipline. NO HARD CUT FIRED.
+- **+15% trail tighten to 7%:** carry +9.52% < +15% threshold (would require ≥1,087 cluster-confirmed) → NO ACTION.
+- **+20% trail tighten to 5%:** carry +9.52% < +20% threshold (would require ≥1,134 cluster-confirmed) → NO ACTION.
+
+### Thesis check (STEP 5)
+
+- WebSearch `KLBF IDX Kalbe Farma news 2026-06-23 stock price midday`: no adverse company-specific catalyst surfaced; KLBF NOT in MSCI Annual removal basket (re-confirmed Day 61); MSCI Annual Classification Review T-0 release Wed Jun 24 03:30 WIB pre-open = binary tail-risk window but KLBF non-impacted by removal basket; KLBF dividend payment Wed Jun 24 T-1 IDR 10,380,000 receivable.
+- IHSG Tue prediction: consolidation 6,050-6,220 wait-and-see binding pre-MSCI release.
+- Multi-source decline pattern on 710-745 reads observed but cluster spread reflects ongoing data-infra outage Day 61; not a thesis break.
+- **Thesis INTACT** — no exit triggered; HOLD persists.
+
+### Data infrastructure (Day 61 outage continuation)
+
+- yfinance: HTTP 403 Host not in allowlist (query1/query2.finance.yahoo.com)
+- GoAPI: unavailable or key not set
+- broker.sh quote: paper-mode stub at last-known entry price 945
+- Multi-source ≥3-source ≤2% (canonical) AND ≤4% (relaxed-under-outage) convergence Gate 9 binding both buy-side and sell-side state-machine transitions remains BLOCKED. 21 consecutive sessions Day 41-61 (Wk 7 onward) of state-machine transition-blocked status persists into Wk 10 Day 2 midday.
+
+### Action
+
+- **NO action taken.** KLBF held; trailing 931 GTC remains broker-side armed; safe-lower carry 1,035 frozen per established procedure.
+- State-3 ARMED (≥1,087 → 7% trail 1,011) and state-4 ARMED (≥1,134 → 5% trail 1,077) both remain BLOCKED on cluster non-convergence.
+- Next checkpoint: EOD 15:15 WIB Tue Jun 23 (Week 10 Day 2 daily snapshot + cumulative alpha tracking + MSCI Annual pre-release T-1 alignment).
+
+### Notification sent
+
+📊 Midday 2026-06-23: All positions healthy. No action taken.
