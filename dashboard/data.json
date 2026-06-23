@@ -7733,6 +7733,112 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco-defensive post ex-div Fri Jun 19 IDR 221/sh mechanical drop absorbed Mon; Rp 4T buyback through 2027 reinforced Jun 4; 6.07% dividend yield; ~2,960 below 2,990 chase cap.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-ex Mon mechanical drop absorbed; Rp 4T buyback through 2027 paired return-of-capital catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; pre-MSCI Annual T-0 binary tail risk Wed Jun 24 03:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.43:1 below 2:1 minimum (2,960 entry / 2,753 stop / 3,260 target = +10% vs \u22127%); requires target \u22653,374 for 2:1"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding per regime; 166,500 sh \u00d7 2,960 = 492.84M = 5.0% boundary"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 (Data Quality Gate) FAIL: broker.sh quote TLKM = ERROR (Day 61 yfinance HTTP 403 + GoAPI not configured); no multi-source \u22644% relaxed-under-outage convergence achievable"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI Annual Classification Review T-0 binary tail-risk window; TLKM as LQ45 telco catches $13B Goldman passive outflow on adverse outcome"
+        }
+      ],
+      "reasoning": "9-gate checklist: gates 1-8 PASS; Gate 9 FAIL (Day 61 data-infra outage; broker.sh quote returns ERROR; no multi-source same-day Tue 09:15 fresh anchor obtainable to verify <3% drift from planned 2,960 entry). Strategy R:R rule 1.43:1 below 2:1 minimum per TRADING-STRATEGY.md. MSCI Annual T-0 binary tail-risk window compounds. SKIP per discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-06-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Astra International conglomerate; LQ45 mega-cap >100T IDR eligible for Defensive-Quality Track; IDR 8T buyback Jun 2026 strongest management capital-return signal of trial; 56% auto market share May +4pp from Apr 52%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR 8T buyback Jun 2026 + 56% auto market share gain (+4pp Apr\u2192May); long-term P/B discount ~1.5-1.7\u03c3 below own-history mean (carry estimate, Day 61 unverifiable)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED; pre-MSCI Annual T-0; defensive-quality track BLOCKED under DEFENSIVE regime"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.44:1 below 2:1 minimum (4,570 entry / 4,250 stop / 5,030 target = +10% vs \u22127%); Defensive-Quality Track suspended"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binds (defensive-quality 10% cap suspended); 107,800 sh \u00d7 4,570 = 492.74M = 5.0%"
+        },
+        {
+          "type": "warning",
+          "label": "Defensive-Quality Track SUSPENDED per TRADING-STRATEGY.md 'Regime is not DEFENSIVE' clause = Track BLOCKED"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 (Data Quality Gate) FAIL: broker.sh quote ASII = ERROR (Day 61 data-infra outage); no multi-source same-day Tue 09:15 fresh anchor obtainable"
+        }
+      ],
+      "reasoning": "Defensive-Quality Track explicitly SUSPENDED under DEFENSIVE regime label per TRADING-STRATEGY.md (Track only eligible when regime is not DEFENSIVE). Catalyst-track 9-gate: gates 1-8 PASS; Gate 9 FAIL (Day 61 broker quote ERROR). R:R 1.44:1 below 2:1 on catalyst track. MSCI Annual T-0 binary tail risk compounds (ASII as LQ45 mega-cap catches passive outflow on adverse outcome). SKIP per discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -11584,6 +11690,33 @@
           "type": "hold",
           "ticker": "KLBF",
           "detail": "519,000 sh; safe-lower carry 1,035 frozen Day 61"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-23T02:19:36Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Tue Jun 23 (Wk 10 D2). Both candidates TLKM/ASII SKIP per 9-gate buy-side: Gate 9 (Data Quality Gate) FAIL (Day 61 yfinance/GoAPI outage; broker.sh quote ERROR for both); R:R below 2:1 (TLKM 1.43, ASII 1.44); ASII Defensive-Quality Track SUSPENDED under DEFENSIVE regime; MSCI Annual Classification Review T-0 binary tail-risk window. KLBF held; trailing 931 GTC re-armed broker-side at Tue 09:00 WIB. 5th consec 0/3 week pattern continues (14 cumulative unused slots Wks 6-10).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Gate 9 FAIL (broker quote ERROR Day 61); R:R 1.43:1 below 2:1; MSCI T-0 binary tail-risk"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Gate 9 FAIL (broker quote ERROR Day 61); Defensive-Quality Track SUSPENDED under DEFENSIVE regime; R:R 1.44:1 below 2:1"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ entry 945; safe-lower carry frozen 1,035 (+9.52%); cluster Day 61 non-convergence persists 21 consec sessions; trailing 931 GTC armed broker-side"
+        },
+        {
+          "type": "warning",
+          "detail": "Day 61 yfinance HTTP 403 + GoAPI not configured \u2014 broker quote ERROR for unheld candidates; multi-source \u22644% relaxed-under-outage Gate 9 unverifiable"
         }
       ]
     }

@@ -5577,3 +5577,69 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 #### Notification sent
 
 📈 EOD 2026-06-22: Portfolio IDR 9.856B (0.00% day). Alpha vs IHSG: +1.25% (IHSG sesi I provisional 6,099.92 −1.25% on Mideast escalation + pre-MSCI Annual T-1 derisk; sesi II touched 6,136 partial rebound, final not multi-source convergent). Cum alpha +18.66% (single-day expansion +1.01pp from carry-corrected Day 45 +17.65% anchor). KLBF safe-lower carry 1,035 frozen (cluster Day 60 ≥36% 4-source spread persists; TradingView 710 fresh LOW; trailing 931 GTC armed, did not fire). IDR sub-18,000 9-of-9 sustained FULL-LOCKED. Cash 94.55%. Trades wk 0/3 — Week 10 Day 1 opens (5th consec zero-trade week pattern begins). Tue Jun 23 = MSCI Annual Classification Review T-0 + BBRI/BMRI cum-div T-0 + MDKA RUPSLB T+0.
+
+---
+
+### 2026-06-23 09:15 WIB — MARKET-OPEN — NO TRADES (Week 10 Day 2)
+
+**Routine:** market-open execution (Week 10 Day 2, Tue Jun 23; MSCI Annual Classification Review T-0 / release Wed Jun 24 03:30 WIB pre-open; BBRI/BMRI cum-div per prior memory T-0 (sources show next ex-div Oct/Nov — discrepancy); MDKA RUPSLB T+0 private placement vote + dividend; PTBA ex-div Jun 23 IDR 332.44/sh (coal EXITED); KLBF Day 61 data-infra outage persists 21 consecutive sessions Day 41-61)
+
+**Candidates evaluated:** TLKM, ASII (per RESEARCH-LOG 2026-06-23 pre-market plan — only 2 candidates scored ≥6)
+
+**Decision: SKIP BOTH candidates.** No buys placed; 0/3 trades Week 10 Day 2 (5th consecutive 0/3 week pattern continuation).
+
+**9-gate buy-side checklist (per candidate):**
+
+**TLKM** — SKIP
+1. Total positions ≤6 after fill (KLBF + TLKM = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (492.8M cap at 2,960 × 166,500 sh = 492.84M ≈ 5% boundary): PASS
+4. Position cost ≤ cash 9.319B: PASS
+5. Catalyst documented in today's RESEARCH-LOG (Rp 4T buyback + post-ex absorption window): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (~30M estimate carry): PASS
+8. Lot size multiple of 100 (166,500 sh): PASS
+9. Current price not moved >3% from planned entry (2,960): **FAIL** — broker.sh quote TLKM returns ERROR "cannot produce a price for TLKM — market-data.sh failed and no held position"; Day 61 data infrastructure outage persists (yfinance HTTP 403 host-allowlist + GoAPI not configured); no multi-source same-day Tue fresh price obtainable at 09:15 to verify <3% drift from planned entry
+- **Strategy R:R rule FAIL:** 1.43:1 below 2:1 minimum (entry 2,960 / stop 2,753 / target 3,260 = +10% upside vs −7% stop = R:R 1.43:1 < 2:1 per TRADING-STRATEGY.md L150-160)
+- **Defensive-Quality Track not invoked** (TLKM not tagged defensive-quality candidate per regime suspension)
+
+**ASII** — SKIP
+1. Total positions ≤6 after fill (KLBF + ASII = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% cap binds per regime; defensive-quality 10% cap suspended): PASS at sized 107,800 sh × 4,570 = 492.74M
+4. Position cost ≤ cash 9.319B: PASS
+5. Catalyst documented in today's RESEARCH-LOG (IDR 8T buyback + 56% auto market share): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (~20M estimate carry): PASS
+8. Lot size multiple of 100 (107,800 sh): PASS
+9. Current price not moved >3% from planned entry (4,570 Jun 6 carry): **FAIL** — broker.sh quote ASII returns ERROR "cannot produce a price for ASII — market-data.sh failed and no held position"; Day 61 outage same as TLKM; no multi-source same-day Tue fresh anchor at 09:15
+- **Defensive-Quality Track SUSPENDED** per TRADING-STRATEGY.md "Track BLOCKED when regime label is DEFENSIVE" clause; current regime = DEFENSIVE — INTENSIFIED — BINARY-RESOLVED → Track is BLOCKED, not eligible
+- **Strategy R:R rule FAIL on catalyst track:** 1.44:1 below 2:1 minimum (entry 4,570 / stop 4,250 / target 5,030 = +10% upside vs −7% stop)
+
+**Binding constraints (both candidates):**
+1. **Gate 9 / Data Quality Gate FAIL** — Day 61 yfinance + GoAPI HTTP 403 outage persists (now 21 consecutive sessions Day 41-61); broker.sh quote returns ERROR for both TLKM and ASII (no held position fallback); no multi-source ≥3-source ≤2% canonical convergence; ≤4% relaxed-under-outage gate not achievable on 09:15 with single-source carry references
+2. **Strategy R:R rule FAIL on both** — TLKM 1.43:1 / ASII 1.44:1 both below 2:1 minimum per TRADING-STRATEGY.md; requires target widening to ≥+14% for 2:1 minimum but no upside catalyst supports widening
+3. **Defensive-Quality Track SUSPENDED for ASII** — regime label DEFENSIVE explicitly suspends Track per TRADING-STRATEGY.md "Regime is not DEFENSIVE" clause
+4. **MSCI Annual Classification Review T-0 / pre-release T-1 binary tail risk** — release Wed Jun 24 03:30 WIB pre-open; Indonesia REMAINS EM Jun 18 with "yellow card" info-flow downgrade; frontier-downgrade probability slim but non-zero ($13B Goldman outflow tail risk); LQ45 mega-caps (BBCA/BBRI/BMRI/TLKM/ASII) catch passive flow on adverse outcome — binding wait-and-see across watchlist
+5. **Eagerness check binds — 5th consecutive 0/3 week pattern Day 2** (Wks 6-9 = 12 cumulative slots unused; Wk 10 D1 + D2 = 14 cumulative unused); structural cash-drag pressure per Wk 9 review process change — pattern triggers explicit slot-utilization evaluation; per discipline: no trade beats a bad trade; 4 binding constraints (Gate 9 + R:R + Track-suspension + MSCI binary) prove SKIP correct
+
+**Held position carry (no action):**
+- **KLBF 519,000 sh @ entry 945** — trailing 931 GTC re-arms broker-side at Tue 09:00 WIB open; safe-lower carry frozen 1,035 (+9.52% unrealized = +IDR 46,710,000); cluster Day 61 ≥36% 4-source spread persists (TradingView 710 / Yahoo 945 / MarketScreener 1,100 / StockDetect 1,685); state-machine state-3 (+15% → 7% trail 1,011) and state-4 (+20% → 5% trail 1,077) tightening triggers remain ARMED-BLOCKED on cluster non-convergence (21 consecutive sessions Day 41-61); MATERIAL stop-fire risk if Tue multi-source converges to 710-745 range (would trigger trailing 931 auto-fire at confirmed mark; realized −24.87% if at 710 = IDR −121,975,000). Cluster Day 61 not reconciled at 09:15 — safe-lower carry 1,035 persists.
+
+**Macro context Tue Jun 23 (Week 10 Day 2):**
+- IHSG carry: Mon sesi II final 6,116.60 (−0.98% vs Fri 6,177.14 reconciled anchor) confirmed multi-source (Pojokpapua / Antara); investor.id Tue prediction: consolidation 6,050-6,220 range pre-MSCI wait-and-see binding.
+- IDR/USD: 17,846 Mon spot (+18 pts vs Fri 17,828); sub-18,000 9-of-9 sustained FULL-LOCKED post BI +25bp Jun 18 reinforcement; criterion (a) PERMANENTLY-LOCKED.
+- Brent: ~$78.41 Mon (−2.1%); Goldman cut Q4 forecast to $80; Strait of Hormuz reopening priced; energy/risk-asset volatility de-escalating.
+- US S&P −0.37% / Nasdaq −1.32% Mon Jun 22; Big Tech sold off — Nasdaq drag risk Tue open for GOTO/BUKA/EMTK (none on candidate list).
+- MSCI Annual Classification Review T-0 release Wed Jun 24 03:30 WIB pre-open = T-1 from EOD; $13B Goldman outflow tail risk.
+- Coal/Nickel: Newcastle $144.50 flat; LME nickel $17,580 −1.47% (2-month low); coal SECTOR-EXIT binding (PTBA ex-div Jun 23 IDR 332.44/sh — not eligible).
+- PTBA ex-div Jun 23 (coal sector EXITED — no entry); MDKA RUPSLB Jun 23 14:00 WIB (binary T+0 SKIP discipline binds); KLBF dividend payment Wed Jun 24 T-1 IDR 10,380,000 receivable.
+
+**Price source notes:**
+- Price source: WebSearch fallback path operational for macro (IHSG/IDR/Brent multi-source confirmed) but BLOCKED for individual ticker live quotes at 09:15 Tue Jun 23 (yfinance HTTP 403 host-allowlist persists Day 61; GoAPI not configured). broker.sh quote TLKM = ERROR; broker.sh quote ASII = ERROR; broker.sh quote KLBF = stale stub 945 (entry-price fallback). Data Quality Gate binding on both candidates.
+
+**Eagerness Check pass:** 5th consecutive 0/3 week pattern continuation (Wk 10 Day 2 = 14 cumulative unused slots Wks 6-10). Pre-market plan structural discipline holds: cumulative trial alpha +18.66% (provisional, will reconcile Tue EOD against Mon sesi II final 6,116.60 = +18.44% reconciled per Day 33-40 procedure) protected; Gate 9 + R:R + Track-suspension + MSCI binary 4-way overlap = SKIP per discipline. Per Wk 9 Process change "explicit slot-utilization evaluation": Tue 09:15 evaluation = ALL candidate-specific binding constraints fail OR overlap. Structural pattern is now 4-week-cycle binding (Wks 6-9 + Wk 10 Day 2 continuation); Week 10 must include explicit slot-utilization evaluation per Wk 9 process change.
+
+**Trades this week: 0/3.** Week 10 slot allocation intact (3 fresh slots remain for Wed-Fri post-MSCI release).
+
+**Notification sent:** 📊 Market-open 2026-06-23: No trades placed. Both candidates (TLKM/ASII) SKIP — Gate 9 (Data Quality Gate) fails on Day 61 yfinance/GoAPI outage (broker.sh quote ERROR for both); R:R below 2:1 minimum (TLKM 1.43:1 / ASII 1.44:1); ASII Defensive-Quality Track SUSPENDED under DEFENSIVE regime; MSCI Annual Classification Review T-0 binary tail-risk window (release Wed Jun 24 03:30 WIB pre-open). KLBF safe-lower carry 1,035 holds; trailing 931 GTC re-armed broker-side. 5th consecutive 0/3 week pattern continues (Wk 10 Day 2 = 14 cumulative unused slots Wks 6-10).
