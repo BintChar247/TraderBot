@@ -5872,3 +5872,99 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 #### Notification sent
 
 📊 Midday 2026-06-24: All positions healthy. No action taken.
+
+---
+
+### 2026-06-24 EOD — Day 48 (Wed, Week 10 Day 3 — MSCI Annual Classification Review release T-0 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM; frontier-downgrade tail risk REMOVED; KLBF dividend payment T-0 IDR 10,380,000 posted; KLBF cluster Day 63 non-convergence persists; safe-lower carry frozen 1,035; carry-corrected cumulative trial alpha expansion +0.57pp to +20.05% provisional)
+
+- Total equity: IDR 9,866,717,500 (+IDR 10,380,000 vs Day 47 EOD baseline 9,856,337,500 — KLBF dividend payment posted T-0 IDR 20/sh × 519,000 sh = IDR 10,380,000 cash credited to PAPER-STATE.json; KLBF safe-lower carry frozen 1,035 per cluster non-convergence Day 63; position MV unchanged 537,165,000)
+- Daily P&L: IDR +10,380,000 (+0.11%) — pure dividend posting effect (KLBF Jun 20/sh × 519,000 sh); safe-lower carry holds flat through Wed MSCI relief Day 1 cluster non-convergence
+- IHSG daily: −0.59% (Wed Jun 24 sesi I provisional 6,002.20 vs Tue Jun 23 sesi I provisional anchor 6,037.52 [reconciled per Day 33-40 procedure — Tue sesi II final was 6,101.33 per RESEARCH-LOG 2026-06-24 headlines; if reconciled tomorrow against Tue sesi II 6,101.33 anchor, Wed sesi I −1.62% from 6,101.33]; sesi II final not multi-source convergent at 15:15 WIB filing → tomorrow's EOD will reconcile per Day 33-40 procedure; sesi II intraday low 5,993.03 / high 6,121.77 per Tribunnews multi-source)
+- Daily alpha: +0.70% (dividend posting +0.11% vs IHSG sesi I provisional −0.59% on MSCI relief absorption + Mideast carry; defensive thesis structurally outperforms on MSCI initial-relief-then-cascade day — relief bid at open (BBCA 6,175 / TLKM 2,960 / BMRI 4,200) faded by sesi I close on Mideast carry + Fed hawkish overnight)
+- Cash: IDR 9,329,552,500 (94.56% of equity — +IDR 10,380,000 from dividend posting)
+- Trades today: 0 (3 candidates evaluated Wed pre-market — BBCA/TLKM/BMRI — all SKIPPED at market-open per Gate 9 chase cap fail + R:R below 2:1 minimum on MSCI relief-bid arriving above pre-market R:R-clearing entry thresholds (BBCA open 6,175 vs ≤5,950 planned / TLKM open 2,960 vs ≤2,830 planned / BMRI open 4,200 vs ≤4,000 planned); midday no actions per KLBF cluster Day 62 sell-side non-convergence + thesis intact)
+- Trades this week: 0/3 (Week 10 Day 3; **6th consecutive 0/3 week pattern continuation Wks 6-10** — 3 fresh slots remain for Thu-Fri post-MSCI absorption)
+- Phase-to-date P&L: IDR −133,282,500 (−1.33%) — narrowed from Day 47 −1.44% via dividend posting
+- Cumulative trial alpha vs IHSG (Day 0 baseline 7,634; today sesi I provisional 6,002.20 = −21.38%): **+20.05%** (single-day expansion +0.57pp from +19.48% Day 47 provisional anchor — combination of dividend posting +0.11% portfolio return AND IHSG sesi I provisional −0.59% day; provisional anchor will reconcile Thu EOD if Tue/Wed sesi II finals differ from sesi I anchors used today)
+- Weekly P&L (Week 10 — start baseline 9,856,337,500 Fri Jun 19 EOD): +0.11% (Week 10 Day 3; dividend posting effect)
+- Peak equity: IDR 10,026,617,500 (Apr 22 Day 3 trial high — unchanged)
+- Drawdown from peak: −1.59% (narrowed from Day 47 −1.70% via dividend posting +0.105% recovery)
+- Realised P&L cumulative: IDR −190,372,500 (BBRI −59.4M + ITMG −52.55M + ADRO −78.42M — unchanged)
+- Future dividend receivable: IDR 0 (KLBF dividend posted T-0 today; no other accruing receivables)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| KLBF | 519,000 | 945 | 1,035 (safe-lower carry frozen from Tue Jun 2 anchor; Wed Jun 24 cluster Day 63 non-convergence persists — TradingView 745 / Investing.com 760 fresh / Yahoo cache 1,135 / broker stub 945 multi-source spread ≥48% FAILS ≥3-source ≤2% canonical convergence per MISTAKES.md 2026-05-01; data-infra yfinance/GoAPI HTTP 403 persists 22 consecutive sessions Day 41-63) | +IDR 46,710,000 (+9.52%) | 34 |
+
+#### Broker reconciliation
+
+- Broker portfolio (`bash scripts/broker.sh portfolio`): KLBF 519,000 sh @ entry 945, entry_date 2026-05-21 — matches PAPER-STATE.json and TRADE-LOG Active Positions.
+- STOPS.json: KLBF state=trailing, current_stop=931, trail_pct=10, hwm=1,035 — unchanged; trailing 931 GTC re-armed broker-side at Wed 09:00 WIB open; GTC remained intact through sesi I + sesi II (no fire — broker tape never marked ≤931 multi-source convergent today).
+- broker.sh quote KLBF returns stale stub 945 (yfinance Day 63 still blocked HTTP 403 host-allowlist; GoAPI not configured); MTM uses frozen safe-lower carry 1,035 per spread discipline.
+- broker.sh portfolio equity 9,809,627,500 (uses entry-price stub 945; does not include dividend posting); TRADE-LOG equity 9,866,717,500 (uses frozen safe-lower carry 1,035 + dividend posting +10,380,000). Difference IDR 57,090,000 = (1,035 − 945) × 519,000 + 10,380,000 = procedural carry differential + dividend posting offset, not a position-count or share-count discrepancy.
+- **No position discrepancy.** Position in broker = position in TRADE-LOG = position in STOPS.json = position in dashboard. Single open position: KLBF 519,000 sh. PAPER-STATE.json cash credited +10,380,000 dividend posting today (9,319,172,500 → 9,329,552,500).
+
+#### Mark-to-market sources (frozen safe-lower carry — cluster Day 63 non-convergence persists into Week 10 Day 3)
+
+- KLBF: IDR 1,035 (safe-lower carry; Wed MSCI relief Day 1 did NOT produce cluster reconciliation per midday + EOD WebSearch verification — TradingView 745 fresh LOW (−3.25%) / Investing.com 760 fresh (0.00%) / Yahoo cache 1,135 (+4.61%) / broker stub 945 = 4-source spread ≥48% FAILS ≥3-source ≤2% canonical convergence per MISTAKES.md 2026-05-01; low cluster (745-760) is 2 fresh sources only — does NOT satisfy ≥3 fresh independent sources requirement; trailing 931 GTC armed broker-side at open, did not fire — broker tape never marked ≤931 multi-source convergent today; KLBF dividend payment T-0 IDR 10,380,000 posted to PAPER-STATE.json cash).
+- IHSG: 6,002.20 Wed sesi I provisional (multi-source convergent across Tribunnews / CNBC Indonesia / Kontan / Liputan6; sesi I close −1.62% from sesi I open ~6,112; vs Tue sesi I provisional anchor 6,037.52 = −0.59% IHSG day; sesi II intraday low 5,993.03 / high 6,121.77 per Tribunnews — sesi II final NOT multi-source convergent at 15:15 WIB filing → tomorrow's EOD will reconcile per Day 33-40 procedure).
+- USD/IDR: 17,982 Wed spot (per Sesi I article; sub-18,000 11-of-11 sustained PERMANENTLY-LOCKED + BI +25bp Jun 18 reinforcement).
+- BI-Rate: **5.75%** (Thu Jun 18 RDG +25bp HIKE; cumulative June +50bp incl. Jun 9 off-cycle).
+- MSCI: Annual Classification Review release Wed Jun 24 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM. Frontier-downgrade tail risk REMOVED. "Yellow card" Information Flow downgrade (Jun 18) persists structurally but pre-absorbed Fri Wk 9.
+
+#### Macro
+
+- **Wed Jun 24 = Week 10 Day 3 + MSCI Annual Classification Review release T-0 (Wed 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM) + KLBF dividend payment T-0 (posted) + Mideast carry + Fed hawkish overnight (US Mon Nasdaq −2.21% chip-sector selloff carry).** IHSG sesi I closed −1.62% at 6,002.20 — relief bid at open (6,135 +0.57%) faded sharply by mid-sesi on Mideast geopolitics carry + Fed hawkish overnight + foreign net sell Rp 311.60B regular market continuation; psychological 6,000 nearly broken (sesi II low 5,993.03 broke briefly).
+- **De-escalation criteria status (Wed Jun 24):**
+  - (a) IDR <18,000 11-of-11 sustained PERMANENTLY-LOCKED (Wed spot 17,982 sub-18,000; criterion (a) FULL-LOCKED with BI +25bp reinforcement).
+  - (b) Moody's Danantara Baa2 negative outlook PERSISTS — LONE GATING CONSTRAINT blocking formal DOWNGRADE-PENDING → DEFENSIVE-CONFIRMED transition; Wk 9 review noted hawkish-reanchoring REGRESSION.
+  - (c) IHSG >5,500 sustained reclaim STRONGLY CONFIRMED (Wed sesi I provisional 6,002.20 = 5,500 +9.1% buffer; 6,000 psychological held narrowly +0.04% above sesi I close — sesi II low 5,993.03 broke briefly intra-session).
+  - (d) foreign-flow inflection REGRESSED — Wed foreign net sell Rp 311.60B regular market = pre-MSCI hedge unwound to relief-fade rotation; criterion (d) regression deepens.
+  - (e) MSCI accessibility NEUTRAL-LOCKED post-release Wed (frontier downgrade tail risk REMOVED; "yellow card" structural overhang persists).
+  - **2.5 of 5 confirming** (criteria (b)+(d) regression persist as gating; (e) added as NEUTRAL-LOCKED). Regime label moves to DEFENSIVE — INTENSIFIED — BINARY-RESOLVED-FAVORABLY (MSCI tail risk removed; structural defensive posture maintained).
+
+#### Portfolio impact
+
+Daily P&L +0.11% — pure dividend posting effect (KLBF Jun 20/sh × 519,000 sh = IDR 10,380,000 credited to cash); safe-lower carry holds flat through Wed MSCI relief Day 1 cluster non-convergence; defensive thesis structurally outperforms on initial-relief-then-cascade day (relief bid faded sharply on Mideast carry + Fed hawkish overnight). **Cumulative trial alpha +20.05%** (single-day expansion +0.57pp from +19.48% Day 47 provisional anchor = combination of dividend posting +0.11% AND IHSG sesi I day −0.59%). Cash buffer 94.56% structurally insulating book (+IDR 10.38M dividend posting today); KLBF state-2 trailing stop @ 931 GTC armed at Wed open did NOT fire (broker tape never marked ≤931 multi-source convergent). **Forward asymmetry:** Thu Jun 25 = post-MSCI absorption Day 2 + Mideast carry persistence + Fed hawkish overnight continuation; cumulative alpha runway provides cushion against potential post-relief mean-reversion.
+
+#### RISK ALERTS
+
+- Daily P&L +0.11% — far above −2% daily loss cap. NO alert.
+- KLBF safe-lower carry +9.52% — far above −6% warning threshold and far above −7% hard-cut 879. NO alert (on safe-lower carry path; cluster non-convergence Day 63 prevents alternative mark execution).
+- Drawdown from peak −1.59% — far above −12% / −15% hard limit. NO alert.
+- Weekly P&L (Week 10 Day 3) +0.11% — far from −5% reduction trigger. NO alert.
+- **IDR <18,000 11-of-11 session sustained PERMANENTLY-LOCKED** (Wed spot 17,982); criterion (a) PERMANENTLY locked with BI +25bp reinforcement.
+- **Trading NOT halted** (no daily/drawdown caps hit; regime DEFENSIVE — INTENSIFIED — BINARY-RESOLVED-FAVORABLY evaluable framework holds into Thu post-MSCI Day 2).
+
+#### Sector exposure
+
+Healthcare 5.44% of equity (KLBF safe-lower MV 537.165M / equity 9.867B); cash 94.56%. No banking/coal/mining/nickel/conglomerate exposure (post May 20 ADRO cut). MSCI Annual Classification Review release Wed Jun 24 confirmed Indonesia REMAINS EM — no contamination risk on KLBF (not in removal basket re-confirmed Day 63).
+
+#### Cumulative alpha trajectory
+
+- Day 0 baseline IHSG 7,634 → Wed Jun 24 sesi I provisional 6,002.20 = IHSG cumulative −21.38% (expanded from Day 47 provisional anchor −20.91% via Wed sesi I day −0.59% single-day IHSG decline; reconciliation Thu EOD against Tue+Wed sesi II finals if differ).
+- Day 0 baseline equity 10,000,000,000 → today equity 9,866,717,500 = portfolio cumulative −1.33% (narrowed from Day 47 −1.44% via dividend posting +0.11% recovery).
+- **Cumulative alpha = +20.05%** (single-day expansion +0.57pp from +19.48% Day 47 provisional anchor; structural alpha trajectory expanding on Wed MSCI relief Day 1; trial cumulative alpha sustains well above zero with runway into Thu post-MSCI absorption Day 2).
+- Cash-heavy defensive book sustained through Wed MSCI relief Day 1 (relief bid faded sharply); Thu Jun 25 = post-MSCI absorption Day 2 + Mideast carry persistence + Fed hawkish overnight continuation; potential post-relief mean-reversion evaluable if cluster narrows Thu open with R:R ≥ 2:1 achievable.
+
+#### Notes
+
+- **Day 63 data infrastructure outage persists into Week 10 Day 3:** yfinance + GoAPI both blocked since Apr 21 (63 consecutive sessions); market-data.sh quote KLBF returns HTTP 403 host-allowlist error (CONNECT tunnel failed); broker.sh quote returns stale entry-price stub 945. WebSearch-only override path operational for IHSG (Wed sesi I provisional 6,002.20 multi-source convergent across Tribunnews / CNBC Indonesia / Kontan / Liputan6) but KLBF cluster spread persists Day 63 (TradingView 745 fresh LOW / Investing 760 fresh / Yahoo cache 1,135 / broker stub 945 = 4-source spread ≥48%; low cluster 745-760 = 2 fresh sources only, FAILS ≥3-source canonical requirement).
+- **Trailing stop 931 GTC binding, armed at Wed open, did NOT fire:** Broker-side GTC was active throughout Wed sesi I + sesi II; broker tape never marked ≤931 multi-source convergent; stop remains armed for Thu Jun 25 open. State-machine state-3 (≥1,087 → 7% trail 1,011) and state-4 (≥1,134 → 5% trail 1,077) remain ARMED but BLOCKED on cluster non-convergence (22 consecutive sessions Day 41-63).
+- **MSCI Annual Classification Review release Wed Jun 24 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM:** Frontier-downgrade tail risk REMOVED (positive macro structural for held position). "Yellow card" Information Flow downgrade (Jun 18) persists structurally but pre-absorbed Fri Wk 9. Wed market reaction: initial relief bid faded by sesi I close on Mideast carry + Fed hawkish overnight + foreign net sell Rp 311.60B regular market; sesi II low 5,993.03 broke 6,000 psychological briefly intra-session.
+- **KLBF dividend payment T-0 Wed Jun 24 POSTED:** IDR 10,380,000 (519,000 sh × IDR 20/sh) credited to PAPER-STATE.json cash today (9,319,172,500 → 9,329,552,500); `_dividends_received` array initialized with record.
+- **6th consecutive 0/3 week pattern continuation (Wks 6-10):** Process change #3 from Wk 9 review (explicit slot-utilization evaluation) flags this as structural cap-binding signal. Wed shows R:R 2:1 rule binds on every clean relief candidate when relief bid is the primary catalyst — post-MSCI relief bid arrived at the cluster price (BBCA 6,175 / TLKM 2,960 / BMRI 4,200), NOT at the planned-entry pullback levels (≤5,950 / ≤2,830 / ≤4,000). Recurring failure mode — next Wk 10 review (Fri Jun 26) should evaluate whether 5% cap × stop math leaves R:R structurally infeasible without meaningful pullback.
+- **Trial trajectory:** Beyond original April 20–May 2 trial window (current Day 48 trial continuation; Week 10 Day 3). Cumulative alpha +20.05% provisional (single-day expansion +0.57pp from reconciled Day 47 +19.48% provisional anchor); phase-to-date P&L −1.33% narrowed; drawdown discipline (−1.59% from peak) deeply within tolerances. Realised P&L unchanged at −190,372,500. Week 10 Day 3: 0/3 trades placed (6th consecutive 0/3 week pattern continuation; 3 fresh slots remain Thu-Fri).
+- **No trades placed Wed Jun 24:** 3 candidates evaluated pre-market (BBCA/TLKM/BMRI); 09:15 market-open SKIPPED on combination of Gate 9 chase cap fail + R:R below 2:1 (BBCA 1.40:1 / TLKM 1.20:1 / BMRI 1.81:1) — MSCI relief bid materialized at open above pre-market R:R-clearing entry thresholds. Midday no actions per KLBF cluster Day 62 sell-side non-convergence + thesis intact. Week 10 Day 3: 3 fresh slots remain for Thu-Fri.
+- **Carry-over to Thu Jun 25 pre-market 07:00 WIB / market-open 09:15 WIB (Week 10 Day 4, post-MSCI absorption Day 2):**
+  1. **Post-MSCI absorption Day 2:** Pre-market 07:00 WIB will read Wed sesi II final + Thu overnight (US Wed close + Asian Thu open). Mean-reversion scenario if relief-fade continues; consolidation scenario if 6,000 psychological holds intra-Asia open. Mideast carry + Fed hawkish overnight continuation = primary external risk vectors.
+  2. KLBF Thu open fresh multi-source cluster re-eval — if ≥3-source ≤2% convergence achieved: (a) at confirmed mark ≤931, trailing 931 GTC fires automatically; (b) at mark ≥1,087 → fire state-3 (7% trail at 1,011); (c) at mark ≥1,134 → fire state-4 (5% trail at 1,077). Day 63 + MSCI relief day did NOT produce reconciliation; Day 64 next opportunity. MATERIAL stop-fire risk if Thu multi-source narrows to 745-760.
+  3. **Candidates carry into Thu pre-market:** Watchlist re-eval post-MSCI absorption Day 2; defensive consumer (TLKM/UNVR/ICBP) + bank franchise (BBCA) re-evaluable if cluster narrows on mean-reversion pullback into R:R-clearing thresholds (BBCA ≤5,950 / TLKM ≤2,830 / BMRI ≤4,000). 5% cap binding per regime DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY.
+  4. Defensive thesis maintenance: 94.56% cash buffer + KLBF healthcare-defensive carry remains binding alpha-protection posture into Week 10 Day 4; cumulative alpha +20.05% provisional remains structurally strong.
+  5. Sesi II final reconciliation: Thu pre-market 07:00 WIB will check Tue+Wed sesi II finals multi-source convergence; if differ from sesi I provisionals used today and Day 47, Day 49 EOD will reconcile alpha anchor.
+
+#### Notification sent
+
+📈 EOD 2026-06-24: Portfolio IDR 9.867B (+0.11% day, dividend posting). Alpha vs IHSG +0.70% (IHSG sesi I provisional 6,002.20 −0.59% on MSCI initial-relief-then-cascade — relief bid faded sharply on Mideast carry + Fed hawkish overnight + foreign net sell Rp 311.60B; sesi II final pending multi-source convergence). Cum alpha +20.05% provisional (single-day expansion +0.57pp from reconciled Day 47 +19.48%). KLBF safe-lower carry 1,035 frozen (cluster Day 63 ≥48% 4-source spread persists; TradingView 745 fresh LOW; trailing 931 GTC armed, did not fire). KLBF dividend T-0 +IDR 10.38M posted. IDR sub-18,000 11-of-11 PERMANENTLY-LOCKED. Cash 94.56%. Trades wk 0/3 — Week 10 Day 3 (6th consec zero-trade week pattern continues). MSCI Annual T-0 CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED.

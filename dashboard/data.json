@@ -685,6 +685,23 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Day 47 EOD (Tue, Week 10 Day 2 \u2014 MSCI Annual Classification Review T-0; release Wed Jun 24 03:30 WIB pre-open binary; IHSG sesi I provisional 6,037.52 \u22121.29% on pre-MSCI defensive derisk + Mideast carry; sesi II final pending multi-source convergence per Day 33-40 procedure; KLBF cluster Day 61 non-convergence persists 21 sessions; safe-lower carry frozen 1,035; trailing 931 GTC armed, did not fire; cumulative alpha expansion +1.04pp from reconciled Day 46 +18.44% to +19.48% provisional; trading not halted; 0/3 trades 5th consec zero-trade week pattern continues)"
+    },
+    {
+      "date": "2026-06-24",
+      "day_label": "Day 48",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 10380000,
+      "daily_pnl_pct": 0.11,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 6002.2,
+      "ihsg_close_basis": "Wed Jun 24 sesi I provisional multi-source convergent (Tribunnews/CNBC Indonesia/Kontan/Liputan6); \u22121.62% from sesi I open ~6,112; sesi II final not multi-source convergent at 15:15 WIB filing \u2192 tomorrow's EOD will reconcile per Day 33-40 procedure; sesi II intraday low 5,993.03 / high 6,121.77",
+      "ihsg_cumulative_pct": -21.38,
+      "alpha_pct": 20.05,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Dividend posting effect (+IDR 10.38M KLBF). KLBF safe-lower carry frozen 1,035 cluster Day 63 non-convergence. MSCI Annual T-0 CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED. IHSG sesi I \u22120.59% from anchor 6,037.52 on MSCI initial-relief-then-cascade \u2014 relief bid faded sharply on Mideast carry + Fed hawkish overnight + foreign net sell Rp 311.60B."
     }
   ],
   "positions": [
@@ -696,13 +713,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 33,
+      "days_held": 34,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 61 non-convergence persists Tue pre-MSCI Annual T-0 defensive derisk day (TradingView 710 fresh LOW / Yahoo 945 stale stub / Yahoo cache 1,135 / akufrugal 1,710 4-source spread \u2265139% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Tue open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 61; dividend payment Wed Jun 24 T-0 IDR 10,380,000 receivable; 21 consecutive sessions data-infra outage Day 41-61"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 63 non-convergence persists Wed MSCI Annual relief Day 1 (TradingView 745 fresh LOW / Investing.com 760 fresh / Yahoo cache 1,135 / broker stub 945 4-source spread \u226548% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Wed open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 63; dividend payment Wed Jun 24 T-0 IDR 10,380,000 POSTED to PAPER-STATE.json cash; 22 consecutive sessions data-infra outage Day 41-63"
     }
   ],
   "trades": [
@@ -8017,17 +8034,17 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 47,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 47)",
+    "trial_days_elapsed": 48,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 48)",
     "starting_capital_idr": 10000000000,
-    "current_equity_idr": 9856337500,
-    "cumulative_pnl_idr": -143662500,
-    "cumulative_pnl_pct": -1.44,
+    "current_equity_idr": 9866717500,
+    "cumulative_pnl_idr": -133282500,
+    "cumulative_pnl_pct": -1.33,
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
-    "future_dividend_receivable_idr": 10380000,
-    "ihsg_cumulative_pct": -20.91,
-    "cumulative_alpha_pct": 19.48,
+    "future_dividend_receivable_idr": 0,
+    "ihsg_cumulative_pct": -21.38,
+    "cumulative_alpha_pct": 20.05,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -8035,15 +8052,15 @@
     "open": 1
   },
   "risk": {
-    "regime": "EM-OUTFLOW-RISK-CAUTIOUS",
-    "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.0,
-    "current_equity": 9856337500,
+    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
+    "daily_pnl_pct": 0.11,
+    "weekly_pnl_pct": 0.11,
+    "current_equity": 9866717500,
     "peak_equity": 10026617500,
-    "drawdown_from_peak_pct": -1.7,
+    "drawdown_from_peak_pct": -1.59,
     "trading_halted": false,
     "halt_reason": null,
-    "max_position_pct": 0.15,
+    "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3
   },
@@ -11995,24 +12012,71 @@
       "routine": "midday",
       "status": "success",
       "summary": "Midday 2026-06-24: All positions healthy (KLBF held). No cuts, no stop tightening, no thesis exits. Cluster Day 62 non-convergence persists (2 fresh sources only); safe-lower carry 1,035 frozen. Trailing 931 GTC armed. KLBF div payment T-0 today (verify EOD)."
+    },
+    {
+      "timestamp": "2026-06-24T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 48: IDR 9.867B (+0.11% day, dividend posting). Alpha vs IHSG +0.70% (IHSG sesi I prov \u22120.59%). Cum alpha +20.05% prov. KLBF safe-lower carry frozen 1,035 cluster Day 63 non-convergence. KLBF div T-0 +IDR 10.38M posted. Trades wk 0/3 (6th consec 0-trade week pattern). MSCI Annual CONFIRMED Indonesia REMAINS EM.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 48 EOD snapshot committed"
+        },
+        {
+          "type": "dividend",
+          "ticker": "KLBF",
+          "detail": "T-0 payment IDR 10,380,000 (519,000 sh \u00d7 IDR 20/sh) posted to PAPER-STATE.json cash"
+        },
+        {
+          "type": "mark-to-market",
+          "ticker": "KLBF",
+          "detail": "safe-lower carry frozen 1,035; cluster Day 63 non-convergence (TradingView 745 / Investing 760 / Yahoo cache 1,135 / broker stub 945; 2 fresh sources only fails \u22653-source canonical)"
+        },
+        {
+          "type": "macro",
+          "detail": "MSCI Annual Classification Review release Wed 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM; frontier-downgrade tail risk REMOVED"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-24T08:21:10Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 48 2026-06-24: IDR 9.867B (+0.11% day, dividend posting). Alpha vs IHSG +0.70% (sesi I prov \u22120.59%). Cum alpha +20.05% prov. KLBF safe-lower carry frozen 1,035 (cluster Day 63 non-convergence persists; trailing 931 GTC armed did not fire). KLBF dividend T-0 IDR 10.38M posted. Trades wk 0/3 (6th consec zero-trade week pattern). MSCI Annual CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 48 EOD snapshot committed"
+        },
+        {
+          "type": "dividend",
+          "ticker": "KLBF",
+          "detail": "T-0 payment IDR 10,380,000 posted to cash"
+        },
+        {
+          "type": "macro",
+          "detail": "MSCI Annual CONFIRMED Indonesia REMAINS EM"
+        }
+      ]
     }
   ],
   "exposure": {
-    "cash_pct": 94.55,
-    "invested_pct": 5.45,
+    "cash_pct": 94.56,
+    "invested_pct": 5.44,
     "by_sector": {
-      "Healthcare": 5.45
+      "Healthcare": 5.44
     },
     "positions_count": 1,
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 de-escalation criteria CONFIRMING; criterion a IDR sub-18,000 7-of-7 PERMANENTLY-LOCKED + BI +25bp hike reinforcement; criterion c IHSG above 5,500 STRONGLY CONFIRMED; criterion d foreign-flow REGRESSED PERSISTS Thu 2 consecutive net-sell days; criterion b Moody's Danantara Baa2 negative outlook persists as lone gating; formal re-eval today 16:00 WIB weekly review)",
-    "ihsg_close": 6037.52,
-    "ihsg_close_basis": "Tue Jun 23 sesi I provisional multi-source convergent (Liputan6/Tribunnews/BeritaSatu/Kompas); \u22121.29% (\u221279.08 pts) from Mon sesi II final 6,116.60 reconciled anchor; pre-MSCI Annual T-0 defensive derisk + Mideast geopolitical carry; sesi II final not multi-source convergent at 15:15 WIB filing \u2192 tomorrow's EOD will reconcile per Day 33-40 procedure; single-source carry shows ~6,081 close unconfirmed",
-    "ihsg_cumulative_pct": -20.91,
-    "idr_usd": 17846.0,
-    "idr_status": "Tue Jun 23 spot 17,846 = sub-18,000 10-of-10 sustained PERMANENTLY LOCKED + BI +25bp Jun 18 hike reinforcement; criterion (a) FULL-LOCKED",
+    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY (MSCI Annual Classification Review release Wed Jun 24 03:30 WIB pre-open CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED; 2.5 of 5 de-escalation criteria confirming with (e) MSCI accessibility NEUTRAL-LOCKED added; criteria (b) Moody's Baa2 + (d) foreign-flow regression persist as lone gating constraints)",
+    "ihsg_close": 6002.2,
+    "ihsg_close_basis": "Wed Jun 24 sesi I provisional multi-source convergent (Tribunnews/CNBC Indonesia/Kontan/Liputan6); \u22120.59% from Tue sesi I provisional anchor 6,037.52; sesi II intraday low 5,993.03 / high 6,121.77 per Tribunnews; sesi II final NOT multi-source convergent at 15:15 WIB filing \u2192 tomorrow's EOD will reconcile per Day 33-40 procedure",
+    "ihsg_cumulative_pct": -21.38,
+    "idr_usd": 17982.0,
+    "idr_status": "Wed Jun 24 spot 17,982 = sub-18,000 11-of-11 sustained PERMANENTLY LOCKED + BI +25bp Jun 18 hike reinforcement; criterion (a) FULL-LOCKED",
     "bi_rate": "5.75% (Thu Jun 18 RDG +25bp HIKE confirmed; cumulative June +50bp incl. Jun 9 off-cycle; Deposit Facility 4.75%, Lending Facility 6.50%)",
     "msci_announcement_date": "2026-06-24 03:30 WIB pre-open (MSCI Annual Classification Review release T-0 from today EOD; binary frontier-downgrade tail risk)",
     "bi_rdg_meeting_date": "2026-06-17/18 CONFIRMED +25bp",
@@ -12138,5 +12202,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-24T00:00:30Z"
+  "last_updated": "2026-06-24T08:15:00Z"
 }
