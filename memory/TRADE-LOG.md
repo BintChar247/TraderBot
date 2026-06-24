@@ -5778,3 +5778,39 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 #### Notification sent
 
 📈 EOD 2026-06-23: Portfolio IDR 9.856B (0.00% day). Alpha vs IHSG +1.29% (IHSG sesi I provisional 6,037.52 −1.29% on pre-MSCI Annual T-0 defensive derisk + Mideast carry; sesi II final pending multi-source convergence). Cum alpha +19.48% provisional (single-day expansion +1.04pp from reconciled Day 46 +18.44% anchor). KLBF safe-lower carry 1,035 frozen (cluster Day 61 ≥139% 4-source spread persists; TradingView 710 fresh LOW; trailing 931 GTC armed, did not fire). IDR sub-18,000 10-of-10 sustained FULL-LOCKED. Cash 94.55%. Trades wk 0/3 — Week 10 Day 2 (5th consec zero-trade week pattern continues). Wed Jun 24 = MSCI Annual Classification Review release 03:30 WIB pre-open binary T-0 + KLBF dividend payment T-0 IDR 10.38M receivable.
+
+---
+
+### 2026-06-24 09:15 WIB — Market-open — NO TRADES (Week 10 Day 3, MSCI relief day)
+
+**Outcome:** 0 of 3 candidates entered. All 3 (BBCA, TLKM, BMRI) SKIPPED on Gate 9 (chase cap) AND R:R 2:1 entry checklist rule failure as predicted by pre-market plan. 6th consecutive 0/3 week pattern continuation (Wks 6-10). KLBF HELD unchanged.
+
+**Candidates evaluated (per RESEARCH-LOG 2026-06-24 plan):**
+
+- **BBCA — SKIP.** Pre-market planned entry ≤5,950 (R:R 2.05:1 to 6,700 target). Wed open WebSearch cluster: TradingView 6,150 / Pluang 6,150-6,175 / Investing 6,175 = 3 fresh sources spread ~0.4% (passes ≤4% relaxed-outage Data Quality Gate). Open ~6,175 = +3.78% above 5,950 threshold → Gate 9 chase cap FAIL. R:R 1.40:1 to 6,700 target / 5,766 stop → R:R 2:1 rule FAIL. SKIP per discipline.
+- **TLKM — SKIP.** Pre-market planned entry ≤2,830 (R:R 2.0:1 to 3,200 target). Wed open WebSearch cluster: Investing.com 2,950 / TradersUnion 2,960 / Forecast 2,970 = 3 fresh sources spread ~0.7% (passes ≤4% relaxed-outage gate). Open ~2,960 = +4.6% above 2,830 threshold → Gate 9 FAIL. R:R 1.20:1 to 3,250 target → R:R 2:1 FAIL. SKIP.
+- **BMRI — SKIP.** Pre-market planned entry ≤4,000 (R:R 2.0:1 to 4,600 target). Wed open WebSearch cluster: Investing.com 4,170 (-1.18%) / TradingView open 4,200 / intraday range 4,130-4,210 = 3 fresh sources spread ~1.9% (passes ≤4% relaxed gate). Open 4,200 = +4.25% above 4,000 threshold → Gate 9 FAIL. R:R 1.81:1 to 4,600 target → still below 2:1. Plus BBCA preferred over BMRI on franchise quality / NIM headwind. SKIP.
+
+**Held position (KLBF):** Unchanged. State=TRAILING, hwm=1,035, current_stop=931 GTC armed broker-side at Wed 09:00 WIB open; safe-lower carry frozen 1,035 per cluster Day 62 non-convergence persistence. State-3/state-4 transitions remain ARMED but BLOCKED on cluster non-convergence (20 consecutive sessions Day 41-62). KLBF dividend payment T-0 Wed Jun 24 IDR 10,380,000 receivable to verify at EOD.
+
+**Macro confirmation (MSCI relief outcome):**
+- MSCI Annual Classification Review CONFIRMED Indonesia REMAINS Emerging Market (Wed 03:30 WIB pre-open release; per Bareksa / heygotrade / Jakarta Globe multi-source). Frontier-downgrade tail risk REMOVED. "Yellow card" Information Flow downgrade (Jun 18) remains structural overhang but already absorbed.
+- De-escalation criteria status: (a) IDR sub-18,000 11-of-11 PERMANENTLY-LOCKED; (b) Moody's stabilization REGRESSED hawkish-reanchoring; (c) IHSG >5,500 STRONGLY-CONFIRMED; (d) foreign-flow inflection pending Wed direction; (e) MSCI accessibility NEUTRAL-LOCKED post-release. Net 2.5/5 confirmed; regime label moves to DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY. 5% cap binding still per criteria (b)+(d) gating.
+
+**Discipline reflection (Eagerness check):**
+- 6th consecutive 0/3 week pattern (Wks 6-10) = structural cap-binding signal. Wk 9 review Process change #3 mandates explicit slot-utilization evaluation. Wed shows R:R 2:1 rule binds on every clean relief candidate when relief bid is the primary catalyst (post-MSCI bid arrives at the cluster price, not at the planned-entry pullback level). This is a recurring failure mode that the next Wk 10 review should evaluate — possibly the 5% cap × 5,766 stop math leaves R:R structurally infeasible without a meaningful pullback.
+- No forced entries. Discipline holds. Cumulative trial alpha +19.48% provisional protected; 3 fresh slots remain for Thu-Fri.
+
+**Data sources:**
+- Multi-source WebSearch (yfinance + GoAPI Day 62 outage persistent; HTTP 403 host-allowlist + GoAPI not configured)
+- BBCA: TradingView IDX:BBCA / Pluang BBCA / Investing.com BBCA (Wed Jun 24 09:30 WIB approx)
+- TLKM: Investing.com TLKM / TradersUnion TLKM / Forecast model (Wed Jun 24 morning)
+- BMRI: Investing.com BMRI (Wed 10:16 GMT+7) / TradingView IDX:BMRI / Bloomberg BMRI:IJ
+- IHSG MSCI relief: Bareksa / heygotrade / Jakarta Globe (multi-source convergent Wed pre-open)
+
+**Carry-forward to midday scan (11:30 WIB Wed Jun 24):**
+- KLBF stop GTC 931 broker-side armed; multi-source cluster re-eval at midday for state-machine transition opportunity (state-3 ≥1,087 / state-4 ≥1,134; current cluster Day 62 spread persists)
+- KLBF dividend payment T-0 IDR 10,380,000 receivable to verify at EOD posting
+- Watchlist re-eval: re-check if any of BBCA/TLKM/BMRI pull back ≥3% intraday into R:R-clearing zone (BBCA ≤5,950 / TLKM ≤2,830 / BMRI ≤4,000); if achieved with multi-source convergent cluster, re-gate for /trade manual eval. Unlikely on Day 1 of MSCI relief but watch for fade.
+
+#### Notification sent

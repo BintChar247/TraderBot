@@ -7855,6 +7855,165 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Mega-cap defensive-quality bank; MSCI relief Wed pre-open confirmed Indonesia REMAINS EM; foreign-flow inflection candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MSCI Annual Classification Review CONFIRMED EM-status Wed 03:30 WIB pre-open (frontier-downgrade tail risk REMOVED); 23 Buy / 0 Sell PT avg 8,654 (+41.9% upside)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY; relief bid materializing; 5% cap binding (5,000 sh \u00d7 6,175 entry = 30.9M cost = 0.3% would be tiny)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: open 6,150-6,175 = +3.78% above pre-market planned 5,950 (R:R 2:1 entry); also R:R 1.40:1 to 6,700 target \u2014 below 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding under regime; 5% \u00d7 9,856M = 493M; at 6,175 entry = 79,800 sh (within ADV cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source cluster: TradingView 6,150 / Pluang range 6,150-6,175 / Investing 6,175 = 3 sources fresh same-day spread ~0.4% \u2014 passes \u22644% relaxed-outage Data Quality Gate"
+        },
+        {
+          "type": "warning",
+          "label": "Eagerness check: 5th consecutive 0/3 week; entry chasing relief bid above pre-market plan = forced-entry pressure to resist"
+        }
+      ],
+      "reasoning": "MSCI relief bid materialized as predicted, BUT open ~6,175 is +3.78% above pre-market 5,950 R:R-clearing entry threshold = Gate 9 (no chasing) AND R:R 2:1 rule both BIND. Per TRADING-STRATEGY.md entry checklist item 4, target 6,700 / stop 5,766 / entry 6,175 = R:R 1.40:1 below 2:1 minimum. Discipline holds \u2014 SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco-defensive incumbent; post-ex Rp222/sh recovered; Rp4T buyback Jun 9 2026-Jun 8 2027 structural floor; MSCI relief beta-positive defensive bid.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-ex Jun 18 recovery (2,300 \u2192 2,930 in 2 days) + Rp4T buyback ACTIVE (T+0 mechanical bid); MSCI relief beta-positive; PT avg 3,887 (+33% upside)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY; telco-defensive sector momentum positive"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: open ~2,950-2,970 = +4.6% above pre-market planned 2,830 entry; R:R 1.30:1 to 3,250 target \u2014 below 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding; 5% \u00d7 9,856M = 493M; at 2,970 entry = 166,000 sh (within ADV cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source cluster: Investing.com 2,950 / TradersUnion 2,960 / Forecast 2,970 = 3 sources fresh same-day spread ~0.7% \u2014 passes \u22644% relaxed-outage Data Quality Gate"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 62 blocked); no MD_LAST_PRICE_OVERRIDE needed \u2014 no trade placed"
+        }
+      ],
+      "reasoning": "TLKM relief bid materialized as predicted; open ~2,960 is +4.6% above pre-market 2,830 R:R-clearing entry. Gate 9 (no chasing) AND R:R 2:1 (target 3,250 / stop 2,762 / entry 2,960 = 1.20:1) both BIND. Per entry checklist item 4 \u2192 SKIP. Discipline holds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-06-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "#2 SOE bank by assets; pre-MSCI defensive derisk overshoots; relief rebound + 4M-Apr NPAT +19% YoY catalyst; NIM headwind caveat.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MSCI relief Wed pre-open + 4M-Apr 2026 NPAT Rp 18.05T (+19% YoY) + cum-div Tue Jun 23 now ex; foreign net BUY Rp 72.14B Jun 3"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY; bank-cluster relief candidate; NIM-headwind caveat caps conviction"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: open 4,200 / current 4,170 = +2.19-4.25% above pre-market planned 4,000 entry; R:R 1.25:1 to 4,600 target \u2014 below 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap binding; 5% \u00d7 9,856M = 493M; at 4,170 entry = 118,200 sh (within ADV cap)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch multi-source cluster: Investing.com 4,170 / TradingView open 4,200 / intraday range 4,130-4,210 = 3 sources fresh same-day spread ~1.9% \u2014 passes \u22644% relaxed-outage Data Quality Gate"
+        },
+        {
+          "type": "warning",
+          "label": "BBCA preferred over BMRI on franchise quality + NIM headwind (BSI deconsolidation, cost-of-funds, yield compression \u2192 2026 NIM guidance 4.6-4.8%)"
+        }
+      ],
+      "reasoning": "BMRI relief bid materialized; open 4,200 is +4.25% above pre-market 4,000 R:R-clearing entry threshold. Gate 9 (no chasing) AND R:R 2:1 (target 4,600 / stop 3,932 / entry 4,170 = 1.81:1; still below 2:1 minimum) both BIND. Per entry checklist item 4 \u2192 SKIP. BBCA preferred on franchise quality regardless. Discipline holds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -11794,6 +11953,42 @@
       ],
       "commit_hash": "e683672",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-06-24T02:19:51Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 3 pre-market candidates (BBCA/TLKM/BMRI) SKIPPED on Gate 9 chase cap + R:R 2:1 entry checklist failure \u2014 MSCI EM-status relief bid materialized at open above pre-market R:R-clearing entry thresholds (BBCA 6,175 vs \u22645,950 / TLKM 2,960 vs \u22642,830 / BMRI 4,200 vs \u22644,000). KLBF HELD unchanged. Wk 10 Day 3: 0/3 (6th consecutive 0-trade week pattern continuation Wks 6-10).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "open 6,175 vs planned 5,950 = +3.78% (Gate 9 chase + R:R 1.40:1)"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "open 2,960 vs planned 2,830 = +4.6% (Gate 9 chase + R:R 1.20:1)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "open 4,200 vs planned 4,000 = +4.25% (Gate 9 chase + R:R 1.81:1 still sub-2:1)"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "safe-lower 1,035 frozen; stop 931 GTC armed; div payment T-0 IDR 10.38M receivable"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch multi-source cluster used (yfinance/GoAPI Day 62 outage); all 3 candidates passed \u22644% relaxed Data Quality Gate but failed R:R + Gate 9"
+        },
+        {
+          "type": "macro",
+          "detail": "MSCI Annual Classification Review CONFIRMED Indonesia REMAINS EM (Wed 03:30 WIB pre-open) \u2014 frontier-downgrade tail risk REMOVED"
+        }
+      ]
     }
   ],
   "exposure": {
