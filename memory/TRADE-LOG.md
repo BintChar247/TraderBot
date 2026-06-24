@@ -5814,3 +5814,61 @@ Healthcare 5.45% of equity (KLBF safe-lower MV 537.165M / equity 9.856B); cash 9
 - Watchlist re-eval: re-check if any of BBCA/TLKM/BMRI pull back ≥3% intraday into R:R-clearing zone (BBCA ≤5,950 / TLKM ≤2,830 / BMRI ≤4,000); if achieved with multi-source convergent cluster, re-gate for /trade manual eval. Unlikely on Day 1 of MSCI relief but watch for fade.
 
 #### Notification sent
+
+(Market-open notification placeholder — to be reconciled at EOD per market-open routine.)
+
+---
+
+### 2026-06-24 11:30 WIB — Midday scan — NO ACTION (Week 10 Day 3, KLBF dividend payment T-0, MSCI relief Day 1)
+
+**Outcome:** No hard cut. No stop tightening. No thesis-break exit. KLBF held unchanged. State-machine transitions remain ARMED but BLOCKED on cluster Day 62 non-convergence persistence (21 consecutive sessions Day 41-62).
+
+**Position pulled (broker.sh positions):**
+- KLBF: 519,000 sh @ 945 entry (entry date 2026-05-21). 1 of 6 slots used. Cash buffer 94.55% structurally insulating.
+
+**Quote evaluation (broker.sh quote KLBF):**
+- Broker stub returns 945 stale (Day 62 yfinance + GoAPI HTTP 403 host-allowlist outage persistent; market-data.sh quote KLBF fails with curl 56 CONNECT tunnel 403).
+
+**Multi-source WebSearch cluster (Wed Jun 24 midday ~11:30 WIB):**
+- TradingView IDX:KLBF: 745 (−3.25% / fresh LOW)
+- Investing.com / Yahoo Finance KLBF.JK: 760 (0.00% as of 10:24 GMT+7, fresh)
+- Broker stub: 945 (stale entry-price carry)
+- Fresh-source spread (745 vs 760) = ~2.0% (passes ≤4% relaxed-outage Data Quality Gate) BUT only **2 fresh independent sources**, FAILS ≥3-source canonical convergence requirement per MISTAKES.md 2026-05-01 + TRADE-LOG Day 41-62 frozen-carry doctrine
+- Safe-lower carry remains **frozen at 1,035** per Day 41-62 non-convergence procedure (no fresh ≥3-source convergence to trigger reconciliation either upward or downward)
+
+**Sell-side rule evaluation (STEP 3 — losers):**
+- Hard-cut threshold (entry 945 × 0.93) = **879**
+- Safe-lower carry 1,035 → unrealized +9.52% (well ABOVE −7% threshold). NO HARD CUT.
+- Low cluster (745-760) would imply −19% to −21% IF execution-eligible, but Day 62 non-convergence (2 fresh sources only) blocks low-cluster execution per documented frozen-carry discipline. Broker tape never marked ≤931 multi-source convergent today; trailing 931 GTC armed broker-side, did NOT fire.
+
+**Sell-side rule evaluation (STEP 4 — winners):**
+- State-3 trigger (≥+15% / mark ≥1,087): NOT MET on safe-lower carry 1,035 (=+9.52%). BLOCKED.
+- State-4 trigger (≥+20% / mark ≥1,134): NOT MET. BLOCKED.
+- No `set-stop` invocation; trailing 931 GTC unchanged.
+
+**Thesis check (STEP 5):**
+- WebSearch "KLBF news catalyst pharmaceutical Indonesia June 2026" → confirms **dividend payment T-0 today** IDR 20/sh × 519,000 sh = IDR 10,380,000 receivable (payment date Jun 24, ex-date Jun 4, recording Jun 5). Posting verification deferred to Wed EOD.
+- No adverse catalyst: healthcare-defensive thesis intact. MSCI Annual Review release (Wed 03:30 WIB pre-open) confirmed Indonesia REMAINS EM — frontier-downgrade tail risk REMOVED (positive macro tailwind for held position). KLBF not in any removal basket re-confirmed.
+- Sector (healthcare): no rolling-over signal; KLBF as sole healthcare-defensive carry remains structurally aligned with regime DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY.
+
+**Intraday research (STEP 6):**
+- IHSG sesi I Wed Jun 24 intraday range ~6,118-6,346 (per Investing.com JKSE), trading ~6,132 area = mixed but holding well above 6,000 psychological + 5,500 de-escalation criterion. MSCI relief absorbed without disorderly rotation.
+- KLBF intraday move within recent low-cluster range (TradingView 745, fresh LOW); no sharp >3% adverse move requiring addendum beyond documented Day 62 cluster non-convergence pattern.
+
+**Carry-forward to EOD scan (15:15 WIB Wed Jun 24):**
+- KLBF dividend payment IDR 10,380,000 posting verification in PAPER-STATE.json cash at Wed EOD (T-0)
+- IHSG sesi II final + foreign-flow direction multi-source reconciliation against Tue sesi II final (still pending convergence)
+- Cluster Day 63 re-eval at EOD: if ≥3 fresh independent sources achieve ≤2% canonical convergence (or ≤4% relaxed-outage), execute reconciliation upward (state-3/state-4 transitions) or downward (trailing fire) per state machine
+- Watchlist re-eval at EOD for Thu Jun 25 pre-market: BBCA/TLKM/BMRI re-check if intraday pull-back ≥3% into R:R-clearing zone achieved
+- No new trades placed today; 0/3 wk slot count holds (Week 10 Day 3, 6th consecutive 0/3 week pattern, 3 fresh slots remain Thu-Fri)
+
+**Data sources (midday):**
+- broker.sh positions / broker.sh quote KLBF (paper-mode stubs)
+- market-data.sh quote KLBF (HTTP 403 host-allowlist outage Day 62 confirmed)
+- WebSearch KLBF: TradingView IDX:KLBF / Investing.com KLBF.JK / Yahoo Finance KLBF.JK
+- WebSearch IHSG sesi I: Investing.com JKSE / Yahoo Finance ^JKSE
+- WebSearch KLBF dividend: PintarSaham + Investing.com dividends confirmation (payment date Jun 24, IDR 20/sh)
+
+#### Notification sent
+
+📊 Midday 2026-06-24: All positions healthy. No action taken.

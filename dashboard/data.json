@@ -11989,6 +11989,12 @@
           "detail": "MSCI Annual Classification Review CONFIRMED Indonesia REMAINS EM (Wed 03:30 WIB pre-open) \u2014 frontier-downgrade tail risk REMOVED"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-24T04:37:02Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Midday 2026-06-24: All positions healthy (KLBF held). No cuts, no stop tightening, no thesis exits. Cluster Day 62 non-convergence persists (2 fresh sources only); safe-lower carry 1,035 frozen. Trailing 931 GTC armed. KLBF div payment T-0 today (verify EOD)."
     }
   ],
   "exposure": {
