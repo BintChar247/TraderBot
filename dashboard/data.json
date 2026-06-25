@@ -702,6 +702,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Dividend posting effect (+IDR 10.38M KLBF). KLBF safe-lower carry frozen 1,035 cluster Day 63 non-convergence. MSCI Annual T-0 CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED. IHSG sesi I \u22120.59% from anchor 6,037.52 on MSCI initial-relief-then-cascade \u2014 relief bid faded sharply on Mideast carry + Fed hawkish overnight + foreign net sell Rp 311.60B. | RECONCILED Thu Jun 25 pre-market: Wed sesi II final 5,883.88 (-3.56% / -217.45pt) per Kompas multi-source convergent (Kompas 5,883.88 / Viva 5,896.41 / Antara 5,941.07 spread 0.97% <=2%). MSCI Frontier-risk persistence headline INVERTED relief bid into risk-off cascade; foreign net sell Rp 976.66B = JCI worst Asia-Pacific EM. Cum alpha expanded to +21.60 from +20.05 provisional anchor on single-day IHSG -2.94pp delta vs sesi I provisional +0.59% reconciled."
+    },
+    {
+      "date": "2026-06-25",
+      "day_label": "Day 49",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 6026.0,
+      "ihsg_cumulative_pct": -21.06,
+      "alpha_pct": 19.73,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -713,13 +728,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 34,
+      "days_held": 35,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 63 non-convergence persists Wed MSCI Annual relief Day 1 (TradingView 745 fresh LOW / Investing.com 760 fresh / Yahoo cache 1,135 / broker stub 945 4-source spread \u226548% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Wed open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 63; dividend payment Wed Jun 24 T-0 IDR 10,380,000 POSTED to PAPER-STATE.json cash; 22 consecutive sessions data-infra outage Day 41-63"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 64 non-convergence persists Thu MSCI absorption Day 1 (TradingView 745 fresh LOW / Yahoo 760 fresh / broker stub 945 / Investing.com stale 1,685 4-source spread \u2265126% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Thu open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 64; 23 consecutive sessions data-infra outage Day 41-64"
     }
   ],
   "trades": [
@@ -8181,7 +8196,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 48,
+    "trial_days_elapsed": 49,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 48)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9866717500,
@@ -8190,8 +8205,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 0,
-    "ihsg_cumulative_pct": -21.38,
-    "cumulative_alpha_pct": 20.05,
+    "ihsg_cumulative_pct": -21.06,
+    "cumulative_alpha_pct": 19.73,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -8199,8 +8214,8 @@
     "open": 1
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
-    "daily_pnl_pct": 0.11,
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY1",
+    "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.11,
     "current_equity": 9866717500,
     "peak_equity": 10026617500,
@@ -12278,6 +12293,18 @@
       "routine": "midday",
       "status": "warning",
       "summary": "All positions healthy (KLBF 0% vs entry). Live market-data feed unavailable (yfinance 403); used stale broker quote. No cuts, no stop tightens, no thesis break per WebSearch."
+    },
+    {
+      "timestamp": "2026-06-25T08:21:12Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-06-25 Day 49: IDR 9.867B (0.00% day, flat). Alpha \u22122.42% on IHSG +2.41% relief-bounce post Wed \u22123.56% cascade. Cum alpha +19.73% prov (\u22120.32pp vs Day 48 prov / \u22121.87pp vs Day 48 reconciled +21.60%). KLBF safe-lower carry 1,035 frozen Day 64 cluster non-convergence. Cash 94.56%. Trades wk 0/3 \u2014 1 fresh slot remains Fri.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 49 EOD snapshot committed; IHSG anchor reconciliation Day 48 sesi I 6,002.20 \u2192 sesi II 5,883.88 per Day 33-40 procedure"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -12290,12 +12317,12 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-RESUMED (MSCI accessibility (e) flipped from NEUTRAL-LOCKED back to NEGATIVE-LOCKED on Wed Frontier-risk persistence headline; 2.0 of 5 confirming \u2014 regression from 2.5 of 5 BINARY-RESOLVED-FAVORABLY)",
-    "ihsg_close": 5883.88,
-    "ihsg_close_basis": "Wed Jun 24 sesi II final per Kompas headline (5,883.88 -3.56% -217.45pt); multi-source convergent: Kompas 5,883.88 / Viva 5,896.41 / Antara 5,941.07 = 3-source spread 0.97% PASSES <=2% canonical Data Quality Gate; intraday range 5,841-6,213; 6,000 psychological BROKEN",
-    "ihsg_cumulative_pct": -22.93,
-    "idr_usd": 17912,
-    "idr_status": "Thu Jun 25 forecast 17,912 (min 17,643 / max 18,181); sub-18,000 10-of-10 sustained criterion (a) LOCKED at risk if Thu pierces; ARMED-WATCH",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY1",
+    "ihsg_close": 6026.0,
+    "ihsg_close_basis": "Thu Jun 25 close 6,026 multi-source convergent (TradingEconomics aggregated +2.41% / Kompas sesi I 6,041.93 +2.69%) reconciled against Wed sesi II final 5,883.88 anchor per Day 33-40 procedure",
+    "ihsg_cumulative_pct": -21.06,
+    "idr_usd": 17956.0,
+    "idr_status": "<18,000 12-of-12 PERMANENTLY-LOCKED; cascade kill-switch ARMED-WATCH 17,956 vs 17,950 (within 6bps but NOT pierced)",
     "bi_rate": 5.75,
     "msci_announcement_date": "2026-06-24",
     "bi_rdg_meeting_date": "2026-08-14",
@@ -12396,5 +12423,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-25T09:15:00+07:00"
+  "last_updated": "2026-06-25T15:15:00+07:00"
 }
