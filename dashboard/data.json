@@ -8031,6 +8031,153 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-MSCI cascade mean-reversion candidate \u2014 bank franchise oversold bounce; R:R 2:1 requires entry \u22645,890 vs Wed close 5,925.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-MSCI cascade mean-reversion + bank-cluster oversold bounce"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-RESUMED; 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.87:1 at 5,925 below 2:1 minimum (Entry Checklist item 4)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u00d7 9.82B = 491M (83,300 sh @ 5,890 if entered)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price cluster (yfinance/GoAPI Day 64 outage)"
+        }
+      ],
+      "reasoning": "Cluster \u22653-source canonical PASS at 5,925 (Investing/TV/Yahoo/Google Fin/Bloomberg); R:R 2:1 rule binds \u2014 at 5,925 yields 1.87:1, fails \u22652:1 minimum; pre-market plan explicit SKIP if Thu open >5,890.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-ex defensive bid + Rp4T buyback structural floor; cluster non-convergent at filing \u2014 Data Quality Gate fails.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rp4T buyback + post-ex defensive bid mean-reversion"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-RESUMED; 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: cluster spread 18% (TradingView 2,500 fresh vs Investing 2,960 stale Jun 17)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u00d7 9.82B = 491M (would size at \u22642,830 if cluster converged)"
+        },
+        {
+          "type": "warning",
+          "label": "Cluster <3 fresh same-day sources; fails canonical \u22642% AND relaxed-outage \u22644%"
+        }
+      ],
+      "reasoning": "Cluster non-convergent: TradingView 2,500 fresh (\u22121.57%) vs Investing.com 2,960 stale (Jun 17 quote); spread 18.4% FAILS canonical \u22642% AND relaxed-under-outage \u22644%; <3 fresh same-day sources.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-06-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Bank-cluster oversold bounce conditional on BBCA\u2192BMRI follow-through; BBCA SKIP cascades + IDR cascade kill-switch ARMED-WATCH.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Bank-cluster oversold bounce conditional on BBCA follow-through"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-RESUMED; IDR 17,956 vs 17,950 cascade kill-switch (1-of-2 ARMED-WATCH)"
+        },
+        {
+          "type": "risk",
+          "label": "LOW PRIORITY conditional precedent FAILS; NIM headwind caveat (2026 NIM 4.6-4.8%)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap \u00d7 9.82B = 491M (123,600 sh @ 3,970)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price cluster (yfinance/GoAPI Day 64 outage); 2 fresh sources relaxed PASS"
+        }
+      ],
+      "reasoning": "R:R 2.27:1 at 3,970 passes; 9 gates pass; BUT pre-market plan LOW PRIORITY conditional on BBCA\u2192BMRI bank-cluster follow-through \u2014 BBCA SKIPPED on R:R fail = no follow-through case; NIM headwind caveat + IDR 17,955.60 ARMED-WATCH (vs 17,950 cascade kill-switch threshold) macro overlay binds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -12089,6 +12236,42 @@
           "detail": "Regime flipped DEFENSIVE-INTENSIFIED-CASCADE-RESUMED on MSCI accessibility NEGATIVE-LOCKED (Frontier-risk Nov 2026 persistence)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-25T02:21:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Thu Jun 25. 3 candidates evaluated (BBCA/TLKM/BMRI), all SKIP. BBCA R:R 1.87:1 at 5,925 (<2:1; requires \u22645,890 pullback). TLKM Data Quality Gate fails (cluster 18% spread, TradingView 2,500 fresh vs Investing 2,960 stale). BMRI LOW PRIORITY conditional on BBCA\u2192BMRI follow-through fails (BBCA SKIP) + IDR 17,956 cascade kill-switch ARMED-WATCH (vs 17,950). KLBF held; trailing 931 GTC re-armed. 6th consec 0/3 wk pattern (Wk 10 Day 4).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "R:R 1.87:1 < 2:1 at 5,925"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Data Quality Gate FAIL (cluster 18% spread; <3 fresh sources)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "LOW PRIORITY conditional on BBCA follow-through fails + IDR ARMED-WATCH"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "trailing 931 GTC re-armed; cluster Day 64 non-convergent"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance/GoAPI Day 64 outage)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram channel blocked HTTP 403; notification printed to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -12207,5 +12390,5 @@
       }
     ]
   },
-  "last_updated": "2026-06-25T00:00:00Z"
+  "last_updated": "2026-06-25T09:15:00+07:00"
 }
