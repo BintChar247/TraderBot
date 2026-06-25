@@ -12272,6 +12272,12 @@
           "detail": "Telegram channel blocked HTTP 403; notification printed to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-25T04:36:01Z",
+      "routine": "midday",
+      "status": "warning",
+      "summary": "All positions healthy (KLBF 0% vs entry). Live market-data feed unavailable (yfinance 403); used stale broker quote. No cuts, no stop tightens, no thesis break per WebSearch."
     }
   ],
   "exposure": {
