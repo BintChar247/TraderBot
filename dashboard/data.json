@@ -12305,6 +12305,44 @@
           "detail": "Day 49 EOD snapshot committed; IHSG anchor reconciliation Day 48 sesi I 6,002.20 \u2192 sesi II 5,883.88 per Day 33-40 procedure"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-26T00:15:22Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 10 Day 5 pre-market: 50-ticker scan. 2 candidates \u22656: UNVR (6, MNC Fri TOP PICK, R:R 2.62:1, Brent-collapse CPI-relief tailwind) + BBCA (6, Thu sesi I foreign net buy bid faded, R:R 2.01:1 marginal). IHSG Thu close 5,999. Foreign flow inflection FAILS Thu (sesi I buy faded to full-day net sell).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan, all sectors"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (UNVR/BBCA)"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 6/10 \u2014 MNC Sekuritas Fri TOP PICK Spec Buy 1,675-1,685 TP 2,000 R:R 2.62:1"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Thu sesi I foreign top net buy bid attempt + post-MSCI mean-reversion R:R 2.01:1 marginal at \u22645,890"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 5/10 conditional on cluster \u22642,830 convergence"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 5/10 BEI weight +24bp tailwind ARBITRAGED Thu via top-foreign-sell"
+        }
+      ],
+      "commit_hash": "965d98d",
+      "commit_message": ""
     }
   ],
   "exposure": {
@@ -12347,81 +12385,75 @@
     "foreign_flow_thu": "Wed Jun 24 net sell Rp 976.66B = JCI worst Asia-Pacific EM Wed (3.1x acceleration vs Tue Rp 311.6B); cumulative YTD ~Rp 80T+ outflow; post-MSCI shock re-acceleration phase"
   },
   "research": {
-    "date": "2026-06-25",
+    "date": "2026-06-26",
     "holiday": false,
     "candidates_count": 2,
-    "candidates_actionable_count": 0,
-    "candidates_top_score": 7,
+    "candidates_actionable_count": 2,
+    "candidates_top_score": 6,
     "headlines": [
       {
-        "title": "IHSG Wed Jun 24 sesi II final 5,883.88 (-3.56% / -217.45pt) on MSCI Frontier-risk persistence shock; 6,000 psychological BROKEN; foreign net sell Rp 976.66B = JCI worst Asia-Pacific EM Wed",
-        "url": "https://money.kompas.com/read/2026/06/24/165619726/rabu-24-juni-2026-ihsg-ditutup-turun-217-poin-ke-588388-bumi-beban"
+        "title": "IHSG Thu Jun 25 sesi II final 5,999.03 (+1.96% / +115.15pt) multi-source convergent; sub-6,000 narrow miss; LQ45 +1.66% to 587.75; day range 5,864-6,056",
+        "url": "https://www.cnbcindonesia.com/market/20260625161214-17-745755/ihsg-sesi-kedua-ditutup-menguat-196-ke-level-5999/amp"
       },
       {
-        "title": "MSCI Annual Classification Review: Indonesia REMAINS EM but Information Flow indicator downgraded '+' to '-'; consultation possibility on Frontier-downgrade by Nov 2026 if reforms don't progress = MSCI accessibility NEGATIVE-LOCKED (relief INVERTED to risk-off)",
-        "url": "https://www.idnfinancials.com/news/65119/indonesia-stays-in-msci-em-frontier-risk-if-inconsistencies-persist"
+        "title": "Foreign flow inflection FAILS Thu: sesi I net buy Rp 187B (BBCA/DSSA bid) faded to full-day net sell Rp 201B regular / Rp 299B total; BMRI top net sell Rp 224B = BEI weight +24bp tailwind ARBITRAGED pre-effective Jul 1",
+        "url": "https://money.kompas.com/read/2026/06/25/183633026/asing-cabut-rp-201-miliar-saat-ihsg-ditutup-melonjak-196-persen"
       },
       {
-        "title": "Thu IHSG forecast: technical rebound possible 5,750-5,847 support / 5,930 resistance per MNC Sekuritas + BRI Danareksa; correction continuation possible to 5,723-5,847 range",
-        "url": "https://investor.id/market/443977/prediksi-ihsg-dan-rekomendasi-saham-kamis-25-juni-2026"
+        "title": "BEI IHSG weight re-evaluation effective Jul 1: BBCA -53bp (9.53%->9.00%) / BBRI -50bp / BMRI +24bp / BBNI +4bp = passive rotation BBCA/BBRI -> BMRI/BBNI",
+        "url": "https://katadata.co.id/finansial/bursa/6a3cd5647625b/bei-turunkan-bobot-saham-bbca-bbri-ke-ihsg-bagaimana-nasib-bbni-bmri"
       },
       {
-        "title": "Brent crude collapsed -5.23% to $73.05/bbl (lowest since Feb 2026) on Strait of Hormuz shipping easing + US-Iran peace progress; LME nickel -2.00% to $16,885 2-mo low; Newcastle coal $144 carry",
-        "url": "https://sundayguardianlive.com/business/brent-crude-oil-price-today-june-24-brent-falls-below-77-as-strait-of-hormuz-shipping-eases-iran-supply-outlook-weighs-on-oil-markets-check-latest-brent-crude-wti-oil-rates-today-212306/"
+        "title": "MNC Sekuritas Fri Jun 26 TOP PICKS: MAPA, MEDC, UNTR, UNVR; UNVR Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670 = analyst-defined R:R-clean setup for defensive consumer",
+        "url": "https://www.liputan6.com/saham/read/7977042/rekomendasi-saham-25-juni-2026-myor-aadi-tlkm-klbf-bfin-unvr"
       },
       {
-        "title": "US Wed Jun 24: S&P -0.10% / Nasdaq -0.43% chip-sector weakness ahead of Micron earnings (after-hours binary); Dow +0.35% non-tech bid; VIX 19.49 elevated",
-        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-24-2026"
+        "title": "Phintraco Fri IHSG range 5,850-6,100 sideways; Brent collapse near $70 = positive sentiment driver via CPI-relief tailwind; MNC range koreksi 5,723-5,847 / penguatan 6,060-6,120",
+        "url": "https://money.kompas.com/read/2026/06/26/061000626/prediksi-ihsg-jumat-26-juni-2026--waspada-koreksi-ini-rekomendasi-saham"
       },
       {
-        "title": "Asian Wed: Hang Seng -1.80% / Nikkei -0.88% / Shanghai down on semis contagion + EM-risk-off; KOSPI -10% Mon semis-led drag carry",
-        "url": "https://tradingeconomics.com/hong-kong/stock-market"
+        "title": "Brent crude continuation collapse near $70 (Thu Wed $73.05 baseline -5.23%); LME nickel $16,880.50 Thu close -0.17% consolidating 2-mo low; Newcastle coal $144 carry",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       },
       {
-        "title": "IDR/USD Thu forecast 17,912 (min 17,643 / max 18,181); Tue spot 17,929.20 (+0.52%) modest backslide; sub-18,000 10-of-10 sustained criterion (a) LOCKED at risk if Thu pierces",
-        "url": "https://30rates.com/usd-to-idr-today-forecast-dollar-indonesian-rupiah"
+        "title": "US Thu Jun 25: S&P 7,357.49 -0.01% / Nasdaq 25,358.60 -0.46% (4th down day; Apple/Microsoft Mag7 drag overshadows Micron earnings beat) / Dow 51,920.62 +0.14% new all-time intraday high",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026"
       },
       {
-        "title": "BBCA Wed close 5,925 (-2.87%) - pullback into R:R-clear zone (\u22645,890 entry/6,700 target = 2.02:1); BBRI 2,920 (-2.05%) strike-1 binding SKIP; BBNI 3,650 (-0.54%)",
-        "url": "https://www.investing.com/equities/bnk-central-as"
-      },
-      {
-        "title": "BRI Danareksa Thu picks: NCKL buy 925-965 PT 980-1,050; MDKA buy 2,650-2,700 PT 2,850-2,940 = technical-only (no fundamental catalyst per TRADING-STRATEGY catalyst-track requirement)",
-        "url": "https://investor.id/market/443977/prediksi-ihsg-dan-rekomendasi-saham-kamis-25-juni-2026"
-      },
-      {
-        "title": "Coal sector EXITED continuation: ADRO 2,250 (-1.75%) / PTBA 2,420 (-2.42%) / ITMG 21,975 (-1.68%) / HRUM 760 (-7.32%); 2-strike rule + Danantara Phase 1 binding",
-        "url": "https://finance.yahoo.com/quote/ADRO.JK/"
+        "title": "IDR/USD Thu close 17,943 (sub-18,000 13-of-13 sustained PERMANENTLY-LOCKED); cascade kill-switch 17,950 within 6bps but NOT pierced",
+        "url": "https://www.liputan6.com/saham/read/7977042/rekomendasi-saham-25-juni-2026-myor-aadi-tlkm-klbf-bfin-unvr"
       }
     ],
     "candidates": [
       {
-        "ticker": "BBCA",
-        "sector": "Banking",
-        "score": 7,
-        "status": "CANDIDATE-CONDITIONAL",
+        "ticker": "UNVR",
+        "sector": "Consumer",
+        "score": 6,
+        "status": "CANDIDATE",
         "conviction": "MEDIUM",
-        "catalyst": "Pullback into R:R-clear zone post Wed -2.87% MSCI cascade (5,925 close); PE 12.7 vs sector 13.3; PT avg 8,654 (+46% upside); 23 Buy / 0 Sell; BI 5.75% NIM-supportive for CASA franchise; technical 5,750 support / 5,930 resistance per MNC Sekuritas; oversold rebound candidate IF foreign-flow inflection materializes Thu",
-        "entry_max": 5890,
-        "hard_cut": 5478,
-        "target": 6700,
-        "rr_at_chase_cap": "1.81:1 at 5,950 / 2.02:1 only at <=5,890 (FAILS 2:1 unless entry <=5,890)",
-        "size_cap_pct": 5
+        "entry_max": 1690,
+        "hard_cut": 1572,
+        "target": 2000,
+        "rr_ratio": 2.62,
+        "position_size_idr": 491000000,
+        "shares": 290000,
+        "catalyst": "MNC Sekuritas Fri TOP PICK Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670; Brent collapse near $70 = CPI-relief tailwind for defensive consumer; B50 CPO effective Jul 1 = structural input dynamic"
       },
       {
-        "ticker": "TLKM",
-        "sector": "Telco",
+        "ticker": "BBCA",
+        "sector": "Banking",
         "score": 6,
-        "status": "CANDIDATE-CONDITIONAL",
+        "status": "CANDIDATE",
         "conviction": "MEDIUM",
-        "catalyst": "Post-ex Rp222/sh defensive bid pressured into MSCI cascade Wed but Rp4T buyback structural floor active T+0; PT avg 3,887 (+38% upside from estimated 2,820); 16 Buy / 0 Sell; July 10 dividend payment yield 7.6%",
-        "entry_max": 2830,
-        "hard_cut": 2632,
-        "target": 3250,
-        "rr_at_chase_cap": "2.12:1 at 2,830 (PASSES 2:1)",
-        "size_cap_pct": 5
+        "entry_max": 5890,
+        "hard_cut": 5477,
+        "target": 6723,
+        "rr_ratio": 2.01,
+        "position_size_idr": 491000000,
+        "shares": 83300,
+        "catalyst": "Thu sesi I foreign top net buy BBCA/DSSA Rp 187B bid attempt (Katadata); post-MSCI absorption Day 2 mean-reversion; PE fwd 12.0; PT avg 8,909 (+48%); 21+ Buy / 0 Sell; BEI weight cut -53bp T+3 already-priced via Thu sesi II fade"
       }
     ]
   },
-  "last_updated": "2026-06-25T15:15:00+07:00"
+  "last_updated": "2026-06-26T00:15:10Z"
 }
