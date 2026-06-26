@@ -12579,6 +12579,12 @@
           "detail": "Telegram notification fallback to stdout (proxy 403)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-26T04:35:51Z",
+      "routine": "midday",
+      "status": "warning",
+      "summary": "1 open position (KLBF); live market data unavailable (yfinance/Telegram blocked by proxy). Stale quote = entry, no -7% cut or stop tighten triggered."
     }
   ],
   "exposure": {
