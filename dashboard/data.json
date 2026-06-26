@@ -8193,6 +8193,202 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MNC Sekuritas Fri top pick + Brent collapse CPI-relief tailwind + B50 CPO supportive; defensive consumer mean-reversion bid",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MNC Sekuritas Fri TOP PICK Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY2; Brent ~$73 not sub-$70 sustained"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL \u2014 live cluster ~1,765 vs planned entry \u22641,690 = +4.43% > 3% chase cap"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9.82B / 1,690 = ~290,000 sh"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 65 blocked)"
+        }
+      ],
+      "reasoning": "Live multi-source cluster ~1,765 (TradingView/Investing) exceeds planned entry \u22641,690 by +4.4% \u2014 Gate 9 chase cap fails. Additionally Brent ~$73 not sub-$70 sustained = conditional entry condition (iv) CPI-relief tailwind not validated. Pre-market plan binds SKIP per disciplined R:R-protection.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive mega-cap bank + Thu sesi I foreign bid attempt + post-MSCI absorption Day 2 mean-reversion candidate",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Thu sesi I top foreign net buy bid (Katadata) faded to full-day net sell; post-MSCI relief Day 2"
+        },
+        {
+          "type": "macro",
+          "label": "BEI weight cut \u221253bp effective Jul 1; BI 5.75% NIM-supportive franchise"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.87:1 at carry 5,925 (entry 5,925 / hard-cut 5,510 / target 6,700 = 775/415) < 2:1 minimum"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9.82B / 5,890 = ~83,300 sh"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 65 blocked)"
+        }
+      ],
+      "reasoning": "Live cluster ~5,925-6,000 above planned entry \u22645,890; R:R 1.87:1 at carry below 2:1 minimum per TRADING-STRATEGY.md item 4. Mirror of Thu logic: pre-market plan requires Fri pullback \u22645,890 absent. SKIP per discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-06-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive bid + Rp4T buyback structural floor + post-ex recovery thesis",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "TLKM Rp4T buyback structural floor up to Rp1T monthly cap"
+        },
+        {
+          "type": "macro",
+          "label": "defensive telco bid post-MSCI absorption"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL \u2014 cluster \u226530% spread (TradingView ~3,620 vs research log carry ~2,850-2,960); FAILS \u22653-source \u22644% relaxed-under-outage"
+        },
+        {
+          "type": "sizing",
+          "label": "deferred (no anchored mark)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 65 blocked); cluster non-convergent"
+        }
+      ],
+      "reasoning": "Live multi-source TLKM cluster fails Data Quality Gate (TradingView open 3,650 vs research log carry ~2,850-2,960 vs Investing Jun 17 stale 2,960 = >25% spread). No anchored entry mark possible. Pre-market plan condition (i) \u22642,830 cluster convergent unmet.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-06-26",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Bank-cluster oversold bounce conditional on BBCA follow-through; BEI weight +24bp tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BEI IHSG weight +24bp effective Jul 1 tailwind ARBITRAGED Thu via top-foreign-sell Rp 224B"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY2; NIM headwind binding"
+        },
+        {
+          "type": "risk",
+          "label": "Cascading conditional FAIL \u2014 pre-market plan requires (i) BBCA bid extension + (ii) foreign flow re-flip; BBCA SKIPPED + Thu foreign top net sell Rp 224B not re-flipped"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9.82B / 4,000 = ~122,500 sh"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 65 blocked)"
+        }
+      ],
+      "reasoning": "LOW PRIORITY conditional on BBCA \u2192 BMRI bank-cluster follow-through; BBCA SKIPPED on R:R fail. Thu foreign top net sell Rp 224B = passive-rebal arb completed pre-effective; re-flip not confirmed. NIM headwind caveat + IDR ARMED-WATCH (17,954 vs 17,950) overlay compounds against marginal-quality conditional entry.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -12343,6 +12539,46 @@
       ],
       "commit_hash": "965d98d",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-06-26T02:21:10Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Fri Jun 26 (Week 10 Day 5 final). 4 candidates evaluated (UNVR/BBCA/TLKM/BMRI), all SKIPPED: UNVR Gate 9 chase cap fail + Brent not sub-$70 (cond iv); BBCA R:R 1.87:1 fails 2:1 minimum at cluster 5,925-6,000; TLKM Data Quality Gate fails (cluster \u226525% spread); BMRI cascading conditional fail. KLBF held; trailing 931 GTC re-armed; cluster Day 65 non-convergence persists. Week 10 final 0/3 = 7th consecutive 0/3 week (18 unused slots Wks 6-10).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Gate 9 chase cap fail (1,765 vs \u22641,690 = +4.4%); Brent not sub-$70 sustained"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "R:R 1.87:1 at cluster 5,925-6,000 < 2:1 min"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Data Quality Gate fails (cluster \u226525% spread)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Cascading conditional fail (BBCA SKIP + foreign re-flip unmet)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 65 blocked); cluster non-convergent on TLKM"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR ARMED-WATCH 17,954 vs 17,950 cascade kill-switch (1 of 2 sessions pierce)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification fallback to stdout (proxy 403)"
+        }
+      ]
     }
   ],
   "exposure": {

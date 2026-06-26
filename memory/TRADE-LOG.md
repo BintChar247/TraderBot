@@ -6149,3 +6149,107 @@ Healthcare 5.44% of equity (KLBF safe-lower MV 537.165M / equity 9.867B); cash 9
 
 📈 EOD 2026-06-25: Portfolio IDR 9.867B (0.00% day, flat). Alpha vs IHSG −2.42% on IHSG +2.42% relief-bounce post Wed −3.56% MSCI cascade Day 1 absorption. Cum alpha +19.73% provisional (−0.32pp single-day contraction vs Day 48 provisional +20.05%; reconciled −1.87pp vs reconciled Day 48 +21.60% after Wed sesi II final 5,883.88 anchor reconciliation per Day 33-40 procedure). KLBF safe-lower carry 1,035 frozen (cluster Day 64 ≥126% 4-source spread persists; TradingView 745 fresh LOW; trailing 931 GTC armed, did not fire). IDR sub-18,000 12-of-12 PERMANENTLY-LOCKED (Thu spot 17,956 within 6bps of cascade kill-switch 17,950 but NOT pierced). Cash 94.56%. Trades wk 0/3 — Week 10 Day 4 (6th consec zero-trade week pattern continues; 1 fresh slot remains Fri).
 
+---
+
+### 2026-06-26 09:15 WIB — MARKET-OPEN — NO TRADES (Week 10 Day 5, last live session + weekly review day; post-MSCI absorption Day 2)
+
+**Routine:** market-open execution (Week 10 Day 5, Fri Jun 26; post-MSCI absorption Day 2 after Thu relief-bounce Day 1 sesi II final 5,999.03 +1.96%; KLBF Day 65 data-infra outage persists 24 consecutive sessions Day 41-65).
+
+**Candidates evaluated:** UNVR (TOP), BBCA (SECOND), TLKM (LOW), BMRI (LOW) — per RESEARCH-LOG 2026-06-26 pre-market plan (2 scored ≥6, 2 elevated WATCH conditional).
+
+**Decision: SKIP ALL FOUR candidates.** No buys placed; 0/3 trades Week 10 (7th consecutive 0/3 week pattern continuation Wks 6-10; 18 cumulative unused slots Wks 6-10).
+
+**Multi-source price cluster (WebSearch fallback per Data Quality Gate; yfinance/GoAPI Day 65 outage HTTP 403):**
+
+| Ticker | Sources (Fri Jun 26 fresh) | Cluster | DQ Gate |
+|--------|----------------------------|---------|---------|
+| UNVR | TradingView 1,765 / TradingView ID 1,765 / Investing.com 1,765 (MNC Spec Buy 1,675-1,685) | ~1,765 convergent | PASS relaxed but ABOVE planned entry |
+| BBCA | Wed Jun 24 close 5,925 carry / TradingView 5,925 / fxstreet 6,000 (Thu sesi I bid) | 5,925-6,000 | PASS but ABOVE planned ≤5,890 |
+| TLKM | TradingView 3,620-3,660 (TradingView open Fri) vs research log carry 2,850-2,960 vs Investing Jun 17 stale 2,960 | spread ≥25% | **FAIL canonical AND relaxed-outage** |
+| BMRI | (cluster not fully resolved; carry ~4,200 Thu) | n/d | n/d (cascading conditional fail dominates) |
+
+**9-gate buy-side checklist (per candidate):**
+
+**UNVR** — SKIP (TOP PRIORITY but Gate 9 chase cap fails)
+1. Total positions ≤6 after fill (KLBF + UNVR = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 1,690 × 290,000 sh = 490.1M ≈ 4.99%): PASS
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (MNC Sekuritas Fri TOP PICK Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670 + Brent collapse CPI-relief tailwind + B50 CPO supportive): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (UNVR typical ~10-15M): PASS
+8. Lot size multiple of 100 (290,000 sh): PASS
+9. **Gate 9 FAIL** — live cluster 1,765 vs planned entry ≤1,690 = +4.43% above planned price > 3% chase cap per Gate 9
+- **Pre-market plan conditional entry condition (i) FAIL:** Fri open ≤1,690 multi-source ≥3 fresh sources convergent — live cluster 1,765 exceeds threshold +4.4%
+- **Pre-market plan conditional entry condition (iv) FAIL:** Brent collapse continuation confirmed sub-$70 sustained — Brent ~$73.05 Wed close (not sub-$70 sustained); CPI-relief tailwind for UNVR thesis NOT validated
+- R:R 2.62:1 at 1,690/2,000 PASSES strategy R:R but BLOCKED by upstream Gate 9 + condition (i) + condition (iv) compound failure
+- Defensive-Quality Track SUSPENDED per regime DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY2
+
+**BBCA** — SKIP (SECOND PRIORITY but R:R fails at cluster mark)
+1. Total positions ≤6 after fill (KLBF + BBCA = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 5,890 × 83,300 sh = 490.6M ≈ 5.00%): PASS
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (Thu sesi I top foreign net buy bid attempt + post-MSCI absorption Day 2 mean-reversion candidate + BEI weight cut −53bp T+3 partial-priced thesis): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (~50M+ BBCA): PASS
+8. Lot size multiple of 100 (83,300 sh): PASS
+9. Current price not moved >3% from planned entry (cluster 5,925-6,000 vs planned ≤5,890 = +0.6% to +1.9% drift): PASS within Gate 9
+- **Strategy R:R 2:1 rule BINDING FAIL** at 5,925 cluster mark (mirror Thu logic): entry 5,925 / hard-cut 5,510 (−7%) / target 6,700 / R:R = 775/415 = **1.87:1 < 2:1 minimum** per TRADING-STRATEGY.md Entry Checklist item 4
+- **Pre-market plan conditional entry condition (i) FAIL:** Fri open ≤5,890 multi-source convergent — live cluster 5,925-6,000 above threshold
+- **Pre-market plan conditional entry condition (iii) UNVERIFIED:** Fri first 30-min foreign-flow net buy / BBCA accumulation re-engages — Thu pattern was sesi I bid faded to net sell Rp 201B/Rp 299B; Fri direction unverifiable at 09:15 filing
+- Defensive-Quality Track SUSPENDED per regime
+
+**TLKM** — SKIP (Data Quality Gate fails: cluster non-convergent)
+1-8. All gates PASS (mirror BBCA structure; 173,400 sh × 2,830 ≈ 490.7M ≈ 5%)
+9. **Gate 9 + Data Quality Gate FAIL** — cluster non-convergent: TradingView Fri open ~3,620-3,660 vs research log carry estimate 2,850-2,960 vs Investing.com Jun 17 stale 2,960 = ≥25% spread; FAILS canonical ≤2% AND relaxed-under-outage ≤4%; <3 fresh same-day sources surface a convergent mark
+- Per TRADING-STRATEGY.md Data Quality Gate L75-100: cluster fails canonical and relaxed criteria; no anchored entry mark possible
+- R:R 2:1 evaluation deferred (no anchored entry mark)
+- Pre-market plan condition (i) ≤2,830 cluster convergent unmet
+- Defensive-Quality Track SUSPENDED per regime
+
+**BMRI** — SKIP (cascading conditional fail)
+1. Total positions ≤6 after fill (KLBF + BMRI = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 4,000 × 122,500 sh = 490.0M ≈ 4.99%): PASS
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (bank-cluster conditional on BBCA follow-through; BEI weight +24bp ARBITRAGED Thu via top-foreign-sell Rp 224B): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (~30M+ BMRI): PASS
+8. Lot size multiple of 100 (122,500 sh): PASS
+9. Current price not moved >3% from planned entry (carry ~4,200 Thu vs planned ≤4,000 = +5% drift): **Gate 9 marginal FAIL** at carry; cluster Fri not anchored
+- **Pre-market plan conditional precedent FAILS:** "BBCA bid attempt sesi I extends to BMRI follow-through" — BBCA SKIPPED on R:R fail; no bank-cluster bid initiator
+- **Pre-market plan conditional entry condition (ii) FAIL:** "foreign-flow RE-FLIPS to net buy after Thu top net sell Rp 224B" — passive-rebal arb completed pre-effective Jul 1; re-flip not confirmed at 09:15
+- NIM headwind caveat binding; UNVR + BBCA preferred ordering blocks BMRI on cascading fail
+- Defensive-Quality Track SUSPENDED per regime
+
+**Binding constraints (summary across candidates):**
+1. **Gate 9 BINDS UNVR** — live cluster 1,765 vs planned ≤1,690 = +4.4% > 3% chase cap; condition (iv) Brent sub-$70 sustained also fails (~$73)
+2. **R:R 2:1 BINDS BBCA** — 1.87:1 at 5,925 cluster (mirror Thu logic); requires Fri pullback ≤5,890 (not observed at 09:15)
+3. **Data Quality Gate BINDS TLKM** — ≥25% multi-source spread; <3 fresh same-day sources convergent
+4. **BMRI cascading conditional BINDS** — BBCA SKIP cascades + foreign-flow re-flip unmet + Gate 9 marginal fail
+5. **MACRO regime DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY2** binds 5% cap; Defensive-Quality Track SUSPENDED; criterion (e) MSCI accessibility NEGATIVE-LOCKED
+6. **IDR ARMED-WATCH** — Fri spot ~17,954 = 1 of 2 sessions piercing 17,950 cascade kill-switch threshold (Thu was 17,943 not pierced; Fri ≈4bps above = 1st pierce); not yet sustained 2 sessions but monitoring binding
+7. **Eagerness check BINDS** — 7th consecutive 0/3 week pattern continuation (Wks 6-10 = 18 cumulative unused slots); per Wk 9 Process change #3 explicit slot-utilization evaluation required Wk 10 weekly-review TODAY 16:00 WIB — structural pattern signal for cap/stop math re-evaluation
+
+**Held position carry (no action):**
+- **KLBF 519,000 sh @ entry 945** — trailing 931 GTC re-arms broker-side at Fri 09:00 WIB open; safe-lower carry frozen 1,035 (+9.52% unrealized = +IDR 46,710,000); cluster Day 65 non-convergence persists 24 consecutive sessions Day 41-65; state-machine state-3 (≥1,087 → 7% trail 1,011) and state-4 (≥1,134 → 5% trail 1,077) tightening triggers remain ARMED-BLOCKED on cluster non-convergence. No KLBF news flow specific to Fri open. MSCI Frontier-risk persistence = no contamination (KLBF not in MSCI removal basket).
+
+**Macro context Fri Jun 26 (Week 10 Day 5 — post-MSCI absorption Day 2):**
+- IHSG: Thu Jun 25 sesi II final 5,999.03 (+1.96% / +115.15pt) per CNBC Indonesia / Bloomberg Technoz / Liputan6 / Kompas multi-source convergent. Fri pre-open IHSG not yet surfaced multi-source at 09:15 WIB filing; Phintraco range 5,850-6,100 sideways forecast; MNC Sekuritas koreksi 5,723-5,847 / penguatan 6,060-6,120.
+- IDR/USD: ~17,954 Fri spot (per Trading Economics / Investing.com cluster) — at/above 17,950 cascade kill-switch threshold (~4bps pierce, 1 of 2 sessions; Thu was 17,943 not pierced); sub-18,000 13-of-13 sustained PERMANENTLY-LOCKED. Pre-emptive de-risk not re-armed (requires 2 sessions sustained ≥17,950); ARMED-WATCH binding.
+- Foreign flow Thu Jun 25: net sell Rp 201B regular / Rp 299B total (sesi I bid Rp 187B BBCA/DSSA faded to full-day net sell); BMRI top net sell Rp 224B = BEI weight +24bp ARBITRAGED. Fri first 30-min flow not surfaced at 09:15 filing.
+- Brent: $73.05 Wed Jun 24 close (collapse continuation; Strait of Hormuz easing + US-Iran peace progress); not sub-$70 sustained — UNVR CPI-relief tailwind condition (iv) not validated.
+- Newcastle coal $144/t flat; LME nickel $16,880 −0.17% 2-mo low; CPO ~4,633 −0.4%.
+- US Thu Jun 25: S&P −0.01% / Nasdaq −0.46% / Dow +0.14% all-time intraday high; VIX 18.63 moderating below 20 = global vol cooling.
+- BI rate 5.75% (Thu Jun 18 RDG +25bp); next BI RDG Aug 14.
+- MSCI Annual Classification Wed Jun 24 03:30 WIB pre-open: Indonesia REMAINS EM; Information Flow downgrade flag + Nov 2026 Frontier-downgrade consultation possibility = criterion (e) NEGATIVE-LOCKED.
+
+**Price source notes:**
+- Price source: WebSearch fallback path operational; yfinance/GoAPI Day 65 HTTP 403 outage persists 24 consecutive sessions. UNVR cluster ≥3-source canonical PASS at 1,765 (TradingView ID + Investing.com + TradingView aligned). BBCA cluster PASS at 5,925-6,000 (Wed close carry + Thu sesi I bid). TLKM cluster FAILS canonical/relaxed (TradingView open 3,620-3,660 vs research log carry 2,850-2,960 = >25% spread). BMRI cluster not fully resolved (carry ~4,200 Thu).
+- Per CLAUDE.md routine STEP 2b, WebSearch override path operational with explicit RESEARCH-LOG documentation.
+
+**Eagerness Check pass:** 7th consecutive 0/3 week pattern continuation (Wk 10 Day 5 = 18 cumulative unused slots Wks 6-10). Pre-market plan structural discipline holds: cumulative trial alpha +19.73% provisional protected; 6 binding constraints (Gate 9 chase + R:R 2:1 + Data Quality + cascading conditional + macro + IDR ARMED-WATCH) overlap = SKIP per discipline. Per Wk 9 Process change "explicit slot-utilization evaluation": Fri 09:15 evaluation = ALL candidate-specific binding constraints fail OR overlap. Structural pattern now 7-week-cycle binding signal; weekly-review TODAY 16:00 WIB will evaluate explicit 5% cap × stop math structural infeasibility per Wk 9 review note.
+
+**Trades this week: 0/3.** Week 10 complete; 0/3 final allocation = 7th consecutive 0/3 week pattern Wks 6-10.
+
