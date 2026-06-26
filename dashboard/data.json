@@ -717,6 +717,23 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-06-26",
+      "day_label": "Day 50",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 5835.11,
+      "ihsg_close_basis": "Fri Jun 26 sesi I provisional multi-source convergent (Kontan/CNN Indonesia/Liputan6/Kompas/Bisnis/Investasi.kontan); sesi II final not multi-source convergent at 15:15 WIB filing; Mon EOD will reconcile per Day 33-40 procedure if Fri sesi II final surfaces multi-source convergent",
+      "ihsg_cumulative_pct": -23.56,
+      "alpha_pct": 22.23,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 65 cluster non-convergence persists 25 consecutive sessions Day 41-65; TradingView 710 fresh LOW / Yahoo 760 stale / broker stub 945 / Investing.com 1,135 stale = 4-source spread \u226560% FAILS canonical \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01)"
     }
   ],
   "positions": [
@@ -12585,6 +12602,18 @@
       "routine": "midday",
       "status": "warning",
       "summary": "1 open position (KLBF); live market data unavailable (yfinance/Telegram blocked by proxy). Stale quote = entry, no -7% cut or stop tighten triggered."
+    },
+    {
+      "timestamp": "2026-06-26T08:21:20Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 50 (Fri Jun 26, Wk 10 Day 5): IDR 9.867B flat (0.00% day). Alpha +2.73% vs IHSG sesi I \u22122.73%. Cum alpha +22.23% (fresh trial high). 1 position (KLBF). 0/3 trades wk = 7th consec.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 50 EOD snapshot committed; KLBF safe-lower carry frozen 1,035 Day 65 cluster non-convergence persists"
+        }
+      ]
     }
   ],
   "exposure": {
