@@ -8406,6 +8406,202 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TOP PRIORITY MNC Sekuritas Spec Buy 1,675-1,685 TP 1,885-2,000; Brent collapse $71.99 sustained sub-$73 CPI-relief tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MNC TOP PICK persistent + Brent $71.99 sustained sub-$73 CPI-relief tailwind VALIDATED + B50 CPO Jul 1 input dynamic"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3; IDR de-armed (17,818 sub-17,950); 5% cap binding"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap FAIL: cluster 1,765 vs planned \u22641,690 = +4.4% > 3% cap; R:R 1.91:1 at cluster mark < 2:1 min (per Wk 10 Process change)"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9,820M / 1,690 = 290,000 sh (~4.99% equity)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 66 blocked)"
+        }
+      ],
+      "reasoning": "TOP PRIORITY but Gate 9 chase cap fails (live cluster 1,765 = +4.4% above planned \u22641,690). R:R-cap-math at cluster mark fails 1.91:1 < 2:1 (per Wk 10 Process change). Catalyst (MNC TOP PICK + Brent $71.99 CPI-relief sustained sub-$73) holds but price has not pulled back to entry zone Wk 10\u219211 cross-week.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-06-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "SECOND PRIORITY B50 biodiesel Jul 1 (T+2) structural CPO tailwind; BCA Sekuritas TOP plantation pecking-order; no MSCI SC contamination",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel program effective Wed Jul 1 (T+2) structural CPO domestic-demand absorption tailwind; BCA Sekuritas TOP plantation pecking-order pick"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3; CPO MYR ~4,600 1-wk low sustained \u22654,500 threshold PASS"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality MARGINAL: only 2 fresh sources (Investing 1,290 + TradingView 1,310; spread 1.55%); \u22653-source canonical not achieved. Thesis-integrity pre-mortem TRIPPED: stock -23.89% MoM + cluster -31% below analyst PT 1,883 = falling-knife per ADRO MISTAKES.md"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9,820M / 1,310 = 374,800 sh (~5.00% equity)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 66 blocked)"
+        }
+      ],
+      "reasoning": "Deep-pullback condition met (cluster 1,290-1,310 below planned \u22641,565) and R:R-cap-math passes strongly (6.23:1 at 1,310 vs 1,883 PT). BUT Data Quality Gate marginal (2 fresh sources, need 3) + thesis-integrity pre-mortem already tripped (-23.89% MoM = falling-knife) + IHSG \u22655,800 floor condition at-risk (analyst forecast 5,723-5,784). Eagerness Check: 'cheap' is not a thesis after a -24% decline; ADRO lesson binds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "THIRD PRIORITY defensive mega-cap bank; post-MSCI absorption Day 3 mean-reversion candidate IF Fri selloff produced overdone bank-cluster weakness",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-MSCI absorption Day 3 mean-reversion + Thu sesi I top foreign net buy bid attempt + BEI weight cut \u221253bp T+2 partial-priced"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3; 5% cap binding; BI 5.75% NIM positive"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 chase cap FAIL: cluster ~6,175 vs planned \u22645,890 = +4.84% > 3% cap; R:R 1.27:1 at cluster mark < 2:1 min (per Wk 10 Process change)"
+        },
+        {
+          "type": "sizing",
+          "label": "would have been 5% \u00d7 9,820M / 5,890 = 83,300 sh (~5.00% equity)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override used (yfinance Day 66 blocked)"
+        }
+      ],
+      "reasoning": "THIRD PRIORITY but Gate 9 chase cap fails (live cluster 6,175 = +4.84% above planned \u22645,890). R:R-cap-math at cluster mark fails 1.27:1 < 2:1 (per Wk 10 Process change). BBCA failed to pull back to entry zone over weekend; mean-reversion thesis structurally rejected. BEI \u221253bp T+2 headwind compounds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-06-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "LOW PRIORITY/DEPRIORITIZED B50 Jul 1 tailwind same as LSIP but MSCI SC contamination headwind; LSIP preferred for plantation slot",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel Jul 1 (T+2) CPO structural tailwind same as LSIP; PT zone 8,200-8,500 per Katadata"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3; MSCI SC REMOVAL contamination ongoing passive-outflow headwind"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: no fresh cluster surfaced Mon 09:15 filing. R:R 1.91:1 at zone midpoint 7,500/8,500 FAILS 2:1 per pre-market plan"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 DEPRIORITIZED below LSIP for plantation slot"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override path; AALI not surfaced fresh"
+        }
+      ],
+      "reasoning": "DEPRIORITIZED in pre-market plan; LSIP preferred for plantation slot (no MSCI SC contamination + similar B50 thesis). LSIP itself SKIPPED on data quality + thesis-integrity; AALI cascading SKIP follows. No fresh cluster surfaced.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -12648,6 +12844,47 @@
           "type": "research",
           "ticker": "KLBF",
           "detail": "HOLD Day 66 cluster non-convergence; trailing 931 GTC armed"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-29T02:22:44Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 11 Day 1. 4 candidates evaluated (UNVR/LSIP/BBCA/AALI); all SKIPPED on Gate 9 chase cap (UNVR +4.4% / BBCA +4.84%) + R:R 2:1 fail at cluster mark (UNVR 1.91:1 / BBCA 1.27:1) + Data Quality marginal LSIP (2 fresh sources, need 3) + thesis-integrity pre-mortem tripped LSIP (-23.89% MoM falling-knife per ADRO MISTAKES.md) + AALI DEPRIORITIZED no fresh cluster. IDR 17,818 sub-17,950 cascade kill-switch DE-ARMED (Mon 2nd-pierce NOT confirmed). KLBF HOLD trailing 931 GTC re-armed Day 66 cluster non-convergent. 8th consecutive 0/3 week pattern initiation Wks 6-11.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Gate 9 chase cap fail (cluster 1,765 vs planned \u22641,690 = +4.4%); R:R 1.91:1 at cluster mark < 2:1"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "Data Quality marginal (2 fresh sources, need 3) + thesis-integrity pre-mortem tripped (-23.89% MoM = falling-knife)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate 9 chase cap fail (cluster 6,175 vs planned \u22645,890 = +4.84%); R:R 1.27:1 at cluster mark"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "DEPRIORITIZED + no fresh cluster; LSIP preferred for plantation slot"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "519,000 sh @ 945 entry; safe-lower carry 1,035 frozen; trailing 931 GTC re-armed; Day 66 cluster non-convergent"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override path used (yfinance Day 66 blocked HTTP 403)"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR cascade kill-switch DE-ARMED Mon 17,818 (2nd-pierce NOT confirmed; Fri was 17,954 1st pierce)"
         }
       ]
     }
