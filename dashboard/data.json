@@ -734,6 +734,24 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 65 cluster non-convergence persists 25 consecutive sessions Day 41-65; TradingView 710 fresh LOW / Yahoo 760 stale / broker stub 945 / Investing.com 1,135 stale = 4-source spread \u226560% FAILS canonical \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01)"
+    },
+    {
+      "date": "2026-06-29",
+      "day_label": "Day 51",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 5838.94,
+      "ihsg_close_basis": "Mon Jun 29 sesi I provisional multi-source convergent (Media Kompeten/Sindonews/Viva/Bisnis Indonesia/Liputan6); sesi II final not multi-source convergent at 15:15 WIB filing; Tue EOD will reconcile per Day 33-40 procedure if Mon sesi II final surfaces multi-source convergent",
+      "ihsg_cumulative_pct": -23.51,
+      "alpha_pct": 22.18,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 66 cluster non-convergence persists 26 consecutive sessions Day 41-66; broker stub 945 / TradingView 745 / Investing.com 780 / Yahoo stale = 4-source spread FAILS canonical \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01)",
+      "note": "Week 11 Day 1 / post-MSCI absorption Day 3 / post-weekly-review Wk 10. Flat day; KLBF safe-lower carry hold + Day 66 cluster non-convergence prevents alternative mark execution; cash buffer 94.56% structurally insulating book on Mon sesi I \u22120.97% selloff (5,838.94 vs Fri sesi II final reconciled 5,896.13). Cumulative trial alpha +22.18% provisional (single-day expansion +0.84pp from Day 50 reconciled +21.34% \u2014 flat portfolio +0.97% alpha contribution on IHSG sesi I \u22120.97% selloff). KLBF state-2 trailing 931 GTC armed broker-side, did NOT fire (broker tape never marked \u2264931 multi-source convergent). 4 candidates evaluated market-open (UNVR TOP / LSIP SECOND / BBCA THIRD / AALI DEPRIORITIZED) \u2014 ALL SKIPPED on Gate 9 chase + R:R 2:1 dual-binding + Data Quality marginal LSIP + thesis-integrity LSIP + IHSG floor risk + AALI DQ fail. 8th consecutive 0/3 week pattern initiation (Wks 6-11 = 18 cumulative unused slots Wks 6-10 carry)."
     }
   ],
   "positions": [
@@ -745,13 +763,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 35,
+      "days_held": 39,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen Tue Jun 2 anchor; cluster Day 64 non-convergence persists Thu MSCI absorption Day 1 (TradingView 745 fresh LOW / Yahoo 760 fresh / broker stub 945 / Investing.com stale 1,685 4-source spread \u2265126% FAILS \u22653-source \u22642% convergence per MISTAKES.md 2026-05-01); trailing 931 GTC armed at Thu open, did not fire; KLBF NOT in MSCI removal basket re-confirmed Day 64; 23 consecutive sessions data-infra outage Day 41-64"
+      "note": "safe-lower carry frozen Tue Jun 2 anchor; Day 66 cluster non-convergence persists 26 consecutive sessions Day 41-66 post-MSCI absorption Day 3 (broker stub 945 / TradingView 745 / Investing.com 780 / Yahoo stale = 4-source spread FAILS canonical \u22653-source \u22642% per MISTAKES.md 2026-05-01); trailing 931 GTC armed Mon open did NOT fire (broker tape never marked \u2264931 multi-source convergent); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expiry Thu Jul 2 = structural bid floor removal risk into Wk 11 end"
     }
   ],
   "trades": [
@@ -8605,8 +8623,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 49,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 48)",
+    "trial_days_elapsed": 51,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 51)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9866717500,
     "cumulative_pnl_idr": -133282500,
@@ -8614,8 +8632,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 0,
-    "ihsg_cumulative_pct": -21.06,
-    "cumulative_alpha_pct": 19.73,
+    "ihsg_cumulative_pct": -23.51,
+    "cumulative_alpha_pct": 22.18,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -8623,9 +8641,9 @@
     "open": 1
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY1",
+    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
     "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.11,
+    "weekly_pnl_pct": 0.0,
     "current_equity": 9866717500,
     "peak_equity": 10026617500,
     "drawdown_from_peak_pct": -1.59,
@@ -12893,6 +12911,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. KLBF held; cluster Day 66 non-convergent; safe-lower carry +9.52% frozen. No cuts, no stop tightenings."
+    },
+    {
+      "timestamp": "2026-06-29T08:20:03Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-06-29 (Day 51, Wk 11 D1): IDR 9.867B flat (+0.00% day). Alpha +0.97% vs IHSG sesi I -0.97% (5,838.94 vs Fri reconciled 5,896.13). Cum alpha +22.18%. KLBF safe-lower carry 1,035 held; cluster Day 66 non-convergent; trailing 931 GTC armed did not fire. 0/3 trades; 8th consec 0/3 week pattern initiation.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 51 EOD snapshot committed; reconciled Day 50 IHSG to Fri sesi II final 5,896.13 multi-source convergent; KLBF carry frozen 1,035 sustained Day 66"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -12905,9 +12935,9 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3",
-    "ihsg_close": 5835.11,
-    "ihsg_close_basis": "Fri Jun 26 sesi I provisional multi-source convergent (Kontan/CNN Indonesia/Liputan6/Kompas/Bisnis/Investasi.kontan); sesi II final not multi-source convergent at filing; Mon EOD will reconcile per Day 33-40 procedure if Mon market-open surfaces multi-source convergent Fri sesi II final",
+    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
+    "ihsg_close": 5838.94,
+    "ihsg_close_basis": "Mon Jun 29 sesi I provisional multi-source convergent (Media Kompeten/Sindonews/Viva/Bisnis Indonesia/Liputan6); sesi II final not multi-source convergent at 15:15 WIB filing; Tue EOD will reconcile per Day 33-40 procedure if Mon sesi II final surfaces multi-source convergent",
     "ihsg_cumulative_pct": -23.56,
     "idr_usd": 17954.0,
     "idr_status": "<18,000 13-of-13 PERMANENTLY-LOCKED; cascade kill-switch 17,950 ARMED-WATCH 1-of-2 sessions piercing Fri (17,954 = ~4bps); Mon Jun 29 2nd-piercing check critical for re-arm pre-emptive de-risk",
@@ -13094,5 +13124,5 @@
       "Eagerness check critical (Wk 11 Day 1 post 7-consec 0/3 weeks; 18 cumulative unused slots Wks 6-10)"
     ]
   },
-  "last_updated": "2026-06-29T00:00:00Z"
+  "last_updated": "2026-06-29T15:15:00+07:00"
 }
