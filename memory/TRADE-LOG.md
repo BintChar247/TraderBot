@@ -6462,3 +6462,47 @@ Healthcare 5.44% of equity (KLBF safe-lower MV 537.165M / equity 9.867B); cash 9
 
 **Trades this week: 0/3.** Week 11 Day 1 = 8th consecutive 0/3 week pattern initiation Wks 6-11 (18 cumulative unused slots Wks 6-10 carry). 2 fresh slots remain Tue-Fri Wk 11.
 
+---
+
+## 2026-06-29 11:30 WIB — Midday scan: NO ACTION (KLBF held; cluster Day 66 non-convergent; thesis intact; Week 11 Day 1 / post-MSCI absorption Day 3)
+
+### Held positions reviewed
+
+- **KLBF** — 519,000 sh @ 945 entry. `broker.sh quote KLBF` returns stale stub IDR 945 (last_price=945; mode=paper; note "Stale quote — live market-data.sh unavailable; using last-known entry_price"). `market-data.sh quote KLBF` returns HTTP 403 host-allowlist on yfinance + GoAPI unavailable (Day 66 data-infra outage; 26 consecutive sessions Day 41-66). WebSearch multi-source midday spot: TradingView 745 / Google Finance 780 (Jun 25 stale) / Yahoo 1,135 stale = ≥52% spread, ≥3-source ≤2% convergence FAILS — sell-side stop-fire cannot be confirmed midday per Data Quality Gate (MISTAKES.md 2026-05-01). Safe-lower carry frozen 1,035 (+9.52% unrealized = +IDR 46,710,000) persists from Tue Jun 2 anchor.
+
+### Sell-side rule evaluation
+
+- **Hard cut −7% (≤ IDR 879):** broker stub mark 945 = 0% from entry → NO HARD CUT FIRED. Cluster non-convergence prevents adverse-side confirmation; trailing 931 GTC remains armed broker-side and did not fire (broker tape never marked ≤931 multi-source convergent today).
+- **+15% trail tighten to 7% (state-3, ≥1,087 → 7% trail 1,011):** carry +9.52% < +15% threshold → NO ACTION. State-3 trigger ARMED-BLOCKED on cluster non-convergence.
+- **+20% trail tighten to 5% (state-4, ≥1,134 → 5% trail 1,077):** carry +9.52% < +20% threshold → NO ACTION. State-4 trigger ARMED-BLOCKED on cluster non-convergence.
+
+### Thesis check (STEP 5)
+
+- WebSearch `KLBF Kalbe Farma stock price IDX June 29 2026 IDR` — no adverse company-specific catalyst surfaced; multi-source cluster spread reflects continuing data-infra outage, not company shock. Yahoo +4.61% reading (1,135 stale) does not reconcile with TradingView 745 fresh LOW — single-source spike does not anchor execution.
+- MSCI Annual Classification Wed Jun 24 absorption Day 3 — Indonesia REMAINS EM; KLBF not in removal basket re-confirmed; sector contamination risk nil.
+- KLBF Rp 500B buyback expiry Thu Jul 2 (T+3) noted as forward structural-bid-floor removal risk into Wk 11 end — not active intraday.
+- B50 biodiesel program launch Wed Jul 1 (T+2) — plantation tailwind catalyst, not KLBF-relevant.
+- BEI IHSG weight re-eval effective Tue Jul 1 (T+2) — banking (BBCA −53bp, BBRI −50bp, BMRI +24bp, BBNI +4bp); not KLBF-relevant.
+- **Thesis INTACT** — no exit triggered; HOLD persists.
+
+### Intraday move check (STEP 6)
+
+- KLBF intraday move >3% not anchored on cluster non-convergence; TradingView fresh LOW 745 single-source does not satisfy ≥3-source canonical requirement. No RESEARCH-LOG addendum needed (data-infra outage, not company event).
+
+### Data infrastructure (Day 66 outage continuation)
+
+- yfinance: HTTP 403 Host not in allowlist (query1/query2.finance.yahoo.com) — 26 consecutive sessions Day 41-66.
+- GoAPI: unavailable or key not set.
+- broker.sh quote: paper-mode stub at last-known entry price 945.
+- Multi-source ≥3-source ≤2% convergence Data Quality Gate binding sell-side state-machine transitions remains BLOCKED Day 66.
+
+### Action
+
+- **NO action taken.** KLBF held; trailing 931 GTC remains broker-side armed; safe-lower carry 1,035 frozen.
+- State-3 ARMED (≥1,087 → 7% trail 1,011) and state-4 ARMED (≥1,134 → 5% trail 1,077) both remain BLOCKED on cluster non-convergence.
+- Next checkpoint: EOD 15:15 WIB Mon Jun 29 — Day 51 EOD reconciliation if Fri sesi II final surfaces multi-source convergent per Day 33-40 procedure.
+
+### Notification sent
+
+📊 Midday 2026-06-29: All positions healthy. No action taken.
+

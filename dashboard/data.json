@@ -12887,6 +12887,12 @@
           "detail": "IDR cascade kill-switch DE-ARMED Mon 17,818 (2nd-pierce NOT confirmed; Fri was 17,954 1st pierce)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-29T04:36:50Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. KLBF held; cluster Day 66 non-convergent; safe-lower carry +9.52% frozen. No cuts, no stop tightenings."
     }
   ],
   "exposure": {
