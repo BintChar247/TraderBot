@@ -12923,6 +12923,42 @@
           "detail": "Day 51 EOD snapshot committed; reconciled Day 50 IHSG to Fri sesi II final 5,896.13 multi-source convergent; KLBF carry frozen 1,035 sustained Day 66"
         }
       ]
+    },
+    {
+      "timestamp": "2026-06-30T00:14:40Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 watchlist tickers Day 67 data-infra outage continuation. 4 candidates >=6 (UNVR 7 ex-div TODAY R:R 2.89 / BBCA 7 Mon -4.05% pullback achieved R:R 2.00 / LSIP 7 B50 T-1 R:R 2.14 deep-pullback / AALI 6 half-size). IDR cascade kill-switch DE-ARMED Mon 17,818. KLBF cluster 710-780 firmly BELOW trail 931 = MATERIAL stop-fire risk.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 7/10 - ex-div TODAY Rp 114 mechanical reset + MNC TOP PICK + Brent CPI-relief"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 - Mon -4.05% deep pullback entry window opens <=5,890"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 7/10 - B50 LAUNCH TOMORROW T-1 plantation tailwind"
+        },
+        {
+          "type": "alert",
+          "ticker": "KLBF",
+          "detail": "4-source cluster 710-780 firmly BELOW trail 931 GTC; spread 9.3% FAILS DQ gate Day 67 but material stop-fire risk if cluster narrows"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -12935,104 +12971,143 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
-    "ihsg_close": 5838.94,
-    "ihsg_close_basis": "Mon Jun 29 sesi I provisional multi-source convergent (Media Kompeten/Sindonews/Viva/Bisnis Indonesia/Liputan6); sesi II final not multi-source convergent at 15:15 WIB filing; Tue EOD will reconcile per Day 33-40 procedure if Mon sesi II final surfaces multi-source convergent",
-    "ihsg_cumulative_pct": -23.56,
-    "idr_usd": 17954.0,
-    "idr_status": "<18,000 13-of-13 PERMANENTLY-LOCKED; cascade kill-switch 17,950 ARMED-WATCH 1-of-2 sessions piercing Fri (17,954 = ~4bps); Mon Jun 29 2nd-piercing check critical for re-arm pre-emptive de-risk",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED",
+    "ihsg_close": 5820.79,
+    "ihsg_close_basis": "Mon Jun 29 sesi II final reconciled multi-source convergent (Bisnis.com/InvestorID/MediaIndonesia); -1.28% / -75.34 pt; opened 5,932.02 high 5,942.77 low ~5,800 close 5,820.79; TPIA + BBCA -4.05% led weakness",
+    "ihsg_cumulative_pct": -23.76,
+    "idr_usd": 17818.0,
+    "idr_status": "<18,000 14-of-14 PERMANENTLY-LOCKED; cascade kill-switch 17,950 DE-ARMED Mon Jun 29 17,818 -0.12% strengthening (Fri 1-of-2 pierce 17,954 did NOT become 2-of-2 Mon); 132bp buffer",
     "bi_rate": 5.75,
     "msci_announcement_date": "2026-06-24",
     "bi_rdg_meeting_date": "2026-08-14",
     "holiday_today": false,
-    "deescalation_criteria_status": "1.5 of 5 confirming: (a) IDR <18,000 13-of-13 PERMANENTLY-LOCKED with cascade kill-switch ARMED-WATCH; (b) Moody's PERSISTS-REGRESSED hawkish-reanchoring; (c) IHSG >5,500 reclaim STRONGLY CONFIRMED (Fri sesi I 5,835.11 +6.1% buffer); (d) foreign flow REGRESSED-DEEPENED Wk 10 (Wed Rp 976.66B + Thu Rp 201B + Fri top net-sell); (e) MSCI accessibility NEGATIVE-LOCKED (Information Flow downgrade + Nov 2026 Frontier-downgrade consultation possibility) -- further net regression from Wk 9 2 of 5",
+    "deescalation_criteria_status": "2 of 5 confirming: (a) IDR <18,000 14-of-14 PERMANENTLY-LOCKED + cascade kill-switch DE-ARMED Mon; (b) Moody's PERSISTS-REGRESSED hawkish-reanchoring; (c) IHSG >5,500 STRONGLY CONFIRMED (Mon close 5,820.79 +5.8% buffer); (d) foreign flow MILD Mon (313M shares net sell, far below Rp 500B threshold); (e) MSCI accessibility NEGATIVE-LOCKED (Information Flow downgrade + Nov 2026 Frontier-downgrade consultation possibility) -- marginal improvement from Wk 10 1.5 of 5 picture on criteria a+d",
     "key_overhangs": [
       "MSCI Frontier-downgrade Nov 2026 binary tail risk (~$3-13B passive outflow scenario)",
       "Moody's Danantara Baa2 negative outlook PERSISTS-REGRESSED post-BI HIKE re-anchoring",
-      "Foreign flow Wk 10 cumulative net sell pattern (Wed Rp 976.66B JCI worst Asia-Pacific EM)",
       "BI 5.75% HAWKISH-REANCHORING continuation through Aug 14 next RDG",
-      "Brent collapse -4.34% to $71.99 = EM commodity exporter deflationary force (but CPI-relief for staples)",
-      "BEI IHSG weight re-evaluation eff Tue Jul 1 (BBCA -53bp / BBRI -50bp headwind)",
-      "KLBF buyback Rp 500B expiry Thu Jul 2 (structural bid floor removal risk T+3)",
-      "BI FX reserves $144.9B May 2026 = 2-yr low (limits intervention firepower)"
+      "BEI IHSG weight re-evaluation eff Wed Jul 1 T+1 (BBCA -53bp / BBRI -50bp headwind)",
+      "KLBF buyback Rp 500B expiry Thu Jul 2 (T+2) = structural bid floor removal risk on held position with cluster firmly below trail 931",
+      "B50 sell-the-news risk Wed Jul 1 (LSIP/AALI pre-launch profit-taking)",
+      "LME nickel $16,699 multi-month low (bearish ANTM/INCO/NCKL/MBMA)",
+      "Coal export -7.27% YoY Jan-Apr 2026 = Q2 results pressure (coal EXITED still binding)",
+      "Data Quality Gate Day 67 outage (yfinance+GoAPI blocked 27 consecutive sessions; cluster non-convergence binding KLBF state-machine transitions)"
     ],
     "bi_rate_event": "5.75% post-Thu Jun 18 +25bp HIKE (3rd hike in 4 weeks: May 21 +50bp + Jun 9 off-cycle +25bp + Jun 18 +25bp); HAWKISH-REANCHORING dominant signal; next RDG Aug 14",
     "msci_announcement": "Wed Jun 24 03:30 WIB pre-open: Indonesia REMAINS EM (frontier downgrade NOT executed) BUT Information Flow indicator downgraded '+' to '-' AND explicit consultation possibility on Frontier-downgrade by Nov 2026 if accessibility reforms don't progress = NEGATIVE-LOCKED (relief INVERTED)",
-    "us_overnight": "Fri Jun 26: S&P 500 7,354.02 -0.05% / Nasdaq 25,297.62 -0.24% (5th consecutive down day; chip-led rotation) / Dow 51,876.11 -0.09%; VIX 18.41 -2.54% (sub-20 = global vol cooling); UST 10Y 4.37%",
-    "asia_overnight": "Fri Jun 26: Nikkei 225 69,360.88 flat / Hang Seng 22,671.86 -1.76% / Shanghai Composite 4,027.27 -2.26% = negative China read-through for IDX nickel/coal complex Mon open",
+    "us_overnight": {
+      "sp500": {
+        "close": 7440.43,
+        "change_pct": 1.18
+      },
+      "nasdaq": {
+        "close": 25820.15,
+        "change_pct": 2.07
+      },
+      "dow": {
+        "close": 52182.74,
+        "change_pct": 0.59,
+        "note": "RECORD CLOSE >52,000 first time"
+      },
+      "vix": {
+        "close": 18.41,
+        "note": "moderating below 20; global vol cooling"
+      }
+    },
+    "asia_overnight": {
+      "note": "Mon Asia close data not multi-source fresh at pre-market filing; rolls from Fri Hang Seng -1.76% / SSE -2.26%"
+    },
     "commodities": {
-      "brent_usd_bbl": 71.99,
-      "brent_change_pct": -4.34,
-      "newcastle_coal_usd_t": 144,
-      "lme_nickel_usd_t": 16805,
-      "cpo_myr_t": 4600
+      "newcastle_coal_usd_ton": 145,
+      "brent_usd_bbl": 72.01,
+      "lme_nickel_usd_ton": 16699,
+      "cpo_myr_ton": 4568
     }
   },
   "research": {
-    "date": "2026-06-29",
+    "date": "2026-06-30",
     "holiday": false,
     "candidates_count": 4,
-    "candidates_actionable_count": 1,
+    "candidates_actionable_count": 3,
     "candidates_top_score": 7,
     "headlines": [
       {
-        "title": "IHSG Fri Jun 26 sesi I provisional 5,835.11 (-2.73%) \u2014 Thu relief-bounce fully reversed; all 11 sectors red; 593 down vs 91 up; sesi II final not multi-source convergent at filing",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
+        "title": "IHSG Mon Jun 29 sesi II final reconciled 5,820.79 (-1.28%) \u2014 TPIA + BBCA -4.05% led weakness; opened 5,932.02 high 5,942.77 low ~5,800",
+        "url": "https://market.bisnis.com/read/20260630/7/1984271/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-selasa-30-juni-2026"
       },
       {
-        "title": "US Fri Jun 26: S&P 500 7,354.02 -0.05% / Nasdaq 25,297.62 -0.24% (5th consecutive down day; chip-led rotation) / Dow 51,876.11 -0.09%; VIX 18.41 -2.54%",
-        "url": "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+        "title": "US Mon Jun 29: Dow RECORD CLOSE 52,182.74 +0.59% / S&P 500 7,440.43 +1.18% / Nasdaq 25,820.15 +2.07% \u2014 strong tech-led rally; constructive external backdrop for IDX Tue open",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-29-2026"
       },
       {
-        "title": "Brent crude $71.99 -4.34% Fri Jun 26 = lowest since 27-Feb 2026; Hormuz transit normalizing on US-Iran peace progress \u2014 CPI-relief tailwind for UNVR thesis SUSTAINED",
-        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-      },
-      {
-        "title": "IDR/USD Fri Jun 26 17,842-17,954 range; cascade kill-switch 17,950 1st pierce by ~4bps Fri; Mon Jun 29 2nd-consecutive-piercing check critical for re-arm pre-emptive de-risk",
+        "title": "IDR/USD Mon Jun 29 17,818 -0.12% strengthening = cascade kill-switch 17,950 DE-ARMED (Fri 1-of-2 pierce did NOT become 2-of-2); de-escalation criterion (a) PERMANENTLY-LOCKED with 132bp buffer",
         "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "title": "Hang Seng -1.76% / SSE -2.26% Fri Jun 26 = negative China read-through for IDX nickel/coal complex Mon open",
-        "url": "https://finance.yahoo.com/quote/%5EHSI/"
+        "title": "Brent crude $72.01 Mon +0.03% \u2014 sustained sub-$73 = CPI-relief tailwind for UNVR/consumer-staples thesis HOLDS into Tue",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       },
       {
-        "title": "B50 biodiesel program launches Wed Jul 1 = structural CPO mandate-driven tailwind for plantation upstream (LSIP, AALI, TAPG, DSNG); LSIP TOP pecking-order per BCA Sekuritas (NOT in MSCI SC removal basket)",
-        "url": "https://www.palmoilmagazine.com/headlines/2026/06/24/indonesia-to-launch-b50-in-july-as-prabowo-pushes-palm-oil-led-energy-transition/"
+        "title": "LME nickel $16,699 Mon Jun 29 close = multi-month low; 34% YoY production cut policy LT bullish but ST bearish for ANTM/INCO/NCKL/MBMA",
+        "url": "https://tradingeconomics.com/commodity/nickel"
       },
       {
-        "title": "BEI IHSG weight re-evaluation effective Tue Jul 1: BBCA -53bp + BBRI -50bp headwind / BMRI +24bp + BBNI +4bp tailwind (BMRI arbitraged Wk 10 Thu top net sell Rp 224B)",
+        "title": "UNVR ex-dividend TODAY (Tue Jun 30) Rp 114/sh ~7% yield = mechanical opening drop ~Rp 114 from Mon close 1,665 IEP = expected open ~1,551 \u2014 entry-math IMPROVEMENT for MNC TOP PICK thesis",
+        "url": "https://premium.bisnis.com/read/20260629/656/1984046/bisikan-prospek-saham-unilever-unvr-usai-guyur-dividen-2026"
+      },
+      {
+        "title": "BBCA Mon Jun 29 -4.05% DEEP PULLBACK opened 5,800 range 5,550-5,825 = ENTRY WINDOW OPENS \u2264 5,890 per Wk 11 D1 plan; BEI weight re-eval T+1 absorbed-headwind day",
+        "url": "https://www.fortuneidn.com/market/harga-saham-pt-bank-central-asia-tbk-bbca-hari-ini-29-june-2026-00-k4c38-zh35zn"
+      },
+      {
+        "title": "B50 biodiesel mandatory program LAUNCHES TOMORROW Wed Jul 1 = T-1 structural CPO demand floor + margin re-rating for LSIP/AALI/TAPG/DSNG upstream plantation producers",
+        "url": "https://www.readers.id/kebijakan-biodiesel-b50-emiten-sawit-2026"
+      },
+      {
+        "title": "BEI IHSG weight re-eval effective Wed Jul 1 T+1: BBCA 9.53\u21929% (-53bp) + BBRI 7.36\u21926.86% (-50bp) headwind / BMRI +24bp + BBNI +4bp tailwind",
         "url": "https://katadata.co.id/finansial/bursa/6a3cd5647625b/bei-turunkan-bobot-saham-bbca-bbri-ke-ihsg-bagaimana-nasib-bbni-bmri"
       },
       {
-        "title": "MNC Sekuritas TOP PICK UNVR Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670 = R:R 2.62:1 PASSES; defensive consumer + Brent CPI-relief + post-ex Jun 22 mechanical drop completed",
-        "url": "https://www.liputan6.com/saham/read/7977042/rekomendasi-saham-25-juni-2026-myor-aadi-tlkm-klbf-bfin-unvr"
+        "title": "KLBF cluster Day 67 NARROWING TRAJECTORY ALERT: Ajaib 710 fresh -3.25% 24h / TradingView 760 / Investing 780 / Yahoo 745 = 4-source cluster firmly BELOW trail 931 GTC; spread 9.3% still FAILS canonical+relaxed Data Quality Gate but buyback expiry Thu Jul 2 removes structural bid floor",
+        "url": "https://ajaib.co.id/saham/aset/KLBF"
       },
       {
-        "title": "KLBF buyback Rp 500B expiry Thu Jul 2 (T+3) = structural bid floor removal risk Wk 11 end on held position; cluster Day 66 non-convergence persists Yahoo 745 fresh / broker stub 945 / Investing.com stale 1,135 = >=38% spread FAILS canonical+relaxed Data Quality Gate",
-        "url": "https://sectors.app/idx/klbf"
-      },
-      {
-        "title": "BI FX reserves May 2026 = $144.9B -$1.3B m/m = 2-yr low; limits intervention firepower if IDR cascade kill-switch re-arms Mon Jun 29",
-        "url": "https://www.indonesia-investments.com/news/todays-headlines/bank-indonesia-foreign-exchange-reserves-fell-1.3-billion-in-may-2026/item9928"
+        "title": "Foreign net sell mild 313M shares Mon Jun 29 (far below Rp 500B threshold); BBCA top net sell + BUMI top net buy + PGAS accumulation",
+        "url": "https://www.idnfinancials.com/"
       }
     ],
     "candidates": [
       {
         "ticker": "UNVR",
-        "sector": "Consumer",
+        "sector": "Consumer Staples",
         "score": 7,
         "status": "CANDIDATE",
         "conviction": "MEDIUM",
-        "entry_max": 1690,
-        "hard_cut": 1572,
-        "target": 2000,
-        "rr_ratio": 2.62,
+        "thesis": "Ex-div TODAY Rp 114/sh ~7% yield mechanical reset + MNC TOP PICK persistent + Brent $72 CPI-relief tailwind + Q2 earnings Jul 28",
+        "entry": 1580,
+        "stop": 1469,
+        "target": 1900,
+        "rr": 2.89,
         "position_size_idr": 491000000,
-        "position_size_shares": 290000,
-        "position_size_pct_equity": 5.0,
-        "catalyst": "MNC TOP PICK persistent + Brent $71.99 sustained CPI-relief tailwind + post-ex Jun 22 mechanical drop completed; defensive consumer fits regime",
-        "conditional_entry": "Mon open <=1,690 multi-source convergent + IHSG >=5,800 + foreign-flow not catastrophic + Brent sustained sub-$73",
-        "priority": 1
+        "shares": 310000,
+        "priority": 1,
+        "conditional_on": "Tue open multi-source cluster <=1,580 with >=3 fresh sources <=2% canonical or <=4% relaxed-under-outage; IHSG opens >=5,800; foreign-flow Tue first 30-min not catastrophic; Brent sustained sub-$73"
+      },
+      {
+        "ticker": "BBCA",
+        "sector": "Banking",
+        "score": 7,
+        "status": "CANDIDATE",
+        "conviction": "MEDIUM",
+        "thesis": "Mon -4.05% DEEP PULLBACK on BEI weight re-eval T-1 anticipation = entry window ACHIEVED <=5,890; post-MSCI absorption Day 4 mean-reversion + BEI T+1 absorbed-headwind day",
+        "entry": 5800,
+        "stop": 5394,
+        "target": 6612,
+        "rr": 2.0,
+        "position_size_idr": 491000000,
+        "shares": 84500,
+        "priority": 2,
+        "conditional_on": "Tue open multi-source cluster <=5,800 >=3 fresh sources; IHSG >=5,800; foreign-flow Tue NOT continuation of Mon BBCA top-net-sell; BEI T+1 absorbed-headwind interpretation confirmed"
       },
       {
         "ticker": "LSIP",
@@ -13040,33 +13115,15 @@
         "score": 7,
         "status": "CANDIDATE",
         "conviction": "MEDIUM",
-        "entry_max": 1565,
-        "hard_cut": 1456,
+        "thesis": "B50 LAUNCH TOMORROW Wed Jul 1 T-1 structural tailwind + BCA TOP pecking-order + NO MSCI SC contamination + FY25 net Rp 1.89T +28% YoY",
+        "entry": 1565,
+        "stop": 1455,
         "target": 1800,
-        "rr_ratio": 1.3,
-        "rr_gate_status": "FAILS at zone midpoint 1650/1800; PASSES only on deep pullback <=1,565",
-        "position_size_pct_equity": 5.0,
-        "catalyst": "B50 effective Wed Jul 1 (T+2) structural CPO mandate tailwind; BCA Sekuritas TOP pecking order; NOT in MSCI SC removal basket",
-        "conditional_entry": "Mon open <=1,565 multi-source convergent (deep-pullback only) + IHSG >=5,800 + CPO MYR sustained >=4,500",
-        "priority": 2
-      },
-      {
-        "ticker": "BBCA",
-        "sector": "Banking",
-        "score": 6,
-        "status": "WATCH",
-        "conviction": "MEDIUM",
-        "entry_max": 5890,
-        "hard_cut": 5477,
-        "target": 6723,
-        "rr_ratio": 2.01,
+        "rr": 2.14,
         "position_size_idr": 491000000,
-        "position_size_shares": 83300,
-        "position_size_pct_equity": 5.0,
-        "catalyst": "Post-MSCI absorption Day 3 mean-reversion; defensive mega-cap CASA franchise; Thu Wk 10 foreign bid attempt artifact",
-        "conditional_entry": "Mon open <=5,890 multi-source convergent + IHSG >=5,800 + foreign-flow Mon first 30-min net buy + BEI -53bp T+2 already-priced",
+        "shares": 313700,
         "priority": 3,
-        "headwind": "BEI weight cut -53bp eff Tue Jul 1 + R:R 2.01:1 marginal"
+        "conditional_on": "Tue open multi-source cluster <=1,565 >=3 fresh sources (deep-pullback only - R:R 2:1 fails above 1,565); IHSG >=5,800; CPO MYR sustained >=4,500"
       },
       {
         "ticker": "AALI",
@@ -13074,55 +13131,47 @@
         "score": 6,
         "status": "WATCH",
         "conviction": "LOW-MEDIUM",
-        "entry_max": 7083,
-        "hard_cut": 6585,
+        "thesis": "B50 LAUNCH TOMORROW Wed Jul 1 same structural tailwind as LSIP, but MSCI SC contamination Day 4 = half-size only",
+        "entry": 7083,
+        "stop": 6587,
         "target": 8500,
-        "rr_ratio": 1.91,
-        "rr_gate_status": "FAILS at zone midpoint 7500/8500; LSIP preferred (no MSCI SC contamination)",
-        "position_size_pct_equity": 2.5,
-        "catalyst": "B50 Jul 1 tailwind shared with LSIP; MSCI SC contamination passive-outflow headwind",
+        "rr": 2.0,
+        "position_size_idr": 246000000,
+        "shares": 34700,
         "priority": 4,
-        "note": "Deprioritized below LSIP for plantation slot; half-size only IF entered"
+        "conditional_on": "DEPRIORITIZED vs LSIP for plantation slot; half-size only"
       }
     ],
     "held_positions": [
       {
         "ticker": "KLBF",
         "status": "HOLD",
-        "carry_mark": 1035,
-        "carry_basis": "safe-lower frozen; Day 66 cluster non-convergence persists 26 consecutive sessions Day 41-66 (Yahoo 745 fresh / broker stub 945 / Investing.com stale 1,135 = >=38% spread FAILS canonical AND relaxed Data Quality Gate)",
-        "stop_price": 931,
-        "stop_state": "TRAILING-GTC-ARMED",
-        "stop_action": "trailing 931 GTC re-arms at Mon open; broker-side fires only on multi-source convergent <=931; state-3 (>=1,087) and state-4 (>=1,134) ARMED but BLOCKED Day 66",
-        "material_stop_fire_risk": "Mon Jun 29 IF cluster narrows >=3 fresh sources convergent <=931 (Yahoo 745 fresh LOW could finally produce confirmation if other sources converge)"
+        "action_pending": "MATERIAL stop-fire risk Tue Jun 30 / Wed Jul 1 if cluster narrows >=3-source <=2% with mark <=931",
+        "note": "Day 67 cluster non-convergence persists (Ajaib 710 fresh / TradingView 760 / Investing 780 / Yahoo 745 = 4-source spread 9.3% FAILS canonical AND relaxed Data Quality Gate); 4-source cluster firmly BELOW trailing stop 931 GTC; safe-lower carry frozen 1,035 from Day 41 increasingly untenable; buyback Rp 500B EXPIRY Thu Jul 2 (T+2) removes structural bid floor"
       }
     ],
     "plan_actions": [
-      "PRE-OPEN: Verify Mon IDR/USD spot \u2014 if >=17,950 sustained 2nd consec session = re-arm cascade kill-switch, SKIP all candidates",
-      "PRE-OPEN: Verify Mon foreign-flow first 30-min \u2014 if net sell >=Rp 500B continuation = MSCI cascade Day 3 confirmed, SKIP all",
-      "PRE-OPEN: Verify Brent overnight \u2014 sustained sub-$73 = UNVR thesis validated; rebound >$75 = invalidates",
-      "PRE-OPEN: KLBF cluster check \u2014 if narrows >=3 fresh sources convergent, evaluate stop-fire / state-machine transition",
-      "UNVR TOP PRIORITY: conditional entry <=1,690 if all 4 PRE-OPEN gates pass",
-      "LSIP SECOND PRIORITY (NEW): conditional entry <=1,565 deep-pullback only (R:R fails at zone midpoint)",
-      "BBCA THIRD PRIORITY: conditional entry <=5,890 if BBCA-cluster bid re-engages",
-      "AALI deprioritized (MSCI SC + R:R fail)",
-      "JSMR WATCH (chase risk +11% recent)",
-      "KLBF HOLD; trailing 931 GTC re-arms Mon open"
+      "PRE-OPEN priority A: Verify Tue IDR/USD spot pre-open (17,818 Mon = DE-ARMED; re-arm if >=17,950 sustained 2 sessions)",
+      "PRE-OPEN priority B: Verify Tue foreign-flow first 30-min direction (Mon mild 313M share net sell; if reversal to net buy = constructive)",
+      "PRE-OPEN priority C: Verify Brent overnight (sustained sub-$73 = UNVR thesis valid)",
+      "PRE-OPEN priority D: KLBF cluster Day 68 check (if >=3 fresh sources <=2% with mark <=931 -> trailing fires automatically)",
+      "UNVR TOP PRIORITY CONDITIONAL ENTRY: post-ex open <=1,580 cluster convergent; 310,000 sh; R:R 2.89:1; MEDIUM conviction",
+      "BBCA SECOND PRIORITY CONDITIONAL ENTRY: Mon pullback achieved; <=5,800 cluster convergent; 84,500 sh; R:R 2.00:1 marginal; MEDIUM conviction",
+      "LSIP THIRD PRIORITY CONDITIONAL ENTRY: deep-pullback only <=1,565; 313,700 sh; R:R 2.14:1; MEDIUM conviction; B50 T-1",
+      "AALI LOW PRIORITY DEPRIORITIZED: half-size only IF gate clears at <=7,083",
+      "KLBF HOLD with MATERIAL stop-fire risk: trailing 931 GTC re-arms; cluster trajectory firmly bearish but spread 9.3% prevents fire Day 67"
     ],
     "flagged_risks": [
-      "IDR cascade kill-switch 17,950 ARMED-WATCH 2nd-pierce risk Mon Jun 29",
-      "MSCI Frontier-downgrade Nov 2026 binary tail risk (~$3-13B passive outflow tail)",
-      "Foreign flow continuation risk Mon first 30-min (Wk 10 cumulative net sell pattern)",
-      "R:R 2:1 gate persistent binding constraint (UNVR 2.62:1 OK; BBCA 2.01:1 marginal; LSIP 1.30:1 fails; AALI 1.91:1 fails)",
-      "Data Quality Gate Day 66 yfinance+GoAPI both blocked 26 consecutive sessions",
-      "Brent collapse to $71.99 dual interpretation (bullish staples / bearish coal-adjacent)",
-      "BEI IHSG re-weight Tue Jul 1 T+2 (BBCA/BBRI headwind)",
-      "B50 launch Wed Jul 1 T+2 sell-the-news risk",
-      "KLBF buyback Rp 500B expiry Thu Jul 2 T+3 = structural bid floor removal",
-      "Nasdaq 5-day losing streak; Hang Seng -1.76% / SSE -2.26% Fri",
-      "BI FX reserves $144.9B 2-yr low limits intervention firepower",
-      "Eagerness check critical (Wk 11 Day 1 post 7-consec 0/3 weeks; 18 cumulative unused slots Wks 6-10)"
+      "KLBF cluster narrowing trajectory ALERT: 4-source cluster 710-780 firmly BELOW trail 931 = MATERIAL stop-fire risk Tue/Wed if cluster narrows; buyback Rp 500B expiry Thu Jul 2 removes structural bid floor",
+      "BEI IHSG weight re-eval effective Wed Jul 1 T+1: banking T+0 today potential continuation of Mon -4.05% pressure",
+      "B50 sell-the-news risk Wed Jul 1: LSIP/AALI pre-launch profit-taking Tue-Wed",
+      "R:R 2:1 gate persistent binding: UNVR 2.89:1 PASS, BBCA 2.00:1 marginal, LSIP 2.14:1 deep-pullback only, AALI 2.00:1 marginal",
+      "Data Quality Gate Day 67 outage: yfinance+GoAPI blocked 27 consecutive sessions; WebSearch-only binding",
+      "LME nickel $16,699 multi-month low: bearish ANTM/INCO/NCKL/MBMA",
+      "Coal export -7.27% YoY Jan-Apr 2026: Q2 results pressure; coal sector EXIT confirmed",
+      "Eagerness check critical (Wk 11 Day 2, 8th consecutive 0/3 week pattern + 18 cumulative unused slots Wks 6-10): 4 candidates >=6 = decision-point day for slot-utilization discipline",
+      "MSCI Frontier-downgrade Nov 2026 binary tail risk persistent overhang"
     ]
   },
-  "last_updated": "2026-06-29T15:15:00+07:00"
+  "last_updated": "2026-06-30T07:00:00+07:00"
 }
