@@ -6577,3 +6577,118 @@ Healthcare 5.44% of equity (KLBF safe-lower MV 537.165M / equity 9.867B); cash 9
   3. **B50 biodiesel program launch Wed Jul 1 (T+2 Tue):** plantation tailwind catalyst — LSIP/AALI re-eval; LSIP -23.89% MoM thesis-integrity concern persists.
   4. KLBF Tue open fresh multi-source cluster re-eval — if ≥3-source ≤2% convergence achieved Day 67: (a) at confirmed mark ≤931, trailing 931 GTC fires automatically; (b) at mark ≥1,087 → fire state-3 (7% trail at 1,011); (c) at mark ≥1,134 → fire state-4 (5% trail at 1,077). Day 66 + MSCI absorption Day 3 did NOT produce reconciliation; Day 67 next opportunity. KLBF Rp 500B buyback expiry Thu Jul 2 (T+3 Tue) = structural bid floor removal risk into Wk 11 end.
   5. Defensive thesis maintenance: 94.56% cash buffer + KLBF healthcare-defensive carry remains binding alpha-protection posture into Week 11 Day 2; cumulative alpha +22.18% provisional Mon sesi I remains structurally strong runway.
+
+---
+
+### 2026-06-30 09:15 WIB — MARKET-OPEN — NO TRADES (Week 11 Day 2, post-MSCI absorption Day 4, UNVR ex-div Day 0; first execution-day after BEI weight re-eval T-1)
+
+**Routine:** market-open execution (Week 11 Day 2, Tue Jun 30; UNVR ex-div Rp 114 TODAY; BEI IHSG weight re-eval effective Wed Jul 1 T+1; B50 biodiesel launch Wed Jul 1 T+1; KLBF buyback Rp 500B expiry Thu Jul 2 T+2; KLBF Day 67 data-infra outage persists 27 consecutive sessions; trial Day 52).
+
+**Candidates evaluated:** UNVR (TOP), BBCA (SECOND), LSIP (THIRD), AALI (LOW/DEPRIORITIZED) — per RESEARCH-LOG 2026-06-30 pre-market plan (4 scored ≥6: UNVR 7, BBCA 7 NEW-UP, LSIP 7, AALI 6).
+
+**Decision: SKIP ALL FOUR candidates.** No buys placed; 0/3 trades Week 11 Day 2 (2 fresh slots remain Wed-Fri Wk 11; 8th consecutive 0/3 week pattern at risk).
+
+**Multi-source price cluster (WebSearch fallback per Data Quality Gate; yfinance/GoAPI Day 67 outage HTTP 403):**
+
+| Ticker | Sources (Tue Jun 30 fresh / carry) | Cluster | DQ Gate |
+|--------|-------------------------------------|---------|---------|
+| UNVR | TradingView 1,765 (24h +1.81%) / Investasiku 2,000 (outlier suspect) / Bisnis Premium Mon close 1,665 IEP (cum-div) | 1,665-2,000 spread ~20% | FAIL canonical AND relaxed ≤4%; no fresh post-ex Tue cluster surfaced |
+| BBCA | TradingView 6,050 (Mon 9:50 GMT+7 open) / Investing 6,025 (Mon close down 2.42%) / Yahoo 6,175 (Jun 26 stale) / RESEARCH-LOG Mon sesi II 5,800-5,825 | 5,800-6,175 spread ~6.5% | FAIL canonical AND relaxed; cluster non-convergent + no fresh Tue cluster surfaced |
+| LSIP | TradingView 1,310 (24h +1.16%) — single fresh source | 1,310 | FAIL — <3 fresh sources |
+| AALI | TradingView 6,175 (24h +2.07%) — single fresh source | 6,175 | FAIL — <3 fresh sources |
+
+**9-gate buy-side checklist (per candidate):**
+
+**UNVR** — SKIP (TOP PRIORITY but Data Quality Gate fail + Gate 9 chase cap fails on pre-ex carry mark)
+1. Total positions ≤6 after fill (KLBF + UNVR = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 1,580 × 310,000 sh = 489.8M ≈ 4.99%): PASS (hypothetically)
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (ex-div TODAY Rp 114 mechanical reset + Brent $72.01 sub-$73 CPI-relief tailwind + MNC TOP PICK persistent + Q2 earnings Jul 28 T+27): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (UNVR typical ~10-15M): PASS
+8. Lot size multiple of 100 (310,000 sh): PASS
+9. **Gate 9 FAIL** — live cluster (pre-ex carry) 1,765 vs planned post-ex entry ≤1,580 = +11.7% above planned > 3% chase cap; expected post-ex open ~1,551 not surfaced fresh ≥3-source Tue 09:15 filing
+- **Data Quality Gate FAIL (primary):** no fresh same-day post-ex multi-source Tue cluster surfaced. Pre-ex TradingView 1,765 carry + Investasiku 2,000 outlier + Bisnis Mon IEP 1,665 = 3 sources spread ~20% FAILS canonical ≤2% AND relaxed ≤4%-under-outage gate
+- **Pre-market plan conditional entry condition (i) FAIL:** Tue open ≤1,580 multi-source ≥3 fresh sources convergent — not achievable on Day 67 outage with no fresh post-ex Tue cluster
+- R:R-cap-math evaluation per Wk 10 Process change: at hypothetical 1,580 entry, hard-cut 1,469, TP 1,900 = R:R 2.89:1 PASSES; at carry mark 1,765, hard-cut 1,642, TP 1,900 = R:R 1.10:1 FAILS — entry math improvement only realized if post-ex cluster materially below carry, which is NOT yet confirmed
+- Defensive-Quality Track SUSPENDED per regime DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED
+
+**BBCA** — SKIP (SECOND PRIORITY; Data Quality Gate fail on cluster discordance + Gate 9 chase risk dominant)
+1. Total positions ≤6 after fill (KLBF + BBCA = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 5,800 × 84,500 sh = 490.1M ≈ 4.99%): PASS
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (Mon −4.05% deep pullback achieved + post-MSCI absorption Day 4 mean-reversion candidate + BEI T+1 absorbed-headwind interpretation): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (~50M+ BBCA): PASS
+8. Lot size multiple of 100 (84,500 sh): PASS
+9. **Gate 9 MARGINAL/FAIL** — cluster discordance: WebSearch returns 6,025-6,175 (Mon open + carry) vs RESEARCH-LOG Mon close 5,800-5,825 — if cluster mark is 6,050 vs planned ≤5,800 = +4.3% > 3% chase cap; if Mon-close 5,825 mark used = +0.4% PASSES. Tue Jun 30 fresh anchor not yet surfaced.
+- **Data Quality Gate FAIL (primary):** 4-source cluster spread ~6.5% (5,800-6,175) FAILS canonical ≤2% AND relaxed ≤4%-under-outage gate; cluster non-convergent on Day 67 outage with no fresh Tue 09:15 surface
+- **Pre-market plan conditional entry condition (i) FAIL:** Tue open ≤5,800 multi-source ≥3 fresh sources ≤2% canonical OR ≤4% relaxed — cluster spans 5,800-6,175 = 6.5% spread fails both thresholds
+- R:R-cap-math evaluation per Wk 10 Process change: at 5,800 entry, hard-cut 5,394, TP 6,612 = R:R 2.00:1 marginal PASSES; at 6,050 cluster mark, hard-cut 5,627, TP 6,612 = R:R 1.33:1 FAILS — R:R 2:1 achievable only at confirmed ≤5,800 fresh cluster which is NOT confirmed
+- Defensive-Quality Track SUSPENDED per regime
+
+**LSIP** — SKIP (THIRD PRIORITY; Data Quality Gate fail + thesis-integrity falling-knife pattern persists)
+1. Total positions ≤6 after fill (KLBF + LSIP = 2): PASS
+2. Trades this week ≤3 (0 + 1 = 1): PASS
+3. Position cost ≤5% of equity (5% × 9,820M = 491M cap; at 1,310 × 374,800 sh = 491.0M ≈ 5.00%): PASS (hypothetically at cluster mark)
+4. Position cost ≤ cash 9.329B: PASS
+5. Catalyst documented in RESEARCH-LOG (B50 biodiesel launch Wed Jul 1 T+1 structural CPO tailwind + BCA Sekuritas TOP pecking-order + no MSCI SC contamination + FY25 net Rp 1.89T +28% YoY): PASS
+6. Stock not option/ETF: PASS
+7. ADV >500K shares (LSIP typical ~3-5M+): PASS
+8. Lot size multiple of 100 (374,800 sh): PASS
+9. **Gate 9 ANOMALOUS** — live cluster 1,310 vs planned deep-pullback entry ≤1,565 = -16.3% BELOW planned (anomalous magnitude raises thesis-integrity pre-mortem; same falling-knife signature as Mon Jun 29 SKIP)
+- **Data Quality Gate FAIL (primary):** only 1 fresh source (TradingView 1,310) Tue 09:15 filing — fails canonical AND relaxed ≥3-source requirement
+- **Thesis-integrity concern persists:** LSIP -23.89% MoM per yesterday's search; current cluster -31% below analyst PT 1,883 — falling-knife pattern per ADRO MISTAKES.md 2026-05-20 lesson (catching falling knife in macro-stress regime + sector-policy fat-tail risk). Pre-market pre-mortem invalidation marker ("LSIP breach 1,455 first 3 sessions = thesis broken") not yet tripped but cluster persistence at 1,310 over Mon-Tue indicates structural overhang
+- R:R-cap-math at 1,310 entry, hard-cut 1,218, TP 1,800 = R:R 5.32:1 strongly PASSES — but BLOCKED by upstream Data Quality + thesis-integrity
+- **Eagerness Check:** Am I trading because the B50 launch T+1 thesis is compelling, or because LSIP fell -23.89% MoM and looks "cheap"? Answer: latter dominates; pre-mortem already-tripped pattern in cluster persistence Mon→Tue argues for SKIP
+- Defensive-Quality Track SUSPENDED per regime
+
+**AALI** — SKIP (DEPRIORITIZED in pre-market plan; LSIP preferred for plantation slot)
+1-8. Gates not formally evaluated — DEPRIORITIZED in pre-market plan per LSIP preference + MSCI SC contamination headwind
+9. **Gate 9 ANOMALOUS** — live cluster 6,175 vs planned entry ≤7,083 = -12.8% BELOW planned (same falling-knife signature as LSIP)
+- **Data Quality Gate FAIL (primary):** only 1 fresh source (TradingView 6,175) Tue 09:15 filing — fails canonical AND relaxed ≥3-source requirement
+- AALI MSCI Small Cap REMOVAL contamination ongoing Day 8 = passive-outflow headwind compounds
+- Pre-market plan R:R 2.00:1 marginal at hypothetical 7,083 entry; at 6,175 cluster mark, hard-cut 5,743, TP 8,500 = R:R 5.27:1 PASSES but BLOCKED by upstream Data Quality + plantation-slot deprioritization
+- AALI superseded by LSIP for plantation slot (which itself SKIPPED per above)
+- Defensive-Quality Track SUSPENDED per regime
+
+**Binding constraints (summary across candidates):**
+1. **Data Quality Gate BINDS ALL FOUR (primary)** — Day 67 outage persists 27 consecutive sessions; no fresh ≥3-source ≤2% canonical OR ≤4% relaxed convergent Tue 09:15 cluster surfaced for any candidate
+2. **Gate 9 chase cap BINDS UNVR + BBCA** — UNVR pre-ex carry 1,765 vs post-ex planned ≤1,580 = +11.7% chase; BBCA cluster discordance 5,800-6,175 spans/exceeds 3% chase cap at most live anchors
+3. **Gate 9 anomalous below-planned BINDS LSIP + AALI** — falling-knife pattern persistence Mon→Tue (LSIP -16.3% below planned, AALI -12.8% below planned); thesis-integrity pre-mortem activates per ADRO MISTAKES.md lesson
+4. **R:R 2:1 BINDS UNVR + BBCA at live cluster carry mark** — UNVR 1.10:1 at 1,765/1,900; BBCA 1.33:1 at 6,050/6,612 (per Wk 10 Process change explicit R:R-cap-math evaluation; 2nd consecutive day of cap × stop math structural-infeasibility evidence)
+5. **MACRO regime DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED** binds 5% cap; Defensive-Quality Track SUSPENDED; criterion (e) MSCI accessibility NEGATIVE-LOCKED structural overhang
+6. **IDR PERMANENTLY-LOCKED-CASCADE-DE-ARMED** — Mon spot 17,818 sub-17,950 single-session de-arm of Fri 1-of-2 pierce; pre-emptive de-risk procedure REMAINS RELAXED into Tue
+7. **Eagerness check BINDS** — Wk 11 Day 2 = 2 fresh slots remain Wed-Fri; cumulative trial alpha +22.18% protected; 4 candidates → 4 SKIPs follows discipline; 2nd consecutive day of multi-binding constraint pattern + Day 67 outage anchors structural discipline over forced-trade pressure
+
+**Held position carry (no action):**
+- **KLBF 519,000 sh @ entry 945** — trailing 931 GTC re-arms broker-side at Tue 09:00 WIB open; safe-lower carry frozen 1,035 (+9.52% unrealized = +IDR 46,710,000); cluster Day 67 non-convergence persists 27 consecutive sessions Day 41-67; state-machine state-3 (≥1,087 → 7% trail 1,011) and state-4 (≥1,134 → 5% trail 1,077) tightening triggers remain ARMED-BLOCKED on cluster non-convergence. Tue Jun 30 fresh TradingView 745 single-source (−3.25% 24h) signal persists firmly BELOW trail 931 but FAILS ≥3-source canonical convergence → trailing GTC does NOT fire automatically. MATERIAL stop-fire risk if cluster narrows ≥3-source ≤2% convergent ≤931 Tue or Wed. KLBF buyback Rp 500B expiry Thu Jul 2 (T+2) = structural bid floor removal risk Wk 11 end → cluster narrowing probability INCREASES post-expiry.
+
+**Macro context Tue Jun 30 (Week 11 Day 2 — post-MSCI absorption Day 4 — UNVR ex-div Day 0 — BEI weight re-eval T-1):**
+- IHSG: Mon Jun 29 sesi II final reconciled 5,820.79 −1.28% (−75.34 pt; opened 5,932.02 high 5,942.77 low ~5,800 close 5,820.79; TPIA + BBCA −4.05% led weakness) per Bisnis Market. Tue Jun 30 open not yet surfaced fresh at 09:15 WIB filing.
+- IDR/USD: Mon 17,818 −0.12% (strengthening); cascade kill-switch 17,950 DE-ARMED (Fri 1-of-2 pierce did NOT become 2-of-2 Mon); criterion (a) PERMANENTLY-LOCKED-WITH-CASCADE-DE-ARMED. Tue spot not yet fresh.
+- Foreign flow: Mon mild net sell 313M shares (far below Rp 500B threshold; BUMI top buy, BUKA/BBCA/MBMA top sell); Tue first 30-min direction not surfaced.
+- Brent: $72.01 Mon Jun 29 +0.03% (sustained sub-$73 = UNVR thesis CPI-relief tailwind VALIDATED).
+- US Mon Jun 29: S&P 7,440.43 +1.18% / Nasdaq 25,820.15 +2.07% (Alphabet + chip-sector recovery; reversal of 5-consecutive-day downturn) / Dow 52,182.74 +0.59% RECORD CLOSE >52K first time; VIX ~18 moderating. Constructive external backdrop into Tue IDX open.
+- Newcastle coal ~$145 retracing from $150 (coal sector EXITED still binding); LME nickel $16,699 multi-month low; CPO MYR ~4,568-4,650 stable.
+- BI rate 5.75% (Thu Jun 18 RDG +25bp); next BI RDG Aug 14 (T+32).
+- MSCI Annual Classification Wed Jun 24: Indonesia REMAINS EM; Information Flow downgrade flag + Nov 2026 Frontier-downgrade consultation possibility = criterion (e) NEGATIVE-LOCKED structural overhang persists.
+- UNVR ex-div Rp 114/sh TODAY (Tue Jun 30) = mechanical drop ~Rp 114 from Mon close 1,665 IEP → expected open ~1,551; cluster reset post-ex pending fresh ≥3-source Tue surface.
+- BEI IHSG weight re-eval effective Wed Jul 1 (T+1): BBCA −53bp / BBRI −50bp headwind / BMRI +24bp / BBNI +4bp tailwind. Tue is T+0 (passive flow positioning).
+- B50 biodiesel launch Wed Jul 1 (T+1): LSIP/AALI structural CPO tailwind.
+- KLBF buyback Rp 500B expiry Thu Jul 2 (T+2): structural bid floor removal risk Wk 11 end.
+
+**Price source notes:**
+- Price source: WebSearch fallback per CLAUDE.md routine STEP 2b; yfinance + GoAPI Day 67 HTTP 403 outage persists 27 consecutive sessions Apr 21 → Jun 30. WebSearch override path operational with explicit RESEARCH-LOG/TRADE-LOG documentation per Data Quality Gate.
+- UNVR cluster MULTI-SOURCE NON-CONVERGENT Tue 09:15 — TradingView 1,765 carry + Investasiku 2,000 outlier suspect + Bisnis Mon IEP 1,665 = 3 sources spread ~20% FAILS canonical AND relaxed; no fresh post-ex Tue cluster surfaced.
+- BBCA cluster MULTI-SOURCE NON-CONVERGENT Tue 09:15 — TradingView Mon 6,050 / Investing Mon 6,025 / Yahoo Jun 26 stale 6,175 / RESEARCH-LOG Mon close 5,800-5,825 = 4-source spread ~6.5% FAILS canonical AND relaxed; no fresh Tue cluster.
+- LSIP single fresh source (TradingView 1,310); fails ≥3-source canonical.
+- AALI single fresh source (TradingView 6,175); fails ≥3-source canonical.
+- KLBF cluster Day 67 non-convergent — broker stub 945 / TradingView 745 fresh (−3.25% 24h) / Investing 780 / Yahoo stale = 4-source spread ≥30% FAILS canonical AND relaxed; trailing GTC cannot fire on single-source 745.
+
+**Eagerness Check pass:** Wk 11 Day 2 = 2 fresh slots remain Wed-Fri; cumulative trial alpha +22.18% provisional Mon protected; 4 candidates → 4 SKIPs follows discipline. Per Wk 10 Process change explicit R:R-cap-math evaluation Tue Day 2: confirmed Data Quality Gate is primary binding constraint on Day 67 outage continuation; Gate 9 chase + R:R 2:1 dual-binding pattern persists structurally on live cluster marks; falling-knife thesis-integrity pattern persists on LSIP/AALI cluster carry. 3rd-week evidence accumulating for structural-cap-math infeasibility hypothesis. Discipline holds.
+
+**Trades this week: 0/3.** Week 11 Day 2 — 2 fresh slots remain Wed-Fri.
+

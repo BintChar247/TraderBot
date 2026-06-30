@@ -8620,6 +8620,202 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-06-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TOP PRIORITY ex-div TODAY Rp 114 mechanical reset + Brent $72 CPI-relief + MNC TOP PICK; SKIP on Data Quality Gate fail (no fresh post-ex Tue cluster) + Gate 9 chase cap +11.7% on pre-ex carry mark + R:R 1.10:1 at carry mark",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Rp 114 TODAY (~7% yld) mechanical reset; MNC Spec Buy TP 1,885-2,000; Brent $72 sub-$73 CPI-relief"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED; 5% cap; criterion (e) NEGATIVE-LOCKED"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: pre-ex 1,765 + 2,000 outlier + Mon IEP 1,665 spread ~20%; Gate 9 chase +11.7% vs planned \u22641,580 post-ex; R:R 1.10:1 at carry mark"
+        },
+        {
+          "type": "sizing",
+          "label": "Hypothetical 5% cap \u00d7 310,000 sh @ 1,580 = 490M (4.99%)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 67 outage); no fresh post-ex Tue cluster surfaced"
+        }
+      ],
+      "reasoning": "TOP candidate but ex-div mechanical reset requires fresh post-ex \u22653-source cluster \u22641,580 to validate entry math improvement; carry mark 1,765 fails Gate 9 chase + R:R. Wait for cluster reset before re-entry consideration.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-06-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "SECOND PRIORITY Mon \u22124.05% deep pullback completes entry-zone arrival + post-MSCI absorption Day 4 mean-reversion + BEI T+1 absorbed-headwind; SKIP on Data Quality Gate fail (cluster spread 6.5% multi-source non-convergent) + Gate 9 cluster discordance",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mon \u22124.05% deep pullback to 5,800-5,825 entry-zone; post-MSCI absorption Day 4 mean-reversion; BEI T+1 absorbed-headwind interpretation; consensus PT 8,654"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED; banking sector weight re-eval effective Wed Jul 1"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: 4-source cluster 5,800-6,175 spread 6.5%; R:R 1.33:1 at 6,050 carry mark vs 2.00:1 marginal at 5,800 confirmed entry (not confirmed)"
+        },
+        {
+          "type": "sizing",
+          "label": "Hypothetical 5% cap \u00d7 84,500 sh @ 5,800 = 490M (4.99%)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 67 outage); cluster non-convergent Tue 09:15"
+        }
+      ],
+      "reasoning": "Mon \u22124.05% pullback achieves planned entry-zone but Day 67 outage prevents fresh \u22653-source Tue cluster confirmation. Cluster spans 5,800-6,175 = 6.5% spread fails canonical AND relaxed gate. R:R 2:1 achievable only at confirmed \u22645,800 fresh anchor.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-06-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "THIRD PRIORITY B50 launch Wed Jul 1 T+1 structural CPO tailwind + BCA TOP plantation pick + no MSCI SC contamination; SKIP on Data Quality Gate fail (single fresh source) + thesis-integrity falling-knife persistence",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel launch Wed Jul 1 T+1 structural CPO demand floor; BCA Sekuritas TOP pecking-order; FY25 net Rp 1.89T +28% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED; CPO MYR ~4,568-4,650 stable"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: single fresh source TradingView 1,310 (<3); thesis-integrity falling-knife (-23.89% MoM; cluster persists Mon\u2192Tue at 1,310 per ADRO MISTAKES.md 2026-05-20 lesson)"
+        },
+        {
+          "type": "sizing",
+          "label": "Hypothetical 5% cap \u00d7 374,800 sh @ 1,310 = 491M (5.00%)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 67 outage); falling-knife pattern Mon\u2192Tue carry persistence"
+        }
+      ],
+      "reasoning": "Deep pullback to 1,310 below planned \u22641,565 anticipated as conditional trigger BUT magnitude (-16.3% below planned) + Mon\u2192Tue cluster persistence + single fresh source + thesis-integrity pre-mortem activates ADRO MISTAKES.md lesson on catching falling knives in macro-stress regimes. Eagerness check flags cheapness as motive.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-06-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "LOW PRIORITY/DEPRIORITIZED B50 tailwind Wed Jul 1 same as LSIP but MSCI SC contamination headwind half-size; SKIP on Data Quality Gate fail + plantation slot superseded by LSIP (which also SKIPPED)",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel launch Wed Jul 1 T+1 same as LSIP; FY25 net Rp 1.5T +28.2% YoY; Katadata PT 8,200-8,500"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-ABSORBED-DAY3-RESOLVED; MSCI SC REMOVAL contamination Day 8 passive-outflow headwind"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL: single fresh source TradingView 6,175 (<3); Gate 9 anomalous -12.8% below planned 7,083 = falling-knife signature"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 DEPRIORITIZED below LSIP for plantation slot"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override (yfinance Day 67 outage); AALI single source only Tue"
+        }
+      ],
+      "reasoning": "DEPRIORITIZED in pre-market plan; LSIP preferred for plantation slot (no MSCI SC contamination). LSIP itself SKIPPED on data quality + thesis-integrity; AALI cascading SKIP follows. Single fresh source + MSCI SC headwind + falling-knife pattern.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -12957,6 +13153,47 @@
           "type": "alert",
           "ticker": "KLBF",
           "detail": "4-source cluster 710-780 firmly BELOW trail 931 GTC; spread 9.3% FAILS DQ gate Day 67 but material stop-fire risk if cluster narrows"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-06-30T02:21:35Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Tue Jun 30 (Wk 11 Day 2, post-MSCI absorption Day 4, UNVR ex-div Day 0). 4 candidates evaluated (UNVR TOP/BBCA SECOND/LSIP THIRD/AALI LOW); ALL SKIPPED on Data Quality Gate fail (Day 67 outage; no fresh \u22653-source Tue cluster for any candidate) + Gate 9 chase cap UNVR/BBCA + falling-knife thesis-integrity LSIP/AALI. KLBF held; trailing 931 GTC armed broker-side but cluster non-convergent (TradingView 745 single source). 0/3 trades Wk 11; 2 slots remain Wed-Fri.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Data Quality fail + Gate 9 chase +11.7% on pre-ex carry 1,765 vs planned \u22641,580 post-ex"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Data Quality fail (4-source spread 6.5%); cluster discordance 5,800-6,175"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "Data Quality fail (single source 1,310); falling-knife thesis-integrity persistence -23.89% MoM"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "Data Quality fail (single source 6,175); MSCI SC contamination; LSIP preferred plantation slot"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Trailing 931 GTC armed; cluster Day 67 non-convergent (TradingView 745 single source FAILS \u22653-source canonical)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 67 outage, 27 consecutive sessions Apr 21 \u2192 Jun 30)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification fallback to stdout (proxy HTTP 403)"
         }
       ]
     }
