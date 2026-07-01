@@ -8834,6 +8834,202 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-07-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "B50 launch day T+0 structural CPO tailwind + BCA TOP pecking-order + no MSCI SC contamination + PER 4.26 deep-value.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel LAUNCH TODAY Wed Jul 1 = LIVE effect"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-CASCADE-RE-ENGAGED-DAY0; IHSG Wed sesi I ~5,680-5,697 (5,600 stabilization mixed)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate D (Data Quality) FAIL Day 68: single fresh source LSIP 1,295 vs cluster stale 1,290-1,310; \u22653-source \u22642% or \u22644% relaxed NOT achieved"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% cap ~380,600 sh \u2014 not executed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch cluster read Day 68 outage; single fresh source insufficient"
+        }
+      ],
+      "reasoning": "SKIP on Data Quality Gate FAIL: LSIP single fresh source 1,295 (Investing.com/Investasiku persistent 1,295 cluster) vs Tue single-source stale 1,290-1,310 = only 1 fresh source achieved on Day 68 outage; cannot meet \u22653-source \u22642% canonical or \u22644% relaxed convergence per RESEARCH-LOG Wed Jul 1 conditional entry gate (i). Alpha protection binding: +24.28% provisional cumulative preserved.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-07-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-ex Day 1 reset + Brent $72 CPI-relief + MNC TOP PICK Spec Buy TP 1,885-2,000.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "UNVR post-ex Day 1 mechanical reset expected ~1,551"
+        },
+        {
+          "type": "macro",
+          "label": "Brent sub-$73 CPI-relief tailwind sustained"
+        },
+        {
+          "type": "risk",
+          "label": "Gate D (Data Quality) FAIL: fresh source Investasiku 1,765 vs planned post-ex reset 1,551 = 12.1% spread; ex-date discordance (source says Jun 15 vs research Jun 30) \u2014 thesis-integrity ambiguity"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% cap ~310,000 sh \u2014 not executed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch cluster read Day 68 outage; \u226512% source spread FAILS canonical AND relaxed"
+        }
+      ],
+      "reasoning": "SKIP on Data Quality Gate FAIL + thesis-integrity ambiguity: Wed fresh single-source Investasiku 1,765 (+1.81% 24h) vs planned post-ex reset ~1,551 = 12.1% spread FAILS canonical \u22642% AND relaxed \u22644% under Day 68 outage. Ex-date source discordance (Investing.com search returns Jun 15 vs research entry Jun 30 ex-div) compounds Data Quality risk. Falling-knife pattern risk per MISTAKES.md 2026-05-20.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cascade capitulation candidate + BEI weight re-eval T+0 absorbed-headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BEI IHSG weight re-eval EFFECTIVE Wed Jul 1 LIVE = cleansing event"
+        },
+        {
+          "type": "macro",
+          "label": "IDR 17,883 sub-17,950 = de-escalation Wed from Tue re-pierce"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 (falling-knife) FAIL + Gate D (Data Quality): Wed opened 5,800 \u2192 intraday cascade to 5,550 (-6.33% 24h from ~5,700); planned entry \u22645,700 chased -2.6% below = falling-knife pattern per ADRO MISTAKES.md 2026-05-20"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% cap ~86,100 sh \u2014 not executed"
+        },
+        {
+          "type": "warning",
+          "label": "BBCA 2-day cumulative -8.8% cascade + Wed sesi I -6.33% intraday range; falling-knife discipline binds"
+        }
+      ],
+      "reasoning": "SKIP on Gate 9 falling-knife pattern activation: BBCA Wed Jul 1 intraday 5,550-5,825 (opened 5,800, cascaded -6.33% to 5,550) = 4.5% intraday spread + 2-day cumulative -8.8% cascade continuation. Foreign net sell Rp 766B Tue Jun 30 = capitulation signature but cascade extension Wed = falling-knife not bottom-signature. Per ADRO MISTAKES.md 2026-05-20 SIZING-in-VOL-REGIME critique: high forced-cut probability with cascade+tight-stop+wider vol.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-07-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "B50 launch day tailwind same as LSIP but MSCI SC contamination half-size only.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "B50 biodiesel launch T+0 LIVE"
+        },
+        {
+          "type": "macro",
+          "label": "MSCI SC removal basket = passive-outflow contamination Day 8"
+        },
+        {
+          "type": "risk",
+          "label": "Gate D (Data Quality) FAIL Day 68: no fresh Wed cluster surfaced; single-source Tue stale 6,175"
+        },
+        {
+          "type": "sizing",
+          "label": "planned half-size 2.5% cap ~39,800 sh \u2014 not executed"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch cluster read Day 68 outage; deprioritized below LSIP for plantation slot"
+        }
+      ],
+      "reasoning": "SKIP on Data Quality Gate FAIL + DEPRIORITIZED below LSIP: no fresh Wed cluster surfaced; Tue single-source stale 6,175 does not meet \u22653-source \u22642% canonical or \u22644% relaxed. Even if data quality resolved, DEPRIORITIZED per plan because MSCI SC contamination half-size only + LSIP superior (BCA TOP pecking-order + no MSCI + PER 4.26 deep-value).",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -13285,6 +13481,43 @@
         {
           "type": "alert",
           "detail": "URGENT foreign flow reversal Rp 1.04T Tue Jun 30 > Rp 1T threshold; IHSG breach 5,800 psych floor; IDR 17,957 cascade kill-switch RE-PIERCE"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-01T02:20:29Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 11 Day 3. 4 SKIPs: LSIP/UNVR/BBCA/AALI on Data Quality Gate FAIL (Day 68 outage: LSIP single fresh 1,295 / UNVR 12.1% spread vs planned reset / AALI no fresh cluster) + BBCA Gate 9 falling-knife -6.33% Wed cascade continuation. KLBF trailing 931 GTC re-armed did not fire on Day 68 cluster non-convergence (Ajaib 710/TV 760/Inv 780/Yahoo 745 = 9.3% spread).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "Data Quality Gate FAIL \u2014 single fresh source Investasiku 1,295 vs Tue stale 1,290-1,310; \u22653-source \u22642%/\u22644% NOT achieved Day 68"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Data Quality Gate FAIL \u2014 Investasiku 1,765 vs planned post-ex reset 1,551 = 12.1% spread + ex-date discordance"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate 9 falling-knife pattern \u2014 Wed opened 5,800 cascaded -6.33% to 5,550 intraday; falling-knife per ADRO MISTAKES.md 2026-05-20"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "Data Quality Gate FAIL \u2014 no fresh Wed cluster surfaced; deprioritized below LSIP"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "trailing 931 GTC re-armed, did not fire on Day 68 cluster non-convergence (Ajaib 710/TV 760/Investing 780/Yahoo 745 = 9.3% spread)"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price sourcing used Day 68 outage; cluster convergence discipline binds"
         }
       ]
     }
