@@ -12673,3 +12673,287 @@ Score 1-10 (10 = strongest buy setup). Sector momentum filter first.
 - [ ] **Stop discipline:** trailing 931 GTC KLBF re-arms at Tue open; broker-side fires only on multi-source convergent ≤931. State-3 and state-4 ARMED but bidirectionally BLOCKED.
 
 ---
+## 2026-07-01 (Wednesday) — Week 11 Day 3 / IHSG cascade RE-ENGAGED Day 0 (Tue Jun 30 sesi II final −3.05%) / BEI IHSG weight re-eval LIVE EFFECT DAY / B50 biodiesel LAUNCH DAY / KLBF buyback expiry T-1 (Thu Jul 2) / Data Quality Day 68 outage continuation
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,449.36 | +0.79% (+8.93) | url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-30-2026 — Q2 2026 best US indices since 2020 pandemic |
+| Nasdaq | 26,213.72 | +1.52% (+393.57) | Tech continuation from Mon's +2.07% rally |
+| Dow Jones | 52,319.20 | +0.26% (+136) | RECORD CLOSE 2nd consecutive session |
+| Nikkei 225 | 70,062.32 | mixed | url: https://tradingeconomics.com/japan/stock-market — new highs zone |
+| Hang Seng | n/d exact | −0.6% | url: https://tradingeconomics.com/hong-kong/stock-market |
+| Shanghai Composite | n/d exact | +0.5% | mixed Asia divergence |
+| VIX | 17.65 (Jun 30 close) | up from ~16.41 monthly | url: https://fred.stlouisfed.org/series/VIXCLS — mid-teens moderating regime |
+
+**Constructive US backdrop (Dow record 2nd consecutive) is DECOUPLED from IDX Tue sesi II final −3.05% deep cascade — IDX-specific idiosyncratic cascade path evidenced by extreme foreign net sell Rp 1.04T on Tue Jun 30.**
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | **Tue Jun 30 sesi II final 5,643.19** (−177.60 pt / −3.05%) | url: https://www.viva.co.id/bisnis/1909921-ihsg-ambruk-305-persen-saat-penutupan-sesi-ii-terperosok-ke-level-5643-dan-sentuh-titik-terendah-hari-ini — BREACH 5,800 psychological floor; intraday low 5,638.57; 564 saham turun / 136 menguat / 99 stagnan; Q1 2026 semester close −29.8% YTD | Wk 11 D2 cascade Day 0 |
+| IDR/USD | **~17,957 (Wed Jul 1 pre-open cluster)** | url: https://longforecast.com/usd-to-idr-forecast-today — sub-18,000 held BUT ABOVE 17,950 cascade kill-switch = RE-PIERCE (Fri 1-of-2, Wed 1-of-2 fresh cycle); Mon 17,818 → Tue Jun 30 spot returned to 17,954-17,957 zone; **cascade kill-switch 17,950 RE-ARMED-WATCH** | criterion (a) DE-ESCALATING → RE-ARMED-WATCH |
+| Indo 10Y SUN yield | 7.14% (multi-week trend) | +20bp 4w | url: https://tradingeconomics.com/indonesia/government-bond-yield — highest since Apr 2025; rate-sensitive property/cement headwind |
+| US 10Y yield | 4.37% (Jun 30) | −0.01pp | url: https://tradingeconomics.com/united-states/government-bond-yield — stable |
+| Indo-US spread | 277bp | flat | wide but stable |
+| Newcastle coal (USD/ton) | ~$129-145 range | retracing from $150 high | url: https://tradingeconomics.com/commodity/coal — sector EXITED still binding + Brent collapse thesis-weakening |
+| CPO palm oil (MYR/ton) | ~4,541 (Tue Jun 30) | −0.4% recent decline | url: https://tradingeconomics.com/commodity/palm-oil — B50 launch TODAY (Wed Jul 1) structural CPO demand floor engaged |
+| LME nickel (USD/ton) | ~$17,501 (Jun 23 anchor persistent) | multi-month low | url: https://tradingeconomics.com/commodity/nickel — bearish for ANTM/INCO/NCKL/MBMA cluster |
+| Brent crude (USD/bbl) | $72-73 (Jun 30) | −$1 sub-$73 sustained | url: https://tradingeconomics.com/commodity/brent-crude-oil — CPI-relief tailwind for UNVR/consumer-staples HOLDS structurally |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| **Foreign net buy/sell (IDX Tue Jun 30)** | **NET SELL Rp 1.04T market-wide / Rp 1.21T regular market** | url: https://investasi.kontan.co.id/news/asing-net-sell-jumbo-rp-1-triliun-cek-saham-yang-banyak-dilego-di-akhir-juni-2026 — **URGENT CONDITION MET per pre-market routine (>Rp 1T reversal); Mon 313M sh mild net sell → Tue Rp 1.04T = 3-4x magnitude escalation** |
+| Foreign net sell top names Tue | BBCA Rp 766.4B / BBRI Rp 225.7B / BMRI Rp 157.7B | Banking cluster deep foreign disposal on BEI weight re-eval T-1 anticipation |
+| Foreign net buy top names Tue | TPIA Rp 87.3B / CASA Rp 57.2B / AMMN Rp 50.4B | Petrochem + Amman gold-copper tailwind |
+| Foreign flow cumulative 2026 YTD | ~Rp 53.9T net sell | url: https://www.waspada.id/berita/ihsg-terpuruk-hampir-30-persen-sepanjang-2026-asing-catat-net-sell-rp53-9-t — deep persistent outflow trend |
+| Indonesia FX reserves | May 2026 $144.9B | url: https://www.indonesia-investments.com/news/todays-headlines/bank-indonesia-foreign-exchange-reserves-fell-1.3-billion-in-may-2026/item9928 — lowest since Jun 2024; Jun 2026 data pending BI release early Jul |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | **CASCADE DEEP RED Tue Jun 30** (BBCA −3.80% to 5,700 / BBRI −3.87% to 2,730 / BMRI −2.28% to 3,850 / BBNI −3.07% to 3,160) | BEI weight re-eval EFFECTIVE Wed Jul 1 = LIVE EFFECT DAY (BBCA −53bp / BBRI −50bp passive-outflow headwind persists; BMRI +24bp / BBNI +4bp tailwind) | Wed T+0 cleansing-event risk |
+| Coal / Energy | EXITED still binding; sector fragile | Newcastle $129-145 retracing + Brent collapse | n/a — 2-strike rule locked |
+| Nickel / Mining | BEARISH persistent | LME nickel $17,501 multi-month low + 34% production cut policy LT tailwind ST bearish | ANTM/INCO BRI Danareksa PT 4,800/7,500; MBMA top foreign sell Mon |
+| CPO / Agri | **BULLISH — B50 LAUNCH TODAY Wed Jul 1 = LIVE EFFECT DAY** | 50% CPO blend mandate + eliminating diesel imports = structural domestic demand + margin re-rating catalyst | LSIP > AALI (MSCI SC contamination) per BCA pecking-order |
+| Property | HOSTILE — BI 5.75% + 10Y SUN 7.14% | Rate-sensitive headwind + sovereign overhang persists | All SKIP |
+| Consumer | DEFENSIVE-BID + UNVR post-ex Day 1 | Brent $72 CPI-relief sustained; UNVR ex-div Rp 114 mechanical drop absorbed Tue | UNVR post-ex reset math |
+| Telco | CASCADE — TLKM Mon −2.82% to 2,410 continuation | Data Quality Gate persistent FAIL; TLKM YTD −30.75% | TLKM 2,410 fresh cluster anchor |
+| Infrastructure/Cement | SMGR/INTP mixed | JSMR toll defensive; Q1 SMGR +88.7% profit vs INTP +2.1% | JSMR/INTP watch |
+| Tech | RED — EMTK/BUKA/GOTO under sector risk-off | GOTO Q1 first profit but 2Q outlook fragile | SKIP cluster |
+| Auto/Industrial | DEEP RED Tue Jun 30 ASII −2.97% to 4,570 / AKRA −3.63% to 1,195 | Rp 8T buyback July 20 T+20 too distant | WATCH cluster |
+| Healthcare | KLBF cluster Day 68 non-convergent | Buyback Rp 500B expiry T-1 (Thu Jul 2) = bid floor removal risk imminent | HELD |
+
+### Corporate Calendar Today + This Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **BEI IHSG weight re-eval EFFECTIVE DAY** | BBCA/BBRI/BMRI/BBNI | **Wed Jul 1 (TODAY)** | LIVE passive re-pricing window; T+0 headwind cleansing-event; T+1 potential mean-reversion |
+| **B50 biodiesel mandatory LAUNCH** | LSIP/AALI/TAPG/DSNG/BWPT | **Wed Jul 1 (TODAY)** | url: https://en.antaranews.com/amp/news/411389/indonesia-to-roll-out-b50-biodiesel-from-july-1-lahadalia — structural CPO demand + diesel import elimination + 4M KL fossil fuel savings + Rp 48T subsidy savings |
+| KLBF Rp 500B buyback program EXPIRY | KLBF | Thu Jul 2 (T+1) | Structural bid floor REMOVAL risk = cluster narrowing probability INCREASES post-expiry |
+| June 2026 CPI release (BPS) | macro | Early Jul (T+0-2) | May was 3.08% YoY; Brent collapse suggests disinflation |
+| BI foreign reserves May→Jun release | macro | Early Jul (T+0-3) | May was $144.9B (2-year low); Jun data pending |
+| BI Rate Decision (RDG next) | macro | Jul 21-22 (T+15) | Consensus: hold at 5.75%; post-3-hike-in-4-weeks pause |
+| Q2 2026 earnings season | broad | mid-Jul → | UNVR Q2 Jul 28; ASII buyback Jul 20 |
+
+### Watchlist Scan — All 50 Tickers (Day 68 data-infra outage; WebSearch-only cluster reads; Tue Jun 30 sesi II close basis)
+
+**Two-track scoring:** Catalyst-track primary; Defensive-Quality Track SUSPENDED per MACRO-REGIME.md DEFENSIVE-INTENSIFIED-CASCADE-RE-ENGAGED regime active (was CASCADE-ABSORBED-DAY3-RESOLVED Mon; RE-ENGAGED Tue on −3.05% deep cascade + Rp 1.04T foreign net sell + IDR 17,957 cascade kill-switch RE-PIERCE).
+
+| # | Ticker | Sector | Price (Tue Jun 30 close / cluster) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-----------------------------------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | **5,700 (Tue close)** | −3.80% | **6** | Cascade DEEP RED continues; BEI weight −53bp T+0 today = LIVE EFFECT; ENTRY WINDOW opens at 5,700 (below prior ≤5,890 target) BUT R:R re-eval required + falling-knife risk; foreign net sell Rp 766B Tue = capitulation? url: https://money.kompas.com/read/2026/06/30/112244326/bbca-bbri-bmri-hingga-tlkm-rontok-ihsg-anjlok-268-persen | **CANDIDATE (cascade-conditional)** |
+| 2 | BBRI | Banking | 2,730 (Tue close) | −3.87% | 4 | BBRI strike-1 binding (May 1); BEI −50bp T+0 headwind; ex-div passed Jun 23 | WATCH |
+| 3 | BMRI | Banking | 3,850 (Tue close) | −2.28% | 5 | BEI +24bp tailwind T+0; relative-outperformer vs BBCA/BBRI; cascading conditional on BBCA initiator | WATCH |
+| 4 | BBNI | Banking | 3,160 (Tue close) | −3.07% | 4 | BEI +4bp minimal tailwind; no fresh catalyst; foreign sell contamination | WATCH |
+| 5 | BNGA | Banking | n/d | n/d | 3 | Mid-cap rate-sensitive | SKIP |
+| 6 | NISP | Banking | n/d | n/d | 3 | Thin liquidity | SKIP |
+| 7 | BBTN | Banking | n/d | n/d | 3 | Mortgage-bank rate hostile | SKIP |
+| 8 | ADRO | Coal | n/d | n/d | 2 | SECTOR EXITED; Brent collapse thesis-weak | SKIP |
+| 9 | ITMG | Coal | n/d | n/d | 2 | SECTOR EXITED; coal export −7.27% YoY | SKIP |
+| 10 | PTBA | Coal | n/d | n/d | 2 | SECTOR EXITED | SKIP |
+| 11 | BUMI | Coal | n/d | n/d | 2 | SECTOR EXITED | SKIP |
+| 12 | HRUM | Coal | n/d | n/d | 1 | SECTOR EXITED | SKIP |
+| 13 | MEDC | Energy | ~1,180 (Jun 15 stale) | n/d | 4 | Brent collapse caps thesis | WATCH |
+| 14 | PGAS | Gas | n/d Tue (Mon top foreign buy) | n/d | 4 | Defensive utility; Data Quality persistent FAIL | WATCH |
+| 15 | ANTM | Nickel | n/d | n/d | 3 | LME nickel multi-month low + MSCI SC contamination | SKIP |
+| 16 | INCO | Nickel | n/d | n/d | 5 | BRI Danareksa PT 7,500; LT thesis intact; ST bearish | WATCH |
+| 17 | MDKA | Nickel | n/d | n/d | 3 | Post-RUPSLB private placement 10% dilution overhang | SKIP |
+| 18 | NCKL | Nickel | n/d | n/d | 5 | BRI Danareksa PT 1,800; valuation cheap | WATCH |
+| 19 | MBMA | Nickel | n/d (Mon top foreign sell) | n/d | 3 | Foreign disposal + nickel bearish | SKIP |
+| 20 | TINS | Metals | ~4,720 ATH Mar / +8% wk / +22% mo | up-trending | 5 | Tin ATH Jun 2026; +203% YoY; sector-specific momentum | WATCH |
+| 21 | UNVR | Consumer | ~1,551 expected (post-ex-div Rp 114 mechanical) | ex-div T+1 | **6** | Post-ex Day 1 reset zone; Brent $72 CPI-relief HOLDS; MNC TOP PICK persistent; needs Wed cluster verify; ex-div absorbed Tue in cascade context — post-ex volume undetermined | CANDIDATE (post-ex verify) |
+| 22 | ICBP | Consumer | n/d | n/d | 5 | Defensive staples + Brent CPI-relief; cum-div Jun 19 passed | WATCH |
+| 23 | INDF | Consumer | n/d | n/d | 5 | Holdco ICBP same thesis | WATCH |
+| 24 | MYOR | Consumer | n/d | n/d | 4 | No fresh catalyst | SKIP |
+| 25 | SIDO | Consumer | n/d | n/d | 2 | MSCI SC contamination | SKIP |
+| 26 | TLKM | Telco | 2,410 (Mon fresh) | Mon −2.82% / Tue continuation likely | 3 | Cluster still Data Quality FAIL; YTD −30.75% cascade continuation | SKIP |
+| 27 | EXCL | Telco | n/d (XLSMART post-consol) | n/d | 3 | −24% post-consol; MSCI decision pressure | SKIP |
+| 28 | ISAT | Telco | n/d | n/d | 3 | IDR tail-risk on USD debt | SKIP |
+| 29 | MTEL | Telco/Tower | n/d | n/d | 4 | Q1 EBITDA Rp 1.9T aligned; 83% margin premium; defensive | WATCH |
+| 30 | TOWR | Telco/Tower | n/d | n/d | 4 | Q1 +20.75% YoY connectivity growth | WATCH |
+| 31 | BSDE | Property | n/d | n/d | 2 | BI 5.75% + 10Y 7.14% hostile | SKIP |
+| 32 | CTRA | Property | n/d | n/d | 3 | VAT incentive supportive; rate headwind | SKIP |
+| 33 | SMRA | Property | n/d | n/d | 3 | BI hostile | SKIP |
+| 34 | PWON | Property | n/d | n/d | 3 | Least-bad property | SKIP |
+| 35 | GOTO | Tech | n/d (FTSE drop) | n/d | 1 | Un-investable per FTSE removal | SKIP |
+| 36 | BUKA | Tech | n/d | n/d | 2 | Tech risk-off | SKIP |
+| 37 | EMTK | Tech/Media | n/d | n/d | 3 | Tech sector weak | SKIP |
+| 38 | ASII | Auto/Industrial | 4,570 (Tue close) | −2.97% | 5 | Rp 8T buyback July 20 T+20; JPM PT 6,942; Q1 −16% YoY weighs | WATCH |
+| 39 | UNTR | Heavy Equipment | n/d | n/d | 3 | Coal-adjacent contamination | SKIP |
+| 40 | AKRA | Distribution | 1,195 (Tue close) | −3.63% | 4 | Treasury stock transfer completed; defensive distro; no fresh catalyst | WATCH |
+| 41 | AALI | Plantation | 6,175 (Tue single-source stale) | n/d fresh | **6** | **B50 LAUNCH TODAY = LIVE EFFECT DAY structural tailwind; MSCI SC contamination = HALF-SIZE only; FY25 net Rp 1.5T +28.2% YoY** — url: https://katadata.co.id/finansial/bursa/69d5cf3c46482/prospek-saham-sawit-tapg-lsip-hingga-aali-terkait-implementasi-program-b50 | WATCH (DEPRIORITIZED vs LSIP) |
+| 42 | LSIP | Plantation | 1,290-1,310 (Tue single-source stale) | n/d fresh | **7** | **B50 LAUNCH TODAY LIVE EFFECT + BCA TOP pecking-order + NO MSCI SC + FY25 net Rp 1.89T +28% YoY; PER 4.26 valuation cheap; div yield 4.92%** — url: https://katadata.co.id/finansial/bursa/69d5cf3c46482/prospek-saham-sawit-tapg-lsip-hingga-aali-terkait-implementasi-program-b50 | **CANDIDATE (B50 launch day)** |
+| 43 | JSMR | Infrastructure | ~3,000 (May 25 stale) | n/d | 5 | Cum-div Jun 2 passed; toll defensive; chase risk | WATCH |
+| 44 | WSKT | Construction | n/d | n/d | 1 | SOE structurally impaired | SKIP |
+| 45 | PTPP | Construction | n/d | n/d | 2 | SOE structurally impaired | SKIP |
+| 46 | ADHI | Construction | n/d | n/d | 2 | SOE structurally impaired | SKIP |
+| 47 | KLBF | Healthcare | **Cluster Day 68: Ajaib 710 fresh / TradingView 760 / Investing 780 / Yahoo 745 stale = 4-source spread 9.3% FAILS canonical AND relaxed** | wk n/d | — | HELD; **MATERIAL stop-fire risk if cluster narrows ≤2% with mark ≤931; buyback expiry T-1 Thu Jul 2 = structural bid floor removal T-1** — url: https://ajaib.co.id/saham/aset/KLBF | **HOLD** |
+| 48 | MIKA | Healthcare | n/d | n/d | 3 | MSCI SC contamination; cum-div Jun 18 passed | SKIP |
+| 49 | SMGR | Cement | n/d | n/d | 4 | Q1 +88.7% profit surge but rate hostile | WATCH |
+| 50 | INTP | Cement | n/d | n/d | 5 | Cum-div Jun 3-4 passed; deep value 6.15 PE 11.2% yld | WATCH |
+
+**Scoring summary: 4 candidates scored ≥6 (LSIP 7, BBCA 6, UNVR 6, AALI 6). 1 HOLD (KLBF). 45 SKIP/WATCH. Total scan: 50 of 50 tickers screened.**
+
+**IHSG cascade RE-ENGAGED context alters all candidate math:** BBCA re-scored down from Tue's 7 to 6 given (a) foreign net sell Rp 766B = capitulation risk signal, (b) BEI weight re-eval T+0 headwind LIVE effect Wed, (c) falling-knife pattern activation per ADRO MISTAKES.md 2026-05-20 lesson. UNVR ex-div absorbed within cascade context — post-ex volume signal muddled; scored 6 pending Wed cluster verify. LSIP/AALI B50 launch day catalyst delivers T+0 today — sell-the-news risk activation per pre-mortem.
+
+**KLBF cluster trajectory ALERT PERSISTS Day 68:** Ajaib 710 fresh / TradingView 760 / Investing 780 / Yahoo 745 = 4-source cluster ALL well below trailing stop 931 GTC. Spread 9.3% FAILS canonical ≤2% AND relaxed ≤4% under-outage. Trailing GTC cannot fire on cluster non-convergence. Buyback Rp 500B expiry Thu Jul 2 (T-1) removes structural bid floor → cluster narrowing probability INCREASES sharply post-expiry (T+1 Fri).
+
+**Defensive Quality Track:** SUSPENDED per MACRO-REGIME.md CASCADE-RE-ENGAGED escalation.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive)
+
+#### 1. LSIP — B50 LAUNCH TODAY Wed Jul 1 = T+0 LIVE EFFECT DAY structural tailwind + BCA TOP pecking-order + NO MSCI SC contamination
+
+**Fundamental case:**
+- Thesis: B50 biodiesel mandatory 50%-CPO-blend program LAUNCHES TODAY Wed Jul 1 = T+0 LIVE structural catalyst. Program eliminates Indonesia's diesel imports + saves 4M KL fossil fuel annually + Rp 48T subsidies. Structural domestic CPO demand absorption + upstream margin re-rating.
+- Thesis: LSIP quality Indonesian CPO pure-play. BCA Sekuritas pecking-order TOP (LSIP > AALI > DSNG). NOT in MSCI SC removal basket — no passive-outflow headwind. FY25 net Rp 1.89T +28% YoY / sales Rp 5.51T +21% YoY corporate-level confirmed.
+- Valuation: PT 1,600-1,700 zone per BCA/Katadata; PER 4.26 = deep-value; dividend yield 4.92%; 52-wk range 930-1,475
+- Catalyst: (a) B50 LAUNCH TODAY T+0 LIVE; (b) CPO MYR 4,541-4,650 stable; (c) B50 diesel-import-elimination structural demand floor
+- Analyst view: BCA TOP pecking-order; PT 1,600-1,700
+- Insider: not surfaced fresh
+
+**Technical context:**
+- Price: 1,290-1,310 (Tue single-source stale; needs Wed fresh cluster) | 50d MA est ~1,400-1,500 (gap-below) | 200d MA est ~1,600
+- Volume: B50 launch day = elevated volume expected — direction determines sell-the-news vs breakout signal
+- Support: 1,240 (recent low) / below 1,200 | Resistance: 1,400 / 1,475 (52-wk high)
+- Trend: 3-week downtrend −16% cluster carry from prior 1,565 planned zone
+
+**Trade plan:**
+- Entry: ≤ IDR 1,290 (Tue single-source anchor; needs Wed cluster ≥3-source ≤2% canonical OR ≤4% relaxed under Day 68 outage)
+- Stop: IDR 1,200 (entry × 0.93 = hard-cut −7%)
+- Target: IDR 1,600 (analyst PT low; +24% upside vs 7% stop = R:R 3.44:1 → PASSES 2:1 by wide margin at 1,290 entry)
+- R:R: 3.44:1 at 1,290/1,600 — PASSES with material margin
+- Position size: 5% cap × IDR 9,820M = IDR 491M; at 1,290 entry = ~380,600 sh round to 380,600 sh (lot 100)
+- Conviction: MEDIUM (B50 launch day structural catalyst + defensive plantation; never HIGH per DEFENSIVE regime)
+- ADV (20-day avg): ~5,000,000 estimated mid-cap
+- **CONDITIONAL ENTRY at /market-open IF:** (i) Wed open cluster ≥3-source ≤2% canonical or ≤4% relaxed (Day 68 outage documented), (ii) IHSG opens ≥5,600 (stabilization signal above Tue 5,643 close), (iii) foreign-flow Wed first 30-min NOT continuation of Tue Rp 1.04T cascade (mild net sell OK, >Rp 500B repeat = SKIP), (iv) CPO MYR sustained ≥4,500 through B50 launch, (v) LSIP-specific: no sell-the-news gap-down >4% from Tue close
+- **Pre-mortem:** What invalidates within 5 days? — LSIP breach 1,200 first 3 sessions = thesis broken + falling-knife per ADRO MISTAKES.md; OR CPO collapse >5% on B50 sell-the-news; OR foreign flow continuation ≥Rp 1T Wed = macro cascade dominates catalyst; OR IHSG break 5,500 psych floor
+- **Intermediate pain:** −4% (1,290 × 0.96 = 1,238) = REASSESS IMMEDIATELY; EXIT if CPO MYR drops <4,400 OR IHSG continuing cascade below 5,500
+- **TOP PRIORITY for Wed Jul 1 /market-open — B50 launch day catalyst delivers today; conditional entry only.**
+
+#### 2. UNVR — Post-ex Day 1 reset + Brent $72 CPI-relief sustained + MNC TOP PICK persistent
+
+**Fundamental case:**
+- Thesis: UNVR ex-div Rp 114/sh mechanical drop absorbed Tue Jun 30. Post-ex Day 1 (Wed Jul 1) is entry-math reset zone. Brent $72.01 sustained sub-$73 = CPI-relief tailwind for staples defensive book intact.
+- Thesis: MNC Sekuritas Fri Jun 26 TOP PICK Spec Buy 1,675-1,685 TP 1,885-2,000 CL 1,670 = pre-ex reference; post-ex zone re-baselines to ~1,551 IEP. Q2 earnings Jul 28 T+27 = forward catalyst.
+- Valuation: P/E ~7.07 (Jun 15); 52-wk range 1,305-2,840; multi-year-low multiple; realized ~7% dividend yield
+- Catalyst: (a) post-ex Day 1 mechanical reset; (b) Brent CPI-relief sustained; (c) Q2 earnings Jul 28 forward; (d) DEFENSIVE regime defensive-bid bias
+- Analyst view: MNC Spec Buy TP 1,885-2,000 CL 1,670 pre-ex; post-ex reset ~1,551 base
+- Insider: not surfaced
+
+**Technical context:**
+- Price: post-ex ~1,551 expected (needs Wed fresh cluster) | 50d MA est ~1,700 (gap-below) | 200d MA est ~1,800
+- Volume: post-ex Day 1 volume signal = key thesis-validation marker
+- Support: post-ex mechanical floor ~1,437 (hard-cut level from 1,551 base × 0.93)
+- Resistance: 1,665 (Mon close cum-div zone); 1,885 (MNC TP1)
+- Trend: post-ex reset to be established
+
+**Trade plan:**
+- Entry: ≤ IDR 1,580 (post-ex reset zone; expected Wed open ~1,551; cluster ≥3-source ≤2% required)
+- Stop: IDR 1,469 (entry × 0.93 = hard-cut −7%)
+- Target: IDR 1,900 (MNC TP1 1,885 + buffer; +20.3% upside vs 7% stop = R:R 2.89:1 → PASSES 2:1)
+- R:R: 2.89:1 at 1,580/1,900 — PASSES material margin
+- Position size: 5% cap × IDR 9,820M = IDR 491M; at 1,580 entry = ~310,800 sh round to 310,000 sh (lot 100)
+- Conviction: MEDIUM (post-ex reset + defensive consumer + Brent CPI-relief + MNC TOP PICK; never HIGH per DEFENSIVE regime)
+- ADV (20-day avg): ~10,000,000 estimated
+- **CONDITIONAL ENTRY at /market-open IF:** (i) Wed post-ex Day 1 open cluster ≤1,580 with ≥3 fresh sources ≤2% or ≤4% relaxed, (ii) IHSG opens ≥5,600 stabilization signal, (iii) foreign-flow Wed NOT continuation of Tue Rp 1.04T cascade (>Rp 500B = SKIP), (iv) Brent sustained sub-$73 pre-open, (v) UNVR post-ex volume NOT distribution signature (heavy foreign disposal Wed open = SKIP)
+- **Pre-mortem:** What invalidates within 5 days? — UNVR breach 1,469 first 3 sessions = mechanical floor broken + thesis fragmentation; OR IDR cascade kill-switch pierce ≥17,950 sustained 2 sessions (Tue re-pierce continuation); OR Brent rebound >$75 = CPI-relief invalidates; OR post-ex volume reveals heavy foreign holder disposal (Wed open first 30-min tape)
+- **Intermediate pain:** −4% (1,580 × 0.96 = 1,517) = REASSESS IMMEDIATELY; EXIT if defensive-consumer bid absent OR IHSG cascade below 5,500
+- **SECOND PRIORITY for Wed Jul 1 /market-open — conditional + post-ex cluster verify.**
+
+#### 3. BBCA — Cascade RE-SCORED 6 (was 7 Tue); post-BEI-effective entry candidate CONDITIONAL
+
+**Fundamental case:**
+- Thesis: BBCA Tue Jun 30 −3.80% to 5,700 = 2nd consecutive cascade session (Mon −4.05% to 5,800 → Tue −3.80% to 5,700 = 2-day −7.85% cumulative). Foreign net sell Rp 766B = capitulation signature. BEI weight re-eval T+0 LIVE Wed Jul 1 = cleansing-event day; T+1 (Thu) potential mean-reversion.
+- Thesis: BBCA has historically absorbed passive-index re-weightings; if BEI effect fully priced in by Mon-Tue −7.85% cumulative selloff, entry on absorbed-headwind day is optimal. HOWEVER: falling-knife pattern per ADRO MISTAKES.md 2026-05-20 lesson = 2-day cascade with foreign capitulation signature = SIZING-in-VOL-REGIME critique binds.
+- Valuation: P/E ~12.4x trailing at 5,700 vs banking sector 7x = premium-quality; 5-yr historical mean ~16-17x = own-history undervalued
+- Catalyst: (a) BEI T+0 LIVE effect Wed = cleansing event; (b) 2-day cascade capitulation possible bottom-signature; (c) post-MSCI absorption Day 5
+- Analyst view: avg PT 8,654 (high 10,900 / low 5,500); alternative consensus 9,101.7 — url: https://simplywall.st/stocks/id/banks/idx-bbca/bank-central-asia-shares
+- Insider: not fresh
+
+**Technical context:**
+- Price: Tue close 5,700 | 50d MA est ~6,000 (gap-below) | 200d MA est ~7,800
+- Volume: Tue −3.80% + foreign net sell Rp 766B = elevated distribution
+- Support: 5,700 Tue close; below 5,500 (psych) / 5,301 hard-cut buffer
+- Resistance: 5,800 Mon open; above 6,000 (50d MA proxy) / 6,175 (Yahoo recent)
+- Trend: 2-day cascade continuation; unresolved
+
+**Trade plan:**
+- Entry: ≤ IDR 5,700 (matches Tue close; PASSES Gate 9 chase cap — entry at cluster no chase)
+- Stop: IDR 5,301 (entry × 0.93 = hard-cut −7%)
+- Target: IDR 6,700 (R:R 2.51:1 at 5,700/6,700 = +17.5% upside vs 7% stop → PASSES 2:1 with material margin)
+- **R:R 2.51:1 at 5,700/6,700 — PASSES 2:1 material margin (improved from Tue's 2.00:1 marginal by −1.7% Tue cascade)**
+- Position size: 5% cap × IDR 9,820M = IDR 491M; at 5,700 entry = ~86,100 sh round to 86,100 sh (lot 100)
+- Conviction: MEDIUM (defensive mega-cap + 2-day cascade capitulation signal + BEI T+0 absorbed-headwind; never HIGH per DEFENSIVE regime + falling-knife risk)
+- ADV (20-day avg): ~50,000,000; gate not binding
+- **CONDITIONAL ENTRY at /market-open IF:** (i) Wed open multi-source cluster ≤5,700 ≥3 fresh sources ≤2% or ≤4% relaxed, (ii) IHSG opens ≥5,600 stabilization signal (Tue 5,643 close), (iii) foreign-flow Wed first 30-min NOT continuation of Rp 766B BBCA net sell (>Rp 200B repeat = SKIP), (iv) BEI T+0 effect absorbed via Tue cascade + Wed stabilization (no further deep selloff first 30-min), (v) IDR sub-17,950 stabilization (Tue re-pierce not becoming 2-of-2)
+- **Pre-mortem:** What invalidates within 5 days? — BBCA breach 5,500 first 3 sessions = psych floor broken + full capitulation; OR IDR cascade kill-switch 2-of-2 pierce Wed = re-arm escalation; OR foreign-flow continuation ≥Rp 500B BBCA net sell Wed = BEI T+0 not absorbed
+- **Intermediate pain:** −4% (5,700 × 0.96 = 5,472) = REASSESS IMMEDIATELY; EXIT if MSCI Frontier-overhang Nov 2026 narrative re-cascades OR IDR cascade escalates
+- **THIRD PRIORITY for Wed Jul 1 /market-open — cascade-conditional; requires Wed stabilization signals BEFORE entry.**
+
+#### 4. AALI — B50 launch day tailwind DEPRIORITIZED vs LSIP due MSCI SC contamination
+
+**Fundamental case:** B50 LAUNCH TODAY Wed Jul 1 same structural CPO tailwind as LSIP, but AALI MSCI SC removal basket = passive outflow contamination ongoing Day 8. FY25 net Rp 1.5T +28.2% YoY confirmed. Katadata PT 8,200-8,500.
+
+**Trade plan (gate-check sketch — DEPRIORITIZED):**
+- Entry: ≤ IDR 6,175 (Tue single-source stale; needs Wed fresh cluster ≥3-source ≤2% canonical or ≤4% relaxed under Day 68 outage)
+- Stop: IDR 5,743 (entry × 0.93)
+- Target: IDR 8,200 (Katadata PT low; +32.8% vs 7% stop = R:R 4.68:1 marginal calc at 6,175)
+- R:R: 4.68:1 at 6,175/8,200 — PASSES material margin
+- Position size: HALF-size only (MSCI SC contamination) = 2.5% cap × IDR 9,820M = IDR 246M; at 6,175 entry = ~39,800 sh
+- Conviction: LOW-MEDIUM (B50 structural tailwind + half-size only); DEPRIORITIZED below LSIP for plantation slot
+- **DEPRIORITIZED below LSIP — LSIP has no MSCI SC contamination + BCA TOP pecking-order + PER 4.26 deep-value.**
+
+### Held Position Updates
+
+- **KLBF: HOLD with MATERIAL stop-fire risk Wed Jul 1 T+0 cleansing / Thu Jul 2 buyback expiry T+1.** Safe-lower carry frozen 1,035 from Day 41 anchor (cluster Day 68 non-convergence persists 28 consecutive sessions Day 41-68: Ajaib 710 fresh / TradingView 760 / Investing 780 / Yahoo 745 stale = 4-source spread 9.3% FAILS canonical AND relaxed Data Quality Gate). Stop state: TRAILING, hwm 1,035, trail 10%, current_stop 931 GTC armed broker-side. Overnight news: NONE company-specific; cluster trajectory persistently bearish (Ajaib fresh 710 vs frozen carry 1,035 = ~31% MTM ambiguity). Technical: 4-source cluster ALL below trail 931 = if Wed cluster narrows ≥3-source ≤2% convergent below 931, trailing GTC fires automatically. Action: HOLD; no action available until cluster narrows. **Buyback Rp 500B EXPIRES Thu Jul 2 (T+1) = structural bid floor REMOVAL RISK IMMINENT → cluster narrowing probability SHARPLY INCREASES post-expiry Fri Jul 3.** State-machine state-3 (≥1,087 → 7% trail 1,011) and state-4 (≥1,134 → 5% trail 1,077) ARMED but BLOCKED 28 consecutive sessions Day 41-68 (bidirectionally meaningless given 4-source cluster firmly below 931).
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-RE-ENGAGED-DAY0 (was CASCADE-ABSORBED-DAY3-RESOLVED Mon; RE-ENGAGED Tue on Tue Jun 30 sesi II final −3.05% deep cascade + Rp 1.04T foreign net sell = URGENT alert condition + IDR 17,957 cascade kill-switch RE-PIERCE. Criterion (a) DE-ESCALATING → RE-ARMED-WATCH; criterion (c) IHSG >5,500 buffer NARROWED to +2.6% only; criteria b+d+e regression compounded)**
+
+- Reasoning: Tue Jun 30 sesi II final −3.05% to 5,643.19 = BREACH 5,800 psychological floor + −7.85% cumulative 2-day cascade (Mon −1.28% + Tue −3.05%). Foreign net sell Rp 1.04T market-wide = URGENT flow reversal condition met per pre-market routine. IDR 17,957 vs 17,950 kill-switch = 1-of-2 re-pierce Wed. Banking cluster BBCA −3.80% / BBRI −3.87% / BMRI −2.28% / BBNI −3.07% = concentrated foreign disposal Rp 766B BBCA / 226B BBRI / 158B BMRI. US Tue Dow record close 52,319 (+0.26%) = DECOUPLED from IDX idiosyncratic cascade path.
+- 1.5 of 5 confirming ← 2 of 5 (criterion a DE-ESCALATING → RE-ARMED-WATCH; net regression from Mon; further net regression from Wk 10 close 1.5 of 5). Regime label RE-ENGAGED from CASCADE-ABSORBED-DAY3-RESOLVED = escalation qualifier CASCADE-RE-ENGAGED-DAY0 applied.
+- Position sizing adjustment: 5% cap binding (cap restoration deferred; cascade re-engagement compounds gating).
+
+### Flagged Risks
+
+- **URGENT: Foreign flow reversal Rp 1.04T Tue Jun 30 = pre-market alert condition MET; alert sent Wed 07:00 WIB pre-market.** BBCA Rp 766B / BBRI Rp 226B / BMRI Rp 158B = banking cluster deep foreign disposal; capitulation signature possible OR cascade continuation setup.
+- **IHSG 5,800 psychological floor BREACHED Tue Jun 30 sesi II final 5,643.19; 5,500 next major support = 2.6% lower.** Wed Jul 1 open ≥5,600 = stabilization signal; open <5,500 = full cascade escalation.
+- **IDR cascade kill-switch 17,950 RE-PIERCE Wed Jul 1 pre-open at 17,957 = 1-of-2 fresh cycle.** If Wed sustained ≥17,950 close, kill-switch RE-ARMED = pre-emptive de-risk procedure engages Thu Jul 2 (no new entries; KLBF carry trim/hold/close evaluation).
+- **BEI IHSG weight re-eval T+0 LIVE Wed Jul 1:** BBCA −53bp + BBRI −50bp passive-outflow headwind LIVE effect today; risk of further T+0 concentrated selling above Tue's Rp 766B BBCA foreign disposal.
+- **B50 sell-the-news risk Wed Jul 1 LIVE launch day:** LSIP/AALI CPO plantation names — if sell-the-news dominant (buy-the-rumor Mon-Tue → sell-the-news Wed), entry timing invalidated. Direction determined by Wed first 30-min tape.
+- **KLBF cluster narrowing trajectory ALERT PERSISTS Day 68:** 4-source cluster 710-780 all well BELOW trail 931 = MATERIAL stop-fire risk Wed-Thu if cluster narrows ≥3-source ≤2% convergent. Buyback Rp 500B expiry Thu Jul 2 (T+1) removes structural bid floor → narrowing probability SHARPLY increases post-expiry Fri Jul 3.
+- **R:R 2:1 gate: candidates re-scored post-Tue cascade have IMPROVED R:R math** — LSIP 3.44:1 (was 2.14:1), BBCA 2.51:1 (was 2.00:1), UNVR 2.89:1 (post-ex reset); the −3.05% cascade CREATED entry math opportunity within Gate 9 but cascade context binds with falling-knife risk per ADRO MISTAKES.md 2026-05-20 lesson (macro-cascade + tight-stop × wider intraday vol = high forced-cut probability).
+- **Data Quality Gate Day 68 persistent:** yfinance + GoAPI both blocked 28 consecutive sessions Apr 21 → Jul 1; WebSearch multi-source binding cluster source. All Wed candidates require ≥3-source ≤2% canonical or ≤4% relaxed at Wed open with explicit RESEARCH-LOG documentation.
+- **US DECOUPLING Tue Jun 30:** Dow record close 52,319 + Nasdaq +1.52% / S&P +0.79% = constructive external Q2 close vs IDX idiosyncratic −3.05% cascade. Decoupling signal = IDX-specific catalyst dominance (BEI weight cut + foreign flow + IDR re-pierce) not global risk-off.
+- **CPI June 2026 release T+0-2 early Jul:** Brent collapse Wed relief-tailwind supportive of continued disinflation read; May 3.08% YoY baseline.
+- **Eagerness check critical (Wk 11 D3, 8th consecutive 0/3 week pattern extending + 18 cumulative unused slots Wks 6-10 + 2 slots used-hypothetical Wk 11 D1-D2 skipped):** cascade RE-ENGAGED Wed = ~high forced-entry pressure with cascade discount BUT falling-knife risk binding.
+- **Bursa Mineral and Komoditas Strategis Jan 1 2027 catalyst** for AADI/ANTM/PTBA/ADRO (informational).
+- **MSCI Frontier-downgrade Nov 2026 binary tail risk persistent overhang.**
+
+### Plan for /market-open (Wed Jul 1 09:15 WIB)
+
+- [ ] **PRE-OPEN priority A: Verify Wed IDR/USD spot pre-open** — Tue Jun 30 spot 17,957 = cascade kill-switch RE-PIERCE 1-of-2 fresh cycle; if Wed spot sustained ≥17,950 = 2-of-2 RE-ARM → pre-emptive de-risk engages Thu; if sub-17,900 = de-escalation Day 1
+- [ ] **PRE-OPEN priority B: Verify Wed IHSG opening tape (5,600 = stabilization signal; 5,500 = full cascade escalation)** — Tue sesi II final 5,643.19; Wed open >5,700 = mean-reversion open; 5,600-5,700 = neutral; <5,500 = escalation
+- [ ] **PRE-OPEN priority C: Verify Wed foreign-flow first 30-min direction** — Tue Rp 1.04T net sell = URGENT; if Wed net sell >Rp 500B first 30-min = cascade continuation → SKIP all candidates; if net buy or <Rp 200B net sell = stabilization signal
+- [ ] **PRE-OPEN priority D: KLBF cluster check Day 68** — if Wed ≥3 fresh sources converge ≤2% or ≤4% with mark ≤931 → trailing GTC fires; if cluster persists non-convergent, HOLD; document cluster regardless
+- [ ] **LSIP** — **TOP PRIORITY** CONDITIONAL ENTRY at /market-open IF (i) Wed open multi-source cluster ≤1,290 ≥3 fresh sources ≤2% or ≤4% relaxed, (ii) IHSG ≥5,600 stabilization, (iii) foreign-flow Wed NOT continuation of Rp 1.04T cascade (>Rp 500B = SKIP), (iv) CPO MYR sustained ≥4,500 through B50 launch, (v) LSIP no sell-the-news gap-down >4% from Tue close. R:R 3.44:1 at 1,290/1,600. 5% cap = ~380,600 sh. Conviction MEDIUM.
+- [ ] **UNVR** — **SECOND PRIORITY** CONDITIONAL ENTRY at /market-open IF (i) Wed post-ex Day 1 open cluster ≤1,580 ≥3 fresh sources, (ii) IHSG ≥5,600, (iii) foreign-flow Wed NOT cascade continuation, (iv) Brent sub-$73 sustained, (v) UNVR post-ex volume NOT distribution signature. R:R 2.89:1 at 1,580/1,900. 5% cap = ~310,000 sh. Conviction MEDIUM.
+- [ ] **BBCA** — **THIRD PRIORITY** CONDITIONAL ENTRY at /market-open IF (i) Wed open cluster ≤5,700 ≥3 fresh sources, (ii) IHSG ≥5,600 stabilization, (iii) foreign-flow Wed NOT continuation of Rp 766B BBCA net sell (>Rp 200B repeat = SKIP), (iv) BEI T+0 effect absorbed via Tue cascade + Wed stabilization, (v) IDR sub-17,950 stabilization. R:R 2.51:1 at 5,700/6,700. 5% cap = ~86,100 sh. Conviction MEDIUM.
+- [ ] **AALI** — DEPRIORITIZED — half-size B50 tailwind but MSCI SC contamination + LSIP superior.
+- [ ] **LSIP > UNVR > BBCA > AALI** priority order. Week 11 fresh slots 3/3 remain Wed-Fri (skipped Mon-Tue on Data Quality + R:R).
+- [ ] **KLBF** — HOLD with MATERIAL stop-fire risk: trailing 931 GTC re-arms at Wed open; broker-side fires only on multi-source convergent ≤931. Cluster trajectory firmly bearish (Ajaib 710 fresh) but Day 68 cluster spread 9.3% prevents fire; if Wed narrowing achieves ≥3-source ≤2% convergent ≤931, trailing fires automatically and position closes.
+- [ ] **CASCADE MITIGATION LADDER Wed Jul 1:** (i) if IHSG open <5,500 sustained 30-min = full cascade → SKIP ALL entries, evaluate KLBF de-risk framework; (ii) if IDR 2-of-2 cascade re-arm confirmed = pre-emptive de-risk activates Thu; (iii) if IHSG ≥5,700 + foreign flow moderating + IDR sub-17,900 = stabilization sequence, priority LSIP entry conditional set
+- [ ] **If 0 trades Wed:** continuation of 8-consecutive-week 0/3 pattern + 18 cumulative unused slots Wks 6-10 + Wed extends Wk 11 to Day 3 of 5; 2 fresh slots remain Thu-Fri Wk 11
+- [ ] **Stop discipline:** trailing 931 GTC KLBF re-arms at Wed open; broker-side fires only on multi-source convergent ≤931. State-3 and state-4 ARMED but bidirectionally BLOCKED cluster all <931.
+
+---
