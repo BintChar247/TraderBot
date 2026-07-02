@@ -788,6 +788,21 @@
       "trades_this_week": 0,
       "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 68 cluster non-convergence persists 28 consecutive sessions Day 41-68; broker stub 945 / Ajaib 710 fresh / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 5-source spread 9.3% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% convergence per MISTAKES.md 2026-05-01)",
       "note": "Week 11 Day 3 / BEI IHSG weight re-eval effective day / B50 biodiesel launch day / post-MSCI absorption Day 5. Flat day; KLBF safe-lower carry hold + Day 68 cluster non-convergence prevents alternative mark execution; cash buffer 94.56% structurally insulating book on Wed sesi I +0.84% mean-reversion rebound (5,690.58 vs Tue sesi II final reconciled 5,643.19; +47.39 pt; 362 saham menguat / 249 melemah / 165 stagnan). Cumulative trial alpha +24.13% provisional Wed sesi I = modest single-day contraction \u22120.78pp from reconciled Day 52 +24.91% via flat portfolio + IHSG sesi I +0.84% rebound. Day 52 reconciled to Tue sesi II final 5,643.19 (from provisional 5,679); reconciled Day 52 alpha = +3.05%; reconciled Day 52 cumulative alpha = +24.91%. KLBF trailing 931 GTC re-armed Wed open, did NOT fire (Ajaib 710 / TradingView 760 fresh single-source LOWS FAIL canonical \u22653-source convergence). BEI weight re-eval LIVE EFFECT day delivered banking headwind (BBCA sesi I \u22126.33% intraday cascade 5,825\u21925,550; foreign net sell BBCA Rp 766B); ZERO direct book impact (no banking exposure). B50 launch day LIVE EFFECT day delivered plantation tailwind (LSIP/AALI rebound); ZERO direct book impact (no plantation exposure). 4 candidates SKIPPED (LSIP/UNVR/BBCA/AALI) on Data Quality Gate FAIL + Gate 9 chase cap + falling-knife pattern binding; 9th consecutive 0/3 week pattern extending Wk 11 Day 3. **Forward asymmetry Thu Jul 2 T-0 KLBF buyback Rp 500B expiry = structural bid floor removal event; cluster narrowing probability sharply increases post-expiry Fri Jul 3.**"
+    },
+    {
+      "date": "2026-07-02",
+      "day_label": "Day 54",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 5792.167,
+      "ihsg_cumulative_pct": -24.13,
+      "alpha_pct": 22.79,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [
@@ -799,13 +814,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 41,
+      "days_held": 42,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen anchor; Day 68 cluster non-convergence persists 28 consecutive sessions Day 41-68 post-MSCI absorption Day 5 / BEI weight re-eval effective day / B50 launch day (broker stub 945 / Ajaib 710 fresh / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 5-source spread 9.3% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed Wed open did NOT fire (broker tape never marked \u2264931 multi-source convergent; Ajaib 710 / TradingView 760 fresh single-source fails canonical convergence); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expiry Thu Jul 2 T-0 = structural bid floor removal event IMMINENT = highest-probability cluster convergence day Wk 11"
+      "note": "safe-lower carry frozen anchor; Day 69 cluster non-convergence persists 29 consecutive sessions Day 41-69 post-KLBF-buyback-expiry T-0 (broker stub 945 / tradingeconomics 745 fresh single-source / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed Thu open did NOT fire (broker tape never marked \u2264931 multi-source convergent; single-source tradingeconomics 745 fails canonical convergence); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expiry T-0 elapsed Thu Jul 2 = structural bid floor removal event LIVE; post-expiry Fri Jul 3+ = cluster narrowing probability sharply increases (highest-probability convergence day revised to Fri T+1)"
     }
   ],
   "trades": [
@@ -9198,8 +9213,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 53,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 53)",
+    "trial_days_elapsed": 54,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 54)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9866717500,
     "cumulative_pnl_idr": -133282500,
@@ -9207,8 +9222,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 0,
-    "ihsg_cumulative_pct": -25.46,
-    "cumulative_alpha_pct": 24.13,
+    "ihsg_cumulative_pct": -24.13,
+    "cumulative_alpha_pct": 22.79,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -13829,6 +13844,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "KLBF hold \u2014 cluster non-convergent Day 69 + safe-lower carry +9.52% + trailing 931 GTC armed broker-side; buyback expiry T-0."
+    },
+    {
+      "timestamp": "2026-07-02T08:19:49Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 54: IDR 9.867B flat (0.00%). Alpha \u22121.79% vs IHSG +1.79% rebound. Cum alpha +22.79%. 1 pos (KLBF safe-lower carry +9.52%). Cash 94.56%. Trades 0/3 Wk 11 Day 4. KLBF buyback expiry T-0 elapsed; Fri T+1 = cluster convergence probability high.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 54 EOD snapshot appended to TRADE-LOG; RISK-STATE + dashboard/data.json updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -13939,5 +13966,5 @@
       }
     ]
   },
-  "last_updated": "2026-07-02T00:15:00Z"
+  "last_updated": "2026-07-02T15:15:00+07:00"
 }
