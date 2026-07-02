@@ -9048,6 +9048,153 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wed sesi I foreign net BUY Rp 155.22B inflection post Tue Rp 766B capitulation; BEI T+0 absorbed",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wed sesi I foreign net BUY Rp 155.22B post-cascade inflection"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY0 regime, 5% sizing cap"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL Day 69: only Investing.com 5,675 fresh; TradingView 5,925 stale Tue snapshot; cluster spread ~4.3% > relaxed 4%"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% (~IDR 491M / ~83,900 sh at 5,850) \u2014 not sized"
+        },
+        {
+          "type": "warning",
+          "label": "IDR 17,950.9 Wed = 3-of-3 kill-switch pierce \u2192 RE-ARM per Wk10 process; falling-knife risk not moderated by single-fresh-source"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Data Quality Gate FAIL: <3 fresh multi-source cluster (only Investing.com 5,675 fresh; TradingView 5,925 stale). Spread ~4.3% fails canonical \u22642% AND relaxed \u22644%. Also IDR 3-of-3 piercing 17,950 kill-switch RE-ARM confirmation active. Wed inflection signal cannot be confirmed on Thu open without fresh cluster + fresh foreign-flow read.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired bank-cluster inflection with BBCA; BI HIKE NIM tailwind + BEI +24bp passive-inflow support",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "paired-with-BBCA inflection carry; conditional on BBCA fill"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime, SOE-adjacent Danantara overhang"
+        },
+        {
+          "type": "risk",
+          "label": "Data Quality Gate FAIL Day 69: only Jul 1 close 3,810 (Google Finance single fresh); price anomalously ~27% BELOW planned \u22645,200 = falling-knife / bad-data hazard"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% (~IDR 491M / ~94,400 sh at 5,200) \u2014 not sized"
+        },
+        {
+          "type": "warning",
+          "label": "Paired-conditional on BBCA fill \u2014 BBCA fails Data Quality; BMRI cannot fire standalone"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Data Quality Gate FAIL: <3 fresh sources; single-source 3,810 Jul 1 close anomalously below planned entry \u22645,200 = falling-knife per ADRO MISTAKES.md SIZING-in-VOL-REGIME critique. Also paired-conditional on BBCA which itself skipped.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-07-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-ex Day 2 defensive-bid + Brent sub-$73 CPI-relief sustained + MNC TOP PICK maintained",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "post-ex Day 2 defensive-bid + Brent $72.68 CPI-relief"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime, FMCG-defensive fit"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: TradingView fresh 1,765 = +11.7% above planned entry \u22641,580; also single-source (Data Quality Gate FAIL)"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% (~IDR 491M / ~310,000 sh at 1,580) \u2014 not sized"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch price override attempted; only 1 fresh source surfaced; +11.7% chase = Gate 9 hard fail per no-chase rule"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Gate 9 chase cap FAIL (fresh 1,765 vs planned \u22641,580 = +11.7% >3% chase cap) + Data Quality Gate FAIL (<3 fresh sources; only TradingView 1,765 surfaced). Cannot enter above +3% chase without invalidating no-chase discipline.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -13638,6 +13785,42 @@
           "type": "research",
           "ticker": "KLBF",
           "detail": "HOLD \u2014 buyback expiry T-0 structural bid floor removal"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-02T02:18:31Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 3 candidates (BBCA/BMRI/UNVR) SKIP: Data Quality Gate FAIL Day 69 (<3 fresh multi-source cluster) + Gate 9 chase cap fail UNVR (fresh 1,765 vs planned 1,580 +11.7%) + BMRI single-source anomalously below planned; IDR 17,950.9 3-of-3 kill-switch RE-ARM confirmed. KLBF HOLD (buyback expiry T-0). 9th consecutive 0/3 week extending.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Data Quality FAIL: only Investing.com 5,675 fresh; TradingView 5,925 stale Tue; spread 4.3% fails \u22642% canonical and \u22644% relaxed"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Data Quality FAIL: single-source Jul 1 3,810 anomalously ~27% below planned \u22645,200; paired-conditional on BBCA which failed"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "Gate 9 chase cap FAIL: fresh 1,765 +11.7% above planned \u22641,580; also Data Quality FAIL single-source"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price override used (yfinance Day 69 blocked); no \u22653-source \u22644% relaxed cluster surfaced for any candidate"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR kill-switch 17,950.9 Wed = 3-of-3 piercing \u2192 RE-ARM confirmed per Wk10 process"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "Trailing 931 GTC re-armed at Thu open; buyback Rp 500B expiry T-0; cluster Day 69 non-convergent \u2014 broker-side awaits multi-source convergent fire"
         }
       ]
     }
