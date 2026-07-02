@@ -13823,6 +13823,12 @@
           "detail": "Trailing 931 GTC re-armed at Thu open; buyback Rp 500B expiry T-0; cluster Day 69 non-convergent \u2014 broker-side awaits multi-source convergent fire"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-02T04:37:30Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "KLBF hold \u2014 cluster non-convergent Day 69 + safe-lower carry +9.52% + trailing 931 GTC armed broker-side; buyback expiry T-0."
     }
   ],
   "exposure": {
