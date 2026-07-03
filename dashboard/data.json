@@ -9210,6 +9210,104 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "2-day foreign inflection confirmed Wed-Thu (Wed net BUY Rp 155.22B + Thu absent from top net sell); BI HIKE NIM-positive defensive mega-cap on rebound Day 3",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "2-day BBCA foreign inflection Wed-Thu; IHSG rebound Day 2 sustained"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2; IDR kill-switch RE-ARM 5th session"
+        },
+        {
+          "type": "risk",
+          "label": "Gate iv FAIL: IDR spot 17,954 pierces 17,950 kill-switch pre-open (not sub-17,950 stabilized); Data Quality Gate FAIL: <3 fresh Fri-open sources"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% cap (~IDR 491M / ~84,300 sh at 5,850) \u2014 not sized"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate outage Day 70 persistent (yfinance+GoAPI blocked); WebSearch cluster verification could not surface \u22653 fresh Fri-open sources"
+        }
+      ],
+      "reasoning": "SKIP \u2014 IDR pre-open 17,954 pierces 17,950 kill-switch (Gate iv FAIL per pre-market plan) AND Data Quality Gate FAIL (BBCA cluster <3 fresh Fri-open sources; only Thu close 5,800 stale reference surfaced). Both gating conditions from RESEARCH-LOG fail; 5-of-5 IDR piercing sustained close would activate pre-emptive de-risk Mon Jul 6.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired-conditional bank-cluster inflection with BBCA; BI HIKE NIM-positive; BEI T+0 weight re-eval BMRI +24bp",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "2-day paired bank-cluster inflection with BBCA Wed-Thu"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED regime; SOE-adjacent Danantara overhang persistent"
+        },
+        {
+          "type": "risk",
+          "label": "Paired-conditional FAIL: BBCA fill required first; BBCA SKIPPED on IDR + Data Quality gates"
+        },
+        {
+          "type": "sizing",
+          "label": "planned 5% cap (~IDR 491M / ~94,800 sh at 5,200) \u2014 not sized"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate outage Day 70 persistent; BMRI cluster <3 fresh sources at Fri open"
+        }
+      ],
+      "reasoning": "SKIP \u2014 paired-conditional entry requires BBCA fills first; BBCA SKIPPED on IDR kill-switch Gate iv + Data Quality Gate. BMRI paired-conditional cascade fail.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -13921,6 +14019,41 @@
           "type": "research",
           "ticker": "KLBF",
           "detail": "HOLD; buyback expired Thu; Fri T+1 = highest-probability cluster narrowing day"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T02:19:37Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. BBCA (TOP PRIORITY) + BMRI (paired) SKIP \u2014 IDR 17,954 pierces 17,950 kill-switch 5th consecutive session RE-ARM CONFIRMED (Gate iv FAIL) + Data Quality Gate Day 70 outage (<3 fresh Fri-open sources). KLBF HOLD; 0/3 Wk 11.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate iv FAIL: IDR 17,954 pierces 17,950 kill-switch; Data Quality Gate FAIL: <3 fresh Fri-open sources"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "paired-conditional cascade FAIL (BBCA SKIP); Data Quality Gate FAIL cluster non-convergent"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "safe-lower carry 1,035; trailing 931 GTC re-armed Fri open; post-buyback expiry T+1"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR kill-switch RE-ARM CONFIRMED 5th consecutive session piercing 17,950 pre-open; pre-emptive de-risk arms Mon Jul 6 if Fri close sustained \u226517,950"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 70 outage persistent (yfinance HTTP 403 + GoAPI blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify 403 proxy CONNECT \u2014 notification printed to stdout"
         }
       ]
     }

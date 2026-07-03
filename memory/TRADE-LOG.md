@@ -6990,3 +6990,64 @@ Healthcare 5.44% of equity (KLBF safe-lower MV 537.165M / equity 9.867B); cash 9
   2. **KLBF post-buyback-expiry T+1:** cluster narrowing probability sharply increases. Fri open + intraday state-machine watch: (a) at confirmed multi-source ≥3-source ≤2% convergent mark ≤931, trailing 931 GTC fires automatically; (b) at mark ≥1,087 → fire state-3 (7% trail at 1,011); (c) at mark ≥1,134 → fire state-4 (5% trail at 1,077). Post-expiry T+1 = highest-probability cluster convergence day Wk 11 (revised from prior Thu T-0 forecast; T-0 elapsed without convergence).
   3. Data Quality Gate Day 70 = continues to bind primary candidate execution unless multi-source ≥3-source ≤2% convergent for planned entry. Fri = candidate re-eval if any live cluster surfaces convergent.
   4. Defensive thesis maintenance: 94.56% cash buffer + KLBF healthcare-defensive carry remains binding alpha-protection posture into Wk 11 Day 5 post-buyback-expiry T+1 + weekly-review; cumulative alpha +22.79% provisional Thu sesi I = trial high water runway compressed but structurally strong (Day 53 provisional +24.13% = prior anchor; reconciled Day 52 +24.91% = pending reconciliation).
+
+---
+
+### 2026-07-03 09:15 WIB — MARKET-OPEN — NO TRADES (Week 11 Day 5, KLBF buyback expiry T+1, weekly-review day; IDR kill-switch RE-ARM Fri 5th consecutive piercing + Data Quality Gate outage Day 70)
+
+- Candidates from pre-market plan: BBCA (TOP PRIORITY) + BMRI (paired-conditional). Both SKIPPED at open.
+- Trades placed: 0. Wk 11 slot count: 0/3 used (extends 9-consecutive-week 0/3 pattern Wks 6-11 = 24+ cumulative unused slots into weekly-review 16:00 WIB Fri).
+- Held positions: KLBF 519,000 sh @ 945 (safe-lower carry frozen 1,035 Day 70). No discretionary action.
+
+#### Pre-open verification (per pre-market plan gating checklist)
+
+- **Priority A — IDR/USD spot pre-open:** 17,954 cluster (Investing.com; range 17,912-18,024 Thu, forecast 17,955 Fri per 30rates). **PIERCES 17,950 kill-switch = 5th consecutive session piercing = kill-switch RE-ARM CONFIRMED escalation trigger threshold reached.** If Fri sustained close ≥17,950 = pre-emptive de-risk procedure engages Mon Jul 6.
+- **Priority B — IHSG opening tape:** Investing.com surfaced Fri open ~5,932.03 (gap-up ~+3.27% from Thu sesi II final 5,744.55). Multi-source verification incomplete at 09:15 WIB (Fri open still consolidating). Continuation Day 3 provisional confirmation if sustained ≥5,750 30-min.
+- **Priority C — BBCA-specific foreign flow first 30-min:** Cannot verify at 09:15 open (data not yet indexed).
+- **Priority D — BBRI top net sell 3rd consecutive check:** Cannot verify at 09:15 open.
+- **Priority E — KLBF cluster Day 70:** Broker stub 945 (stale, HTTP 403 Day 70); WebSearch cluster remains non-convergent (single-source stale-mix persists). Trailing 931 GTC re-armed Fri open, active broker-side. State-3 / State-4 ARMED-BLOCKED cluster.
+
+#### Decision — BBCA (TOP PRIORITY) — SKIP
+
+- **Planned entry:** IDR ≤5,850 (Thu close 5,800; +3% ceiling 5,974); Stop 5,440 (−7% hard-cut); Target 6,850 (R:R 2.44:1); Size 5% cap ~IDR 493M ~84,300 sh; Conviction MEDIUM
+- **Gate iv IDR sub-17,950 stabilization Fri spot pre-open: FAIL** — IDR spot 17,954 = 5th consecutive session piercing 17,950 = kill-switch RE-ARM CONFIRMED escalation trigger threshold reached (per pre-market plan flagged risk URGENT)
+- **Data Quality Gate BBCA cluster: FAIL** — Only 1 source (Thu close 5,800 via Investing.com/generic references) surfaced pre-open Fri; requires ≥3 fresh Fri-open sources ≤2% canonical or ≤4% relaxed. Multi-source Fri-open verification incomplete Day 70 outage persistent (yfinance HTTP 403 + GoAPI blocked). BBCA cluster non-convergent for entry.
+- **Gate results (15-check):** P10 ✓ P11 ✓ P12 ✓ / 1 ✓ 2 ✓ 3 ✓ 4 ✓ 5 ✓ 6 ✓ 7 ✓ 8 ✓ 9 unverifiable / 13 ✓ 14 ✓ **15 FAIL** (composite: pre-market plan Gate iv IDR + Data Quality Gate both binding — cannot pass entry checklist item 5 pre-mortem verify without cluster verification)
+- **Rationale:** Two-signal binding gate failure. IDR kill-switch RE-ARM at 5th consecutive piercing is the top-of-book systemic risk signal Fri Jul 3. Pre-emptive de-risk procedure activates Mon Jul 6 if Fri close ≥17,950. Entering BBCA today under both binding failures violates DEFENSIVE-INTENSIFIED regime discipline + Data Quality Gate canonical (added 2026-06-19 TRADING-STRATEGY.md).
+
+#### Decision — BMRI (SECOND PRIORITY, paired-conditional) — SKIP
+
+- **Planned entry:** IDR ≤5,200; Stop 4,836 (−7%); Target 6,200 (R:R 2.75:1); Size 5% cap ~IDR 493M ~94,800 sh; Conviction MEDIUM
+- **Paired-conditional cascade FAIL:** BBCA SKIP → BMRI paired-conditional auto-SKIP. Not standalone-eligible per pre-market plan.
+- **Also:** Data Quality Gate BMRI cluster <3 fresh Fri-open sources (WebSearch surfaced only Google Finance stale Jul 1 3,810 reference).
+
+#### Held position — KLBF (HOLD)
+
+- Stop state: trailing, hwm 1,035, trail_pct 10, current_stop 931 GTC
+- Broker-side trailing 931 GTC re-armed Fri open; active. Broker tape did not mark ≤931 multi-source convergent Fri open (pre-open cluster non-convergent persists).
+- State-3 (≥1,087 → 7% trail 1,011) / State-4 (≥1,134 → 5% trail 1,077) ARMED-BLOCKED cluster non-convergence 30 consecutive sessions Day 41-70.
+- **Post-buyback expiry T+1 Fri = highest-probability cluster narrowing session:** structural bid floor removed Thu EOD. Fri intraday state-machine watch remains: (a) if cluster ≥3-source ≤2% ≤931 → trailing GTC fires automatically; (b) at ≥1,087 → state-3; (c) at ≥1,134 → state-4. HOLD; broker-side GTC handles execution on convergent cluster.
+- No discretionary action at market-open. Weekly-review 16:00 WIB will evaluate Fri post-expiry cluster resolution + Data Quality Gate Day 70 marker.
+
+#### Risk state at market-open
+
+- Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY2 (per RESEARCH-LOG 2026-07-03)
+- Max position size: 5% of equity cap binding (cap restoration deferred pending criterion (b) or (d))
+- IDR kill-switch 17,950 RE-ARM CONFIRMED 5th consecutive session piercing pre-open — pre-emptive de-risk armed Mon Jul 6 if Fri close ≥17,950 sustained
+- Data Quality Gate Day 70 outage persistent — no fresh multi-source convergent cluster for BBCA / BMRI at Fri open
+- 9-consecutive 0/3 week pattern extending into Wk 11 (Wks 6-11 pending Fri close); 24+ cumulative unused slots forward runway
+
+#### Notification
+
+- No-trade notification dispatched via scripts/notify.sh (below).
+
+#### Broker reconciliation
+
+- broker.sh portfolio: equity 9,820,007,500 / cash 9,329,552,500 / 1 position KLBF 519,000 @ 945 — matches TRADE-LOG Active Positions.
+- broker.sh quote BBCA / BMRI: ERROR `_paper_quote cannot produce a price` (no held position; yfinance blocked) — expected Day 70 outage. WebSearch fallback per market-open STEP 2b invoked; multi-source cluster verification insufficient for both candidates at Fri open.
+
+#### Sector exposure
+
+- Healthcare 4.99% (KLBF safe-lower MV @ 1,035 = 537,165,000 / equity 9,820,007,500); Cash 95.01%.
+- No new banking exposure taken today; sector concentration cap not binding.
+
