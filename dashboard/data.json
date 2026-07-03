@@ -13856,6 +13856,73 @@
           "detail": "Day 54 EOD snapshot appended to TRADE-LOG; RISK-STATE + dashboard/data.json updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-03T00:00:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Day 55 Fri: 50-ticker scan complete. 2 candidates \u22656: BBCA 7 (Wed inflection CONFIRMED Thu, +3.57% intraday), BMRI 6 (paired). UNVR DOWNGRADED to WATCH (Gate 9 chase cap breached at 1,785). KLBF HOLD post-buyback expiry T+1 = cluster narrowing high. IDR 4-of-4 piercing 17,950 = RE-ARM CONFIRMED. June CPI 3.34% upside surprise. May trade deficit -$1.61B first in 72 months. Weekly-review 16:00 WIB.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (all watchlist)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (BBCA 7, BMRI 6 paired)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 \u2014 Wed foreign net BUY Rp 155.22B \u2192 Thu ABSENT from top net sell = 2-day inflection CONFIRMED; Thu +3.57% intraday recovery"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 paired \u2014 2-day paired inflection with BBCA (both absent from Thu top net sell)"
+        },
+        {
+          "type": "research",
+          "ticker": "KLBF",
+          "detail": "HOLD; buyback expired Thu; Fri T+1 = highest-probability cluster narrowing day (Day 70 outage marker)"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "DOWNGRADED to WATCH; Thu close 1,785 = Gate 9 chase cap breached (+13% above planned 1,580)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-03T00:12:55Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Day 55 Fri pre-market: 50 tickers scanned. 2 candidates \u22656: BBCA 7 (Wed inflection CONFIRMED Thu; +3.57% intraday), BMRI 6 (paired). UNVR DOWNGRADED to WATCH (Gate 9 chase cap breached at 1,785). KLBF HOLD post-buyback expiry T+1 = cluster narrowing high. IDR 4-of-4 piercing 17,950 = RE-ARM CONFIRMED. June CPI 3.34% upside surprise. May trade deficit -$1.61B first in 72 months.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 \u2014 2-day inflection CONFIRMED; Thu +3.57% intraday"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 paired \u2014 Thu absent top net sell"
+        },
+        {
+          "type": "research",
+          "ticker": "KLBF",
+          "detail": "HOLD; buyback expired Thu; Fri T+1 = highest-probability cluster narrowing day"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -13868,103 +13935,115 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY0",
-    "ihsg_close": 5695.11,
-    "ihsg_close_basis": "Wed Jul 1 sesi II final provisional ~5,695.11 (+0.92% vs Tue sesi II final 5,643.19); TradingEconomics alt-source 5,722 +1.39% (multi-source spread 0.47% within canonical \u22642%); rebound Day 1 from Tue -3.05% cascade; sesi II final not yet cross-source fully convergent for Day 33-40 reconciliation",
-    "ihsg_cumulative_pct": -25.46,
-    "idr_usd": 17818.0,
-    "idr_status": "<18,000 14-of-14 PERMANENTLY-LOCKED; cascade kill-switch 17,950 DE-ARMED Mon Jun 29 17,818 -0.12% strengthening (Fri 1-of-2 pierce 17,954 did NOT become 2-of-2 Mon); 132bp buffer",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2",
+    "ihsg_close": 5744.55,
+    "ihsg_close_basis": "Thu Jul 2 sesi II final 5,744.55 (+0.87% / +49.44 pts) rebound Day 2 continuation (Wed sesi II final ~5,695.11 +0.92% \u2192 Thu 5,744.55); intraday high sesi I 5,792.167 gave back late-session; multi-source informasi.com Kompas Bareksa convergent",
+    "ihsg_cumulative_pct": -24.75,
+    "idr_usd": 17954.0,
+    "idr_status": "17,954 Fri pre-open cluster (17,912-18,024 range Thu) = 4th consecutive session piercing 17,950 cascade kill-switch (Tue 17,957 / Wed 17,950.9 / Thu 17,940-17,954 / Fri 17,954) = RE-ARM CONFIRMED escalation trigger threshold reached; 5th consecutive Fri close \u226517,950 = escalation cascade activates Mon Jul 6",
     "bi_rate": 5.75,
     "msci_announcement_date": "2026-06-24",
     "bi_rdg_meeting_date": "2026-08-14",
     "holiday_today": false,
-    "deescalation_criteria_status": "2 of 5 confirming: (a) IDR <18,000 14-of-14 PERMANENTLY-LOCKED + cascade kill-switch DE-ARMED Mon; (b) Moody's PERSISTS-REGRESSED hawkish-reanchoring; (c) IHSG >5,500 STRONGLY CONFIRMED (Mon close 5,820.79 +5.8% buffer); (d) foreign flow MILD Mon (313M shares net sell, far below Rp 500B threshold); (e) MSCI accessibility NEGATIVE-LOCKED (Information Flow downgrade + Nov 2026 Frontier-downgrade consultation possibility) -- marginal improvement from Wk 10 1.5 of 5 picture on criteria a+d",
+    "us_holiday_today": true,
+    "deescalation_criteria_status": "1.5 of 5 confirming: (a) IDR RE-ARM CONFIRMED 4-of-4 piercing 17,950; (b) Moody's PERSISTS-REGRESSED hawkish-reanchoring + June CPI 3.34% upside surprise; (c) IHSG >5,500 STRONGLY CONFIRMED (Thu close 5,744.55 = +4.45% buffer); (d) foreign flow persists net sell Thu Rp 237.87B whole market but BBCA-specific inflection confirmed; (e) MSCI accessibility NEGATIVE-LOCKED (Nov 2026 Frontier-downgrade consultation possibility). Marginal regression from Mon 2-of-5 picture on criteria a re-regression",
     "key_overhangs": [
+      "IDR 4-of-4 sessions piercing 17,950 cascade kill-switch = RE-ARM CONFIRMED; Fri 5th consecutive close \u226517,950 = escalation cascade activates Mon",
+      "June CPI 3.34% upside surprise (vs consensus 3.2%; 3-month high; still within BI target 1.5-3.5%) = restrictive posture reinforced; rate cut delayed",
+      "May trade balance -$1.61B deficit = first in 72 months (since Apr 2020); oil & gas migas deficit $3.76B; imports +71% YoY",
       "MSCI Frontier-downgrade Nov 2026 binary tail risk (~$3-13B passive outflow scenario)",
       "Moody's Danantara Baa2 negative outlook PERSISTS-REGRESSED post-BI HIKE re-anchoring",
       "BI 5.75% HAWKISH-REANCHORING continuation through Aug 14 next RDG",
-      "BEI IHSG weight re-evaluation eff Wed Jul 1 T+1 (BBCA -53bp / BBRI -50bp headwind)",
-      "KLBF buyback Rp 500B expiry Thu Jul 2 (T+2) = structural bid floor removal risk on held position with cluster firmly below trail 931",
-      "B50 sell-the-news risk Wed Jul 1 (LSIP/AALI pre-launch profit-taking)",
-      "LME nickel $16,699 multi-month low (bearish ANTM/INCO/NCKL/MBMA)",
-      "Coal export -7.27% YoY Jan-Apr 2026 = Q2 results pressure (coal EXITED still binding)",
-      "Data Quality Gate Day 67 outage (yfinance+GoAPI blocked 27 consecutive sessions; cluster non-convergence binding KLBF state-machine transitions)"
+      "KLBF buyback Rp 500B expiry T+1 Fri Jul 3 = post-expiry first session = structural bid floor removed; cluster narrowing probability SHARPLY INCREASES",
+      "BBRI 2-consecutive top net sell (Wed Rp 226.76B / Thu Rp 194.66B) = strike-1 sector-exit reinforced",
+      "LME nickel $16,355 3-mo low (bearish ANTM/INCO/NCKL/MBMA)",
+      "Coal Newcastle $129.25 flat sub-$130 thesis floor (SECTOR EXITED)",
+      "CPO Jul reference cut $1,000.90/t (-$28.61 MoM) confirms LSIP/AALI B50 thesis WEAKENED",
+      "Frequency spectrum auction Jul 7 T-2 = TLKM/ISAT/EXCL binary catalyst window (T+0 SKIP discipline)"
     ],
-    "bi_rate_event": "5.75% post-Thu Jun 18 +25bp HIKE (3rd hike in 4 weeks: May 21 +50bp + Jun 9 off-cycle +25bp + Jun 18 +25bp); HAWKISH-REANCHORING dominant signal; next RDG Aug 14",
-    "msci_announcement": "Wed Jun 24 03:30 WIB pre-open: Indonesia REMAINS EM (frontier downgrade NOT executed) BUT Information Flow indicator downgraded '+' to '-' AND explicit consultation possibility on Frontier-downgrade by Nov 2026 if accessibility reforms don't progress = NEGATIVE-LOCKED (relief INVERTED)",
-    "us_overnight": {
-      "sp500": {
-        "close": 7440.43,
-        "change_pct": 1.18
-      },
-      "nasdaq": {
-        "close": 25820.15,
-        "change_pct": 2.07
-      },
-      "dow": {
-        "close": 52182.74,
-        "change_pct": 0.59,
-        "note": "RECORD CLOSE >52,000 first time"
-      },
-      "vix": {
-        "close": 18.41,
-        "note": "moderating below 20; global vol cooling"
-      }
-    },
-    "asia_overnight": {
-      "note": "Mon Asia close data not multi-source fresh at pre-market filing; rolls from Fri Hang Seng -1.76% / SSE -2.26%"
-    },
-    "commodities": {
-      "newcastle_coal_usd_ton": 145,
-      "brent_usd_bbl": 72.01,
-      "lme_nickel_usd_ton": 16699,
-      "cpo_myr_ton": 4568
+    "regime_implications": {
+      "max_position_pct": 0.05,
+      "max_gross_pct": 0.85,
+      "candidate_convictions": "MEDIUM only (never HIGH under DEFENSIVE-INTENSIFIED)",
+      "sector_favor": [
+        "Healthcare-defensive (KLBF held)",
+        "Consumer staples (Brent sub-$71 CPI-relief tailwind partial)"
+      ],
+      "sector_avoid": [
+        "Coal (EXITED)",
+        "Property/Cement/Construction (rate-sensitive + CPI upside)",
+        "Telco (Jul 7 T-2 binary)",
+        "Plantation (B50 sell-the-news + CPO ref cut)"
+      ]
     }
   },
   "research": {
-    "date": "2026-07-02",
+    "date": "2026-07-03",
     "holiday": false,
-    "candidates_count": 3,
-    "candidates_actionable_count": 3,
+    "candidates_count": 2,
+    "candidates_actionable_count": 2,
     "candidates_top_score": 7,
     "top_candidate": "BBCA",
     "top_candidate_score": 7,
     "top_candidate_conviction": "MEDIUM",
-    "top_candidate_hook": "Wed sesi I foreign net BUY Rp 155.22B = INFLECTION post Tue Rp 766B capitulation; BEI T+0 absorbed",
+    "top_candidate_hook": "Wed inflection CONFIRMED Thu (BBCA absent from Thu top net sell; Thu +3.57% intraday recovery); Fri 3rd-session verify binding",
     "headlines": [
       {
-        "title": "IHSG Wed Jul 1 sesi II final provisional ~5,695.11 (+0.92%) rebound Day 1 from Tue -3.05% cascade",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
+        "title": "IHSG Thu Jul 2 sesi II final 5,744.55 (+0.87% / +49.44 pts) rebound Day 2 continuation; intraday high sesi I 5,792",
+        "url": "https://informasi.com/ekonomi/infrms-27427/meski-asing-masih-net-sell-ihsg-buka-harapan-baru-di-awal-semester-ii-2026"
       },
       {
-        "title": "BBCA Wed sesi I foreign net BUY Rp 155.22B = INFLECTION post Tue Rp 766B capitulation; BBRI top net SELL Rp 226.76B (cascade continuation compressed 75% vs Tue)",
-        "url": "https://money.kompas.com/read/2026/07/01/134544326/10-saham-net-sell-asing-ihsg-sesi-i-1-juli-2026-bbri-teratas"
+        "title": "Foreign net sell Thu Rp 237.87B (BBRI Rp 194.66B top / MAPI Rp 82.69B / ASII Rp 75.7B); BBCA ABSENT from top net sell = Wed Rp 155.22B inflection CONFIRMED Thu",
+        "url": "https://money.kompas.com/read/2026/07/02/141735126/10-saham-net-sell-asing-ihsg-sesi-i-2-juli-2026-bbri-teratas"
       },
       {
-        "title": "IDR Thu pre-open 17,940-17,954 = 3rd consecutive session piercing 17,950 cascade kill-switch (Tue 17,957 / Wed 17,950.9 / Thu 17,940-17,954); RE-ARM extending",
+        "title": "BBCA Thu Jul 2 close ~5,800 (day range 5,625-5,850; +3.57% intraday from Wed close 5,600)",
+        "url": "https://www.investing.com/equities/bnk-central-as"
+      },
+      {
+        "title": "Indonesia June CPI 3.34% YoY = UPSIDE SURPRISE (vs consensus 3.2%, 3-month high; still within BI target 1.5-3.5% band)",
+        "url": "https://www.bps.go.id/en/pressrelease/2026/07/01/2590/inflasi-year-on-year--y-on-y--pada-juni-2026-sebesar-3-34-persen-.html"
+      },
+      {
+        "title": "Indonesia May trade balance -$1.61B deficit = FIRST DEFICIT IN 72 MONTHS (since Apr 2020); oil & gas migas deficit $3.76B; imports +71% YoY",
+        "url": "http://www.thejakartapost.com/business/2026/07/01/indonesia-posts-first-trade-deficit-in-six-years"
+      },
+      {
+        "title": "IDR Fri pre-open cluster ~17,954 (17,912-18,024 range) = 4th consecutive session piercing 17,950 cascade kill-switch = RE-ARM CONFIRMED escalation trigger threshold reached",
         "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "title": "Newcastle coal $129 = BELOW $130 thesis floor; Brent $72.68 sub-$73 CPI-relief sustained; LME nickel $16,880 2-mo low",
-        "url": "https://tradingeconomics.com/commodity/coal"
+        "title": "Brent $70.57 -0.83% = below $71 lowest since late Feb (Strait of Hormuz easing + US-Iran progress); Newcastle coal $129.25 flat sub-$130 floor; LME nickel $16,355 3-mo low",
+        "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
       },
       {
-        "title": "CPO Jul reference cut to USD 1,000.90/t (-$28.61 MoM) on weak Indian demand = LSIP/AALI B50 thesis WEAKENED (sell-the-news T+1)",
-        "url": "https://www.palmoilmagazine.com/cpo-price/2026/07/01/indonesia-cuts-july-2026-cpo-reference-price-to-usd-1000-90-per-ton-amid-weak-global-demand/"
-      },
-      {
-        "title": "KLBF buyback Rp 500B expiry T-0 THU JUL 2 = structural bid floor removal event; cluster narrowing probability sharply increases Fri Jul 3+",
+        "title": "KLBF buyback Rp 500B EXPIRED end of Thu Jul 2 = structural bid floor removed; Fri = first post-expiry T+1 session; cluster narrowing probability SHARPLY INCREASES",
         "url": "https://www.beritajejakfakta.id/kalbe-farma-klbf-buyback-saham"
       },
       {
-        "title": "Frequency spectrum auction Jul 7 T-3 = binary catalyst window TLKM/ISAT/EXCL; T+0 SKIP discipline",
+        "title": "UNVR Thu Jul 2 close 1,785 (+1.00%) = +13% above planned pre-market entry 1,580 = Gate 9 chase cap BREACHED; DOWNGRADED to WATCH",
+        "url": "https://finance.yahoo.com/quote/UNVR.JK/"
+      },
+      {
+        "title": "U.S. Independence Day Fri Jul 3 = markets CLOSED (Dow Thu 52,844 +1.03% fresh all-time high pre-holiday; S&P 500 flat; Nasdaq 100 -0.80% chip-sector profit-taking)",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"
+      },
+      {
+        "title": "Frequency spectrum auction Jul 7 T-2 = binary catalyst window TLKM/ISAT/EXCL (T+0 SKIP discipline)",
         "url": "https://teknologi.bisnis.com/read/20260630/101/1984242/indosat-telkomsel-dan-xlsmart-lanjut-ke-tahap-lelang-harga-frekuensi-700-mhz-dan-26-ghz"
       },
       {
-        "title": "US Wed close mixed: S&P -0.22% 7,483.23 / Nasdaq -0.66% 26,040.03 / Dow -0.03% 52,305.24 = mild give-back after H1 strong close",
-        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-july-1-2026-nasdaq-futures-slip-after-strongest-quarter-since-2020"
+        "title": "Weekly-review 16:00 WIB Fri Jul 3 = Wk 11 recap + letter grade + optional strategy update",
+        "url": ""
       }
+    ],
+    "actions_planned": [
+      "BBCA \u2014 TOP PRIORITY CONDITIONAL ENTRY (score 7, MEDIUM conviction): 5% cap ~84,300 sh @ \u22645,850; R:R 2.44:1 at 5,850/6,850; stop 5,440; gated on cluster \u22653-src \u22642%, IHSG \u22655,700 continuation, BBCA absent Fri top net sell, IDR sub-17,950 stabilization",
+      "BMRI \u2014 SECOND PRIORITY paired-conditional (score 6, MEDIUM): 5% cap ~94,800 sh @ \u22645,200; R:R 2.75:1 at 5,200/6,200; stop 4,836; conditional on BBCA fill + BBRI 3rd consecutive top net sell easing",
+      "KLBF \u2014 HOLD with MATERIAL stop-fire potential: trailing 931 GTC re-armed; post-expiry T+1 = highest-probability cluster narrowing day; state-3 (7% trail 1,011) and state-4 (5% trail 1,077) ARMED",
+      "UNVR \u2014 DOWNGRADED to WATCH (Gate 9 chase cap breached at Thu close 1,785); do NOT enter",
+      "Weekly-review 16:00 WIB Fri: Wk 11 slot utilization + BBCA inflection thesis + KLBF Day 70 outage + IDR RE-ARM regime implication"
     ]
   },
-  "last_updated": "2026-07-02T15:15:00+07:00"
+  "last_updated": "2026-07-03T00:00:00+07:00"
 }
