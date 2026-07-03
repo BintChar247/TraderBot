@@ -803,6 +803,24 @@
       "positions_count": 1,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-07-03",
+      "day_label": "Day 55",
+      "portfolio_value": 9866717500,
+      "cash": 9329552500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -1.33,
+      "ihsg_close": 5886.01,
+      "ihsg_close_basis": "Fri Jul 3 sesi I provisional multi-source convergent (Kompas/Suara/Liputan6/CNN Indonesia/Bloomberg Technoz at +141.45/+2.46%); sesi II final not multi-source convergent at 15:15 WIB filing; Mon EOD will reconcile per Day 33-40 procedure if Fri sesi II final surfaces multi-source convergent",
+      "ihsg_cumulative_pct": -22.9,
+      "alpha_pct": 21.56,
+      "positions_count": 1,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 70 cluster non-convergence persists 30 consecutive sessions Day 41-70 post-KLBF-buyback-expiry T+1; broker stub 945 / tradingeconomics 745 / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% convergence per MISTAKES.md 2026-05-01)",
+      "note": "Week 11 Day 5 / KLBF buyback expiry T+1 / weekly-review day / IDR kill-switch RE-ARM CONFIRMED 5th consecutive session piercing 17,950 pre-open (17,954 cluster; pre-emptive de-risk procedure engages Mon Jul 6 if Fri close \u226517,950 sustained). Flat day; KLBF safe-lower carry hold + Day 70 cluster non-convergence prevents alternative mark execution; cash buffer 94.56% structurally insulating book on Fri sesi I +2.46% Day 3 continuation-rebound (5,886.01 vs Thu sesi II final reconciled 5,744.55; +141.46 pt; bank rally BBCA/ISAT leading; sectoral gains industrial +3.20%/infrastructure +2.62%/energy +2.31%/tech +1.92%; volume 11.61B sh/nilai Rp 6.42T). Cumulative trial alpha +21.56% provisional Fri sesi I = compression \u22121.23pp from Day 54 provisional +22.79% (flat portfolio + IHSG sesi I +2.46% Day 3 continuation-rebound); structural alpha trajectory remains above reconciled Day 50 +21.34% baseline. Market-open BBCA (TOP) + BMRI (paired-conditional) both SKIPPED on IDR kill-switch RE-ARM Fri pre-open 17,954 (5th consecutive piercing 17,950 = escalation trigger threshold reached) + Data Quality Gate BBCA/BMRI cluster <3 fresh Fri-open sources FAIL (Day 70 outage). 9-consecutive-week 0/3 pattern Wks 6-11 CONFIRMED at EOD; 24+ cumulative unused candidate-day slots. KLBF trailing 931 GTC re-armed Fri open, did NOT fire (broker tape never marked \u2264931 multi-source convergent Fri sesi I + sesi II; single-source stale-mix persists). Post-buyback-expiry T+1 = highest-probability cluster narrowing session per pre-market forecast NOT yet realised at 15:15 WIB filing; Mon Jul 6 T+2 = post-weekend cluster narrowing probability high. **Forward asymmetry:** Weekly-review 16:00 WIB Fri will formalise Wk 11 letter grade + 9-consecutive-week 0/3 pattern + IDR RE-ARM CONFIRMED regime escalation lock + Data Quality Gate Day 70 outage marker + Wk 12 forward plan (post-KLBF-buyback-expiry T+2 + IDR pre-emptive de-risk activation if sustained close \u226517,950)."
     }
   ],
   "positions": [
@@ -814,13 +832,13 @@
       "market_value_idr": 537165000,
       "unrealized_pnl_idr": 46710000,
       "unrealized_pnl_pct": 9.52,
-      "days_held": 42,
+      "days_held": 43,
       "entry_date": "2026-05-21",
       "trailing_stop_idr": 931,
       "stop_state": "trailing",
       "trail_pct": 10,
       "high_water_price": 1035,
-      "note": "safe-lower carry frozen anchor; Day 69 cluster non-convergence persists 29 consecutive sessions Day 41-69 post-KLBF-buyback-expiry T-0 (broker stub 945 / tradingeconomics 745 fresh single-source / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed Thu open did NOT fire (broker tape never marked \u2264931 multi-source convergent; single-source tradingeconomics 745 fails canonical convergence); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expiry T-0 elapsed Thu Jul 2 = structural bid floor removal event LIVE; post-expiry Fri Jul 3+ = cluster narrowing probability sharply increases (highest-probability convergence day revised to Fri T+1)"
+      "note": "safe-lower carry frozen anchor; Day 70 cluster non-convergence persists 30 consecutive sessions Day 41-70 post-KLBF-buyback-expiry T+1 (broker stub 945 / tradingeconomics 745 / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed Fri open did NOT fire (broker tape never marked \u2264931 multi-source convergent Fri sesi I + sesi II); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expired Thu Jul 2 EOD = structural bid floor removed; Fri T+1 = highest-probability cluster narrowing session per pre-market forecast NOT yet realised at 15:15 WIB filing; Mon Jul 6 T+2 = post-weekend cluster narrowing probability high"
     }
   ],
   "trades": [
@@ -9311,8 +9329,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 54,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 54)",
+    "trial_days_elapsed": 55,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 55)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9866717500,
     "cumulative_pnl_idr": -133282500,
@@ -9320,8 +9338,8 @@
     "realised_pnl_idr": -190372500,
     "unrealised_pnl_idr": 46710000,
     "future_dividend_receivable_idr": 0,
-    "ihsg_cumulative_pct": -24.13,
-    "cumulative_alpha_pct": 22.79,
+    "ihsg_cumulative_pct": -22.9,
+    "cumulative_alpha_pct": 21.56,
     "trades_this_week": 0,
     "trades_total": 4,
     "wins": 0,
@@ -9329,7 +9347,7 @@
     "open": 1
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-BINARY-RESOLVED-FAVORABLY",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9866717500,
@@ -9342,32 +9360,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-20T14:55:43Z",
-      "routine": "market-open",
-      "status": "success",
-      "summary": "Day 1: BUY ITMG 27,300sh @ 26,075 (7.12% of equity, 50bps risk). Hard cut: 24,250. Target: 31,500. BBRI/ANTM skipped (ex-div timing / above entry ceiling).",
-      "actions": [
-        {
-          "type": "buy",
-          "ticker": "ITMG",
-          "detail": "27300sh @ 26075, cost IDR 711.8M"
-        },
-        {
-          "type": "stop",
-          "ticker": "ITMG",
-          "detail": "hard-cut @ 24250 (-7%)"
-        },
-        {
-          "type": "research",
-          "detail": "BBRI skipped: ex-div tomorrow"
-        },
-        {
-          "type": "research",
-          "detail": "ANTM skipped: price 4010 above ceiling 3960"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-21T13:25:09Z",
       "routine": "daily-summary",
@@ -14028,6 +14020,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. KLBF HOLD Day 70 cluster non-convergent post-buyback expiry T+1."
+    },
+    {
+      "timestamp": "2026-07-03T08:20:19Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-07-03 Day 55: IDR 9.867B (+0.00%). Alpha \u22122.46% vs IHSG (Fri sesi I +2.46% Day 3 rebound); cum alpha +21.56%. 1 pos KLBF (+9.52%). Trades wk 0/3 (9-consecutive-week 0/3 pattern CONFIRMED Wks 6-11).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 55 EOD snapshot committed; IHSG Fri sesi I 5,886.01 anchor; KLBF safe-lower carry frozen 1,035 Day 70 non-convergent; IDR RE-ARM CONFIRMED 5th consecutive piercing 17,950 pre-open (17,954); pre-emptive de-risk activation criterion Mon Jul 6 if Fri close \u226517,950 sustained"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14041,46 +14045,17 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2",
-    "ihsg_close": 5744.55,
-    "ihsg_close_basis": "Thu Jul 2 sesi II final 5,744.55 (+0.87% / +49.44 pts) rebound Day 2 continuation (Wed sesi II final ~5,695.11 +0.92% \u2192 Thu 5,744.55); intraday high sesi I 5,792.167 gave back late-session; multi-source informasi.com Kompas Bareksa convergent",
-    "ihsg_cumulative_pct": -24.75,
+    "ihsg_close": 5886.01,
+    "ihsg_close_basis": "Fri Jul 3 sesi I provisional 5,886.01 (+141.45 / +2.46%) Day 3 continuation-rebound; multi-source convergent Kompas/Suara/Liputan6/CNN Indonesia/Bloomberg Technoz \u22655 sources; sesi II final not multi-source convergent at 15:15 WIB filing; Mon EOD will reconcile if Fri sesi II final surfaces multi-source convergent",
+    "ihsg_cumulative_pct": -22.9,
     "idr_usd": 17954.0,
-    "idr_status": "17,954 Fri pre-open cluster (17,912-18,024 range Thu) = 4th consecutive session piercing 17,950 cascade kill-switch (Tue 17,957 / Wed 17,950.9 / Thu 17,940-17,954 / Fri 17,954) = RE-ARM CONFIRMED escalation trigger threshold reached; 5th consecutive Fri close \u226517,950 = escalation cascade activates Mon Jul 6",
+    "idr_status": "17,954 Fri pre-open cluster (17,912-18,024 range Thu) = 5th consecutive session piercing 17,950 cascade kill-switch (Tue 17,957 / Wed 17,950.9 / Thu 17,940-17,954 / Fri 17,954) = RE-ARM CONFIRMED escalation trigger threshold REACHED; pre-emptive de-risk procedure engages Mon Jul 6 if Fri sustained close \u226517,950",
     "bi_rate": 5.75,
     "msci_announcement_date": "2026-06-24",
     "bi_rdg_meeting_date": "2026-08-14",
     "holiday_today": false,
     "us_holiday_today": true,
-    "deescalation_criteria_status": "1.5 of 5 confirming: (a) IDR RE-ARM CONFIRMED 4-of-4 piercing 17,950; (b) Moody's PERSISTS-REGRESSED hawkish-reanchoring + June CPI 3.34% upside surprise; (c) IHSG >5,500 STRONGLY CONFIRMED (Thu close 5,744.55 = +4.45% buffer); (d) foreign flow persists net sell Thu Rp 237.87B whole market but BBCA-specific inflection confirmed; (e) MSCI accessibility NEGATIVE-LOCKED (Nov 2026 Frontier-downgrade consultation possibility). Marginal regression from Mon 2-of-5 picture on criteria a re-regression",
-    "key_overhangs": [
-      "IDR 4-of-4 sessions piercing 17,950 cascade kill-switch = RE-ARM CONFIRMED; Fri 5th consecutive close \u226517,950 = escalation cascade activates Mon",
-      "June CPI 3.34% upside surprise (vs consensus 3.2%; 3-month high; still within BI target 1.5-3.5%) = restrictive posture reinforced; rate cut delayed",
-      "May trade balance -$1.61B deficit = first in 72 months (since Apr 2020); oil & gas migas deficit $3.76B; imports +71% YoY",
-      "MSCI Frontier-downgrade Nov 2026 binary tail risk (~$3-13B passive outflow scenario)",
-      "Moody's Danantara Baa2 negative outlook PERSISTS-REGRESSED post-BI HIKE re-anchoring",
-      "BI 5.75% HAWKISH-REANCHORING continuation through Aug 14 next RDG",
-      "KLBF buyback Rp 500B expiry T+1 Fri Jul 3 = post-expiry first session = structural bid floor removed; cluster narrowing probability SHARPLY INCREASES",
-      "BBRI 2-consecutive top net sell (Wed Rp 226.76B / Thu Rp 194.66B) = strike-1 sector-exit reinforced",
-      "LME nickel $16,355 3-mo low (bearish ANTM/INCO/NCKL/MBMA)",
-      "Coal Newcastle $129.25 flat sub-$130 thesis floor (SECTOR EXITED)",
-      "CPO Jul reference cut $1,000.90/t (-$28.61 MoM) confirms LSIP/AALI B50 thesis WEAKENED",
-      "Frequency spectrum auction Jul 7 T-2 = TLKM/ISAT/EXCL binary catalyst window (T+0 SKIP discipline)"
-    ],
-    "regime_implications": {
-      "max_position_pct": 0.05,
-      "max_gross_pct": 0.85,
-      "candidate_convictions": "MEDIUM only (never HIGH under DEFENSIVE-INTENSIFIED)",
-      "sector_favor": [
-        "Healthcare-defensive (KLBF held)",
-        "Consumer staples (Brent sub-$71 CPI-relief tailwind partial)"
-      ],
-      "sector_avoid": [
-        "Coal (EXITED)",
-        "Property/Cement/Construction (rate-sensitive + CPI upside)",
-        "Telco (Jul 7 T-2 binary)",
-        "Plantation (B50 sell-the-news + CPO ref cut)"
-      ]
-    }
+    "deescalation_criteria_status": "1.5 of 5 confirming: (a) IDR RE-ARM CONFIRMED 5-of-5 piercing 17,950 (NEGATIVE; escalation lock); (b) IHSG 3-day rebound Wed+Thu+Fri sesi I cumulative +4.30% off Tue low 5,643.19 (PARTIAL POSITIVE); (c) foreign flow BBRI top disposal 3 consecutive sessions (NEGATIVE); (d) KLBF cluster convergence Day 70 non-convergent (NEGATIVE); (e) BI RDG Aug 14 rate decision pending (NEUTRAL)"
   },
   "research": {
     "date": "2026-07-03",
@@ -14150,5 +14125,5 @@
       "Weekly-review 16:00 WIB Fri: Wk 11 slot utilization + BBCA inflection thesis + KLBF Day 70 outage + IDR RE-ARM regime implication"
     ]
   },
-  "last_updated": "2026-07-03T00:00:00+07:00"
+  "last_updated": "2026-07-03T15:15:00+07:00"
 }
