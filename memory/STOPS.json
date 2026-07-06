@@ -1,12 +1,4 @@
 {
   "_comment": "Stop ledger. cmd_set_stop writes here on every stop update. gate-check reads for risk-budget calc. Format per position: entry, current_stop, state (hard-cut|trailing), trail_pct (null in hard-cut), high_water_price, last_updated.",
-  "_stop_states": "hard-cut: fixed -7% from entry. trailing: trail_pct% below high_water_price. Transition: hard-cut \u2192 trailing once return >= +7%.",
-  "KLBF": {
-    "entry": 945,
-    "current_stop": 931,
-    "state": "trailing",
-    "trail_pct": 10,
-    "high_water_price": 1035,
-    "last_updated": "2026-05-29T11:38:28+07:00"
-  }
+  "_stop_states": "hard-cut: fixed -7% from entry. trailing: trail_pct% below high_water_price. Transition: hard-cut \u2192 trailing once return >= +7%."
 }
