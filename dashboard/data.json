@@ -9326,6 +9326,104 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-06",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "3-session foreign-flow inflection FULLY CONFIRMED (Wed BUY Rp155B + Thu absent + Fri absent) but ENTRY GATE-BLOCKED by IDR-ESCALATION-ENGAGED.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "3-session BBCA foreign-flow inflection confirmed + IHSG Day 3 rebound"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-IDR-ESCALATION-ENGAGED (Fri sustained close 17,989 \u226517,950)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate override: IDR pre-emptive de-risk procedure engaged; NO NEW BUYS Mon"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap / 81,000 sh @ 6,050 = IDR 490.05M"
+        },
+        {
+          "type": "warning",
+          "label": "IDR kill-switch escalation-track breached; requires sub-17,950 sustained 2+ sessions to de-arm"
+        }
+      ],
+      "reasoning": "Highest-quality Wk 12 setup (score 7) but pre-emptive de-risk procedure overrides all buy gates per MACRO-REGIME.md Wk 11 codification. Re-eligible only if IDR sub-17,950 sustained 2+ sessions Mon-Tue.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-06",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired 3-session bank-cluster inflection with BBCA (absent from top net-sell 3 consecutive sessions) but ENTRY GATE-BLOCKED by IDR-ESCALATION-ENGAGED.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Paired-conditional 3-session inflection with BBCA + BI HIKE NIM tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-IDR-ESCALATION-ENGAGED (Fri sustained close 17,989)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate override: IDR pre-emptive de-risk + paired-conditional to BBCA which is also blocked"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap / 122,400 sh @ 4,010 = IDR 490.82M"
+        },
+        {
+          "type": "warning",
+          "label": "Paired to BBCA (also blocked); both re-eligible only on IDR de-arm"
+        }
+      ],
+      "reasoning": "Paired-conditional to BBCA; both blocked by IDR pre-emptive de-risk override. Held discipline; no chase.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -9360,37 +9458,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-21T13:46:42Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Trial Day 3 pre-market. Scanned 20 tickers. 5 candidates scored \u22656: BBRI (8, ex-div + Apr 29 earnings), ITMG (8, HOLD), ANTM (7, HPM), INCO (7, nickel), ICBP (6). IHSG 7,539 (-0.72%). Regime EM-OUTFLOW unchanged.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "20 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "5 candidates scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 8/10 - ex-div today + Q1 earnings Apr 29"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 7/10 - HPM decree nickel rally"
-        },
-        {
-          "type": "research",
-          "ticker": "INCO",
-          "detail": "score 7/10 - Vale nickel breakout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-22T00:51:16Z",
       "routine": "pre-market",
@@ -14049,6 +14116,37 @@
           "type": "hold",
           "ticker": "KLBF",
           "detail": "post-buyback-expiry T+2 = highest-probability cluster narrowing session"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-06T02:18:21Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Mon Jul 6. IDR-ESCALATION-ENGAGED (Fri sustained close 17,989 \u226517,950 = 5th consecutive session piercing) triggers pre-emptive de-risk override. BBCA (score 7, 3-session inflection confirmed) and BMRI (paired-conditional) both SKIP per Gate 15 regime override. KLBF HOLD; trailing 931 GTC re-armed; Day 71 cluster non-convergence persists. Wk 12 slots 0/3.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Score 7; IDR pre-emptive de-risk gate override"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Score 7 paired-conditional; IDR pre-emptive de-risk gate override"
+        },
+        {
+          "type": "hold",
+          "ticker": "KLBF",
+          "detail": "trailing 931 GTC re-armed; post-buyback-expiry T+2 cluster watch"
+        },
+        {
+          "type": "warning",
+          "detail": "WebSearch price/IDR override used (yfinance + GoAPI blocked Day 71)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify.sh returned HTTP 403 via proxy; message stdout-fallback logged"
         }
       ]
     }

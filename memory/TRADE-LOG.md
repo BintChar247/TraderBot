@@ -7153,3 +7153,49 @@ Healthcare 5.44% of equity (KLBF safe-lower MV @ 1,035 = 537,165,000 / equity 9,
   4. **Data Quality Gate Day 71 Mon = continues to bind primary candidate execution** unless multi-source ≥3-source ≤2% convergent for planned entry. Mon = candidate re-eval if any live cluster surfaces convergent post-weekend.
   5. Defensive thesis maintenance: 94.56% cash buffer + KLBF healthcare-defensive carry remains binding alpha-protection posture into Wk 12 Day 1 IDR RE-ARM CONFIRMED escalation activation + post-buyback-expiry T+2; cumulative alpha +21.56% provisional Fri sesi I = trial high water runway compressed but structurally above reconciled Day 50 +21.34% baseline.
   6. **Weekly-review 16:00 WIB Fri Jul 3** will formalise Wk 11 letter grade + 9-consecutive-week 0/3 pattern formalisation + IDR RE-ARM CONFIRMED regime escalation lock + Data Quality Gate Day 70 outage marker + KLBF Wk 11 hold discipline + Wk 12 forward plan.
+
+---
+
+### 2026-07-06 09:15 WIB — MARKET-OPEN (Week 12 Day 1)
+
+- **Result: NO TRADES PLACED** — 0 buys, 0 sells. KLBF held (broker-side trailing 931 GTC re-armed at open).
+- **Binding constraint:** IDR-ESCALATION-ENGAGED. Fri Jul 3 sustained close 17,989 (Yahoo tick) ≥17,950 CONFIRMED = 5th consecutive session piercing 17,950 = kill-switch escalation-track BREACHED = pre-emptive de-risk procedure engages Mon Jul 6 per Wk 11 codification. NO NEW BUYS regardless of other gates.
+- **Mon Jul 6 IDR pre-open verification:** WebSearch tradingeconomics.com — open 17,935; current tick 17,954; today's range 17,912–18,024; forecast 17,921 (30rates). Mon 17,935 open in the 17,900–17,950 partial-DE-ARM band but current mark 17,954 still piercing; formal DE-ARM requires sub-17,950 sustained 2+ sessions Mon-Tue. Escalation carry remains active for Mon.
+
+**Candidates evaluated (2, both SKIP):**
+
+1. **BBCA** — Score 7, TOP candidate. 3-session foreign-flow inflection FULLY CONFIRMED (Wed Rp 155.22B net BUY + Thu absent from top net-sell + Fri absent = paired-confirmation). Fri +4.31% intraday to 6,050. Trade plan (would-be): entry ≤ 6,050 / hard-cut 5,626 / target 6,900 / R:R 2.00:1 / 81,000 sh × 6,050 = IDR 490.05M (5.0% of equity). SKIP — Gate 15 (Layer-2 regime override): IDR-ESCALATION-ENGAGED overrides all buy gates. Re-eligible only if IDR sub-17,950 sustained 2+ sessions Mon-Tue.
+2. **BMRI** — Score 7, paired-conditional to BBCA. 3-session absent from top net-sell (paired with BBCA). Trade plan (would-be): entry ≤ 4,010 / hard-cut 3,729 / target 4,571 / R:R 2.00:1 / 122,400 sh × 4,010 = IDR 490.82M (5.0% of equity). SKIP — Gate 15 (Layer-2 regime override): IDR-ESCALATION-ENGAGED + paired-conditional to BBCA (which is also blocked). Same de-arm condition applies.
+
+**KLBF HOLD action:**
+- Position unchanged: 519,000 sh @ entry 945; cluster carry safe-lower 1,035 frozen (Day 71 data-infra outage; broker stub 945 last; TradingView 760 / Investing 780 / Ajaib 710 / tradingeconomics 745 / Yahoo 745 stale = 6-source spread persists 12.5% FAILS canonical ≤2% + relaxed ≤4%).
+- Trailing 931 GTC re-armed at Mon open (broker-side); fires only on multi-source convergent ≤931.
+- Post-buyback-expiry T+2 = Mon = highest-probability cluster narrowing session per Wk 11 pre-market forecast (1-3 sessions typical post-removal). Sesi I not yet observable at 09:15 filing; midday scan will re-check.
+- State-3 (≥1,087 → 7% trail 1,011) and state-4 (≥1,134 → 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence Day 71.
+
+**Weekly slot utilization:**
+- Wk 12 slots: 0/3 used (fresh week; Mon D1 blocked by IDR gate override).
+- Cumulative: 10 consecutive weeks 0/3 (Wks 6–12 D1); 27+ cumulative unused candidate-day slots.
+- If Mon-Tue-Wed all block, 7th consecutive week 0/3 formalisation eligibility triggers per Wk 11 Process change.
+
+**9-gate checklist BBCA (before IDR override):**
+1. Positions after fill 2 ≤ 6 → PASS
+2. Trades this week 1 ≤ 3 → PASS
+3. Position cost IDR 490.05M ≤ 5% cap × 9,820M = 491M → PASS (edge)
+4. Position cost ≤ available cash 9,329.55M → PASS
+5. Catalyst documented → PASS
+6. Instrument is stock → PASS
+7. ADV ~50M > 500K → PASS
+8. Shares 81,000 multiple of 100 → PASS
+9. Current 6,050 ≤ planned entry 6,050 + 3% (6,231) → PASS
+- Gate 15 (regime override IDR pre-emptive de-risk): FAIL → **SKIP**
+
+**9-gate checklist BMRI (before IDR override):**
+- Same gates 1-9: PASS
+- Gate 15 (regime override IDR pre-emptive de-risk): FAIL → **SKIP**
+
+**Notes:**
+- Price source: WebSearch (Data Quality Gate Day 71 outage; yfinance + GoAPI blocked); IDR live: tradingeconomics.com + 30rates.com + BCA cross-check.
+- Eagerness check: 3/3 fresh slots + 6 consecutive 0/3 weeks cash-drag pressure = binding on patience discipline. IDR escalation is objective, not opinion; hold cash.
+- No notification path change; single "no trades" summary sent via notify.sh per market-open protocol.
+
