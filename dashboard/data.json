@@ -821,26 +821,26 @@
       "trades_this_week": 0,
       "klbf_mark_basis": "safe-lower carry frozen 1,035 (Day 70 cluster non-convergence persists 30 consecutive sessions Day 41-70 post-KLBF-buyback-expiry T+1; broker stub 945 / tradingeconomics 745 / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% convergence per MISTAKES.md 2026-05-01)",
       "note": "Week 11 Day 5 / KLBF buyback expiry T+1 / weekly-review day / IDR kill-switch RE-ARM CONFIRMED 5th consecutive session piercing 17,950 pre-open (17,954 cluster; pre-emptive de-risk procedure engages Mon Jul 6 if Fri close \u226517,950 sustained). Flat day; KLBF safe-lower carry hold + Day 70 cluster non-convergence prevents alternative mark execution; cash buffer 94.56% structurally insulating book on Fri sesi I +2.46% Day 3 continuation-rebound (5,886.01 vs Thu sesi II final reconciled 5,744.55; +141.46 pt; bank rally BBCA/ISAT leading; sectoral gains industrial +3.20%/infrastructure +2.62%/energy +2.31%/tech +1.92%; volume 11.61B sh/nilai Rp 6.42T). Cumulative trial alpha +21.56% provisional Fri sesi I = compression \u22121.23pp from Day 54 provisional +22.79% (flat portfolio + IHSG sesi I +2.46% Day 3 continuation-rebound); structural alpha trajectory remains above reconciled Day 50 +21.34% baseline. Market-open BBCA (TOP) + BMRI (paired-conditional) both SKIPPED on IDR kill-switch RE-ARM Fri pre-open 17,954 (5th consecutive piercing 17,950 = escalation trigger threshold reached) + Data Quality Gate BBCA/BMRI cluster <3 fresh Fri-open sources FAIL (Day 70 outage). 9-consecutive-week 0/3 pattern Wks 6-11 CONFIRMED at EOD; 24+ cumulative unused candidate-day slots. KLBF trailing 931 GTC re-armed Fri open, did NOT fire (broker tape never marked \u2264931 multi-source convergent Fri sesi I + sesi II; single-source stale-mix persists). Post-buyback-expiry T+1 = highest-probability cluster narrowing session per pre-market forecast NOT yet realised at 15:15 WIB filing; Mon Jul 6 T+2 = post-weekend cluster narrowing probability high. **Forward asymmetry:** Weekly-review 16:00 WIB Fri will formalise Wk 11 letter grade + 9-consecutive-week 0/3 pattern + IDR RE-ARM CONFIRMED regime escalation lock + Data Quality Gate Day 70 outage marker + Wk 12 forward plan (post-KLBF-buyback-expiry T+2 + IDR pre-emptive de-risk activation if sustained close \u226517,950)."
-    }
-  ],
-  "positions": [
+    },
     {
-      "ticker": "KLBF",
-      "shares": 519000,
-      "avg_cost_idr": 945,
-      "last_price_idr": 1035,
-      "market_value_idr": 537165000,
-      "unrealized_pnl_idr": 46710000,
-      "unrealized_pnl_pct": 9.52,
-      "days_held": 43,
-      "entry_date": "2026-05-21",
-      "trailing_stop_idr": 931,
-      "stop_state": "trailing",
-      "trail_pct": 10,
-      "high_water_price": 1035,
-      "note": "safe-lower carry frozen anchor; Day 70 cluster non-convergence persists 30 consecutive sessions Day 41-70 post-KLBF-buyback-expiry T+1 (broker stub 945 / tradingeconomics 745 / Ajaib 710 / TradingView 760 / Investing.com 780 / Yahoo 745 stale = 6-source spread 12.5% FAILS canonical \u22653-source \u22642% AND relaxed \u22644% per MISTAKES.md 2026-05-01); trailing 931 GTC re-armed Fri open did NOT fire (broker tape never marked \u2264931 multi-source convergent Fri sesi I + sesi II); state-3 (\u22651,087 \u2192 7% trail 1,011) and state-4 (\u22651,134 \u2192 5% trail 1,077) ARMED-BLOCKED on cluster non-convergence; KLBF Rp 500B buyback expired Thu Jul 2 EOD = structural bid floor removed; Fri T+1 = highest-probability cluster narrowing session per pre-market forecast NOT yet realised at 15:15 WIB filing; Mon Jul 6 T+2 = post-weekend cluster narrowing probability high"
+      "date": "2026-07-06",
+      "day_label": "Day 56",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": -150510000,
+      "daily_pnl_pct": -1.53,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5864.96,
+      "ihsg_close_basis": "Mon Jul 6 sesi I provisional (Kompas/Liputan6 confirm 5,864.96 \u221210.8 pt \u22120.18% vs unreconciled Fri sesi II); sesi II final Mon not multi-source convergent at 15:15 WIB filing; Tue EOD will reconcile if Mon sesi II final surfaces multi-source convergent overnight",
+      "ihsg_cumulative_pct": -23.17,
+      "alpha_pct": 20.33,
+      "positions_count": 0,
+      "trades_today": 1,
+      "trades_this_week": 0,
+      "note": "Week 12 Day 1 / KLBF hard-cut day / post-buyback-expiry T+2 cluster narrowing forecast realised. Sesi I ~11:35 WIB fresh multi-source cluster convergent \u22653-source \u22642%: Ajaib 745 / Investing 745 / Stockbit 745 (0.0% spread canonical PASS); Yahoo open 750 / TradingView 765 (5-source spread 2.7% relaxed PASS). Cluster mark 745 \u2264 hard-cut 878 AND \u2264 trailing 931 GTC \u2192 both auto-cut triggers concurrent. Broker fill stub 945 \u2192 PAPER-STATE.json corrected to safe-lower 745; realised loss \u2212103,800,000 (\u221221.16% from entry 945). Book now 100% cash IDR 9,716,207,500. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) SKIP on Gate 15 regime override \u2014 IDR-ESCALATION-ENGAGED (Fri sustained close 17,989 \u226517,950 = 5th consecutive session piercing = escalation threshold BREACHED). Mon IDR 17,935 open \u2192 17,954 tick (still piercing at midday). Cumulative alpha compression \u22121.23pp Fri +21.56% provisional \u2192 Mon +20.33% reconciled via KLBF true-up (carry-mark 1,035 \u2192 cluster 745); structural alpha falls below reconciled Day 50 +21.34% baseline for 1st time this leg. Drawdown from peak \u22123.10% (10,026,617,500 \u2192 9,716,207,500); daily loss cap \u22121.53% within \u22122%; weekly cap \u22121.53% within \u22125%; NO halt triggers. Trial hard-cut sequence complete this leg: BBRI/ITMG/ADRO/KLBF (4th total; 1st healthcare; no sector-exit consecutive-loss trigger fires for healthcare with n=1). Carry-over Tue: IDR gate remains binding until sub-17,950 sustained 2+ sessions Mon-Tue; BBCA/BMRI re-eligible only on IDR de-arm; Data Quality Gate Day 72 persists; defensive posture 100% cash maximally insulates further downside."
     }
   ],
+  "positions": [],
   "trades": [
     {
       "date": "2026-04-20",
@@ -909,8 +909,18 @@
       "shares": 519000,
       "price": 945,
       "cost": 490455000,
-      "status": "open",
-      "realized_pnl_pct": null
+      "status": "closed",
+      "realized_pnl_pct": -21.16
+    },
+    {
+      "date": "2026-07-06",
+      "ticker": "KLBF",
+      "side": "sell",
+      "shares": 519000,
+      "price": 745,
+      "cost": 386655000,
+      "status": "closed",
+      "realized_pnl_pct": -21.16
     }
   ],
   "decisions": [
@@ -9427,30 +9437,31 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 55,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 55)",
+    "trial_days_elapsed": 56,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 56)",
     "starting_capital_idr": 10000000000,
-    "current_equity_idr": 9866717500,
-    "cumulative_pnl_idr": -133282500,
-    "cumulative_pnl_pct": -1.33,
-    "realised_pnl_idr": -190372500,
-    "unrealised_pnl_idr": 46710000,
+    "current_equity_idr": 9716207500,
+    "cumulative_pnl_idr": -283792500,
+    "cumulative_pnl_pct": -2.84,
+    "realised_pnl_idr": -294172500,
+    "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
-    "ihsg_cumulative_pct": -22.9,
-    "cumulative_alpha_pct": 21.56,
+    "dividends_received_idr": 10380000,
+    "ihsg_cumulative_pct": -23.17,
+    "cumulative_alpha_pct": 20.33,
     "trades_this_week": 0,
-    "trades_total": 4,
+    "trades_total": 5,
     "wins": 0,
-    "losses": 3,
-    "open": 1
+    "losses": 4,
+    "open": 0
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2",
-    "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.0,
-    "current_equity": 9866717500,
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2-IDR-ESCALATION-ENGAGED",
+    "daily_pnl_pct": -1.53,
+    "weekly_pnl_pct": -1.53,
+    "current_equity": 9716207500,
     "peak_equity": 10026617500,
-    "drawdown_from_peak_pct": -1.59,
+    "drawdown_from_peak_pct": -3.1,
     "trading_halted": false,
     "halt_reason": null,
     "max_position_pct": 0.05,
@@ -9458,35 +9469,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-22T02:23:50Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. ANTM + BBRI gate-check rejected (gates 3/4/7 failed: market-data.sh quote infra down, yfinance unreachable). ITMG hold. Weekly 1/3.",
-      "actions": [
-        {
-          "type": "gate-reject",
-          "ticker": "ANTM",
-          "detail": "planned 380000sh @ 3850-3960; rejected on gate 3/4/7 (no live quote)"
-        },
-        {
-          "type": "gate-reject",
-          "ticker": "BBRI",
-          "detail": "planned 425000sh @ 3400-3480; rejected on gate 3/4/7 (no live quote)"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27300sh @ 26075, stop 24250 (hard-cut)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T04:33:31Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. ITMG stable at entry (stale quote; yesterday's close +2.88%). No cuts, no stop tightens, no thesis breaks."
-    },
     {
       "timestamp": "2026-04-22T08:32:57Z",
       "routine": "daily-summary",
@@ -14129,15 +14111,49 @@
           "detail": "-21.16% hard cut at cluster mark 745 (broker stub 945 stale); PAPER-STATE ledger corrected to safe-lower cluster mark; realized -103,800,000 IDR; state-machine trigger (a) fired concurrent with -7% rule; trailing 931 GTC also concurrent"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-06T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 56: IDR 9,716,207,500 (-1.53% today). Alpha vs IHSG -1.17%. Full de-risk after KLBF hard-cut (cluster 745 vs entry 945, -21.16%). Book 100% cash; IDR-ESCALATION-ENGAGED persists (Mon 17,954 tick still piercing). Cumulative alpha +20.33% post-KLBF true-up (compression -1.23pp vs Fri provisional +21.56%). No halt triggers. Wk 12 BUY slots 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 56 EOD snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "KLBF true-up removed safe-lower carry inflation; alpha falls below reconciled Day 50 +21.34% baseline for 1st time this leg"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 71 outage persists; MD_LAST_PRICE_OVERRIDE broker.sh cmd_sell fix now overdue-critical (4th hard-cut requiring PAPER-STATE.json manual correction)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-06T08:20:05Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 56 2026-07-06: IDR 9,716,207,500 (-1.53%). Alpha vs IHSG -1.17%. Full de-risk after KLBF hard-cut (cluster 745 vs entry 945; -21.16%). 100% cash; IDR-ESCALATION-ENGAGED persists (17,954 tick). Cumulative alpha +20.33% post KLBF true-up (compression -1.23pp). No halt. Wk 12 BUY 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 56 EOD snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "KLBF true-up removed carry inflation; alpha now below reconciled Day 50 +21.34% for 1st time"
+        }
+      ]
     }
   ],
   "exposure": {
-    "cash_pct": 94.56,
-    "invested_pct": 5.44,
-    "by_sector": {
-      "Healthcare": 5.44
-    },
-    "positions_count": 1,
+    "cash_pct": 100.0,
+    "invested_pct": 0.0,
+    "by_sector": {},
+    "positions_count": 0,
     "max_positions": 6
   },
   "macro": {
@@ -14226,5 +14242,5 @@
       "KLBF carry trim/hold/close framework evaluation gate REHEATED by IDR escalation; midday scan will re-check post-expiry T+2 cluster + IDR trajectory + BBCA/BMRI re-eligibility"
     ]
   },
-  "last_updated": "2026-07-06T07:00:00+07:00"
+  "last_updated": "2026-07-06T15:15:00+07:00"
 }
