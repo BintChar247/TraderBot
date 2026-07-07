@@ -9470,46 +9470,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-04-22T08:32:57Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% vs IHSG today; cumulative alpha +1.37%. 1 position open (ITMG +3.74%). Trades this week: 1/3. No risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 3 EOD snapshot committed"
-        },
-        {
-          "type": "mark-to-market",
-          "detail": "ITMG marked to IDR 27,050 (TradingView/sectors.app; market-data.sh yfinance still unavailable)"
-        },
-        {
-          "type": "reconcile",
-          "detail": "Broker position matches TRADE-LOG (27,300 sh @ 26,075)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-22T08:33:16Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 3 EOD: IDR 10.027B (+0.06%). Alpha -0.09% today; cum. +1.37% vs IHSG. 1 position open (ITMG +3.74%). Trades this week: 1/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 3 EOD snapshot committed"
-        },
-        {
-          "type": "mark-to-market",
-          "detail": "ITMG marked to IDR 27,050"
-        },
-        {
-          "type": "reconcile",
-          "detail": "Broker position matches TRADE-LOG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-23T02:29:23Z",
       "routine": "market-open",
       "status": "success",
@@ -14147,6 +14107,67 @@
           "detail": "KLBF true-up removed carry inflation; alpha now below reconciled Day 50 +21.34% for 1st time"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-07T07:00:00+07:00",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 12 Day 2 (Tue Jul 7) pre-market: scanned 50 tickers; 2 CANDIDATES \u22656 (BBCA 7 MEDIUM, BMRI 6 MEDIUM) both bank-cluster reversal setup; IDR gate 1-of-2 DE-ARM partial only + Data Quality Gate Day 72 outage \u2192 BOTH gate-blocked at /market-open unless IDR sub-17,950 Tue sustained. HOLD 100% cash primary plan.",
+      "commit_sha": "",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 2 CANDIDATES \u22656 (BBCA 7 / BMRI 6); rest WATCH or SKIP"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 MEDIUM \u2014 bank-cluster reversal + 3-session foreign inflection CONFIRMED; IDR-gated + Data Quality Gate FAIL"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 MEDIUM paired-conditional; only after BBCA fills"
+        },
+        {
+          "type": "research",
+          "detail": "IDR partial DE-ARM Mon 17,945 (1st sub-17,950 in 6 sessions) \u2192 Tue open 17,987 pierce back = ESCALATION persists"
+        },
+        {
+          "type": "research",
+          "detail": "Global tape constructive: Dow record 53,055, S&P +0.72%, Nasdaq +1.12%, VIX 15.57"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-07T00:13:16Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 12 Day 2 (Tue Jul 7) pre-market: 50 tickers scanned; 2 CANDIDATES \u22656 (BBCA 7 MEDIUM, BMRI 6 MEDIUM) bank-cluster reversal; IDR partial DE-ARM 1-of-2 (Mon 17,945 sub-17,950 1st in 6 sess; Tue open 17,987 pierce back) + Data Quality Gate Day 72 outage bind; HOLD 100% cash primary plan",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 2 CANDIDATES \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 MEDIUM \u2014 bank-cluster reversal + 3-session foreign inflection CONFIRMED; IDR-gated"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 MEDIUM paired-conditional"
+        },
+        {
+          "type": "research",
+          "detail": "IDR partial DE-ARM Mon 17,945; Tue open 17,987 pierce"
+        },
+        {
+          "type": "research",
+          "detail": "Global tape constructive: Dow record 53,055; VIX 15.57"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14175,7 +14196,7 @@
     "global_note": "US Fri Jul 3 CLOSED for July 4 observance; Thu Dow +1.14% ATH 52,900 / S&P flat / Nasdaq -0.80% chip drag / VIX 16.59; Asia Fri strong (Nikkei +1.47% / Hang Seng +1.28% / Shanghai +0.37%). Mixed-constructive external backdrop for Mon Asian open."
   },
   "research": {
-    "date": "2026-07-06",
+    "date": "2026-07-07",
     "holiday": false,
     "candidates_count": 2,
     "candidates_actionable_count": 0,
@@ -14183,64 +14204,75 @@
     "top_candidate": "BBCA",
     "top_candidate_score": 7,
     "top_candidate_conviction": "MEDIUM",
-    "top_candidate_hook": "3-session foreign flow inflection FULLY CONFIRMED (Wed BUY + Thu absent + Fri absent) but BLOCKED by IDR-ESCALATION-ENGAGED override (Fri sustained close 17,989 \u226517,950 = pre-emptive de-risk engages Mon)",
+    "top_candidate_hook": "Bank-cluster reversal setup post-Wk 11 Fri sesi I banking rally + 3-session BBCA foreign-flow-net-sell ABSENCE = paired inflection CONFIRMED; IDR-gated + Data Quality Gate outage bind at /market-open",
     "headlines": [
       {
-        "title": "IHSG Fri Jul 3 sesi I provisional 5,886.01 (+2.46%) Day 3 continuation-rebound; bank rally leading (BBCA/ISAT top movers)",
-        "url": "https://tradingeconomics.com/indonesia/stock-market"
+        "title": "IHSG Fri Jul 3 sesi II final 5,875.78 (+2.28% weekly close); Tue Jul 7 morning ~5,893-5,916 continuing rally",
+        "url": "https://money.kompas.com/read/2026/07/03/163848026/ihsg-hari-ini-menguat-228-persen-saham-bbca-dan-bbri-kompak-naik"
       },
       {
-        "title": "IDR Fri sustained close 17,989 (Yahoo +0.18%) = 5th consecutive session piercing 17,950 SUSTAINED = kill-switch escalation-track BREACHED = pre-emptive de-risk engages Mon Jul 6",
+        "title": "IDR Mon Jul 6 close 17,945 = 1st sub-17,950 in 6 sessions = 1-of-2 DE-ARM watch; Tue morning 17,987 pierce back above = PARTIAL DE-ARM, ESCALATION persists",
         "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "title": "Foreign flow Fri +Rp 6.08B marginal INFLOW (regular market); YTD cumulative outflow -Rp 74.42T; BBRI 3rd consecutive top net sell Rp 176.24B",
-        "url": "https://www.idxchannel.com/market-news/aksi-jual-bersih-asing-capai-rp7442-triliun-hingga-3-juli-2026"
+        "title": "US Mon Jul 6 record: Dow 53,055.91 (+0.29% ATH >53K first), S&P 7,537.43 (+0.72%), Nasdaq 26,121.16 (+1.12%) \u2014 chip stocks rally",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-6-2026"
       },
       {
-        "title": "Top foreign net-sell Fri: BBRI -Rp 176.24B (top), TPIA -Rp 83.16B; BBCA ABSENT for 3rd consecutive session = paired inflection CONFIRMED",
-        "url": "https://money.kompas.com/read/2026/07/04/133025126/10-saham-net-sell-asing-ihsg-3-juli-2026-bbri-banyak-dijual"
+        "title": "VIX 15.57 (-1.5%) = moderating below 16 = global vol cooling; US 10Y 4.47% (-1bp) softer post-payrolls; ~56% Sep Fed cut probability",
+        "url": "https://tradingeconomics.com/united-states/government-bond-yield"
       },
       {
-        "title": "US Fri Jul 3 CLOSED for July 4 observance; Thu Dow +1.14% ATH 52,900 / S&P flat / Nasdaq -0.80% chip drag / VIX 16.59",
-        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-2-2026"
+        "title": "Brent Mon $71.7 (Tue $72.27) sub-$73 8+ sessions; OPEC+ August output increase = downside carry; UNVR CPI-relief tailwind persists partial",
+        "url": "https://hdfcsky.com/news/url-brent-crude-oil-price-today-july-6-2026-oil-prices-ease-as-opec-aims-to-bump-up-output-from-august-brent-below-72"
       },
       {
-        "title": "Asia Fri strong: Nikkei +1.47% 69,744 / Hang Seng +1.28% 23,350 / Shanghai +0.37% 4,044",
-        "url": "https://tradingeconomics.com/japan/stock-market"
+        "title": "Newcastle coal ~$128.80/t sub-thesis-floor $130 sustained 5+ sessions; LME nickel $16,378 multi-month low -10.99% MoM; CPO Sep26 4,499 MYR -1.4% weekly (MPOB Jul 10 T+3 binary)",
+        "url": "https://tradingeconomics.com/commodity/coal"
       },
       {
-        "title": "Brent $72.10 +0.42% Fri; LME nickel $16,360 +0.40%; Newcastle coal <$130/t (sub-thesis floor); CPO MYR 4,480/t -0.58%",
-        "url": "https://hdfcsky.com/news/oil-price-today-july-3-2026-crude-oil-prices-us-iran-peace-brent-above-72"
+        "title": "Indonesia June CPI 3.34% YoY (highest since Mar; core 2.76%); 1st trade deficit in 6 years = HAWKISH-REANCHORING carry",
+        "url": "https://www.bps.go.id/en/pressrelease/2026/07/01/2590/inflasi-year-on-year--y-on-y--pada-juni-2026-sebesar-3-34-persen-.html"
       },
       {
-        "title": "KLBF Rp 500B buyback expired Thu Jul 2 = structural bid floor removed; Mon Jul 6 = T+2 post-expiry = highest-probability cluster narrowing session per pre-market forecast",
-        "url": "https://market.bisnis.com/read/20260401/192/1963791/kalbe-farma-siap-buyback-rp500-miliar-jaga-stabilitas-harga-saham-klbf"
+        "title": "Indo 10Y SUN yield 7.14% (highest since Apr 2025); BI+MoF offering higher yields to support rupiah",
+        "url": "https://tradingeconomics.com/indonesia/government-bond-yield"
       },
       {
-        "title": "Spectrum auction Jul 7 T-1 binary = TLKM/EXCL/ISAT/MTEL/TOWR SKIP all telcos into outcome",
+        "title": "Foreign flow YTD net sell -Rp 88.9T through Jul 3 (deepening vs -Rp 61.8T Jun mid); BBCA ABSENT top-net-sell 3rd consecutive session Fri Jul 3 = paired inflection CONFIRMED",
+        "url": "https://insight.kontan.co.id/news/2026-jadi-mimpi-buruk-pasar-saham-net-foreign-sell-semester-1-kalahkan-tahun-2020"
+      },
+      {
+        "title": "Spectrum auction Komdigi Jul 7 T+0 all-day = BINARY event for TLKM/EXCL/ISAT/MTEL/TOWR \u2014 all telcos SKIP into outcome",
         "url": "https://katadata.co.id/finansial/bursa/69fc4d59a627f/prospek-saham-tlkm-excl-isat-saat-lelang-frekuensi-komdigi-siapa-akan-menang"
       },
       {
-        "title": "BI 5.75% post Jun +25bp HIKE; next RDG mid-Jul; EIU sees +50bp to 6.00% by YE = HAWKISH-REANCHORING",
-        "url": "https://www.focus-economics.com/countries/indonesia/news/monetary-policy/indonesia-central-bank-meeting-09-06-2026-bank-indonesia-delivers-an-off-cycle-hike-in-june/"
+        "title": "Data Quality Gate Day 72 outage persists: yfinance + GoAPI blocked; broker.sh quote fails universally on all 50 watchlist tickers; WebSearch multi-source protocol required",
+        "url": "https://tradingeconomics.com/indonesia/stock-market"
       },
       {
-        "title": "OJK POJK 30/2025 (fintech gov + risk mgmt) effective Jul 1 2026 = modest BUKA/GOTO fintech-adjacent overhang",
-        "url": "https://ojk.go.id/id/regulasi/otoritas-jasa-keuangan/peraturan-ojk/default.aspx"
+        "title": "Presidential Decree 27/2026 cut app driver commissions 20% \u2192 8% = GOTO Q2 profit at risk despite Rp 3.5T buyback (Jun 19-Jun 27) tailwind; net negative",
+        "url": "https://market.bisnis.com/read/20260429/192/1970094/beda-nasib-kinerja-emiten-teknologi-goto-vs-buka-kuartal-i2026"
       },
       {
-        "title": "MSCI Jun 24 EM retention CONFIRMED; weight 1.16% \u2192 0.45% (6 mega-caps removed); Nov 2026 Frontier-monitoring continues",
-        "url": "https://www.idnfinancials.com/news/65119/indonesia-stays-in-msci-em-frontier-risk-if-inconsistencies-persist"
+        "title": "ASII Q1 net -16% YoY (heavy equip -79%) despite Rp 8T buyback; UNTR Rp 2T buyback partial support; heavy equipment / mining CAPEX headwind persistent",
+        "url": "https://www.idnfinancials.com/news/58391/asii-follows-untr-ready-for-idr2-trillion-share-buyback"
       }
     ],
     "actions_planned": [
-      "NO NEW BUYS Mon Jul 6 \u2014 IDR-ESCALATION-ENGAGED override (Fri sustained close 17,989 \u226517,950 = 5-of-5 SUSTAINED); pre-emptive de-risk procedure per Wk 7 codification",
-      "BBCA \u2014 CANDIDATE (score 7, MEDIUM conviction, 3-session inflection CONFIRMED) but BLOCKED by IDR gate; re-eligible only if IDR sub-17,950 sustained 2+ sessions Mon-Tue",
-      "BMRI \u2014 CANDIDATE (score 7, MEDIUM, paired-conditional) same IDR block",
-      "KLBF \u2014 HOLD with MATERIAL stop-fire potential: post-buyback-expiry T+2 = highest-probability cluster narrowing session; trailing 931 GTC re-armed; state-3 (7% trail 1,011) and state-4 (5% trail 1,077) ARMED",
-      "KLBF carry trim/hold/close framework evaluation gate REHEATED by IDR escalation; midday scan will re-check post-expiry T+2 cluster + IDR trajectory + BBCA/BMRI re-eligibility"
+      "PRIMARY: HOLD 100% CASH unless (a) IDR sub-17,950 sustained sesi I Tue close = 2-of-2 DE-ARM AND (b) BBCA cluster \u22653 fresh sources \u22644% relaxed AND (c) IHSG \u22655,800 open AND (d) R:R \u22652:1 at cluster mark",
+      "BBCA \u2014 TOP CANDIDATE score 7/10 MEDIUM (bank-cluster reversal + 3-session foreign inflection); paired-first; IDR-gated + Data Quality Gate FAIL \u2014 CONDITIONAL entry only if all 4 conditions above cleared",
+      "BMRI \u2014 CANDIDATE score 6/10 MEDIUM (paired-conditional); only after BBCA fills with volume confirmation in first 30-min",
+      "SKIP all telco (TLKM/EXCL/ISAT/MTEL/TOWR) \u2014 spectrum auction Jul 7 T+0 BINARY into outcome",
+      "SKIP all coal (ADRO/ITMG/PTBA/BUMI/HRUM) \u2014 sector EXITED + Newcastle sub-$130 sustained",
+      "SKIP all nickel (ANTM/INCO/MDKA/NCKL/MBMA) \u2014 LME $16,378 multi-month low + Indo quota hike headwind",
+      "SKIP all property/construction/cement \u2014 rate-sensitive + BI HIKE re-anchoring + CPI 3.34% Jun HAWKISH",
+      "SKIP CPO (LSIP/AALI) \u2014 MPOB Jul 10 T+3 binary + falling-knife pattern binding",
+      "SKIP tech (GOTO/BUKA/EMTK) \u2014 driver-commission-cut regulatory headwind + OJK POJK 30/2025",
+      "Watch UNVR / ICBP for fresh cluster narrowing sub-1,690; midday re-check",
+      "KLBF post-hard-cut cool-down; re-entry deferred Wk 12 (require new-thesis restart)",
+      "10th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 2 \u2014 discipline holds; no forced trade under gate-fail state"
     ]
   },
-  "last_updated": "2026-07-06T15:15:00+07:00"
+  "last_updated": "2026-07-07T07:00:00+07:00"
 }
