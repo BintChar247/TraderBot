@@ -9434,6 +9434,104 @@
         true,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Bank-cluster reversal + paired inflection (3-session BBCA foreign-net-sell absence Wk 11) + IDR partial DE-ARM Mon Jul 6 close 17,945",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Bank-cluster reversal post-Wk 11 Fri banking rally; foreign inflection paired confirm"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2; IDR-ESCALATION-ENGAGED overlay"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: cluster spread >5% canonical + relaxed (Data Quality Gate Day 72)"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap = ~486M IDR (would-be at 5,900 entry)"
+        },
+        {
+          "type": "warning",
+          "label": "IDR 17,987 Tue AM piercing 17,950 = escalation persists; 1-of-2 DE-ARM only"
+        }
+      ],
+      "reasoning": "SKIP: (a) IDR gate FAIL \u2014 Tue AM 17,987 piercing 17,950 (partial DE-ARM only); (b) Data Quality Gate Day 72 FAIL \u2014 cluster non-convergent canonical AND relaxed. Held per research plan primary action HOLD 100% CASH.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired-second with BBCA on bank-cluster reversal; SOE-adjacent Danantara overhang",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Paired-conditional bank-cluster reversal (dependent on BBCA fill first)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2; IDR-ESCALATION-ENGAGED overlay"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 9 FAIL: cluster non-convergent; paired-conditional invalid without BBCA fill"
+        },
+        {
+          "type": "sizing",
+          "label": "3-4% conservative paired-second sizing (would-be ~292M IDR)"
+        },
+        {
+          "type": "warning",
+          "label": "BBCA did not fill = paired-conditional automatic SKIP"
+        }
+      ],
+      "reasoning": "SKIP: paired-second only after BBCA fills; BBCA gate-blocked = BMRI auto-SKIP. Same IDR + Data Quality Gate FAIL cascade.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
     }
   ],
   "stats": {
@@ -9469,41 +9567,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-23T02:29:23Z",
-      "routine": "market-open",
-      "status": "success",
-      "summary": "BUY BBRI 220000sh @ 3260 (post-div re-entry; Q1 earnings Apr 29 catalyst). ITMG held (+3.74%). ANTM skipped (+3.5% above plan ceiling = chase). Research written inline (fallback).",
-      "actions": [
-        {
-          "type": "buy",
-          "ticker": "BBRI",
-          "detail": "220000sh @ 3260 (WebSearch override; yfinance blocked)"
-        },
-        {
-          "type": "stop",
-          "ticker": "BBRI",
-          "detail": "hard-cut @ 3031 (-7%)"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27300sh; stop 24250 hard-cut unchanged"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance down)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send blocked by host allowlist; fallback to stdout"
-        },
-        {
-          "type": "research",
-          "detail": "Pre-market fallback: 2026-04-23 entry written inline at market-open"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-23T04:34:10Z",
       "routine": "midday",
@@ -14166,6 +14229,36 @@
         {
           "type": "research",
           "detail": "Global tape constructive: Dow record 53,055; VIX 15.57"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-07T02:18:21Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. BBCA + BMRI both SKIP: Gate 9 FAIL (Data Quality Gate Day 72 cluster non-convergent canonical AND relaxed) + regime pre-condition FAIL (IDR Tue AM 17,987 piercing 17,950; 1-of-2 DE-ARM only). Book 100% cash.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Gate 9 FAIL cluster non-convergent + IDR pre-condition FAIL (17,987 piercing)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "paired-conditional auto-SKIP after BBCA gate-block; same data-quality + IDR failures"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 72 outage \u2014 yfinance + GoAPI blocked; broker.sh quote errors"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR-ESCALATION-ENGAGED overlay persists \u2014 partial DE-ARM 1-of-2 only from Mon Jul 6 close 17,945"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram outbound HTTP 403 blocked at proxy; notification stdout fallback"
         }
       ]
     }
