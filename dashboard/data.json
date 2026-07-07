@@ -838,6 +838,23 @@
       "trades_today": 1,
       "trades_this_week": 0,
       "note": "Week 12 Day 1 / KLBF hard-cut day / post-buyback-expiry T+2 cluster narrowing forecast realised. Sesi I ~11:35 WIB fresh multi-source cluster convergent \u22653-source \u22642%: Ajaib 745 / Investing 745 / Stockbit 745 (0.0% spread canonical PASS); Yahoo open 750 / TradingView 765 (5-source spread 2.7% relaxed PASS). Cluster mark 745 \u2264 hard-cut 878 AND \u2264 trailing 931 GTC \u2192 both auto-cut triggers concurrent. Broker fill stub 945 \u2192 PAPER-STATE.json corrected to safe-lower 745; realised loss \u2212103,800,000 (\u221221.16% from entry 945). Book now 100% cash IDR 9,716,207,500. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) SKIP on Gate 15 regime override \u2014 IDR-ESCALATION-ENGAGED (Fri sustained close 17,989 \u226517,950 = 5th consecutive session piercing = escalation threshold BREACHED). Mon IDR 17,935 open \u2192 17,954 tick (still piercing at midday). Cumulative alpha compression \u22121.23pp Fri +21.56% provisional \u2192 Mon +20.33% reconciled via KLBF true-up (carry-mark 1,035 \u2192 cluster 745); structural alpha falls below reconciled Day 50 +21.34% baseline for 1st time this leg. Drawdown from peak \u22123.10% (10,026,617,500 \u2192 9,716,207,500); daily loss cap \u22121.53% within \u22122%; weekly cap \u22121.53% within \u22125%; NO halt triggers. Trial hard-cut sequence complete this leg: BBRI/ITMG/ADRO/KLBF (4th total; 1st healthcare; no sector-exit consecutive-loss trigger fires for healthcare with n=1). Carry-over Tue: IDR gate remains binding until sub-17,950 sustained 2+ sessions Mon-Tue; BBCA/BMRI re-eligible only on IDR de-arm; Data Quality Gate Day 72 persists; defensive posture 100% cash maximally insulates further downside."
+    },
+    {
+      "date": "2026-07-07",
+      "day_label": "Day 57",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5943.53,
+      "ihsg_close_basis": "Tue Jul 7 sesi I provisional 5,943.53 (Kompas/Liputan6/Bloomberg Technoz/Stockwatch/RRI 5-source convergent; +27.46 pt +0.46% intraday; range 5,890.44\u20135,954.35); sesi II final Tue not multi-source convergent at 15:15 WIB filing; Wed EOD will reconcile if Tue sesi II final surfaces multi-source convergent overnight",
+      "ihsg_cumulative_pct": -22.14,
+      "alpha_pct": 19.31,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Week 12 Day 2 / post-KLBF hard-cut Day 1 / IDR partial DE-ARM 1-of-2 persists. Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) both SKIPPED at 09:15 WIB \u2014 Gate 9 FAIL (Data Quality Gate Day 72 cluster non-convergent: Google Finance Tue AM ~6,100 vs Investing/Yahoo Jul 2 stub ~5,800 = spread >5% canonical AND relaxed) + regime pre-condition FAIL (IDR Tue AM 17,987.4 piercing 17,950; only 1-of-2 DE-ARM from Mon Jul 6 close 17,945; escalation persists). broker.sh quote returned ERROR: _paper_quote cannot produce a price for both tickers (yfinance + GoAPI Day 72 outage; no held-position stubs). No P&L change: portfolio flat vs Mon; IHSG +1.34% Tue rebound continuation Day 3 (Wed +0.84% / Thu +0.87% / Fri sesi I +2.46% / Tue +1.34%) = 1:1 opportunity cost booked; cumulative alpha compression \u22121.02pp Mon +20.33% \u2192 Tue +19.31%; structural alpha now 2.03pp below reconciled Day 50 +21.34% baseline. Drawdown from peak \u22123.10% unchanged; daily P&L 0.00% within \u22122% cap; weekly \u22121.53% within \u22125% cap; NO halt triggers. IDR gate status Tue EOD requires Tue close + Wed pre-open to determine 2-of-2 DE-ARM confirmation. Carry-over Wed: pre-market 07:00 WIB reads Tue sesi II final + IDR close; BBCA/BMRI paired-conditional re-eligible only on IDR sub-17,950 sustained 2-of-2 AND cluster \u22653-source \u22644% relaxed; Data Quality Gate Day 73 continues to bind execution. 10th consecutive 0/3 BUY-slot week trajectory continues; Wk 12 slots 0/3 with Wed-Fri remaining."
     }
   ],
   "positions": [],
@@ -9535,8 +9552,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 56,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 56)",
+    "trial_days_elapsed": 57,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 57)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -9545,8 +9562,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -23.17,
-    "cumulative_alpha_pct": 20.33,
+    "ihsg_cumulative_pct": -22.14,
+    "cumulative_alpha_pct": 19.31,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -9554,8 +9571,8 @@
     "open": 0
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2-IDR-ESCALATION-ENGAGED",
-    "daily_pnl_pct": -1.53,
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2-IDR-ESCALATION-ENGAGED-PARTIAL-DE-ARM-1of2",
+    "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": -1.53,
     "current_equity": 9716207500,
     "peak_equity": 10026617500,
@@ -9567,26 +9584,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-23T08:15:00Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 4 EOD: IDR 10.027B (0.00% day). Alpha +0.69% vs IHSG today; cum. +2.15%. 2 positions open (ITMG +3.74%, BBRI 0.00%). Trades this week: 2/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 4 EOD snapshot committed"
-        },
-        {
-          "type": "mark-to-market",
-          "detail": "ITMG marked IDR 27,050; BBRI marked IDR 3,260 (WebSearch override; yfinance still down)"
-        },
-        {
-          "type": "reconcile",
-          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-23T08:33:05Z",
       "routine": "daily-summary",
@@ -14261,6 +14258,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 open positions. No cuts, no stop tightens, no thesis exits."
+    },
+    {
+      "timestamp": "2026-07-07T08:19:05Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 57 Wk12 Day2: IDR 9.716B (+0.00%). IHSG +1.34%. Alpha \u22121.34%. 0 positions, 100% cash, Wk12 trades 0/3. Cum alpha +19.31% (\u22121.02pp vs Mon). No halt.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 57 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14367,5 +14376,5 @@
       "10th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 2 \u2014 discipline holds; no forced trade under gate-fail state"
     ]
   },
-  "last_updated": "2026-07-07T07:00:00+07:00"
+  "last_updated": "2026-07-07T15:15:00+07:00"
 }
