@@ -855,6 +855,23 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Week 12 Day 2 / post-KLBF hard-cut Day 1 / IDR partial DE-ARM 1-of-2 persists. Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) both SKIPPED at 09:15 WIB \u2014 Gate 9 FAIL (Data Quality Gate Day 72 cluster non-convergent: Google Finance Tue AM ~6,100 vs Investing/Yahoo Jul 2 stub ~5,800 = spread >5% canonical AND relaxed) + regime pre-condition FAIL (IDR Tue AM 17,987.4 piercing 17,950; only 1-of-2 DE-ARM from Mon Jul 6 close 17,945; escalation persists). broker.sh quote returned ERROR: _paper_quote cannot produce a price for both tickers (yfinance + GoAPI Day 72 outage; no held-position stubs). No P&L change: portfolio flat vs Mon; IHSG +1.34% Tue rebound continuation Day 3 (Wed +0.84% / Thu +0.87% / Fri sesi I +2.46% / Tue +1.34%) = 1:1 opportunity cost booked; cumulative alpha compression \u22121.02pp Mon +20.33% \u2192 Tue +19.31%; structural alpha now 2.03pp below reconciled Day 50 +21.34% baseline. Drawdown from peak \u22123.10% unchanged; daily P&L 0.00% within \u22122% cap; weekly \u22121.53% within \u22125% cap; NO halt triggers. IDR gate status Tue EOD requires Tue close + Wed pre-open to determine 2-of-2 DE-ARM confirmation. Carry-over Wed: pre-market 07:00 WIB reads Tue sesi II final + IDR close; BBCA/BMRI paired-conditional re-eligible only on IDR sub-17,950 sustained 2-of-2 AND cluster \u22653-source \u22644% relaxed; Data Quality Gate Day 73 continues to bind execution. 10th consecutive 0/3 BUY-slot week trajectory continues; Wk 12 slots 0/3 with Wed-Fri remaining."
+    },
+    {
+      "date": "2026-07-08",
+      "day_label": "Day 58",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5920.15,
+      "ihsg_close_basis": "Wed Jul 8 sesi I provisional 5,920.15 (Kompas / Liputan6 / Tribunnews / RRI / Bloomberg Technoz / Mediaindonesia 6-source convergent; \u221266.34 pt \u22121.11% vs Tue sesi II reconciled 5,986.50; sesi I range 5,920\u20135,984); sesi II final Wed not multi-source convergent at 15:15 WIB filing; Thu EOD will reconcile if Wed sesi II final surfaces multi-source convergent overnight",
+      "ihsg_cumulative_pct": -22.45,
+      "alpha_pct": 19.61,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Week 12 Day 3 / post-KLBF hard-cut Day 2 / IDR-ESCALATION-ENGAGED DE-ARM 2-of-2 FAILED (4th consecutive session piercing 17,950). Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) both SKIPPED at 09:15 WIB \u2014 Gate 9 FAIL (chase +4.13% from planned 6,050 to Tue close 6,300 exceeds 3% chase cap; R:R 2:1 FAIL at cluster mark 0.68\u20131.02:1) + regime pre-condition FAIL (IDR Wed AM 17,980 piercing 17,950 = 4th consecutive session; DE-ARM 2-of-2 FAILED). No P&L change: portfolio flat Day 3; IHSG sesi I \u22121.11% correction near 6,000 psych rejection ends 3-session rebound Fri-Mon-Tue = 1st positive alpha day post-KLBF cut (+0.39% Wed vs \u22121.17% Mon / \u22121.34% Tue); cumulative alpha re-expansion +0.30pp Tue +19.31% \u2192 Wed +19.61%; structural alpha still 1.73pp below reconciled Day 50 +21.34% baseline. Drawdown from peak \u22123.10% unchanged; daily P&L 0.00% within \u22122% cap; weekly \u22121.53% within \u22125% cap; NO halt triggers. IDR gate status Wed EOD: sub-17,950 sesi I close needed to re-earn DE-ARM watch; not achieved at 15:15 WIB filing. Carry-over Thu: pre-market 07:00 WIB reads Wed sesi II final + IDR close + FOMC minutes Wed evening carry; BBCA/BMRI paired-conditional re-eligible only on IDR sub-17,950 sustained 2-of-2 AND cluster \u22653-source \u22644% relaxed AND chase within 3% of planned 6,050 (\u22646,232); Data Quality Gate Day 74 continues to bind execution. 10th consecutive 0/3 BUY-slot week trajectory continues; Wk 12 slots 0/3 with Thu-Fri remaining. Wed alpha inflection supports defensive-posture-value thesis."
     }
   ],
   "positions": [],
@@ -9683,54 +9700,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-04-24T08:35:39Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 5: IDR 9.977B (\u22120.49%). Alpha +1.00% vs IHSG. 2 positions open (ITMG +2.40%, BBRI \u22125.52%). Trades this week: 2/3. Cum alpha +3.12%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 5 / Week 1 close snapshot committed"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-04-27T02:29:24Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Week 2 Day 1 \u2014 regime EM-OUTFLOW intact; coal $129/t below $130 ITMG thesis floor; BBRI Q1 earnings T-2 (Wed Apr 29); ANTM HPM catalyst stale (T+12); INCO data unreliable (5,575 vs 6,800 spread). Held ITMG + BBRI; stops unchanged.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27,300sh @ 26,075; +3.74% unrealised; stop 24,250 (hard-cut); coal-floor watch"
-        },
-        {
-          "type": "hold",
-          "ticker": "BBRI",
-          "detail": "220,000sh @ 3,260; ~flat; stop 3,031 (hard-cut); Q1 earnings T-2"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "HPM catalyst stale; LME nickel range-bound; eagerness FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "WebSearch price data unreliable (5,575 vs 6,800)"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance blocked since Apr 21)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify HTTP 403 (host not in allowlist) \u2014 fell back to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-27T04:35:58Z",
       "routine": "midday",
       "status": "success",
@@ -14373,6 +14342,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (0 open, 100% cash). No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-07-08T08:20:07Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 58 (Wed Wk12 D3): IDR 9.72B flat (+0.00%). IHSG sesi I \u22120.39% \u2192 alpha +0.39% (1st positive-alpha day post-KLBF). Cum alpha +19.61%. 100% cash; 0 positions; 0/3 Wk12 buy slots. Drawdown \u22123.10%. IDR DE-ARM 2-of-2 FAILED (4th consec piercing 17,950).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 58 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14384,11 +14365,11 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY3-IDR-ESCALATION-ENGAGED-DE-ARM-FAILED",
-    "ihsg_close": 5986.5,
-    "ihsg_close_basis": "Tue Jul 7 sesi II final 5,986.50 (+70.43 / +1.19%) Day 3 continuation-rebound near 6,000 psych; 2-source convergent Bisnis/Investor Daily; revised from Tue sesi I 5,943.53 anchor per intraday continuation.",
-    "ihsg_cumulative_pct": -21.58,
-    "idr_usd": 17987.0,
-    "idr_status": "Tue Jul 7 17,987 open (+42.4 / +0.24%; range 17,950-18,053.8) = 3rd consecutive session piercing 17,950 kill-switch = DE-ARM 2-of-2 FAILED. Escalation-track qualifier persists; Wed sesi I close \u226417,950 required to re-earn DE-ARM watch; \u226518,000 sustained = Stage 4 BREACHED.",
+    "ihsg_close": 5920.15,
+    "ihsg_close_basis": "Wed Jul 8 sesi I provisional 5,920.15 (\u221266.34 pt \u22121.11% vs Tue sesi II reconciled 5,986.50); 6-source convergent Kompas/Liputan6/Tribunnews/RRI/Bloomberg Technoz/Mediaindonesia; sesi I range 5,920\u20135,984 = near-6,000 psych rejection ends 3-session rebound Fri-Mon-Tue; sesi II final Wed not multi-source convergent at 15:15 WIB filing.",
+    "ihsg_cumulative_pct": -22.45,
+    "idr_usd": 17980.0,
+    "idr_status": "Wed Jul 8 AM 17,980 piercing 17,950 = 4th consecutive session piercing 17,950 kill-switch = DE-ARM 2-of-2 FAILED persists. Escalation-track qualifier deepens; Thu sesi I close \u226417,950 required to re-earn DE-ARM watch; \u226518,000 sustained = Stage 4 BREACHED = pre-emptive de-risk-halt engages.",
     "coal_price": 127.5,
     "brent_usd": 72.94,
     "cpo_myr_t": 4541,
@@ -14447,5 +14428,5 @@
       "SKIP telco complex (spectrum auction end-Jul binary), CPO complex (MPOB Thu Jul 10 T+2), coal (sector EXITED), nickel (LME multi-mo low + supply headwind), property/construction/cement (rate-sensitive), tech (regulatory + US chip selloff carry)"
     ]
   },
-  "last_updated": "2026-07-08T07:00:00+07:00"
+  "last_updated": "2026-07-08T15:15:00+07:00"
 }
