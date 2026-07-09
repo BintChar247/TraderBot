@@ -872,6 +872,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Week 12 Day 3 / post-KLBF hard-cut Day 2 / IDR-ESCALATION-ENGAGED DE-ARM 2-of-2 FAILED (4th consecutive session piercing 17,950). Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Market-open BBCA (score 7 TOP) + BMRI (paired-conditional) both SKIPPED at 09:15 WIB \u2014 Gate 9 FAIL (chase +4.13% from planned 6,050 to Tue close 6,300 exceeds 3% chase cap; R:R 2:1 FAIL at cluster mark 0.68\u20131.02:1) + regime pre-condition FAIL (IDR Wed AM 17,980 piercing 17,950 = 4th consecutive session; DE-ARM 2-of-2 FAILED). No P&L change: portfolio flat Day 3; IHSG sesi I \u22121.11% correction near 6,000 psych rejection ends 3-session rebound Fri-Mon-Tue = 1st positive alpha day post-KLBF cut (+0.39% Wed vs \u22121.17% Mon / \u22121.34% Tue); cumulative alpha re-expansion +0.30pp Tue +19.31% \u2192 Wed +19.61%; structural alpha still 1.73pp below reconciled Day 50 +21.34% baseline. Drawdown from peak \u22123.10% unchanged; daily P&L 0.00% within \u22122% cap; weekly \u22121.53% within \u22125% cap; NO halt triggers. IDR gate status Wed EOD: sub-17,950 sesi I close needed to re-earn DE-ARM watch; not achieved at 15:15 WIB filing. Carry-over Thu: pre-market 07:00 WIB reads Wed sesi II final + IDR close + FOMC minutes Wed evening carry; BBCA/BMRI paired-conditional re-eligible only on IDR sub-17,950 sustained 2-of-2 AND cluster \u22653-source \u22644% relaxed AND chase within 3% of planned 6,050 (\u22646,232); Data Quality Gate Day 74 continues to bind execution. 10th consecutive 0/3 BUY-slot week trajectory continues; Wk 12 slots 0/3 with Thu-Fri remaining. Wed alpha inflection supports defensive-posture-value thesis."
+    },
+    {
+      "date": "2026-07-09",
+      "day_label": "Day 59",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5885.69,
+      "ihsg_cumulative_pct": -22.9,
+      "alpha_pct": 20.06,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -9896,42 +9911,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-04-28T02:26:01Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 4 candidates (ANTM, INCO, BBRI add-on, ITMG add-on) SKIPPED. Eagerness check FAIL; BBRI Q1 binary T-1; HOLD ITMG + BBRI.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "Gate 5 catalyst freshness (HPM T+13 stale)"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "Gate 9 chase / data integrity (price spread unresolved)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "Discipline (T-1 Q1 earnings + Fitch downgrade)"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG",
-          "detail": "Single-day coal recovery insufficient for add-on"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed (403 host not in allowlist)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-28T04:35:56Z",
       "routine": "midday",
       "status": "success",
@@ -14606,6 +14585,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (100% cash IDR 9.716B). No cuts, no tightens, no thesis exits. Wk 12 Day 4."
+    },
+    {
+      "timestamp": "2026-07-09T08:18:53Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-07-09 (Day 59, Wk 12 Day 4): IDR 9.72B (0.00% today). Alpha +0.58% vs IHSG. 0 positions (100% cash Day 3 post-KLBF cut). Trades this week: 0/3. IDR Stage 4 BREACHED persists (Wed 18,006 / Thu ~18,079); Data Quality Gate Day 74 outage. Cum. alpha +20.06%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 59 EOD snapshot committed; RISK-STATE updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14728,5 +14719,5 @@
       "Data Quality Gate Day 74 outage persistent (yfinance + GoAPI 403-blocked)"
     ]
   },
-  "last_updated": "2026-07-09T07:00:00+07:00"
+  "last_updated": "2026-07-09T15:15:00+07:00"
 }
