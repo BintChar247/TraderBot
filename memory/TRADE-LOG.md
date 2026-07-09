@@ -7575,3 +7575,55 @@ Wed Jul 8 sesi I provisional 5,920.15 (Kompas / Liputan6 / Tribunnews / RRI / Bl
 
 ---
 
+
+### 2026-07-09 09:15 WIB — MARKET-OPEN (Week 12 Day 4)
+
+**Action: NO TRADES PLACED. Book remains 100% cash IDR 9,716,207,500. 11th consecutive 0/3 BUY-slot week trajectory.**
+
+**Candidates evaluated per RESEARCH-LOG 2026-07-09 plan:**
+
+1. **BBCA (score 8)** — Strongest bank-cluster signal Wk 12: 5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed Jul 8 (idiosyncratic-preference tape).
+   - **Result: SKIP.**
+   - Regime pre-condition gate FAIL: **IDR Stage 4 BREACHED persists** — Wed Jul 8 close 18,006 = 1st sustained close ≥18,000 in 4-stage escalation ladder; Thu Jul 9 intraday reads ~17,987–18,000 range = still piercing 17,950; NO sub-17,950 sustained close achieved. Pre-emptive de-risk-halt engagement gate TRIGGERED = 0% new entries binding regardless of ticker fundamentals.
+   - `broker.sh quote BBCA` returned `ERROR: _paper_quote cannot produce a price` (Data Quality Gate Day 74 outage; yfinance + GoAPI blocked).
+   - Per research plan primary action: HOLD 100% CASH.
+
+2. **BMRI (score 6)** — Paired-second bank-cluster reversal (SOE-adjacent Danantara overhang).
+   - **Result: SKIP.**
+   - Paired-conditional VOID: BBCA no-fill = automatic BMRI SKIP.
+   - Independently blocked by IDR Stage 4 BREACHED regime pre-condition gate FAIL.
+   - Paired-inflection thesis further weakened by BMRI Rp 178.5B recent net foreign sell divergence vs BBCA-solo net-buy Rp 201.8B Wed.
+
+**Gate summary (BBCA and BMRI both):**
+- Gate 1 (positions ≤6): PASS (0 → 0)
+- Gate 2 (trades/week ≤3): PASS (0/3 Wk 12 buys)
+- Gate 3 (≤20% equity per position): PASS (would-be 5% cap = 486M IDR BBCA / 292–389M BMRI)
+- Gate 4 (cost ≤ cash): PASS (cash 9,716M)
+- Gate 5 (catalyst documented): PASS (RESEARCH-LOG 2026-07-09 entry)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV >500k): PASS (BBCA ~130M, BMRI ~60M)
+- Gate 8 (lot multiple of 100): PASS
+- **Gate 9 (price within 3% of planned): FAIL — cluster non-convergent under Data Quality Gate Day 74 outage; broker.sh quote errors on un-held tickers**
+- **Regime pre-condition (IDR sub-17,950 sustained 2-of-2 DE-ARM): FAIL — Wed close 18,006 = Stage 4 BREACHED; Thu intraday still piercing; pre-emptive de-risk-halt engagement gate TRIGGERED**
+
+**Portfolio state at 09:15 WIB market-open:**
+- Equity: IDR 9,716,207,500 (100.00% cash)
+- Open positions: 0
+- Trades this week (Wk 12): 0 BUYs (1 SELL Mon Jul 6 KLBF hard-cut, not a discretionary slot)
+- Wk 12 slot allocation: 0/3 used → 3 remaining Thu-Fri window (last chance Fri Jul 10 before weekly-review formalisation)
+- Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY4 + IDR-ESCALATION-STAGE-4-BREACHED overlay
+- Cumulative alpha: +19.61% (Wed baseline; expansion +0.30pp Tue → Wed via IHSG sesi I −1.11% correction with portfolio flat)
+
+**Next re-eligibility gate:**
+- Requires IDR sub-17,950 sustained close 2-of-2 sessions AND fresh cluster convergence ≥3-source ≤4% relaxed at ≤6,000 (BBCA) / ≤4,000 (BMRI).
+- Stage 5 escalation risk: any sustained close ≥18,050 = crisis-track engages (currently at ~18,000 boundary; Thu intraday still piercing 17,950).
+- Otherwise IDR-ESCALATION-STAGE-4-BREACHED persists into Fri Jul 10 pre-market + weekly-review.
+
+**Notes:**
+- Price source: broker.sh quote unavailable (Data Quality Gate Day 74 outage — yfinance + GoAPI 403-blocked, 74 consecutive sessions since Apr 21); WebSearch used only for IDR gate check (~17,987 Thu intraday cluster range) — no candidate cluster override attempted because regime pre-condition IDR gate already fails independently.
+- No RESEARCH-LOG addendum required — today's plan explicitly forecast SKIP under IDR Stage 4 BREACHED gate binding.
+- Notification path: scripts/notify.sh no-trade summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **11th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 4:** if Fri also blocks, 11th-consecutive 0/3 formalises at Fri weekly-review + eligibility for strategy-level pattern codification (per Wk 11 process change explicit re-eval trigger).
+- **Structural overhang added Wed Jul 8:** S&P DJI 2027 Country Classification Watchlist = fresh criterion (e) NEGATIVE-LOCKED-DEEPENED (dual-index-accessibility overhang: MSCI Info-Flow + Nov 2026 Frontier-downgrade consultation + NEW S&P DJI 2027 watchlist).
+
+---

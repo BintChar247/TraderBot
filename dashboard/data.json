@@ -9762,6 +9762,104 @@
         false,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed = strongest bank-cluster signal Wk 12; execution BLOCKED by IDR Stage 4 BREACHED pre-emptive de-risk-halt engagement.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "5-session paired-inflection + BBCA foreign net BUY Rp 201.8B Wed Jul 8"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY4 + IDR-ESCALATION-STAGE-4-BREACHED overlay (Wed close 18,006; Thu intraday ~17,987 still piercing 17,950)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 CONDITIONAL \u2014 IDR pre-emptive de-risk-halt engagement gate TRIGGERED; sub-17,950 sustained close NOT achieved Thu; blocks all new-entry gate paths"
+        },
+        {
+          "type": "sizing",
+          "label": "Regime cap 5% + Stage 4 BREACHED = 0% new entries binding (would-be 486M IDR at 6,050 = 80,300 sh)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 74 outage \u2014 WebSearch multi-source path sole verification"
+        }
+      ],
+      "reasoning": "Primary bank-cluster inflection candidate for Wk 12 Day 4 remains blocked by IDR Stage 4 BREACHED pre-emptive de-risk-halt engagement (Wed close 18,006; Thu intraday still piercing 17,950). Cannot proceed with new entry regardless of ticker fundamentals until IDR sub-17,950 sustained 2-of-2 sessions.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired-second on bank-cluster reversal; conditional on BBCA fill AND IDR de-escalation; both blocked Thu.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Paired-conditional bank-cluster reversal (dependent on BBCA fill first)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY4 + IDR-ESCALATION-STAGE-4-BREACHED overlay"
+        },
+        {
+          "type": "risk",
+          "label": "BBCA no-fill = paired-second VOID; also IDR Stage 4 BREACHED blocks independently; also BMRI Rp 178.5B net foreign sell recent = paired-inflection thesis weaker than BBCA-solo"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 3-4% cap = 292-389M IDR at 3,970; halted by regime + IDR gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 74 outage \u2014 WebSearch multi-source path sole verification"
+        }
+      ],
+      "reasoning": "Paired-conditional bank-cluster second entry VOID by BBCA no-fill; independently BLOCKED by IDR Stage 4 BREACHED pre-emptive de-risk-halt engagement gate. Also weakened thesis vs Wk 11 by BMRI Rp 178.5B recent net foreign sell divergence from BBCA solo net-buy inflection.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -9797,12 +9895,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-27T04:35:58Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts, no stop tightenings. ITMG +2.88%, BBRI -5.52% (T-2 to Q1)."
-    },
     {
       "timestamp": "2026-04-27T08:37:25Z",
       "routine": "daily-summary",
@@ -14488,6 +14580,36 @@
         {
           "type": "macro",
           "detail": "S&P DJI 2027 Country Classification Watchlist added Wed = dual-index-accessibility overhang"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-09T02:19:13Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 12 Day 4. IDR Stage 4 BREACHED (Wed close 18,006; Thu ~17,987 still piercing 17,950) = pre-emptive de-risk-halt engagement gate TRIGGERED. BBCA (score 8) + BMRI (score 6) both SKIP on regime pre-condition + Data Quality Gate Day 74 outage. Book 100% cash IDR 9,716M. 11th consecutive 0/3 BUY-slot week trajectory.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Regime pre-condition FAIL: IDR Stage 4 BREACHED; would-be 5% cap ~486M IDR"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Paired-second VOID (BBCA no-fill) + IDR Stage 4 BREACHED"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 74 outage (yfinance + GoAPI 403-blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Stage 4 BREACHED persists; pre-emptive de-risk-halt engagement gate TRIGGERED"
+        },
+        {
+          "type": "warning",
+          "detail": "11th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 4"
         }
       ]
     }
