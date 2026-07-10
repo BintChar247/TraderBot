@@ -14404,3 +14404,235 @@ Score each 1–10. Prices are Fri Jul 3 close best-source where surfaced; **~est
 - [ ] **11th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 4:** if Thu-Fri both block, 11th-consecutive 0/3 formalises at Fri Jul 10 weekly-review + eligibility for strategy-level pattern codification.
 
 ---
+
+## 2026-07-10 (Friday — Wk 12 Day 5, LAST DAY OF WEEK; weekly-review scheduled 16:00 WIB)
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,543.64 | +0.81% | Chip rally; renewed AI optimism offset Iran war concerns; oil slid |
+| Nasdaq | 26,206.89 | +1.30% | Semiconductor leadership; SK Hynix IPO priced Fri |
+| Dow Jones | 52,487.41 | +0.27% (+139pt) | Modest rebound |
+| Shanghai Composite | 4,036.59 | +1.65% | Broad Asia risk-on Thu |
+| Hang Seng | 23,541.22 | +0.19% | Marginal green |
+| Nikkei 225 | 68,042.75 | +1.83% | Semi-conductor + BOJ stability tailwind |
+| VIX | ~15-17 | flat | Sub-20 = global vol calm; complacency risk |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 5,885.69 (Thu sesi I anchor) | +0.21% intraday sesi I | Thu sesi II final not multi-source convergent overnight; Fri sesi I pending open |
+| **IDR/USD** | **18,103.90 (Jul 9)** | **+0.14% vs Wed 18,006** | **🚨 STAGE 5 THRESHOLD PIERCED (>18,050) = crisis-track engagement gate ARMED; 2nd consecutive sustained ≥18,000 close = Stage 4 CONFIRMED-HARD-ENGAGED** |
+| Indo 10Y SUN yield | ~7.14% | flat | Highest since Apr 2025; bond stabilisation fund launched |
+| US 10Y yield | ~4.30–4.35% | flat | Fed hawkish minutes carry |
+| Indo-US spread | ~280bp | flat | Wide EM premium persists |
+| Newcastle coal (USD/ton) | 127.50 → falling <130 | −1.9% | Below Iran-conflict "high" floor; return to pre-Mideast levels on Hormuz peace re-optimism |
+| CPO palm oil (MYR/ton) | 4,541–4,569 | ~flat | Above 4,500 support; MPOB monthly report LIVE today T+0 = BINARY |
+| LME nickel (USD/ton) | 16,300 | −0.6% | Multi-month low; Indo quota 260→360M tonnes reversal = supply overhang deepens |
+| Brent crude (USD/bbl) | 76.97 (Jul 9 close) | −1.35% | Some intraday prints $78-79; range-bound sub-$80 |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell Wed Jul 8 | −710.14M shares net sell (IDNFinancials) | Improved from Tue Jul 7 −1.04B shares |
+| Foreign flow streak | ~5 consecutive net-sell sessions post-Fri Jul 3 flip (Fri +312.37M net buy = single-session flip) | Structural outflow YTD ~Rp 61.3T ($3.36B) — [url](https://jakartaglobe.id/business/sell-indonesia-sentiment-pushes-foreign-outflows-past-33-billion) |
+| Top disposal names Wed | BBRI (5th consec strike-1), MAPI, TPIA, EMAS, ISAT | BBCA still ABSENT from top-sell list = paired-inflection persists |
+| Top BUY names Wed | BBCA Rp 201.8B net BUY (single-name idiosyncratic exception) | Broader tape re-accelerating sell |
+| BI FX reserves (end-Jun 2026) | $145.6B | +$0.7B M/M from May $144.9B; ~5.4 mo imports; BI intervention active |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | **BBCA-solo inflection maintained Day 5+ — Tue Jul 7 saw broader bank rally BBCA +2.86% to 6,300, BBNI +5.79% to 3,470, BBRI +2.51% to 2,860, BMRI +0.99% to 4,070**; BEI weight re-eval effective Jul 1 = BBCA weight to 9% (from 9.53%); Jan-May Big-4 aggregate net profit +9% YoY (Mandiri +19%, BRI +10%, BNI +7%, BCA +2%) — [url](https://katadata.co.id/finansial/bursa/6a3cd5647625b/bei-turunkan-bobot-saham-bbca-bbri-ke-ihsg-bagaimana-nasib-bbni-bmri) | NIM headwind BI 5.75%; IDR crisis-track binding | BBCA (candidate blocked); BMRI (paired blocked); BBNI catalyst-track post +5.79% Tue |
+| Coal / Energy | HBA July-1 up 2.15% to $126.58/t; but Newcastle Iran-conflict-tailwind unwound to <$130 sustained; Jan-Apr coal export value −7.27% YoY = producers earnings-pressure | Newcastle sub-$130; China demand ambiguous | ADRO/ITMG/PTBA/BUMI/HRUM — SKIP (sector EXIT rule binding) |
+| Nickel / Mining | **Weakening — LME $16,300 multi-month low; Indonesia raising 2026 quota to 360M tonnes (from ~260M) = MAJOR supply-side deterioration** — [url](https://tradingeconomics.com/commodity/nickel) | Supply glut dominant | ANTM/INCO/MDKA/NCKL/MBMA — SKIP/WATCH-defer |
+| CPO / Agri | MPOB monthly report T+0 TODAY = BINARY overhang; B50 biodiesel launch Jul 1 delivered but Data Quality Gate FAIL persists | CPO 4,541 support | LSIP/AALI — SKIP into MPOB binary |
+| Property | Weak — rate-sensitive + BI 5.75% + Indo 10Y 7.14% highest since Apr 2025 | Rates dominate | BSDE/CTRA/SMRA/PWON — SKIP |
+| Consumer staples | Foreign outflows YTD: ICBP −Rp 962B, CMRY −Rp 513B, UNVR −Rp 431B, MYOR −Rp 367B, SIDO −Rp 201B; INDF ONLY net buy +Rp 58B YTD — [url](https://market.bisnis.com/read/20260705/189/1985652/daya-tarik-saham-konsumer-kala-asing-rebalancing-lepas-icbp-hingga-myor) | Global rebalancing + MSCI SC removals compounding | UNVR/ICBP/INDF/MYOR — WATCH; INDF sole net-inflow curiosity |
+| Telco | **Spectrum auction Jul 7 CONCLUDED — TLKM/EXCL/ISAT registered; winners late-July; industry EBITDA hit −1.9%/−4.4% in 2026F/27F, net profit −4.5%/−9.1%; TLKM best-positioned, EXCL most exposed** — [url](https://katadata.co.id/finansial/bursa/69fc4d59a627f/prospek-saham-tlkm-excl-isat-saat-lelang-frekuensi-komdigi-siapa-akan-menang) | BINARY resolution pending | TLKM/EXCL/ISAT/MTEL/TOWR — SKIP into outcome |
+| Infrastructure/Construction | Weak — rate-sensitive + SOE headwind + IDR Stage 5 threshold | JSMR/WSKT/PTPP/ADHI — SKIP |
+| Healthcare | KLBF EXITED Mon Jul 6 hard-cut −21.16%; MIKA still MSCI Info-Flow overhang | Sector 1st cut (not 2-consec rule) | MIKA — WATCH; KLBF cool-down Day 4 |
+| Tech | GOTO regulatory driver-commission-cut; BUKA fintech OJK POJK 30/2025 overhang; EMTK weak | Regulatory pressure | GOTO/BUKA/EMTK — SKIP |
+
+### Corporate Calendar Today (Fri Jul 10 + rolling)
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **MPOB monthly report** | LSIP/AALI (CPO complex) | **Today T+0** | BINARY — both SKIP into outcome |
+| Weekly-review (internal) | Portfolio-wide | **16:00 WIB Fri** | Wk 12 letter grade + 10th-consec 0/3 formalisation + IDR Stage 4/5 codification + KLBF post-mortem consolidation |
+| Komdigi spectrum auction result | TLKM/EXCL/ISAT | Pending late-July | BINARY — all telco SKIP |
+| BRI buyback Rp 500B running | BBRI | Through Sep 11 2026 | Structural bid but strike-1 sentiment dominates |
+| BI RDG next monetary decision | Sector-wide | Aug 14 (T+35) | Distant; but IDR Stage 5 may force off-cycle intervention |
+| AKRA next earnings | AKRA | Jul 27 (T+17) | Q2 2026 print; Brent range-bound = distribution margin neutral |
+
+### Watchlist Scan — All 50 Tickers
+
+**Data Quality Gate Day 75 outage persists** (yfinance + GoAPI 403-blocked); WebSearch multi-source cluster is sole verification path. Prices below are best cluster reads from Tue Jul 7 fresh session + Wed Jul 8 (where surfaced).
+
+| # | Ticker | Sector | Price (IDR, cluster) | Day% (est) | Score | Key Catalyst / Note | Status |
+|---|--------|--------|----------------------|------------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,300 (Tue Jul 7 close) → 6,125 (Wed Jul 8) | +2.86% Tue / −2.78% Wed | **7** | 5-session paired-inflection persists + net foreign BUY Rp 201.8B Wed; but IDR Stage 5 threshold pierced Jul 9 = pre-emptive de-risk-halt escalation | CANDIDATE (BLOCKED by IDR Stage 5 crisis-track engagement) |
+| 2 | BBRI | Banking | 2,860 (Tue Jul 7 close) | +2.51% Tue | 3 | 5th consecutive top-disposal Wed; strike-1 binding | SKIP |
+| 3 | BMRI | Banking | 4,070 (Tue Jul 7 close) → 3,970 Wed | +0.99% Tue | **6** | Paired-conditional with BBCA; SOE-Danantara overhang; net-sell recent | CANDIDATE (paired-second, blocked) |
+| 4 | BBNI | Banking | 3,470 (Tue Jul 7 close) | +5.79% Tue | 5 | Weight +4bp per BEI re-eval Jul 1 = mildest bank rebalance impact; Big-4 net profit +7% YoY | WATCH-elevated |
+| 5 | BNGA | Banking | n/a | n/a | 3 | Mid-cap illiquid | SKIP |
+| 6 | NISP | Banking | n/a | n/a | 3 | Mid-cap; low ADV | SKIP |
+| 7 | BBTN | Banking | n/a | n/a | 3 | Mortgage-heavy = rate-sensitive negative | SKIP |
+| 8 | ADRO | Coal | n/a | n/a | 2 | Sector EXITED; Newcastle <$130 | SKIP |
+| 9 | ITMG | Coal | n/a | n/a | 2 | Sector EXITED | SKIP |
+| 10 | PTBA | Coal | n/a | n/a | 2 | Sector EXITED; Jan-Apr export −7.27% YoY earnings pressure | SKIP |
+| 11 | BUMI | Coal | n/a | n/a | 2 | Sector EXITED; diversification into tungsten Qld mine positive but not near-term | SKIP |
+| 12 | HRUM | Coal | n/a | n/a | 2 | Sector EXITED | SKIP |
+| 13 | MEDC | Energy | n/a | n/a | 3 | Brent range-bound sub-$80; sector-EXIT bleeds carry | WATCH |
+| 14 | PGAS | Gas/Energy | n/a | n/a | 4 | Defensive utility; Data Quality FAIL 7+ weeks; Abadi LNG HoA unrealised | WATCH |
+| 15 | ANTM | Nickel | n/a | n/a | 3 | LME multi-mo low + Indo quota expansion supply glut; MSCI SC contamination | SKIP |
+| 16 | INCO | Nickel | n/a | n/a | 3 | Nickel supply headwind; quota reversal | SKIP |
+| 17 | MDKA | Nickel | n/a | n/a | 2 | Post-RUPSLB private placement 10% dilution structural headwind | SKIP |
+| 18 | NCKL | Nickel | n/a | n/a | 3 | Supply overhang | SKIP |
+| 19 | MBMA | Nickel | n/a | n/a | 3 | Supply glut; weak momentum | SKIP |
+| 20 | TINS | Tin | n/a | n/a | 3 | Metals weakness | SKIP |
+| 21 | UNVR | Consumer | n/a | n/a | 4 | −Rp 431B YTD foreign outflow; MSCI SC compounding; Brent CPI-relief partial | WATCH-defer |
+| 22 | ICBP | Consumer | n/a | n/a | 4 | −Rp 962B YTD foreign outflow = LARGEST consumer outflow YTD; FMCG carry | WATCH |
+| 23 | INDF | Consumer | n/a | n/a | **5** | **ONLY consumer name with net foreign INFLOW YTD +Rp 58B — idiosyncratic-preference tape sub-thesis emerging vs sector outflow pattern** | WATCH-elevated |
+| 24 | MYOR | Consumer | n/a | n/a | 4 | −Rp 367B YTD outflow | WATCH |
+| 25 | SIDO | Consumer | n/a | n/a | 3 | −Rp 201B YTD outflow; MSCI SC removed | SKIP |
+| 26 | TLKM | Telco | n/a | n/a | 3 | Spectrum auction Jul 7 concluded; winners late-Jul; best-positioned to absorb costs | SKIP into outcome |
+| 27 | EXCL | Telco | n/a | n/a | 2 | Most exposed to spectrum auction cost per analyst | SKIP |
+| 28 | ISAT | Telco | n/a | n/a | 3 | Wed top-disposal single-session | SKIP |
+| 29 | MTEL | Telco/Tower | n/a | n/a | 3 | Downstream carrier CAPEX | SKIP |
+| 30 | TOWR | Telco/Tower | n/a | n/a | 3 | Same | SKIP |
+| 31 | BSDE | Property | n/a | n/a | 3 | Rate-sensitive; BI 5.75% + Indo 10Y 7.14% | SKIP |
+| 32 | CTRA | Property | n/a | n/a | 3 | Rate-sensitive | SKIP |
+| 33 | SMRA | Property | n/a | n/a | 3 | Rate-sensitive | SKIP |
+| 34 | PWON | Property | n/a | n/a | 3 | Rate-sensitive; −25% YTD | SKIP |
+| 35 | GOTO | Tech | n/a | n/a | 3 | Regulatory driver-commission-cut binding | SKIP |
+| 36 | BUKA | Tech | n/a | n/a | 3 | OJK POJK 30/2025 fintech overhang | SKIP |
+| 37 | EMTK | Tech/Media | n/a | n/a | 3 | Weak momentum | SKIP |
+| 38 | ASII | Auto/Industrial | 4,780 (Jun 24 ref) | +2.14% Jun 24 | 4 | Rp 8T buyback partial-support; stale price ref | WATCH |
+| 39 | UNTR | Heavy Equipment | 23,625 (Jul 3 ref) | +3.62% Jul 3 | 3 | Rp 2T buyback; Newcastle sub-$130 mining CAPEX headwind | WATCH |
+| 40 | AKRA | Distribution | n/a | n/a | 5 | Q2 print Jul 27 T+17; MNC Sekuritas top pick recent; Brent range-bound = distribution margin neutral | WATCH-elevated |
+| 41 | AALI | Plantation | n/a | n/a | 3 | MPOB TODAY T+0 binary; MSCI SC contamination | SKIP into binary |
+| 42 | LSIP | Plantation | n/a | n/a | 3 | MPOB TODAY T+0 binary; falling-knife pattern Wk 11 | SKIP into binary |
+| 43 | JSMR | Infrastructure | n/a | n/a | 3 | Toll ops rate-neutral; SOE headwind | SKIP |
+| 44 | WSKT | Construction | n/a | n/a | 2 | SOE construction leverage stress | SKIP |
+| 45 | PTPP | Construction | n/a | n/a | 2 | Same | SKIP |
+| 46 | ADHI | Construction | n/a | n/a | 2 | Same | SKIP |
+| 47 | KLBF | Healthcare | Closed Mon Jul 6 at safe-lower 745 | n/a | n/a | Post-hard-cut cool-down Day 4; not eligible Wk 12 | CLOSED |
+| 48 | MIKA | Healthcare | n/a | n/a | 3 | MSCI Info-Flow overhang; defensive stripe but binary risk | WATCH |
+| 49 | SMGR | Cement | n/a | n/a | 2 | Rate-sensitive + BI HIKE headwind | SKIP |
+| 50 | INTP | Cement | n/a | n/a | 2 | Same | SKIP |
+
+**Scan summary:**
+- Candidates ≥6: **BBCA (7)** — SCORE DOWN from Thu 8 → 7 on IDR Stage 5 threshold piercing Jul 9 at 18,103.90 (escalation-track intensified); **BMRI (6)** — paired-conditional unchanged
+- WATCH-relevant (score 4–5): BBNI (5), INDF (5), AKRA (5), UNVR (4), ICBP (4), MYOR (4), MEDC (3-4), PGAS (4), ASII (4)
+- SKIP: remainder (35 tickers)
+- **Defensive Quality track secondary check:** BBCA at score 7 catalyst-track sizing binding (5% regime cap); no standalone Defensive-track ticker qualifies with numeric 10Y P/E-mean-and-σ available (Data Quality Gate outage extends to fundamental-history); no fabrication.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+#### 1. BBCA — 5-session paired-inflection persists; BLOCKED by IDR Stage 5 threshold piercing Jul 9
+
+**Fundamental case:**
+- Thesis: BBCA is Indonesia's dominant retail-savings franchise. Tue Jul 7 tape rallied +2.86% to Rp 6,300 as banks led the sesi I +0.41% IHSG rebound; NIM headwind from BI 5.75% priced in. — [url](https://beritamoneter.com/diungkit-saham-bbca-bbri-bbni-bmri-cuan-dan-tpia-ihsg-naik-12-ke-5-986497/)
+- Thesis: 5-session paired-inflection maintained (BBCA absent from top-sell Wed; Wed net-BUY Rp 201.8B against market-wide −Rp 456.6B). But IDR Jul 9 close 18,103.90 = **pierced Stage 5 threshold ≥18,050 sustained close = crisis-track engagement gate ARMED per regime rules; 2nd consecutive sustained ≥18,000 = Stage 4 CONFIRMED-HARD-ENGAGED**. Pre-emptive de-risk-halt operational for new entries regardless of ticker fundamentals.
+  - [url](https://money.kompas.com/read/2026/07/08/083100026/asing-lepas-saham-rp-89-triliun-sepanjang-2026-akankah-ihsg-bangkit-)
+- Valuation: cluster Wed close 6,125 → Tue 6,300 (session-specific volatility ~2.8%). Analyst 12-mo target ~IDR 8,428 implies +34–37% upside; BCA net profit +2% YoY Jan-May (softest of Big-4).
+- Catalyst: near-term (Fri Jul 10): (i) MPOB CPO monthly binary today; (ii) IDR sustained ≥18,000 second-consecutive session gate check; (iii) IHSG 5,900 psychological hold test.
+- Analyst view: Overweight consensus; Mirae/Sinarmas rec.
+- Insider activity: No recent transactions surfaced.
+
+**Technical context:**
+- Price: Tue 6,300 / Wed 6,125 / Thu sesi I likely 6,100–6,200 range (multi-source not converged overnight).
+- Volume: Wed elevated on foreign net-buy Rp 201.8B.
+- Support: 5,550 (Wk 11 falling-knife low); 5,800 psych. Resistance: 6,300 near-term / 6,500 mid-term.
+- Trend: rebound-carry active but IDR macro trumps.
+
+**Trade plan:**
+- Entry: IDR 6,000–6,150 IF (i) IDR Fri sesi I sustained close <17,950 (currently 18,103 = 150bps ABOVE Stage 5 threshold), (ii) fresh cluster ≥3-source ≤2% canonical, (iii) R:R ≥2:1 at cluster mark, (iv) IHSG holds ≥5,900
+- Hard-cut: entry × 0.93 = ~5,580–5,720 | Target: 6,750–7,000 (+10–14% upside)
+- R:R ratio: hard-cut ~7% vs upside ~10–14% = **R:R 1.4:1 to 2.0:1 = MARGINAL 2:1 R:R gate**; requires entry ≤6,050 OR upside ≥7,000 confirmed
+- Position size: 5% of equity regime-cap × 9,716M = ~486M IDR; at 6,050 = 80,300 shares; **overridden by pre-emptive de-risk-halt STAGE 5 = NO ENTRY POSSIBLE Fri**
+- Conviction: **LOW-MEDIUM** (paired-inflection persists but IDR Stage 5 macro shock overwhelms; never HIGH per DEFENSIVE regime + Data Quality Gate outage Day 75 + IDR Stage 5 threshold piercing + R:R 2:1 marginal)
+- ADV: ~130,000,000; gate not binding
+- **CONDITIONAL ENTRY at /market-open Fri Jul 10 ONLY IF ALL FOUR CLEAR:** (i) IDR Fri sesi I sustained close ≤17,950 (dramatic BI intervention required; currently 150bps ABOVE Stage 5 threshold), (ii) BBCA cluster ≥3 fresh sources ≤2% canonical achievable at ≤6,050, (iii) IHSG holds ≥5,900 at open, (iv) R:R ≥2:1 at fresh cluster mark
+- **Pre-mortem:** BBCA breach 5,800 = falling-knife re-active → thesis broken; OR IDR pierces sustained close ≥18,150 = Stage 5 CONFIRMED-HARD-ENGAGED forced-close protocol; OR foreign flow BBCA reappears in top net-sell list ANY single session = paired inflection broken; OR Fri IHSG breaks 5,850 = rebound continuation broken
+- **Intermediate pain:** −4% (6,050 × 0.96 = 5,808) = REASSESS IMMEDIATELY; EXIT if IHSG cascade re-activates OR BBCA foreign net-sell re-appears OR IDR pierces ≥18,150
+- **PRIMARY CANDIDATE for Fri Jul 10 /market-open BLOCKED by IDR Stage 5 threshold piercing (18,103 = escalation-track engagement gate ARMED).** As of pre-market filing: highest-probability action is **CONTINUED SKIP** — 10th-consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review.
+
+#### 2. BMRI — Paired-second (conditional on BBCA fill AND blocked by IDR Stage 5)
+
+**Fundamental case:**
+- Thesis: BMRI = SOE-bank complement to BBCA. BEI weight re-eval Jul 1 delivered +24bp passive-inflow structural tailwind. Mandiri Jan-May net profit +19% YoY = LEADING Big-4 growth. — [url](https://ifcnews.id/news/bmri-bbri-bbca-bbni-bagi-dividen-jumbo-mana-paling-menarik-untuk-dividend-hunter-6a1858d9e8003c13ec466bc4)
+- Thesis: Paired-conditional — bank-cluster inflection typically drives BBCA first, BMRI follows. Wk 12 BBCA-solo signal remains (BMRI net-sell Rp 178.5B recent; not paired same-direction yet). Tue Jul 7 BMRI +0.99% underperformed BBCA/BBNI in bank rally = paired-thesis WEAKER than BBCA-solo case.
+- Valuation: Tue 4,070 / Wed 3,970; cluster convergence not multi-source fresh Thu.
+- Catalyst: same as BBCA sector inflection; Danantara SOE-adjacent overhang persistent.
+- Analyst view: Overweight; Verdhana/Mirae positive.
+- Insider activity: none surfaced.
+
+**Technical context:**
+- Price: Tue 4,070 / Wed 3,970.
+- Support: 3,900 (Wk 11 low); Resistance: 4,100 / 4,200.
+- Trend: mirroring BBCA setup but with near-term net-sell divergence.
+
+**Trade plan:**
+- Entry: IDR 3,900–3,980 IF BBCA fills first AND IDR sustained sub-17,950 close
+- Hard-cut: entry × 0.93 = ~3,627–3,700 | Target: 4,250–4,400 (+7–11% upside)
+- R:R ratio: hard-cut ~7% vs upside ~7–11% = **R:R 1:1 to 1.6:1 = FAILS 2:1 R:R gate** at cluster
+- Position size: 3-4% of equity (paired-second smaller sizing) = ~292–389M IDR; at 3,970 = 73,600–98,000 sh (round to 100)
+- Conviction: **LOW-MEDIUM** (paired-conditional; never HIGH per DEFENSIVE regime + SOE-adjacent Danantara + IDR Stage 5 threshold piercing)
+- ADV: ~60,000,000; gate not binding
+- **CONDITIONAL ENTRY Fri Jul 10 ONLY IF:** (i) BBCA fills first, (ii) BMRI cluster ≤4,000 ≥3 fresh sources ≤4% relaxed, (iii) IHSG ≥5,900 at open, (iv) IDR Fri sub-17,950 sustained close
+- **Pre-mortem:** BMRI breach 3,700 = paired thesis broken; OR BBCA thesis invalidates; OR sector-wide distribution continues
+- **Intermediate pain:** −4% (3,970 × 0.96 = 3,811) = REASSESS
+- **SECOND PRIORITY (paired-only) — conditional on BBCA fill AND IDR de-escalation.** As of pre-market filing: same STAGE 5 gate failure as BBCA → **continued SKIP most likely.**
+
+### Held Position Updates
+
+- **NONE — book 100% cash IDR 9,716,207,500 post-KLBF Mon Jul 6 hard-cut (Day 4 post-cut).**
+- No overnight news requiring action.
+- Cash position 100% = maximum optionality into IDR crisis-track gate resolution.
+- Trial hard-cut sequence unchanged: BBRI (Apr) / ITMG (Apr) / ADRO (May) / KLBF (Jul). Realised P&L cumulative −IDR 294.17M.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY5 with IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay (crisis-track engagement gate ARMED Jul 9 close 18,103.90)**
+
+- Reasoning: Jul 9 IDR close 18,103.90 = **pierced Stage 5 threshold ≥18,050 sustained close** in the 4-stage escalation ladder + Stage 5 crisis-track. Wed Jul 8 was 1st sustained ≥18,000 (18,006); Thu Jul 9 = 2nd sustained ≥18,000 AT ELEVATED 18,103 = Stage 4 CONFIRMED-HARD-ENGAGED + Stage 5 threshold piercing = crisis-track engagement gate armed. Per regime rules: (i) NO new entries possible per pre-emptive de-risk rule; (ii) book already 100% cash so no in-flight trim required; (iii) if IDR recovers <17,950 sustained close Fri = de-escalation start; (iv) if IDR pierces ≥18,150 sustained close = Stage 5 CONFIRMED-HARD-ENGAGED (full crisis-track protocol; undefined framework — weekly-review must codify).
+- **De-escalation criteria status (5 of 5):** (a) IDR sub-17,950 sustained: **VIOLATED-CASCADED to Stage 5 threshold** (18,103 = 153bps above); (b) Moody's stabilization: **PERSISTS-REGRESSED** post-BI HIKE; (c) IHSG >5,500 reclaim: **CONFIRMED** (Thu sesi I 5,885.69 = +7.0% buffer); (d) foreign flow inflection: **PARTIAL** — BBCA solo net-buy Rp 201.8B Wed idiosyncratic, broader tape sells; (e) MSCI accessibility: **NEGATIVE-LOCKED-DEEPENED** (S&P DJI 2027 watchlist added). **Net: 1 of 5 confirming; cascade-escalation via IDR Stage 5 piercing = net further regression.**
+- Position sizing adjustment: **5% cap binding + pre-emptive de-risk-halt HARD-ENGAGED overlay = 0% new entries effective Fri** per IDR Stage 5 threshold piercing crisis-track engagement gate.
+- Structural overhangs: S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation = dual-index-accessibility structural weight.
+
+### Flagged Risks
+
+1. **IDR Stage 5 THRESHOLD PIERCED — HIGHEST PRIORITY MACRO SHOCK:** Jul 9 close 18,103.90 = ≥18,050 sustained close threshold breached; crisis-track engagement gate ARMED. Book already 100% cash — no in-flight trim needed — but blocks all new-entry gate paths. If Fri sustained close ≥18,150 = Stage 5 CONFIRMED-HARD-ENGAGED requiring full crisis-track protocol.
+2. **Trump-Iran conflict re-escalation ongoing:** Renewed strikes, US targeted sites in Bahrain/Kuwait; Brent has range-traded $76-79 sub-$80 = uncertainty regime; Newcastle coal sub-$130 (Hormuz peace priced back).
+3. **Foreign flow persistence:** Wed net-sell 710M shares, Tue 1.04B shares net-sell; YTD ~Rp 61.3T cumulative outflow; "Sell Indonesia" tape structural.
+4. **S&P DJI 2027 Country Classification Watchlist:** structural accessibility overhang added Jul 8 = criterion (e) NEGATIVE-LOCKED-DEEPENED compounding MSCI Info-Flow + Nov 2026 Frontier-downgrade consultation.
+5. **Nickel supply-side shock:** Indonesia quota 260M → 360M tonnes reversal = major supply-glut deepening; LME nickel $16,300 multi-month low. All nickel names structurally weakened Wk 12+.
+6. **MPOB monthly report TODAY T+0 BINARY:** LSIP/AALI SKIP into outcome.
+7. **10th consecutive 0/3 BUY-slot week formalising TODAY at weekly-review 16:00 WIB:** 30+ cumulative unused candidate-day slots trial-to-date; pattern reinforcement eligibility for TRADING-STRATEGY.md codification.
+8. **KLBF hard-cut lesson consolidation TODAY at weekly-review:** DATA-OUTAGE-BOUNDED HOLD RULE (Day 20+ non-convergent = pre-emptive trim; Day 30+ = full close) codification pending; MD_LAST_PRICE_OVERRIDE for broker.sh cmd_sell fix 5th deferral overdue-critical.
+
+### Plan for /market-open Fri Jul 10
+
+- [ ] **PRIMARY ACTION: HOLD 100% CASH** — IDR Stage 5 THRESHOLD PIERCED (Jul 9 close 18,103.90) pre-emptive de-risk-halt engagement gate ARMED; blocks all new-entry gate paths regardless of ticker fundamentals. Book already 100% cash = no in-flight trim required.
+- [ ] **BBCA candidate — CONDITIONAL ENTRY ONLY IF ALL FOUR CLEAR at /market-open:** (i) IDR Fri sesi I sustained close ≤17,950 (currently Jul 9 close 18,103.90 = 150bps ABOVE Stage 5 threshold; requires dramatic BI intervention overnight), (ii) BBCA cluster ≥3 fresh sources ≤2% canonical achievable at ≤6,050, (iii) IHSG holds ≥5,900 at open, (iv) R:R ≥2:1 at fresh cluster mark.
+- [ ] **BMRI paired-second — SKIP unless BBCA fills first AND IDR de-escalates.** Recent net-sell divergence (BMRI Rp 178.5B mid-Wk 11) weakens paired thesis.
+- [ ] **IF IDR PIERCES ≥18,150 SUSTAINED CLOSE Fri:** Stage 5 CONFIRMED-HARD-ENGAGED; full crisis-track protocol activation required (framework undefined; weekly-review MUST codify).
+- [ ] **Telco complex** (TLKM/EXCL/ISAT/MTEL/TOWR): SKIP all into spectrum auction winners late-July BINARY.
+- [ ] **CPO complex** (LSIP/AALI): SKIP into MPOB TODAY T+0 BINARY.
+- [ ] **Coal complex** (ADRO/ITMG/PTBA/BUMI/HRUM): SKIP — sector EXITED + Newcastle sub-$130.
+- [ ] **Nickel complex** (ANTM/INCO/MDKA/NCKL/MBMA): SKIP — LME $16,300 multi-mo low + Indo quota expansion 260→360M supply glut structural.
+- [ ] **Property/Construction/Cement:** SKIP — rate-sensitive + BI 5.75% + CPI hawkish + IDR crisis-track.
+- [ ] **Tech (GOTO/BUKA/EMTK):** SKIP — regulatory pressure.
+- [ ] **Consumer (INDF elevated WATCH):** log INDF net-inflow curiosity (+Rp 58B YTD = only positive consumer name) — no action.
+- [ ] **Watch KLBF re-entry gate:** DEFERRED — Day 4 post-hard-cut cool-down.
+- [ ] **10th consecutive 0/3 BUY-slot week formalising at 16:00 WIB weekly-review Fri** — pattern reinforcement eligibility for strategy-level codification.
+
+---

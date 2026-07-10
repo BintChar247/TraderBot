@@ -9911,12 +9911,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-04-28T04:35:56Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered, no stops tightened. ITMG +3.74%, BBRI -5.52%."
-    },
-    {
       "timestamp": "2026-04-28T08:32:15Z",
       "routine": "daily-summary",
       "status": "warning",
@@ -14597,6 +14591,36 @@
           "detail": "Day 59 EOD snapshot committed; RISK-STATE updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-10T00:12:04Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. Top ideas: BBCA (LOW-MED, score 7), BMRI (LOW-MED, score 6). 2 candidates scored >=6, both BLOCKED by IDR Stage 5 threshold piercing (Jul 9 close 18,103.90). Regime = DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 + IDR-STAGE-5-THRESHOLD-PIERCED. 100% cash Day 4 post-KLBF cut.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored >=6, both BLOCKED by IDR Stage 5 crisis-track gate"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 - 5-session paired-inflection persists but IDR Stage 5 threshold piercing dominates"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 - paired-second on bank-cluster reversal, conditional on BBCA fill + IDR de-escalation"
+        },
+        {
+          "type": "macro",
+          "detail": "IDR Jul 9 close 18,103.90 = Stage 5 threshold pierced (>=18,050); crisis-track engagement gate ARMED"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14640,84 +14664,117 @@
     "us_10y": 4.48
   },
   "research": {
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "holiday": false,
     "candidates_count": 2,
     "candidates_actionable_count": 0,
-    "candidates_top_score": 8,
+    "candidates_top_score": 7,
     "top_candidate": "BBCA",
-    "top_candidate_score": 8,
-    "top_candidate_conviction": "MEDIUM",
-    "top_candidate_hook": "5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed against market-wide -Rp 456.6B backdrop; strongest bank-cluster signal Wk 12 (BLOCKED by IDR Stage 4 BREACHED pre-emptive de-risk-halt gate)",
+    "top_candidate_score": 7,
+    "top_candidate_conviction": "LOW-MEDIUM",
+    "top_candidate_hook": "5-session paired-inflection persists; SCORE DOWN Thu 8 to Fri 7 on IDR Stage 5 threshold piercing (Jul 9 close 18,103.90); BLOCKED by crisis-track engagement gate",
     "headlines": [
       {
-        "headline": "IDR closed 18,006 Wed Jul 8 = STAGE 4 BREACHED sustained close >=18,000; pre-emptive de-risk-halt engagement gate TRIGGERED",
-        "url": "https://money.kompas.com/read/2026/07/06/152819126/rupiah-ditutup-melemah-018-persen-sempat-sentuh-rp-18000-per-dollar-as"
+        "headline": "IDR Jul 9 close 18,103.90 (+0.54%) = STAGE 5 THRESHOLD PIERCED (>=18,050 sustained close); crisis-track engagement gate ARMED",
+        "url": "https://tradingeconomics.com/indonesia/currency"
       },
       {
-        "headline": "IHSG closed 5,873.30 Wed Jul 8 (-1.89% / -113.1 pt); Thu Jul 9 open 5,932.03 rebound try",
-        "url": "https://market.bisnis.com/read/20260709/189/1986711/rekomendasi-saham-dan-pergerakan-ihsg-hari-ini-kamis-9-juli-2026"
+        "headline": "US Thu Jul 9: S&P +0.81% / Nasdaq +1.30% / Dow +0.27% \u2014 chip rally + AI optimism offset Iran war concerns",
+        "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026"
       },
       {
-        "headline": "Foreign flow Wed sesi I -Rp 456.6B market-wide; BBCA NET BUY Rp 201.8B = idiosyncratic-preference tape",
-        "url": "https://money.kompas.com/read/2026/07/08/083100026/asing-lepas-saham-rp-89-triliun-sepanjang-2026-akankah-ihsg-bangkit-"
+        "headline": "Nickel LME $16,300 multi-month low; Indonesia raising 2026 quota 260M to 360M tonnes = major supply glut structural",
+        "url": "https://tradingeconomics.com/commodity/nickel"
       },
       {
-        "headline": "Brent +5.2% to $78.02 on Trump-Iran ceasefire \"over\"; US revoked Iran waiver; Iran targeted 85 US sites Bahrain/Kuwait",
-        "url": "https://www.cnbc.com/2026/07/08/oil-prices-brent-wti-iran-us-hormuz.html"
+        "headline": "Bank Big-4 Jan-May aggregate net profit +9% YoY (Mandiri +19%, BRI +10%, BNI +7%, BCA +2%); BEI weight re-eval Jul 1 effective (BBCA to 9% from 9.53%)",
+        "url": "https://katadata.co.id/finansial/bursa/6a3cd5647625b/bei-turunkan-bobot-saham-bbca-bbri-ke-ihsg-bagaimana-nasib-bbni-bmri"
       },
       {
-        "headline": "S&P DJI 2027 Country Classification Watchlist added Wed = dual-index-accessibility overhang (MSCI + S&P)",
-        "url": "https://investasi.kontan.co.id/news/bursa-indonesia-masuk-watchlist-sp-simak-proyeksi-ihsg-hingga-akhir-2026"
+        "headline": "Consumer sector YTD foreign outflow: ICBP -Rp 962B, UNVR -Rp 431B, MYOR -Rp 367B; INDF ONLY net-inflow +Rp 58B YTD",
+        "url": "https://market.bisnis.com/read/20260705/189/1985652/daya-tarik-saham-konsumer-kala-asing-rebalancing-lepas-icbp-hingga-myor"
+      },
+      {
+        "headline": "Coal HBA 1st period July +2.15% to $126.58/t; but Jan-Apr export value -7.27% YoY = producer earnings pressure",
+        "url": "https://indonesiaminer.com/news/detail/benchmark-coal-prices-rise-across-the-board-in-early-july-2026-surpass-usd-126"
       }
     ],
     "actions_planned": [
-      "PRIMARY: HOLD 100% CASH \u2014 IDR Stage 4 BREACHED (Wed 18,006) pre-emptive de-risk-halt engagement gate TRIGGERED",
-      "BBCA CONDITIONAL: BUY 80,300 sh @ ~6,050 (5% cap = 486M IDR) IF (i) IDR sesi I close <=17,950 sustained AND (ii) cluster >=3-source <=2% at <=6,050 AND (iii) IHSG holds >=5,900 AND (iv) R:R >=2:1",
+      "PRIMARY: HOLD 100% CASH - IDR Stage 5 THRESHOLD PIERCED (Jul 9 close 18,103.90) crisis-track engagement gate ARMED",
+      "BBCA CONDITIONAL: BUY 80,300 sh @ ~6,050 (5% cap = 486M IDR) IF (i) IDR sesi I sustained close <=17,950 AND (ii) cluster >=3-source <=2% at <=6,050 AND (iii) IHSG >=5,900 AND (iv) R:R >=2:1 \u2014 all four required simultaneously",
       "BMRI PAIRED-SECOND: SKIP unless BBCA fills first AND IDR de-escalates",
-      "IF IDR >=18,000 sustained close 2nd-consecutive session Thu = Stage 4 CONFIRMED-HARD-ENGAGED; document Fri weekly-review escalation",
-      "Watch UNVR/ICBP/AKRA for fresh cluster narrowing (no action, log-only)",
-      "SKIP all: Telco (auction binary), CPO (MPOB T+1 binary), Coal (sector EXIT), Nickel, Property, Construction, Cement, Tech"
+      "IF IDR pierces >=18,150 sustained close Fri = Stage 5 CONFIRMED-HARD-ENGAGED; framework undefined; weekly-review 16:00 WIB MUST codify",
+      "Watch INDF (only consumer net-inflow YTD), AKRA (Jul 27 earnings T+17), BBNI (BEI weight benign) \u2014 no action, log-only",
+      "SKIP all: Telco (auction binary), CPO (MPOB T+0 binary), Coal (sector EXIT), Nickel (supply glut structural), Property, Construction, Cement, Tech",
+      "Weekly-review 16:00 WIB TODAY: Wk 12 letter grade + 10th-consec 0/3 BUY-slot week formalisation + IDR Stage 4/5 codification + KLBF hard-cut post-mortem + broker.sh cmd_sell override 5th-deferral"
     ],
-    "as_of_date": "2026-07-09",
+    "as_of_date": "2026-07-10",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Thu Jul 9 pre-market",
-    "ihsg_last": 5873.3,
-    "ihsg_last_label": "Wed Jul 8 sesi II final 5,873.30 (-1.89% / -113.1 pt; Kompas/Bisnis/Katadata 3-source convergent)",
-    "idr_usd": 18006,
-    "idr_usd_label": "Wed Jul 8 close 18,006 (+0.35% vs Tue 17,945); STAGE 4 BREACHED sustained >=18,000",
-    "coal_price": 127.5,
-    "brent_price": 78.02,
+    "as_of_label": "Fri Jul 10 pre-market",
+    "ihsg_last": 5885.69,
+    "ihsg_last_label": "Thu Jul 9 sesi I anchor 5,885.69 (+0.21% intraday; Tribunnews/Kompas/Mediaasuransi/Liputan6 4-source convergent); Thu sesi II final not multi-source convergent overnight",
+    "idr_usd": 18103.9,
+    "idr_usd_label": "Jul 9 close 18,103.90 (+0.54%) = STAGE 5 THRESHOLD PIERCED (>=18,050 sustained close); 2nd consecutive sustained >=18,000 = Stage 4 CONFIRMED-HARD-ENGAGED + Stage 5 threshold piercing = crisis-track engagement gate ARMED",
+    "coal_price": 126.58,
+    "brent_price": 76.97,
     "top_candidates": [
       {
         "ticker": "BBCA",
-        "score": 8,
-        "conviction": "MEDIUM",
-        "catalyst": "5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed against market-wide -Rp 456.6B backdrop; strongest bank-cluster signal Wk 12",
-        "status": "CANDIDATE (BLOCKED by IDR Stage 4 BREACHED pre-emptive de-risk-halt engagement gate)",
+        "score": 7,
+        "conviction": "LOW-MEDIUM",
+        "catalyst": "5-session paired-inflection persists + net foreign BUY Rp 201.8B Wed; but IDR Stage 5 threshold piercing Jul 9 dominates",
+        "status": "CANDIDATE (BLOCKED by IDR Stage 5 crisis-track engagement gate ARMED)",
         "planned_entry": "6,000-6,150",
         "planned_size_pct": 5.0
       },
       {
         "ticker": "BMRI",
         "score": 6,
-        "conviction": "MEDIUM",
-        "catalyst": "Paired-second with BBCA on bank-cluster reversal; SOE-adjacent Danantara overhang; also net-sell Rp 178.5B recent = paired-thesis WEAKER than BBCA-solo",
-        "status": "CANDIDATE (paired-conditional; blocked by IDR and BBCA fill dependency)",
+        "conviction": "LOW-MEDIUM",
+        "catalyst": "Paired-second with BBCA on bank-cluster reversal; Mandiri +19% YoY net profit LEADING Big-4; but SOE-Danantara overhang + recent net-sell weakens paired thesis",
+        "status": "CANDIDATE (paired-conditional; blocked by IDR Stage 5 + BBCA fill dependency)",
         "planned_entry": "3,900-3,980",
         "planned_size_pct": 3.5
       }
     ],
     "candidates_ge6_count": 2,
     "scan_universe": 50,
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY4 with IDR-ESCALATION-STAGE-4-BREACHED overlay",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 with IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay",
     "top_risks": [
-      "IDR Stage 4 BREACHED: Wed close 18,006 = 1st sustained close >=18,000; Thu 2nd sustained close = pre-emptive de-risk-halt HARD-ENGAGED",
-      "Brent +5.2% to $78 on Trump-Iran ceasefire \"over\" + Hormuz shipping risk-back",
-      "Foreign flow deterioration Wed sesi I -Rp 456.6B (27x deterioration vs Tue -Rp 16.6B); BBCA solo net-buy Rp 201.8B is idiosyncratic exception",
-      "S&P DJI 2027 Country Classification Watchlist added Wed = fresh dual-index-accessibility overhang",
-      "Data Quality Gate Day 74 outage persistent (yfinance + GoAPI 403-blocked)"
+      "IDR Stage 5 THRESHOLD PIERCED: Jul 9 close 18,103.90 (>=18,050) = crisis-track engagement gate ARMED; if Fri sustained >=18,150 = Stage 5 CONFIRMED-HARD-ENGAGED",
+      "Trump-Iran conflict re-escalation: renewed strikes; Brent range-trading $76-79 sub-$80; Newcastle sub-$130 Hormuz peace priced back",
+      "Foreign flow persistence: Wed 710M sh net-sell, Tue 1.04B sh; YTD ~Rp 61.3T cumulative outflow",
+      "S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow + Nov 2026 Frontier-downgrade consultation = dual-index-accessibility structural overhang",
+      "Nickel supply-side shock: Indonesia quota 260M to 360M tonnes reversal; LME nickel $16,300 multi-month low",
+      "Data Quality Gate Day 75 outage persistent (yfinance + GoAPI 403-blocked)",
+      "10th consecutive 0/3 BUY-slot week formalising at 16:00 WIB weekly-review Fri; strategy-level codification eligibility",
+      "KLBF hard-cut lesson consolidation weekly-review TODAY: DATA-OUTAGE-BOUNDED HOLD RULE + broker.sh cmd_sell MD_LAST_PRICE_OVERRIDE 5th-deferral"
     ]
   },
-  "last_updated": "2026-07-09T15:15:00+07:00"
+  "last_updated": "2026-07-10T07:00:00+07:00",
+  "market": {
+    "foreign_flow_note": "Wed Jul 8 foreign net-sell 710M sh (improved from Tue -1.04B); YTD ~Rp 61.3T cumulative outflow. Top disposals Wed: BBRI (5th consec strike-1), MAPI, TPIA, EMAS, ISAT. BBCA solo net BUY Rp 201.8B = idiosyncratic-preference tape 5th session.",
+    "global_note": "US Thu Jul 9: S&P +0.81% to 7,543.64 / Nasdaq +1.30% to 26,206.89 / Dow +0.27% to 52,487.41 \u2014 chip rally + AI optimism offset Iran concerns. Asia Thu: Nikkei +1.83% to 68,042.75 / Hang Seng +0.19% to 23,541.22 / Shanghai +1.65% to 4,036.59. VIX sub-20 calm. Indo 10Y SUN 7.14%; US 10Y ~4.30-4.35%. Brent Jul 9 close 76.97 -1.35%; Newcastle coal <$130 (Hormuz peace priced back). LME nickel $16,300 multi-month low; Indo quota reversal 260 to 360M tonnes = major supply glut deepening.",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5",
+    "regime_overlay": "IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED",
+    "last_updated": "2026-07-10",
+    "ihsg_close_date": "2026-07-09",
+    "ihsg_close_change_pct": 0.21,
+    "idr_usd_change_pct": 0.54,
+    "idr_usd_date": "2026-07-09",
+    "idr_stage": 5,
+    "idr_stage_note": "STAGE 5 THRESHOLD PIERCED: Jul 9 close 18,103.90 (>18,050) = crisis-track engagement gate ARMED. Wed Jul 8 was 1st sustained >=18,000 at 18,006; Thu Jul 9 2nd sustained AT ELEVATED 18,103 = Stage 4 CONFIRMED-HARD-ENGAGED + Stage 5 threshold piercing.",
+    "coal_newcastle_usd_ton": 126.58,
+    "brent_usd_bbl": 76.97,
+    "cpo_myr_ton": 4550,
+    "nickel_lme_usd_ton": 16300,
+    "indo_10y_sun": 7.14,
+    "us_10y": 4.32,
+    "us_sp500": 7543.64,
+    "us_nasdaq": 26206.89,
+    "us_dow": 52487.41,
+    "nikkei": 68042.75,
+    "hang_seng": 23541.22,
+    "shanghai": 4036.59
+  }
 }
