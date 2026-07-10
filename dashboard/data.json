@@ -10009,48 +10009,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-04-29T02:27:11Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. HOLD ITMG + BBRI. BBRI Q1 2026 earnings TODAY after-hours is the binary. ANTM SKIP (Gate 5 catalyst freshness, T+14 stale), INCO SKIP (Gate 9 data integrity), BBRI add-on SKIP (T-0 discipline), ITMG add-on SKIP (sector concentration). 0/3 weekly slot, 14.18% deployed, 3 trading days remain. yfinance still blocked (since Apr 21); WebSearch overrides used for marks.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27300sh @ 26075; mark 25475; -2.30%; stop 24250 unchanged"
-        },
-        {
-          "type": "hold",
-          "ticker": "BBRI",
-          "detail": "220000sh @ 3260; mark 3050; -6.44%; stop 3031 unchanged; Q1 binary today"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "Gate 5 catalyst freshness; HPM Decree 144 T+14 stale"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "Gate 9 data integrity; multi-source price spread"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI-addon",
-          "detail": "Discipline; T-0 binary + Fitch outlook overhang"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG-addon",
-          "detail": "Sector concentration; coal floor confirmed but not fresh add-on catalyst"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance blocked since Apr 21)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-04-29T04:35:28Z",
       "routine": "midday",
       "status": "success",
@@ -14725,6 +14683,12 @@
           "detail": "10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-10T04:35:32Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts triggered. Book 100% cash (0 positions) Day 5 post-KLBF hard-cut; IDR-STAGE-5-THRESHOLD-PIERCED regime binding."
     }
   ],
   "exposure": {
