@@ -2,7 +2,7 @@
 
 **Purpose:** This is the production rulebook for the IDX trading agent. Every routine reads this file first, before any research, scan, or order placement. It is the single source of truth for hard rules, the buy-side gate, sell-side rules, the entry checklist, the sector playbook, and the morning research queries.
 
-**Last reviewed:** 2026-06-19 (Week 9 weekly review — added Data Quality Gate section codifying 3-week multi-source ≤2% convergence pattern from Weeks 7-8-9)
+**Last reviewed:** 2026-07-10 (Week 12 weekly review — added DATA-OUTAGE-BOUNDED HOLD RULE to Hard Rules per MISTAKES.md 2026-07-06 KLBF -21.16% root-cause codification + 5-week data-outage evidence; promoted Data Quality Gate under-outage ≤4% relaxed threshold to co-canonical per 4-week marker Wks 9-10-11-12 met)
 
 **Status:** Canonical. Routines read this file first. If a rule here conflicts with anything elsewhere, this file wins. Changes go through explicit review and a new last-reviewed date.
 
@@ -19,6 +19,7 @@ These are scar tissue from real losses. They are not suggestions.
 - Target 75-85% of capital deployed.
 - **Sector concentration cap:** no single sector > 35% of deployed capital. Enforced in gate-check.sh Check 13.
 - **ADV participation cap:** order size ≤ 10% of 20-day avg daily volume. No moving markets.
+- **DATA-OUTAGE-BOUNDED HOLD RULE (codified 2026-07-10, Wk 12 — per MISTAKES.md 2026-07-06 KLBF root-cause):** No position may be carried for more than 20 consecutive sessions on non-convergent multi-source cluster + frozen safe-lower carry. If Day 21+ still non-convergent, mandatory pre-emptive de-risk to 50% of position at broker stub / carry mark (whichever lower). If Day 30+ still non-convergent, mandatory full close at broker stub / carry mark (whichever lower). Rationale: frozen carry masks economic reality; a bounded rule forces recognition before catastrophic convergence gaps (KLBF Day 71 hold produced -21% realized loss — exact failure mode this rule prevents).
 
 ### Stop Logic (two distinct states — no overlap)
 
@@ -78,17 +79,14 @@ A required pre-entry data-quality check codified after 3 consecutive weeks (Week
 
 **Applies to:** every buy order (in addition to the 15-check buy-side gate) AND every sell-side stop-fire decision (the broker-side trailing GTC fires automatically on real-tape; this gate governs discretionary trim/close decisions on cluster reads).
 
-**Canonical (strict) requirement — multi-source ≤2% convergence:**
-- Before any buy order is placed, the candidate's current price MUST be confirmed by ≥3 independent sources with multi-source spread ≤2% (max − min) / mean.
+**Co-canonical convergence requirements — multi-source (updated Wk 12 2026-07-10; ≤4% relaxed threshold promoted to co-canonical per 4-week marker Wks 9-10-11-12 met + KLBF Wk 12 realized-loss demonstration):**
+- Before any buy order is placed, the candidate's current price MUST be confirmed by ≥3 independent sources.
+- **Canonical (data-infra healthy)** — multi-source spread ≤2% (max − min) / mean.
+- **Co-canonical (data-infra outage documented)** — multi-source spread ≤4% (max − min) / mean, when documented data-infra outage is active (e.g., yfinance 403-blocked, GoAPI key unset, broker.sh quote returning stale fills). Requires explicit RESEARCH-LOG.md documentation citing (a) which sources are unavailable, (b) the cluster spread observed, (c) the safe-lower mark used for sizing/stop-floor calculations.
 - Sources counted as independent: Yahoo Finance, Investing.com, TradingView, Google Finance, Stockbit, GoAPI, yfinance, broker.sh quote. Wire-service feeds (Bloomberg, Reuters) count as one source each.
-- If <3 sources surface a fresh same-day timestamp, the candidate FAILS the gate.
-- If ≥3 sources surface fresh timestamps but spread >2%, the candidate FAILS the gate.
-
-**Relaxed-under-outage exception — ≤4% convergence:**
-- Applies only when documented data-infra outage is active (e.g., yfinance 403-blocked, GoAPI key unset, broker.sh quote returning stale fills).
-- Requires explicit RESEARCH-LOG.md documentation citing (a) which sources are unavailable, (b) the cluster spread observed, (c) the safe-lower mark used for sizing/stop-floor calculations.
-- The relaxed ≤4% threshold does NOT relax the "≥3 independent sources with fresh same-day timestamp" requirement — only the spread threshold widens.
-- If the relaxed gate fails (spread >4% OR <3 fresh sources), the candidate FAILS the gate and the pre-market routine must document the binding constraint (structural infra vs candidate-specific noise).
+- If <3 sources surface a fresh same-day timestamp, the candidate FAILS the gate (this requirement is NEVER relaxed).
+- If ≥3 sources surface fresh timestamps but spread >2% (canonical, healthy infra) OR spread >4% (co-canonical, outage documented), the candidate FAILS the gate.
+- Under co-canonical mode, the pre-market routine must additionally document the binding constraint if the gate fails (structural infra vs candidate-specific noise).
 
 **Safe-lower mark discipline (for held positions under outage):**
 - When holding a position whose cluster fails the canonical ≤2% gate, the safe-lower mark (lowest of the cluster's verified ≥3 sources, NOT including single-source outliers) is used for: (a) EOD MTM in TRADE-LOG, (b) dashboard data.json carry, (c) stop-floor calculations, (d) state-machine transition triggers (+7%/+15%/+20% thresholds).
