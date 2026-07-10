@@ -7704,3 +7704,56 @@ Thu Jul 9 sesi I provisional 5,885.69 (Tribunnews / Kompas / Mediaasuransi / Lip
   6. **Weekly-review scheduled Fri Jul 10 16:00 WIB** will formalise Wk 12 letter grade + KLBF hard-cut post-mortem (safe-lower carry-frozen approach lesson) + 10th-consecutive 0/3 BUY-slot week pattern + IDR Stage 4/5 escalation resolution + Data Quality Gate outage marker + S&P DJI 2027 Country Classification Watchlist structural overhang codification.
 
 ---
+
+
+### 2026-07-10 09:15 WIB — MARKET-OPEN (Week 12 Day 5, LAST DAY OF WEEK)
+
+**Action: NO TRADES PLACED. Book remains 100% cash IDR 9,716,207,500. 10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review.**
+
+**Candidates evaluated per RESEARCH-LOG 2026-07-10 plan:**
+
+1. **BBCA (score 7, down from 8 Thu)** — 5-session paired-inflection persists + Wed Jul 8 foreign NET BUY Rp 201.8B (idiosyncratic-preference tape); score down on IDR Stage 5 threshold piercing Jul 9 at 18,103.90.
+   - **Result: SKIP.**
+   - Regime pre-condition gate FAIL: **IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED** — Jul 9 sustained close 18,103.90 = pierced ≥18,050 Stage 5 threshold + 2nd consecutive sustained ≥18,000 close = Stage 4 CONFIRMED-HARD-ENGAGED. Crisis-track engagement gate ARMED. Pre-emptive de-risk-halt = 0% new entries binding regardless of ticker fundamentals.
+   - `broker.sh quote BBCA` returned `ERROR: _paper_quote cannot produce a price` (Data Quality Gate Day 75 outage; yfinance + GoAPI blocked).
+   - Per research plan primary action: HOLD 100% CASH.
+
+2. **BMRI (score 6)** — Paired-second bank-cluster reversal (SOE-adjacent Danantara overhang + BEI weight re-eval +24bp passive-inflow tailwind).
+   - **Result: SKIP.**
+   - Paired-conditional VOID: BBCA no-fill = automatic BMRI SKIP.
+   - Independently blocked by IDR Stage 5 threshold piercing regime pre-condition gate FAIL (crisis-track engagement gate ARMED).
+   - Paired-inflection thesis further weakened by BMRI Rp 178.5B recent net foreign sell divergence vs BBCA-solo net-buy Rp 201.8B Wed.
+
+**Gate summary (BBCA and BMRI both):**
+- Gate 1 (positions ≤6): PASS (0 → 0)
+- Gate 2 (trades/week ≤3): PASS (0/3 Wk 12 buys)
+- Gate 3 (≤20% equity per position): PASS (would-be 5% cap = 486M IDR BBCA / 292–389M BMRI)
+- Gate 4 (cost ≤ cash): PASS (cash 9,716M)
+- Gate 5 (catalyst documented): PASS (RESEARCH-LOG 2026-07-10 entry)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV >500k): PASS (BBCA ~130M, BMRI ~60M)
+- Gate 8 (lot multiple of 100): PASS
+- **Gate 9 (price within 3% of planned): FAIL — cluster non-convergent under Data Quality Gate Day 75 outage; broker.sh quote errors on un-held tickers**
+- **Regime pre-condition (IDR sub-17,950 sustained 2-of-2 DE-ARM): FAIL — Jul 9 close 18,103.90 = Stage 5 THRESHOLD PIERCED = crisis-track engagement gate ARMED**
+
+**Portfolio state at 09:15 WIB market-open:**
+- Equity: IDR 9,716,207,500 (100.00% cash)
+- Open positions: 0
+- Trades this week (Wk 12): 0 BUYs (1 SELL Mon Jul 6 KLBF hard-cut, not a discretionary slot)
+- Wk 12 slot allocation: 0/3 used → 0 remaining (last chance Fri Jul 10 blocked) → **10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review**
+- Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 + IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay
+- Cumulative alpha: +20.06% (Thu baseline; expansion +0.45pp Wed → Thu via IHSG sesi I −0.58% with portfolio flat)
+
+**Next re-eligibility gate:**
+- Requires IDR sub-17,950 sustained close 2-of-2 sessions AND fresh cluster convergence ≥3-source ≤4% relaxed at ≤6,000–6,050 (BBCA) / ≤3,900–3,980 (BMRI).
+- Stage 5 escalation risk: currently at 18,103 = 153bps ABOVE Stage 5 threshold; any sustained close ≥18,150 = Stage 5 CONFIRMED-HARD-ENGAGED (full crisis-track protocol required — framework undefined; weekly-review MUST codify at 16:00 WIB Fri).
+- Otherwise IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED persists into Wk 13 open Mon Jul 13.
+
+**Notes:**
+- Price source: broker.sh quote unavailable (Data Quality Gate Day 75 outage — yfinance + GoAPI 403-blocked, 75 consecutive sessions since Apr 21); WebSearch used for IDR gate check (Jul 9 close 18,103.90 per pre-market entry); no candidate cluster override attempted because regime pre-condition IDR Stage 5 gate already fails independently.
+- No RESEARCH-LOG addendum required — today's plan explicitly forecast SKIP under IDR Stage 5 threshold piercing gate binding.
+- Notification path: scripts/notify.sh no-trade summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review Fri Jul 10:** 32+ cumulative unused candidate-day slots trial-to-date. Pattern reinforcement candidate for TRADING-STRATEGY.md codification under DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION regime + Data Quality Gate outage combined.
+- **Structural overhangs binding Wk 12 close:** IDR Stage 5 threshold pierced + S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation = dual-index-accessibility + FX-crisis-track compounding structural weight.
+
+---

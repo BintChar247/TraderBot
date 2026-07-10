@@ -9875,6 +9875,104 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "5-session paired-inflection maintained but IDR Stage 5 threshold pierced Jul 9 close 18,103.90 = crisis-track engagement gate ARMED; pre-emptive de-risk-halt blocks all new entries.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BBCA paired-inflection persists (5th session) + Wed foreign net-BUY Rp 201.8B"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 + IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay (18,103.90 close)"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL: IDR Stage 5 threshold pierced (18,103 = 153bps above 17,950) = pre-emptive de-risk-halt engagement gate ARMED = 0% new entries; Data Quality Gate Day 75 = broker.sh quote returns ERROR (yfinance+GoAPI 403-blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% regime cap = ~486M IDR; halted by IDR Stage 5 gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 75 outage \u2014 WebSearch multi-source path sole verification; no fresh cluster available at 09:15"
+        }
+      ],
+      "reasoning": "BBCA candidate fundamentals intact (paired-inflection Day 5+ / Wed net-buy Rp 201.8B) but IDR Stage 5 threshold pierced Jul 9 close 18,103.90 activates crisis-track engagement gate ARMED = pre-emptive de-risk-halt = 0% new entries regardless of ticker fundamentals. Data Quality Gate Day 75 outage also blocks Gate 9 independently.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Paired-second on bank-cluster reversal; conditional on BBCA fill first AND IDR de-escalation; both blocked Fri by IDR Stage 5 crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Paired-conditional bank-cluster reversal + BEI weight re-eval +24bp passive-inflow tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 + IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay"
+        },
+        {
+          "type": "risk",
+          "label": "BBCA no-fill = paired-second VOID; also IDR Stage 5 threshold piercing blocks independently; BMRI recent net-sell divergence weakens paired thesis vs BBCA-solo"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 3-4% paired-second cap = ~292-389M IDR; halted by regime + IDR Stage 5 gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 75 outage \u2014 broker.sh quote ERROR"
+        }
+      ],
+      "reasoning": "Paired-conditional bank-cluster second entry VOID by BBCA no-fill; independently BLOCKED by IDR Stage 5 threshold piercing crisis-track engagement gate. BMRI recent Rp 178.5B net foreign sell divergence weakens the paired thesis vs BBCA-solo inflection.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -9910,30 +10008,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-28T08:32:15Z",
-      "routine": "daily-summary",
-      "status": "warning",
-      "summary": "Day 7 EOD: IDR 9.987B (+0.38%). Alpha +1.91% vs IHSG today; cum alpha +7.43%. Positions 2 (ITMG +3.74%, BBRI -5.52%). Trades this week: 0/3. No risk alerts. Telegram 403 (host allowlist) \u2014 fell back to stdout.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 7 EOD snapshot committed"
-        },
-        {
-          "type": "mark-to-market",
-          "detail": "ITMG IDR 27,050; BBRI IDR 3,080 (WebSearch override; yfinance still blocked)"
-        },
-        {
-          "type": "reconcile",
-          "detail": "Broker matches TRADE-LOG (ITMG 27,300 @ 26,075; BBRI 220,000 @ 3,260)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed (403 host not in allowlist) \u2014 fell back to stdout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-29T02:27:11Z",
       "routine": "market-open",
@@ -14619,6 +14693,36 @@
         {
           "type": "macro",
           "detail": "IDR Jul 9 close 18,103.90 = Stage 5 threshold pierced (>=18,050); crisis-track engagement gate ARMED"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-10T02:18:19Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Fri Jul 10 (Wk 12 Day 5). BBCA + BMRI both SKIP: IDR Stage 5 threshold pierced (Jul 9 close 18,103.90 = 153bps above 17,950) crisis-track engagement gate ARMED + Data Quality Gate Day 75 outage (broker.sh quote ERROR on un-held tickers). Book 100% cash IDR 9.72B. 10th consecutive 0/3 BUY-slot week formalising at 16:00 WIB weekly-review.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "IDR Stage 5 threshold pierced + Data Quality Gate Day 75 outage"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "paired-second VOID by BBCA no-fill + IDR Stage 5 gate + BMRI Rp 178.5B net-sell divergence"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Jul 9 close 18,103.90 = Stage 5 threshold PIERCED (crisis-track engagement gate ARMED)"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 75 outage \u2014 yfinance + GoAPI 403-blocked"
+        },
+        {
+          "type": "warning",
+          "detail": "10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review"
         }
       ]
     }
