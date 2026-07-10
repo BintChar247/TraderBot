@@ -7757,3 +7757,81 @@ Thu Jul 9 sesi I provisional 5,885.69 (Tribunnews / Kompas / Mediaasuransi / Lip
 - **Structural overhangs binding Wk 12 close:** IDR Stage 5 threshold pierced + S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation = dual-index-accessibility + FX-crisis-track compounding structural weight.
 
 ---
+
+
+### 2026-07-10 EOD (Day 60, Fri — Week 12 Day 5, LAST DAY OF WEEK; IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay persists; 10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%)
+- IHSG daily: +0.56% (Fri Jul 10 sesi I 5,918.47 vs Thu Jul 9 sesi I 5,885.69 anchor per sesi-I-to-sesi-I convention; Kompas / Liputan6 / Disway / Bisnis 4-source convergent at 5,918.47; +6.03 pt +0.10% sesi I intraday; sesi II final Fri not multi-source convergent at 15:15 WIB filing — weekly-review 16:00 WIB or Mon Wk 13 pre-market will reconcile if it surfaces multi-source convergent)
+- Daily alpha: −0.56%
+- Cash: IDR 9,716,207,500 (100.00% of equity — full cash defensive posture Day 4 post-KLBF cut, week close)
+- Trades today: 0 (market-open Wk 12 Day 5 SKIPPED both BBCA + BMRI on IDR-STAGE-5-THRESHOLD-PIERCED regime pre-condition gate FAIL + Gate 9 Data Quality Gate Day 75 outage)
+- Trades this week: 0/3 (Wk 12 CLOSED — 10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review; Mon KLBF SELL was rule-triggered hard-cut, not a discretionary BUY)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%)
+- Cumulative alpha: +19.63% (IHSG cum from Day 0 baseline 7,634 → Fri sesi I 5,918.47 = −22.47% vs portfolio cum −2.84%)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged from Mon-Thu; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book remains fully de-risked Day 4 post-KLBF hard-cut through Wk 12 close; regime + IDR Stage 5 threshold piercing + Data Quality Gate all binding.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### IHSG anchor reconciliation
+
+Fri Jul 10 sesi I provisional 5,918.47 (Kompas / Liputan6 / Disway / Bisnis 4-source convergent; +6.03 pt +0.10% intraday sesi I; volume 11.5B sh / value Rp 4.7T; 405 advance / 208 decline / 171 unchanged; sector leadership IDX Property +1.22% / Transportation +1.12% / Basic Materials +1.09%). Anchor: Thu Jul 9 sesi I 5,885.69 (unchanged per sesi-I-to-sesi-I convention). Thu Jul 9 sesi II final now multi-source convergent at 5,912.44 (Kompas/Metrotv/Infobanknews 3-source ≤0.02% relaxed; +39.07 pt +0.67% Thu final vs prev EOD 5,873.30 Wed final); reconciled Thu sesi II baseline for Mon Jul 13 forward if convention shifts. Sesi II final Fri not multi-source convergent at 15:15 WIB filing — weekly-review 16:00 WIB or Mon Jul 13 pre-market will reconcile if it surfaces multi-source convergent overnight.
+
+#### Weekly P&L trajectory (Wk 12 CLOSED)
+
+- Wk 12 cumulative P&L: −1.53% (unchanged from Mon-Thu; Fri Wk 11 EOD 9,866,717,500 → Fri Wk 12 EOD 9,716,207,500).
+- Weekly loss cap −5% not breached; sizing reduction NOT triggered.
+- Wk 12 BUY slots: 0/3 CLOSED (Mon KLBF sell is hard-cut, not a slot; Tue-Wed-Thu-Fri no discretionary BUY). **10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review Fri Jul 10.**
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L (Wk 12 CLOSED) −1.53% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (regime remains DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 with IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay; no daily/drawdown caps breached). Note: regime pre-emptive de-risk-halt engagement gate remains TRIGGERED for new entries; Stage 5 threshold piercing overlay adds crisis-track engagement gate ARMED layer.
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 4 post-KLBF cut through Wk 12 close.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul). No new sector-exit rule fires.
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Fri sesi I 5,918.47 = **−22.47%** (+0.43pp recovery from Thu sesi I −22.90% via Fri sesi I modest positive drift).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged from Mon-Thu; 100% cash zero-participation Day 5 = week close).
+- **Cumulative alpha = +19.63%** (compression −0.43pp from Thu +20.06% via flat portfolio + IHSG sesi I +0.56% net recovery vs anchor; structural alpha trajectory 1.71pp below reconciled Day 50 +21.34% baseline — compressing back on IHSG modest rebound Fri sesi I).
+- Alpha runway forward: fully-cash defensive book zero upside participation booked cost accumulating on IHSG rebound Fri sesi I; re-expands on any correction. Fri alpha −0.56% = 1st negative alpha day post-KLBF cut in trio (Wed +0.39% / Thu +0.58% / Fri −0.56%); defensive-posture-value thesis compressing back on IHSG modest rebound under IDR Stage 5 threshold piercing binding.
+
+#### Notes
+
+- **Market-open Wk 12 Day 5 (LAST DAY) NO TRADES:** BBCA + BMRI both SKIPPED at 09:15 WIB per market-open entry above. Regime pre-condition FAIL — IDR Stage 5 THRESHOLD PIERCED persists (Thu close 18,103.90 = pierced ≥18,050 Stage 5 threshold + 2nd consecutive sustained ≥18,000 close = Stage 4 CONFIRMED-HARD-ENGAGED). Crisis-track engagement gate ARMED. Pre-emptive de-risk-halt = 0% new entries binding regardless of ticker fundamentals. Gate 9 (Data Quality Gate Day 75 cluster non-convergent) FAIL independent — broker.sh quote returns `ERROR: _paper_quote cannot produce a price` for un-held tickers (yfinance + GoAPI still 403-blocked Day 75 consecutive).
+- **IDR gate status Fri EOD:** IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED persists into Wk 12 close. Thu close 18,103.90 = pierced ≥18,050 Stage 5 threshold. Fri intraday IDR reading pending overnight multi-source convergence. Weekly-review 16:00 WIB MUST codify Stage 5 crisis-track full protocol (framework undefined) + resolution scenarios for Mon Wk 13 open. If Fri sustained close <18,050 = 1-of-2 partial DE-ARM from Stage 5; if ≥18,050 = Stage 5 CONFIRMED persists.
+- **Book fully de-risked Day 4 post-KLBF cut through Wk 12 close:** 100% cash (IDR 9,716,207,500). Zero equity market exposure. Regime + IDR Stage 5 + Data Quality Gate all binding; no re-entry until IDR sub-17,950 sustained 2-of-2 AND cluster convergence achieves ≥3-source ≤4% relaxed at candidate entry price.
+- **Data Quality Gate Day 75 outage persists:** yfinance + GoAPI still blocked (75 consecutive sessions since Apr 21); broker.sh quote returns `ERROR: _paper_quote cannot produce a price` for un-held tickers. WebSearch multi-source override operational (used for IHSG Fri sesi I 4-source convergence at 5,918.47 + Thu sesi II final reconciliation at 5,912.44 3-source). MD_LAST_PRICE_OVERRIDE fix for broker.sh cmd_sell still deferred — infrastructure fix remains overdue-critical per MISTAKES.md 2026-07-06 escalation. No new positions today → no cmd_sell path exercised Fri.
+- **10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review Fri Jul 10:** 32+ cumulative unused candidate-day slots trial-to-date. Weekly-review 16:00 WIB will formalise pattern reinforcement into TRADING-STRATEGY.md codification under DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION regime + IDR Stage 5 + Data Quality Gate outage triple-binding combined.
+- **Alpha compression Fri:** 1st negative alpha day post-KLBF cut trio (Wed +0.39% / Thu +0.58% / Fri −0.56%). Cash-heavy defensive posture zero-participation cost surfacing on IHSG modest rebound Fri sesi I. Cumulative alpha compresses −0.43pp from Thu +20.06% to Fri +19.63%; structural trajectory now 1.71pp below reconciled Day 50 +21.34% baseline (compression widening from Thu 1.28pp).
+- **Trial trajectory:** Beyond original Apr 20–May 2 window (current Day 60, Wk 12 Day 5 CLOSED). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged Fri (BBRI −59.4M / ITMG −52.55M / ADRO −78.42M / KLBF −103.8M); dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%).
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **Carry-over to Fri Jul 10 16:00 WIB weekly-review (Week 12 Day 5 END OF WEEK) and Mon Jul 13 07:00 WIB pre-market (Week 13 Day 1):**
+  1. **Weekly-review 16:00 WIB Fri MUST codify:** Wk 12 letter grade + KLBF hard-cut post-mortem (safe-lower carry-frozen approach lesson finalisation) + 10th-consecutive 0/3 BUY-slot week pattern + IDR Stage 4 → Stage 5 threshold piercing escalation + crisis-track engagement gate protocol framework (currently undefined) + Data Quality Gate outage Day 75 marker + S&P DJI 2027 Country Classification Watchlist structural overhang + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation dual-index-accessibility compounding structural weight codification.
+  2. **Mon Jul 13 07:00 WIB pre-market** will read Fri sesi II final IHSG (if multi-source convergent overnight) + Fri IDR sustained close vs Stage 5 threshold + weekend Asian tape + US tape.
+  3. **IDR Stage 5 resolution:** if Fri sustained close <17,950 → 1-of-2 DE-ARM re-earned Mon Wk 13; if 17,950–18,050 = Stage 4 partial DE-ARM; if ≥18,050 sustained 2nd-consecutive = Stage 5 CONFIRMED-HARD-ENGAGED (crisis-track full protocol framework Weekly-Review MUST have codified by Mon open).
+  4. **Data Quality Gate Day 76 Mon continues to bind primary candidate execution** unless multi-source ≥3-source ≤4% convergent for planned entry.
+  5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +19.63% Fri baseline for Mon Wk 13 forward. Fri alpha compression (−0.56% 1st negative day post-KLBF cut in trio) marks IHSG rebound cost surfacing; alpha runway re-expands on any IHSG correction.
+  6. Wk 13 planning window Mon Jul 13 pre-market: fresh RESEARCH-LOG entry + Wk 13 BUY slot allocation (3 fresh slots) + candidate cluster convergence pending IDR gate resolution.
+
+---

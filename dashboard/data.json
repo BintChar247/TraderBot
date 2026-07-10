@@ -887,6 +887,23 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-07-10",
+      "day_label": "Day 60",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5918.47,
+      "ihsg_close_basis": "Fri Jul 10 sesi I provisional 5,918.47 (Kompas / Liputan6 / Disway / Bisnis 4-source convergent; +6.03 pt +0.10% intraday sesi I; volume 11.5B sh / value Rp 4.7T; sector leadership IDX Property +1.22% / Transportation +1.12% / Basic Materials +1.09%); sesi II final Fri not multi-source convergent at 15:15 WIB filing; Mon Jul 13 pre-market or weekly-review will reconcile if surfaces multi-source convergent overnight",
+      "ihsg_cumulative_pct": -22.47,
+      "alpha_pct": 19.63,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Week 12 Day 5 CLOSED (LAST DAY) / post-KLBF hard-cut Day 4 / IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED overlay persists (Thu close 18,103.90 pierced \u226518,050 Stage 5 threshold + 2nd consecutive sustained \u226518,000 = Stage 4 CONFIRMED-HARD-ENGAGED). Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Market-open BBCA (score 7, down from 8 Thu) + BMRI (paired-conditional) both SKIPPED at 09:15 WIB \u2014 regime pre-condition FAIL (Stage 5 threshold piercing = crisis-track engagement gate ARMED; pre-emptive de-risk-halt = 0% new entries) + Gate 9 FAIL (Data Quality Gate Day 75 outage; broker.sh quote returns ERROR for un-held tickers). No P&L change: portfolio flat Day 4; IHSG sesi I +0.56% modest positive drift = 1st negative alpha day post-KLBF cut in trio (Wed +0.39% / Thu +0.58% / Fri \u22120.56%); cumulative alpha compression \u22120.43pp Thu +20.06% \u2192 Fri +19.63%; structural alpha now 1.71pp below reconciled Day 50 +21.34% baseline (compression widening from Thu 1.28pp). Drawdown from peak \u22123.10% unchanged; daily P&L 0.00% within \u22122% cap; weekly \u22121.53% within \u22125% cap; NO halt triggers. IDR gate status Fri EOD: Stage 5 threshold piercing persists; sub-17,950 sustained close needed to re-earn DE-ARM watch; not achieved at 15:15 WIB filing. Carry-over Mon Wk 13: pre-market 07:00 WIB reads Fri sesi II final + IDR close + weekend Asian/US tape; BBCA/BMRI paired-conditional re-eligible only on IDR sub-17,950 sustained 2-of-2 AND cluster \u22653-source \u22644% relaxed at \u22646,000\u20136,050 (BBCA) / \u22643,900\u20133,980 (BMRI); Data Quality Gate Day 76 continues to bind execution. 10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review Fri Jul 10 = 32+ cumulative unused candidate-day slots trial-to-date. Weekly-review MUST codify Stage 5 crisis-track full protocol (framework currently undefined) + resolution scenarios for Mon Wk 13 open."
     }
   ],
   "positions": [],
@@ -9976,8 +9993,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 57,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 57)",
+    "trial_days_elapsed": 60,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 60)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -9986,8 +10003,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -22.14,
-    "cumulative_alpha_pct": 19.31,
+    "ihsg_cumulative_pct": -22.47,
+    "cumulative_alpha_pct": 19.63,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -9995,7 +10012,7 @@
     "open": 0
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY2-IDR-ESCALATION-ENGAGED-PARTIAL-DE-ARM-1of2",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5-IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": -1.53,
     "current_equity": 9716207500,
@@ -10008,12 +10025,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-29T04:35:28Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. ITMG -2.30%, BBRI -5.52%; no hard-cuts, no tightening, theses intact (BBRI Q1 earnings T-0 after-hours)."
-    },
     {
       "timestamp": "2026-04-29T08:35:33Z",
       "routine": "daily-summary",
@@ -14689,6 +14700,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. Book 100% cash (0 positions) Day 5 post-KLBF hard-cut; IDR-STAGE-5-THRESHOLD-PIERCED regime binding."
+    },
+    {
+      "timestamp": "2026-07-10T08:19:01Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Fri Jul 10: IDR 9.72B flat (+0.00%). IHSG sesi I +0.56% \u2192 alpha \u22120.56%. Cum alpha +19.63%. 100% cash Day 4 post-KLBF; 0/6 positions; Wk 12 CLOSED 0/3 BUYs (10th consec 0/3-week formalises at 16:00 WIB weekly-review). IDR Stage 5 threshold pierced persists.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 60 EOD snapshot committed; Wk 12 CLOSED"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -14819,7 +14842,7 @@
       "KLBF hard-cut lesson consolidation weekly-review TODAY: DATA-OUTAGE-BOUNDED HOLD RULE + broker.sh cmd_sell MD_LAST_PRICE_OVERRIDE 5th-deferral"
     ]
   },
-  "last_updated": "2026-07-10T07:00:00+07:00",
+  "last_updated": "2026-07-10T15:15+07:00",
   "market": {
     "foreign_flow_note": "Wed Jul 8 foreign net-sell 710M sh (improved from Tue -1.04B); YTD ~Rp 61.3T cumulative outflow. Top disposals Wed: BBRI (5th consec strike-1), MAPI, TPIA, EMAS, ISAT. BBCA solo net BUY Rp 201.8B = idiosyncratic-preference tape 5th session.",
     "global_note": "US Thu Jul 9: S&P +0.81% to 7,543.64 / Nasdaq +1.30% to 26,206.89 / Dow +0.27% to 52,487.41 \u2014 chip rally + AI optimism offset Iran concerns. Asia Thu: Nikkei +1.83% to 68,042.75 / Hang Seng +0.19% to 23,541.22 / Shanghai +1.65% to 4,036.59. VIX sub-20 calm. Indo 10Y SUN 7.14%; US 10Y ~4.30-4.35%. Brent Jul 9 close 76.97 -1.35%; Newcastle coal <$130 (Hormuz peace priced back). LME nickel $16,300 multi-month low; Indo quota reversal 260 to 360M tonnes = major supply glut deepening.",
