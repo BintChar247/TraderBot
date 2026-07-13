@@ -7835,3 +7835,52 @@ Fri Jul 10 sesi I provisional 5,918.47 (Kompas / Liputan6 / Disway / Bisnis 4-so
   6. Wk 13 planning window Mon Jul 13 pre-market: fresh RESEARCH-LOG entry + Wk 13 BUY slot allocation (3 fresh slots) + candidate cluster convergence pending IDR gate resolution.
 
 ---
+
+
+### 2026-07-13 09:15 WIB — MARKET-OPEN (Week 13 Day 1, first execution of the week; IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED = crisis-track engagement gate ACTIVATED)
+
+**Action: NO TRADES PLACED. Book remains 100% cash IDR 9,716,207,500. 11th consecutive 0/3 BUY-slot week trajectory starts.**
+
+**Candidates evaluated per RESEARCH-LOG 2026-07-13 plan:**
+
+- **No ticker scored ≥6 on today's watchlist scan.** Top 4 by score all tied at 5/10 (WATCH-only): BMRI, INDF, AKRA, TLKM. None cleared the deep-dive threshold; none proposed for entry today.
+- **BBCA (score 3, DOWNGRADED)** — Wk 12 primary candidate paired-inflection thesis BROKEN Fri Jul 10 (top foreign net-sell Rp 132.8B, flipped from Wed Jul 8 net-BUY Rp 201.8B in 2 sessions). Removed from candidate list.
+- **BMRI (5/10, WATCH-only)** — Analyst Mon Jul 13 rec list; Jan-May +19% YoY LEADING Big-4; BEI weight +24bp. BBCA paired-conditional GONE with thesis break; independently blocked by IDR Stage 5 crisis-track engagement gate. **SKIP.**
+- **INDF (5/10, WATCH-elevated)** — ONLY consumer name net-inflow YTD +Rp 58B (idiosyncratic-preference sub-thesis). Blocked by IDR Stage 5 crisis-track + Data Quality Gate Day 76 outage. **SKIP.**
+- **AKRA (5/10, WATCH-elevated)** — Q2 print Jul 27 T+14; MNC Sekuritas top pick recent; distribution-margin neutral in Brent range-bound. Blocked by IDR Stage 5 crisis-track + Data Quality Gate Day 76 outage. **SKIP.**
+- **TLKM (5/10, WATCH-elevated)** — Spectrum auction RESOLVED Jul 11: Telkomsel 2.6 GHz DOMINANT (Rp 545.84B, 80MHz); binary catalyst removed; best-positioned CAPEX absorption. Blocked by IDR Stage 5 crisis-track + Data Quality Gate Day 76 outage. **SKIP.**
+
+**Gate summary (all four WATCH-elevated tickers):**
+- Gate 1 (positions ≤6): PASS (0 → 0)
+- Gate 2 (trades/week ≤3): PASS (0/3 Wk 13 buys)
+- Gate 3 (≤20% equity per position): PASS (would-be 5% cap = ~486M IDR each)
+- Gate 4 (cost ≤ cash): PASS (cash 9,716M)
+- Gate 5 (catalyst documented): PASS (RESEARCH-LOG 2026-07-13 entry)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV >500k): PASS (all four exceed threshold)
+- Gate 8 (lot multiple of 100): PASS
+- **Gate 9 (price within 3% of planned): FAIL — cluster non-convergent under Data Quality Gate Day 76 outage; broker.sh quote returns ERROR: _paper_quote cannot produce a price for un-held tickers**
+- **Regime pre-condition (IDR sub-17,950 sustained 2-of-2 DE-ARM): FAIL — Fri Jul 10 close 18,087.80 = 2ND CONSECUTIVE ≥18,050 sustained close = Stage 5 CONFIRMED-HARD-ENGAGED = crisis-track engagement gate ACTIVATED = 0% new entries binding regardless of ticker fundamentals**
+
+**Portfolio state at 09:15 WIB market-open:**
+- Equity: IDR 9,716,207,500 (100.00% cash)
+- Open positions: 0
+- Trades this week (Wk 13): 0 BUYs (fresh week; 3/3 slot allocation available but gated by crisis-track)
+- Wk 13 slot allocation: 0/3 used → 3 remaining Tue-Fri window (all subject to IDR Stage 5 crisis-track resolution)
+- Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY6 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED overlay (crisis-track engagement gate ACTIVATED)
+- Cumulative alpha: +19.63% (Fri Wk 12 close baseline; Mon Jul 13 forward re-anchors on Fri Jul 10 5-source convergent close 5,924.26)
+
+**Next re-eligibility gate:**
+- Requires IDR sub-17,750 sustained close 3-of-3 consecutive sessions (per Wk 12 suggested crisis-track resolution framework) AND MSCI Info-Flow overhang absorbed AND foreign-flow inflection re-confirmed (BBCA-broken Fri Jul 10 sets baseline).
+- Currently at 18,087.80 = 337bps ABOVE 17,750 sub-threshold; ~137bps ABOVE Stage 5 threshold 18,050. Any sustained close ≥18,150 = further Stage 5 escalation.
+
+**Notes:**
+- Price source: broker.sh quote unavailable (Data Quality Gate Day 76 outage — yfinance + GoAPI 403-blocked, 76 consecutive sessions since Apr 21); WebSearch used for IDR gate check (Fri close 18,087.80) + IHSG anchor (Fri close 5,924.26 5-source convergent Kompas/Kontan/Databoks/MediaIndonesia/Infobanknews). No candidate cluster override attempted because regime pre-condition IDR Stage 5 gate already fails independently.
+- No RESEARCH-LOG addendum required — today's plan explicitly forecast SKIP under IDR Stage 5 CONFIRMED-HARD-ENGAGED crisis-track engagement gate ACTIVATED.
+- Notification path: scripts/notify.sh no-trade summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 1:** 33+ cumulative unused candidate-day slots trial-to-date. Wk 13 begins with 3/3 slot allocation but IDR Stage 5 crisis-track engagement gate ACTIVATED = expected 0/3 continuation unless IDR sub-17,750 sustained 3-of-3 sessions achieved mid-week.
+- **Structural overhangs binding Wk 13 open:** IDR Stage 5 CONFIRMED-HARD-ENGAGED (crisis-track ACTIVATED) + BBCA paired-inflection thesis BROKEN + S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation = dual-index-accessibility + FX-crisis-track compounding structural weight.
+- **Book already 100% cash → no in-flight forced-close required under crisis-track engagement gate** (per Wk 12 suggested framework "close-all-positions + trading halt"). Trading halt operational for new entries only; no positions to close.
+
+---
+

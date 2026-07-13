@@ -9990,6 +9990,202 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Analyst top pick Mon Jul 13; Jan-May +19% YoY LEADING Big-4; BEI weight +24bp passive-inflow tailwind; blocked by IDR Stage 5 crisis-track engagement gate ACTIVATED.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Bisnis/Investor.id analyst rec list Mon Jul 13 + Big-4 dividend yield 11%+"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY6 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED"
+        },
+        {
+          "type": "risk",
+          "label": "IDR Stage 5 crisis-track engagement gate ACTIVATED = 0% new entries; BBCA paired thesis BROKEN removes companion"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap = ~486M IDR; halted by regime crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
+        }
+      ],
+      "reasoning": "Score 5/10 does not clear \u22656 deep-dive threshold; BBCA paired-inflection thesis BROKEN Fri Jul 10 removes companion; independently BLOCKED by IDR Stage 5 CONFIRMED-HARD-ENGAGED crisis-track engagement gate ACTIVATED.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ONLY consumer name net-inflow YTD +Rp 58B (idiosyncratic-preference tape sub-thesis); blocked by IDR Stage 5 crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole consumer-sector net-inflow YTD +Rp 58B (vs ICBP -962B, UNVR -431B, MYOR -367B, SIDO -201B)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY6 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED"
+        },
+        {
+          "type": "risk",
+          "label": "IDR Stage 5 crisis-track engagement gate ACTIVATED = 0% new entries; Jun CPI 3.34% Y-o-Y accelerated hawkish reinforces BI restrictive"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap = ~486M IDR; halted by regime crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
+        }
+      ],
+      "reasoning": "Score 5/10 does not clear \u22656 deep-dive threshold; BLOCKED by IDR Stage 5 CONFIRMED-HARD-ENGAGED crisis-track engagement gate ACTIVATED regardless of idiosyncratic-preference tape strength.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Jul 27 T+14; MNC Sekuritas top pick recent; distribution-margin neutral in Brent range-bound; blocked by IDR Stage 5 crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 2026 print Jul 27 T+14 + MNC Sekuritas recent top pick"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY6 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED"
+        },
+        {
+          "type": "risk",
+          "label": "IDR Stage 5 crisis-track engagement gate ACTIVATED = 0% new entries; Brent 76 range-bound sub-$80 uncertainty"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap = ~486M IDR; halted by regime crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
+        }
+      ],
+      "reasoning": "Score 5/10 does not clear \u22656 deep-dive threshold; BLOCKED by IDR Stage 5 CONFIRMED-HARD-ENGAGED crisis-track engagement gate ACTIVATED; Q2 print T+14 still distant.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Spectrum auction RESOLVED Fri Jul 11 \u2014 Telkomsel 2.6 GHz DOMINANT (Rp 545.84B, 80MHz); binary catalyst removed; best-positioned CAPEX absorption per analyst; blocked by IDR Stage 5 crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Spectrum auction RESOLVED Jul 11: Telkomsel 2.6 GHz dominant 80MHz Rp 545.84B (vs Indosat Rp 372B / XLSMART Rp 231.6B); binary removed"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY6 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED"
+        },
+        {
+          "type": "risk",
+          "label": "IDR Stage 5 crisis-track engagement gate ACTIVATED = 0% new entries; industry EBITDA -1.9%/-4.4% 26F/27F sector-wide margin compression"
+        },
+        {
+          "type": "sizing",
+          "label": "Would-be 5% cap = ~486M IDR; halted by regime crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
+        }
+      ],
+      "reasoning": "Score 5/10 does not clear \u22656 deep-dive threshold; BLOCKED by IDR Stage 5 CONFIRMED-HARD-ENGAGED crisis-track engagement gate ACTIVATED regardless of spectrum-auction favorable outcome.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -10025,52 +10221,6 @@
     "max_new_trades_week": 3
   },
   "activity_log": [
-    {
-      "timestamp": "2026-04-30T02:28:54Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed (5th consecutive no-trade day). BBRI Q1 print resolved benign (3,070 flat = in-line); both held positions HOLD. 4 candidates SKIP \u2014 final-week clock + eagerness FAIL.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "hard-cut 24,250 unchanged; mark ~25,475 (-2.30%); coal sub-$130 single-print risk-flag"
-        },
-        {
-          "type": "hold",
-          "ticker": "BBRI",
-          "detail": "hard-cut 3,031 unchanged; mark 3,070 (-5.83%); Q1 print resolved benign"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "Gate 5 (catalyst freshness) \u2014 HPM Decree T+15 stale"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "Gate 9 (data integrity) \u2014 multi-source price spread"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI add-on",
-          "detail": "No fresh catalyst; final-week clock"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG add-on",
-          "detail": "Adverse single-print coal; final-week clock"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override path (yfinance blocked since Apr 21)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify failed (host not in allowlist) \u2014 printed to stdout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-04-30T04:37:31Z",
       "routine": "midday",
@@ -14712,6 +14862,42 @@
         {
           "type": "regime",
           "detail": "IDR Stage 5 CONFIRMED-HARD-ENGAGED per 2-of-2 sustained >=18,050 close Thu-Fri"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-13T02:18:29Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDR Stage 5 CONFIRMED-HARD-ENGAGED (Fri Jul 10 close 18,087.80 = 2nd consecutive \u226518,050 sustained close) = crisis-track engagement gate ACTIVATED = 0% new entries. Top-scored watchlist tickers all 5/10 (BMRI/INDF/AKRA/TLKM); none clear \u22656 deep-dive threshold. BBCA paired-inflection thesis BROKEN Fri (top foreign net-sell Rp 132.8B, flipped from Wed net-BUY Rp 201.8B in 2 sessions). Book 100% cash IDR 9,716,207,500. 11th consecutive 0/3 BUY-slot week trajectory starts.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
+        },
+        {
+          "type": "warning",
+          "detail": "BBCA paired-inflection thesis BROKEN Fri Jul 10"
         }
       ]
     }
