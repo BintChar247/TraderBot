@@ -930,14 +930,14 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 5986.5,
-      "ihsg_close_basis": "Tue Jul 14 pre-market provisional carry from Mon Jul 13 close 5,986.50 (3-source Investing.com / beritamoneter / bisnis); Tue sesi I + sesi II will reconcile at midday and EOD",
-      "ihsg_cumulative_pct": -21.58,
-      "alpha_pct": 18.74,
+      "ihsg_close": 6074.61,
+      "ihsg_close_basis": "Tue Jul 14 sesi I 6,074.61 3-source convergent (disway / cnnindonesia / bloombergtechnoz at 6,074.04-6,074.61 midpoint 6,074.61; +36.77 pt +0.61% sesi I); sesi II final Tue not multi-source convergent at 15:15 WIB filing; anchor Mon Jul 13 sesi I 5,930.83 per sesi-I-to-sesi-I convention retained (Mon sesi II final now 4-source convergent at 6,037.84 \u2014 convention shift decision deferred to Fri Wk 13 weekly-review)",
+      "ihsg_cumulative_pct": -20.43,
+      "alpha_pct": 17.59,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "note": "Week 13 Day 2 pre-market provisional / post-KLBF hard-cut Day 6 / IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED DEEPENING (Tue intraday 18,140.9 = 3rd consecutive session \u226518,050 sustained + approaching 18,150 further-escalation threshold + 52-wk high 18,197.5 only 57 IDR upside) + BRENT-SHOCK-OVERLAY (Iran Strait of Hormuz formal closure Sun Jul 12; Brent +4.2% overnight to $79.22) + US Mon sold off S&P -0.79% / Nasdaq -1.55%. Book remains 100% cash IDR 9,716,207,500; zero equity market exposure. Pre-market scan surfaced 1 candidate \u22656: BMRI 6/10 (Mon rally leader +4.17% to 4,250; Jan-May +19% YoY LEADING Big-4; BEI weight +24bp) \u2014 BLOCKED by IDR Stage 5 CONFIRMED-HARD-ENGAGED regime pre-condition + R:R 1.18:1 fails 2:1 minimum + Data Quality Gate Day 77 outage. Top 4 scored WATCH-only: BBNI 5 / INDF 5 / AKRA 5 / TLKM 5. 11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 2. Carry-over to Tue market-open 09:15 WIB: BMRI conditional-entry only if IDR Tue sesi I sustained \u226417,950 AND cluster \u22644,377 3-source AND IHSG \u22655,900 AND R:R \u22652:1 (all 4 highly unlikely to clear). Flagged risks: (1) IDR Stage 5 DEEPENING; (2) Brent shock overlay; (3) Foreign flow YTD -$3.36B; (4) CPO bearish; (5) Global risk-off US Mon."
+      "note": "Week 13 Day 2 EOD / post-KLBF hard-cut Day 6 / IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED DEEPENING (Tue intraday IDR 18,140.9 = 3rd consecutive session \u226518,050 sustained + 57 IDR below 52-wk high 18,197.5) + BRENT-SHOCK-OVERLAY persists (Iran Strait of Hormuz formal closure Sun Jul 12; Brent +4.2% overnight to $79.22). Book remains 100% cash IDR 9,716,207,500; zero equity market exposure Day 6. Market-open NO TRADES: BMRI 6/10 primary SKIPPED on R:R 1.18:1 FAIL 2:1 minimum + IDR Stage 5 CONFIRMED-HARD-ENGAGED regime FAIL + Data Quality Gate Day 77 outage; BBNI/INDF/AKRA/TLKM WATCH-only 5/10 all SKIPPED below 6-threshold + regime FAIL. IHSG sesi I +2.42% S&P-catalyst rally (Indonesia BBB / A-2 reaffirmation Mon evening carried into Tue open) surfaces sharp alpha compression: daily alpha \u22122.42% (largest single-day negative since KLBF cut); cumulative alpha compresses \u22121.88pp from Mon +19.47% to Tue +17.59%; structural trajectory now 3.75pp below reconciled Day 50 +21.34% baseline. 11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 2; 34+ cumulative unused candidate-day slots trial-to-date. Carry-over to Wed pre-market: IDR Stage 5 resolution check (sustained close <17,750 = 1-of-3 DE-ARM engaged); IHSG anchor convention shift consideration (sesi-II-to-sesi-II with Mon 6,037.84 baseline vs sesi-I-to-sesi-I current) deferred to Fri weekly-review; Data Quality Gate Day 78 continues to bind."
     }
   ],
   "positions": [],
@@ -10456,8 +10456,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 60,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 60)",
+    "trial_days_elapsed": 62,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 62)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -10466,8 +10466,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -22.47,
-    "cumulative_alpha_pct": 19.63,
+    "ihsg_cumulative_pct": -20.43,
+    "cumulative_alpha_pct": 17.59,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -10475,7 +10475,7 @@
     "open": 0
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5-IDR-ESCALATION-STAGE-5-THRESHOLD-PIERCED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY7-IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED-DEEPENING-BRENT-SHOCK-OVERLAY",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -10486,27 +10486,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-07-13"
+    "updated": "2026-07-14"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-01T04:40:01Z",
-      "routine": "midday",
-      "status": "warning",
-      "summary": "Hard-cut BBRI executed at -8.28% (Apr 30 close 2,990 vs hard-cut 3,031). ITMG held -4.12%, thesis intact.",
-      "actions": [
-        {
-          "type": "cut",
-          "ticker": "BBRI",
-          "detail": "-8.28% hard cut; sold 220,000 @ IDR 2,990; realized -IDR 59.4M"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "-4.12%, hard-cut 24,250, 3.00% buffer; thesis intact"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-01T08:15:00Z",
       "routine": "daily-summary",
@@ -15147,6 +15129,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Book 100% cash (0 open positions); no cuts, no stops to tighten, no thesis actions. IDR Stage 5 crisis-track engagement gate continues."
+    },
+    {
+      "timestamp": "2026-07-14T08:19:45Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 62 Wk 13 Day 2: IDR 9.72B flat (0.00%). Alpha \u22122.42% vs IHSG sesi I +2.42% S&P-catalyst rally = largest single-day alpha compression since KLBF cut; cum alpha 19.47\u219217.59%. 0 positions. 0/3 Wk 13 slots used; IDR Stage 5 DEEPENING binding.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 62 EOD snapshot committed; RISK-STATE + dashboard updated; Telegram notify.sh proxy-403 fallback to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -15288,7 +15282,7 @@
       "Data Quality Gate Day 76 outage persists; MD_LAST_PRICE_OVERRIDE for broker.sh cmd_sell 5th-deferred overdue-critical"
     ]
   },
-  "last_updated": "2026-07-14T07:00+07:00",
+  "last_updated": "2026-07-14T15:15:00+07:00",
   "market": {
     "foreign_flow_note": "Wed Jul 8 foreign net-sell 710M sh (improved from Tue -1.04B); YTD ~Rp 61.3T cumulative outflow. Top disposals Wed: BBRI (5th consec strike-1), MAPI, TPIA, EMAS, ISAT. BBCA solo net BUY Rp 201.8B = idiosyncratic-preference tape 5th session.",
     "global_note": "US Thu Jul 9: S&P +0.81% to 7,543.64 / Nasdaq +1.30% to 26,206.89 / Dow +0.27% to 52,487.41 \u2014 chip rally + AI optimism offset Iran concerns. Asia Thu: Nikkei +1.83% to 68,042.75 / Hang Seng +0.19% to 23,541.22 / Shanghai +1.65% to 4,036.59. VIX sub-20 calm. Indo 10Y SUN 7.14%; US 10Y ~4.30-4.35%. Brent Jul 9 close 76.97 -1.35%; Newcastle coal <$130 (Hormuz peace priced back). LME nickel $16,300 multi-month low; Indo quota reversal 260 to 360M tonnes = major supply glut deepening.",
