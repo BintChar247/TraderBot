@@ -10490,31 +10490,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-01T02:25:38Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. IDX CLOSED (Labor Day, May 1). Carry-forward: BBRI hard-cut breached at Apr 30 close (2,990 vs 3,031) \u2014 mandatory exit at May 2 open per rule. ITMG HOLD. Telegram 403 host-not-allowlisted (same infra condition since trial start).",
-      "actions": [
-        {
-          "type": "info",
-          "detail": "IDX closed Labor Day; no orders possible"
-        },
-        {
-          "type": "warning",
-          "detail": "BBRI hard-cut 3,031 breached Apr 30 close 2,990 \u2014 mandatory sell at May 2 open"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "hard-cut 24,250 unchanged; coal Newcastle $137.80 breakout +2.99% 24h"
-        },
-        {
-          "type": "info",
-          "detail": "No new entries \u2014 final-day eagerness check FAIL on all 50 tickers"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-01T04:40:01Z",
       "routine": "midday",
       "status": "warning",
@@ -15166,6 +15141,12 @@
           "detail": "Brent shock overlay +4.2% on Iran Hormuz formal closure Sun/Mon"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-14T04:36:14Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Book 100% cash (0 open positions); no cuts, no stops to tighten, no thesis actions. IDR Stage 5 crisis-track engagement gate continues."
     }
   ],
   "exposure": {
