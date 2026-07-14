@@ -7960,3 +7960,51 @@ Mon Jul 13 sesi I provisional 5,930.83 (Kompas / Okezone / Liputan6 3-source con
 
 ---
 
+### 2026-07-14 09:15 WIB — MARKET-OPEN (Week 13 Day 2; IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED DEEPENING + Brent shock overlay)
+
+**Action: NO TRADES PLACED. Book remains 100% cash IDR 9,716,207,500. 11th consecutive 0/3 BUY-slot week trajectory Day 2.**
+
+**Candidates evaluated per RESEARCH-LOG 2026-07-14 plan:**
+
+- **BMRI (6/10, first Wk 13 ≥6 candidate)** — LED Mon Big-4 bank rally +4.17% to IDR 4,250 close (5-source news convergence Investing.com / beritamoneter / bisnis / kompas / kabarbursa); Jan-May +19% YoY EPS Big-4 leader; BEI weight +24bp passive-inflow; Q2 print TBD mid-late Jul. Trade plan: entry 4,250 / stop 3,953 (-7%) / target 4,600 = R:R 1.18:1 **FAILS 2:1 minimum**. Also blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING crisis-track engagement gate + Data Quality Gate Day 77 outage. **SKIP.**
+- **BBNI (5/10, WATCH-elevated)** — Mon rally participant +3.22% to 3,520; BEI weight +4bp mildest of Big-4. Below 6/10 threshold + regime pre-condition FAIL. **SKIP.**
+- **INDF (5/10, WATCH-elevated)** — Sole consumer name net-inflow YTD +Rp 58B (idiosyncratic-preference tape persists). Brent shock +4.2% WEAKENS CPI-relief consumer thesis. Below 6/10 + regime FAIL. **SKIP.**
+- **AKRA (5/10, WATCH-elevated)** — Q2 print Jul 27 T+13; MNC Sekuritas top pick recent; Brent shock negative T+1 distribution margin. Below 6/10 + regime FAIL. **SKIP.**
+- **TLKM (5/10, WATCH-elevated)** — Spectrum auction resolved Jul 11: Telkomsel 2.6 GHz DOMINANT (Rp 545.84B, 80MHz); binary catalyst removed. Below 6/10 + regime FAIL + Data Quality Gate cluster non-convergent Wks 10-12. **SKIP.**
+
+**Gate summary (BMRI primary candidate 6/10):**
+- Gate 1 (positions ≤6): PASS (0 → 1)
+- Gate 2 (trades/week ≤3): PASS (0/3 Wk 13 buys)
+- Gate 3 (≤5% regime cap): PASS (would-be 5% cap = ~486M IDR)
+- Gate 4 (cost ≤ cash): PASS (cash 9,716M)
+- Gate 5 (catalyst documented): PASS (RESEARCH-LOG 2026-07-14 entry)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV >500k): PASS (mega-cap; ADV verification blocked by data infra but well above threshold)
+- Gate 8 (lot multiple of 100): PASS
+- **Gate 9 (price within 3% of planned): PENDING — cluster non-convergent under Data Quality Gate Day 77 outage; broker.sh quote returns ERROR: _paper_quote cannot produce a price for un-held tickers; Mon close 4,250 5-source news convergent = REFERENCE ONLY not tape-verified for Tue open**
+- **Entry Checklist item 4 (R:R ≥2:1): FAIL — 1.18:1 from Mon close 4,250 entry / 3,953 stop / 4,600 target**
+- **Regime pre-condition (IDR sub-17,950 sustained 2-of-2 DE-ARM): FAIL — Tue intraday IDR 18,140.9 = 3rd CONSECUTIVE ≥18,050 sustained session = Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING = crisis-track engagement gate ACTIVATED CONTINUES = 0% new entries binding regardless of ticker fundamentals; only 57 IDR upside to 52-wk high 18,197.5**
+- **Brent shock overlay (+4.2% to $79.22 on Iran Strait of Hormuz formal closure Sun/Mon)**: WEAKENS consumer CPI-relief thesis (UNVR/ICBP/INDF) and negative T+1 distribution-margin for AKRA; MEDC/PGAS possible upside but blocked by data infra + regime
+
+**Portfolio state at 09:15 WIB market-open:**
+- Equity: IDR 9,716,207,500 (100.00% cash)
+- Open positions: 0
+- Trades this week (Wk 13): 0 BUYs (Day 2 of 5; 3/3 slot allocation remain but gated by crisis-track)
+- Wk 13 slot allocation: 0/3 used → 3 remaining Tue-Fri window (all subject to IDR Stage 5 crisis-track resolution)
+- Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY7 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED-DEEPENING + BRENT-SHOCK-OVERLAY
+- Cumulative alpha: +19.47% carryover baseline (Mon Wk 13 Day 1 close reference)
+
+**Next re-eligibility gate:**
+- Requires IDR sub-17,750 sustained close 3-of-3 consecutive sessions (crisis-track resolution framework) AND MSCI Info-Flow overhang absorbed AND foreign-flow inflection re-confirmed AND R:R ≥2:1 achievable at fresh cluster mark.
+- Currently at 18,140.9 = 391bps ABOVE 17,750 sub-threshold; ~91bps ABOVE Stage 5 threshold 18,050; only 57 IDR below 52-wk high 18,197.5.
+
+**Notes:**
+- Price source: broker.sh quote unavailable (Data Quality Gate Day 77 outage — yfinance + GoAPI 403-blocked, 77 consecutive sessions since Apr 21); WebSearch used for IDR gate check (Tue intraday 18,140.9 tradingeconomics.com) + IHSG anchor (Mon close 5,986.50 3-source convergent Investing.com/beritamoneter/bisnis) + Brent shock (+4.2% to $79.22 tradingeconomics.com/aljazeera). No candidate cluster override attempted because R:R FAIL + regime FAIL are both independently binding.
+- No RESEARCH-LOG addendum required — today's plan explicitly forecast SKIP under IDR Stage 5 DEEPENING crisis-track engagement gate ACTIVATED + Brent shock overlay.
+- Notification path: scripts/notify.sh no-trade summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 2:** 33+ cumulative unused candidate-day slots trial-to-date. Wk 13 remains 3/3 slot allocation but IDR Stage 5 DEEPENING = expected 0/3 continuation.
+- **Structural overhangs binding Wk 13 Day 2 open:** IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING (crisis-track ACTIVATED) + Brent shock CPI vector + S&P DJI 2027 Country Classification Watchlist + MSCI Info-Flow overhang + Nov 2026 Frontier-downgrade consultation = quadruple structural weight now.
+- **Book already 100% cash → no in-flight forced-close required under crisis-track engagement gate.** Trading halt operational for new entries only; no positions to close.
+
+---
+

@@ -10220,6 +10220,239 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Bank Mandiri LED Mon Big-4 bank rally +4.17% to IDR 4,250; Jan-May +19% YoY EPS Big-4 leader; Q2 print TBD mid-late Jul. First Wk 13 6/10 candidate but blocked by IDR Stage 5 crisis-track engagement gate ACTIVATED + R:R 1.18:1 fails 2:1 minimum.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mon Big-4 rally leader +4.17%; Q2 2026 print pending mid-late Jul"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY7 + IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED-DEEPENING (18,140.9 Tue intraday = 3rd consec >=18,050 sustained) + Brent shock overlay (+4.2%)"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.18:1 fails 2:1 minimum (entry 4,250 / stop 3,953 -7% / target 4,600 +8.2%); regime pre-emptive de-risk-halt CRISIS-TRACK-ENGAGED = 0% new entries"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap = IDR 485,810,375 = 114,300 sh (100-lot rounded) \u2014 not deployed"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 77 outage (yfinance + GoAPI 403-blocked since Apr 21); ADV verification blocked for Gate 7 + 14"
+        }
+      ],
+      "reasoning": "SKIP \u2014 primary regime pre-condition FAIL (IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING = crisis-track engagement gate ACTIVATED = 0% new entries binding). Secondary blocker: R:R 1.18:1 fails 2:1 minimum. Tertiary: Data Quality Gate Day 77 outage blocks ADV verification.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-07-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI participated in Mon Big-4 rally +3.22% to IDR 3,520; BEI weight +4bp mildest of Big-4; score 5/10 (below 6 threshold); blocked by IDR Stage 5 regime pre-condition.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mon bank rally participant +3.22%; no fresh binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING regime pre-condition FAIL"
+        },
+        {
+          "type": "risk",
+          "label": "Score 5/10 below 6 threshold; no fresh entry"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 not evaluated for sizing (score-fail)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 score 5/10 below 6 threshold + regime pre-condition FAIL (IDR Stage 5 crisis-track engagement gate ACTIVATED).",
+      "gate_results": [
+        false,
+        false,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "INDF is sole consumer name net-inflow YTD +Rp 58B (idiosyncratic-preference tape); score 5/10 (below 6 threshold); Brent shock +4.2% weakens CPI-relief thesis; blocked by IDR Stage 5.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole consumer net-inflow YTD +Rp 58B idiosyncratic; no fresh binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 regime pre-condition FAIL + Brent shock CPI-relief thesis WEAKENED"
+        },
+        {
+          "type": "risk",
+          "label": "Score 5/10 below 6 threshold"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a"
+        }
+      ],
+      "reasoning": "SKIP \u2014 score 5/10 below 6 threshold + regime pre-condition FAIL + Brent shock overlay weakens consumer CPI-relief thesis.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AKRA Q2 print Jul 27 T+13; MNC Sekuritas top pick recent; distribution-margin negative T+1 on Brent shock; score 5/10; blocked by IDR Stage 5.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 2026 print Jul 27 T+13; MNC Sekuritas top pick"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 regime pre-condition FAIL + Brent shock negative T+1 distribution margin"
+        },
+        {
+          "type": "risk",
+          "label": "Score 5/10 below 6 threshold"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a"
+        }
+      ],
+      "reasoning": "SKIP \u2014 score 5/10 below 6 threshold + regime pre-condition FAIL + Brent shock negative T+1 distribution margin.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TLKM best-positioned post spectrum auction (Telkomsel 2.6 GHz dominant 80MHz Rp 545.84B); score 5/10; blocked by IDR Stage 5 regime pre-condition + Data Quality Gate cluster non-convergence Wks 10-12.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Spectrum auction resolved Jul 11; Telkomsel 2.6 GHz dominant"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 regime pre-condition FAIL"
+        },
+        {
+          "type": "risk",
+          "label": "Score 5/10 below 6 threshold; Data Quality Gate cluster non-convergent Wks 10-12"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 77 outage persists"
+        }
+      ],
+      "reasoning": "SKIP \u2014 score 5/10 below 6 threshold + regime pre-condition FAIL + Data Quality Gate cluster non-convergent Wks 10-12.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        false
+      ]
     }
   ],
   "stats": {
@@ -10256,40 +10489,6 @@
     "updated": "2026-07-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-01T01:04:29Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Pre-market 2026-05-01 (IDX CLOSED Labor Day): 50-ticker scan complete; 0 candidates \u22656 with fresh catalyst. BBRI hard-cut 3,031 BREACHED at Apr 30 close 2,990 \u2014 EXECUTE SELL at May 2 open. ITMG HOLD; coal $137.80 breakout (+2.99%). Final trial day tomorrow.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored >=6 (final-day eagerness FAIL across all tickers)"
-        },
-        {
-          "type": "alert",
-          "ticker": "BBRI",
-          "detail": "HARD-CUT 3,031 BREACHED at Apr 30 close 2,990 \u2014 sell at May 2 open per rule"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "25,000 close (-4.12%); coal $137.80 breakout supportive; HOLD into trial close"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram 403 host not in allowlist \u2014 fallback to stdout"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance still blocked since Apr 21; broker.sh quote returns entry-price fallback"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-01T02:25:38Z",
       "routine": "market-open",
@@ -14920,6 +15119,51 @@
         {
           "type": "macro",
           "detail": "IDR 18,140.9 Stage 5 DEEPENING; Brent shock +4.2% Iran Hormuz closure; US Mon -0.79% S&P; Book 100% cash HOLD"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-14T02:18:40Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 13 Day 2. BMRI 6/10 top candidate SKIP: R:R 1.18:1 fails 2:1 + IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING crisis-track ACTIVATED (Tue intraday 18,140.9) + Brent shock overlay +4.2%. 4 other WATCH-elevated 5/10 tickers (BBNI/INDF/AKRA/TLKM) all below 6 threshold + regime FAIL. 11th consecutive 0/3 BUY-slot week trajectory Day 2. Book remains 100% cash IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "6/10 candidate; R:R 1.18:1 fails 2:1 + IDR Stage 5 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "5/10 below threshold + regime FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10 below threshold + Brent shock weakens CPI-relief thesis + regime FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10 below threshold + Brent shock T+1 negative distribution + regime FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10 below threshold + regime FAIL + Data Quality Gate cluster non-convergent"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 77 outage persists (yfinance + GoAPI 403-blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Stage 5 CONFIRMED-HARD-ENGAGED DEEPENING; 57 IDR to 52-wk high 18,197.5"
+        },
+        {
+          "type": "warning",
+          "detail": "Brent shock overlay +4.2% on Iran Hormuz formal closure Sun/Mon"
         }
       ]
     }
