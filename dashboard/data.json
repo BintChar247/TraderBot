@@ -938,6 +938,23 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "note": "Week 13 Day 2 EOD / post-KLBF hard-cut Day 6 / IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED DEEPENING (Tue intraday IDR 18,140.9 = 3rd consecutive session \u226518,050 sustained + 57 IDR below 52-wk high 18,197.5) + BRENT-SHOCK-OVERLAY persists (Iran Strait of Hormuz formal closure Sun Jul 12; Brent +4.2% overnight to $79.22). Book remains 100% cash IDR 9,716,207,500; zero equity market exposure Day 6. Market-open NO TRADES: BMRI 6/10 primary SKIPPED on R:R 1.18:1 FAIL 2:1 minimum + IDR Stage 5 CONFIRMED-HARD-ENGAGED regime FAIL + Data Quality Gate Day 77 outage; BBNI/INDF/AKRA/TLKM WATCH-only 5/10 all SKIPPED below 6-threshold + regime FAIL. IHSG sesi I +2.42% S&P-catalyst rally (Indonesia BBB / A-2 reaffirmation Mon evening carried into Tue open) surfaces sharp alpha compression: daily alpha \u22122.42% (largest single-day negative since KLBF cut); cumulative alpha compresses \u22121.88pp from Mon +19.47% to Tue +17.59%; structural trajectory now 3.75pp below reconciled Day 50 +21.34% baseline. 11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 2; 34+ cumulative unused candidate-day slots trial-to-date. Carry-over to Wed pre-market: IDR Stage 5 resolution check (sustained close <17,750 = 1-of-3 DE-ARM engaged); IHSG anchor convention shift consideration (sesi-II-to-sesi-II with Mon 6,037.84 baseline vs sesi-I-to-sesi-I current) deferred to Fri weekly-review; Data Quality Gate Day 78 continues to bind."
+    },
+    {
+      "date": "2026-07-15",
+      "day_label": "Day 63",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6067.83,
+      "ihsg_close_basis": "Wed Jul 15 sesi I 6,067.83 4-source convergent (beritasatu / okezone / rri / cnnindonesia at 6,067-6,068; +28.31 pt +0.47% intraday sesi I vs prior day close; -6.78 pt -0.11% vs Tue sesi I 6,074.61 anchor per sesi-I-to-sesi-I convention; volume 18.41B sh / value Rp 6.23T; 360 adv / 236 dec / 197 unch; sector leadership Raw Materials +1.58% / Property +0.94% / Transportation +0.59%); sesi II final Wed not multi-source convergent at 15:15 WIB filing; Thu Jul 16 pre-market will reconcile if surfaces multi-source convergent overnight",
+      "ihsg_cumulative_pct": -20.52,
+      "alpha_pct": 17.68,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Week 13 Day 3 / post-KLBF hard-cut Day 7 / IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED with marginal intraday relief (Wed intraday IDR 18,070 = -70 IDR vs Tue 18,140.9 = 0.39% Rupiah recovery but STILL 20 IDR ABOVE Stage 5 threshold 18,050 = 4th consecutive session gated pending sesi II close reconciliation) + BRENT-SHOCK-OVERLAY persistence. Book remains 100% cash IDR 9,716,207,500; zero equity market exposure Day 7. Market-open NO TRADES: all WATCH-elevated candidates (BMRI/BBNI/INDF/AKRA/TLKM) remain gated by IDR Stage 5 crisis-track engagement gate ACTIVATED + Data Quality Gate Day 78 outage. IHSG sesi I -0.11% mild retreat vs Tue sesi I anchor = mild positive daily alpha +0.11% reversing Tue -2.42% acute compression; cumulative alpha recovers marginally +0.09pp from Tue +17.59% to Wed +17.68%; structural trajectory 3.66pp below reconciled Day 50 +21.34% baseline (mild compression relief from Tue 3.75pp). Drawdown from peak -3.10% unchanged; daily P&L 0.00% within -2% cap; weekly 0.00% within -5% cap; NO halt triggers. IDR gate status Wed EOD: Stage 5 CONFIRMED persists marginally; sub-17,750 sustained 3-of-3 needed to engage DE-ARM sequence; not achieved at 15:15 WIB filing (still 320bps above sub-threshold). 11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 3 = 35+ cumulative unused candidate-day slots trial-to-date. Carry-over Thu Wk 13 Day 4: pre-market 07:00 WIB reads Wed sesi II final + IDR sustained close + overnight Asian/US tape; BMRI/BBNI/INDF/AKRA/TLKM re-eligible only on IDR sub-17,750 sustained 3-of-3 AND cluster >=3-source <=4% relaxed; Data Quality Gate Day 79 continues to bind execution. Convention shift decision (sesi-I-to-sesi-I vs sesi-II-to-sesi-II) deferred to Fri Jul 17 Wk 13 weekly-review."
     }
   ],
   "positions": [],
@@ -10735,32 +10752,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-04T02:31:14Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Post-trial session (Apr 20\u2013May 2 trial window closed Apr 30 effective). Plan = HOLD ITMG only into May 7 Q1 earnings; no candidates scored >=6 outside the held position; cash 92.84% preserved.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27,300 sh @ 26,075 entry; mark Apr 30 25,000; hard-cut 24,250 (3.00% buffer)"
-        },
-        {
-          "type": "skip",
-          "ticker": "ADRO",
-          "detail": "score 6 informational only; post-trial window \u2014 no new entries"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance blocked; quotes via WebSearch"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram host-not-in-allowlist; notification printed to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-04T04:43:07Z",
       "routine": "midday",
       "status": "success",
@@ -15394,6 +15385,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (100% cash Day 7 post-KLBF cut, Wk 13 Day 3). No cuts, no stop tightens, no thesis exits possible."
+    },
+    {
+      "timestamp": "2026-07-15T08:19:17Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-07-15 (Day 63, Wk 13 Day 3): equity IDR 9,716,207,500 flat (0.00%); alpha +0.11% vs IHSG sesi I -0.11%; cash 100%; 0 positions; 0/3 trades this wk; cum alpha +17.68% (+0.09pp recovery from Tue -2.42%); IDR Stage 5 CONFIRMED persists (18,070 intraday still 20 IDR above 18,050 threshold); no risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 63 EOD snapshot appended to TRADE-LOG; RISK-STATE updated (halted=false, dd=-3.1%); dashboard/data.json entry added; Telegram notify fell back to stdout (proxy 403 expected)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -15535,7 +15538,7 @@
       "Data Quality Gate Day 76 outage persists; MD_LAST_PRICE_OVERRIDE for broker.sh cmd_sell 5th-deferred overdue-critical"
     ]
   },
-  "last_updated": "2026-07-14T15:15:00+07:00",
+  "last_updated": "2026-07-15T15:15:00+07:00",
   "market": {
     "foreign_flow_note": "Wed Jul 8 foreign net-sell 710M sh (improved from Tue -1.04B); YTD ~Rp 61.3T cumulative outflow. Top disposals Wed: BBRI (5th consec strike-1), MAPI, TPIA, EMAS, ISAT. BBCA solo net BUY Rp 201.8B = idiosyncratic-preference tape 5th session.",
     "global_note": "US Thu Jul 9: S&P +0.81% to 7,543.64 / Nasdaq +1.30% to 26,206.89 / Dow +0.27% to 52,487.41 \u2014 chip rally + AI optimism offset Iran concerns. Asia Thu: Nikkei +1.83% to 68,042.75 / Hang Seng +0.19% to 23,541.22 / Shanghai +1.65% to 4,036.59. VIX sub-20 calm. Indo 10Y SUN 7.14%; US 10Y ~4.30-4.35%. Brent Jul 9 close 76.97 -1.35%; Newcastle coal <$130 (Hormuz peace priced back). LME nickel $16,300 multi-month low; Indo quota reversal 260 to 360M tonnes = major supply glut deepening.",
