@@ -10453,6 +10453,251 @@
         null,
         false
       ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $86.35 +3.66% Iran/Hormuz shock = direct upside catalyst for oil-linked earnings; Tue Jul 14 top-mover.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $86.35 +3.66% Iran/Hormuz blockade threat"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED + IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst path blocked by regime pre-condition; Gate 9 chase cap NA (cluster non-convergent)"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 no entry attempted"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 78 outage; yfinance + GoAPI blocked 78 consecutive sessions"
+        }
+      ],
+      "reasoning": "Score 5/10 WATCH-elevated. SKIP: crisis-track engagement gate ACTIVATED (IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4 = structural score ceiling 5); Data Quality Gate Day 78 outage prevents multi-source cluster convergence at candidate entry price; R:R math not computable.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow consumer YTD (+Rp 58B); Sinarmas + Bloomberg technoz defensive relative thesis intact.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "YTD net foreign INFLOW +Rp 58B (only positive-flow consumer name)"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED + June CPI 3.34% hawkish"
+        },
+        {
+          "type": "risk",
+          "label": "Regime pre-condition FAIL; Data Quality Gate cluster non-convergent"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 no entry attempted"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 78 outage; MD_LAST_PRICE_OVERRIDE cmd_sell deferral overdue"
+        }
+      ],
+      "reasoning": "Score 5/10 WATCH-elevated. SKIP: crisis-track engagement gate ACTIVATED; June CPI 3.34% hawkish weakens CPI-relief thesis; Data Quality Gate Day 78 prevents \u22653-source \u22644% cluster convergence.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Jul 27 T+12; MNC Sekuritas top pick recent; +1.13% Tue Jul 14 to Rp 1,340.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 27 T+12; MNC top pick"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED + Brent $86 input-cost overlay"
+        },
+        {
+          "type": "risk",
+          "label": "Regime pre-condition FAIL; Brent input-cost uncertainty; Data Quality Gate outage"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 no entry attempted"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 78 outage; pre-earnings volatility inside window"
+        }
+      ],
+      "reasoning": "Score 5/10 WATCH-elevated. SKIP: Brent $86 = distribution margin uncertain (fuel-input cost near-term negative; volume-story neutral); crisis-track gate ACTIVATED; Data Quality Gate Day 78.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-07-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Jul 23 T+8; Rp 8T buyback partial-support; 56% auto market share; +0.62% Tue to Rp 4,880.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 23 T+8; Rp 8T buyback partial-support"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 = auto import-COGS negative; DEFENSIVE regime"
+        },
+        {
+          "type": "risk",
+          "label": "Heaviest Tue foreign sell despite +0.62% price; Defensive-Quality track SUSPENDED"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 no entry attempted"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 78 outage"
+        }
+      ],
+      "reasoning": "Score 5/10 WATCH-elevated. SKIP: Defensive-Quality Track SUSPENDED under DEFENSIVE regime; crisis-track gate ACTIVATED; IDR shock hits import-COGS negative for auto assembly; HEAVIEST Tue foreign sell = distribution behind price stability.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-utility; spectrum auction XLSMART cost absorbed sector-wide; TLKM neutral cost impact.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Spectrum auction resolved; defensive-utility intact"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4"
+        },
+        {
+          "type": "risk",
+          "label": "No fresh catalyst; regime pre-condition FAIL; Gate 9 cluster non-convergent"
+        },
+        {
+          "type": "sizing",
+          "label": "n/a \u2014 no entry attempted"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 78 outage"
+        }
+      ],
+      "reasoning": "Score 5/10 WATCH-elevated. SKIP: no fresh catalyst; crisis-track gate ACTIVATED; Data Quality Gate Day 78; requires cluster \u22642,990 + IDR de-arm before re-eligible.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -10489,27 +10734,6 @@
     "updated": "2026-07-14"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-01T08:39:28Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 10 EOD: IDR 9.911B (0.00% day; IDX closed Labor Day). Cum return -0.89% vs IHSG -9.77% = +8.88% cum alpha. 1 position open (ITMG -4.12%). BBRI hard-cut realized -IDR 59.4M earlier today. Trades this week: 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 10 snapshot committed (final-trial-day baseline)"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27,300 sh @ 25,000 mark; hard-cut 24,250; coal $137.80 breakout"
-        },
-        {
-          "type": "info",
-          "detail": "IDX closed Labor Day; daily P&L 0.00%; cash 93.11%"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-04T00:16:05Z",
       "routine": "pre-market",
@@ -15149,6 +15373,47 @@
           "type": "research",
           "ticker": "AKRA",
           "detail": "score 5/10 \u2014 Q2 print Jul 27 T+12 MNC top pick; blocked by Brent uncertainty + regime"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-15T02:17:57Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Wk 13 Day 3 crisis-track engagement gate ACTIVATED (IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4 at 18,096; Brent shock 6.35 +3.66%; Data Quality Gate Day 78 outage). All 5 WATCH-elevated candidates (MEDC/INDF/AKRA/ASII/TLKM) structurally capped at 5/10 under regime. Book 100% cash IDR 9.72B; 12th consecutive 0/3 BUY-slot week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "5/10 Brent-shock upside; regime + Data Quality gate FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10 sole net-inflow consumer; regime + CPI hawkish"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10 Q2 T+12; Brent input-cost uncertainty + regime"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "5/10 Q2 T+8; Defensive-Quality track SUSPENDED; heaviest foreign sell"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10 defensive-utility; regime + Data Quality gate FAIL"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 78 outage; MD_LAST_PRICE_OVERRIDE cmd_sell deferral remains overdue-critical"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification fell back to stdout (proxy 403)"
         }
       ]
     }
