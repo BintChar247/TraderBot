@@ -10735,34 +10735,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-04T00:16:05Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Post-trial pre-market scan: 50 tickers screened, 1 candidate \u22656 (ITMG=8, HOLD). EM-OUTFLOW regime intensified; banks foreign-sell magnet; coal floor 30 holds. No new entries planned.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "1 candidate scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "ITMG",
-          "detail": "score 8/10 - HELD; May 7 Q1 catalyst 3 days out, hard-cut 24,250 (3.00% buffer)"
-        },
-        {
-          "type": "research",
-          "ticker": "ADRO",
-          "detail": "score 6/10 - WATCH only; coal floor $130 holds"
-        }
-      ],
-      "commit_hash": "0870824",
-      "commit_message": ""
-    },
-    {
       "timestamp": "2026-05-04T02:31:14Z",
       "routine": "market-open",
       "status": "warning",
@@ -15416,6 +15388,12 @@
           "detail": "Telegram notification fell back to stdout (proxy 403)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-15T04:36:06Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (100% cash Day 7 post-KLBF cut, Wk 13 Day 3). No cuts, no stop tightens, no thesis exits possible."
     }
   ],
   "exposure": {
