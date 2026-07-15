@@ -15035,3 +15035,216 @@ Score each 1–10. Prices are Fri Jul 3 close best-source where surfaced; **~est
 - [ ] **Reconcile IHSG Mon Jul 13 close 5,986.50 (3-source Investing.com/beritamoneter/bisnis)** into TRADE-LOG anchor for Tue reference; supersedes Mon sesi I 5,930.83 provisional.
 
 ---
+
+## 2026-07-15 (Wednesday) — Week 13 Day 3 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY8 + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day4 + BRENT-SHOCK-OVERLAY-INTENSIFYING + Data-Quality-Gate-Day-78
+
+### Global Overnight (Tue Jul 14 close)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,543.59 | +0.38% | June CPI soft → chip-led lift; Fed rate-hike bets ease |
+| Nasdaq | 26,107.01 | +0.90% | Chip stocks rally leadership |
+| Dow | 52,508.27 | +0.02% | Flat close; regional bank pressure |
+| Shanghai Composite | 3,967.13 | +1.36% | Continued melt-up |
+| Hang Seng | 24,340.73 | +0.52% | +127.01 pt |
+| Nikkei 225 | 67,605 | +0.54% | +362 pt; Iran/inflation caveat |
+| VIX | n/a | n/a | Not surfaced this cycle |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Tue Jul 14 close) | 6,039.52 | +0.03% (+1.79 pt) | bisnis.com [url](https://market.bisnis.com/read/20260714/7/1987996/ihsg-ditutup-menguat-tipis-003-ke-6039-saham-wifi-untr-dan-medc-melaju); WIFI/UNTR/MEDC top movers |
+| IDR/USD | 18,096 (Tue latest ref ~18,042) | slight strength from 18,100 prev | Range 18,042-18,100; STILL ABOVE Stage 5 threshold 18,050 on most readings |
+| Indo 10Y SUN yield | 7.26% | flat | Tradingeconomics reference Jul 8 |
+| US 10Y yield | ~4.40% | ~-3 bp | Soft CPI drove yields lower |
+| Indo-US spread | ~286 bp | | Compressed vs prior weeks |
+| Newcastle coal | $128.60-128.70/t | +0.08% | BELOW $130/t thesis floor; India demand muted |
+| CPO palm oil | MYR 4,541/t | rebounded above 4,500 | Weaker ringgit + crude spillover |
+| LME nickel | $16,802.63/t | +0.37% | 5.68% down MoM; Indo quota supply overhang |
+| Brent crude | $86.35/bbl | +3.66% | Iran/Hormuz blockade threat = BRENT-SHOCK INTENSIFYING |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX Tue Jul 14) | −Rp 413B (net sell) | Moderate outflow; ASII heaviest sell |
+| Foreign flow streak | Continued net sell (weeks-long) | KSEI not surfaced convergent this cycle |
+| Top buying brokers | not surfaced | Data-outage limit |
+| Top selling brokers | not surfaced | Data-outage limit |
+| MSCI weight status | REMAINS EM confirmed Jun 24; Info-Flow NEGATIVE flagged | Nov 2026 Frontier-downgrade consultation possibility carry |
+| Bank Indonesia FX reserves | last surfaced $154.3B May | Stable-to-drift under IDR pressure |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Weak-neutral; ASII heaviest sell in Big-4 tape context | June CPI 3.34% (up from 3.08%) reduces cut odds; BI 5.75% | BBCA/BBRI/BMRI/BBNI — all SKIP under regime |
+| Coal / Energy | Weak fundamental; Brent shock differentiator | Newcastle sub-$130; Jan-Apr export −7.27%; Brent Iran shock lifts oil-linked | ADRO/ITMG/PTBA SKIP; MEDC watch |
+| Nickel / Mining | Weak; Indo 260→360Mt quota supply glut | LME sub-$17k; ENC HPAL ramp | ANTM/INCO/MDKA/NCKL/MBMA SKIP |
+| CPO / Agri | Mildly firm on MYR + crude tailwind | MPOB bearish underlying | AALI/LSIP SKIP-DEEPENED |
+| Property | Weak; rate-sensitive | Indo 10Y 7.26%; BI 5.75%; June CPI 3.34% | BSDE/CTRA/SMRA/PWON SKIP |
+| Consumer | Foreign redemption pressure (ICBP/MYOR/UNVR net sell YTD) | June retail data soft; MBG/bansos stimulus support | INDF sole net-inflow; UNVR/ICBP/MYOR WATCH; SIDO neutral |
+| Telco | Neutral post-spectrum-auction | XLSMART cost absorbed; TLKM neutral | TLKM/EXCL/ISAT/MTEL/TOWR WATCH |
+| Infrastructure | Mildly firm | JSMR neutral; SOE Karya merger overhang | JSMR/WSKT/PTPP/ADHI SKIP |
+| Auto/Heavy | Firm Tue via UNTR/MEDC | ASII +0.62% but heaviest foreign sell | ASII/UNTR WATCH |
+| Cement | Weak | Marginal growth 2026 outlook | SMGR/INTP SKIP |
+| Healthcare | Neutral post-KLBF cut | KLBF cool-down Day 7 | KLBF/MIKA WATCH-cool-down |
+| Tech | Weak | GOTO ARB floor Rp 50; FTSE Russell delisted | GOTO/BUKA/EMTK SKIP |
+
+### Corporate Calendar Today (Wed Jul 15) / This Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| Q2 2026 earnings season starts | IDX broad | Late Jul–early Aug window | Wave: ASII Jul 23 (T+8), AKRA Jul 27 (T+12), BBRI Aug 3, BMRI/BBCA TBC |
+| BI RDG (July) | — | Not scheduled surfaced this cycle | Prior June +25bp to 5.75%; no July meeting mentioned |
+| Indonesia CPI June | Macro | Released Jul 1 | 3.34% YoY (accelerated from 3.08%); upper BI 2.5±1% target; hawkish |
+| Indonesia trade balance May | Macro | Released Jul release | DEFICIT $1.61B — first in 6 years; IDR-negative structural |
+| Ex-div this week (IDX) | not surfaced convergent | | No fresh IDX ex-div announcements surfaced |
+
+### Watchlist Scan — All 50 Tickers (scored under crisis-track engagement gate binding)
+
+**Scoring context Wk 13 Day 3:** Regime = DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY8 + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day4 + BRENT-SHOCK-OVERLAY-INTENSIFYING + Data-Quality-Gate-Day-78. All entries blocked pending IDR sub-17,750 sustained 3-of-3 sessions AND cluster convergence achieves ≥3-source ≤4% relaxed at candidate entry price AND MSCI Info-Flow overhang absorbed AND foreign-flow inflection re-confirmed AND R:R ≥2:1 achievable. **Any ticker scoring 5-6 is WATCH-only; no ticker can score ≥6 under Stage 5 crisis-track binding regardless of fundamentals.**
+
+**Prices from Tue Jul 14 close (single-source references from bisnis/sectors/investing; NOT multi-source ≤4% relaxed convergent for Data Quality Gate).**
+
+| # | Ticker | Sector | Price (Tue) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,125 | −0.81% | 4 | LQ45 mega-cap; June CPI 3.34% hawkish; foreign sell Big-4 context | SKIP |
+| 2 | BBRI | Banking | 2,800 | +0.36% | 5 | Q2 print Aug 3 T+15; strike-1 sector-watch binding | WATCH |
+| 3 | BMRI | Banking | 4,070 | −0.25% | 5 | Wk 13 Day 2 primary candidate 6/10 SKIPPED on R:R FAIL 1.18:1; no fresh catalyst | WATCH |
+| 4 | BBNI | Banking | 3,430 | +0.29% | 5 | Q2 window Jul-Aug; NIM story intact but CPI/BI hawkish | WATCH |
+| 5 | BNGA | Banking | 1,580 | 0.00% | 3 | Illiquid mid-cap; no catalyst | SKIP |
+| 6 | NISP | Banking | n/a | n/a | 3 | Illiquid; no catalyst | SKIP |
+| 7 | BBTN | Banking | n/a | n/a | 3 | Rate-sensitive mortgage; Indo 10Y 7.26% headwind | SKIP |
+| 8 | ADRO | Coal | 2,480 | +1.22% | 3 | Sector EXITED (2-strike); Newcastle sub-$130; Jan-Apr export −7.27% | SKIP |
+| 9 | ITMG | Coal | 24,000 | +0.31% | 3 | Sector EXITED; same headwinds | SKIP |
+| 10 | PTBA | Coal | 2,410 | flat | 3 | Sector EXITED; carry Bumi mineral pivot; Kalbe 2.1%/Bukit 1.2% Tue movers | SKIP |
+| 11 | BUMI | Coal | 149 | +1.36% | 3 | Diversification play; Wolfram + Laman Mining Aug close; retail speculation | SKIP |
+| 12 | HRUM | Coal | 780 | +1.30% | 3 | Sector EXITED | SKIP |
+| 13 | MEDC | Energy/Oil&Gas | n/a (Tue top-mover) | positive | 5 | BRENT $86 +3.66% Iran/Hormuz shock = direct upside catalyst; Tue Jul 14 top-mover | WATCH-elevated |
+| 14 | PGAS | Gas/Energy | 1,490 | −2.61% | 3 | Tue laggard; Abadi LNG HoA stale carry; Wk 12+ Data Quality FAIL | SKIP |
+| 15 | ANTM | Nickel | n/a | n/a | 3 | MSCI SC removal contamination carry; Indo quota 360Mt supply glut | SKIP |
+| 16 | INCO | Nickel | n/a | n/a | 3 | LME sub-$17k; same headwinds | SKIP |
+| 17 | MDKA | Nickel | n/a | n/a | 3 | Post-RUPSLB dilution overhang carry | SKIP |
+| 18 | NCKL | Nickel | n/a | n/a | 3 | Same complex headwinds | SKIP |
+| 19 | MBMA | Nickel | n/a | n/a | 3 | Same complex headwinds | SKIP |
+| 20 | TINS | Metals/Tin | n/a | n/a | 3 | Illiquid; no catalyst | SKIP |
+| 21 | UNVR | Consumer | n/a | n/a | 4 | YTD foreign outflow Rp 431B; CPI CPI-relief thesis WEAKENED; MNC TP 1,885 stale | WATCH |
+| 22 | ICBP | Consumer | n/a | n/a | 4 | Largest YTD foreign outflow Rp 962B; MBG/bansos support | WATCH |
+| 23 | INDF | Consumer | n/a | n/a | 5 | Sole net-inflow consumer YTD (+Rp 58B); defensive relative | WATCH-elevated |
+| 24 | MYOR | Consumer | n/a | n/a | 4 | Sinarmas top pick; Rp 367B outflow YTD | WATCH |
+| 25 | SIDO | Consumer | n/a | n/a | 3 | MSCI SC removal contamination carry | SKIP |
+| 26 | TLKM | Telco | 2,450 (Jul 2 ref) | n/a Tue | 5 | Spectrum auction resolved; defensive-utility thesis intact | WATCH |
+| 27 | EXCL | Telco | n/a | n/a | 3 | XLSMART cost heaviest | SKIP |
+| 28 | ISAT | Telco | n/a | n/a | 4 | Auction cost mid | WATCH |
+| 29 | MTEL | Telco/Tower | n/a | n/a | 3 | Downstream CAPEX | SKIP |
+| 30 | TOWR | Telco/Tower | n/a | n/a | 3 | Same | SKIP |
+| 31 | BSDE | Property | 555 | −2.63% | 3 | Rate-sensitive; VAT incentive support tepid | SKIP |
+| 32 | CTRA | Property | 570 | −0.87% | 3 | Rate-sensitive; TP 1,300 academic | SKIP |
+| 33 | SMRA | Property | n/a | n/a | 3 | Rate-sensitive; SMRA/PWON/SSIA rec list | SKIP |
+| 34 | PWON | Property | n/a | n/a | 3 | Rate-sensitive | SKIP |
+| 35 | GOTO | Tech | 50 (floor) | 0.00% | 2 | FTSE Russell delisted; stuck at ARB floor | SKIP |
+| 36 | BUKA | Tech | n/a | n/a | 3 | POJK 30/2025 fintech overhang | SKIP |
+| 37 | EMTK | Tech/Media | 530 | +1.92% | 3 | Q2 print Aug 5 T+21; low-liquidity | SKIP |
+| 38 | ASII | Auto/Industrial | 4,880 | +0.62% | 5 | Q2 print Jul 23 T+8; heaviest Tue foreign sell; Rp 8T buyback partial-support | WATCH-elevated |
+| 39 | UNTR | Heavy Equipment | n/a (Tue top-mover) | positive | 4 | Rp 2T buyback; Newcastle sub-$130 CAPEX headwind offset by Tue tape lift | WATCH |
+| 40 | AKRA | Distribution | 1,340 | +1.13% | 5 | Q2 print Jul 27 T+12; MNC Sekuritas top pick; Brent $86 = distribution margin uncertain (input-cost negative but volume-story neutral) | WATCH-elevated |
+| 41 | AALI | Plantation | n/a | n/a | 3 | CPO firm MYR 4,541; MSCI SC contamination carry | SKIP |
+| 42 | LSIP | Plantation | n/a | n/a | 3 | CPO firm; falling-knife pattern reference | SKIP |
+| 43 | JSMR | Infrastructure | n/a | n/a | 3 | Toll neutral; SOE headwind | SKIP |
+| 44 | WSKT | Construction | n/a | n/a | 2 | SOE 7→3 Karya merger overhang; free-float ~22% | SKIP |
+| 45 | PTPP | Construction | n/a | n/a | 2 | Same SOE merger overhang; free-float 47% | SKIP |
+| 46 | ADHI | Construction | n/a | n/a | 2 | Same SOE merger overhang; free-float 36% | SKIP |
+| 47 | KLBF | Healthcare | n/a (Jul 6 hard-cut 745) | n/a | 3 | Day 9 post-hard-cut cool-down; no fresh catalyst; carry-drift lesson binding | SKIP-cool-down |
+| 48 | MIKA | Healthcare | n/a | n/a | 3 | MSCI SC contamination carry | SKIP |
+| 49 | SMGR | Cement | n/a | n/a | 2 | Cement marginal 2026; rate-sensitive | SKIP |
+| 50 | INTP | Cement | n/a | n/a | 2 | Same | SKIP |
+
+**Score distribution:**
+- 6+ candidates: **0** (crisis-track engagement gate ACTIVATED = structural score ceiling 5)
+- 5/10 WATCH-elevated: MEDC, INDF, TLKM, ASII, AKRA, BBRI, BMRI, BBNI (8)
+- 4/10 WATCH: BBCA, ISAT, UNTR, UNVR, ICBP, MYOR (6)
+- ≤3 SKIP: 36 tickers
+
+**Two-track scoring — Defensive Quality Track evaluation:**
+- BBCA (4/10) does not meet 5-6 minimum for Defensive-Quality trigger.
+- Other mega-caps (BBRI 5, BMRI 5, BBNI 5, TLKM 5, ASII 5, UNVR 4, ICBP 4, ADRO 3) — 5-scorers eligible for check but Data Quality Gate Day 78 outage prevents verified P/E or P/B ≥1.0σ below 10Y mean sourcing. Under co-canonical guidance, without long-term mean numerics, keep as WATCH — do NOT fabricate. Track remains SUSPENDED per DEFENSIVE regime and confirmed non-eligibility per prior review cycles.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+**NONE.** Wk 13 Day 3 crisis-track engagement gate ACTIVATED = structural score ceiling 5/10 under IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day4 binding + BRENT-SHOCK-OVERLAY-INTENSIFYING + Data-Quality-Gate-Day-78 outage. No candidate qualifies for deep-dive entry. Cash-defensive posture Day 7 post-KLBF hard-cut maintained.
+
+**Highest-scored WATCH-elevated 5/10 (documented for context; NOT candidates):**
+
+#### A. MEDC — Brent-shock upside catalyst; direct oil-linked leverage
+- **Fundamental note:** BRENT $86.35 +3.66% Tue on Iran/Hormuz blockade threat = direct upside for oil-linked earnings. Tue Jul 14 top-mover per bisnis IHSG close report.
+- **Blocker:** IDR Stage 5 crisis-track engagement gate ACTIVATED (no entries regardless). Data Quality Gate Day 78 outage prevents multi-source ≥3-source ≤4% relaxed convergence at candidate entry price. R:R math not computable without cluster.
+- **Watch condition:** Re-engage if IDR sub-17,750 sustained 3-of-3 AND MEDC cluster narrows convergent AND Brent sustains ≥$80 for cash-flow visibility.
+
+#### B. INDF — Sole net-inflow consumer YTD; defensive relative
+- **Fundamental note:** YTD net foreign INFLOW +Rp 58B (only positive-flow consumer name YTD; ICBP/CMRY/UNVR/MYOR/SIDO all net-outflow); Sinarmas + Bloomberg technoz consumer defensive thesis intact.
+- **Blocker:** Crisis-track gate ACTIVATED; June CPI 3.34% hawkish (weakens CPI-relief thesis); Data Quality Gate Day 78.
+- **Watch condition:** If IDR de-arms AND cluster narrows convergent AND CPI-relief re-emerges Aug print.
+
+#### C. AKRA — Q2 print Jul 27 T+12; MNC top pick; Brent input-cost uncertainty
+- **Fundamental note:** MNC Sekuritas top pick recent; +1.13% Tue Jul 14 to Rp 1,340; Q2 print Jul 27 T+12 = near-term binary catalyst.
+- **Blocker:** Brent $86 spike = distribution margin uncertain (fuel-input cost negative near-term; volume-story neutral); crisis-track gate ACTIVATED; Data Quality Gate Day 78.
+- **Watch condition:** If IDR de-arms AND pre-earnings cluster narrows convergent AND R:R ≥2:1 achievable within T-3 of Q2 print.
+
+#### D. ASII — Q2 print Jul 23 T+8; Rp 8T buyback partial-support; heaviest Tue foreign sell
+- **Fundamental note:** +0.62% Tue to Rp 4,880 but HEAVIEST Tue foreign sell per bisnis market wrap; buyback provides partial bid support; 56% auto market share carry.
+- **Blocker:** Defensive-Quality Track SUSPENDED under DEFENSIVE regime; crisis-track gate ACTIVATED; IDR shock hits import-COGS negative for auto assembly economics; Data Quality Gate Day 78.
+- **Watch condition:** Re-eligible only on regime downgrade to DEFENSIVE-CONFIRMED or NEUTRAL + IDR de-arm + fresh cluster.
+
+#### E. TLKM — Defensive-utility; spectrum auction resolved
+- **Fundamental note:** Spectrum auction XLSMART cost absorbed sector-wide; TLKM neutral cost impact; defensive-utility thesis intact under DEFENSIVE regime.
+- **Blocker:** No fresh catalyst; crisis-track gate ACTIVATED; Data Quality Gate Day 78.
+- **Watch condition:** If IDR de-arms AND cluster narrows to ≤2,990 (3% chase cap) AND multi-source convergent.
+
+### Held Position Updates
+
+**No open positions.** Book 100% cash IDR 9,716,207,500 (Day 7 post-KLBF hard-cut). All positions previously closed per KLBF hard-cut Jul 6 (−21.16% realized; ledger corrected to safe-lower 745 mark). Realized cumulative trial hard-cut losses: −IDR 294,172,500 (BBRI −59.4M / ITMG −52.55M / ADRO −78.42M / KLBF −103.8M); trial dividends received IDR 10,380,000 (KLBF Jun 24). Net trial cash return: −IDR 283,792,500 (−2.84%).
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY8 + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day4 + BRENT-SHOCK-OVERLAY-INTENSIFYING + Data-Quality-Gate-Day-78**
+
+- **Reasoning:** Four binding vectors compound simultaneously: (1) DEFENSIVE-INTENSIFIED regime cascade-inflection Day 8 continuation from prior Wk 12 baseline; (2) IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4 sustained above 18,050 threshold (18,096 latest close vs 18,042 latest intraday reference — right at threshold; sustained sub-17,750 for 3-of-3 sessions required for DE-ARM); (3) BRENT-SHOCK-OVERLAY INTENSIFYING: Brent $86.35 +3.66% Tue on Iran/Hormuz blockade threat = fresh CPI-inflation vector for BI hawkish carryover and IDR-negative structural pressure; (4) Data Quality Gate Day 78 outage persists (yfinance + GoAPI blocked 78 consecutive sessions). What would change regime: IDR sub-17,750 sustained 3-of-3 consecutive sessions = crisis-track DE-ARM engagement; Brent sustained sub-$78 = shock overlay DE-ARM; BI dovish inflection at next RDG (not yet scheduled).
+- **Position sizing adjustment:** ZERO new entries per crisis-track engagement gate ACTIVATED. Regime + IDR + Brent + Data Quality quadruple-binding = book stays 100% cash. Wk 13 remains 3/3 fresh slot allocation Wed-Fri but structural gate stack forbids deployment regardless of any fundamental score.
+
+### Flagged Risks
+
+- **IDR further Stage 5 escalation:** If Wed Jul 15 sustained close ≥18,150 = further Stage 5 deepening toward 52-wk high 18,197.5; BI off-cycle intervention risk (precedent Jun 9 +25bp emergency hike). Fresh CPI 3.34% + June trade DEFICIT $1.61B = structural IDR-negative backdrop.
+- **Brent shock CPI-relief thesis destruction:** Brent $86 sustained = July CPI adds transport-fuel pass-through; erodes UNVR/consumer CPI-relief thesis further; supports BI hawkish carry.
+- **Q2 earnings season imminent:** ASII Jul 23 (T+8), AKRA Jul 27 (T+12), BBRI Aug 3 (T+19). Wave of binary catalysts inside the window will surface pre-earnings volatility on watchlist tickers; requires fresh cluster verification per ticker before any WATCH → CANDIDATE promotion.
+- **Alpha compression acceleration risk:** Tue alpha −2.42% (largest single-day since KLBF cut trio); IHSG breaking above 6,000 psychological on S&P rating reaffirmation while cash-defensive book zero-participation → structural alpha runway 3.75pp below reconciled Day 50 +21.34% baseline. Wed continuation of IHSG rally on soft US CPI + chip-lead = further alpha compression cost.
+- **Foreign flow structural net sell:** Tue −Rp 413B; weeks-long persistent outflow; ASII heaviest sell despite +0.62% price = distribution behind price stability.
+- **Data infrastructure Day 78 unresolved:** MD_LAST_PRICE_OVERRIDE for broker.sh cmd_sell still deferred infrastructure fix per MISTAKES.md 2026-07-06 KLBF root-cause + prior BBRI/ITMG/ADRO cuts. Next hard-cut will require 5th manual PAPER-STATE.json correction under this outage — discipline-fragile.
+
+### Plan for /market-open (Wed Jul 15)
+
+- [ ] **NO TRADES today** per crisis-track engagement gate ACTIVATED = structural block. Any ticker scoring ≤5/10 CANNOT satisfy 9-gate entry per regime + IDR + Brent + Data Quality quadruple-binding gate stack.
+- [ ] **Re-poll IDR sustained close vs Stage 5 threshold 18,050 pre-open:** if sub-17,750 achieved Wed = 1-of-3 DE-ARM sequence begins; if 17,750–18,050 = Stage 4 partial DE-ARM; if ≥18,050 sustained = Stage 5 DEEPENING further (crisis-track full protocol framework carries).
+- [ ] **Re-poll Brent close vs $80 threshold overnight:** if sustains ≥$80 = Brent-shock overlay INTENSIFYING carries; erodes UNVR/consumer CPI-relief thesis.
+- [ ] **MEDC Brent-shock upside catalyst noted (WATCH-elevated 5/10)** — blocked by data infra + regime. No cluster-verified entry Wed possible.
+- [ ] **INDF sole-net-inflow WATCH-elevated 5/10** — blocked by regime + CPI hawkish drag.
+- [ ] **AKRA WATCH-elevated 5/10; Q2 print Jul 27 T+12** — blocked by Brent input-cost uncertainty + regime + data infra. Re-eligible pre-earnings ONLY if all binding constraints resolve.
+- [ ] **ASII WATCH-elevated 5/10; Q2 print Jul 23 T+8** — Defensive-Quality Track SUSPENDED + IDR shock import-COGS negative + heaviest Tue foreign sell = SKIP.
+- [ ] **TLKM WATCH-elevated 5/10; defensive-utility** — blocked by IDR Stage 5. Re-eligible on cluster ≤2,990 + IDR de-arm.
+- [ ] **BBRI/BMRI/BBNI (5/10)** — all blocked; June CPI 3.34% + BI 5.75% hawkish binds banking rate-cut thesis; BBRI strike-1 sector-watch binding.
+- [ ] **BBCA (4/10)** — no paired-inflection Tue; June CPI hawkish; foreign sell Big-4 context. SKIP.
+- [ ] **BBCA/BBRI/BMRI/BBNI Defensive-Quality track evaluation** — Track SUSPENDED per DEFENSIVE regime; Data Quality Gate Day 78 prevents 10Y P/E/P/B mean numerics sourcing. Track remains suspended.
+- [ ] **Coal complex** (ADRO/ITMG/PTBA/BUMI/HRUM): sector EXITED; Newcastle sub-$130; Jan-Apr export −7.27%. SKIP.
+- [ ] **Nickel complex** (ANTM/INCO/MDKA/NCKL/MBMA): LME sub-$17k + Indo quota 260→360Mt supply glut. SKIP.
+- [ ] **Property/Construction/Cement**: rate-sensitive + BI 5.75% + June CPI 3.34% + Indo 10Y 7.26% + IDR Stage 5 + Brent CPI vector. SKIP all.
+- [ ] **Tech (GOTO/BUKA/EMTK)**: regulatory + delisting; GOTO ARB floor. SKIP.
+- [ ] **CPO complex** (AALI/LSIP): MPOB bearish + MSCI SC contamination. SKIP.
+- [ ] **KLBF re-entry gate**: DEFERRED — Day 9 post-hard-cut cool-down; DATA-OUTAGE-BOUNDED HOLD RULE + carry-drift lesson binding; not a candidate absent fresh binary catalyst + regime de-arm + Data Quality restoration.
+- [ ] **12th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 3** — pattern reinforcement continues under IDR Stage 5 DEEPENING + Data Quality Gate outage + Brent shock overlay quadruple-binding gate stack. 35+ cumulative unused candidate-day slots trial-to-date.
+- [ ] **Alpha compression watch:** IHSG break above 6,050 Wed = further alpha compression cost on cash-defensive book. Cumulative alpha +17.59% Tue baseline for Wed reference.
+- [ ] **Reconcile Tue Jul 14 sesi II final IHSG close 6,039.52** into TRADE-LOG anchor for Wed Jul 15 reference; supersedes Tue sesi I 6,074.61 provisional and Mon sesi II 6,037.84 4-source reconciliation.
+
+---

@@ -10490,27 +10490,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-01T08:15:00Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 10 EOD: IDR 9.911B (0.00% day; IDX closed Labor Day). Cum return -0.89% vs IHSG -9.77% = +8.88% alpha. 1 position open (ITMG -4.12%). Trades this week: 0/3. BBRI hard-cut realized -IDR 59.4M earlier today.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 10 snapshot committed; trial closing tomorrow"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "27,300 sh @ 25,000 (-4.12%); hard-cut 24,250; coal $137.80 breakout"
-        },
-        {
-          "type": "info",
-          "detail": "IDX closed Labor Day; mark unchanged; daily P&L 0.00%"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-01T08:39:28Z",
       "routine": "daily-summary",
       "status": "success",
@@ -15139,6 +15118,37 @@
         {
           "type": "research",
           "detail": "Day 62 EOD snapshot committed; RISK-STATE + dashboard updated; Telegram notify.sh proxy-403 fallback to stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-15T00:10:09Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Wk13 Day3 pre-market: 50-ticker scan complete under crisis-track engagement gate ACTIVATED. NO candidates score \u22656 (structural ceiling 5/10). 8 tickers at 5/10 WATCH-elevated (MEDC/INDF/AKRA/ASII/TLKM/BBRI/BMRI/BBNI); all blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED-Day4 + BRENT-SHOCK-INTENSIFYING ($86.35 +3.66%) + Data-Quality-Gate-Day-78 quadruple-binding. Book stays 100% cash Day 7 post-KLBF cut. 12th consecutive 0/3 BUY-slot week trajectory.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored \u22656 (structural ceiling under crisis-track gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 5/10 \u2014 Brent $86 Iran/Hormuz shock direct upside; blocked by regime + Data Quality"
+        },
+        {
+          "type": "research",
+          "ticker": "INDF",
+          "detail": "score 5/10 \u2014 sole net-inflow consumer YTD; blocked by CPI hawkish + regime"
+        },
+        {
+          "type": "research",
+          "ticker": "AKRA",
+          "detail": "score 5/10 \u2014 Q2 print Jul 27 T+12 MNC top pick; blocked by Brent uncertainty + regime"
         }
       ]
     }
