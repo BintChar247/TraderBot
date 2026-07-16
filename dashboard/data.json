@@ -11095,40 +11095,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-05T00:12:15Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 watchlist tickers. 6 candidates scored \u22656: MEDC (8, Brent +5.8% pure-play), ITMG (7, HOLD; Q1 May 7 T\u22122), ADRO/PTBA/PGAS/INDF (6 each, watch). Macro: Iran/UAE missile incident drove Brent +5.80% to $114.44; April CPI 2.42% (vs 3.48% prior) reopens BI rate-cut runway. MSCI rebalancing freeze + IDR 17,335 keep regime EM-OUTFLOW. ITMG held, no add. MEDC entry deferred \u2014 ADV unverifiable (yfinance blocked since Apr 21).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (all watchlist, no skips)"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656 (MEDC, ITMG, ADRO, PTBA, PGAS, INDF)"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 8/10 \u2014 Brent +5.80% pure-play; UBS PT IDR 2,570; 11/0/1 buy consensus"
-        },
-        {
-          "type": "research",
-          "ticker": "ITMG",
-          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T\u22122 May 7; coal floor $133.90 intact"
-        },
-        {
-          "type": "macro",
-          "detail": "Iran/UAE missile shock \u2014 Brent +5.80%; VIX +7.36%; oil/coal complex bid"
-        },
-        {
-          "type": "macro",
-          "detail": "Indonesia April CPI 2.42% (down from 3.48%) \u2014 major dovish surprise"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-05T02:18:51Z",
       "routine": "market-open",
       "status": "warning",
@@ -15797,6 +15763,12 @@
           "detail": "Data Quality Gate Day 79 yfinance/GoAPI outage; MD_LAST_PRICE_OVERRIDE for cmd_sell still deferred"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-16T04:36:35Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (Day 7 post-KLBF cut, Wk 13 Day 4). 100% cash defensive posture. No sell-side rules applicable. No thesis checks needed. Regime DEFENSIVE-INTENSIFIED-CASCADE + IDR Stage 5 CONFIRMED-HARD-ENGAGED + Data Quality Gate Day 79 all binding."
     }
   ],
   "exposure": {
