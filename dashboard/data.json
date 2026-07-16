@@ -10715,6 +10715,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wed TOP mover +1.07% to 2,830; Q2 print Aug 3 T+18 binary catalyst; Jan-May +19% YoY Big-4 leader.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Aug 3 T+18 binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track engagement gate ACTIVATED + Data Quality Gate Day 79 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED = crisis-track engagement gate ACTIVATED; no entries regardless of score. June CPI 3.34% hawkish binds banking rate-cut thesis.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wed TOP-3 mover +0.96% to 4,200; Big-4 Jan-May +19% YoY leader.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 13 Big-4 leader; analyst rec list Mon carry"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track gate ACTIVATED + Wk 12 Rp 178.5B net-sell overhang"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Blocked by IDR Stage 5 crisis-track gate + June CPI hawkish + Data Quality Gate Day 79. Watch condition = IDR de-arm + cluster narrows.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent-shock DIRECT upside INTENSIFYING $85+; Q2 print Jul 30 T+14 binary catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $85.90 sustained; Q2 print T+14"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 + Brent shock deepening $85+"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track gate + Data Quality Day 79; R:R not computable without cluster"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Brent-shock direct upside catalyst present but crisis-track gate ACTIVATED blocks all entries; cluster verification impossible under Data Quality Gate Day 79 outage.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole consumer name with YTD net foreign INFLOW +Rp 58B; defensive relative under Brent shock.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole net-inflow consumer YTD +Rp 58B"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 + June CPI 3.34% hawkish + Brent CPI-negative vector"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track gate + Brent shock CPI-vector negative for staples"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Only positive-flow consumer name but Brent $85+ CPI-negative vector erodes CPI-relief thesis; crisis-track gate binds.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Jul 23 T+7 nearest binary catalyst; Rp 8T buyback partial-bid support; 56% auto market share.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 23 T+7 nearest binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 import-COGS negative; Brent shock fuel-input negative"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: Defensive-Quality Track SUSPENDED under DEFENSIVE regime; crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Nearest binary catalyst on watchlist but IDR shock hits import-COGS + Brent shock fuel-input negative for downstream demand; regime blocks.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Jul 27 T+11 binary; MNC Sekuritas top pick recent; distribution margin Brent-input mixed.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 27 T+11 binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 + Brent input-cost uncertainty"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track gate + Data Quality Day 79"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Q2 print T+11 near-term binary but Brent input-cost mixed + regime + Data Quality Gate outage all binding.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wed TOP LAGGARD; spectrum auction absorbed; defensive-utility thesis intact but weakening.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Spectrum auction absorbed; no fresh binary"
+        },
+        {
+          "type": "macro",
+          "label": "IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5-6 fail: crisis-track gate + Data Quality Day 79 (cluster non-convergent Wks 10-12)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (blocked)"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch data-infra outage Day 79"
+        }
+      ],
+      "reasoning": "Defensive-utility thesis intact but weakening; cluster non-convergent 3+ weeks; crisis-track gate binds all entries.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -10751,26 +11094,6 @@
     "updated": "2026-07-14"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-04T08:42:31Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-04 (Day 11, post-trial): IDR 9.924B (+0.13%). Alpha \u22121.17% daily / +6.85% cum vs IHSG. 1 position open (ITMG \u22122.30%). 92.99% cash. Trades this week: 0/3. No risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 11 EOD snapshot committed (post-trial)"
-        },
-        {
-          "type": "research",
-          "detail": "ITMG marked-to-market 25,475 (+1.90% from Apr 30 close)"
-        },
-        {
-          "type": "research",
-          "detail": "IHSG 7,053 (+1.30%); coal $137.80 floor intact"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-05T00:12:15Z",
       "routine": "pre-market",
@@ -15425,6 +15748,53 @@
           "type": "research",
           "ticker": "ASII",
           "detail": "score 5/10 - Q2 print Jul 23 T+7 nearest binary; Rp 8T buyback"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-16T02:17:21Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 7 WATCH-elevated candidates (BBRI/BMRI/MEDC/INDF/ASII/AKRA/TLKM at 5/10) blocked by crisis-track engagement gate ACTIVATED \u2014 IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5 (18,062\u201318,088 cluster > 18,050 threshold) + Brent $85+ shock deepening + Data Quality Gate Day 79 outage. 12th consecutive 0/3 BUY-slot week. Book 100% cash IDR 9.72B Day 8 post-KLBF cut.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10; crisis-track gate binds"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 79 yfinance/GoAPI outage; MD_LAST_PRICE_OVERRIDE for cmd_sell still deferred"
         }
       ]
     }
