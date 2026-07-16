@@ -8162,3 +8162,82 @@ Wed Jul 15 sesi I provisional 6,067.83 (beritasatu / okezone / rri / cnnindonesi
 
 ---
 
+### 2026-07-16 EOD (Day 64, Thu — Week 13 Day 4; IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED Day-5 with sustained-close resolution PENDING; IHSG sesi I mild retreat vs Wed anchor; alpha marginally positive)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%)
+- IHSG daily: −0.06% (Thu Jul 16 sesi I 6,064.46 vs Wed Jul 15 sesi I 6,067.83 anchor per sesi-I-to-sesi-I convention; kompas / okezone 2-source ≤0% convergent at 6,064–6,064.46 midpoint 6,064.46; +22.49 pt +0.37% intraday sesi I vs prior day close but −3.37 pt −0.06% vs Wed sesi I 6,067.83 anchor = mild sesi I-basis pullback; volume 18.88B sh / value Rp 7.57T; 330 advance / 250 decline / 207 unchanged; sector leadership Raw Materials +1.39% / Property & Real Estate +1.03% / Infrastructure +0.76% / Finance +0.59% / Energy +0.34%; sesi II final Thu not multi-source convergent at 15:15 WIB filing — Fri Jul 17 pre-market / weekly-review will reconcile if it surfaces multi-source convergent overnight)
+- Daily alpha: +0.06% (mild positive, portfolio flat while IHSG sesi I basis mildly retreats vs Wed anchor)
+- Cash: IDR 9,716,207,500 (100.00% of equity — full cash defensive posture Day 8 post-KLBF cut, Wk 13 Day 4)
+- Trades today: 0 (market-open Wk 13 Day 4 NO TRADES; midday no positions to manage; regime pre-condition FAIL persists; Data Quality Gate Day 79 outage persists; IDR intraday 18,062–18,090 = still ≥18,050 Stage 5 threshold band = 5th consecutive session sustained-close resolution pending)
+- Trades this week: 0/3 (Wk 13 Day 4 — 3/3 slots remain, Fri last window; all subject to IDR Stage 5 crisis-track resolution)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%)
+- Cumulative alpha: +17.72% (IHSG cum from Day 0 baseline 7,634 → Thu sesi I 6,064.46 = −20.56% vs portfolio cum −2.84%; +0.04pp marginal recovery from Wed +17.68% via IHSG mild sesi I retreat while portfolio flat)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged from prior sessions; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book remains fully de-risked Day 8 post-KLBF hard-cut through Wk 13 Day 4; regime + IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5 + Data Quality Gate Day 79 + Brent shock deepening $85+ all binding.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### IHSG anchor reconciliation
+
+Thu Jul 16 sesi I provisional 6,064.46 (kompas / okezone 2-source convergent at 6,064–6,064.46; +22.49 pt +0.37% intraday sesi I vs prior day close; −3.37 pt −0.06% vs Wed sesi I 6,067.83 anchor per sesi-I-to-sesi-I convention). Anchor: Wed Jul 15 sesi I 6,067.83 (unchanged per sesi-I-to-sesi-I convention). Sesi II final Thu not multi-source convergent at 15:15 WIB filing — Fri Jul 17 pre-market / weekly-review will reconcile if it surfaces multi-source convergent overnight. Convention shift decision (sesi-I-to-sesi-I vs sesi-II-to-sesi-II) remains formally deferred to Fri Jul 17 Wk 13 weekly-review.
+
+#### Weekly P&L trajectory (Wk 13 Day 4)
+
+- Wk 13 cumulative P&L: 0.00% (Fri Wk 12 EOD 9,716,207,500 → Thu Wk 13 Day 4 EOD 9,716,207,500).
+- Weekly loss cap −5% not breached; sizing reduction NOT triggered.
+- Wk 13 BUY slots: 0/3 used → 3 remaining Fri only (all subject to IDR Stage 5 crisis-track engagement gate ACTIVATED resolution — sub-17,750 sustained 3-of-3 sessions required; currently at 18,062–18,090 intraday = 312–340bps ABOVE sub-17,750 sub-threshold).
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted by P&L caps.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L (Wk 13 Day 4) 0.00% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (regime remains DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY9 with IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED Day 5 + BRENT-SHOCK-DEEPENING-$85+ overlay = crisis-track engagement gate ACTIVATED; no daily/drawdown caps breached). Note: regime pre-emptive de-risk-halt + Stage 5 crisis-track = 0% new entries binding regardless of ticker fundamentals until IDR sub-17,750 sustained 3-of-3 consecutive sessions AND cluster convergence achieves ≥3-source ≤4% relaxed AND MSCI Info-Flow overhang absorbed AND foreign-flow inflection re-confirmed AND R:R ≥2:1 achievable at fresh cluster mark.
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 8 post-KLBF cut into Wk 13 Day 4.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul). No new sector-exit rule fires.
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Thu sesi I 6,064.46 = **−20.56%** (mild −0.04pp deterioration from Wed sesi I −20.52% via IHSG sesi I basis mild further retreat).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged from prior sessions; 100% cash zero-participation Day 8).
+- **Cumulative alpha = +17.72%** (marginal +0.04pp recovery from Wed +17.68% via IHSG sesi I mild retreat while portfolio flat; structural alpha trajectory now 3.62pp below reconciled Day 50 +21.34% baseline — mild compression relief continuing from Wed 3.66pp).
+- Alpha runway forward: fully-cash defensive book zero upside participation booked cost stabilised Thu after Tue sharp compression; re-expands on any correction. Thu alpha +0.06% = 2nd consecutive positive-alpha day (weekly sequence: Wed prev-wk +0.39% / Thu prev-wk +0.58% / Fri prev-wk −0.56% / Mon Wk13 −0.21% / Tue Wk13 −2.42% / Wed Wk13 +0.11% / Thu Wk13 +0.06%); defensive-posture-value thesis retains structural alpha even as IDR Stage 5 crisis-track continues to bind re-entry.
+
+#### Notes
+
+- **Market-open Wk 13 Day 4 NO TRADES:** all 7 WATCH-elevated candidates (BBRI/BMRI/MEDC/INDF/ASII/AKRA/TLKM at 5/10) SKIPPED per market-open decisions logged 09:15 WIB. Regime pre-condition FAIL — IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5 (Thu intraday IDR 18,062–18,090 = still ≥18,050 threshold band, 5th consecutive session pending sustained-close resolution). Pre-market 07:00 WIB confirmed structural ceiling 5/10 for all 50 tickers scanned under quadruple binding (IDR-Stage-5 + BRENT-$85+ + Data-Quality-Day-79 + June-CPI-3.34%-hawkish).
+- **Midday scan Wk 13 Day 4:** no open positions to manage; no sell-side rules applicable; 100% cash defensive posture confirmed intact.
+- **IDR gate status Thu EOD:** IDR-ESCALATION-STAGE-5-CONFIRMED-HARD-ENGAGED Day 5 persists into Wk 13 Day 4 close pending sustained-close reconciliation. Thu intraday IDR band 18,062–18,090 = still 12–40 IDR above Stage 5 threshold 18,050. Fri Jul 17 pre-market / weekly-review MUST re-poll IDR sustained close vs Stage 5 threshold (18,050) and vs sub-17,750 sub-threshold (crisis-track resolution) plus reconcile Thu sesi II final IHSG if multi-source convergent overnight.
+- **Book fully de-risked Day 8 post-KLBF cut through Wk 13 Day 4:** 100% cash (IDR 9,716,207,500). Zero equity market exposure. Regime + IDR Stage 5 CONFIRMED Day 5 + Data Quality Gate Day 79 + Brent shock $85+ deepening all binding; no re-entry until IDR sub-17,750 sustained 3-of-3 consecutive sessions AND cluster convergence achieves ≥3-source ≤4% relaxed at candidate entry price AND MSCI Info-Flow overhang absorbed AND foreign-flow inflection re-confirmed AND R:R ≥2:1 achievable.
+- **Data Quality Gate Day 79 outage persists:** yfinance + GoAPI still blocked (79 consecutive sessions since Apr 21); broker.sh quote returns `ERROR: _paper_quote cannot produce a price` for un-held tickers. WebSearch multi-source override operational (used for IHSG Thu sesi I 2-source convergence at 6,064.46 + IDR Thu intraday band 18,062–18,090). MD_LAST_PRICE_OVERRIDE fix for broker.sh cmd_sell still deferred — infrastructure fix remains overdue-critical per MISTAKES.md 2026-07-06 escalation. No new positions today → no cmd_sell path exercised Thu.
+- **11th consecutive 0/3 BUY-slot week trajectory Wk 13 Day 4:** 36+ cumulative unused candidate-day slots trial-to-date. Wk 13 remains 3/3 slot allocation but IDR Stage 5 CONFIRMED = expected 0/3 continuation unless IDR sub-17,750 sustained 3-of-3 sessions achieved by Fri (requires ~312bps rally from current 18,062–18,090 intraday over remaining 1 session = mathematically impossible in single day).
+- **Alpha stabilisation Thu (2nd consecutive positive-alpha day):** +0.06% single-day alpha marks second positive day post-Tue −2.42% acute compression. Cumulative alpha recovers marginally +0.04pp from Wed +17.68% to Thu +17.72%; structural trajectory 3.62pp below reconciled Day 50 +21.34% baseline (mild compression relief continuing from Wed 3.66pp). The regime cost thesis holds: 100% cash retains +17.72 cumulative alpha vs benchmark, but the runway compresses on any IHSG rally session under Stage 5 binding re-entry.
+- **Trial trajectory:** Beyond original Apr 20–May 2 window (current Day 64, Wk 13 Day 4). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged Thu (BBRI −59.4M / ITMG −52.55M / ADRO −78.42M / KLBF −103.8M); dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%).
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram primary; stdout fallback expected on scheduled routine).
+- **Carry-over to Fri Jul 17 07:00 WIB pre-market + 16:00 WIB weekly-review (Week 13 Day 5 close):**
+  1. Fri pre-market reads Thu sesi II final IHSG (if multi-source convergent overnight) + Thu IDR sustained close vs Stage 5 threshold + overnight Asian tape + US tape + Brent shock persistence check.
+  2. **IDR Stage 5 resolution:** if Thu sustained close <18,050 = 1-of-2 partial DE-ARM from Stage 5 engaged; if ≥18,050 sustained 5th-consecutive = Stage 5 CONFIRMED-DEEPENING further. Currently at 18,062–18,090 intraday = Stage 5 CONFIRMED-HARD-ENGAGED persisting marginally into 5th session.
+  3. **IHSG anchor convention:** formal decision on shift to sesi-II-to-sesi-II convention scheduled for Fri Jul 17 16:00 WIB Wk 13 weekly-review.
+  4. Data Quality Gate Day 80 Fri continues to bind primary candidate execution unless multi-source ≥3-source ≤4% convergent for planned entry.
+  5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +17.72% Thu baseline for Fri Wk 13 Day 5 forward. Thu alpha stabilisation (+0.06% 2nd consecutive positive) confirms the defensive-posture thesis: alpha runway re-expands on IHSG basis retreats even under continued Stage 5 binding.
+  6. Wk 13 planning window Fri only: 3/3 fresh slots remain but all subject to IDR Stage 5 crisis-track engagement gate ACTIVATED resolution; mathematically no re-entry path this week under sub-17,750 3-of-3 requirement.
+  7. Weekly-review agenda: (a) Wk 13 letter grade + cumulative-alpha compression assessment; (b) IHSG anchor convention formal decision; (c) crisis-track engagement gate framework review + re-entry criteria calibration under prolonged Stage 5 binding; (d) MACRO-REGIME.md update if Fri close data warrants; (e) MISTAKES.md MD_LAST_PRICE_OVERRIDE infrastructure fix escalation continues overdue-critical.
+
+---
+
