@@ -11075,6 +11075,447 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BMRI (Banking) WATCH-elevated 5/10: Thu TOP GAINER +2.62% to 4,310; largest Fx net buy Rp 90.20B",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Thu TOP GAINER +2.62% to 4,310; largest Fx net buy Rp 90.20B"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Big-4 leader with Thu foreign inflection Rp 90.20B net buy; blocked by IDR Stage 5 crisis-track binding + single-day flow inflection requires 2+ session confirmation",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBCA (Banking) WATCH-elevated 5/10: Thu +1.63% to 6,225; 2nd-largest Fx net buy Rp 40.97B",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Thu +1.63% to 6,225; 2nd-largest Fx net buy Rp 40.97B"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Structural mega-cap defensive-quality thesis re-emerging Thu; blocked by Defensive-Quality Track SUSPENDED under DEFENSIVE regime + crisis-track gate + Data Quality Day 80",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI (Banking) WATCH-elevated 5/10: Thu +1.06% to 2,860; Q2 print Aug 3 T+17",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Thu +1.06% to 2,860; Q2 print Aug 3 T+17"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Big-4 breadth carry; blocked by crisis-track gate + 6-consecutive-strike-1 historical binding + June CPI 3.34% hawkish binds rate-cut thesis",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI (Banking) WATCH-elevated 5/10: Thu +1.16% to 3,500; Big-4 broad rally",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Thu +1.16% to 3,500; Big-4 broad rally"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Big-4 breadth participation; blocked by crisis-track gate binding same as BMRI/BBCA/BBRI",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MEDC (Energy/Oil&Gas) WATCH-elevated 5/10: Brent shock overlay $84.63 (\u2265$80); Q2 print Jul 31 T+14",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Brent shock overlay $84.63 (\u2265$80); Q2 print Jul 31 T+14"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Brent direct-upside catalyst intact; blocked by crisis-track gate + Data Quality Gate Day 80 blocks multi-source \u22644% relaxed convergence",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "INDF (Consumer) WATCH-elevated 5/10: Sole net-inflow consumer YTD +Rp 58B; ~Rp 6,900 anchor",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Sole net-inflow consumer YTD +Rp 58B; ~Rp 6,900 anchor"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Defensive relative FMCG; blocked by June CPI 3.34% hawkish drag + Brent-negative-CPI-vector + crisis-track gate",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TLKM (Telco) WATCH-elevated 5/10: 12M target Rp 3,629 Strong Buy (20 analysts); Q2 print Aug 5 T+19",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "12M target Rp 3,629 Strong Buy (20 analysts); Q2 print Aug 5 T+19"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Defensive-utility thesis intact; blocked by IDR Stage 5 + Data Quality Gate Day 80 persistent cluster fail",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ASII (Auto/Industrial) WATCH-elevated 5/10: Q2 print Jul 23 T+6 nearest binary; Rp 8T buyback partial-support",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 23 T+6 nearest binary; Rp 8T buyback partial-support"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Nearest binary catalyst; blocked by Defensive-Quality Track SUSPENDED + IDR shock import-COGS negative + Brent fuel-input negative",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AKRA (Distribution) WATCH-elevated 5/10: Q2 print Jul 27 T+10 binary; MNC top pick recent",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY10 + IDR-Stage-5-marginal-pending"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 80 outage (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "catalyst",
+          "label": "Q2 print Jul 27 T+10 binary; MNC top pick recent"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "Distribution margin binary; blocked by Brent input-cost uncertainty + crisis-track gate + Data Quality Gate Day 80",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -11111,18 +11552,6 @@
     "updated": "2026-07-16"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-05T08:20:26Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 12: IDR 9.92B (0.00% today). IHSG +1.03% on PDB beat. Alpha -1.03% day, +5.89% cum. 1 position (ITMG -2.30%). 0/3 weekly trades. T-2 to ITMG Q1 May 7.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 12 EOD snapshot committed; ITMG mark 25,475 unchanged from intraday"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-06T00:22:40Z",
       "routine": "pre-market",
@@ -15780,6 +16209,67 @@
       "routine": "pre-market",
       "status": "success",
       "summary": "Scanned 50 tickers. 0 candidates scored \u22656 (structural ceiling 5/10 under crisis-track engagement gate ACTIVATED persistence Day 6). Top WATCH-elevated 5/10: BMRI (Thu top gainer +2.62% + Fx net buy Rp 90.20B) / BBCA (+1.63% + Fx Rp 40.97B) / BBRI (+1.06%) / BBNI (+1.16%) / MEDC (Brent $80+) / INDF (sole consumer net-inflow) / ASII (Q2 T+6) / AKRA (T+10) / TLKM. Thu foreign flow REVERSAL +Rp 283B all-day = 1-of-2 inflection pending Fri confirm. IDR cluster 18,042-18,064 marginal Stage 5 threshold; 1-source partial DE-ARM signal. 100% cash Day 9 post-KLBF."
+    },
+    {
+      "timestamp": "2026-07-17T02:17:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk13 Day5 Fri. All 9 WATCH-elevated 5/10 candidates (BMRI/BBCA/BBRI/BBNI/MEDC/INDF/TLKM/ASII/AKRA) SKIPPED per crisis-track engagement gate ACTIVATED persistence (IDR Stage 5 Day 6 marginal 18,042-18,064 + Data Quality Gate Day 80 + Brent $84.63 shock overlay + June CPI hawkish). Book 100% cash IDR 9.716B. 13th consecutive 0/3 week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate ACTIVATED; IDR Stage 5 binding"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate + Defensive-Quality Track SUSPENDED"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track + strike-1 historical + CPI hawkish"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track gate binding"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track + Data Quality Day 80"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "CPI hawkish + Brent-negative-CPI-vector"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "IDR Stage 5 + Data Quality persistent cluster fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Defensive Track SUSPENDED + IDR/Brent COGS negative"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "Brent uncertainty + crisis-track"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 80 outage persists (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram delivery 403 proxy blocked; stdout fallback"
+        }
+      ]
     }
   ],
   "exposure": {
