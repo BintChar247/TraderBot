@@ -11553,49 +11553,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-06T00:22:40Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market 2026-05-06: Scanned 50 watchlist tickers. 6 candidates scored \u22656: ANTM (8, Q1 +60% net beat), ITMG (7, HOLD; Q1 T-1 May 7), INDF (6), BMRI (6), TLKM (6), SMGR (6). Brent reversed -5.55% killing yesterday's MEDC oil-shock thesis. IHSG +1.22% to 7,057 on GDP 5.61% beat + CPI 2.42% cooling, but foreign net sell -IDR 791B continues \u2014 EM-OUTFLOW regime intact. Banking Q1 prints +14-17% but sector-exit-watch (1 strike) blocks re-entry. Data infra still 403-blocked (yfinance/GoAPI) \u2014 ADV unverifiable for new entries; gate-check Gate 7/14 cannot fire. ITMG HOLD into print; pre-commit hard-cut 24,250.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656 (ANTM, ITMG, INDF, BMRI, TLKM, SMGR)"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 8/10 \u2014 Q1 net +60% YoY, rev +12% YoY"
-        },
-        {
-          "type": "research",
-          "ticker": "ITMG",
-          "detail": "score 7/10 \u2014 HOLD into Q1 earnings T-1 May 7; UBS upgrade Buy"
-        },
-        {
-          "type": "research",
-          "ticker": "INDF",
-          "detail": "score 6/10 \u2014 Q1 net +9%; R:R below 2:1 blocks entry"
-        },
-        {
-          "type": "macro",
-          "detail": "Brent reversal -5.55% to $108 \u2014 Iran ceasefire holds, geopolitical premium unwound"
-        },
-        {
-          "type": "macro",
-          "detail": "IHSG +1.22% to 7,057.10; foreign net sell -IDR 791B continues"
-        },
-        {
-          "type": "macro",
-          "detail": "Q1 GDP 5.61% beat (fastest since Q3 2022); April CPI 2.42% cooling"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-06T02:19:02Z",
       "routine": "market-open",
       "status": "warning",
@@ -16270,6 +16227,12 @@
           "detail": "Telegram delivery 403 proxy blocked; stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-17T04:35:38Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (100% cash IDR 9.716B). Book fully de-risked; no midday actions required."
     }
   ],
   "exposure": {
