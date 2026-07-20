@@ -11533,6 +11533,496 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BMRI (Banking) WATCH-elevated 5/10: top foreign buy Fri Rp 90.20B / Wk 13 +9.8% top motor; Q2 Aug 3 T+14",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Top-1 foreign buy Fri; Big-4 rally motor Wk 13; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBCA (Banking) WATCH-elevated 5/10: 2nd foreign buy Fri Rp 40.97B / Wk 13 +4.86%; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Top foreign buy 2 wks running; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI (Banking) WATCH-elevated 5/10: Wk 13 +6.45% / Q2 print Aug 3 T+14 binary; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Wk 13 +6.45% rally; Q2 Aug 3 T+14; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI (Banking) WATCH 5/10: Wk 13 +4.68% Big-4 participation; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Wk 13 +4.68% Big-4 rally; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MEDC (Energy) WATCH-elevated 5/10: Brent shock $88 direct-upside; Q2 Jul 31 T+11 highest-conviction post-gate",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Brent $88 direct-upside carry; Q2 Jul 31 T+11; blocked crisis-track + Data Quality FAIL. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "INDF (Consumer) WATCH 5/10: sole net-inflow YTD +Rp 58B relative-resilience; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Sole net-inflow YTD relative-resilience; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TLKM (Telco) WATCH 5/10: 12M PT Rp 3,629 Strong Buy 20 analysts; Q2 Aug 5 T+16; Data Quality FAIL persistent",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Data Quality FAIL persistent Wks 10-13; blocked crisis-track + gate. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ASII (Auto/Ind) WATCH 5/10: Q2 print Thu Jul 23 T+3 nearest binary; Rp 8T buyback partial-support",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Q2 event T+3; IDR-COGS + Brent-fuel NEG dual-drag; blocked crisis-track + Defensive Track SUSPENDED. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AKRA (Distribution) WATCH 5/10: Q2 print Jul 27 T+7 binary; petrol margin + fuel logistics",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Q2 print Jul 27 T+7; blocked crisis-track. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-07-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "PGAS (Gas Utility) WATCH 5/10: Abadi LNG HoA catalyst 9+ wks stale; defensive utility carry",
+      "inputs": [
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-Stage-5-marginal-DE-ARM-candidate + BRENT-SHOCK-$88-re-deepening"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 81 outage (yfinance 403 + GoAPI unset)"
+        },
+        {
+          "type": "catalyst",
+          "label": "BI RDG binary Tue-Wed Jul 21-22 T+1; consensus +25bp to 6.00%"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Abadi LNG HoA 9+ wks stale; blocked crisis-track + Data Quality FAIL. Quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal / not yet DE-ARMED / sub-17,750 gap ~190 IDR + Brent $88 re-deepening CPI-neg + Data Quality Day 81 + BI RDG T+1 binary) = structural 5/10 ceiling for ALL 50 tickers.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        false,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -11569,18 +12059,6 @@
     "updated": "2026-07-17"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-06T08:20:05Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-06 (Day 13, post-trial Wed): IDR 9.924B (0.00%). Alpha \u22120.64% daily / +6.21% cum vs IHSG 7,102 sesi I. 1 position open (ITMG \u22122.30%). 92.99% cash. Trades this week: 0/3. T\u22121 to ITMG Q1 print (Thu May 7). No risk alerts. IHSG baseline corrected to verified 7,057.11 May 5 / 7,102 May 6 sesi I.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 13 EOD snapshot committed; RISK-STATE updated; dashboard refreshed"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-07T00:18:32Z",
       "routine": "pre-market",
@@ -16247,6 +16725,68 @@
           "type": "research",
           "ticker": "BMRI",
           "detail": "score 5/10 Wk 13 top motor +9.8% but blocked by crisis-track + BI RDG T+1 binary"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-20T02:17:56Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 14 Day 1. 10 WATCH/WATCH-ELEVATED candidates (BMRI/BBCA/BBRI/BBNI/MEDC/INDF/TLKM/ASII/AKRA/PGAS at 5/10) SKIPPED per crisis-track engagement gate ACTIVATED binding. All 50 tickers structural 5/10 ceiling under quintuple binding (crisis-track + IDR Stage 5 marginal / sub-17,750 gap ~190 IDR + BRENT 8 re-deepening + Data Quality Day 81 + BI RDG T+1 binary Tue-Wed +25bp consensus). Book stays 100% cash IDR 9.72B (13th consecutive 0/3 BUY-slot week trajectory begins).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "5/10 crisis-track ACTIVATED + Defensive Track SUSPENDED"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10 crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
+        },
+        {
+          "type": "warning",
+          "detail": "Book stays 100% cash; 13th consecutive 0/3 BUY-slot week trajectory begins; BI RDG T+1 binary Tue-Wed"
         }
       ]
     }

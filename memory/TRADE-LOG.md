@@ -8323,3 +8323,55 @@ Fri Jul 17 sesi I provisional 6,141.97 (disway.id single-source primary; +33.76 
   10. Wk 14 planning window Mon–Fri: 3/3 fresh slots subject to IDR Stage 5 crisis-track engagement gate ACTIVATED resolution + Data Quality Gate Day 81 outage + regime pre-condition FAIL persisting; mathematically no re-entry path Wk 14 without IDR sub-17,750 sustained 3-of-3 sessions achievement.
 
 ---
+
+---
+
+### 2026-07-20 09:15 WIB — MARKET-OPEN Wk 14 Day 1 (Monday)
+
+#### Summary
+
+- **NO TRADES.** 10 WATCH/WATCH-ELEVATED candidates (BMRI/BBCA/BBRI/BBNI/MEDC/INDF/TLKM/ASII/AKRA/PGAS at 5/10) SKIPPED per crisis-track engagement gate ACTIVATED binding (codified TRADING-STRATEGY.md 2026-07-17). All 50 tickers structural 5/10 ceiling under quintuple binding (crisis-track ACTIVATED + IDR Stage 5 marginal DE-ARM candidate but sub-17,750 gap ~190 IDR + BRENT-SHOCK $88 re-deepening on US-Iran escalation + Data Quality Gate Day 81 outage + BI RDG T+1 binary Tue-Wed Jul 21-22 consensus +25bp to 6.00%).
+- **13th consecutive 0/3 BUY-slot week TRAJECTORY BEGINS** (Wk 3–14 = 39+ cumulative unused candidate-day slots trial-to-date).
+- **Book: 100% cash IDR 9,716,207,500** — Day 10 post-KLBF cut. No positions to manage; midday scan Wk 14 Day 1 will have zero sell-side work.
+- **Fri Jul 17 sesi II final IHSG reconciled 6,175** (+1.10% Fri / +4.24% Wk 13 net) — 7-day rally streak; BMRI/BBCA/BBRI motor Wk 13.
+- **Mon Jul 20 IHSG intraday cluster 6,092.29 (−1.35% vs Fri close)** — mean-reversion after 7-day rally + Asia risk-off (Nikkei −4.03% Fri) + Brent shock + BI event-risk premium.
+- **Foreign flow Fri +Rp 638.05B net BUY = 2-of-2 confirmed criterion (d)** post Thu +Rp 283B; +0.75pp progression to 2.25/5 confirming triggers.
+
+#### Candidates evaluated (all SKIP)
+
+| Ticker | Score | Bind reason |
+|--------|-------|-------------|
+| BMRI | 5/10 | Crisis-track ACTIVATED; top-1 foreign buy Fri Rp 90.20B / Wk 13 +9.8% |
+| BBCA | 5/10 | Crisis-track ACTIVATED; 2nd foreign buy Fri Rp 40.97B / Wk 13 +4.86% |
+| BBRI | 5/10 | Crisis-track ACTIVATED; Q2 Aug 3 T+14 / Wk 13 +6.45% |
+| BBNI | 5/10 | Crisis-track ACTIVATED; Wk 13 +4.68% |
+| MEDC | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; Brent $88 direct-upside; Q2 Jul 31 T+11 |
+| INDF | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; sole net-inflow YTD |
+| TLKM | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL Wks 10-13; Q2 Aug 5 T+16 |
+| ASII | 5/10 | Crisis-track ACTIVATED + Defensive Track SUSPENDED; Q2 Thu Jul 23 T+3 |
+| AKRA | 5/10 | Crisis-track ACTIVATED; Q2 Jul 27 T+7 |
+| PGAS | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; Abadi LNG HoA 9+ wks stale |
+
+#### 9-gate checklist
+
+Not exercised — regime pre-condition (crisis-track engagement gate) blocks all candidates BEFORE reaching per-ticker gate stack. Structural 5/10 score ceiling means no candidate reaches score ≥6 threshold for deep-dive advance to 9-gate execution flow. Documented in RESEARCH-LOG.md 2026-07-20 § "Top Candidates (score ≥6, deep-dive required)": **NONE**.
+
+#### Regime state at open
+
+- **DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE + BRENT-SHOCK-OVERLAY-RE-DEEPENING-$88 + Data-Quality-Gate-Day-81**
+- IDR Mon pre-open cluster 17,940-18,060 (BCA E-Rate mid 17,940 marginal below 18,050 Stage 5 threshold; but ~190 IDR ABOVE sub-17,750 crisis-track resolution threshold = 2 more sub-17,750 sessions needed for 3-of-3 de-arm).
+- Brent $88.10 +14% wk / +4.59% Fri = shock re-INTENSIFYING (US-Iran 6th consecutive night US strikes + Iran retaliation Bahrain/Jordan/Kuwait/Oman/Qatar/Syria).
+- BI RDG Tue-Wed Jul 21-22 binary = consensus +25bp to 6.00% (FocusEconomics baseline).
+- Foreign flow criterion (d) 2-of-2 CONFIRMED Thu +Rp 283B / Fri +Rp 638B; 2.25 of 5 re-entry criteria confirming.
+
+#### Held positions
+
+*(None — book fully de-risked 100% cash Day 10 post-KLBF hard-cut through Wk 14 Day 1 open.)*
+
+#### Next checkpoints
+
+- Midday scan 11:30 WIB — no positions to manage; regime status re-check only.
+- EOD 15:15 WIB — reconcile Mon sesi II final IHSG; poll IDR sustained close vs Stage 5 threshold; log Wk 14 Day 1 in journal.
+- Tue Jul 21 BI RDG Day 1 (pre-open) — first binary; consensus +25bp announcement typically Tue-Wed sesi II.
+- Wed Jul 22 BI RDG Day 2 EOD — post-decision agenda: MACRO-REGIME.md update if warranted; crisis-track re-entry criteria calibration if IDR responds sub-Stage-5 sustained.
+
