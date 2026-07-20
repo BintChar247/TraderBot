@@ -12060,54 +12060,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-07T00:18:32Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market 2026-05-07: Scanned 50 watchlist tickers. 6 candidates scored \u22656: SMGR (8, Q1 +88.7% net beat + cement reflation), UNVR (8, Q1 +73% headline + June EGMS dividend; +8.84% chase blocked), ANTM (8, Q1 +60% net carryover; nickel firm), AKRA (7, controller Rp 282.5B 3-day insider buy), ITMG (7, HOLD into Q1 earnings TODAY), INTP (6, cement sympathy). ITMG Q1 binary day \u2014 pre-commit triggers active (intraday <24,250 EXIT; >27,900 trail). Brent crash -6.96% kills MEDC/PGAS oil thesis. Foreign net sell continues -IDR 518B May 5. ADV unverifiable for non-ITMG names (data infra block) \u2014 Gate 7/14 cannot fire on new entries.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (all watchlist, no skips)"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656 (SMGR, UNVR, ANTM, AKRA, ITMG, INTP)"
-        },
-        {
-          "type": "research",
-          "ticker": "SMGR",
-          "detail": "score 8/10 \u2014 Q1 net +88.7% YoY (Rp 80B) + cement reflation; Maybank top pick"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 8/10 \u2014 Q1 net +73% headline + June EGMS dividend; +8.84% chase blocked"
-        },
-        {
-          "type": "research",
-          "ticker": "AKRA",
-          "detail": "score 7/10 \u2014 controller Rp 282.5B 3-day insider buy at 1,520-1,580"
-        },
-        {
-          "type": "hold",
-          "ticker": "ITMG",
-          "detail": "HOLD into Q1 earnings TODAY; buffer 6.91% to hard-cut 24,250"
-        },
-        {
-          "type": "macro",
-          "detail": "Brent -6.96% to $102.22 \u2014 kills MEDC/PGAS oil sympathy thesis"
-        },
-        {
-          "type": "macro",
-          "detail": "Foreign net sell -IDR 518B May 5 (~6th straight session); BMRI/BBCA distributed, BBRI re-accumulated"
-        },
-        {
-          "type": "infra",
-          "detail": "yfinance/GoAPI ADV unverifiable for non-ITMG \u2014 Gate 7/14 cannot fire on new entries"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-07T02:22:16Z",
       "routine": "market-open",
       "status": "warning",
@@ -16789,6 +16741,12 @@
           "detail": "Book stays 100% cash; 13th consecutive 0/3 BUY-slot week trajectory begins; BI RDG T+1 binary Tue-Wed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-20T04:36:26Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts triggered. Book 100% cash Day 10 post-KLBF (IDR 9,716,207,500); zero open positions, sell-side rules N/A."
     }
   ],
   "exposure": {

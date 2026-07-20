@@ -8375,3 +8375,29 @@ Not exercised — regime pre-condition (crisis-track engagement gate) blocks all
 - Tue Jul 21 BI RDG Day 1 (pre-open) — first binary; consensus +25bp announcement typically Tue-Wed sesi II.
 - Wed Jul 22 BI RDG Day 2 EOD — post-decision agenda: MACRO-REGIME.md update if warranted; crisis-track re-entry criteria calibration if IDR responds sub-Stage-5 sustained.
 
+---
+
+### 2026-07-20 11:30 WIB — MIDDAY SCAN Wk 14 Day 1 (Monday)
+
+#### Summary
+
+- **NO ACTION.** Book 100% cash (IDR 9,716,207,500) Day 10 post-KLBF hard-cut. Zero open positions → sell-side rule stack (−7% hard cut / +15% trail-tighten 7% / +20% trail-tighten 5% / thesis-break exit) all N/A this scan.
+- Broker `positions` returns `count: 0` confirming full-cash posture intact through Wk 14 Day 1 midday.
+- Regime status unchanged from 09:15 WIB market-open: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY11 + IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE + BRENT-SHOCK-OVERLAY-RE-DEEPENING-$88 + Data-Quality-Gate-Day-81. Crisis-track engagement gate ACTIVATED remains binding on all 50 tickers (structural 5/10 ceiling).
+- No intraday research addendum triggered (no held stocks → no >3% moves to investigate).
+
+#### Positions checked
+
+*(None — `broker.sh positions` → `count: 0`.)*
+
+#### Sell-side rules applied
+
+- Losers (−7% hard cut): **N/A** (no positions).
+- Winners (+15% → 7% trail / +20% → 5% trail): **N/A** (no positions).
+- Thesis check: **N/A** (no positions).
+
+#### Next checkpoints
+
+- EOD 15:15 WIB — reconcile Mon sesi II final IHSG; poll IDR sustained close vs Stage 5 threshold (18,050) and vs sub-17,750 crisis-track sub-threshold; log Wk 14 Day 1 journal.
+- Tue Jul 21 07:00 WIB pre-market — BI RDG Day 1 pre-open positioning; consensus +25bp.
+
