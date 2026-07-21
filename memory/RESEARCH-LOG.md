@@ -15911,3 +15911,202 @@ Wk 14 Day 1 — 3/3 fresh slots. Crisis-track engagement gate ACTIVATED persiste
 - **DBS Indonesia ramal IHSG tembus 8,000; rupiah bisa menguat ke Rp 17,600** — structural bull-case anchor persisting from Wk 13; url: https://www.suara.com/bisnis/2026/07/16/083654/dbs-indonesia-ramal-ihsg-tembus-8000-rupiah-bisa-menguat-ke-level-rp17600
 
 ---
+
+## 2026-07-21 (Tuesday) — Wk 14 Day 2 — BI RDG Day 1 (BINARY T-0)
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,443.28 | -0.19% | Weighed by rising oil; hover near record |
+| Nasdaq | 25,508.07 | -0.05% | Chip-mixed; waiting on Big Tech earnings |
+| Dow | 51,839.26 | -0.59% | Oil-price weakness leader |
+| Nikkei 225 | 64,141 → recovery | Mon +0.62% | Rebound from Fri -4.03% Asia risk-off |
+| Shanghai Comp | 3,796.28 | +0.85% | Recovery from Fri -3.05% |
+| Hang Seng | 25,143.05 | +2.36% | Sharp rebound from Fri -1.78% |
+| VIX | 17.81 | -5.11% | Below 20 fear-threshold; complacency partial-return from Fri 18.77 |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Mon Jul 20 sesi II final) | 6,232.85 | +0.91% | Multi-source 3-source convergent fortune/idnfinancials/suara.com/bisnis; +55 pt vs Fri 6,175; 8th consecutive rally-session |
+| IDR/USD (Tue Jul 21 forecast) | 18,188 | +100 IDR from Mon | Range 17,915-18,461 (30rates); 7-day avg 18,071; Mon BCA E-Rate 17,940 marginal sub-Stage-5; **RE-DEEPENED ≥18,050 = Stage 5 CONFIRMED-HARD-ENGAGED persists** |
+| Indo 10Y SUN yield | ~7.27% | ~flat | BI RDG binary + hawkish anticipation |
+| US 10Y yield | 4.57% | +0.64% intraday | Oil-price passthrough + Fed hawkish |
+| Indo-US spread | ~270 bp | ~flat | Narrowing since Wk 13 |
+| Newcastle coal (USD/t) | 130.00 | -1.5% | Fell sub-$130 on US-Iran peace-talk hopes |
+| CPO palm oil (MYR/t) | 4,565 | +0.34% | Aug MDEX contract; MPOC 4,400-4,650 range |
+| LME nickel (USD/t) | 17,045 | ~flat | Multi-mo low; Indo 260→360Mt quota glut |
+| Brent crude (USD/bbl) | 90.26 (open) → 91.41 intraday | +2.4% Tue | **BRENT SHOCK RE-INTENSIFYING** from Mon $87.72-88.19; ceasefire collapse + multi-front Iran retaliation + Hormuz near-halted |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell IDX (Mon Jul 20 sesi I) | **-Rp 302.86B NET SELL** | BMRI top disposal name; breaks 2-of-2 inflection streak; all-day final pending overnight multi-source |
+| Foreign net buy/sell (Fri Jul 17 REVISED) | +Rp 725.11B all-day | BBCA Rp 698.3B / BMRI Rp 374.8B / BBRI Rp 267.7B top-3; ↑ from prior Rp 638B estimate |
+| Weekly Wk 13 foreign flow | +Rp 442.05B net BUY | reversal from Wk 12 -Rp 1.73T net sell |
+| Foreign flow streak | 2-of-2 Thu-Fri NET BUY then Mon NET SELL sesi I | **Criterion (d) inflection REVERTS to REGRESSED after Mon Day 1 sesi I** if all-day confirms |
+| Top buying sectors Fri | Banking Big-4 | BBCA/BMRI/BBRI Wk 13 motor |
+| Top selling Mon sesi I | Banking Big-4 | BMRI top disposal profit-taking + BI RDG hedging |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist |
+|--------|-------|------------|-----------|
+| Banking | Fri UP / Mon MIXED | BI RDG T-0 binary Tue-Wed | BBCA/BBRI/BMRI/BBNI blocked |
+| Coal / Energy | Sub-$130 5th+ wk | Peace-talk hopes weaken price | EXITED |
+| Nickel / Mining | Multi-mo low | LME $17K + Indo quota glut | Weak |
+| CPO / Agri | MPOC range-bound | Palm oil 4,565 MYR/t Aug | Weak |
+| Property | Rate-sensitive drag | BI RDG hawkish + IDR Stage 5 | Weak |
+| Consumer | Mixed | Brent $90 CPI-neg + foreign outflow | INDF sole net-inflow |
+| Telco | Constructive | ARPU +4% Q2 aggregate; ISAT Q2 T+3 | TLKM blocked Data Quality |
+| Energy (Brent-upside) | UP $90+ | Iran retaliation multi-front | MEDC direct-upside blocked |
+| Infrastructure | Weak | Danantara Phase 1 overhang | Weak |
+
+### Corporate Calendar This Week
+
+| Event | Ticker | Date T+X | Expected Impact |
+|-------|--------|----------|-----------------|
+| **BI RDG Day 1** | Rate | Tue Jul 21 T-0 | BINARY: FocusEconomics +25bp / Kenanga hold; HIKE = property NEG banks NIM+ |
+| **BI RDG Day 2 announcement** | Rate | Wed Jul 22 T+1 | Volatility spike either direction |
+| ISAT Q2 print | ISAT | Thu Jul 24 T+3 | Telco Q2 ARPU carry test |
+| AKRA Q2 print | AKRA | Sun Jul 27 T+6 | Petrol margin + logistics |
+| WSKT Q2 print | WSKT | Wed Jul 29 T+8 | SOE construction Danantara-adjacent |
+| ASII Q2 print (**REVISED**) | ASII | Thu Jul 30 T+9 | Auto/heavy-eq mining segment mix; prior expectation Jul 23 supersession |
+| MEDC Q2 print | MEDC | Fri Jul 31 T+10 | Brent $90 direct-upside test |
+| BBRI Q2 print | BBRI | ~Aug 3 T+13 | Big-4 leadership |
+| TLKM Q2 print | TLKM | ~Aug 5 T+15 | Telco defensive; ARPU +4% agg |
+
+### Watchlist Scan — All 50 Tickers
+
+Two-track scoring: Catalyst track primary; Defensive-Quality Track SUSPENDED under DEFENSIVE-INTENSIFIED regime per Wk 13 codification. Crisis-track engagement gate ACTIVATED = structural 5/10 ceiling on ALL 50 tickers regardless of fundamentals until 5 re-entry criteria concurrent.
+
+| # | Ticker | Sector | Price (Fri/Mon) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-----------------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,475 Fri | +4.02%/wk +5.28% | 5 | Fri foreign top-buy Rp 698B; Wk 13 motor; blocked crisis-track | WATCH-elevated |
+| 2 | BBRI | Banking | 2,970 Fri | +3.85% Fri | 5 | Fri foreign net-buy Rp 268B; Q2 Aug 3 T+13; blocked crisis-track | WATCH-elevated |
+| 3 | BMRI | Banking | 4,480 Fri | +3.94% Fri | 5 | Fri top-2 foreign +Rp 375B; Mon sesi I TOP-DISPOSAL profit-taking; wobble | WATCH-elevated |
+| 4 | BBNI | Banking | 3,580 Fri | +2.29% Fri | 5 | Big-4 broad rally; blocked crisis-track | WATCH |
+| 5 | BNGA | Banking | (Data FAIL) | n/a | 4 | Private bank; dividend candidate; blocked | WATCH |
+| 6 | NISP | Banking | (Data FAIL) | n/a | 3 | Private bank; blocked | SKIP |
+| 7 | BBTN | Banking | (Data FAIL) | n/a | 3 | Rate-sensitive mortgage; BI RDG binary NEG-tilted | SKIP |
+| 8 | ADRO | Coal | (Data FAIL) | n/a | 3 | Coal $130 sub-$130 wks; sector EXITED | SKIP |
+| 9 | ITMG | Coal | (Data FAIL) | n/a | 3 | Same sector EXITED | SKIP |
+| 10 | PTBA | Coal | (Data FAIL) | n/a | 3 | Same sector EXITED; Spec Buy support 3,040 tech | SKIP |
+| 11 | BUMI | Coal | 155 Mon | +3.33% Mon | 3 | Speculative low-price rally; sector EXITED | SKIP |
+| 12 | HRUM | Coal | (Data FAIL) | n/a | 3 | Same sector EXITED; Spec Buy 1,390-1,465 tech | SKIP |
+| 13 | MEDC | Energy | (Data FAIL) | n/a | 5 | **BRENT SHOCK RE-INTENSIFYING $90+ direct-upside**; Q2 Jul 31 T+10; Q1 +282% YoY at $75 avg; blocked crisis-track | WATCH-elevated |
+| 14 | PGAS | Gas/Energy | (Data FAIL) | n/a | 5 | Abadi LNG HoA 9+ wks stale; defensive utility; blocked | WATCH |
+| 15 | ANTM | Nickel | (Data FAIL) | n/a | 4 | Nickel $17K + Indo quota glut; MSCI SC removal; ANTM/NCKL analyst top-picks | WATCH |
+| 16 | INCO | Nickel | (Data FAIL) | n/a | 3 | Nickel weak; sector-weak | SKIP |
+| 17 | MDKA | Nickel | (Data FAIL) | n/a | 3 | Weak | SKIP |
+| 18 | NCKL | Nickel | (Data FAIL) | n/a | 3 | Weak; analyst top-pick nickel but sector-weak | SKIP |
+| 19 | MBMA | Nickel | (Data FAIL) | n/a | 3 | Weak | SKIP |
+| 20 | TINS | Metals/Tin | (Data FAIL) | n/a | 3 | Tin analyst top-pick but sector-weak | SKIP |
+| 21 | UNVR | Consumer | (Data FAIL) | n/a | 3 | Brent $90 CPI-NEG erodes CPI-relief thesis; foreign outflow | SKIP |
+| 22 | ICBP | Consumer | (Data FAIL) | n/a | 4 | Foreign outflow persistent Wks 12-13; Brent CPI-neg | WATCH |
+| 23 | INDF | Consumer | (Data FAIL) | n/a | 5 | Sole net-inflow YTD +Rp 58B; relative-resilience; blocked CPI hawkish + Brent-CPI-neg | WATCH |
+| 24 | MYOR | Consumer | (Data FAIL) | n/a | 4 | Foreign outflow persistent | WATCH |
+| 25 | SIDO | Consumer | (Data FAIL) | n/a | 3 | Healthcare-adjacent; foreign outflow | SKIP |
+| 26 | TLKM | Telco | (Data FAIL) | n/a | 5 | Q2 ARPU +4% agg; 12M target Rp 3,629 Strong Buy 20 analysts; Q2 Aug 5 T+15; blocked Data Quality + crisis-track | WATCH |
+| 27 | EXCL | Telco | (Data FAIL) | n/a | 4 | 700MHz spectrum win Rp 1.06T dominant; positive momentum | WATCH |
+| 28 | ISAT | Telco | (Data FAIL) | n/a | 4 | Q2 Jul 24 T+3 near-binary; blocked crisis-track | WATCH |
+| 29 | MTEL | Telco/Tower | (Data FAIL) | n/a | 3 | LQ45 removed; blocked | SKIP |
+| 30 | TOWR | Telco/Tower | (Data FAIL) | n/a | 3 | Weak | SKIP |
+| 31 | BSDE | Property | (Data FAIL) | n/a | 3 | Analyst BUY target 1,240 but BI-hawkish drag | SKIP |
+| 32 | CTRA | Property | (Data FAIL) | n/a | 3 | LQ45 removed; PPN incentive positive but rate-sensitive | SKIP |
+| 33 | SMRA | Property | (Data FAIL) | n/a | 3 | 9M25 marketing sales +34% YoY but rate-sensitive | SKIP |
+| 34 | PWON | Property | (Data FAIL) | n/a | 3 | Rate-sensitive; PPN incentive | SKIP |
+| 35 | GOTO | Tech | (Data FAIL) | n/a | 3 | Q1 first profit Rp 258B; ARB floor delisting risk | SKIP |
+| 36 | BUKA | Tech | (Data FAIL) | n/a | 3 | Q1 loss -Rp 426B; ARB/delisting risk | SKIP |
+| 37 | EMTK | Tech/Media | (Data FAIL) | n/a | 3 | Weak sector | SKIP |
+| 38 | ASII | Auto/Ind | (Data FAIL) | n/a | 5 | **Q2 REVISED to Thu Jul 30 T+9** (prior Jul 23 superseded); Rp 8T buyback partial-support; blocked IDR import-COGS + Brent fuel-input NEG | WATCH |
+| 39 | UNTR | Heavy Eq | (Data FAIL) | n/a | 4 | Rp 2T buyback expired Jan; Danantara overhang | WATCH |
+| 40 | AKRA | Distribution | (Data FAIL) | n/a | 5 | Q2 Jul 27 T+6; petrol margin/logistics; blocked crisis-track | WATCH |
+| 41 | AALI | Plantation | (Data FAIL) | n/a | 3 | Falling-knife -23.89% MoM; MSCI SC contamination | SKIP |
+| 42 | LSIP | Plantation | (Data FAIL) | n/a | 3 | Falling-knife + MPOC bearish | SKIP |
+| 43 | JSMR | Infrastructure | (Data FAIL) | n/a | 3 | Danantara + BI hawkish | SKIP |
+| 44 | WSKT | Construction | (Data FAIL) | n/a | 3 | Q2 Jul 29 T+8; SOE Himbara restructuring | SKIP |
+| 45 | PTPP | Construction | (Data FAIL) | n/a | 3 | SOE restructuring; rate-sensitive | SKIP |
+| 46 | ADHI | Construction | (Data FAIL) | n/a | 3 | Same SOE restructuring | SKIP |
+| 47 | KLBF | Healthcare | REMOVED | n/a | 3 | Post-hard-cut Mon Jul 6; not re-entry | SKIP |
+| 48 | MIKA | Healthcare | (Data FAIL) | n/a | 4 | Healthcare-defensive residual; MSCI SC removal | WATCH |
+| 49 | SMGR | Cement | (Data FAIL) | n/a | 3 | Rate-sensitive + property weakness | SKIP |
+| 50 | INTP | Cement | (Data FAIL) | n/a | 3 | Same rate-sensitive | SKIP |
+
+**Watchlist scan summary Wk 14 Day 2:**
+- WATCH-ELEVATED (5/10): BBCA / BBRI / BMRI / MEDC (4 tickers unchanged from Wk 14 Day 1)
+- WATCH (5/10): BBNI / INDF / TLKM / ASII / AKRA / PGAS (6 tickers)
+- WATCH (4/10 residual): BNGA / ANTM / ICBP / MYOR / EXCL / ISAT / UNTR / MIKA
+- SKIP (≤3/10): 30 tickers
+- **CANDIDATES ≥6/10: ZERO** — structural ceiling 5/10 binding on ALL under quintuple gate stack (crisis-track ACTIVATED + IDR Stage 5 RE-DEEPENED + BRENT SHOCK RE-INTENSIFYING $90+ + BI RDG T-0 binary + Data Quality Gate Day 82)
+- **DEFENSIVE-Quality Track: SUSPENDED** (BBCA/BBRI/BMRI/BBNI/TLKM/ASII/UNVR/ICBP/ADRO all blocked)
+
+### Top Candidates (score ≥6, deep-dive required)
+
+**NONE.** Zero tickers cleared score ≥6 threshold. Structural 5/10 ceiling under quintuple binding is the operating floor for Wk 14 Day 2 (BI RDG Day 1 T-0). Deep-dive DEFERRED — no candidate advances to 15-check buy-side gate.
+
+### Held Position Updates
+
+*(None — book fully de-risked 100% cash Day 11 post-KLBF hard-cut through Wk 14 Day 2 open; nothing to manage.)*
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY12 + IDR-ESCALATION-STAGE-5-RE-DEEPENED + BRENT-SHOCK-OVERLAY-RE-INTENSIFYING-$90 + BI-RDG-T-0-BINARY + Data-Quality-Gate-Day-82**
+
+- **Reasoning:** Quintuple binding partial-shift Wk 14 Day 2:
+  1. Crisis-track engagement gate ACTIVATED persistent (codified TRADING-STRATEGY.md 2026-07-17).
+  2. **IDR Tue forecast 18,188 = RE-DEEPENED ≥18,050** from Mon marginal-sub 17,940 BCA E-Rate; 7-day range 17,940-18,182 shows Stage 5 territory persisting.
+  3. **BRENT-SHOCK OVERLAY RE-INTENSIFYING $90.26 open $91.41 intraday** — Mon $87.72-88.19 baseline breached; multi-front Iran retaliation + Hormuz near-halted transit; overlay INTENSIFYING beyond Wk 13 close.
+  4. Data Quality Gate Day 82 outage persists (yfinance 403 + GoAPI unset); WebSearch multi-source override operational for macro anchors only; per-ticker cluster narrowing MOSTLY UNAVAILABLE.
+  5. **BI RDG BINARY Day 1 T-0 today Tue Jul 21 + Day 2 T+1 Wed Jul 22** — consensus split (Kenanga hold / EIU-FocusEconomics +25bp to 6.00%); regardless of direction volatility spike expected.
+  6. **Criterion (d) foreign-flow inflection UNCERTAIN** — Fri +Rp 725B (upward-revised) was 2nd consecutive net-BUY confirming 2-of-2; Mon Jul 20 sesi I -Rp 302B REVERSAL (BMRI top-disposal) breaks streak intraday; Mon all-day final pending overnight multi-source; if all-day confirms net-SELL, criterion (d) REVERTS to REGRESSED = 1.5 of 5 confirming (from 2.25/5).
+- **De-escalation triggers:** (a) IDR sub-17,750 sustained 3-of-3 (Tue forecast 18,188 = further AWAY not closer; mathematically effectively unreachable this week); (b) Brent sustained sub-$78 (Tue $90+ = 13.3% correction required); (c) BI RDG DOVISH surprise Tue-Wed = mild-relief signal but consensus split favors +25bp; (d) foreign-flow 3-of-3 continuation Mon all-day + Tue sessions.
+- **Position sizing adjustment:** ZERO new entries per crisis-track engagement gate ACTIVATED codified TRADING-STRATEGY.md 2026-07-17. Regime + IDR + Brent + Data Quality + BI-RDG-T-0 quintuple-binding = book stays 100% cash Wk 14 forward pending Wed T+1 binary resolution + IDR trajectory + foreign-flow re-confirmation.
+
+### Flagged Risks
+
+- **BI RDG BINARY Day 1 T-0 today + Day 2 T+1 Wed**: consensus split; HIKE = HAWKISH-REANCHORING further intensified = property/cement/rate-sensitive NEG; hold = mild dovish signal but IDR-defensive downside; any Tue-Wed volatility spike expected regardless of direction.
+- **Brent shock RE-INTENSIFYING $90-91 intraday from Mon $88**: US-Iran ceasefire collapse + multi-front Iran retaliation + Hormuz near-halted transit; CPI-vector NEGATIVE further erodes consumer/CPI-relief theses; MEDC direct-upside beneficiary intact but blocked crisis-track.
+- **IDR Tue forecast 18,188 = RE-DEEPENED**: post Mon marginal-sub 17,940 signal reverting to Stage 5 territory; sub-17,750 3-of-3 mathematically unreachable this week.
+- **Foreign flow inflection UNCERTAIN Mon Day 1 sesi I NET SELL Rp 302B** (BMRI top disposal): breaks Thu-Fri 2-of-2 net-BUY streak intraday; criterion (d) potentially REVERTS to REGRESSED if all-day confirms.
+- **IHSG Mon Jul 20 sesi II final 6,232.85 +0.91% multi-source**: 8th consecutive rally-session (Wk 13 net +4.24% + Mon +0.91%); technical stretched near 6,250 psychological resistance; mean-reversion risk pre-BI-RDG event volatility.
+
+### Plan for /market-open
+
+- [ ] **NO TRADES Wk 14 Day 2** (BI RDG T-0). Crisis-track engagement gate ACTIVATED binding regardless of any ticker score. BI RDG T+0/T+1 binary compounds SKIP discipline.
+- [ ] **Book stays 100% cash IDR 9,716,207,500**. No new entries per quintuple-binding gate stack.
+- [ ] **Held positions: NONE** — no midday state-machine transitions to manage.
+- [ ] **Watch for BI RDG Wed T+1 announcement** — high-conviction WATCH-ELEVATED names (BBCA/BBRI/BMRI/MEDC) may re-score post-decision if IDR responds sub-Stage-5 AND foreign-flow re-confirms 3-of-3 net-BUY.
+- [ ] **Sector priorities Wk 14** (post-BI-RDG resolution Wed): unchanged — (1) Banking Big-4 conditional; (2) MEDC on Brent shock direct-upside; (3) INDF on relative-resilience; (4) PGAS on defensive-utility. All blocked crisis-track binding through Wk 14 unless IDR sub-17,750 sustained 3-of-3 achievement Wed-Thu-Fri (requires ~440 IDR / ~245bps rally over 3 sessions from Tue 18,188 forecast = catastrophic tail scenario).
+- [ ] **Sector exits sustained**: Coal (EXITED 2-strike + peace-talk-hopes weakening); Nickel (LME $17K multi-mo low + quota glut); Property/Cement (BI hawkish RE-ANCHOR + IDR Stage 5); Tech (GOTO/BUKA ARB floor + delisting); CPO (MPOC 4,400-4,650 range + falling-knife AALI/LSIP).
+- [ ] **14th consecutive 0/3 BUY-slot week trajectory continues** — Wk 14 Day 2 slot 0/3; 40+ cumulative unused candidate-day slots trial-to-date across Wk 3-14. Wk 14 slot allocation 3/3 fresh but IDR Stage 5 RE-DEEPENED + Brent RE-INTENSIFYING $90 + Data Quality Gate Day 82 + BI RDG T-0 quintuple binding = expected 0/3 continuation unless post-Wed IDR sub-17,750 sustained 3-of-3 achieves.
+- [ ] **BI RDG post-decision agenda Wed Jul 22 EOD**: (a) MACRO-REGIME.md update if BI action + market reaction + IDR response warrants regime relabelling; (b) crisis-track re-entry criteria calibration if IDR responds sub-Stage-5 sustained; (c) MISTAKES.md MD_LAST_PRICE_OVERRIDE infra-fix binary decision Wk 14 Process Change #2 required.
+
+### Headlines & Catalysts
+
+- **IHSG Mon Jul 20 close 6,232.85 +0.91% (+55 pt), 8th consecutive rally-session** — BUMI top gainer +3.33% to 155; BMRI/BBCA/BBRI Big-4 motor continues; url: https://www.fortuneidn.com/market/harga-saham-pt-bumi-resources-tbk-bumi-hari-ini-20-july-2026-00-k4c38-ng6kcc
+- **IHSG sesi I Mon Jul 20 6,228 +0.86% intraday** — BBCA/BBRI foreign accumulation targets; url: https://www.suara.com/bisnis/2026/07/20/124518/ihsg-terbang-di-sesi-i-ke-level-6228-bbca-dan-bbri-mulai-jadi-buruan
+- **Mon Jul 20 sesi I foreign NET SELL Rp 302.86B; BMRI top disposal** — breaks Thu-Fri 2-of-2 net-BUY inflection streak; url: https://www.instagram.com/reel/DVbGXrOFAvM/
+- **Fri Jul 17 foreign net BUY REVISED Rp 725.11B (up from Rp 638B)** — BBCA Rp 698.3B / BMRI Rp 374.8B / BBRI Rp 267.7B; Wk 13 weekly net Rp 442.05B (reversal from Wk 12 -Rp 1.73T); url: https://mediakampung.com/pasar-modal/meka-20260720122942/asing-net-buy-rp-442-m-pekan-lalu-bmri-tpia-hingga-antm-jadi-buruan/
+- **BI RDG Tue-Wed Jul 21-22 BINARY** — Kenanga hold vs FocusEconomics/EIU +25bp to 6.00%; T-0 today; url: https://www.kenanga.com.my/wp-content/uploads/2026/06/EV_ID_Bank-Indonesia_BOG6_260610-Kenanga.pdf
+- **Analyst pre-RDG banking recommendation** — BBNI, BBCA top-picks; BBCA Fri +4.02% to 6,475 / BMRI 4,480 / BBRI 2,970 / BBNI 3,580; url: https://keuangan.kontan.co.id/news/jelang-rdg-bi-begini-rekomendasi-saham-bbca-bbri-bmri-dan-bbni
+- **Brent RE-INTENSIFYING $90.26 open $91.41 intraday Tue** — ceasefire collapse + multi-front Iran retaliation + Hormuz near-halted; url: https://tradingeconomics.com/commodity/brent-crude-oil
+- **Newcastle coal $130 fell sub-$130 on US-Iran peace-talk hopes** — sector EXITED thesis validated; url: https://tradingeconomics.com/commodity/coal
+- **US Mon Jul 20 S&P -0.19% to 7,443.28; Nasdaq -0.05%; Dow -0.59%** — weighed by rising oil; CNBC live; url: https://www.cnbc.com/2026/07/19/stock-market-today-live-updates.html
+- **Asia Mon recovery**: Nikkei 64,141 +0.62% / Shanghai 3,796 +0.85% / Hang Seng 25,143 +2.36% — sharp rebound from Fri Asia risk-off; url: https://armenpress.am/en/article/1255984
+- **VIX Tue intraday 17.81 -5.11% from Mon** — complacency partial-return sub-20 fear threshold; url: https://finance.yahoo.com/quote/%5EVIX/
+- **US 10Y 4.57% +0.64% intraday** — oil-price passthrough + Fed hawkish carry; url: https://finance.yahoo.com/quote/%5ETNX/
+- **ASII Q2 earnings REVISED to Thu Jul 30 T+9 (prior Jul 23 T+3 superseded)** — auto/heavy-eq mining segment mix; Q1 net income Rp 5.85T -16% YoY on mining segment weakness; url: https://quartr.com/companies/pt-astra-international-tbk_23105
+- **ISAT Q2 print Thu Jul 24 T+3 nearest binary catalyst** — telco ARPU +4% Q2 aggregate expected; url: https://www.google.com/finance/beta/quote/ISAT:IDX
+- **MEDC Q2 Fri Jul 31 T+10 Brent-shock direct-upside** — Q1 +282% YoY at $75 avg realization; Brent $90+ well above cluster; blocked crisis-track; url: https://tradingeconomics.com/commodity/brent-crude-oil
+- **AKRA Q2 print Sun Jul 27 T+6** — petrol margin + logistics; Brent-input mixed; blocked crisis-track; url: https://insight.kontan.co.id/news/saham-telko-kompak-menghijau-prospek-tlkm-isat-excl-masih-menarik
+- **Property sector: BSDE analyst BUY target Rp 1,240 / SMRA 9M25 marketing sales +34% YoY / CTRA + PWON 100% PPN incentive** — positive fundamentals but BI hawkish + rate-sensitive drag = SKIP; url: https://katadata.co.id/finansial/bursa/695b65f509232/prospek-saham-properti-di-2026-ctra-pwon-ssia-hingga-bsde-berpotensi-bangkit
+- **Nickel analyst top-picks ANTM/NCKL despite LME weakness** — margin trend positive but sector-weak; url: https://ima-api.org/harga-nikel-tertekan-analis-masih-jagokan-saham-antm-inco-dan-mbma/
+- **Telco sector Q2 ARPU +4% aggregate** — TLKM/ISAT/EXCL constructive; blocked Data Quality + crisis-track; url: https://dataindonesia.id/korporasi/detail/momentum-sektor-telekomunikasi-berlanjut-valuasi-tlkm-isat-dan-excl-diproyeksi-makin-atraktif
+- **GOTO Q1 first profit Rp 258B; BUKA Q1 loss -Rp 426B; ARB floor + delisting risk both** — tech sector SKIP; url: https://market.bisnis.com/read/20260429/192/1970094/beda-nasib-kinerja-emiten-teknologi-goto-vs-buka-kuartal-i2026
+- **PTBA Spec Buy support 3,040 / HRUM Spec Buy 1,390-1,465** — tech signals but sector EXITED per 2-strike + Brent CPI-neg overlay; url: https://investasi.kontan.co.id/news/simak-rekomendasi-saham-adro-ptba-itmg-hrum-saat-harga-batubara-masih-membara
+
+---
