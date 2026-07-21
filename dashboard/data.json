@@ -12077,18 +12077,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-07T08:20:24Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-07 (Day 14): Equity flat IDR 9.924B (0.00% day); ITMG mark 25,475 unchanged. IHSG sesi I 7,117 (+0.35% DoD); alpha -0.35%. Cum return -0.76% / cum alpha +6.01%. Q1 ITMG print expected post-close \u2014 pre-commit triggers unbreached intraday.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 14 EOD snapshot committed; ITMG held into Q1 release; pre-commit decision matrix re-affirmed for May 8 pre-market"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-08T00:14:04Z",
       "routine": "pre-market",
       "status": "success",
@@ -16774,6 +16762,34 @@
           "type": "skip",
           "ticker": "MEDC",
           "detail": "5/10 blocked despite Brent $90+ direct upside"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-21T02:16:49Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 14 Day 2 (BI RDG Day 1 T-0). Crisis-track engagement gate ACTIVATED binding all 50 tickers \u22645/10 structural ceiling; no candidate advanced to 15-check gate. Book stays 100% cash IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "detail": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries per TRADING-STRATEGY.md 2026-07-17"
+        },
+        {
+          "type": "skip",
+          "detail": "IDR Tue forecast 18,188 = Stage 5 RE-DEEPENED; sub-17,750 3-of-3 mathematically unreachable this week"
+        },
+        {
+          "type": "skip",
+          "detail": "BRENT SHOCK RE-INTENSIFYING $90-91 intraday from Mon $88"
+        },
+        {
+          "type": "skip",
+          "detail": "BI RDG T-0 Tue + T+1 Wed binary \u2014 volatility spike expected either direction"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 82 outage persists (yfinance 403 + GoAPI unset)"
         }
       ]
     }
