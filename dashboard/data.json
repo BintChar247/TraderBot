@@ -12077,57 +12077,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-08T00:14:04Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned all 50 watchlist tickers. 7 candidates scored \u22656: PTBA (8) Q1+105%, ADRO (8) Q1+67%, BBRI (7) Q1+13.7%, AKRA (7) insider buy, ANTM (7) Q1+60%, ICBP (7) LQ45 top gainer, ITMG (HOLD) Q1 print pending. ITMG Q1 verification = priority at market-open.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 watchlist tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PTBA",
-          "detail": "score 8/10 \u2014 Q1 net +105% YoY (Rp 801.79B), SOE coal beat"
-        },
-        {
-          "type": "research",
-          "ticker": "ADRO",
-          "detail": "score 8/10 \u2014 Q1 net +67.07% YoY (US$128.14M), rev +23.4%"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 7/10 \u2014 Q1 +13.7% confirmed beat (Rp 15.5T), foreign net buy +Rp 334.8B; sector exit watch caveat"
-        },
-        {
-          "type": "research",
-          "ticker": "AKRA",
-          "detail": "score 7/10 \u2014 controller insider buy Rp 282.5B at 1,520-1,580 over May 4-6"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 7/10 \u2014 Q1 +60% net (IDR 3.41T), nickel quota cut narrative"
-        },
-        {
-          "type": "research",
-          "ticker": "ICBP",
-          "detail": "score 7/10 \u2014 LQ45 top gainer May 7, defensive bid"
-        },
-        {
-          "type": "research",
-          "ticker": "ITMG",
-          "detail": "HELD \u2014 Q1 print pending public confirmation; HOLD pre-commit triggers active at market-open"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-08T02:23:13Z",
       "routine": "market-open",
       "status": "success",
@@ -16792,6 +16741,12 @@
           "detail": "Data Quality Gate Day 82 outage persists (yfinance 403 + GoAPI unset)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-21T04:35:54Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. 100% cash defensive posture Day 10 post-KLBF cut into Wk 14 Day 2. No sell-side rules applicable."
     }
   ],
   "exposure": {
