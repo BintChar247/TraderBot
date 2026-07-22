@@ -12388,12 +12388,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-11T04:40:37Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. ITMG -2.30%, ADRO 0.00%. No cuts triggered. No stops tightened."
-    },
-    {
       "timestamp": "2026-05-18T00:16:02Z",
       "routine": "pre-market",
       "status": "success",
@@ -17075,6 +17069,12 @@
           "detail": "Data Quality Gate Day 83 outage persistent (yfinance 403 + GoAPI unset)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-22T04:35:54Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. No cuts, no stop tightenings, no thesis exits. Trial-halt binding (regime DEFENSIVE-INTENSIFIED + crisis-track engagement gate ACTIVATED)."
     }
   ],
   "exposure": {
