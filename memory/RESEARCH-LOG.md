@@ -16326,3 +16326,189 @@ Two-track scoring: Catalyst track primary; Defensive-Quality Track SUSPENDED und
 - **Coal export Jan-Apr 2026 vol -6.70% / value -7.27% YoY** — sector fundamental weakness confirmed; url: https://uk.finance.yahoo.com/quote/ITMG.JK/
 
 ---
+
+## 2026-07-23 (Thursday) — Wk 14 Day 4
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,509.20 | +0.9% | +65.92 pt; chip surge + earnings lift; Alphabet/Tesla AMC |
+| Nasdaq | 25,837.21 | +1.3% | +329.13 pt; semi leadership |
+| Dow | 52,224.64 | +0.7% | +385.38 pt; new record |
+| Shanghai Composite | 3,867.03 | +0.07% | flat |
+| Hang Seng | 24,892.66 | -0.95% | China tech drag |
+| Nikkei 225 | 66,115.60 | -0.18% | mild pullback |
+| VIX | ~17 | ~flat | sub-20 complacency persists |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Wed Jul 22 sesi II final) | 6,334.48 | -0.087% | -5.54 pt; 10-day rally streak broken; 5-source convergent (Kompas/Viva/detik/fxstreet-id/Liputan6) |
+| IHSG (Wed sesi I anchor per dual-basis) | 6,315.55 | -0.068% sesi-I | 3-source (Kompas/rri/liputan6) vs Tue sesi I 6,319.85 |
+| IDR/USD | 17,927 | ~stable | 5th consecutive marginal sub-Stage-5 (below 18,050); ~177 IDR gap above sub-17,750 crisis-track resolution |
+| Indo 10Y SUN yield | ~7.20 | flat | data source persistence |
+| US 10Y yield | ~4.55 | flat | source persistence |
+| Indo-US spread | ~265 | flat | bp |
+| Newcastle coal (USD/ton) | 130.90 | +0.38% | flat sub-$135 6+ wks (sector EXITED) |
+| CPO palm oil (MYR/ton) | ~4,610 | flat | MPOC 4,400-4,650 range |
+| LME nickel (USD/ton) | ~16,500-16,700 | flat | multi-mo low + 260→360Mt quota supply glut carry |
+| Brent crude (USD/bbl) | **94.13** | **+3.43%** | **RE-INTENSIFIED FROM $84-89 BAND** — Iran-US strikes 11th night; Trump Hormuz 20% cargo fee announced; highest since Jun 8 |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX Wed Jul 22) | **-Rp 1,113 B (NET SELL)** | Kompas 1-source primary; DSSA -230B / BBRI -141B / ASII -137B / AMMN -134B / TPIA -132B top sold; TINS +56B top bought |
+| Foreign flow streak | REGRESSED | Wk 13 close 2-of-2 CONFIRMED persistent (Thu +283B, Fri +725B) → Mon/Tue Wk 14 near-flat → Wed **-1.113T = criterion (d) 2-of-2 threshold BROKEN**; downgraded to PARTIAL SIGNAL 1-of-2 at Thu open |
+| Top buying brokers | pending | not multi-source at 07:00 filing |
+| Top selling brokers | pending | not multi-source at 07:00 filing |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Neutral-negative (Big-4 top-3 net sell Wed) | BI HOLD 5.75% NIM-neutral; foreign REGRESS | BBRI (-141B foreign sell), BMRI, BBCA, BBNI |
+| Coal / Energy | Weak / mixed | Coal $130 sub-135 6+wks; Brent $94 RE-SPIKE benefits MEDC theoretically | ADRO/ITMG/PTBA SKIP; MEDC gated |
+| Nickel / Mining | Weak | Supply glut 260→360Mt quota + LME $16,500 low | ANTM/INCO/NCKL WATCH-only |
+| CPO / Agri | Weak | MPOC 4,400-4,650; -23.89% MoM falling-knife | LSIP/AALI SKIP |
+| Property | Rate-sensitive relief-partial | BI HOLD dovish surprise + PPN incentive extended; but crisis-track blocks | CTRA/BSDE/SMRA/PWON SKIP |
+| Consumer | CPI-negative (Brent $94 CPI-input drag) | June CPI 3.34% + Brent RE-SPIKE erodes UNVR relief | UNVR REMOVED; INDF Wk 14 only-defensive |
+| Telco | Neutral | ARPU stable; TLKM NCC cable Batam-Singapore | TLKM WATCH; ISAT Q2 Jul 24 T+1 binary |
+| Infrastructure | Weak | Rate-sensitive + Danantara overhang | JSMR/WSKT/PTPP/ADHI SKIP |
+
+### Corporate Calendar Today & This Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| Q2 earnings print | KLBF | Thu Jul 24 T+1 | post-hard-cut binary; NOT re-entry candidate |
+| Q2 earnings print | ISAT | Thu Jul 24 T+1 | telco ARPU test; conditional watch only under crisis gate |
+| Q2 earnings print | AKRA | Sun Jul 27 T+4 | petrol margin + logistics; blocked crisis-track |
+| Q2 earnings print | ASII | Thu Jul 30 T+7 | auto/heavy-eq mining segment; -137B foreign sell Wed |
+| Q2 earnings print | MEDC | Fri Jul 31 T+8 | Brent shock direct-upside carry ($94 well above $75 Q1 baseline avg); blocked crisis-track |
+| NCKL dividend disbursement | NCKL | Fri Jul 31 T+8 | cash; nickel-weak sector |
+| FRB Powell July FOMC | US | Jul 29-30 T+6/7 | preview watch; not IDX direct |
+
+### Watchlist Scan — All 50 Tickers (Wk 14 Day 4)
+
+Structural ceiling 5/10 binding on ALL under quintuple-plus binding: **crisis-track engagement gate ACTIVATED (codified Wk 13) + IDR Stage 5 MARGINAL DE-ARM Day 10 + BRENT-SHOCK RE-INTENSIFIED $94+ + Foreign-flow REGRESSED -1.113T Wed + Data Quality Gate Day 84 outage + BI-HOLD-dovish-absorbed**.
+
+Ticker prices Wed close per single-source WebSearch (Data Quality Gate FAIL — most tickers <3-source convergent):
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | (Data FAIL) | n/a | 5 | Big-4 flow-regressed; MSCI overhang; DefQ SUSPENDED | WATCH |
+| 2 | BBRI | Banking | 3,080 (est) | +0.33% morning | 5 | Foreign -141B Wed top-3 net sell; Q2 Aug 3 T+11 | WATCH |
+| 3 | BMRI | Banking | (Data FAIL) | n/a | 5 | Flow-regressed; Big-4 lead-down | WATCH |
+| 4 | BBNI | Banking | 3,640 (est) | +0.55% morning | 5 | Marginal Big-4; source persistence | WATCH |
+| 5 | BNGA | Banking | (Data FAIL) | n/a | 3 | Mid-cap bank; SKIP | SKIP |
+| 6 | NISP | Banking | (Data FAIL) | n/a | 3 | Mid-cap; SKIP | SKIP |
+| 7 | BBTN | Banking | (Data FAIL) | n/a | 3 | Rate-sensitive SOE; SKIP | SKIP |
+| 8 | ADRO | Coal | (Data FAIL) | n/a | 3 | Sector EXITED (2-strike + coal $130); SKIP | SKIP |
+| 9 | ITMG | Coal | (Data FAIL) | n/a | 3 | Sector EXITED; SKIP | SKIP |
+| 10 | PTBA | Coal | (Data FAIL) | n/a | 3 | Sector EXITED; SKIP | SKIP |
+| 11 | BUMI | Coal | (Data FAIL) | n/a | 3 | Sector EXITED; SKIP | SKIP |
+| 12 | HRUM | Coal | (Data FAIL) | n/a | 3 | Sector EXITED; SKIP | SKIP |
+| 13 | MEDC | Energy/O&G | (Data FAIL) | n/a | 5 | Brent $94 RE-SPIKE direct-upside; Q2 Jul 31 T+8; blocked crisis-track | WATCH |
+| 14 | PGAS | Gas/Energy | (Data FAIL) | n/a | 5 | Abadi LNG HoA 8+ wks stale; blocked crisis-track | WATCH |
+| 15 | ANTM | Nickel | (Data FAIL) | n/a | 4 | Supply glut carry NEG; MSCI SC overhang | WATCH |
+| 16 | INCO | Nickel | (Data FAIL) | n/a | 4 | HPAL commissioning FY26F/27F; overweight but sector-weak | WATCH |
+| 17 | MDKA | Nickel | (Data FAIL) | n/a | 4 | Indo Premier overweight; sector-weak | WATCH |
+| 18 | NCKL | Nickel | (Data FAIL) | n/a | 4 | Div Jul 31 T+8; overweight; sector-weak | WATCH |
+| 19 | MBMA | Nickel | (Data FAIL) | n/a | 3 | Small-cap nickel; SKIP | SKIP |
+| 20 | TINS | Metals/Tin | (Data FAIL) | n/a | 4 | Wed +56B top foreign buy; sole net-buy Wed | WATCH |
+| 21 | UNVR | Consumer | 1,700 (Wed est) | +0.89% | 3 | REMOVED Wk 13 (Brent CPI-negative eroded thesis); Brent $94 = further erosion | SKIP |
+| 22 | ICBP | Consumer | 6,850 (Wed est) | +2.24% | 4 | FMCG defensive; Brent CPI-negative overlay | WATCH |
+| 23 | INDF | Consumer | (Data FAIL) | n/a | 5 | Sole net-inflow YTD relative-resilience; blocked crisis-track | WATCH |
+| 24 | MYOR | Consumer | (Data FAIL) | n/a | 4 | Consumer defensive; residual | WATCH |
+| 25 | SIDO | Consumer | (Data FAIL) | n/a | 3 | Herbal + MSCI SC removal residual; SKIP | SKIP |
+| 26 | TLKM | Telco | 2,660 (Wed est) | +5.14% | 5 | NCC cable Batam-Singapore launched; 12M target Rp 3,629 SB 20 analysts; Q2 Aug 5 T+13 | WATCH |
+| 27 | EXCL | Telco | (Data FAIL est +2.23%) | +2.23% | 4 | Telco carry-2 secondary; residual | WATCH |
+| 28 | ISAT | Telco | 1,925 (Wed est) | -1.03% | 4 | Q2 Thu Jul 24 T+1 binary print; watch-only under crisis gate | WATCH |
+| 29 | MTEL | Telco/Tower | (Data FAIL) | n/a | 3 | Telco-tower carry residual; SKIP | SKIP |
+| 30 | TOWR | Telco/Tower | 410 (Wed est) | -0.49% | 3 | Tower carry residual; SKIP | SKIP |
+| 31 | BSDE | Property | (Data FAIL) | n/a | 3 | Rate-sensitive + PPN incentive persistent but crisis-track blocks | SKIP |
+| 32 | CTRA | Property | (Data FAIL) | n/a | 3 | Same; BI HOLD dovish partial relief but blocked | SKIP |
+| 33 | SMRA | Property | (Data FAIL) | n/a | 3 | +14.5% presales guidance; buy-rating; blocked | SKIP |
+| 34 | PWON | Property | (Data FAIL) | n/a | 3 | +15.8% presales guidance; buy-rating; blocked | SKIP |
+| 35 | GOTO | Tech | (Data FAIL) | n/a | 2 | MSCI froze May 2026; ARB floor risk; SKIP | SKIP |
+| 36 | BUKA | Tech | (Data FAIL) | n/a | 2 | Delisting risk + ARB floor; SKIP | SKIP |
+| 37 | EMTK | Tech/Media | (Data FAIL) | n/a | 3 | Media residual; SKIP | SKIP |
+| 38 | ASII | Auto/Ind | 5,100 (Wed est) | 0.00% | 4 | -137B foreign sell Wed top-3; Q2 Jul 30 T+7; IDR import-COGS + Brent fuel-input negative; DefQ SUSPENDED | WATCH |
+| 39 | UNTR | Heavy Equip | (Data FAIL) | n/a | 4 | Mining exposure; residual | WATCH |
+| 40 | AKRA | Distribution | (Data FAIL) | n/a | 5 | Q2 Sun Jul 27 T+4 petrol margin + logistics; blocked crisis-track | WATCH |
+| 41 | AALI | Plantation | (Data FAIL) | n/a | 3 | Falling-knife + MPOC bearish; SKIP | SKIP |
+| 42 | LSIP | Plantation | (Data FAIL) | n/a | 3 | Same falling-knife; SKIP | SKIP |
+| 43 | JSMR | Infrastructure | (Data FAIL) | n/a | 3 | Danantara overhang + BI 5.75% still-restrictive; SKIP | SKIP |
+| 44 | WSKT | Construction | (Data FAIL) | n/a | 3 | SOE Himbara restructuring; SKIP | SKIP |
+| 45 | PTPP | Construction | (Data FAIL) | n/a | 3 | SOE restructuring; rate-sensitive; SKIP | SKIP |
+| 46 | ADHI | Construction | (Data FAIL) | n/a | 3 | Same SOE restructuring; SKIP | SKIP |
+| 47 | KLBF | Healthcare | REMOVED | n/a | 3 | Post-hard-cut Wk 12; Q2 Thu Jul 24 T+1 binary print but NOT re-entry candidate per MISTAKES.md 2026-07-06 | SKIP |
+| 48 | MIKA | Healthcare | (Data FAIL) | n/a | 4 | Healthcare-defensive residual; MSCI SC removal | WATCH |
+| 49 | SMGR | Cement | (Data FAIL) | n/a | 3 | HOLD-rating; rate-sensitive; SKIP | SKIP |
+| 50 | INTP | Cement | (Data FAIL) | n/a | 3 | Top-pick fundamentals but rate-sensitive; SKIP | SKIP |
+
+**Watchlist scan summary Wk 14 Day 4:**
+- WATCH (5/10 top-tier): BBCA / BBRI / BMRI / BBNI / MEDC / PGAS / INDF / TLKM / AKRA (9 tickers at structural ceiling)
+- WATCH (4/10 residual): ANTM / INCO / MDKA / NCKL / TINS / ICBP / MYOR / EXCL / ISAT / ASII / UNTR / MIKA (12 tickers)
+- SKIP (≤3/10): 29 tickers
+- **CANDIDATES ≥6/10: ZERO** — structural ceiling 5/10 binding on ALL under **new sextuple-plus binding** (crisis-track ACTIVATED + IDR Stage 5 Day 10 + BRENT-SHOCK RE-INTENSIFIED $94 + Foreign-flow REGRESSED -1.113T + Data Quality Gate Day 84 + BI-HOLD-dovish-absorbed)
+- **DEFENSIVE-Quality Track: SUSPENDED** (BBCA/BBRI/BMRI/BBNI/TLKM/ASII/UNVR/ICBP/ADRO all blocked under crisis-track gate ACTIVATED)
+
+### Top Candidates (score ≥6, deep-dive required)
+
+**NONE.** Zero tickers cleared score ≥6 threshold. Structural 5/10 ceiling under sextuple-plus binding is the operating floor for Wk 14 Day 4. Deep-dive DEFERRED — no candidate advances to 15-check buy-side gate.
+
+### Held Position Updates
+
+*(None — book fully de-risked 100% cash Day 13 post-KLBF hard-cut through Wk 14 Day 4 open; nothing to manage; no positions to check overnight news for.)*
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED**
+
+Reasoning (3 sentences):
+1. Sextuple-plus binding stack unchanged in kind but composition materially shifted: (i) Brent RE-INTENSIFIED to $94.13 +3.43% from prior $84-89 band on Iran-US strikes 11th consecutive night + Trump Hormuz 20% cargo fee announcement = CPI-input pressure + FX-defensive weakening bias re-escalated; (ii) foreign flow REGRESSED from Wk 13 close 2-of-2 CONFIRMED persistent to Wed -1.113T net sell = criterion (d) downgraded from 2/5 confirming to ~1.25/5 confirming; (iii) BI HOLD 5.75% dovish surprise ABSORBED = criterion (a) IDR sub-17,750 sustained 3-of-3 mathematically MORE difficult now (no rate-defensive tailwind); (iv) IDR 17,927 marginal 5th sub-Stage-5 continues but sub-17,750 gap ~177 IDR unchanged.
+2. Position sizing adjustment: **NEW BUYS = ZERO (crisis-track engagement gate binding)**; if gate resolved hypothetically, max 5% per position + ADV cap + 75bp risk-budget still apply. Regime cost thesis holds: cumulative alpha +14.43% Wed baseline still deep in positive territory despite Wk 14 Days 1-3 compression -2.81pp (Mon -1.42% / Tue -1.46% / Wed +0.07%).
+3. Regime shift trigger evaluation: 5 re-entry criteria (a) IDR sub-17,750 3-of-3 = NOT achieved (~177 IDR gap; harder post-BI-HOLD); (b) cluster convergence = FAIL Data Quality Gate Day 84; (c) MSCI Info-Flow / S&P DJI Watchlist = NEGATIVE-LOCKED-DEEPENED; (d) foreign-flow 2-of-2 = **REGRESSED-FAILED Wed** (was on track Wk 13 close, broken Wk 14 Day 3); (e) R:R ≥2:1 = untestable while (b) fails. Net: **1.25 of 5 confirming** (regression from prior 2/5 via (d) breakdown). Regime label ESCALATES qualifier from `BI-RDG-HOLD-DOVISH-SURPRISE-ABSORBED` to `+ FOREIGN-FLOW-REGRESSED-Wed-1.113T + BRENT-SHOCK-RE-INTENSIFIED-$94`.
+
+### Flagged Risks
+
+- **Brent $94.13 RE-SPIKE (+3.43% overnight from prior $89-91)**: Iran-US strikes 11th consecutive night; Trump announced 20% Hormuz cargo fee reinstatement; highest Brent since Jun 8. CPI-input pressure + FX-defensive weakening bias for IDR + consumer/UNVR relief thesis further erosion + coal/nickel export competitiveness marginal shift. Watch for further escalation news at 07:00 WIB Thu pre-open + intraday US-Iran statements.
+- **Foreign flow REGRESSION Wed -Rp 1.113T net sell**: criterion (d) 2-of-2 threshold BROKEN after Wk 13 close 2-of-2 CONFIRMED (Thu +283B, Fri +725B). Top sold: DSSA/BBRI/ASII/AMMN/TPIA. Big-4 top-3 net sell = banks-carry inflection thesis regressed. Only TINS +56B net-buy Wed. Thu re-entry gate scoring degraded 2→1.25 of 5.
+- **BI HOLD 5.75% dovish surprise absorbed intraday Wed**: bloomberg/tempo/jakartapost/central-banking + BI.go.id 4-source confirmed. Deposit 4.75% / Lending 6.50%. Kenanga hold-scenario aligned vs Bloomberg-slim-majority +25bp consensus. Rationale: foreign portfolio investment incentive + IDR stability via forex market deepening (non-rate instruments). Consequence: criterion (a) IDR sub-17,750 3-of-3 becomes structurally HARDER (no rate-defensive tailwind); property/cement rate-sensitive relief-partial but crisis-track blocks all entries.
+- **IHSG basis reconciliation Wed sesi II final 6,334.48 -0.087% (5-source convergent)** vs Tue sesi II 6,340.02 = -5.54 pt intraday sesi II basis; vs Tue sesi I 6,319.85 = -0.068% sesi-I-to-sesi-I mild pullback; 10-day consecutive rally streak BROKEN by mild profit-taking + BI-RDG-announcement-window absorption + Brent $94 shock overlay drag.
+- **Data Quality Gate Day 84 outage persists**: yfinance blocked (Chrome403); broker.sh quote failed BBCA; scripts/market-data.sh commodity nickel/coal returns WebSearch fallback prompt. Per-ticker single-source WebSearch predominates (Data Quality Gate FAIL for candidates). **MISTAKES.md MD_LAST_PRICE_OVERRIDE fix binary accept-or-fix decision NOW scheduled Fri Jul 24 Wk 14 weekly-review 16:00 WIB** (Wk 14 Day 1-2-3-4 pre-market windows all closed unused).
+- **13th → 14th consecutive 0/3 BUY-slot week trajectory Wk 14 Day 4**: 3/3 fresh slots Wk 14 remain unused; realistic 0/3 continuation locked as crisis-track engagement gate ACTIVATED + regressed criterion (d) + BRENT RE-SPIKE + BI-HOLD-post-absorbed all binding.
+
+### Plan for /market-open Wk 14 Day 4
+
+- [ ] **NO NEW ENTRIES** — crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md 2026-07-17 Hard Rule. All 5 re-entry criteria not concurrent (1.25/5). No candidate scores ≥6.
+- [ ] **NO POSITIONS TO MANAGE** — 100% cash Day 13; no stops to tighten; no thesis-break checks; no sell-side rules applicable.
+- [ ] **Watch conditions carried into Thu open**: (1) Brent futures Thu pre-open reads — if $94+ sustains or worsens, regime label escalation Fri weekly-review candidate; (2) IDR Thu 07:00 WIB multi-source poll — if breaks back ≥18,050 sustained close, PARTIAL DE-ARM 1-of-3 signal degrades to Stage 5 re-armed; (3) ISAT Q2 Thu Jul 24 T+1 print watch-only (WATCH-4 residual, not candidate); (4) KLBF Q2 Thu Jul 24 T+1 not a re-entry candidate per MISTAKES.md; (5) foreign flow Thu 07:00 WIB reconciliation multi-source for whether Wed all-day -Rp 1.113T basis holds vs partial reversal overnight.
+
+### Headlines & Catalysts
+
+- **IHSG Wed Jul 22 sesi II final 6,334.48 -0.087%** — 10-day rally streak BROKEN; 5-source convergent (Kompas/Viva/detik/fxstreet-id/Liputan6); day-high 6,394.68 tested 6,400 psych rejection; day-low 6,284.88; url: https://money.kompas.com/read/2026/07/22/174100026/ihsg-ditutup-22-juli-2026-turun-5-poin-ke-6.334-47-ammn-top-loser
+- **IHSG Wed 22/7 sesi I 6,315.55 -0.39% intraday** — HRTA top mover; url: https://money.kompas.com/read/2026/07/22/140102226/ihsg-sesi-i-22-juli-2026-turun-24-poin-ke-631555-hrta-naik
+- **IHSG Wed 22/7 opened +0.41% to 6,366.01** — post-open profit-taking on 10-day rally exhaustion + BI-RDG-anticipation-unwind; url: https://money.kompas.com/read/2026/07/22/092057126/ihsg-hari-ini-22-7-dibuka-menguat-041-persen-ke-level-636601
+- **Foreign flow Wed 22/7 -Rp 1.113T net sell** — Kompas; DSSA -230B / BBRI -141B / ASII -137B / AMMN -134B / TPIA -132B top sold; TINS +56B top bought; url: https://money.kompas.com/read/2026/07/22/183958726/asing-lepas-saham-rp-11-triliun-ihsg-ditutup-turun-ke-level-6334
+- **BI Rate HELD at 5.75% Wed 22/7 announcement** — dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%; foreign portfolio incentive rationale; Bloomberg + Tempo + Jakartapost + Central-Banking 4-source confirmed; url: https://en.tempo.co/read/2114917/bank-indonesia-leaves-benchmark-rate-unchanged-at-5-75
+- **BI hold Bloomberg dispatch**: `Indonesia Opts for Investor Perks Over Rate Hike to Boost Rupiah`; url: https://www.bloomberg.com/news/articles/2026-07-22/indonesia-keeps-rate-steady-at-5-75-after-rapid-tightening
+- **Jakarta Post 22/7**: `BI holds rate but banks on other way to help rupiah`; url: http://www.thejakartapost.com/business/2026/07/22/bi-holds-rate-but-banks-on-other-way-to-help-rupiah
+- **IDR/USD Wed 17,927** — 5th consecutive marginal sub-Stage-5 session below 18,050; today's range 17,865-17,942; url: https://30rates.com/usd-to-idr-today-forecast-dollar-indonesian-rupiah
+- **Brent RE-INTENSIFIED to $94.13 +3.43% Wed 22/7** — Iran-US strikes 11th consecutive night; Trump Hormuz 20% cargo fee reinstatement announced; highest Brent since Jun 8; url: https://tradingeconomics.com/commodity/brent-crude-oil/news/530749
+- **Newcastle coal $130.90 +0.38% Jul 21** — flat sub-$135 6+ wks; url: https://tradingeconomics.com/commodity/coal
+- **US Tue Jul 22 close: S&P 7,509.20 +0.9% / Nasdaq 25,837.21 +1.3% / Dow 52,224.64 +0.7%** — semi surge + earnings lift; Alphabet/Tesla AMC; url: https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-083644887.html
+- **Asia Wed 22/7 mild: Nikkei -0.18% 66,116 / Hang Seng -0.95% 24,893 / Shanghai +0.07% 3,867** — China tech drag; url: https://armenpress.am/en/article/1256193
+- **TLKM NCC submarine cable Batam-Singapore landed with BW Digital + Nongsa Digital Park** — digital-connectivity catalyst; url: https://www.tradingview.com/symbols/IDX-TLKM/
+- **Indonesia nickel govt considering raise 2026 quota back to 260→360M tons** — reverses earlier curbs; supply glut carry NEGATIVE for ANTM/INCO/NCKL/HRUM; url: https://insight.kontan.co.id/news/produksi-nikel-di-2026-dibatasi-saham-nckl-inco-hrum-hingga-antm-makin-seksi
+- **KLBF Q2 print Thu Jul 24 T+1** — post-hard-cut binary; NOT re-entry candidate per MISTAKES.md 2026-07-06; url: https://en.wikipedia.org/wiki/Kalbe_Farma
+- **ISAT Q2 print Thu Jul 24 T+1** — telco ARPU test; -1.03% Wed close est 1,925; WATCH-only under crisis gate; url: https://www.google.com/finance/beta/quote/ISAT:IDX
+- **MEDC Q2 print Fri Jul 31 T+8** — Brent shock direct-upside carry Q1 +282% YoY $75 avg; Brent $94 well above baseline; blocked crisis-track; url: https://en.wikipedia.org/wiki/MedcoEnergi
+- **ASII Q2 print Thu Jul 30 T+7** — -137B foreign sell Wed top-3; auto/heavy-eq mining segment; url: https://finance.yahoo.com/quote/BBRI.JK/
+- **Property PPN 100% incentive extended through 2026** for landed houses ≤Rp 5B — CTRA/PWON/SMRA/BSDE tailwind but rate-sensitive + crisis-track blocks SKIP; url: https://investortrust.id/market/80146/insentif-ppn-pembelian-properti-berlanjut-saatnya-berburu-saham-ctra-pwon-bsde-dan-smra
+- **Indonesia Trump Hormuz 20% cargo fee reinstatement** — Brent +9.5% jump to $83+ on Trump statement (subsequent $94 escalation Wed); url: https://finance.yahoo.com/markets/article/oil-prices-rise-as-us-prepares-to-reinstate-hormuz-strait-blockade-charge-20-on-all-cargo-shipped-140723529.html
+
+---

@@ -12405,37 +12405,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-18T02:21:10Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "SELL ITMG 27,300sh @ 24,150 (Q1-miss pre-commit + hard-cut concurrent; -7.38% / -IDR 52.55M). HOLD ADRO. SKIP ASII (live tape contradicts thesis; ADV unverifiable). Telegram 403 host-allowlist; notification stdout-only.",
-      "actions": [
-        {
-          "type": "sell",
-          "ticker": "ITMG",
-          "detail": "27300sh @ 24150 \u2014 Q1-miss pre-commit + hard-cut; realized -IDR 52,552,500 (-7.38%)"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "Conditional buy deferred \u2014 live tape distribution against green IHSG; ADV unverifiable; patience to post-RDG"
-        },
-        {
-          "type": "hold",
-          "ticker": "ADRO",
-          "detail": "392100sh @ 2550 entry; buffer to hard-cut +5.91%; Q1 +67% thesis intact"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used for ITMG sell (yfinance Day 28 blocked); PAPER-STATE manually corrected"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify 403 host-not-in-allowlist; message printed to stdout only"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-18T08:20:43Z",
       "routine": "daily-summary",
       "status": "success",
@@ -17047,6 +17016,34 @@
           "detail": "Day 68 EOD snapshot committed; BI RDG HOLD absorbed; alpha compression streak breaks single-day; MACRO-REGIME.md update deferred to Fri Wk 14 weekly-review"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-23T00:11:39Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 14 Day 4. Scanned 50 tickers. ZERO candidates \u22656. Structural 5/10 ceiling under sextuple-plus binding: crisis-track engagement gate ACTIVATED + IDR Stage 5 Day 10 + BRENT-SHOCK RE-INTENSIFIED $94 + foreign-flow REGRESSED Wed -Rp 1.113T + Data Quality Gate Day 84 + BI-HOLD-dovish-absorbed. Re-entry gate 1.25/5 (regressed from 2/5 via criterion (d) breakdown).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored \u22656 (structural ceiling 5/10)"
+        },
+        {
+          "type": "research",
+          "detail": "Brent RE-INTENSIFIED $94.13 +3.43% Iran-US strikes 11th night + Trump Hormuz 20% cargo fee"
+        },
+        {
+          "type": "research",
+          "detail": "Foreign flow REGRESSED Wed -Rp 1.113T; criterion (d) 2-of-2 BROKEN"
+        },
+        {
+          "type": "research",
+          "detail": "BI HOLD 5.75% dovish surprise absorbed; criterion (a) IDR sub-17,750 3-of-3 structurally harder"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -17058,42 +17055,43 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY13",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day9 (3rd sub-Stage-5 session; ~170 IDR above sub-17,750) + BRENT-SHOCK-$89-91-PERSISTENT + BI-RDG-T-0-BINARY-ANNOUNCEMENT-IN-FLIGHT + Data-Quality-Gate-Day-83 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "ihsg_close": 6340.02,
-    "ihsg_close_date": "2026-07-21",
-    "ihsg_close_change_pct": 1.74,
-    "ihsg_close_basis": "Tue Jul 21 close 6,340.02 multi-source (kontan/cnbcindonesia) 9th consecutive rally session; sesi I multi-source (rri/beritamoneter/liputan6/kompas) 4-source at 6,319.85 sesi I close. Wed Jul 22 sesi I anchor pending BI RDG announcement volatility.",
-    "ihsg_cumulative_pct": -16.95,
-    "idr_usd": 17918,
-    "idr_usd_date": "2026-07-21",
-    "idr_usd_change_pct": -0.56,
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day9",
-    "idr_status": "3rd consecutive marginal sub-Stage-5 session (Mon 17,940 \u2192 Tue 17,918 \u2192 Wed forecast 17,914); still ~170 IDR above sub-17,750 crisis-track resolution threshold; criterion (a) sub-17,750 3-of-3 NOT achieved; PARTIAL DE-ARM progressing pending BI RDG hawkish outcome + IDR-defensive rally continuation",
-    "coal_price": 130.4,
-    "brent_usd": 90.26,
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY14",
+    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10 (5th sub-Stage-5 session; ~177 IDR gap above sub-17,750) + BRENT-SHOCK-RE-INTENSIFIED-$94 (Iran-US strikes 11th night; Trump Hormuz 20% cargo fee) + FOREIGN-FLOW-REGRESSED-Wed-1.113T (criterion (d) 2-of-2 BROKEN) + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "ihsg_close": 6334.48,
+    "ihsg_close_date": "2026-07-22",
+    "ihsg_close_change_pct": -0.087,
+    "ihsg_close_basis": "Wed Jul 22 sesi II final 6,334.48 -0.087% (Kompas/Viva/detik/fxstreet-id/Liputan6 5-source convergent) breaks 10-day consecutive rally streak; sesi I 6,315.55 (Kompas/rri/liputan6 3-source); day-high 6,394.68 (tested 6,400 psych rejection); day-low 6,284.88; -5.54 pt intraday sesi II basis",
+    "ihsg_cumulative_pct": -17.02,
+    "idr_usd": 17927,
+    "idr_usd_date": "2026-07-23",
+    "idr_usd_change_pct": 0.05,
+    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10",
+    "idr_status": "5th consecutive marginal sub-Stage-5 session (Wed 17,927 within 17,865-17,942 range); still ~177 IDR gap above sub-17,750 crisis-track resolution threshold; criterion (a) sub-17,750 3-of-3 NOT achieved; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish (no rate-defensive tailwind)",
+    "coal_price": 130.9,
+    "brent_usd": 94.13,
     "cpo_myr_t": 4610,
-    "lme_nickel_usd_t": 16725,
+    "lme_nickel_usd_t": 16600,
     "us_10y_pct": 4.55,
     "indo_10y_sun_pct": 7.2,
-    "vix": 17.81,
-    "foreign_flow_idx_fri_rp_b": 725.11,
-    "foreign_flow_note": "Fri Jul 17 REVISED +Rp 725.11B all-day (BBCA Rp 698B / BMRI Rp 375B / BBRI Rp 268B top-3); Wk 13 weekly +Rp 442.05B net BUY. Mon Wk 14 Day 1 near-flat. Tue Wk 14 Day 2 +Rp 31B all-day IDR basis / volume basis -169M sh net-sell (DSSA top-buy +299M sh idiosyncratic). 5-day cumulative +Rp 972.21B net BUY. Criterion (d) 2-of-2 CONFIRMED persistent BUT momentum decaying near-flat Mon-Tue.",
-    "global_note": "US Tue Jul 21: S&P 7,510 (+0.9%) / Nasdaq 25,840 (+1.3%) / Dow 52,190 (+0.7%) snapped 3-day losing run on chip-sector surge + earnings lift. Asia Mon recovery Nikkei +0.62% / Shanghai +0.85% / Hang Seng +2.36% absorbed Fri risk-off. VIX 17.81 sub-20 complacency partial return. BI RDG Wed T-0 announcement window pending; consensus +25bp to 6.00% (FocusEconomics/BCA Sekuritas baseline); Kenanga hold-scenario alive. Brent $89-91 3rd session gains on Iran retaliation + Hormuz tanker attacks.",
-    "last_updated": "2026-07-22T07:00:00Z"
+    "vix": 17.0,
+    "foreign_flow_idx_fri_rp_b": -1113.0,
+    "foreign_flow_note": "Wed Jul 22 -Rp 1,113B NET SELL (Kompas 1-source primary): DSSA -230B / BBRI -141B / ASII -137B / AMMN -134B / TPIA -132B top sold; TINS +56B sole top buy. Criterion (d) REGRESSED from Wk 13 close 2-of-2 CONFIRMED persistent (Thu +283B, Fri +725B) \u2192 Mon/Tue Wk 14 near-flat \u2192 Wed -1.113T = 2-of-2 threshold BROKEN; downgraded to PARTIAL SIGNAL 1-of-2 at Thu open.",
+    "global_note": "US Tue Jul 22: S&P 7,509.20 (+0.9%) / Nasdaq 25,837.21 (+1.3%) / Dow 52,224.64 (+0.7%) semi surge + earnings lift (Alphabet/Tesla AMC). Asia Wed Jul 22 mild: Nikkei -0.18% / Hang Seng -0.95% / Shanghai +0.07% (China tech drag). VIX ~17 sub-20 complacency. BI Rate HELD 5.75% Wed announcement (dovish surprise vs +25bp consensus 6.00%; Kenanga hold-scenario aligned). Brent RE-INTENSIFIED $94.13 +3.43% on Iran-US strikes 11th consecutive night + Trump Hormuz 20% cargo fee reinstatement \u2014 highest since Jun 8.",
+    "last_updated": "2026-07-23T07:00:00Z",
+    "brent_intraday_high": 94.13
   },
   "research": {
-    "date": "2026-07-22",
+    "date": "2026-07-23",
     "holiday": false,
-    "as_of_date": "2026-07-22",
+    "as_of_date": "2026-07-23",
     "as_of_time": "07:00",
-    "as_of_label": "Wed Jul 22 07:00 WIB (Wk 14 Day 3 pre-market)",
-    "ihsg_last": 6340.02,
-    "ihsg_last_label": "Tue Jul 21 close 6,340.02 +1.74% (kontan/cnbcindonesia 2-source; 9th consecutive rally session)",
-    "idr_usd": 17918,
-    "idr_usd_label": "Tue Jul 21 17,918 (3rd consecutive marginal sub-Stage-5 session below 18,050; still ~170 IDR gap above sub-17,750 crisis-track resolution)",
-    "coal_price": 130.4,
-    "brent_price": 90.26,
+    "as_of_label": "Thu Jul 23 07:00 WIB (Wk 14 Day 4 pre-market)",
+    "ihsg_last": 6334.48,
+    "ihsg_last_label": "Wed Jul 22 sesi II final 6,334.48 -0.087% (Kompas/Viva/detik/fxstreet-id/Liputan6 5-source convergent; 10-day rally streak broken)",
+    "idr_usd": 17927,
+    "idr_usd_label": "Wed Jul 22 17,927 (5th consecutive marginal sub-Stage-5 session below 18,050; ~177 IDR gap above sub-17,750 crisis-track resolution; structurally HARDER post-BI-HOLD dovish)",
+    "coal_price": 130.9,
+    "brent_price": 94.13,
     "scan_universe": 50,
     "candidates_count": 21,
     "candidates_ge6_count": 0,
@@ -17101,38 +17099,38 @@
     "candidates_top_score": 5,
     "top_candidate": null,
     "top_candidate_score": 5,
-    "top_candidate_conviction": "N/A (structural ceiling under crisis-track engagement gate ACTIVATED)",
-    "top_candidate_hook": "No candidates cleared \u22656 threshold; crisis-track engagement gate ACTIVATED binds all 50 tickers to 5/10 ceiling regardless of fundamentals until 5 re-entry criteria concurrent",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY13 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day9 + BRENT-SHOCK-$89-91-PERSISTENT + BI-RDG-T-0-BINARY-ANNOUNCEMENT-IN-FLIGHT + Data-Quality-Gate-Day-83",
+    "top_candidate_conviction": "N/A (structural ceiling under crisis-track engagement gate ACTIVATED + sextuple-plus binding)",
+    "top_candidate_hook": "No candidates cleared \u22656 threshold; sextuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 10 + BRENT RE-INTENSIFIED $94 + foreign-flow REGRESSED -1.113T + Data Quality Gate Day 84 + BI-HOLD-dovish-absorbed) binds all 50 tickers to 5/10 ceiling",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84",
     "top_candidates": []
   },
-  "last_updated": "2026-07-22T08:15:00Z",
+  "last_updated": "2026-07-23T07:00:00Z",
   "market": {
-    "foreign_flow_note": "Fri +Rp 725B (revised) / Mon Wk 14 Day 1 near-flat / Tue Wk 14 Day 2 +Rp 31B all-day IDR / -169M sh volume basis; 5-day cum +Rp 972B; criterion (d) 2-of-2 CONFIRMED but decaying",
-    "global_note": "US Tue +0.9% chip surge; Asia Mon recovery; Brent $89-91 Iran/Hormuz overlay persistent; BI RDG Wed T-0 in-flight",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY13",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day9 + BRENT-SHOCK-$89-91-PERSISTENT + BI-RDG-HOLD-DOVISH-SURPRISE-ABSORBED + Data-Quality-Gate-Day-83 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "last_updated": "2026-07-22T08:15:00Z",
-    "ihsg_close_date": "2026-07-21",
-    "ihsg_close_change_pct": 1.74,
-    "idr_usd_change_pct": -0.56,
-    "idr_usd_date": "2026-07-21",
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day9",
-    "idr_stage_note": "3rd consecutive marginal sub-Stage-5 session; ~170 IDR gap above sub-17,750 crisis-track resolution; PARTIAL DE-ARM signal pending BI RDG hawkish + IDR-defensive rally continuation",
-    "coal_newcastle_usd_ton": 130.4,
-    "brent_usd_bbl": 90.26,
-    "brent_intraday_high": 91.41,
+    "foreign_flow_note": "Wed Jul 22 -Rp 1,113B NET SELL (Kompas); criterion (d) 2-of-2 BROKEN; DSSA/BBRI/ASII/AMMN/TPIA top sold; TINS +56B sole top buy; regressed 2/5 \u2192 1.25/5 re-entry gate scoring",
+    "global_note": "US Tue +0.9-1.3% chip surge + earnings; Asia Wed mild mixed; BI HOLD 5.75% dovish absorbed; Brent RE-SPIKED $94.13 +3.43% Iran-US strikes 11th night + Trump Hormuz 20% cargo fee",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY14",
+    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "last_updated": "2026-07-23T07:00:00Z",
+    "ihsg_close_date": "2026-07-22",
+    "ihsg_close_change_pct": -0.087,
+    "idr_usd_change_pct": 0.05,
+    "idr_usd_date": "2026-07-23",
+    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10",
+    "idr_stage_note": "5th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish (no rate-defensive tailwind)",
+    "coal_newcastle_usd_ton": 130.9,
+    "brent_usd_bbl": 94.13,
+    "brent_intraday_high": 94.13,
     "cpo_myr_ton": 4610,
-    "nickel_lme_usd_ton": 16725,
+    "nickel_lme_usd_ton": 16600,
     "indo_10y_sun": 7.2,
     "us_10y": 4.55,
-    "us_sp500": 7510.0,
-    "us_nasdaq": 25840.0,
-    "us_dow": 52190.0,
-    "nikkei": 64141,
-    "hang_seng": 25143,
-    "shanghai": 3796,
-    "vix": 17.81,
-    "bi_rdg_next": "RESOLVED: Wed Jul 22 announcement \u2014 BI HOLD at 5.75% (dovish surprise vs +25bp consensus to 6.00%; Kenanga hold-scenario aligned); Deposit Facility 4.75% / Lending Facility 6.50%"
+    "us_sp500": 7509.2,
+    "us_nasdaq": 25837.21,
+    "us_dow": 52224.64,
+    "nikkei": 66116,
+    "hang_seng": 24893,
+    "shanghai": 3867,
+    "vix": 17.0,
+    "bi_rdg_next": "RESOLVED: Wed Jul 22 announcement \u2014 BI HOLD at 5.75% (dovish surprise vs +25bp consensus to 6.00%; Kenanga hold-scenario aligned; Bloomberg/Tempo/JakartaPost/Central-Banking 4-source confirmed); Deposit Facility 4.75% / Lending Facility 6.50%; foreign portfolio incentive rationale; next RDG Aug 14"
   }
 }
