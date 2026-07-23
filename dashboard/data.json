@@ -12846,18 +12846,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-18T08:20:58Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-18 Day 21: IDR 9.876B (-0.43%/day vs May 8 baseline; spans EOD gap). Alpha +3.30% vs IHSG -3.73% (worst in Asia on MSCI/FTSE rebal). ITMG SELL realized -52.55M (-7.38%, Q1-miss + hard-cut). HOLD ADRO (-1.18%, buffer +5.91%). 1/6 positions, 90% cash, 0/3 new entries this week. Cumulative alpha +13.98%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 21 EOD snapshot committed; first since May 8 EOD (May 11-15 routines did not fire)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-19T00:00:00Z",
       "routine": "pre-market",
       "status": "success",
@@ -17534,6 +17522,12 @@
           "detail": "Foreign flow REGRESSED criterion (d) 2-of-2 threshold BROKEN"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-23T04:36:35Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Book fully de-risked (Wk 14 Day 2). No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
