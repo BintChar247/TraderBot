@@ -12368,6 +12368,447 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBCA (Banking Big-4) WATCH 5/10 ceiling: MSCI Info-Flow overhang + DefQ SUSPENDED",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign flow REGRESSED Wed -Rp 1.113T market-wide; Big-4 top-3 net-sell participant; DefQ SUSPENDED"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED + Foreign-flow REGRESSION Wed criterion (d) breakdown 2\u21921.25 of 5. Data Quality FAIL prevents entry cluster convergence.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI (Banking Big-4) WATCH 5/10 ceiling: -Rp 141B foreign top-3 sell Wed; Q2 Aug 3 T+11",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign -141B Wed top-3 sell; Q2 print Aug 3 T+11 binary"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Foreign-flow REGRESSED Wed -1.113T + BBRI in top-3 sold list = flow-inflection thesis regressed.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BMRI (Banking Big-4) WATCH 5/10 ceiling: Flow-regressed; Big-4 lead-down participant",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 lead-down participant Wed; flow-regressed pattern"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Foreign-flow REGRESSION criterion (d) 2\u21921.25 of 5. Quintuple-plus binding.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI (Banking Big-4) WATCH 5/10 ceiling: Marginal Big-4 3,640 est +0.55% morning",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Marginal Big-4 participant; source persistence"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. DefQ SUSPENDED. Same sextuple-plus binding stack.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MEDC (Energy/O&G) WATCH 5/10 ceiling: Brent $94 RE-SPIKE direct-upside; Q2 T+8 binary",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $94.13 RE-INTENSIFIED +3.43% direct-upside carry; Q2 Jul 31 T+8; Q1 +282% YoY at $75 avg"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Brent RE-SPIKE $94 fundamentally bullish thesis intact but structural 5/10 ceiling binding + Data Quality FAIL for cluster convergence.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "PGAS (Gas/Energy) WATCH 5/10 ceiling: Abadi LNG HoA 8+ wks stale; defensive utility",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Abadi LNG HoA catalyst 8+ weeks stale; defensive utility gated on cluster narrowing"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Data Quality Gate Day 84 prevents \u22653-source \u22644% cluster convergence at entry price. Sextuple-plus binding.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "INDF (Consumer Staples) WATCH 5/10 ceiling: sole net-inflow YTD relative-resilience",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole net-inflow YTD +Rp 58B relative-resilience; foreign flow steady vs UNVR outflow"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED + Brent $94 CPI-vector NEG erodes consumer relief thesis. Sextuple-plus binding + Data Quality FAIL for entry cluster.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TLKM (Telco) WATCH 5/10 ceiling: NCC cable Batam-SG launched; Rp 3,629 SB 20 analysts; Q2 Aug 5 T+13",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "NCC submarine cable Batam-Singapore launched; 12M target Rp 3,629 Strong Buy 20 analysts; Q2 Aug 5 T+13"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. TLKM cluster Data Quality FAIL persistent Wks 10-14. Structural 5/10 ceiling binding.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AKRA (Distribution) WATCH 5/10 ceiling: Q2 Sun Jul 27 T+4 petrol margin + logistics binary",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 Sun Jul 27 T+4 near-binary print; petrol margin + logistics"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-Stage-5-marginal-DE-ARM-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 1.25/5, regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 84 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Q2 T+4 near-binary but Brent-input mixed at $94 + Data Quality FAIL. Sextuple-plus binding.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -12404,18 +12845,6 @@
     "updated": "2026-07-17"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-18T08:20:43Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 21: IDR 9.876B (-0.43% day vs May 8 baseline). Alpha +3.30% vs IHSG -3.73%. ITMG SELL realized -52.55M (-7.38% Q1-miss/hard-cut). ADRO HOLD (-1.18%, buffer +5.91%). 1 position, 90% cash. Trades this week 0/3 new entries.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 21 EOD snapshot committed; first since May 8 EOD (May 11-15 gap)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-18T08:20:58Z",
       "routine": "daily-summary",
@@ -17042,6 +17471,67 @@
         {
           "type": "research",
           "detail": "BI HOLD 5.75% dovish surprise absorbed; criterion (a) IDR sub-17,750 3-of-3 structurally harder"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-23T02:18:42Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 14 Day 4. Crisis-track engagement gate ACTIVATED binding (1.25/5 re-entry criteria; regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T net sell). 9 WATCH candidates SKIPPED at 5/10 structural ceiling under sextuple-plus binding (crisis-track + IDR Stage 5 Day 10 + BRENT RE-SPIKE $94 + Foreign REGRESSED + BI-HOLD-dovish + Data Quality Day 84). Book 100% cash Day 13 post-KLBF cut; 13th consecutive 0/3 BUY-slot week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "5/10 crisis-track ACTIVATED + MSCI overhang"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "5/10 -Rp 141B top-3 foreign sell Wed"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "5/10 Big-4 lead-down flow-regressed"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "5/10 DefQ SUSPENDED"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "5/10 Brent $94 direct-upside but crisis-track blocks"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "5/10 Abadi LNG stale + Data Quality FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "5/10 Brent $94 CPI-vector NEG"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "5/10 Data Quality FAIL Wks 10-14"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "5/10 Q2 T+4 near-binary but blocked"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 84 outage (yfinance/GoAPI blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Foreign flow REGRESSED criterion (d) 2-of-2 threshold BROKEN"
         }
       ]
     }

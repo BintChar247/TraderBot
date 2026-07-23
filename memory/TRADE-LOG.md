@@ -8650,3 +8650,53 @@ Wed Jul 22 sesi I 6,315.55 (rri.co.id + kompas 2-source convergent; sesi I close
   8. **Foreign-flow reconciliation Wed all-day binary:** Thu pre-market MUST reconcile Wed all-day foreign flow multi-source (sesi I -Rp 943B vs partial all-day +Rp 30B). If Wed all-day confirms net-sell (aligned with sesi I -Rp 943B basis): criterion (d) downgrade to PARTIAL SIGNAL 1-of-2 = re-entry gate regresses 2→1 of 5 confirming. If Wed all-day confirms net-buy (aligned with partial +Rp 30B basis): criterion (d) 3-of-3+ continuation upgrade candidate = re-entry gate progresses 2→2.75 of 5 confirming.
 
 ---
+
+### 2026-07-23 09:15 WIB — MARKET-OPEN Wk 14 Day 4 (Thursday)
+
+#### Summary
+
+- **NO TRADES.** 9 WATCH candidates (BBCA/BBRI/BMRI/BBNI/MEDC/PGAS/INDF/TLKM/AKRA at 5/10 structural ceiling) SKIPPED per crisis-track engagement gate ACTIVATED binding (codified TRADING-STRATEGY.md 2026-07-17). All 50 tickers structural 5/10 ceiling under **sextuple-plus binding**: crisis-track ACTIVATED + IDR Stage 5 MARGINAL DE-ARM Day 10 (17,927 Wed close, ~177 IDR gap above sub-17,750) + BRENT-SHOCK RE-INTENSIFIED $94.13 +3.43% (Iran-US strikes 11th night + Trump Hormuz 20% cargo fee) + FOREIGN-FLOW REGRESSED Wed -Rp 1.113T net sell (criterion (d) 2-of-2 threshold BROKEN) + Data Quality Gate Day 84 outage + BI-HOLD-dovish-absorbed.
+- **13th consecutive 0/3 BUY-slot week trajectory Wk 14 Day 4** (Wk 3-14 = 39+ cumulative unused candidate-day slots trial-to-date).
+- **Book: 100% cash IDR 9,716,207,500** — Day 13 post-KLBF hard-cut. No positions to manage; midday scan Wk 14 Day 4 will have zero sell-side work.
+- **Wed IHSG sesi II final 6,334.48 -0.087%** (5-source Kompas/Viva/detik/fxstreet-id/Liputan6 convergent); 10-day rally streak broken by mild profit-taking + BI-RDG absorption + Brent $94 shock overlay drag.
+- **Re-entry criteria REGRESSED to 1.25/5 confirming** (was 2/5 Wed) via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T market-wide net sell (top-sold DSSA/BBRI/ASII/AMMN/TPIA); Big-4 top-3 net sell = banks flow-inflection thesis regressed. Only TINS +56B net-buy Wed.
+
+#### Candidates evaluated (all SKIP)
+
+| Ticker | Score | Bind reason |
+|--------|-------|-------------|
+| BBCA | 5/10 | Crisis-track ACTIVATED; MSCI Info-Flow overhang; DefQ SUSPENDED; Big-4 flow-regressed |
+| BBRI | 5/10 | Crisis-track ACTIVATED; -Rp 141B foreign top-3 sell Wed; Q2 Aug 3 T+11 binary |
+| BMRI | 5/10 | Crisis-track ACTIVATED; Big-4 lead-down participant; flow-regressed pattern |
+| BBNI | 5/10 | Crisis-track ACTIVATED; Marginal Big-4; DefQ SUSPENDED |
+| MEDC | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; Brent $94 direct-upside; Q2 Jul 31 T+8 |
+| PGAS | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; Abadi LNG HoA 8+ wks stale |
+| INDF | 5/10 | Crisis-track ACTIVATED + Brent $94 CPI-vector NEG; sole net-inflow YTD |
+| TLKM | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL Wks 10-14; NCC cable catalyst; Q2 Aug 5 T+13 |
+| AKRA | 5/10 | Crisis-track ACTIVATED + Data Quality FAIL; Q2 Sun Jul 27 T+4 near-binary |
+
+#### 9-gate checklist
+
+Not exercised — regime pre-condition (crisis-track engagement gate ACTIVATED) blocks all candidates BEFORE reaching per-ticker gate stack. Structural 5/10 score ceiling means no candidate reaches score ≥6 threshold for deep-dive advance to 9-gate execution flow. Documented in RESEARCH-LOG.md 2026-07-23 § "Top Candidates (score ≥6, deep-dive required)": **NONE**.
+
+#### Regime state at open
+
+- **DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY14 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day10 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-HOLD-DOVISH-ABSORBED + Data-Quality-Gate-Day-84 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED**
+- IDR Wed close 17,927 (5th consecutive marginal sub-Stage-5 below 18,050; but ~177 IDR ABOVE sub-17,750 crisis-track resolution threshold; post-BI-HOLD dovish-surprise = defensive weakening bias, sub-17,750 3-of-3 now structurally MORE difficult).
+- Brent $94.13 +3.43% Wed = RE-INTENSIFIED from prior $84-89 band; Iran-US strikes 11th consecutive night; Trump Hormuz 20% cargo fee reinstatement; highest since Jun 8.
+- Foreign-flow criterion (d) REGRESSED: Wed all-day -Rp 1.113T market-wide net sell (Kompas); Big-4 top-3 net sell = criterion (d) 2-of-2 threshold BROKEN, downgraded to PARTIAL SIGNAL 1-of-2.
+- Re-entry gate scoring: **1.25 of 5 confirming** (regression from 2/5 via (d) breakdown).
+
+#### Held positions
+
+*(None — book fully de-risked 100% cash Day 13 post-KLBF hard-cut through Wk 14 Day 4 open.)*
+
+#### Next checkpoints
+
+- Midday scan 11:30 WIB — no positions to manage; regime status re-check only.
+- EOD 15:15 WIB — reconcile Thu sesi II final IHSG; poll IDR sustained close vs Stage 5 threshold; log Wk 14 Day 4 in journal.
+- Thu Jul 24 T+1 pre-market: ISAT Q2 print (WATCH-only under crisis gate) + KLBF Q2 print (not a re-entry candidate per MISTAKES.md 2026-07-06).
+- Fri Jul 24 16:00 WIB weekly-review: MACRO-REGIME.md update evaluation (BI HOLD + Brent RE-SPIKE + Wed flow REGRESSION); MD_LAST_PRICE_OVERRIDE binary accept-or-fix decision.
+
+---
+
