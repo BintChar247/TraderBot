@@ -12861,18 +12861,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-19T08:26:55Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD May 19: IDR 9.829B (-0.48% daily, +0.70% alpha). Cum -1.71%, cum alpha +14.51%. ADRO HOLD at 2,400 (-5.88%; -4% trigger breached; hard-cut buffer +1.21%). Coal hit by single-gateway export rumor. T-2 BI RDG.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 22 EOD snapshot committed; ADRO marked 2,400 from verified intraday range 2,350-2,440"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-20T00:12:53Z",
       "routine": "pre-market",
       "status": "warning",
@@ -17535,6 +17523,12 @@
           "detail": "Thu sesi II final 6,315.31 -0.30% sesi I intraday +1.51% reversed to close red"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-24T04:36:59Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No action. Book 100% cash Wk 14 Day 5 (Fri). Zero positions \u2192 sell-side rules N/A."
     }
   ],
   "exposure": {

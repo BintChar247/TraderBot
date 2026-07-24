@@ -8783,3 +8783,29 @@ Thu Jul 23 sesi I 6,430.15 (money.kompas + disway.id + cnnindonesia + liputan6 4
 
 ---
 
+
+### 2026-07-24 11:30 WIB — MIDDAY SCAN Wk 14 Day 5 (Friday)
+
+#### Summary
+
+- **NO ACTION.** Book 100% cash (IDR 9,716,207,500) Day 14 post-KLBF hard-cut. Zero open positions → sell-side rule stack (−7% hard cut / +15% trail-tighten 7% / +20% trail-tighten 5% / thesis-break exit) all N/A this scan.
+- Broker `positions` returns `count: 0` confirming full-cash posture intact through Wk 14 Day 5 (last day) midday.
+- Regime status unchanged from Thu EOD: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY15 + IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 11 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-RDG-HOLD-DOVISH-ABSORBED-Day3 + Data-Quality-Gate-Day-85. Crisis-track engagement gate ACTIVATED remains binding on all tickers.
+- No intraday research addendum triggered (no held stocks → no >3% moves to investigate).
+
+#### Positions checked
+
+*(None — `broker.sh positions` → `count: 0`.)*
+
+#### Sell-side rules applied
+
+- Losers (−7% hard cut): **N/A** (no positions).
+- Winners (+15% → 7% trail / +20% → 5% trail): **N/A** (no positions).
+- Thesis check: **N/A** (no positions).
+
+#### Next checkpoints
+
+- EOD 15:15 WIB — Wk 14 Day 5 (last day) EOD reconciliation; poll Fri IDR sustained close vs Stage 5 threshold + sub-17,750 crisis-track sub-threshold; reconcile IHSG sesi II final Wk 14.
+- 16:00 WIB — Wk 14 weekly-review: MACRO-REGIME update / MD_LAST_PRICE_OVERRIDE binary decision / IHSG anchor convention decision / cumulative alpha trajectory review.
+
+---
