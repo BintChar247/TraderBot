@@ -1055,6 +1055,23 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-07-24",
+      "day_label": "Day 70",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6204.63,
+      "ihsg_close_basis": "Fri Jul 24 sesi I 6,204.63 3-source convergent (RRI.co.id + Sindonews + Kompas at 6,204.63 sesi I close 12:00 WIB -110.68 pt -1.75% intraday vs Thu sesi II reference 6,315.31; -225.52 pt -3.51% vs Thu Jul 23 sesi I 6,430.15 anchor per sesi-I-to-sesi-I provisional canonical convention). Volume/value sesi I Rp 10.4T / day high sesi I 6,268.53 / day low sesi I 6,161.13. All sectoral indices RED sesi I; cyclical consumer goods -3.21%, raw materials -3.12%, energy -2.65% leading declines; broad-based risk-off session broke Thu Jul 23 rally-rebound decisively. Sesi II final Fri not multi-source convergent at 15:15 WIB filing.",
+      "ihsg_cumulative_pct": -18.72,
+      "alpha_pct": 15.89,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Week 14 Day 5 CLOSE / post-KLBF hard-cut Day 14 / IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 11 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-RDG-HOLD-DOVISH-ABSORBED-Day3 + Data-Quality-Gate-Day-85 all binding. Book remains 100% cash IDR 9,716,207,500; zero equity market exposure Day 14. Market-open NO TRADES: crisis-track engagement gate ACTIVATED Hard Rule binding. Midday no positions to manage. IHSG sesi I -3.51% sesi-I-to-sesi-I broad-based risk-off session (all sectoral indices RED; cyclical consumer goods -3.21%, raw materials -3.12%, energy -2.65% leading) = STRONGEST POSITIVE-ALPHA SINGLE-SESSION PRINT Wk 14 Day 5 at +3.51% while portfolio 100% cash zero-participation. Cumulative alpha expands from Thu +12.61% to Fri +15.89% (+3.28pp expansion); Wk 14 net compression Days 1-5 tightens from -4.63pp Thu-close to -1.11pp Fri-close via Fri risk-off session. Drawdown from peak -3.10% unchanged; daily P&L 0.00% within -2% cap; weekly Wk 14 Day 5 0.00% within -5% cap; NO halt triggers. 13th consecutive 0/3 BUY-slot week formalises Fri Wk 14 close (39+ cumulative unused candidate-day slots trial-to-date Wk 3-14). Foreign-flow criterion (d) remains PARTIAL SIGNAL 1-of-2 post-Wed -Rp 1.113T reversal; 1.25 of 5 re-entry criteria confirming. Weekly-review 16:00 WIB immediate next: MACRO-REGIME.md update / MD_LAST_PRICE_OVERRIDE binary decision / IHSG anchor convention decision / cumulative alpha trajectory review / criterion (d) recalibration."
     }
   ],
   "positions": [],
@@ -12861,45 +12878,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-20T00:12:53Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Pre-market 2026-05-20: 50-ticker scan complete amid 1-yr-low capitulation (IHSG -3.46% to 6,370.68 May 19). DOUBLE BINARY today: (1) BI RDG decision (16/29 economists expect +25bp); (2) Bloomberg-confirmed Prabowo could TODAY announce new state agency to control coal/palm-oil/metals exports. ADRO at razor-thin +1.21% buffer to hard-cut; pre-mortem trigger ARMED. Only 3 candidates scored >=6 (KLBF-6, TLKM-6, ASII-6) \u2014 all deferred to post-RDG. NO NEW ENTRIES today. Regime DEFENSIVE-confirmed (all 4 shift triggers met). URGENT pre-market alert sent.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "3 candidates scored >=6 (KLBF, TLKM, ASII)"
-        },
-        {
-          "type": "alert",
-          "detail": "URGENT pre-market alert sent: ADRO pre-mortem trigger ARMED on Bloomberg-confirmed export agency announcement risk"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "score 6/10 - sole green sector (healthcare) on May 19 capitulation"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 - Pilarmas BoW today; defensive telco"
-        },
-        {
-          "type": "research",
-          "ticker": "ASII",
-          "detail": "score 6/10 - foreign-flow carry; only -0.42% vs market -3.46%"
-        },
-        {
-          "type": "regime",
-          "detail": "Regime DEFENSIVE-confirmed (all 4 shift triggers met)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-20T02:21:32Z",
       "routine": "market-open",
       "status": "warning",
@@ -17529,6 +17507,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No action. Book 100% cash Wk 14 Day 5 (Fri). Zero positions \u2192 sell-side rules N/A."
+    },
+    {
+      "timestamp": "2026-07-24T08:19:48Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-07-24: IDR 9.716B (+0.00%). Alpha +3.51% vs IHSG (strongest positive-alpha session Wk 14; broad-based IHSG risk-off -3.51%). 0 positions. Trades this week: 0/3 (13th consecutive 0/3 formalised). Cum alpha +15.89%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Wk 14 Day 5 close EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {

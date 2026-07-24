@@ -8809,3 +8809,87 @@ Thu Jul 23 sesi I 6,430.15 (money.kompas + disway.id + cnnindonesia + liputan6 4
 - 16:00 WIB — Wk 14 weekly-review: MACRO-REGIME update / MD_LAST_PRICE_OVERRIDE binary decision / IHSG anchor convention decision / cumulative alpha trajectory review.
 
 ---
+
+
+### 2026-07-24 EOD
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%)
+- IHSG daily: −3.51% (sesi-I-to-sesi-I: Thu Jul 23 sesi I 6,430.15 → Fri Jul 24 sesi I 6,204.63 = −225.52 pt −3.51%; sesi I intraday −110.68 pt −1.75% vs Thu sesi II reference 6,315.31 per RRI + Sindonews + Kompas 3-source convergent at 6,204.63 sesi I close 12:00 WIB; day high sesi I 6,268.53 / day low sesi I 6,161.13; value sesi I Rp 10.4T; all sectoral indices RED sesi I — cyclical consumer goods −3.21%, raw materials −3.12%, energy −2.65% leading declines; broad-based risk-off session broke Thu Jul 23 rally-rebound decisively. Sesi II final Fri not multi-source convergent at 15:15 WIB filing. Dual-basis polling per Wk 13 process change: sesi I 6,204.63 primary / sesi II final pending overnight reconciliation.)
+- Daily alpha: +3.51% (portfolio 0.00% vs IHSG sesi I −3.51%; STRONGEST SINGLE-SESSION POSITIVE ALPHA Wk 14 Day 5; 100%-cash defensive posture pays off in broad-based IHSG risk-off; reverses Thu Wk 14 Day 4 −1.815% compression session and Wk 14 sequence Mon-Fri Days 1-5: −1.42% / −1.46% / +0.07% / −1.815% / +3.51% = −1.11pp cumulative Wk 14 net compression Days 1-5)
+- Cash: IDR 9,716,207,500 (100.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (13th consecutive 0/3 BUY-slot week formalises Fri Wk 14 close)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%)
+- Cumulative alpha: +15.89% (IHSG cum from Day 0 baseline 7,634 → Fri sesi I 6,204.63 = −18.72% vs portfolio cum −2.84%; +3.28pp expansion from Thu +12.61% via Fri IHSG −3.51% broad risk-off while portfolio flat; structural trajectory 5.45pp below reconciled Day 50 +21.34% baseline)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged 22 consecutive sessions; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book fully de-risked Day 14 post-KLBF hard-cut through Wk 14 Day 5 close; regime + IDR Stage 5 MARGINAL DE-ARM CANDIDATE Day 11 + Data Quality Gate Day 85 + Brent shock re-intensified $94 + foreign-flow regression Wed −Rp 1.113T + BI RDG HOLD-dovish-absorbed all binding.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### IHSG anchor reconciliation
+
+Fri Jul 24 sesi I 6,204.63 (RRI.co.id + Sindonews + Kompas 3-source convergent; sesi I close −110.68 pt −1.75% intraday vs Thu sesi II reference 6,315.31; −225.52 pt −3.51% vs Thu Jul 23 sesi I 6,430.15 anchor per sesi-I-to-sesi-I provisional canonical convention). Volume/value sesi I Rp 10.4T / day high sesi I 6,268.53 / day low sesi I 6,161.13. All sectoral indices RED sesi I; cyclical consumer goods −3.21%, raw materials −3.12%, energy −2.65% leading declines; broad-based risk-off session. Sesi II final Fri not multi-source convergent at 15:15 WIB filing. Anchor: Thu Jul 23 sesi I 6,430.15 (unchanged per sesi-I-to-sesi-I provisional canonical). Dual-basis polling active Wk 14 close Day 5: sesi I 6,204.63 primary / sesi II final Fri pending overnight multi-source convergence. **IHSG anchor convention decision formally scheduled Wk 14 weekly-review 16:00 WIB today per Wk 13 deferral (2 weeks of dual-basis evidence now accumulated).**
+
+#### Weekly P&L trajectory (Wk 14 Day 5 CLOSE)
+
+- Wk 14 cumulative P&L Day 5 close: 0.00% (Fri Wk 13 close 9,716,207,500 → Fri Wk 14 Day 5 close 9,716,207,500).
+- Weekly loss cap −5% not breached; sizing reduction NOT triggered.
+- Wk 14 BUY slots Day 5 CLOSE: 0/3 used = **13th consecutive 0/3 BUY-slot week formalised** at Fri Wk 14 close; trial-to-date cumulative unused slots Wk 3-14 = 39+.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted by P&L caps.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L (Wk 14 Day 5 close) 0.00% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (regime remains DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY15 with IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 11 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + Data-Quality-Gate-Day-85 + BI-RDG-HOLD-DOVISH-ABSORBED-Day3 = crisis-track engagement gate ACTIVATED codified Hard Rule binding; no daily/drawdown caps breached). Alpha expansion session Fri (+3.51%) driven by IHSG sesi I broad risk-off −3.51% sesi-I-to-sesi-I basis while portfolio 100% cash zero-exposure = defensive posture validated in this session; reverses Thu compression trough.
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 14 post-KLBF cut into Wk 14 Day 5 close.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul). No new sector-exit rule fires.
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Fri sesi I 6,204.63 = **−18.72%** (−2.95pp deepening from Thu sesi I −15.77% via IHSG sesi I −3.51% broad risk-off session Fri Wk 14 Day 5).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged from prior sessions; 100% cash zero-participation Day 14).
+- **Cumulative alpha = +15.89%** (+3.28pp expansion from Thu +12.61% via IHSG −3.51% broad risk-off while portfolio flat; **strongest single-session alpha expansion Wk 14 Day 5**; Wk 14 sequence Mon-Fri [−1.42% / −1.46% / +0.07% / −1.815% / +3.51%] = **−1.11pp net compression Wk 14 Days 1-5 (much improved from Thu Day 4 −4.63pp trough)**; structural trajectory 5.45pp below reconciled Day 50 +21.34% baseline).
+- Alpha runway forward Wk 14 close: fully-cash defensive book zero equity exposure pays off in broad IHSG risk-off session Fri; runway recovers to +15.89% cumulative alpha. Structural cost of 100%-cash posture reversed for this session; underlying re-entry gate remains binding via crisis-track engagement gate ACTIVATED codified (criterion (d) foreign-flow REGRESSED Wed 2-of-2 threshold BROKEN downgrades gate scoring 2 → 1.25 of 5 confirming; today's session validates defensive posture value in risk-off tape).
+
+#### Notes
+
+- **Market-open Wk 14 Day 5 NO TRADES:** WATCH candidates SKIPPED per crisis-track engagement gate ACTIVATED Hard Rule codified TRADING-STRATEGY.md 2026-07-17. Full-cash posture intact into weekly-review; sextuple-plus binding continues (crisis-track ACTIVATED + IDR Stage 5 Day 11 + BRENT-$94-re-intensified + FOREIGN-FLOW-REGRESSED-Wed-1.113T + Data-Quality-Day-85 + BI-RDG-HOLD-dovish-absorbed-Day3).
+- **Midday scan Wk 14 Day 5:** no open positions to manage; no sell-side rules applicable; 100% cash defensive posture confirmed intact via broker.sh positions count: 0.
+- **IHSG Fri Wk 14 Day 5 sesi I −1.75% intraday / −3.51% sesi-I-to-sesi-I:** broad-based risk-off session broke Thu Jul 23 rally-rebound decisively. All sectoral indices RED sesi I; cyclical consumer goods −3.21% / raw materials −3.12% / energy −2.65% leading declines. Session validates the defensive posture value proposition of 100%-cash Wk 14 Day 14; alpha +3.51% single-session is strongest positive-alpha print Wk 14 and largest since early-Jul KLBF-cut window.
+- **IDR gate status Fri EOD:** IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 11 persists into Wk 14 Day 5 close (weekly-review 16:00 WIB agenda). Post-BI-HOLD-dovish-surprise Day 3 = IDR-defensive weakening bias short-term; sub-17,750 sustained 3-of-3 remains structurally MORE difficult mathematically post-BI-HOLD (no rate-defensive tailwind). Sustained-close reconciliation deferred to Mon Wk 15 pre-market poll.
+- **Foreign-flow criterion (d) remains PARTIAL SIGNAL 1-of-2** post-Wed −Rp 1.113T net-sell all-day reversal. Thu Jul 23 foreign flow multi-source reconciliation pending Mon Wk 15 pre-market. Re-entry gate scoring holds at 1.25 of 5 confirming.
+- **Brent shock persistence:** $94 range holds Fri per prior WebSearch reference; oil-macro upside pressure on IDR + CPI-vector negative for consumer staples/INDF; positive for coal/energy sector fundamentally but session-level risk-off broke sector-relative positioning today. MACRO-REGIME.md update evaluation Fri Wk 14 weekly-review 16:00 WIB.
+- **Book fully de-risked Day 14 post-KLBF cut through Wk 14 Day 5 close:** 100% cash (IDR 9,716,207,500). Zero equity market exposure Day 14. Regime + IDR Stage 5 Day 11 + Data Quality Gate Day 85 + Brent shock re-intensified $94 + BI RDG HOLD-dovish-absorbed Day 3 + foreign-flow regression Wed all binding; no re-entry until 5 re-entry criteria concurrent (criterion (d) downgraded to PARTIAL SIGNAL 1-of-2; remaining (a) IDR sub-17,750 3-of-3 [MORE difficult post-BI-HOLD] + (b) cluster convergent + (c) MSCI overhang + (e) R:R ≥2:1 not yet satisfied).
+- **Data Quality Gate Day 85 outage persists:** yfinance + GoAPI still blocked (85 consecutive sessions since Apr 21); WebSearch multi-source override operational (used for IHSG Fri sesi I 3-source convergence at 6,204.63). MD_LAST_PRICE_OVERRIDE fix for broker.sh cmd_sell **formally scheduled Wk 14 weekly-review 16:00 WIB today as binary accept-or-fix decision** per Wk 13 Process Change #2.
+- **13th consecutive 0/3 BUY-slot week formalises Fri Wk 14 close:** 39+ cumulative unused candidate-day slots trial-to-date Wk 3-14. Wk 14 slot allocation 3/3 fresh but IDR Stage 5 Day 11 + BI RDG HOLD-dovish-surprise Day 3 + Brent shock re-intensified $94 + foreign-flow regression Wed + Data Quality Gate Day 85 sextuple-plus binding = 0/3 continuation formalised at Fri Wk 14 close.
+- **Alpha expansion Fri (+3.51%):** IHSG sesi I broad-based risk-off −3.51% sesi-I-to-sesi-I (Thu sesi I 6,430.15 → Fri sesi I 6,204.63 = −225.52 pts) while portfolio 100% cash zero-participation = **strongest positive-alpha single-session print Wk 14**. Cumulative alpha expands from Thu +12.61% to Fri +15.89%; structural trajectory 5.45pp below reconciled Day 50 +21.34% baseline (recovers 3.28pp from Thu compression trough). Wk 14 net compression Days 1-5 tightens from −4.63pp Thu-close to −1.11pp Fri-close. Regime cost thesis of 100%-cash posture validated for this session.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 69/70 per dashboard indexing, Wk 14 Day 5 close). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged Fri; dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%).
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set for this run per scheduler prompt; stdout fallback if send fails).
+- **Carry-over to Fri Jul 24 16:00 WIB weekly-review (immediate next routine T+45min):**
+  1. **MACRO-REGIME.md update evaluation:** BI RDG HOLD-dovish absorbed Day 3 + Brent shock re-intensified $94 + Wed foreign-flow regression + IHSG rally-rebound Thu broke decisively into Fri broad risk-off; assess whether regime relabelling warranted (current: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY15 + IDR-ESCALATION-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day11 + BRENT-SHOCK-RE-INTENSIFIED-$94 + FOREIGN-FLOW-REGRESSED-Wed-1.113T + BI-RDG-HOLD-DOVISH-ABSORBED-Day3).
+  2. **MD_LAST_PRICE_OVERRIDE binary accept-or-fix decision:** formally scheduled Wk 14 weekly-review 16:00 WIB per Wk 13 Process Change #2.
+  3. **IHSG anchor convention decision:** dual-basis sesi I vs sesi II final — Wk 14 provided 2 weeks of dual-basis evidence per Wk 13 deferral; formal decision agenda item.
+  4. **Cumulative alpha trajectory review:** Wk 14 net −1.11pp (much improved from Thu Day 4 −4.63pp trough via Fri +3.51% expansion); structural trajectory 5.45pp below reconciled Day 50 +21.34% baseline; review whether structural drag pattern requires posture recalibration.
+  5. **Criterion (d) foreign-flow regression implications:** review whether Wed −Rp 1.113T event downgrade to PARTIAL SIGNAL 1-of-2 warrants criterion redefinition or gate recalibration.
+- **Carry-over to Mon Jul 27 07:00 WIB pre-market (Wk 15 Day 1):**
+  1. Mon pre-market reads Fri sesi II final IHSG (if multi-source convergent overnight) + Fri IDR sustained close vs Stage 5 threshold + Thu/Fri foreign flow all-day multi-source reconciliation + overnight tape + weekend Asian futures + weekly-review outcomes (regime label / MD_LAST_PRICE_OVERRIDE / IHSG anchor convention).
+  2. Wk 15 planning window Day 1: 3/3 fresh slots subject to weekly-review regime/gate/anchor decisions.
+
+---
