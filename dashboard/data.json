@@ -12861,12 +12861,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-19T04:49:48Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. ADRO -0.39% (mark 2,540 vs entry 2,550); buffer to hard-cut +6.65%. No cuts, no tightenings, no thesis breaks."
-    },
-    {
       "timestamp": "2026-05-19T08:26:55Z",
       "routine": "daily-summary",
       "status": "success",
@@ -17506,6 +17500,39 @@
         {
           "type": "research",
           "detail": "IHSG anchor reconciled: Thu sesi II final 6,315.31 -0.30% (5-source) vs sesi I 6,430.15 +1.51% intraday reversal \u2014 cumulative alpha reconciles from filed +12.61% to sesi II basis +14.43%"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-24T02:16:45Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED + Brent shock \u2265$100 escalation + foreign-flow 3rd-consecutive net-sell (Wed-Thu -Rp 2.33T) + US Thu risk-off; septuple-plus binding stack, zero candidates \u22656/10 (all 5/10 ceiling), book 100% cash Day 14, 14th consecutive 0/3 BUY-slot week formalises today.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "ALL",
+          "detail": "crisis-track engagement gate ACTIVATED \u2014 0 candidates cleared 6/10 (5/10 ceiling under septuple-plus binding)"
+        },
+        {
+          "type": "warning",
+          "ticker": "BRENT",
+          "detail": "Brent $100.65 +7% shock escalation; Iran-Houthi Red Sea tanker attacks + Hormuz blockade"
+        },
+        {
+          "type": "warning",
+          "ticker": "FLOW",
+          "detail": "Foreign 3-of-3 net-sell -Rp 2.33T Wed-Thu; criterion (d) DEEPER REGRESSED"
+        },
+        {
+          "type": "warning",
+          "ticker": "US",
+          "detail": "US Thu risk-off S&P -1.21% / Nasdaq -2.15%; reverses Tue/Wed constructive"
+        },
+        {
+          "type": "info",
+          "ticker": "IHSG",
+          "detail": "Thu sesi II final 6,315.31 -0.30% sesi I intraday +1.51% reversed to close red"
         }
       ]
     }
