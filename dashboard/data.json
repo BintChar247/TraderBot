@@ -12878,42 +12878,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-20T02:21:32Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "HARD-CUT ADRO 392,100 sh @ IDR 2,350 (-7.84%, -IDR 78.42M) on gap-down open below stop 2,371. No new entries; KLBF/TLKM/ASII deferred post-RDG. 100% cash post-sell.",
-      "actions": [
-        {
-          "type": "sell",
-          "ticker": "ADRO",
-          "detail": "392100sh @ 2350 (hard-cut breach, gap-down open)"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance Day 30 blocked); broker.sh sell stale-fill 2550 corrected to verified open 2350 in PAPER-STATE.json"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram blocked by network policy (host not in allowlist); notification logged to stdout"
-        },
-        {
-          "type": "skip",
-          "ticker": "KLBF",
-          "detail": "deferred post-RDG"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "deferred post-RDG"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "deferred post-RDG"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-20T04:32:06Z",
       "routine": "midday",
       "status": "success",
@@ -17519,6 +17483,30 @@
           "detail": "Wk 14 Day 5 close EOD snapshot committed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-27T00:12:13Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 15 Day 1 Mon pre-market: 50 tickers scanned. Zero candidates \u22656 (14th consecutive 0/3 BUY-slot week trajectory). Octuple binding intensified via NEW Trump 10% Section 301 tariff Indonesia effective Fri Jul 24. IHSG Fri 6,196 -1.88%. IDR 17,922 (Mon forecast 17,773 sub-17,750 pierce candidate).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 0 candidates \u22656 (structural 5/10 ceiling under octuple binding)"
+        },
+        {
+          "type": "research",
+          "detail": "NEW Trump 10% Section 301 tariff on Indonesian goods effective Fri Jul 24 \u2014 fresh structural export headwind"
+        },
+        {
+          "type": "research",
+          "detail": "Foreign flow 4th-consecutive net-sell Fri -2.37B sh (BMRI top-sold); criterion (d) DEEPER regressed 1.00/5 \u2192 0.75/5"
+        },
+        {
+          "type": "research",
+          "detail": "IDR Mon forecast 17,773 sub-17,750 PIERCE candidate Day 1 \u2014 23 IDR gap"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -17556,56 +17544,56 @@
     "brent_intraday_high": 100.65
   },
   "research": {
-    "date": "2026-07-24",
+    "date": "2026-07-27",
     "holiday": false,
-    "as_of_date": "2026-07-24",
+    "as_of_date": "2026-07-27",
     "as_of_time": "07:00",
-    "as_of_label": "Fri Jul 24 07:00 WIB (Wk 14 Day 5 / LAST DAY / weekly-review day pre-market)",
-    "ihsg_last": 6315.31,
-    "ihsg_last_label": "Thu Jul 23 sesi II final 6,315.31 -0.30% (-19.16 pts) \u2014 Kompas/Databoks/Timesindonesia/Metrotv/Pasardana 5-source convergent; sesi I +1.51% intraday fully reversed by afternoon profit-taking + oil-shock overlay + US-futures risk-off carry; day-range 6,306-6,454",
-    "idr_usd": 17869,
-    "idr_usd_label": "Fri Jul 24 forecast 17,869 (30rates; max 18,137 / min 17,601); BBRI e-rate 17,867; BMRI special 17,905/17,935; 6th consecutive marginal sub-Stage-5 session; ~120 IDR gap above sub-17,750 crisis-track resolution; structurally HARDER post-BI-HOLD-dovish Day 3",
+    "as_of_label": "Mon Jul 27 07:00 WIB (Wk 15 Day 1 / new week open pre-market)",
+    "ihsg_last": 6196.0,
+    "ihsg_last_label": "Fri Jul 24 sesi II final 6,196 -1.88% (-118.88 pts) \u2014 en.tempo.co + indopremier 2-source; day range 6,159-6,268; volume 37.9B sh / value Rp 17.7T; 104 adv / 587 dec / 105 unch; broke sesi I 6,204.63 further -0.14pp; broke below MA60. Wk 14 net +0.34% product-basis. MNC Sekuritas Mon prediction: correction continuation 6,074-6,146 support range.",
+    "idr_usd": 17922,
+    "idr_usd_label": "Fri Jul 24 close 17,922.50 -0.49% (tradingeconomics-referenced); Mon Jul 27 forecast 17,773 (30rates; max 18,040 / min 17,506); **potential sub-17,750 PIERCE candidate Day 1** if realized; 7th consecutive marginal sub-Stage-5 session; ~172 IDR gap above sub-17,750 threshold at Fri close but only ~23 IDR gap at Mon forecast",
     "coal_price": 130.0,
-    "brent_price": 100.65,
+    "brent_price": 98.0,
     "scan_universe": 50,
-    "candidates_count": 23,
+    "candidates_count": 22,
     "candidates_ge6_count": 0,
     "candidates_actionable_count": 0,
     "candidates_top_score": 5,
     "top_candidate": null,
     "top_candidate_score": 5,
-    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + septuple-plus binding stack materially INTENSIFIED overnight via Brent \u2265$100 escalation + foreign-flow 3rd-consecutive net-sell + US risk-off)",
-    "top_candidate_hook": "No candidates cleared \u22656 threshold; septuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 11 + **BRENT ESCALATED \u2265$100** + foreign-flow 3rd-consecutive net-sell -Rp 2.33T 2-day + US risk-off Thu S&P -1.21% / Nasdaq -2.15% + Data Quality Gate Day 85 + BI-HOLD-dovish-absorbed Day 3) binds all 50 tickers to 5/10 ceiling; 13th consecutive 0/3 BUY-slot week formalises Wk 14 weekly-review 16:00 WIB TODAY",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY15 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day11 + BRENT-SHOCK-ESCALATED-\u2265$100 + FOREIGN-FLOW-3RD-CONSECUTIVE-NET-SELL + US-RISK-OFF-Thu + BI-HOLD-DOVISH-ABSORBED-Day3 + Data-Quality-Gate-Day-85",
+    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + octuple binding stack materially INTENSIFIED via NEW Trump 10% Section 301 tariff Indonesia effective Fri Jul 24 + foreign-flow 4th-consecutive net-sell + Brent $95-100 sustained + BI-HOLD-dovish-absorbed Day 6)",
+    "top_candidate_hook": "No candidates cleared \u22656 threshold; octuple binding (crisis-track ACTIVATED + IDR Stage 5 Day 14 + BRENT $95-100 sustained + foreign-flow 4th-consecutive net-sell Fri -2.37B sh + US Fri mixed (S&P +0.05% / Nasdaq -0.64% / Dow +0.46%) + NEW Trump 10% Section 301 tariff Indonesia + Data Quality Gate Day 88 + BI-HOLD-dovish-absorbed Day 6) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory begins Mon Wk 15 Day 1",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6",
     "top_candidates": []
   },
-  "last_updated": "2026-07-24T00:00:00Z",
+  "last_updated": "2026-07-27T00:00:00Z",
   "market": {
-    "foreign_flow_note": "Thu Jul 23 -Rp 1,220B NET SELL (2nd consecutive jumbo; Wed -1.113T \u2192 Thu -1.220T = -Rp 2.33T 2-day); sesi I TPIA -167.65B top sold; criterion (d) DEEPER REGRESSED to 3-of-3 net-sell reversal; 1.25/5 \u2192 1.00/5 re-entry gate scoring; Fri sesi I 4th-consecutive-net-sell watch",
-    "global_note": "**US Thu RISK-OFF**: S&P -1.21% 7,408.30 / Nasdaq -2.15% 25,137.69 / Dow -0.97% 51,711.65 on AI-capex worry + oil surge. Asia Thu mixed-positive: Nikkei +0.46% / Hang Seng +1.28% / Shanghai +0.25%. VIX ~19 up. **Brent ESCALATED $100.65 +7.00%** on Iran-Houthi Saudi Red Sea tanker attacks + Hormuz blockade \u2014 first \u2265$100 in 2mo; +36.49% MoM. BI HOLD 5.75% Day 3 absorbed.",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY15",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day11 + BRENT-SHOCK-ESCALATED-\u2265$100 + FOREIGN-FLOW-3RD-CONSECUTIVE-NET-SELL + US-RISK-OFF-Thu + BI-HOLD-DOVISH-ABSORBED-Day3 + Data-Quality-Gate-Day-85 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "last_updated": "2026-07-24T00:00:00Z",
-    "ihsg_close_date": "2026-07-23",
-    "ihsg_close_change_pct": -0.3,
-    "idr_usd_change_pct": -0.32,
+    "foreign_flow_note": "Fri Jul 24 all-day NET SELL 2.37B sh (buy 5.51B / sell 7.88B); BMRI + BIPI top net-sold; BULL top net-bought; **4th consecutive net-sell session Wed-Thu-Fri** (Wed -Rp 1.113T + Thu +306.9M sh net-buy quantity but Kompas-referenced +Rp 283B earlier Thu + Fri jumbo net-sell); criterion (d) DEEPER REGRESSED 1.00/5 \u2192 0.75/5 confirming; Mon Wk 15 sesi I 5th-consecutive-net-sell watch = structural sell-signal binding if realized.",
+    "global_note": "**US Fri Jul 24 close MIXED partial recovery**: S&P 7,411.98 (+0.05%) / Nasdaq 24,975.82 (-0.64%; Sandisk -11% chip drag) / Dow 51,947.25 (+0.46%). Asia Fri Jul 24 BROAD RISK-OFF: Nikkei 64,611.15 -2.73% / Hang Seng 24,963.23 -0.98% / Shanghai 3,814.198 -1.61% on Mideast escalation + oil surge. VIX ~19 flat. **Brent SUSTAINED $95-100 band** Fri sub-$98 partial de-escalate -2.7% from Thu $100.65 peak but weekly +12%; Iran-Houthi Saudi tanker attacks + Trump Hormuz threats persist. **NEW: US 10% Section 301 tariff on Indonesian goods effective Fri Jul 24** (60-economy forced-labor justification; supersedes Trump Aug-1 19% announcement). BI HOLD 5.75% Day 6 absorbed.",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY18",
+    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day6 + Data-Quality-Gate-Day-88 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "last_updated": "2026-07-27T00:00:00Z",
+    "ihsg_close_date": "2026-07-24",
+    "ihsg_close_change_pct": -1.88,
+    "idr_usd_change_pct": -0.49,
     "idr_usd_date": "2026-07-24",
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day11",
-    "idr_stage_note": "6th consecutive marginal sub-Stage-5 session; ~120 IDR gap above sub-17,750 crisis-track resolution; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish Day 3 (no rate-defensive tailwind Fri)",
+    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14",
+    "idr_stage_note": "Fri close 17,922 marginal continuation; Mon Jul 27 forecast 17,773 = potential sub-17,750 PIERCE candidate Day 1 (~23 IDR gap); if realized, criterion (a) 1-of-3 fresh start; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish Day 6 (no rate-defensive tailwind Mon)",
     "coal_newcastle_usd_ton": 130.0,
-    "brent_usd_bbl": 100.65,
+    "brent_usd_bbl": 98.0,
     "brent_intraday_high": 100.65,
-    "cpo_myr_ton": 4499,
-    "nickel_lme_usd_ton": 16717,
+    "cpo_myr_ton": 4700,
+    "nickel_lme_usd_ton": 17310,
     "indo_10y_sun": 7.2,
     "us_10y": 4.55,
-    "us_sp500": 7408.3,
-    "us_nasdaq": 25137.69,
-    "us_dow": 51711.65,
-    "nikkei": 66422.6,
-    "hang_seng": 25210.81,
-    "shanghai": 3876.78,
+    "us_sp500": 7411.98,
+    "us_nasdaq": 24975.82,
+    "us_dow": 51947.25,
+    "nikkei": 64611.15,
+    "hang_seng": 24963.23,
+    "shanghai": 3814.198,
     "vix": 19.0,
-    "bi_rdg_next": "RESOLVED Day 3: Wed Jul 22 announcement \u2014 BI HOLD at 5.75% (dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%; foreign portfolio incentive rationale). Next RDG Aug 14."
+    "bi_rdg_next": "RESOLVED Day 6: Wed Jul 22 announcement \u2014 BI HOLD at 5.75% (dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%; foreign portfolio incentive rationale). Next RDG Aug 14 T+18. Danamon 2026-end forecast 6.25% (rate re-hike risk on IDR + Brent shock + Trump tariff CPI vectors)."
   }
 }
