@@ -12841,6 +12841,300 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBCA (Banking) WATCH 5/10 ceiling: Big-4 top-of-stack defensive; Fri close 6,250 -0.40%; crisis-track blocks",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive banking Fri partial-defensive vs BMRI -2.97% lead-loser; Big-4 NIM neutral-marginal post-BI-HOLD"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED + Foreign-flow criterion (d) DEEPER regressed 4-consecutive net-sell. Structural 5/10 ceiling binding under octuple stack.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI (Banking) WATCH 5/10 ceiling: Q2 Aug 3 T+7 binary; MNC Fri pick; crisis-track blocks",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 Aug 3 T+7 print; MNC Sekuritas Fri trading pick; Fri close 2,980 -0.33% partial-defensive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED + foreign flow REGRESSED Wed-Fri. Q2 catalyst T+7 outside gate binding window.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MEDC (Energy) WATCH 5/10 ceiling: Q2 Thu Jul 31 T+4 Brent $95-100 direct-upside COMPELLING; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Thu Jul 31 T+4; Q1 +282% YoY $75-avg baseline; Brent $95-100 sustained = material Q2 upside; Pilarmas + MNC Fri pick"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. Top-tier catalyst but Data Quality FAIL + tariff overlay + IDR marginal-band. Compelling thesis defers to gate resolution.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "INDF (Consumer) WATCH 5/10 ceiling: Sole net-inflow YTD; primary consumer Fri leg -3.21%; blocked crisis-track",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole net-inflow YTD +Rp 58B relative-resilience; consumer defensive under Brent + Trump tariff CPI-negative overlay"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED + Brent $95-100 + Trump 10% tariff Indonesia CPI-negative INTENSIFIED. Consumer sector Fri leg -3.21% risk-off.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "TLKM (Telco) WATCH 5/10 ceiling: 12M target Rp 3,629 SB 20 analysts; Q2 Aug 5 T+9; blocked crisis-track + Data Quality",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "12M target Rp 3,629 Strong Buy 20 analysts; Q2 Aug 5 T+9; NCC submarine cable Batam-Singapore residual"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track ACTIVATED. TLKM cluster Data Quality FAIL persistent Wks 10-15. Q2 T+9 outside gate binding window.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "AKRA (Distribution) SKIP 3/10: Q2 Sun Jul 27 T+0 weekend release petrol-margin squeeze Brent $98",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 Sun Jul 27 T+0 weekend release; petrol margin + logistics on Brent $95-100 = margin-squeeze concerns"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-Stage-5-MARGINAL-DE-ARM-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED \u2014 zero new entries binding until 5 re-entry criteria concurrent (currently 0.75/5, further regressed from 1.00/5 via criterion (d) 4-consecutive net-sell + NEW Trump 10% tariff overlay on criterion (c))"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 88 outage (yfinance 403 + GoAPI unset); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity \u2014 no entry"
+        }
+      ],
+      "reasoning": "SKIP: Blocked crisis-track + petrol-margin-negative on Brent shock. Post-Q2 T+0 fundamentals-mixed.",
+      "gate_results": [
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -12877,12 +13171,6 @@
     "updated": "2026-07-23"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-20T04:32:06Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "0 positions (100% cash post-ADRO hard-cut at 09:15). No sell-side actions to evaluate. Defensive posture pre-BI RDG / Prabowo announcement."
-    },
     {
       "timestamp": "2026-05-20T08:20:37Z",
       "routine": "daily-summary",
@@ -17505,6 +17793,48 @@
         {
           "type": "research",
           "detail": "IDR Mon forecast 17,773 sub-17,750 PIERCE candidate Day 1 \u2014 23 IDR gap"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-27T02:17:43Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 15 Day 1. Crisis-track engagement gate ACTIVATED (0.75/5 re-entry criteria); zero candidates >=6/10 under octuple binding [crisis-track + IDR-Stage-5-Day14 + Brent-$95-100 + FF-4th-net-sell + US-mixed + NEW-Trump-10pct-tariff + DQG-Day-88 + BI-HOLD-Day6]. 6 SKIP decisions logged (BBCA/BBRI/MEDC/INDF/TLKM/AKRA). Telegram send failed 403 (fallback stdout).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track blocks; 5/10 ceiling"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track blocks; Q2 T+7"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track blocks; Q2 T+4 Brent-shock upside"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track blocks; Brent+tariff CPI-negative"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track blocks; DQ FAIL persistent"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "crisis-track blocks; Q2 T+0 petrol margin squeeze"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed 403; notify.sh stdout fallback"
         }
       ]
     }
