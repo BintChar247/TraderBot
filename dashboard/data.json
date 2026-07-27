@@ -13172,18 +13172,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-20T08:20:37Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 23: IDR 9.81B (-0.20% day; cash 100%). ADRO hard-cut @ 2,350 (-7.84%/-IDR 78.42M). IHSG -0.81% on BI +50bps hike to 5.25%. Daily alpha +0.61%; cum alpha +15.32% trial-best. 0 positions, 0/3 new entries this week.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 23 EOD snapshot committed; ADRO sell logged; RISK-STATE + dashboard updated"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-21T00:11:55Z",
       "routine": "pre-market",
       "status": "success",
@@ -17837,6 +17825,12 @@
           "detail": "Telegram send failed 403; notify.sh stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-27T04:37:03Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 15 Day 1 Mon midday: 0 positions (100% cash Day 17). All sell-side rules N/A. Regime intact under octuple binding."
     }
   ],
   "exposure": {

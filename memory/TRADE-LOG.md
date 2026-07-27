@@ -8893,3 +8893,30 @@ Fri Jul 24 sesi I 6,204.63 (RRI.co.id + Sindonews + Kompas 3-source convergent; 
   2. Wk 15 planning window Day 1: 3/3 fresh slots subject to weekly-review regime/gate/anchor decisions.
 
 ---
+
+
+### 2026-07-27 11:30 WIB — MIDDAY SCAN Wk 15 Day 1 (Monday)
+
+#### Summary
+
+- **NO ACTION.** Book 100% cash (IDR 9,716,207,500) Day 17 post-KLBF hard-cut. Zero open positions → sell-side rule stack (−7% hard cut / +15% trail-tighten 7% / +20% trail-tighten 5% / thesis-break exit) all N/A this scan.
+- Broker `positions` returns `count: 0` confirming full-cash posture intact through Wk 15 Day 1 open→midday.
+- Regime status carried from Mon pre-market read: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED. Crisis-track engagement gate ACTIVATED remains binding on all tickers.
+- No intraday research addendum triggered (no held stocks → no >3% moves to investigate).
+
+#### Positions checked
+
+*(None — `broker.sh positions` → `count: 0`; `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.)*
+
+#### Sell-side rules applied
+
+- Losers (−7% hard cut): **N/A** (no positions).
+- Winners (+15% → 7% trail / +20% → 5% trail): **N/A** (no positions).
+- Thesis check: **N/A** (no positions).
+
+#### Next checkpoints
+
+- EOD 15:15 WIB — Wk 15 Day 1 EOD reconciliation; poll Mon IDR sustained close vs Stage 5 threshold + sub-17,750 pierce candidate (30rates Mon forecast 17,773 vs Fri close 17,922); reconcile IHSG Mon sesi I sesi-I-to-sesi-I canonical (dual-basis polling STOPPED effective Wk 15 per Wk 14 weekly-review); reconcile Mon foreign flow (5th-consecutive net-sell watch — if realized becomes structural sell-signal binding).
+- Tue 07:00 WIB — Wk 15 Day 2 pre-market.
+
+---
