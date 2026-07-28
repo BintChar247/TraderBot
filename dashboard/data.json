@@ -13190,12 +13190,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-21T04:41:49Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Day 24 midday scan: KLBF (only open position) healthy at ~930 (\u22121.6%, well above \u22127% hard-cut floor 878). Thesis intact (Q1 results in line, 500bn buyback live, defensive rotation thesis confirmed by BI +50bp). No cuts, no stop tightenings, no thesis exits."
-    },
-    {
       "timestamp": "2026-05-21T08:20:08Z",
       "routine": "daily-summary",
       "status": "success",
@@ -17814,6 +17808,34 @@
       ],
       "commit_hash": "60c5745",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-07-28T02:16:25Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 15 Day 2 Tue. Zero candidates cleared score \u22656 per today's research; crisis-track engagement gate ACTIVATED + octuple-plus binding (IDR Stage-5-marginal-de-arm-candidate Day 15 + Brent $96-98 retreated + foreign-flow 5th-consecutive net-sell candidate + Trump 10% tariff + BI-HOLD-dovish Day 7 + Warjiyo BI Governor resign Day 2 + Data Quality Gate Day 89). 100% cash Day 18 continues.",
+      "actions": [
+        {
+          "type": "skip",
+          "detail": "crisis-track engagement gate ACTIVATED \u2014 0% new entries binding"
+        },
+        {
+          "type": "skip",
+          "detail": "octuple-plus binding stack \u2014 zero candidates cleared score \u22656"
+        },
+        {
+          "type": "warning",
+          "detail": "WARJIYO BI Governor resign Day 2 overlay added; central bank independence + policy-continuity uncertainty"
+        },
+        {
+          "type": "warning",
+          "detail": "Foreign flow 5-consecutive net-sell candidate; criterion (d) DEEPER REGRESSED-STRUCTURAL"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 89 \u2014 yfinance blocked; broker.sh quote ERROR for un-held tickers"
+        }
+      ]
     }
   ],
   "exposure": {
