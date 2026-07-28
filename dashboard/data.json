@@ -13190,43 +13190,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-21T02:20:49Z",
-      "routine": "market-open",
-      "status": "success",
-      "summary": "Bought KLBF 519,000 sh @ IDR 945 (5.00% equity / IDR 490.46M). Hard-cut IDR 878. Other 3 candidates (BBCA, TLKM, ASII) skipped on sub-2:1 R:R at current marks.",
-      "actions": [
-        {
-          "type": "buy",
-          "ticker": "KLBF",
-          "detail": "519000sh @ 945"
-        },
-        {
-          "type": "stop",
-          "ticker": "KLBF",
-          "detail": "hard-cut @ 878"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "R:R 0.96:1 sub-2:1; await \u22645,800"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "R:R 1.43:1 + price-anchor conflict"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "R:R 1.08:1; await \u22645,700"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance Day 31 blocked)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-21T04:41:49Z",
       "routine": "midday",
       "status": "success",
@@ -17821,6 +17784,36 @@
           "detail": "Day 71 EOD snapshot committed; RISK-STATE + dashboard updated; sesi-I-to-sesi-I canonical (dual-basis terminated Wk 15 per Wk 14 weekly-review)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-28T00:14:02Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market 2026-07-28 (Wk 15 Day 2 Tue). Scanned 50 tickers. Zero candidates \u22656. Structural 5/10 ceiling under octuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 15 + Brent retreat $96-98 + foreign-flow 5th-consecutive net-sell candidate + Trump 10% tariff + BI HOLD dovish Day 7 + Warjiyo BI Governor resignation Day 2 + Data Quality Gate Day 89). 14th consecutive 0/3 BUY-slot week Day 2 trajectory. IHSG Mon sesi II 6,185.78 -0.17%; IDR 17,927; Brent $96.78.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored \u22656 (structural 5/10 ceiling under octuple-plus binding)"
+        },
+        {
+          "type": "research",
+          "detail": "Perry Warjiyo BI Governor resignation Day 2 overlay added"
+        },
+        {
+          "type": "research",
+          "detail": "Foreign flow 5th-consecutive net-sell candidate; criterion (d) 0.75/5 confirming"
+        },
+        {
+          "type": "research",
+          "detail": "Brent retreated -3.8% Fri\u2192Mon to $96.78 on US-Iran attacks-paused"
+        }
+      ],
+      "commit_hash": "60c5745",
+      "commit_message": ""
     }
   ],
   "exposure": {
@@ -17832,82 +17825,84 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY18",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day6 + WARJIYO-BI-GOVERNOR-RESIGN + Data-Quality-Gate-Day-88 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "ihsg_close": 6173.94,
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19",
+    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "ihsg_close": 6185.78,
     "ihsg_close_date": "2026-07-27",
-    "ihsg_close_change_pct": -0.5,
-    "ihsg_close_basis": "Mon Jul 27 sesi I 6,173.94 -0.50% sesi-I-to-sesi-I (vs Fri Jul 24 sesi I 6,204.63 anchor); Tribunnews + Liputan6 + Kompas + Bisnis 4-source convergent; Perry Warjiyo BI Governor resignation headline; sesi II final not multi-source convergent at 15:15 WIB filing. sesi-I-to-sesi-I basis primary per Wk 14 weekly-review decision.",
-    "ihsg_cumulative_pct": -19.13,
-    "idr_usd": 17869,
-    "idr_usd_date": "2026-07-24",
-    "idr_usd_change_pct": -0.32,
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day11",
-    "idr_status": "6th consecutive marginal sub-Stage-5 session (Fri forecast 17,869 vs Wed 17,927; 30rates max 18,137 / min 17,601; BBRI e-rate 17,867; BMRI special 17,905/17,935); still ~120 IDR gap above sub-17,750 crisis-track resolution; criterion (a) sub-17,750 3-of-3 NOT achieved; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish (no rate-defensive tailwind Fri weekly-review Day 3 of absorption)",
-    "coal_price": 130.0,
-    "brent_usd": 100.65,
-    "cpo_myr_t": 4499,
-    "lme_nickel_usd_t": 16717,
+    "ihsg_close_change_pct": -0.17,
+    "ihsg_close_basis": "Mon Jul 27 sesi II final 6,185.78 -0.17% (Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support)",
+    "ihsg_cumulative_pct": -18.97,
+    "idr_usd": 17927,
+    "idr_usd_date": "2026-07-28",
+    "idr_usd_change_pct": 0.03,
+    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15",
+    "idr_status": "Tue open ~17,927 marginal continuation; 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; structurally MORE difficult post-BI-HOLD-dovish Day 7 + Warjiyo resignation dovish-successor risk Day 2",
+    "coal_price": 130.6,
+    "brent_usd": 96.78,
+    "cpo_myr_t": 4673,
+    "lme_nickel_usd_t": 16725,
     "us_10y_pct": 4.55,
     "indo_10y_sun_pct": 7.2,
-    "vix": 19.0,
-    "foreign_flow_idx_fri_rp_b": -1220.0,
-    "foreign_flow_note": "Thu Jul 23 -Rp 1,220B NET SELL (Kompas + Kontan multi-source): sesi I TPIA -167.65B top sold; **2nd consecutive jumbo net sell** (Wed -Rp 1.113T \u2192 Thu -Rp 1.220T = -Rp 2.33T 2-day). Criterion (d) DEEPER REGRESSED: was 2-of-2 CONFIRMED Wk 13 close (Thu +283B, Fri +725B) \u2192 Mon/Tue Wk 14 near-flat \u2192 **3-of-3 net-sell reversal Wed-Thu-Fri (Fri sesi I 4th-consecutive-net-sell watch)**. Regressed 2/5 \u2192 1.25/5 \u2192 **1.00/5 re-entry gate scoring** on (d) deeper deterioration + oil-shock erosion of (a) probability.",
-    "global_note": "**US Thu Jul 23 close RISK-OFF**: S&P 7,408.30 (-1.21%) / Nasdaq 25,137.69 (-2.15%) / Dow 51,711.65 (-0.97%, -506.93 pts) on Alphabet AI-capex concerns + oil surge. Asia Thu Jul 23 mixed-positive: Nikkei 66,422.60 +0.46% / Hang Seng 25,210.81 +1.28% / Shanghai 3,876.78 +0.25%. VIX ~19 up on risk-off tilt. **Brent ESCALATED $100.65 +7.00%** on Iran-Houthi Saudi Red Sea tanker attacks + Hormuz blockade formal threat \u2014 first \u2265$100 in 2 months; +36.49% MoM. BI RDG HOLD 5.75% Wed announcement absorbed Day 3 (dovish surprise; no rate-defensive tailwind Fri).",
-    "last_updated": "2026-07-27T15:15+07:00",
+    "vix": 18.5,
+    "foreign_flow_idx_fri_rp_b": -293.4,
+    "foreign_flow_note": "Mon Jul 27 sesi I -Rp 293.4B NET SELL (idnfinancials); Wk 14 all-week -Rp 3.37T (CNBC); YTD -Rp 77.73T all-market (Kompas); 5th-consecutive-net-sell CANDIDATE Wed-Thu-Fri Wk 14 + Mon Wk 15 sesi I; criterion (d) DEEPER REGRESSED-STRUCTURAL 0.75/5 confirming",
+    "global_note": "US Mon Jul 27 close MIXED: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%; Sandisk -11%) / Dow 52,210.08 (+0.51% +262.83). Asia Mon REBOUND: Nikkei 64,931.19 (+0.50%) / Hang Seng 25,207.18 (+0.98%) / Shanghai 3,858.25 (+1.15%). Brent RETREATED -3.8% Fri\u2192Mon to ~$96.78 on US-Iran attacks-paused. NEW: Perry Warjiyo BI Governor abrupt resignation Mon Jul 27; Destry Damayanti Acting; Prabowo nomination pending. BI HOLD 5.75% Day 7 absorbed. Trump 10% Section 301 tariff Indonesia effective Fri Jul 24.",
+    "last_updated": "2026-07-28T07:00+07:00",
     "brent_intraday_high": 100.65
   },
   "research": {
-    "date": "2026-07-27",
+    "date": "2026-07-28",
     "holiday": false,
-    "as_of_date": "2026-07-27",
+    "as_of_date": "2026-07-28",
     "as_of_time": "07:00",
-    "as_of_label": "Mon Jul 27 07:00 WIB (Wk 15 Day 1 / new week open pre-market)",
-    "ihsg_last": 6196.0,
-    "ihsg_last_label": "Fri Jul 24 sesi II final 6,196 -1.88% (-118.88 pts) \u2014 en.tempo.co + indopremier 2-source; day range 6,159-6,268; volume 37.9B sh / value Rp 17.7T; 104 adv / 587 dec / 105 unch; broke sesi I 6,204.63 further -0.14pp; broke below MA60. Wk 14 net +0.34% product-basis. MNC Sekuritas Mon prediction: correction continuation 6,074-6,146 support range.",
-    "idr_usd": 17922,
-    "idr_usd_label": "Fri Jul 24 close 17,922.50 -0.49% (tradingeconomics-referenced); Mon Jul 27 forecast 17,773 (30rates; max 18,040 / min 17,506); **potential sub-17,750 PIERCE candidate Day 1** if realized; 7th consecutive marginal sub-Stage-5 session; ~172 IDR gap above sub-17,750 threshold at Fri close but only ~23 IDR gap at Mon forecast",
-    "coal_price": 130.0,
-    "brent_price": 98.0,
+    "as_of_label": "Tue Jul 28 07:00 WIB (Wk 15 Day 2 pre-market)",
+    "ihsg_last": 6185.78,
+    "ihsg_last_label": "Mon Jul 27 sesi II final 6,185.78 -0.17% (-10.65 pts) \u2014 Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support",
+    "idr_usd": 17927,
+    "idr_usd_label": "IDR/USD ~17,927 Tue open (TradingEconomics-referenced; range 17,865-17,942); 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 15 continuation",
+    "coal_price": 130.6,
+    "brent_price": 96.78,
     "scan_universe": 50,
-    "candidates_count": 22,
+    "candidates_count": 25,
     "candidates_ge6_count": 0,
     "candidates_actionable_count": 0,
     "candidates_top_score": 5,
     "top_candidate": null,
     "top_candidate_score": 5,
-    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + octuple binding stack materially INTENSIFIED via NEW Trump 10% Section 301 tariff Indonesia effective Fri Jul 24 + foreign-flow 4th-consecutive net-sell + Brent $95-100 sustained + BI-HOLD-dovish-absorbed Day 6)",
-    "top_candidate_hook": "No candidates cleared \u22656 threshold; octuple binding (crisis-track ACTIVATED + IDR Stage 5 Day 14 + BRENT $95-100 sustained + foreign-flow 4th-consecutive net-sell Fri -2.37B sh + US Fri mixed (S&P +0.05% / Nasdaq -0.64% / Dow +0.46%) + NEW Trump 10% Section 301 tariff Indonesia + Data Quality Gate Day 88 + BI-HOLD-dovish-absorbed Day 6) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory begins Mon Wk 15 Day 1",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY18 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + US-MIXED-Fri + NEW-TRUMP-10PCT-TARIFF-INDONESIA + Data-Quality-Gate-Day-88 + BI-HOLD-DOVISH-ABSORBED-Day6",
+    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + octuple-plus binding stack materially INTENSIFIED via NEW Warjiyo BI Governor resignation Day 2 overlay + foreign-flow 5th-consecutive net-sell candidate + BI-HOLD-dovish-absorbed Day 7)",
+    "top_candidate_hook": "No candidates cleared \u22656 threshold; octuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 15 + BRENT retreat $96-98 + foreign-flow 5th-consecutive net-sell candidate + Trump 10% tariff + Warjiyo resignation Day 2 + Data Quality Day 89 + BI-HOLD-dovish-absorbed Day 7) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory Day 2",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89",
     "top_candidates": []
   },
-  "last_updated": "2026-07-27T15:15+07:00",
+  "last_updated": "2026-07-28T07:00+07:00",
   "market": {
-    "foreign_flow_note": "Fri Jul 24 all-day NET SELL 2.37B sh (buy 5.51B / sell 7.88B); BMRI + BIPI top net-sold; BULL top net-bought; **4th consecutive net-sell session Wed-Thu-Fri** (Wed -Rp 1.113T + Thu +306.9M sh net-buy quantity but Kompas-referenced +Rp 283B earlier Thu + Fri jumbo net-sell); criterion (d) DEEPER REGRESSED 1.00/5 \u2192 0.75/5 confirming; Mon Wk 15 sesi I 5th-consecutive-net-sell watch = structural sell-signal binding if realized.",
-    "global_note": "**US Fri Jul 24 close MIXED partial recovery**: S&P 7,411.98 (+0.05%) / Nasdaq 24,975.82 (-0.64%; Sandisk -11% chip drag) / Dow 51,947.25 (+0.46%). Asia Fri Jul 24 BROAD RISK-OFF: Nikkei 64,611.15 -2.73% / Hang Seng 24,963.23 -0.98% / Shanghai 3,814.198 -1.61% on Mideast escalation + oil surge. VIX ~19 flat. **Brent SUSTAINED $95-100 band** Fri sub-$98 partial de-escalate -2.7% from Thu $100.65 peak but weekly +12%; Iran-Houthi Saudi tanker attacks + Trump Hormuz threats persist. **NEW: US 10% Section 301 tariff on Indonesian goods effective Fri Jul 24** (60-economy forced-labor justification; supersedes Trump Aug-1 19% announcement). BI HOLD 5.75% Day 6 absorbed.",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY18",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14 + BRENT-SHOCK-SUSTAINED-$95-100 + FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day6 + WARJIYO-BI-GOVERNOR-RESIGN + Data-Quality-Gate-Day-88 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "last_updated": "2026-07-27T15:15+07:00",
+    "foreign_flow_note": "Mon Jul 27 sesi I -Rp 293.4B NET SELL (idnfinancials); Wk 14 all-week -Rp 3.37T (CNBC); YTD -Rp 77.73T all-market (Kompas); 5th-consecutive-net-sell CANDIDATE Wed-Thu-Fri Wk 14 + Mon Wk 15 sesi I; criterion (d) DEEPER REGRESSED-STRUCTURAL 0.75/5 confirming; Mon all-day multi-source reconciliation pending Tue overnight",
+    "global_note": "US Mon Jul 27 close MIXED on oil retreat: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%; Sandisk -11% memory-weakness drag) / Dow 52,210.08 (+0.51% +262.83). Asia Mon Jul 27 REBOUND: Nikkei 64,931.19 (+0.50%) / Hang Seng 25,207.18 (+0.98%) / Shanghai 3,858.25 (+1.15%). Brent RETREATED -3.8% Fri\u2192Mon to ~$96.78 on US-Iran attacks-paused / negotiations-restart headline; still elevated vs $84 pre-shock baseline. NEW: Perry Warjiyo BI Governor abrupt resignation Mon Jul 27 (voluntary/personal reasons; term to 2028); Destry Damayanti Acting Governor; Prabowo nomination pending \u2014 central bank independence + policy-continuity uncertainty overlay. BI HOLD 5.75% Day 7 absorbed. Trump 10% Section 301 tariff Indonesia effective Fri Jul 24.",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19",
+    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "last_updated": "2026-07-28T07:00+07:00",
     "ihsg_close_date": "2026-07-27",
-    "ihsg_close_change_pct": -0.5,
-    "idr_usd_change_pct": -0.49,
-    "idr_usd_date": "2026-07-24",
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day14",
-    "idr_stage_note": "Fri close 17,922 marginal continuation; Mon Jul 27 forecast 17,773 = potential sub-17,750 PIERCE candidate Day 1 (~23 IDR gap); if realized, criterion (a) 1-of-3 fresh start; PARTIAL DE-ARM 1-of-3 continuation BUT structurally HARDER post-BI-HOLD-dovish Day 6 (no rate-defensive tailwind Mon)",
-    "coal_newcastle_usd_ton": 130.0,
-    "brent_usd_bbl": 98.0,
+    "ihsg_close_change_pct": -0.17,
+    "ihsg_close_basis": "Mon Jul 27 sesi II final 6,185.78 -0.17% (Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support)",
+    "idr_usd": 17927,
+    "idr_usd_change_pct": 0.03,
+    "idr_usd_date": "2026-07-28",
+    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15",
+    "idr_stage_note": "Tue open ~17,927 marginal continuation; 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; structurally MORE difficult post-BI-HOLD-dovish Day 7 + Warjiyo resignation dovish-successor risk overlay Day 2",
+    "coal_newcastle_usd_ton": 130.6,
+    "brent_usd_bbl": 96.78,
     "brent_intraday_high": 100.65,
-    "cpo_myr_ton": 4700,
-    "nickel_lme_usd_ton": 17310,
+    "cpo_myr_ton": 4673,
+    "nickel_lme_usd_ton": 16725,
     "indo_10y_sun": 7.2,
     "us_10y": 4.55,
-    "us_sp500": 7411.98,
-    "us_nasdaq": 24975.82,
-    "us_dow": 51947.25,
-    "nikkei": 64611.15,
-    "hang_seng": 24963.23,
-    "shanghai": 3814.198,
-    "vix": 19.0,
-    "bi_rdg_next": "RESOLVED Day 6: Wed Jul 22 announcement \u2014 BI HOLD at 5.75% (dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%; foreign portfolio incentive rationale). Next RDG Aug 14 T+18. Danamon 2026-end forecast 6.25% (rate re-hike risk on IDR + Brent shock + Trump tariff CPI vectors)."
+    "us_sp500": 7413.18,
+    "us_nasdaq": 24932.08,
+    "us_dow": 52210.08,
+    "nikkei": 64931.19,
+    "hang_seng": 25207.18,
+    "shanghai": 3858.25,
+    "vix": 18.5,
+    "bi_rdg_next": "HOLD 5.75% Day 7 absorbed (Wed Jul 22 dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%). Next RDG Aug 14 T+17. Warjiyo resignation Mon Jul 27 = dovish-successor risk overlay; Aug 14 potential cut candidate if dovish successor confirmed; Danamon 2026-end forecast 6.25%."
   }
 }
