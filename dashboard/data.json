@@ -1090,6 +1090,24 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Wk 15 Day 1 NO TRADES; 100% cash Day 17 post-KLBF; 2nd consecutive positive-alpha session; crisis-track engagement gate ACTIVATED binding on all tickers; sextuple-plus binding + Warjiyo resignation overlay"
+    },
+    {
+      "date": "2026-07-28",
+      "day_label": "Day 72",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6183.16,
+      "ihsg_close_basis": "Tue Jul 28 sesi I 6,183.16 +0.15% sesi-I-to-sesi-I (vs Mon Jul 27 sesi I 6,173.94 anchor); Kompas multi-source primary sesi I close; sesi II final ~6,185.78 per Disway close (not primary anchor per sesi-I-to-sesi-I canonical convention per Wk 14 weekly-review decision). Day drivers: IHSG opened -0.17% at 6,175.20 (Kompas / Momsmoney kontan -0.13% aligned) then intraday rally recovery via industri sector +0.65% offset infrastruktur -1.39% pressure; KLBF top losers session.",
+      "ihsg_daily_pct": 0.15,
+      "daily_alpha_pct": -0.15,
+      "cumulative_alpha_pct": 16.17,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Wk 15 Day 2 NO TRADES; 100% cash Day 18 post-KLBF; 2-consecutive positive-alpha streak breaks (mild -0.15% compression); crisis-track engagement gate ACTIVATED binding; sextuple-plus + Warjiyo Day 2 + FOMC Jul 29-30 T+0-1 imminent binary"
     }
   ],
   "positions": [],
@@ -13167,15 +13185,20 @@
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
     "ihsg_cumulative_pct": -19.13,
-    "cumulative_alpha_pct": 16.29,
+    "cumulative_alpha_pct": 16.17,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
     "losses": 4,
-    "open": 0
+    "open": 0,
+    "current_equity": 9716207500,
+    "cash": 9716207500,
+    "cash_pct": 100.0,
+    "positions_count": 0,
+    "drawdown_from_peak_pct": -3.1
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY18-IDR-STAGE-5-MARGINAL-DE-ARM-Day14-BRENT-SHOCK-SUSTAINED-$95-100-FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL-NEW-TRUMP-10PCT-TARIFF-INDONESIA-BI-HOLD-DOVISH-ABSORBED-Day6-WARJIYO-RESIGN-CRISIS-TRACK-ACTIVATED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY19-IDR-STAGE-5-MARGINAL-DE-ARM-Day15-BRENT-SHOCK-SUSTAINED-$95-100-FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL-WATCH-NEW-TRUMP-10PCT-TARIFF-INDONESIA-BI-HOLD-DOVISH-ABSORBED-Day7-WARJIYO-RESIGN-Day2-FOMC-T+0-1-IMMINENT-CRISIS-TRACK-ACTIVATED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -13186,44 +13209,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-07-27"
+    "updated": "2026-07-28"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-22T00:19:28Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Day 25 (Fri, Week 5 Day 5). 50-ticker scan; 5 candidates \u22656: UNVR(7), ICBP(6), INDF(6), BBCA(6), MIKA(6). New sector leadership = consumer staples + healthcare. All 5 candidates sub-2:1 R:R at current marks \u2014 no new entries planned. KLBF held position, pre-mortem trigger 920 breached on close 910 May 21; monitor sesi I tape. IHSG 6,094 (\u22123.54%) sole Asia decliner; MSCI rebalance May 29 ahead; DEFENSIVE-confirmed regime entrenched.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (full watchlist)"
-        },
-        {
-          "type": "research",
-          "detail": "5 candidates scored >=6: UNVR/ICBP/INDF/BBCA/MIKA"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 7/10 \u2014 +5.45% capitulation-day relative strength; CPO input cost tailwind; defensive rotation; R:R sub-2:1 at 2,030"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 defensive bank; analyst dual pick MNC+Pilarmas; held green +1.26% on capitulation"
-        },
-        {
-          "type": "research",
-          "ticker": "MIKA",
-          "detail": "score 6/10 \u2014 healthcare sector co-leader with KLBF; valuation below 5-yr avg"
-        },
-        {
-          "type": "plan",
-          "detail": "HOLD-only plan: no new entries at open; conditional re-evaluate at midday IF tape stabilizes + R:R unlocks via pullback"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-22T02:18:33Z",
       "routine": "market-open",
@@ -17830,6 +17818,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions to manage \u2014 100% cash defensive posture. No cuts, no stops to tighten."
+    },
+    {
+      "timestamp": "2026-07-28T08:18:53Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 72 Wk15 Day2: IDR 9.72B flat (0.00%). Alpha -0.15% vs IHSG +0.15%; cum alpha +16.17%. 100% cash Day 18 post-KLBF. Trades this wk: 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 72 EOD snapshot committed; broker reconciled 0 positions; RISK-STATE.json + dashboard/data.json updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -17890,7 +17890,7 @@
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89",
     "top_candidates": []
   },
-  "last_updated": "2026-07-28T07:00+07:00",
+  "last_updated": "2026-07-28T15:15+07:00",
   "market": {
     "foreign_flow_note": "Mon Jul 27 sesi I -Rp 293.4B NET SELL (idnfinancials); Wk 14 all-week -Rp 3.37T (CNBC); YTD -Rp 77.73T all-market (Kompas); 5th-consecutive-net-sell CANDIDATE Wed-Thu-Fri Wk 14 + Mon Wk 15 sesi I; criterion (d) DEEPER REGRESSED-STRUCTURAL 0.75/5 confirming; Mon all-day multi-source reconciliation pending Tue overnight",
     "global_note": "US Mon Jul 27 close MIXED on oil retreat: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%; Sandisk -11% memory-weakness drag) / Dow 52,210.08 (+0.51% +262.83). Asia Mon Jul 27 REBOUND: Nikkei 64,931.19 (+0.50%) / Hang Seng 25,207.18 (+0.98%) / Shanghai 3,858.25 (+1.15%). Brent RETREATED -3.8% Fri\u2192Mon to ~$96.78 on US-Iran attacks-paused / negotiations-restart headline; still elevated vs $84 pre-shock baseline. NEW: Perry Warjiyo BI Governor abrupt resignation Mon Jul 27 (voluntary/personal reasons; term to 2028); Destry Damayanti Acting Governor; Prabowo nomination pending \u2014 central bank independence + policy-continuity uncertainty overlay. BI HOLD 5.75% Day 7 absorbed. Trump 10% Section 301 tariff Indonesia effective Fri Jul 24.",
