@@ -9096,3 +9096,17 @@ Tue Jul 28 sesi I 6,183.16 (Kompas multi-source primary; sesi I close −2 pt vs
 - **Sell-side rules:** N/A — no open positions to check for hard-cut/trailing/thesis-break.
 - **14th consecutive 0/3 BUY-slot week Day 3 continuation.** Cumulative alpha entering Wed: +16.17% Tue baseline (structural trajectory 5.17pp below reconciled Day 50 +21.34% baseline). Defensive posture 100% cash provides maximum optionality pre-FOMC binary.
 
+---
+
+### 2026-07-29 11:30 WIB — MIDDAY SCAN Wk 15 Day 3 (Wednesday)
+
+- **No open positions.** `broker.sh positions` count 0; `broker.sh portfolio` equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500. Book remains 100% cash Day 19 post-KLBF cut (Jul 6).
+- **Sell-side rules:** N/A — no positions to check for -7% hard-cut, +15%/+20% trail tightens, or thesis breaks.
+- **No STEP 3 (losers) actions:** no positions.
+- **No STEP 4 (winners) actions:** no positions.
+- **No STEP 5 (thesis check) actions:** no positions to reassess.
+- **No STEP 6 (intraday research) needed:** no held stocks to monitor.
+- **Regime binding unchanged from Wk 15 Day 3 market-open:** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED.
+- **FOMC T+0 imminent binary** Wed 2pm ET / Thu 01:00 WIB announcement drives IDR/IHSG binary window Thu 07:00 WIB open. Zero position exposure = zero FOMC tail-risk exposure through EOD Wed.
+- **Midday scan Wk 15 Day 3: no action taken.** All positions healthy vacuously (n=0). Notification per scheduler override sent to Telegram.
+
