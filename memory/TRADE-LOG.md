@@ -9084,3 +9084,15 @@ Tue Jul 28 sesi I 6,183.16 (Kompas multi-source primary; sesi I close −2 pt vs
   5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +16.17% Tue baseline for Wed Wk 15 Day 3 forward. Wk 15 opens with 2-day mixed alpha trajectory (Mon +0.50% / Tue −0.15%) net +0.35pp expansion; underlying trajectory 5.17pp below reconciled Day 50 +21.34% baseline.
 
 ---
+
+### 2026-07-29 09:15 WIB — MARKET-OPEN Wk 15 Day 3 (Wednesday)
+
+- **NO TRADES PLACED.** Book remains 100% cash (IDR 9,716,207,500). Wk 15 slots 0/3 used Day 3.
+- **Regime binding:** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED.
+- **Crisis-track engagement gate ACTIVATED** (Hard Rule codified TRADING-STRATEGY.md 2026-07-17): 0.50 of 5 re-entry criteria confirming (further regressed from Tue 0.75/5 via criterion (d) foreign-flow 5-consecutive-net-sell CONFIRMED structural sell-signal binding + criterion (a) IDR Tue intraday 18,000+ pierce REGRESSED). New entries forbidden until all 5 concurrent: (a) IDR sub-17,750 3-of-3 [structurally more difficult]; (b) cluster convergence [Data Quality Day 90 FAIL]; (c) MSCI/S&P DJI accessibility [NEGATIVE-LOCKED-DEEPENED]; (d) foreign-flow 2-of-2 net-buy [CONFIRMED SELL 5-consecutive]; (e) R:R ≥2:1.
+- **Research plan carried:** Zero tickers cleared score ≥6/10 threshold; 5/10 ceiling binding on ALL under septuple-plus binding. No candidate advanced to 15-check buy-side gate. Top-tier WATCH tier: BBCA / BBRI / BMRI / MEDC / INDF / EXCL / AKRA — all SKIPPED to dashboard/data.json decisions[] with crisis-track rationale.
+- **FOMC T+0 imminent binary:** Wed 2pm ET = 01:00 WIB Thu; consensus HOLD 3.50-3.75% (Warsh Fed Chair; 83-85% odds); IDR/IHSG binary window Thu 07:00 WIB open. Positions Wed close carry FOMC tail risk (moot with 0 positions).
+- **Broker reconciliation:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500. `broker.sh positions` → count 0. Matches TRADE-LOG Active Positions (0). No discrepancy.
+- **Sell-side rules:** N/A — no open positions to check for hard-cut/trailing/thesis-break.
+- **14th consecutive 0/3 BUY-slot week Day 3 continuation.** Cumulative alpha entering Wed: +16.17% Tue baseline (structural trajectory 5.17pp below reconciled Day 50 +21.34% baseline). Defensive posture 100% cash provides maximum optionality pre-FOMC binary.
+
