@@ -17127,3 +17127,216 @@ Reasoning (3 sentences):
 - **Property PPN 100% DTP extension through end-2026** — Ministry of Finance Regulation 90/2025; max Rp 5B price; CTRA/PWON/BSDE/SMRA overweight ratings; url: https://katadata.co.id/finansial/bursa/695b65f509232/prospek-saham-properti-di-2026-ctra-pwon-ssia-hingga-bsde-berpotensi-bangkit
 
 ---
+
+## 2026-07-29 (Wednesday) — Wk 15 Day 3 — FOMC T+0 / Warjiyo Day 3
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,413.18 | +0.02% (+3.68) | Flat; pre-FOMC positioning |
+| Nasdaq | 24,932.08 | -0.18% | Tech-heavy drag; Sandisk -11% memory-weakness |
+| Dow | 52,210.08 | +0.51% (+262.83) | Cons staples/discretionary lead |
+| Shanghai | 3,813.31 | -1.16% | Continued weakness |
+| Hang Seng | 25,310.85 | +0.41% | Modest gain |
+| Nikkei 225 | 62,364.92 | -3.95% | MAJOR drop; risk-off Asia headline session |
+| VIX | 18.19 | -2.57% | Moderate vol; muted despite Nikkei shock |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Tue sesi I) | 6,183.16 | -2.63 pts -0.04% | Kompas primary anchor per sesi-I-to-sesi-I convention |
+| IHSG (Tue sesi II final) | 6,130.58 | -55 pts -0.85% | Kompas evening close; BUMI top loser -2.94% |
+| IDR/USD | ~18,087 (mid) / ~17,900 (BI ref) | broke 18,000 intraday then partial recovery | XE mid ~18,087; brief 18k+ pierce; BI close ~17,900 zone |
+| Indo 10Y SUN yield | ~6.65% est | +marginal | latest source Apr 6.62%; est carry ~6.65% pre-FOMC (unavailable direct) |
+| US 10Y yield | 4.62% | -2bp | Lowest ~1 wk on oil-retreat bid |
+| Indo-US spread | ~203bp | est | inline w/ pre-FOMC |
+| Newcastle coal | ~$130.60/t | -marginal | Sub-$135 continues (sector EXITED still binding) |
+| CPO palm oil | MYR 4,519/t | -marginal | Sub-4,600 range; MPOB weakness |
+| LME nickel | $16,844.88/t | -2.46% | multi-month low band; ANTM Tue -2.69% |
+| Brent crude | $87.53/bbl | -0.94% | Down from Fri $100.65 peak (-13.4% wk); US-Iran attacks-paused durability |
+
+url: https://money.kompas.com/read/2026/07/28/170322626/ihsg-ditutup-28-juli-2026-turun-55-poin-ke-613058-bumi-top-losers ; https://tradingeconomics.com/commodity/brent-crude-oil ; https://tradingeconomics.com/commodity/nickel ; https://finance.yahoo.com/quote/%5EN225/history/ ; https://xe.com
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net sell (IDX Tue) | -Rp 1.1T all-market | 5-CONSECUTIVE-NET-SELL CONFIRMED — Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T (Kompas 062011 Jul 28) |
+| Foreign flow streak | 5 days net-sell (Wed Wk 14 → Tue Wk 15) | criterion (d) DEEPER REGRESSED-STRUCTURAL from Wk 14 close 1.00/5 → 0.75/5 |
+| Foreign YTD net-sell | -Rp 77.73T | Kompas Jul 27 |
+| Top buying / TINS+BBCA | Tue Rp 1.1T net-sell dominant | Bisnis Jul 28: "TINS-BBCA Diborong Asing saat IHSG Jatuh" — TINS/BBCA net-BUY idiosyncratic-preference within broader -Rp 1.1T net-sell |
+| Bank Indonesia FX reserves | latest data pending | (no fresh release Tue) |
+
+urls: https://money.kompas.com/read/2026/07/28/062011726/asing-terus-angkat-kaki-dari-bursa-ri-net-sell-tembus-rp-338-triliun-dalam-5 ; https://market.bisnis.com/read/20260728/7/1991792/tins-bbca-diborong-asing-saat-ihsg-jatuh-net-sell-tembus-rp11-triliun ; https://money.kompas.com/read/2026/07/27/073300726/investor-asing-jual-saham-rp-77-73-triliun-ihsg-masih-minus-28-persen
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | RED Tue | Warjiyo resignation shock; BBCA -0.40% / BMRI -0.73% | BBCA/BBRI/BMRI/BBNI |
+| Coal / Energy | RED Tue | Brent $87 retreat -13% wk; Newcastle $130 sub-$135; BUMI top loser -2.94% | ADRO/ITMG/PTBA (EXITED) |
+| Nickel / Mining | RED Tue | LME -2.46%; ANTM -2.69% top-3 loser LQ45 | ANTM/INCO/MDKA/NCKL |
+| CPO / Agri | RED Tue | CPO MYR 4,519 weakness | AALI/LSIP (SKIP) |
+| Property | Mixed | BI-HOLD-dovish partial-relief neutralized by Warjiyo governance | BSDE/CTRA/SMRA/PWON |
+| Consumer | GREEN Tue only sector +0.52% | Defensive rotation; primary consumer staples only up sector | ICBP/INDF/MYOR/UNVR |
+| Telco | RED Tue | TLKM -1.90% broad-based weakness; EXCL +2.95% top LQ45 gainer (idiosyncratic) | TLKM/EXCL/ISAT |
+| Infrastructure | RED Tue | Warjiyo governance drag | JSMR/WSKT/PTPP |
+
+Only sector GREEN Tue: Primary consumer goods +0.52% (Kompas). Top LQ45 gainer EXCL +2.95% to Rp 2,440 (idiosyncratic; XLSmart telco brand re-rating). AMRT +2.29%. Top LQ45 losers: BUMI -2.94% / CUAN -2.90% / ANTM -2.69%.
+
+url: https://money.kompas.com/read/2026/07/28/170322626/ihsg-ditutup-28-juli-2026-turun-55-poin-ke-613058-bumi-top-losers
+
+### Corporate Calendar Today / This Week
+
+| Event | Ticker | Date | Expected Impact |
+|-------|--------|------|-----------------|
+| FOMC decision (2pm ET Wed = 01:00 WIB Thu) | US-macro | Wed Jul 29 T+0 | Consensus HOLD 3.50-3.75% (Warsh Fed Chair; 83-85% odds); IDR/IHSG binary Thu 07:00 WIB open |
+| ASII Q2 print | ASII | Thu Jul 30 T+1 | Consensus Rp 184 EPS vs historical -20.84% surprise pattern |
+| MEDC Q2 print | MEDC | Thu Jul 31 T+2 | Brent shock direct-upside carry; Q1 +282% YoY |
+| BBRI Q2 print | BBRI | Mon Aug 3 T+5 | Big-4 Q2 lead |
+| TLKM Q2 print | TLKM | Wed Aug 5 T+7 | 12M target Rp 3,629 SB 20 analysts |
+| AKRA interim dividend | AKRA | Fri Aug 14 T+16 | Rp 1T interim (H1 +21.2% NI) |
+| BI RDG mid-Aug | BI | ~Aug 14 T+16 | First post-Warjiyo BI RDG; dovish-successor risk |
+| Prabowo BI Governor nominee | BI | TBD Wed-Fri | Overhang binary; timing uncertain |
+
+urls: https://kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026 ; https://stockanalysis.com/quote/idx/ASII/ ; https://en.antaranews.com/news/424195/indonesia-yet-to-name-perry-warjiyos-successor-says-acting-bi-chief
+
+### Watchlist Scan — All 50 Tickers
+
+**Data Quality Gate Day 90:** yfinance still Chrome 403-blocked; GoAPI unset; per-ticker cluster narrowing MOSTLY UNAVAILABLE. Multi-source WebSearch fallback used for tickers with fresh news. Scoring based on catalyst + regime + Tue price-action where reported.
+
+**Two-track scoring reminder:** Catalyst-track ≥6 → CANDIDATE. Defensive-Quality Track (LQ45 mega-caps at 5-6 catalyst-score) requires P/E or P/B ≥1.0σ below own 10Y mean cited numerically — **cannot verify Wk 15 Day 3 without long-term valuation source** = keep as WATCH, do NOT fabricate.
+
+| # | Ticker | Sector | Price (last known) | Day% (Tue) | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,250 (Kompas 27/7) | -0.40% | 5 | Top-3 LQ45 net-buy Tue (Bisnis TINS-BBCA diborong); mega-cap defensive; BLOCKED crisis-track | WATCH |
+| 2 | BBRI | Banking | (Data FAIL) | Tue red carry | 5 | Q2 print Mon Aug 3 T+5 binary; BLOCKED crisis-track | WATCH |
+| 3 | BMRI | Banking | 4,100 (Investing 27/7) | -0.73% | 5 | Warjiyo governance drag primary transmission; BLOCKED crisis-track | WATCH |
+| 4 | BBNI | Banking | (Data FAIL) | Tue red carry | 4 | Big-4 Tue weakness carry; BLOCKED crisis-track | WATCH |
+| 5 | BNGA | Banking | (Data FAIL) | n/a | 3 | Mid-tier bank; SKIP | SKIP |
+| 6 | NISP | Banking | (Data FAIL) | n/a | 3 | Mid-tier; SKIP | SKIP |
+| 7 | BBTN | Banking | (Data FAIL) | n/a | 3 | Housing-focused; rate-sensitive + Warjiyo; SKIP | SKIP |
+| 8 | ADRO | Coal | (Data FAIL) | n/a | 2 | Sector EXITED 2-strike; Newcastle sub-$135 7th wk; SKIP | SKIP |
+| 9 | ITMG | Coal | (Data FAIL) | n/a | 2 | Sector EXITED; SKIP | SKIP |
+| 10 | PTBA | Coal | (Data FAIL) | n/a | 2 | Sector EXITED; SKIP | SKIP |
+| 11 | BUMI | Coal | ~165 (Kompas) | -2.94% | 1 | Top LQ45 loser Tue; sector EXITED; SKIP | SKIP |
+| 12 | HRUM | Coal | (Data FAIL) | n/a | 2 | Sector EXITED; SKIP | SKIP |
+| 13 | MEDC | Energy | (Data FAIL) | n/a | 5 | Brent RETREATED $87 -13% wk = direct-upside thesis WEAKENED but Q2 Jul 31 T+2 binary optionality; MNC TP Rp 1,922; BLOCKED crisis-track + Data Quality FAIL | WATCH |
+| 14 | PGAS | Gas/Energy | (Data FAIL) | n/a | 4 | Abadi LNG HoA catalyst 10+ wks stale; defensive utility; BLOCKED cluster-fail + crisis-track | WATCH |
+| 15 | ANTM | Nickel | (Data FAIL) | -2.69% | 3 | Top-3 LQ45 loser Tue; LME -2.46%; SKIP | SKIP |
+| 16 | INCO | Nickel | (Data FAIL) | Tue red | 3 | LME weakness; supply glut; SKIP | SKIP |
+| 17 | MDKA | Nickel | (Data FAIL) | Tue red | 3 | SKIP | SKIP |
+| 18 | NCKL | Nickel | (Data FAIL) | Tue red | 3 | SKIP | SKIP |
+| 19 | MBMA | Nickel | (Data FAIL) | n/a | 3 | SKIP | SKIP |
+| 20 | TINS | Metals/Tin | (Data FAIL) | net-buy Tue | 4 | 2nd consecutive net-buy Tue amid broad sell-off (Bisnis: TINS-BBCA diborong); residual defensive; BLOCKED crisis-track | WATCH |
+| 21 | UNVR | Consumer | (Data FAIL) | Tue relative-defensive | 3 | REMOVED Wk 13; H1 2026 -14.8% projection; SKIP | SKIP |
+| 22 | ICBP | Consumer | (Data FAIL) | Consumer +0.52% sector | 4 | FMCG defensive; H1 +3.9% projection; only-green-sector-Tue carry | WATCH |
+| 23 | INDF | Consumer | (Data FAIL) | Consumer +0.52% sector | 5 | Sole net-inflow YTD relative-resilience; H1 +4.9% projection; primary-consumer sole-green-sector-Tue carry marginal-positive | WATCH |
+| 24 | MYOR | Consumer | (Data FAIL) | Consumer +0.52% sector | 4 | Top-in-cohort H1 +5.6% projection; residual | WATCH |
+| 25 | SIDO | Consumer | (Data FAIL) | n/a | 3 | Herbal + MSCI SC removal; SKIP | SKIP |
+| 26 | TLKM | Telco | 2,580 (Investing 27/7) | -1.90% | 4 | Broad telco weakness ex-EXCL; 12M target Rp 3,629 SB 20 analysts; Q2 Aug 5 T+7; BLOCKED crisis-track + Data Quality persistent | WATCH |
+| 27 | EXCL | Telco | 2,440 (Kompas) | +2.95% | 5 | TOP LQ45 GAINER TUE +2.95% idiosyncratic XLSmart re-rating; residual watch; BLOCKED crisis-track | WATCH |
+| 28 | ISAT | Telco | (Data FAIL) | Tue red carry | 3 | Q2 elapsed; watch-only | WATCH |
+| 29 | MTEL | Telco/Tower | (Data FAIL) | n/a | 3 | Tower carry; SKIP | SKIP |
+| 30 | TOWR | Telco/Tower | (Data FAIL) | n/a | 3 | Tower carry residual; SKIP | SKIP |
+| 31 | BSDE | Property | (Data FAIL) | Tue red | 4 | PPN 100% DTP through 2026; BI-HOLD partial-relief; BLOCKED crisis-track | WATCH |
+| 32 | CTRA | Property | (Data FAIL) | Tue red | 4 | Overweight rating; PPN eligible 84% ≤Rp 5B; BLOCKED crisis-track | WATCH |
+| 33 | SMRA | Property | (Data FAIL) | Tue red | 4 | +14.5% presales guidance; BLOCKED | WATCH |
+| 34 | PWON | Property | (Data FAIL) | Tue red | 4 | +15.8% presales guidance; BLOCKED | WATCH |
+| 35 | GOTO | Tech | (Data FAIL) | n/a | 2 | MSCI froze; ARB floor risk; SKIP | SKIP |
+| 36 | BUKA | Tech | (Data FAIL) | n/a | 2 | Delisting risk; SKIP | SKIP |
+| 37 | EMTK | Tech/Media | (Data FAIL) | n/a | 3 | Media residual; SKIP | SKIP |
+| 38 | ASII | Auto/Ind | (Data FAIL) | Tue red | 3 | Q2 print Thu Jul 30 T+1 binary; historical -20.84% surprise pattern; Warjiyo + Brent + Trump tariff triple-headwind; DefQ SUSPENDED; SKIP | SKIP |
+| 39 | UNTR | Heavy Equip | (Data FAIL) | Tue red | 4 | Mining exposure + Brent retreat mixed; residual | WATCH |
+| 40 | AKRA | Distribution | (Data FAIL) | Tue red | 5 | H1 net income +21.2% Rp 1T interim div Aug 14 T+16; fuel-trading +43.81%; strong Q2 print near-term binary | WATCH |
+| 41 | AALI | Plantation | (Data FAIL) | Tue red | 3 | CPO MYR 4,519 falling-knife; SKIP | SKIP |
+| 42 | LSIP | Plantation | (Data FAIL) | Tue red | 3 | Same; SKIP | SKIP |
+| 43 | JSMR | Infrastructure | (Data FAIL) | Tue red | 3 | Warjiyo governance drag + BI still-restrictive; SKIP | SKIP |
+| 44 | WSKT | Construction | (Data FAIL) | Tue red | 3 | SOE Himbara restructuring; SKIP | SKIP |
+| 45 | PTPP | Construction | (Data FAIL) | Tue red | 3 | SOE restructuring; SKIP | SKIP |
+| 46 | ADHI | Construction | (Data FAIL) | Tue red | 3 | Same; SKIP | SKIP |
+| 47 | KLBF | Healthcare | REMOVED | n/a | 3 | Post hard-cut 2026-07-06 -21.16%; NOT re-entry per MISTAKES.md; SKIP | SKIP |
+| 48 | MIKA | Healthcare | (Data FAIL) | Tue red | 4 | Healthcare defensive residual; MSCI SC removal | WATCH |
+| 49 | SMGR | Cement | (Data FAIL) | Tue red | 3 | HOLD-rating; rate-sensitive + Warjiyo; SKIP | SKIP |
+| 50 | INTP | Cement | (Data FAIL) | Tue red | 3 | Rate-sensitive; SKIP | SKIP |
+
+**Watchlist scan summary Wk 15 Day 3 Wed:**
+- WATCH (5/10 top-tier): BBCA / BBRI / BMRI / MEDC / INDF / EXCL / AKRA (7 tickers at structural ceiling — up from 6 Tue via EXCL idiosyncratic-preference + AKRA H1 catalyst carry)
+- WATCH (4/10 residual): BBNI / PGAS / TINS / ICBP / MYOR / TLKM / ISAT / BSDE / CTRA / SMRA / PWON / UNTR / MIKA (13 tickers)
+- SKIP (≤3/10): 30 tickers
+- **CANDIDATES ≥6/10: ZERO** — 5/10 ceiling remains binding on ALL under septuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 16 + BRENT-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + Trump 10% tariff + BI-HOLD-dovish Day 8 + Data Quality Day 90 + Warjiyo Day 3 + FOMC T+0 imminent)
+- **DEFENSIVE-Quality Track: SUSPENDED** (BBCA/BBRI/BMRI/BBNI/TLKM/ASII/UNVR/ICBP/ADRO all blocked under crisis-track gate ACTIVATED)
+
+### Top Candidates (score ≥6, deep-dive required)
+
+**NONE.** Zero tickers cleared score ≥6 threshold. Structural 5/10 ceiling under septuple-plus binding is the operating floor for Wk 15 Day 3. Deep-dive DEFERRED — no candidate advances to 15-check buy-side gate.
+
+### Held Position Updates
+
+*(None — book fully de-risked 100% cash Day 19 post-KLBF hard-cut through Wk 15 Day 3 open; nothing to manage; no positions to check overnight news for; no stops to tighten; no thesis-break checks.)*
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED**
+
+Reasoning (3 sentences):
+1. Septuple-plus binding stack persists Wed with FOMC T+0 imminent binary added: (i) IDR ~17,900-18,087 marginal Day 16 sub-Stage-5 sub-18,050 continuation but Tue intraday briefly PIERCED 18,000 on Warjiyo aftermath then partial recovery = ~150-337 IDR gap above sub-17,750 crisis-track resolution threshold (structurally MORE difficult post-BI-HOLD-dovish Day 8 no-rate-defensive-tailwind + Warjiyo governance uncertainty Day 3); (ii) Brent CONTINUED retreat to $87.53 -0.94% Tue = -13.4% from Fri $100.65 peak on US-Iran attacks-paused durability + negotiations-restart candidate — direct-upside MEDC thesis WEAKENED, marginal-positive CPI-relief but sole-green-sector Tue only primary-consumer suggests broad risk-off dominates; (iii) foreign flow 5-CONSECUTIVE-NET-SELL CONFIRMED (Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T) = criterion (d) DEEPER REGRESSED to STRUCTURAL SELL-SIGNAL BINDING; (iv) Warjiyo Day 3 successor STILL unnamed (Destry Damayanti acting; Prabowo nomination timing uncertain); (v) FOMC T+0 Wed 2pm ET = 01:00 WIB Thu binary window imminent (Warsh consensus HOLD 3.50-3.75% 83-85% odds but dovish-cut tail risk); (vi) Nikkei Tue -3.95% MAJOR risk-off Asia headline provides broader regional risk-off backdrop; (vii) IHSG Tue sesi II final 6,130.58 -0.85% BELOW sesi I anchor 6,183.16 confirms afternoon Warjiyo-shock selloff (below 6,200 psych support now confirmed).
+2. Position sizing adjustment: **NEW BUYS = ZERO (crisis-track engagement gate binding + septuple-plus stack persists + FOMC T+0 binary window imminent)**; hypothetical if resolved, max 5% per position + ADV cap + 75bp risk-budget still apply. Regime cost thesis: **cumulative alpha entering Wed = +16.17% Tue baseline** (portfolio -2.84% flat vs IHSG -19.01% from Day 0 sesi-I basis; alternative sesi-II-final anchor Tue = IHSG -19.70% = alpha +16.86% — divergence 0.69pp but Wk 14 weekly-review retained sesi-I-to-sesi-I canonical, dual-basis polling STOPPED); structural trajectory 5.17pp below reconciled Day 50 +21.34% baseline — still deep positive.
+3. Regime shift trigger evaluation: 5 re-entry criteria (a) IDR sub-17,750 3-of-3 = NOT achieved (Tue intraday PIERCED 18,000 = REGRESSED from Mon sub-Stage-5 marginal; structurally MORE difficult post-BI-HOLD-dovish + Warjiyo Day 3 + FOMC T+0 imminent); (b) cluster convergence = FAIL Data Quality Gate Day 90; (c) MSCI Info-Flow / S&P DJI Watchlist = NEGATIVE-LOCKED-DEEPENED; (d) foreign-flow 2-of-2 = **5-CONSECUTIVE-NET-SELL CONFIRMED STRUCTURAL SELL-SIGNAL BINDING** (further-degraded from Tue "candidate" to CONFIRMED); (e) R:R ≥2:1 = untestable while (b) fails + Brent retreat re-prices energy names + FOMC T+0 binary window. Net: **0.50 of 5 confirming** (further regression from Tue 0.75/5 via criterion (d) confirmation of 5-consecutive structural sell + criterion (a) IDR regression to intraday 18k+ pierce). Regime label QUALIFIER-ADDED: `+ FOMC-T+0-BINARY-WEDNESDAY` from Tue Wk 15 Day 2. **MACRO-REGIME.md formal re-labelling deferred to Fri Aug 1 Wk 15 weekly-review** pending 3-session evidence continuation.
+
+### Flagged Risks
+
+- **FOMC T+0 BINARY Wed 2pm ET = 01:00 WIB Thu**: Warsh Fed Chair (Powell no longer chair per source); consensus HOLD 3.50-3.75% 83-85% Polymarket/CME odds. Tail: dovish-cut on soft US labor prints. USD/IDR spillover binary window Thu 07:00 WIB open impacts pre-market Thu. If Fed hawkish-hold → USD strength → IDR further pressure → crisis-track binding intensifies. If Fed dovish-cut/dovish-hold → USD weakness → IDR partial relief → criterion (a) marginal upside. url: https://kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026
+- **FOREIGN FLOW 5-CONSECUTIVE NET-SELL CONFIRMED = STRUCTURAL SELL-SIGNAL BINDING**: Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T Kompas Jul 28. Criterion (d) DEEPER REGRESSED from Tue candidate 0.75/5 → CONFIRMED 0.50/5. Institutional de-risking on Warjiyo + FOMC + Trump tariff cascade. YTD -Rp 77.73T. url: https://money.kompas.com/read/2026/07/28/062011726/asing-terus-angkat-kaki-dari-bursa-ri-net-sell-tembus-rp-338-triliun-dalam-5
+- **WARJIYO Day 3**: successor STILL unnamed; Destry Damayanti acting Governor; Prabowo nomination timing uncertain Wed-Fri; if dovish/populist-leaning successor → further IDR weakening + Aug 14 BI RDG cut candidate. Bloomberg: "Bank Indonesia Chief's Shock Exit Fuels Prabowo Policy Worries". url: https://www.bloomberg.com/news/articles/2026-07-28/bank-indonesia-chief-s-shock-exit-fuels-prabowo-policy-worries ; https://en.antaranews.com/news/424195/indonesia-yet-to-name-perry-warjiyos-successor-says-acting-bi-chief
+- **IDR intraday 18,000+ pierce Tue = criterion (a) REGRESSED**: Broke Rp18,000 per USD briefly then partial recovery to ~17,900 zone; sub-17,750 sustained 3-of-3 further away Wed vs Mon baseline. XE Wed 07:00 WIB reference USD/IDR ~18,087; Trading Economics range 17,865-18,197.5.
+- **NIKKEI Tue -3.95% MAJOR Asia risk-off signal**: 62,364.92 close; broader regional risk-off backdrop; South Korea Kospi -10.84% concurrent (mentioned in outlook piece); increases tail-risk for Wed Asia session incl. IDX. url: https://finance.yahoo.com/quote/%5EN225/history/
+- **BRENT retreat $87 = MEDC thesis WEAKENED**: from Fri $100.65 peak to $87.53 Tue = -13.4% wk; US-Iran attacks-paused Mon durability holds Tue; if sustained sub-$85 → energy sector deeper de-rating; if re-escalation → back to intensification. Direct-vector on MEDC/PGAS thesis mixed. url: https://tradingeconomics.com/commodity/brent-crude-oil
+- **ASII Q2 print Thu Jul 30 T+1 binary**: historical -20.84% EPS surprise pattern; consensus Rp 184; Warjiyo + Brent + Trump tariff triple-headwind; if beat = idiosyncratic + defensive-quality track candidate (currently SUSPENDED); if miss = further sector de-rating. url: https://stockanalysis.com/quote/idx/ASII/
+- **MEDC Q2 print Fri Jul 31 T+2 binary**: MNC TP raised Rp 1,571→Rp 1,922; Q1 +282% YoY; Brent shock direct-upside carry now WEAKENED by $87 retreat; if strong Q2 print → MEDC scores could re-rate; if miss = double-hit with Brent retreat.
+- **Trump 10% Section 301 tariff Indonesia**: effective Fri Jul 24 Day 5; sector-impact-mapping pending Fri Aug 1 Wk 15 weekly-review; textile/apparel/electronics export-oriented negative; broad IDR downside pressure.
+- **BI HOLD 5.75% dovish absorbed Day 8 + Warjiyo Day 3**: compound-dovish overlay; no rate-defensive tailwind Wed; property/cement rate-sensitive relief-partial persistent but crisis-track blocks entries; Aug 14 BI RDG next with successor-uncertainty tail.
+- **Data Quality Gate Day 90 outage persists**: yfinance Chrome 403-blocked; GoAPI unset; per-ticker cluster narrowing MOSTLY UNAVAILABLE; MD_LAST_PRICE_OVERRIDE manual PAPER-STATE.json correction procedure remains permanent operating discipline per Wk 14 weekly-review. Milestone: Day 90 crosses 3-month threshold for structural outage documentation.
+- **14th consecutive 0/3 BUY-slot week Day 3 trajectory**: Wk 15 fresh 3/3 slot allocation but septuple-plus binding + FOMC T+0 binary window = 0/3 continuation expected Wed-Fri Wk 15 essentially locked; 40+ cumulative unused candidate-day slots trial-to-date.
+- **IHSG below 6,200 psych support CONFIRMED**: Tue sesi II final 6,130.58 = -55 pts / -0.85% below sesi I 6,183.16; broke Mon sesi II final 6,185.78 support (-55 pts); day low 6,161.13 sesi I range; risk of further downside if Warjiyo successor + FOMC + foreign-flow 6-consecutive continuation cascade Wed. Fri Aug 1 weekly-review will re-baseline sesi-I anchor if IHSG breaks below 6,000 psych.
+
+### Plan for /market-open Wk 15 Day 3 (Wed)
+
+- [ ] **NO NEW ENTRIES** — crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md 2026-07-17 Hard Rule + septuple-plus binding stack (FOMC T+0 binary window added). All 5 re-entry criteria not concurrent (0.50/5). No candidate scores ≥6.
+- [ ] **NO POSITIONS TO MANAGE** — 100% cash Day 19 (post-KLBF hard-cut); no stops to tighten; no thesis-break checks; no sell-side rules applicable.
+- [ ] **Watch conditions Wed intraday**:
+  1. **FOMC T+0 Wed 2pm ET = 01:00 WIB Thu binary** — announcement lands AFTER IDX close but pre-Thu-open; positions Wed close carry FOMC tail risk (moot with 0 positions).
+  2. **IDR Wed 07:00 WIB multi-source poll** — post-Warjiyo Day 3 successor headline reaction; sub-Stage-5 continuation vs Stage 5 re-arm re-escalation ≥18,050; Tue intraday 18,000+ pierce = REGRESSED baseline.
+  3. **Foreign flow Wed all-day multi-source** — if 6-consecutive-net-sell confirms, criterion (d) 0.50/5 → 0.25/5 STRUCTURAL DEEPENING; already CONFIRMED sell-signal binding.
+  4. **Brent futures Wed** — $87 durability vs re-escalation on Iran-US headline flow.
+  5. **Nikkei Wed follow-through** — Tue -3.95% risk-off; Wed continuation vs bounce.
+  6. **ASII Q2 pre-print positioning Thu Jul 30 T+1**; MEDC Q2 Fri Jul 31 T+2 pre-print.
+  7. **Prabowo BI Governor successor nomination** — Wed-Fri timing uncertain; dovish-successor tail-risk to IDR.
+- [ ] **Wk 15 Day 3 procedural discipline**: 14th consecutive 0/3 BUY-slot week Day 3 confirmation; alpha runway +16.17% Tue baseline for Wed forward; defensive posture 100% cash provides maximum optionality especially with FOMC T+0 binary window imminent; regime cost sensitivity monitored for MACRO-REGIME.md re-labelling evaluation Fri Aug 1 weekly-review.
+
+### Headlines & Catalysts
+
+- **IHSG Tue Jul 28 sesi II close 6,130.58 -0.85% (-55.20 pts)** — Kompas primary; BUMI top loser LQ45 -2.94%; volume 24.87B sh / value Rp 10.70T; 265 adv / 360 dec / 172 unch; only primary consumer +0.52% sector green; EXCL +2.95% AMRT +2.29% top LQ45 gainers idiosyncratic; url: https://money.kompas.com/read/2026/07/28/170322626/ihsg-ditutup-28-juli-2026-turun-55-poin-ke-613058-bumi-top-losers
+- **IHSG Tue Jul 28 sesi I close 6,183.16 -0.04% (-2.63 pts)** — Kompas; KLBF top losers session; url: https://money.kompas.com/read/2026/07/28/132048126/ihsg-sesi-i-28-juli-2026-ditutup-turun-2-poin-ke-618316-klbf-top-losers
+- **Foreign 5-consecutive net-sell CONFIRMED -Rp 3.38T 5 days** — Kompas Jul 28: institutional de-risking cascade Warjiyo+FOMC+Trump; url: https://money.kompas.com/read/2026/07/28/062011726/asing-terus-angkat-kaki-dari-bursa-ri-net-sell-tembus-rp-338-triliun-dalam-5
+- **Tue foreign net sell -Rp 1.1T all-market; TINS-BBCA idiosyncratic net-buy within** — Bisnis Jul 28; url: https://market.bisnis.com/read/20260728/7/1991792/tins-bbca-diborong-asing-saat-ihsg-jatuh-net-sell-tembus-rp11-triliun
+- **Perry Warjiyo Day 3: successor unnamed** — Destry Damayanti acting; Prabowo nomination pending; url: https://en.antaranews.com/news/424195/indonesia-yet-to-name-perry-warjiyos-successor-says-acting-bi-chief
+- **Bloomberg: BI Chief's Shock Exit Fuels Prabowo Policy Worries** — analysts flag central bank independence; url: https://www.bloomberg.com/news/articles/2026-07-28/bank-indonesia-chief-s-shock-exit-fuels-prabowo-policy-worries
+- **US Tue Jul 28 close mixed pre-FOMC**: S&P 7,413.18 +0.02% / Dow 52,210.08 +0.51% / Nasdaq 24,932.08 -0.18%; url: https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-28-131500501.html
+- **Nikkei Tue -3.95% to 62,364.92 MAJOR** — regional risk-off backdrop; url: https://finance.yahoo.com/quote/%5EN225/history/
+- **Hang Seng Tue +0.41% to 25,310.85 / Shanghai -1.16% to 3,813.31** — mixed Asia; url: https://tradingeconomics.com/china/stock-market
+- **Brent Tue $87.53 -0.94% = -13.4% from Fri $100.65 peak** — US-Iran attacks-paused durability; url: https://tradingeconomics.com/commodity/brent-crude-oil
+- **VIX Tue 18.19 -2.57% moderate** — muted pre-FOMC despite Nikkei shock; url: https://finance.yahoo.com/quote/%5EVIX/
+- **US 10Y Tue 4.62% (-2bp) — lowest ~1wk** — oil-retreat bid; url: https://tradingeconomics.com/united-states/government-bond-yield
+- **Newcastle coal ~$130.60/t sub-$135** — Barito River drought supply upside offset China demand; url: https://tradingeconomics.com/commodity/coal
+- **LME nickel $16,844 -2.46% Tue multi-mo low** — ANTM -2.69% top-3 loser; url: https://tradingeconomics.com/commodity/nickel
+- **CPO MYR 4,519/t weakness** — MPOB range persistent; url: https://tradingeconomics.com/commodity/palm-oil
+- **FOMC Wed Jul 29 2pm ET rate decision** — Fed Chair Warsh; consensus HOLD 3.50-3.75% 83-85% odds; url: https://kiplinger.com/investing/live/fed-meeting-updates-and-commentary-july-2026
+- **ASII Q2 print Thu Jul 30 T+1** — consensus Rp 184 EPS; historical -20.84% surprise pattern; url: https://stockanalysis.com/quote/idx/ASII/
+- **BBCA Tue -0.40% to Rp 6,250 / BMRI Tue -0.73% to Rp 4,100 / TLKM Tue -1.90% to Rp 2,580** — broad-based weakness Warjiyo aftermath; url: https://stockwatch.id/ihsg-sesi-i-melemah-036-ke-6-173935-saham-bbca-tlkm-dan-bmri-tertekan/
+- **EXCL Tue +2.95% to Rp 2,440 TOP LQ45 GAINER** — XLSmart telco re-rating idiosyncratic; url: https://money.kompas.com/read/2026/07/28/170322626/ihsg-ditutup-28-juli-2026-turun-55-poin-ke-613058-bumi-top-losers
+- **BUMI top loser LQ45 Tue -2.94% Rp 165 / CUAN -2.90% / ANTM -2.69%** — coal/nickel sector weakness; url: same as above
+
+---

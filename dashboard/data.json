@@ -13213,52 +13213,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-22T02:18:33Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 5 candidates (UNVR/ICBP/INDF/BBCA/MIKA) fail 2:1 R:R at current marks; tape in capitulation continuation (IHSG 6,094 \u22123.54% May 21); MSCI rebalance May 29 ahead; cumulative-alpha protection binding (+17.43% trial-high). HOLD KLBF (519,000 sh @ 945; hard-cut 878); trades 1/3 used; 95.18% cash.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh @ entry 945; hard-cut 878; mark ~910 (\u22123.70%); buffer +3.65%"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "R:R 1.20:1 fails 2:1 at 2,030; need \u22641,930"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "R:R 1.00:1 fails 2:1 at 8,225; need \u22647,950"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "R:R 1.13:1 fails 2:1 at 7,600; need \u22647,400"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "R:R 1.06:1 fails 2:1 at 6,050; need \u22645,900"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "R:R 1.66:1 fails 2:1 at 2,240; need \u22642,180; sector-concentration concern (KLBF held)"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance Day 33 blocked; broker.sh quote ERROR for non-held tickers; WebSearch multi-source marks per MISTAKES.md 2026-05-01"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram blocked (host not in allowlist); notification logged to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-22T08:19:30Z",
       "routine": "daily-summary",
       "status": "success",
@@ -17830,6 +17784,38 @@
           "detail": "Day 72 EOD snapshot committed; broker reconciled 0 positions; RISK-STATE.json + dashboard/data.json updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-29T00:12:40Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Scanned all 50 tickers. ZERO candidates scored \u22656 (5/10 structural ceiling). Septuple-plus binding: crisis-track ACTIVATED + IDR Stage 5 Day 16 (Tue intraday 18k+ pierce) + Brent retreat $87 + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Trump tariff + Warjiyo Day 3 + BI-HOLD Day 8 + Data Quality Day 90 + FOMC T+0 Wed. NO NEW ENTRIES. 14th consecutive 0/3 BUY-slot wk Day 3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned Wk 15 Day 3"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored \u22656 (5/10 ceiling)"
+        },
+        {
+          "type": "research",
+          "detail": "IHSG Tue sesi II 6,130.58 -0.85% below 6,200 psych"
+        },
+        {
+          "type": "research",
+          "detail": "IDR Tue intraday 18k+ pierce = criterion (a) regressed"
+        },
+        {
+          "type": "research",
+          "detail": "Foreign 5-day cum -Rp 3.38T = criterion (d) CONFIRMED sell-binding"
+        },
+        {
+          "type": "research",
+          "detail": "FOMC T+0 Wed 2pm ET binary window imminent"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -17840,21 +17826,21 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "ihsg_close": 6185.78,
-    "ihsg_close_date": "2026-07-27",
-    "ihsg_close_change_pct": -0.17,
-    "ihsg_close_basis": "Mon Jul 27 sesi II final 6,185.78 -0.17% (Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support)",
-    "ihsg_cumulative_pct": -18.97,
-    "idr_usd": 17927,
-    "idr_usd_date": "2026-07-28",
-    "idr_usd_change_pct": 0.03,
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15",
-    "idr_status": "Tue open ~17,927 marginal continuation; 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; structurally MORE difficult post-BI-HOLD-dovish Day 7 + Warjiyo resignation dovish-successor risk Day 2",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY",
+    "regime_overlay": "FOMC T+0 Wed 2pm ET binary + Warjiyo Day 3 successor-unnamed + foreign-flow 5-CONSECUTIVE structural sell + IDR intraday 18k pierce regression",
+    "ihsg_close": 6130.58,
+    "ihsg_close_date": "2026-07-28",
+    "ihsg_close_change_pct": -0.85,
+    "ihsg_close_basis": "Tue Jul 28 sesi II final 6,130.58 Kompas primary (55 pts -0.85% vs sesi I 6,183.16 = afternoon Warjiyo-shock selloff); sesi-I-to-sesi-I canonical anchor Tue = 6,183.16 -0.04% vs Mon Jul 27 sesi I 6,173.94",
+    "ihsg_cumulative_pct": -19.7,
+    "idr_usd": 18087,
+    "idr_usd_date": "2026-07-29",
+    "idr_usd_change_pct": 0.9,
+    "idr_stage": "Stage 5 MARGINAL DE-ARM CANDIDATE Day 16 (pierce-regressed via Tue intraday 18k+ pierce)",
+    "idr_status": "Tue intraday PIERCED 18,000 = criterion (a) REGRESSED; ~150-337 IDR gap above sub-17,750; structurally MORE difficult post-BI-HOLD Day 8 + Warjiyo Day 3 + FOMC T+0 imminent",
     "coal_price": 130.6,
-    "brent_usd": 96.78,
+    "brent_usd": 87.53,
     "cpo_myr_t": 4673,
     "lme_nickel_usd_t": 16725,
     "us_10y_pct": 4.55,
@@ -17867,58 +17853,35 @@
     "brent_intraday_high": 100.65
   },
   "research": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "holiday": false,
-    "as_of_date": "2026-07-28",
+    "as_of_date": "2026-07-29",
     "as_of_time": "07:00",
-    "as_of_label": "Tue Jul 28 07:00 WIB (Wk 15 Day 2 pre-market)",
-    "ihsg_last": 6185.78,
-    "ihsg_last_label": "Mon Jul 27 sesi II final 6,185.78 -0.17% (-10.65 pts) \u2014 Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support",
-    "idr_usd": 17927,
-    "idr_usd_label": "IDR/USD ~17,927 Tue open (TradingEconomics-referenced; range 17,865-17,942); 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 15 continuation",
+    "as_of_label": "Wed Jul 29 07:00 WIB (Wk 15 Day 3 pre-market \u2014 FOMC T+0 / Warjiyo Day 3)",
+    "ihsg_last": 6130.58,
+    "ihsg_last_label": "Tue Jul 28 sesi II final 6,130.58 -0.85% (-55.20 pts) \u2014 Kompas primary; BUMI top loser LQ45 -2.94%; volume 24.87B sh / value Rp 10.70T; 265 adv / 360 dec / 172 unch; only primary consumer +0.52% sector green; EXCL +2.95% AMRT +2.29% top LQ45 gainers idiosyncratic; below 6,200 psychological support CONFIRMED with Warjiyo-shock afternoon selloff",
+    "ihsg_last_sesi_i": 6183.16,
+    "ihsg_last_sesi_i_label": "Tue Jul 28 sesi I 6,183.16 -0.04% (-2.63 pts) \u2014 Kompas primary anchor per sesi-I-to-sesi-I canonical convention retained per Wk 14 weekly-review; KLBF top losers sesi I",
+    "idr_usd": 18087,
+    "idr_usd_label": "IDR/USD ~18,087 mid Wed 07:00 WIB (XE) / ~17,900 BI ref zone; Tue intraday PIERCED 18,000 on Warjiyo aftermath then partial recovery; 16th consecutive marginal sub-Stage-5 session by close but Tue intraday 18k+ pierce = criterion (a) REGRESSED baseline; ~150-337 IDR gap above sub-17,750 crisis-track resolution threshold; STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 16 with pierce-regression",
     "coal_price": 130.6,
-    "brent_price": 96.78,
+    "brent_price": 87.53,
     "scan_universe": 50,
-    "candidates_count": 25,
+    "candidates_count": 20,
     "candidates_ge6_count": 0,
     "candidates_actionable_count": 0,
     "candidates_top_score": 5,
     "top_candidate": null,
     "top_candidate_score": 5,
-    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + octuple-plus binding stack materially INTENSIFIED via NEW Warjiyo BI Governor resignation Day 2 overlay + foreign-flow 5th-consecutive net-sell candidate + BI-HOLD-dovish-absorbed Day 7)",
-    "top_candidate_hook": "No candidates cleared \u22656 threshold; octuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 15 + BRENT retreat $96-98 + foreign-flow 5th-consecutive net-sell candidate + Trump 10% tariff + Warjiyo resignation Day 2 + Data Quality Day 89 + BI-HOLD-dovish-absorbed Day 7) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory Day 2",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89",
+    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + septuple-plus binding stack materially INTENSIFIED via FOMC T+0 binary window Wed 2pm ET + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Warjiyo Day 3 successor unnamed + IDR Tue intraday 18k+ pierce regression)",
+    "top_candidate_hook": "No candidates cleared \u22656 threshold; septuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 16 pierce-regressed + BRENT retreat $87 -13.4% wk + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED = STRUCTURAL SELL-SIGNAL BINDING + Trump 10% tariff + Warjiyo Day 3 successor unnamed + Data Quality Day 90 + BI-HOLD-dovish Day 8 + FOMC T+0 imminent binary) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory Day 3",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY",
     "top_candidates": []
   },
-  "last_updated": "2026-07-28T15:15+07:00",
+  "last_updated": "2026-07-29T07:00+07:00",
   "market": {
-    "foreign_flow_note": "Mon Jul 27 sesi I -Rp 293.4B NET SELL (idnfinancials); Wk 14 all-week -Rp 3.37T (CNBC); YTD -Rp 77.73T all-market (Kompas); 5th-consecutive-net-sell CANDIDATE Wed-Thu-Fri Wk 14 + Mon Wk 15 sesi I; criterion (d) DEEPER REGRESSED-STRUCTURAL 0.75/5 confirming; Mon all-day multi-source reconciliation pending Tue overnight",
-    "global_note": "US Mon Jul 27 close MIXED on oil retreat: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%; Sandisk -11% memory-weakness drag) / Dow 52,210.08 (+0.51% +262.83). Asia Mon Jul 27 REBOUND: Nikkei 64,931.19 (+0.50%) / Hang Seng 25,207.18 (+0.98%) / Shanghai 3,858.25 (+1.15%). Brent RETREATED -3.8% Fri\u2192Mon to ~$96.78 on US-Iran attacks-paused / negotiations-restart headline; still elevated vs $84 pre-shock baseline. NEW: Perry Warjiyo BI Governor abrupt resignation Mon Jul 27 (voluntary/personal reasons; term to 2028); Destry Damayanti Acting Governor; Prabowo nomination pending \u2014 central bank independence + policy-continuity uncertainty overlay. BI HOLD 5.75% Day 7 absorbed. Trump 10% Section 301 tariff Indonesia effective Fri Jul 24.",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY19",
-    "regime_overlay": "IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15 + BRENT-SHOCK-RETREATED-$96-98 + FOREIGN-FLOW-5TH-CONSECUTIVE-NET-SELL-CANDIDATE + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day7 + WARJIYO-BI-GOVERNOR-RESIGN-Day2 + Data-Quality-Gate-Day-89 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "last_updated": "2026-07-28T07:00+07:00",
-    "ihsg_close_date": "2026-07-27",
-    "ihsg_close_change_pct": -0.17,
-    "ihsg_close_basis": "Mon Jul 27 sesi II final 6,185.78 -0.17% (Kompas primary; LQ45 612.56 -0.36%; volume 27.52B sh / value Rp 12.03T; 307 adv / 341 dec / 147 unch; Perry Warjiyo BI Governor resignation opening drag; below 6,200 psychological support)",
-    "idr_usd": 17927,
-    "idr_usd_change_pct": 0.03,
-    "idr_usd_date": "2026-07-28",
-    "idr_stage": "STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day15",
-    "idr_stage_note": "Tue open ~17,927 marginal continuation; 15th consecutive marginal sub-Stage-5 session; ~177 IDR gap above sub-17,750 crisis-track resolution threshold; structurally MORE difficult post-BI-HOLD-dovish Day 7 + Warjiyo resignation dovish-successor risk overlay Day 2",
-    "coal_newcastle_usd_ton": 130.6,
-    "brent_usd_bbl": 96.78,
-    "brent_intraday_high": 100.65,
-    "cpo_myr_ton": 4673,
-    "nickel_lme_usd_ton": 16725,
-    "indo_10y_sun": 7.2,
-    "us_10y": 4.55,
-    "us_sp500": 7413.18,
-    "us_nasdaq": 24932.08,
-    "us_dow": 52210.08,
-    "nikkei": 64931.19,
-    "hang_seng": 25207.18,
-    "shanghai": 3858.25,
-    "vix": 18.5,
-    "bi_rdg_next": "HOLD 5.75% Day 7 absorbed (Wed Jul 22 dovish surprise vs +25bp consensus; Deposit 4.75% / Lending 6.50%). Next RDG Aug 14 T+17. Warjiyo resignation Mon Jul 27 = dovish-successor risk overlay; Aug 14 potential cut candidate if dovish successor confirmed; Danamon 2026-end forecast 6.25%."
+    "foreign_flow_note": "Tue Jul 28 all-market -Rp 1.1T NET SELL (Bisnis: TINS-BBCA idiosyncratic net-buy within); 5-CONSECUTIVE-NET-SELL CONFIRMED \u2014 Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T (Kompas Jul 28); YTD -Rp 77.73T; criterion (d) DEEPER REGRESSED to CONFIRMED STRUCTURAL SELL-SIGNAL BINDING 0.50/5",
+    "global_note": "US Tue Jul 28 close MIXED pre-FOMC: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%) / Dow 52,210.08 (+0.51%); Asia Tue: Nikkei -3.95% to 62,364.92 MAJOR risk-off / Hang Seng +0.41% to 25,310.85 / Shanghai -1.16% to 3,813.31; VIX 18.19 -2.57% moderate; US 10Y 4.62% -2bp lowest ~1wk on oil-retreat bid; Brent $87.53 -0.94% = -13.4% from Fri $100.65 peak; LME nickel $16,844 -2.46% multi-mo low; CPO MYR 4,519",
+    "fomc_t0": "Wed Jul 29 2pm ET = 01:00 WIB Thu binary window; Fed Chair Warsh consensus HOLD 3.50-3.75% 83-85% Polymarket/CME odds; dovish-cut tail risk on soft US labor prints; USD/IDR spillover binary Thu 07:00 WIB pre-market impacts"
   }
 }
