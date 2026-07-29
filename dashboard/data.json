@@ -1108,6 +1108,24 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Wk 15 Day 2 NO TRADES; 100% cash Day 18 post-KLBF; 2-consecutive positive-alpha streak breaks (mild -0.15% compression); crisis-track engagement gate ACTIVATED binding; sextuple-plus + Warjiyo Day 2 + FOMC Jul 29-30 T+0-1 imminent binary"
+    },
+    {
+      "date": "2026-07-29",
+      "day_label": "Day 73",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6093.59,
+      "ihsg_close_basis": "Wed Jul 29 sesi I 6,093.59 -1.45% sesi-I-to-sesi-I (vs Tue Jul 28 sesi I 6,183.16 anchor); Kompas headline + Viva 2-source multi-source primary sesi I close 6,093.59 (Kompas: 'IHSG Sesi I 29 Juli 2026 Merosot 36 Poin ke 6.093,59'; Viva: 'IHSG Makin Tertekan di Penutupan Sesi I, Anjlok 0,6 Persen ke Level 6.093'). Sesi II final ~6,074 per Trading Economics all-day -0.92% (not primary anchor per canonical convention). Day drivers: IHSG opened +0.29% at 6,148 (Infobanknews) then intraday cascade all sectoral indices RED; ISAT top losers LQ45; BNBR >-7% (KabarBursa); sesi I breadth 176 adv / 461 dec / 154 stag = decisively RED; sesi I volume Rp 16.86T on 26.88B shares; 6-consecutive down-session context per TE 'sentiment deeply downbeat post-Warjiyo'.",
+      "ihsg_daily_pct": -1.45,
+      "daily_alpha_pct": 1.45,
+      "cumulative_alpha_pct": 17.34,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Wk 15 Day 3 NO TRADES; 100% cash Day 19 post-KLBF; STRONG +1.45% positive alpha in broad-based IHSG risk-off pre-FOMC T+0; crisis-track engagement gate ACTIVATED binding; septuple-plus intensified via FOMC T+0 Wed 2pm ET + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Warjiyo Day 3 successor unnamed + IDR Tue intraday 18k+ pierce regression"
     }
   ],
   "positions": [],
@@ -13860,8 +13878,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 71,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 71)",
+    "trial_days_elapsed": 72,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 72)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -13870,8 +13888,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -19.13,
-    "cumulative_alpha_pct": 16.17,
+    "ihsg_cumulative_pct": -20.18,
+    "cumulative_alpha_pct": 17.34,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -13884,7 +13902,7 @@
     "drawdown_from_peak_pct": -3.1
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY19-IDR-STAGE-5-MARGINAL-DE-ARM-Day15-BRENT-SHOCK-SUSTAINED-$95-100-FOREIGN-FLOW-4TH-CONSECUTIVE-NET-SELL-WATCH-NEW-TRUMP-10PCT-TARIFF-INDONESIA-BI-HOLD-DOVISH-ABSORBED-Day7-WARJIYO-RESIGN-Day2-FOMC-T+0-1-IMMINENT-CRISIS-TRACK-ACTIVATED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY20-IDR-STAGE-5-MARGINAL-DE-ARM-Day16-PIERCE-REGRESSED-BRENT-SHOCK-RETREATED-$87-FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED-STRUCTURAL-SELL-SIGNAL-BINDING-NEW-TRUMP-10PCT-TARIFF-INDONESIA-BI-HOLD-DOVISH-ABSORBED-Day8-WARJIYO-RESIGN-Day3-FOMC-T+0-BINARY-WEDNESDAY-CRISIS-TRACK-ACTIVATED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -13895,60 +13913,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-07-28"
+    "updated": "2026-07-29"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-25T02:21:04Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. 6 candidates SKIP \u2014 PGAS primary deferred (multi-source 1,790-1,850 spread 3.4% > 1% threshold + only 1 Abadi LNG source); BBCA sub-2:1 at 5,900 (needs \u22645,800); UNVR/ICBP/INDF/MIKA data unverified or stale. HOLD KLBF (519k sh @ 945; hard-cut 878; +7.09% buffer). Cash 95%; +18.26% trial alpha protection binding.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh @ 945; hard-cut 878 GTC; +7.09% buffer"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "multi-source spread 3.4% > 1% threshold; Abadi LNG only 1 source"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "sub-2:1 R:R at 5,900 (need \u22645,800)"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Yahoo 1,765 vs TradingView 2,000 = 13% spread unresolvable"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "stale data (May 20 6,750); unverified"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "no fresh live mark verified"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "data unverified + sector-concentration with KLBF"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance Day 36 blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification host-blocked; logged to stdout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-25T04:35:57Z",
       "routine": "midday",
@@ -18518,6 +18485,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (100% cash Day 19 post-KLBF cut). No sell-side rules applicable. Book intact at IDR 9,716,207,500. Wk 15 Day 3 defensive posture pre-FOMC binary."
+    },
+    {
+      "timestamp": "2026-07-29T08:20:33Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk15 Day3 (Day 73): IDR 9.716B (+0.00%). IHSG sesi I -1.45% broad risk-off pre-FOMC. Daily alpha +1.45%. Cum alpha +17.34% NEW BEST. Trades wk 0/3. 100% cash Day 19. Telegram blocked by proxy (403) \u2014 fallback stdout.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 73 EOD snapshot committed; cum alpha +17.34% new best; broad IHSG risk-off session pre-FOMC T+0 binary Wed 2pm ET / 01:00 WIB Thu"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -18580,7 +18559,7 @@
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY",
     "top_candidates": []
   },
-  "last_updated": "2026-07-29T07:00+07:00",
+  "last_updated": "2026-07-29T15:15+07:00",
   "market": {
     "foreign_flow_note": "Tue Jul 28 all-market -Rp 1.1T NET SELL (Bisnis: TINS-BBCA idiosyncratic net-buy within); 5-CONSECUTIVE-NET-SELL CONFIRMED \u2014 Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T (Kompas Jul 28); YTD -Rp 77.73T; criterion (d) DEEPER REGRESSED to CONFIRMED STRUCTURAL SELL-SIGNAL BINDING 0.50/5",
     "global_note": "US Tue Jul 28 close MIXED pre-FOMC: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%) / Dow 52,210.08 (+0.51%); Asia Tue: Nikkei -3.95% to 62,364.92 MAJOR risk-off / Hang Seng +0.41% to 25,310.85 / Shanghai -1.16% to 3,813.31; VIX 18.19 -2.57% moderate; US 10Y 4.62% -2bp lowest ~1wk on oil-retreat bid; Brent $87.53 -0.94% = -13.4% from Fri $100.65 peak; LME nickel $16,844 -2.46% multi-mo low; CPO MYR 4,519",

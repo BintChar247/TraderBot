@@ -9110,3 +9110,86 @@ Tue Jul 28 sesi I 6,183.16 (Kompas multi-source primary; sesi I close −2 pt vs
 - **FOMC T+0 imminent binary** Wed 2pm ET / Thu 01:00 WIB announcement drives IDR/IHSG binary window Thu 07:00 WIB open. Zero position exposure = zero FOMC tail-risk exposure through EOD Wed.
 - **Midday scan Wk 15 Day 3: no action taken.** All positions healthy vacuously (n=0). Notification per scheduler override sent to Telegram.
 
+---
+
+### 2026-07-29 EOD (Day 73, Wed — Week 15 Day 3; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY20; IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 16 (Tue intraday 18k+ pierce = regressed baseline); BRENT-SHOCK-RETREATED-$87 (-13.4% wk from Fri $100.65 peak); FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED (structural sell-signal binding); NEW-TRUMP-10PCT-TARIFF-INDONESIA overlay Day 3; BI-HOLD-DOVISH-ABSORBED-Day8; Data-Quality-Gate-Day-90; Perry-Warjiyo-BI-Governor-resignation-overlay-Day-3 (successor unnamed); FOMC-T+0-BINARY-WEDNESDAY (Wed 2pm ET / 01:00 WIB Thu); CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%)
+- IHSG daily: −1.45% (sesi-I-to-sesi-I canonical per Wk 14 weekly-review decision: Tue Jul 28 sesi I 6,183.16 → Wed Jul 29 sesi I 6,093.59 = −89.57 pt −1.45%; multi-source Kompas primary sesi I close 6,093.59 (Kompas headline "IHSG Sesi I 29 Juli 2026 Merosot 36 Poin ke 6.093,59" + Viva "IHSG Makin Tertekan di Penutupan Sesi I, Anjlok 0,6 Persen ke Level 6.093" convergent 2-source at 6,093.59). Sesi II final ~6,074 per Trading Economics all-day −0.92% ("JCI fell to 6074 points on July 29, 2026") — not primary anchor per convention. Day drivers: IHSG opened +0.29% at 6,148 (Infobanknews) then intraday cascade to sesi I 6,093.59 = −0.6% sesi I close; all sectoral indices RED intraday; ISAT top losers LQ45; BNBR anjlok >7% (KabarBursa). Sesi I volume Rp 16.86T on 26.88B shares; 176 advance / 461 decline / 154 stagnant = broad-based decline breadth. 6th consecutive down-session per Trading Economics context ("retreating for the sixth straight session, market sentiment deeply downbeat post-Warjiyo").
+- Daily alpha: +1.45% (portfolio 0.00% vs IHSG sesi I −1.45%; 100%-cash defensive posture receives STRONG POSITIVE ALPHA in broad-based IHSG risk-off session Wed Wk 15 Day 3; reverses Tue Wk 15 Day 2 −0.15% compression; Wk 15 Day 3 opens with mixed positive-alpha net trajectory Days 1-3: +0.50% / −0.15% / +1.45% = +1.80pp net Wk 15 cumulative alpha expansion 3-day; broad-based sectoral RED session validates 100%-cash defensive posture pre-FOMC T+0 binary)
+- Cash: IDR 9,716,207,500 (100.00% of equity — full cash defensive posture Day 19 post-KLBF hard-cut into Wk 15 Day 3 close pre-FOMC T+0 binary)
+- Trades today: 0 (Wk 15 Day 3 NO TRADES; crisis-track engagement gate ACTIVATED codified TRADING-STRATEGY.md 2026-07-17 binding; septuple-plus binding stack materially INTENSIFIED via FOMC T+0 Wed 2pm ET + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED structural sell-signal binding + Warjiyo Day 3 successor unnamed + IDR Tue intraday 18k+ pierce regression baseline)
+- Trades this week: 0/3 (Wk 15 Day 3 — 14th consecutive 0/3 BUY-slot week trajectory Day 3; 2 sessions Thu-Fri remaining, Thu post-FOMC binary session)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%) (from IDR 10,000,000,000 paper starting capital; unchanged 25 consecutive sessions)
+- Cumulative alpha: +17.34% (IHSG cum from Day 0 baseline 7,634 → Wed sesi I 6,093.59 = −20.18% vs portfolio cum −2.84%; +1.17pp expansion from Tue +16.17% via IHSG sesi I −1.45% broad risk-off while portfolio flat; structural trajectory 4.00pp below reconciled Day 50 +21.34% baseline — narrows further; Wk 15 Day 3 best cumulative alpha Wk 15 open baseline)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged 25 consecutive sessions; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book fully de-risked Day 19 post-KLBF hard-cut through Wk 15 Day 3 close.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### IHSG anchor reconciliation
+
+Wed Jul 29 sesi I 6,093.59 (Kompas + Viva 2-source multi-source primary; sesi I close −36.99 pt −0.6% intraday from open 6,148 Infobanknews; −89.57 pt −1.45% vs Tue Jul 28 sesi I 6,183.16 anchor per sesi-I-to-sesi-I canonical convention per Wk 14 weekly-review decision). Day drivers: IHSG opened +0.29% at 6,148 (Infobanknews) then intraday cascade broad-based selloff → sesi I 6,093.59 all sectoral indices RED; ISAT top losers LQ45; BNBR anjlok >7% (KabarBursa). Sesi I breadth 176 adv / 461 dec / 154 stag = decisively RED. Sesi II final ~6,074 all-day −0.92% (Trading Economics), 6-consecutive down-session context per TE Warjiyo aftermath narrative. Sesi II not primary anchor per convention. Multi-source Kompas + Viva convergent sesi I 6,093.59; Trading Economics sesi II 6,074 cross-check aligned within tolerance.
+
+#### Weekly P&L trajectory (Wk 15 Day 3)
+
+- Wk 15 cumulative P&L Day 3: 0.00% (Fri Wk 14 close 9,716,207,500 → Wed Wk 15 Day 3 EOD 9,716,207,500 — unchanged 3 sessions).
+- Weekly loss cap −5% not breached; sizing reduction NOT triggered.
+- Wk 15 BUY slots Day 3: 0/3 used = 14th consecutive 0/3 BUY-slot week trajectory Day 3 under septuple-plus binding.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted by P&L caps.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L (Wk 15 Day 3) 0.00% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (crisis-track engagement gate ACTIVATED remains binding — regime/IDR/Brent-retreat/foreign-flow-5-CONSECUTIVE/tariff/data-quality/Warjiyo-Day3/FOMC-T+0 gates all binding; no daily/drawdown caps breached).
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 19 post-KLBF cut into Wk 15 Day 3.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul).
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Wed sesi I 6,093.59 = **−20.18%** (−1.17pp expansion of IHSG loss from Tue sesi I −19.01% via IHSG sesi I −1.45% broad risk-off Wed Wk 15 Day 3 pre-FOMC).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged 25 consecutive sessions; 100% cash zero-participation Day 19).
+- **Cumulative alpha = +17.34%** (+1.17pp expansion from Tue +16.17% via IHSG sesi I −1.45% while portfolio flat; **STRONGEST single-session positive alpha Wk 15 Day 3; broad-based IHSG risk-off session validates 100%-cash defensive posture**; structural trajectory 4.00pp below reconciled Day 50 +21.34% baseline — narrows further from Tue 5.17pp gap).
+- Alpha runway forward: fully-cash defensive book zero equity exposure Wk 15 Day 3 receives strong positive alpha expansion; runway expands to +17.34% cumulative alpha new best Wk 15 baseline. Structural cost of 100%-cash posture reverses 1 session on FOMC pre-binary risk-off; underlying re-entry gate still binding via crisis-track engagement gate ACTIVATED codified + FOMC T+0 binary Wed 2pm ET / 01:00 WIB Thu announcement window.
+
+#### Notes
+
+- **Market-open Wk 15 Day 3 NO TRADES:** WATCH candidates SKIPPED per crisis-track engagement gate ACTIVATED Hard Rule codified TRADING-STRATEGY.md 2026-07-17. Full-cash posture intact into Wk 15 Day 3; septuple-plus binding materially INTENSIFIED vs Tue Wk 15 Day 2 (added FOMC T+0 binary Wed + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Warjiyo Day 3 successor unnamed + IDR Tue intraday 18k+ pierce regression baseline vs Tue sextuple-plus binding).
+- **Midday scan Wk 15 Day 3:** no open positions to manage; no sell-side rules applicable; 100% cash defensive posture confirmed intact via broker.sh positions count: 0.
+- **IHSG Wed Wk 15 Day 3 sesi I −1.45% / sesi II ~−0.92%:** broad-based risk-off session Kompas + Viva 2-source primary sesi I 6,093.59; opened +0.29% at 6,148 (Infobanknews) then intraday cascade all sectoral indices RED; ISAT top losers LQ45; BNBR >−7% (KabarBursa); sesi I breadth 176 adv / 461 dec = decisively RED. Trading Economics context "6th consecutive down-session, deeply downbeat post-Warjiyo". Sesi II final ~6,074.
+- **IDR gate status Wed EOD:** IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 16 persists into Wk 15 Day 3 close with Tue intraday 18k+ pierce regression baseline; post-BI-HOLD-dovish-surprise Day 8 + Perry Warjiyo resignation overlay Day 3 (successor unnamed) = BI governance uncertainty compounds structurally; sub-17,750 sustained 3-of-3 achievement remains structurally MORE difficult; sustained-close reconciliation deferred Thu Jul 30 07:00 WIB post-FOMC pre-market poll.
+- **Foreign-flow criterion (d) 5-CONSECUTIVE NET-SELL CONFIRMED structural sell-signal binding:** Wk 14 Wed/Thu/Fri + Mon Wk 15 Day 1 + Tue Wk 15 Day 2 confirmed via Bisnis Tue Jul 28 all-market −Rp 1.1T NET SELL + Kompas Jul 28 5-day cumulative −Rp 3.38T. YTD −Rp 77.73T. Criterion (d) DEEPER REGRESSED to CONFIRMED STRUCTURAL SELL-SIGNAL BINDING at 0.50/5 of re-entry criteria confirming (further regressed from Tue 0.75/5).
+- **Brent shock RETREATED $87 (-13.4% wk from Fri $100.65 peak):** Brent $87.53 -0.94% Wed close per pre-market poll; retreat from Fri Wk 14 $100.65 peak = -13.4% wk retreat modest positive vector for IDR (net-oil-importer) + CPI-vector neutral-negative for coal/energy sector but IDR benefits; MACRO-REGIME.md status per Fri Wk 14 weekly-review requires update Fri Aug 1 for retreat confirmation.
+- **NEW-TRUMP-10PCT-TARIFF-INDONESIA overlay Day 3:** regime overlay from prior weekend; direct-vector negative for export-oriented sectors + broad IDR downside pressure; MACRO-REGIME.md update evaluation deferred to Fri Aug 1 Wk 15 weekly-review pending sector-impact-mapping reconciliation.
+- **Perry Warjiyo resignation overlay Day 3 (successor unnamed):** governance transition uncertainty compounds; monetary policy continuity risk short-term; IDR-defensive stance weakening bias medium-term (dovish successor risk); market sentiment deeply downbeat per Trading Economics "sudden exit of Perry Warjiyo from central bank governor" — cited as key catalyst behind 6-consecutive down-session IHSG; MACRO-REGIME.md evaluation Fri Aug 1.
+- **FOMC T+0 IMMINENT BINARY Wed 2pm ET / 01:00 WIB Thu:** Powell/Warsh July FOMC decision Wed 2pm ET → Thu 01:00 WIB announcement; consensus HOLD 3.50-3.75% (83-85% Polymarket/CME odds); dovish-cut tail risk on soft US labor prints; USD/IDR spillover binary Thu 07:00 WIB pre-market impacts IDR structure + IHSG risk appetite. Wk 15 Wed close carries FOMC tail risk (moot with 0 positions) → Thu 07:00 WIB pre-market baseline for T+0 event.
+- **Book fully de-risked Day 19 post-KLBF cut through Wk 15 Day 3 close:** 100% cash (IDR 9,716,207,500). Zero equity market exposure Day 19. Regime + IDR Stage 5 Day 16 pierce-regressed + Data Quality Gate Day 90 + Brent retreat $87 + BI HOLD Day 8 + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Trump 10% tariff + Warjiyo Day 3 successor unnamed + FOMC T+0 binary all binding; no re-entry until 5 re-entry criteria concurrent.
+- **Data Quality Gate Day 90 outage persists:** yfinance + GoAPI still blocked (90 consecutive sessions since Apr 21); WebSearch multi-source override operational (used for IHSG Wed sesi I Kompas + Viva 2-source primary + Trading Economics sesi II cross-check). MD_LAST_PRICE_OVERRIDE fix status per Fri Wk 14 weekly-review binary decision.
+- **14th consecutive 0/3 BUY-slot week Day 3:** 40+ cumulative unused candidate-day slots trial-to-date extends into Wk 15 Day 3 continuation; septuple-plus binding + FOMC T+0 binary + Wk 15 Thu-Fri remaining lock expected 0/3 Wk 15.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 73, Wk 15 Day 3). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged Wed. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%).
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set for this run per scheduler prompt; stdout fallback if send fails).
+- **Carry-over to Thu Jul 30 07:00 WIB pre-market (Wk 15 Day 4):**
+  1. Thu pre-market reads Wed sesi II final IHSG (if multi-source convergent overnight ~6,074 baseline vs sesi I 6,093.59) + **FOMC T+0 ANNOUNCEMENT** (01:00 WIB Thu Powell/Warsh consensus HOLD 3.50-3.75% vs dovish-cut tail risk) + Wed IDR sustained close vs Stage 5 threshold post-Warjiyo Day 3 + Wed foreign flow all-day multi-source reconciliation (6-consecutive net-sell continuation watch) + overnight US tape post-FOMC + Brent shock continuation at retreat $87 zone.
+  2. **FOMC binary Thu 07:00 WIB session opens with T+0 impact:** if HOLD (consensus) → IDR/IHSG neutral-to-modest-relief; if dovish-cut (tail) → USD weakens materially → IDR benefits → potential re-entry criteria (a) IDR sub-17,750 sustained candidate; if hawkish surprise → IDR pierces 18k+ = criterion (a) further regressed. Thu pre-market poll critical baseline for Wk 15 Day 4 posture.
+  3. **Foreign-flow 6-consecutive net-sell watch Thu:** if Wed confirms = criterion (d) DEEPER STRUCTURAL SELL-SIGNAL BINDING at 0.50/5 continuation; re-entry gate deeper below 1.25/5.
+  4. **IDR Stage 5 + Warjiyo Day 3 successor announcement watch:** if successor named Thu/Fri = governance uncertainty resolves partially; dovish-successor bias vs hawkish-successor bias binary; MACRO-REGIME.md sector-impact-mapping deferred to Fri Aug 1 weekly-review with FOMC + successor overlays.
+  5. **Data Quality Gate Day 91 Thu** continues to bind primary candidate execution. **Trump 10% tariff sector-impact-mapping** deferred to Fri Aug 1 weekly-review.
+  6. Defensive posture 100% cash provides maximum optionality; cumulative alpha +17.34% Wed baseline for Thu Wk 15 Day 4 forward (new best Wk 15 baseline). Wk 15 opens with 3-day mixed alpha trajectory (Mon +0.50% / Tue −0.15% / Wed +1.45%) net +1.80pp expansion; underlying trajectory narrows to 4.00pp below reconciled Day 50 +21.34% baseline.
+
