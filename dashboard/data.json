@@ -13875,6 +13875,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SHOCK RE-INTENSIFIED $89.43 +6.92% direct-upside re-armed; Q2 print Fri Jul 31 T+1 binary; MNC TP Rp 1,922",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Fri Jul 31 T+1; Brent $89 +6.92% direct-upside re-armed; UBS +$10 Brent = +16-19% EPS"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Data Quality FAIL Day 91"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED (TRADING-STRATEGY.md 2026-07-17); MEDC upgraded from 5\u21926 catalyst-score via Brent re-intensification but ALL FIVE re-entry criteria concurrent NOT met (0.50/5: (a) IDR sub-17,750 DEEPER REGRESSED post-FOMC-hawkish 18,010-18,100 breach; (b) Data Quality FAIL Day 91; (c) MSCI/S&P DJI NEGATIVE-LOCKED; (d) foreign-flow 6-CONSECUTIVE NET-SELL CONFIRMED structural; (e) R:R untestable). Hypothetical entry deferred until crisis-track de-activation.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Mega-cap banking defensive; Tue TINS-BBCA net-buy carry; structural ceiling 5/10",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Mega-cap defensive carry; no fresh catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Warjiyo Day 4 governance drag + FOMC-hawkish USD/IDR pressure"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED; ticker at 5/10 structural ceiling \u2014 no candidate cleared \u22656 threshold Thu (only MEDC at 6, also BLOCKED). Defensive-Quality Track SUSPENDED under crisis-track.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Q2 print Mon Aug 3 T+4 binary; structural ceiling 5/10",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Mon Aug 3 T+4 binary approaching"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Warjiyo Day 4 governance drag + FOMC-hawkish + foreign-flow 6-consecutive net-sell"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED; Q2 binary is T+4 not near-enough to override structural gate. Defensive-Quality Track SUSPENDED.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking defensive; structural ceiling 5/10; Warjiyo Day 4 governance drag primary",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Structural mega-cap defensive; no fresh catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Warjiyo Day 4 governance drag + FOMC-hawkish"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED; ticker at 5/10 structural ceiling. Defensive-Quality Track SUSPENDED.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "EXCL",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Tue TOP LQ45 GAINER +2.95% XLSmart re-rating + IDX SMC-LIQ inclusion Jul 29; structural ceiling 5/10",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDX SMC-LIQ inclusion Jul 29 partial-positive; XLSmart re-rating carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate; regime octuple-plus binding stack"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED (TRADING-STRATEGY.md 2026-07-17); ticker at 5/10 structural ceiling under octuple-plus binding stack materially INTENSIFIED via FOMC-HAWKISH-HOLD + BRENT-SHOCK + US-30Y-BLOWOUT + IDR-RE-BREACH.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AKRA",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 NI +21.2%; Rp 1T interim dividend Aug 14 T+15; fuel-trading +43.81%; structural ceiling 5/10",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "H1 +21.2% NI; Rp 1T interim div Aug 14 T+15; fuel-trading +43.81%"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Data Quality FAIL + regime octuple-plus binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED; solid fundamentals but structural ceiling 5/10 + gate binding + Brent-shock CPI-negative overlay compounding.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-07-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 print Thu Jul 30 T+0 TODAY binary; historical -20.84% surprise pattern; Q1 -15% YoY; triple-headwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 print Thu Jul 30 T+0 TODAY binary; consensus Rp 184 EPS"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY21 + CRISIS-TRACK-GATE-ACTIVATED + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+1 + BRENT-SHOCK-RE-INTENSIFIED-$89 + US-30Y-YIELD-5.2%-BLOWOUT + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + WARJIYO-Day4-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day6 + BI-HOLD-Day9 + Data-Quality-Gate-Day-91"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate + Defensive-Quality Track SUSPENDED + Warjiyo + Brent-shock + Trump-tariff triple-headwind = HIGH miss-risk"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 91 \u2014 yfinance Chrome 403-blocked; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP per crisis-track engagement gate ACTIVATED; ASII Q2 T+0 today but scoring 3/10 (WATCH-binary observation only) \u2014 historical -20.84% surprise pattern + Warjiyo + Brent-shock $89 fuel-input negative + Trump 10% tariff = HIGH miss-risk. Defensive-Quality Track SUSPENDED under crisis-track.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -13916,18 +14259,6 @@
     "updated": "2026-07-29"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-25T08:18:17Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-25: IDR 9.81B (0.00% day). IHSG +1.90% to 6,210.82 -> alpha -1.90%; cum. trial alpha +16.74%. KLBF held flat. 0/3 trades this week (Week 6 fresh).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 26 EOD snapshot committed; KLBF mark 945 (unchanged); RISK-STATE updated; dashboard daily entry appended"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-26T00:21:03Z",
       "routine": "pre-market",
@@ -18521,6 +18852,57 @@
           "detail": "NO BUY Wk 15 Day 4 \u2014 crisis-track gate ACTIVATED + octuple-plus binding stack materially intensified"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-30T02:18:44Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED binding; 0.50/5 re-entry criteria (IDR sub-17,750 3-of-3 DEEPER REGRESSED post-FOMC-hawkish 18,010-18,100 re-breach; foreign-flow 6-CONSECUTIVE net-sell CONFIRMED). Only MEDC scored 6/10 (Brent shock re-intensified $89 + Q2 T+1 Fri binary) \u2014 BLOCKED crisis-track. 7 SKIPs logged to decisions[]. 15th consecutive 0/3 BUY-slot week Day 4.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "Brent shock re-intensified $89 direct-upside re-armed; Q2 T+1 Fri binary; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "5/10 ceiling; DefQ SUSPENDED; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "Q2 T+4 Mon binary; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "5/10 ceiling; Warjiyo Day 4 drag; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "EXCL",
+          "detail": "SMC-LIQ inclusion + XLSmart carry; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "AKRA",
+          "detail": "H1 +21.2% NI + Rp 1T interim div Aug 14; BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "Q2 T+0 today; historical -20.84% surprise + triple-headwind = HIGH miss-risk; BLOCKED crisis-track + DefQ SUSPENDED"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 91 outage persists; yfinance Chrome 403-blocked"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send blocked by proxy 403 tunnel; message logged to stdout"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -18583,7 +18965,7 @@
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY",
     "top_candidates": []
   },
-  "last_updated": "2026-07-29T15:15+07:00",
+  "last_updated": "2026-07-30T09:15:00+07:00",
   "market": {
     "foreign_flow_note": "Tue Jul 28 all-market -Rp 1.1T NET SELL (Bisnis: TINS-BBCA idiosyncratic net-buy within); 5-CONSECUTIVE-NET-SELL CONFIRMED \u2014 Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T (Kompas Jul 28); YTD -Rp 77.73T; criterion (d) DEEPER REGRESSED to CONFIRMED STRUCTURAL SELL-SIGNAL BINDING 0.50/5",
     "global_note": "US Tue Jul 28 close MIXED pre-FOMC: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%) / Dow 52,210.08 (+0.51%); Asia Tue: Nikkei -3.95% to 62,364.92 MAJOR risk-off / Hang Seng +0.41% to 25,310.85 / Shanghai -1.16% to 3,813.31; VIX 18.19 -2.57% moderate; US 10Y 4.62% -2bp lowest ~1wk on oil-retreat bid; Brent $87.53 -0.94% = -13.4% from Fri $100.65 peak; LME nickel $16,844 -2.46% multi-mo low; CPO MYR 4,519",
