@@ -13917,12 +13917,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-25T04:35:57Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF 945 (+0.53%) \u2014 0.00% from entry, +7.09% hard-cut buffer; thesis intact (buyback live thru Jul 2, healthcare sector RS holds). No cuts, no stop tightenings, no thesis-break exits."
-    },
-    {
       "timestamp": "2026-05-25T08:18:17Z",
       "routine": "daily-summary",
       "status": "success",
@@ -18495,6 +18489,36 @@
         {
           "type": "research",
           "detail": "Day 73 EOD snapshot committed; cum alpha +17.34% new best; broad IHSG risk-off session pre-FOMC T+0 binary Wed 2pm ET / 01:00 WIB Thu"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-07-30T00:15:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 15 Day 4 Thu FOMC T+1 HAWKISH-HOLD-9-3-3-hiker-dissent + Brent SHOCK RE-INTENSIFIED $89 +6.92% + US-30Y-YIELD-5.2%-blowout + IDR RE-BREACHED 18,050 CONFIRMED-HARD-ENGAGED + foreign 6-consecutive net-sell CONFIRMED + Warjiyo Day 4 successor unnamed. 50 tickers scanned. 1 candidate \u22656: MEDC (score 6 up from 5, Brent shock re-armed direct-upside, Q2 T+1 Fri binary). BLOCKED crisis-track ACTIVATED. No entries. 15th 0/3 wk trajectory.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 1 candidate \u22656 (MEDC upgraded via Brent shock)"
+        },
+        {
+          "type": "research",
+          "detail": "Regime STAYS DEFENSIVE-INTENSIFIED with FOMC-HAWKISH + Brent-shock + US-30Y-5.2% + IDR-re-breach fresh binding"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 6/10 - Brent SHOCK $89 direct-upside re-armed; Q2 print Fri Jul 31 T+1 binary; UBS +$10 = +16-19% EPS"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "Q2 T+0 today binary; historical -20.84% surprise pattern; triple-headwind"
+        },
+        {
+          "type": "skip",
+          "detail": "NO BUY Wk 15 Day 4 \u2014 crisis-track gate ACTIVATED + octuple-plus binding stack materially intensified"
         }
       ]
     }
