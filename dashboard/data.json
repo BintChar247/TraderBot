@@ -14325,36 +14325,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-27T00:30:00Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "50-ticker scan complete. 4 CANDIDATEs \u22656 (PGAS lead with Abadi LNG + dividend; ICBP/TLKM/JSMR sub-R:R gated). IDX CLOSED Wed-Thu Idul Adha; plan is for Fri May 29 reopen + MSCI rebalance day. KLBF HOLD. MIKA/SIDO downgraded SKIP (MSCI removal). Cumulative alpha +17.46%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (market closed; Tue EOD anchors)"
-        },
-        {
-          "type": "research",
-          "detail": "4 CANDIDATEs scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 6/10 - Abadi LNG offtake + Rp 125.61 dividend; price-spread verify Fri binding"
-        },
-        {
-          "type": "research",
-          "ticker": "MSCI",
-          "detail": "Fri May 29 rebalance: MIKA/SIDO/ANTM/AALI/BSDE removal - downgrade all from prior WATCH/CANDIDATE"
-        },
-        {
-          "type": "correction",
-          "detail": "Tue EOD log Idul Adha date error: actual is Wed May 27 not Thu May 28"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-27T00:13:58Z",
       "routine": "pre-market",
       "status": "success",
@@ -18937,6 +18907,12 @@
           "detail": "Telegram notification failed via proxy 403; stdout fallback logged"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-31T04:36:37Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Book 100% cash / 0 positions Wk 15 Day 5 Fri; no positions to cut, tighten, or thesis-check. Crisis-track gate ACTIVATED Day 22 persists; 5-of-5 re-entry criteria not concurrent (0.50/5)."
     }
   ],
   "exposure": {
