@@ -1142,6 +1142,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-07-31",
+      "day_label": "Day 75",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6216.27,
+      "ihsg_cumulative_pct": -18.57,
+      "alpha_pct": 15.73,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -14297,7 +14312,7 @@
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
     "ihsg_cumulative_pct": -19.47,
-    "cumulative_alpha_pct": 16.63,
+    "cumulative_alpha_pct": 15.73,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -14307,7 +14322,8 @@
     "cash": 9716207500,
     "cash_pct": 100.0,
     "positions_count": 0,
-    "drawdown_from_peak_pct": -3.1
+    "drawdown_from_peak_pct": -3.1,
+    "updated": "2026-07-31"
   },
   "risk": {
     "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY21-IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17-BRENT-SHOCK-RE-INTENSIFIED-$89-FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED-NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day6-BI-HOLD-DOVISH-ABSORBED-Day9-WARJIYO-RESIGN-Day4-SUCCESSOR-UNNAMED-FOMC-HAWKISH-HOLD-9-3-T+1-US-30Y-5.2%-BLOWOUT-CRISIS-TRACK-ACTIVATED",
@@ -14321,39 +14337,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-07-30"
+    "updated": "2026-07-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-27T00:13:58Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "50-ticker scan complete (market CLOSED Wed-Thu Idul Adha; plan for Fri May 29 reopen + MSCI rebalance day). 4 CANDIDATEs \u22656: PGAS (lead, Abadi LNG + dividend, price-verify Fri binding), ICBP, TLKM, JSMR \u2014 all sub-R:R gated. MIKA/SIDO downgraded SKIP (MSCI Small Cap removal Fri close). KLBF HOLD into Fri. Cumulative trial alpha +17.46%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (Tue EOD anchors; market closed)"
-        },
-        {
-          "type": "research",
-          "detail": "4 CANDIDATEs scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 6/10 \u2014 Abadi LNG offtake + Rp 125.61 dividend; price-spread verify Fri 09:30 binding"
-        },
-        {
-          "type": "research",
-          "ticker": "MSCI",
-          "detail": "Fri May 29 rebalance: MIKA/SIDO/ANTM/AALI/BSDE/13-name removal \u2014 mechanical outflow risk"
-        },
-        {
-          "type": "correction",
-          "detail": "Tue EOD log Idul Adha date error: actual Wed May 27 (not Thu May 28)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-27T02:16:11Z",
       "routine": "market-open",
@@ -18913,6 +18899,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Book 100% cash / 0 positions Wk 15 Day 5 Fri; no positions to cut, tighten, or thesis-check. Crisis-track gate ACTIVATED Day 22 persists; 5-of-5 re-entry criteria not concurrent (0.50/5)."
+    },
+    {
+      "timestamp": "2026-07-31T08:19:26Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Fri Jul 31: IDR 9.72B (0.00%). Cash 100%. Alpha -1.11% vs IHSG +1.11% (Thu sesi I 6,147.96 \u2192 Fri sesi I 6,216.27); cumulative alpha +15.73% (compressed 0.90pp from Thu). Wk 15 CLOSED at 0/3 BUY-slots (15th consecutive 0/3 week). Drawdown -3.10%. No positions.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 75 EOD snapshot committed; RISK-STATE updated; dashboard appended"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -18983,7 +18981,7 @@
       }
     ]
   },
-  "last_updated": "2026-07-31T00:15:00+00:00",
+  "last_updated": "2026-07-31T15:15:00+07:00",
   "market": {
     "foreign_flow_note": "Thu Jul 30 Sesi I marginal net-BUY +Rp 46.91bn all-markets (BBCA +146bn / TLKM +39bn / TINS +37bn / BBNI +29bn / INCO +26bn / MDKA +20bn / MDIA +20bn top-buys; TPIA top-sell) \u2014 1-session tactical bounce coincident with IHSG +0.89% sesi I rebound; NOT 2-of-2 net-BUY confirmation; YTD regular market -Rp 94.09T backdrop; broker summary full-day pending Fri Sesi I follow-through for criterion (d) upgrade evaluation",
     "global_note": "Thu Jul 30 US +1-3% relief rebound: Dow +613pt (+1.2%) / S&P +1.7% / Nasdaq +2.8% on MSFT +16% Azure beat; recovers ~half of Wed -1,153pt worst-since-Apr-2025 rout; US 10Y ~4.68% / 30Y ~5.20% held post-FOMC hawkish-T+1; VIX ~20.66 elevated but off Wed spike; Nikkei +0.71% / Hang Seng +0.2% / Shanghai -0.62% mixed Asia Thu",
