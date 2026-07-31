@@ -14276,12 +14276,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-26T04:39:57Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No action taken. KLBF 945 (+0.53% intraday); hard-cut buffer +7.09%; thesis intact."
-    },
-    {
       "timestamp": "2026-05-26T08:20:22Z",
       "routine": "daily-summary",
       "status": "success",
@@ -18839,6 +18833,47 @@
           "detail": "Day 74 EOD snapshot committed; octuple-plus binding intensified post-FOMC hawkish-hold"
         }
       ]
+    },
+    {
+      "timestamp": "2026-07-31T00:16:02Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 1 candidate scored \u22656: MEDC (Q2 T+0 today). BLOCKED crisis-track. IHSG Thu sesi I 6,147.96 (+0.89%) / sesi II 6,186.36 (+1.56%) rebound. IDR CONFIRMED-HARD-RE-BREACH Day 18 18,045-18,135. Brent $90 elevated. ASII Q2 MISS 1H -19% YoY. Warjiyo Day 5 unnamed. Foreign flow Thu Sesi I +46bn tactical bounce (not trend inflection). 16th consecutive 0/3 BUY-slot week Day 5.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "1 candidate scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 6/10 \u2014 Q2 T+0 today; Brent $90 direct-upside; BLOCKED crisis-track engagement gate"
+        },
+        {
+          "type": "research",
+          "detail": "ASII Q2 MISS 1H26 NI Rp 12.53T -19% YoY / mining -46%; Auto/Industrial sector Fri open negative-setup"
+        },
+        {
+          "type": "research",
+          "detail": "IDR Stage 5 CONFIRMED-HARD RE-BREACH Day 18 persists 18,045-18,135 post-FOMC-hawkish"
+        },
+        {
+          "type": "research",
+          "detail": "Foreign flow Thu Sesi I +46bn tactical bounce NOT 2-of-2 net-BUY confirmation"
+        },
+        {
+          "type": "research",
+          "detail": "Warjiyo BI Governor Day 5 successor UNNAMED; Prabowo-Destry palace meeting Thu no announcement"
+        },
+        {
+          "type": "decision",
+          "detail": "NO NEW ENTRIES \u2014 crisis-track engagement gate ACTIVATED; 5 re-entry criteria 0.50/5 confirming unchanged"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -18876,35 +18911,43 @@
     "brent_intraday_high": 100.65
   },
   "research": {
-    "date": "2026-07-29",
+    "date": "2026-07-31",
     "holiday": false,
-    "as_of_date": "2026-07-29",
+    "as_of_date": "2026-07-31",
     "as_of_time": "07:00",
-    "as_of_label": "Wed Jul 29 07:00 WIB (Wk 15 Day 3 pre-market \u2014 FOMC T+0 / Warjiyo Day 3)",
-    "ihsg_last": 6130.58,
-    "ihsg_last_label": "Tue Jul 28 sesi II final 6,130.58 -0.85% (-55.20 pts) \u2014 Kompas primary; BUMI top loser LQ45 -2.94%; volume 24.87B sh / value Rp 10.70T; 265 adv / 360 dec / 172 unch; only primary consumer +0.52% sector green; EXCL +2.95% AMRT +2.29% top LQ45 gainers idiosyncratic; below 6,200 psychological support CONFIRMED with Warjiyo-shock afternoon selloff",
-    "ihsg_last_sesi_i": 6183.16,
-    "ihsg_last_sesi_i_label": "Tue Jul 28 sesi I 6,183.16 -0.04% (-2.63 pts) \u2014 Kompas primary anchor per sesi-I-to-sesi-I canonical convention retained per Wk 14 weekly-review; KLBF top losers sesi I",
-    "idr_usd": 18087,
-    "idr_usd_label": "IDR/USD ~18,087 mid Wed 07:00 WIB (XE) / ~17,900 BI ref zone; Tue intraday PIERCED 18,000 on Warjiyo aftermath then partial recovery; 16th consecutive marginal sub-Stage-5 session by close but Tue intraday 18k+ pierce = criterion (a) REGRESSED baseline; ~150-337 IDR gap above sub-17,750 crisis-track resolution threshold; STAGE-5-MARGINAL-DE-ARM-CANDIDATE Day 16 with pierce-regression",
-    "coal_price": 130.6,
-    "brent_price": 87.53,
+    "as_of_label": "Fri Jul 31 07:00 WIB (Wk 15 Day 5 pre-market \u2014 FOMC T+2 / Warjiyo Day 5 successor unnamed / MEDC Q2 T+0 today / ASII Q2 MISS post-Thu-close / weekly-review afternoon 16:00 WIB)",
+    "ihsg_last": 6186.36,
+    "ihsg_last_label": "Thu Jul 30 sesi II final 6,186.36 +94.97 pts (+1.56%) \u2014 Kompas rebound reconciliation cross-check vs Wed EOD 6,091.39; broad-based relief rally on IHSG +0.89% sesi I anchor + Wall St relief follow-through post-FOMC-hawkish-T+1 + MSFT +16% Azure beat + tactical bounce recovering ~half Wed -1,153pt Dow rout; INCO/BBCA/BBRI/MDKA sectoral leadership; MAPI top full-day gainer; VIX 20.66 elevated but off Wed spike",
+    "ihsg_last_sesi_i": 6147.96,
+    "ihsg_last_sesi_i_label": "Thu Jul 30 sesi I 6,147.96 +54.37 pts (+0.89%) vs Wed sesi I 6,093.59 \u2014 Kompas + RRI + Suara + Viva 4-source primary anchor per sesi-I-to-sesi-I canonical convention retained per Wk 14 weekly-review; +56.57 pt +0.93% intraday vs Wed all-day close 6,091.39; INCO melejit / BBCA + BBRI meroket sectoral leadership; 468 adv / 167 dec / 148 stag broad-based GREEN reversal from Wed 176/461/154 RED",
+    "idr_usd": 18090,
+    "idr_usd_label": "IDR/USD 18,045 buy / 18,135 sell mid Fri 06:34 WIB BCA E-Rate \u2014 Stage 5 CONFIRMED-HARD RE-BREACH Day 18 persists post-FOMC-hawkish; sub-17,750 3-of-3 now ~295 IDR further-away = criterion (a) STRUCTURALLY DEEPER REGRESSED from Wk 14 close 17,927 baseline; XE mid ~18,090 zone Fri open",
+    "coal_price": 130.2,
+    "brent_price": 89.95,
     "scan_universe": 50,
     "candidates_count": 20,
-    "candidates_ge6_count": 0,
+    "candidates_ge6_count": 1,
     "candidates_actionable_count": 0,
-    "candidates_top_score": 5,
-    "top_candidate": null,
-    "top_candidate_score": 5,
-    "top_candidate_conviction": "N/A (structural 5/10 ceiling under crisis-track engagement gate ACTIVATED + septuple-plus binding stack materially INTENSIFIED via FOMC T+0 binary window Wed 2pm ET + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED + Warjiyo Day 3 successor unnamed + IDR Tue intraday 18k+ pierce regression)",
-    "top_candidate_hook": "No candidates cleared \u22656 threshold; septuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 16 pierce-regressed + BRENT retreat $87 -13.4% wk + foreign-flow 5-CONSECUTIVE net-sell CONFIRMED = STRUCTURAL SELL-SIGNAL BINDING + Trump 10% tariff + Warjiyo Day 3 successor unnamed + Data Quality Day 90 + BI-HOLD-dovish Day 8 + FOMC T+0 imminent binary) binds all 50 tickers to 5/10 ceiling; 14th consecutive 0/3 BUY-slot week trajectory Day 3",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY20 + IDR-STAGE-5-MARGINAL-DE-ARM-CANDIDATE-Day16 + BRENT-SHOCK-RETREATED-$87 + FOREIGN-FLOW-5-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA + BI-HOLD-DOVISH-ABSORBED-Day8 + WARJIYO-BI-GOVERNOR-RESIGN-Day3 + Data-Quality-Gate-Day-90 + FOMC-T+0-BINARY-WEDNESDAY",
-    "top_candidates": []
+    "candidates_top_score": 6,
+    "top_candidate": "MEDC",
+    "top_candidate_score": 6,
+    "top_candidate_conviction": "N/A (crisis-track engagement gate ACTIVATED blocks entry regardless of Q2 print outcome; observation only under gate; 5 re-entry criteria 0.50/5 confirming unchanged from Thu)",
+    "top_candidate_hook": "MEDC Q2 print T+0 TODAY binary with Brent $90 direct-upside re-armed; Q1 baseline rev $668M +22% YoY / NI $67.2M +291% on $75 avg oil; Q2 at $85-90+ avg = material EPS upside optionality (UBS +$10 Brent = +16-19% EPS; MNC TP Rp 1,922); Thu sesi I +3.24% top-LQ45 gainer pre-print positioning; BLOCKED crisis-track (observation only). Only ticker scoring \u22656 among 50-ticker scan; octuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 CONFIRMED-HARD-RE-BREACH-Day18 + BRENT $90 elevated + foreign-flow 6-CONSECUTIVE net-sell CONFIRMED = STRUCTURAL SELL-SIGNAL BINDING + Trump 10% tariff Day 7 + Warjiyo Day 5 successor unnamed + Data Quality Day 92 + BI-HOLD-dovish Day 10 + FOMC-hawkish-hold-T+2 + US-30Y-5.20%-BLOWOUT + ASII-Q2-MISS-1H-19%) binds all other 49 tickers to 5/10 ceiling; 16th consecutive 0/3 BUY-slot week trajectory Day 5",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY22 + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day18 + BRENT-SHOCK-INTENSIFIED-$90 + FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED + NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day7 + BI-HOLD-DOVISH-ABSORBED-Day10 + WARJIYO-BI-GOVERNOR-RESIGN-Day5-SUCCESSOR-UNNAMED + Data-Quality-Gate-Day-92 + FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+2 + US-30Y-YIELD-5.20%-BLOWOUT-PERSIST + ASII-Q2-MISS-1H-19PCT-YoY + MEDC-Q2-T+0-TODAY-BINARY",
+    "top_candidates": [
+      {
+        "ticker": "MEDC",
+        "score": 6,
+        "sector": "Energy/Oil&Gas",
+        "hook": "Q2 print T+0 TODAY binary; Brent $90 direct-upside; Thu sesi I +3.24% top-LQ45 gainer pre-print; BLOCKED crisis-track",
+        "status": "WATCH-BINARY-SKIP"
+      }
+    ]
   },
-  "last_updated": "2026-07-30T15:15:00+07:00",
+  "last_updated": "2026-07-31T00:15:00+00:00",
   "market": {
-    "foreign_flow_note": "Tue Jul 28 all-market -Rp 1.1T NET SELL (Bisnis: TINS-BBCA idiosyncratic net-buy within); 5-CONSECUTIVE-NET-SELL CONFIRMED \u2014 Wk 14 all-week -Rp 3.37T + Mon -Rp 293.4B + Tue -Rp 1.1T = 5-day cum -Rp 3.38T (Kompas Jul 28); YTD -Rp 77.73T; criterion (d) DEEPER REGRESSED to CONFIRMED STRUCTURAL SELL-SIGNAL BINDING 0.50/5",
-    "global_note": "US Tue Jul 28 close MIXED pre-FOMC: S&P 7,413.18 (+0.02%) / Nasdaq 24,932.08 (-0.18%) / Dow 52,210.08 (+0.51%); Asia Tue: Nikkei -3.95% to 62,364.92 MAJOR risk-off / Hang Seng +0.41% to 25,310.85 / Shanghai -1.16% to 3,813.31; VIX 18.19 -2.57% moderate; US 10Y 4.62% -2bp lowest ~1wk on oil-retreat bid; Brent $87.53 -0.94% = -13.4% from Fri $100.65 peak; LME nickel $16,844 -2.46% multi-mo low; CPO MYR 4,519",
-    "fomc_t0": "Wed Jul 29 2pm ET = 01:00 WIB Thu binary window; Fed Chair Warsh consensus HOLD 3.50-3.75% 83-85% Polymarket/CME odds; dovish-cut tail risk on soft US labor prints; USD/IDR spillover binary Thu 07:00 WIB pre-market impacts"
+    "foreign_flow_note": "Thu Jul 30 Sesi I marginal net-BUY +Rp 46.91bn all-markets (BBCA +146bn / TLKM +39bn / TINS +37bn / BBNI +29bn / INCO +26bn / MDKA +20bn / MDIA +20bn top-buys; TPIA top-sell) \u2014 1-session tactical bounce coincident with IHSG +0.89% sesi I rebound; NOT 2-of-2 net-BUY confirmation; YTD regular market -Rp 94.09T backdrop; broker summary full-day pending Fri Sesi I follow-through for criterion (d) upgrade evaluation",
+    "global_note": "Thu Jul 30 US +1-3% relief rebound: Dow +613pt (+1.2%) / S&P +1.7% / Nasdaq +2.8% on MSFT +16% Azure beat; recovers ~half of Wed -1,153pt worst-since-Apr-2025 rout; US 10Y ~4.68% / 30Y ~5.20% held post-FOMC hawkish-T+1; VIX ~20.66 elevated but off Wed spike; Nikkei +0.71% / Hang Seng +0.2% / Shanghai -0.62% mixed Asia Thu",
+    "fomc_t0": "FOMC HAWKISH HOLD 9-3 Wed Jul 29 (Hammack/Kashkari/Logan +25bp dissent) T+2 Fri; US 30Y BLOWOUT 5.20% persists; consensus digestion continues; next FOMC Sept T+7 wks"
   }
 }
