@@ -14298,6 +14298,55 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-08-03",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 T+3 pending disclosure with Brent $85-90+ Q2 avg direct-upside optionality; Q1 baseline NI +291% YoY on $75 avg; MNC TP Rp 1,922.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MEDC Q2 T+3 filing deadline elapsed Jul 31; disclosure pending Mon reconciliation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY25 + CRISIS-TRACK-GATE-ACTIVATED + IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day21 (18,053) + BRENT-SOFTER-$88 + US-30Y-BLOWOUT-5.20%-T+3 + WARJIYO-Day8-SUCCESSOR-UNNAMED + Trump-10pct-tariff-Day10 + Data-Quality-Gate-Day-93 + FOREIGN-FLOW-3-SESSION-NET-BUY-CANDIDATE-INFLECTION"
+        },
+        {
+          "type": "risk",
+          "label": "BLOCKED crisis-track engagement gate; 0.75-1.00/5 re-entry criteria confirming (up ~0.25-0.50pp Wk15 exit via criterion (d) DEEPER PARTIAL SATISFACTION)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track binding \u2014 new entries forbidden regardless of Q2 outcome)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 93 \u2014 yfinance + GoAPI blocked 93 consecutive sessions since Apr 21; per-ticker cluster narrowing UNAVAILABLE; broker.sh quote MEDC returned ERROR"
+        }
+      ],
+      "reasoning": "SKIP per CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (all 5 re-entry criteria not concurrent: IDR sub-17,750 3-of-3 DEEPER REGRESSED at 18,053; cluster convergence FAIL Data Quality Day 93; MSCI/S&P DJI NEGATIVE-LOCKED-DEEPENED; foreign-flow 3-session net-BUY CANDIDATE partial satisfaction only; R:R untestable). MEDC only score-6 candidate on watchlist; all other 49 tickers capped at 5/10 ceiling.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
     }
   ],
   "stats": {
@@ -14340,12 +14389,6 @@
     "updated": "2026-07-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-27T04:38:07Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "IDX closed Idul Adha \u2014 no live mark possible; KLBF frozen at 930 lower-mark (\u22121.59%); thesis intact; no action."
-    },
     {
       "timestamp": "2026-05-27T08:19:24Z",
       "routine": "daily-summary",
@@ -18909,6 +18952,31 @@
           "type": "research",
           "ticker": "MEDC",
           "detail": "score 6/10 \u2014 Q2 T+3 pending disclosure; Brent softer $88; BLOCKED crisis-track (observation only)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-03T02:17:26Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 16 Day 1 NO TRADES. MEDC only score-6 candidate (Q2 T+3 pending disclosure) BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (0.75-1.00/5 re-entry criteria); all other 49 tickers capped 5/10 ceiling. 16th consecutive 0/3 BUY-slot week trajectory Day 1. 100% cash Day 24.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "CRISIS-TRACK gate + Data Quality Day 93 outage"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR CONFIRMED-HARD-ENGAGED Day 21 at 18,053; sub-17,750 3-of-3 DEEPER regressed"
+        },
+        {
+          "type": "warning",
+          "detail": "Foreign flow 3-session net-BUY inflection CANDIDATE (fragile); criterion (d) PARTIAL SATISFACTION"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 93 outage persist; broker.sh quote MEDC returned ERROR"
         }
       ]
     }

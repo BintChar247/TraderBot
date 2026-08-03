@@ -9387,3 +9387,77 @@ Fri Jul 31 sesi I 6,216.27 (Kompas + CNBC Indonesia + Suara + Bisnis + Antara mu
 
 ---
 
+
+## 2026-08-03 (Monday) — Wk 16 Day 1 MARKET-OPEN
+
+### Market-open 09:15 WIB — NO TRADES
+
+**Portfolio state at 09:15 WIB market-open:**
+
+- Broker portfolio: equity 9,716,207,500 IDR / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- 100% cash Day 24 post-KLBF hard-cut carry.
+
+#### 9-gate buy-side checklist per candidate
+
+**MEDC (only score ≥6 candidate — Q2 T+3 pending disclosure; Q1 baseline NI +291% YoY on $75 avg; Brent Q2 avg $85-90+ direct-upside optionality; MNC TP Rp 1,922)** — evaluated then SKIPPED:
+
+- Gate 1 (positions ≤ 6 after fill): PASS
+- Gate 2 (trades this week ≤ 3): PASS (0/3 Wk 16 used)
+- Gate 3 (cost ≤ 20% equity / 5% regime cap): PASS in principle
+- Gate 4 (cost ≤ cash): PASS
+- Gate 5 (catalyst documented in RESEARCH-LOG): PASS (Q2 T+3 pending disclosure)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV > 500K): PASS (mid-cap energy)
+- Gate 8 (lot size 100 multiple): PASS
+- Gate 9 (current price within 3% of planned entry): **FAIL** — `bash scripts/broker.sh quote MEDC` returned `ERROR: _paper_quote cannot produce a price` (Data Quality Gate Day 93 outage persist; multi-source cluster non-convergent per Wks 10-16 pattern)
+
+**Overriding gate — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Hard Rule codified 2026-07-17):** 0% new entries binding until all 5 re-entry criteria concurrent — currently **~0.75-1.00 of 5 confirming** (up ~0.25-0.50pp Wk 15 exit 0.50/5 via criterion (d) DEEPER PARTIAL SATISFACTION candidate from Wk 15 all-week +Rp 7.1T net-BUY breaking 6-CONSECUTIVE-NET-SELL streak). (a) IDR sub-17,750 3-of-3 DEEPER REGRESSED at 18,053 (~303 IDR gap); (b) cluster convergence FAIL Data Quality Day 93; (c) MSCI Info-Flow / S&P DJI NEGATIVE-LOCKED-DEEPENED; (d) foreign-flow 3-session net-BUY CANDIDATE partial only (needs 2-more-session Mon-Tue confirmation); (e) R:R untestable.
+
+All other 49 tickers on watchlist capped at 5/10 ceiling under crisis-track binding.
+
+**Decision: SKIP MEDC. NO TRADES executed.** 16th consecutive 0/3 BUY-slot week trajectory Day 1 baseline.
+
+#### Trades today: 0
+
+- Trades this week: 0/3 (Wk 16 Day 1 open).
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%).
+- Cumulative alpha: +15.47% (approx; IHSG cum from Day 0 baseline 7,634 → Fri Wk 15 sesi II final 6,236.13 = −18.31% vs portfolio cum −2.84%; final Mon sesi I anchor reconciliation deferred to midday).
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged).
+
+#### Open Positions
+
+*(None — book remains fully de-risked Day 24 post-KLBF hard-cut through Wk 16 Day 1 open.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at market-open filing.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Trading NOT halted by P&L caps (CRISIS-TRACK ENGAGEMENT GATE remains binding; no daily/drawdown caps breached).
+
+#### Notes
+
+- **Market-open Wk 16 Day 1 NO TRADES:** MEDC-only score ≥6 candidate (Q2 T+3 pending disclosure; Brent softer $88 sustained direct-upside carry conditional) BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED + Data Quality Day 93 outage + Gate 9 FAIL (`broker.sh quote MEDC` ERROR). All 49 other watchlist tickers capped at 5/10 ceiling under gate binding. Regime label DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY25 persistent from Fri Wk 15 close.
+- **Foreign-flow inflection CANDIDATE:** Wk 15 aggregate +Rp 7.10T NET-BUY (Bisnis/Kompas/RCTI+ 3-source primary) breaks 6-CONSECUTIVE-NET-SELL streak; 3-session net-BUY streak (Wed sesi I +Rp 9.17T CNBC / Thu sesi I +Rp 46.91bn / Fri all-day Kompas net-BUY confirmed). Criterion (d) DEEPER PARTIAL SATISFACTION 0.75-1.00/2 from Wk 15 exit 0.50/2 baseline. Needs Mon-Tue 2-more-session confirmation to solidify 2+ consecutive net-BUY re-confirmation.
+- **IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 21 at 18,053** (JISDOR 18,078; BCA e-Rate 17,990/18,080); sub-17,750 3-of-3 achievement structurally DEEPER REGRESSED ~303 IDR further-away. Warjiyo successor UNNAMED Day 8 (parliament-recess Aug 14 nomination deadline = process delay risk).
+- **US 30Y BLOWOUT 5.20% persist T+3 US business day** (2007-comparable). Fri Aug 1 US: S&P 7,489.72 +0.70% / Nasdaq 25,373.85 +1.00% / Dow 52,485 +0.53% all-time-high territory tech-led (Amazon +15.6% / Alphabet +7.1% / Nvidia +3.5%); VIX ~18-19 de-escalating post-FOMC-hawkish digestion.
+- **Brent $87.93 softer** (Fri Jul 31 close -2.5% wk from Wk 15 peak $90); CPI-vector NEGATIVE moderating but still elevated; MEDC Q2 avg $85-90+ direct-upside optionality thesis intact but blocked by gate.
+- **MEDC Q2 T+3 pending disclosure:** filing deadline elapsed Jul 31; disclosure pending as of Mon Aug 3 pre-market — awaits confirmation via Kompas/CNBC Indonesia/IDX corporate action tape. Observation-only under crisis-track gate. Downside asymmetric-risk if Q2 print disappoints.
+- **Trump 10% Indonesia tariff Day 10** — persistent overlay; export-oriented sectors (textile/apparel/electronics) direct-vector negative.
+- **Book fully de-risked Day 24 post-KLBF cut through Wk 16 Day 1 open:** 100% cash (IDR 9,716,207,500). Zero equity market exposure. Regime + IDR CONFIRMED-HARD-ENGAGED Day 21 + Data Quality Gate Day 93 + Brent $88 sustained + US 30Y 5.2% BLOWOUT + Warjiyo Day 8 unnamed + Trump tariff Day 10 all binding; no re-entry until 5 re-entry criteria concurrent.
+- **Data Quality Gate Day 93 outage persists:** yfinance + GoAPI still blocked (93 consecutive sessions since Apr 21); `broker.sh quote MEDC` returned ERROR at market-open. WebSearch multi-source override operational for macro anchors + top-line ticker prices.
+- **16th consecutive 0/3 BUY-slot week trajectory Day 1:** 45+ cumulative unused candidate-day slots trial-to-date under octuple-plus binding.
+- **Notification path this run:** scripts/notify.sh Telegram send returned HTTP 403 through proxy; stdout fallback emitted (expected in scheduled routine remote environment).
+
+---
