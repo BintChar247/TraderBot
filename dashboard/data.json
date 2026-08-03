@@ -14390,18 +14390,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-27T08:19:24Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-05-27 (Day 28, IDX closed Idul Adha): IDR 9.80B (0.00%). Cum trial alpha +17.71% vs IHSG. KLBF only position; cash 95.08%; trades wk 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 28 snapshot committed (IDX closed Idul Adha; equity carry; cumulative alpha +17.71% via Tue sesi II IHSG anchor correction)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-28T00:00:00+07:00",
       "routine": "pre-market",
       "status": "success",
@@ -18979,6 +18967,12 @@
           "detail": "Data Quality Gate Day 93 outage persist; broker.sh quote MEDC returned ERROR"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-03T04:36:09Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Nothing to cut or tighten."
     }
   ],
   "exposure": {
