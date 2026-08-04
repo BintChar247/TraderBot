@@ -14405,36 +14405,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-28T00:14:19Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "50-ticker scan refreshed (IDX closed Thu cuti bersama). 4 candidates carry-forward \u22656: PGAS (catalyst lead, price-spread converging), ICBP/TLKM (R:R-binding), JSMR (R:R TBD). KLBF HOLD into Fri reopen (MSCI rebalance day).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored >=6: PGAS, ICBP, TLKM, JSMR"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 6/10 - Abadi LNG + dividend; price-spread converging; Fri 09:30 verify binding"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "Hard-cut 878; +5.6% buffer at carry 930"
-        },
-        {
-          "type": "risk",
-          "detail": "DEFENSIVE-confirmed; IDR approaching record 17,786; MSCI rebalance Fri close"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-28T02:16:31Z",
       "routine": "market-open",
       "status": "warning",
@@ -18953,6 +18923,35 @@
         {
           "type": "research",
           "detail": "Day 76 EOD snapshot committed; broker reconciled 0 positions; RISK-STATE.json + dashboard/data.json updated; Telegram 403 proxy fallback stdout"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-04T00:15:07Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. TLKM 6/10 candidate (Q2 T+1 Wed binary + Mon foreign top-buy). MEDC 6\u21925 (Brent -4.6% dilutes upside). Major regime-softening: Trump-Iran de-escalation Mon \u2192 Brent $83.82 (-4.6%); July CPI 2.88% DOVISH surprise. Foreign flow criterion (d) SETBACK Mon -Rp 363.53B. All 50 blocked by crisis-track engagement gate.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "1 candidate scored \u22656 (TLKM)"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 \u2014 Q2 Wed Aug 5 T+1 tomorrow binary + Mon foreign top-buy accumulation"
+        },
+        {
+          "type": "macro",
+          "detail": "Brent -4.6% to $83.82 on Trump-Iran de-escalation"
+        },
+        {
+          "type": "macro",
+          "detail": "July CPI 2.88% YoY DOVISH surprise (vs June 3.34%, consensus 3.5-3.8%)"
         }
       ]
     }
