@@ -1172,6 +1172,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-04",
+      "day_label": "Day 77",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6270.16,
+      "ihsg_cumulative_pct": -17.87,
+      "alpha_pct": 15.03,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -14499,12 +14514,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-28T08:17:44Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 29 EOD (Thu, IDX CLOSED cuti bersama Idul Adha): equity 9.802B unchanged (+0.00% day). KLBF held @ carry 930 (-1.59%; hard-cut 878 +5.59% buffer). Cum. alpha +17.71%. Trades 0/3. Fri reopen = MSCI rebalance day."
-    },
-    {
       "timestamp": "2026-05-28T08:17:58Z",
       "routine": "daily-summary",
       "status": "success",
@@ -19053,6 +19062,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy vacuously (n=0). 100% cash Day 25 post-KLBF cut. Crisis-track engagement gate binding. No action taken."
+    },
+    {
+      "timestamp": "2026-08-04T08:19:50Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 77: IDR 9.716B (0.00%). Alpha -0.58% vs IHSG sesi I +0.58%. 0 positions, 100% cash Day 25. Trades this wk: 0/3. Cum alpha +15.03%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 77 EOD snapshot committed; crisis-track gate persistent"
+        }
+      ]
     }
   ],
   "exposure": {
