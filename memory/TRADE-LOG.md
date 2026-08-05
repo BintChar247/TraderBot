@@ -9632,3 +9632,71 @@ Tue Aug 4 sesi I 6,270.16 (Kompas + Media Indonesia + Bisnis + ANTARA + Romisapu
   5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +15.03% Tue baseline for Wed Wk 16 Day 3 forward (compressed from Mon +15.50%; -0.47pp).
 
 ---
+
+## 2026-08-05 (Wednesday) — Wk 16 Day 3 MARKET-OPEN
+
+### Market-open 09:15 WIB — NO TRADES
+
+**Portfolio state at 09:15 WIB market-open:**
+
+- Broker portfolio: equity 9,716,207,500 IDR / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- 100% cash Day 26 post-KLBF hard-cut carry into Wk 16 Day 3 open.
+
+#### 9-gate buy-side checklist per candidate
+
+**TLKM (score 7/10 highest-of-watchlist — Q2 BEAT confirmed T+0; NI Rp 6.3T +28% YoY / +45% QoQ; 1H26 Rp 11.3T = 55% FY consensus; opex −3% QoQ; highest quarterly since Q3'23; Samuel Sekuritas Buy TP Rp 3,300; consensus 20-analyst Strong Buy TP Rp 3,629)** — evaluated then SKIPPED:
+
+- Gate 1 (positions ≤ 6 after fill): PASS
+- Gate 2 (trades this week ≤ 3): PASS (0/3 Wk 16 used)
+- Gate 3 (cost ≤ 20% equity / 5% regime cap): PASS in principle
+- Gate 4 (cost ≤ cash): PASS
+- Gate 5 (catalyst documented in RESEARCH-LOG): PASS (Q2 BEAT confirmed T+0)
+- Gate 6 (stock, not option/ETF): PASS
+- Gate 7 (ADV > 500K): PASS (mega-cap telco)
+- Gate 8 (lot size 100 multiple): PASS
+- Gate 9 (current price within 3% of planned entry): **FAIL** — `bash scripts/broker.sh quote TLKM` unreliable (Data Quality Gate Day 95 outage persist Wks 10-16; multi-source cluster non-convergent; post-Q2-beat gap-up open Wed likely = drift risk untestable pre-open)
+
+**Overriding gate — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Hard Rule codified 2026-07-17):** 0% new entries binding until all 5 re-entry criteria concurrent — currently **~0.50-0.75/5 confirming** (net-flat from Wk 16 Day 2 Tue exit; Brent-softer $79 Day 2 + CPI 2.88% dovish + IHSG Tue sesi II +1.37% relief-rally + TLKM Q2 BEAT + US 3-index ATH improve regime undertone; MSCI Aug 2026 review NO Indonesia additions reconfirms criterion (c) NEGATIVE-LOCKED-DEEPENED; foreign flow Tue all-day UNRESOLVED). (a) IDR sub-17,750 3-of-3 FAIL at 18,033 (~283 IDR gap; Day 22 DE-ARM-CANDIDATE Day 2 marginal); (b) cluster convergence FAIL Data Quality Day 95; (c) MSCI Info-Flow / S&P DJI NEGATIVE-LOCKED-DEEPENED reconfirmed via Aug review snub; (d) foreign-flow 2+ consecutive net-BUY UNRESOLVED (Tue all-day no source); (e) R:R untestable.
+
+All other 49 tickers on watchlist capped at 5/10 ceiling under crisis-track binding. Property stack (BSDE/CTRA/SMRA/PWON) upgraded 4→5 on Tue sectoral +2.72% + CPI/BI/Brent triple-tailwind; Consumer INDF/ICBP upgraded 4→5 on CPI-dovish + Brent-softer intensification; MEDC downgraded 5→4 on Day 5 disclosure delay + Brent $79 dilutes optionality. All still gate-blocked.
+
+**Decision: SKIP TLKM. NO TRADES executed.** 16th consecutive 0/3 BUY-slot week trajectory Day 3.
+
+#### Trades today: 0
+
+- Trades this week: 0/3 (Wk 16 Day 3).
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%).
+- Cumulative alpha: +15.03% baseline (Wk 16 Day 2 Tue EOD close; IHSG cum from Day 0 baseline 7,634 → Tue sesi I 6,270.16 = −17.87% vs portfolio cum −2.84%; Wed sesi I reconciliation deferred to midday).
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged 30 consecutive sessions).
+
+#### Open Positions
+
+*(None — book remains fully de-risked Day 26 post-KLBF hard-cut through Wk 16 Day 3 open.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at market-open filing.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Trading NOT halted by P&L caps (CRISIS-TRACK ENGAGEMENT GATE remains binding; no daily/drawdown caps breached).
+
+#### Notes
+
+- **TLKM post-Q2-beat = binary catalyst delivered positive** but still blocked by crisis-track engagement gate. Observation-only WATCH-BINARY-DELIVERED-CANDIDATE; Wed session-open reaction (gap-up vs fade) informs Thu pre-market re-rating trajectory.
+- **Regime undertone SOFTENING** — Brent $79 Day 2 -5.85% cumulative -~9% 2-session from Fri $87.93; July CPI 2.88% dovish absorbed Day 2; IHSG Tue sesi II final +1.37% relief-rally; US 3-index ATH Tue overnight; IDR marginal-firmer 18,033 Day 22 DE-ARM-CANDIDATE Day 2. But 5-criteria concurrent-satisfaction test still ~0.50-0.75/5 (unchanged Wk 16 Day 2 exit); MSCI Aug snub reconfirms criterion (c) DEEPER.
+- **Notification path this run:** scripts/notify.sh no-trades summary. Telegram HTTP 403 proxy tunnel failure — stdout fallback used (persistent infra issue).
+- **Data Quality Gate Day 95:** yfinance/GoAPI blocked 95 consecutive sessions since Apr 21; MD_LAST_PRICE_OVERRIDE manual PAPER-STATE.json correction procedure operative (per Wk 14 formal decision).
+- **Carry to midday scan 11:30 WIB:** n=0 positions → mechanically vacuous midday. Watch Tue foreign-flow all-day multi-source reconciliation late-arriving Wed sesi I; TLKM post-Q2-beat session-open reaction; IDR sustained-close vs 18,050 boundary; MEDC Q2 T+5 pending disclosure surprise-release watch; Iran-Hormuz-talks continuation vs failure headline risk.
+
+---

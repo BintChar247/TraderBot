@@ -14471,6 +14471,100 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-08-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 2026 BEAT confirmed T+0 (NI Rp 6.3T +28% YoY / +45% QoQ; 1H26 55% of FY consensus); score 7/10 highest of watchlist.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 BEAT confirmed T+0: NI +28% YoY / +45% QoQ; 1H26 55% FY consensus"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY27 + IDR-Stage-5-DE-ARM-CANDIDATE-Day2 + Brent-9-softened + CPI-2.88%-dovish + MSCI-Aug-NO-Indonesia-additions"
+        },
+        {
+          "type": "risk",
+          "label": "CRISIS-TRACK ENGAGEMENT GATE ACTIVATED \u2014 ~0.50-0.75/5 re-entry criteria satisfied; criterion (a) IDR sub-17,750 3-of-3 FAIL (~283 IDR gap); (b) cluster convergence FAIL Data Quality Day 95; (c) MSCI/S&P DJI accessibility FAIL-DEEPER; (d) foreign flow Tue UNRESOLVED; (e) R:R untestable"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (BLOCKED at gate; would be 5% cap if lifted)"
+        },
+        {
+          "type": "warning",
+          "label": "Data Quality Gate Day 95 \u2014 yfinance/GoAPI blocked 95 consecutive sessions"
+        }
+      ],
+      "reasoning": "TLKM Q2 BEAT delivered = binary resolved positive; sector-catalyst positive but CRISIS-TRACK ENGAGEMENT GATE binding blocks entry. Observation-only WATCH-BINARY-DELIVERED-CANDIDATE.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "WATCHLIST-49",
+      "action": "SKIP",
+      "date": "2026-08-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "All 49 non-TLKM tickers scored \u22645/10 under crisis-track engagement gate binding ceiling; Property BSDE/CTRA/SMRA/PWON and Consumer INDF/ICBP upgraded 4\u21925 on CPI/BI/Brent triple-tailwind but still capped.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "No ticker scored \u22656 besides TLKM"
+        },
+        {
+          "type": "macro",
+          "label": "Same crisis-track binding as TLKM"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED ceiling 5/10"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked)"
+        }
+      ],
+      "reasoning": "16th consecutive 0/3 BUY-slot week Day 3; regime-alignment PASS not gate over-constraint.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -14513,45 +14607,6 @@
     "updated": "2026-07-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-29T00:12:39Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Fri May 29 (Day 30, Week 6 Day 5 = MSCI rebalance day; IDX reopens after 2-day Idul Adha closure). 50-ticker scan complete; 4 carry-forward candidates >=6 (PGAS/ICBP/TLKM/JSMR) all gated on Fri 09:30 multi-source verify + R:R 2:1. KLBF HOLD primary (mark frozen 930; hard-cut 878). DEFENSIVE 5/5 triggers fired (IDR record 17,850 breached May 27, now 17,695). Cum alpha +17.71% binding to protect through MSCI 15:00 MOC outflow. Brent recovered 6.57. Pre-emptive de-risk: no entries after 13:00 WIB.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (yfinance Day 40 blocked; WebSearch multi-source carry)"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored >=6 (PGAS, ICBP, TLKM, JSMR \u2014 all gated on Fri verify)"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 6/10 \u2014 Abadi LNG offtake confirmed + Rp 125.61 dividend ex-Jun 5; gas-only insulated from Danantara CPO/coal"
-        },
-        {
-          "type": "research",
-          "ticker": "JSMR",
-          "detail": "score 6/10 \u2014 11 analysts Buy/0 Sell; PT 4,509 (+50%); best R:R 2.1-2.2:1 at 2,950-3,000"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD \u2014 519,000 sh @ 945; mark frozen 930 (-1.59%); hard-cut 878; NOT in MSCI removal"
-        },
-        {
-          "type": "risk",
-          "detail": "MSCI rebalance 15:00 WIB MOC = $1.6-1.8B passive outflow; 19 names removed = NO ENTRY"
-        },
-        {
-          "type": "risk",
-          "detail": "IDR record 17,850 BREACHED May 27 (DEFENSIVE 5/5 confirmed); current 17,695 retracement not reversal"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-29T02:21:49Z",
       "routine": "market-open",
@@ -19090,6 +19145,32 @@
         {
           "type": "research",
           "detail": "Property BSDE/CTRA/SMRA/PWON upgraded 4\u21925 on Tue sectoral +2.72%"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-05T02:17:08Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 16 Day 3. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED \u2014 re-entry criteria ~0.50-0.75/5 confirming. TLKM 7/10 (Q2 BEAT delivered) blocked; 49 other tickers capped \u22645/10 under gate ceiling. 16th consecutive 0/3 BUY-slot week Day 3. 100% cash IDR 9.72B; cumulative trial alpha +15.03%.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Score 7/10 Q2 BEAT delivered but crisis-track gate blocks entry"
+        },
+        {
+          "type": "skip",
+          "ticker": "WATCHLIST-49",
+          "detail": "All 49 others capped \u22645/10 under gate ceiling"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (HTTP 403 proxy tunnel); stdout fallback used"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 95 \u2014 yfinance/GoAPI blocked 95 consecutive sessions"
         }
       ]
     }
