@@ -14608,47 +14608,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-05-29T02:21:49Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 4 candidates failed plan-mandated gates: PGAS (IHSG 6,065 < 6,100 floor); ICBP/TLKM/JSMR (sub-2:1 R:R). KLBF held +9.5% unrealized. Discipline preserved into MSCI rebalance close.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "IHSG opened 6,065.63 < 6,100 plan floor"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "R:R sub-2:1 at 6,750-6,900 vs 6,650 entry needed"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "R:R sub-2:1 at 3,050 vs 2,930 entry needed"
-        },
-        {
-          "type": "skip",
-          "ticker": "JSMR",
-          "detail": "3,730 reported vs 2,950-3,000 plan = chase risk + R:R fail"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "+9.5% safe-lower unrealized; stop tightening deferred to midday"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance/GoAPI Day 40 blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification host blocked; logged to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-05-29T04:39:37Z",
       "routine": "midday",
       "status": "success",
@@ -19173,6 +19132,12 @@
           "detail": "Data Quality Gate Day 95 \u2014 yfinance/GoAPI blocked 95 consecutive sessions"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-05T04:35:46Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. No cuts, no stop tightens, no thesis exits."
     }
   ],
   "exposure": {
