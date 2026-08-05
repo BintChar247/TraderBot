@@ -1187,6 +1187,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-05",
+      "day_label": "Day 78",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6363.01,
+      "ihsg_cumulative_pct": -16.65,
+      "alpha_pct": 13.81,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -14593,7 +14608,7 @@
     "updated": "2026-07-31"
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY21-IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-RE-BREACH-Day17-BRENT-SHOCK-RE-INTENSIFIED-$89-FOREIGN-FLOW-6-CONSECUTIVE-NET-SELL-CONFIRMED-NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day6-BI-HOLD-DOVISH-ABSORBED-Day9-WARJIYO-RESIGN-Day4-SUCCESSOR-UNNAMED-FOMC-HAWKISH-HOLD-9-3-T+1-US-30Y-5.2%-BLOWOUT-CRISIS-TRACK-ACTIVATED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY27-IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day22-DE-ARM-CANDIDATE-Day2-BRENT-SOFTER-$79-Day2-FOREIGN-FLOW-TUE-ALL-DAY-UNRESOLVED-NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day12-BI-HOLD-DOVISH-ABSORBED-Day15-WARJIYO-RESIGN-Day10-SUCCESSOR-UNNAMED-FOMC-HAWKISH-HOLD-9-3-T+5-US-30Y-5.20%-BLOWOUT-JULY-CPI-2.88%-DOVISH-ABSORBED-Day2-TLKM-Q2-BEAT-T+0-MSCI-Aug-Snub-Criterion-C-DEEPER-CRISIS-TRACK-ACTIVATED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -14604,22 +14619,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-07-31"
+    "updated": "2026-08-05"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-05-29T04:39:37Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "KLBF +9.52% (safe-lower 1,035) \u2014 first state-machine transition: hard-cut 878 \u2192 10% trailing 931. No cuts, no thesis exits. Data infra Day 40 blocked; spread-discipline defers +15%/+20% tightening.",
-      "actions": [
-        {
-          "type": "stop",
-          "ticker": "KLBF",
-          "detail": "hard-cut 878 \u2192 10% trailing 931 (state transition at +9.52% safe-lower mark)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-05-29T08:20:09Z",
       "routine": "daily-summary",
@@ -19138,6 +19140,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. No cuts, no stop tightens, no thesis exits."
+    },
+    {
+      "timestamp": "2026-08-05T08:21:50Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 16 Day 3: IDR 9.716B (0.00%). Alpha -1.48% vs IHSG (100% cash pays -1.48pp on IHSG relief-rally +1.48%). Cum. return -2.84%, cum. alpha +13.81% (-1.22pp compression Tue\u2192Wed). 0 positions, 0/3 trades this week. Drawdown -3.10%.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 78 EOD snapshot committed. IHSG sesi I 6,363.01 (+1.48% sesi-I-to-sesi-I). Book fully de-risked Day 26. CRISIS-TRACK GATE binding."
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19219,10 +19233,10 @@
       }
     ]
   },
-  "last_updated": "2026-08-05T07:15:26+07:00",
+  "last_updated": "2026-08-05T15:15:00+07:00",
   "market": {
-    "foreign_flow_note": "Wk 15 (Jul 27-31) aggregate +Rp 7.10T NET BUY \u2014 PARTIAL INFLECTION CANDIDATE vs Wk 14 -Rp 3.37T; breaks 6-CONSECUTIVE-NET-SELL streak per RCTI+ / investortalk.id / Bisnis primary; 3 net-buy sessions Wed sesi I +Rp 9.17T CNBC + Thu sesi I +Rp 46.91bn + Fri all-day net-buy Kompas headline; Wk 15 top-buys BBCA-BRPT-MAPI Bisnis market weekly summary; foreign transaction share 34% (vs 31% Wk 14); YTD regular market -Rp ~87T (was -Rp 94.09T pre-Wk-15 + Wk 15 +Rp 7.1T); Mon Sesi I + all-day multi-source reconciliation critical for criterion (d) 2-of-2 net-BUY DEEPER-SATISFACTION solidification",
-    "global_note": "Fri Aug 1 US all-time-high territory: S&P 500 7,489.72 (+0.70%) / Nasdaq 25,373.85 (+1.00%) / Dow 52,485 (+0.53% +277pt); tech-led rally Amazon +15.6% / Alphabet +7.1% / Nvidia +3.5%; Azure/AI capex momentum sustained; US 10Y ~4.65-4.70% / 30Y ~5.20% BLOWOUT persist T+3 US-biz-day; VIX ~18-19 de-escalating off Wed Jul 29 spike (~22); Asia Mon open pending",
-    "fomc_t0": "FOMC HAWKISH HOLD 9-3 Wed Jul 29 (Hammack/Kashkari/Logan +25bp dissent) T+3 US-biz-day Mon Aug 3; US 30Y BLOWOUT 5.20% persist; consensus digestion continues; next FOMC Sept T+6 wks; Jackson Hole late-Aug T+3 wks binary macro-watch"
+    "foreign_flow_note": "Wk 16 Day 3 Wed: Tue Aug 4 all-day foreign flow UNRESOLVED \u2014 multi-source reconciliation pending Thu pre-market; Mon sesi I -Rp 363.53B net-SELL setback confirmed pre-existing; Wk 15 aggregate +Rp 7.10T net-BUY basis; Wed sesi I flow late-arriving Thu pre-market; criterion (d) DEEPER PARTIAL SATISFACTION 0.75-1.00/5 unresolved pending Tue all-day + Wed 2-of-2 confirmation",
+    "global_note": "Tue Aug 4 US 3-index ATH overnight: S&P 500 / Nasdaq / Dow all-time-highs (Tue overnight modest regime-undertone improvement); US 10Y ~4.65-4.70% / 30Y ~5.20% BLOWOUT persist T+5 US-biz-day; Brent softer $79 Day 2 (-5.85% cum -~9% 2-session from Fri $87.93 peak); July CPI 2.88% dovish absorbed Day 2 (marginal hawkish vs 2.7% consensus but dovish YoY trajectory)",
+    "fomc_t0": "FOMC HAWKISH HOLD 9-3 Wed Jul 29 (Hammack/Kashkari/Logan +25bp dissent) T+5 US-biz-day Wed Aug 5; US 30Y BLOWOUT 5.20% persist; US 3-index ATH Tue overnight modest improve regime undertone; next FOMC Sept T+5 wks; Jackson Hole late-Aug T+2 wks binary macro-watch"
   }
 }

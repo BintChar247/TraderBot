@@ -9700,3 +9700,82 @@ All other 49 tickers on watchlist capped at 5/10 ceiling under crisis-track bind
 - **Carry to midday scan 11:30 WIB:** n=0 positions → mechanically vacuous midday. Watch Tue foreign-flow all-day multi-source reconciliation late-arriving Wed sesi I; TLKM post-Q2-beat session-open reaction; IDR sustained-close vs 18,050 boundary; MEDC Q2 T+5 pending disclosure surprise-release watch; Iran-Hormuz-talks continuation vs failure headline risk.
 
 ---
+
+### 2026-08-05 EOD (Day 78, Wed — Week 16 Day 3; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY27; IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day22-DE-ARM-CANDIDATE-Day2 (marginal-firmer 18,033 ~283 IDR sub-17,750 gap); BRENT-SOFTER-$79-Day2 (-9% cum 2-session from Fri $87.93); FOREIGN-FLOW-TUE-ALL-DAY-UNRESOLVED-Wed-sesi-I-pending; WARJIYO-BI-GOVERNOR-RESIGN-Day10-SUCCESSOR-UNNAMED (parliament-recess Aug 14 nomination deadline T-9 US-biz-day); NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day12; BI-HOLD-DOVISH-ABSORBED-Day15; Data-Quality-Gate-Day-95; FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+5; US-30Y-YIELD-5.20%-BLOWOUT-PERSIST; US-3-INDEX-ATH-Tue-overnight-improve; JULY-CPI-BPS-2.88%-DOVISH-ABSORBED-Day2; TLKM-Q2-BEAT-CONFIRMED-T+0 (NI Rp 6.3T +28% YoY / +45% QoQ; 1H26 55% FY consensus); MSCI-Aug-2026-review-NO-Indonesia-additions-criterion-c-DEEPER-NEGATIVE-LOCKED-DEEPENED; MEDC-Q2-T+5-PENDING-DISCLOSURE; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%) — 100% cash Day 26 post-KLBF hard-cut; no positions to mark-to-market
+- IHSG daily: +1.48% (sesi-I-to-sesi-I canonical per Wk 14 weekly-review decision: Tue Aug 4 sesi I 6,270.16 → Wed Aug 5 sesi I 6,363.01 = +92.85 pt +1.48%; multi-source Kompas / Media Indonesia / Bisnis / Money Kompas / Disway / Liputan6 / Investor.id / Bloomberg Technoz / RRI / Romisaputra 10-source convergent primary sesi I 6,363.01 "IHSG Sesi I 5 Agustus 2026 Naik 43 Poin ke 6.363,01, KLBF Top Gainers" Kompas headline; +24.42 pt / +0.39% intraday session-gain vs open 6,338.59; opened +20.19 pt +0.32%. Sesi II 14:12 WIB snapshot 6,352.32 (+0.52% intraday, marginal fade -10.69 pt from sesi I close). Sesi II final pending post-close reconciliation deferred to Thu pre-market.)
+- Daily alpha: -1.48% (portfolio 0.00% vs IHSG sesi I +1.48%; 100%-cash defensive posture receives NEGATIVE ALPHA on materially-positive IHSG sesi-I-to-sesi-I gap; Wed Wk 16 Day 3 pays 1.48pp single-session cost of zero-participation — largest single-session negative-alpha payment in Wk 16)
+- Cash: IDR 9,716,207,500 (100.00% of equity — full cash defensive posture Day 26 post-KLBF hard-cut into Wk 16 Day 3 close)
+- Trades today: 0 (Wk 16 Day 3 NO TRADES; TLKM score 7/10 candidate SKIPPED at market-open per gate 9 fail Data Quality Day 95 + CRISIS-TRACK ENGAGEMENT GATE binding; midday scan mechanically vacuous n=0)
+- Trades this week: 0/3 (Wk 16 Day 3 — 16th consecutive 0/3 BUY-slot week trajectory Day 3)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%) (unchanged 30 consecutive sessions; from IDR 10,000,000,000 paper starting capital)
+- Cumulative alpha: +13.81% (IHSG cum from Day 0 baseline 7,634 → Wed sesi I 6,363.01 = −16.65% vs portfolio cum −2.84%; -1.22pp compression from Tue Wk 16 Day 2 +15.03% via IHSG sesi I +1.48% while portfolio flat; structural trajectory 7.53pp below reconciled Day 50 +21.34% baseline — widens 1.22pp from Tue 6.31pp gap; largest single-session compression of Wk 16 to date)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged 30 consecutive sessions; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book fully de-risked Day 26 post-KLBF hard-cut through Wk 16 Day 3 close.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### IHSG anchor reconciliation
+
+Wed Aug 5 sesi I 6,363.01 (Kompas + Media Indonesia + Bisnis + Money Kompas + Disway + Liputan6 + Investor.id + Bloomberg Technoz + RRI + Romisaputra 10-source convergent primary; sesi I close +43.40 pt +0.69% intraday vs open 6,338.59; +92.85 pt +1.48% vs Tue sesi I 6,270.16 anchor per sesi-I-to-sesi-I canonical convention per Wk 14 weekly-review decision). Opening +20.19 pt +0.32% at 6,338.59. Top gainers sesi I: KLBF (healthcare-Q2-earnings-tailwind pattern — irony noted vs Jul 6 hard-cut). Sectoral leadership: IDX Basic Materials +2.34% / IDX Health +1.94% / IDX Property +1.84% (property stack breakout continuation Tue → Wed sustained; healthcare rebound; basic materials Q2-earnings-tailwind). Nine sectors positive. Volume 20.6bn shares / Rp 7.9T sesi I. Advance-decline 436 up / 179 down / 1,782 unchanged (broad participation). Sesi II 14:12 WIB snapshot 6,352.32 (+0.52% intraday, marginal -10.69 pt fade from sesi I close). Sesi II final pending post-close reconciliation Thu pre-market.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted by P&L caps.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L Wk 16 Day 3 0.00% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (crisis-track engagement gate ACTIVATED remains binding — regime/IDR-CONFIRMED-HARD-ENGAGED-Day22-DE-ARM-CANDIDATE-Day2/Brent-$79-Day2/foreign-flow-Tue-all-day-UNRESOLVED/tariff-Day12/data-quality-Day-95/Warjiyo-Day10/FOMC-hawkish-hold-T+5/US-30Y-5.20%-BLOWOUT/July-CPI-2.88%-dovish-absorbed-Day2/TLKM-Q2-BEAT-confirmed/MSCI-Aug-snub/MEDC-Q2-T+5-pending all binding; no daily/drawdown caps breached).
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 26 post-KLBF cut into Wk 16 Day 3 close.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul).
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Wed sesi I 6,363.01 = **−16.65%** (+1.22pp reduction of IHSG loss from Tue sesi I −17.87% via IHSG sesi I +1.48% Wed Wk 16 Day 3).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged 30 consecutive sessions; 100% cash zero-participation Day 26).
+- **Cumulative alpha = +13.81%** (-1.22pp compression from Tue +15.03% via IHSG sesi I +1.48% while portfolio flat; structural trajectory 7.53pp below reconciled Day 50 +21.34% baseline — widens 1.22pp from Tue 6.31pp gap; largest single-session compression of Wk 16 to date).
+- Alpha runway forward: fully-cash defensive book zero equity exposure Wk 16 Day 3 pays 1.48pp single-session negative alpha on Q2-earnings-tailwind + softer-Brent + dovish-CPI regime-undertone-improvement IHSG rally continuation; cumulative alpha compresses to +13.81% Wk 16 Day 3 baseline. Underlying re-entry gate still binding via crisis-track engagement gate ACTIVATED codified + FOMC hawkish-hold-T+5 + IDR CONFIRMED-HARD-ENGAGED Day 22 DE-ARM-CANDIDATE Day 2 + US 30Y 5.20% BLOWOUT persist + Brent $79 softer Day 2 + foreign-flow Tue all-day UNRESOLVED + Warjiyo Day 10 successor unnamed + Trump 10% tariff Day 12 + MEDC-Q2-T+5 pending disclosure + MSCI-Aug-snub-criterion-c-DEEPER-NEGATIVE-LOCKED.
+
+#### Notes
+
+- **EOD Wk 16 Day 3 no trades / no positions:** Book fully de-risked Day 26 continues into Wk 16 Day 3 close. Zero equity market exposure. Midday scan mechanically vacuous (n=0 positions). Market-open TLKM-only score 7/10 candidate BLOCKED by gate 9 fail (Data Quality Day 95 outage untestable) + CRISIS-TRACK ENGAGEMENT GATE. All 49 other watchlist tickers capped 5/10 ceiling under gate binding.
+- **IHSG Wed Wk 16 Day 3 sesi I +1.48% sesi-I-to-sesi-I:** materially-positive relief-rally continuation vs Tue sesi I 6,270.16 anchor; sesi I +0.69% intraday session-gain vs open 6,338.59 (opened +0.32%, extended gains materially); Kompas + Media Indonesia + Bisnis + Money Kompas + Disway + Liputan6 + Investor.id + Bloomberg Technoz + RRI + Romisaputra 10-source convergent primary sesi I 6,363.01; top gainer KLBF (healthcare-earnings-tailwind — noteworthy irony vs Jul 6 hard-cut); sectoral leadership Basic Materials +2.34% / Health +1.94% / Property +1.84%; nine sectors positive; volume 20.6bn / Rp 7.9T; broad breadth 436-up / 179-down / 1,782-flat. Sesi II 14:12 WIB 6,352.32 (+0.52%, marginal fade -10.69 from sesi I close). Sesi II final pending post-close reconciliation Thu pre-market.
+- **IDR gate status Wed EOD:** IDR-STAGE-5-CONFIRMED-HARD-ENGAGED Day 22 DE-ARM-CANDIDATE Day 2 (marginal-firmer 18,033 ~283 IDR sub-17,750 gap; criterion (a) DE-ARM-CANDIDATE marginal); JISDOR/BCA e-Rate reconciliation deferred to Thu pre-market. Warjiyo Day 10 successor UNNAMED (parliament-recess Aug 14 nomination deadline T-9 US-biz-day tightening window).
+- **Foreign-flow criterion (d) Tue all-day UNRESOLVED persist into Wed EOD:** Tue all-day multi-source reconciliation still pending; Wed sesi I flow likely inflight (late-arriving Thu pre-market). Criterion (d) DEEPER PARTIAL SATISFACTION 0.75-1.00/5 unresolved — Tue net-BUY sesi II reversal (implied by IHSG +0.97% all-day close) supportive but unconfirmed by primary flow source.
+- **Brent softer $79 Day 2 persistent:** MACRO-REGIME.md status softer -5.85% cum -~9% 2-session from Fri $87.93 peak; CPI-vector NEGATIVE moderating; MEDC Q2 avg $85-90+ direct-upside optionality thesis DILUTED by $79 spot (MEDC downgraded 5→4 at market-open).
+- **NEW-TRUMP-10PCT-TARIFF-INDONESIA overlay Day 12 (Section 301 effective Jul 24):** regime overlay persistent; direct-vector negative for export-oriented sectors + broad IDR downside pressure sustained.
+- **Perry Warjiyo resignation overlay Day 10 (successor UNNAMED; Destry Damayanti acting; parliament-recess Aug 14 nomination deadline T-9 US-biz-day):** governance transition uncertainty compounds; monetary policy continuity risk short-term; IDR-defensive stance further weakened medium-term (dovish successor risk).
+- **FOMC HAWKISH HOLD 9-3 (3 hikers Hammack/Kashkari/Logan dissenting) T+5 US business day Wed Aug 5:** US 10Y ~4.65-4.70% / US 30Y BLOWOUT 5.20% crisis-level persist T+5. US 3-index ATH Tue overnight = modest regime-undertone improvement. Overnight US tape reconciliation deferred Thu pre-market.
+- **July CPI BPS 2.88% dovish absorbed Day 2:** below 2.7% consensus est marginal downside vs printed 2.88% (mildly hawkish surprise vs sell-side but dovish YoY trajectory); IDR pressure eases slightly.
+- **TLKM Q2 BEAT confirmed T+0 (post-Q2 headline Tue after-hours):** NI Rp 6.3T +28% YoY / +45% QoQ; 1H26 Rp 11.3T = 55% FY consensus; opex −3% QoQ; highest quarterly since Q3'23; Samuel Sekuritas Buy TP Rp 3,300; consensus 20-analyst Strong Buy TP Rp 3,629. WATCH-BINARY-DELIVERED-CANDIDATE. Wed session-open reaction (KLBF top-gainer sesi I, not TLKM per Kompas sesi I framing) suggests distributed rally leadership. Thu pre-market re-rating trajectory pending.
+- **MSCI Aug 2026 semi-annual review NO Indonesia additions:** criterion (c) NEGATIVE-LOCKED-DEEPENED reconfirmed via Aug review snub (Standard Index unchanged; no upgrades). Structural passive-flow-inflow catalyst deferred to Nov 2026 semi-annual review at earliest (T+13 weeks).
+- **MEDC Q2 T+5 pending disclosure:** filing deadline elapsed Jul 31 T+5; disclosure remains pending as of Wed Aug 5 EOD — awaits confirmation via Kompas / CNBC Indonesia / IDX corporate action tape Thu. Observation-only under crisis-track gate. Downside asymmetric-risk if Q2 print disappoints.
+- **Book fully de-risked Day 26 post-KLBF cut through Wk 16 Day 3 close:** 100% cash (IDR 9,716,207,500). Zero equity market exposure Day 26. Regime + IDR CONFIRMED-HARD-ENGAGED Day 22 DE-ARM-CANDIDATE Day 2 + Data Quality Gate Day 95 + Brent $79 softer Day 2 + BI HOLD Day 15 + foreign-flow Tue all-day UNRESOLVED + Trump 10% tariff Day 12 + Warjiyo Day 10 successor unnamed + FOMC hawkish-hold T+5 + US 30Y 5.20% BLOWOUT + July CPI 2.88% dovish absorbed Day 2 + TLKM-Q2-BEAT-observation-WATCH + MSCI-Aug-snub-criterion-c-DEEPER + MEDC-Q2-T+5-pending all binding; no re-entry until 5 re-entry criteria concurrent.
+- **Data Quality Gate Day 95 outage persists:** yfinance + GoAPI still blocked (95 consecutive sessions since Apr 21); WebSearch multi-source override operational (used for IHSG Wed sesi I 10-source primary). MD_LAST_PRICE_OVERRIDE fix status deferred per prior weekly-review decisions.
+- **16th consecutive 0/3 BUY-slot week Day 3:** 47+ cumulative unused candidate-day slots trial-to-date; octuple-plus binding + hawkish-FOMC-T+5 + IDR-Day22-DE-ARM-Day2 + Brent-$79-Day2 + Trump-tariff-Day12 + Warjiyo-Day10 + TLKM-Q2-BEAT-observation + MSCI-Aug-snub + MEDC-Q2-T+5-pending + US-30Y-5.20%-BLOWOUT + July-CPI-2.88%-dovish-Day2 all binding — Wk 16 Day 3 closes at 0/3.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 78, Wk 16 Day 3). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%).
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Carry-over to Thu Aug 6 07:00 WIB pre-market (Wk 16 Day 4):**
+  1. Thu pre-market reads Wed sesi II final IHSG (pending post-close reconciliation) + Wed IDR sustained close vs Stage 5 CONFIRMED-HARD-ENGAGED DE-ARM boundary (sub-17,750 3-of-3 progress from Day 2 marginal-firmer 18,033) + Tue all-day + Wed foreign flow multi-source reconciliation + overnight US tape post-FOMC hawkish-hold T+5 US 30Y 5.20% blowout continuation + US 3-index ATH Tue continuation + Brent $79 softer Day 2→3 zone + MEDC Q2 T+5 disclosure surprise-release watch + TLKM post-Q2-beat Day 2 momentum trajectory.
+  2. **Foreign-flow criterion (d) resolution watch Thu:** if Tue all-day + Wed net-BUY confirmed 2-of-2 = criterion (d) UPGRADE to FULLY SATISFIED 1/5; if setback = criterion (d) DEGRADE to 0.50/5.
+  3. **IDR Stage 5 DE-ARM-CANDIDATE Day 3 watch:** Wed sustained-close vs Stage 5 CONFIRMED-HARD-ENGAGED threshold + Warjiyo Day 11 successor announcement watch (parliament-recess Aug 14 nomination deadline T-8 US-biz-day tightening window).
+  4. **TLKM re-rating Day 2 watch:** Wed sesi I distributed-leadership (KLBF top-gainer not TLKM) informs whether Q2 BEAT catalyst has been distributed or persist. Thu pre-market pending.
+  5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +13.81% Wed baseline for Thu Wk 16 Day 4 forward (compressed from Tue +15.03%; -1.22pp — largest single-session compression Wk 16 to date).
+
+---
