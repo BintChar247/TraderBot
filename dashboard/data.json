@@ -14717,47 +14717,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-01T02:19:06Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "0 trades placed Day 31. PGAS/ICBP failed multi-source \u22642% spread gate; TLKM +24.6% chase + R:R inverted; JSMR R:R 1.62:1 sub-2:1. KLBF HOLD +9.52% trailing 931. Week 7 0/3 slots preserved.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "plan gate (a) multi-source cluster not verified \u22642%; only stale Mar 5 print returned"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "gate 9 chase FAIL: live 3,650 vs plan \u22642,930 = +24.6% drift; R:R inverted"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "multi-source spread ~18% (TradingView 6,900 vs Investing.com 8,100\u20138,250); gate 9 drift +3.8%"
-        },
-        {
-          "type": "skip",
-          "ticker": "JSMR",
-          "detail": "R:R 1.62:1 sub-2:1 plan threshold; no pullback to \u22642,950 entry zone"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "+9.52% safe-lower carry; state-2 trailing 10% @ 931; midday tightening eval pending"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance Day 41 blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification fell back to stdout (host not in allowlist)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-01T04:38:22Z",
       "routine": "midday",
       "status": "success",
@@ -19260,6 +19219,12 @@
           "detail": "Data Quality Gate Day 96 outage persists (yfinance 403 + GoAPI unset)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-06T04:36:30Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions open (100% cash Day 27). Midday scan mechanically vacuous. No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
