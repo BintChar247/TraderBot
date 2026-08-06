@@ -1202,6 +1202,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-06",
+      "day_label": "Day 79",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6351.34,
+      "ihsg_cumulative_pct": -16.8,
+      "alpha_pct": 13.96,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -14687,8 +14702,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -19.47,
-    "cumulative_alpha_pct": 15.73,
+    "ihsg_cumulative_pct": -16.8,
+    "cumulative_alpha_pct": 13.96,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -14716,12 +14731,6 @@
     "updated": "2026-08-05"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-01T04:38:22Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "IDX closed Hari Lahir Pancasila \u2014 no trading session. KLBF held; frozen carry mark 1,035 (+9.52%); state-2 trailing 10% @ 931. No cuts, no tightening, no thesis breaks possible during closure."
-    },
     {
       "timestamp": "2026-06-01T08:18:13Z",
       "routine": "daily-summary",
@@ -19225,6 +19234,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions open (100% cash Day 27). Midday scan mechanically vacuous. No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-08-06T08:23:48Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 16 Day 4: IDR 9,716,207,500 (0.00% day). Alpha +0.18% vs IHSG -0.18%. 0 positions. Trades this week: 0/3. Cum alpha +13.96% (+0.15pp expansion \u2014 first Wk 16 alpha-expansion single-session). Book de-risked Day 27.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 79 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19298,7 +19319,7 @@
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY28 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day23-DE-ARM-CANDIDATE-Day3 + BRENT-SNAP-BACK-$83.72-CPI-RELIEF-WINDOW-NARROWING + Q2-GDP-5.29%-BEAT-BUT-SLOWED + IHSG-Wed-SESI-I-+1.48% + TLKM-POST-Q2-BEAT-FADED-5% + US-3-INDEX-ATH-continuation + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER + FOREIGN-FLOW-TUE+WED-UNRESOLVED + WARJIYO-Day-11 + Trump-tariff-Day13 + Data-Quality-Gate-Day-96 + FOMC-HAWKISH-HOLD-T+6 + MEDC-Q2-T+6-WATCH-BINARY-SKIP-NEG-DEEPER",
     "top_candidates": []
   },
-  "last_updated": "2026-08-06T07:00:00+07:00",
+  "last_updated": "2026-08-06T15:15:00+07:00",
   "market": {
     "foreign_flow_note": "Wk 16 Day 3 Wed: Tue Aug 4 all-day foreign flow UNRESOLVED \u2014 multi-source reconciliation pending Thu pre-market; Mon sesi I -Rp 363.53B net-SELL setback confirmed pre-existing; Wk 15 aggregate +Rp 7.10T net-BUY basis; Wed sesi I flow late-arriving Thu pre-market; criterion (d) DEEPER PARTIAL SATISFACTION 0.75-1.00/5 unresolved pending Tue all-day + Wed 2-of-2 confirmation",
     "global_note": "Tue Aug 4 US 3-index ATH overnight: S&P 500 / Nasdaq / Dow all-time-highs (Tue overnight modest regime-undertone improvement); US 10Y ~4.65-4.70% / 30Y ~5.20% BLOWOUT persist T+5 US-biz-day; Brent softer $79 Day 2 (-5.85% cum -~9% 2-session from Fri $87.93 peak); July CPI 2.88% dovish absorbed Day 2 (marginal hawkish vs 2.7% consensus but dovish YoY trajectory)",
