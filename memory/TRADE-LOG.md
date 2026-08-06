@@ -9779,3 +9779,16 @@ Wed Aug 5 sesi I 6,363.01 (Kompas + Media Indonesia + Bisnis + Money Kompas + Di
   5. Defensive posture 100% cash provides maximum optionality; cumulative alpha +13.81% Wed baseline for Thu Wk 16 Day 4 forward (compressed from Tue +15.03%; -1.22pp — largest single-session compression Wk 16 to date).
 
 ---
+
+### 2026-08-06 09:15 WIB — MARKET-OPEN Wk 16 Day 4 (Thursday) — NO TRADES
+
+- **Action:** NO TRADES. 16th consecutive 0/3 BUY-slot week Day 4. 100% cash preserved (IDR 9,716,207,500).
+- **Portfolio pre-open:** equity 9,716,207,500 / cash 9,716,207,500 / positions 0 / realised_pnl −294,172,500 / unrealised 0.
+- **Trades this week (Wk 16 to date):** 0 of 3 slots used.
+- **Candidates evaluated:** 0 tickers scored ≥6/10. Prior sole top candidate TLKM downgraded 7→5 post-Wed FADE-ON-BEAT (margin B2C concern surfaced despite Q2 headline BEAT NI Rp 6.3T +28% YoY). MEDC downgraded 4→3 on Day 6 disclosure delay = WATCH-BINARY-SKIP-NEG-DEEPER protocol. 8 tickers at 5/10 gate-ceiling (Banking Big-4 + PGAS + INDF + TLKM). 15 at 4/10. 27 at ≤3/10.
+- **9-gate outcome:** Not applied (no candidate ≥6/10 to deep-dive).
+- **Regime binding block:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY28 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day23-DE-ARM-CANDIDATE-Day3 (18,037 marginal-firmer vs 18,033 Tue) + BRENT-SNAP-BACK-$83.72-Day1 (Aug 6 05:30 ET +5.6% from Aug 5 close $79.26 on Iran-Hormuz talks stall) + Q2-GDP-5.29%-BEAT-BUT-SLOWED-vs-Q1-5.61% + IHSG-Wed-SESI-I-+1.48%-relief-rally-continuation + TLKM-POST-Q2-BEAT-FADED-5%-MARGIN-B2C-CONCERN + US-3-INDEX-ATH-Aug-5-close (S&P 7,736.52 +1.79% / Nasdaq 26,584.99 +2.59% / Dow 54,085.88 +1.71%) + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER-NEGATIVE-LOCKED + FOREIGN-FLOW-TUE+WED-STILL-UNRESOLVED (Day 2 pending; late-arriving Stockbit/CNBC/Bisnis needed) + WARJIYO-Day-11-SUCCESSOR-UNNAMED (parliament-recess Aug 14 T-8 US-biz-day tightening) + Trump-10PCT-tariff-Day-13 + Data-Quality-Gate-Day-96 (yfinance 403 + GoAPI unset) + FOMC-HAWKISH-HOLD-T+6-US-30Y-5.20%-BLOWOUT-PERSIST + JULY-CPI-BPS-2.88%-DOVISH-ABSORBED-Day3 + MEDC-Q2-T+6-STILL-PENDING-DISCLOSURE-WATCH-BINARY-SKIP-NEG-DEEPER. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding until all 5 re-entry criteria satisfied concurrently; current scoring ~0.50-0.75/5 confirming (0pp net shift from Wk 16 Day 3 Wed exit — TLKM fade removes tactical positive; Brent snap-back removes CPI-relief momentum; Q2 GDP BEAT supportive but slowdown mixed).
+- **Eagerness check:** Passed (SKIP). No thesis compelling enough to override crisis-track gate; TLKM fade-on-beat removes the last remaining candidate with pre-existing catalyst optionality; regime undertone-softening trajectory of Wk 16 Day 2-3 STALLS Day 4 via TLKM fade + Brent snap-back headwinds.
+- **MISTAKES.md cross-check:** No candidate matches documented mistake pattern (BBRI banking macro-shock / ITMG commodity-Q1-miss / ADRO sector-policy-shock / KLBF data-outage-carry-drift + buyback-expiry). Broader lesson observed: post-Q2-beat FADE-ON-BEAT (TLKM) is a NEW cautionary pattern that reinforces the current SKIP discipline.
+- **Notification path:** scripts/notify.sh Telegram no-trades summary sent.
+
