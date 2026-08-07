@@ -14781,52 +14781,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-02T02:19:30Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 5 entry candidates (PGAS/TLKM/ICBP/JSMR/MYOR) deferred to midday per plan-mandated pre-11:00 WIB rule on gap-reopen catch-up tape (4-day IDX pause + MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR 17,970 record-breach catch-up). KLBF HOLD +9.52% trailing 931.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh @ 945; mark 1,035 carry; +9.52%; trailing 10% @ 931 (hwm 1,035); state-2; tightening eval deferred to midday on cluster narrowing"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "Plan-mandated pre-11:00 WIB defer; gap-reopen catch-up tape risk; re-gate midday on cluster \u22642% + IHSG sesi I \u22656,100 + IDR <17,900"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Plan-mandated pre-11:00 WIB defer; Mon residual chase risk Investing.com 3,650 vs plan \u22642,930 = +24.6%; re-gate midday on cluster + R:R"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "Plan-mandated pre-11:00 WIB defer; Mon multi-source spread ~18% pending Tue resolution"
-        },
-        {
-          "type": "skip",
-          "ticker": "JSMR",
-          "detail": "Plan-mandated pre-11:00 WIB defer; Mon R:R 1.62:1 < plan 2:1; re-gate midday on cluster + R:R"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "Plan-mandated pre-11:00 WIB defer; no pullback to plan entry \u22642,300 (Fri carry 2,360); watch midday"
-        },
-        {
-          "type": "warning",
-          "detail": "Data infra Day 42 \u2014 yfinance + GoAPI both blocked since Apr 21; broker.sh quote returns ERROR for all non-held tickers and stale entry-price stub for KLBF"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram host not in environment allowlist; notification printed to stdout via notify.sh fallback"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-02T04:39:04Z",
       "routine": "midday",
       "status": "success",
@@ -19298,6 +19252,12 @@
           "detail": "Telegram send failed (proxy 403 = Data Quality Gate Day 97 pattern); stdout fallback logged"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-07T04:35:44Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 16 Day 5 midday mechanically vacuous. 0 open positions, 100% cash. No cuts/tightens/thesis exits possible."
     }
   ],
   "exposure": {
