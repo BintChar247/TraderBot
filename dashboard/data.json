@@ -14689,6 +14689,55 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "WATCHLIST-50",
+      "action": "SKIP",
+      "date": "2026-08-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "No ticker scored \u22656/10 Wk 16 Day 5; 7 tickers at 5/10 gate-ceiling (BBCA/BBRI/BMRI/BBNI/PGAS/INDF/TLKM); MEDC downgraded 3\u21922 post-Q2 T+7 disclosure DOWNSIDE ($67M vs Q1 ref $75M); all 42+ others capped \u22644/10 under crisis-track engagement gate binding.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MEDC Q2 disclosed DOWNSIDE $67M vs Q1 $75M ref = thesis WEAKENED; TLKM Q2 EBITDA BEAT mixed vs Wed -5% margin-B2C-fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY29 + IDR sub-18K Day 2 CONFIRMED (17,897) = criterion (a) DE-ARM material acceleration; re-entry gate ~1.0/5 confirming"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED binding 0% new entries; Data Quality Gate Day 97 outage persists (yfinance blocked)"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "Destry frontrunner BI Governor = dovish-successor bias risk CONFIRMED = IDR-defensive weakening structural medium-term"
+        }
+      ],
+      "reasoning": "16th consecutive 0/3 BUY-slot week Day 5 locks Wk 16 zero-trade week; regime undertone softening resumes via IDR DE-ARM acceleration + July CPI 2.88% deflation Day 4 but MEDC disclosure DOWNSIDE + Destry dovish-successor keep re-entry gate bounded <1.5/5.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -14731,41 +14780,6 @@
     "updated": "2026-08-05"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-02T00:13:27Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market 2026-06-02 (Tue Week 7 Day 2; post 4-day closure). 50 tickers scanned. 6 candidates scored \u22656: PGAS (7), TLKM (7), ICBP (6), JSMR (6), MYOR (6), KLBF-HELD (8). Regime DEFENSIVE-INTENSIFIED unchanged; 5/5 triggers. IDR partial improvement 17,813-17,824. Newcastle 39.90 favourable but coal sector EXITED. Tue gap-reopen catch-up tape risk binds: no entries pre 11:00 WIB; no entries after 13:00 WIB.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 watchlist tickers scanned (all 14 sectors)"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656 (PGAS, TLKM, ICBP, JSMR, MYOR, KLBF-HELD)"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Abadi LNG 15-yr HoA + Danantara SOE channel; entry \u22641,850 on cluster narrow"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 7/10 \u2014 AGM Jun 8 buyback Rp1T agenda confirmed T-4 trading days"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "score 8/10 \u2014 HELD; trailing 10% @ 931; midday cluster re-eval for +15%\u21927% / +20%\u21925%"
-        },
-        {
-          "type": "macro",
-          "detail": "Tue gap-reopen risk: MSCI T+2/T+3 + Danantara Phase 1 Day 2 + IDR record breach catch-up tape"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-02T02:19:30Z",
       "routine": "market-open",
@@ -19262,6 +19276,26 @@
         {
           "type": "macro",
           "detail": "IDR sub-18K Day 2 confirmed 17,897 firming -140 IDR overnight"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-07T02:19:19Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 16 Day 5. 0 tickers scored \u22656/10; crisis-track engagement gate ACTIVATED (0% new entries binding). MEDC downgraded 3\u21922 post-Q2 T+7 disclosure DOWNSIDE ($67M vs Q1 $75M ref). 16th consecutive 0/3 BUY-slot week LOCKED. Book 100% cash IDR 9.72B Day 28.",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED Wk 16 Day 5; re-entry gate ~1.0/5 (+0.25pp via IDR sub-18K Day 2)"
+        },
+        {
+          "type": "warning",
+          "detail": "MEDC Q2 T+7 DISCLOSED DOWNSIDE $67M vs Q1 baseline $75M ref = MEDC 3\u21922 delist candidate for Wk 17+"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (proxy 403 = Data Quality Gate Day 97 pattern); stdout fallback logged"
         }
       ]
     }

@@ -9890,3 +9890,26 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   5. **Weekly Review Wk 16 Fri 16:00 WIB:** Wk 16 letter grade (0-trades / +alpha via zero-participation on IHSG net-negative week / crisis-track binding); MISTAKES.md / PATTERNS.md / CONVICTION-LOG.md / MACRO-REGIME.md refresh consideration. TLKM-POST-Q2-BEAT-FADE pattern candidate for PATTERNS.md formalization (needs 2+ observations — 1 datapoint Thu).
   6. Defensive posture 100% cash provides maximum optionality; cumulative alpha +13.96% Thu baseline for Fri Wk 16 Day 5 forward (+0.15pp expansion from Wed +13.81%; first single-session alpha-expansion Wk 16).
 
+
+---
+
+### 2026-08-07 09:15 WIB — MARKET-OPEN Wk 16 Day 5 (Friday) — NO TRADES
+
+- **Action:** No trades placed. 16th consecutive 0/3 BUY-slot week Day 5 locks Wk 16 as 16th zero-trade week. Book fully de-risked Day 28 continues (100% cash IDR 9,716,207,500; 0 open positions).
+- **Broker portfolio pull:** `{mode: paper, equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500}` — n=0 open positions confirmed.
+- **Broker positions pull:** `{mode: paper, positions: [], count: 0}`.
+- **Regime status carry-over from pre-market:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY29 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day24-DE-ARM-CANDIDATE-Day4-SUB-18K-CONFIRMED-Day2 (17,897 vs 18,037 Wed = -140 IDR firming overnight; criterion (a) DE-ARM material acceleration; 147 IDR from sub-17,750 target) + MEDC-Q2-T+7-DISCLOSED-DOWNSIDE-$67M-vs-Q1-$75M-ref (MEDC downgraded 3→2 delist candidate) + TLKM-POST-Q2-EBITDA-BEAT-RIKOPEDIA-MIXED-FADE-DAY-3 (EBITDA BEAT +9% YoY margin 50.4% vs Wed -5% intraday margin-B2C-fade unresolved stabilization) + DESTRY-FRONTRUNNER-BI-GOVERNOR-Day12-DOVISH-CONTINUITY + Q2-GDP-5.29%-BEAT-BUT-SLOWED-Day2 + BRENT-Wed-$83.72-SNAP-BACK-Thu-$81-MEAN-REVERT-Day1 + IHSG-Thu-SESI-II-6343.71-MARGINAL-RED-0.12% + US-3-INDEX-PULLBACK-FROM-ATH-Day1-MODEST + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER + FOREIGN-FLOW-TUE+WED+THU-STILL-UNRESOLVED-Day3 + WARJIYO-Day-12-DESTRY-FRONTRUNNER (parliament-recess Aug 14 nomination deadline T-7 US-biz-day) + Trump-tariff-Day-14 + Data-Quality-Gate-Day-97 + FOMC-HAWKISH-HOLD-T+7 + JULY-CPI-2.88%-DEFLATION-Day4 + NFP-T+1 + JACKSON-HOLE-T+2wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED. 5-criteria re-entry gate scoring ~1.0/5 confirming (+0.25pp modest improvement from Wk 16 Day 4 exit via IDR sub-18K Day 2; criterion (a) DE-ARM progression accelerating; criteria (b)/(c)/(d)/(e) unchanged binding).
+- **Watchlist scan result (per pre-market):** 0 tickers scored ≥6/10 Wk 16 Day 5. 7 tickers at 5/10 gate-ceiling (BBCA/BBRI/BMRI/BBNI + PGAS + INDF + TLKM). MEDC downgraded 3→2 post-Q2 T+7 disclosure DOWNSIDE (NI US$67M vs Q1 baseline ref ~$75M; Wk 15 upside optionality thesis REVERSED; MEDC becomes delist candidate for Wk 17+). TLKM 5/10 mixed hold — Q2 EBITDA BEAT structural POSITIVE vs Wed -5% margin-B2C-fade tactical NEGATIVE; Fri Day 3 fade-vs-stabilize binary informs Wk 17 re-rating. All 42+ other watchlist tickers capped ≤4/10 under gate binding.
+- **9-gate checklist:** NOT ADJUDICATED (0 candidates ≥6/10). CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = P10 top-level gate binding = 0% new entries regardless of underlying gate outcomes.
+- **Eagerness check:** PASS (defensive-posture value proposition holds under +0.25pp modest re-entry gate improvement Day 5; not urgent-trade — better to preserve alpha and wait for concurrent 5-criteria satisfaction; would-be trade rejected on regime, not on individual thesis quality).
+- **Trades placed:** 0 (Wk 16 Day 5 NO TRADES; 16th consecutive 0/3 BUY-slot week formally closes with Wk 16 Day 5 = zero-trade week locked).
+- **Trades this week:** 0/3 (Wk 16 close-of-BUY-window).
+- **Dashboard decision entry:** WATCHLIST-50 SKIP appended to `dashboard/data.json` decisions[]; total decisions now 276.
+- **Notification path:** scripts/notify.sh Telegram no-trades summary sent.
+- **Persistence:** `bash scripts/log-activity.sh --routine market-open --status warning --actions '[]'` logged; TRADE-LOG.md + dashboard/data.json committed.
+- **Carry-over to 11:30 WIB midday scan (Wk 16 Day 5):**
+  1. Midday scan mechanically vacuous — n=0 positions, no cuts / no stop tightenings / no thesis exits.
+  2. Wk 16 Day 5 sesi I IHSG anchor + IDR sustained-close Day 5 watch (sub-17,900 zone extension vs re-lock ≥18,000 partial) informs 15:15 WIB EOD reconciliation and 16:00 WIB Weekly Review Wk 16.
+  3. Foreign-flow Tue+Wed+Thu multi-source late-arrival Day 4 watch — critical criterion (d) evolution binary for Weekly Review structural sell-signal reconciliation.
+  4. TLKM post-Q2-beat Day 3 intraday fade-vs-stabilize binary — informs binary-BEAT-FADE pattern candidate for PATTERNS.md formalization at Weekly Review (needs 2+ observations; TLKM alone is 1 datapoint).
+  5. Weekly Review Wk 16 at 16:00 WIB: letter grade + MISTAKES.md / PATTERNS.md / CONVICTION-LOG.md / MACRO-REGIME.md refresh consideration; TLKM-FADE-ON-BEAT-vs-EBITDA-BEAT pattern candidate; Destry-frontrunner-dovish-continuity regime implication; MEDC-Q2-DOWNSIDE-DOWNGRADE 3→2 delist candidate.
