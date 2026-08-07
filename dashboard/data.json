@@ -1217,6 +1217,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-07",
+      "day_label": "Day 80",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6388.48,
+      "ihsg_cumulative_pct": -16.32,
+      "alpha_pct": 13.48,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -14741,8 +14756,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 74,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 74)",
+    "trial_days_elapsed": 75,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 75 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -14751,8 +14766,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -16.8,
-    "cumulative_alpha_pct": 13.96,
+    "ihsg_cumulative_pct": -16.32,
+    "cumulative_alpha_pct": 13.48,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -14763,10 +14778,10 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-07-31"
+    "updated": "2026-08-07"
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY27-IDR-STAGE-5-CONFIRMED-HARD-ENGAGED-Day22-DE-ARM-CANDIDATE-Day2-BRENT-SOFTER-$79-Day2-FOREIGN-FLOW-TUE-ALL-DAY-UNRESOLVED-NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day12-BI-HOLD-DOVISH-ABSORBED-Day15-WARJIYO-RESIGN-Day10-SUCCESSOR-UNNAMED-FOMC-HAWKISH-HOLD-9-3-T+5-US-30Y-5.20%-BLOWOUT-JULY-CPI-2.88%-DOVISH-ABSORBED-Day2-TLKM-Q2-BEAT-T+0-MSCI-Aug-Snub-Criterion-C-DEEPER-CRISIS-TRACK-ACTIVATED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY29-IDR-STAGE-5-MARGINAL-BOUNDARY-Day24-DE-ARM-CANDIDATE-Day4-SUB-18K-CONFIRMED-Day2-MEDC-Q2-T+7-DOWNSIDE-DOWNGRADE-3-TO-2-TLKM-POST-Q2-EBITDA-BEAT-MIXED-FADE-DAY-3-DESTRY-FRONTRUNNER-Day12-Q2-GDP-BEAT-BUT-SLOWED-Day2-BRENT-Thu-$81-MEAN-REVERT-Day1-FOREIGN-FLOW-TUE+WED+THU-UNRESOLVED-Day3-Trump-tariff-Day14-BI-HOLD-Day17-Data-Quality-Day-97-FOMC-HAWKISH-HOLD-T+7-US-30Y-5.20%-BLOWOUT-US-3-INDEX-PULLBACK-Day1-JULY-CPI-Day4-MSCI-Aug-Snub-Deeper-NFP-T+0/1-Jackson-Hole-T+2wks-CRISIS-TRACK-ACTIVATED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -14777,15 +14792,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-05"
+    "updated": "2026-08-07"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-02T04:39:04Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Day 32 (Tue, Wk7 D2) midday gap-reopen catch-up tape: 0 cuts, 0 stop tightenings, 0 thesis exits, 0 buys. KLBF +9.52% safe-lower carry (cluster spread 9.7% > 2% blocks state-3/state-4 tightening triggers; Yahoo single-source 1135 = +20.11% ARMS State 4 pending narrowing). State 2 trail 10% @ 931 unchanged. IHSG sesi I +1.41% defensive recovery; IDR 17,813 cooling vs 17,820 trigger."
-    },
     {
       "timestamp": "2026-06-02T08:20:41Z",
       "routine": "daily-summary",
@@ -19258,6 +19267,22 @@
       "routine": "midday",
       "status": "success",
       "summary": "Wk 16 Day 5 midday mechanically vacuous. 0 open positions, 100% cash. No cuts/tightens/thesis exits possible."
+    },
+    {
+      "timestamp": "2026-08-07T08:24:33Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 16 Day 5: IDR 9.716B (+0.00% today; 32 sessions flat). IHSG sesi I +0.58%. Alpha -0.58% today / cum +13.48%. 100% cash. Trades this week 0/3 \u2014 16th consecutive 0/3 week LOCKED. MEDC Q2 T+7 disclosed DOWNSIDE 7M downgrade 3\u21922 delist candidate. TLKM EBITDA-beat mixed fade Day 3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 80 EOD snapshot committed"
+        },
+        {
+          "type": "regime",
+          "detail": "MEDC downgraded 3\u21922 delist candidate; IDR sub-18K Day 2 DE-ARM acceleration; Wk 16 LOCKED at 0/3"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19269,8 +19294,8 @@
   },
   "macro": {
     "regime": "DEFENSIVE \u2014 INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY28 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day23-DE-ARM-CANDIDATE-Day3 + BRENT-SNAP-BACK-$83.72-CPI-RELIEF-WINDOW-NARROWING + Q2-GDP-5.29%-BEAT-BUT-SLOWED + IHSG-Wed-SESI-I-+1.48% + TLKM-POST-Q2-BEAT-FADED-5% + US-3-INDEX-ATH-continuation + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER + FOREIGN-FLOW-TUE+WED-UNRESOLVED + WARJIYO-Day-11 + Trump-tariff-Day13 + Data-Quality-Gate-Day-96 + FOMC-HAWKISH-HOLD-T+6 + MEDC-Q2-T+6-WATCH-BINARY-SKIP-NEG-DEEPER",
-    "regime_overlay": "Mixed regime undertone Day 4: positive US ATH + Q2 GDP BEAT + IHSG Wed +1.48% offset by TLKM post-Q2-beat FADE -5% + Brent snap-back $83.72 (Iran talks stall) + MEDC Q2 Day 6 delay + foreign flow Tue+Wed still UNRESOLVED. Net 0pp shift 5-criteria gate scoring.",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY29 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day24-DE-ARM-CANDIDATE-Day4-SUB-18K-CONFIRMED-Day2 + MEDC-Q2-T+7-DOWNSIDE-DOWNGRADE-3\u21922-DELIST-CANDIDATE + TLKM-POST-Q2-EBITDA-BEAT-MIXED-FADE-Day-3 + DESTRY-FRONTRUNNER-BI-GOV-Day-12-DOVISH-CONTINUITY + Q2-GDP-5.29%-BEAT-BUT-SLOWED-Day2 + BRENT-Thu-$81-MEAN-REVERT-Day-1 + IHSG-Fri-SESI-I-+0.58% + US-3-INDEX-PULLBACK-FROM-ATH-Day-1 + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER-DEEPENED + FOREIGN-FLOW-TUE+WED+THU-UNRESOLVED-Day-3 + WARJIYO-Day-12-DESTRY-FRONTRUNNER + Trump-tariff-Day-14 + Data-Quality-Gate-Day-97 + FOMC-HAWKISH-HOLD-T+7 + US-30Y-5.20%-BLOWOUT-PERSIST + JULY-CPI-2.88%-DOVISH-ABSORBED-Day-4 + NFP-T+0/1 + JACKSON-HOLE-T+2wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime_overlay": "Mixed regime undertone Wk 16 Day 5 close: positive IDR sub-18K Day 2 DE-ARM acceleration + IHSG relief-rally continuation Fri sesi I +0.58% Day 3 of Wk 16 + Q2 GDP 5.29% BEAT (headline) offset by MEDC Q2 T+7 disclosed DOWNSIDE ($67M vs $75M ref) \u2014 MEDC downgraded 3\u21922 delist candidate + TLKM Q2 EBITDA BEAT structural POSITIVE unresolved with -5% margin-B2C-fade Day 3 tactical NEGATIVE + Brent Thu $81 mean-revert Day 1 (Wed $83.72 snap-back partial-reversal) + foreign-flow Tue+Wed+Thu Day 3 UNRESOLVED + Q2 GDP sequentially slower vs Q1 5.61% + US 3-index pullback-from-ATH Day 1 modest cooling + Destry-frontrunner dovish-continuity emerging (parliament-recess Aug 14 T-7 US-biz-day nomination deadline) + NFP T+0/1 binary catalyst overnight + Jackson Hole T+2wks structural Fed signal. 5-criteria re-entry gate scoring ~1.0/5 confirming; criterion (a) DE-ARM material acceleration via IDR sub-18K Day 2; criteria (b)/(c)/(d)/(e) unchanged binding. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED persists \u2014 0% new entries binding until all 5 concurrent.",
     "ihsg_close": 6356,
     "ihsg_close_date": "2026-08-05",
     "ihsg_close_change_pct": 0.57,
@@ -19329,9 +19354,11 @@
     "top_candidate_hook": "NO candidates scored \u22656 Wk 16 Day 5. MEDC downgraded 3\u21922 post-Q2 T+7 DISCLOSURE DOWNSIDE (NI US$67M vs Q1 ~$75M ref = thesis WEAKENED); 7 tickers at 5/10 gate-ceiling (BBCA/BBRI/BMRI/BBNI/PGAS/INDF/TLKM); TLKM held 5/10 pending Fri Day 3 fade-vs-stabilize binary.",
     "top_candidate_conviction": "N/A (crisis-track engagement gate ACTIVATED blocks entry regardless of score; observation only; 5 re-entry criteria ~1.0/5 confirming = +0.25pp modest improvement from Wk 16 Day 4 exit via IDR sub-18K Day 2)",
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY29 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day24-DE-ARM-CANDIDATE-Day4-SUB-18K-CONFIRMED-Day2 + MEDC-Q2-T+7-DISCLOSED-DOWNSIDE-$67M-vs-$75M-Q1 + TLKM-POST-Q2-EBITDA-BEAT-RIKOPEDIA-MIXED-FADE-DAY-3 + BRENT-Wed-$83.72-SNAP-BACK-Thu-$81-MEAN-REVERT-Day1 + DESTRY-FRONTRUNNER-BI-GOVERNOR-Day12-DOVISH-CONTINUITY + Q2-GDP-5.29%-BEAT-BUT-SLOWED-Day2 + IHSG-Thu-SESI-II-6343.71-MARGINAL-RED + US-3-INDEX-PULLBACK-FROM-ATH-Day1-MODEST + MSCI-AUG-NO-INDONESIA-ADDITIONS-CRITERION-C-DEEPER + FOREIGN-FLOW-TUE+WED+THU-STILL-UNRESOLVED-Day3 + WARJIYO-Day12-DESTRY-FRONTRUNNER + Trump-tariff-Day14 + Data-Quality-Gate-Day-97 + FOMC-HAWKISH-HOLD-T+7 + JULY-CPI-2.88%-DEFLATION-Day4 + NFP-T+1 + JACKSON-HOLE-T+2wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "top_candidates": []
+    "top_candidates": [],
+    "last_pre_market": "2026-08-07",
+    "notes": "Wk 16 Day 5 (Friday) CLOSE. 0 candidates \u22656/10. 16th consecutive 0/3 BUY-slot week LOCKED. Weekly Review Wk 16 at 16:00 WIB follows."
   },
-  "last_updated": "2026-08-07T07:00:00+07:00",
+  "last_updated": "2026-08-07T15:15:00+07:00",
   "market": {
     "ihsg_close": 6343.71,
     "ihsg_change_pct": -0.12,
