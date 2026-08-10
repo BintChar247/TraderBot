@@ -14753,6 +14753,251 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cleanest H1 consumer growth (+5.6% YoY revenue vs INDF +4.9%/ICBP +3.9%/UNVR -14.8%); top consumer analyst pick; defensive-fit under DEFENSIVE-INTENSIFIED regime; commodity normalization + cost efficiency tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "H1 2026 revenue +5.6% YoY strongest consumer print; Q2 T+ elapsed already digested"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR sub-17,800 Fri baseline ~17,795 DE-ARM Day 5 accelerating (~45 IDR gap from sub-17,750) + NFP-COLD Fri -23K bullish rates + IHSG Fri Aug 7 6,409.65 3-mo high + US 30Y 5.21% BLOWOUT persist; re-entry gate ~1.5/5 confirming (+0.5pp improvement)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED binding 0% new entries; Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked 98 consecutive sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 98 blocks per-ticker multi-source cluster narrowing to \u22643-source \u22644% relaxed at candidate entry price"
+        }
+      ],
+      "reasoning": "Score 7/10 (first \u22656 candidate week in 16 weeks alongside ISAT/BBRI/INDF/CTRA) \u2014 but crisis-track gate ACTIVATED blocks entry; even if gate lifts, DQG Day 98 blocks cluster convergence for entry-price cluster. NOT ACTIONABLE Wk 17 Day 1.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 blowout NI +175% YoY + Rev +14% + Fiber Infra deal (Arsari/Northstar 55%) closed Jul 2 = structural transformation catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 NI +175% YoY + Fiber Infra deal closed Jul 2 = fresh binary catalyst; Fri Aug 7 sesi I +16.32% surge = catalyst already chased"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR sub-17,800 Fri baseline ~17,795 DE-ARM Day 5 accelerating (~45 IDR gap from sub-17,750) + NFP-COLD Fri -23K bullish rates + IHSG Fri Aug 7 6,409.65 3-mo high + US 30Y 5.21% BLOWOUT persist; re-entry gate ~1.5/5 confirming (+0.5pp improvement)"
+        },
+        {
+          "type": "risk",
+          "label": "CHASE-RISK: Gate Check 9 (price \u22643% above planned entry) fails immediately post-Fri +16.32% surge; textbook chased-entry setup"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "DO NOT CHASE \u2014 wait 3-5 session pullback minimum (typical post-catalyst gap-and-fill window); crisis-track gate also binding"
+        }
+      ],
+      "reasoning": "Score 7/10 CANDIDATE-CHASE-RISK \u2014 Gate 9 (price drift \u22643% from planned entry) fails immediately after Fri +16.32% surge; crisis-track gate also blocks. Double-block. Watch for 50% retracement pullback minimum.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Foreign net-buy IDR 559B 5-day (Aug 3-7) breaks 6-consecutive-sell streak \u2014 first bank flow-inflection since May; JPMorgan upgrade Big-4 banks; potential criterion (d) 2-of-2 confirmation Mon.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign flow criterion (d) 1-of-2 partial recovery Fri sesi I +Rp 343B; Mon confirmation would break 6-CONSECUTIVE-NET-SELL structural sell-signal binding"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR sub-17,800 Fri baseline ~17,795 DE-ARM Day 5 accelerating (~45 IDR gap from sub-17,750) + NFP-COLD Fri -23K bullish rates + IHSG Fri Aug 7 6,409.65 3-mo high + US 30Y 5.21% BLOWOUT persist; re-entry gate ~1.5/5 confirming (+0.5pp improvement)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED binding 0% new entries; Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked 98 consecutive sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "If Mon net-sell = criterion (d) resets 0-of-2 = DEEPER re-arm structural sell-signal binding"
+        }
+      ],
+      "reasoning": "Score 6/10 CANDIDATE \u2014 highest-priority Wk 17 CANDIDATE if criterion (d) 2-of-2 confirms Mon sesi I; but crisis-track gate + DQG Day 98 block entry today. Watch condition: 2-of-2 net-BUY + IDR sub-17,750 Day 1 sustains.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD +Rp 58B structural relative-flow strength; H1 rev +4.9% YoY; H2 2026 sell-side positive on commodity normalization + cost efficiency; Q2 GDP consumption +2.67% tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 GDP consumption +2.67% + H2 commodity normalization + cost efficiency tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR sub-17,800 Fri baseline ~17,795 DE-ARM Day 5 accelerating (~45 IDR gap from sub-17,750) + NFP-COLD Fri -23K bullish rates + IHSG Fri Aug 7 6,409.65 3-mo high + US 30Y 5.21% BLOWOUT persist; re-entry gate ~1.5/5 confirming (+0.5pp improvement)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED binding 0% new entries; Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked 98 consecutive sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 98 blocks per-ticker multi-source cluster narrowing to \u22643-source \u22644% relaxed at candidate entry price"
+        }
+      ],
+      "reasoning": "Score 6/10 CANDIDATE \u2014 structural defensive quality; crisis-track gate + DQG Day 98 block entry. Watch condition: gate lifts + cluster narrows + R:R \u22652:1.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-10",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Strongest property analyst call TP 1,300 overweight; VAT incentive extension tailwind + BI-rate-sensitive (post-BI HOLD + Destry dovish-frontrunner continuity supportive).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "100% VAT incentive extension supportive; property H2 pre-sales narrative"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR sub-17,800 Fri baseline ~17,795 DE-ARM Day 5 accelerating (~45 IDR gap from sub-17,750) + NFP-COLD Fri -23K bullish rates + IHSG Fri Aug 7 6,409.65 3-mo high + US 30Y 5.21% BLOWOUT persist; re-entry gate ~1.5/5 confirming (+0.5pp improvement)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED binding 0% new entries; Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked 98 consecutive sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A (blocked; 5% max cap in force if gate lifts)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 98 blocks per-ticker multi-source cluster narrowing to \u22643-source \u22644% relaxed at candidate entry price"
+        }
+      ],
+      "reasoning": "Score 6/10 CANDIDATE \u2014 structural sector tailwind; no discrete near-term catalyst. Crisis-track gate + DQG Day 98 block entry. Watch condition: gate lifts + cluster narrows + R:R \u22652:1.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -14795,41 +15040,6 @@
     "updated": "2026-08-07"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-03T00:14:44Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 watchlist tickers Wed Jun 3. 7 candidates \u22656: KLBF (HOLD, 8), TLKM (7, AGM Jun 8 Rp1T buyback T+3), PGAS (7, Abadi LNG, spread-gated), ICBP (6, CPI/IDR import-cost risk), INDF (6, anchor unresolved), MYOR (6, MENA-export IDR-weak tailwind), JSMR (6, rate-DCF sensitive). DEFENSIVE-INTENSIFIED regime deepening: IDR 17,879 above 17,820 escalation +59bps, CPI 3.08% May re-accel, DHE SDA + Danantara Phase 1 Day 3 both effective. 0-2 entries target Wed-Fri; eagerness check binds.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 7/10 \u2014 AGM Mon Jun 8 14:00 WIB Rp1T buyback approval T+3 trading days = highest-conviction near-term catalyst"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Abadi LNG + SOE channel + DHE risk; cluster spread 3rd session gating"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HELD; HOLD action; state-1 trailing 931; +15/+20% triggers armed pending cluster \u22642%"
-        },
-        {
-          "type": "regime",
-          "detail": "DEFENSIVE-INTENSIFIED deepening; IDR 17,879 above 17,820 escalation by 59bps; CPI 3.08% May re-accel; 5% sizing cap; eagerness check binds"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-03T02:19:31Z",
       "routine": "market-open",
@@ -19306,6 +19516,43 @@
           "detail": "crisis-track engagement gate ACTIVATED = 0% new entries; 5-criteria re-entry scoring ~1.5/5"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-10T02:17:50Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Wk 17 Day 1 \u2014 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA \u2014 first \u22656 pool in 16 wks) ALL blocked by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (5-criteria re-entry gate ~1.5/5 confirming; +0.5pp improvement via NFP-cold + IDR sub-17,800 DE-ARM Day 5 + foreign flow 1-of-2 partial). ISAT additionally fails Gate 9 (chased +16.32% Fri). DQG Day 98 blocks cluster convergence for all. 17th consecutive 0/3 BUY-slot week begins.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "score 7 SKIP crisis-track gate ACTIVATED + DQG Day 98"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "score 7 CHASE-RISK SKIP Gate 9 fail post-Fri +16.32% + crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6 SKIP crisis-track gate + criterion (d) needs 2-of-2 confirmation"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 6 SKIP crisis-track gate + DQG Day 98"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "score 6 SKIP crisis-track gate + DQG Day 98"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked); WebSearch multi-source override operational for macro anchors only"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19412,7 +19659,7 @@
     "last_pre_market": "2026-08-10",
     "notes": "Wk 17 Day 1 (Monday) pre-market. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS but ALL BLOCKED by crisis-track gate ACTIVATED + DQG Day 98. 17th consecutive week beginning 0/3 BUY-slot allocation. Highest-impact Mon watch: foreign flow criterion (d) 2-of-2 confirmation."
   },
-  "last_updated": "2026-08-10T00:15:00Z",
+  "last_updated": "2026-08-10T09:15:00+07:00",
   "market": {
     "ihsg_close": 6409.65,
     "ihsg_change_pct": 1.04,
