@@ -1232,6 +1232,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-10",
+      "day_label": "Day 81",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6378.39,
+      "ihsg_cumulative_pct": -16.45,
+      "alpha_pct": 13.61,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -15001,8 +15016,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 75,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 75 counting-trading-days)",
+    "trial_days_elapsed": 76,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 76 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -15011,8 +15026,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -16.32,
-    "cumulative_alpha_pct": 13.48,
+    "ihsg_cumulative_pct": -16.45,
+    "cumulative_alpha_pct": 13.61,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -15023,7 +15038,7 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-08-07"
+    "updated": "2026-08-10"
   },
   "risk": {
     "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day25-DE-ARM-CANDIDATE-Day5-SUB-17,800-APPROACH + NFP-COLD-BULLISH-RATES-BEARISH-USD-Day1 + IHSG-Fri-6409.65-3-MO-HIGH + ISAT-Q2-BLOWOUT-Fri-+16.32%-CHASE-RISK + FOREIGN-FLOW-Fri-SESI-I-+Rp343B-BUY-1-of-2-PARTIAL-RECOVERY + BRENT-$83.55-MODERATE + US-30Y-5.21%-BLOWOUT-PERSIST + Data-Quality-Gate-Day-98 + DESTRY-Day-15-FRONTRUNNER-DOVISH-CONTINUITY + FOMC-HAWKISH-HOLD-T+10-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-17 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
@@ -15037,15 +15052,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-07"
+    "updated": "2026-08-10"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-03T04:39:28Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "KLBF cluster spread persists ~42% (745-1,060 across 4 sources) - data-quality discipline blocks both -7% hard cut on 745 outlier and state-machine tightening triggers (+15%/+20% ARMED). KLBF thesis INTACT (buyback Rp500B active through Jul 2). IDR cooling to 17,813-17,865 cluster (convergent <2% spread, below 17,900 sustain). 0 actions. Week 7 0/3 slots preserved. Cumulative alpha +17.10%."
-    },
     {
       "timestamp": "2026-06-03T08:21:29Z",
       "routine": "daily-summary",
@@ -19512,6 +19521,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (n=0). Book fully de-risked Day 29 (100% cash). No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-08-10T08:28:35Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 17 Day 1: IDR 9.716B (+0.00% today, unchanged 33 sess). Alpha +0.16% vs IHSG sesi I -0.16%. Cum alpha +13.61% (+0.13pp expansion). 0 positions (Day 29 cash). 0/3 trades Wk 17 begins (17th consecutive 0-trade wk). 5 candidates \u22656/10 first-time-in-16-wks all gate-blocked.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 81 EOD snapshot committed; IHSG sesi I 6378.39 (3-source primary Disway/Infobanknews/RRI); sesi II ~6423 unconfirmed pending Wk-review reconciliation"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19525,11 +19546,11 @@
     "regime": "DEFENSIVE \u2014 INTENSIFIED",
     "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day25-DE-ARM-CANDIDATE-Day5-SUB-17,800-APPROACH + NFP-COLD-BULLISH-RATES-BEARISH-USD-Day1 + IHSG-Fri-6409.65-3-MO-HIGH + ISAT-Q2-BLOWOUT-Fri-+16.32%-CHASE-RISK + FOREIGN-FLOW-Fri-SESI-I-+Rp343B-BUY-1-of-2-PARTIAL-RECOVERY + BRENT-$83.55-MODERATE + US-30Y-5.21%-BLOWOUT-PERSIST + Data-Quality-Gate-Day-98 + DESTRY-Day-15-FRONTRUNNER-DOVISH-CONTINUITY + FOMC-HAWKISH-HOLD-T+10-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-17 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
     "regime_overlay": "Material re-entry gate improvement Mon Wk 17 Day 1 via cold-NFP macro-shift + IDR sub-17,800 approach + foreign flow 1-of-2 partial recovery. 5-criteria re-entry gate scoring ~1.5/5 confirming (+0.5pp from Wk 16 Day 5 exit 1.0/5). Best re-entry gate scoring since early Wk 15. But 3.5/5 gap remains binding. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS but ALL BLOCKED pre-check by crisis-track gate + DQG Day 98. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED persists \u2014 0% new entries binding until all 5 concurrent.",
-    "ihsg_close": 6409.65,
-    "ihsg_close_date": "2026-08-07",
-    "ihsg_close_change_pct": 1.04,
-    "ihsg_close_basis": "Fri Aug 7 close 6,409.65 (+1.04%, +65.94pt) \u2014 3-mo high; sesi I 6,388.48 + sesi II extension 6,409.65 (+21.17pt sesi-II-vs-sesi-I); Antara primary",
-    "ihsg_cumulative_pct": -16.04,
+    "ihsg_close": 6378.39,
+    "ihsg_close_date": "2026-08-10",
+    "ihsg_close_change_pct": -0.16,
+    "ihsg_close_basis": "Mon Aug 10 sesi I 6,378.39 (-0.49% vs Fri sesi II close 6,409.65; -0.16% sesi-I-to-sesi-I vs Fri sesi I 6,388.48); Disway + Infobanknews + RRI 3-source convergent primary. Sesi II open 6,400.70; Romisaputra late-day headline 'IHSG Hari Ini ke Level 6,423' flags sesi II reversal-recovery \u2014 final sesi II unconfirmed, deferred to Wk 17 Weekly Review reconciliation.",
+    "ihsg_cumulative_pct": -16.45,
     "idr_usd": 17795,
     "idr_usd_date": "2026-08-08",
     "idr_usd_change_pct": -0.57,
@@ -19618,7 +19639,7 @@
     "last_pre_market": "2026-08-10",
     "notes": "Wk 17 Day 1 (Monday) pre-market. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS but ALL BLOCKED by crisis-track gate ACTIVATED + DQG Day 98. 17th consecutive week beginning 0/3 BUY-slot allocation. Highest-impact Mon watch: foreign flow criterion (d) 2-of-2 confirmation."
   },
-  "last_updated": "2026-08-10T09:15:00+07:00",
+  "last_updated": "2026-08-10T15:15:00+07:00",
   "market": {
     "ihsg_close": 6409.65,
     "ihsg_change_pct": 1.04,
