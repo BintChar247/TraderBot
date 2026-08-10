@@ -15041,53 +15041,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-03T02:19:31Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 6 candidates (TLKM/PGAS/ICBP/INDF/MYOR/JSMR) fail multi-source cluster \u22642% data-quality discipline (yfinance Day 43 blocked). IDR 17,899 at 17,900 sustain ladder. KLBF HOLD trailing 931; state-machine ARMED, cluster blocks fire. Week 7 0/3 slots fresh.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "cluster spread ~24% \u2014 Gate 9 fail"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "cluster spread >2% \u2014 Gate 9 fail"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "cluster unresolved \u2014 Gate 9 fail; CPI/IDR import-cost headwind"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "historic anchor 6,925/7,600 unreconciled \u2014 Gate 9 fail"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "no pullback to \u22642,300 \u2014 Gate 9 fail"
-        },
-        {
-          "type": "skip",
-          "ticker": "JSMR",
-          "detail": "3,000/3,730 outlier unresolved \u2014 Gate 9 fail"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh; trailing 931; state-3/state-4 ARMED, cluster blocks fire"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch cluster non-convergence; Telegram 403 host-not-in-allowlist (notification fell back to stdout)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-03T04:39:28Z",
       "routine": "midday",
       "status": "success",
@@ -19553,6 +19506,12 @@
           "detail": "Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked); WebSearch multi-source override operational for macro anchors only"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-10T04:37:12Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy (n=0). Book fully de-risked Day 29 (100% cash). No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
