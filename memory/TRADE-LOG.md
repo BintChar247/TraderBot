@@ -10119,3 +10119,79 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   3. 5 candidates ≥6/10 (MYOR/ISAT/BBRI/INDF/CTRA) first-time-in-16-wks — re-score Tue post-macro-refresh; ISAT chase-fail persist unless Mon consolidates.
   4. Watch Destry nomination T-4 US-biz-day parliament-recess Aug 14 deadline; MEDC delist candidate Wk 17+ WATCHLIST-50 review.
   5. IDR sub-17,750 3-of-3 target ~45 IDR away — critical criterion (a) DE-ARM completion trigger.
+
+
+### 2026-08-11 EOD (Day 82, Tue — Week 17 Day 2; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY31; IDR-STAGE-5-MARGINAL-BOUNDARY-Day26-DE-ARM-CANDIDATE-Day6-STALLED-REVERSED; DESTRY-DAMAYANTI-FORMALLY-NOMINATED-BI-GOV-Day1-DOVISH-CONTINUITY; BRENT-SNAP-UP-$87.72-+4.95%-MEAN-REVERT-BROKEN-Day1; IHSG-Tue-SESI-I-6,309.90-(-1.07%-sesi-I-to-sesi-I); FOREIGN-FLOW-Fri-1-of-2-PARTIAL-TUE-CRITICAL-DATAPOINT-PENDING-RECONCILIATION; US-30Y-5.21%-BLOWOUT-PERSIST-T+11; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day18; BI-HOLD-DOVISH-ABSORBED-Day21; Data-Quality-Gate-Day-101; FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+11-US-BIZ-DAY; JULY-CPI-BPS-2.88%-DOVISH-ABSORBED-Day6; MEDC-Q2-T+11-DOWNSIDE-DOWNGRADE-3→2-DELIST-CANDIDATE; TLKM-POST-Q2-EBITDA-BEAT-MIXED-FADE-DAY-5; MSCI-Aug-2026-review-NO-Indonesia-additions-criterion-c-DEEPER-NEGATIVE-LOCKED-DEEPENED; JACKSON-HOLE-T+2wks; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR +0 (+0.00%) — 100% cash Day 30 post-KLBF hard-cut; no positions to mark-to-market (34 consecutive flat sessions)
+- IHSG daily: −1.07% (sesi-I-to-sesi-I canonical per Wk 14 weekly-review decision: Mon Aug 10 sesi I 6,378.39 → Tue Aug 11 sesi I 6,309.90 = −68.49 pt −1.07%; primary sources Kompas "IHSG Sesi I 11 Agustus 2026 Turun 55 Poin ke 6.309, DEWA Top Loser" + CNBC Indonesia "Penyebab IHSG Kembali di Zona Merah, Sesi 1 Turun 0,97%" + kumparan "IHSG Sesi I Ditutup Merah, Melemah 0,87% ke Level 6.309" + Bloomberg Technoz "Penyebab IHSG Melemah Siang Hari Ini" + Liputan6 "IHSG Hari Ini Merosot ke 6.309" 5-source convergent primary; opened +0.29% at 6,383.31, faded −1.16% intraday to sesi I close on Brent SNAP UP $87.72 (+4.95%) mean-revert-broken + Israel-Iran Hormuz-talks-stall risk premium re-injected. Sectoral leadership sesi I: Industrial −2.08% / Consumer non-primary −1.50% / Property −1.13% / Energy −1.08% / Finance −0.82% (broad-based selling; risk-off session). Advance-decline 160 up / 466 down / 162 unchanged (breadth deeply negative — most negative Wk 17 to date). Sesi II final unconfirmed 3-source ≤2% canonical (intraday sesi II reading 6,280.52 via Tribunnews at ~14:03 WIB further −0.47% from sesi I close; final sesi II deferred to Weekly Review Wk 17 reconciliation.)
+- Daily alpha: +1.07% (portfolio 0.00% vs IHSG sesi I −1.07%; 100%-cash defensive posture pays positive alpha on IHSG Brent-SNAP + risk-off session; Tue Wk 17 Day 2 pays +1.07pp; Wk 17 Day 1-2 cumulative alpha payment +1.23pp; second consecutive positive-alpha session Wk 17)
+- Cash: IDR 9,716,207,500 (100.00% of equity — full cash defensive posture Day 30 post-KLBF hard-cut into Wk 17 Day 2 close)
+- Trades today: 0 (Wk 17 Day 2 NO TRADES; 5 candidates ≥6/10 (MYOR/ISAT/BBRI/INDF/CTRA) unchanged from Wk 17 Day 1; all BLOCKED pre-check by crisis-track gate ACTIVATED (~1.0/5 re-entry, −0.5pp REGRESSED via IDR reversion + Brent SNAP UP + Destry-dovish-continuity formal nomination); midday scan mechanically vacuous n=0)
+- Trades this week: 0/3 (Wk 17 Day 2; 17th consecutive 0/3 BUY-slot week in progress; 52+ cumulative unused candidate-day slots trial-to-date)
+- Phase-to-date P&L: IDR −283,792,500 (−2.84%) (unchanged 34 consecutive sessions; from IDR 10,000,000,000 paper starting capital)
+- Cumulative alpha: +14.51% (IHSG cum from Day 0 baseline 7,634 → Tue sesi I 6,309.90 = −17.34% vs portfolio cum −2.84%; +0.90pp expansion from Mon Wk 17 Day 1 close +13.61% via IHSG sesi I −1.07% while portfolio flat; second consecutive single-session alpha-expansion of Wk 17; structural trajectory 6.83pp below reconciled Day 50 +21.34% baseline — narrows 0.90pp from Mon 7.73pp gap)
+- Drawdown from peak: −3.10% (peak 10,026,617,500 Day 3; today 9,716,207,500 unchanged 34 consecutive sessions; well above −12% warning / −15% hard limit)
+
+#### Open Positions
+
+*(None — book fully de-risked Day 30 post-KLBF hard-cut through Wk 17 Day 2 close.)*
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| — | — | — | — | — | — |
+
+#### Reconciliation: broker vs TRADE-LOG
+
+- Broker portfolio: equity 9,716,207,500 / cash 9,716,207,500 / positions [] / realised_pnl −294,172,500 / unrealised 0.
+- TRADE-LOG Active Positions: 0. Matches broker exactly.
+- No discrepancy at EOD filing.
+
+#### RISK ALERTS
+
+- Daily P&L +0.00% — above −2% daily loss cap. NO alert. Trading not halted by P&L caps.
+- No open positions → no position warning threshold check applicable.
+- Drawdown from peak −3.10% — well above −12% warning / −15% hard limit. NO alert.
+- Weekly P&L Wk 17 Day 2 0.00% — above −5% reduction trigger. NO alert.
+- **Trading NOT halted by P&L caps** (crisis-track engagement gate ACTIVATED remains binding — Wk 17 Day 2 5-criteria re-entry scoring ~1.0/5 REGRESSED −0.5pp from Mon 1.5/5 via IDR reversion + Brent SNAP UP + Destry formal nomination; criteria (a)/(b)/(c)/(d)/(e) all binding; 4/5 gap remains binding for 0% new entries).
+
+#### Sector exposure
+
+- Full cash (100.00%); no active sector exposure Day 30 post-KLBF cut into Wk 17 Day 2 close.
+- All-time trial hard-cut sequence unchanged: BBRI (banking, Apr) / ITMG (coal, Apr) / ADRO (coal, May) / KLBF (healthcare, Jul).
+
+#### Cumulative alpha trajectory
+
+- IHSG cumulative from Day 0 baseline 7,634 → Tue sesi I 6,309.90 = **−17.34%** (+0.89pp deepening of IHSG loss from Mon sesi I −16.45% via IHSG sesi I −1.07% Tue Wk 17 Day 2).
+- Portfolio cumulative from Day 0 baseline 10,000,000,000 → today 9,716,207,500 = **−2.84%** (unchanged 34 consecutive sessions; 100% cash zero-participation Day 30).
+- **Cumulative alpha = +14.51%** (+0.90pp expansion from Mon +13.61% via IHSG sesi I −1.07% while portfolio flat; second consecutive single-session alpha-expansion of Wk 17).
+- Wk 17 Day 2 close intra-week alpha: +1.23pp (Wk 17 Day 1 +0.16 + Day 2 +1.07).
+- Alpha runway forward: fully-cash defensive book zero equity exposure Wk 17 Day 2 pays +1.07pp on IHSG Brent-SNAP risk-off session. Cumulative alpha expands to +14.51%. Re-entry gate scoring ~1.0/5 REGRESSED −0.5pp via IDR reversion + Brent SNAP UP + Destry formal nomination; 4/5 gap binding; criteria (a) DE-ARM stalled/reversed + (b) DQG Day 101 + (c) MSCI-Aug-snub + (d) foreign flow 1-of-2 partial (Tue confirmation critical, deferred) + (e) crisis-track ACTIVATED all binding; 5 candidates ≥6/10 (MYOR/ISAT/BBRI/INDF/CTRA) blocked pre-check.
+
+#### Notes
+
+- **EOD Wk 17 Day 2 no trades / no positions — WEEK 17 CONTINUES NEUTRAL:** Book fully de-risked Day 30 continues into Wk 17 Day 2 close. Zero equity market exposure. Midday scan mechanically vacuous (n=0 positions). Market-open 5 candidates ≥6/10 (MYOR/ISAT/BBRI/INDF/CTRA) all gate-blocked; ISAT also Gate-9 chase-fail persist. 17th consecutive 0/3 BUY-slot week in progress; 52+ cumulative unused candidate-day slots trial-to-date.
+- **IHSG Tue Wk 17 Day 2 sesi I −1.07% sesi-I-to-sesi-I:** materially-negative session from Mon sesi I 6,378.39 anchor to Tue sesi I 6,309.90 (−68.49 pt / −1.07%); sesi I −0.87% headline vs Mon sesi II close 6,365.37. Kompas + CNBC + kumparan + Bloomberg Technoz + Liputan6 5-source convergent primary. Opened +0.29% at 6,383.31, faded −1.16% intraday to sesi I close on Brent SNAP UP $87.72 + Israel-Iran Hormuz-talks-stall risk premium re-injected. Sesi II mid-session reading 6,280.52 (−0.47% from sesi I close) via Tribunnews indicates further weakness; sesi II final unconfirmed 3-source ≤2% canonical — deferred to Weekly Review Wk 17 reconciliation.
+- **IDR gate status Tue EOD:** IDR-STAGE-5-MARGINAL-BOUNDARY Day 26 DE-ARM-CANDIDATE Day 6 STALLED/REVERSED (~17,890 cluster mid vs Fri close 17,795 = +95 IDR mild reversion; sub-17,750 3-of-3 target ~140 IDR away; DE-ARM momentum stalled after 5-session firming trajectory). Destry Damayanti FORMALLY NOMINATED BI Governor Mon Aug 10 = dovish-continuity confirmed medium-term structural criterion (a) sub-17,750 harder to satisfy. Warjiyo Day 16 parliament-recess Aug 14 nomination deadline T-3 US-biz-day.
+- **BRENT SNAP UP $87.72 mean-revert broken Day 1:** +4.95% single-session Brent snap on Israel-Iran Hormuz-talks-stall risk premium re-injection; mean-revert cycle broken; CPI-vector NEGATIVE re-armed; sectoral drag Industrial/Energy leadership; MEDC-Q2-T+11-DOWNSIDE-DOWNGRADE-3→2 still delist candidate.
+- **Foreign-flow criterion (d) Tue sesi I 2-of-2 confirmation CRITICAL DATAPOINT PENDING:** Fri sesi I +Rp 343B buy 1-of-2 partial satisfaction; Tue sesi I flow data pending multi-source reconciliation (Kompas Aug 11 "10 Saham Net Sell Asing IHSG Sesi I 11 Agustus 2026, DSSA Banyak Dilepas" flags foreign net-SELL sesi I — likely 2-of-2 FAIL on Tue; deferred to Weekly Review Wk 17 reconciliation). Full satisfaction pending; criterion (d) improvement trajectory possibly REVERSED.
+- **Destry Damayanti FORMALLY NOMINATED BI Governor Day 1 (dovish-continuity):** Mon Aug 10 formal nomination confirms dovish-continuity emerging governance path; medium-term structural criterion (a) IDR-DE-ARM harder to satisfy under dovish-continuity BI regime; near-term uncertainty resolved (positive for stability) offset by IDR-structural-negative (dovish → weaker IDR pressure sustained).
+- **TLKM post-Q2-EBITDA-beat mixed fade Day 5:** EBITDA BEAT +9% YoY margin 50.4% (structural POSITIVE) vs Wed −5% intraday margin-B2C-fade (tactical NEGATIVE) unresolved stabilization Day 5; Wk 17 Weekly Review will formalize TLKM-FADE-ON-BEAT-vs-EBITDA-BEAT pattern candidate.
+- **NEW-TRUMP-10PCT-TARIFF-INDONESIA overlay Day 18 (Section 301 effective Jul 24):** regime overlay persistent; direct-vector negative for export-oriented sectors + broad IDR downside pressure sustained.
+- **FOMC HAWKISH HOLD 9-3 (3 hikers Hammack/Kashkari/Logan dissenting) T+11 US business day:** US 10Y ~4.67% / US 30Y BLOWOUT 5.21% crisis-level persist T+11. NFP-cold Fri partial offset moderating.
+- **MEDC-Q2-T+11 DELIST CANDIDATE:** MEDC downgraded 3→2 = delist candidate for Wk 17 Weekly Review WATCHLIST-50 review.
+- **MSCI Aug 2026 semi-annual review NO Indonesia additions:** criterion (c) NEGATIVE-LOCKED-DEEPENED reconfirmed. Structural passive-flow-inflow catalyst deferred to Nov 2026 semi-annual review at earliest.
+- **July CPI BPS 2.88% dovish absorbed Day 6:** below 2.7% consensus est marginal downside; IDR pressure eases Day 6 base effect but offset by Brent SNAP UP.
+- **Book fully de-risked Day 30 post-KLBF cut through Wk 17 Day 2 close:** 100% cash (IDR 9,716,207,500). Zero equity market exposure Day 30. All 5 re-entry criteria still binding; gate REGRESSED −0.5pp from Mon 1.5/5 to Tue 1.0/5 via IDR reversion + Brent SNAP UP + Destry-dovish-continuity formal nomination; 4/5 gap binding — 0% new entries until all 5 concurrent.
+- **Data Quality Gate Day 101 outage persists:** yfinance + GoAPI still blocked (101 consecutive sessions since Apr 21); WebSearch multi-source override operational (used for IHSG Tue sesi I 5-source primary). Century-plus-one milestone Day 101 outage.
+- **17th consecutive 0/3 BUY-slot week Wk 17 in progress:** 52+ cumulative unused candidate-day slots trial-to-date; multi-front binding + hawkish-FOMC-T+11 + IDR-Day26-DE-ARM-Day6-STALLED-REVERSED + Brent-SNAP-UP-$87.72-Day1 + Trump-tariff-Day18 + Destry-formal-nomination-Day1-dovish-continuity + TLKM-Q2-EBITDA-BEAT-mixed-fade-Day-5 + MSCI-Aug-snub + MEDC-Q2-T+11-DOWNSIDE-DELIST-CANDIDATE + US-30Y-5.21%-BLOWOUT + July-CPI-2.88%-dovish-Day6 + Jackson-Hole-T+2wks all binding.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 82, Wk 17 Day 2 CLOSE). Phase-to-date P&L −2.84% within tolerances. Drawdown −3.10% from peak deeply within −15% cap. Realised P&L −294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return: −283,792,500 (−2.84%). Wk 17 Day 2 alpha +1.07pp; cumulative alpha +14.51% Wk 17 Day 2 close baseline.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Carry-over to Wed Aug 12 07:00 WIB pre-market (Wk 17 Day 3):**
+  1. Pre-market Wed reads Tue Wk 17 Day 2 close snapshot: 17th consecutive 0/3 BUY-slot week in progress, cumulative alpha +14.51% expanded +0.90pp via IHSG Brent-SNAP fade, phase-to-date P&L −2.84% unchanged 34 sessions, drawdown −3.10% within caps.
+  2. Re-entry gate scoring REGRESSED to ~1.0/5 (−0.5pp from Mon) via IDR reversion + Brent SNAP UP + Destry formal nomination; 4/5 gap binding.
+  3. 5 candidates ≥6/10 (MYOR/ISAT/BBRI/INDF/CTRA) re-score Wed post-macro-refresh; ISAT chase-fail persist; INDF/CTRA/MYOR/BBRI to be re-scored under new Brent + IDR + Destry conditions.
+  4. Watch Destry post-nomination confirmation timeline; parliament-recess Aug 14 vote T-3 US-biz-day.
+  5. IDR sub-17,750 3-of-3 target ~140 IDR away — criterion (a) DE-ARM stalled/reversed under Destry dovish-continuity.
+  6. Foreign-flow Tue sesi I 2-of-2 likely FAIL (Kompas 10-net-sell-asing flag); criterion (d) improvement trajectory possibly REVERSED to STRUCTURAL SELL-SIGNAL BINDING re-armed.

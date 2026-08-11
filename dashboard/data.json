@@ -1247,6 +1247,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-11",
+      "day_label": "Day 82",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6309.9,
+      "ihsg_cumulative_pct": -17.34,
+      "alpha_pct": 14.51,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -15261,7 +15276,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 76,
+    "trial_days_elapsed": 77,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 76 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -15271,8 +15286,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -16.45,
-    "cumulative_alpha_pct": 13.61,
+    "ihsg_cumulative_pct": -17.34,
+    "cumulative_alpha_pct": 14.51,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -15283,10 +15298,10 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-08-10"
+    "updated": "2026-08-11"
   },
   "risk": {
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day25-DE-ARM-CANDIDATE-Day5-SUB-17,800-APPROACH + NFP-COLD-BULLISH-RATES-BEARISH-USD-Day1 + IHSG-Fri-6409.65-3-MO-HIGH + ISAT-Q2-BLOWOUT-Fri-+16.32%-CHASE-RISK + FOREIGN-FLOW-Fri-SESI-I-+Rp343B-BUY-1-of-2-PARTIAL-RECOVERY + BRENT-$83.55-MODERATE + US-30Y-5.21%-BLOWOUT-PERSIST + Data-Quality-Gate-Day-98 + DESTRY-Day-15-FRONTRUNNER-DOVISH-CONTINUITY + FOMC-HAWKISH-HOLD-T+10-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-17 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY31 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day26-DE-ARM-CANDIDATE-Day6-STALLED-REVERSED + DESTRY-DAMAYANTI-FORMALLY-NOMINATED-BI-GOV-Day1-DOVISH-CONTINUITY + BRENT-SNAP-UP-$87.72-+4.95%-MEAN-REVERT-BROKEN-Day1 + IHSG-Tue-SESI-I-6,309.90-(-1.07%-sesi-I-to-sesi-I) + FOREIGN-FLOW-Fri-1-of-2-PARTIAL-TUE-CRITICAL-PENDING + US-30Y-5.21%-BLOWOUT-PERSIST-T+11 + Data-Quality-Gate-Day-101 + FOMC-HAWKISH-HOLD-T+11-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED-Day6 + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-18 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -15297,15 +15312,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-10"
+    "updated": "2026-08-11"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-04T04:39:02Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. KLBF cluster spread ~52% (Day 44 outage) blocks all state transitions; thesis intact (ex-div Jun 4 IDR 20 + buyback active); IDR 17,977 within 23bps of 18,000 cascade."
-    },
     {
       "timestamp": "2026-06-04T08:23:17Z",
       "routine": "daily-summary",
@@ -19773,6 +19782,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Wk 17 Day 2 midday scan \u2014 n=0 positions, 100% cash Day 30. No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-08-11T08:24:18Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 82 (Tue Wk 17 Day 2): IDR 9,716,207,500 (+0.00%). Alpha +1.07pp vs IHSG sesi I -1.07% on Brent SNAP UP + Israel-Iran risk. Cum alpha +14.51%. 100% cash Day 30. 0/3 trades wk. Gate REGRESSED 1.5\u21921.0/5 via IDR reversion + Destry formal nomination.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 82 EOD snapshot committed; RISK-STATE + dashboard updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19784,20 +19805,20 @@
   },
   "macro": {
     "regime": "DEFENSIVE \u2014 INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day25-DE-ARM-CANDIDATE-Day5-SUB-17,800-APPROACH + NFP-COLD-BULLISH-RATES-BEARISH-USD-Day1 + IHSG-Fri-6409.65-3-MO-HIGH + ISAT-Q2-BLOWOUT-Fri-+16.32%-CHASE-RISK + FOREIGN-FLOW-Fri-SESI-I-+Rp343B-BUY-1-of-2-PARTIAL-RECOVERY + BRENT-$83.55-MODERATE + US-30Y-5.21%-BLOWOUT-PERSIST + Data-Quality-Gate-Day-98 + DESTRY-Day-15-FRONTRUNNER-DOVISH-CONTINUITY + FOMC-HAWKISH-HOLD-T+10-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-17 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "regime_overlay": "Material re-entry gate improvement Mon Wk 17 Day 1 via cold-NFP macro-shift + IDR sub-17,800 approach + foreign flow 1-of-2 partial recovery. 5-criteria re-entry gate scoring ~1.5/5 confirming (+0.5pp from Wk 16 Day 5 exit 1.0/5). Best re-entry gate scoring since early Wk 15. But 3.5/5 gap remains binding. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS but ALL BLOCKED pre-check by crisis-track gate + DQG Day 98. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED persists \u2014 0% new entries binding until all 5 concurrent.",
-    "ihsg_close": 6378.39,
-    "ihsg_close_date": "2026-08-10",
-    "ihsg_close_change_pct": -0.16,
-    "ihsg_close_basis": "Mon Aug 10 sesi I 6,378.39 (-0.49% vs Fri sesi II close 6,409.65; -0.16% sesi-I-to-sesi-I vs Fri sesi I 6,388.48); Disway + Infobanknews + RRI 3-source convergent primary. Sesi II open 6,400.70; Romisaputra late-day headline 'IHSG Hari Ini ke Level 6,423' flags sesi II reversal-recovery \u2014 final sesi II unconfirmed, deferred to Wk 17 Weekly Review reconciliation.",
-    "ihsg_cumulative_pct": -16.45,
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY31 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day26-DE-ARM-CANDIDATE-Day6-STALLED-REVERSED + DESTRY-DAMAYANTI-FORMALLY-NOMINATED-BI-GOV-Day1-DOVISH-CONTINUITY + BRENT-SNAP-UP-$87.72-+4.95%-MEAN-REVERT-BROKEN-Day1 + IHSG-Tue-SESI-I-6,309.90-(-1.07%-sesi-I-to-sesi-I) + FOREIGN-FLOW-Fri-1-of-2-PARTIAL-TUE-CRITICAL-PENDING + US-30Y-5.21%-BLOWOUT-PERSIST-T+11 + Data-Quality-Gate-Day-101 + FOMC-HAWKISH-HOLD-T+11-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED-Day6 + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-18 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime_overlay": "Re-entry gate REGRESSED Tue Wk 17 Day 2 to ~1.0/5 (\u22120.5pp from Mon 1.5/5) via IDR reversion + Brent SNAP UP $87.72 (+4.95%) mean-revert broken + Destry Damayanti FORMAL nomination BI Governor dovish-continuity confirmed. 5-criteria re-entry gate 4/5 gap binding. 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA) unchanged from Mon but ALL BLOCKED pre-check by crisis-track gate. Foreign-flow Tue sesi I 2-of-2 confirmation likely FAIL (Kompas 10-net-sell-asing flag) \u2014 criterion (d) improvement trajectory possibly REVERSED.",
+    "ihsg_close": 6309.9,
+    "ihsg_close_date": "2026-08-11",
+    "ihsg_close_change_pct": -1.07,
+    "ihsg_close_basis": "Tue Aug 11 sesi I 6,309.90 (-0.87% vs Mon sesi II close 6,365.37; -1.07% sesi-I-to-sesi-I vs Mon sesi I 6,378.39); Kompas + CNBC Indonesia + kumparan + Bloomberg Technoz + Liputan6 5-source convergent primary. Opened +0.29% at 6,383.31, faded -1.16% intraday on Brent SNAP UP $87.72 + Israel-Iran Hormuz-talks-stall. Sesi II mid-session reading 6,280.52 via Tribunnews (-0.47% from sesi I close). Final sesi II unconfirmed, deferred to Wk 17 Weekly Review reconciliation.",
+    "ihsg_cumulative_pct": -17.34,
     "idr_usd": 17795,
     "idr_usd_date": "2026-08-08",
     "idr_usd_change_pct": -0.57,
-    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 25 DE-ARM-CANDIDATE Day 5 (Fri Aug 8 US-biz-day close ~17,795 vs Thu 17,897 = -102 IDR firming; sub-17,750 3-of-3 target ~45 IDR away; post-cold-NFP Mon likely further-firming trajectory)",
-    "idr_status": "Marginal Stage 5 boundary Day 25 DE-ARM-CANDIDATE Day 5 accelerating; criterion (a) still FAIL but material acceleration trajectory intact via cold-NFP overnight",
+    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 26 DE-ARM-CANDIDATE Day 6 STALLED/REVERSED (~17,890 cluster mid vs Fri close 17,795 = +95 IDR mild reversion; sub-17,750 3-of-3 target ~140 IDR away; DE-ARM momentum stalled after 5-session firming trajectory; Destry FORMAL nomination dovish-continuity harder to satisfy)",
+    "idr_status": "Marginal Stage 5 boundary Day 26 DE-ARM stalled/reversed; criterion (a) FAIL and material deterioration trajectory via Destry formal-nomination dovish-continuity + Brent SNAP UP mean-revert broken",
     "coal_price": 127.85,
-    "brent_usd": 83.55,
+    "brent_usd": 87.72,
     "cpo_myr_t": 4678,
     "lme_nickel_usd_t": 16970,
     "us_10y_pct": 4.67,
@@ -19805,9 +19826,9 @@
     "indo_10y_sun_pct": 7.35,
     "vix": 14.9,
     "foreign_flow_idx_fri_rp_b": 343,
-    "foreign_flow_note": "Fri Aug 7 sesi I +Rp 343B market-wide net-BUY \u2014 first post-6-consecutive-net-sell session; criterion (d) 1-of-2 partial recovery from STRUCTURAL SELL-SIGNAL BINDING; Mon confirmation needed for 2-of-2 to break streak. Top BUY: BBRI, TINS, ANTM. Top SELL: BULL, ASII, PTRO.",
-    "global_note": "Fri Aug 7 US close: S&P 500 7,757.64 (+0.62% record close) / Nasdaq 26,690.62 (+1.30%) / Dow 54,036.93 (+0.28%). NFP MISS COLD -23K vs +79K est; unemployment 4.1%; May/Jun revised -103K combined. US 10Y ~4.67% (rates-cut-hopes-revive); US 30Y 5.21% BLOWOUT persist. VIX 14.90 low-vol. Brent $83.55 recovery from Thu $81. Newcastle coal $127.85 sub-$130 wk 8. LME Ni $16,970 +1.5% modest.",
-    "updated_date": "2026-08-10"
+    "foreign_flow_note": "Fri Aug 7 sesi I +Rp 343B market-wide net-BUY = criterion (d) 1-of-2 partial recovery. Tue Aug 11 sesi I foreign-flow full reconciliation pending; Kompas 'IHSG Sesi I 11 Agustus 2026' 10-saham-net-sell-asing article flags foreign net-SELL sesi I likely \u2014 2-of-2 confirmation possibly FAIL, criterion (d) improvement trajectory reversal risk to STRUCTURAL SELL-SIGNAL re-armed.",
+    "global_note": "Brent SNAP UP $87.72 (+4.95%) Tue Aug 11 on Israel-Iran Hormuz-talks-stall \u2014 mean-revert cycle broken Day 1; CPI-vector NEGATIVE re-armed. US 10Y ~4.67% / US 30Y 5.21% BLOWOUT persist T+11 post-FOMC 9-3 hawkish hold. Destry Damayanti FORMALLY NOMINATED BI Governor Mon Aug 10 = dovish-continuity confirmed medium-term.",
+    "updated_date": "2026-08-11"
   },
   "research": {
     "date": "2026-08-11",
@@ -19884,7 +19905,7 @@
     "last_pre_market": "2026-08-11 07:00 WIB",
     "notes": "Pre-market Wk 17 Day 2 \u2014 5-candidate \u22656/10 stack unchanged (MYOR/ISAT/BBRI/INDF/CTRA); ALL BLOCKED by crisis-track engagement gate ACTIVATED (~1.0/5 re-entry regressed -0.5pp from Day 1 via IDR reversion + Brent SNAP-UP breaks mean-revert cycle + Destry-dovish-continuity confirmed). Destry Damayanti FORMALLY NOMINATED BI Gov Mon Aug 10 = dovish continuity confirmed. Brent SNAP UP +4.95% to $87.72 Mon = mean-revert cycle broken Hormuz uncertainty re-escalated CPI-negative re-armed. IHSG Mon Aug 10 close 6,365.37 -0.69% sesi II confirmed. IDR reversion ~100 IDR from Fri baseline (17,795\u2192~17,890) = criterion (a) DE-ARM Day 5 momentum STALLED/mild reversion 144 IDR gap widened. Foreign flow Fri sesi I +Rp 343B 1-of-2 partial recovery Tue confirmation critical. MDKA +3.40% Mon single-session gold-floor watch. Data Quality Gate Day 99 outage persists. 32nd consecutive cash day; 17th consecutive week 0/3 BUY-slot allocation continues."
   },
-  "last_updated": "2026-08-11T02:15:00Z",
+  "last_updated": "2026-08-11T08:24:01Z",
   "market": {
     "ihsg_close": 6409.65,
     "ihsg_change_pct": 1.04,
