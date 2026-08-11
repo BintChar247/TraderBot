@@ -15056,18 +15056,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-03T08:21:29Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 33: IDR 9.856B (0.00% day). Alpha +5.30% vs IHSG -5.30% panic-flush; cum alpha +21.41% (new trial high). KLBF frozen carry 1,035 (+9.52%). Trades wk 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 33 EOD snapshot committed; IHSG -5% panic-flush vindicates cash-heavy defensive thesis; KLBF cluster spread ~42% blocks state transitions; trailing 931 GTC armed for Thu cluster convergence"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-04T00:15:23Z",
       "routine": "pre-market",
       "status": "success",
@@ -19533,6 +19521,53 @@
           "detail": "Day 81 EOD snapshot committed; IHSG sesi I 6378.39 (3-source primary Disway/Infobanknews/RRI); sesi II ~6423 unconfirmed pending Wk-review reconciliation"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-11T00:13:17Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 5 candidates >=6/10 unchanged from Day 1 (MYOR-7, ISAT-7, BBRI-6, INDF-6, CTRA-6). ALL blocked by crisis-track gate ACTIVATED (~1.0/5 re-entry, regressed -0.5pp via IDR reversion + Brent snap + Destry dovish nomination). NO TRADES planned.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored >=6"
+        },
+        {
+          "type": "research",
+          "ticker": "MYOR",
+          "detail": "score 7/10 \u2014 cleanest H1 consumer +5.6% defensive fit"
+        },
+        {
+          "type": "research",
+          "ticker": "ISAT",
+          "detail": "score 7/10 \u2014 Q2 NI +175% CHASE-RISK Fri +16.32% do-not-engage"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 +Rp 292.7B 5-day flow lead criterion (d) inflection candidate"
+        },
+        {
+          "type": "macro",
+          "detail": "Destry Damayanti FORMALLY NOMINATED BI Gov Mon Aug 10 dovish-continuity confirmed"
+        },
+        {
+          "type": "macro",
+          "detail": "Brent SNAP UP +4.95% to $87.72 Mon mean-revert cycle broken"
+        },
+        {
+          "type": "macro",
+          "detail": "IDR reversion ~100 IDR from Fri baseline criterion (a) DE-ARM Day 5 stalled"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Mon Aug 10 close 6,365.37 -0.69% sesi II confirmed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -19570,30 +19605,30 @@
     "updated_date": "2026-08-10"
   },
   "research": {
-    "date": "2026-08-10",
+    "date": "2026-08-11",
     "holiday": false,
-    "as_of_date": "2026-08-10",
+    "as_of_date": "2026-08-11",
     "as_of_time": "07:00",
-    "as_of_label": "Mon Aug 10 07:00 WIB (Wk 17 Day 1 pre-market \u2014 NFP COLD Fri -23K miss = US rates-cut hopes revive = IDR further-firming trajectory Mon; IDR sub-17,800 Fri baseline ~17,795 = criterion (a) DE-ARM Day 5 accelerating ~45 IDR from sub-17,750 target; IHSG Fri Aug 7 close 6,409.65 +1.04% 3-mo high; Foreign flow Fri sesi I +Rp 343B market-wide net-BUY = criterion (d) 1-of-2 partial recovery from 6-CONSECUTIVE-NET-SELL binding; ISAT Q2 blowout +175% NI + Fiber deal Fri +16.32% CHASE RISK; MEDC downgraded 3\u21922 delist candidate; Destry frontrunner BI Gov Day 15 T-4 US-biz-day parliament recess-end; US 30Y 5.21% BLOWOUT persist; Data Quality Gate Day 98; 17th consecutive week beginning 0/3 BUY-slot; 5 candidates \u22656/10 first time in 16 weeks OBSERVED)",
-    "ihsg_last": 6409.65,
-    "ihsg_last_label": "Fri Aug 7 close 6,409.65 (+1.04%, +65.94pt) \u2014 3-mo high; post-Weekly-Review reconciliation; Antara primary",
-    "ihsg_last_sesi_i": 6388.48,
-    "ihsg_last_sesi_i_label": "Fri Aug 7 sesi I 6,388.48 +36.10 pt +0.57% vs Thu sesi II \u2014 5-source convergent primary (Kompas + RRI + Liputan6 + Media Indonesia + Kompas-secondary); sesi II final 6,409.65 +21.17pt sesi-II-vs-sesi-I extension",
-    "idr_usd": 17795,
-    "idr_usd_label": "IDR/USD Fri Aug 8 US-biz-day close ~17,795 (Wise primary) \u2014 DE-ARM Day 5 accelerating from Thu 17,897 (-102 IDR firming); ~45 IDR from sub-17,750 target; Post-cold-NFP Mon likely further-firming; Stage 5 MARGINAL-BOUNDARY Day 25 DE-ARM-CANDIDATE Day 5",
-    "coal_price": 127.85,
-    "brent_price": 83.55,
+    "as_of_label": "Tue Aug 11 07:00 WIB (Wk 17 Day 2 pre-market \u2014 Destry Damayanti FORMALLY NOMINATED BI Governor Mon Aug 10 dovish-continuity confirmed; Brent SNAP UP +4.95% to $87.72 Mon = mean-revert cycle broken Hormuz uncertainty re-escalated; IHSG Mon Aug 10 close 6,365.37 -0.69% sesi II confirmed; IDR reversion ~100 IDR from Fri baseline (17,795\u2192~17,890) = criterion (a) DE-ARM Day 5 momentum STALLED / mild reversion; Foreign flow Fri sesi I +Rp 343B 1-of-2 partial recovery Tue confirmation critical; MDKA +3.40% Mon single-session gold-floor + Rikopedia top-pick; Data Quality Gate Day 99; US 30Y 5.21% BLOWOUT persist T+11; Nikkei +1.9% Asia risk-on Tue; 17th consecutive week 0/3 BUY-slot Day 2; 5 candidates \u22656/10 unchanged (MYOR/ISAT/BBRI/INDF/CTRA) \u2014 ALL BLOCKED by crisis-track gate + DQG)",
+    "ihsg_last": 6365.37,
+    "ihsg_last_label": "Mon Aug 10 sesi II close 6,365.37 (-0.69%) \u2014 day range 6,362.76\u20136,462.74; 306 adv / 340 dec / 317 unch; ESSA +7.87% / MDKA +3.40% / HRTA +2.33% top gainers; multi-source primary",
+    "ihsg_last_sesi_i": 6378.39,
+    "ihsg_last_sesi_i_label": "Mon Aug 10 sesi I 6,378.39 -0.49% (Disway + Infobanknews + RRI 3-source convergent primary); sesi II close 6,365.37 -0.69% final confirmed",
+    "idr_usd": 17890,
+    "idr_usd_label": "IDR/USD Tue Aug 11 pre-open ~17,890 4-source cluster mid (Pluang 17,908 / Investing 17,894 / XE 17,766 / Long Forecast 17,990) \u2014 REGRESSED ~100 IDR from Fri baseline 17,795; criterion (a) DE-ARM Day 5 momentum STALLED/mild reversion; 144 IDR gap widened from 45 IDR from sub-17,750 target",
+    "coal_price": 128.25,
+    "brent_price": 87.72,
     "us_10y_pct": 4.67,
     "us_30y_pct": 5.21,
     "vix": 14.9,
     "cpo_myr_t": 4678,
     "lme_nickel_usd_t": 16970,
-    "sp500": 7757.64,
-    "sp500_change_pct": 0.62,
-    "nasdaq": 26690.62,
-    "nasdaq_change_pct": 1.3,
-    "dow": 54036.93,
-    "dow_change_pct": 0.28,
+    "sp500": 7750,
+    "sp500_change_pct": -0.1,
+    "nasdaq": 26610,
+    "nasdaq_change_pct": -0.3,
+    "dow": 53990,
+    "dow_change_pct": -0.1,
     "scan_universe": 50,
     "candidates_count": 15,
     "candidates_ge6_count": 5,
@@ -19601,45 +19636,50 @@
     "candidates_top_score": 7,
     "top_candidate": "MYOR",
     "top_candidate_score": 7,
-    "top_candidate_hook": "MYOR (7) cleanest H1 consumer +5.6% defensive fit; ISAT (7) Q2 NI +175% CHASE RISK do-not-engage; BBRI (6) foreign net-buy Rp 559B 5-day potential criterion (d) inflection; INDF (6) sole net-inflow YTD +H2 tailwind; CTRA (6) cleanest property TP 1,300. FIRST 5-CANDIDATE \u22656 RESULT IN 16 WEEKS. ALL BLOCKED by crisis-track gate ACTIVATED + DQG Day 98.",
-    "top_candidate_conviction": "N/A (crisis-track engagement gate ACTIVATED blocks entry regardless of score; observation only; 5 re-entry criteria ~1.5/5 confirming = +0.5pp material improvement from Wk 16 Day 5 exit via NFP-cold + IDR sub-17,800 approach + foreign flow 1-of-2 partial recovery)",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY30 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day25-DE-ARM-CANDIDATE-Day5-SUB-17,800-APPROACH + NFP-COLD-BULLISH-RATES-BEARISH-USD-Day1 + IHSG-Fri-6409.65-3-MO-HIGH + ISAT-Q2-BLOWOUT-Fri-+16.32%-CHASE-RISK + FOREIGN-FLOW-Fri-SESI-I-+Rp343B-BUY-1-of-2-PARTIAL-RECOVERY + BRENT-$83.55-MODERATE + US-30Y-5.21%-BLOWOUT-PERSIST + Data-Quality-Gate-Day-98 + DESTRY-Day-15-FRONTRUNNER-DOVISH-CONTINUITY + FOMC-HAWKISH-HOLD-T+10-US-BIZ-DAY + JULY-CPI-2.88%-DOVISH-ABSORBED + JACKSON-HOLE-T+2wks + TRUMP-TARIFF-Day-17 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "top_candidate_hook": "MYOR (7) cleanest H1 consumer +5.6% defensive fit; ISAT (7) Q2 NI +175% CHASE RISK do-not-engage; BBRI (6) foreign net-buy +Rp 292.7B 5-day potential criterion (d) inflection; INDF (6) sole net-inflow YTD +H2 tailwind; CTRA (6) cleanest property VAT-tailwind TP 1,300. UNCHANGED from Wk 17 Day 1 (5 candidates \u22656). ALL BLOCKED by crisis-track gate ACTIVATED (~1.0/5 re-entry regressed -0.5pp via IDR reversion + Brent SNAP-UP breaks mean-revert cycle + Destry-dovish-continuity confirmed) + DQG Day 99",
+    "top_candidate_conviction": "MEDIUM",
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY31 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day26-DE-ARM-CANDIDATE-Day6-STALLED-REVERSED + DESTRY-FORMALLY-NOMINATED-BI-GOV-Day1 + BRENT-SNAP-UP-$87.72-MEAN-REVERT-BROKEN-Day1 + NFP-COLD-Day2 + FOREIGN-FLOW-Fri-1-of-2-PARTIAL-TUE-CRITICAL + Data-Quality-Gate-Day-99 + FOMC-HAWKISH-HOLD-T+11 + US-30Y-5.21%-BLOWOUT + JULY-CPI-2.88%-DOVISH-Day6 + MEDC-DELIST-CANDIDATE + JACKSON-HOLE-T+2wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
     "top_candidates": [
       {
         "ticker": "MYOR",
-        "sector": "Consumer",
         "score": 7,
-        "hook": "Cleanest H1 consumer +5.6%; defensive-fit; top analyst pick"
+        "hook": "H1 +5.6% strongest consumer; Indo Premier top pick; defensive-fit",
+        "status": "BLOCKED-crisis-track-gate + DQG-Day-99",
+        "conviction": "MEDIUM"
       },
       {
         "ticker": "ISAT",
-        "sector": "Telco",
         "score": 7,
-        "hook": "Q2 NI +175% + Fiber Infra deal \u2014 Fri +16.32% CHASE RISK do-not-engage"
+        "hook": "Q2 NI +175% + Fiber Infra deal; Fri +16.32% CHASE-RISK Gate-9 fail",
+        "status": "BLOCKED-chase-fail + crisis-track-gate",
+        "conviction": "HIGH-if-pullback"
       },
       {
         "ticker": "BBRI",
-        "sector": "Banking",
         "score": 6,
-        "hook": "Foreign net-buy Rp 559B 5-day; potential criterion (d) 2-of-2 inflection Mon"
+        "hook": "+Rp 292.7B 5-day flow lead; JPM upgrade; criterion (d) candidate inflection",
+        "status": "BLOCKED-crisis-track-gate + DQG-Day-99",
+        "conviction": "MEDIUM"
       },
       {
         "ticker": "INDF",
-        "sector": "Consumer",
         "score": 6,
-        "hook": "Sole net-inflow YTD +Rp 58B; H1 +4.9%; H2 commodity normalization"
+        "hook": "Sole net-inflow YTD +Rp 58B; H1 +4.9%; H2 commodity normalization",
+        "status": "BLOCKED-crisis-track-gate + DQG-Day-99",
+        "conviction": "MEDIUM"
       },
       {
         "ticker": "CTRA",
-        "sector": "Property",
         "score": 6,
-        "hook": "Cleanest property TP 1,300; VAT tailwind + overweight"
+        "hook": "VAT PPN extension 2026 tailwind; Buy TP 1,300 cleanest property",
+        "status": "BLOCKED-crisis-track-gate + DQG-Day-99",
+        "conviction": "MEDIUM"
       }
     ],
-    "last_pre_market": "2026-08-10",
-    "notes": "Wk 17 Day 1 (Monday) pre-market. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS but ALL BLOCKED by crisis-track gate ACTIVATED + DQG Day 98. 17th consecutive week beginning 0/3 BUY-slot allocation. Highest-impact Mon watch: foreign flow criterion (d) 2-of-2 confirmation."
+    "last_pre_market": "2026-08-11 07:00 WIB",
+    "notes": "Pre-market Wk 17 Day 2 \u2014 5-candidate \u22656/10 stack unchanged (MYOR/ISAT/BBRI/INDF/CTRA); ALL BLOCKED by crisis-track engagement gate ACTIVATED (~1.0/5 re-entry regressed -0.5pp from Day 1 via IDR reversion + Brent SNAP-UP breaks mean-revert cycle + Destry-dovish-continuity confirmed). Destry Damayanti FORMALLY NOMINATED BI Gov Mon Aug 10 = dovish continuity confirmed. Brent SNAP UP +4.95% to $87.72 Mon = mean-revert cycle broken Hormuz uncertainty re-escalated CPI-negative re-armed. IHSG Mon Aug 10 close 6,365.37 -0.69% sesi II confirmed. IDR reversion ~100 IDR from Fri baseline (17,795\u2192~17,890) = criterion (a) DE-ARM Day 5 momentum STALLED/mild reversion 144 IDR gap widened. Foreign flow Fri sesi I +Rp 343B 1-of-2 partial recovery Tue confirmation critical. MDKA +3.40% Mon single-session gold-floor watch. Data Quality Gate Day 99 outage persists. 32nd consecutive cash day; 17th consecutive week 0/3 BUY-slot allocation continues."
   },
-  "last_updated": "2026-08-10T15:15:00+07:00",
+  "last_updated": "2026-08-11T00:15:00Z",
   "market": {
     "ihsg_close": 6409.65,
     "ihsg_change_pct": 1.04,
