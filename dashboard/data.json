@@ -15301,47 +15301,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-04T02:20:24Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. KLBF SELL deferred (cluster spread 26% > 2% blocks safe-lower fire); all 4 buy candidates (TLKM/PGAS/UNVR/MYOR) defer to midday \u2014 gate 9 (price > strict R:R cap) and/or cluster non-convergence; research plan defers buy execution to post-11:00 WIB.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "Trailing 931 GTC armed; cluster non-convergent (745/745/930/945 = 26% spread) per MISTAKES.md 2026-05-01 safe-lower discipline; defer SELL to midday"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Gate 9 \u2014 2,900 > 2,840 strict R:R cap; R:R 1.23 below 2:1; post-11:00 WIB deferred"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "Cluster 5th session non-convergent (Investing.com 2,400 single-source above all carry); strict R:R cap 1,790; SKIP for week"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Research plan defers to post-pullback verification + R:R derive at midday; eagerness check binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "Gate 9 \u2014 1,860 > 1,800 strict R:R cap by +3.33%; R:R 1.275 below 2:1; reassess at midday if pullback"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance + GoAPI Day 44 blocked; WebSearch fallback used for all price marks"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram API HTTP 403 (host not in allowlist) \u2014 message printed to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-04T04:39:02Z",
       "routine": "midday",
       "status": "success",
@@ -19808,6 +19767,12 @@
           "detail": "Crisis-track engagement gate ACTIVATED persistent Wk 17 Day 2"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-11T04:37:48Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 17 Day 2 midday scan \u2014 n=0 positions, 100% cash Day 30. No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
