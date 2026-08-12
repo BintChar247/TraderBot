@@ -15561,47 +15561,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-05T02:20:00Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. 4 candidates (TLKM/UNVR/ICBP/MYOR) all SKIP \u2014 gate 9 chase cap failure (+8% to +25% above plan) and/or multi-source \u22642% spread non-convergence per Day 45 yfinance outage. KLBF HOLD: cluster ~52% spread blocks state transition; safe-lower carry 1,035 frozen; trailing 931 GTC armed broker-side. Week 7 final: 0/3 trades (full slot preservation; alpha protection vindicated).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "gate 9 FAIL: 3,620-3,660 vs plan \u22642,900 = +24.8%"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "gate 9 FAIL: 1,985-2,090 vs plan \u22641,755 = +13.1%"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "gate 9 FAIL: 8,100-8,250 vs plan \u22647,500 = +8.0%"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "multi-source FAIL: no fresh Jun 5 mark; stale May 6/22 only"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "cluster ~52% spread; trailing 931 GTC armed"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override evaluated for all candidates (yfinance Day 45 blocked) \u2014 none reached buy stage; gate 9 SKIP before override needed"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send host-allowlist blocked (HTTP 403); stdout fallback fired"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-05T04:37:24Z",
       "routine": "midday",
       "status": "success",
@@ -20058,6 +20017,12 @@
           "detail": "17th consecutive 0/3 BUY-slot week Wk 17 Day 3"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-12T04:35:36Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 17 Day 3 midday: 100% cash Day 31 post-KLBF cut; n=0 positions; mechanically vacuous scan; no actions."
     }
   ],
   "exposure": {
