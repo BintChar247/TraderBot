@@ -15273,6 +15273,251 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cleanest H1 consumer growth (+5.6% YoY) defensive fit",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 7/10 \u2014 candidate \u22656 but gate-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY32; IDR-Stage-5-Day27-DE-ARM-Day7 partial firming; Brent $89.24 snap Day 2; MSCI freeze extended"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED (~0.75/5 re-entry, 4/5 gap binding); DQG Day 100 blocks cluster"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no fill \u2014 crisis-track gate 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate ACTIVATED persistent; DQG Day 100 outage"
+        }
+      ],
+      "reasoning": "SKIP: Crisis-track engagement gate ACTIVATED (~0.75/5 re-entry, 4/5 gap binding); DQG Day 100 blocks cluster. Wk 17 Day 3 5-criteria re-entry gate ~0.75/5 confirming (regressed -0.25pp from Wk 17 Day 2 via criterion (d) 2-of-2 CONFIRMED FAIL Tue + MSCI freeze reconfirmed + Brent snap Day 2).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 NI +175% YoY + Fiber Infra deal + spectrum consolidation",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 7/10 \u2014 candidate \u22656 but gate-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY32; IDR-Stage-5-Day27-DE-ARM-Day7 partial firming; Brent $89.24 snap Day 2; MSCI freeze extended"
+        },
+        {
+          "type": "risk",
+          "label": "Gate-9 chase-fail: Fri +16.32% surge = >3% drift from planned entry; crisis-track gate also blocks"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no fill \u2014 crisis-track gate 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate ACTIVATED persistent; DQG Day 100 outage"
+        }
+      ],
+      "reasoning": "SKIP: Gate-9 chase-fail: Fri +16.32% surge = >3% drift from planned entry; crisis-track gate also blocks. Wk 17 Day 3 5-criteria re-entry gate ~0.75/5 confirming (regressed -0.25pp from Wk 17 Day 2 via criterion (d) 2-of-2 CONFIRMED FAIL Tue + MSCI freeze reconfirmed + Brent snap Day 2).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Tue sesi I Top-3 net-BUY differentiated even under -Rp 774B all-market sell",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 candidate \u22656 but gate-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY32; IDR-Stage-5-Day27-DE-ARM-Day7 partial firming; Brent $89.24 snap Day 2; MSCI freeze extended"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate ACTIVATED; all-market criterion (d) foreign flow 2-of-2 CONFIRMED FAIL Tue (STRUCTURAL SELL-SIGNAL BINDING re-armed)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no fill \u2014 crisis-track gate 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate ACTIVATED persistent; DQG Day 100 outage"
+        }
+      ],
+      "reasoning": "SKIP: Crisis-track gate ACTIVATED; all-market criterion (d) foreign flow 2-of-2 CONFIRMED FAIL Tue (STRUCTURAL SELL-SIGNAL BINDING re-armed). Wk 17 Day 3 5-criteria re-entry gate ~0.75/5 confirming (regressed -0.25pp from Wk 17 Day 2 via criterion (d) 2-of-2 CONFIRMED FAIL Tue + MSCI freeze reconfirmed + Brent snap Day 2).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD +Rp 58B; H1 +4.9%; H2 commodity normalization",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 candidate \u22656 but gate-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY32; IDR-Stage-5-Day27-DE-ARM-Day7 partial firming; Brent $89.24 snap Day 2; MSCI freeze extended"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate ACTIVATED; Brent SNAP-UP Day 2 $89.24 = CPI-vector NEGATIVE further intensified (thesis mild degradation)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no fill \u2014 crisis-track gate 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate ACTIVATED persistent; DQG Day 100 outage"
+        }
+      ],
+      "reasoning": "SKIP: Crisis-track gate ACTIVATED; Brent SNAP-UP Day 2 $89.24 = CPI-vector NEGATIVE further intensified (thesis mild degradation). Wk 17 Day 3 5-criteria re-entry gate ~0.75/5 confirming (regressed -0.25pp from Wk 17 Day 2 via criterion (d) 2-of-2 CONFIRMED FAIL Tue + MSCI freeze reconfirmed + Brent snap Day 2).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cleanest property Buy TP Rp 1,300; VAT PPN incentive extended full-2026",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 candidate \u22656 but gate-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-DAY32; IDR-Stage-5-Day27-DE-ARM-Day7 partial firming; Brent $89.24 snap Day 2; MSCI freeze extended"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate ACTIVATED; DQG Day 100 blocks cluster; BI RDG Destry-nominee-first-meeting T+~2wks not yet resolved"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no fill \u2014 crisis-track gate 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate ACTIVATED persistent; DQG Day 100 outage"
+        }
+      ],
+      "reasoning": "SKIP: Crisis-track gate ACTIVATED; DQG Day 100 blocks cluster; BI RDG Destry-nominee-first-meeting T+~2wks not yet resolved. Wk 17 Day 3 5-criteria re-entry gate ~0.75/5 confirming (regressed -0.25pp from Wk 17 Day 2 via criterion (d) 2-of-2 CONFIRMED FAIL Tue + MSCI freeze reconfirmed + Brent snap Day 2).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
     }
   ],
   "stats": {
@@ -15315,42 +15560,6 @@
     "updated": "2026-08-11"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-05T00:15:21Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers (Fri Jun 5 Day 35 Week 7 Day 5 weekly-review day). KLBF cluster non-convergence Day 45 binds (trailing 931 ARMED). 4 candidates scored >=6: TLKM 8 (HIGH-priority AGM Mon Jun 8 + Rp 4T buyback REVISED UP), UNVR 6 (12.5% div + Wed defensive bid), ICBP 6 (FY26 top consumer), MYOR 6 (MENA IDR-weak tailwind regime-friendly). Regime DEFENSIVE-INTENSIFIED-DEEPENING-CONTINUATION-VINDICATED (cum alpha +23.10%). IDR 17,977 within 30bps of 18,000 cascade kill-switch ARMED-ESCALATING.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (LQ45 + non-LQ45 quality across 14 sectors)"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored >=6 (TLKM-8 / UNVR-6 / ICBP-6 / MYOR-6)"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 8/10 - AGM Mon Jun 8 14:00 WIB + Rp 4T buyback revised up from Rp 3T (SEC 6-K confirmed); execution Jun 9; 7.25% div yield; PT 4,051; NOT MSCI/FTSE; HIGH conviction; defined catalyst T+3"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HELD 519,000 sh @ 945; safe-lower carry 1,035 frozen Tue Jun 2; cluster ~52% spread Day 45 (TradingView/Stockbit/Liputan6/Bisnis 745 vs Yahoo 710/1,135 vs Investing.com 930); trailing 931 GTC ARMED but cannot fire pre-emptively per cluster-discipline; ex-div Jun 4 IDR 20 receivable booked Jun 24"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 - 12.5% div yield FY26 + Wed +2.40% defensive bid winner; R:R 1.55:1 fails 2:1 floor unless entry <=1,755"
-        },
-        {
-          "type": "research",
-          "ticker": "MYOR",
-          "detail": "score 6/10 - MENA IDR-weak tailwind REGIME-FRIENDLY uniquely; Wed cluster 0.8% convergent but Thu drifted above 1,800 R:R cap"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-05T02:20:00Z",
       "routine": "market-open",
@@ -19810,6 +20019,43 @@
         {
           "type": "research",
           "detail": "Re-entry gate 0.75/5 (regressed -0.25pp from Day 2 baseline 1.0/5)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-12T02:16:47Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 17 Day 3. Crisis-track gate ACTIVATED (~0.75/5 re-entry, -0.25pp regressed via foreign flow 2-of-2 CONFIRMED FAIL Tue + MSCI Aug freeze extended + Brent snap Day 2). 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA) all gate-blocked; DQG Day 100 outage persist.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "score 7 \u2014 crisis-track gate blocks; DQG Day 100"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "score 7 \u2014 Gate-9 chase-fail + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6 \u2014 crisis-track + all-market foreign flow (d) 2-of-2 CONFIRMED FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 6 \u2014 crisis-track + Brent snap Day 2 CPI-neg"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "score 6 \u2014 crisis-track + DQG Day 100 blocks cluster"
+        },
+        {
+          "type": "warning",
+          "detail": "17th consecutive 0/3 BUY-slot week Wk 17 Day 3"
         }
       ]
     }
