@@ -15316,18 +15316,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-04T08:23:17Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 34: IDR 9.856B (+0.00%). Alpha +3.48% vs IHSG -3.48% sesi I continuation flush. KLBF safe-lower carry frozen 1,035 (cluster ~52% spread). Cum alpha +23.44% new trial high (2nd consecutive expansion). Ex-div IDR 20 \u2192 IDR 10.38M receivable booked Jun 24. Cash 94.55%. Trades wk 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 34 EOD snapshot committed; cumulative alpha new trial high +23.44%; KLBF safe-lower carry preserved through 2nd consecutive IHSG flush day; RISK-STATE updated halted=false dd=-1.70%"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-05T00:15:21Z",
       "routine": "pre-market",
       "status": "success",
@@ -19792,6 +19780,36 @@
         {
           "type": "research",
           "detail": "Day 82 EOD snapshot committed; RISK-STATE + dashboard updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-12T00:15:01Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 17 Day 3 scan: 5 candidates \u22656 (MYOR 7, ISAT 7, BBRI 6, INDF 6, CTRA 6) all BLOCKED. Re-entry gate 0.75/5 REGRESSED via foreign-flow 2-of-2 FAIL Tue + MSCI freeze reconfirmed + Brent $89 snap Day 2. IHSG Tue -1.53% 6267. 100% cash Day 31.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan complete Wk 17 Day 3"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored \u22656 (MYOR/ISAT/BBRI/INDF/CTRA) unchanged from Wk 17 Day 2"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Top-3 net-BUY Tue sesi I differentiated even under -Rp 774B all-market sell"
+        },
+        {
+          "type": "research",
+          "ticker": "foreign-flow",
+          "detail": "criterion (d) 2-of-2 CONFIRMED FAIL Tue; STRUCTURAL SELL-SIGNAL BINDING re-armed"
+        },
+        {
+          "type": "research",
+          "detail": "Re-entry gate 0.75/5 (regressed -0.25pp from Day 2 baseline 1.0/5)"
         }
       ]
     }
