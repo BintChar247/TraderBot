@@ -15694,6 +15694,349 @@
           "label": "CRISIS-TRACK ENGAGEMENT GATE ACTIVATED \u2014 3.95/5 gap binding \u2014 0% new entries"
         }
       ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MYOR H1 +5.6% + defensive-fit; crisis-track gate blocks entry.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 +175% NI + Fiber deal; Gate-9 chase-fail after +16.32% Fri surge.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wed sesi I Top-3 net-BUY differentiated; crisis-track gate blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 NI +28% YoY BEAT + BRI TP 3,750; Gate-9 chase-risk + gate blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% YoY FX-basis tailwind; crisis-track gate blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD +Rp 58B + H2 commodity normalization; gate blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Only 'in-line' property Q2 (peers all missed) + VAT tailwind; gate blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 4 Thu \u2014 7 candidates \u22656/10 pre-checked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.05/5 confirming (4.0/5 gap binding); DQG Day 103"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market plan at 09:15 WIB: crisis-track engagement gate ACTIVATED per TRADING-STRATEGY.md Hard Rule (2026-07-17); re-entry criteria only 1.05/5 confirming (IDR firming Day-2 partial, DQG Day 103 fails, MSCI negative-locked-deepened, foreign-flow 1-of-2 fresh restart needs Thu confirmation, R:R untestable). All 7 candidates blocked pre-buy-side.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -15736,41 +16079,6 @@
     "updated": "2026-08-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-08T00:19:40Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "50/50 tickers scanned. 5 candidates \u22656 (TLKM 8 HIGH AGM-day, UNVR 6, ICBP 6, MYOR 6, MDKA 6). DEFENSIVE-INTENSIFIED + IDR cascade 18,000+ kill-switch BREACHED sustained 2nd-session = NO entries (pre-emptive de-risk binds). KLBF cluster 33% spread (TE 930 / Investing 945 / TV-stale 710) blocks discretionary action \u2014 mid-cluster 930 AT 931 GTC; HOLD. TLKM AGM 14:00 WIB Rp 4T buyback approval today binary.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "5 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 8/10 \u2014 AGM 14:00 WIB Rp 4T buyback approval expected (multi-source SEC 6-K confirmed)"
-        },
-        {
-          "type": "research",
-          "ticker": "MDKA",
-          "detail": "score 6/10 \u2014 sole sector relative-strength Fri +7.33% on +Rp 99.99B foreign net buy"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "cluster 33% spread blocks pre-emptive de-risk; trailing 931 GTC armed; pre-emptive framework activated"
-        },
-        {
-          "type": "alert",
-          "detail": "IDR cascade 18,000+ kill-switch BREACHED sustained 2nd session \u2014 NO new entries Mon Jun 8"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-08T02:19:49Z",
       "routine": "market-open",
@@ -20218,6 +20526,53 @@
           "type": "research",
           "ticker": "BBCA",
           "detail": "score 6/10 upgrade - Wed sesi I Top-3 net-BUY differentiated Big-4 flow-leader"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-13T02:17:22Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED (re-entry gate 1.05/5 confirming; DQG Day 103); 7 candidates >=6/10 (MYOR/ISAT/BBCA/TLKM/ICBP/INDF/CTRA) all blocked pre-buy-side. 100% cash Day 33; Wk 17 Day 4; 17th consecutive 0/3 BUY-slot week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "gate-9 chase-fail + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "gate-9 chase-risk + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send HTTP 403; stdout fallback used"
         }
       ]
     }
