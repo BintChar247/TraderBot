@@ -1277,6 +1277,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-13",
+      "day_label": "Day 84",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6298.34,
+      "ihsg_cumulative_pct": -17.5,
+      "alpha_pct": 14.66,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -16040,7 +16055,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 77,
+    "trial_days_elapsed": 78,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 76 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -16050,8 +16065,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -17.34,
-    "cumulative_alpha_pct": 14.51,
+    "ihsg_cumulative_pct": -17.5,
+    "cumulative_alpha_pct": 14.66,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -16079,24 +16094,6 @@
     "updated": "2026-08-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-08T04:34:33Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF held; broker quote 945 (entry 945, P&L 0%); no -7% breach, no +15%/+20% tighten trigger; pre-market HOLD thesis confirmed; cluster spread blocks discretionary action."
-    },
-    {
-      "timestamp": "2026-06-08T08:21:57Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 36 EOD: IDR 9.856B (+0.00% day). Alpha +4.53% vs IHSG sesi I -4.53%. Cum alpha +27.37% (new trial high; 4th expansion day). KLBF carry frozen 1,035 (cluster ~52% spread). 1 position open. Trades wk 0/3 fresh.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 36 snapshot committed"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-09T00:09:07Z",
       "routine": "pre-market",
@@ -20535,6 +20532,24 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions (Day 32 fully de-risked post-KLBF). Midday scan mechanically vacuous n=0. No cuts, no stops, no exits."
+    },
+    {
+      "timestamp": "2026-08-13T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 84 Wk17 D4: equity IDR 9.72B flat 0.00%. Alpha +0.51pp vs IHSG sesi I -0.51%. 0 positions. 0/3 trades this week (17-consec-zero-trade-week Day 4). Cumulative alpha +14.66%."
+    },
+    {
+      "timestamp": "2026-08-13T08:24:18Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 84 Wk17 D4: equity IDR 9,716,207,500 flat 0.00%. Alpha +0.51pp vs IHSG sesi I -0.51%. 0 positions (fully de-risked Day 32). Trades this week 0/3 (17-consec-zero-trade-week Day 4). Cumulative alpha +14.66%; DD -3.10% within caps.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 84 EOD snapshot committed; RISK-STATE + dashboard updated; no risk alerts"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -20606,7 +20621,7 @@
     "gate_score": "1.05/5",
     "gate_note": "Crisis-track engagement gate ACTIVATED; re-entry gate ~1.05/5 (+0.30pp from Wk 17 Day 3 ~0.75/5) via US CPI dovish + IDR firming Day 2 + foreign flow 1-of-2 fresh restart; 3.95/5 gap binding \u2014 0% new entries until all 5 concurrent."
   },
-  "last_updated": "2026-08-13T07:00+07:00",
+  "last_updated": "2026-08-13T15:15+07:00",
   "market": {
     "ihsg_close": 6373.85,
     "ihsg_change_pct": 1.69,
