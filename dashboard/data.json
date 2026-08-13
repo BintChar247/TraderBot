@@ -16080,52 +16080,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-08T02:19:49Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Week 8 Day 1. IDR ~18,015-18,045 sustained \u226518,000 cascade kill-switch BREACHED 2nd session = pre-emptive de-risk regime binds NO-ENTRY across all 5 candidates (TLKM/UNVR/ICBP/MYOR/MDKA). KLBF HOLD per cluster non-convergence (33% spread). Wk 0/3 fresh.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "de-risk regime gate + Gate 9 multi-source FAIL; AGM 14:00 WIB monitor"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "de-risk regime gate + Gate 9 multi-source FAIL (regime-friendly USD-export thesis)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "de-risk regime gate + Gate 9 multi-source FAIL"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "cluster 33% spread blocks discretionary action; trailing 931 GTC armed broker-side"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR cascade kill-switch BREACHED sustained 2nd session \u2014 pre-emptive de-risk procedure active"
-        },
-        {
-          "type": "warning",
-          "detail": "Day 45+ yfinance HTTP 403 outage; WebSearch override path operational"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-08T04:34:33Z",
       "routine": "midday",
       "status": "success",
@@ -20575,6 +20529,12 @@
           "detail": "Telegram send HTTP 403; stdout fallback used"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-13T04:36:31Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions (Day 32 fully de-risked post-KLBF). Midday scan mechanically vacuous n=0. No cuts, no stops, no exits."
     }
   ],
   "exposure": {
