@@ -19602,3 +19602,283 @@ Re-entry criteria current status (~0.75/5):
 - [ ] **Weekly Review Wk 17 Fri Aug 14 16:00 WIB** — letter grade Wk 17; MISTAKES.md / PATTERNS.md / CONVICTION-LOG.md / MACRO-REGIME.md refresh; TLKM-POST-Q2-EBITDA-BEAT-vs-margin-fade pattern candidate formalization Day-6.
 
 ---
+
+## 2026-08-13 (Thursday) — Wk 17 Day 4 pre-market
+
+**Session tag:** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY33 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day28-DE-ARM-CANDIDATE-Day8-PARTIAL-FIRMING-Day-2 + DESTRY-DAMAYANTI-FORMALLY-NOMINATED-BI-GOV-Day-3-DPR-VOTE-T-1 + BRENT-$88.98-MEAN-REVERT-PARTIAL + US-JULY-CPI-DOVISH-3.4%-HEADLINE-2.5%-CORE-Day-0 + US-10Y-4.66%-(-3bp) + IHSG-Wed-CLOSE-6,373.85-(+1.69%) + FOREIGN-FLOW-Wed-SESI-I-+Rp-326.91B-1-of-2-FRESH-RESTART + MSCI-AUG-12-REVIEW-CONFIRMED-FREEZE-EXTENDED-GOTO-CPIN-REMOVED-Day-1 + TLKM-Q2-BEAT-CONFIRMED-+28%-YoY-Day-1 + ICBP-Q2-CORE-+50.6%-YoY-Day-1 + TRUMP-TARIFF-Day-20 + DATA-QUALITY-GATE-DAY-103 + FOMC-HAWKISH-HOLD-T+13 + US-30Y-5.20%-BLOWOUT-PERSIST + JACKSON-HOLE-T+1.5wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | ~record | +0.30% | New record close post-CPI dovish; muted after initial +opening spike |
+| Nasdaq | ~record | +0.50% | Tech-led on dovish CPI + AI/cloud earnings |
+| Dow | ~flat | -0.02% | Barely below flat line |
+| Shanghai Composite | 3,946.68 | +0.32% | Modest gain Wed |
+| Hang Seng | 25,440.17 | -0.83% | Down Wed |
+| Nikkei 225 | 67,524.06 | +0.83% | Higher Wed |
+| VIX | 14.9 | flat | Low-vol regime persists |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 6,373.85 (Wed close sesi II) | +1.69% (+105.97 pts) | Full-day close Wed Aug 12; 474 up / 185 dn / 304 unch; nilai Rp 17.06T; LQ45 +1.28% to 633.84; infra/energy/basic materials led |
+| IHSG sesi I anchor | 6,330.36 (Wed sesi I) | +1.00% | Prior EOD sesi I convention baseline |
+| IDR/USD | ~17,855 mid (Thu 06:00 BCA E-Rate 17,810/17,900) | Day 2 partial firming (-35 IDR intraday improvement Wed evening on dovish US CPI + Destry-reception) | Sub-17,750 3-of-3 target ~105 IDR away; criterion (a) PARTIAL FIRMING Day 2 confirmation |
+| Indo 10Y SUN yield | n/a today (last confirmed 7.35%) | n/a | Deferred to Thu update; likely mild firming on dovish US CPI risk-on tone |
+| US 10Y yield | 4.66% | -3bp | Dovish CPI reaction; from 4.73% Tue high |
+| US 30Y yield | 5.20% | -1bp | BLOWOUT persist T+13 US-biz-day; slight relief |
+| Indo-US spread | ~269bp | +2bp est | Narrower on US 10Y decline |
+| Newcastle coal (USD/ton) | ~$130 | flat | Sub-$130 wk 9 boundary; still bearish sector |
+| CPO palm oil (MYR/ton) | ~4,562-4,740 | mild firming | India festive-season demand + softer ringgit; range MYR 4,510-4,740 |
+| LME nickel (USD/ton) | $16,840 | ~flat | Multi-mo low band persists; supply glut structural |
+| Brent crude (USD/bbl) | $88.98 | +$0.07 flat | Snap-cycle partial mean-revert; Iran-Hormuz geo premium persist |
+| US July CPI | 3.4% YoY headline (0.1% MoM); 2.5% YoY core | DOVISH surprise | Below 3.5% June; core lowest since Feb 2026; Fed Sept hike odds down to ~40% |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell IDX (Wed sesi I) | **+Rp 326.91B** | **FRESH 1-of-2 net-BUY signal RESTART** post Tue -Rp 774B break; Stockbit-source |
+| Foreign flow streak | 1-consec net-BUY (Wed sesi I) | Broke 1-consec net-SELL Tue; needs Thu confirmation for 2-of-2 |
+| Top BUY brokers/tickers Wed sesi I | BBCA, PTRO, BRPT | BBCA differentiated Big-4 flow-leader |
+| Top SELL brokers/tickers Wed sesi I | BMRI, TLKM, BBRI | BBRI top-3 net-SELL BREAKS 2-of-2 net-BUY thesis; BMRI/TLKM foreign-flow negative |
+| Full-day Wed all-day flow | n/a today (sesi II close data pending Thu reconciliation) | Deferred |
+| Bank Indonesia FX reserves | n/a | Not surfaced this session |
+| MSCI review | Aug 12 CONFIRMED | Indonesia freeze extended (FIF/NOS/HSC restrictions maintained); GOTO + CPIN REMOVED from Global Standard Index; effective post-close Aug 31 |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Mixed | Wed sesi I BBCA top-BUY / BMRI-BBRI top-SELL divergence; NIM/dovish US = mild-positive | BBCA (upgrade); BMRI/BBRI (degrade) |
+| Coal / Energy | Weak | Newcastle ~$130 wk 9; MEDC Q2 data unavailable | ADRO/ITMG/PTBA/BUMI/HRUM SKIP; MEDC WATCH-degraded |
+| Nickel / Mining | Weak | LME $16,840 sub-$17k; supply glut | ANTM WATCH; INCO/NCKL/MBMA SKIP-degraded |
+| CPO / Agri | Mild firming | India festive-season demand + softer ringgit | AALI/LSIP DEPRIORITIZED |
+| Property | Mixed Q2 | BSDE/PWON/SMRA MISS; CTRA in-line but -11% YoY | CTRA (relative-strength); BSDE/SMRA/PWON degrade |
+| Consumer | Positive tilt | ICBP Q2 core +50.6% YoY; MYOR H2 outlook + INDF sole net-inflow YTD | MYOR/INDF/ICBP CANDIDATES |
+| Telco | Q2 BEAT confirmed | TLKM Q2 NI +28% YoY Rp 6.3T; BRI Danareksa TP 3,750 = +36.9% upside from 2,740; +5% 5-day rally chase-risk | TLKM (upgrade CANDIDATE-CHASE-RISK); ISAT chase-risk unchanged |
+| Infrastructure/Tower | Wed sesi I sector top-leader | BRPT top-3 net-BUY; infra-basket rebound bid | Non-watchlist BRPT flagged |
+| Auto/Industrial | Weak | ASII Q2 MISS persistent; UNTR OK | ASII SKIP; UNTR WATCH |
+| Tech | Negative Day 1 | MSCI removal GOTO+CPIN CONFIRMED Aug 31 effective | GOTO downgrade 3→2; BUKA/EMTK SKIP |
+| Cement | Weak | SMGR/INTP marginal growth expected; INTP KOMPAS100 removed | SMGR/INTP SKIP |
+| Healthcare | Defensive | MIKA undervalued non-BPJS; KLBF prior hard-cut no re-entry | MIKA WATCH; KLBF SKIP |
+
+### Corporate Calendar Today / Tomorrow
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| US July CPI DIGESTED overnight | Macro | Aug 12 (Wed US) | DOVISH 3.4% headline / 2.5% core (below June 3.5%/2.6%); Fed Sept hike odds down to ~40%; positive for EM |
+| MSCI Aug 12 review CONFIRMED | MSCI/IDX | Aug 12 23:00 CEST / Aug 13 04:00 WIB | Indonesia freeze extended (all restrictions maintained); GOTO+CPIN removed Global Standard Index; effective post-close Aug 31 |
+| Destry Damayanti DPR ratification | Political | Aug 14 (Fri) T-1 | DPR parliament recess ends; ratification process opens; headline-noise risk |
+| US July PPI release | Macro | Aug 14 (Thu US) | CPI/PPI compound bind; dovish US CPI = PPI directional risk mixed |
+| Wk 17 Weekly Review | Internal | Aug 15 (Fri) 16:00 WIB | Letter grade; MACRO-REGIME.md refresh; TLKM-POST-Q2-BEAT pattern formalization |
+| BI RDG next meeting | Macro | T+~1.5 wks | Destry-nominee first policy meeting binary |
+| Jackson Hole | Macro | Aug 24-26 T+1.5 wks | Fed structural signal binary |
+
+### Watchlist Scan — All 50 Tickers
+
+Score each 1-10 per two-track (catalyst + defensive-quality) per TRADING-STRATEGY.md. Per-ticker cluster narrowing UNAVAILABLE (DQG Day 103 outage). Prices n/a where confirmed cluster ≥3-source unavailable.
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | n/a | Wed sesi I Top-3 net-BUY | **6** | Differentiated Big-4 flow-leader Wed; upgrade from 4; still 10-yr valuation uncited under DQG → catalyst-track candidate | CANDIDATE |
+| 2 | BBRI | Banking | n/a | Wed sesi I Top-3 net-SELL | 5 | 2-of-2 net-BUY thesis BROKEN Wed (Tue Top-3 BUY → Wed Top-3 SELL); JPM turned positive but flow-inflection failed; degrade from 6 | WATCH |
+| 3 | BMRI | Banking | ~4,110 -0.24% | Wed sesi I Top-3 net-SELL | 3 | 2-consec sesi-I Top-3 net-SELL Tue+Wed; dovish IDR-pressure | SKIP |
+| 4 | BBNI | Banking | ~3,580 +0.85% | n/a | 3 | Foreign dump persist | SKIP |
+| 5 | BNGA | Banking | n/a | n/a | 3 | No visible catalyst | SKIP |
+| 6 | NISP | Banking | n/a | n/a | 3 | Low-liquidity; no catalyst | SKIP |
+| 7 | BBTN | Banking | n/a | n/a | 3 | Mortgage-heavy vulnerable | SKIP |
+| 8 | ADRO | Coal | ~2,530 | Aug 11 mark | 4 | Newcastle sub-$130 wk 9; SKIP structural | SKIP |
+| 9 | ITMG | Coal | ~24,950 -0.70% | Aug 10 mark | 4 | Thermal weak; SKIP structural | SKIP |
+| 10 | PTBA | Coal | ~2,390 +0.85% | Aug 10 mark | 4 | SOE div yield trap | SKIP |
+| 11 | BUMI | Coal | ~188 +0.53% | Aug 10 mark | 3 | High-beta + BS risk | SKIP |
+| 12 | HRUM | Coal/Ni | ~830 -2.35% | Aug 11 mark | 4 | Dual coal+Ni both weak | SKIP |
+| 13 | MEDC | Energy | n/a | n/a | 3 | Brent $88.98 modest tailwind; Q2 result data unavailable this session; DELIST-CANDIDATE persists | SKIP |
+| 14 | PGAS | Gas | n/a | n/a | 4 | Defensive utility; Brent snap re-arms modest tailwind; Abadi LNG catalyst 12+ wks stale | WATCH |
+| 15 | ANTM | Nickel/Au | n/a | Wed no top-flow flag | 4 | Tue Top-3 net-BUY not sustained Wed; BRI TP 4,800; degrade from 5 | WATCH |
+| 16 | INCO | Nickel | n/a | n/a | 4 | LME sub-$17k margin-pressure | WATCH-degraded |
+| 17 | MDKA | Nickel/Au/Cu | n/a | n/a | 4 | Mon +3.40% single-session; Tue continuation unconfirmed | WATCH-degraded |
+| 18 | NCKL | Nickel | n/a | n/a | 4 | BRI TP 1,800; LME cap offset; production quota structural | SKIP |
+| 19 | MBMA | Nickel | n/a | n/a | 3 | Ni surplus + high-beta | SKIP |
+| 20 | TINS | Tin | n/a | n/a | 4 | Defensive posture wins; Fri Top-BUY | WATCH |
+| 21 | UNVR | Consumer | n/a | n/a | 3 | 1H26 revenue -14.8%; outflow persist | SKIP |
+| 22 | ICBP | Consumer | n/a | n/a | **6** | Q2 core profit +50.6% YoY / 1H core +17.7%; FX-basis tailwind; upgrade from 5 | CANDIDATE |
+| 23 | INDF | Consumer | n/a | n/a | **6** | H1 revenue +4.9%; sole net-inflow YTD +Rp 58B; H2 commodity normalization; Brent snap partial-relief | CANDIDATE |
+| 24 | MYOR | Consumer | n/a | n/a | **7** | H1 +5.6% strongest consumer; Q1 NI +37% Rp 946B; Indo Premier top pick; defensive-fit unchanged | CANDIDATE |
+| 25 | SIDO | Consumer | n/a | n/a | 5 | Smallest FMCG outflow; no fresh catalyst | WATCH |
+| 26 | TLKM | Telco | ~2,740 5-day +5% | Wed sesi I Top-3 net-SELL | **6** | **Q2 NI Rp 6.3T +28% YoY +45% QoQ CONFIRMED BEAT**; 1H26 Rp 10.6T +1% YoY = highest quarterly NI since 3Q23; BRI Danareksa Buy TP Rp 3,750 (+36.9% upside); +5% 5-day rally chase-risk near ceiling; foreign net-SELL Wed offset | CANDIDATE-CHASE-RISK |
+| 27 | EXCL | Telco | n/a | n/a | 5 | XLSMART 700MHz + 2.6GHz spectrum consolidation | WATCH |
+| 28 | ISAT | Telco | n/a | n/a | **7** | Fri +16.32% Q2 +175% NI; CHASE-RISK Gate-9 fail; Fiber Infra deal + spectrum win | CANDIDATE-CHASE-RISK |
+| 29 | MTEL | Tower | n/a | n/a | 4 | Defensive tower; no trigger | SKIP |
+| 30 | TOWR | Tower | n/a | n/a | 4 | Same tower thesis | SKIP |
+| 31 | BSDE | Property | n/a | Q2 MISS confirmed | 4 | Q2 MISS revenue-driven; degrade from 5 | WATCH-degraded |
+| 32 | CTRA | Property | n/a | Q2 in-line -11% YoY (least-bad property) | **6** | Only property "in-line" vs BSDE/PWON/SMRA all missed = relative-strength; VAT tailwind ext 2026; Buy TP 1,300 | CANDIDATE |
+| 33 | SMRA | Property | n/a | Q2 MISS -34% YoY 41% consensus | 3 | Q2 MISS deep; degrade from 5 | SKIP |
+| 34 | PWON | Property | n/a | Q2 MISS 41% consensus | 3 | 1H26 NI Rp 1T -11% YoY; degrade from 5 | SKIP |
+| 35 | GOTO | Tech | 50 | Wed | 2 | **MSCI Global Standard Index REMOVAL CONFIRMED Aug 31 effective**; degrade from 3 | SKIP |
+| 36 | BUKA | Tech | n/a | n/a | 2 | IDX negative list | SKIP |
+| 37 | EMTK | Tech/Media | n/a | n/a | 2 | Tech-media weak | SKIP |
+| 38 | ASII | Auto/Ind | n/a | n/a | 2 | Q2 MISS 1H NI -19% YoY; sector top-drag | SKIP |
+| 39 | UNTR | Heavy Eq | ~24,050 | Aug 10 mark | 5 | Buyback wave; Agincourt drag; coal proxy value | WATCH |
+| 40 | AKRA | Distribution | n/a | n/a | 3 | IDX Warning; distribution soft | SKIP |
+| 41 | AALI | Plantation | n/a | n/a | 3 | CPO firming marginal; no CPO catalyst | SKIP |
+| 42 | LSIP | Plantation | n/a | n/a | 2 | MoM -23.89% falling-knife | SKIP |
+| 43 | JSMR | Infra | n/a | n/a | 4 | Rate-sensitive + toll traffic soft | SKIP |
+| 44 | WSKT | Construction | n/a | n/a | 3 | BUMN karya BS overhang | SKIP |
+| 45 | PTPP | Construction | n/a | n/a | 3 | Same headwind | SKIP |
+| 46 | ADHI | Construction | n/a | n/a | 3 | IDX Warning | SKIP |
+| 47 | KLBF | Healthcare | n/a | n/a | 4 | Prior hard-cut; no re-entry candidate | SKIP |
+| 48 | MIKA | Healthcare | n/a | n/a | 5 | Defensive; RHB/InvestorTrust top pick | WATCH |
+| 49 | SMGR | Cement | n/a | n/a | 3 | Cement weak; marginal growth | SKIP |
+| 50 | INTP | Cement | n/a | n/a | 2 | KOMPAS100/IDX80 removed outflow ongoing | SKIP |
+
+**Summary:** **7 tickers scored ≥6/10 Wk 17 Day 4** — MYOR (7), ISAT (7), BBCA (6), TLKM (6), ICBP (6), INDF (6), CTRA (6). NET +2 from Wk 17 Day 3 baseline (5): +BBCA (4→6 via Wed Top-3 net-BUY differentiation), +TLKM (4→6 via Q2 BEAT confirmed Rp 6.3T +28% YoY + BRI Danareksa Buy TP 3,750 CHASE-RISK), +ICBP (5→6 via Q2 core +50.6% YoY confirmed); -BBRI (6→5 via Wed Top-3 net-SELL breaks 2-of-2 net-BUY thesis). Score movements: BSDE 5→4 (Q2 MISS), PWON 5→3, SMRA 5→3 (Q2 MISS deep), ANTM 5→4 (Tue Top-3 BUY not sustained Wed), MDKA 4→4 unchanged, GOTO 3→2 (MSCI removal formally confirmed). All others ≤5.
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+**Caveat:** Despite 7 candidates ≥6, ALL entries are BLOCKED by **CRISIS-TRACK ENGAGEMENT GATE ACTIVATED** (TRADING-STRATEGY.md Hard Rule codified 2026-07-17). 5 concurrent re-entry criteria required; current scoring **~1.05/5 confirming** (+0.30pp IMPROVEMENT from Wk 17 Day 3 baseline ~0.75/5 via (1) US July CPI dovish 3.4% headline / 2.5% core Day-0 + Fed Sept hike odds ~40% + US 10Y -3bp to 4.66% = criterion (a) IDR firming Day-2 continuation; (2) foreign flow Wed sesi I +Rp 326.91B fresh 1-of-2 net-BUY restart = criterion (d) partial recovery from Tue break; (3) MSCI Aug 12 review formally CONFIRMED freeze extended + GOTO/CPIN removed = criterion (c) NEGATIVE-LOCKED-DEEPENED reconfirmed offset). Also **Data Quality Gate Day 103** blocks cluster convergence on any per-ticker candidate entry price.
+
+Re-entry criteria current status (~1.05/5):
+- (a) IDR sub-17,750 sustained 3-of-3: **PARTIAL FIRMING Day 2** — Thu 06:00 BCA E-Rate 17,810/17,900 mid ~17,855 (unchanged from Wed evening after -35 IDR intraday improvement on dovish US CPI); still >17,750 target, ~105 IDR gap (0.45/5, +0.10pp from Day 3)
+- (b) DQG cluster ≥3-source ≤4%: **FAIL** — Day 103 outage persists (0/5)
+- (c) MSCI/S&P DJI accessibility neutral: **FAIL** — Aug 12 review formally confirmed freeze extended + GOTO/CPIN Global Standard Index removal (NEGATIVE-LOCKED-DEEPENED reconfirmed Day 1 post-formal-review; 0/5)
+- (d) Foreign flow 2+ consecutive net-BUY: **1-of-2 FRESH RESTART** — Wed sesi I +Rp 326.91B post-Tue break; Thu sesi I confirmation critical (0.45/5, +0.30pp)
+- (e) R:R ≥2:1 achievable at fresh cluster mark: **UNTESTABLE** under DQG (0/5)
+
+#### 1. MYOR — Cleanest H1 consumer growth defensive fit (score 7 — unchanged)
+
+**Fundamental case:**
+- Thesis: PT Mayora Indah H1 2026 revenue +5.6% YoY = strongest consumer growth in watchlist stack; Q1 NI +37% Rp 946B via cost efficiency (GPM 21.9% → 26.6%).
+- Thesis: Defensive-fit under DEFENSIVE-INTENSIFIED regime; H2 outlook positive via commodity normalization + cost efficiency (Bisnis/Rikopedia consensus).
+- Valuation: [n/a — cluster convergence blocked by DQG Day 103]
+- Catalyst: no discrete near-term catalyst (Q2 elapsed digested); H2 continuation narrative + coffee producer margin expansion.
+- Analyst view: Indo Premier top pick order MYOR/CMRY/ICBP/KLBF/UNVR/SIDO
+- Insider activity: [none surfaced overnight]
+
+**Technical context:** [n/a — DQG Day 103 blocks per-ticker cluster]
+
+**Trade plan:**
+- **NOT ACTIONABLE** — crisis-track gate ACTIVATED; DQG Day 103 blocks Gate-Check 15 (risk budget) + 14 (ADV participation)
+- Conviction if gate lifted: MEDIUM (structural quality; no discrete near-term catalyst)
+- ADV: not confirmed under DQG
+- Watch condition: crisis-track gate lifts + cluster narrows ≥3-source ≤4% + R:R ≥2:1
+
+#### 2. ISAT — Q2 blowout +175% NI + Fiber Infra deal (score 7 — CHASE-RISK unchanged)
+
+**Fundamental case:**
+- Thesis: Indosat Q2 NI +175% YoY; Rev +14% YoY structural transformation
+- Thesis: Fiber Infra deal (Arsari/Northstar 55%) closed Jul 2 = catalyst driver
+- Catalyst: Fri Aug 7 sesi I +16.32% surge = catalyst already chased (5-day window >10% no-buy)
+- Additional: XLSMART 700MHz + 2.6GHz spectrum consolidation wins = structural sector-tailwind
+
+**Trade plan:**
+- **NOT ACTIONABLE — Buy-side Gate Check 9 fails immediately** (>3% above planned entry cannot hold post +16.32% Fri chase)
+- Even if crisis-track gate lifts, do NOT chase — wait for 50% retracement pullback minimum
+- Conviction if gate lifted AND pullback develops: HIGH (Q2 blowout + Fiber deal + spectrum win)
+
+#### 3. BBCA — Wed sesi I Top-3 net-BUY differentiation Big-4 flow-leader (score 6 — NEW upgrade from 4)
+
+**Fundamental case:**
+- Thesis: Wed Aug 12 sesi I Top-3 net-BUY for BBCA differentiated Big-4 flow-leader even under all-market +Rp 326.91B net-BUY tape = Big-4 flow-inflection sole-name-differentiated positive.
+- Thesis: BBCA foreign-flow-inflection candidate stronger than BBRI which regressed to Top-3 net-SELL Wed (2-of-2 net-BUY thesis broken).
+- Catalyst: US CPI dovish Day-0 = Fed Sept hike odds down to ~40% = IDR pressure eases = Banking sector marginal-positive.
+- Analyst view: [not surfaced this session]
+
+**Trade plan:**
+- **NOT ACTIONABLE — crisis-track gate ACTIVATED**; DQG Day 103 blocks cluster
+- Conviction if gate lifted: MEDIUM (idiosyncratic flow-differentiation thesis; but all-market criterion (d) still 1-of-2 requires Thu confirmation)
+- Watch condition: BBCA Top-3 net-BUY 2-of-2 consecutive AND all-market foreign flow 2-of-2 net-BUY re-armed AND IDR sub-17,750 3-of-3
+
+#### 4. TLKM — Q2 BEAT confirmed +28% YoY + BRI Danareksa TP 3,750 (score 6 — NEW upgrade from 4 CANDIDATE-CHASE-RISK)
+
+**Fundamental case:**
+- Thesis: Telkom Q2 2026 NI Rp 6.3T (+28% YoY / +45% QoQ) = highest quarterly NI since 3Q23; 1H26 NI Rp 10.6T (+1% YoY); normalized Q2 Rp 6.2T (+16% YoY / +21% QoQ); 1H26 normalized Rp 11.3T (+6% YoY) = 55% of FY consensus est.
+- Thesis: Top-line +4% QoQ / +6% YoY; margin B2C-fade concerns partial refuted by EBITDA BEAT.
+- Catalyst: BRI Danareksa Sekuritas Buy TP Rp 3,750 (+36.9% upside from 2,740) reiterated Aug 4.
+- Chase-risk: +5% 5-day rally to 2,740 = Gate-Check 9 (no >3% above planned entry) potentially violates unless entry planned at ~2,660-2,700 level; Wed sesi I foreign TOP-3 NET-SELL = tactical fade risk near-term.
+
+**Trade plan:**
+- **NOT ACTIONABLE — crisis-track gate ACTIVATED**; DQG Day 103 blocks cluster; chase-risk Gate-9 marginal
+- Conviction if gate lifted AND fresh entry at ≤2,700: MEDIUM-HIGH (Q2 BEAT structural + Buy TP +36.9% + spectrum consolidation)
+- Watch condition: crisis-track gate lifts + cluster narrows + pullback to 2,650-2,700 + fresh foreign net-BUY 2-of-2 confirmation
+
+#### 5. INDF — Sole net-inflow YTD + H1 +4.9% + H2 commodity normalization (score 6 — unchanged)
+
+**Fundamental case:**
+- Thesis: Indofood sole net-inflow YTD +Rp 58B = structural relative-flow strength
+- Thesis: H1 revenue +4.9% YoY (agribusiness + Bogasari support); 1H core profit -6.4% (mixed)
+- Catalyst: Q2 GDP consumption +2.67% + H2 tailwind continuation on commodity normalization
+- Risk: Brent $88.98 modest fade from Tue $89.24 peak = CPI-vector NEGATIVE partial relief; thesis mild-improvement Day 1
+
+**Trade plan:**
+- **NOT ACTIONABLE — crisis-track gate ACTIVATED**; DQG Day 103 blocks cluster
+- Conviction if gate lifted: MEDIUM (structural defensive quality)
+- Watch condition: Brent normalizes back sub-$85 AND crisis-track gate lifts AND cluster narrows AND R:R ≥2:1
+
+#### 6. ICBP — Q2 core profit +50.6% YoY FX-basis tailwind (score 6 — NEW upgrade from 5)
+
+**Fundamental case:**
+- Thesis: Indofood CBP Q2 core profit +50.6% YoY; 1H core +17.7% aided by favorable forex basis from prior year.
+- Thesis: Revenue +3.9% YoY; largest YTD foreign outflow Rp 962B potentially stabilizing.
+- Catalyst: H2 continuation on FX tailwind + noodle-margin expansion.
+- Analyst view: Indo Premier top-pick position (behind MYOR).
+
+**Trade plan:**
+- **NOT ACTIONABLE — crisis-track gate ACTIVATED**; DQG Day 103 blocks cluster
+- Conviction if gate lifted: MEDIUM (Q2 core BEAT structural; FX-basis tailwind)
+- Watch condition: crisis-track gate lifts + cluster narrows + fresh foreign flow inflection to ICBP
+
+#### 7. CTRA — Only "in-line" property Q2 vs BSDE/PWON/SMRA MISS relative-strength (score 6 — unchanged)
+
+**Fundamental case:**
+- Thesis: Ciputra Development 1H26 NI Rp 1.1T -11% YoY = only property "in-line" with consensus vs BSDE (weak revenue), PWON (-11% YoY 41% consensus), SMRA (-34% YoY 41% consensus).
+- Thesis: VAT PPN incentive extended full-2026 property tailwind confirmed structural; H1 25 PPN contribution 33% marketing sales; inventory Rp 1.5-2T qualifying.
+- Catalyst: Pre-sales H2 update pending; BI RDG mid-Aug binary Destry-nominee-first-meeting.
+- Analyst view: Digivestasi Buy TP Rp 1,300 unchanged.
+
+**Trade plan:**
+- **NOT ACTIONABLE — crisis-track gate ACTIVATED**; DQG Day 103 blocks cluster
+- Conviction if gate lifted: MEDIUM (VAT tailwind + BI rate-sensitivity + Q2 relative-strength; smaller-cap volatility risk)
+- Watch condition: crisis-track gate lifts + cluster narrows + BI RDG dovish + IDR de-arm
+
+### Held Position Updates
+
+- **No open positions** (100% cash Day 32 post-KLBF hard-cut through Thu Wk 17 Day 4 pre-market baseline). Full de-risked book. No held-position updates required. No overnight news to reconcile against active book.
+- No held-position risk warning applicable.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY33 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day28-DE-ARM-CANDIDATE-Day8-PARTIAL-FIRMING-Day-2 + DESTRY-DAMAYANTI-FORMALLY-NOMINATED-BI-GOV-Day-3-DPR-VOTE-T-1 + BRENT-$88.98-MEAN-REVERT-PARTIAL + US-JULY-CPI-DOVISH-3.4%-HEADLINE-2.5%-CORE-Day-0 + US-10Y-4.66%-(-3bp) + IHSG-Wed-CLOSE-6,373.85-(+1.69%) + FOREIGN-FLOW-Wed-SESI-I-+Rp-326.91B-1-of-2-FRESH-RESTART + MSCI-AUG-12-REVIEW-CONFIRMED-FREEZE-EXTENDED-GOTO-CPIN-REMOVED-Day-1 + TLKM-Q2-BEAT-CONFIRMED-+28%-YoY-Day-1 + ICBP-Q2-CORE-+50.6%-YoY-Day-1 + TRUMP-TARIFF-Day-20 + DATA-QUALITY-GATE-DAY-103 + FOMC-HAWKISH-HOLD-T+13 + US-30Y-5.20%-BLOWOUT-PERSIST + JACKSON-HOLE-T+1.5wks + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED**
+
+- Reasoning: **Modest re-entry gate IMPROVEMENT Wk 17 Day 4 (+0.30pp to ~1.05/5)** primarily via (i) US July CPI dovish surprise 3.4% headline / 2.5% core Day-0 = Fed Sept hike odds down to ~40% + US 10Y -3bp to 4.66% + criterion (a) IDR firming Day-2 continuation to ~17,855 mid; (ii) foreign flow Wed sesi I +Rp 326.91B fresh 1-of-2 net-BUY restart post Tue -Rp 774B break = criterion (d) partial recovery from STRUCTURAL SELL-SIGNAL BINDING (needs Thu confirmation for 2-of-2); (iii) TLKM Q2 BEAT confirmed Rp 6.3T +28% YoY + BRI Danareksa Buy TP 3,750 + ICBP Q2 core +50.6% YoY = Q2 earnings-season tailwind cluster. Partial offset from (iv) MSCI Aug 12 review formally CONFIRMED freeze extended + GOTO/CPIN Global Standard Index removal = criterion (c) NEGATIVE-LOCKED-DEEPENED reconfirmed Day 1 post-formal-review (structural passive-flow catalyst deferred to Nov 2026 semi-annual); (v) BBRI 2-of-2 net-BUY thesis BROKEN Wed sesi I Top-3 net-SELL. Net 5-criteria re-entry gate scoring: **~1.05/5 confirming** (improved from Wk 17 Day 3 baseline ~0.75/5; +0.30pp improvement; still 3.95/5 gap binding).
+- Regime shift trigger evaluation: **+0.30pp net improvement** in 5-criteria concurrent-satisfaction test from Wk 17 Day 3 baseline; regime undertone IMPROVEMENT Day 1 of Wk 17 Day 4 primarily via US CPI dovish + IDR firming Day 2 + foreign flow fresh restart + Q2 earnings-season cluster. Framework durability holds under fresh dovish-macro-shift path.
+- Position sizing adjustment: **N/A — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding** until all 5 re-entry criteria satisfied concurrently. Wk 17 forward continues 5% max-position-cap if gate lifted.
+
+### Flagged Risks
+
+- **US July PPI release TONIGHT US time (Aug 14 Thu US, Fri WIB)** — CPI/PPI compound bind; dovish US CPI Day-0 may be tested/confirmed by PPI directional read; if PPI hawkish surprise = Fed Sept hike odds re-arm.
+- **Destry Damayanti DPR ratification T-1** — Fri Aug 14 parliament recess ends; ratification process opens; headline-noise risk; dissent-volume gauge dovish-vs-hawkish market read.
+- **MSCI Aug 12 review formally CONFIRMED freeze extended + GOTO/CPIN Global Standard Index removal Day 1** — criterion (c) NEGATIVE-LOCKED-DEEPENED reconfirmed post-formal-review; structural passive-flow catalyst deferred to Nov 2026 semi-annual review at earliest; effective post-close Aug 31.
+- **Foreign flow criterion (d) Thu sesi I 2-of-2 CRITICAL confirmation datapoint** — Wed sesi I +Rp 326.91B fresh 1-of-2; if Thu net-BUY sustains = 2-of-2 breaks structural sell-signal; if reverses to net-SELL = criterion (d) FAILS again.
+- **BBRI 2-of-2 net-BUY thesis BROKEN Wed** — Tue Top-3 BUY → Wed Top-3 SELL flow reversal; sole differentiated Big-4 candidate now BBCA not BBRI.
+- **Brent $88.98 partial mean-revert Day 1** — from Tue $89.24 peak; watch $85 zone as CPI-relief pivot; sustain ≥$87 = INDF thesis erodes further; MEDC upside partial optionality re-emerges but Q2 data unavailable + DELIST candidate persists.
+- **IDR firming Day 2 fragile** — Thu ~17,855 mid vs Wed evening ~17,855 unchanged; -105 IDR gap to sub-17,750 target remains; DPR ratification Fri T-1 headline-noise risk.
+- **TLKM chase-risk Gate-9 marginal** — +5% 5-day rally to 2,740; needs pullback to ≤2,700 for fresh entry planned; foreign net-SELL Wed sesi I tactical fade offset structural Q2 BEAT.
+- **US 30Y 5.20% BLOWOUT persist T+13** — mild relief from Tue 5.21% but crisis-level structural persist.
+- **GOTO removal from MSCI Global Standard Index Aug 31 effective** — technical passive-outflow catalyst binary Aug 29 T-1 US-biz-day rebalance session.
+
+### Plan for /market-open (Thursday 2026-08-13 09:15 WIB)
+
+- [ ] **NO TRADES.** Crisis-track engagement gate ACTIVATED persistent Wk 17 Day 4 forward per TRADING-STRATEGY.md Hard Rule codified 2026-07-17. Re-entry criteria ~1.05/5 confirming (+0.30pp improvement from Wk 17 Day 3 baseline via US CPI dovish + IDR firming Day 2 + foreign flow 1-of-2 fresh restart + Q2 earnings-season cluster). 7 candidates ≥6/10 (MYOR/ISAT/BBCA/TLKM/ICBP/INDF/CTRA) all BLOCKED pre-check.
+- [ ] **Foreign flow Thu sesi I** — if fresh net-BUY = criterion (d) 2-of-2 CONFIRMED breaks structural sell-signal binding; if reverses to net-SELL = criterion (d) FAILS again same-week cycle; MOST CRITICAL DATAPOINT this session.
+- [ ] **BBCA Thu sesi I flow observation** — 2nd consecutive Top-3 net-BUY = idiosyncratic Big-4 flow-differentiation thesis strengthens.
+- [ ] **IDR Thu cluster** — if sustains sub-17,850 = criterion (a) firming Day 3 confirmation; if reverts >17,900 = firming Day 2 stall.
+- [ ] **Brent Thu trajectory** — Wed $88.98 partial mean-revert Day 1; watch $85 zone as CPI-relief pivot.
+- [ ] **TLKM Thu action** — no BUY (chase-risk Gate-9 marginal); observe pullback dynamics 2,740→2,700 zone for possible entry qualification if crisis-track gate lifts.
+- [ ] **HOLD 100% CASH** — 33rd consecutive session; Wk 17 Day 4 = 17th consecutive week 0/3 BUY-slot allocation continues. Alpha protection continues; cumulative trial alpha +14.24% Wed Wk 17 Day 3 EOD baseline; Wk 17 intra-week alpha post-Wed +1.69% IHSG contribution -0.32pp compression.
+- [ ] **US July PPI release tonight US time (Fri WIB)** — CPI/PPI compound bind directional binary for Fed rate-path.
+- [ ] **Weekly Review Wk 17 Fri Aug 15 16:00 WIB** — letter grade Wk 17; MISTAKES.md / PATTERNS.md / CONVICTION-LOG.md / MACRO-REGIME.md refresh; TLKM-POST-Q2-BEAT-CONFIRMED-CANDIDATE-CHASE-RISK pattern candidate formalization.
+
+---
