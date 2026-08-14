@@ -16052,6 +16052,308 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 +5.6% strongest consumer growth; Q1 NI +37% Rp 946B; Indo Premier top pick.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (0.85/5 confirming); DQG Day 104 blocks cluster; no discrete near-term catalyst. Defensive-fit but 0% new-entries binding until all 5 criteria concurrent.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 +175% NI + Fiber Infra deal + spectrum consolidation win.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 chase-risk fail (ISAT >3% recent surge)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: Gate 9 chase-fail persist post Fri +16.32% surge (5-day >10% no-buy) + crisis-track gate ACTIVATED. Pullback dependence Day 5.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        false,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 NI Rp 6.3T +28% YoY highest since 3Q23; BRI TP 3,750 (+36.9% upside).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 chase-risk fail (TLKM >3% recent surge)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: Thu +4.18% pump to 2,740 = post-Q2-EBITDA-BEAT chase-risk near ceiling (Gate 9 chase-risk); crisis-track gate ACTIVATED. Needs pullback \u22642,700 for fresh entry qualification.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        false,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core profit +50.6% YoY; 1H core +17.7% Day 3; FX-basis tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (0.85/5); DQG Day 104 blocks cluster convergence. Consumer defensive-fit but 0% new-entries binding.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 revenue +4.9%; sole net-inflow YTD +Rp 58B; H2 commodity normalization; Brent partial mean-revert marginal-positive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (0.85/5); Brent $87.99 still \u2265$87 erodes CPI-relief thesis; foreign-flow 2-of-2 fresh restart BROKEN Day 1 via Thu -Rp 1.18T net-SELL.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Only 'in-line' property Q2 (peers all missed) + VAT tailwind ext 2026; Buy TP 1,300.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 17 Day 5 Fri \u2014 6 candidates \u22656/10 pre-checked (MYOR/ISAT/TLKM/ICBP/INDF/CTRA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY34; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; PRABOWO-STATE-ADDRESS-14:30-WIB-TODAY; DESTRY-DPR-RATIFICATION-Day-0"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.85/5 confirming (-0.20pp regression via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1); DQG Day 104"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 3 pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (0.85/5); DQG Day 104 blocks cluster; IDR STALLED Day 1 (~17,920 mid, +65 IDR reversion) = property rate-sensitive relief marginal only.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -16094,33 +16396,6 @@
     "updated": "2026-08-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-09T02:17:21Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. IDR 18,171 sustained \u226518,000 3rd session = DEFENSIVE-CASCADE-PEAK pre-emptive de-risk regime gate forbids all new entries; TLKM (Rp 4T buyback Day-1) + MDKA (gold-haven +3.63%) SKIPPED on regime gate despite fresh catalysts. KLBF HOLD (broker GTC 931 armed; cluster Day-49 ~60% spread blocks discretionary action). Week 8 slot 0/3 preserved.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "regime gate: IDR cascade-breach sustained 3rd session pre-emptive de-risk binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "regime gate: IDR cascade-breach sustained 3rd session pre-emptive de-risk binds"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "broker-side GTC 931 armed; cluster ~60% spread blocks discretionary action"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram allowlist HTTP 403 \u2014 notify.sh stdout fallback engaged"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-09T04:35:09Z",
       "routine": "midday",
@@ -20552,6 +20827,52 @@
         {
           "type": "macro",
           "detail": "Prabowo State Address 14:30 WIB TODAY + DPR Destry ratification opens = double-binary"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-14T02:20:14Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 17 Day 5 Fri. Crisis-track engagement gate ACTIVATED (~0.85/5 re-entry criteria; -0.20pp regression Wk 17 Day 5 via foreign-flow 2-of-2 FRESH RESTART BROKEN Day 1 + IDR STALLED Day 1). 6 candidates >=6/10 (MYOR/ISAT/TLKM/ICBP/INDF/CTRA) all SKIP pre-check. 17th consecutive 0/3 BUY-slot week. Book 100% cash IDR 9.72B.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "Score 7; crisis-track gate ACTIVATED + DQG Day 104"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "Score 7; Gate 9 chase-fail post +16.32% + crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "Score 6; Gate 9 chase-risk near 2,740 ceiling + crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Score 6; crisis-track gate + DQG Day 104"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "Score 6; crisis-track gate + foreign-flow BROKEN Day 1"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "Score 6; crisis-track gate + IDR STALLED Day 1"
+        },
+        {
+          "type": "warning",
+          "detail": "Data Quality Gate Day 104 outage persists (yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Prabowo State Address 14:30 WIB TODAY + Destry DPR ratification Day 0 double-binary"
         }
       ]
     }
