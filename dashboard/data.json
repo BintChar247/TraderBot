@@ -1307,6 +1307,22 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-17",
+      "day_label": "Day 86",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6401.89,
+      "ihsg_cumulative_pct": -16.14,
+      "alpha_pct": 13.3,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "IDX CLOSED \u2014 Hari Kemerdekaan RI ke-81 (Indonesian Independence Day). No trading session. Portfolio state carried from Fri Aug 14 EOD. IHSG close reflects Fri Aug 14 corrected canonical 6,401.89 per 3-source cluster (prior EOD single-source 6,286.00 outlier excluded per DQG procedure). Cumulative alpha revised: prior stale +14.82pp \u2192 +13.30pp fresh anchor-arithmetic."
     }
   ],
   "positions": [],
@@ -16412,18 +16428,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-10T08:20:07Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "Day 38 EOD: IDR 9.856B (+0.00%). Alpha -5.03% (cum +21.51%). 1 position (KLBF +9.52%). 0 trades today; wk 0/3. IDR <18,000 1-of-2 sustained pending Thu confirmation.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 38 EOD snapshot committed; cumulative alpha +21.51% (compression -3.70pp from Day 37)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-11T02:21:25Z",
       "routine": "market-open",
       "status": "warning",
@@ -20896,6 +20900,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "IDX HOLIDAY (Hari Kemerdekaan RI ke-81). No trading session. 0 positions (Day 36 100% cash). Midday scan mechanically vacuous \u2014 no cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-08-17T08:28:23Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-08-17 (IDX HOLIDAY Hari Kemerdekaan): IDR 9.72B, 0.00% today (no session). Cum -2.84%. Cum alpha revised +13.30pp (post-Fri-cluster-correction). 0 positions Day 36. Book 100% cash. Wk 18 Day 1 no trades. IDR sub-17,750 target ~35 IDR gap. Next live Tue Aug 18.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 86 EOD snapshot filed under IDX holiday; cluster-correction context appended; RISK-STATE + dashboard/data.json updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -20983,11 +20999,11 @@
       "Wk 17 Weekly Review 16:00 WIB TODAY \u2014 letter grade + MACRO-REGIME.md refresh + TLKM-POST-Q2-BEAT-CHASE-RISK pattern formalization"
     ]
   },
-  "last_updated": "2026-08-17T07:00+07:00",
+  "last_updated": "2026-08-17T15:15+07:00",
   "market": {
     "ihsg_close": 6401.89,
-    "ihsg_change_pct": 1.59,
-    "ihsg_close_basis": "Fri Aug 14 CORRECTED full-day close 6,401.89 (+1.59%; +100.12 pts) \u2014 3-source cluster canonical (Kompas + Databoks + achmadnurhidayat exact 6,401.89; intraday range 6,267.41-6,401.89); all 11 sectors GREEN post-Prabowo speech; Healthcare leads per Databoks. Prior EOD single-source outlier 6,286.00 (journalarta) EXCLUDED per DQG procedure",
+    "ihsg_change_pct": 0.0,
+    "ihsg_close_basis": "Fri Aug 14 CORRECTED full-day close 6,401.89 (+1.59%; +100.12 pts) \u2014 3-source cluster canonical (Kompas + Databoks + achmadnurhidayat exact 6,401.89); IDX CLOSED Mon Aug 17 Hari Kemerdekaan RI ke-81 \u2014 no fresh session; last valid close carried. Prior EOD single-source outlier 6,286.00 (journalarta) EXCLUDED per DQG procedure.",
     "idr_usd": 17827,
     "idr_usd_change_pct": -0.24,
     "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 32 DE-ARM-CANDIDATE Day 12 FIRMING Day 2 (Fri close 17,827.50 -0.24% via Investing; Mon 06:00 forecast ~17,785 range 17,518-18,052; sub-17,750 3-of-3 target ~35 IDR away = CLOSEST-SINCE-GATE-ACTIVATED)",
@@ -21004,6 +21020,6 @@
     "foreign_flow_note": "Fri Aug 14 full-day -Rp 377.63B net-SELL (gross BUY Rp 1.73T vs gross SELL Rp 2.11T per Rancakmedia); criterion (d) 2-of-2 FRESH RESTART STILL BROKEN Day 2 BUT MAGNITUDE DECAY ~68% vs Thu -Rp 1.18T = tentative-recovery-inflection-signal. Wk 17 full-week -Rp 1.58T. Aug MTD tally ~breakeven post-correction.",
     "global_note": "Fri Aug 15 US close: S&P 500 -0.20% to 7,785.76 / Nasdaq -0.30% to 26,729.16 / Dow -0.20% to 53,732.41 \u2014 third-consecutive weekly gain slipped from record; deteriorating consumer sentiment. US 10Y 4.70% +4bp (post-CPI-dovish digestion partial reversal). US 30Y 5.20% BLOWOUT persist T+17. VIX 14.25 low-vol. Brent $88.52 +1.67% mean-revert PAUSED Day 3. Newcastle coal $129.25 -0.12% sub-$130 wk 10. Asia Fri: Nikkei +0.59% to 68,713.80 / Shanghai +0.01% to 3,927.18 / Hang Seng -1.10% to 25,116.85.",
     "updated_date": "2026-08-17",
-    "session_note": "IDX CLOSED Mon Aug 17 = Hari Kemerdekaan RI ke-81; next live session Tue Aug 18. IHSG cluster CORRECTION Fri close resolved to 6,401.89 (+1.59% not -0.25%) = alpha revision Wk 17 close +13.07% cumulative (vs prior reported +14.82%)."
+    "session_note": "IDX CLOSED Mon Aug 17 = Hari Kemerdekaan RI ke-81 (Indonesian Independence Day) \u2014 no trading session; next live session Tue Aug 18. IHSG cluster CORRECTION Fri close resolved to 6,401.89 (+1.59% not -0.25%) = alpha revision Wk 17 close +13.30pp cumulative anchor-arithmetic (vs prior stale +14.82pp; -1.52pp compression). Book 100% cash Day 36; 6 candidates \u22656/10 unchanged; crisis-track gate ~1.05/5 (+0.20pp reversal vs Wk 17 Day 5)."
   }
 }
