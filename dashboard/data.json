@@ -16412,37 +16412,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-10T02:18:12Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. IDR Wed multi-source intraday range 18,058-18,134 = sustained \u226518,000; pre-emptive de-risk procedure binds (regime DEFENSIVE-INTENSIFIED-INFLECTION-PENDING). Both MDKA + TLKM SKIP on regime gate. KLBF HOLD.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "IDR \u226518,000 sustained Wed intraday \u2014 pre-emptive de-risk binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "IDR \u226518,000 sustained Wed intraday \u2014 pre-emptive de-risk binds"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "cluster Day 50 non-convergence; trailing 931 GTC armed"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override path engaged (yfinance Day 50 blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram API host-allowlist denied; notification stdout fallback"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-10T04:34:08Z",
       "routine": "midday",
       "status": "success",
@@ -20901,6 +20870,30 @@
           "type": "research",
           "ticker": "MIKA",
           "detail": "upgrade-watch \u2014 Healthcare LEADS Fri all-green rally"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-17T02:16:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. IDX CLOSED \u2014 Hari Kemerdekaan RI ke-81 (Indonesian Independence Day). Next live session Tue Aug 18. Book 100% cash Day 36; crisis-track gate ACTIVATED ~1.05/5.",
+      "actions": [
+        {
+          "type": "info",
+          "detail": "IDX HOLIDAY - Hari Kemerdekaan RI ke-81 (Aug 17, Independence Day)"
+        },
+        {
+          "type": "info",
+          "detail": "No positions to manage (100% cash Day 36)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification failed (proxy 403) - stdout fallback used"
+        },
+        {
+          "type": "info",
+          "detail": "Crisis-track re-entry gate ~1.05/5 (IDR firming Day 2 ~35 IDR from sub-17,750; foreign flow criterion d BROKEN Day 2 magnitude decay ~68%)"
         }
       ]
     }
