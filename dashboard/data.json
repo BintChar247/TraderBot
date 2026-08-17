@@ -16412,12 +16412,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-10T04:34:08Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF cluster non-convergence persists Day 50; no cuts, no tightenings, no thesis exits. Trailing 931 GTC armed."
-    },
-    {
       "timestamp": "2026-06-10T08:20:07Z",
       "routine": "daily-summary",
       "status": "success",
@@ -20896,6 +20890,12 @@
           "detail": "Crisis-track re-entry gate ~1.05/5 (IDR firming Day 2 ~35 IDR from sub-17,750; foreign flow criterion d BROKEN Day 2 magnitude decay ~68%)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-17T04:36:54Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "IDX HOLIDAY (Hari Kemerdekaan RI ke-81). No trading session. 0 positions (Day 36 100% cash). Midday scan mechanically vacuous \u2014 no cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
