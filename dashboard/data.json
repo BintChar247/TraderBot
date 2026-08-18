@@ -16428,37 +16428,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-11T02:21:25Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Thu Jun 11 2026. Both carry-over candidates SKIP: MDKA AGM T+0 binary timing + Gate 9 multi-source non-convergence (Day 51 data outage); TLKM Gate 9 chase fail from any anchor (Mon ARB 2,350 \u2192 web 2,900 = +23.4%). KLBF HOLD (cluster 60% spread persists Day 51). IDR de-escalation criterion (a) MET on Wed 17,940 sustained 2-session. Week 8 0/3 fresh preserved.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "Gate 9 multi-source non-convergence + binary AGM T+0 timing risk + 4-day cumulative +15% chase"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Gate 9 chase fail any anchor; multi-source Wed close non-convergent"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "Cluster 60% spread Day 51; trailing 931 GTC armed broker-side"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance/GoAPI HTTP 403 Day 51 persists; WebSearch single-source fallback used; \u22653-source \u22642% convergence not achievable"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify host-blocked in sandbox; message printed stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-11T04:38:03Z",
       "routine": "midday",
       "status": "success",
@@ -20910,6 +20879,37 @@
         {
           "type": "research",
           "detail": "Day 86 EOD snapshot filed under IDX holiday; cluster-correction context appended; RISK-STATE + dashboard/data.json updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-18T00:10:51Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk18 Day2 (Tue post-holiday). 50-ticker scan complete. 7 candidates \u22656 (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + MIKA upgrade-candidate). All gate-blocked. Crisis-track gate ~1.10/5 provisional; IDR sub-17,750 target ~50-80 IDR gap = closest since gate activated. IHSG Fri corrected 6,401.89 (+1.59%).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker watchlist scanned"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "upgrade-candidate 5\u21926 Healthcare-defensive-lead Fri"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 Q2 EBITDA BEAT Day 7 (Gate-9 chase-fail near 2740)"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 Q2 core +50.6% YoY"
         }
       ]
     }
