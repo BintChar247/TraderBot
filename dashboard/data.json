@@ -16385,6 +16385,361 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare defensive-lead upgrade-candidate Fri Aug 14 sector-LEADER per Databoks post-Prabowo relief; not Defensive-Quality eligible (mkt cap ~IDR 45T < IDR 100T).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Upgrade-candidate \u2014 requires Tue Aug 18 sector-lead-continuation Day 2 observation FIRST"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core profit +50.6% YoY Day 7; FX-basis tailwind; Fri consumer-lift participation continues.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD +Rp 58B; H1 revenue +4.9%; H2 commodity normalization thesis; Brent PAUSED Day 4.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer margin play; Q2 setup; persistent \u22656/10 Wk 17\u2192Wk 18 candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 EBITDA BEAT +28% YoY Day 7; TLKM-FADE-ON-BEAT PATTERNS.md active; Gate-9 chase-fail near 2,740 ceiling (needs pullback \u22642,700).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 chase-fail: current price >3% above planned entry / analyst entry zone"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 blowout Wk 15 chase-fail carry ~2,470 vs analyst entry zone 1,880-2,020 = Gate-9 chase-fail.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Gate 9 chase-fail: current price >3% above planned entry / analyst entry zone"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-18",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 in-line least-bad property (peers all missed); VAT tailwind ext 2026; Buy TP 1,300.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 2 Tue post-holiday first live \u2014 7 candidates \u22656/10 pre-checked (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; POST-HOLIDAY-Tue-first-live-Wk18-Day2; IDR-Day3-FIRMING-CLOSEST-TO-TARGET-~50-80-IDR-gap; DESTRY-DPR-FIT-AND-PROPER-ENGAGED; JACKSON-HOLE-T+4-US-biz-day; MSCI-GOTO-CPIN-removal-Aug-31-T-9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.10-1.15/5 provisional Tue-open baseline (3.85-3.90/5 gap binding); DQG Day 108 blocks cluster; post-holiday 3-day gap volatility risk"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "Confirming pre-market SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.15/5); DQG Day 108 blocks cluster; post-holiday tape volatility elevated. Zero new entries binding per TRADING-STRATEGY.md Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -16427,12 +16782,6 @@
     "updated": "2026-08-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-11T04:38:03Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "KLBF Day 52 cluster non-convergence (2-source 730/745 spread ~2.05% > 2%); safe-lower carry holds; no -7% cut, no stop tighten. All positions healthy."
-    },
     {
       "timestamp": "2026-06-11T08:19:36Z",
       "routine": "daily-summary",
@@ -20910,6 +21259,53 @@
           "type": "research",
           "ticker": "ICBP",
           "detail": "score 6/10 Q2 core +50.6% YoY"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-18T02:17:37Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 18 Day 2 Tue post-holiday first live session: No trades placed. All 7 candidates \u22656/10 (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA) blocked by CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~1.10-1.15/5, 3.85-3.90/5 gap binding). 38th consecutive session no-position; Day 38 book fully de-risked since Jul 6 KLBF cut. DQG Day 108 outage persists; IDR firming Day 3 closest-to-sub-17,750 target since gate activated (~50-80 IDR gap).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "crisis-track gate + upgrade-candidate needs Tue Day 2 confirmation"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track gate + Gate-9 chase-fail near 2,740 ceiling"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "crisis-track gate + Gate-9 chase-fail 2,470 vs entry 1,880-2,020"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 108 outage persists \u2014 yfinance+GoAPI blocked; per-ticker cluster narrowing required for any entry"
         }
       ]
     }
