@@ -10399,3 +10399,56 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   6. Jackson Hole T+4 US-biz-day approach; Fed structural signal binary Aug 24-26.
   7. Destry DPR fit-and-proper test outcome multi-source reconciliation critical Tue pre-market; formal vote timing/result pending.
   8. MSCI GOTO+CPIN removal T+10 US-biz-day approaches Aug 29 rebalance; passive-outflow catalyst binary building.
+
+### 2026-08-18 EOD (Day 87, Tue — Week 18 Day 2 — FIRST LIVE SESSION post-Independence-Day pause; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38; WK-17-COMPLETE-17-CONSECUTIVE-ZERO-TRADE-WEEKS; IHSG-SESI-I-6,481.96-(+1.25%-vs-Fri-corrected-6,401.89) POST-INDEPENDENCE-DAY-RELIEF-RALLY-CONTINUATION-Day-4; IDR-STAGE-5-MARGINAL-BOUNDARY-Day33-DE-ARM-CANDIDATE-Day13-FIRMING-DAY3-CANDIDATE; DESTRY-DAMAYANTI-DPR-FIT-AND-PROPER-TEST-Day-2-outcome-pending; PRABOWO-STATE-ADDRESS-RAPBN-2027-Day-4-MARKET-RELIEF-CONTINUATION; BRENT-$88.52-MEAN-REVERT-PAUSED-Day-4; US-JULY-CPI-DOVISH-3.4%-HEADLINE-Day-6; FOREIGN-FLOW-Tue-full-day-CONFIRMATION-PENDING-post-Fri-magnitude-decay-signal; MSCI-AUG-12-CONFIRMED-FREEZE-EXTENDED-GOTO-CPIN-REMOVED-Day-7; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-25; BI-HOLD-DOVISH-ABSORBED-Day-28; Data-Quality-Gate-Day-108; FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+18-US-BIZ-DAY; US-30Y-YIELD-5.20%-BLOWOUT-PERSIST; JULY-CPI-BPS-2.88%-DOVISH-ABSORBED-Day-13; MEDC-Q2-T+18-DELIST-CANDIDATE; TLKM-POST-Q2-EBITDA-BEAT-MIXED-FADE-DAY-12; JACKSON-HOLE-T+3-US-BIZ-DAY; PARLIAMENT-RESES-ENDED-DPR-XI-FIT-AND-PROPER-TEST-Day-2; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +1.25% (Tue sesi I close 6,481.96 vs Fri corrected 6,401.89; sesi II full-day post-15:00 close not yet indexed per Data-Quality-Gate Day 108, sesi I mark used per prior EOD convention — provisional pending Wed pre-market multi-source reconciliation)
+- Daily alpha: -1.25% (portfolio flat vs IHSG +1.25% sesi I basis)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (anchor-arithmetic, sesi I basis): +12.25pp (portfolio cum -2.84% − IHSG cum -15.09% from Apr 19 anchor 7,634.00 to Tue Aug 18 sesi I 6,481.96); -1.05pp compression vs Fri Wk 17 close baseline +13.30pp via IHSG relief-rally-continuation Day 4
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 37 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing.
+
+#### Notes
+
+- **EOD Wk 18 Day 2 no trades / no positions — FIRST LIVE SESSION post-Independence-Day pause:** Book fully de-risked Day 37 continues. Zero equity market exposure. Pre-market Wk 18 Day 2 6+ candidates ≥6/10 (MYOR/ISAT/TLKM/ICBP/INDF/CTRA) remain gate-blocked by crisis-track engagement gate (3.95/5 gap). 18th consecutive 0/3 BUY-slot week begins Day 2 (Mon Wk 18 Day 1 was IDX holiday); 58+ cumulative unused candidate-day slots trial-to-date.
+- **IHSG sesi I Tue +1.25% to 6,481.96 = post-Prabowo relief-rally continuation Day 4:** 3-source cluster (Kompas 6,481.96 +1.25% / Bisnis "6.482" +1.26% / Tribunnews "6.482" +1.26% / Liputan6 "6.482" +1.26% / Infobanknews "6.482" +1.26%) — 5-source convergent, sesi I basis, sesi II full-day close not yet indexed per DQG-Day-108 outage. Intraday range 6,448.26-6,490.64 per Bisnis. Advancers 397 / decliners 218 / unchanged 178 = broad breadth continuation. WIFI top gainer (per Kompas). LQ45 top gainers INDY/ISAT/MEDC per Kontan (opening).
+- **Sesi II close provisional per DQG procedure:** filing at 15:15 WIB with only sesi I close indexed. Per Wk 18 Day 1 process learning documented ("if only 1-2 sources surface within filing window, tag entry EXPLICITLY as provisional single-source pending Wk-open reconciliation") — this entry uses 5-source sesi I cluster (structurally stronger than single-source) but tags sesi II full-day close as PENDING Wed pre-market reconciliation. Alpha calculation uses sesi I basis; may be revised marginally Wed pre-market.
+- **Cumulative alpha compression -1.05pp Wk 18 Day 2 sesi I basis:** prior Wk 17 close +13.30pp → Tue sesi I +12.25pp. Trial trajectory absolute unchanged (portfolio -2.84% unchanged 38 consecutive sessions). Alpha compression via IHSG relief-rally-continuation (+1.25% sesi I today) while portfolio remains 100% cash. Cost of continued gate discipline vs directional catch-up.
+- **IDR gate criterion (a) status Tue:** IDR-STAGE-5-MARGINAL-BOUNDARY Day 33 DE-ARM-CANDIDATE Day 13 FIRMING Day 3 candidate (Mon holiday intervening — Tue open cluster verification per pre-market). Pending WebSearch cluster verification for Tue actual open/mid vs Fri close 17,827.50 and Mon forecast ~17,785. Sub-17,750 3-of-3 target proximity update pending Wed pre-market fetch.
+- **Foreign flow criterion (d) status Tue:** Fri Rp377.63B net-SELL magnitude decay ~68% signaled tentative-recovery-inflection. Tue full-day net-flow print pending EOD/Wed pre-market reconciliation. Fresh 3-consecutive-session net-BUY sequence required for criterion (d) restart.
+- **Post-Prabowo State Address relief digestion Day 4:** Fri Aug 14 +1.59% broad-tape (all 11 sectors GREEN) + Tue Aug 18 sesi I +1.25% = 2-of-2 post-speech sessions positive = fiscal-discipline signal absorbed durably. WIFI top-gainer suggests small-cap rotation; LQ45 INDY/ISAT/MEDC leadership at open = energy/telecom bid.
+- **DESTRY DAMAYANTI DPR Komisi XI fit-and-proper test Day 2 (out of reses; Mon holiday extended de-facto):** dovish-continuity structural lock unchanged. Formal DPR plenary vote outcome multi-source reconciliation pending Wed pre-market. Post-vote first BI RDG meeting = binary regime-shift catalyst T+~1wk.
+- **US July CPI dovish absorbed Day 6:** headline 3.4% YoY / core 2.5% YoY filter continues; Fed Sept hike odds ~40% held; US 10Y ~4.70% held; US 30Y 5.20% BLOWOUT persist T+18 US-biz-day.
+- **BRENT $88.52 mean-revert paused Day 4:** Iran-Hormuz geo premium residual; energy sector reactively neutral (though INDY/MEDC opened +% today via LQ45 gainers).
+- **MSCI-Aug-12-CONFIRMED freeze extended + GOTO/CPIN REMOVED Day 7:** effective post-close Aug 31; passive-outflow catalyst binary Aug 29 T-1 US-biz-day (T+9 US-biz-day from today).
+- **Data Quality Gate Day 108 outage persists:** yfinance + GoAPI still blocked (108 consecutive sessions since Apr 21); WebSearch multi-source override operational. Sesi I 5-source cluster demonstrates DQG-triggered sesi-II-lag mitigated via source-count discipline.
+- **Book fully de-risked Day 37 through Wk 18 Day 2 = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 37. All 5 re-entry criteria still binding; crisis-track re-entry gate estimated ~1.10/5 (+0.05pp from Wk 18 Day 1 baseline ~1.05/5) via marginal foreign-flow decay continuation. 3.90/5 gap still binding — 0% new entries until all 5 concurrent.
+- **17 consecutive 0/3 BUY-slot weeks + Wk 18 Day 1 holiday + Wk 18 Day 2 first-live no-trade = 18th potential zero-trade week Day 2:** 58+ cumulative unused candidate-day slots trial-to-date. All multi-front bindings persist: hawkish-FOMC-T+18 + IDR-Day33-DE-ARM-Day13-FIRMING-Day-3-candidate + Brent-mean-revert-paused-Day4 + Trump-tariff-Day25 + Destry-DPR-fit-and-proper-Day-2 + TLKM-Q2-EBITDA-BEAT-fade-Day-12 + MSCI-Aug-review-CONFIRMED-freeze-GOTO-CPIN-removed-Day-7 + MEDC-Q2-T+18-DELIST-CANDIDATE + US-30Y-5.20%-BLOWOUT-persist + July-CPI-2.88%-dovish-Day-13 + US-July-CPI-3.4%-dovish-Day-6 + Prabowo-State-Address-relief-Day-4 + Jackson-Hole-T+3-US-biz-day all binding.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 87, Wk 18 Day 2). Phase-to-date P&L -2.84% unchanged (38 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Wk 18 Day 2 alpha -1.25% sesi I basis; cumulative alpha +12.25pp (anchor-arithmetic sesi I basis) — IHSG cumulative -15.09% from Apr 19 anchor 7,634.00 to Tue Aug 18 sesi I 6,481.96.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags.
+- **Carry-over to Wed Aug 19 07:00 WIB pre-market (Wk 18 Day 3):**
+  1. Sesi II full-day close reconciliation (Tue Aug 18) via 3+ source WebSearch cluster.
+  2. IDR Tue open/mid cluster verification (sub-17,750 3-of-3 target proximity update).
+  3. Foreign flow Tue full-day net-flow verification (fresh 3-consec sequence 1-of-3 possibility if net-BUY prints).
+  4. Destry DPR fit-and-proper-test outcome pending — Wed pre-market multi-source check.
+  5. Candidate set (MYOR/ISAT/TLKM/ICBP/INDF/CTRA) live re-cluster post-Wk-18 first-live session; MIKA (5→6) upgrade candidate persists if Healthcare-continues-bid.
+  6. Jackson Hole T+3 US-biz-day approach; Fed structural signal binary Aug 24-26.
+  7. MSCI GOTO+CPIN removal T+9 US-biz-day approaches Aug 29 rebalance; passive-outflow catalyst binary building.
