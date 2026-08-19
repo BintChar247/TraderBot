@@ -16756,6 +16756,410 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Foreign-flow sesi I leader Tue +Rp 98.37B; Big-4 relative-strength; Destry-dovish-continuity anchor.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Foreign-flow sesi I leader Tue +Rp 98.37B; Big-4 relative-strength; Destry-dovish-continuity anchor.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Foreign-flow sesi I secondary +Rp 62.35B; nickel-gold hybrid; LME $16,806 firm + gold-defensive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Foreign-flow sesi I secondary +Rp 62.35B; nickel-gold hybrid; LME $16,806 firm + gold-defensive.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core profit +50.6% YoY Day 8; Prabowo-RAPBN-2027 consumer-lift signal continuation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Q2 core profit +50.6% YoY Day 8; Prabowo-RAPBN-2027 consumer-lift signal continuation.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 rev +4.9%; sole YTD net-inflow +Rp 58B; HOWEVER Brent $91 breakout Day 5 = margin headwind INTENSIFIED.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Thesis DEGRADING: Brent $91.02 mean-revert BROKEN Day 5 above $90 = INDF CPO/wheat-margin headwind INTENSIFIED"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. H1 rev +4.9%; sole YTD net-inflow +Rp 58B; HOWEVER Brent $91 breakout Day 5 = margin headwind INTENSIFIED.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Persistent \u22656/10 Wk 17\u219218 carry; consumer margin play; Prabowo-RAPBN consumer-lift continuation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Persistent \u22656/10 Wk 17\u219218 carry; consumer margin play; Prabowo-RAPBN consumer-lift continuation.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 EBITDA-beat +28% YoY Day 8; TLKM-FADE-ON-BEAT pattern Day 12 unresolved; T+12 digestion binary.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Ticker pattern active: TLKM-FADE-ON-BEAT (LOW confidence, 3 obs) Day 12 UNRESOLVED \u2014 post-Q2 T+12 digestion binary open"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Q2 EBITDA-beat +28% YoY Day 8; TLKM-FADE-ON-BEAT pattern Day 12 unresolved; T+12 digestion binary.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 in-line least-bad property (peers all missed); VAT tailwind ext 2026; Buy TP 1,300.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Q2 in-line least-bad property (peers all missed); VAT tailwind ext 2026; Buy TP 1,300.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ISAT",
+      "action": "SKIP",
+      "date": "2026-08-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 blowout Wk 15 chase-fail carry; LQ45 opener leader Tue; entry zone 1,880-2,020 vs ~2,470 = Gate-9 hard-fail.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 18 Day 3 Wed post-Prabowo-relief-continuation Day 5; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED; Wk18-Day3-Wed; IDR-~17,850-FIRMING-TRAJECTORY-PAUSED-~100-IDR-gap; BRENT-$91.02-MEAN-REVERT-BROKEN-Day5; FOREIGN-FLOW-Tue-sesi-I-+Rp112.88B-SIGN-FLIP-tentative; DESTRY-DPR-FIT-AND-PROPER-Wk19; JACKSON-HOLE-T+3-US-biz-day; MSCI-GOTO-CPIN-Aug31-T-8; DQG-Day-109"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~1.15/5 (3.85/5 gap binding); DQG Day 109 blocks cluster narrowing; Brent $91 breakout Day 5 CPI-vector negative; IDR firming paused; Jackson-Hole T+3 pre-position"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (regime layer-0 block; 0% new entries until 5-of-5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "warning",
+          "label": "Pre-check FAIL: Gate 9 chase-fail \u2014 ~2,470 vs analyst entry zone 1,880-2,020 = >3% above planned entry"
+        }
+      ],
+      "reasoning": "SKIP per pre-market plan: crisis-track engagement gate ACTIVATED (~1.15/5); DQG Day 109 blocks cluster narrowing; 0% new entries binding regime rule persists. Q2 blowout Wk 15 chase-fail carry; LQ45 opener leader Tue; entry zone 1,880-2,020 vs ~2,470 = Gate-9 hard-fail.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -16798,12 +17202,6 @@
     "updated": "2026-08-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-12T04:37:00Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF cluster Day 54 non-convergence (710/745/910/945 ~33% spread) blocks discretionary action; 931 GTC armed broker-side. No cuts, no tightenings, no thesis exits."
-    },
     {
       "timestamp": "2026-06-12T08:20:56Z",
       "routine": "daily-summary",
@@ -21296,6 +21694,58 @@
         {
           "type": "reconciliation",
           "detail": "IHSG Tue sesi II reconciled 6,449.83 (+0.75%) vs sesi I 6,481.96; cum alpha +12.67pp"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-19T02:17:36Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 18 Day 3. Crisis-track engagement gate ACTIVATED persists (~1.15/5, 3.85/5 gap binding). All 8 candidates \u22656/10 pre-blocked (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA + gate-9-blocked ISAT). HOLD 100% CASH \u2014 39th consecutive no-position session.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track + thesis degrading Brent $91"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track + FADE-ON-BEAT pattern Day 12"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "ISAT",
+          "detail": "crisis-track + Gate-9 chase-fail"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 109 outage persists; WebSearch multi-source override operational"
         }
       ]
     }
