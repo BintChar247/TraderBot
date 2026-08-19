@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY38-Wk18-Day2-first-live-post-Independence-Day-pause-IHSG-Tue-sesi-I-6,481.96-+1.25%-relief-continuation-Day-4-cum-alpha-+12.25pp-sesi-I-basis-anchor-arithmetic-1.05pp-compression-vs-Wk-17-close-IDR-STAGE-5-MARGINAL-BOUNDARY-Day33-DE-ARM-CANDIDATE-Day13-FIRMING-Day-3-candidate-DESTRY-DPR-fit-and-proper-Day-2-outcome-pending-PRABOWO-STATE-ADDRESS-RELIEF-Day-4-BRENT-$88.52-mean-revert-paused-Day-4-US-JULY-CPI-DOVISH-Day-6-FOREIGN-FLOW-Tue-full-day-pending-post-Fri-magnitude-decay-signal-MSCI-Aug-12-CONFIRMED-freeze-extended-GOTO-CPIN-REMOVED-Day-7-Data-Quality-Gate-Day-108-FOMC-HAWKISH-HOLD-T+18-US-30Y-YIELD-5.20%-BLOWOUT-persist-JACKSON-HOLE-T+3-US-biz-day-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY39-Wk18-Day3-post-Independence-Day-relief-rally-paused-Day-1-IHSG-Wed-close-6,395-(-0.84%-vs-Tue-reconciled-6,449.83)-cum-alpha-+13.39pp-Wed-close-basis-+0.72pp-expansion-vs-Tue-reconciled-IDR-STAGE-5-MARGINAL-BOUNDARY-Day34-DE-ARM-CANDIDATE-Day14-FIRMING-Day-4-candidate-DESTRY-DPR-fit-and-proper-Day-3-outcome-pending-PRABOWO-STATE-ADDRESS-RELIEF-Day-5-BRENT-$88.52-mean-revert-paused-Day-5-US-JULY-CPI-DOVISH-Day-7-FOREIGN-FLOW-Wed-full-day-pending-MSCI-Aug-12-CONFIRMED-freeze-extended-GOTO-CPIN-REMOVED-Day-8-Data-Quality-Gate-Day-109-FOMC-HAWKISH-HOLD-T+19-US-30Y-YIELD-5.20%-BLOWOUT-persist-JACKSON-HOLE-T+2-US-biz-day-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-08-18"
+  "updated": "2026-08-19"
 }
