@@ -1332,13 +1332,13 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6481.96,
-      "ihsg_cumulative_pct": -15.09,
-      "alpha_pct": 12.25,
+      "ihsg_close": 6449.83,
+      "ihsg_cumulative_pct": -15.51,
+      "alpha_pct": 12.67,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "session_note": "Wk 18 Day 2 FIRST LIVE session post-Independence-Day (Mon Aug 17 IDX closed). IHSG sesi I 6,481.96 (+1.25% vs Fri corrected 6,401.89) \u2014 5-source cluster (Kompas/Bisnis/Tribunnews/Liputan6/Infobank). Sesi II full-day close PENDING per DQG Day 108 sesi-II-lag; sesi I mark used per prior EOD convention. Portfolio flat 100% cash Day 37. Daily alpha -1.25% (portfolio 0.00% vs IHSG +1.25% sesi I basis). Cumulative alpha compression -1.05pp vs Wk 17 close +13.30pp."
+      "session_note": "Wk 18 Day 2 sesi II RECONCILED 6,449.83 (+47.94 pts, +0.75% vs Fri corrected 6,401.89). 3-source cluster CANONICAL PASS: RRI + Kompas 6,449 (MBMA top-losers) + Okezone 6,449 (Rp 14.6T value). Sesi I peak 6,481.96 faded -32 pts intraday. Fortune -0.73% single-source outlier excluded. Portfolio flat 100% cash Day 37. Cumulative alpha revised +12.67pp reconciled sesi II basis (portfolio -2.84% cum vs IHSG cum -15.51%)."
     }
   ],
   "positions": [],
@@ -16799,38 +16799,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-12T02:18:44Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Fri Jun 12. BBCA SKIP (Gate 9 chase fail from Thu +8.74% rally); TLKM SKIP (multi-source non-convergent + Gate 9 chase from Mon ARB anchor); MDKA SKIP (AGM postponed to Jun 23 invalidates Gate 5 catalyst). KLBF HOLD (broker-side 931 GTC armed; cluster Day 53 non-convergence). Week 8 0/3 slots preserved into weekly review 16:00 WIB.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Gate 9 chase cap fail (Thu +8.74% to 5,600 = +25% cumulative 5-day rebound)"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Multi-source non-convergent + Gate 9 chase from Mon ARB 2,350 anchor (+23.4%)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "AGM postponed to RUPSLB Jun 23 = Gate 5 catalyst invalidated"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "Broker-side 931 GTC armed; cluster Day 53 non-convergence persists"
-        },
-        {
-          "type": "warning",
-          "detail": "Data-infra outage Day 53 (yfinance/GoAPI blocked); WebSearch override path operational for IHSG/IDR; cluster discipline binds Gate 9"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-12T04:37:00Z",
       "routine": "midday",
       "status": "success",
@@ -21295,6 +21263,41 @@
           "detail": "Day 87 EOD snapshot committed; sesi II close pending Wed pre-market reconciliation"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-19T00:10:49Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan complete. 7 CANDIDATE (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA score 6) + 1 GATE9-block (ISAT). ALL blocked by crisis-track engagement gate (~1.15/5, +0.05pp via Tue sesi I foreign flow sign-flip +Rp112.88B). Book 100% cash Day 38.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned per pre-market.md Tier 4"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored 6 + 1 gate-9-blocked (ISAT)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Tue sesi I foreign net-BUY leader +Rp 98.37B; Destry-dovish-continuity anchor"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 6/10 \u2014 Tue sesi I foreign net-BUY secondary +Rp 62.35B; LME nickel firm + gold-hybrid"
+        },
+        {
+          "type": "research",
+          "ticker": "INDF",
+          "detail": "score 6/10 DEGRADING \u2014 Brent $91 breakout Day 5 = margin-thesis erodes"
+        },
+        {
+          "type": "reconciliation",
+          "detail": "IHSG Tue sesi II reconciled 6,449.83 (+0.75%) vs sesi I 6,481.96; cum alpha +12.67pp"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -21306,83 +21309,115 @@
   },
   "macro": {
     "regime": "DEFENSIVE \u2014 INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY38 + Wk-18-Day-2-FIRST-LIVE-post-Independence-Day + IHSG-Tue-sesi-I-6,481.96-(+1.25%-vs-Fri-corrected-6,401.89-5-source-cluster) + relief-continuation-Day-4 + cum-alpha-+12.25pp-sesi-I-basis-anchor-arithmetic + IDR-STAGE-5-MARGINAL-BOUNDARY-Day33-DE-ARM-CANDIDATE-Day13-FIRMING-Day-3-candidate + DESTRY-DAMAYANTI-DPR-FIT-AND-PROPER-TEST-Day-2-outcome-pending + PRABOWO-STATE-ADDRESS-RAPBN-2027-Day-4-MARKET-RELIEF-continuation + BRENT-$88.52-MEAN-REVERT-PAUSED-Day-4 + US-JULY-CPI-DOVISH-Day-6 + FOREIGN-FLOW-Tue-full-day-pending-post-Fri-magnitude-decay-signal + MSCI-AUG-12-CONFIRMED-FREEZE-EXTENDED-GOTO-CPIN-REMOVED-Day-7 + NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-25 + BI-HOLD-DOVISH-ABSORBED-Day-28 + Data-Quality-Gate-Day-108 + FOMC-HAWKISH-HOLD-T+18-US-BIZ-DAY + US-30Y-YIELD-5.20%-BLOWOUT-PERSIST + JACKSON-HOLE-T+3-US-BIZ-DAY + PARLIAMENT-RESES-ENDED-DPR-XI-FIT-AND-PROPER-TEST-Day-2 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "regime_overlay": "Wk 18 Day 2 = first live session post-Independence-Day pause (Mon Aug 17 IDX closed). IHSG sesi I +1.25% to 6,481.96 = post-Prabowo relief-continuation Day 4 (5-source cluster Kompas/Bisnis/Tribunnews/Liputan6/Infobank; sesi II full-day close pending per DQG Day 108). Cumulative alpha compression -1.05pp Wk 18 Day 2 sesi I basis (Wk 17 close +13.30pp \u2192 Tue sesi I +12.25pp). Book 100% cash Day 37; crisis-track re-entry gate ~1.10/5; 3.90/5 gap binding. 6 candidates \u22656/10 (MYOR/ISAT/TLKM/ICBP/INDF/CTRA) unchanged; MIKA (5\u21926) upgrade-watch persists. ALL BLOCKED pre-check by crisis-track gate.",
-    "ihsg_close": 6481.96,
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY39 + Wk-18-Day-3-PRE-MARKET + IHSG-Tue-sesi-II-RECONCILED-6,449.83-(+0.75%-vs-Fri-6,401.89) + Prabowo-relief-continuation-Day-5 + cum-alpha-+12.67pp-reconciled-sesi-II-basis + IDR-STAGE-5-MARGINAL-BOUNDARY-Day34-DE-ARM-CANDIDATE-Day14-FIRMING-PAUSED-(~17,850) + FOREIGN-FLOW-Tue-sesi-I-+Rp-112.88B-NET-BUY-tentative-recovery-signal + BBCA-ANTM-foreign-flow-leaders + BRENT-$91.02-MEAN-REVERT-BROKEN-Day-5-above-$90 + INDF-thesis-DEGRADING + DESTRY-DPR-FIT-AND-PROPER-TEST-scheduled-Wk-19 + MSCI-Aug-31-GOTO-CPIN-removal-T-8-US-biz-day + JACKSON-HOLE-T+3-US-biz-day + US-Tue-close-S&P-0.6%-Nasdaq-1.3%-tech-sell-off + US-10Y-4.73% + Data-Quality-Gate-Day-109 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime_overlay": "Wk 18 Day 3 pre-market Wed Aug 19. IHSG Tue sesi II RECONCILED 6,449.83 (+0.75%) \u2014 3-source \u22642% CANONICAL PASS (RRI + Kompas + Okezone); Bisnis 6,482 = sesi I peak (excluded); Fortune -0.73% single-source outlier (excluded). Sesi I peak 6,481.96 faded -32 pts intraday = broad-tape post-Prabowo relief-rally digestion showing mild profit-taking. Cumulative alpha +12.67pp reconciled sesi II basis. Foreign flow Tue sesi I +Rp 112.88B NET-BUY (BBCA +98.37B, ANTM +62.35B) = first sesi I net-BUY since Wk 17 Wed = criterion (d) tentative-recovery-signal continuation from Fri magnitude-decay. IDR ~17,850 Tue = criterion (a) FIRMING trajectory PAUSED (~100 IDR gap to sub-17,750 target widened marginally). Brent $91.02 = mean-revert BROKEN Day 5 above $90 threshold = INDF thesis DEGRADING + AKRA fuel-margin-negative + coal-energy-positive. Re-entry gate ~1.15/5 (+0.05pp via foreign-flow sign-flip). 3.85/5 gap binding. Book 100% cash Day 38; 7 candidates \u22656/10 (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA) + 1 gate-9-blocked (ISAT) ALL PRE-BLOCKED by crisis-track. Jackson Hole T+3 US-biz-day approach; Destry DPR fit-and-proper Wk 19 scheduling watch.",
+    "ihsg_close": 6449.83,
     "ihsg_close_date": "2026-08-18",
-    "ihsg_close_change_pct": 1.25,
-    "ihsg_close_basis": "Tue Aug 18 sesi I close 6,481.96 (+1.25%; +80.07 pts vs Fri corrected 6,401.89) \u2014 5-source cluster (Kompas 6,481.96 / Bisnis 6,482 / Tribunnews 6,482 / Liputan6 6,482 / Infobank 6,482). Intraday sesi I range 6,448.26-6,490.64. Sesi II full-day close PENDING per DQG-Day-108 sesi-II-lag; sesi I mark used per prior EOD convention (provisional pending Wed pre-market reconciliation)."
+    "ihsg_close_change_pct": 0.75,
+    "ihsg_close_basis": "Tue Aug 18 sesi II RECONCILED close 6,449.83 (+0.75%; +47.94 pts vs Fri corrected 6,401.89) \u2014 3-source \u22642% CANONICAL PASS (RRI 6,449.83 / Kompas 6,449 MBMA-top-losers / Okezone 6,449 Rp14.6T). Sesi I peak 6,481.96 faded -32 pts intraday. Bisnis 6,482 = sesi I peak (excluded). Fortune -0.73% single-source outlier (excluded)."
   },
   "research": {
-    "date": "2026-08-14",
+    "date": "2026-08-19",
     "holiday": false,
-    "as_of_date": "2026-08-14",
-    "as_of_time": "07:00",
-    "as_of_label": "Fri Aug 14 07:00 WIB (Wk 17 Day 5 pre-market \u2014 Prabowo State Address 2027 RAPBN 14:30 WIB TODAY + Destry DPR ratification process opens Day 0; IHSG Thu Aug 13 sesi II close 6,301.77 -1.13% (all 11 sectors RED post-MSCI-review); Foreign flow Thu sesi I -Rp 1.18T net-SELL = 2-of-2 FRESH RESTART BROKEN Day 1; US July CPI+PPI dovish cluster Day 1 = US 10Y 4.65% -1bp; IDR STALLED Day 1 ~17,920 mid vs Thu ~17,855; Brent $87.99 mean-revert Day 2; MSCI freeze extended + GOTO/CPIN removal Day 2; TLKM Q2 EBITDA BEAT Day 3 + ICBP Q2 core BEAT Day 3; Data Quality Gate Day 104; 17th consecutive week 0/3 BUY-slot Day 5 LAST DAY; 6 candidates \u22656/10 (MYOR/ISAT/TLKM/ICBP/INDF/CTRA) \u2014 ALL BLOCKED by crisis-track gate + DQG; Wk 17 Weekly Review 16:00 WIB TODAY)",
-    "ihsg_last": 6301.77,
-    "ihsg_last_label": "Thu Aug 13 sesi II close 6,301.77 (-1.13%; -72.08 pts) \u2014 full-day close; all 11 sectors RED post-MSCI-review; Databoks + Investing.com 2-source (spread 0.09% canonical convergent)",
-    "ihsg_last_sesi_i": 6298.34,
-    "ihsg_last_sesi_i_label": "Thu Aug 13 sesi I 6,298.34 -1.18% (Kompas + CNBC 2-source); sesi II close 6,301.77 -1.13% final confirmed",
-    "idr_usd": 17920,
-    "idr_usd_label": "IDR/USD Fri Aug 14 06:00 range ~17,894-17,952 mid ~17,920 (Thu close ~17,855 per Trading Economics per prior day; +65 IDR reversion overnight on DPR-headline-noise pre-vote positioning); STALLED Day 1 post Thu Day 2 firming; sub-17,750 target ~170 IDR away",
-    "candidates_count": 6,
+    "as_of_date": "2026-08-19",
+    "as_of_time": "07:00 WIB",
+    "as_of_label": "Wed Aug 19 2026 pre-market Wk 18 Day 3 (post-reconciled-Tue-sesi-II-close)",
+    "ihsg_last": 6449.83,
+    "ihsg_last_label": "Tue Aug 18 sesi II RECONCILED 6,449.83 (+0.75%)",
+    "ihsg_last_sesi_i": 6481.96,
+    "ihsg_last_sesi_i_label": "Tue Aug 18 sesi I peak 6,481.96 (+1.25%) \u2014 faded -32 pts to sesi II 6,449.83",
+    "idr_usd": 17850,
+    "idr_usd_label": "IDR ~17,850 Tue mid; sub-17,750 3-of-3 target ~100 IDR gap widened marginally = FIRMING trajectory PAUSED",
+    "candidates_count": 7,
     "candidates": [
       {
-        "ticker": "MYOR",
-        "score": 7,
-        "note": "H1 revenue +5.6% strongest consumer; Indo Premier top-pick; defensive-fit unchanged; unchanged 7"
-      },
-      {
-        "ticker": "ISAT",
-        "score": 7,
-        "note": "Q2 +175% NI + Fiber deal + spectrum win; CHASE-RISK Gate-9 fail from Fri +16.32%; unchanged 7"
-      },
-      {
-        "ticker": "TLKM",
+        "ticker": "BBCA",
+        "sector": "Banking",
         "score": 6,
-        "note": "Q2 EBITDA BEAT Rp 6.3T +28% YoY Day 3 + BRI Danareksa Buy TP 3,750 (+36.9% upside); Thu +4.18% recovery pump 2,740 = chase-risk near ceiling; unchanged 6"
+        "note": "Foreign-flow sesi I leader +Rp 98.37B; Destry-dovish-continuity lock; NOT ACTIONABLE (crisis-track gate ACTIVATED)"
+      },
+      {
+        "ticker": "ANTM",
+        "sector": "Nickel-Gold",
+        "score": 6,
+        "note": "Foreign-flow sesi I secondary +Rp 62.35B; LME nickel $16,806 firm; NOT ACTIONABLE (crisis-track gate ACTIVATED)"
       },
       {
         "ticker": "ICBP",
+        "sector": "Consumer",
         "score": 6,
-        "note": "Q2 core profit +50.6% YoY / 1H core +17.7% Day 3; FX-basis tailwind; unchanged 6"
+        "note": "Q2 core +50.6% YoY Day 8; Prabowo-RAPBN consumer-lift; NOT ACTIONABLE"
       },
       {
         "ticker": "INDF",
+        "sector": "Consumer",
         "score": 6,
-        "note": "H1 +4.9%; sole net-inflow YTD +Rp 58B; H2 commodity normalization; Brent mean-revert relief marginal; unchanged 6"
+        "note": "H1 rev +4.9% sole YTD net-inflow; Brent $91 BROKEN Day 5 = thesis DEGRADING; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "MYOR",
+        "sector": "Consumer",
+        "score": 6,
+        "note": "Consumer margin play persistent \u22656; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "TLKM",
+        "sector": "Telco",
+        "score": 6,
+        "note": "Q2 EBITDA-beat +28% YoY Day 8; TLKM-FADE-ON-BEAT pattern Day 12 unresolved; NOT ACTIONABLE"
       },
       {
         "ticker": "CTRA",
+        "sector": "Property",
         "score": 6,
-        "note": "Property Q2 in-line -11% YoY least-bad vs BSDE/PWON/SMRA MISS = relative-strength; VAT tailwind; Buy TP 1,300; unchanged 6"
+        "note": "Q2 least-bad + VAT tailwind 2026; TP 1,300; NOT ACTIONABLE"
       }
     ],
-    "re_entry_gate_score": 1.05,
+    "re_entry_gate_score": 1.15,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": 0.2,
-    "re_entry_gate_criteria": {
-      "a_idr_sub_17750_3of3": "FIRMING Day 2 \u2014 Mon 06:00 forecast ~17,785 vs Fri close 17,827 = -42 IDR overnight-firming; sub-17,750 target ~35 IDR gap = CLOSEST-SINCE-GATE-ACTIVATED (0.55/5, +0.20pp)",
-      "b_dqg_cluster_convergence": "FAIL \u2014 Day 107 outage persists (0/5)",
-      "c_msci_sp_dji_accessibility": "FAIL \u2014 Aug 12 formal freeze extended + GOTO/CPIN removed Day 6 (NEGATIVE-LOCKED-DEEPENED persist; 0/5)",
-      "d_foreign_flow_2of2_netbuy": "2-of-2 FRESH RESTART STILL BROKEN Day 2 \u2014 Fri -Rp 377.63B moderated vs Thu -Rp 1.18T (magnitude decay ~68% = tentative-recovery-signal; 0.15/5, +0.05pp)",
-      "e_rr_2to1": "UNTESTABLE under DQG (0/5)"
-    },
-    "top_flagged_risks_count": 10,
+    "re_entry_gate_delta_from_prev": 0.05,
+    "re_entry_gate_criteria": [
+      {
+        "criterion": "(a) IDR sub-17,750 3-of-3",
+        "status": "NOT MET",
+        "detail": "~17,850 Tue mid, ~100 IDR gap; firming trajectory PAUSED",
+        "score": 0.55
+      },
+      {
+        "criterion": "(b) multi-source cluster \u22644% at candidate entry",
+        "status": "NOT MET",
+        "detail": "DQG Day 109 outage; per-ticker cluster brittle",
+        "score": 0.1
+      },
+      {
+        "criterion": "(c) MSCI Info-Flow / 2027 Watchlist accessibility neutral+",
+        "status": "NEGATIVE-LOCKED",
+        "detail": "MSCI Aug-12 freeze extended + GOTO/CPIN removed Day 8; deferred Nov 2026",
+        "score": 0.05
+      },
+      {
+        "criterion": "(d) foreign-flow 2+ consec net-BUY",
+        "status": "TENTATIVE-RECOVERY-SIGNAL",
+        "detail": "Tue sesi I +Rp 112.88B sign-flip; full-day pending; if net-BUY = fresh 1-of-3 restart Wed",
+        "score": 0.25
+      },
+      {
+        "criterion": "(e) R:R \u22652:1 achievable at fresh cluster mark",
+        "status": "NOT MET",
+        "detail": "no cluster convergent to verify R:R",
+        "score": 0.2
+      }
+    ],
+    "top_flagged_risks_count": 5,
     "top_flagged_risks": [
-      "Prabowo State Address 14:30 WIB TODAY \u2014 highest-impact single-day macro-binary; fiscal-discipline credibility read; deficit \u22642.5% GDP + growth 5.8-6.5% target commit",
-      "Destry DPR ratification process opens Day 0 \u2014 DPR fit-and-proper test begins; dovish-vs-hawkish policy-continuity binary Day 0-N",
-      "Foreign flow criterion (d) 2-of-2 BROKEN Day 1 \u2014 Thu -Rp 1.18T = structural sell-signal binding re-armed",
-      "IDR STALLED Day 1 \u2014 Fri ~17,920 vs Thu ~17,855; -170 IDR gap widened",
-      "Brent $87.99 mean-revert Day 2 \u2014 sustained \u2265$87 = INDF thesis erodes",
-      "US 30Y 5.19% BLOWOUT persist T+14 \u2014 crisis-level structural persist",
-      "GOTO removal MSCI Global Standard Index Aug 31 effective Day 2 \u2014 passive-outflow catalyst binary T-1 Aug 29",
-      "CPO spot MYR 4,720 above MPOC 4,400-4,650 ceiling \u2014 supply overhang building; mean-revert risk Wk 18",
-      "MEDC WATCHLIST-50 delist candidate today Wk 17 Weekly Review binary",
-      "Wk 17 Weekly Review 16:00 WIB TODAY \u2014 letter grade + MACRO-REGIME.md refresh + TLKM-POST-Q2-BEAT-CHASE-RISK pattern formalization"
+      "Brent $91.02 mean-revert BROKEN Day 5 above $90 \u2014 INDF thesis DEGRADING + CPI-vector negative + AKRA fuel-margin negative",
+      "IDR FIRMING PAUSED Tue ~17,850 \u2014 criterion (a) NOT ADVANCING; gap to sub-17,750 target ~100 IDR widened marginally",
+      "Foreign flow Tue full-day PENDING \u2014 sesi I +Rp 112.88B sign-flip fragile; sesi II reversion = criterion (d) BROKEN Day 3",
+      "Jackson Hole T+3 US-biz-day (Aug 24-26) \u2014 Fed structural signal binary imminent; US 10Y 4.73% + oil $91 = macro drag",
+      "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
     ]
   },
-  "last_updated": "2026-08-18T15:15+07:00",
+  "last_updated": "2026-08-19T07:00:00+07:00",
   "market": {
     "ihsg_close": 6481.96,
     "ihsg_change_pct": 1.25,
