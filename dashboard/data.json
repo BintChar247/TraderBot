@@ -17366,35 +17366,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-16T00:16:36Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Pre-market Day 42 Tue Jun 16 = IDX HOLIDAY (1 Muharam). 50-ticker scan from Mon Jun 15 close anchor. 7 candidates \u22656: TLKM(7) BBCA(7) BMRI(7) BBNI(6) UNVR(6) ICBP(6) ASII(6). Top Wed Jun 17 entry: TLKM cum-div Fri T+2 + buyback Day 6. Regime: 3-of-4 de-escalation criteria confirming; (b) Moody's lone gating; downgrade imminent pending Fri weekly review.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (mostly stale-tape due to holiday + Day 56 data-infra outage)"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656 (TLKM/BBCA/BMRI/BBNI/UNVR/ICBP/ASII)"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 7/10 \u2014 Rp4T buyback Day 6 + cum-div Fri Jun 19 T+2 (~7-8% yield)"
-        },
-        {
-          "type": "macro",
-          "detail": "Regime DOWNGRADE-IMMINENT: 3 of 4 de-escalation criteria confirming; (b) Moody's Danantara Baa2 negative outlook lone gating constraint"
-        },
-        {
-          "type": "warning",
-          "detail": "Tue Jun 16 IDX HOLIDAY \u2014 no trading session; Wed Jun 17 = BI RDG Day 1 binary"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-16T00:16:44Z",
       "routine": "pre-market",
       "status": "warning",
@@ -21910,6 +21881,12 @@
           "detail": "IHSG Wed 6,395 unreconciled single-source Databoks; Thu open cluster reconciliation pending"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-20T04:35:48Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions \u2014 book fully de-risked. Midday scan mechanically vacuous."
     }
   ],
   "exposure": {
