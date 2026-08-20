@@ -17219,12 +17219,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-15T04:36:45Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. KLBF held (1 position; broker stub 0.00%; safe-lower carry +9.52% below +15% tighten threshold). Data-infra outage Day 55 binds cluster non-convergence."
-    },
-    {
       "timestamp": "2026-06-15T08:20:41Z",
       "routine": "daily-summary",
       "status": "warning",
@@ -21719,6 +21713,41 @@
           "detail": "Day 88 EOD snapshot committed; post-Prabowo relief rally paused Day 1"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-20T00:14:59Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 18 Day 4 Thu Aug 20: 50-ticker scan complete. 14 candidates scored \u22656 (incl NEW AALI/LSIP CPO 4-mo-high breakout upgrade). Crisis-track gate ACTIVATED ~1.10-1.15/5 persists (IDR ~17,800 ~50pip above target; foreign flow criterion (d) BROKEN Day 3). All 14 NOT ACTIONABLE. HOLD 100% cash \u2014 39th consecutive no-position session.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "14 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "ITMG",
+          "detail": "score 7/10 \u2014 coal top-in-class carry; Newcastle $129.75 near-$130 psych"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 6/10 NEW UPGRADE \u2014 CPO MYR 4,800+ 4-mo-high breakout"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 6/10 NEW UPGRADE \u2014 CPO MYR 4,800+ 4-mo-high breakout"
+        },
+        {
+          "type": "gate",
+          "detail": "crisis-track gate ~1.15/5; 3.85/5 gap binding; HOLD 100% cash"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -21838,27 +21867,166 @@
       "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
     ]
   },
-  "last_updated": "2026-08-19T07:00:00+07:00",
+  "last_updated": "2026-08-20T07:00:00+07:00",
   "market": {
-    "ihsg_close": 6481.96,
-    "ihsg_change_pct": 1.25,
-    "ihsg_close_basis": "Tue Aug 18 sesi I close 6,481.96 (+1.25%; +80.07 pts vs Fri corrected 6,401.89) \u2014 5-source cluster (Kompas 6,481.96 / Bisnis 6,482 / Tribunnews 6,482 / Liputan6 6,482 / Infobank 6,482). Intraday sesi I range 6,448.26-6,490.64. Sesi II full-day close PENDING per DQG-Day-108 sesi-II-lag; sesi I mark used per prior EOD convention (provisional pending Wed pre-market reconciliation).",
-    "idr_usd": 17827,
-    "idr_usd_change_pct": -0.24,
-    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 32 DE-ARM-CANDIDATE Day 12 FIRMING Day 2 (Fri close 17,827.50 -0.24% via Investing; Mon 06:00 forecast ~17,785 range 17,518-18,052; sub-17,750 3-of-3 target ~35 IDR away = CLOSEST-SINCE-GATE-ACTIVATED)",
-    "idr_status": "Marginal Stage 5 boundary Day 32 DE-ARM-CANDIDATE Day 12 FIRMING Day 2 continuation; criterion (a) still FAIL but CLOSEST proximity since crisis-track gate ACTIVATED; Tue Aug 18 open cluster verification critical (Mon IDX-closed no session)",
-    "coal_price": 129.25,
-    "brent_usd": 88.52,
-    "cpo_myr_t": 4724,
-    "lme_nickel_usd_t": 17100,
+    "ihsg_close": 6395.0,
+    "ihsg_change_pct": -0.84,
+    "ihsg_close_basis": "Wed Aug 19 close 6,395 -0.84% via Databoks single-source. 3-source cluster reconciliation FAILED at Thu pre-market; treat provisional pending Thu open. Prior Tue reconciled 6,449.83 sesi II final.",
+    "idr_usd": 17800,
+    "idr_usd_change_pct": 0.0,
+    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 34 DE-ARM-CANDIDATE Day 14 FIRMING Day 4 \u2014 Wed close ~17,800 (TradingEconomics), still 50pip ABOVE sub-17,750 target; criterion (a) NOT MET.",
+    "idr_status": "Firming trajectory PAUSED Wed; gap to sub-17,750 3-of-3 target ~50 IDR (unchanged vs Wk 18 Day 3 baseline).",
+    "coal_price": 129.75,
+    "brent_usd": 91.56,
+    "cpo_myr_t": 4800,
+    "cpo_note": "BMD MYR 4,800+ = 4-MONTH HIGH breakout Aug 18-19 = NEW upside catalyst AALI/LSIP; margin-headwind INTENSIFIED INDF/MYOR/ICBP.",
+    "lme_nickel_usd_t": 16978,
     "us_10y_pct": 4.7,
-    "us_30y_pct": 5.2,
-    "indo_10y_sun_pct": 7.32,
-    "vix": 14.25,
-    "foreign_flow_fri_full_rp_b": -377.63,
-    "foreign_flow_note": "Fri Aug 14 full-day -Rp 377.63B net-SELL (gross BUY Rp 1.73T vs gross SELL Rp 2.11T per Rancakmedia); criterion (d) 2-of-2 FRESH RESTART STILL BROKEN Day 2 BUT MAGNITUDE DECAY ~68% vs Thu -Rp 1.18T = tentative-recovery-inflection-signal. Wk 17 full-week -Rp 1.58T. Aug MTD tally ~breakeven post-correction.",
-    "global_note": "Fri Aug 15 US close: S&P 500 -0.20% to 7,785.76 / Nasdaq -0.30% to 26,729.16 / Dow -0.20% to 53,732.41 \u2014 third-consecutive weekly gain slipped from record; deteriorating consumer sentiment. US 10Y 4.70% +4bp (post-CPI-dovish digestion partial reversal). US 30Y 5.20% BLOWOUT persist T+17. VIX 14.25 low-vol. Brent $88.52 +1.67% mean-revert PAUSED Day 3. Newcastle coal $129.25 -0.12% sub-$130 wk 10. Asia Fri: Nikkei +0.59% to 68,713.80 / Shanghai +0.01% to 3,927.18 / Hang Seng -1.10% to 25,116.85.",
-    "updated_date": "2026-08-18",
-    "session_note": "Tue Aug 18 = Wk 18 Day 2 FIRST LIVE session post-Independence-Day (Mon Aug 17 IDX closed). IHSG sesi I 6,481.96 +1.25% = post-Prabowo relief-continuation Day 4 (5-source cluster convergent, sesi II full-day pending per DQG Day 108). Book 100% cash Day 37; crisis-track gate ~1.10/5; 6 candidates unchanged."
+    "us_30y_pct": 5.17,
+    "indo_10y_sun_pct": 7.115,
+    "vix": 15.84,
+    "foreign_flow_wed_full_rp_b": null,
+    "foreign_flow_note": "Wed Aug 19 full-day print PENDING reconciliation Fri pre-market. Criterion (d) 3-consec net-BUY restart still BROKEN \u2014 Tue Wk 18 sesi I was +Rp112.88B partial, Wed full-day unresolved. Aug 10-14 wk aggregate -Rp1.58T net sell. Q3 QTD BI portfolio inflow +$1.8B (bonds offsetting equities).",
+    "global_note": "US Wed Aug 19 close: S&P 500 +0.31% to 7,715 (Treasury buyback bid; snapped 3-day losing streak). US 10Y 4.70% -1bp. US 30Y ~5.15-5.20% slight relief. VIX 15.84 near 2026 lows. Brent $91.56 +0.47% mean-revert BROKEN Day 6 above $90. Newcastle coal $129.75 slipped sub-$130 psych. LME nickel $16,978.50 +1.12% bouncing off July lows. Asia Aug 19 sharp weak: Nikkei -2.62% to 65,691, Shanghai -2.40% to 3,894 = mild-NEGATIVE read-across for IHSG Thu open. Yen-carry unwind risk on EM Asia.",
+    "updated_date": "2026-08-20",
+    "session_note": "Thu Aug 20 = Wk 18 Day 4 (39th consecutive no-position session). Book 100% cash IDR 9,716,207,500. Crisis-track gate ~1.10-1.15/5. 14 candidates \u22656/10 (BBCA/BBRI/BMRI/ADRO/ITMG/INCO/MDKA/NCKL/MYOR/CTRA/AALI-NEW/LSIP-NEW/KLBF/MIKA) \u2014 AALI/LSIP NEW promotions on CPO MYR 4,800+ 4-mo-high breakout."
+  },
+  "pre_market": {
+    "date": "2026-08-20",
+    "day_label": "Wk 18 Day 4 (Thu)",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY40",
+    "regime_reason": "Crisis-track engagement gate ACTIVATED persists; IDR ~17,800 (~50pip ABOVE sub-17,750 target) firming trajectory paused; foreign flow criterion (d) BROKEN Day 3 needs fresh 3-consec net-BUY restart; MSCI T-7 US-biz-day approaches Aug 29 rebal; Jackson Hole T-6 US-biz-day (Aug 27-29 cross-check); Destry Day 4 progressing smoothly; CPO MYR 4,800+ 4-mo-high breakout NEW; Brent $91.56 mean-revert broken Day 6; Asia -2.5% Aug 19 read-across negative.",
+    "position_sizing_note": "N/A \u2014 0% new entries binding until all 5 re-entry criteria concurrent.",
+    "candidates_scored_ge6_count": 14,
+    "candidates_scored_ge6": [
+      {
+        "ticker": "ITMG",
+        "sector": "Coal",
+        "score": 7,
+        "note": "Strongest coal +11.35% YTD; Newcastle near $130 psych; div play; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "BBCA",
+        "sector": "Banking",
+        "score": 6,
+        "note": "Post-Destry Big-3 beneficiary; MSCI-safe; core defensive; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "BBRI",
+        "sector": "Banking",
+        "score": 6,
+        "note": "Micro-lending macro-leverage; Destry-play; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "BMRI",
+        "sector": "Banking",
+        "score": 6,
+        "note": "State-bank Destry-play; MSCI-safe; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "ADRO",
+        "sector": "Coal",
+        "score": 6,
+        "note": "Coal $130 psych; div-yield; break-risk sub-$125; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "INCO",
+        "sector": "Nickel",
+        "score": 6,
+        "note": "Rikopedia top pick; TP 7,500; LME +1.12%; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "MDKA",
+        "sector": "Gold/Cu",
+        "score": 6,
+        "note": "Top pick; gold floor + Cu shift; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "NCKL",
+        "sector": "Nickel",
+        "score": 6,
+        "note": "Smelter H2 RKAB supply beneficiary; TP 1,800; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "MYOR",
+        "sector": "Consumer",
+        "score": 6,
+        "note": "Consumer margin recovery; CPO headwind caveat; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "CTRA",
+        "sector": "Property",
+        "score": 6,
+        "note": "Best VAT-play; 84% 1H25 sales <Rp5B; TP 1,300; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "AALI",
+        "sector": "Plantation",
+        "score": 6,
+        "note": "NEW UPGRADE: CPO MYR 4,800+ 4-mo high breakout; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "LSIP",
+        "sector": "Plantation",
+        "score": 6,
+        "note": "NEW UPGRADE: CPO tailwind pure-play; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "KLBF",
+        "sector": "Pharma",
+        "score": 6,
+        "note": "IPOT #1 pick; sector solid 2026; prior hard-cut MISTAKES flag; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "MIKA",
+        "sector": "Healthcare",
+        "score": 6,
+        "note": "InvestorTrust top pick 2026; Prabowo RAPBN health-spending anchor; NOT ACTIONABLE"
+      }
+    ],
+    "re_entry_gate_score": 1.15,
+    "re_entry_gate_max": 5.0,
+    "re_entry_gate_delta_from_prev": 0.0,
+    "re_entry_gate_criteria": [
+      {
+        "criterion": "(a) IDR sub-17,750 3-of-3",
+        "status": "NOT MET",
+        "detail": "~17,800 Wed close, ~50 IDR gap; firming trajectory PAUSED",
+        "score": 0.55
+      },
+      {
+        "criterion": "(b) multi-source cluster \u22644% at candidate entry",
+        "status": "NOT MET",
+        "detail": "DQG Day 110 outage; per-ticker cluster brittle",
+        "score": 0.1
+      },
+      {
+        "criterion": "(c) MSCI Info-Flow / 2027 Watchlist accessibility neutral+",
+        "status": "NEGATIVE-LOCKED",
+        "detail": "MSCI Aug-12 freeze extended + GOTO/CPIN removed; deferred Nov 2026; T-7 passive-outflow front-load building",
+        "score": 0.05
+      },
+      {
+        "criterion": "(d) foreign-flow 2+ consec net-BUY",
+        "status": "BROKEN Day 3",
+        "detail": "Tue sesi I +Rp112.88B partial; Wed full-day PENDING; fresh 3-consec restart needed",
+        "score": 0.2
+      },
+      {
+        "criterion": "(e) R:R \u22652:1 achievable at fresh cluster mark",
+        "status": "NOT MET",
+        "detail": "no cluster convergent to verify R:R",
+        "score": 0.25
+      }
+    ],
+    "top_flagged_risks_count": 6,
+    "top_flagged_risks": [
+      "Asia -2.5% Aug 19 (Nikkei -2.62%/Shanghai -2.40%) = negative read-across; yen-carry unwind risk; IDR could re-test \u226517,900",
+      "CPO MYR 4,800+ 4-mo-high breakout = INDF/MYOR/ICBP margin-headwind INTENSIFIED stacked with Brent $91.56 Day 6",
+      "IHSG 6,395 unreconciled Wed close (Databoks single-source) \u2014 cluster reconciliation critical Thu open",
+      "MSCI T-7 US-biz-day (Aug 29 rebal / Aug 31 effective) \u2014 ~IDR 1T front-loaded passive outflow; GOTO/CPIN/SMGR/BUKA/HEAL/ARTO exposure",
+      "Jackson Hole T-6 US-biz-day (Fri Aug 28 Powell) \u2014 pre-event vol elevated; hawkish tilt = US 30Y re-blowout + IDR re-pressure",
+      "Coal $129.75 slipped sub-$130 psych \u2014 thesis breaks sub-$125; ADRO/ITMG/PTBA downgrade risk"
+    ]
   }
 }
