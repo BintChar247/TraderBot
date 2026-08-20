@@ -17176,6 +17176,153 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-08-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO breakout tailwind promoted AALI to CANDIDATE-NEW; gate binds.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BMD CPO MYR 4,800+ 4-mo high Day 2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY40; crisis-track gate ACTIVATED persist"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (would apply if gate lifts); NA today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 110 outage; per-ticker cluster unavailable"
+        }
+      ],
+      "reasoning": "CPO MYR 4,800+ 4-mo-high breakout NEW-UPGRADE promotion, but crisis-track engagement gate ACTIVATED blocks all new entries (~1.10-1.15/5 re-entry criteria met vs 5/5 required).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-08-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO tailwind + liquid pure-play plantation; gate binds.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BMD CPO MYR 4,800+ 4-mo high Day 2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY40; crisis-track gate ACTIVATED persist"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (would apply if gate lifts); NA today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 110 outage; per-ticker cluster unavailable"
+        }
+      ],
+      "reasoning": "CPO breakout co-promotion with AALI (more liquid pure-play), but crisis-track engagement gate ACTIVATED blocks all new entries.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-08-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ITMG coal carry + div-yield defensive; gate binds + coal-break risk.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal $130 psych hold"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY40; crisis-track gate ACTIVATED persist"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (would apply if gate lifts); NA today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 110 outage; per-ticker cluster unavailable"
+        }
+      ],
+      "reasoning": "Top-scoring coal name (+11.35% YTD) with Newcastle at $129.75 flirting $130 psych, but crisis-track gate ACTIVATED + coal $130 break risk (sub-$125 = APBI thesis breaks) blocks entry.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -17218,22 +17365,6 @@
     "updated": "2026-08-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-15T08:20:41Z",
-      "routine": "daily-summary",
-      "status": "warning",
-      "summary": "EOD Day 41: IDR 9.856B (+0.00% day). Alpha vs IHSG \u22124.40%. Cum alpha +15.91% (compression \u22123.48pp from Day 40; 2nd consec compression day). KLBF carry +9.52% (safe-lower 1,035 frozen Day 55). IDR sub-18,000 5-of-5 FULL-LOCKED. Cash 94.55%. Trades wk 0/3. Telegram egress blocked.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 41 EOD snapshot committed"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram egress 403 \u2014 notification fallback to stdout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-16T00:16:36Z",
       "routine": "pre-market",
@@ -21746,6 +21877,37 @@
         {
           "type": "gate",
           "detail": "crisis-track gate ~1.15/5; 3.85/5 gap binding; HOLD 100% cash"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-20T02:16:50Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 18 Day 4. Crisis-track engagement gate ACTIVATED persist (~1.10-1.15/5 vs 5/5); all 14 candidates \u22656/10 pre-blocked. HOLD 100% CASH 40th consecutive no-position session. Asia Aug 19 negative read-across; CPO MYR 4,800+ AALI/LSIP fresh promotions gated.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "CPO 4-mo high NEW promotion; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "CPO NEW promotion; crisis-track gate binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG",
+          "detail": "Coal top-scorer; gate binds + coal-$130 break risk"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 110 outage \u2014 WebSearch multi-source override operational; per-ticker cluster brittle"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Wed 6,395 unreconciled single-source Databoks; Thu open cluster reconciliation pending"
         }
       ]
     }
