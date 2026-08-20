@@ -1355,6 +1355,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 18 Day 3 IHSG Wed close 6,395 (-0.84% vs Tue reconciled 6,449.83) per Databoks single-source; multi-source cluster reconciliation carry-over Thu pre-market per DQG-Day-109. Post-Prabowo relief-rally paused Day 1 \u2014 gives back ~55% of Tue +0.75% sesi II gain. Portfolio flat 100% cash Day 38. Cumulative alpha +13.39pp (+0.72pp expansion vs Tue reconciled +12.67pp)."
+    },
+    {
+      "date": "2026-08-20",
+      "day_label": "Day 89",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6487.95,
+      "ihsg_cumulative_pct": -15.01,
+      "alpha_pct": 12.17,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 18 Day 4 IHSG Thu sesi I 6,487.95 (+1.47% vs Wed reconciled 6,394.12). 4-source sesi I cluster CANONICAL PASS: Kontan + Disway + Infobanknews + RCTI = 6,487.95 (+93.83 pts, +1.47%). Sesi II full-day close PENDING Fri pre-market per DQG-Day-110 sesi-II-lag. Broad breadth: 417 advancers / 187 decliners / 185 unchanged; 10 sectors GREEN, only transportation -0.05%. Raw materials +3.58% top sector (CPO breakout Day 2 + nickel LME follow-through). MBMA/HRTA/AMMN LQ45 top gainers. Portfolio flat 100% cash Day 39. Cum alpha -1.22pp compression vs Wed close +13.39pp via IHSG relief-rally-resume Day 1 while portfolio remains 100% cash."
     }
   ],
   "positions": [],
@@ -17348,7 +17364,10 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-08-18"
+    "updated": "2026-08-18",
+    "portfolio_value": 9716207500,
+    "alpha_pct": 12.17,
+    "daily_pnl_pct": 0.0
   },
   "risk": {
     "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY38 + Wk-18-Day-2-FIRST-LIVE-post-Independence-Day + IHSG-Tue-sesi-I-6,481.96-(+1.25%-vs-Fri-corrected-6,401.89-5-source-cluster) + relief-continuation-Day-4 + cum-alpha-+12.25pp-sesi-I-basis-anchor-arithmetic + IDR-STAGE-5-MARGINAL-BOUNDARY-Day33-DE-ARM-CANDIDATE-Day13-FIRMING-Day-3-candidate + DESTRY-DAMAYANTI-DPR-FIT-AND-PROPER-TEST-Day-2-outcome-pending + PRABOWO-STATE-ADDRESS-RAPBN-2027-Day-4-MARKET-RELIEF-continuation + BRENT-$88.52-MEAN-REVERT-PAUSED-Day-4 + US-JULY-CPI-DOVISH-Day-6 + FOREIGN-FLOW-Tue-full-day-pending-post-Fri-magnitude-decay-signal + MSCI-AUG-12-CONFIRMED-FREEZE-EXTENDED-GOTO-CPIN-REMOVED-Day-7 + NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-25 + BI-HOLD-DOVISH-ABSORBED-Day-28 + Data-Quality-Gate-Day-108 + FOMC-HAWKISH-HOLD-T+18-US-BIZ-DAY + US-30Y-YIELD-5.20%-BLOWOUT-PERSIST + JACKSON-HOLE-T+3-US-BIZ-DAY + PARLIAMENT-RESES-ENDED-DPR-XI-FIT-AND-PROPER-TEST-Day-2 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
@@ -17365,35 +17384,6 @@
     "updated": "2026-08-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-16T00:16:44Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Day 42 Tue Jun 16 IDX HOLIDAY (1 Muharam). Scan from Mon Jun 15 close anchor. 7 candidates \u22656: TLKM(7) BBCA(7) BMRI(7) BBNI(6) UNVR(6) ICBP(6) ASII(6). Top Wed Jun 17 entry: TLKM cum-div Fri T+2 + buyback Day 6. Regime 3-of-4 de-escalation criteria confirming; (b) Moody's lone gating; downgrade imminent.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (holiday + Day 56 data-infra outage stale-tape)"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 7/10 \u2014 Rp4T buyback Day 6 + cum-div Fri Jun 19 T+2"
-        },
-        {
-          "type": "macro",
-          "detail": "Regime DOWNGRADE-IMMINENT: 3 of 4 de-escalation criteria confirming; Moody Danantara lone gating constraint"
-        },
-        {
-          "type": "warning",
-          "detail": "Tue Jun 16 IDX HOLIDAY \u2014 no trading session; Wed Jun 17 = BI RDG Day 1 binary"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-16T02:16:40Z",
       "routine": "market-open",
@@ -21887,6 +21877,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions \u2014 book fully de-risked. Midday scan mechanically vacuous."
+    },
+    {
+      "timestamp": "2026-08-20T08:20:47Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 89 Wk18 Day4: IDR 9.716B (0.00%). IHSG sesi I +1.47%; alpha -1.47% today, cum +12.17pp (-1.22pp compression). 0 positions, 100% cash Day 39. Trades this week 0/3. Crisis-track gate ACTIVATED persists.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 89 EOD snapshot committed; RISK-STATE updated; dashboard refreshed."
+        }
+      ]
     }
   ],
   "exposure": {
@@ -22006,9 +22008,9 @@
       "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
     ]
   },
-  "last_updated": "2026-08-20T07:00:00+07:00",
+  "last_updated": "2026-08-20T15:15+07:00",
   "market": {
-    "ihsg_close": 6395.0,
+    "ihsg_close": 6487.95,
     "ihsg_change_pct": -0.84,
     "ihsg_close_basis": "Wed Aug 19 close 6,395 -0.84% via Databoks single-source. 3-source cluster reconciliation FAILED at Thu pre-market; treat provisional pending Thu open. Prior Tue reconciled 6,449.83 sesi II final.",
     "idr_usd": 17800,
@@ -22028,7 +22030,9 @@
     "foreign_flow_note": "Wed Aug 19 full-day print PENDING reconciliation Fri pre-market. Criterion (d) 3-consec net-BUY restart still BROKEN \u2014 Tue Wk 18 sesi I was +Rp112.88B partial, Wed full-day unresolved. Aug 10-14 wk aggregate -Rp1.58T net sell. Q3 QTD BI portfolio inflow +$1.8B (bonds offsetting equities).",
     "global_note": "US Wed Aug 19 close: S&P 500 +0.31% to 7,715 (Treasury buyback bid; snapped 3-day losing streak). US 10Y 4.70% -1bp. US 30Y ~5.15-5.20% slight relief. VIX 15.84 near 2026 lows. Brent $91.56 +0.47% mean-revert BROKEN Day 6 above $90. Newcastle coal $129.75 slipped sub-$130 psych. LME nickel $16,978.50 +1.12% bouncing off July lows. Asia Aug 19 sharp weak: Nikkei -2.62% to 65,691, Shanghai -2.40% to 3,894 = mild-NEGATIVE read-across for IHSG Thu open. Yen-carry unwind risk on EM Asia.",
     "updated_date": "2026-08-20",
-    "session_note": "Thu Aug 20 = Wk 18 Day 4 (39th consecutive no-position session). Book 100% cash IDR 9,716,207,500. Crisis-track gate ~1.10-1.15/5. 14 candidates \u22656/10 (BBCA/BBRI/BMRI/ADRO/ITMG/INCO/MDKA/NCKL/MYOR/CTRA/AALI-NEW/LSIP-NEW/KLBF/MIKA) \u2014 AALI/LSIP NEW promotions on CPO MYR 4,800+ 4-mo-high breakout."
+    "session_note": "Thu Aug 20 = Wk 18 Day 4 (39th consecutive no-position session). Book 100% cash IDR 9,716,207,500. Crisis-track gate ~1.10-1.15/5. 14 candidates \u22656/10 (BBCA/BBRI/BMRI/ADRO/ITMG/INCO/MDKA/NCKL/MYOR/CTRA/AALI-NEW/LSIP-NEW/KLBF/MIKA) \u2014 AALI/LSIP NEW promotions on CPO MYR 4,800+ 4-mo-high breakout.",
+    "ihsg_daily_pct": 1.47,
+    "ihsg_cumulative_pct": -15.01
   },
   "pre_market": {
     "date": "2026-08-20",
