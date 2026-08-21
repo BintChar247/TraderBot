@@ -1364,13 +1364,13 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6487.95,
-      "ihsg_cumulative_pct": -15.01,
-      "alpha_pct": 12.17,
+      "ihsg_close": 6501.59,
+      "ihsg_cumulative_pct": -14.83,
+      "alpha_pct": 11.99,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "session_note": "Wk 18 Day 4 IHSG Thu sesi I 6,487.95 (+1.47% vs Wed reconciled 6,394.12). 4-source sesi I cluster CANONICAL PASS: Kontan + Disway + Infobanknews + RCTI = 6,487.95 (+93.83 pts, +1.47%). Sesi II full-day close PENDING Fri pre-market per DQG-Day-110 sesi-II-lag. Broad breadth: 417 advancers / 187 decliners / 185 unchanged; 10 sectors GREEN, only transportation -0.05%. Raw materials +3.58% top sector (CPO breakout Day 2 + nickel LME follow-through). MBMA/HRTA/AMMN LQ45 top gainers. Portfolio flat 100% cash Day 39. Cum alpha -1.22pp compression vs Wed close +13.39pp via IHSG relief-rally-resume Day 1 while portfolio remains 100% cash."
+      "session_note": "Wk 18 Day 4 IHSG Thu sesi II reconciled 6,501.59 (+1.68% vs Wed reconciled 6,394.12; +1.40pp above sesi I 6,487.95 +1.47%). 4-source cluster (Kontan+Rikopedia+Bisnis+RRI); breakout MA100 at 6,501; all-sector-green. Raw materials +3.58% top sector; MBMA/HRTA/AMMN LQ45 top-gainers. Portfolio flat 100% cash Day 39. Cumulative alpha -1.40pp compression vs Wed +13.39pp via IHSG relief-rally-resume Day 1 confirmed while portfolio remains 100% cash."
     }
   ],
   "positions": [],
@@ -17385,27 +17385,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-16T02:16:40Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed \u2014 IDX CLOSED for 1 Muharam 1448 H holiday (Tahun Baru Islam). No trading session today. KLBF 519k sh held; trailing 931 GTC remains armed broker-side (no tape). Next session Wed Jun 17 = BI RDG Day 1 binary. Plan: TLKM/ASII/ICBP candidates re-evaluate at Wed pre-market + 09:15 open.",
-      "actions": [
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh @ entry 945; safe-lower carry 1,035; trailing 931 GTC armed"
-        },
-        {
-          "type": "warning",
-          "detail": "IDX HOLIDAY 1 Muharam \u2014 market closed, no trading session"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram egress blocked (host allowlist); notification printed to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-16T04:50:15Z",
       "routine": "midday",
       "status": "success",
@@ -21887,6 +21866,37 @@
         {
           "type": "research",
           "detail": "Day 89 EOD snapshot committed; RISK-STATE updated; dashboard refreshed."
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-21T00:12:35Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 18 Day 5 Fri pre-market: IHSG Thu reconciled sesi II 6,501.59 (+1.68%) breakout MA100; IDR ~17,748-17,850 sub-17,750 target WITHIN TOUCH (0-100 IDR); foreign flow Thu sesi I potential net-BUY inflection AMMN +Rp 408B top-buy. 50-ticker scan: 14 candidates \u22656/10 (AALI/LSIP UPGRADED to 7 on CPO Day 3 breakout MYR 4,956 continuation; BBCA/BBRI/BMRI Destry-vote cohort; INCO/MDKA/NCKL LME follow-through; MYOR/CTRA/ITMG/KLBF/MIKA/ICBP hold). Crisis-track engagement gate ACTIVATED persists Day 40 \u2014 ALL candidates NOT ACTIONABLE. HOLD 100% cash. Weekly Review 16:00 WIB Fri.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "14 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 7/10 \u2014 CPO MYR 4,956 Day 3 breakout continuation UPGRADE from 6"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 7/10 \u2014 CPO Day 3 pure-play more-liquid UPGRADE from 6"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Destry post-DPR-vote binary catalyst"
         }
       ]
     }
