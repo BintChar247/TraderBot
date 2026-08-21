@@ -17339,6 +17339,643 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Plantation direct-beneficiary of CPO 4-mo-high breakout Day 3; analyst TP consensus 7,952.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO MYR 4,956 Day 3 breakout (4-mo high, +1.29%)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Highest-scoring candidate (7) on CPO Day 3 breakout continuation, but crisis-track gate ACTIVATED blocks all entries; criterion (b) DQG Day 112 leaves no convergent entry cluster so R:R untestable.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "More liquid pure-play plantation vs AALI conglomerate; same CPO tailwind, sector Buy consensus.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO MYR 4,956 Day 3 breakout continuation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Score 7 tied-top on CPO breakout Day 3; blocked by crisis-track gate + no convergent per-ticker cluster under DQG Day 112.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Kiwoom cites BBCA as new-Governor sentiment beneficiary; MSCI-safe mega-cap.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry post-DPR-vote BI-Governor binary; foreign-flow inflection watch"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Criterion (d) at best Day 1 of fresh 3-consec net-BUY restart (Thu Aug 20 +Rp 648.22B sesi I) \u2014 needs 2+ consecutive confirmed; gate stays ACTIVATED.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-3 banking new-Governor beneficiary; solid Q1 loan/deposit growth.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry post-DPR-vote binary; BBRI +Rp 186.23B foreign net-buy Thu sesi I"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Thu foreign net-buy Rp 186.23B is constructive but criterion (d) requires 2+ consecutive net-BUY sessions; Wed Aug 19 was net-sell -Rp 488.49B so streak is 1 at best.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Same new-Governor sentiment cohort as BBCA/BBRI.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry post-DPR-vote binary (Big-3 cohort)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Same cohort thesis; crisis-track gate ACTIVATED + criterion (c) MSCI/S&P DJI accessibility NEGATIVE-LOCKED through Nov 2026 blocks.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rikopedia top pick TP 7,500; MBMA +9.80% / HRTA +8.76% LQ45 top-gainers confirm nickel bid.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "LME nickel follow-through; raw-materials +3.58% top sector Thu"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Nickel cohort momentum genuine, but gate ACTIVATED and last print 4,530 is single-source \u2014 fails DQG >=3-source <=4% requirement (never relaxed).",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Recent print 2,520 (+4.13%); diversified gold/Cu exposure into metals bid.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Gold floor + copper shift + LME nickel bid"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Same metals-bid read-through; single-source price only under DQG Day 112, and crisis-track gate blocks regardless.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "NCKL",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BRI Danareksa TP 1,800; recent print 820 (+5.16%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Smelter H2 RKAB beneficiary; LME nickel follow-through"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Score 6 nickel cohort; blocked by crisis-track gate + single-source pricing under DQG.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rp1.5-2T eligible inventory; Overweight consensus; rate-sensitive positive on Destry dovish-continuity.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "VAT-incentive property; 84% of 1H25 sales <Rp5B fully eligible"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Best VAT-property play but crisis-track gate ACTIVATED; rate-cut catalyst is post-DPR-vote BI RDG, not yet delivered.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare pure-play beneficiary of 2027 budget health allocation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "InvestorTrust healthcare top pick; RAPBN-2027 health-spending anchor"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Score 6 with a real structural catalyst, but crisis-track gate ACTIVATED and no convergent entry cluster under DQG Day 112.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IPOT sequential #2; Q1 consumer recovery confirmed.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Consumer margin recovery on commodity normalization"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Thesis actively DETERIORATING: CPO MYR 4,956 Day 3 + Brent $93.01 Day 7 stack a double input-cost headwind against the margin-normalization case. Gate blocks anyway.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Best-in-class coal; +11.35% YTD; dividend-yield defensive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle coal $129.75 spot / $133.60 futures \u2014 sub-$130 12th week"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "Downgraded 7->6 as APBI thesis erodes at Newcastle sub-$130 for a 12th week; coal sector remains EXITED under 2-strike rule (ADRO+ITMG); gate blocks.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-08-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Last surfaced price 1,685; defensive pharma.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IPOT #1 sequential pick; healthcare 2026 outlook"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY41; crisis-track gate ACTIVATED persist Wk18 Day5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate P10 (crisis-track engagement gate) \u2014 0% new entries binding until 5/5 re-entry criteria concurrent; ~1.30/5 today"
+        },
+        {
+          "type": "sizing",
+          "label": "5% cap regime (RISK-STATE max_position_pct=0.05) would apply if gate lifts; N/A today"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 112 outage; broker.sh quote refuses to stub; per-ticker >=3-source cluster unavailable"
+        }
+      ],
+      "reasoning": "MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% (DATA-OUTAGE-CARRY-DRIFT) flag persists and DQG Day 112 is the SAME failure condition that produced that loss. Explicit mistake-pattern match \u2014 SKIP is mandatory independent of the crisis-track gate.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -17384,12 +18021,6 @@
     "updated": "2026-08-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-16T04:50:15Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Holiday pass-through (IDX LIBUR 1 Muharam). KLBF held; trailing 931 GTC armed but inactive without tape; cluster Day 56 non-convergence persists; safe-lower carry 1,035 frozen. No actions triggered."
-    },
     {
       "timestamp": "2026-06-16T08:21:11Z",
       "routine": "daily-summary",
@@ -21897,6 +22528,38 @@
           "type": "research",
           "ticker": "BBCA",
           "detail": "score 6/10 \u2014 Destry post-DPR-vote binary catalyst"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-21T02:19:47Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk18 Day5. All 13 candidates >=6/10 blocked pre-check by crisis-track engagement gate (~1.30/5 re-entry, best read of defensive leg). IDR touched 17,746 = criterion(a) Day 1 of 3; foreign flow Thu net-BUY +Rp648.22B = criterion(d) Day 1 of 3; DQG Day 112 + MSCI NEGATIVE-LOCKED keep gate bound. KLBF SKIP additionally mandated by MISTAKES.md pattern match. 100% cash Day 41.",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries; 13 candidates blocked pre-check"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 112: broker.sh quote errored for AALI/LSIP/BBCA \u2014 no per-ticker >=3-source cluster"
+        },
+        {
+          "type": "warning",
+          "detail": "MISTAKES.md pattern match \u2014 KLBF re-entry under active data outage repeats 2026-07-06 -21.16% hard-cut failure mode; SKIP mandated"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify failed (proxy HTTP 403 CONNECT tunnel); message delivered via stdout fallback"
+        },
+        {
+          "type": "info",
+          "detail": "criterion(a) IDR 17,746 low Aug 20 = first sub-17,750 print of sequence, Day 1 of 3"
+        },
+        {
+          "type": "info",
+          "detail": "criterion(d) foreign net-BUY +Rp648.22B Thu sesi I = fresh 3-consec restart Day 1"
         }
       ]
     }
