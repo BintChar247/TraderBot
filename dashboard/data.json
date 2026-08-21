@@ -18022,18 +18022,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-16T08:21:11Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 42 (Tue, Wk 9 Day 2 \u2014 IDX LIBUR 1 Muharam): equity IDR 9.856B flat. Cum alpha +16.62% (anchor reconciliation +0.71pp from Day 41 = Mon sesi II final 6,254.97 confirmed). KLBF +9.52% carry frozen. Wk trades 0/3 fresh. Next session Wed Jun 17 = BI RDG Day 1.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 42 holiday-pass EOD snapshot committed; IHSG anchor reconciled Mon sesi I 6,309.73 -> Mon sesi II final 6,254.97; cumulative alpha expansion +0.71pp"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-17T00:14:52Z",
       "routine": "pre-market",
       "status": "success",
@@ -22562,6 +22550,12 @@
           "detail": "criterion(d) foreign net-BUY +Rp648.22B Thu sesi I = fresh 3-consec restart Day 1"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-21T04:37:26Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 18 Day 5 midday vacuous: 0 positions, no cuts/tightens/exits. Book fully de-risked Day 40 continues."
     }
   ],
   "exposure": {
