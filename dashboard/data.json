@@ -17992,6 +17992,700 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO MYR 4,990 8-mo high breakout Day 5+; B50 October full-implementation; upstream plantation pure-play",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 7/10 \u2014 CPO MYR 4,990 8-mo high breakout Day 5+; B50 October full-implementation; upstream plantation pure-play"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO smaller-cap higher-leverage; MYR 4,990 breakout tailwind; B50 catalyst",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 7/10 \u2014 CPO smaller-cap higher-leverage; MYR 4,990 breakout tailwind; B50 catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MSCI-safe core defensive; post-Destry Big-3 dovish-continuity beneficiary",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 MSCI-safe core defensive; post-Destry Big-3 dovish-continuity beneficiary"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Micro-lending macro-leverage Destry-play; MISTAKES.md 2026-05-01 strike-1 caveat",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Micro-lending macro-leverage Destry-play; MISTAKES.md 2026-05-01 strike-1 caveat"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "State-bank Destry-play; MSCI-safe defensive",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 State-bank Destry-play; MSCI-safe defensive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "RKAB Aug 20 supply-mgmt; LME nickel $17,043 firming; upstream + smelter",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 RKAB Aug 20 supply-mgmt; LME nickel $17,043 firming; upstream + smelter"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rikopedia top pick TP 7,500; nickel matte; LME follow-through",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Rikopedia top pick TP 7,500; nickel matte; LME follow-through"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Top pick; gold floor + Cu shift; RKAB beneficiary",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Top pick; gold floor + Cu shift; RKAB beneficiary"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "NCKL",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "HPAL/MHP mid-stream; H2 RKAB supply beneficiary; TP 1,800",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 HPAL/MHP mid-stream; H2 RKAB supply beneficiary; TP 1,800"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer recovery Q1 confirmed; CPO+Brent headwind INTENSIFIED input-cost degrade",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Consumer recovery Q1 confirmed; CPO+Brent headwind INTENSIFIED input-cost degrade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Best VAT-play; 84% 1H25 sales <Rp5B eligible; TP 1,300 Overweight; rate-sensitive",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Best VAT-play; 84% 1H25 sales <Rp5B eligible; TP 1,300 Overweight; rate-sensitive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IPOT #1 healthcare; **MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% pattern-match \u2014 SKIP mandatory independent of gate**",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 IPOT #1 healthcare; **MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% pattern-match \u2014 SKIP mandatory independent of gate**"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "MISTAKES.md pattern-match blocking \u2014 KLBF MISTAKES.md 2026-07-06 -21.16% data-outage-carry-drift pattern"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE. MISTAKES.md pattern-match additionally blocks entry.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "InvestorTrust top pick 2026 healthcare; Prabowo RAPBN health-spending anchor",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 InvestorTrust top pick 2026 healthcare; Prabowo RAPBN health-spending anchor"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-08-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Newcastle reclaim $131.50 thin margin; MISTAKES.md 2026-05-18 hard-cut + coal 2-strike sector EXITED pattern",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "score 6/10 \u2014 Newcastle reclaim $131.50 thin margin; MISTAKES.md 2026-05-18 hard-cut + coal 2-strike sector EXITED pattern"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY42; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst NOT ACTIONABLE under crisis-track gate; re-entry criteria ~1.10/5 vs 5.00 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries binding (regime cap 5% suspended by gate)"
+        },
+        {
+          "type": "warning",
+          "label": "MISTAKES.md pattern-match blocking \u2014 coal 2-strike sector EXITED (ADRO 05-20 + ITMG 05-18)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 115 outage persists \u2014 WebSearch multi-source override in effect"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries binding until all 5 re-entry criteria concurrent (currently ~1.10/5). Gate 5 catalyst NOT ACTIONABLE. MISTAKES.md pattern-match additionally blocks entry.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -18037,18 +18731,6 @@
     "updated": "2026-08-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-17T08:21:51Z",
-      "routine": "daily-summary",
-      "status": "warning",
-      "summary": "Day 43 EOD: IDR 9.856B (+0.00% day). Alpha +0.84% vs IHSG sesi I provisional -0.84%. Cum alpha +17.31% (+0.69pp expansion). 1 position open (KLBF +9.52% safe-lower carry; cluster Day 57 ~26% spread did not reconcile despite first live tape in 48 hrs). Trades wk 0/3. Telegram egress allowlist blocks notification send \u2014 printed to stdout.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 43 EOD snapshot committed (provisional sesi I anchor 6,202.47; sesi II reconciliation pending Thu)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-18T00:16:07Z",
       "routine": "pre-market",
@@ -22540,6 +23222,92 @@
           "type": "research",
           "ticker": "BBCA",
           "detail": "score 6/10 \u2014 post-Destry Big-3 beneficiary; MSCI-safe; NOT ACTIONABLE"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-24T02:18:42Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 19 Day 1. All 14 candidates \u22656/10 pre-blocked by CRISIS-TRACK ENGAGEMENT GATE (re-entry criteria ~1.10/5 vs 5.00 required; criterion (c) MSCI/S&P DJI structurally unsatisfiable pre-Nov 2026); KLBF + ITMG additionally MISTAKES.md pattern-blocked. Book 100% cash IDR 9,716,207,500 (Day 42 no-position; 19th consecutive 0/3 BUY-slot week opens).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "score 7 UPGRADE \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "score 7 UPGRADE \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6 \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6 \u2014 crisis-track gate + MISTAKES 2026-05-01 strike-1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 6 \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "score 6 \u2014 crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "score 6 \u2014 crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "score 6 \u2014 crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "NCKL",
+          "detail": "score 6 \u2014 crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "score 6 \u2014 crisis-track gate + CPO+Brent input-cost stack"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "score 6 \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "score 6 \u2014 crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG",
+          "detail": "score 6 \u2014 crisis-track gate + MISTAKES 2026-05-18 + coal 2-strike EXITED"
+        },
+        {
+          "type": "skip",
+          "ticker": "KLBF",
+          "detail": "score 6 \u2014 MISTAKES 2026-07-06 hard-cut \u221221.16% data-outage-carry-drift pattern-match MANDATORY"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 115 outage persists \u2014 yfinance+GoAPI blocked 115 consec sessions"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify 403 tunnel \u2014 stdout fallback (proxy limitation)"
         }
       ]
     }
