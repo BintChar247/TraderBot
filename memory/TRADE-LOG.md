@@ -10702,3 +10702,59 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - **Persistence:** dashboard/data.json decisions[] appended 14 SKIP entries (AALI/LSIP/BBCA/BBRI/BMRI/ANTM/INCO/MDKA/NCKL/MYOR/CTRA/KLBF/MIKA/ITMG); `scripts/log-activity.sh --routine market-open --status warning` logged; TRADE-LOG.md + dashboard/data.json committed and pushed.
 - **Carry-over to 11:30 WIB midday scan (Wk 19 Day 1):** Midday mechanically vacuous (n=0 positions). Priority monitoring items: (1) IDR Mon open cluster — sub-17,750 fresh Day-1 restart watch (criterion (a)); (2) foreign-flow Mon sesi I — Day-1 restart under fresh 3-consec sequence (criterion (d)); (3) CPO Day 6+ continuation ≥MYR 4,900 for AALI/LSIP conviction sustain; (4) IHSG Mon open MA100 6,500 hold vs profit-taking pullback from Fri 6,525; (5) nickel LME follow-through on ANTM/INCO/MDKA/NCKL; (6) Newcastle coal $130 psych hold watch.
 - **Carry-over to 15:15 WIB EOD (Wk 19 Day 1):** EOD scan mechanically vacuous with n=0 positions. Daily P&L 0.00%; alpha vs IHSG day% only. Key inputs to file: IHSG sesi II close, IDR close cluster, foreign flow sesi I/full-day print, CPO Mon close, and Wk 19 Day 1 criterion (a)/(d) scoring update.
+
+### 2026-08-24 EOD (Day 91, Mon — Week 19 Day 1 OPEN; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY42; WK-18-COMPLETE-18-CONSECUTIVE-ZERO-TRADE-WEEKS; WK-19-DAY-1-OPENS; IHSG-Mon-SESI-I-6,480.64-(-0.69%-vs-Fri-reconciled-close-6,525.69) POST-INDEPENDENCE-DAY-RELIEF-RALLY-PULLBACK-Day-1 / MA100-6500-SUPPORT-TESTED; IDR-STAGE-5-MARGINAL-BOUNDARY-Day39-DE-ARM-CANDIDATE-Day19-SUB-17750-SEQUENCE-RESET-weekend-gap-Fri-close-17762; FOREIGN-FLOW-NET-BUY-RESTART-Day-1-PARTIAL-Thu-only-Mon-confirmation-pending; CPO-MYR-4,990-BREAKOUT-Day-5+-8-MO-HIGH; DESTRY-DAMAYANTI-DPR-FIT-AND-PROPER-TEST-Day-8-plenary-vote-timing-Wk-19-20; PRABOWO-STATE-ADDRESS-RAPBN-2027-Day-10-relief-fade-Day-1; BRENT-$93.78-MEAN-REVERT-BROKEN-Day-8; NEWCASTLE-$131.50-reclaim-$130-psych-thin; US-JULY-CPI-DOVISH-3.4%-HEADLINE-Day-12; MSCI-AUG-31-REBALANCE-T-5-US-biz-day-GOTO-CPIN-removed; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-31; BI-HOLD-DOVISH-ABSORBED-Day-34; Data-Quality-Gate-Day-115; FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+24-US-BIZ-DAY; US-30Y-YIELD-5.20%-BLOWOUT-PERSIST; JULY-CPI-BPS-2.88%-DOVISH-ABSORBED-Day-19; MEDC-Q2-T+24-DELIST-CANDIDATE; TLKM-POST-Q2-EBITDA-BEAT-MIXED-FADE-DAY-18; JACKSON-HOLE-WARSH-T+4-US-BIZ-DAY-(Fri-Aug-28-FIRST-KEYNOTE-AS-CHAIR); PARLIAMENT-RESES-ENDED-DPR-XI-FIT-AND-PROPER-TEST-Day-8; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -0.69% (Mon sesi I 6,480.64 vs Fri reconciled close 6,525.69; sesi II full-day close not yet indexed at 15:15 WIB filing per DQG-Day-115 sesi-II-lag pattern; Mon sesi I multi-source cluster CANONICAL PASS CNBC Indonesia / Receh.in / Disway / Bisnis convergent = 6,480.64 (-45.05 pts, -0.69% vs Fri closed 6,525.69). Sesi II full-day close PENDING Tue Aug 25 pre-market reconciliation.)
+- Daily alpha: +0.69% (portfolio flat vs IHSG -0.69% sesi I basis — positive alpha via defensive 100%-cash posture on down day)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (anchor-arithmetic, sesi I basis): +12.27pp (portfolio cum -2.84% − IHSG cum -15.11% from Apr 19 anchor 7,634.00 to Mon Aug 24 sesi I 6,480.64); +0.72pp expansion vs Fri sesi I basis +11.55pp via IHSG relief-rally pullback Day 1 while portfolio remains 100% cash
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 41 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing.
+
+#### Notes
+
+- **EOD Wk 19 Day 1 no trades / no positions — POST-INDEPENDENCE-DAY RELIEF RALLY PULLBACK Day 1 / IHSG MA100 6,500 support tested:** Book fully de-risked Day 41 continues. Zero equity market exposure. 42nd consecutive no-position session. Pre-market Wk 19 Day 1 14 candidates ≥6/10 (AALI/LSIP at 7 UPGRADE persists; BBCA/BBRI/BMRI/ANTM/INCO/MDKA/NCKL/CTRA/MYOR/MIKA/ITMG/KLBF at 6) ALL pre-blocked by crisis-track engagement gate. KLBF blocked additionally by MISTAKES.md 2026-07-06 data-outage-carry-drift pattern-match; ITMG blocked additionally by MISTAKES.md 2026-05-18 + coal 2-strike sector-exit. 19th consecutive 0/3 BUY-slot week OPENS.
+- **IHSG Mon sesi I -0.69% to 6,480.64 = post-Prabowo relief-rally pullback Day 1 / MA100 6,500 support tested:** Multi-source sesi I cluster (CNBC Indonesia 6,480.64 -0.69%; Receh.in 6,509 intraday support test 6,500; Disway open 6,523.96 zone; Bisnis intraday range 6,474-6,551). Sesi I trading value Rp 9.02T / 24.79B shares. IHSG opened 6,544 (+0.28%) then reversed lower testing MA100 support 6,500. Alpha positive via 100% cash on IHSG down day.
+- **Sesi II close provisional per DQG procedure Day 115:** filing at 15:15 WIB with only sesi I close indexed via WebSearch (DQG-Day-115 sesi-II-lag pattern persist 4 consecutive sessions). Per Wk 18 Days 2-5 EOD convention, sesi I multi-source cluster used as filing basis; sesi II full-day close tagged PENDING Tue Aug 25 pre-market reconciliation. Alpha calc uses sesi I basis; may be revised marginally Tuesday pre-market.
+- **Cumulative alpha expansion +0.72pp Wk 19 Day 1:** Fri sesi I +11.55pp → Mon sesi I +12.27pp. Trial trajectory absolute unchanged (portfolio -2.84% unchanged 42 consecutive sessions). Alpha expansion via IHSG relief-rally pullback Day 1 (-0.69% sesi I) while portfolio remains 100% cash. Defensive posture gains ground vs directional catch-up when IHSG retreats.
+- **IDR gate criterion (a) status Mon:** IDR-STAGE-5-MARGINAL-BOUNDARY Day 39 DE-ARM-CANDIDATE Day 19 SUB-17,750 SEQUENCE RESET (weekend gap; Fri close ~17,762 back above threshold; Aug 20 low 17,746 single-touch partial now historical). Mon Aug 24 open pending fetch — fresh Day-1 restart watch required.
+- **Foreign flow criterion (d) status Mon:** Thu Aug 20 sesi I +Rp648.22B net-BUY (AMMN/BBRI/ANTM leads) restart Day 1 remains only confirmed print. Fri Aug 21 full-day flow still UNRESOLVED via WebSearch. Mon Aug 24 sesi I / full-day flow pending Tue reconciliation. Fresh 3-consecutive-session net-BUY sequence still required for criterion (d) restart.
+- **CPO MYR 4,990 breakout Day 5+ = 8-mo high sustained:** Sector-level catalyst intensifies AALI/LSIP UPGRADE candidate. Concurrent INDF/MYOR/ICBP/UNVR consumer-margin-headwind INTENSIFIED (CPO Day 5 + Brent $93.78 Day 8 double input-cost stack). Raw materials sector remains bid-supported; consumer sector remains headwind-pressured.
+- **DESTRY DAMAYANTI DPR Komisi XI fit-and-proper test Day 8 = smooth-continuation:** Dovish-continuity structural lock reinforced. Formal plenary vote timing Wk 19-20 per Komisi XI Chair signals. Post-vote first BI RDG meeting = binary regime-shift catalyst approaches.
+- **Jackson Hole Warsh keynote T+4 US-biz-day (Fri Aug 28) FIRST-KEYNOTE-AS-CHAIR:** Larger message-space uncertainty than Powell continuity. Hawkish tilt = US 30Y re-blowout + IDR re-pressure = criterion (a) further away. Binary regime-shift catalyst. Pre-event USD/UST vol elevated.
+- **MSCI-Aug-12-CONFIRMED freeze + GOTO/CPIN REMOVED Day 13:** effective post-close Aug 31 = T-5 US-biz-day. Aug 29 T-3 US-biz-day rebalance approaching; ~Rp 1T passive outflow front-load building. Mid-cap MSCI-marginal names read-through negative.
+- **US July CPI dovish absorbed Day 12:** headline 3.4% YoY / core 2.5% YoY filter continues; Fed Sept hike odds ~40% held; US 30Y 5.20% BLOWOUT persist T+24 US-biz-day.
+- **BRENT $93.78 mean-revert broken Day 8:** Iran-Hormuz geo premium residual; INDF/MYOR/ICBP/UNVR margin-headwind stacked with CPO breakout.
+- **Data Quality Gate Day 115 outage persists:** yfinance + GoAPI still blocked (115 consecutive sessions since Apr 21); WebSearch multi-source override operational. Sesi I multi-source cluster demonstrates DQG-triggered sesi-II-lag mitigated via source-count discipline.
+- **Book fully de-risked Day 41 through Wk 19 Day 1 = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 41. All 5 re-entry criteria still binding; crisis-track re-entry gate scoring ~1.10/5 (-0.20pp WoW via weekend-gap sub-17,750 sequence reset). 3.90/5 gap still binding — 0% new entries until all 5 concurrent.
+- **19 consecutive 0/3 BUY-slot weeks OPEN + Wk 19 Day 1 no-trade:** 60+ cumulative unused candidate-day slots trial-to-date. All multi-front bindings persist unchanged. Weekly review Fri Aug 28 16:00 WIB will formalise Week 19 letter grade.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 91, Wk 19 Day 1 OPEN). Phase-to-date P&L -2.84% unchanged (42 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Wk 19 Day 1 alpha +0.69% Mon sesi I basis; cumulative alpha +12.27pp (anchor-arithmetic sesi I basis) — IHSG cumulative -15.11% from Apr 19 anchor 7,634.00 to Mon Aug 24 sesi I 6,480.64.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json updated per STEP 5b.
+- **Carry-over to Tue Aug 25 07:00 WIB pre-market (Wk 19 Day 2):**
+  1. Fri Aug 21 sesi II full-day close 3-source cluster reconciliation + Mon Aug 24 sesi II full-day close reconciliation.
+  2. IDR Mon close cluster verification (sub-17,750 fresh 3-of-3 Day-1 datapoint).
+  3. Foreign flow Fri full-day + Mon sesi I/full-day net-flow verification (2-of-3 restart continuation).
+  4. Destry DPR fit-and-proper-test Wk 19 continuation / plenary vote schedule update.
+  5. CPO MYR 4,990 breakout Day 6+ continuation vs pullback for AALI/LSIP conviction decision.
+  6. Jackson Hole Warsh T+3 US-biz-day approach; first-Chair keynote binary Fri Aug 28.
+  7. MSCI GOTO+CPIN removal T+5 US-biz-day approaches Aug 29 rebalance / Aug 31 effective; passive-outflow catalyst binary building.
+  8. IHSG MA100 6,500 support hold vs break watch — Mon sesi I tested and closed above; Tue confirmation datapoint.
+

@@ -1387,6 +1387,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 18 Day 5 CLOSE IHSG Fri sesi I 6,535.57 (+0.52% vs Thu reconciled close 6,501.59); sesi II full-day close pending Mon reconciliation per DQG-Day-112. Multi-source sesi I cluster (Kompas+Suara+Antara-Jatim+Infobanknews) canonical pass. 320 advancers / 268 decliners / 196 unchanged. Industrial +0.87% top sector; energy +0.82%; MA100 breakout Day 2. Portfolio flat 100% cash Day 40. 18th consecutive 0/3 BUY-slot week CLOSED. Cumulative alpha -0.62pp compression vs Thu sesi I via IHSG relief-rally-resume Day 2 while portfolio remains 100% cash."
+    },
+    {
+      "date": "2026-08-24",
+      "day_label": "Day 91",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6480.64,
+      "ihsg_cumulative_pct": -15.11,
+      "alpha_pct": 12.27,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -18714,7 +18729,12 @@
     "updated": "2026-08-18",
     "portfolio_value": 9716207500,
     "alpha_pct": 12.17,
-    "daily_pnl_pct": 0.0
+    "daily_pnl_pct": 0.0,
+    "cumulative_alpha_pp": 12.27,
+    "positions_open": 0,
+    "max_trades_week": 3,
+    "day_number": 91,
+    "last_updated": "2026-08-24"
   },
   "risk": {
     "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY41-Wk18-Day5-CLOSE-post-Independence-Day-relief-rally-resume-Day-2-IHSG-Fri-sesi-I-6535.57-(+0.52%-vs-Thu-reconciled-6501.59)-MA100-BREAKOUT-Day-2-cum-alpha-+11.55pp-Fri-sesi-I-basis--0.62pp-compression-vs-Thu-sesi-I-IDR-STAGE-5-MARGINAL-BOUNDARY-Day36-DE-ARM-CANDIDATE-Day16-FIRMING-Day-6-SUB-17750-TOUCHED-Day-1-DESTRY-DPR-fit-and-proper-Day-5-smooth-continuation-PRABOWO-STATE-ADDRESS-RELIEF-Day-7-BRENT-$93.01-mean-revert-broken-Day-7-CPO-MYR-4956-BREAKOUT-Day-3-US-JULY-CPI-DOVISH-Day-9-FOREIGN-FLOW-NET-BUY-RESTART-Day-1-Day-2-pending-MSCI-Aug-12-CONFIRMED-freeze-extended-GOTO-CPIN-REMOVED-Day-10-Data-Quality-Gate-Day-112-FOMC-HAWKISH-HOLD-T+21-US-30Y-YIELD-5.20%-BLOWOUT-persist-JACKSON-HOLE-POWELL-T+5-US-biz-day-(Fri-Aug-28)-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
@@ -18728,71 +18748,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-18"
+    "updated": "2026-08-24"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-18T02:17:30Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Market-open Thu Jun 18 (Week 9 Day 4, BI RDG T-0 + MSCI T-0 binary dual): NO trades placed. 9 candidates evaluated (ASII/BBCA/BBRI/BMRI/BBNI/TLKM/ICBP/GOTO/MDKA) \u2014 all SKIP. Pre-event hold posture binding: BI RDG T-0 + MSCI T-0 binary dual + US S&P \u22121.21%/Nasdaq \u22121.34%/VIX +4% risk-off contagion. Bank cluster +25-43% chase risk from Mon ARB. TLKM ex-div mechanical drop today. KLBF HOLD; trailing 931 GTC re-armed broker-side; cluster Day 58 watch. Re-eval Fri Jun 19 pre-market post-binary.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "BI T-0 binary + Cyclicals profit-taking; re-eval Fri"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "chase +43.4% from ARB + BI T-0 binary double-veto"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "sector strike-1 block + chase + BI T-0 binary triple-veto"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "chase +29% + BI T-0 binary"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "chase +25% + BI T-0 binary"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "ex-div TODAY mechanical drop; post-ex re-anchor Fri"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "Gate 9 chase BREACH +19-22% above planned 7,300"
-        },
-        {
-          "type": "skip",
-          "ticker": "GOTO",
-          "detail": "FTSE Mid Cap removal Jun 22 sell-flow > buyback bid"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "RUPSLB T-3 binary delayed; re-gate Mon Jun 22 T-1"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "cluster Day 58; trailing 931 GTC re-armed broker-side"
-        },
-        {
-          "type": "warning",
-          "detail": "BI RDG T-0 + MSCI T-0 binary dual + US overnight risk-off = pre-event hold"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-18T04:38:56Z",
       "routine": "midday",
@@ -23285,6 +23243,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (100% cash). No cuts or stop adjustments needed."
+    },
+    {
+      "timestamp": "2026-08-24T08:19:34Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-08-24: IDR 9.716B (0.00%). Alpha +0.69% vs IHSG -0.69% sesi I. 0 positions. Trades this wk: 0/3. Cum alpha +12.27pp. Day 41 de-risked.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 91 EOD snapshot committed; Wk 19 Day 1 opens with 100% cash"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -23404,7 +23374,7 @@
       "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
     ]
   },
-  "last_updated": "2026-08-24T07:00+07:00",
+  "last_updated": "2026-08-24T15:15+07:00",
   "market": {
     "ihsg_close": 6525,
     "ihsg_change_pct": 0.34,
