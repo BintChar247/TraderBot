@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY42-Wk19-Day1-OPEN-post-Independence-Day-relief-rally-pullback-Day-1-IHSG-Mon-sesi-I-6480.64-(-0.69%-vs-Fri-reconciled-6525.69)-MA100-6500-support-tested-cum-alpha-+12.27pp-Mon-sesi-I-basis-+0.72pp-expansion-vs-Fri-sesi-I-IDR-STAGE-5-MARGINAL-BOUNDARY-Day39-DE-ARM-CANDIDATE-Day19-SUB-17750-SEQUENCE-RESET-weekend-gap-Fri-close-17762-DESTRY-DPR-fit-and-proper-Day-8-plenary-vote-Wk19-20-PRABOWO-STATE-ADDRESS-RELIEF-Day-10-fade-Day-1-BRENT-$93.78-mean-revert-broken-Day-8-CPO-MYR-4990-BREAKOUT-Day-5+-8-MO-HIGH-US-JULY-CPI-DOVISH-Day-12-FOREIGN-FLOW-NET-BUY-RESTART-Day-1-PARTIAL-Thu-only-MSCI-Aug-31-REBALANCE-T-5-US-biz-day-GOTO-CPIN-REMOVED-Data-Quality-Gate-Day-115-FOMC-HAWKISH-HOLD-T+24-US-30Y-YIELD-5.20%-BLOWOUT-persist-JACKSON-HOLE-WARSH-T+4-US-biz-day-(Fri-Aug-28)-FIRST-KEYNOTE-AS-CHAIR-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY43-Wk19-Day2-IDX-CLOSED-Maulid-Nabi-holiday-Book-de-risked-Day-42-100pct-cash-Mon-Aug-24-canonical-close-reconciled-6501.67-(-0.37pct)-vs-Fri-6525.69-cum-alpha-+11.99pp-reconciled-basis-IDR-STAGE-5-MARGINAL-BOUNDARY-Day40-DE-ARM-CANDIDATE-Day20-holiday-frozen-DESTRY-DPR-Day-9-holiday-frozen-CPO-MYR-4990-BREAKOUT-Day-6+-holiday-frozen-BRENT-$93.78-Day-9-NEWCASTLE-$131.50-Day-2-MSCI-Aug-31-REBALANCE-T-4-US-biz-day-JACKSON-HOLE-WARSH-T+3-US-biz-day-(Fri-Aug-28)-FIRST-KEYNOTE-AS-CHAIR-Data-Quality-Gate-Day-116-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-08-24"
+  "updated": "2026-08-25"
 }

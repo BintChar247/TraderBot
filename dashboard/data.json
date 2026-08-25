@@ -1396,12 +1396,29 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6480.64,
-      "ihsg_cumulative_pct": -15.11,
-      "alpha_pct": 12.27,
+      "ihsg_close": 6501.67,
+      "ihsg_cumulative_pct": -14.83,
+      "alpha_pct": 11.99,
       "positions_count": 0,
       "trades_today": 0,
-      "trades_this_week": 0
+      "trades_this_week": 0,
+      "session_note": "Wk 19 Day 1 IHSG Mon canonical close reconciled 6,501.67 (-0.37% vs Fri 6,525.69, -24.02 pts) \u2014 multi-source 8-source cluster (Media Indonesia+CNBC+Suara Surabaya+Detik+Infobanknews+Databoks+Kompas+Receh) canonical PASS; revised from Mon-filed sesi I basis 6,480.64 (-0.69%). MA100 6,500 support HELD (close 1.67 pts above MA100). Basic materials +1.21% top; industri +0.15%; other 9 sectors down; healthcare -2.30% weakest. 259 advancers / 367 decliners / 166 unchanged. Portfolio flat 100% cash Day 41. Cumulative alpha +11.99pp reconciled basis (-0.28pp vs Mon-filed +12.27pp sesi I basis; trial trajectory absolute unchanged)."
+    },
+    {
+      "date": "2026-08-25",
+      "day_label": "Day 92",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6501.67,
+      "ihsg_cumulative_pct": -14.83,
+      "alpha_pct": 11.99,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 19 Day 2 IDX CLOSED \u2014 MAULID NABI MUHAMMAD SAW national holiday. Book fully de-risked Day 42 continues, 100% cash IDR 9,716,207,500. Multi-source holiday confirmation via BEI Peng-00171 idx.co.id calendar + Metro TV + Terkini24 + Bareksa + Liputan6 = canonical \u22653-source pass. All state/regime bindings HELD-FROZEN per holiday convention (IDR/foreign flow/CPO/Destry DPR/Prabowo relief all frozen; Brent+Newcastle offshore continue but not IDX-tradable). Trading resumes Wed Aug 26. Cumulative alpha +11.99pp unchanged (reconciled Mon close basis)."
     }
   ],
   "positions": [],
@@ -19397,52 +19414,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-19T02:19:09Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. MSCI Global Mkt Accessibility Review = NEGATIVE downgrade on information-flow criterion (announced 03:30 WIB Fri); conditional gate (i) MSCI status-quo/accessibility-pass FAILED for BMRI/ASII/TLKM. Data-infra Day 59 outage persists (Gate 9 multi-source convergence unverifiable). Week 9 trades 0/3 preserved (4th consecutive 0/3 week); cum alpha +17.94% protected. KLBF HOLD; trailing 931 GTC re-arms at open.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "MSCI NEGATIVE info-flow gate failure"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "MSCI NEGATIVE info-flow + Brent crash drag"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Post-ex anchor unverifiable on data-infra Day 59"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Multi-year downtrend + premium valuation"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "Multi-source convergence unverifiable; below ASII/BMRI/TLKM priority"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "trailing 931 GTC re-arms; cluster Day 59 binds"
-        },
-        {
-          "type": "warning",
-          "detail": "MSCI NEGATIVE info-flow downgrade Fri 03:30 WIB pre-open binary"
-        },
-        {
-          "type": "warning",
-          "detail": "Data-infra Day 59 outage persists (yfinance/GoAPI HTTP 403)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-19T04:37:04Z",
       "routine": "midday",
       "status": "success",
@@ -23965,6 +23936,22 @@
       "routine": "midday",
       "status": "success",
       "summary": "Wk 19 Day 2 midday scan mechanically vacuous \u2014 0 open positions (book fully de-risked Day 42 since Jul 6 KLBF hard-cut). No cuts, no stop tightenings, no thesis checks required."
+    },
+    {
+      "timestamp": "2026-08-25T08:21:34Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk19 Day2 IDX CLOSED (Maulid Nabi holiday). Portfolio flat IDR 9.72B (0.00% today). Cum -2.84%. Alpha +11.99pp reconciled basis (Mon Aug 24 canonical close 6,501.67 reconciled from sesi I 6,480.64). 0/6 positions, 100% cash, 0/3 trades. Book de-risked Day 42; 43rd no-position session. No risk alerts. Trading resumes Wed Aug 26.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 92 snapshot committed \u2014 IDX holiday freeze"
+        },
+        {
+          "type": "reconciliation",
+          "detail": "Mon Aug 24 IHSG canonical close reconciled 6,501.67 (-0.37%) via 8-source cluster; cum alpha revised +11.99pp"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -24084,7 +24071,7 @@
       "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
     ]
   },
-  "last_updated": "2026-08-24T15:15+07:00",
+  "last_updated": "2026-08-25T15:15+07:00",
   "market": {
     "ihsg_close": 6525,
     "ihsg_change_pct": 0.34,
