@@ -19397,37 +19397,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-19T00:23:25Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market 2026-06-19: Scanned 50 watchlist tickers post-BI +25bp hike + pre-MSCI binary reveal. 6 candidates scored \u22656: BMRI (7\u2605 \u2014 foreign top-3 net buy Rp 106.9B Thu = selective bank accumulation signal), ASII/BBCA/UNVR/ICBP/TLKM-post-ex (6 each). 3 candidates actionable CONDITIONAL on (i) MSCI not frontier-downgrade, (ii) multi-source \u22642% Gate 9, (iii) \u2264+3% chase: BMRI \u22644,400 / ASII \u22644,700 / TLKM post-ex \u22642,700. IHSG Thu sesi II FINAL 6,172.34 \u22120.78% post-BI; IDR 17,826 sub-18,000 7-of-7 FULL-LOCKED + BI reinforcement; Brent crash 7 cyclicals drag; Newcastle coal 44.50 firm. Regime DEFENSIVE-INTENSIFIED-DOWNGRADE-PENDING (2 of 4 confirming; (a) reinforced); formal re-eval today 16:00 WIB weekly review.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 7/10 \u2014 foreign top-3 net buy Rp 106.9B Thu = selective bank accumulation signal post-BI hike"
-        },
-        {
-          "type": "research",
-          "ticker": "ASII",
-          "detail": "score 6/10 \u2014 buyback Rp 8T + JPM PT 6,250 post-BI digested"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 5\u21926 conditional \u2014 post-ex anchor today; entry \u22642,700"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-19T02:19:09Z",
       "routine": "market-open",
       "status": "warning",
@@ -23990,6 +23959,12 @@
           "detail": "DQG Day 116 outage \u2014 yfinance/GoAPI blocked; WebSearch multi-source override operational"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-25T04:35:51Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 19 Day 2 midday scan mechanically vacuous \u2014 0 open positions (book fully de-risked Day 42 since Jul 6 KLBF hard-cut). No cuts, no stop tightenings, no thesis checks required."
     }
   ],
   "exposure": {
