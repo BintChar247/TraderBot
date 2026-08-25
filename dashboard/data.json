@@ -18752,12 +18752,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-18T04:38:56Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Day 58 \u2014 All positions healthy. No action taken. KLBF held (cluster non-convergent ~33% spread); trailing 931 GTC armed broker-side. IHSG sesi I \u22121.21% on BI/MSCI binary wait."
-    },
-    {
       "timestamp": "2026-06-18T08:22:00Z",
       "routine": "daily-summary",
       "status": "success",
@@ -23253,6 +23247,37 @@
         {
           "type": "research",
           "detail": "Day 91 EOD snapshot committed; Wk 19 Day 1 opens with 100% cash"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-25T00:11:32Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Wk 19 Day 2 scan: 13 candidates \u22656/10 (AALI/LSIP-7; BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/CTRA/KLBF/MIKA-6). ALL gate-blocked crisis-track ACTIVATED. IDR sub-17,750 Day-1 restart confirmed (17,698); foreign flow Mon NET-SELL Rp 391.96B = criterion (d) RESET. Destry-fit-proper-test T-1 Wed Aug 26. Warsh Jackson-Hole T+3 Fri.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "13 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 7/10 \u2014 CPO MYR 4,854 Day-6 pullback but structural narrative intact"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 7/10 \u2014 CPO higher-leverage smaller-cap"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Destry fit-proper-test T-1 Wed Aug 26 catalyst approach"
         }
       ]
     }
