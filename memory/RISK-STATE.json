@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY43-Wk19-Day2-IDX-CLOSED-Maulid-Nabi-holiday-Book-de-risked-Day-42-100pct-cash-Mon-Aug-24-canonical-close-reconciled-6501.67-(-0.37pct)-vs-Fri-6525.69-cum-alpha-+11.99pp-reconciled-basis-IDR-STAGE-5-MARGINAL-BOUNDARY-Day40-DE-ARM-CANDIDATE-Day20-holiday-frozen-DESTRY-DPR-Day-9-holiday-frozen-CPO-MYR-4990-BREAKOUT-Day-6+-holiday-frozen-BRENT-$93.78-Day-9-NEWCASTLE-$131.50-Day-2-MSCI-Aug-31-REBALANCE-T-4-US-biz-day-JACKSON-HOLE-WARSH-T+3-US-biz-day-(Fri-Aug-28)-FIRST-KEYNOTE-AS-CHAIR-Data-Quality-Gate-Day-116-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY44-Wk19-Day3-FIRST-LIVE-SESSION-POST-HOLIDAY-IHSG-Wed-sesi-I-6496.89-(-0.07pct-vs-Mon-reconciled-6501.67)-MA100-6500-BROKEN-3pts-sesi-I-basis-sesi-II-mid-14:13-WIB-6453.05-directional-down-full-close-PENDING-Thu-pre-market-reconciliation-cum-alpha-+12.06pp-sesi-I-basis-+0.07pp-expansion-vs-Tue-holiday-frozen-+11.99pp-Book-de-risked-Day-43-100pct-cash-19th-consecutive-0-of-3-BUY-slot-week-Day-3-IDR-STAGE-5-MARGINAL-BOUNDARY-Day41-DE-ARM-CANDIDATE-Day21-SUB-17750-fresh-Day-2-continuation-DESTRY-DPR-fit-and-proper-SOLE-CANDIDATE-T-0-Day-10-10:00-WIB-vote-outcome-PENDING-multi-source-post-close-AIDA-BUDIMAN-14:00-WIB-Deputy-Gov-fit-proper-Day-0-CPO-MYR-4946-BREAKOUT-Day-7-pullback-1.4pct-still->4900-elevated-BRENT-$89.5-Iran-US-diplomatic-progress-Day-1-marginal-relief-NEWCASTLE-$131.50-Day-3-LME-nickel-$16924-Day-2-retreat-MSCI-Aug-31-REBALANCE-T-3-US-biz-day-GOTO-CPIN-removed-JACKSON-HOLE-WARSH-T+2-US-biz-day-(Fri-Aug-28)-FIRST-KEYNOTE-AS-CHAIR-Data-Quality-Gate-Day-117-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-08-25"
+  "updated": "2026-08-26"
 }
