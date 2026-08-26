@@ -19414,12 +19414,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-19T04:37:04Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "KLBF held; cluster Day 59 non-convergent on data-infra outage; thesis intact; no -7% cut, no stop-tighten triggered."
-    },
-    {
       "timestamp": "2026-06-19T08:22:25Z",
       "routine": "daily-summary",
       "status": "success",
@@ -23952,6 +23946,41 @@
           "detail": "Mon Aug 24 IHSG canonical close reconciled 6,501.67 (-0.37%) via 8-source cluster; cum alpha revised +11.99pp"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-26T00:13:32Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 19 Day 3 (Wed post-holiday first live session): 14 candidates \u22656/10 all crisis-track pre-blocked. Destry DPR test SOLE-CANDIDATE T-0 TODAY 10:00 WIB binary. IDR sub-17,750 Day-2 (partial 0.40/5); foreign flow RESET on Mon -Rp 391.96B; MSCI T-3; Warsh Jackson Hole T+2 Fri. HOLD 100% cash Day 43.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; DQG Day 117 outage persists"
+        },
+        {
+          "type": "research",
+          "detail": "14 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 7/10 \u2014 CPO MYR 4,946 Day 7 pullback >MYR 4,900 elevated B50-October"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 7/10 \u2014 CPO pure-play higher-leverage"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 Destry T-0 today; P/E 6.29 cheapest Big-4; div 11.36%"
+        },
+        {
+          "type": "regime",
+          "detail": "Crisis-track gate ACTIVATED persists; re-entry 0.40/5 (+0.10pp)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -23971,107 +24000,55 @@
     "ihsg_close_basis": "sesi I (Fri Aug 21) \u2014 sesi II full-day pending Mon reconciliation"
   },
   "research": {
-    "date": "2026-08-19",
+    "date": "2026-08-26",
     "holiday": false,
-    "as_of_date": "2026-08-19",
+    "as_of_date": "2026-08-26",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Wed Aug 19 2026 pre-market Wk 18 Day 3 (post-reconciled-Tue-sesi-II-close)",
-    "ihsg_last": 6449.83,
-    "ihsg_last_label": "Tue Aug 18 sesi II RECONCILED 6,449.83 (+0.75%)",
-    "ihsg_last_sesi_i": 6481.96,
-    "ihsg_last_sesi_i_label": "Tue Aug 18 sesi I peak 6,481.96 (+1.25%) \u2014 faded -32 pts to sesi II 6,449.83",
-    "idr_usd": 17850,
-    "idr_usd_label": "IDR ~17,850 Tue mid; sub-17,750 3-of-3 target ~100 IDR gap widened marginally = FIRMING trajectory PAUSED",
-    "candidates_count": 7,
+    "as_of_label": "Wed Aug 26 07:00 WIB pre-market (Wk 19 Day 3 first live session post-holiday)",
+    "ihsg_last": 6501.67,
+    "ihsg_last_label": "Mon Aug 24 canonical close (holiday-frozen Tue; Wed session TBD)",
+    "ihsg_last_sesi_i": 6480.64,
+    "ihsg_last_sesi_i_label": "Mon Aug 24 sesi I basis (superseded by canonical reconciled close 6,501.67)",
+    "idr_usd": 17724,
+    "idr_usd_label": "Tue Aug 25 late-mark ~17,720-17,725 multi-source (sub-17,750 fresh Day-2 continuation post-holiday)",
+    "candidates_count": 14,
     "candidates": [
-      {
-        "ticker": "BBCA",
-        "sector": "Banking",
-        "score": 6,
-        "note": "Foreign-flow sesi I leader +Rp 98.37B; Destry-dovish-continuity lock; NOT ACTIONABLE (crisis-track gate ACTIVATED)"
-      },
-      {
-        "ticker": "ANTM",
-        "sector": "Nickel-Gold",
-        "score": 6,
-        "note": "Foreign-flow sesi I secondary +Rp 62.35B; LME nickel $16,806 firm; NOT ACTIONABLE (crisis-track gate ACTIVATED)"
-      },
-      {
-        "ticker": "ICBP",
-        "sector": "Consumer",
-        "score": 6,
-        "note": "Q2 core +50.6% YoY Day 8; Prabowo-RAPBN consumer-lift; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "INDF",
-        "sector": "Consumer",
-        "score": 6,
-        "note": "H1 rev +4.9% sole YTD net-inflow; Brent $91 BROKEN Day 5 = thesis DEGRADING; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "MYOR",
-        "sector": "Consumer",
-        "score": 6,
-        "note": "Consumer margin play persistent \u22656; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "TLKM",
-        "sector": "Telco",
-        "score": 6,
-        "note": "Q2 EBITDA-beat +28% YoY Day 8; TLKM-FADE-ON-BEAT pattern Day 12 unresolved; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "CTRA",
-        "sector": "Property",
-        "score": 6,
-        "note": "Q2 least-bad + VAT tailwind 2026; TP 1,300; NOT ACTIONABLE"
-      }
+      "AALI",
+      "LSIP",
+      "BBCA",
+      "BBRI",
+      "BMRI",
+      "ITMG",
+      "INCO",
+      "MDKA",
+      "NCKL",
+      "MYOR",
+      "BSDE",
+      "CTRA",
+      "KLBF",
+      "MIKA"
     ],
-    "re_entry_gate_score": 1.15,
+    "re_entry_gate_score": 0.4,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": 0.05,
-    "re_entry_gate_criteria": [
-      {
-        "criterion": "(a) IDR sub-17,750 3-of-3",
-        "status": "NOT MET",
-        "detail": "~17,850 Tue mid, ~100 IDR gap; firming trajectory PAUSED",
-        "score": 0.55
-      },
-      {
-        "criterion": "(b) multi-source cluster \u22644% at candidate entry",
-        "status": "NOT MET",
-        "detail": "DQG Day 109 outage; per-ticker cluster brittle",
-        "score": 0.1
-      },
-      {
-        "criterion": "(c) MSCI Info-Flow / 2027 Watchlist accessibility neutral+",
-        "status": "NEGATIVE-LOCKED",
-        "detail": "MSCI Aug-12 freeze extended + GOTO/CPIN removed Day 8; deferred Nov 2026",
-        "score": 0.05
-      },
-      {
-        "criterion": "(d) foreign-flow 2+ consec net-BUY",
-        "status": "TENTATIVE-RECOVERY-SIGNAL",
-        "detail": "Tue sesi I +Rp 112.88B sign-flip; full-day pending; if net-BUY = fresh 1-of-3 restart Wed",
-        "score": 0.25
-      },
-      {
-        "criterion": "(e) R:R \u22652:1 achievable at fresh cluster mark",
-        "status": "NOT MET",
-        "detail": "no cluster convergent to verify R:R",
-        "score": 0.2
-      }
-    ],
-    "top_flagged_risks_count": 5,
+    "re_entry_gate_delta_from_prev": 0.1,
+    "re_entry_gate_criteria": {
+      "a_idr_sub_17750_3of3": "0.40/5 partial Day-2 IDR sub-17,750 continuation post-holiday",
+      "b_data_quality_gate": "0/5 DQG Day 117 outage",
+      "c_msci_sp_dji_accessibility": "0/5 MSCI negative-locked-deepened",
+      "d_foreign_flow_2plus_net_buy": "0/5 Mon RESET; Wed restart pending",
+      "e_rr_2to1_at_fresh_cluster": "0/5 untestable"
+    },
+    "top_flagged_risks_count": 6,
     "top_flagged_risks": [
-      "Brent $91.02 mean-revert BROKEN Day 5 above $90 \u2014 INDF thesis DEGRADING + CPI-vector negative + AKRA fuel-margin negative",
-      "IDR FIRMING PAUSED Tue ~17,850 \u2014 criterion (a) NOT ADVANCING; gap to sub-17,750 target ~100 IDR widened marginally",
-      "Foreign flow Tue full-day PENDING \u2014 sesi I +Rp 112.88B sign-flip fragile; sesi II reversion = criterion (d) BROKEN Day 3",
-      "Jackson Hole T+3 US-biz-day (Aug 24-26) \u2014 Fed structural signal binary imminent; US 10Y 4.73% + oil $91 = macro drag",
-      "MSCI GOTO/CPIN removal T-8 US-biz-day (Aug 29 rebalance / Aug 31 effective) \u2014 passive-outflow catalyst binary building"
+      "Destry Damayanti DPR fit-and-proper test TODAY Wed 10:00 WIB SOLE-CANDIDATE T-0 binary",
+      "Warsh Jackson Hole first-Chair keynote Fri Aug 28 T+2 US-biz-day binary regime-shift",
+      "MSCI T-3 US-biz-day passive-outflow $753M GOTO/CPIN concentrated Aug 31 effective",
+      "Foreign flow Mon sesi I NET SELL -Rp 391.96B RESET; Wed sesi I restart pending",
+      "IHSG MA100 6,500 hold vs break Wed post-holiday directional cue",
+      "DQG Day 117 outage persists"
     ]
   },
-  "last_updated": "2026-08-25T15:15+07:00",
+  "last_updated": "2026-08-26T07:00+07:00",
   "market": {
     "ihsg_close": 6525,
     "ihsg_change_pct": 0.34,
@@ -24098,10 +24075,10 @@
     "ihsg_cumulative_pct": -14.53
   },
   "pre_market": {
-    "date": "2026-08-24",
-    "day_label": "Wk 19 Day 1 (Mon)",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY42",
-    "regime_reason": "Crisis-track engagement gate ACTIVATED persists Wk 19 Day 1; IDR ~17,762 (~12pip ABOVE sub-17,750; Fri close back above; weekend gap resets Day-1 partial); foreign flow Thu sesi I +Rp648B Day-1 partial (Fri full-day unresolved); MSCI T-5 US-biz-day approaches Aug 29 rebal / Aug 31 effective; Warsh Jackson Hole keynote T+4 US-biz-day (Fri Aug 28) = FIRST-Fed-Chair keynote binary (Warsh replaced Powell May 22 2026 \u2014 prior context Powell-carry-over corrected); Destry DPR fit-and-proper Day 8+ smooth continuation; CPO MYR 4,990 8-mo-high breakout Day 5+; Brent $93.78 mean-revert broken Day 8; US Fri Aug 22 close green read-across mildly positive.",
+    "date": "2026-08-26",
+    "day_label": "Wk 19 Day 3 (Wed) \u2014 FIRST LIVE SESSION POST-HOLIDAY",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY44",
+    "regime_reason": "Crisis-track engagement gate ACTIVATED persists Wk 19 Day 3 (first live session post-Maulid holiday); Destry Damayanti DPR fit-and-proper test SOLE-CANDIDATE TODAY 10:00 WIB T-0 binary; Aida Budiman 14:00 WIB; IDR ~17,724 sub-17,750 fresh Day-2 continuation (partial 0.40/5 +0.10pp vs Mon Day-1); foreign flow Mon sesi I NET SELL -Rp 391.96B RESET, Wed sesi I fresh Day-1 restart pending; Warsh Jackson Hole first-Chair T+2 US-biz-day Fri Aug 28 binary approach; MSCI T-3 US-biz-day Aug 29 rebal/Aug 31 effective GOTO/CPIN removed $753M outflow window compressed; IHSG Mon canonical 6,501.67 marginally above MA100 6,500 pre-Wed session; US Tue close mildly positive (S&P +0.32%/Nasdaq +0.66%); Newcastle coal $131.50 flat sub-$135 fragility; CPO MYR 4,946 Day 7 -1.4% pullback from 5,018 peak still >MYR 4,900 elevated; LME nickel $16,924 -0.5% Mon-Tue; Brent Tue -3% to $89.5 Iran-US diplomatic-progress relief; DQG Day 117 outage persists.",
     "position_sizing_note": "N/A \u2014 0% new entries binding until all 5 re-entry criteria concurrent.",
     "candidates_scored_ge6_count": 14,
     "candidates_scored_ge6": [
@@ -24109,59 +24086,47 @@
         "ticker": "AALI",
         "sector": "Plantation",
         "score": 7,
-        "note": "UPGRADE persists: CPO MYR 4,990 8-mo high breakout Day 5+; B50 October full-implementation; NOT ACTIONABLE"
+        "note": "UPGRADE persists Day 3: CPO MYR 4,946 Day 7 -1.4% pullback from 5,018 peak; still >MYR 4,900 elevated; B50 October; NOT ACTIONABLE"
       },
       {
         "ticker": "LSIP",
         "sector": "Plantation",
         "score": 7,
-        "note": "UPGRADE persists: CPO pure-play higher-leverage; NOT ACTIONABLE"
+        "note": "UPGRADE persists Day 3: CPO pure-play higher-leverage; NOT ACTIONABLE"
       },
       {
         "ticker": "BBCA",
         "sector": "Banking",
         "score": 6,
-        "note": "Post-Destry Big-3 beneficiary; MSCI-safe; core defensive; NOT ACTIONABLE"
+        "note": "Destry T-0 fit-proper today 10:00 WIB binary; MSCI-safe core defensive; NOT ACTIONABLE"
       },
       {
         "ticker": "BBRI",
         "sector": "Banking",
         "score": 6,
-        "note": "Micro-lending macro-leverage; Destry-play; strike-1 historical; NOT ACTIONABLE"
+        "note": "Micro-lending Destry-play T-0; div-yield 10.88%; P/E 8.19; TOP FOREIGN NET-SELL Mon; strike-1 MISTAKES caveat; NOT ACTIONABLE"
       },
       {
         "ticker": "BMRI",
         "sector": "Banking",
         "score": 6,
-        "note": "State-bank Destry-play; MSCI-safe; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "ADRO",
-        "sector": "Coal",
-        "score": 6,
-        "note": "Coal $131.50 reclaim $130 psych thin; div-yield; MISTAKES sector-exit binding; NOT ACTIONABLE"
+        "note": "State-bank Destry-play T-0; P/E 6.29 CHEAPEST Big-4; div 11.36% HIGHEST; H1 +24% strongest; NOT ACTIONABLE"
       },
       {
         "ticker": "ITMG",
         "sector": "Coal",
         "score": 6,
-        "note": "Strongest coal +11.35% YTD; downgrade from 7 persists; MISTAKES 2026-05-18 flag + sector-exit; NOT ACTIONABLE"
-      },
-      {
-        "ticker": "ANTM",
-        "sector": "Nickel",
-        "score": 6,
-        "note": "RKAB Aug 20 supply-mgmt; upstream mining + smelter; NOT ACTIONABLE"
+        "note": "Newcastle $131.50 flat sub-$135 fragility; MISTAKES 2026-05-18 flag + sector-exit; NOT ACTIONABLE"
       },
       {
         "ticker": "INCO",
         "sector": "Nickel",
         "score": 6,
-        "note": "Rikopedia top pick; TP 7,500; LME $17,043 firming; NOT ACTIONABLE"
+        "note": "Rikopedia top pick; TP 7,500; nickel matte pure-play; NOT ACTIONABLE"
       },
       {
         "ticker": "MDKA",
-        "sector": "Gold/Cu",
+        "sector": "Nickel/Cu/Au",
         "score": 6,
         "note": "Top pick; gold floor + Cu shift; NOT ACTIONABLE"
       },
@@ -24169,78 +24134,57 @@
         "ticker": "NCKL",
         "sector": "Nickel",
         "score": 6,
-        "note": "HPAL/MHP; H2 RKAB supply beneficiary; TP 1,800; NOT ACTIONABLE"
+        "note": "HPAL/MHP mid-stream; H1 NI Rp 4.1T; quota-cut beneficiary; NOT ACTIONABLE"
       },
       {
         "ticker": "MYOR",
         "sector": "Consumer",
         "score": 6,
-        "note": "Consumer margin recovery; CPO+Brent headwind INTENSIFIED; NOT ACTIONABLE"
+        "note": "Consumer recovery Q1; 40% USD-denom export hedge; CPO+Brent headwind easing marginally; NOT ACTIONABLE"
+      },
+      {
+        "ticker": "BSDE",
+        "sector": "Property",
+        "score": 6,
+        "note": "UPGRADE from 5: Aug 19 +9.02% Rp665 surge; VAT PMK 90/2025 extended full-2026; NOT ACTIONABLE"
       },
       {
         "ticker": "CTRA",
         "sector": "Property",
         "score": 6,
-        "note": "Best VAT-play; 84% 1H25 sales <Rp5B; TP 1,300 Overweight; NOT ACTIONABLE"
+        "note": "Best VAT-play; TP 1,300 Overweight; 33% H1 marketing via VAT; NOT ACTIONABLE"
       },
       {
         "ticker": "KLBF",
-        "sector": "Pharma",
+        "sector": "Healthcare",
         "score": 6,
-        "note": "IPOT #1 pick; MISTAKES 2026-07-06 hard-cut -21.16% mandatory SKIP; NOT ACTIONABLE"
+        "note": "Bareksa Aug 12 top pick 715-735; MISTAKES 2026-07-06 hard-cut -21.16% flag PERSISTS; SKIP mandatory"
       },
       {
         "ticker": "MIKA",
         "sector": "Healthcare",
         "score": 6,
-        "note": "InvestorTrust top pick 2026; Prabowo RAPBN health-spending anchor; NOT ACTIONABLE"
+        "note": "InvestorTrust top pick 2026; RAPBN 2027 health-anchor; NOT ACTIONABLE"
       }
     ],
-    "re_entry_gate_score": 1.1,
+    "re_entry_gate_score": 0.4,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": -0.2,
-    "re_entry_gate_criteria": [
-      {
-        "criterion": "(a) IDR sub-17,750 3-of-3",
-        "status": "NOT MET",
-        "detail": "Fri ~17,762 back above threshold; weekend gap resets Aug 20 Day-1 partial; Mon open sub-17,750 confirmation restart watch",
-        "score": 0.45
-      },
-      {
-        "criterion": "(b) multi-source cluster \u22644% at candidate entry",
-        "status": "NOT MET",
-        "detail": "DQG Day 115 outage; per-ticker cluster brittle; yfinance/GoAPI still blocked",
-        "score": 0.1
-      },
-      {
-        "criterion": "(c) MSCI Info-Flow / 2027 Watchlist accessibility neutral+",
-        "status": "NEGATIVE-LOCKED",
-        "detail": "MSCI Aug-12 freeze extended + GOTO/CPIN removed; T-5 rebal/T-7 effective; passive-outflow front-load building; deferred Nov 2026",
-        "score": 0.05
-      },
-      {
-        "criterion": "(d) foreign-flow 2+ consec net-BUY",
-        "status": "PARTIAL Day 1",
-        "detail": "Thu Aug 20 sesi I +Rp648B net-BUY (AMMN/BBRI/ANTM top); Fri full-day unresolved; fresh 3-consec restart needed via Mon confirmation",
-        "score": 0.25
-      },
-      {
-        "criterion": "(e) R:R \u22652:1 achievable at fresh cluster mark",
-        "status": "NOT MET",
-        "detail": "no cluster convergent to verify R:R (DQG-blocked)",
-        "score": 0.25
-      }
-    ],
-    "top_flagged_risks_count": 8,
+    "re_entry_gate_delta_from_prev": 0.1,
+    "re_entry_gate_criteria": {
+      "a_idr_sub_17750_3of3": "0.40/5 partial Day-2 IDR sub-17,750 continuation post-holiday",
+      "b_data_quality_gate": "0/5 DQG Day 117 outage yfinance/GoAPI blocked",
+      "c_msci_sp_dji_accessibility": "0/5 MSCI negative-locked-deepened + Aug freeze extended + GOTO/CPIN removed T-3",
+      "d_foreign_flow_2plus_net_buy": "0/5 Mon sesi I NET SELL -Rp 391.96B RESET; Wed sesi I fresh Day-1 restart pending",
+      "e_rr_2to1_at_fresh_cluster": "0/5 untestable under DQG outage"
+    },
+    "top_flagged_risks_count": 6,
     "top_flagged_risks": [
-      "Warsh Jackson Hole keynote Fri Aug 28 T+4 US-biz-day \u2014 FIRST-Fed-Chair keynote binary; larger message-space uncertainty than Powell continuity; hawkish tilt = US 30Y re-blowout + IDR re-pressure",
-      "Weekend gap resets IDR sub-17,750 3-of-3 sequence \u2014 Aug 20 low 17,746 was single-session partial; Fri close ~17,762 back above",
-      "MSCI Aug 29 rebalance / Aug 31 effective T-5 US-biz-day \u2014 GOTO/CPIN ~Rp 1T passive outflow; mid-cap MSCI-marginal read-through negative",
-      "CPO MYR 4,990 breakout Day 5+ + Brent $93.78 Day 8 = consumer INDF/MYOR/ICBP/UNVR margin-headwind INTENSIFIED",
-      "Foreign flow Fri Aug 21 full-day print unresolved \u2014 Thu Day-1 partial fragile; Mon confirmation needed for 2-of-3 sequence",
-      "DQG Day 115 outage persists \u2014 yfinance/GoAPI 115 consecutive sessions blocked; WebSearch multi-source override operational but per-ticker cluster brittle",
-      "Coal Newcastle $131.50 marginal reclaim of $130 psych \u2014 thin margin; sub-$125 sustained triggers ITMG/ADRO/PTBA downgrade",
-      "Destry DPR plenary vote timing uncertain Wk 19-20 \u2014 dovish-continuity structural lock reinforced but vote timing risk = macro overlay reset pending"
+      "Destry Damayanti DPR fit-and-proper test TODAY Wed 10:00 WIB SOLE-CANDIDATE T-0 binary catalyst",
+      "Warsh Jackson Hole first-keynote-as-Chair Fri Aug 28 T+2 US-biz-day binary regime-shift",
+      "MSCI T-3 US-biz-day passive-outflow $753M ($684M Standard + $68M Small Cap) GOTO/CPIN concentrated",
+      "Foreign flow Mon sesi I NET SELL -Rp 391.96B RESET; Wed restart pending",
+      "IHSG MA100 6,500 hold vs break Wed open post-holiday first live directional cue",
+      "DQG Day 117 outage persists yfinance/GoAPI blocked; per-ticker cluster brittle"
     ]
   }
 }

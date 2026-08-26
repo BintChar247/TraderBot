@@ -21934,3 +21934,221 @@ Score each ticker 1–10 (10 = strongest buy setup). Sector momentum filter appl
 - [ ] **DQG Day 116 outage persists** — pre-market triple-source cluster required on ANY candidate entry price.
 
 ---
+
+## 2026-08-26 (Wednesday — Wk 19 Day 3 — FIRST LIVE SESSION POST-HOLIDAY — DESTRY DPR FIT-PROPER TEST T-0 BINARY 10:00 WIB TODAY; DQG-Day-117; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED)
+
+### Global Overnight (Tue Aug 25 US close)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,677.28 | +0.32% | 3rd straight winning session; investors await Warsh Jackson Hole T+3 Fri Aug 28 [url: https://www.washingtonpost.com/business/2026/08/25/wall-street-stocks-dow-nasdaq/] |
+| Dow | 53,577.40 | +0.30% (+160.24 pts) | Three-day win streak; bond yield relief |
+| Nasdaq | 26,151.30 | +0.66% | Chip stocks rally lifts index [url: https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html] |
+| Nikkei 225 | 65,856.43 | +0.50% (+328.34 pts) | Modest gains Tue [url: https://armenpress.am/en/article/1258843] |
+| Shanghai Composite | 3,889.44 | +0.19% | Slight advance |
+| Hang Seng | 25,511.10 | -0.02% | Marginal decline |
+| VIX | ~15-16 | ~flat | Near 2026 lows; pre-Jackson Hole calm |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 6,501.67 (Mon Aug 24 canonical close carried through Tue holiday) | Tue holiday freeze; Wed session opens fresh | MA100 6,500 marginally HELD Mon close (+1.67 pts); Wed opens fresh directional cue post-holiday |
+| IDR/USD | ~17,724 (Tue Aug 25 late-mark; multi-source ~17,720-17,725) | -0.14% vs Mon ~17,698 (still sub-17,750) | **SUB-17,750 fresh Day-2 continuation** post-holiday; criterion (a) partial 0.40/5 (+0.10pp vs Mon Day-1 partial); 50-day avg ~17,946; Wk 17 avg 17,860 [url: https://tradingeconomics.com/indonesia/currency] |
+| Indo 10Y SUN yield | ~7.05-7.10% est | mild carry | Not directly refreshed via WebSearch |
+| US 10Y yield | 4.63-4.66% | -4bp vs Mon | Bond yields retreat pre-Jackson Hole [url: https://www.cnbc.com/2026/08/25/treasury-yields-steady-as-traders-await-more-economic-data-.html] |
+| Indo-US spread | ~240-245 bp | narrower | Both firmer / narrower spread |
+| Newcastle coal (USD/ton) | 131.50 | flat vs Fri | Thermal coal supply-improved -10.2% July MoM; sub-$135 fragility persists [url: https://tradingeconomics.com/commodity/coal] |
+| CPO palm oil (MYR/ton) | 4,946 | -1.43% vs Mon 5,018 peak | Day 7 pullback from Aug 21 8-mo-high 5,018; profit-taking + weak soyoil; still elevated (>MYR 4,900) [url: https://tradingeconomics.com/commodity/palm-oil] |
+| LME nickel (USD/ton) | 16,924.75 | -0.53% Mon-Tue | Retreat to early-July low; Indonesian supply-improvement expectations pressuring [url: https://tradingeconomics.com/commodity/nickel] |
+| Brent crude (USD/bbl) | 89.5-91.9 | -3% Tue (opened $91.90 → $89.50) | Day 9 elevated retreat on Iran-US diplomatic-progress signs; consumer margin-headwind eases marginally [url: https://www.forbes.com/advisor/investing/oil-prices-today/] |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) Wed sesi I | **PENDING — no session Tue (holiday); Wed sesi I = fresh Day-1 restart** | Mon sesi I NET SELL -Rp 391.96B was last print; criterion (d) RESET; Wed sesi I direction critical |
+| Foreign flow streak | 0-of-3 restart pending | Fresh 3-consec restart required from Wed |
+| Full-day foreign flow | Aug 18 last confirmed -Rp 689.26B net-sell | 2026 YTD reg market -Rp 72.87T net-sell [url: https://www.idnfinancials.com/news/66953/welcoming-august-foreign-trading-closed-in-net-sell] |
+| Top buying brokers | data unavailable via WebSearch | — |
+| Top selling brokers | data unavailable via WebSearch | — |
+| BI foreign reserves | ~$150B+ baseline (Wk 12 last) | Not refreshed |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Pre-Destry T-0 today | Big-4 Mon selloff -1% each on foreign net-sell; Destry test 10:00 WIB TODAY = binary catalyst | BBCA/BBRI/BMRI/BBNI |
+| Coal / Energy | Fragile flat | Newcastle $131.50 sub-$135 sub-$140; ADRO Mon top-loser tape fragility | ITMG/ADRO/PTBA |
+| Nickel / Mining | Supply-tightening narrative vs LME retreat | ESDM 2026 quota 260-270Mt cut; LME $16,924 retreat -0.5% Mon-Tue; DPR Aug-20 EV-ecosystem discussion referenced ANTM/INCO/NCKL/MBMA/HRUM | ANTM/INCO/MDKA/NCKL/MBMA |
+| CPO / Agri | Day 7 pullback | BMD MYR 4,946 -1.4% Mon-Tue from 5,018 peak; still >MYR 4,900 elevated; structural narrative intact | AALI/LSIP |
+| Property | VAT-tailwind constructive | Rate-sensitive positive under Destry dovish-continuity lock; Aug 19 property sector +1.68% vs IHSG -0.16% relative-strength precedent | CTRA/BSDE/SMRA/PWON |
+| Consumer | MIXED-DEGRADING | Brent $89.5 Tue relief marginal + CPO Day 7 pullback marginal relief; INDF/UNVR/MYOR/ICBP raw-material stack easing slightly | UNVR/ICBP/INDF/MYOR |
+| Telco | Post-Q2 fade digestion | TLKM PATTERNS LOW-conf; ISAT cool-down elapsed; MTEL 630 +3.08% recent momentum | TLKM/ISAT/EXCL/MTEL |
+| Infrastructure | Weak | Sovereign overhang residual | JSMR/WSKT/PTPP |
+
+### Corporate Calendar Today / Week
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| Destry Damayanti DPR Komisi XI fit-and-proper test SOLE-CANDIDATE | BI Governor | Wed Aug 26 10:00 WIB (TODAY T-0) | BINARY: smooth pass = dovish-continuity structural lock cements; setback = macro overlay reset [url: https://www.cnbcindonesia.com/news/20260823175636-4-761673/dpr-gelar-fit-proper-test-calon-bos-bi-destry-pada-26-agustus] |
+| Aida S. Budiman fit-and-proper test | Senior Deputy Governor BI | Wed Aug 26 14:00 WIB (TODAY) | Confirms full BI board rotation trajectory |
+| Solihin/Anwar Bashori Deputy Governor fit-proper test | BI Deputies | Thu Aug 27 | Confirms full BI board rotation trajectory |
+| Jackson Hole Warsh keynote FIRST-AS-CHAIR | Fed | Fri Aug 28 10:00 ET / T+2 US-biz-day | Binary regime-shift catalyst; hawkish tilt = US 30Y re-blowout + IDR re-pressure; pre-event Fed pricing ~1x 25bp move |
+| MSCI Aug 29 rebalance / Aug 31 effective GOTO/CPIN removed | GOTO/CPIN | T-3/T-5 US-biz-day | ~Rp 1T ($753M total incl. $684M Standard + $68M Small Cap) passive outflow front-loading [url: https://market.bisnis.com/read/20260813/7/1995937/msci-depak-goto-dan-turunkan-cpin-ada-potensi-outflow-rp1-triliun] |
+| IDX minimum share price test 22-29 Aug (implementation Sep 7) | market microstructure | ongoing | Rp 50 → Rp 1 min tick test; sub-Rp 50 names volatility watch [url: https://www.caproasia.com/2026/08/21/indonesia-stock-exchange-idx-to-decrease-minimum-share-price-from-50-rupiah-to-1-rupiah/] |
+| ESDM RKAB 2026 nickel quota 260-270Mt confirmed (from 379Mt) | ANTM/INCO/NCKL/MBMA/HRUM | ongoing | Nickel supply-tightening thesis reinforced; LME retreat Mon-Tue is short-term counter-signal via Indonesian-supply-improvement expectations |
+
+### Watchlist Scan — All 50 Tickers (Wed Wk 19 Day 3 — First Live Session Post-Holiday)
+
+**DQG Day 117 outage — yfinance/GoAPI blocked (117 consecutive sessions since Apr 21); scores derived from Wk 19 Day 1 (Mon) carry + Mon Aug 24 close moves (holiday-frozen Tue) + Tue US overnight + WebSearch sector context. Prices column intentionally blank per DQG discipline: single-source stale-mix not written to log; per-ticker cluster narrowing not attempted.**
+
+**Two-track scoring: catalyst-track primary; Defensive Quality track suspended per RISK-STATE.json max_position_pct=0.05 regime cap.**
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | DQG (~6,350 Mon close ref) | Wed pending | 6 | Destry T-0 fit-proper test TODAY 10:00 WIB binary catalyst; MSCI-safe core defensive; Big-4 Mon selloff -0.78% | CANDIDATE (gate-blocked) |
+| 2 | BBRI | Banking | DQG (~3,180 Mon close ref) | Wed pending | 6 | Micro-lending Destry-play T-0; div-yield 10.88%; P/E 8.19 cheaper than BBCA (P/E 13.56); TOP FOREIGN NET-SELL Mon; strike-1 MISTAKES 2026-05-01 caveat | CANDIDATE (gate-blocked) |
+| 3 | BMRI | Banking | DQG (~4,190 Mon close ref) | Wed pending | 6 | State-bank Destry-play T-0; P/E 6.29 CHEAPEST Big-4; div-yield 11.36% HIGHEST; H1 profit +24% strongest; Mon -0.47% best relative Big-4 | CANDIDATE (gate-blocked) |
+| 4 | BBNI | Banking | DQG (~3,690 Mon close ref) | Wed pending | 5 | Big-4 defensive; less liquidity; Mon -1.34% deepest Big-4 fall | WATCH |
+| 5 | BNGA | Banking | DQG | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 6 | NISP | Banking | DQG | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 7 | BBTN | Banking | DQG | — | 4 | Property-mortgage linked; rate-sensitive; Destry dovish-continuity secondary beneficiary | WATCH |
+| 8 | ADRO | Coal | DQG | — (Mon top-loser) | 5 (downgrade persists) | Mon top-loser reference; coal $131.50 flat marginal; MISTAKES sector 2-strike EXITED | WATCH-DOWN |
+| 9 | ITMG | Coal | DQG | — | 6 | Newcastle $131.50 sub-$135 fragility; MISTAKES.md 2026-05-18 flag PERSISTS | CANDIDATE (gate-blocked + MISTAKES pattern) |
+| 10 | PTBA | Coal | DQG | — | 5 | State-owned; 60Mt 2026 target | WATCH |
+| 11 | BUMI | Coal | DQG | — (Mon top-gainer) | 4 | Mon top-gainer but small-cap illiquid; foreign top-sold sesi I contradiction | SKIP |
+| 12 | HRUM | Coal | DQG | — | 4 | Nickel-coal hybrid; RKAB participant | WATCH |
+| 13 | MEDC | Energy/O&G | DQG | — | 2 | DELIST candidate confirmed | SKIP (removal) |
+| 14 | PGAS | Gas/Energy | DQG | — (Mon top-gainer) | 5 | Defensive utility; Mon top-gainer counter-flow bid | WATCH |
+| 15 | ANTM | Nickel | DQG | — | 5 (downgrade persists) | ESDM 2026 quota cut supply-tightening positive; LME retreat + Mon foreign net-sell -Rp 53B mixed | WATCH |
+| 16 | INCO | Nickel | DQG | — | 6 | Rikopedia top pick; TP 7,500; nickel matte pure-play; MDKA/INCO top-pick pair | CANDIDATE (gate-blocked) |
+| 17 | MDKA | Nickel/Cu/Au | DQG | — | 6 | Rikopedia MDKA/INCO top pick; gold floor + Cu shift | CANDIDATE (gate-blocked) |
+| 18 | NCKL | Nickel | DQG | — | 6 | HPAL/MHP mid-stream; H1 NI Rp 4.1T; quota-cut beneficiary | CANDIDATE (gate-blocked) |
+| 19 | MBMA | Nickel | DQG | — | 5 | HPAL/MHP peer | WATCH |
+| 20 | TINS | Tin | DQG | — | 2 (downgrade persists) | Mon foreign top-sold -Rp 82B | SKIP |
+| 21 | UNVR | Consumer | DQG | — | 4 | Margin-headwind Brent+CPO stacked; Brent Tue relief marginal | WATCH |
+| 22 | ICBP | Consumer | DQG | — | 5 | Q2 core +50.6% YoY; CPO input headwind concern eases with Day 7 pullback | WATCH |
+| 23 | INDF | Consumer | DQG | — | 5 | Brent Tue $89.5 relief + CPO pullback; sole 2026 net-inflow YTD | WATCH |
+| 24 | MYOR | Consumer | DQG | — | 6 | Consumer recovery Q1 confirmed; 40% USD-denom export hedge; CPO+Brent headwind easing marginally | CANDIDATE (gate-blocked) |
+| 25 | SIDO | Consumer | DQG | — | 3 | Non-LQ45; MSCI Small Cap removed | SKIP |
+| 26 | TLKM | Telco | DQG | — | 5 | TLKM-FADE-ON-BEAT PATTERNS LOW-conf codified; 20-analyst Strong Buy consensus | WATCH |
+| 27 | EXCL | Telco | DQG | — | 3 | Post-XLSmart merger digestion | SKIP |
+| 28 | ISAT | Telco | DQG | — | 4 | Wk 15 chase-fail cool-down elapsed | WATCH |
+| 29 | MTEL | Telco/Tower | DQG | — | 3 | Tower yield-play; MSCI marginal; recent +3.08% mild momentum | SKIP |
+| 30 | TOWR | Telco/Tower | DQG | — | 3 | Tower yield-play; low-catalyst | SKIP |
+| 31 | BSDE | Property | DQG | — | 6 (upgrade from 5) | Aug 19 +9.02% Rp665 surge; VAT tailwind extended full-2026; Buy rating | CANDIDATE (gate-blocked) |
+| 32 | CTRA | Property | DQG | — | 6 | Best VAT-play; TP 1,300 Overweight; 33% H1 marketing sales via VAT incentive; Rp 1.5-2T eligible inventory | CANDIDATE (gate-blocked) |
+| 33 | SMRA | Property | DQG | — | 5 | Buy rating; less VAT-eligible mix | WATCH |
+| 34 | PWON | Property | DQG | — | 4 | Aug 19 +6.20% surge; mid-tier property | WATCH |
+| 35 | GOTO | Tech | DQG | — | 1 (downgrade) | MSCI Standard REMOVED Aug 31 effective; T-3 US-biz-day passive-outflow acceleration $684M Standard portion | SKIP (MSCI removal) |
+| 36 | BUKA | Tech | DQG | — | 2 | E-commerce structural weak | SKIP |
+| 37 | EMTK | Tech/Media | DQG | — | 3 | Media conglomerate | SKIP |
+| 38 | ASII | Auto/Industrial | DQG | — | 4 | Q2 MISS; Q3 setup Oct-Nov far catalyst | WATCH |
+| 39 | UNTR | Heavy Equipment | DQG | — | 4 | Coal-linked equipment; ASII read-through negative | WATCH |
+| 40 | AKRA | Distribution | DQG | — | 4 (upgrade from 3) | Fuel margin marginal relief with Brent Tue $89.5 retreat | WATCH |
+| 41 | AALI | Plantation | DQG | — | 7 (UPGRADE persists) | CPO MYR 4,946 Day 7 -1.4% pullback from 5,018 peak; still >MYR 4,900 elevated; structural narrative intact; B50 October | CANDIDATE (gate-blocked) |
+| 42 | LSIP | Plantation | DQG | — | 7 (UPGRADE persists) | CPO pure-play smaller-cap higher-leverage | CANDIDATE (gate-blocked) |
+| 43 | JSMR | Infrastructure | DQG | — | 3 | Toll-road rate-sensitive | SKIP |
+| 44 | WSKT | Construction | DQG | — | 2 | SOE-construction overhang | SKIP |
+| 45 | PTPP | Construction | DQG | — | 2 | SOE-construction | SKIP |
+| 46 | ADHI | Construction | DQG | — | 2 | Non-LQ45 SOE-construction | SKIP |
+| 47 | KLBF | Healthcare | DQG | — | 6 | Bareksa Aug 12 top pick 715-735 range; **MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% flag PERSISTS — SKIP mandatory independent of crisis-track** | CANDIDATE (gate-blocked + prior-hard-cut flag) |
+| 48 | MIKA | Healthcare | DQG | — | 6 | InvestorTrust top pick 2026; RAPBN 2027 health-anchor; healthcare only +0.19% sector Wk 16 relative-strength precedent | CANDIDATE (gate-blocked) |
+| 49 | SMGR | Cement | DQG | — | 3 | Cement oversupply; rate-sensitive negative | SKIP |
+| 50 | INTP | Cement | DQG | — | 3 | Cement oversupply; rate-sensitive negative | SKIP |
+
+**Candidate count ≥6/10: 14 tickers** (BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/BSDE/CTRA/AALI-7/LSIP-7/KLBF/MIKA — BSDE upgrade from 5→6 on Aug 19 +9.02% surge + VAT-tailwind extended full-2026 pattern-confirmation). All 14 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. KLBF + ITMG additionally MISTAKES.md pattern-match blocked.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive required)
+
+#### 1. AALI — CPO breakout pure-play (score 7, UPGRADE persists Day 3)
+- Thesis: CPO structural narrative intact; MYR 4,946 = Day 7 pullback -1.4% from 8-mo high 5,018 peak (Aug 21) but still deeply within breakout band >MYR 4,900. B50 biodiesel October full-implementation T-5 weeks front-load ongoing.
+- Catalyst: CPO stabilization ≥MYR 4,900 sustained watch Wed-Fri.
+- Analyst view: consensus tilt POSITIVE plantation sector; specific target not refreshed under DQG outage.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED (0% new entries binding).
+
+#### 2. LSIP — CPO smaller-cap higher-leverage (score 7 UPGRADE persists)
+- Thesis: same CPO breakout thesis as AALI; higher operating leverage; pure CPO play.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 3. BBCA / BBRI / BMRI — Big-3 banks Destry T-0 catalyst TODAY (score 6 each)
+- Thesis: Destry sole-candidate fit-and-proper test **TODAY Wed Aug 26 10:00 WIB** with Aida S. Budiman 14:00 WIB; Solihin/Bashori Thu Aug 27. Sole-candidate = high-probability smooth-pass → structural dovish-continuity lock cements. Post-plenary first BI RDG mid-Sep = binary regime-shift catalyst.
+- **CAVEAT Mon Aug 24 selloff:** Big-4 all -1% on foreign net-sell (BBRI top sold -Rp 160.84B); pre-catalyst positioning weak.
+- Valuation: BMRI cheapest P/E 6.29 + highest div-yield 11.36%; BBRI P/E 8.19 (vs BBCA 13.56); H1 profit BMRI +24% strongest, BBNI +7%, BBCA +2%; BBRI margin pressure implied.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 4. INCO / MDKA / NCKL — Nickel supply-tightening beneficiaries (score 6 each; ANTM downgraded 5)
+- Thesis: **ESDM 2026 nickel quota 260-270Mt from 2025 379Mt = ~29-31% supply cut** = strongest supply-tightening evidence of trial. Rikopedia MDKA/INCO top pick; NCKL HPAL/MHP H1 NI Rp 4.1T beat. DPR Aug 20 EV-ecosystem discussion referenced ANTM/INCO/NCKL/MBMA/HRUM = policy attention.
+- **CAVEAT Mon-Tue:** LME nickel -0.5% to $16,924 = short-term counter-signal (Indonesian-supply-improvement narrative currently outweighing); ANTM foreign net-sell Mon -Rp 53.08B.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 5. ITMG — Coal top-in-class (score 6, MISTAKES flag)
+- Thesis: Newcastle $131.50 flat marginal; sub-$135 fragility persists.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED + MISTAKES.md 2026-05-18 + sector 2-strike EXITED.
+
+#### 6. BSDE — Property VAT-tailwind pattern-confirmation (score 6, UPGRADE from 5)
+- Thesis: Aug 19 +9.02% Rp665 surge on VAT PMK 90/2025 100% incentive extended full-2026; Buy rating; property sector +1.68% vs IHSG -0.16% relative-strength precedent Aug 19.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 7. CTRA — Best VAT-play (score 6)
+- Thesis: 84% 1H25 sales <Rp5B eligible; TP 1,300 Overweight; 33% H1 marketing sales via VAT incentive; Rp 1.5-2T eligible inventory.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 8. MYOR — Consumer margin recovery (score 6)
+- Thesis: Consumer recovery Q1 confirmed; H2 growth on normalization; 40% USD-denom export hedge value; debt-reduction balance-sheet strength.
+- **CAVEAT:** CPO Day 7 pullback partial relief + Brent Tue $89.5 partial retreat = raw-material stack easing marginally.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 9. KLBF — Healthcare defensive (score 6, MISTAKES flag persists)
+- **MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% flag PERSISTS — DATA-OUTAGE-CARRY-DRIFT failure mode; SKIP mandatory independent of crisis-track.**
+- Bareksa Aug 12 top pick reference range 715-735 noted but not actionable.
+- **NOT ACTIONABLE.**
+
+#### 10. MIKA — Healthcare pure-play (score 6)
+- Thesis: InvestorTrust top pick healthcare 2026; RAPBN 2027 health-anchor; healthcare sole +0.19% sector Wk 16 relative-strength precedent.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+### Held Position Updates
+
+- **None** — book fully de-risked Day 43 (since Jul 6 KLBF hard-cut). 100% cash IDR 9,716,207,500.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED (unchanged; CASCADE-INFLECTION-CONFIRMED-DAY44)**
+
+- Reasoning: Crisis-track engagement gate ACTIVATED persists Wk 19 Day 3 (first live session post-holiday). Destry Damayanti DPR fit-and-proper test SOLE-CANDIDATE TODAY 10:00 WIB = binary catalyst T-0. Warsh Jackson Hole first-Chair keynote T+2 US-biz-day (Fri Aug 28) = binary regime-shift approach. MSCI Aug 29 rebalance T-3 US-biz-day / Aug 31 effective GOTO/CPIN removal ~Rp 1T outflow window compressed. IDR sub-17,750 fresh Day-2 continuation post-holiday partial 0.40/5 (mild +0.10pp vs Mon Day-1). Foreign flow criterion (d) RESET on Mon sesi I NET SELL -Rp 391.96B; Wed sesi I fresh Day-1 restart pending. IHSG Mon canonical close 6,501.67 marginally above MA100 6,500; Wed session fresh directional cue post-holiday.
+- Re-entry gate scoring Wed Wk 19 Day 3 ≈ **0.40/5** (net +0.10pp vs Tue holiday-frozen 0.30/5 via IDR sub-17,750 Day-2 continuation): (a) 0.40/5 partial Day-2 IDR sub-17,750; (b) 0/5 DQG Day 117; (c) 0/5 MSCI negative-locked; (d) 0/5 foreign flow reset (Wed restart pending); (e) 0/5 untestable. Gap 4.60/5 BINDING.
+- Position sizing adjustment: **N/A — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding**.
+
+### Flagged Risks
+
+- **Destry Damayanti DPR fit-and-proper test TODAY Wed Aug 26 10:00 WIB SOLE-CANDIDATE T-0 BINARY** — smooth vote = structural dovish-continuity lock cemented (base case); setback = macro overlay reset extends further.
+- **Warsh Jackson Hole first-keynote-as-Chair Fri Aug 28 T+2 US-biz-day** — hawkish tilt = US 30Y re-blowout + IDR re-pressure = criterion (a) reversal risk; markets pricing ~1x 25bp move.
+- **MSCI Aug 29 rebalance / Aug 31 effective T-3 US-biz-day** — GOTO/CPIN passive outflow ~Rp 1T ($753M total: $684M Standard + $68M Small Cap) concentrated; mid-cap MSCI-marginal read-through negative; GOTO downgraded 2→1 per T-3 acceleration.
+- **Foreign flow Mon Aug 24 NET SELL -Rp 391.96B RESET** — Wed sesi I fresh Day-1 restart pending post-holiday; criterion (d) 0/5.
+- **IHSG post-holiday Wed opens fresh directional cue** — Mon close 6,501.67 marginally above MA100 6,500; break below on Wed opens = MA100 lost intensification.
+- **LME nickel retreat -0.5% Mon-Tue to $16,924 vs ESDM 2026 quota cut** — quota-cut narrative offset short-term by Indonesian-supply-improvement expectations; INCO/MDKA/NCKL/ANTM near-term tape mixed.
+- **CPO Day 7 pullback -1.4% to MYR 4,946 from Aug 21 5,018 peak** — near-term consolidation risk if extends; AALI/LSIP conviction sustain requires ≥MYR 4,900 hold (currently held).
+- **Big-4 banks pre-Destry-T-0 positioning weak** — Mon selloff -1% all on foreign net-sell → asymmetric downside skew if Destry vote non-smooth.
+- **DQG Day 117 outage persists** — yfinance/GoAPI blocked; WebSearch multi-source override operational but per-ticker cluster brittle.
+- **Brent Tue -3% retreat to $89.5 on Iran-US diplomatic-progress signs** — consumer margin-headwind eases marginally but Brent Day 9 sub-$90 not sustained yet.
+
+### Plan for /market-open (Wed 2026-08-26 09:15 WIB — Wk 19 Day 3 — FIRST LIVE SESSION POST-HOLIDAY)
+
+- [ ] **Crisis-track engagement gate ACTIVATED persists.** 14 candidates ≥6/10 (BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/BSDE/CTRA/AALI-7/LSIP-7/KLBF/MIKA) ALL PRE-BLOCKED. KLBF + ITMG additionally MISTAKES pattern-blocked. **HOLD 100% CASH — 43rd consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 3.**
+- [ ] **Destry Damayanti DPR fit-and-proper test TODAY 10:00 WIB SOLE-CANDIDATE T-0** — vote outcome real-time monitor; Aida Budiman 14:00 WIB.
+- [ ] **IDR Wed open watch** — Tue ~17,724 mid confirmed sub-17,750; Wed open needs sub-17,750 sustained for criterion (a) Day-2 continuation; if pierces back ≥17,750 = criterion (a) resets.
+- [ ] **IHSG Wed open watch MA100 6,500 hold vs break** — Mon canonical 6,501.67 marginally above; Wed open direction post-holiday critical.
+- [ ] **Foreign flow Wed sesi I priority** — Mon sesi I NET SELL -Rp 391.96B (BBRI/TINS/BUMI/ANTM top-sold); Wed net-BUY confirmation needed to restart criterion (d) sequence Day 1.
+- [ ] **CPO Day 8 continuation watch** — MYR 4,946 pullback -1.4% Mon-Tue; if extends ≤MYR 4,700 = AALI/LSIP downgrade back to 6; if holds ≥MYR 4,900 = conviction sustained at 7.
+- [ ] **Nickel LME follow-through watch** — Mon-Tue retreat -0.5% to $16,924; ESDM quota cut 260-270Mt structural positive; short-term supply-improvement narrative offsetting.
+- [ ] **Coal Newcastle $131.50 flat sub-$135 fragility** — ITMG/ADRO fragile.
+- [ ] **US Tue close mildly positive (S&P +0.32% / Nasdaq +0.66% / Dow +0.30%; bond yields retreat)** — pan-Asian risk-on read-across mild-positive Wed open.
+- [ ] **Jackson Hole Warsh T+2 US-biz-day approach** — pre-event USD/UST vol elevated; hawkish-tilt criterion (a) reversal risk.
+- [ ] **MSCI T-3 US-biz-day passive-outflow front-load** — GOTO/CPIN acceleration ($753M total outflow window compressed) + mid-cap MSCI-marginal read-through negative.
+- [ ] **DQG Day 117 outage persists** — pre-market triple-source cluster required on ANY candidate entry price.
+
+---
