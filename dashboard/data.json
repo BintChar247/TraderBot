@@ -20100,64 +20100,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-22T00:15:51Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers (Wk 10 Day 1, post-MSCI absorption, FTSE rebal effective, post-ex). 4 candidates \u22656: BMRI (7), ASII (6), TLKM (6 conditional post-ex), ICBP (6 low pri). All CONDITIONAL \u2014 Fri foreign net sell Rp 3.19T = #1 binding constraint Mon. MSCI Annual T-1 binary tail risk into Tue Jun 23. **KLBF cluster Day 60 TradingView 710 fresh low \u2192 material stop-fire risk if multi-source narrows Mon.** IHSG Fri sesi II FINAL 6,177.14 +0.08% (corrects sesi I 6,127.38 anchor).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (Tier 4 mandatory)"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored \u22656 (BMRI=7, ASII=6, TLKM=6cond, ICBP=6lowpri)"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "Score 7/10 \u2014 Fri pullback -3.58% to 4,310 + cum-div Tue T-1 + foreign top-3 net buy Thu Rp 106.9B"
-        },
-        {
-          "type": "research",
-          "ticker": "ASII",
-          "detail": "Score 6/10 \u2014 buyback Rp 8T + JPM PT 6,250 (+30%); Fri 4,810"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "Score 6 conditional \u2014 post-ex Day 1 mechanical anchor ~2,739; entry \u22642,700 required for R:R \u22652:1"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "Cluster Day 60 fresh TradingView 710 LOW; material stop-fire risk on Mon multi-source narrowing"
-        },
-        {
-          "type": "research",
-          "detail": "Fri foreign net SELL Rp 3.19T MASSIVE = #1 binding constraint Mon entry permission"
-        },
-        {
-          "type": "research",
-          "detail": "MSCI Annual Classification Review Tue Jun 23 03:30 WIB Wed pre-open = remaining binary tail risk"
-        },
-        {
-          "type": "research",
-          "detail": "FTSE Russell rebal effective Mon Jun 22 removes DSSA/DAAZ/HILL/MLIA + GOTO Mid Cap"
-        },
-        {
-          "type": "research",
-          "detail": "IHSG Fri sesi II FINAL 6,177.14 +0.08% (corrects sesi I 6,127.38 anchor recorded as final in Day 45 EOD)"
-        },
-        {
-          "type": "research",
-          "detail": "Carry-corrected cumulative alpha +17.65% (vs +18.30% TRADE-LOG sesi I anchor)"
-        }
-      ],
-      "commit_hash": "d4874e2",
-      "commit_message": ""
-    },
-    {
       "timestamp": "2026-06-22T02:22:11Z",
       "routine": "market-open",
       "status": "warning",
@@ -24741,6 +24683,12 @@
           "detail": "Telegram notify HTTP 403; stdout fallback used"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-26T04:35:58Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (Day 43 fully de-risked). No cuts, no stop tightens. Book 100% cash IDR 9.716B."
     }
   ],
   "exposure": {
