@@ -1435,6 +1435,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 19 Day 3 FIRST LIVE SESSION POST-HOLIDAY. Book fully de-risked Day 43 continues, 100% cash IDR 9,716,207,500. IHSG sesi I 6,496.89 (-0.07% vs Mon reconciled 6,501.67) MA100 6,500 support BROKEN by 3 pts sesi I basis; mid-sesi-II 14:13 WIB 6,453.05 (-0.75%) directional-down; sesi II full close PENDING Thu pre-market reconciliation per DQG Day 117 sesi-II-lag. Destry Damayanti DPR fit-and-proper T-0 SOLE-CANDIDATE 10:00 WIB \u2014 vote outcome UNRESOLVED via WebSearch at 15:15 WIB filing; Aida Budiman 14:00 WIB Day-0. Cumulative alpha +12.06pp sesi I basis, +0.07pp expansion vs Tue holiday-frozen +11.99pp via IHSG sesi I down-tick while portfolio 100% cash. Multi-source canonical PASS Kontan + Infobanknews + Beritasatu + market.bisnis."
+    },
+    {
+      "date": "2026-08-27",
+      "day_label": "Day 94",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6450.28,
+      "ihsg_cumulative_pct": -15.51,
+      "alpha_pct": 12.67,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 19 Day 4. Book fully de-risked Day 44 continues, 100% cash IDR 9,716,207,500. Wed Aug 26 FULL-DAY CLOSE RECONCILED = 6,405.69 (-1.48% vs Mon 6,501.67) \u2014 Wed sesi I 6,496.89 provisional CASCADED down 91 pts through sesi II; DQG-Day-117 sesi-II-lag pattern CONFIRMED per multi-source \u22653-cluster PASS (MediaIndonesia+Okezone+BeritaSatu+Receh.in). Thu Aug 27 sesi I 6,450.28 (+0.70% +44.59 pts vs Wed reconciled 6,405.69) REBOUND on buy-interest post-cascade; sesi II full-close PENDING Fri pre-market reconciliation per DQG-Day-118 lag. Demo-27-Agustus-DPR-Kepung event-day: market held firm (opened +0.56% at 6,441.36; sesi I +0.70%). Multi-source canonical PASS RRI+Disway+Infobanknews+inews.id. Destry Damayanti DPR fit-proper Wed vote outcome 24h+ lag UNRESOLVED. Aida Budiman Day-1. Cumulative alpha +12.67pp sesi I basis; vs Wed reconciled full-close basis +13.25pp = -0.58pp contraction via IHSG rebound. Risk alerts: NONE. Jackson Hole Warsh T-1 US-biz-day (Fri Aug 28 first-Chair keynote BINARY tomorrow); MSCI Aug 31 rebalance T-2."
     }
   ],
   "positions": [],
@@ -20802,37 +20818,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-23T00:13:32Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Tue Jun 23 (Day 47, Week 10 Day 2) \u2014 50-ticker scan complete. 2 candidates score \u22656 (TLKM 6, ASII 6); both DEFER/SKIP per R:R<2:1 + pre-MSCI Annual T-0 binary tail-risk window + Day 61 data-infra outage + Defensive-Quality Track suspended. IHSG Mon sesi II final 6,116.60 \u22120.98%. KLBF held; cluster Day 61 non-convergence persists.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned across 14 sectors"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored >=6 (TLKM, ASII); 25 WATCH; 21 SKIP; 1 HOLD"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 \u2014 Telco-defensive post ex-div Fri Jun 19 + Rp 4T buyback (DEFER)"
-        },
-        {
-          "type": "research",
-          "ticker": "ASII",
-          "detail": "score 6/10 \u2014 IDR 8T buyback + 56% market share (SKIP Track suspended)"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519,000 sh; safe-lower carry 1,035 frozen Day 61"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-23T02:19:36Z",
       "routine": "market-open",
       "status": "warning",
@@ -25436,6 +25421,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions (book fully de-risked); no cuts or tightens triggered."
+    },
+    {
+      "timestamp": "2026-08-27T08:21:24Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 94 (Wk19 Day4): IDR 9.716B (0.00% today). IHSG Thu sesi I 6,450.28 (+0.70% vs Wed reconciled 6,405.69) REBOUND. Wed sesi II cascaded 91 pts (DQG-Day-117 lag confirmed). Alpha -0.70% today; cum +12.67pp sesi I basis. Book de-risked Day 44. 0 positions / 0 trades wk / 19th 0-of-3 wk. Risk NONE.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 94 EOD snapshot committed; Wed sesi II reconciliation 6,405.69 documented (vs 6,496.89 provisional sesi I); Thu sesi I 6,450.28 rebound filed; RISK-STATE + dashboard updated; sesi II full close pending Fri pre-market"
+        }
+      ]
     }
   ],
   "exposure": {
