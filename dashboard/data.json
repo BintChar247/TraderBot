@@ -20802,27 +20802,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-22T08:23:19Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-06-22 (Day 46, Mon, Week 10 Day 1 open): Equity IDR 9.856B unchanged (0.00% day). Alpha vs IHSG +1.25% (IHSG sesi I provisional 6,099.92 \u22121.25% on Mideast escalation + pre-MSCI Annual T-1 derisk). Cum alpha +18.66% (single-day expansion +1.01pp from carry-corrected Day 45 +17.65% anchor). KLBF safe-lower carry 1,035 frozen (cluster Day 60 \u226536% 4-source spread; TradingView 710 fresh LOW); trailing 931 GTC armed, did not fire. Cash 94.55%. Trades wk 0/3 fresh. Trading NOT halted. Tue Jun 23 = MSCI Annual T-0 + BBRI/BMRI cum-div T-0 + MDKA RUPSLB T+0.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 46 EOD snapshot committed"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "519000sh safe-lower carry 1,035 frozen Day 60; trailing 931 GTC armed, did not fire"
-        },
-        {
-          "type": "research",
-          "detail": "Carry-corrected cumulative alpha +18.66% (vs +18.30% TRADE-LOG Day 45 sesi I anchor; +17.65% carry-corrected Day 45 baseline)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-23T00:13:32Z",
       "routine": "pre-market",
       "status": "success",
@@ -25451,6 +25430,12 @@
           "detail": "Demo 27 Aug 14:00 WIB SOCIAL RISK during IDX sesi II"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-27T04:35:41Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions (book fully de-risked); no cuts or tightens triggered."
     }
   ],
   "exposure": {
