@@ -20065,6 +20065,692 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Destry results TODAY binary + paripurna Sep 1 T-3; MSCI-safe core defensive; ex-div Rp 25 Aug 31",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry Damayanti fit-proper RESULTS TODAY; paripurna Sep 1 T-3 US-biz-day"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Micro-lending Destry-play; div-yield 10.88%; foreign top-sold Mon -Rp 178B deepest Big-4 pressure",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry results TODAY; foreign top-sold Mon -Rp 178B; Q2 CAD structural bearish overhang"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: State-bank; P/E 6.29 CHEAPEST Big-4; div-yield 11.36% HIGHEST; H1 profit +24% strongest",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry results TODAY; state-bank fundamentals strongest Big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ITMG",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Coal: Newcastle sub-$135 Day 4; MISTAKES.md 2026-05-18 flag PERSISTS",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle $130.15 sub-$135 Day 4 fragility"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK) ; MISTAKES pattern-block"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 dual-block: (1) crisis-track engagement gate ACTIVATED; (2) MISTAKES.md prior-hard-cut / sector 2-strike pattern-match. SKIP mandatory independent of regime gate.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel: Rikopedia top pick; TP 7,500; nickel matte pure-play",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "ESDM 2026 nickel quota cut supply-tightening structural positive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel/Cu/Au: Rikopedia MDKA/INCO top pick; gold floor + Cu shift",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Nickel supply-tightening + gold price floor + Cu shift"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "NCKL",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel: HPAL/MHP mid-stream; H1 NI Rp 4.1T beat; added to IDX80 Sep 1 = passive-flow tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDX80 inclusion Sep 1 passive-flow tailwind + H1 NI Rp 4.1T beat"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer: Q1 recovery; 40% USD-denom export hedge; CPO+Brent stack easing marginally",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Consumer recovery Q1 + Brent Day 2 sub-$90 + CPO Day 8 pullback raw-material stack easing"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BSDE",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Property: Aug 19 +9.02% Rp665 surge; VAT tailwind full-2026; Buy rating",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "VAT PMK 90/2025 full-2026 tailwind; Aug 19 +9.02% surge precedent"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Property: 84% 1H25 sales <Rp5B eligible; TP 1,300 Overweight; 33% H1 marketing sales via VAT",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Best VAT-play property; 84% eligible mix"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Plantation: CPO MYR 4,946 Day 8 held >MYR 4,900; added to IDXVESTA28 Sep 1; B50 October",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO breakout pure-play + IDXVESTA28 inclusion Sep 1 + B50 October"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Plantation: CPO pure-play smaller-cap higher-leverage; added to IDX80 Sep 1 = passive-flow tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO pure-play higher-leverage + IDX80 inclusion Sep 1 passive-flow tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare: Bareksa top pick 715-735 range; MISTAKES.md 2026-07-06 hard-cut -21.16% flag PERSISTS",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Bareksa top pick 715-735 range noted"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK) ; MISTAKES pattern-block"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 dual-block: (1) crisis-track engagement gate ACTIVATED; (2) MISTAKES.md prior-hard-cut / sector 2-strike pattern-match. SKIP mandatory independent of regime gate.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-08-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare: InvestorTrust top pick 2026; RAPBN 2027 health-anchor",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "InvestorTrust top pick 2026; RAPBN 2027 health-anchor"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY45; CRISIS-TRACK-GATE-ACTIVATED"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.60/5 confirming; 4.40/5 gap BINDING (IDR sub-17,750 Day-3 +0.20pp vs Wed offset by Q2 CAD RECORD $12.5B/3.3% GDP + Wed IHSG -1.48% MA100 6,500 BROKEN + Demo 27 Aug 14:00 WIB SOCIAL RISK)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 118 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 45th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 4.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -24673,6 +25359,96 @@
           "type": "research",
           "ticker": "LSIP",
           "detail": "score 7/10 \u2014 CPO pure-play + IDX80 Sep 1 passive tailwind (not actionable)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-27T02:17:36Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 45th consecutive no-position session; 19th consecutive 0/3 BUY-slot week Day 4. All 14 candidates \u22656/10 (BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/BSDE/CTRA/AALI-7/LSIP-7/KLBF/MIKA) pre-blocked by CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (0.60/5 confirming; 4.40/5 gap binding). Q2 CAD RECORD 2.5B/3.3% GDP structural bearish overlay + Demo 27 Aug 14:00 WIB SOCIAL RISK + IHSG MA100 6,500 BROKEN Wed close 6,405.68 + Destry results TODAY + Warsh JH T+1 US-biz-day + MSCI Aug 29 rebalance T-2.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ITMG",
+          "detail": "crisis-track gate + MISTAKES 2026-05-18"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "NCKL",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BSDE",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "KLBF",
+          "detail": "crisis-track gate + MISTAKES 2026-07-06 hard-cut"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 118 outage \u2014 WebSearch multi-source only"
+        },
+        {
+          "type": "warning",
+          "detail": "Q2 CAD RECORD $12.5B structural IDR bearish overlay"
+        },
+        {
+          "type": "warning",
+          "detail": "Demo 27 Aug 14:00 WIB SOCIAL RISK during IDX sesi II"
         }
       ]
     }
