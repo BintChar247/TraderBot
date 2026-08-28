@@ -20767,6 +20767,643 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Destry-approved dovish-continuity STRUCTURAL LOCK CEMENTED; MSCI-safe core defensive; ex-div Rp 25 Mon Aug 31 T-1 mechanical",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Destry-approved dovish-continuity STRUCTURAL LOCK CEMENTED; MSCI-safe core defensive; ex-div Rp 25 Mon Aug 31 T-1 mechanical"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Cheapest Big-4 P/E 6.29; div-yield 11.36% HIGHEST; H1 +24%; Destry-approved rate-lock",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cheapest Big-4 P/E 6.29; div-yield 11.36% HIGHEST; H1 +24%; Destry-approved rate-lock"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Property: Best VAT-play; TP 1,300 Overweight; 33% H1 marketing via VAT; Destry-confirmed structural rate-lock",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Best VAT-play; TP 1,300 Overweight; 33% H1 marketing via VAT; Destry-confirmed structural rate-lock"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare: InvestorTrust top pick 2026; RAPBN 2027 health-anchor; Thu healthcare sector +5.28% led rebound",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "InvestorTrust top pick 2026; RAPBN 2027 health-anchor; Thu healthcare sector +5.28% led rebound"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Micro-lending Destry-play; div-yield 10.88%; foreign Thu top-sold -Rp 145.98B Day 3 caveat",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Micro-lending Destry-play; div-yield 10.88%; foreign Thu top-sold -Rp 145.98B Day 3 caveat"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel: Rikopedia top pick; TP 7,500; nickel matte pure-play",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rikopedia top pick; TP 7,500; nickel matte pure-play"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel/Au: Rikopedia MDKA/INCO top pick; MoM +17%; gold floor + Cu shift",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rikopedia MDKA/INCO top pick; MoM +17%; gold floor + Cu shift"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "NCKL",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel: HPAL/MHP mid-stream; H1 NI Rp 4.1T beat; added to IDX80 Sep 1 = passive-flow tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "HPAL/MHP mid-stream; H1 NI Rp 4.1T beat; added to IDX80 Sep 1 = passive-flow tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer: Consumer recovery; 40% USD-denom export hedge; Brent Day 3 sub-$90 + CPO Day 9 borderline pullback = raw-material stack easing",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Consumer recovery; 40% USD-denom export hedge; Brent Day 3 sub-$90 + CPO Day 9 borderline pullback = raw-material stack easing"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BSDE",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Property: Aug 19 +9.02% surge; VAT tailwind full-2026; Destry-approved rate-sensitive positive",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Aug 19 +9.02% surge; VAT tailwind full-2026; Destry-approved rate-sensitive positive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Plantation: CPO ~MYR 4,900 borderline Day 9 pullback = 7->6 downgrade realized; AALI added IDXVESTA28 Sep 1",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO ~MYR 4,900 borderline Day 9 pullback = 7->6 downgrade realized; AALI added IDXVESTA28 Sep 1"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Plantation: CPO borderline pullback = 7->6 downgrade realized; added to IDX80 Sep 1 = passive-flow tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO borderline pullback = 7->6 downgrade realized; added to IDX80 Sep 1 = passive-flow tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "KLBF",
+      "action": "SKIP",
+      "date": "2026-08-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Healthcare: Healthcare sector Thu +5.28% led rebound; Bareksa top pick 715-735; MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% flag PERSISTS",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Healthcare sector Thu +5.28% led rebound; Bareksa top pick 715-735; MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% flag PERSISTS"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY46; CRISIS-TRACK-GATE-ACTIVATED persists (0.65/5)"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track re-entry gate ~0.65/5 (Destry-approved-dovish-continuity structural lock CEMENTED marginal +0.05pp; IDR sub-17,750 marginal Day-4 borderline BCA 17,785); 4.35/5 gap BINDING (Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 GOTO/CPIN/SMGR outflow + Q2 CAD RECORD $12.5B/3.3% GDP + Newcastle sub-$130 fresh breach + CPO borderline breakdown + Thu foreign net-sell BBRI/GOTO/TLKM -Rp 264B)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (max 5% cap regime; 0% new entries binding)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 119 outage \u2014 WebSearch multi-source only; per-ticker cluster not narrowed"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED (0% new entries) binds ahead of any per-candidate gate. 46th consecutive session no-position; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES. MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% pattern flag additionally binding.",
+      "gate_results": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -20817,12 +21454,6 @@
     "updated": "2026-08-26"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-23T04:36:24Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. KLBF held (cluster Day 61 non-convergent; state-machine transitions BLOCKED on Gate 9 per established discipline). MSCI Annual T-0 pre-release window."
-    },
     {
       "timestamp": "2026-06-23T08:20:16Z",
       "routine": "daily-summary",
@@ -25446,6 +26077,24 @@
           "detail": "Warsh Jackson Hole first-Chair keynote T-0 21:00 WIB TODAY binary"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-28T02:17:32Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Fri Aug 28 (Wk 19 Day 5). Crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap binding). All 13 candidates >=6/10 (BBCA-7/BMRI-7/CTRA-7/MIKA-7/BBRI/INCO/MDKA/NCKL/MYOR/BSDE/AALI-6/LSIP-6/KLBF) pre-blocked; KLBF additionally MISTAKES pattern-blocked. Book 100% cash Day 46; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES. Warsh JH T-0 21:00 WIB today post-close binary.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "ALL",
+          "detail": "Crisis-track gate ACTIVATED 0% new entries; 13 SKIP decisions logged"
+        },
+        {
+          "type": "warning",
+          "ticker": "DQG",
+          "detail": "Day 119 outage \u2014 WebSearch multi-source override"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -25505,7 +26154,7 @@
     "candidates_status": "12 candidates \u22656/10 (BBCA-7\u2191 / BMRI-7\u2191 / CTRA-7\u2191 / MIKA-7\u2191 / BBRI-6 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6 / BSDE-6 / AALI-6\u2193 / LSIP-6\u2193 / KLBF-6); ALL 12 PRE-BLOCKED by crisis-track engagement gate ACTIVATED; KLBF additionally MISTAKES pattern-blocked. NET vs Thu: 4 UPGRADES (BBCA/BMRI/CTRA/MIKA 6\u21927 on Destry-approved+sector momentum) + 2 DOWNGRADES (AALI/LSIP 7\u21926 on CPO borderline breakdown) + ITMG 6\u21925 further downgrade on Newcastle sub-$130 breach.",
     "top_candidates_deep_dive_count": 7
   },
-  "last_updated": "2026-08-28T07:00+07:00",
+  "last_updated": "2026-08-28T09:15+07:00",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
