@@ -1444,13 +1444,28 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6450.28,
-      "ihsg_cumulative_pct": -15.51,
-      "alpha_pct": 12.67,
+      "ihsg_close": 6521.75,
+      "ihsg_cumulative_pct": -14.57,
+      "alpha_pct": 11.73,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 19 Day 4. Book fully de-risked Day 44 continues, 100% cash IDR 9,716,207,500. Wed Aug 26 FULL-DAY CLOSE RECONCILED = 6,405.69 (-1.48% vs Mon 6,501.67) \u2014 Wed sesi I 6,496.89 provisional CASCADED down 91 pts through sesi II; DQG-Day-117 sesi-II-lag pattern CONFIRMED per multi-source \u22653-cluster PASS (MediaIndonesia+Okezone+BeritaSatu+Receh.in). Thu Aug 27 sesi I 6,450.28 (+0.70% +44.59 pts vs Wed reconciled 6,405.69) REBOUND on buy-interest post-cascade; sesi II full-close PENDING Fri pre-market reconciliation per DQG-Day-118 lag. Demo-27-Agustus-DPR-Kepung event-day: market held firm (opened +0.56% at 6,441.36; sesi I +0.70%). Multi-source canonical PASS RRI+Disway+Infobanknews+inews.id. Destry Damayanti DPR fit-proper Wed vote outcome 24h+ lag UNRESOLVED. Aida Budiman Day-1. Cumulative alpha +12.67pp sesi I basis; vs Wed reconciled full-close basis +13.25pp = -0.58pp contraction via IHSG rebound. Risk alerts: NONE. Jackson Hole Warsh T-1 US-biz-day (Fri Aug 28 first-Chair keynote BINARY tomorrow); MSCI Aug 31 rebalance T-2."
+    },
+    {
+      "date": "2026-08-28",
+      "day_label": "Day 95",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6548.85,
+      "ihsg_cumulative_pct": -14.21,
+      "alpha_pct": 11.37,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -21455,43 +21470,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-24T00:14:04Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "MSCI Annual Review RESOLVED FAVORABLY (Indonesia REMAINS EM). Scanned 50 tickers. 3 candidates scored \u22656: BBCA (7) MSCI relief, TLKM (7) post-ex recovery+Rp4T buyback, BMRI (6) MSCI relief w/ NIM caveat. R:R 2:1 binds all 3 \u2192 likely 0-trade Wed unless open pullback. 5% cap binding. KLBF HOLD (Day 62 cluster non-convergence, dividend T-0 IDR 10.38M).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "3 candidates scored \u22656 (BBCA 7, TLKM 7, BMRI 6)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 MSCI relief rebound post -2.0% Tue derisk, +40% PT upside"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 7/10 \u2014 Post-ex Rp222 recovery + Rp4T buyback defensive bid restored"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 MSCI relief rebound, NIM headwind caveat caps conviction"
-        },
-        {
-          "type": "macro",
-          "detail": "MSCI Annual Classification Review: Indonesia REMAINS EM (frontier downgrade tail-risk REMOVED)"
-        }
-      ],
-      "commit_hash": "e683672",
-      "commit_message": ""
-    },
-    {
       "timestamp": "2026-06-24T02:19:51Z",
       "routine": "market-open",
       "status": "warning",
@@ -26085,6 +26063,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions; no cuts or tightens (Wk 19 Day 5 Fri). 100% cash IDR 9,716,207,500; 45th consecutive 0.00% P&L session."
+    },
+    {
+      "timestamp": "2026-08-28T08:21:11Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 19 Day 5 CLOSE Day 95: IDR 9.72B (0.00% today). IHSG sesi I 6,548.85 (+0.42%). Alpha -0.42% today. Cum alpha +11.38pp sesi I basis. 100% cash Day 45. Trades wk 0/3. 19th consecutive 0/3 BUY-slot week CLOSES.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 95 EOD snapshot committed; Thu reconciled full close 6,521.75 (+1.81% 71-pt sesi II cascade UP); Destry CONFIRMED BI Gov dovish-lock; Warsh JH T-0 21:00 WIB TODAY binary post-EOD; MSCI-effective Mon Aug 31"
+        }
+      ]
     }
   ],
   "exposure": {
