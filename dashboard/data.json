@@ -21455,22 +21455,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-23T08:20:16Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 47 (2026-06-23): IDR 9.856B (0.00% day). Alpha vs IHSG +1.29% on pre-MSCI Annual T-0 defensive derisk (IHSG sesi I provisional 6,037.52 -1.29%); cumulative trial alpha +19.48% provisional (+1.04pp vs reconciled Day 46 +18.44%); 1 position (KLBF safe-lower carry 1,035 frozen, cluster Day 61 \u2265139% spread); trades wk 0/3 (5th consec zero-trade week pattern); trading not halted; MSCI Annual release Wed Jun 24 03:30 WIB pre-open T-0 binary.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 47 EOD snapshot committed; KLBF mark-to-market 1,035 safe-lower carry frozen per cluster Day 61 non-convergence"
-        },
-        {
-          "type": "mark_to_market",
-          "detail": "KLBF 519000 sh @ carry 1,035; MV 537.165M; +9.52% unrealized"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-24T00:14:04Z",
       "routine": "pre-market",
       "status": "success",
@@ -26095,6 +26079,12 @@
           "detail": "Day 119 outage \u2014 WebSearch multi-source override"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-28T04:38:34Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions; no cuts or tightens (Wk 19 Day 5 Fri). 100% cash IDR 9,716,207,500; 45th consecutive 0.00% P&L session."
     }
   ],
   "exposure": {
