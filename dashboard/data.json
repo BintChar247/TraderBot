@@ -21470,48 +21470,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-24T02:19:51Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 3 pre-market candidates (BBCA/TLKM/BMRI) SKIPPED on Gate 9 chase cap + R:R 2:1 entry checklist failure \u2014 MSCI EM-status relief bid materialized at open above pre-market R:R-clearing entry thresholds (BBCA 6,175 vs \u22645,950 / TLKM 2,960 vs \u22642,830 / BMRI 4,200 vs \u22644,000). KLBF HELD unchanged. Wk 10 Day 3: 0/3 (6th consecutive 0-trade week pattern continuation Wks 6-10).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "open 6,175 vs planned 5,950 = +3.78% (Gate 9 chase + R:R 1.40:1)"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "open 2,960 vs planned 2,830 = +4.6% (Gate 9 chase + R:R 1.20:1)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "open 4,200 vs planned 4,000 = +4.25% (Gate 9 chase + R:R 1.81:1 still sub-2:1)"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "safe-lower 1,035 frozen; stop 931 GTC armed; div payment T-0 IDR 10.38M receivable"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch multi-source cluster used (yfinance/GoAPI Day 62 outage); all 3 candidates passed \u22644% relaxed Data Quality Gate but failed R:R + Gate 9"
-        },
-        {
-          "type": "macro",
-          "detail": "MSCI Annual Classification Review CONFIRMED Indonesia REMAINS EM (Wed 03:30 WIB pre-open) \u2014 frontier-downgrade tail risk REMOVED"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-06-24T04:37:02Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Midday 2026-06-24: All positions healthy (KLBF held). No cuts, no stop tightening, no thesis exits. Cluster Day 62 non-convergence persists (2 fresh sources only); safe-lower carry 1,035 frozen. Trailing 931 GTC armed. KLBF div payment T-0 today (verify EOD)."
-    },
-    {
       "timestamp": "2026-06-24T08:15:00Z",
       "routine": "daily-summary",
       "status": "success",
@@ -26075,6 +26033,66 @@
           "detail": "Day 95 EOD snapshot committed; Thu reconciled full close 6,521.75 (+1.81% 71-pt sesi II cascade UP); Destry CONFIRMED BI Gov dovish-lock; Warsh JH T-0 21:00 WIB TODAY binary post-EOD; MSCI-effective Mon Aug 31"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-31T00:13:50.410224Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 20 Day 1 pre-market (Mon Aug 31): 50-ticker scan complete. 7 candidates \u22656/10 (MIKA-7 / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); all pre-blocked by crisis-track engagement gate ACTIVATED (0.50/5, regressed -0.15pp). Warsh JH hawkish-lean confirmed Fri = risk-case materialized; rate-sensitive downgrades cascade. MSCI-Aug-31-effective T-0 today at close = $753M outflow.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (WebSearch multi-source override; DQG-Day-120 outage persists)"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "score 7/10 \u2014 healthcare pure-play + Thu +5.28% sector-led momentum + RAPBN 2027 health-anchor"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 (7\u21926 DOWNGRADE) \u2014 Warsh-hawkish BI-hold-longer erodes rate-benign; foreign top-net-bought Fri +Rp 358B; ex-div T-0"
+        },
+        {
+          "type": "research",
+          "ticker": "INCO/MDKA/NCKL",
+          "detail": "score 6/10 \u2014 nickel ESDM quota supply-cut + LME +1.44% Aug 29; NCKL added IDX80 Sep 1 T-0 today"
+        },
+        {
+          "type": "regime",
+          "detail": "Regime overlay: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1"
+        },
+        {
+          "type": "note",
+          "detail": "47th consecutive no-position session; 100% cash IDR 9,716,207,500; Wk 20 Day 1 fresh 0/3 BUY-slot week opens"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-31T00:14:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 20 Day 1 (Mon Aug 31) \u2014 50-ticker scan; 7 candidates \u22656/10 all crisis-track-gate-blocked (0.50/5 regressed -0.15pp); Warsh JH hawkish-lean confirmed; MSCI-Aug-31-effective T-0 at close today $753M outflow; book 100% cash Day 47",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (WebSearch override; DQG-Day-120 outage)"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "score 7/10 \u2014 healthcare pure-play + Thu +5.28% sector-led + RAPBN 2027 anchor"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -26104,37 +26122,32 @@
     "foreign_flow_note": "Thu Aug 27 sesi I -Rp 264.31B net-sell (buys Rp 1.67T, sales Rp 1.94T); top-sold BBRI -Rp 145.98B (Day 3 consecutive), GOTO -Rp 127.57B (MSCI removal), TLKM -Rp 67.21B (PATTERNS post-Q2 fade)"
   },
   "research": {
-    "date": "2026-08-28",
+    "date": "2026-08-31",
     "holiday": false,
-    "as_of_date": "2026-08-28",
+    "as_of_date": "2026-08-31",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Fri Aug 28 07:00 WIB pre-market (Wk 19 Day 5 = Weekly Review day)",
-    "ihsg_last": 6521.75,
-    "ihsg_last_label": "Thu Aug 27 full-day close (+1.81% / +116.06 pts vs Wed reconciled 6,405.69; MAJOR REBOUND recaptured MA100 6,500; healthcare sector +5.28% led; multi-source Okezone + CNBC Indonesia + Liputan6 + Buletinfinansial = 4-source PASS)",
-    "ihsg_last_sesi_i": 6450.28,
-    "ihsg_last_sesi_i_label": "Thu sesi I basis 6,450.28 (superseded by canonical +1.81% full-day close 6,521.75)",
-    "idr_usd": 17724,
-    "idr_usd_label": "Fri Aug 28 Investing.com open 17,705; BCA E-Rate Thu 20:04 WIB 17,785 = borderline sub/above-17,750 marginal Day-4; Destry-approved dovish-continuity structural lock cemented",
-    "candidates_count": 12,
+    "as_of_label": "Mon Aug 31 07:00 WIB pre-market (Wk 20 Day 1 = MSCI-effective-T-0 + Warsh-JH-hawkish-Day-1)",
+    "ihsg_last": 6518.0,
+    "ihsg_last_label": "Fri Aug 28 full-day close 6,518 (-0.06% vs Thu reconciled 6,521.75; sesi I 6,548.85 \u2192 -30pt sesi II cascade DOWN variant confirmed; DQG-Day-120 dual-variant pattern binding)",
+    "ihsg_last_sesi_i": 6548.85,
+    "ihsg_last_sesi_i_label": "Fri sesi I basis 6,548.85 (superseded by canonical full-day close 6,518)",
+    "idr_usd": 17685,
+    "idr_usd_label": "Fri Aug 28 close ~17,685 / Aug 29 mid ~17,698; SUB-17,750 Day-5 continuation-firming BUT Warsh-hawkish dollar-rebound INSTANT-REGRESSION-RISK Mon open",
+    "candidates_count": 7,
     "candidates": [
+      "MIKA",
       "BBCA",
       "BMRI",
       "CTRA",
-      "MIKA",
-      "BBRI",
       "INCO",
       "MDKA",
       "NCKL",
-      "MYOR",
-      "BSDE",
-      "AALI",
-      "LSIP",
-      "KLBF"
+      "MYOR"
     ],
-    "candidates_status": "12 candidates \u22656/10 (BBCA-7\u2191 / BMRI-7\u2191 / CTRA-7\u2191 / MIKA-7\u2191 / BBRI-6 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6 / BSDE-6 / AALI-6\u2193 / LSIP-6\u2193 / KLBF-6); ALL 12 PRE-BLOCKED by crisis-track engagement gate ACTIVATED; KLBF additionally MISTAKES pattern-blocked. NET vs Thu: 4 UPGRADES (BBCA/BMRI/CTRA/MIKA 6\u21927 on Destry-approved+sector momentum) + 2 DOWNGRADES (AALI/LSIP 7\u21926 on CPO borderline breakdown) + ITMG 6\u21925 further downgrade on Newcastle sub-$130 breach.",
-    "top_candidates_deep_dive_count": 7
+    "candidates_status": "7 candidates \u22656/10 (MIKA-7 sole HIGH-defensive / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); ALL 7 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. NET vs Fri Wk 19 close: 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926 on Warsh-hawkish rate-sensitive; BBRI/KLBF/BSDE 6\u21925 on same overlay) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally). Coal-sector re-eval NOT triggered (2-strike EXITED persists per MISTAKES.md).",
+    "top_candidates_deep_dive_count": 4
   },
-  "last_updated": "2026-08-28T09:15+07:00",
+  "last_updated": "2026-08-31T00:13:50.410224Z",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
@@ -26145,30 +26158,25 @@
     "idr_status": "SUB-17,750 marginal Day-4 borderline; criterion (a) partial 0.65/5 marginal improvement via Destry-approved dovish-continuity structural lock cemented"
   },
   "pre_market": {
-    "date": "2026-08-28",
-    "day_label": "Wk 19 Day 5 (Fri) \u2014 Weekly Review day",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY46",
-    "regime_reason": "Thu Aug 27 IHSG +1.81% MAJOR REBOUND to 6,521.75 recaptured MA100 6,500; healthcare sector +5.28% led. Destry Damayanti CONFIRMED BI Governor 2026-2031 by DPR Komisi XI Thu = dovish-continuity STRUCTURAL LOCK CEMENTED (Aida\u2192Senior Dep Gov; Solikin\u2192Dep Gov; paripurna Sep 1 T-1 pro-forma). Warsh Jackson Hole first-Chair keynote Fri Aug 28 10am ET / 21:00 WIB T-0 TODAY = dominant macro binary catalyst. MSCI Aug 31 effective T-1 US-biz-day = TODAY GOTO/CPIN/SMGR + 9 Small Cap FINAL session ~Rp 1T outflow concentrated. US PCE July data Fri ~19:30 WIB. IDR ~17,724-17,785 sub-17,750 marginal Day-4 borderline. Newcastle coal $129.75 sub-$130 Day 1 fresh breach. CPO MYR ~4,900 borderline Day 9 breakdown. Brent Day 3 sub-$90 relief. Foreign flow Thu -Rp 264.31B net-sell (BBRI/GOTO/TLKM top-sold). Q2 CAD RECORD $12.5B/3.3% GDP structural overlay persists. US Thu tech-strong close (S&P +0.72%, Nasdaq +1.57% Nvidia +8%). VIX 15.21 near 2026 lows. DQG Day 119 outage persists.",
+    "date": "2026-08-31",
+    "day_label": "Wk 20 Day 1 (Mon) \u2014 MSCI-AUG-31-EFFECTIVE-T-0 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY47 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1",
+    "regime_reason": "Warsh Jackson Hole first-Chair keynote Fri Aug 28 21:00 WIB DELIVERED HAWKISH-LEAN on inflation ('work to do' language + dollar rebound + S&P -0.25%/Nasdaq -0.52% Fri close reaction) = RISK-CASE materialized, not base-case dovish-lean. Regime overlay: (a) criterion IDR sub-17,750 at INSTANT-REGRESSION-RISK Mon open; (b) BI-hold-longer pressure = Destry dovish-continuity structural lock ATTENUATED; (c) rate-sensitive downgrade cascade Big-4 banking + property; (d) Fed Sept-17 rate-cut odds compression = FOMC-hawkish-hold path REINFORCED; (e) US 30Y 5.21% blowout persist T+31. MSCI Aug-31 EFFECTIVE at market close T-0 TODAY = $753M passive-outflow concentrated 15:15 WIB. Newcastle coal $139.75 rally from $131.50 = narrative shift candidate but coal 2-strike sector-EXITED PERSISTS. CPO Day-12 borderline breakdown MYR 4,859. Brent $88.29 Day-12 sub-$90 relief. IHSG Fri full-close 6,518 vs sesi I 6,548.85 = -30pt DOWN sesi II cascade. Foreign Fri sesi I -Rp 125B; BBCA/BMRI top-net-bought Rp 358B/81B. First-BI-RDG-under-Destry Sep 17 T-3-weeks REINFORCED as regime-shift binary.",
     "position_sizing_note": "N/A \u2014 CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding",
-    "candidates_scored_ge6_count": 12,
+    "candidates_scored_ge6_count": 7,
     "candidates_scored_ge6": [
-      "BBCA(7\u2191)",
-      "BMRI(7\u2191)",
-      "CTRA(7\u2191)",
-      "MIKA(7\u2191)",
-      "BBRI(6)",
+      "MIKA(7)",
+      "BBCA(6\u2193)",
+      "BMRI(6\u2193)",
+      "CTRA(6\u2193)",
       "INCO(6)",
       "MDKA(6)",
       "NCKL(6)",
-      "MYOR(6)",
-      "BSDE(6)",
-      "AALI(6\u2193)",
-      "LSIP(6\u2193)",
-      "KLBF(6)"
+      "MYOR(6)"
     ],
-    "re_entry_gate_score": 0.65,
+    "re_entry_gate_score": 0.5,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": "+0.05pp vs Thu Wk 19 Day 4 0.60/5 via Destry-approved-dovish-continuity structural lock marginal support + IDR sub-17,750 borderline Day-4 continuation; offset by foreign net-sell criterion (d) broken + Newcastle sub-$130 breach + CPO borderline breakdown",
-    "notes": "46th consecutive no-position session; 19th consecutive 0/3 BUY-slot week Day 5 CLOSES; book 100% cash IDR 9,716,207,500; Weekly Review 16:00 WIB TODAY will formalise Wk 19 letter grade"
+    "re_entry_gate_delta_from_prev": "-0.15pp vs Fri Wk 19 close 0.65/5 via Warsh-hawkish outcome regime overlay downgrade; (a) 0.40/5 partial Day-5 sub-17,750 with INSTANT-REGRESSION-RISK; (b) 0/5 DQG Day 120; (c) 0/5 MSCI-effective T-0 negative-locked; (d) 0.10/5 MSCI-rebalance absorption partial-vindication reduced; (e) 0/5 untestable",
+    "notes": "47th consecutive no-position session; Wk 20 Day 1 fresh 0/3 BUY-slot week opens; book 100% cash IDR 9,716,207,500; Warsh-hawkish overlay = 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926; BBRI/BSDE 6\u21925) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally); MSCI-effective T-0 sesi II cascade risk elevated per DQG-Day-120 dual-variant pattern"
   }
 }
