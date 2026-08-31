@@ -21830,27 +21830,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-24T08:21:10Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 48 2026-06-24: IDR 9.867B (+0.11% day, dividend posting). Alpha vs IHSG +0.70% (sesi I prov \u22120.59%). Cum alpha +20.05% prov. KLBF safe-lower carry frozen 1,035 (cluster Day 63 non-convergence persists; trailing 931 GTC armed did not fire). KLBF dividend T-0 IDR 10.38M posted. Trades wk 0/3 (6th consec zero-trade week pattern). MSCI Annual CONFIRMED Indonesia REMAINS EM = frontier-downgrade tail risk REMOVED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 48 EOD snapshot committed"
-        },
-        {
-          "type": "dividend",
-          "ticker": "KLBF",
-          "detail": "T-0 payment IDR 10,380,000 posted to cash"
-        },
-        {
-          "type": "macro",
-          "detail": "MSCI Annual CONFIRMED Indonesia REMAINS EM"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-25T00:14:17Z",
       "routine": "pre-market",
       "status": "warning",
@@ -26479,6 +26458,12 @@
           "detail": "DQG Day 120 outage (yfinance/GoAPI blocked 120 sessions)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-08-31T04:37:10Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "n=0 positions; book fully de-risked Day 47; no cuts, no tightens, no thesis exits (mechanically vacuous)."
     }
   ],
   "exposure": {
