@@ -1466,6 +1466,22 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-08-31",
+      "day_label": "Day 96",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6517.24,
+      "ihsg_cumulative_pct": -14.63,
+      "alpha_pct": 11.79,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 20 Day 1 CLOSE. Book fully de-risked Day 47 continues, 100% cash IDR 9,716,207,500. IHSG sesi I 6,517.24 (-0.01% -0.88 pts vs Fri sesi I provisional 6,548.85); MSCI-effective-T-0 $753M outflow concentrated 15:15 WIB close-window elevates sesi II cascade-DOWN risk per DQG-Day-120 dual-variant sesi-II-lag pattern; Tue Sep 1 pre-market reconciliation critical. Multi-source canonical PASS: CNBC Indonesia+Infobanknews+Berita Moneter+Bloomberg Technoz+Media Indonesia+Kompas. Warsh Jackson Hole HAWKISH-LEAN Day-1 confirmed (S&P -0.25%/Nasdaq -0.52% Fri reaction; US-30Y 5.21% blowout persists). IDR sub-17,750 Day-5 at INSTANT-REGRESSION-RISK. Destry Damayanti CONFIRMED BI Gov 2026-2031 (partial-attenuation under Warsh overlay). Crisis-track engagement gate 0.50/5 (regressed -0.15pp vs Fri 0.65/5). Wk 20 fresh 0/3 BUY-slot week. Cumulative alpha +11.79pp sesi I basis vs Fri sesi I basis +11.38pp = +0.41pp expansion via IHSG sesi I continuation-DOWN. Risk alerts: NONE. Market-open filed 8 SKIP decisions (MIKA-7 + BBCA/BMRI/CTRA/INCO/MDKA/NCKL/MYOR-6); midday no-action per n=0 mechanically vacuous."
     }
   ],
   "positions": [],
@@ -21782,7 +21798,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 91,
+    "trial_days_elapsed": 92,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 76 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -21792,8 +21808,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -14.9,
-    "cumulative_alpha_pct": 12.06,
+    "ihsg_cumulative_pct": -14.63,
+    "cumulative_alpha_pct": 11.79,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -21804,18 +21820,18 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-08-26",
+    "updated": "2026-08-31",
     "portfolio_value": 9716207500,
-    "alpha_pct": 12.06,
+    "alpha_pct": 11.79,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 12.06,
+    "cumulative_alpha_pp": 11.79,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 93,
-    "last_updated": "2026-08-26"
+    "day_number": 96,
+    "last_updated": "2026-08-31"
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY44-Wk19-Day3-FIRST-LIVE-SESSION-POST-HOLIDAY-IHSG-Wed-sesi-I-6496.89-(-0.07pct-vs-Mon-reconciled-6501.67)-MA100-6500-BROKEN-3pts-sesi-I-basis-sesi-II-mid-14:13-WIB-6453.05-directional-down-full-close-PENDING-Thu-pre-market-reconciliation-cum-alpha-+12.06pp-sesi-I-basis-Book-de-risked-Day-43-100pct-cash-19th-consecutive-0-of-3-BUY-slot-week-Day-3-IDR-sub-17750-fresh-Day-2-continuation-DESTRY-DPR-T-0-10:00-WIB-vote-outcome-PENDING-AIDA-BUDIMAN-14:00-WIB-Day-0-CPO-MYR-4946-Day-7-pullback-still->4900-BRENT-$89.5-Day-1-marginal-relief-NEWCASTLE-$131.50-Day-3-MSCI-Aug-31-REBALANCE-T-3-JACKSON-HOLE-WARSH-T+2-Data-Quality-Gate-Day-117-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47-Wk20-Day1-CLOSE-IHSG-Mon-sesi-I-6517.24-(-0.48pct-vs-Fri-sesi-I-6548.85)-CONTINUATION-DOWN-Warsh-hawkish-Day-1-MSCI-effective-T-0-Book-de-risked-Day-47-100pct-cash-IDR-sub-17750-Day-5-INSTANT-REGRESSION-RISK-DQG-Day-120-CRISIS-TRACK-GATE-0.50-of-5",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -21826,75 +21842,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-26"
+    "updated": "2026-08-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-25T00:14:17Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Post-MSCI absorption Day 1 \u2014 IHSG Wed -3.56% close 5,883.88 (MSCI Frontier-risk persistence INVERTED relief into cascade). 50-ticker scan complete. 2 candidates scored >=6 (BBCA 7 / TLKM 6) \u2014 both CONDITIONAL on Thu open multi-source converging into R:R-clear zones (BBCA <=5,890 / TLKM <=2,830). KLBF HOLD Day 64 cluster non-convergence persists. Regime label flipped DEFENSIVE-INTENSIFIED-CASCADE-RESUMED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50/50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored >=6 (BBCA 7 / TLKM 6)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 pullback into R:R-clear zone post Wed -2.87% MSCI cascade (5,925 close); entry <=5,890 for R:R 2.02:1 to 6,700 target"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 \u2014 post-ex defensive bid + Rp4T buyback structural floor; entry <=2,830 for R:R 2.12:1 to 3,250 target"
-        },
-        {
-          "type": "macro",
-          "detail": "Regime flipped DEFENSIVE-INTENSIFIED-CASCADE-RESUMED on MSCI accessibility NEGATIVE-LOCKED (Frontier-risk Nov 2026 persistence)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-06-25T02:21:24Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Thu Jun 25. 3 candidates evaluated (BBCA/TLKM/BMRI), all SKIP. BBCA R:R 1.87:1 at 5,925 (<2:1; requires \u22645,890 pullback). TLKM Data Quality Gate fails (cluster 18% spread, TradingView 2,500 fresh vs Investing 2,960 stale). BMRI LOW PRIORITY conditional on BBCA\u2192BMRI follow-through fails (BBCA SKIP) + IDR 17,956 cascade kill-switch ARMED-WATCH (vs 17,950). KLBF held; trailing 931 GTC re-armed. 6th consec 0/3 wk pattern (Wk 10 Day 4).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "R:R 1.87:1 < 2:1 at 5,925"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Data Quality Gate FAIL (cluster 18% spread; <3 fresh sources)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "LOW PRIORITY conditional on BBCA follow-through fails + IDR ARMED-WATCH"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "trailing 931 GTC re-armed; cluster Day 64 non-convergent"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance/GoAPI Day 64 outage)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram channel blocked HTTP 403; notification printed to stdout"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-25T04:36:01Z",
       "routine": "midday",
@@ -26464,6 +26414,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions; book fully de-risked Day 47; no cuts, no tightens, no thesis exits (mechanically vacuous)."
+    },
+    {
+      "timestamp": "2026-08-31T08:21:21Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 20 Day 1 (Mon Aug 31): IDR 9.716B (0.00% daily; 47 consecutive 0.00% sessions). IHSG sesi I -0.48% (6,517.24 vs Fri sesi I 6,548.85); alpha +0.48pp daily. Cum alpha +11.79pp sesi I basis (+0.41pp expansion vs Fri sesi I basis). 100% cash Day 47; 0 positions; 0/3 trades Wk 20 fresh. Crisis-track gate 0.50/5. Sesi II reconciliation PENDING Tue pre-market per DQG-Day-120.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 96 EOD snapshot committed; RISK-STATE.json updated to 2026-08-31; dashboard/data.json daily[] appended"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-08-31T08:21:39Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 20 Day 1 (Mon Aug 31): IDR 9.716B (0.00% daily; 47 consecutive 0.00% sessions). IHSG sesi I -0.48% (6,517.24 vs Fri sesi I 6,548.85); alpha +0.48pp daily. Cum alpha +11.79pp sesi I basis. 100% cash Day 47; 0 positions; 0/3 trades Wk 20 fresh. Crisis-track gate 0.50/5. Sesi II reconciliation PENDING Tue pre-market per DQG-Day-120.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 96 EOD snapshot committed; RISK-STATE.json updated; dashboard/data.json daily[] appended"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -26518,7 +26492,7 @@
     "candidates_status": "7 candidates \u22656/10 (MIKA-7 sole HIGH-defensive / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); ALL 7 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. NET vs Fri Wk 19 close: 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926 on Warsh-hawkish rate-sensitive; BBRI/KLBF/BSDE 6\u21925 on same overlay) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally). Coal-sector re-eval NOT triggered (2-strike EXITED persists per MISTAKES.md).",
     "top_candidates_deep_dive_count": 4
   },
-  "last_updated": "2026-08-31T00:13:50.410224Z",
+  "last_updated": "2026-08-31T08:21:21Z",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,

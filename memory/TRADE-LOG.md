@@ -11035,3 +11035,65 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - **Notification:** `📊 Midday 2026-08-31: All positions healthy. No action taken.` sent per scheduler-prompt no-action notification protocol (overrides routine STEP 8 silent-on-no-action default).
 - **Persistence:** `scripts/log-activity.sh --routine midday --status success --actions '[]'` logged; TRADE-LOG.md committed and pushed.
 - **Carry-over to 15:15 WIB EOD (Wk 20 Day 1):** (1) IHSG Mon full-day close direction vs Fri sesi I 6,548.85 provisional + sesi II reconciliation TBD; (2) MSCI-effective 15:15 WIB close-window $753M outflow absorption behavior — sesi II cascade DOWN elevated risk per DQG-Day-120 dual-variant pattern; (3) IDR Mon sesi II close vs sesi I print for criterion (a) INSTANT-REGRESSION-RISK resolution; (4) Foreign flow Mon full-day net-flow post-close indexing for criterion (c/d) potential re-scoring; (5) Warsh-JH-hawkish absorption day-1 IHSG behavior formalisation; (6) EOD dashboard refresh + trial-P&L unchanged (-2.84% + 46+1=47 consecutive 0.00% daily P&L sessions expected).
+
+---
+
+### 2026-08-31 EOD
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -0.48% (sesi I basis 6,517.24 vs Fri sesi I 6,548.85; sesi II full-close PENDING Tue Sep 1 pre-market reconciliation per DQG-Day-120 dual-variant sesi-II-lag pattern)
+- Daily alpha: +0.48pp
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 20 Day 1 fresh reset)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (anchor-arithmetic, sesi I basis): +11.79pp (portfolio cum -2.84% − IHSG cum -14.63% from Apr 19 anchor 7,634.00 to Mon Aug 31 sesi I 6,517.24); on Fri sesi I basis, cum alpha was +11.38pp → today's sesi I basis reads +0.41pp EXPANSION via IHSG sesi I continuation-DOWN under Warsh-hawkish + MSCI-effective-T-0 overlay
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 47 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing. Broker ledger unchanged (no session trades).
+
+#### Notes
+
+- **EOD Wk 20 Day 1 — MONDAY POST-WARSH-HAWKISH + MSCI-EFFECTIVE-T-0.** Book fully de-risked Day 47 continues. Zero equity market exposure. 48th consecutive no-position session. Wk 20 Day 1 opens with fresh 0/3 BUY-slot week. Market-open (09:15) filed 8 SKIP decisions per crisis-track engagement gate ACTIVATED (0.50/5 regressed -0.15pp post-Warsh-hawkish); midday (11:30) filed no-cuts/no-tightens per n=0 mechanically vacuous.
+- **IHSG Mon sesi I 6,517.24 (-0.01% -0.88 pts vs Fri sesi I provisional 6,548.85) — MSCI-effective-T-0 pre-close-window print.** IHSG opened -0.2% at 6,511.11; sesi I range 6,476.18–6,525.11; sesi I close 6,517.24 with 26.36B shares / Rp 10.33T value / 1.38M transactions. Multi-source canonical ≥3-cluster PASS: CNBC Indonesia + Infobanknews + Berita Moneter + Bloomberg Technoz + Media Indonesia + Kompas convergent (392 up / 229 down / 166 flat sesi I). Sesi II full-close PENDING Tue Sep 1 pre-market reconciliation per DQG-Day-120 dual-variant sesi-II-lag pattern — MSCI $753M outflow concentrated at 15:15 WIB close-window elevates sesi II cascade-DOWN probability (per prior 09:15 filing risk-flag). Fri Aug 28 sesi II full-close still PENDING reconciliation (analog to Wed→Thu +71pt UP cascade prior; risk to prior +11.38pp cum-alpha basis if Fri sesi II resolved UP).
+- **Warsh Jackson Hole outcome CONFIRMED HAWKISH-LEAN Day-1 (post-Fri 21:00 WIB keynote reaction).** S&P -0.25% / Nasdaq -0.52% Fri close reaction; US-30Y 5.21% blowout persists; FOMC hawkish-hold path REINFORCED. Regime overlay: BBCA/BMRI/CTRA/MIKA rate-sensitive DOWNGRADE 7→6 embedded in today's candidate scoring. IDR sub-17,750 Day-5 at INSTANT-REGRESSION-RISK on dollar-rebound (~17,685-17,698 Fri close; Mon sesi I resolution watched).
+- **MSCI Aug 31 EFFECTIVE T-0 today — $753M outflow concentrated at 15:15 WIB close.** GOTO/CPIN/BUKA/SMGR + 9 Small Cap removals passive-outflow window final compression. First-session-post-rebalance-effective behavior binary observation pending Tue Sep 1 sesi II reconciliation.
+- **Crisis-track engagement gate scoring 0.50/5 confirming (regressed -0.15pp vs Fri Wk 19 close 0.65/5 via Warsh-hawkish).** 4.50/5 gap binding — 0% new entries until all 5 concurrent. Re-entry criteria: (a) IDR PARTIAL 0.40/5, (b) DQG cluster FAIL 0/5 (Day 120 yfinance/GoAPI blocked), (c) MSCI outflow FAIL 0/5 (T-0 today), (d) Foreign-flow PARTIAL 0.10/5, (e) R:R UNTESTABLE 0/5.
+- **All state/regime bindings Mon updates:**
+  - IDR sub-17,750 Day-5 continuation at INSTANT-REGRESSION-RISK; criterion (a) 0.40/5 (-0.05pp vs Fri via Warsh-hawkish)
+  - Foreign flow Mon full-day post-close indexing PENDING; MSCI-effective-T-0 close-window absorption critical
+  - CPO MYR 4,859 borderline breakdown Day 12; AALI/LSIP borderline downgraded
+  - Newcastle $139.75 rally Day 5 from $131.50 base (narrative-shift); coal sector 2-strike EXITED persists per Wk 5 rule
+  - Brent $88.29 Iran-US diplomatic Day 12 relief sustained
+  - LME nickel $16,739 +1.44% mild firming; ESDM 2026 quota cut structural offset persists
+  - US-30Y 5.21% blowout persist T+31 US-biz-day
+  - Destry Damayanti CONFIRMED BI Gov 2026-2031 structural dovish-continuity lock (partial-attenuation under Warsh overlay); paripurna Sep 1 T-1 pro-forma
+  - First BI-RDG under Destry Sep 17 T-3 weeks REINFORCED regime-shift binary
+- **Data Quality Gate Day 120 outage persists:** yfinance + GoAPI still blocked (120 consecutive sessions since Apr 21); WebSearch multi-source override operational. Sesi II lag pattern DUAL-VARIANT CONFIRMED. Tue Sep 1 pre-market reconciliation of Mon sesi II + Fri sesi II critical.
+- **Book fully de-risked Day 47 through Wk 20 Day 1 = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 47. Crisis-track re-entry gate scoring 0.50/5 partial. 4.50/5 gap still binding.
+- **Wk 20 Day 1 CLOSE — Wk 20 opens 0/3 BUY-slot fresh reset.** 63+ cumulative unused candidate-day slots trial-to-date (fresh Wk 20 start). All multi-front bindings persist. Weekly Review Fri 16:00 WIB will formalise Wk 20 letter grade in due course.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 96, Wk 20 Day 1). Phase-to-date P&L -2.84% unchanged (47 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Cumulative alpha +11.79pp (anchor-arithmetic sesi I basis) vs Fri sesi I basis +11.38pp = +0.41pp expansion via IHSG sesi I continuation-DOWN.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json updated per STEP 5b (updated=2026-08-31; equity/peak/dd unchanged).
+- **Carry-over to Tue Sep 1 07:00 WIB pre-market (Wk 20 Day 2):**
+  1. **Mon Aug 31 sesi II full-day close 3+source cluster reconciliation — MSCI-effective-T-0 close-window $753M outflow cascade behavior binary critical; DQG-Day-120 dual-variant sesi-II-lag pattern.**
+  2. Fri Aug 28 sesi II full-day close 3+source cluster reconciliation (still PENDING; sesi I 6,548.85 provisional; up-variant cascade risk to cum-alpha basis).
+  3. IDR Mon full-day close vs sesi I print for criterion (a) INSTANT-REGRESSION-RISK resolution under Warsh-hawkish dollar-rebound.
+  4. Foreign flow Mon full-day net-flow post-close indexing (first session under MSCI-effective) for criterion (c/d) potential re-scoring.
+  5. Destry Damayanti paripurna T-0 Tue Sep 1 pro-forma confirmation; Aida S. Budiman Day-4 continuation.
+  6. Warsh-JH-hawkish absorption Day-2 US-market close reaction + DXY/US-30Y direction.
+  7. First-session-post-MSCI-effective Tue Sep 1 IHSG behavior binary observation (T+1).
+  8. Newcastle $139.75 rally Day-6 continuation vs pullback watch (coal sector still EXITED regardless).
+  9. CPO MYR 4,859 Day-13 breakdown continuation vs partial-recovery on AALI/LSIP.
+  10. **Wk 20 Day 2 crisis-track gate re-scoring per Mon sesi II reconciliation + Tue overnight IDR/DXY moves.**

@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY46-Wk19-Day5-CLOSE-WK19-COMPLETE-IHSG-Fri-sesi-I-6548.85-(+0.42pct-vs-Thu-reconciled-full-close-6521.75)-CONTINUATION-UP-Thu-reconciled-6521.75-(+1.81pct-vs-Wed-6405.69)-71pt-cascade-UP-DQG-Day-117-lag-variant-CONFIRMED-cum-alpha-+11.38pp-sesi-I-basis-vs-Thu-reconciled-+11.73pp-net--0.35pp-Book-de-risked-Day-45-100pct-cash-19th-consecutive-0-of-3-BUY-slot-week-CLOSES-IDR-STAGE-5-Day43-SUB-17750-Day-4-DESTRY-CONFIRMED-BI-GOV-2026-2031-dovish-continuity-structural-lock-MSCI-Aug-31-T-1-final-session-Rp1T-outflow-confirmed-JACKSON-HOLE-WARSH-T-0-21WIB-TODAY-BINARY-first-Chair-keynote-imminent-post-EOD-CPO-MYR-4990-Day-9-BRENT-$89.5-Day-11-Data-Quality-Gate-Day-119-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-of-5",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47-Wk20-Day1-CLOSE-IHSG-Mon-sesi-I-6517.24-(-0.48pct-vs-Fri-sesi-I-6548.85)-CONTINUATION-DOWN-cum-alpha-+11.79pp-sesi-I-basis-vs-Fri-sesi-I-basis-+11.38pp-net-+0.41pp-EXPANSION-Book-de-risked-Day-47-100pct-cash-Wk20-fresh-0-of-3-BUY-slot-week-IDR-STAGE-5-Day46-SUB-17750-Day-5-INSTANT-REGRESSION-RISK-WARSH-JH-HAWKISH-CONFIRMED-Day-1-post-Fri-21WIB-keynote-S&P--0.25pct-Nasdaq--0.52pct-DESTRY-CONFIRMED-BI-GOV-2026-2031-dovish-continuity-structural-lock-partial-attenuation-under-Warsh-overlay-MSCI-Aug-31-EFFECTIVE-T-0-close-window-$753M-outflow-concentrated-15:15WIB-Newcastle-$139.75-rally-Day-5-narrative-shift-BUT-coal-sector-2-strike-EXITED-CPO-MYR-4859-Day-12-BRENT-$88.29-Day-12-Data-Quality-Gate-Day-120-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.50-of-5",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-08-28"
+  "updated": "2026-08-31"
 }
