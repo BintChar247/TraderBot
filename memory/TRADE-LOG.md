@@ -11097,3 +11097,40 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   8. Newcastle $139.75 rally Day-6 continuation vs pullback watch (coal sector still EXITED regardless).
   9. CPO MYR 4,859 Day-13 breakdown continuation vs partial-recovery on AALI/LSIP.
   10. **Wk 20 Day 2 crisis-track gate re-scoring per Mon sesi II reconciliation + Tue overnight IDR/DXY moves.**
+
+---
+
+### 2026-09-01 09:15 WIB — MARKET-OPEN Wk 20 Day 2 (Tuesday) — NO TRADES (12 CANDIDATES ALL CRISIS-TRACK-GATE-BLOCKED)
+
+- **Action:** No BUYs, no order placements. Book fully de-risked Day 48 continues (100% cash IDR 9,716,207,500; 0 open positions). 49th consecutive no-position session. Wk 20 Day 2 0/3 BUY-slot week continues (fresh reset Mon).
+- **Env check:** TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; TRADING_MODE=paper hardcoded; BROKER_* intentionally MISSING (paper mode requires no broker auth per broker.sh cmd_portfolio/positions).
+- **Broker portfolio pull:** `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`.
+- **Broker quote attempts:** BBRI + MIKA both returned `ERROR: _paper_quote cannot produce a price — market-data.sh failed and no held position` — DQG-Day-121 outage confirmed operational; no live quotes obtainable for new-entry gate #7 (ADV) + gate #9 (drift) validation.
+- **Regime (per MACRO-REGIME.md + today's RESEARCH-LOG entry):** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY48 + **IRAN-US-MILITARY-EXCHANGE-BRENT-SHOCK-DAY-1 (NEW)** (Larak Island strike + Iran Jordan-base retaliation; Brent $90.69 +2.93%) + WARSH-JH-HAWKISH-PARTIAL-UNWIND-DAY-1 (US 10Y 4.72→4.63%; VIX 14.43 -0.6%) + MSCI-AUG-31-EFFECTIVE-ABSORPTION-POSITIVE-DAY-1 (IHSG Mon +0.11% full-day 6,525.47; LQ45 +0.31% 643.82; $753M outflow domestic-buying absorbed) + IDR ~17,710 sub-17,750 Day-6 (+0.46% intra-day up-day = INSTANT-REGRESSION-RISK persists via Iran-US oil-import-bill overlay) + DESTRY-CONFIRMED-BI-GOV-2026-2031-structural-dovish-continuity-lock (partial-attenuation under Warsh overlay; paripurna Sep 1 T-0 pro-forma) + **BBRI-Q2-BEAT-CONFIRMED-H1-NET-+17.5%-Rp-31.2T** + **KLM-BANK-INCENTIVE-RULE-EFFECTIVE-T-0** + **TLKM-SPECTRUM-WIN-SAMUEL-PT-2900→3300-BUY** + Newcastle $139.75 Day-6 (coal sector 2-strike EXITED persists) + CPO MYR 4,894 +1.62% recovery + DQG-Day-121-outage + FOMC-hawkish-hold-T+29-US-biz-day (Warsh partial-unwind partial-offset moderating) + US-30Y 5.15% (est) mild relief from 5.21% Fri + first-BI-RDG-under-Destry-Sep-17-T-2.5-weeks-REINFORCED-dovish-continuity-path-probability.
+- **Crisis-track engagement gate re-scoring Wk 20 Day 2 = 0.75/5 (+0.25pp vs Mon 0.50/5; STILL BINDING 4.25/5 gap):**
+  - (a) IDR sub-17,750 Day-6 firming under Warsh-partial-unwind: **0.45/5** (+0.05pp vs Mon 0.40/5)
+  - (b) DQG cluster convergence: **0/5 FAIL** Day 121 outage persists
+  - (c) MSCI-Aug-31-effective absorption POSITIVE Mon: **0.20/5** (+0.20pp vs Mon 0/5) — domestic-buying vindication data-point
+  - (d) Foreign-flow: **0.10/5** unchanged (Mon post-close indexing pending Tue)
+  - (e) R:R ≥2:1 achievable: **0/5** UNTESTABLE (dependent on b)
+  - Gate 0.75/5. **4.25/5 gap BINDING. 0% new entries.**
+- **STEP 3 9-gate checklist per candidate (12 ≥6/10 candidates):** all 12 → SKIP. Documented reason: catalyst-documentation gate #5 formally PASS (thesis in today's RESEARCH-LOG) but effectively FAIL under crisis-track engagement gate override (Hard Rule TRADING-STRATEGY.md 2026-07-17); further, gate #7 (ADV) + gate #9 (drift ≤3%) both unverifiable due to DQG-Day-121 outage. No cluster convergence achievable for cluster-based entry mark. No single-gate mono-binding on any individual candidate = 0/12 default is regime-alignment PASS, not gate over-constraint.
+- **Candidate roster processed (12 tickers ≥6/10; all SKIP; dashboard/data.json decisions[] appended):**
+  1. **BBRI** — Score 8 (UPGRADE 5→8; Q2 BEAT + KLM). Thesis: H1 net +17.5% Rp 31.2T; ROE 18.8%; micro +0.68% QoQ inflection; KLM-rule GWM 6% + PPU 2% liquidity boost. SKIP crisis-track.
+  2. **BBCA** — Score 7 (UPGRADE 6→7). KLM tailwind + BBRI-halo + Fri foreign top-net-bought + BEI weight-cut absorbed. SKIP crisis-track.
+  3. **BMRI** — Score 7 (UPGRADE 6→7). Cheapest Big-4 P/E 6.29; BEI weight +5.64%; H1 +24.19%; KLM +. SKIP crisis-track.
+  4. **MIKA** — Score 7 (HOLD). InvestorTrust top pick 2026; RAPBN 2027 health-anchor; Thu +5.28% sector momentum. SKIP crisis-track.
+  5. **BBNI** — Score 6 (UPGRADE 4→6). BEI weight +1.89%; OCBC Buy PT +34%; KLM +. SKIP crisis-track.
+  6. **PGAS** — Score 6 (UPGRADE 5→6). Brent-SPIKE $90.69 oil-linked gas +; Abadi LNG HoA stale. SKIP crisis-track.
+  7. **INCO** — Score 6. Rikopedia TP 7,500; matte pure-play; LME $16,770 Day-2 firming. SKIP crisis-track.
+  8. **MDKA** — Score 6. MoM +17% momentum; gold floor + Cu upside. SKIP crisis-track.
+  9. **TLKM** — Score 6 (UPGRADE 5→6). Spectrum-win + Samuel PT 2,900→3,300 Hold→Buy. SKIP crisis-track. (Also FADE-ON-BEAT Day-20+ observation window.)
+  10. **CTRA** — Score 6. 84% VAT-eligible; TP 1,300; H1 in-line; VAT extension Dec 2027 +. SKIP crisis-track.
+  11. **AALI** — Score 6 (UPGRADE 5→6). CPO 4,894 +1.62% recovery; MPOC ≥RM4,600 Sept; IDXVESTA28 T-0. SKIP crisis-track.
+  12. **LSIP** — Score 6 (UPGRADE 5→6). CPO recovery; IDX80-add Sep 1 T-0. SKIP crisis-track.
+- **Sector-EXITED / MISTAKES.md-blocked (not counted in 12; contextual):** ADRO/ITMG/PTBA/BUMI/HRUM (coal sector 2-strike EXITED); KLBF (2026-07-06 hard-cut -21.16% flag). ITMG JPM Sep interim dividend candidate: WATCH-only, MISTAKES-blocked.
+- **STEP 6b decisions[] appended:** 12 SKIP entries (BBRI/BBCA/BMRI/MIKA/BBNI/PGAS/INCO/MDKA/TLKM/CTRA/AALI/LSIP) with `gate_results` marking gate #5 (catalyst-actionability) and gate #9 (drift-under-DQG) as blocked; other gates evaluated True or None (lot-size #8 unverifiable pre-order).
+- **STEP 7 notification:** "📊 Market-open 2026-09-01: No trades placed. Crisis-track engagement gate ACTIVATED (0.75/5; 4.25/5 gap binding) — all 12 candidates ≥6/10 pre-blocked. Iran-US-Brent-shock Day-1 fresh binding overlay. Book 100% cash Day 49." — sent per scheduler-prompt notification protocol.
+- **STEP 8 log-activity:** `scripts/log-activity.sh --routine market-open --status warning --summary "No trades — 12 candidates all crisis-track-gate-blocked" --actions '[12 skip entries + 1 warning DQG-Day-121]'` filed.
+- **Persistence:** dashboard/data.json decisions[] +12 (418 → 430); memory/TRADE-LOG.md this entry; commit and push per STEP 9.
+- **Carry-over to 11:30 WIB midday scan (Wk 20 Day 2):** Midday mechanically vacuous (n=0 positions). Priority monitoring items: (1) IDR Tue sesi I print vs Mon close ~17,710 — criterion (a) INSTANT-REGRESSION-RISK watch on Iran-US-oil-import-bill spike; (2) IHSG Tue sesi I direction vs Mon full-close 6,525.47 — BBRI Q2 beat + KLM-rule Tue open banking sector-halo watch; (3) Foreign flow Tue sesi I first-session-post-MSCI-effective-Day-2 domestic-buying continuation for criterion (c/d) potential re-scoring; (4) Brent >$92 sesi I watch — Strait of Hormuz escalation trigger for criterion (a) instant regression; (5) TLKM sesi I direction on Samuel Buy PT 3,300 — FADE-ON-BEAT pattern Day-20+ 4th observation opportunity; (6) Indonesia Aug CPI release pre-market/11:00 WIB — deviation from 2.88% July signals first-BI-RDG-under-Destry Sep-17 path; (7) AALI/LSIP IDX80/IDXVESTA28 passive-flow Sep 1 T-0 absorption behavior.

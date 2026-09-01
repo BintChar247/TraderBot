@@ -21795,6 +21795,594 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 H1 net +17.5% Rp 31.2T CONFIRMED BEAT + KLM-rule Sep 1 effective + micro +0.68% QoQ inflection",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BBRI Q2 beat + KLM-rule T-0 GWM 6% + PPU 2% liquidity boost"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 8 (UPGRADE 5\u21928) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "KLM-rule tailwind + BBRI-Q2-beat sector-halo + Fri foreign top-net-bought",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "KLM-rule + BBRI-beat halo"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 7 (UPGRADE 6\u21927) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cheapest Big-4 P/E 6.29 + BEI weight +5.64% passive-flow + H1 +24.19%",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BEI weight-add + KLM-rule + H1 strongest Big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 7 (UPGRADE 6\u21927) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "InvestorTrust top pick 2026 + RAPBN 2027 health-anchor + Thu +5.28% sector momentum",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Healthcare defensive-quality; RAPBN 2027 health anchor"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 7 (HOLD) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BEI weight +1.89% + OCBC Buy PT +34% + KLM-rule",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "KLM-rule + BEI weight-add + OCBC Buy"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 (UPGRADE 4\u21926) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SPIKE $90.69 Iran-US oil-linked gas pricing tailwind + Abadi LNG HoA stale",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent-Iran-US-shock oil-linked gas +"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 (UPGRADE 5\u21926) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rikopedia top pick TP 7,500 + matte pure-play + LME $16,770 Day-2 firming",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Nickel supply-tightening ESDM quota"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MoM +17% momentum + gold floor + Cu upside",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Nickel/Cu/Au tri-metal momentum"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Spectrum win 700MHz+2.6GHz + Samuel PT 2,900\u21923,300 upgrade Hold\u2192Buy",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Spectrum-win-PT-upgrade Samuel Buy"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 (UPGRADE 5\u21926) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "84% 1H25 sales <Rp5B VAT-eligible + TP 1,300 + H1 in-line only property emitter not to miss",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "VAT extension Dec 2027 structural +"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO 4,894 +1.62% recovery + MPOC \u2265RM4,600 Sept + IDXVESTA28 Sep 1 T-0",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO recovery + IDXVESTA28 passive-flow T-0"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 (UPGRADE 5\u21926) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-09-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO recovery + IDX80-add Sep 1 T-0 passive-flow tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO recovery + IDX80-add T-0"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY48 + Iran-US-Brent-shock Day-1 + Warsh-JH-hawkish partial-unwind Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.75/5 (BINDING; 4.25/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-121: yfinance/GoAPI outage; no live quote for new entries"
+        }
+      ],
+      "reasoning": "Score 6 (UPGRADE 5\u21926) \u2014 SKIP. Crisis-track engagement gate ACTIVATED (0.75/5); 0% new entries binding until (a) IDR sub-17,750 3-of-3, (b) DQG cluster convergence, (c) MSCI-outflow neutral, (d) 3-consec foreign net-BUY, (e) R:R \u22652:1 all concurrent. Iran-US-military-exchange Day-1 Brent-shock $90.69 fresh binding overlay. Gate #5 catalyst-actionability effectively FAIL under regime override.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        false,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -21845,18 +22433,6 @@
     "updated": "2026-08-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-25T08:21:12Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-06-25 Day 49: IDR 9.867B (0.00% day, flat). Alpha \u22122.42% on IHSG +2.41% relief-bounce post Wed \u22123.56% cascade. Cum alpha +19.73% prov (\u22120.32pp vs Day 48 prov / \u22121.87pp vs Day 48 reconciled +21.60%). KLBF safe-lower carry 1,035 frozen Day 64 cluster non-convergence. Cash 94.56%. Trades wk 0/3 \u2014 1 fresh slot remains Fri.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 49 EOD snapshot committed; IHSG anchor reconciliation Day 48 sesi I 6,002.20 \u2192 sesi II 5,883.88 per Day 33-40 procedure"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-26T00:15:22Z",
       "routine": "pre-market",
@@ -26471,6 +27047,78 @@
           "type": "research",
           "ticker": "TLKM",
           "detail": "score 6/10 UPGRADE - spectrum win + Samuel PT 2900->3300 Hold->Buy"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-01T02:19:33Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 20 Day 2. 12 candidates \u22656/10 (BBRI-8/BBCA-7/BMRI-7/MIKA-7/BBNI-6/PGAS-6/INCO-6/MDKA-6/TLKM-6/CTRA-6/AALI-6/LSIP-6) all pre-blocked by crisis-track engagement gate (0.75/5; 4.25/5 gap binding). Iran-US-Brent-shock Day-1 fresh binding overlay. Book fully de-risked Day 49 continues (100% cash IDR 9,716,207,500).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 8; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 7; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 7; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "score 7; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "score 6; crisis-track-blocked"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-121 outage: yfinance/GoAPI blocked; no live quotes for new-entry validation"
         }
       ]
     }
