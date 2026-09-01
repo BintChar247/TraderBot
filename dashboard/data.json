@@ -22434,44 +22434,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-26T00:15:22Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 10 Day 5 pre-market: 50-ticker scan. 2 candidates \u22656: UNVR (6, MNC Fri TOP PICK, R:R 2.62:1, Brent-collapse CPI-relief tailwind) + BBCA (6, Thu sesi I foreign net buy bid faded, R:R 2.01:1 marginal). IHSG Thu close 5,999. Foreign flow inflection FAILS Thu (sesi I buy faded to full-day net sell).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker scan, all sectors"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored \u22656 (UNVR/BBCA)"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 \u2014 MNC Sekuritas Fri TOP PICK Spec Buy 1,675-1,685 TP 2,000 R:R 2.62:1"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 Thu sesi I foreign top net buy bid attempt + post-MSCI mean-reversion R:R 2.01:1 marginal at \u22645,890"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 5/10 conditional on cluster \u22642,830 convergence"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 5/10 BEI weight +24bp tailwind ARBITRAGED Thu via top-foreign-sell"
-        }
-      ],
-      "commit_hash": "965d98d",
-      "commit_message": ""
-    },
-    {
       "timestamp": "2026-06-26T02:21:10Z",
       "routine": "market-open",
       "status": "warning",
@@ -27121,6 +27083,12 @@
           "detail": "DQG-Day-121 outage: yfinance/GoAPI blocked; no live quotes for new-entry validation"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-01T04:36:04Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "n=0 positions. Midday mechanically vacuous. Book 100% cash Day 49 (49th consecutive no-position session). No cuts / no tightens / no thesis exits."
     }
   ],
   "exposure": {
