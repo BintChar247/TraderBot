@@ -21846,12 +21846,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-25T04:36:01Z",
-      "routine": "midday",
-      "status": "warning",
-      "summary": "All positions healthy (KLBF 0% vs entry). Live market-data feed unavailable (yfinance 403); used stale broker quote. No cuts, no stop tightens, no thesis break per WebSearch."
-    },
-    {
       "timestamp": "2026-06-25T08:21:12Z",
       "routine": "daily-summary",
       "status": "success",
@@ -26436,6 +26430,47 @@
         {
           "type": "research",
           "detail": "Day 96 EOD snapshot committed; RISK-STATE.json updated; dashboard/data.json daily[] appended"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-01T00:14:02Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan Wk 20 Day 2. Top: BBRI 8/10 (Q2 H1 net +17.5% Rp 31.2T CONFIRMED beat + KLM-rule effective today), BBCA/BMRI/MIKA 7/10, 8 more @ 6. Crisis-track gate 0.75/5 (+0.25pp) still BINDING. NEW: Iran-US military exchange Brent +2.93% $90.69.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned Wk 20 Day 2"
+        },
+        {
+          "type": "research",
+          "detail": "12 candidates scored >=6/10"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 8/10 - Q2 H1 net +17.5% Rp 31.2T CONFIRMED beat + micro +0.68% QoQ inflection + KLM-rule Sep 1 effective"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 7/10 - KLM-rule tailwind + BBRI Q2 sector-halo"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 7/10 - BEI weight 5.40->5.64% passive-flow tailwind + KLM"
+        },
+        {
+          "type": "research",
+          "ticker": "MIKA",
+          "detail": "score 7/10 - InvestorTrust top pick 2026 + RAPBN 2027 health-anchor"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "score 6/10 UPGRADE - spectrum win + Samuel PT 2900->3300 Hold->Buy"
         }
       ]
     }

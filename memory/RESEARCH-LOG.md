@@ -22828,3 +22828,251 @@ Data infra: DQG-Day-120 outage persists (yfinance + GoAPI 120 consecutive sessio
 - [ ] **Weekly-review Fri Sep 4 scheduler-verification** — 2nd consecutive miss recovery required per Wk 19 review lesson.
 
 ---
+
+## 2026-09-01 (Tuesday) — Wk 20 Day 2 — **BRENT-SPIKE-IRAN-US-MILITARY-EXCHANGE-DAY-1** + **BBRI-Q2-BEAT-CONFIRMED-H1-NET-+17.5%** + **KLM-BANK-INCENTIVE-RULE-EFFECTIVE-T-0** + **TLKM-SPECTRUM-WIN-UPGRADE-SAMUEL-PT-2900→3300-BUY**
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | ~7,686 (Aug 30 last close basis) | Mon Aug 31 US-open pending | US mkt open Mon Aug 31 (Labor Day Sep 7); month-end cap winning month |
+| Nasdaq | ~26,371 (Aug 30 basis) | flat | Warsh-hawkish absorbed |
+| Dow | ~53,186 (Aug 30 basis) | flat | Month-end profit-taking |
+| Shanghai Composite | n/a | pending | Mon fresh open |
+| Hang Seng | n/a | pending | Mon fresh open |
+| Nikkei 225 | n/a | pending | Mon fresh open |
+| VIX | 14.43 (Aug 31) | -0.6% | Complacency intact, Warsh-hawkish shrugged |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | **6,525.47 (Mon Aug 31 full close)** | +0.11% | MSCI-effective-T-0 absorption POSITIVE (not sesi-II-cascade-DOWN feared); LQ45 +0.31% to 643.82; url: https://www.liputan6.com/saham/read/8281405/ihsg-hari-ini-31-agustus-2026-menguat-ke-6525-begini-kata-analis |
+| IDR/USD | **17,710 (Aug 31)** | +0.46% intra-day; sub-17,750 Day-6 | Sub-17,750 continuation but Aug 31 up-day = Warsh-hawkish dollar-rebound partial-materialized; **NEW Iran-US oil-import-bill overlay pressures**; url: https://wise.com/gb/currency-converter/idr-to-usd-rate/history |
+| Indo 10Y SUN yield | ~6.80 (est) | flat | Fresh Tue quote pending |
+| US 10Y yield | **4.63%** | -9bp vs Fri | Warsh-hawkish partially unwound in bond market; url: https://www.bloomberg.com/markets/rates-bonds/government-bonds/us |
+| US 30Y yield | ~5.15 (est) | -6bp | Marginal relief from 5.21% Fri |
+| Indo-US spread | ~217 bp est | wider | Structural CAD $12.5B overlay persists |
+| Newcastle coal (USD/ton) | **$139.75 (Aug 28)** | +0.18% Day-6 sustained | Rally from $131.50 base holds; **still sector-2-strike EXITED per MISTAKES.md**; url: https://tradingeconomics.com/commodity/coal |
+| **Brent crude (USD/bbl)** | **$90.69 (Aug 31)** | **+2.93% SPIKE** | **CRITICAL: US-Iran military exchange Larak Island strike + Iran retaliation on US Jordan base = FIRST DIRECT EXCHANGE IN WEEKS; consumer margin RENEWED headwind; url: https://www.globalbankingandfinance.com/oil-jumps-2-us-attack-irans-larak-island/ + https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology |
+| CPO palm oil (MYR/ton) | 4,894 (Aug 28) | +1.62% recovery | MPOC sees ≥RM4,600 Sept sustained; borderline-breakdown reversed toward RM4,990 peak retest; AALI/LSIP UPGRADE candidate; url: https://theedgemalaysia.com/node/815017 |
+| LME nickel (USD/ton) | $16,770 (Aug 31) | flat | Firming Day-2 vs $16,739 Aug 29; ESDM 2026 quota-cut structural + persists; url: https://tradingeconomics.com/commodity/nickel |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | Mon Aug 31 MSCI-effective-T-0 absorption POSITIVE | IHSG +0.11% full-day = $753M outflow domestic-buying-absorbed; explicit Mon post-close indexing pending Tue |
+| Foreign flow streak | Criterion (d) partial-improvement Mon absorption = potential re-scoring | Requires 3-consec net-BUY sequence confirmation |
+| YTD foreign outflow cumulative | Rp 61.3T ($3.36B) | "Sell Indonesia" sentiment overlay persists structurally |
+| MSCI-effective absorption ($753M) | ABSORBED CLEANLY Mon | GOTO/CPIN/BUKA/SMGR + 9 Small Cap removed at 15:15 WIB close; IHSG closed GREEN despite outflow = domestic-institutional-buying VINDICATION |
+
+### Sector Momentum (post-BBRI-Q2-beat + Iran-US Brent-shock overlay)
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | **UPGRADE bias** | **BBRI Q2 H1 net +17.5% Rp 31.2T CONFIRMED beat; KLM-rule Sep 1 effective TODAY = GWM incentive 6% + PPU 2% = sector tailwind**; BEI IHSG re-weighting BBNI/BMRI up | BBRI/BBCA/BMRI/BBNI all upgraded |
+| Coal / Energy | Sector-EXITED persists | Newcastle $139.75 sustained but 2-strike rule PERSISTS; ITMG Sep dividend 65%/8% JPM candidate = watch-only | ADRO/ITMG/PTBA all SKIP |
+| Nickel / Mining | Flat-firming persistent | LME $16,770 Day-2 firming; ESDM quota + structural | ANTM/INCO/MDKA/NCKL/MBMA |
+| CPO / Agri | **UPGRADE (reversal)** | CPO 4,894 +1.62% recovery from breakdown; MPOC ≥RM4,600 Sept | AALI/LSIP 5→6 UPGRADE |
+| Property | DOWNGRADE persists | BSDE -53% H1 profit; PWON -11%; SMRA missed; CTRA in-line only; VAT extension Dec 2027 offset partial | CTRA WATCH; BSDE/PWON/SMRA SKIP |
+| **Consumer** | **DOWNGRADE (Iran-US-Brent-shock)** | **Brent +2.93% $90.69 US-Iran military exchange = margin headwind renewed** | ICBP/INDF/MYOR/UNVR 5→4 downgrade |
+| **Telco** | **UPGRADE** | **TLKM/ISAT/EXCL spectrum auction winners 700MHz+2.6GHz; Samuel PT 2,900→3,300 upgrade Hold→Buy TLKM; ISAT PT 2,500 Buy** | TLKM 5→6 UPGRADE; ISAT 4→5 UPGRADE |
+| Infrastructure | Flat | Rate-sensitive; Warsh-hawkish partial-unwound | JSMR/WSKT/PTPP |
+
+### Corporate Calendar Today
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **BBRI Q2 2026 earnings result — H1 net +17.5% Rp 31.2T CONFIRMED BEAT** | BBRI | Overnight | H1 net Rp 31.2T +17.5% YoY; ROE 18.8%; ROA 2.7%; NII +9.9%; loans +16.2%; NPL 4.5% down; micro +0.68% QoQ recovery; url: https://www.investing.com/news/transcripts/earnings-call-transcript-bank-rakyat-indonesia-posts-strong-h1-2026-profit-growth-93CH-4883124 |
+| **KLM (BI Macroprudential Liquidity Instrument) rule change EFFECTIVE T-0** | Banking sector broad | Open | GWM max incentive up to 6% of DPK + replaces interest-rate channel with 2% PPU = liquidity boost bank sector tailwind |
+| Destry Damayanti paripurna T-0 confirmation vote pro-forma | Broad | Already CONFIRMED | Already CONFIRMED Wed Aug 26 DPR fit-proper vote |
+| Indonesia August CPI release (BPS calendar) | Broad | Pre-market or 11:00 WIB | Prior July 2.88% down from June 3.34%; within BI 1.5-3.5% target; url: https://tradingeconomics.com/indonesia/inflation-cpi |
+
+### Watchlist Scan — All 50 Tickers (Wk 20 Day 2 — post-BBRI-beat + KLM-rule + Brent-Iran-US-shock overlays)
+
+Data infra: DQG-Day-121 outage persists (yfinance/GoAPI 121 consecutive sessions; WebSearch multi-source override operational). Prices reflect Mon Aug 31 EOD basis unless noted.
+
+**Two-track scoring** per TRADING-STRATEGY.md.
+
+| # | Ticker | Sector | Price (Mon close est) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | ~9,275 | +0.05% | **7 (UPGRADE 6→7)** | KLM-rule tailwind + BBRI-Q2-beat sector-halo + BEI weight-cut absorbed | CANDIDATE (gate-blocked) |
+| 2 | BBRI | Banking | ~3,180 (est +1% Q2 beat) | +0.94% | **8 (UPGRADE 5→8)** | **Q2 H1 net +17.5% Rp 31.2T CONFIRMED BEAT; ROE 18.8%; micro +0.68% QoQ recovery; KLM-rule sector tailwind** | CANDIDATE (gate-blocked) |
+| 3 | BMRI | Banking | ~4,180 | +0.48% | **7 (UPGRADE 6→7)** | Cheapest Big-4 P/E 6.29; BEI weight +5.64% from 5.40% = passive-flow tailwind; KLM-rule + | CANDIDATE (gate-blocked) |
+| 4 | BBNI | Banking | ~3,700 | +0.27% | **6 (UPGRADE 4→6)** | BEI weight +1.89% from 1.85%; OCBC Buy PT +34%; H1 profit +5.53%; KLM-rule + | CANDIDATE (gate-blocked) |
+| 5 | BNGA | Banking | — | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 6 | NISP | Banking | — | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 7 | BBTN | Banking | — | — | 3 | Property-mortgage rate-sensitive under partial-Warsh unwind | SKIP |
+| 8 | ADRO | Coal | — | — | 4 | Newcastle $139.75 Day-6 sustained; sector 2-strike EXITED PERSISTS | SKIP (sector-exit) |
+| 9 | ITMG | Coal | — | — | 5 | **JPM Sep interim dividend expected 65% ratio 8% yield candidate**; MISTAKES.md 2026-05-18 flag PERSISTS | WATCH (MISTAKES-blocked) |
+| 10 | PTBA | Coal | — | — | 4 | State-owned; Newcastle rally + but sector EXITED | SKIP |
+| 11 | BUMI | Coal | — | — | 3 | Small-cap; 78Mt 2026 target; sector EXITED | SKIP |
+| 12 | HRUM | Coal | — | — | 3 | Nickel-coal hybrid; sector EXITED | SKIP |
+| 13 | MEDC | Energy/O&G | — | — | **5 (UPGRADE 2→5)** | **Iran-US Brent-shock $90.69 = O&G upstream indirect +** | WATCH |
+| 14 | PGAS | Gas/Energy | — | — | **6 (UPGRADE 5→6)** | **Brent +2.93% oil-linked gas pricing tailwind; Abadi LNG HoA stale** | CANDIDATE (gate-blocked) |
+| 15 | ANTM | Nickel/Gold | — | — | 5 | LME $16,770 Day-2 firming; gold-floor persistent | WATCH |
+| 16 | INCO | Nickel | — | — | 6 | Rikopedia top pick; TP 7,500; matte pure-play | CANDIDATE (gate-blocked) |
+| 17 | MDKA | Nickel/Cu/Au | — | — | 6 | MoM +17% momentum; gold floor + Cu | CANDIDATE (gate-blocked) |
+| 18 | NCKL | Nickel | — | — | 5 (DOWN 6→5) | HPAL/MHP; IDX80-add Sep 1 T-0 tailwind absorbed Mon; post-passive-flow settlement | WATCH |
+| 19 | MBMA | Nickel | — | — | 5 | HPAL/MHP peer; analyst top-pick candidate | WATCH |
+| 20 | TINS | Tin | — | — | 2 | Small-cap; foreign top-sold historic | SKIP |
+| 21 | UNVR | Consumer | — | — | 3 (DOWN 4→3) | **Brent-shock renewed margin headwind** | SKIP |
+| 22 | ICBP | Consumer | — | — | 4 (DOWN 5→4) | **Q2 core +50.6% YoY offset by Brent-shock margin renewed** | WATCH |
+| 23 | INDF | Consumer | — | — | 4 (DOWN 5→4) | **Brent-shock renewed; sole 2026 net-inflow YTD offset** | WATCH |
+| 24 | MYOR | Consumer | — | — | 5 (DOWN 6→5) | **Brent+CPO stack easing REVERSED via Brent-shock; USD-hedge 40% exports partial-offset** | WATCH |
+| 25 | SIDO | Consumer | — | — | 3 | Non-LQ45; MoM weak | SKIP |
+| 26 | TLKM | Telco | — | — | **6 (UPGRADE 5→6)** | **Spectrum win 700MHz+2.6GHz; Samuel PT 2,900→3,300 upgrade Hold→Buy; TLKM-FADE-ON-BEAT Days 20+ = post-catalyst re-rate window opens** | CANDIDATE (gate-blocked) |
+| 27 | EXCL | Telco | — | — | 4 (UPGRADE 3→4) | **Spectrum win 2.6GHz allocation; Samuel Hold PT 2,700 unchanged** | WATCH |
+| 28 | ISAT | Telco | — | — | **5 (UPGRADE 4→5)** | **Spectrum win + Samuel Buy PT 2,500; H1 most-aggressive net-profit-growth telco** | WATCH |
+| 29 | MTEL | Telco/Tower | — | — | 3 | Low-catalyst | SKIP |
+| 30 | TOWR | Telco/Tower | — | — | 3 | Tower yield-play; low-catalyst | SKIP |
+| 31 | BSDE | Property | — | — | 4 (DOWN 5→4) | **H1 net Rp 604B -53% YoY WEAK; VAT extension Dec 2027 offset partial** | SKIP |
+| 32 | CTRA | Property | — | — | 6 | Best VAT-play TP 1,300; H1 in-line consensus; VAT to 2027 structural + | CANDIDATE (gate-blocked) |
+| 33 | SMRA | Property | — | — | 3 (DOWN 4→3) | H1 missed consensus; less VAT-eligible mix | SKIP |
+| 34 | PWON | Property | — | — | 3 (DOWN 4→3) | H1 net Rp 1T -11% YoY missed 41% consensus | SKIP |
+| 35 | GOTO | Tech | — | — | 1 | MSCI Standard REMOVED Aug 31 T-0 close absorbed | SKIP (MSCI removal) |
+| 36 | BUKA | Tech | — | — | 1 | MSCI Small Cap REMOVED Aug 31 T-0 absorbed | SKIP (MSCI removal) |
+| 37 | EMTK | Tech/Media | — | — | 3 | Media conglomerate | SKIP |
+| 38 | ASII | Auto/Industrial | — | — | 4 | Q2 MISS; Q3 setup Oct-Nov far | WATCH |
+| 39 | UNTR | Heavy Equipment | — | — | 5 | Coal-linked equipment; Newcastle rally sustained | WATCH |
+| 40 | AKRA | Distribution | — | — | 3 (DOWN 4→3) | **Brent-shock renewed = fuel margin headwind** | SKIP |
+| 41 | AALI | Plantation | — | — | **6 (UPGRADE 5→6)** | **CPO 4,894 +1.62% recovery from breakdown; MPOC ≥RM4,600 Sept; IDXVESTA28 Sep 1 T-0 tailwind** | CANDIDATE (gate-blocked) |
+| 42 | LSIP | Plantation | — | — | **6 (UPGRADE 5→6)** | **CPO recovery; IDX80-add Sep 1 T-0 tailwind** | CANDIDATE (gate-blocked) |
+| 43 | JSMR | Infrastructure | — | — | 3 | Toll-road rate-sensitive; Warsh-hawkish partial-unwind marginal | SKIP |
+| 44 | WSKT | Construction | — | — | 2 | SOE-construction overhang | SKIP |
+| 45 | PTPP | Construction | — | — | 2 | SOE-construction | SKIP |
+| 46 | ADHI | Construction | — | — | 2 | Non-LQ45 SOE-construction | SKIP |
+| 47 | KLBF | Healthcare | — | — | 4 (DOWN 5→4) | **MISTAKES.md 2026-07-06 KLBF hard-cut -21.16% flag PERSISTS — SKIP mandatory**; Thu snap-back digestion | SKIP (prior-hard-cut) |
+| 48 | MIKA | Healthcare | — | — | **7 (HOLD)** | InvestorTrust top pick 2026; RAPBN 2027 health-anchor; Thu +5.28% sector-lead confirmed | CANDIDATE (gate-blocked) |
+| 49 | SMGR | Cement | — | — | 1 | MSCI Small Cap REMOVED Aug 31 T-0 absorbed | SKIP |
+| 50 | INTP | Cement | — | — | 3 | Cement oversupply | SKIP |
+
+**Candidate count ≥6/10: 12 tickers** (BBCA-7↑ / BBRI-8↑↑ / BMRI-7↑ / BBNI-6↑ / PGAS-6↑ / INCO-6 / MDKA-6 / TLKM-6↑ / CTRA-6 / AALI-6↑ / LSIP-6↑ / MIKA-7). 
+**NET vs Mon Wk 20 Day 1:** 
+- **10 UPGRADES**: BBCA 6→7 / BBRI 5→8 (Q2 BEAT + KLM) / BMRI 6→7 / BBNI 4→6 / PGAS 5→6 (Brent) / MEDC 2→5 (Brent) / TLKM 5→6 (spectrum+PT-upgrade) / ISAT 4→5 (spectrum+Buy) / EXCL 3→4 (spectrum) / AALI+LSIP 5→6 (CPO recovery)
+- **6 DOWNGRADES**: UNVR 4→3 / ICBP 5→4 / INDF 5→4 / MYOR 6→5 / AKRA 4→3 / BSDE 5→4 / SMRA 4→3 / PWON 4→3 / NCKL 6→5 (post-passive-settlement)
+- **NEW candidate leaders: BBRI 8 (Q2 BEAT) + BBCA/BMRI/MIKA 7**
+- All 12 remaining ≥6 candidates PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0% new entries)
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive)
+
+#### 1. BBRI — Score 8 (top pick) — Q2 H1 CONFIRMED BEAT +17.5% Rp 31.2T net
+
+**Fundamental case:**
+- Thesis: BBRI is Indonesia's largest micro-focused bank; Q2 2026 result CONFIRMED strong beat H1 net Rp 31.2T +17.5% YoY (per investing.com transcript); ROE 18.8% / ROA 2.7% both up; NII +9.9%; total loans +16.2%; deposits +6.7%; PPOP +12.8%; NPL formation down to 4.5%; **micro segment returned to +0.68% QoQ growth = long-awaited micro-lending recovery INFLECTION**; cost of credit down to 3.8%.
+- KLM-rule Sep 1 T-0 effective TODAY: GWM incentive to 6% of DPK + 2% PPU = liquidity boost sector-wide.
+- Valuation: Consensus P/E rerate candidate on H1 print; div-yield sustained high; Samuel Sekuritas + OCBC bullish framework applies.
+- Catalyst: (1) Q2 print RESOLVED POSITIVE binary catalyst = removes overhang; (2) micro-lending inflection = structural narrative; (3) KLM-rule effective TODAY = short-term tailwind.
+- Analyst view: OCBC Buy PT +34% upside (part of MSCI blue-chip Buy pick basket).
+- Insider activity: none noted overnight.
+
+**Technical context:** DQG-Day-121 blocks yfinance; Mon Aug 31 close est ~3,180 (+0.94% est on Q2 beat); needs cluster verify Tue open.
+
+**Trade plan:**
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED (0% new entries binding); Iran-US-Brent-shock overlay + IDR sub-17,750 Day-6 with Warsh-partial-unwind unresolved.
+- Conviction: N/A (blocked); if gate were open: HIGH conviction on Q2 BEAT + KLM confluence.
+
+#### 2. BBCA — Score 7 UPGRADE (KLM+ + Q2-sector-halo)
+
+- Thesis: KLM-rule Sep 1 effective + BBRI Q2 beat sector-halo + Fri foreign top-net-bought +Rp 358B + BEI weight-cut absorbed; Destry-dovish-continuity structural + Warsh partial-unwound marginal.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 3. BMRI — Score 7 UPGRADE (KLM+ + BEI weight-add)
+
+- Thesis: Cheapest Big-4 P/E 6.29; **BEI weight raised to 5.64% from 5.40% = passive-flow tailwind CONFIRMED**; H1 net Rp 33.01T +24.19% YoY strongest Big-4 growth; OCBC Buy PT +32%; KLM-rule +.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 4. BBNI — Score 6 UPGRADE (KLM+ + OCBC-Buy)
+
+- Thesis: BEI weight +1.89% from 1.85%; OCBC Buy PT +34%; H1 net Rp 12.52T +5.53%; KLM-rule +; "top-pick due to strongest 3rd-party fund liquidity" per analyst framework.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 5. MIKA — Score 7 (HOLD sustained)
+
+- Thesis: InvestorTrust top pick 2026; RAPBN 2027 health-anchor; Thu Aug 27 healthcare +5.28% sector-lead momentum sustained.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 6. TLKM — Score 6 UPGRADE (spectrum win + Samuel Buy PT 3,300)
+
+- Thesis: **TLKM/ISAT/EXCL won 700MHz + 2.6GHz spectrum auction Komdigi; Telkomsel biggest winner 100MHz total (2x10MHz 700MHz Rp 642.5B + 80MHz 2.6GHz Rp 545.8B)**; Samuel Sekuritas upgraded PT 2,900→3,300 Hold→Buy = TLKM-FADE-ON-BEAT-pattern Day-20+ post-catalyst re-rate confirmatory window OPENS. Pattern promotion opportunity 4th observation.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 7. CTRA — Score 6 (VAT-play best-in-class persists)
+
+- Thesis: 84% 1H25 sales <Rp5B VAT-eligible; TP 1,300; H1 in-line consensus (only property emitter not to miss); **VAT extension Dec 31, 2027 CONFIRMED structural +**.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 8. INCO / MDKA — Score 6 Nickel supply-tightening persist
+
+- Thesis: LME $16,770 Day-2 firming; ESDM 2026 quota cut 260-270Mt from 379Mt (~29-31%); ANTM/MBMA analyst top-pick basket 46% profit potential.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 9. PGAS — Score 6 UPGRADE (Brent-shock $90.69 oil-linked gas +)
+
+- Thesis: **Brent SPIKE $90.69 Iran-US military exchange = oil-linked gas pricing tailwind**; Abadi LNG HoA 17+ wks stale offset.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 10. AALI / LSIP — Score 6 UPGRADE (CPO recovery)
+
+- Thesis: CPO 4,894 +1.62% recovery from breakdown; MPOC ≥RM4,600 Sept sustained; AALI IDXVESTA28 Sep 1 T-0 + LSIP IDX80-add Sep 1 T-0 = passive-flow tailwind concentrated TODAY.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+### Held Position Updates
+
+- **None** — book fully de-risked Day 48 (since Jul 6 KLBF hard-cut). 100% cash IDR 9,716,207,500. 48th consecutive no-position session; Wk 20 Day 2 0/3 BUY-slot week continues.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY48 + IRAN-US-MILITARY-EXCHANGE-BRENT-SHOCK-DAY-1 (NEW overlay) + WARSH-JH-HAWKISH-PARTIAL-UNWIND-DAY-1 (bond market retraced 4.72→4.63%; VIX 14.43 down 0.6%; IHSG +0.11% Mon absorption POSITIVE)**
+
+- Reasoning: Compound-shock stack partially disentangles Tue Wk 20 Day 2 — three simultaneously-active vectors:
+  - **NEW BRENT-SHOCK ($90.69 +2.93%)** via **US-Iran military exchange Larak Island + Iran Jordan-base retaliation** = FIRST direct exchange in weeks; consumer margin renewed headwind (ICBP/INDF/MYOR/UNVR 5→4-3 downgrade cascade); PGAS/MEDC UPGRADE; **IDR sub-17,750 Day-6 at REPEAT-INSTANT-REGRESSION-RISK via oil-import-bill spike**.
+  - **BBRI Q2 BEAT CONFIRMED POSITIVE** (H1 net +17.5% Rp 31.2T, ROE 18.8%, micro +0.68% QoQ inflection) + **KLM-rule Sep 1 T-0 effective (GWM 6% + PPU 2% liquidity boost)** = Big-4 banking sector UPGRADE cascade (BBRI 5→8, BBCA/BMRI 6→7, BBNI 4→6).
+  - **TLKM spectrum-win-PT-upgrade** (Samuel 2,900→3,300 Hold→Buy) = telco UPGRADE (TLKM 5→6, ISAT 4→5, EXCL 3→4).
+  - **MSCI Aug-31-effective-T-0 absorption POSITIVE Mon** (IHSG +0.11% + LQ45 +0.31% + $753M outflow domestic-buying-absorbed) = criterion (c) shifts NEGATIVE-LOCKED → PARTIAL-RESOLVED-POSITIVE (upgrade 0/5 → 0.20/5).
+  - **Warsh-hawkish partial-unwind** (US 10Y 4.72→4.63%; VIX 14.43 -0.6%) = criterion (a) partial-relief; IDR sub-17,750 Day-6 continuation firms +0.05/5.
+  
+- Re-entry gate scoring Tue Wk 20 Day 2 ≈ **0.75/5 (+0.25pp vs Mon 0.50/5, still deep in BINDING zone)**: 
+  - (a) 0.45/5 (+0.05pp Warsh-unwind partial + IDR sub-17,750 Day-6 firming, offset partially by Iran-US oil-import-bill spike)
+  - (b) 0/5 DQG Day 121 outage persists
+  - (c) 0.20/5 (+0.20pp MSCI-effective absorption POSITIVE Mon vindication)
+  - (d) 0.10/5 unchanged (Mon post-close indexing pending)
+  - (e) 0/5 untestable
+- Gap **4.25/5 BINDING**. **NO CHANGE to gate ACTIVATED status.**
+- **NEW binding overlay:** IRAN-US-MILITARY-EXCHANGE-Day-1 fresh binding (if escalates to Strait of Hormuz disruption or oil >$95 sustained 3+ sessions = criterion (a) IMMEDIATE reset to 0/5 + consumer sector full-downgrade cascade).
+- Position sizing adjustment: **N/A — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding**.
+
+### Flagged Risks
+
+- **URGENT — NEW: IRAN-US MILITARY EXCHANGE Day-1** — US strikes Larak Island + Iran retaliation missile strikes on US Jordan base = FIRST DIRECT EXCHANGE IN WEEKS; Brent +2.93% $90.69; if escalates to Strait of Hormuz shipping disruption = major EM cascade risk; url: https://www.globalbankingandfinance.com/oil-jumps-2-us-attack-irans-larak-island/
+- **IDR ~17,710 Aug 31 sub-17,750 Day-6 continuation BUT Aug 31 UP 0.46%** — Warsh-partial-unwound + Iran-US-oil-import-bill dual-pressure; INSTANT-REGRESSION-RISK PERSISTS Tue open.
+- **BBRI Q2 H1 net +17.5% Rp 31.2T CONFIRMED BEAT** — banking sector cascade UPGRADE overnight; BBRI 5→8 top-candidate + BBCA/BMRI/BBNI upgrade; url: https://www.investing.com/news/transcripts/earnings-call-transcript-bank-rakyat-indonesia-posts-strong-h1-2026-profit-growth-93CH-4883124
+- **KLM (BI Macroprudential Liquidity Instrument) rule Sep 1 T-0 effective** — GWM incentive to 6% of DPK + 2% PPU replacing interest-rate channel = banking sector liquidity boost tailwind.
+- **TLKM/ISAT/EXCL spectrum auction 700MHz+2.6GHz win** — Samuel Sekuritas upgraded TLKM PT 2,900→3,300 Hold→Buy; ISAT Buy PT 2,500; url: https://katadata.co.id/finansial/bursa/6a6089e780cf3/target-harga-saham-tlkm-isat-excl-usai-menang-lelang-frekuensi-700-mhz-2-6-ghz
+- **MSCI Aug-31-effective absorption POSITIVE Mon** — IHSG +0.11% full-day close 6,525.47 + LQ45 +0.31% = domestic-institutional-buying $753M outflow absorption vindication; criterion (c) partial-improvement.
+- **CPO recovery +1.62% to 4,894** — MPOC sees ≥RM4,600 Sept sustained; AALI/LSIP 5→6 upgrade.
+- **US 10Y 4.63% (-9bp vs Fri 4.72%)** — Warsh-hawkish partially unwound; VIX 14.43 down 0.6%; complacency intact.
+- **Newcastle coal $139.75 Day-6 sustained** — coal sector 2-strike EXITED PERSISTS per MISTAKES.md.
+- **ITMG JPM Sep interim dividend expected 65% ratio 8% yield candidate** — WATCH but MISTAKES-blocked.
+- **Property H1 2026 weakness confirmed** (BSDE -53%, PWON -11%, SMRA missed; CTRA in-line only) — sector caution beyond VAT extension.
+- **Indonesia Aug CPI release Sep 1** — expected within BI 1.5-3.5% target; July was 2.88%.
+- **DQG-Day-121 outage persists** — yfinance/GoAPI 121 sessions blocked; WebSearch multi-source override operational.
+- **First-BI-RDG-under-Destry Sep 17 T-2.5-weeks REINFORCED as regime-shift binary** — Warsh partial-unwind + BBRI Q2 beat = dovish-continuity path REINFORCED probability.
+- **IHSG re-weighting** — BBCA 9% (down from 9.53%); BMRI 5.64% (up from 5.40%); BBNI 1.89% (up from 1.85%) = passive-flow reallocation TODAY.
+
+### Plan for /market-open (Tue 2026-09-01 09:15 WIB — Wk 20 Day 2)
+
+- [ ] **Crisis-track engagement gate ACTIVATED persists (0.75/5, +0.25pp vs Mon).** 12 candidates ≥6/10 ALL PRE-BLOCKED (BBRI-8↑↑ / BBCA-7↑ / BMRI-7↑ / MIKA-7 / BBNI-6↑ / PGAS-6↑ / INCO-6 / MDKA-6 / TLKM-6↑ / CTRA-6 / AALI-6↑ / LSIP-6↑). **HOLD 100% CASH — 48th consecutive session no-position; Wk 20 Day 2 0/3 BUY-slot week continues.**
+- [ ] **BBRI Q2 beat + KLM-rule Tue open banking-sector-halo watch** — Big-4 basket direction sets Wk 20 Day 2 tone; if +2%+ sesi I sector rally, monitor for gate-scoring re-evaluation.
+- [ ] **Iran-US Brent-shock Day-1 monitoring** — if Brent >$92 sustained sesi I or Strait of Hormuz headline escalation, criterion (a) IDR pressure elevation triggers.
+- [ ] **IDR Tue open watch — sub-17,750 Day-7 continuation vs Aug 31 +0.46% up-day reversal risk** — Iran-US-oil-import-bill overlay + Warsh-partial-unwound dual-pressure.
+- [ ] **TLKM sesi I direction on Samuel Buy PT 3,300 upgrade** — TLKM-FADE-ON-BEAT pattern Day-20+ post-catalyst re-rate window observation opportunity (4th observation for MEDIUM promotion candidate).
+- [ ] **Indonesia Aug CPI release direction** — BI 1.5-3.5% target; deviation signals could shift first-BI-RDG-under-Destry Sep-17 T-2.5-weeks path.
+- [ ] **Foreign flow Tue full-day** — Mon MSCI-effective absorption POSITIVE vindication requires Tue foreign-net-BUY sequence start for criterion (d) 3-consec-BUY trigger.
+- [ ] **AALI/LSIP CPO-recovery + IDX80/IDXVESTA28 passive-flow Sep 1 T-0 concentrated TODAY** — monitoring absorption pattern; candidate re-scoring if MSCI-style absorption clean.
+- [ ] **Weekly-review Fri Sep 4 scheduler-verification** — 2nd consecutive miss recovery required per Wk 19 review lesson.
+
+---
