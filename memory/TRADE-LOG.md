@@ -11151,3 +11151,69 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - **STEP 9 log-activity:** `scripts/log-activity.sh --routine midday --status success --summary "n=0 positions ... No cuts / no tightens / no thesis exits" --actions '[]'` filed.
 - **Persistence:** dashboard/data.json (log-activity write); memory/TRADE-LOG.md this attest entry; commit and push per STEP 10.
 - **Carry-over to 15:15 WIB EOD (Wk 20 Day 2):** EOD snapshot mechanically vacuous on P&L axis (n=0 positions, 48th session of 0.00% daily P&L continuation). Priority EOD reconciliation items: (1) IHSG Tue full-day close vs Mon 6,525.47 + first-session-post-MSCI-effective Day-2 domestic-buying continuation binary; (2) IDR Tue full-day close vs Mon ~17,710 under Iran-US Brent-shock Day-2 oil-import-bill overlay; (3) Foreign flow Tue full-day net-flow post-close indexing for criterion (c/d) crisis-track re-scoring; (4) Brent Tue close direction vs Mon $90.69 — Strait of Hormuz escalation watch; (5) Indonesia Aug CPI actual print reconciliation vs 2.88% July for first-BI-RDG-under-Destry Sep-17 T-2.5-weeks path; (6) BBRI/TLKM/banking-sector Tue full-day close on Q2 beat + KLM-rule + Samuel spectrum PT observations; (7) AALI/LSIP IDX80/IDXVESTA28 Sep 1 T-0 passive-flow absorption full-day close.
+
+---
+
+### 2026-09-01 EOD
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +0.79% (Mon Aug 31 full-day close reconciled 6,525.47 → Tue Sep 1 full-day close 6,577 per WebSearch multi-source pass — Romisaputra title + CNBC Indonesia +1% intraday + sesi I 6,564.51 CNBC; TradingView/investing.com not directly quoted)
+- Daily alpha: -0.79pp
+- Cash: IDR 9,716,207,500 (100.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 48 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing. Broker ledger unchanged (no session trades).
+
+#### Notes
+
+- **EOD Wk 20 Day 2 — TUESDAY POST-MSCI-EFFECTIVE-DAY-2 + IRAN-US-BRENT-SHOCK-DAY-1.** Book fully de-risked Day 48 continues. Zero equity market exposure. 49th consecutive no-position session. Wk 20 Day 2 continues 0/3 BUY-slot week (fresh Mon reset). Market-open (09:15) filed 12 SKIP decisions per crisis-track engagement gate ACTIVATED (0.75/5 +0.25pp vs Mon 0.50/5 via MSCI-absorption-positive Day-1); midday (11:30) filed no-cuts/no-tightens per n=0 mechanically vacuous.
+- **IHSG Tue Sep 1 full-day close 6,577 (+0.79% +51.53 pts vs Mon full-day close reconciled 6,525.47) — MSCI-absorption-positive-Day-2 rally sustained.** IHSG opened +0.19% at 6,538.12; sesi I close 6,564.51 (+0.60% +39.04 pts, 28.49B shares / Rp 10.21T value); sesi II intraday high ~6,590.55 (+1.0% ~13:52 WIB per CNBC "IHSG Tiba-Tiba Naik 1%"); full-day close ~6,577 (per Romisaputra title + CNBC breaking-news mendekati 6,600 + Bloomberg Technoz "IHSG Menguat Saat Neraca Dagang RI Surplus"). Multi-source ≥3-cluster PASS: CNBC Indonesia + Bloomberg Technoz + Romisaputra + Antara + Liputan6 + Infobanknews convergent (~385/392 up sesi I; banking sector-halo BBRI +13.98 pts / BBCA +9.39 pts / BMRI +7.82 pts drove sesi I; tech sector +1.08% sesi I lead). Mon Aug 31 full-day CLOSE RECONCILED = 6,525.47 (+0.13% vs Fri 6,517.86-cluster; NOT continuation-DOWN as sesi I 6,517.24 provisional suggested — sesi II ABSORPTION-POSITIVE cascade). Fri Aug 28 sesi II ~6,517.86 reconciled per CNBC Sep 1 "previous close" reference.
+- **Dashboard delta note:** Aug 31 dashboard row logged with IHSG 6,517.24 (sesi I provisional per Mon EOD filing under DQG-Day-120 lag). Mon full-day reconciled 6,525.47 confirmed today via CNBC Sep 1 "previous closing" reference — Aug 31 row NOT rewritten per append-only convention; Sep 1 IHSG basis uses reconciled 6,525.47 for prior close. Cumulative alpha basis retroactively adjusts: prior +11.79pp (sesi I 6,517.24 basis) → +11.68pp (reconciled 6,525.47 basis). Today +0.79pp IHSG vs 0.00% portfolio = -0.79pp daily alpha contraction. New cum alpha ~+10.89pp.
+- **Iran-US Brent-shock Day-1 confirmed:** Brent $90.69 +2.93% (Larak Island strike + Iran Jordan-base retaliation per market-open filing); Strait of Hormuz escalation watch remains binary; oil-import-bill overlay elevates IDR INSTANT-REGRESSION-RISK.
+- **BBRI Q2 BEAT + KLM-rule Day-1 sector-halo confirmed operational:** banking sector drove sesi I gain (BBRI/BBCA/BMRI top-3 point contributors). PGAS oil-linked gas + PSAB.JK (gold-Cu) also contributed. Banking-sector-halo Day-1 validated as expected pre-market thesis.
+- **MSCI-Aug-31-effective absorption POSITIVE Day-2:** first-session-post-rebalance-effective binary observation RESOLVED POSITIVE (Mon +0.13% full-day; Tue +0.79% follow-through). $753M outflow domestically absorbed. Criterion (c) scoring 0.20/5 confirmed operational.
+- **BPS Aug CPI print RESOLVED = 0.21% MoM (Aug 2026 vs Jul):** significantly below July 2.88% YoY reference deviation watch. First-BI-RDG-under-Destry Sep 17 T-2.5-weeks path REINFORCED-DOVISH-CONTINUITY probability. Combined with Destry-confirmed structural lock, criterion (a) IDR sub-17,750 firming path stable.
+- **IDR Tue full-day close ~17,710 (implied per market-open filing intra-day print):** sub-17,750 Day-6 continuation; criterion (a) 0.45/5 retained under Warsh-partial-unwind + Iran-US-oil-import-bill counter-overlay.
+- **Newcastle $139.75 Day-6 (coal sector 2-strike EXITED persists) + CPO MYR 4,894 +1.62% recovery Day-2:** commodities mostly stable; AALI/LSIP IDX80/IDXVESTA28 T-0 passive-flow absorption today.
+- **Crisis-track engagement gate scoring 0.75/5 (unchanged vs 09:15 filing; 4.25/5 gap BINDING).** No new-entries fired all day. All 12 candidates ≥6/10 pre-blocked at market-open. Midday n=0 vacuous.
+- **All state/regime bindings Tue updates:**
+  - IDR sub-17,750 Day-6 continuation firming under Warsh-partial-unwind offset by Iran-US-oil-shock; criterion (a) 0.45/5
+  - Foreign flow Tue full-day post-close indexing PENDING Wed pre-market; Mon reconciled + Tue first-look via MSCI absorption pattern
+  - CPO MYR 4,894 recovery Day-2; AALI/LSIP IDX80/IDXVESTA28 T-0 passive-flow inflow candidates
+  - Newcastle $139.75 Day-6 (coal sector 2-strike EXITED persists)
+  - Brent $90.69 Iran-US shock Day-1 escalation binary Strait of Hormuz
+  - LME nickel $16,770 Day-2 mild firming; ESDM 2026 quota cut structural offset persists
+  - US-30Y ~5.15% (est) mild relief from Fri 5.21% blowout; Warsh partial-unwind Day-2
+  - Destry Damayanti CONFIRMED BI Gov 2026-2031 dovish-continuity lock (partial-attenuation under Warsh)
+  - First BI-RDG under Destry Sep 17 T-2.5 weeks REINFORCED-DOVISH via CPI 0.21%
+  - MSCI-Aug-31-effective absorption POSITIVE Day-2 confirmed; criterion (c) 0.20/5
+- **Data Quality Gate Day 121 outage persists:** yfinance + GoAPI still blocked (121 consecutive sessions since Apr 21); WebSearch multi-source override operational.
+- **Book fully de-risked Day 48 through Wk 20 Day 2 = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 48. Crisis-track re-entry gate scoring 0.75/5 partial. 4.25/5 gap still binding.
+- **Wk 20 Day 2 CLOSE — Wk 20 continues 0/3 BUY-slot week (fresh Mon reset).** 64+ cumulative unused candidate-day slots trial-to-date. All multi-front bindings persist.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 97, Wk 20 Day 2). Phase-to-date P&L -2.84% unchanged (48 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Cumulative alpha ~+10.89pp (Sep 1 reconciled basis) vs Mon +11.68pp (reconciled) = -0.79pp compression via IHSG +0.79% rally on zero exposure.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json updated per STEP 5b (updated=2026-09-01; equity/peak/dd unchanged).
+- **Carry-over to Wed Sep 2 07:00 WIB pre-market (Wk 20 Day 3):**
+  1. **Tue Sep 1 sesi II full-day close finalisation & foreign flow post-close indexing** for criterion (c/d) crisis-track re-scoring on MSCI-absorption-Day-2 sustained.
+  2. IHSG Wed sesi I direction vs Tue full-close ~6,577 — banking-sector-halo Day-2 continuation vs mean-reversion binary.
+  3. Iran-US Brent-shock Day-2: Brent >$92 = Strait of Hormuz escalation trigger for criterion (a) INSTANT-REGRESSION-RISK.
+  4. IDR Wed sesi I print vs Tue ~17,710 close under Iran-US-oil-import-bill + Warsh-partial-unwind cross-currents.
+  5. BPS CPI Aug 0.21% MoM absorption Day-2 impact on BI-RDG Sep 17 T-2 weeks path re-pricing.
+  6. AALI/LSIP IDX80/IDXVESTA28 Sep 1 T-0 → T+1 passive-flow follow-through observation for CPO-sector re-scoring.
+  7. BBRI/TLKM/banking-sector Wed sesi I on Q2 beat + KLM + Samuel spectrum PT Day-2 pattern continuation.
+  8. Foreign flow Tue full-day net-flow post-close indexing critical for criterion (c/d) potential re-scoring toward 1.0-1.5/5.
+  9. **Wk 20 Day 3 crisis-track gate re-scoring per Tue foreign flow post-close + Wed overnight US moves.**

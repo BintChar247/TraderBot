@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47-Wk20-Day1-CLOSE-IHSG-Mon-sesi-I-6517.24-(-0.48pct-vs-Fri-sesi-I-6548.85)-CONTINUATION-DOWN-cum-alpha-+11.79pp-sesi-I-basis-vs-Fri-sesi-I-basis-+11.38pp-net-+0.41pp-EXPANSION-Book-de-risked-Day-47-100pct-cash-Wk20-fresh-0-of-3-BUY-slot-week-IDR-STAGE-5-Day46-SUB-17750-Day-5-INSTANT-REGRESSION-RISK-WARSH-JH-HAWKISH-CONFIRMED-Day-1-post-Fri-21WIB-keynote-S&P--0.25pct-Nasdaq--0.52pct-DESTRY-CONFIRMED-BI-GOV-2026-2031-dovish-continuity-structural-lock-partial-attenuation-under-Warsh-overlay-MSCI-Aug-31-EFFECTIVE-T-0-close-window-$753M-outflow-concentrated-15:15WIB-Newcastle-$139.75-rally-Day-5-narrative-shift-BUT-coal-sector-2-strike-EXITED-CPO-MYR-4859-Day-12-BRENT-$88.29-Day-12-Data-Quality-Gate-Day-120-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.50-of-5",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY48-Wk20-Day2-CLOSE-IHSG-Tue-full-close-6577-(+0.79pct-vs-Mon-reconciled-6525.47)-MSCI-Aug-31-EFFECTIVE-ABSORPTION-POSITIVE-Day-2-sustained-cum-alpha-+10.89pp-reconciled-basis-vs-Mon-+11.68pp-net--0.79pp-COMPRESSION-Book-de-risked-Day-48-100pct-cash-Wk20-Day-2-0-of-3-BUY-slot-week-IDR-STAGE-5-SUB-17750-Day-6-INSTANT-REGRESSION-RISK-under-Iran-US-oil-import-bill-IRAN-US-BRENT-SHOCK-Day-1-Brent-$90.69-Larak-Island-strike-Iran-Jordan-retaliation-WARSH-JH-HAWKISH-PARTIAL-UNWIND-Day-1-US-10Y-4.72-to-4.63pct-VIX-14.43-DESTRY-CONFIRMED-BI-GOV-2026-2031-structural-dovish-continuity-lock-BPS-Aug-CPI-0.21pct-MoM-first-BI-RDG-Sep-17-T-2.5-weeks-REINFORCED-DOVISH-BBRI-Q2-BEAT-H1-+17.5pct-Rp-31.2T-KLM-BANK-INCENTIVE-RULE-EFFECTIVE-T-0-TLKM-SPECTRUM-WIN-SAMUEL-PT-3300-BUY-Newcastle-$139.75-Day-6-coal-sector-2-strike-EXITED-persists-CPO-MYR-4894-+1.62pct-recovery-Day-2-AALI-LSIP-IDX80-IDXVESTA28-T-0-passive-flow-Data-Quality-Gate-Day-121-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.75-of-5-4.25-gap-BINDING",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-08-31"
+  "updated": "2026-09-01"
 }

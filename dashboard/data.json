@@ -1482,6 +1482,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 20 Day 1 CLOSE. Book fully de-risked Day 47 continues, 100% cash IDR 9,716,207,500. IHSG sesi I 6,517.24 (-0.01% -0.88 pts vs Fri sesi I provisional 6,548.85); MSCI-effective-T-0 $753M outflow concentrated 15:15 WIB close-window elevates sesi II cascade-DOWN risk per DQG-Day-120 dual-variant sesi-II-lag pattern; Tue Sep 1 pre-market reconciliation critical. Multi-source canonical PASS: CNBC Indonesia+Infobanknews+Berita Moneter+Bloomberg Technoz+Media Indonesia+Kompas. Warsh Jackson Hole HAWKISH-LEAN Day-1 confirmed (S&P -0.25%/Nasdaq -0.52% Fri reaction; US-30Y 5.21% blowout persists). IDR sub-17,750 Day-5 at INSTANT-REGRESSION-RISK. Destry Damayanti CONFIRMED BI Gov 2026-2031 (partial-attenuation under Warsh overlay). Crisis-track engagement gate 0.50/5 (regressed -0.15pp vs Fri 0.65/5). Wk 20 fresh 0/3 BUY-slot week. Cumulative alpha +11.79pp sesi I basis vs Fri sesi I basis +11.38pp = +0.41pp expansion via IHSG sesi I continuation-DOWN. Risk alerts: NONE. Market-open filed 8 SKIP decisions (MIKA-7 + BBCA/BMRI/CTRA/INCO/MDKA/NCKL/MYOR-6); midday no-action per n=0 mechanically vacuous."
+    },
+    {
+      "date": "2026-09-01",
+      "day_label": "Day 97",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6577.0,
+      "ihsg_cumulative_pct": -13.85,
+      "alpha_pct": 11.01,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 20 Day 2 CLOSE. Book fully de-risked Day 48 continues, 100% cash IDR 9,716,207,500. IHSG Tue full-day close ~6,577 (+0.79% +51.53 pts vs Mon reconciled full-day 6,525.47) \u2014 MSCI-Aug-31-effective absorption POSITIVE Day-2 rally sustained. Sesi I 6,564.51 (+0.60%, CNBC); sesi II intraday high ~6,590 (+1.0% ~13:52 WIB, CNBC Breaking News); full-day ~6,577 per Romisaputra + Bloomberg Technoz \"neraca dagang RI surplus\" + Antara + Liputan6 + Infobanknews multi-source cluster PASS. Mon Aug 31 full-day close RECONCILED = 6,525.47 (+0.13% vs Fri 6,517.86) \u2014 sesi II ABSORPTION-POSITIVE cascade vs sesi I 6,517.24 provisional. Iran-US Brent-shock Day-1 (Brent $90.69 +2.93%; Larak Island strike + Iran Jordan retaliation). BBRI Q2 BEAT + KLM-rule Day-1 sector-halo operational (banking top-3 point contributors sesi I). BPS Aug CPI 0.21% MoM RESOLVED \u2192 first-BI-RDG-Sep-17 T-2.5 weeks REINFORCED-DOVISH. IDR sub-17,750 Day-6 continuation ~17,710 (INSTANT-REGRESSION-RISK under Iran-US-oil-import-bill counter-overlay). Warsh-JH-hawkish partial-unwind Day-1 (US 10Y 4.72\u21924.63%, VIX 14.43). Destry CONFIRMED BI Gov 2026-2031 structural dovish-continuity lock. Crisis-track engagement gate 0.75/5 (+0.25pp vs Mon 0.50/5; 4.25/5 gap BINDING). Wk 20 Day 2 0/3 BUY-slot week (fresh Mon reset). Cumulative alpha ~+10.89pp (reconciled basis) vs Mon +11.68pp = -0.79pp compression via +0.79% IHSG rally on zero exposure. Risk alerts: NONE. Market-open filed 12 SKIP decisions; midday no-action per n=0 mechanically vacuous."
     }
   ],
   "positions": [],
@@ -22434,46 +22450,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-26T02:21:10Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Fri Jun 26 (Week 10 Day 5 final). 4 candidates evaluated (UNVR/BBCA/TLKM/BMRI), all SKIPPED: UNVR Gate 9 chase cap fail + Brent not sub-$70 (cond iv); BBCA R:R 1.87:1 fails 2:1 minimum at cluster 5,925-6,000; TLKM Data Quality Gate fails (cluster \u226525% spread); BMRI cascading conditional fail. KLBF held; trailing 931 GTC re-armed; cluster Day 65 non-convergence persists. Week 10 final 0/3 = 7th consecutive 0/3 week (18 unused slots Wks 6-10).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Gate 9 chase cap fail (1,765 vs \u22641,690 = +4.4%); Brent not sub-$70 sustained"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "R:R 1.87:1 at cluster 5,925-6,000 < 2:1 min"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Data Quality Gate fails (cluster \u226525% spread)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "Cascading conditional fail (BBCA SKIP + foreign re-flip unmet)"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price override used (yfinance Day 65 blocked); cluster non-convergent on TLKM"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR ARMED-WATCH 17,954 vs 17,950 cascade kill-switch (1 of 2 sessions pierce)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification fallback to stdout (proxy 403)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-26T04:35:51Z",
       "routine": "midday",
       "status": "warning",
@@ -27089,6 +27065,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions. Midday mechanically vacuous. Book 100% cash Day 49 (49th consecutive no-position session). No cuts / no tightens / no thesis exits."
+    },
+    {
+      "timestamp": "2026-09-01T08:22:49Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk20 Day2: IDR 9.716B (0.00% today). IHSG +0.79% \u2192 -0.79pp daily alpha. Cum alpha +11.01pp. 0 positions, 100% cash. Trades week 0/3. Crisis-track gate 0.75/5 binding.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 97 EOD snapshot committed; Mon full-day IHSG reconciled 6,525.47; Tue full-day close ~6,577"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -27143,7 +27131,7 @@
     "candidates_status": "7 candidates \u22656/10 (MIKA-7 sole HIGH-defensive / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); ALL 7 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. NET vs Fri Wk 19 close: 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926 on Warsh-hawkish rate-sensitive; BBRI/KLBF/BSDE 6\u21925 on same overlay) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally). Coal-sector re-eval NOT triggered (2-strike EXITED persists per MISTAKES.md).",
     "top_candidates_deep_dive_count": 4
   },
-  "last_updated": "2026-08-31T08:21:21Z",
+  "last_updated": "2026-09-01",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
