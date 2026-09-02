@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY48-Wk20-Day2-CLOSE-IHSG-Tue-full-close-6577-(+0.79pct-vs-Mon-reconciled-6525.47)-MSCI-Aug-31-EFFECTIVE-ABSORPTION-POSITIVE-Day-2-sustained-cum-alpha-+10.89pp-reconciled-basis-vs-Mon-+11.68pp-net--0.79pp-COMPRESSION-Book-de-risked-Day-48-100pct-cash-Wk20-Day-2-0-of-3-BUY-slot-week-IDR-STAGE-5-SUB-17750-Day-6-INSTANT-REGRESSION-RISK-under-Iran-US-oil-import-bill-IRAN-US-BRENT-SHOCK-Day-1-Brent-$90.69-Larak-Island-strike-Iran-Jordan-retaliation-WARSH-JH-HAWKISH-PARTIAL-UNWIND-Day-1-US-10Y-4.72-to-4.63pct-VIX-14.43-DESTRY-CONFIRMED-BI-GOV-2026-2031-structural-dovish-continuity-lock-BPS-Aug-CPI-0.21pct-MoM-first-BI-RDG-Sep-17-T-2.5-weeks-REINFORCED-DOVISH-BBRI-Q2-BEAT-H1-+17.5pct-Rp-31.2T-KLM-BANK-INCENTIVE-RULE-EFFECTIVE-T-0-TLKM-SPECTRUM-WIN-SAMUEL-PT-3300-BUY-Newcastle-$139.75-Day-6-coal-sector-2-strike-EXITED-persists-CPO-MYR-4894-+1.62pct-recovery-Day-2-AALI-LSIP-IDX80-IDXVESTA28-T-0-passive-flow-Data-Quality-Gate-Day-121-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.75-of-5-4.25-gap-BINDING",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY50-Wk20-Day3-CLOSE-IHSG-Wed-full-close-6581.44-(-0.28pct-vs-Tue-reconciled-6599.94)-BANKING-HALO-Day-2-MEAN-REVERSION-CONFIRMED-TECH-+3.83pct-LONE-GAINER-Tue-Sep-1-full-close-RECONCILED-6599.94-(NOT-6577-provisional)-DQG-Day-119-lag-CONFIRMED-cum-alpha-+10.95pp-reconciled-basis-vs-Tue-reconciled-+10.60pp-net-+0.35pp-EXPANSION-Book-de-risked-Day-50-100pct-cash-Wk20-Day-3-0-of-3-BUY-slot-week-INDONESIA-AUG-CPI-3.19pct-YoY-CORE-2.92pct-HAWKISH-INFLECTION-Day-1-above-consensus-3.13pct-US-10Y-4.80pct-BLOWOUT-RETURN-Warsh-partial-unwind-ERASED-Day-1-IRAN-US-BRENT-SHOCK-Day-2-$91.28-Strait-of-Hormuz-supertanker-fire-CPO-MYR-4973-+7.45pct-BREAKOUT-Day-1-AALI-LSIP-6-to-7-sole-tailwind-ASII-IDR-2T-buyback-Day-1-4-to-5-upgrade-watch-IDR-STAGE-5-SUB-17750-Day-6-REGRESSION-RISK-Day-1-forecast-17746-17797-DESTRY-CONFIRMED-BI-GOV-2026-2031-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-first-BI-RDG-Sep-17-T-2-weeks-PATH-QUESTIONED-Data-Quality-Gate-Day-122-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-of-5-DEEPENED-4.35-gap-BINDING",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-01"
+  "updated": "2026-09-02"
 }
