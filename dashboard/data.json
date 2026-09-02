@@ -22940,42 +22940,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-29T00:14:37Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 11 Day 1 scan. 50 tickers screened. 4 candidates >=6: UNVR (7, MNC TOP PICK CPI-relief), LSIP (7, NEW B50 Jul 1 tailwind), BBCA (6, R:R marginal), AALI (6, MSCI-SC headwind). KLBF HOLD Day 66 non-convergence. Brent -4.34% to $71.99 sustains UNVR thesis. IDR 17,954 ARMED-WATCH cascade kill-switch.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 7/10 - MNC TOP PICK Spec Buy 1675-1685 TP 1885-2000; R:R 2.62:1 PASSES"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 - NEW B50 Jul 1 structural CPO tailwind; R:R fails at zone midpoint"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 - post-MSCI Day 3 mean-reversion; R:R 2.01:1 marginal"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD Day 66 cluster non-convergence; trailing 931 GTC armed"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-06-29T02:22:44Z",
       "routine": "market-open",
       "status": "warning",
@@ -27646,6 +27610,12 @@
           "detail": "DQG Day 122 outage persists; WebSearch multi-source override operational"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-02T04:36:20Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Wk 20 Day 3 Wed midday scan: 0 positions (50th consecutive session 100% cash). No sell-side rules triggered; no thesis checks required."
     }
   ],
   "exposure": {
