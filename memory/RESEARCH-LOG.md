@@ -23076,3 +23076,239 @@ Data infra: DQG-Day-121 outage persists (yfinance/GoAPI 121 consecutive sessions
 - [ ] **Weekly-review Fri Sep 4 scheduler-verification** — 2nd consecutive miss recovery required per Wk 19 review lesson.
 
 ---
+
+## 2026-09-02 (Wednesday) — Wk 20 Day 3 — **US-10Y-BLOWOUT-RETURN-4.80%** + **INDONESIA-CPI-AUG-3.19%-YoY-CORE-2.92%-HIGHEST-SINCE-MAR23-HAWKISH-SIGNAL** + **CPO-BREAKOUT-4,973-MYR-+7.45%-DAY-1** + **ASII-IDR-2T-BUYBACK-FRESH-CATALYST** + **IHSG-TUE-6,599.94-+1.14%-BANKING-HALO-RALLY**
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,631.47 (Sep 1) | -0.71% | Oil-shock + bond-sell-off headwind; url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-1-2026 |
+| Nasdaq | 26,099.77 (Sep 1) | -1.03% | Tech leads selling; growth-de-rating on 30Y blowout return |
+| Dow | 52,766.88 (Sep 1) | -0.79% | -419 pts; renewed Iran-oil-shock overlay |
+| Shanghai Composite | n/a | pending | Wed fresh open |
+| Hang Seng | n/a | pending | Wed fresh open |
+| Nikkei 225 | n/a | pending | Wed fresh open |
+| VIX | 14.92 (Aug 31) → est ~15.5 (Sep 1) | +est +0.4 | Complacency mild-erosion; still sub-16 |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | **6,599.94 (Tue Sep 1 full close)** | **+1.14% intraday** | Banking-halo rally on BBRI-Q2-beat + KLM-rule-Sep-1-effective + MSCI-absorption-Day-2; Rikopedia/Romisaputra multi-source cluster; approaching resistance 6,600-6,705; url: https://www.romisaputra.com/2026/09/prediksi-ihsg-dan-rekomendasi-saham-rabu-2-september-2026.html |
+| IDR/USD | **~17,746 (Sep 2 forecast) ~17,797 est mid** | +0.5% flip **ABOVE 17,750 RISK** | **CRITICAL: Sub-17,750 Day-6 continuation RISK-FLIPPED via US-10Y-4.80% blowout return + Indonesia-CPI-3.19% hawkish print**; criterion (a) 0.45/5 REGRESSION-RISK-Day-1; url: https://30rates.com/usd-to-idr-today-forecast-dollar-indonesian-rupiah |
+| Indo 10Y SUN yield | ~6.85 (est) | +5bp | Fresh Tue quote pending; US-30Y-blowout spillover |
+| US 10Y yield | **4.80% (Sep 1)** | **+8bp vs Fri 4.72%; +17bp vs Tue 4.63% est prior-filing** | **CRITICAL: Warsh-partial-unwind ERASED via bond sell-off; blowout return crisis-level**; url: https://tradingeconomics.com/united-states/government-bond-yield |
+| US 30Y yield | ~5.25 (est) | +5bp | Structural blowout persists; 2007-comparable |
+| Indo-US spread | ~205 bp est | flat | Structural CAD $12.5B overlay + hawkish-US persists |
+| Newcastle coal (USD/ton) | $129.75 (Aug 28 basis) | flat sub-$130 | 10th consec wk sub-$130; sector-2-strike EXITED persists; url: https://tradingeconomics.com/commodity/coal |
+| CPO palm oil (MYR/ton) | **4,973 (Sep 1)** | **+7.45% Day-1 BREAKOUT** | **MAJOR: Breakout above Aug-21 4,990 peak proximity; AALI/LSIP MAJOR UPGRADE candidate**; url: https://tradingeconomics.com/commodity/palm-oil |
+| LME nickel (USD/ton) | $16,770 (Aug 31) | flat | Static Day-3; ESDM 2026 quota-cut structural; url: https://tradingeconomics.com/commodity/nickel |
+| **Brent crude (USD/bbl)** | **$91.28 (Sep 1)** | **+0.87% Iran-US Day-2** | Strait of Hormuz supertanker fire; PGAS/MEDC oil-linked +; consumer margin renewed headwind; url: https://tradingeconomics.com/commodity/brent-crude-oil |
+| **Indonesia Aug CPI** | **3.19% YoY / 0.21% MoM / core 2.92%** | **+31bp YoY vs Jul 2.88%; core highest since Mar 2023** | **CRITICAL HAWKISH: Above 3.13% consensus; inflation resurgence signal; first-BI-RDG-under-Destry Sep 17 dovish-continuity IN-QUESTION**; url: https://www.indonesia-investments.com/news/todays-headlines/indonesian-inflation-rises-to-3.19-in-august-2026/item10027 |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | Tue Sep 1 pending post-close indexing | MSCI-absorption Day-2 validation; Wed pre-market cluster to confirm |
+| Foreign flow streak | Criterion (d) 0.20/5 pending Tue post-close indexing → potential 0.30-0.40/5 if 2-consec net-BUY confirms | Fresh 3-consec required for full criterion (d) satisfaction |
+| YTD foreign outflow cumulative | ~Rp 70T ($3.8B) YTD (persist "Sell Indonesia") | +Rp 11T Aug alone; structural overlay |
+| MSCI-effective absorption ($753M) | ABSORBED CLEANLY Mon + Tue continuation | criterion (c) 0.20/5 confirmed partial-vindication |
+
+### Sector Momentum (post-CPI-hawkish + US-10Y-blowout + CPO-breakout overlays)
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Downgrade-bias (Tue post-rally profit-taking risk) | **CPI-3.19%/core-2.92%-hawkish INVERTS BI-RDG-Sep17 dovish-continuity narrative → banking peak-rate-cut-cycle overhang re-emerges**; Tue rally +1.14% IHSG-banking-led fully-absorbed | BBRI/BBCA/BMRI/BBNI 7-8→6-7 downgrade watch |
+| Coal / Energy | Sector-EXITED persists Day-121 | Newcastle sub-$130 10th consec wk; 2-strike rule PERSISTS | ADRO/ITMG/PTBA all SKIP |
+| Nickel / Mining | Flat persistent | LME $16,770 flat Day-3; HPM new reg supportive | ANTM/INCO/MDKA/NCKL/MBMA |
+| **CPO / Agri** | **MAJOR UPGRADE** | **CPO +7.45% BREAKOUT to 4,973 Sep 1 above Aug-21 4,990 peak proximity; IDXVESTA28/IDX80 passive-flow continuation** | **AALI/LSIP 6→7 UPGRADE** |
+| Property | Downgrade persists | H1 weakness (BSDE -53%, PWON -11%, SMRA missed); VAT extension partial-offset | CTRA WATCH; BSDE/PWON/SMRA SKIP |
+| Consumer | Downgrade (Iran-US Day-2 + CPI hawkish dual-vector) | Brent $91.28 Day-2 margin renewed + CPI food/gold-driven hawkish print | ICBP/INDF/MYOR/UNVR 4-5→3-4 |
+| Telco | Upgrade | TLKM 2,580 IDR Samuel PT 3,300 Buy upgrade; TLKM-FADE Days 21+ post-catalyst re-rate window | TLKM 6/ISAT 5/EXCL 4 |
+| Infrastructure | Downgrade | US-10Y-blowout return = rate-sensitive negative | JSMR/WSKT/PTPP SKIP |
+| Auto/Industrial | **Fresh CATALYST — buyback** | **ASII IDR 2T buyback announcement fresh-catalyst; MSCI-Std retention 9-stock basket** | ASII 4→5 UPGRADE (buyback + MSCI) |
+
+### Corporate Calendar Today (Wed Sep 2)
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **Indonesia Aug CPI actual print RESOLVED = 3.19% YoY (>3.13% consensus HAWKISH)** | Broad | Overnight print | **CRITICAL: Core 2.92% highest since Mar 2023; BI-RDG-Sep17-dovish-continuity narrative IN-QUESTION** |
+| **ASII IDR 2T share buyback announcement** | ASII | Overnight | Fresh CATALYST; +0.5-1% target absorption expected |
+| BEI Pubex Live 2026 program Sep 7-11 (BBCA/TLKM/ASII/AKRA) | Broad | T+5 window | Sep 8 AKRA 09:00-10:00 WIB; forward calendar |
+| CPO Sep contract 4,680 MYR settlement watch | AALI/LSIP | Ongoing | Spot 4,973 +7.45% BREAKOUT confirms bull-thesis |
+| TLKM Extraordinary Shareholders' Meeting Sep 30, 2026 | TLKM | T+28 forward | Fully-online RUPS scheduled |
+
+### Watchlist Scan — All 50 Tickers (Wk 20 Day 3 — post-CPI-hawkish + US-10Y-blowout + CPO-breakout + ASII-buyback overlays)
+
+Data infra: DQG-Day-122 outage persists (yfinance/GoAPI 122 consecutive sessions blocked ALL 50 tickers HTTP 403; WebSearch multi-source override operational). Prices reflect Tue Sep 1 EOD basis unless noted.
+
+**Two-track scoring** per TRADING-STRATEGY.md.
+
+| # | Ticker | Sector | Price (Tue close est) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | ~9,325 (Tue est) | +0.5% | **6 (DOWN 7→6)** | CPI-hawkish INVERTS BI-dovish; post-rally profit-taking risk; BEI weight-cut 9.53→9.00% absorbed | WATCH (gate-blocked) |
+| 2 | BBRI | Banking | ~3,220 (Tue est) | +1.3% | **7 (DOWN 8→7)** | Q2 BEAT+17.5% RESOLVED-POSITIVE-LOCKED; KLM-rule-Day-1 tailwind; CPI-hawkish downgrade offset | CANDIDATE (gate-blocked) |
+| 3 | BMRI | Banking | ~4,220 (Tue est) | +1.0% | **6 (DOWN 7→6)** | Cheapest Big-4; BEI weight +5.64%; H1 +24.19% strongest Big-4; CPI downgrade | CANDIDATE (gate-blocked) |
+| 4 | BBNI | Banking | ~3,730 (Tue est) | +0.8% | **5 (DOWN 6→5)** | OCBC Buy PT +34%; H1 +5.53%; KLM+; CPI downgrade | WATCH (gate-blocked) |
+| 5 | BNGA | Banking | — | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 6 | NISP | Banking | — | — | 3 | Non-Big-4 low-catalyst | SKIP |
+| 7 | BBTN | Banking | — | — | 3 | Property-mortgage rate-sensitive under US-10Y-blowout return | SKIP |
+| 8 | ADRO | Coal | — | — | 3 (DOWN 4→3) | Newcastle sub-$130 10th consec wk; sector 2-strike EXITED PERSISTS | SKIP (sector-exit) |
+| 9 | ITMG | Coal | ~26,675 (Sep-basis) | flat | 5 | JPM Sep interim dividend expected; MISTAKES.md 2026-05-18 flag PERSISTS | WATCH (MISTAKES-blocked) |
+| 10 | PTBA | Coal | — | — | 3 (DOWN 4→3) | State-owned; sector EXITED persists | SKIP |
+| 11 | BUMI | Coal | — | — | 3 | Small-cap; sector EXITED | SKIP |
+| 12 | HRUM | Coal | — | — | 3 | Nickel-coal hybrid; sector EXITED | SKIP |
+| 13 | MEDC | Energy/O&G | — | — | 5 | Iran-US Brent Day-2 $91.28 O&G upstream indirect + | WATCH |
+| 14 | PGAS | Gas/Energy | — | — | **6 (HOLD)** | Brent $91.28 Day-2 oil-linked gas pricing tailwind; Abadi LNG HoA 18+ wks stale | CANDIDATE (gate-blocked) |
+| 15 | ANTM | Nickel/Gold | — | — | 5 | LME $16,770 Day-3 flat; gold-floor persistent; HPM new reg + | WATCH |
+| 16 | INCO | Nickel | — | — | 6 | Rikopedia top pick; matte pure-play; HPM regulation + | CANDIDATE (gate-blocked) |
+| 17 | MDKA | Nickel/Cu/Au | — | — | 6 | MoM momentum; gold floor + Cu; MEDIUM conviction basket | CANDIDATE (gate-blocked) |
+| 18 | NCKL | Nickel | — | — | 5 | HPAL/MHP; IDX80-add T-0 absorbed; HPM + | WATCH |
+| 19 | MBMA | Nickel | — | — | 5 | HPAL/MHP peer; analyst top-pick candidate | WATCH |
+| 20 | TINS | Tin | — | — | 2 | Small-cap; foreign top-sold historic | SKIP |
+| 21 | UNVR | Consumer | — | — | 3 | Brent Day-2 + CPI hawkish margin double-headwind | SKIP |
+| 22 | ICBP | Consumer | — | — | 4 | Q2 core +50.6% offset by Brent-Day-2 + CPI hawkish | WATCH |
+| 23 | INDF | Consumer | — | — | 4 | Brent Day-2 + CPI hawkish; sole 2026 net-inflow YTD offset | WATCH |
+| 24 | MYOR | Consumer | — | — | 4 (DOWN 5→4) | Brent+CPO stack REVERSED via CPO +7.45%; input-cost hit; USD-hedge 40% exports partial | WATCH |
+| 25 | SIDO | Consumer | — | — | 3 | Non-LQ45; MoM weak | SKIP |
+| 26 | TLKM | Telco | ~2,580 (Sep-basis) | flat | **6 (HOLD)** | Samuel PT 3,300 Buy upgrade; TLKM-FADE Days 21+ post-catalyst re-rate window OPENS; pattern 4th observation opportunity | CANDIDATE (gate-blocked) |
+| 27 | EXCL | Telco | — | — | 4 | Spectrum win 2.6GHz; Samuel Hold PT 2,700 | WATCH |
+| 28 | ISAT | Telco | — | — | 5 | Spectrum win + Samuel Buy PT 2,500 | WATCH |
+| 29 | MTEL | Telco/Tower | ~460 (Sep-basis) | -1.29% | 3 | Low-catalyst tower yield-play | SKIP |
+| 30 | TOWR | Telco/Tower | — | — | 3 | Tower yield-play; low-catalyst | SKIP |
+| 31 | BSDE | Property | — | — | 3 (DOWN 4→3) | H1 -53% YoY WEAK; VAT ext partial; US-10Y-blowout rate-sensitive negative | SKIP |
+| 32 | CTRA | Property | — | — | 5 (DOWN 6→5) | Best VAT-play TP 1,300; H1 in-line; US-10Y-blowout rate-sensitive downgrade | WATCH |
+| 33 | SMRA | Property | — | — | 3 | H1 missed; less VAT-eligible mix | SKIP |
+| 34 | PWON | Property | — | — | 3 | H1 -11% missed | SKIP |
+| 35 | GOTO | Tech | — | — | 1 | MSCI Standard REMOVED Aug 31 T-0 absorbed | SKIP (MSCI removal) |
+| 36 | BUKA | Tech | — | — | 1 | MSCI Small Cap REMOVED absorbed | SKIP (MSCI removal) |
+| 37 | EMTK | Tech/Media | — | — | 3 | Media conglomerate | SKIP |
+| 38 | ASII | Auto/Industrial | — | — | **5 (UPGRADE 4→5)** | **IDR 2T share buyback announcement fresh-catalyst; MSCI-Std retention 9-stock basket + Pubex-Live-Sep-7-11**; Q2 MISS Jul-23 offset | WATCH |
+| 39 | UNTR | Heavy Equipment | — | — | 5 | Coal-linked equipment; Newcastle sub-$130 persist; MSCI-Std retention | WATCH |
+| 40 | AKRA | Distribution | — | — | 4 | Brent Day-2 fuel margin partial-hedge; Pubex-Live-Sep-8 forward | WATCH |
+| 41 | AALI | Plantation | — | — | **7 (UPGRADE 6→7)** | **CPO +7.45% BREAKOUT 4,973 above Aug-21 4,990 peak proximity; IDXVESTA28 T+1 passive-flow follow-through** | CANDIDATE (gate-blocked) |
+| 42 | LSIP | Plantation | — | — | **7 (UPGRADE 6→7)** | **CPO breakout Day-1; IDX80-add T+1 passive-flow follow-through** | CANDIDATE (gate-blocked) |
+| 43 | JSMR | Infrastructure | — | — | 3 | Toll-road rate-sensitive; US-10Y-blowout return negative | SKIP |
+| 44 | WSKT | Construction | — | — | 2 | SOE-construction overhang | SKIP |
+| 45 | PTPP | Construction | — | — | 2 | SOE-construction | SKIP |
+| 46 | ADHI | Construction | — | — | 2 | Non-LQ45 SOE-construction | SKIP |
+| 47 | KLBF | Healthcare | — | — | 4 | MISTAKES.md 2026-07-06 KLBF -21.16% hard-cut PERSISTS; SKIP mandatory | SKIP (prior-hard-cut) |
+| 48 | MIKA | Healthcare | — | — | **6 (DOWN 7→6)** | InvestorTrust top pick; RAPBN 2027 health-anchor; Tue post-Thu snap-back digestion | CANDIDATE (gate-blocked) |
+| 49 | SMGR | Cement | — | — | 1 | MSCI Small Cap REMOVED absorbed | SKIP |
+| 50 | INTP | Cement | — | — | 3 | Cement oversupply | SKIP |
+
+**Candidate count ≥6/10: 9 tickers** (BBRI-7 / BBCA-6 / BMRI-6 / PGAS-6 / INCO-6 / MDKA-6 / TLKM-6 / AALI-7↑ / LSIP-7↑ / MIKA-6).
+**NET vs Tue Wk 20 Day 2:**
+- **2 UPGRADES:** AALI 6→7 / LSIP 6→7 (CPO +7.45% breakout)
+- **7 DOWNGRADES:** BBCA 7→6 / BBRI 8→7 / BMRI 7→6 / BBNI 6→5 / MIKA 7→6 / CTRA 6→5 / ADRO 4→3 / PTBA 4→3 / MYOR 5→4 (CPI hawkish + US-10Y-blowout return + rate-sensitivity pass-through)
+- **1 UPGRADE outside ≥6 basket:** ASII 4→5 (IDR 2T buyback fresh-catalyst)
+- **NEW candidate leaders: AALI/LSIP 7 (CPO breakout) + BBRI 7 (Q2-beat locked)**
+- All 9 remaining ≥6 candidates PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0% new entries)
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive)
+
+#### 1. AALI — Score 7 UPGRADE (CPO +7.45% breakout Day-1)
+
+**Fundamental case:**
+- Thesis: CPO Sep 1 +7.45% breakout to 4,973 MYR/T above Aug-21 4,990 peak proximity = 2-week consolidation resolution; MPOC ≥RM4,600 Sept sustained now upside-broken to RM5,000 test.
+- IDXVESTA28 Sep 1 T-0 passive-flow inflow → T+1 follow-through observation window opens today.
+- Catalyst: (1) CPO breakout technical-locked; (2) IDXVESTA28 passive-flow secondary-tailwind; (3) drought-supply-tightening structural.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 2. LSIP — Score 7 UPGRADE (CPO breakout + IDX80-add Day-2)
+
+- Thesis: Same CPO +7.45% breakout thesis; IDX80-add Sep 1 T-0 passive-flow inflow → T+1 follow-through.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 3. BBRI — Score 7 DOWNGRADE (Q2-beat locked; CPI-hawkish overhang)
+
+- Thesis: Q2 H1 net +17.5% Rp 31.2T CONFIRMED BEAT LOCKED; KLM-rule Sep 1 T-0 effective Day-2 sector tailwind; **CPI-3.19% / core 2.92% hawkish print INVERTS BI-RDG-Sep17-dovish-continuity narrative** = peak-rate-cut-cycle overhang re-emerges = Tue banking rally partial-fade risk Wed.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 4. BBCA / BMRI — Score 6 DOWNGRADE (post-rally profit-taking watch)
+
+- Thesis: KLM-rule + Q2-beat sector-halo Day-2 rally-fatigue; CPI-hawkish forward-looking downgrade.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 5. MIKA — Score 6 DOWNGRADE (Thu snap-back digestion)
+
+- Thesis: InvestorTrust top pick; RAPBN 2027 health-anchor; Thu Aug 27 +5.28% snap-back digestion Days 4-5.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 6. TLKM — Score 6 (HOLD Samuel PT 3,300)
+
+- Thesis: Samuel PT 2,900→3,300 Hold→Buy upgrade Day-2; TLKM-FADE Days 21+ post-catalyst re-rate window opens; pattern 4th observation window active.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 7. INCO / MDKA — Score 6 (nickel supply-tightening persist)
+
+- Thesis: LME $16,770 Day-3 flat; HPM new regulation supportive (upstream stronger pricing power); ESDM 2026 quota cut structural.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+#### 8. PGAS — Score 6 (Brent Day-2 oil-linked gas +)
+
+- Thesis: Brent $91.28 Day-2 oil-linked gas pricing tailwind sustained; Abadi LNG HoA 18+ wks stale.
+- **NOT ACTIONABLE** — crisis-track engagement gate ACTIVATED.
+
+### Held Position Updates
+
+- **None** — book fully de-risked Day 49 (since Jul 6 KLBF hard-cut). 100% cash IDR 9,716,207,500. 49th consecutive no-position session; Wk 20 Day 3 0/3 BUY-slot week continues.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION-DAY-1 + US-10Y-BLOWOUT-RETURN-DAY-1 + IRAN-US-BRENT-SHOCK-DAY-2 + IDR-SUB-17,750-REGRESSION-RISK-DAY-1**
+
+- Reasoning: Tue Wk 20 Day 2 banking-halo rally +1.14% and CPO +7.45% breakout partially offset the fresh Wed-morning triple-headwind stack:
+  - **CPI-3.19%-YoY / core-2.92% (highest since Mar 2023) HAWKISH INFLECTION Day-1** vs Jul 2.88%: core inflation resurgence ABOVE consensus 3.13%; food/gold-driven; first-BI-RDG-under-Destry Sep 17 dovish-continuity narrative structurally INVERTED = peak-rate-cut-cycle overhang re-emerges; criterion (a) IDR sub-17,750 sustained 3-of-3 goal DEEPER structurally-difficult.
+  - **US-10Y-BLOWOUT-RETURN 4.80% Sep 1 (+8bp Fri, +17bp Tue-basis)** = Warsh-partial-unwind ERASED; US-30Y ~5.25% blowout re-tightens; growth-de-rating catalyst overnight.
+  - **IRAN-US-BRENT Day-2 $91.28** = consumer margin renewed headwind (Brent +0.87% Day-2; Strait of Hormuz supertanker fire); PGAS/MEDC oil-linked upgrade offset partial.
+  - **IDR sub-17,750 Day-6 REGRESSION-RISK Day-1** = forecast 17,746-17,797 mid Wed cracks above threshold via US-10Y-blowout + CPI-hawkish dual-vector; criterion (a) 0.45/5 → 0.30-0.40/5 regression watch.
+  - **CPO +7.45% Sep 1 breakout to 4,973** = AALI/LSIP 6→7 upgrade only tailwind offset.
+  - **ASII IDR 2T buyback** = fresh idiosyncratic-catalyst; ASII 4→5 upgrade WATCH.
+  - **MSCI-absorption Day-2** = criterion (c) 0.20/5 confirmed partial-vindication continues.
+  
+- Re-entry gate scoring Wed Wk 20 Day 3 ≈ **0.65/5 (-0.10pp vs Tue 0.75/5, deeper BINDING zone)**: 
+  - (a) 0.30/5 (-0.15pp regression-risk via US-10Y-blowout + CPI-hawkish; sub-17,750 Day-6 continuation-risk-flipped)
+  - (b) 0/5 DQG Day 122 outage persists
+  - (c) 0.20/5 unchanged (MSCI-absorption Day-2 vindication)
+  - (d) 0.15/5 (+0.05pp Tue post-close indexing pending, expected mild positive)
+  - (e) 0/5 untestable
+- Gap **4.35/5 BINDING DEEPENED.** **NO CHANGE to gate ACTIVATED status.**
+- **NEW binding overlay Day-1:** CPI-HAWKISH-INFLECTION Day-1 (if core inflation Sep sustained ≥2.9% = BI-RDG Sep 17 dovish-continuity-narrative BREAK; sector-rotation risk-off).
+- Position sizing adjustment: **N/A — CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding**.
+
+### Flagged Risks
+
+- **URGENT — NEW: INDONESIA-CPI-AUG-3.19%-YoY / CORE-2.92% HIGHEST SINCE MAR 2023 HAWKISH INFLECTION Day-1** — above 3.13% consensus; core inflation resurgence signal; first-BI-RDG-under-Destry Sep 17 dovish-continuity narrative in-question; url: https://www.indonesia-investments.com/news/todays-headlines/indonesian-inflation-rises-to-3.19-in-august-2026/item10027
+- **URGENT — NEW: US-10Y-BLOWOUT-RETURN 4.80% Sep 1 (+8bp Fri; +17bp Tue prior-filing)** — Warsh-partial-unwind ERASED; US-30Y ~5.25% blowout re-tightens; url: https://tradingeconomics.com/united-states/government-bond-yield
+- **IDR ~17,746-17,797 forecast Wed = SUB-17,750-Day-6 REGRESSION-RISK Day-1** — criterion (a) 0.45→0.30/5 downgrade watch via US-10Y-blowout + CPI-hawkish dual-vector.
+- **CPO +7.45% Sep 1 BREAKOUT to 4,973 MYR/T** — AALI/LSIP 6→7 UPGRADE; sole tailwind offset in stack; url: https://tradingeconomics.com/commodity/palm-oil
+- **IHSG Tue Sep 1 +1.14% 6,599.94 banking-halo rally** — approaching resistance 6,600-6,705; Sep historical -1% avg over 15-yr; profit-taking risk elevated Wed.
+- **ASII IDR 2T share buyback announcement** — fresh idiosyncratic-catalyst; MSCI-Std retention 9-stock basket + Pubex-Live-Sep-7-11 forward.
+- **BEI Pubex Live Sep 7-11 program** — BBCA/TLKM/ASII/AKRA scheduled; T+5 forward calendar.
+- **Iran-US Brent Day-2 $91.28** — Strait of Hormuz supertanker fire elevates escalation-binary; PGAS/MEDC oil-linked +; consumer margin renewed headwind.
+- **Newcastle coal sub-$130 10th consecutive week** — coal sector 2-strike EXITED PERSISTS per MISTAKES.md.
+- **Property H1 2026 weakness confirmed + US-10Y-blowout return rate-sensitive downgrade** — BSDE/PWON/SMRA SKIP-persist; CTRA 6→5 downgrade watch.
+- **DQG-Day-122 outage persists** — yfinance/GoAPI 122 sessions blocked ALL 50 tickers; WebSearch multi-source override operational.
+- **Weekly-review Fri Sep 4 scheduler-verification** — 2nd consecutive miss recovery required per Wk 19 review lesson.
+- **September historical seasonal -1% avg IHSG (15-yr)** — bearish seasonality overlay.
+
+### Plan for /market-open (Wed 2026-09-02 09:15 WIB — Wk 20 Day 3)
+
+- [ ] **Crisis-track engagement gate ACTIVATED DEEPENED (0.65/5, -0.10pp vs Tue).** 9 candidates ≥6/10 ALL PRE-BLOCKED (AALI-7↑ / LSIP-7↑ / BBRI-7 / BBCA-6 / BMRI-6 / MIKA-6 / TLKM-6 / INCO-6 / MDKA-6 / PGAS-6). **HOLD 100% CASH — 49th consecutive session no-position; Wk 20 Day 3 0/3 BUY-slot week continues.**
+- [ ] **IHSG Wed sesi I direction vs Tue 6,599.94 close — resistance 6,600-6,705 test.** Profit-taking risk after +1.14% Tue banking-halo rally; Sep seasonal -1% avg overlay.
+- [ ] **IDR Wed sesi I print vs Tue ~17,710 close — sub-17,750 Day-7 continuation vs REGRESSION-RISK via US-10Y-blowout + CPI-hawkish.** If sustained close >17,750 Day-1 = criterion (a) reset trigger.
+- [ ] **Banking-sector-halo Day-2 mean-reversion watch** — BBRI Wed direction on post-CPI hawkish print (dovish-continuity IN-QUESTION); Big-4 basket profit-taking risk.
+- [ ] **CPO Sep 2 continuation Day-2 above 4,973 MYR breakout confirmation** — AALI/LSIP Wed direction; if AALI/LSIP +2%+ sesi I on CPO-breakout confirmation, monitor for isolated candidate re-scoring.
+- [ ] **ASII IDR 2T buyback announcement absorption Day-1** — sesi I direction on fresh-catalyst; likely +0.5-1% target range.
+- [ ] **Foreign flow Tue full-day post-close indexing** — MSCI-absorption Day-2 vindication requires 2-consec net-BUY sequence start for criterion (d) 3-consec-BUY trigger.
+- [ ] **US-10Y-blowout-return spillover watch** — Indo 10Y SUN yield direction; if +10bp Wed, rate-sensitive sector (property/construction/cement) full downgrade cascade.
+- [ ] **TLKM Wed direction on Samuel Buy PT 3,300 Day-2 fade watch** — TLKM-FADE pattern Days 21+ post-catalyst re-rate window observation opportunity (4th observation for MEDIUM promotion candidate).
+- [ ] **Strait of Hormuz supertanker fire escalation binary** — if Brent >$93 sesi I, criterion (a) IDR pressure amplification triggers.
+- [ ] **Weekly-review Fri Sep 4 scheduler-verification** — 2nd consecutive miss recovery required per Wk 19 review lesson.
+
+---

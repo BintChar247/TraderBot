@@ -22450,12 +22450,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-26T04:35:51Z",
-      "routine": "midday",
-      "status": "warning",
-      "summary": "1 open position (KLBF); live market data unavailable (yfinance/Telegram blocked by proxy). Stale quote = entry, no -7% cut or stop tighten triggered."
-    },
-    {
       "timestamp": "2026-06-26T08:21:20Z",
       "routine": "daily-summary",
       "status": "success",
@@ -27075,6 +27069,41 @@
         {
           "type": "research",
           "detail": "Day 97 EOD snapshot committed; Mon full-day IHSG reconciled 6,525.47; Tue full-day close ~6,577"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-02T00:12:57Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers Wk 20 Day 3. Top ideas: AALI-7\u2191 / LSIP-7\u2191 (CPO +7.45% breakout), BBRI-7 (Q2 beat locked). 9 candidates \u22656 all crisis-track-blocked. CPI 3.19% hawkish + US-10Y 4.80% blowout return + IDR sub-17,750 regression-risk Day-1. Book 100% cash Day 49.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned via WebSearch multi-source (DQG-Day-122 outage)"
+        },
+        {
+          "type": "research",
+          "detail": "9 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 7/10 - CPO +7.45% breakout to 4,973 MYR"
+        },
+        {
+          "type": "research",
+          "ticker": "LSIP",
+          "detail": "score 7/10 - CPO breakout + IDX80-add T+1 follow-through"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 - Q2 H1 +17.5% locked; CPI-hawkish partial downgrade"
+        },
+        {
+          "type": "skip",
+          "detail": "All 9 candidates pre-blocked by crisis-track engagement gate 0.65/5 (-0.10pp vs Tue)"
         }
       ]
     }
