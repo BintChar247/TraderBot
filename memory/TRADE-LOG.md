@@ -11217,3 +11217,22 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   7. BBRI/TLKM/banking-sector Wed sesi I on Q2 beat + KLM + Samuel spectrum PT Day-2 pattern continuation.
   8. Foreign flow Tue full-day net-flow post-close indexing critical for criterion (c/d) potential re-scoring toward 1.0-1.5/5.
   9. **Wk 20 Day 3 crisis-track gate re-scoring per Tue foreign flow post-close + Wed overnight US moves.**
+
+---
+
+### 2026-09-02 09:15 WIB — MARKET-OPEN Wk 20 Day 3 (Wednesday) — NO TRADES (10 SKIP; crisis-track gate 0.65/5 DEEPENED)
+
+- **Action:** No buys. 50th consecutive session no-position; Wk 20 Day 3 continues 0/3 BUY-slot week (fresh Mon reset). Book fully de-risked 100% cash IDR 9,716,207,500.
+- **Env check:** TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; TRADING_MODE=paper hardcoded; BROKER_* intentionally MISSING (paper mode requires no broker auth per broker.sh cmd_positions).
+- **Broker portfolio pull:** `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}` — confirmed 100% cash / n=0.
+- **Broker positions pull:** `{mode: paper, positions: [], count: 0}` — n=0 confirmed.
+- **Regime pre-filter:** CRISIS-TRACK ENGAGEMENT GATE ACTIVATED persists — re-entry scoring 0.65/5 (-0.10pp vs Tue 0.75/5, DEEPENED). Gap 4.35/5 BINDING. No new entries fired. Fresh overnight overlays: (a) Indonesia Aug CPI 3.19% YoY / core 2.92% highest since Mar 2023 HAWKISH INFLECTION Day-1 (above 3.13% consensus); (b) US-10Y-BLOWOUT-RETURN 4.80% Sep 1 (+8bp Fri) Warsh-partial-unwind ERASED; (c) Iran-US Brent Day-2 $91.28 Strait of Hormuz supertanker fire; (d) CPO +7.45% breakout to 4,973 MYR/T (AALI/LSIP 6→7 sole tailwind); (e) ASII IDR 2T buyback fresh-catalyst (ASII 4→5 upgrade WATCH); (f) IDR Wed forecast 17,746-17,797 mid = sub-17,750 Day-6 REGRESSION-RISK Day-1.
+- **Candidates evaluated & filed as SKIP (10 total, all ≥6/10):** AALI-7↑ / LSIP-7↑ / BBRI-7 / BBCA-6 / BMRI-6 / MIKA-6 / TLKM-6 / INCO-6 / MDKA-6 / PGAS-6. All PRE-BLOCKED by crisis-track engagement gate ACTIVATED — Gate 5 (catalyst documented) MET but crisis-track pre-block fails first per TRADING-STRATEGY.md 2026-07-17 codification.
+- **9-gate checklist:** N/A (crisis-track pre-block; no order proposed on any candidate).
+- **STEP 6b dashboard/data.json:** 10 SKIP decisions appended per candidate for audit trail; total decisions[] now 440.
+- **STEP 7 notification:** "📊 Market-open 2026-09-02: No trades placed" — dispatched per scheduler-prompt notification protocol; Telegram tunnel via `scripts/notify.sh send`.
+- **STEP 8 log-activity:** `scripts/log-activity.sh --routine market-open --status warning --summary "..." --actions '[]'` filed.
+- **Persistence:** dashboard/data.json (10 SKIP decisions); memory/TRADE-LOG.md this attest entry; commit and push per STEP 9.
+- **Data Quality Gate Day 122 outage persists:** yfinance + GoAPI blocked (122 consecutive sessions since Apr 21); WebSearch multi-source override operational per DQG procedure.
+- **Trial context:** Beyond original Apr 20-May 2 window (current Day 98, Wk 20 Day 3). Phase-to-date P&L -2.84% unchanged; drawdown -3.10% from peak deeply within -15% cap. Cumulative alpha ~+10.89pp (Tue reconciled basis) vs Day 50 reconciled +21.34% baseline = 10.45pp compression trough.
+- **Carry-over to 11:30 WIB midday (Wk 20 Day 3):** Midday scan mechanically vacuous on P&L axis (n=0 positions, 49th consecutive session with 0.00% daily P&L). Priority midday reconciliation items: (1) IHSG Wed sesi I close vs Tue 6,599.94 close — resistance 6,600-6,705 test + profit-taking-risk elevated on banking-halo Day-2 mean-reversion; (2) IDR Wed sesi I print vs Tue ~17,710 close under US-10Y-blowout + CPI-hawkish dual-vector regression-risk; (3) BBRI/banking-sector Wed direction on post-CPI hawkish print (dovish-continuity IN-QUESTION); (4) AALI/LSIP Wed direction on CPO +7.45% breakout Day-2 continuation; (5) ASII Wed direction on IDR 2T buyback absorption Day-1; (6) Foreign flow Tue full-day post-close indexing — MSCI-absorption Day-2 vindication requires 2-consec net-BUY sequence start; (7) TLKM Wed direction on Samuel Buy PT 3,300 Day-2 fade watch — TLKM-FADE pattern Days 21+ 4th observation opportunity; (8) Strait of Hormuz supertanker fire escalation binary — Brent >$93 sesi I triggers criterion (a) IDR pressure amplification; (9) US-10Y spillover — Indo 10Y SUN yield direction Wed print.

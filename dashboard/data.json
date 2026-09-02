@@ -22399,6 +22399,496 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO +7.45% breakout to 4,973 MYR/T Day-1 above Aug-21 4,990 peak proximity; IDXVESTA28 T+1 passive-flow follow-through",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO +7.45% breakout to 4,973 MYR/T Day-1 above Aug-21 4,990 peak proximity; IDXVESTA28 T+1 passive-flow follow-through"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 7/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO +7.45% breakout Day-1; IDX80-add T+1 passive-flow follow-through",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO +7.45% breakout Day-1; IDX80-add T+1 passive-flow follow-through"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 7/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 H1 net +17.5% BEAT locked; KLM-rule Sep 1 Day-2 sector tailwind; CPI-3.19% hawkish INVERTS BI-RDG-dovish narrative overhang",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 H1 net +17.5% BEAT locked; KLM-rule Sep 1 Day-2 sector tailwind; CPI-3.19% hawkish INVERTS BI-RDG-dovish narrative ov"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 7/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "KLM-rule + Q2-beat sector-halo Day-2 rally-fatigue; CPI-hawkish forward-looking downgrade watch",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "KLM-rule + Q2-beat sector-halo Day-2 rally-fatigue; CPI-hawkish forward-looking downgrade watch"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cheapest Big-4; H1 +24.19% strongest Big-4; CPI-hawkish downgrade",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cheapest Big-4; H1 +24.19% strongest Big-4; CPI-hawkish downgrade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $91.28 Day-2 oil-linked gas pricing tailwind; Abadi LNG HoA 18+ wks stale",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $91.28 Day-2 oil-linked gas pricing tailwind; Abadi LNG HoA 18+ wks stale"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rikopedia top pick; matte pure-play; HPM regulation + ESDM 2026 quota-cut structural",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rikopedia top pick; matte pure-play; HPM regulation + ESDM 2026 quota-cut structural"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MoM momentum; gold-floor + Cu; MEDIUM conviction basket",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MoM momentum; gold-floor + Cu; MEDIUM conviction basket"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Samuel PT 2,900->3,300 Buy upgrade Day-2; TLKM-FADE Days 21+ post-catalyst re-rate window opens",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Samuel PT 2,900->3,300 Buy upgrade Day-2; TLKM-FADE Days 21+ post-catalyst re-rate window opens"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MIKA",
+      "action": "SKIP",
+      "date": "2026-09-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "InvestorTrust top pick; RAPBN 2027 health-anchor; Thu Aug 27 +5.28% snap-back digestion Days 4-5",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "InvestorTrust top pick; RAPBN 2027 health-anchor; Thu Aug 27 +5.28% snap-back digestion Days 4-5"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-DAY49 + CPI-HAWKISH-INFLECTION Day-1 + US-10Y-BLOWOUT-RETURN 4.80% Day-1 + Iran-US Brent Day-2 $91.28 + IDR sub-17,750 REGRESSION-RISK Day-1"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate ACTIVATED 0.65/5 (BINDING DEEPENED; 4.35/5 gap)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (regime max_position_pct=0.05 moot under crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP: Score 6/10 candidate PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.65/5, 4.35/5 gap DEEPENED via CPI-3.19% hawkish print + US-10Y 4.80% blowout return + Iran-US Brent Day-2). All 9 re-entry criteria not met concurrently; gate 5 (catalyst-documented) is met but gate 3 (crisis-track pre-block) fails first.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -22449,18 +22939,6 @@
     "updated": "2026-08-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-26T08:21:20Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 50 (Fri Jun 26, Wk 10 Day 5): IDR 9.867B flat (0.00% day). Alpha +2.73% vs IHSG sesi I \u22122.73%. Cum alpha +22.23% (fresh trial high). 1 position (KLBF). 0/3 trades wk = 7th consec.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 50 EOD snapshot committed; KLBF safe-lower carry frozen 1,035 Day 65 cluster non-convergence persists"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-29T00:14:37Z",
       "routine": "pre-market",
@@ -27106,6 +27584,68 @@
           "detail": "All 9 candidates pre-blocked by crisis-track engagement gate 0.65/5 (-0.10pp vs Tue)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-02T02:18:04Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 20 Day 3. Crisis-track engagement gate ACTIVATED DEEPENED (0.65/5, 4.35/5 gap) via fresh CPI-3.19%-hawkish + US-10Y-blowout-return-4.80% + Iran-US-Brent-Day-2. 10 candidates >=6/10 (AALI-7/LSIP-7/BBRI-7/BBCA-6/BMRI-6/MIKA-6/TLKM-6/INCO-6/MDKA-6/PGAS-6) all PRE-BLOCKED. 100% cash IDR 9.72B; 50th consec no-position session.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "MIKA",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track gate 0.65/5 pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day 122 outage persists; WebSearch multi-source override operational"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -27160,7 +27700,7 @@
     "candidates_status": "7 candidates \u22656/10 (MIKA-7 sole HIGH-defensive / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); ALL 7 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. NET vs Fri Wk 19 close: 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926 on Warsh-hawkish rate-sensitive; BBRI/KLBF/BSDE 6\u21925 on same overlay) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally). Coal-sector re-eval NOT triggered (2-strike EXITED persists per MISTAKES.md).",
     "top_candidates_deep_dive_count": 4
   },
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02T02:20:00Z",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
