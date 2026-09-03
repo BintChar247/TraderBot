@@ -11323,3 +11323,36 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   11. **Wk 20 Day 4 crisis-track gate re-scoring per Wed foreign flow post-close + Thu overnight US moves (US-10Y 4.80% follow-through, S&P/Nasdaq Wed close).**
 
 ---
+
+### 2026-09-03 09:15 WIB — MARKET-OPEN — NO TRADES (Wk 20 Day 4)
+
+- Session: Thu Sep 3, Wk 20 Day 4 (Day 99 of trial, beyond Apr 20–May 2 original window)
+- Trades placed: **0** (52nd consecutive no-position session; Wk 20 continues 0/3 BUY-slot week)
+- Portfolio: IDR 9,716,207,500 (100% cash); 0 open positions; realised P&L IDR -294,172,500
+- Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY51 + BRENT-SHOCK-ESCALATION-DAY-3 $94.86 + NEWCASTLE-COAL-SPIKE-$144.85-SIGNAL + US-10Y-BLOWOUT-PERSIST-4.79-4.81% + IDR-SUB-17,750-DAY-7-FIRMING
+- Crisis-track engagement gate: **ACTIVATED 0.70/5 (+0.05pp vs Wed 0.65/5 partial-restore)**; gap 4.30/5 BINDING; 0% new entries permitted
+  - (a) 0.35/5 IDR sub-17,750 Day-7 firming (+0.05pp)
+  - (b) 0/5 DQG-Day-123 outage persists (yfinance/GoAPI 123 sessions blocked ALL 50 tickers)
+  - (c) 0.20/5 MSCI-absorption Day-3 partial-vindication continues
+  - (d) 0.15/5 Wed -Rp 379.67bn small net-sell vs prior-week +Rp 2.22T
+  - (e) 0/5 untestable (dependent on (b))
+- Candidates evaluated (10 tickers ≥6/10 per RESEARCH-LOG 2026-09-03) — ALL SKIP per gate:
+  1. PGAS-7↑ — SKIP (gate) — Brent Day-3 oil-linked gas MAJOR; Abadi LNG HoA 18+ wks stale
+  2. BBCA-6 — SKIP (gate) — Post-CPI-hawkish digestion Day-2; premium stable
+  3. BBRI-6↓ — SKIP (gate) — Q2 H1 +17.5% BEAT locked; peak-rate-cycle overhang
+  4. BMRI-6 — SKIP (gate) — Cheapest Big-4 11.58% div yield; halo Day-2 fade digested
+  5. MEDC-6↑ — SKIP (gate) — Brent Day-3 upstream tailwind amplified
+  6. INCO-6 — SKIP (gate) — Nickel matte pure-play; HPM/ESDM quota structural
+  7. MDKA-6 — SKIP (gate) — Nickel/Cu/Au; gold-floor + Cu MoM momentum
+  8. MIKA-6 — SKIP (gate) — InvestorTrust top pick; RAPBN 2027 health-anchor
+  9. AALI-6↓ — SKIP (gate) — CPO pullback Day-1 from Sep-1 4,973 breakout
+  10. LSIP-6↓ — SKIP (gate) — CPO pullback Day-1; IDX80-add T+2 flow
+- Coal sector: 2-strike EXITED rule STILL BINDS despite Newcastle spike +9.32% MoM to $144.85 (ADRO/PTBA/ITMG SKIP-persist)
+- MISTAKES-blocked (persistent): KLBF, ITMG (per MISTAKES.md)
+- 9-gate checklist: N/A executed (regime pre-gate crisis-track ACTIVATED short-circuits all candidates)
+- Notification: dispatched via scripts/notify.sh (Telegram HTTP 000 / proxy 403 fallback → stdout body preserved)
+- log-activity: `scripts/log-activity.sh --routine market-open --status warning` filed with 10 SKIP entries + Telegram fallback warning
+- Dashboard: 10 SKIP decisions appended to dashboard/data.json decisions[]
+- Data source: WebSearch multi-source per DQG-Day-123 persistent; no live prices required (all SKIPs)
+- Trial context: Day 99 (Wk 20 Day 4); 100% cash Day 51 continues; drawdown -3.10% from peak deeply within -15% cap
+- Carry-over to 11:30 WIB midday: (1) IHSG Thu sesi I direction vs Wed 6,581.44 close — support test 6,550-6,580; (2) IDR Thu sesi I sub-17,750 Day-8 continuation; (3) Brent Day-4 escalation binary (>$95 sesi I = criterion (a) instant-regression); (4) Newcastle coal signal-monitor; (5) AALI/LSIP direction on CPO pullback Day-2; (6) ASII IDR 2T buyback Day-2 absorption; (7) BBRI/banking Day-3 post-CPI-hawkish digestion; (8) Tech sector Wed +3.83% follow-through vs profit-taking; (9) TLKM Samuel PT 3,300 Day-3 fade (TLKM-FADE Days 22+ 4th observation); (10) PGAS Brent-Day-3 oil-linked amplifier confirmation
