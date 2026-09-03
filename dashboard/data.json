@@ -22956,12 +22956,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-29T04:36:50Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF held; cluster Day 66 non-convergent; safe-lower carry +9.52% frozen. No cuts, no stop tightenings."
-    },
-    {
       "timestamp": "2026-06-29T08:20:03Z",
       "routine": "daily-summary",
       "status": "success",
@@ -27603,6 +27597,45 @@
           "detail": "Day 98 snapshot committed; IHSG 6,581.44 -0.28%; Tue reconciled 6,599.94"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-03T00:11:06Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 20 Day 4 pre-market: 50 tickers scanned; 10 candidates scored \u22656 (PGAS-7\u2191 top on Brent Day-3 oil-linked gas amplifier); crisis-track engagement gate ACTIVATED 0.70/5 (+0.05pp vs Wed); ALL candidates PRE-BLOCKED; 52nd consec no-position session; hold 100% cash.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned Wk 20 Day 4"
+        },
+        {
+          "type": "research",
+          "detail": "10 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 Brent Day-3 $94.86 oil-linked gas MAJOR tailwind"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 6/10 (DOWN) \u2014 CPO pullback Day-1 from Sep-1 4,973 breakout"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 (DOWN) \u2014 Q2 BEAT locked but CPI-hawkish Day-2 digestion realized"
+        },
+        {
+          "type": "macro",
+          "detail": "Brent shock Day-3 $94.86 (+3.9%); Newcastle coal $144.85 (+9.32% MoM signal); US-10Y blowout 4.79-4.81% persist; IDR sub-17,750 Day-7 firming"
+        },
+        {
+          "type": "regime",
+          "detail": "Crisis-track gate ACTIVATED 0.70/5 (+0.05pp partial-restore); 4.30/5 binding gap; ALL new entries blocked"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -27613,51 +27646,103 @@
     "max_positions": 6
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY46-Wk19-Day5-Fri-Aug28-WEEKLY-REVIEW-DAY-Thu-Aug27-IHSG-+1.81pct-6521.75-MAJOR-REBOUND-recaptured-MA100-6500-healthcare-sector-5.28pct-led-DESTRY-DAMAYANTI-CONFIRMED-BI-GOV-2026-2031-DPR-Komisi-XI-Aida-SrDepGov-Solikin-DepGov-paripurna-Sep1-T-1-pro-forma-dovish-continuity-STRUCTURAL-LOCK-CEMENTED-JACKSON-HOLE-WARSH-T-0-21:00-WIB-TODAY-first-Chair-keynote-BINARY-MSCI-Aug31-effective-T-1-US-biz-day-GOTO-CPIN-SMGR-9-Small-Cap-removed-Rp1T-outflow-FINAL-SESSION-US-PCE-July-Fri-19:30-WIB-headline-3.7-core-3.3-consensus-IDR-17724-17785-sub-17750-marginal-Day4-borderline-Newcastle-129.75-sub-130-Day1-fresh-breach-CPO-MYR-4900-borderline-Day9-BRENT-$86-88-Day3-relief-LME-nickel-$16.8-17.1k-range-Q2-CAD-RECORD-$12.5B-3.3pct-GDP-structural-overlay-persists-VIX-15.21-2026-lows-pre-JH-Data-Quality-Gate-Day-119-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY46",
-    "regime_overlay": "Destry-approved dovish-continuity STRUCTURAL LOCK CEMENTED + Thu IHSG +1.81% MAJOR REBOUND healthcare-led + Warsh JH T-0 21:00 WIB TODAY binary + MSCI T-1 FINAL SESSION Rp1T outflow + US PCE Fri + Q2 CAD RECORD structural persists",
-    "ihsg_close": 6521.75,
-    "ihsg_close_date": "2026-08-27",
-    "ihsg_close_change_pct": 1.81,
-    "ihsg_close_basis": "Thu Aug 27 full-day close multi-source Okezone + CNBC Indonesia + Liputan6 + Buletinfinansial (4-source PASS); recaptured MA100 6,500; healthcare sector +5.28% led; LQ45 +1.35%; volume thin Rp 13.3T from 33.8B shares; breadth 578 gainers vs 103 decliners; Demo 27 Aug absorbed cleanly",
-    "idr_usd": 17724,
-    "idr_usd_change": "sub-17,750 marginal Day-4 borderline (Investing 17,705 open sub-threshold; BCA E-Rate Thu 20:04 WIB 17,785 above); Destry-approved dovish-continuity structural lock cemented but Q2 CAD structural overhang persists",
-    "newcastle_coal_usd_ton": 129.75,
-    "cpo_myr_ton": 4900,
-    "brent_usd_bbl": 87,
-    "lme_nickel_usd_ton": 16950,
-    "us_10y_yield_pct": 4.67,
-    "vix": 15.21,
-    "foreign_flow_yesterday_idr_bn": -264.31,
-    "foreign_flow_note": "Thu Aug 27 sesi I -Rp 264.31B net-sell (buys Rp 1.67T, sales Rp 1.94T); top-sold BBRI -Rp 145.98B (Day 3 consecutive), GOTO -Rp 127.57B (MSCI removal), TLKM -Rp 67.21B (PATTERNS post-Q2 fade)"
+    "regime": "DEFENSIVE",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY51",
+    "regime_overlay": "BRENT-SHOCK-ESCALATION-DAY-3 $94.86 + NEWCASTLE-COAL-SPIKE-$144.85 (+9.32% MoM) + US-10Y-BLOWOUT-PERSIST 4.79-4.81% + IDR-SUB-17,750-DAY-7-FIRMING + IHSG-WED-6,581.44-(-0.28%)-BANKING-HALO-DAY2-FADE-CONFIRMED + FOREIGN-FLOW-WED-Rp379bn-NET-SELL-vs-PRIOR-WEEK-+Rp2.22T + MSCI-ABSORPTION-DAY-3-VINDICATED + CPI-HAWKISH-INFLECTION-DAY-2 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.70-of-5 + DQG-Day-123-outage-persists",
+    "ihsg_close": 6581.44,
+    "ihsg_close_date": "2026-09-02",
+    "ihsg_close_change_pct": -0.28,
+    "ihsg_close_basis": "Wed Sep 2 full-day close 6,581.44 (-0.28% -18.50 pts vs Tue reconciled 6,599.94); multi-source cluster CNBC + Infobanknews + Tempo + Media Indonesia PASS",
+    "idr_usd": 17710,
+    "idr_usd_change": -0.11,
+    "newcastle_coal_usd_ton": 144.85,
+    "cpo_myr_ton": 4958,
+    "brent_usd_bbl": 94.86,
+    "lme_nickel_usd_ton": 16663.5,
+    "us_10y_yield_pct": 4.8,
+    "vix": 15.0,
+    "foreign_flow_yesterday_idr_bn": -379.67,
+    "foreign_flow_note": "Wed Sep 2 net sell -Rp 379.67bn (TLKM/GOTO led); prior-week Aug 26-Sep 1 net BUY +Rp 2.22T; criterion (d) 0.15-0.20/5 partial"
   },
   "research": {
-    "date": "2026-08-31",
+    "date": "2026-09-03",
     "holiday": false,
-    "as_of_date": "2026-08-31",
+    "as_of_date": "2026-09-03",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Mon Aug 31 07:00 WIB pre-market (Wk 20 Day 1 = MSCI-effective-T-0 + Warsh-JH-hawkish-Day-1)",
-    "ihsg_last": 6518.0,
-    "ihsg_last_label": "Fri Aug 28 full-day close 6,518 (-0.06% vs Thu reconciled 6,521.75; sesi I 6,548.85 \u2192 -30pt sesi II cascade DOWN variant confirmed; DQG-Day-120 dual-variant pattern binding)",
-    "ihsg_last_sesi_i": 6548.85,
-    "ihsg_last_sesi_i_label": "Fri sesi I basis 6,548.85 (superseded by canonical full-day close 6,518)",
-    "idr_usd": 17685,
-    "idr_usd_label": "Fri Aug 28 close ~17,685 / Aug 29 mid ~17,698; SUB-17,750 Day-5 continuation-firming BUT Warsh-hawkish dollar-rebound INSTANT-REGRESSION-RISK Mon open",
-    "candidates_count": 7,
+    "as_of_label": "Thu Sep 3 07:00 WIB pre-market (Wk 20 Day 4 = BRENT-SHOCK-Day-3 $94.86 + NEWCASTLE-COAL-SPIKE $144.85 +9.32% MoM + US-10Y-BLOWOUT-PERSIST 4.79%)",
+    "ihsg_last": 6581.44,
+    "ihsg_last_label": "Wed Sep 2 full-day close 6,581.44 (-0.28% vs Tue reconciled 6,599.94; banking-halo Day-2 mean-reversion CONFIRMED; tech +3.83% lone gainer)",
+    "ihsg_last_sesi_i": 6581.45,
+    "ihsg_last_sesi_i_label": "Wed sesi I 6,581.45 (aligned tight with full-day close 6,581.44)",
+    "idr_usd": 17710,
+    "idr_usd_label": "IDR ~17,700-17,722 Thu forecast; sub-17,750 Day-7 firming continuation; Destry-CONFIRMED-dovish-continuity structural lock",
+    "candidates_count": 10,
     "candidates": [
-      "MIKA",
-      "BBCA",
-      "BMRI",
-      "CTRA",
-      "INCO",
-      "MDKA",
-      "NCKL",
-      "MYOR"
+      {
+        "ticker": "PGAS",
+        "score": 7,
+        "delta": "+1",
+        "note": "Brent Day-3 $94.86 oil-linked gas MAJOR tailwind; Abadi LNG HoA 18+ wks stale"
+      },
+      {
+        "ticker": "BBCA",
+        "score": 6,
+        "delta": "0",
+        "note": "Post-CPI-hawkish digestion Day-2; profit-taking realized"
+      },
+      {
+        "ticker": "BBRI",
+        "score": 6,
+        "delta": "-1",
+        "note": "Q2 BEAT locked; CPI-hawkish inversion Day-2 realized; peak-rate-cycle overhang"
+      },
+      {
+        "ticker": "BMRI",
+        "score": 6,
+        "delta": "0",
+        "note": "Cheapest Big-4; 11.58% dividend yield; H1 +24.19% strongest Big-4"
+      },
+      {
+        "ticker": "MEDC",
+        "score": 6,
+        "delta": "+1",
+        "note": "Brent Day-3 upstream tailwind amplified"
+      },
+      {
+        "ticker": "INCO",
+        "score": 6,
+        "delta": "0",
+        "note": "Rikopedia top pick Aug; matte pure-play; HPM regulation +"
+      },
+      {
+        "ticker": "MDKA",
+        "score": 6,
+        "delta": "0",
+        "note": "Top pick Aug; MoM momentum; gold floor + Cu"
+      },
+      {
+        "ticker": "MIKA",
+        "score": 6,
+        "delta": "0",
+        "note": "InvestorTrust top pick; RAPBN 2027 health-anchor; Thu snap-back digestion Days 5-6"
+      },
+      {
+        "ticker": "AALI",
+        "score": 6,
+        "delta": "-1",
+        "note": "CPO pullback Day-1 -0.30% to -1.43%; breakout structural intact tactical fade"
+      },
+      {
+        "ticker": "LSIP",
+        "score": 6,
+        "delta": "-1",
+        "note": "CPO pullback Day-1; IDX80-add T+2 flow"
+      }
     ],
-    "candidates_status": "7 candidates \u22656/10 (MIKA-7 sole HIGH-defensive / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); ALL 7 PRE-BLOCKED by crisis-track engagement gate ACTIVATED. NET vs Fri Wk 19 close: 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926 on Warsh-hawkish rate-sensitive; BBRI/KLBF/BSDE 6\u21925 on same overlay) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally). Coal-sector re-eval NOT triggered (2-strike EXITED persists per MISTAKES.md).",
-    "top_candidates_deep_dive_count": 4
+    "candidates_status": "ALL 10 candidates PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.70/5, 4.30/5 binding gap)",
+    "top_candidates_deep_dive_count": 7
   },
-  "last_updated": "2026-09-02T15:15:00+07:00",
+  "last_updated": "2026-09-03T07:00:00+07:00",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
@@ -27668,25 +27753,27 @@
     "idr_status": "SUB-17,750 marginal Day-4 borderline; criterion (a) partial 0.65/5 marginal improvement via Destry-approved dovish-continuity structural lock cemented"
   },
   "pre_market": {
-    "date": "2026-08-31",
-    "day_label": "Wk 20 Day 1 (Mon) \u2014 MSCI-AUG-31-EFFECTIVE-T-0 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY47 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1",
-    "regime_reason": "Warsh Jackson Hole first-Chair keynote Fri Aug 28 21:00 WIB DELIVERED HAWKISH-LEAN on inflation ('work to do' language + dollar rebound + S&P -0.25%/Nasdaq -0.52% Fri close reaction) = RISK-CASE materialized, not base-case dovish-lean. Regime overlay: (a) criterion IDR sub-17,750 at INSTANT-REGRESSION-RISK Mon open; (b) BI-hold-longer pressure = Destry dovish-continuity structural lock ATTENUATED; (c) rate-sensitive downgrade cascade Big-4 banking + property; (d) Fed Sept-17 rate-cut odds compression = FOMC-hawkish-hold path REINFORCED; (e) US 30Y 5.21% blowout persist T+31. MSCI Aug-31 EFFECTIVE at market close T-0 TODAY = $753M passive-outflow concentrated 15:15 WIB. Newcastle coal $139.75 rally from $131.50 = narrative shift candidate but coal 2-strike sector-EXITED PERSISTS. CPO Day-12 borderline breakdown MYR 4,859. Brent $88.29 Day-12 sub-$90 relief. IHSG Fri full-close 6,518 vs sesi I 6,548.85 = -30pt DOWN sesi II cascade. Foreign Fri sesi I -Rp 125B; BBCA/BMRI top-net-bought Rp 358B/81B. First-BI-RDG-under-Destry Sep 17 T-3-weeks REINFORCED as regime-shift binary.",
-    "position_sizing_note": "N/A \u2014 CRISIS-TRACK ENGAGEMENT GATE ACTIVATED = 0% new entries binding",
-    "candidates_scored_ge6_count": 7,
+    "date": "2026-09-03",
+    "day_label": "Thu Wk 20 Day 4",
+    "regime": "DEFENSIVE-INTENSIFIED",
+    "regime_reason": "Cascade-inflection-confirmed Day-51; Brent-shock Day-3 $94.86 (+3.9% Sep-1); Newcastle coal spike $144.85 (+9.32% MoM signal-watch, sector-2-strike EXITED still binds); US-10Y-blowout persist 4.79%; IDR sub-17,750 Day-7 firming; CPI-hawkish inflection Day-2 digested",
+    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (0.70/5, 4.30/5 binding gap); 0% new entries binding",
+    "candidates_scored_ge6_count": 10,
     "candidates_scored_ge6": [
-      "MIKA(7)",
-      "BBCA(6\u2193)",
-      "BMRI(6\u2193)",
-      "CTRA(6\u2193)",
-      "INCO(6)",
-      "MDKA(6)",
-      "NCKL(6)",
-      "MYOR(6)"
+      "PGAS",
+      "BBCA",
+      "BBRI",
+      "BMRI",
+      "MEDC",
+      "INCO",
+      "MDKA",
+      "MIKA",
+      "AALI",
+      "LSIP"
     ],
-    "re_entry_gate_score": 0.5,
+    "re_entry_gate_score": 0.7,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": "-0.15pp vs Fri Wk 19 close 0.65/5 via Warsh-hawkish outcome regime overlay downgrade; (a) 0.40/5 partial Day-5 sub-17,750 with INSTANT-REGRESSION-RISK; (b) 0/5 DQG Day 120; (c) 0/5 MSCI-effective T-0 negative-locked; (d) 0.10/5 MSCI-rebalance absorption partial-vindication reduced; (e) 0/5 untestable",
-    "notes": "47th consecutive no-position session; Wk 20 Day 1 fresh 0/3 BUY-slot week opens; book 100% cash IDR 9,716,207,500; Warsh-hawkish overlay = 5 DOWNGRADES (BBCA/BMRI/CTRA 7\u21926; BBRI/BSDE 6\u21925) + 1 UPGRADE (UNTR 4\u21925 Newcastle rally); MSCI-effective T-0 sesi II cascade risk elevated per DQG-Day-120 dual-variant pattern"
+    "re_entry_gate_delta_from_prev": 0.05,
+    "notes": "Wk 20 Day 4 pre-market; 52nd consecutive no-position session; PGAS top candidate on Brent Day-3 oil-linked gas amplifier; NO new entries per crisis-track gate ACTIVATED"
   }
 }
