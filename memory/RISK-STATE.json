@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY50-Wk20-Day3-CLOSE-IHSG-Wed-full-close-6581.44-(-0.28pct-vs-Tue-reconciled-6599.94)-BANKING-HALO-Day-2-MEAN-REVERSION-CONFIRMED-TECH-+3.83pct-LONE-GAINER-Tue-Sep-1-full-close-RECONCILED-6599.94-(NOT-6577-provisional)-DQG-Day-119-lag-CONFIRMED-cum-alpha-+10.95pp-reconciled-basis-vs-Tue-reconciled-+10.60pp-net-+0.35pp-EXPANSION-Book-de-risked-Day-50-100pct-cash-Wk20-Day-3-0-of-3-BUY-slot-week-INDONESIA-AUG-CPI-3.19pct-YoY-CORE-2.92pct-HAWKISH-INFLECTION-Day-1-above-consensus-3.13pct-US-10Y-4.80pct-BLOWOUT-RETURN-Warsh-partial-unwind-ERASED-Day-1-IRAN-US-BRENT-SHOCK-Day-2-$91.28-Strait-of-Hormuz-supertanker-fire-CPO-MYR-4973-+7.45pct-BREAKOUT-Day-1-AALI-LSIP-6-to-7-sole-tailwind-ASII-IDR-2T-buyback-Day-1-4-to-5-upgrade-watch-IDR-STAGE-5-SUB-17750-Day-6-REGRESSION-RISK-Day-1-forecast-17746-17797-DESTRY-CONFIRMED-BI-GOV-2026-2031-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-first-BI-RDG-Sep-17-T-2-weeks-PATH-QUESTIONED-Data-Quality-Gate-Day-122-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-of-5-DEEPENED-4.35-gap-BINDING",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY51-Wk20-Day4-CLOSE-IHSG-Thu-SESI-I-6663.561-(+1.03pct-vs-Wed-externally-reconciled-6595.77)-REBOUND-BUY-INTEREST-POST-CPI-HAWKISH-DIGESTION-Day-2-TECH-Wed-+3.83pct-Day-2-follow-through-candidate-Wed-Sep-2-full-close-EXTERNALLY-RECONCILED-6595.77-(NOT-6581.44-provisional)-DQG-Day-120-lag-UPSIDE-VARIANT-CONFIRMED-cum-alpha-+9.87pp-reconciled-basis-vs-Wed-reconciled-+10.67pp-net-0.80pp-COMPRESSION-Book-de-risked-Day-51-100pct-cash-Wk20-Day-4-0-of-3-BUY-slot-week-IRAN-US-BRENT-ESCALATION-Day-3-$94.86-Strait-of-Hormuz-persistence-approaching-$95-instant-regression-NEWCASTLE-COAL-SPIKE-$144.85-persistence-Day-2-coal-2-strike-EXIT-binds-US-10Y-BLOWOUT-PERSIST-4.79-4.81pct-Day-2-Warsh-partial-unwind-ERASED-persistence-IDR-STAGE-5-SUB-17750-Day-7-FIRMING-DESTRY-CONFIRMED-BI-GOV-2026-2031-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-2-first-BI-RDG-Sep-17-T-2-weeks-PATH-QUESTIONED-Data-Quality-Gate-Day-123-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.70-of-5-partial-restore-4.30-gap-BINDING",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-02"
+  "updated": "2026-09-03"
 }
