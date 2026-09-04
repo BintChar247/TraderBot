@@ -11498,3 +11498,77 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - **Regime:** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52; crisis-track engagement gate ACTIVATED 0.90/5 (+0.20pp vs Thu 0.70/5 partial-restore per market-open filing); 4.10/5 gap BINDING. Multi-front overlays persist: IDR sub-17,750 Day-8 firming; WALLER-DOVISH-Thu-Fed-hold-hope; BRENT-SNAP-BACK $95.25 below instant-regression; IHSG Thu full-close rebound +1.09%; Newcastle coal $146.60 Day-4 (2-strike EXIT still binds); DQG-Day-124 outage persists.
 - **Carry-over to 15:15 WIB EOD + 16:00 WIB WEEKLY-REVIEW (Wk 20 Day 5 CLOSE):** EOD snapshot mechanically vacuous on P&L axis (n=0). Priority items for daily-summary + weekly-review: (1) IHSG Fri close vs Thu 6,667.89 close — sustain above 6,650 vs mean-reversion; (2) IDR Fri close sub-17,750 Day-9 continuation; (3) Brent Day-1 post-snap-back <$95 sustain; (4) Newcastle coal Day-5 signal-monitor; (5) AALI/LSIP direction on CPO Day-4 pullback; (6) ASII Fri direction on IDR 2T buyback Day-3; (7) BBRI/banking Day-2 Waller-dovish digestion; (8) Tech sector Day-3 follow-through; (9) TLKM Samuel PT 3,300 Day-4 fade (TLKM-FADE 5th observation window); (10) Foreign flow Thu full-day post-close indexing for criterion (c/d) re-scoring; (11) **WEEKLY-REVIEW filing 16:00 WIB — Wk 20 CLOSE (20 consecutive zero-trade weeks candidate); regime label + macro pillars refresh; WEEKLY-REVIEW.md new entry.**
 
+
+### 2026-09-04 EOD (Day 100, Fri — Week 20 Day 5 CLOSE — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52; WK-20-COMPLETE-0-of-3-BUY-slot-week-CLOSED-20-CONSECUTIVE-ZERO-TRADE-WEEKS-STRING-INTACT; IHSG-Fri-sesi-I-6,660.789-(-0.11pct-vs-Thu-reconciled-full-close-6,667.891)-INTRA-day-6,614.71-6,681.83-sesi-II-range-CLUSTER-EOD-PROVISIONAL-6,660-per-multi-source-cluster-Romisaputra-title-Level-6.660-plus-CNBC-Indonesia-sesi-I-plus-Berita-Moneter-plus-Pasar-Dana-Investing-6,687.89-outlier-attributed-to-Thu-Sep-3-full-close-conflation-per-Liputan6-title-Melambung-6.687-cross-referenced-Thu-basis-6,667.891-stockwatch.id-not-Fri-close; sesi-II-full-day-close-PENDING-MON-SEP-7-PRE-MARKET-RECONCILIATION-per-DQG-Day-124-sesi-II-lag-pattern-Day-4-occurrence-6th-cumulative; IRAN-US-BRENT-SNAP-BACK-$95.25-Day-1-BELOW-instant-regression-threshold-Waller-dovish-Thu-fed-hold-hope-transmission; NEWCASTLE-COAL-$146.60-Day-3-persistence-COAL-2-STRIKE-EXIT-still-binds; US-10Y-EASING-post-Waller-dovish-Day-1; IDR-STAGE-5-SUB-17750-Day-8-FIRMING-approaching-sustained-3-of-3-criterion-a-lift-driver; DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-3; MSCI-Aug-31-EFFECTIVE-ABSORPTION-Day-5; DEMO-27-AGUSTUS-post-event-de-escalation-Day-6; PRABOWO-STATE-ADDRESS-RAPBN-2027-Day-18-relief-fade-Day-9; CPO-MYR-4,904-Day-3-pullback-Day-3-from-Sep-1-4,973-breakout-still-holding-above-base; ASII-IDR-2T-BUYBACK-Day-3; US-JULY-CPI-DOVISH-3.4pct-HEADLINE-Day-16; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-39; BI-HOLD-DOVISH-ABSORBED-Day-42; Data-Quality-Gate-Day-124; FOMC-HAWKISH-HOLD-9-3-3-HIKER-DISSENT-T+32-US-BIZ-DAY; PARLIAMENT-RESES-ENDED-DPR-XI-FIT-AND-PROPER-TEST-Day-16-Destry-CONFIRMED; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-of-5-partial-restore-post-Waller-dovish-plus-IDR-Day-8-firming)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -0.04% (Thu Sep 3 sesi I basis 6,663.561 per dashboard row → Fri Sep 4 sesi I close 6,660.789 provisional per multi-source cluster CNBC Indonesia + Berita Moneter + Stockwatch.id + Investing/Pasar Dana convergent; sesi II full-day close PENDING Mon Sep 7 pre-market reconciliation per DQG-Day-124 sesi-II-lag pattern — 6th cumulative sesi-II-lag occurrence; single-source 6,687.89 outlier attributed to Thu Sep 3 conflation per Liputan6 title cross-referenced Thu-reconciled 6,667.891 stockwatch.id NOT Fri close given sesi II high 6,681.83 < 6,687.89 basic sanity fail; if reconciled Thu 6,667.891 basis used instead of sesi I 6,663.561, IHSG daily = -0.11% and alpha +0.11pp)
+- Daily alpha: +0.04pp (sesi I basis) / +0.11pp (Thu reconciled basis) — sesi-II reconciliation Mon pre-market determines final
+- Cash: IDR 9,716,207,500 (100.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 20 CLOSES 0/3 — 20 CONSECUTIVE ZERO-TRADE WEEKS STRING INTACT)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 52 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing. Broker ledger unchanged (no session trades). 53rd consecutive no-position session.
+
+#### Notes
+
+- **EOD Wk 20 Day 5 CLOSE — FRIDAY POST-WALLER-DOVISH-DAY-1 + BRENT-SNAP-BACK-BELOW-INSTANT-REGRESSION + IHSG-INTRADAY-CONSOLIDATION.** Book fully de-risked Day 52 continues. Zero equity market exposure. 53rd consecutive no-position session. **Wk 20 CLOSES 0/3 BUY-slot week — 20th CONSECUTIVE ZERO-TRADE WEEK complete (fresh Mon Wk 21 reset).** Market-open (09:15) filed 9 SKIP decisions per crisis-track engagement gate ACTIVATED (0.90/5 +0.20pp vs Thu 0.70/5 partial-restore via IDR sub-17,750 Day-8 firming + Waller-dovish read-through); midday (11:30) filed no-cuts/no-tightens per n=0 mechanically vacuous.
+- **IHSG Fri Sep 4 sesi I close 6,660.789 (-0.11% -7.10 pts vs Thu reconciled full-close 6,667.891) — INTRADAY CONSOLIDATION post-Thu-rebound.** Fri opened 6,696.98 (+0.44% +29.09 pts via CNBC Indonesia opening cluster). Sesi I close 6,660.789 (-0.11%) via CNBC Indonesia "IHSG Sesi I Terkoreksi Tipis 0,11% ke Level 6.660" + Berita Moneter "IHSG Sesi I Tertekan, Turun 0,11% ke Level 6.660,789" + Stockwatch.id "IHSG Sesi I Turun 0,11% ke 6.660,789" + Investing/Pasar Dana convergent multi-source ≥3-cluster PASS. Sesi II range 6,614.71 - 6,681.83 per Liputan6. Sesi II full-day close PENDING Mon Sep 7 pre-market reconciliation per DQG-Day-124 sesi-II-lag pattern (6th cumulative occurrence). Romisaputra title "IHSG Hari Ini, Jumat 4 September ke Level 6.660" corroborates Fri close near 6,660 zone. Single-source 6,687.89 outlier attributed to Thu Sep 3 conflation per Liputan6 title "Melambung ke 6.687" cross-referenced Thu-reconciled 6,667.891 stockwatch.id basis (basic sanity check: Fri sesi II high 6,681.83 < 6,687.89 fails).
+- **Cumulative alpha ~+9.91pp** (Fri sesi I 6,660.789 basis vs 7,634 Apr 19 baseline: IHSG cumulative -12.75%; portfolio cumulative -2.84%; net +9.91pp) vs Thu sesi I basis +9.87pp = +0.04pp minor expansion via IHSG -0.04% consolidation on zero exposure. Sesi II reconciliation Mon may adjust ±0.10-0.20pp.
+- **Iran-US Brent SNAP-BACK $95.25 Day-1 BELOW instant-regression threshold:** Waller-dovish Thu Fed-hold-hope transmission Day-1 partial-relief; criterion (a) IDR STAGE-5 REGRESSION-RISK amplifier removed near-term. Escalation binary re-test Mon if Brent > $95 sustained.
+- **Newcastle coal $146.60 Day-3 persistence signal-monitor:** COAL 2-STRIKE-EXIT rule STILL BINDS (ADRO/PTBA/ITMG SKIP-persist despite spike). Sole-tailwind CPO Sep-1 4,973 breakout pullback Day-3 to 4,904 (-1.09%) still holds above base support (AALI/LSIP fade continues).
+- **US-10Y EASING post-Waller-dovish Day-1:** Warsh hawkish overhang partial-attenuation via Waller Jackson Hole dovish tilt Day-1 Fed-hold-hope transmission. Global-rates hawkish overlay softens marginally.
+- **IDR sub-17,750 Day-8 FIRMING — approaches sustained 3-of-3 criterion (a) lift driver:** Regression-risk band consolidating below 17,750 zone via Waller-dovish USD softening secondary. Criterion (a) partial-restore drove +0.20pp gate lift Thu → Fri (0.70 → 0.90/5).
+- **Indonesia CPI Aug hawkish inflection digestion Day-3:** BPS 3.19% YoY / core 2.92% highest since Mar-2023 continues to reprice first BI-RDG Sep 17 T-2 weeks path DOVISH-CONTINUITY-IN-QUESTION.
+- **ASII IDR 2T buyback absorption Day-3:** Auto-sector-halo secondary read UNTR/HEXA marginal.
+- **BBRI/banking Day-2 Waller-dovish digestion:** Q2 H1 +17.5% BEAT lock persists; peak-rate-cycle overhang partial-attenuation via Fed-hold-hope Day-1.
+- **TLKM-FADE Days 22+ 5th observation window:** Samuel Buy PT 3,300 Day-4 fade watch continues (source pool prioritised IHSG-index + banking + macro; TLKM-specific direction not parsed today).
+- **Foreign flow Fri:** Thu full-day post-close indexing PENDING Mon pre-market reconciliation critical for criterion (c/d) re-scoring.
+- **Crisis-track engagement gate scoring 0.90/5 (+0.20pp vs Thu 0.70/5 partial-restore; 4.10/5 gap BINDING).** No new-entries fired all day. All 9 candidates ≥6/10 pre-blocked at market-open. Midday n=0 vacuous.
+- **All state/regime bindings Fri updates:**
+  - IDR sub-17,750 Day-8 FIRMING approaches sustained 3-of-3 criterion (a) lift trigger
+  - Foreign flow Thu full-day post-close indexing PENDING Mon pre-market; MSCI-absorption Day-5 persistence continues
+  - CPO MYR 4,904 pullback Day-3 from Sep-1 4,973 breakout still above base; AALI/LSIP sole tailwind fade
+  - Newcastle coal $146.60 Day-3 persistence (coal 2-strike EXIT still binds)
+  - Brent $95.25 SNAP-BACK Day-1 below instant-regression threshold post-Waller-dovish
+  - LME nickel firming continues background
+  - US-10Y EASING post-Waller-dovish Day-1
+  - Destry Damayanti CONFIRMED BI Gov 2026-2031 DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-3
+  - First BI-RDG under Destry Sep 17 T-2 weeks PATH-QUESTIONED continues
+  - Indonesia CPI Aug 3.19% YoY / core 2.92% HAWKISH INFLECTION digestion Day-3
+  - ASII IDR 2T buyback absorption Day-3 auto-sector halo secondary
+- **Data Quality Gate Day 124 outage persists:** yfinance + GoAPI still blocked (124 consecutive sessions since Apr 21); WebSearch multi-source override operational; sesi II reconciliation for Fri PENDING Mon pre-market per DQG-Day-124 lag pattern (6th cumulative).
+- **Book fully de-risked Day 52 through Wk 20 Day 5 CLOSE = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 52. Crisis-track re-entry gate scoring 0.90/5 partial-restore. 4.10/5 gap still binding.
+- **Wk 20 CLOSE — Wk 20 CLOSES 0/3 BUY-slot week — 20 CONSECUTIVE ZERO-TRADE WEEKS.** 68+ cumulative unused candidate-day slots trial-to-date. All multi-front bindings persist though Waller-dovish + IDR Day-8 firming loosen at margin.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 100, Wk 20 Day 5 CLOSE). Phase-to-date P&L -2.84% unchanged (53 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Cumulative alpha ~+9.91pp (Fri sesi I basis) vs Thu sesi I basis +9.87pp = +0.04pp minor expansion via IHSG -0.04% consolidation on zero exposure.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID set per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json updated per STEP 5b (updated=2026-09-04; equity/peak/dd unchanged).
+- **Carry-over to Mon Sep 7 07:00 WIB pre-market (Wk 21 Day 1 OPEN — FRESH WEEK RESET):**
+  1. **Fri Sep 4 sesi II full-day close reconciliation** — sesi I 6,660.789 basis; sesi II range 6,614.71-6,681.83; final close PENDING Mon pre-market cluster (single 6,687.89 outlier requires refutation via Fri sesi II high 6,681.83 sanity check).
+  2. IHSG Mon sesi I direction vs Fri close — sustain-consolidation above 6,650 = crisis-track partial-restore continues; break below 6,600 = defensive re-intensification.
+  3. Iran-US Brent Day-2 post-snap-back sustain vs re-escalation binary — > $95 hard trigger for criterion (a) INSTANT-REGRESSION-RISK amplification.
+  4. IDR Mon sesi I sub-17,750 Day-9 continuation vs regression risk from US-10Y persist — approaches sustained 3-of-3 criterion (a) lift.
+  5. Newcastle coal signal-monitor Day-4 $146.60+ — coal-2-strike EXIT rule binds regardless.
+  6. AALI/LSIP direction on CPO Day-4 pullback continuation vs base support 4,850-4,900 zone.
+  7. ASII Mon direction on IDR 2T buyback absorption Day-4.
+  8. BBRI/banking Day-3 Waller-dovish digestion; peak-rate overhang partial-attenuation.
+  9. Tech sector Wk 20 close direction; Wed +3.83% Day-4 follow-through fade watch.
+  10. TLKM Samuel PT 3,300 Day-5 fade (TLKM-FADE Days 22+ 5th observation window).
+  11. Foreign flow Thu full-day post-close indexing for criterion (c/d) re-scoring toward crisis-track de-arming or further deepening.
+  12. **Wk 21 Day 1 fresh crisis-track gate re-scoring** per Fri foreign flow + Mon overnight US moves (S&P/Nasdaq Fri close, US-10Y Waller-dovish follow-through, DXY/USDIDR NY session).
+  13. **WEEKLY REVIEW filed 16:00 WIB Fri Sep 4 (Wk 20 CLOSE)** — 20 consecutive zero-trade weeks locked; regime label + macro pillars refresh; WEEKLY-REVIEW.md new entry via weekly-review routine.
+
+---

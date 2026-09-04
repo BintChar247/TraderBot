@@ -1530,6 +1530,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 20 Day 4 CLOSE. Book fully de-risked Day 51 continues, 100% cash IDR 9,716,207,500. IHSG Thu sesi I close 6,663.561 (+1.03% +67.785 pts vs Wed externally-reconciled full-close 6,595.77; opened 6,632.83 +0.56%; 423 stocks advancing) per multi-source cluster stockwatch.id + romisaputra + antara + bantentv + media indonesia. Sesi II full-day close PENDING Fri pre-market reconciliation per DQG Day-123 sesi-II-lag pattern (single Koran Pangkep dissenting ~6,561 requires \u22652-cluster corroboration). Wed Sep 2 full-day close EXTERNALLY RECONCILED = 6,595.77 (NOT 6,581.44 provisional per Sep 2 EOD row) \u2014 DQG-Day-120 sesi-II-lag UPSIDE VARIANT +14.33 pts absorbed; Sep 2 row NOT rewritten per append-only convention; Thu basis uses reconciled 6,595.77. Iran-US Brent-shock escalation Day-3 $94.86 Strait of Hormuz supertanker fire persistence approaching $95 instant-regression threshold. Newcastle coal spike $144.85 persistence Day-2 (coal 2-strike EXIT still binds). US-10Y BLOWOUT-PERSIST Day-2 4.79-4.81% (Warsh JH partial-unwind ERASED persistence). IDR STAGE-5 sub-17,750 Day-7 FIRMING (regression band 17,746-17,797 mid). Indonesia CPI Aug 3.19% YoY / core 2.92% hawkish digestion Day-2. Destry CONFIRMED BI Gov 2026-2031 DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-2; first BI-RDG Sep 17 T-2 weeks PATH QUESTIONED. Crisis-track engagement gate 0.70/5 (+0.05pp vs Wed 0.65/5 partial-restore via IDR sub-17,750 Day-7 firming; 4.30/5 gap BINDING). Wk 20 Day 4 0/3 BUY-slot week (fresh Mon reset). Cumulative alpha ~+9.87pp (Thu sesi I basis) vs Wed reconciled +10.67pp = -0.80pp compression via IHSG +1.03% rebound on zero exposure. Risk alerts: NONE. Market-open filed 10 SKIP decisions; midday no-action per n=0 mechanically vacuous."
+    },
+    {
+      "date": "2026-09-04",
+      "day_label": "Day 100",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6660.789,
+      "ihsg_cumulative_pct": -12.75,
+      "alpha_pct": 9.91,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 20 Day 5 CLOSE \u2014 WK 20 COMPLETES 0/3 BUY-slot week \u2014 20 CONSECUTIVE ZERO-TRADE WEEKS. Book fully de-risked Day 52 continues, 100% cash IDR 9,716,207,500. IHSG Fri sesi I close 6,660.789 (-0.11% -7.10 pts vs Thu reconciled full-close 6,667.891) \u2014 intraday consolidation post-Thu-rebound. Opened 6,696.98 (+0.44% +29.09 pts) via CNBC Indonesia. Sesi I close 6,660.789 per multi-source cluster CNBC Indonesia + Berita Moneter + Stockwatch.id + Investing/Pasar Dana convergent (\u22653-source PASS). Sesi II range 6,614.71-6,681.83 per Liputan6. Sesi II full-day close PENDING Mon Sep 7 pre-market reconciliation per DQG-Day-124 sesi-II-lag pattern (6th cumulative occurrence). Single-source 6,687.89 outlier attributed to Thu Sep 3 conflation per Liputan6 title cross-referenced Thu-reconciled 6,667.891 stockwatch.id (sanity fail: Fri sesi II high 6,681.83 < 6,687.89). Iran-US Brent SNAP-BACK $95.25 Day-1 BELOW instant-regression threshold post-Waller-dovish Thu Fed-hold-hope transmission. Newcastle coal $146.60 Day-3 persistence (coal 2-strike EXIT still binds). US-10Y EASING post-Waller-dovish Day-1 (Warsh hawkish overhang partial-attenuation). IDR STAGE-5 sub-17,750 Day-8 FIRMING approaches sustained 3-of-3 criterion (a) lift driver. Indonesia CPI Aug 3.19% YoY / core 2.92% hawkish digestion Day-3. Destry CONFIRMED BI Gov 2026-2031 DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-3; first BI-RDG Sep 17 T-2 weeks PATH-QUESTIONED. Crisis-track engagement gate 0.90/5 (+0.20pp vs Thu 0.70/5 partial-restore via IDR Day-8 firming + Waller-dovish read-through; 4.10/5 gap BINDING). Wk 20 CLOSES 0/3 BUY-slot week \u2014 20 CONSECUTIVE ZERO-TRADE WEEKS locked. Cumulative alpha ~+9.91pp (Fri sesi I basis) vs Thu sesi I basis +9.87pp = +0.04pp minor expansion via IHSG -0.04% consolidation on zero exposure. Risk alerts: NONE. Market-open filed 9 SKIP decisions; midday no-action per n=0 mechanically vacuous. WEEKLY-REVIEW filing 16:00 WIB Fri Sep 4 (Wk 20 CLOSE); Mon Wk 21 fresh reset."
     }
   ],
   "positions": [],
@@ -23779,8 +23795,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 92,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 76 counting-trading-days)",
+    "trial_days_elapsed": 93,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 100 counting-trading-days)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -23789,8 +23805,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -12.71,
-    "cumulative_alpha_pct": 11.79,
+    "ihsg_cumulative_pct": -12.75,
+    "cumulative_alpha_pct": 9.91,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -23801,20 +23817,20 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-08-31",
+    "updated": "2026-09-04",
     "portfolio_value": 9716207500,
-    "alpha_pct": 11.79,
+    "alpha_pct": 9.91,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 9.87,
+    "cumulative_alpha_pp": 9.91,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 96,
-    "last_updated": "2026-08-31",
+    "day_number": 97,
+    "last_updated": "2026-09-04",
     "open_positions": 0,
-    "days_in_trial": 99
+    "days_in_trial": 100
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47-Wk20-Day1-CLOSE-IHSG-Mon-sesi-I-6517.24-(-0.48pct-vs-Fri-sesi-I-6548.85)-CONTINUATION-DOWN-Warsh-hawkish-Day-1-MSCI-effective-T-0-Book-de-risked-Day-47-100pct-cash-IDR-sub-17750-Day-5-INSTANT-REGRESSION-RISK-DQG-Day-120-CRISIS-TRACK-GATE-0.50-of-5",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52-Wk20-Day5-CLOSE-WK20-COMPLETE-0-of-3-BUY-slot-week-20-CONSECUTIVE-ZERO-TRADE-WEEKS-STRING-INTACT-IHSG-Fri-sesi-I-6660.789-(-0.11pct-vs-Thu-reconciled-full-close-6667.891)-INTRADAY-CONSOLIDATION-sesi-II-close-PENDING-Mon-pre-market-reconciliation-DQG-Day-124-sesi-II-lag-pattern-6th-cumulative-Book-de-risked-Day-52-100pct-cash-IDR-9,716,207,500-IRAN-US-BRENT-SNAP-BACK-95.25-Day-1-BELOW-instant-regression-post-Waller-dovish-Thu-fed-hold-hope-NEWCASTLE-COAL-146.60-Day-3-coal-2-strike-EXIT-still-binds-US-10Y-EASING-post-Waller-dovish-Day-1-IDR-STAGE-5-SUB-17750-Day-8-FIRMING-approaches-sustained-3-of-3-criterion-a-lift-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-3-cum-alpha-plus-9.91pp-Fri-sesi-I-basis-vs-Thu-plus-9.87pp-plus-0.04pp-expansion-Data-Quality-Gate-Day-124-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-of-5-partial-restore-4.10-gap-BINDING",
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
     "current_equity": 9716207500,
@@ -23825,44 +23841,9 @@
     "max_position_pct": 0.05,
     "max_gross_pct": 0.8,
     "max_new_trades_week": 3,
-    "updated": "2026-08-31"
+    "updated": "2026-09-04"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-01T00:15:01Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. IHSG Tue Jun 30 sesi II final ANJLOK -3.05% to 5,643.19 = BREACH 5,800 psych floor + URGENT foreign net sell Rp 1.04T alert sent. Top ideas: LSIP (MEDIUM, score 7, B50 launch T+0 LIVE), UNVR (MEDIUM, score 6, post-ex Day 1 reset), BBCA (MEDIUM, score 6, cascade capitulation). 4 candidates scored >=6. KLBF cluster Day 68 non-convergent 28 sessions.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "4 candidates scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 - B50 biodiesel launch TODAY T+0 LIVE effect day + BCA TOP pecking-order + NO MSCI SC + PER 4.26 deep-value"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 - Post-ex Day 1 reset + Brent CPI-relief + MNC TOP PICK persistent + Q2 Jul 28 forward"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 - 2-day cascade -7.85% capitulation possible + BEI weight re-eval T+0 absorbed-headwind"
-        },
-        {
-          "type": "alert",
-          "detail": "URGENT foreign flow reversal Rp 1.04T Tue Jun 30 > Rp 1T threshold; IHSG breach 5,800 psych floor; IDR 17,957 cascade kill-switch RE-PIERCE"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-01T02:20:29Z",
       "routine": "market-open",
@@ -28556,6 +28537,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions; no cuts, no tightens, no thesis exits. 53rd consecutive no-position session."
+    },
+    {
+      "timestamp": "2026-09-04T08:20:56Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-09-04 Day 100 (Wk 20 Day 5 CLOSE): IDR 9,716,207,500 (0.00% day; -2.84% cum). Alpha +0.04pp vs IHSG (sesi I basis; sesi II pending Mon). 0 positions Day 52; Wk 20 closes 0/3 (20 consecutive zero-trade weeks). Crisis-track gate 0.90/5 partial-restore.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 100 EOD snapshot committed; Wk 20 CLOSE (20 consecutive zero-trade weeks locked); IHSG Fri sesi I 6,660.789 provisional; sesi II reconciliation pending Mon per DQG-Day-124; Waller-dovish + Brent snap-back + IDR Day-8 firming drove +0.20pp gate lift"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -28662,7 +28655,7 @@
     "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
     "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-04T00:08:13Z",
+  "last_updated": "2026-09-04T08:20:38Z",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,

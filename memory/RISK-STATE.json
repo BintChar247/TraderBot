@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY51-Wk20-Day4-CLOSE-IHSG-Thu-SESI-I-6663.561-(+1.03pct-vs-Wed-externally-reconciled-6595.77)-REBOUND-BUY-INTEREST-POST-CPI-HAWKISH-DIGESTION-Day-2-TECH-Wed-+3.83pct-Day-2-follow-through-candidate-Wed-Sep-2-full-close-EXTERNALLY-RECONCILED-6595.77-(NOT-6581.44-provisional)-DQG-Day-120-lag-UPSIDE-VARIANT-CONFIRMED-cum-alpha-+9.87pp-reconciled-basis-vs-Wed-reconciled-+10.67pp-net-0.80pp-COMPRESSION-Book-de-risked-Day-51-100pct-cash-Wk20-Day-4-0-of-3-BUY-slot-week-IRAN-US-BRENT-ESCALATION-Day-3-$94.86-Strait-of-Hormuz-persistence-approaching-$95-instant-regression-NEWCASTLE-COAL-SPIKE-$144.85-persistence-Day-2-coal-2-strike-EXIT-binds-US-10Y-BLOWOUT-PERSIST-4.79-4.81pct-Day-2-Warsh-partial-unwind-ERASED-persistence-IDR-STAGE-5-SUB-17750-Day-7-FIRMING-DESTRY-CONFIRMED-BI-GOV-2026-2031-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-2-first-BI-RDG-Sep-17-T-2-weeks-PATH-QUESTIONED-Data-Quality-Gate-Day-123-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.70-of-5-partial-restore-4.30-gap-BINDING",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52-Wk20-Day5-CLOSE-WK20-COMPLETE-20-CONSECUTIVE-ZERO-TRADE-WEEKS-STRING-INTACT-IHSG-Fri-sesi-I-6660.789-(-0.11pct-vs-Thu-reconciled-full-close-6667.891)-INTRADAY-CONSOLIDATION-post-Thu-rebound-6614.71-6681.83-sesi-II-range-EOD-PROVISIONAL-6660-per-multi-source-cluster-sesi-II-close-PENDING-Mon-Sep-7-pre-market-reconciliation-per-DQG-Day-124-sesi-II-lag-pattern-6th-cumulative-occurrence-Book-de-risked-Day-52-100pct-cash-Wk20-Day-5-0-of-3-BUY-slot-week-CLOSED-IRAN-US-BRENT-SNAP-BACK-95.25-Day-1-BELOW-instant-regression-threshold-post-Waller-dovish-Thu-fed-hold-hope-transmission-NEWCASTLE-COAL-146.60-Day-3-persistence-coal-2-strike-EXIT-still-binds-US-10Y-EASING-post-Waller-dovish-Day-1-IDR-STAGE-5-SUB-17750-Day-8-FIRMING-approaching-sustained-3-of-3-criterion-a-lift-driver-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-3-cum-alpha-plus-9.91pp-Fri-sesi-I-basis-vs-Thu-sesi-I-plus-9.87pp-plus-0.04pp-expansion-via-IHSG-minus-0.04pct-consolidation-on-zero-exposure-Data-Quality-Gate-Day-124-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-of-5-partial-restore-4.10-gap-BINDING",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-03"
+  "updated": "2026-09-04"
 }
