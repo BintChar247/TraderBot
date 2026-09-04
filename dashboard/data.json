@@ -23371,6 +23371,411 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility; Brent snap-back <$95 fades near-term amplifier; Abadi LNG 19+ wks stale.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 7/10 Gas. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking-halo Day-1 Waller-dovish read-through; premium Big-4.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Banking. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 BEAT locked; peak-rate loosens marginally on Waller-dovish.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Banking. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cheapest Big-4; 11.58% div yield; H1 +24.19% strongest profit growth.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Banking. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking-halo Day-1 rebound on Waller-dovish read-through.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Banking. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "LME $16,946 Day-5 firming; Danantara battery-supply overlay.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Nickel. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel + gold hybrid; Freeport-adjacent optionality.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Nickel. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "AALI",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO Day-3 pullback 4,904 -1.09% but sub-Sep-1 4,973 breakout intact.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Plantation. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "LSIP",
+      "action": "SKIP",
+      "date": "2026-09-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Smaller-cap CPO play; Day-3 pullback continues; gate-blocked.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate (0.90/5; gap 4.10/5)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-52 + Waller-dovish + Brent snap-back $95.25 + IDR sub-17,750 Day-8 firming + IHSG Thu +1.09%"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 catalyst insufficient under crisis-track: 0% new entries binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries permitted)"
+        }
+      ],
+      "reasoning": "Score 6/10 Plantation. Crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 gap binding). Zero new entries permitted regardless of candidate score. 53rd consecutive no-position session; Wk 20 Day 5 CLOSE 0/3 BUY-slot week concludes (fresh Mon Wk 21 reset).",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -23423,26 +23828,6 @@
     "updated": "2026-08-31"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-06-30T15:15:00+07:00",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 52: Equity IDR 9.867B (+0.00% day). Alpha +2.42% vs IHSG sesi I -2.42% deep selloff. Cumulative alpha +24.28% = NEW TRIAL HIGH WATER (+2.10pp from Day 51 +22.18%). KLBF 1 position safe-lower carry frozen 1,035 (Day 67 cluster non-convergent). Cash 94.56%. Trades this week: 0/3. No risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 52 EOD snapshot committed"
-        },
-        {
-          "type": "research",
-          "detail": "IHSG Day 51 reconciled to Mon sesi II final 5,820.79 (from provisional 5,838.94)"
-        },
-        {
-          "type": "research",
-          "detail": "Cumulative alpha +24.28% provisional Tue sesi I = trial high water (+2.10pp expansion)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-06-30T08:19:27Z",
       "routine": "daily-summary",
@@ -28118,6 +28503,63 @@
           "type": "research",
           "ticker": "AALI",
           "detail": "score 6/10 \u2014 CPO Day-3 pullback, sole-tailwind fade"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-04T02:17:36Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 20 Day 5. Crisis-track engagement gate ACTIVATED 0.90/5 (+0.20pp vs Thu 0.70/5 partial-restore); 4.10/5 gap BINDING. All 9 candidates \u22656/10 (PGAS/BBCA/BBRI/BMRI/BBNI/INCO/MDKA/AALI/LSIP) SKIPPED per gate. 53rd consecutive no-position session; Wk 20 closes 0/3 BUY-slot week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "gate 0.90/5 partial-restore; score 7"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "AALI",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "skip",
+          "ticker": "LSIP",
+          "detail": "gate 0.90/5; score 6"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-124 outage persists (yfinance+GoAPI 124 sessions blocked)"
         }
       ]
     }
