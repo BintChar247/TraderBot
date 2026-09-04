@@ -23424,12 +23424,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-06-30T04:35:17Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. KLBF carry 0% per broker stub (live cluster Day 67 non-convergent). No cuts, no tightens, no thesis exits."
-    },
-    {
       "timestamp": "2026-06-30T15:15:00+07:00",
       "routine": "daily-summary",
       "status": "success",
@@ -28095,6 +28089,37 @@
           "detail": "Day 99 snapshot committed; Wed close externally reconciled 6,581.44\u21926,595.77 (DQG-Day-120 upside variant); Thu sesi I 6,663.561 basis; sesi II sesi-II-lag pattern PENDING Fri pre-market"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-04T00:10:18Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Fri Sep 4 Wk 20 Day 5 CLOSE + WEEKLY-REVIEW-DAY. 50 tickers scanned; 9 candidates scored \u22656 (PGAS 7; BBCA/BBRI/BMRI/BBNI/INCO/MDKA/AALI/LSIP 6). All pre-blocked at crisis-track gate ACTIVATED 0.90/5 (+0.20pp vs Thu on Waller-dovish + Brent snap-back + IDR Day-8 firming). IHSG Thu full-close 6,667.89 +1.09% sesi II RESOLVED. HOLD, 53rd no-position session.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "9 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 Brent snap-back tailwind fade Day-1; oil-linked gas amplifier persists"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 Waller-dovish + cheapest Big-4 P/B 1.85x + 11.58% div yield"
+        },
+        {
+          "type": "research",
+          "ticker": "AALI",
+          "detail": "score 6/10 \u2014 CPO Day-3 pullback, sole-tailwind fade"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -28124,84 +28149,84 @@
     "foreign_flow_note": "Wed Sep 2 net sell -Rp 379.67bn (TLKM/GOTO led); prior-week Aug 26-Sep 1 net BUY +Rp 2.22T; criterion (d) 0.15-0.20/5 partial"
   },
   "research": {
-    "date": "2026-09-03",
+    "date": "2026-09-04",
     "holiday": false,
-    "as_of_date": "2026-09-03",
+    "as_of_date": "2026-09-04",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Thu Sep 3 07:00 WIB pre-market (Wk 20 Day 4 = BRENT-SHOCK-Day-3 $94.86 + NEWCASTLE-COAL-SPIKE $144.85 +9.32% MoM + US-10Y-BLOWOUT-PERSIST 4.79%)",
-    "ihsg_last": 6581.44,
-    "ihsg_last_label": "Wed Sep 2 full-day close 6,581.44 (-0.28% vs Tue reconciled 6,599.94; banking-halo Day-2 mean-reversion CONFIRMED; tech +3.83% lone gainer)",
-    "ihsg_last_sesi_i": 6581.45,
-    "ihsg_last_sesi_i_label": "Wed sesi I 6,581.45 (aligned tight with full-day close 6,581.44)",
-    "idr_usd": 17710,
-    "idr_usd_label": "IDR ~17,700-17,722 Thu forecast; sub-17,750 Day-7 firming continuation; Destry-CONFIRMED-dovish-continuity structural lock",
+    "as_of_label": "Fri Sep 4 07:00 WIB pre-market (Wk 20 Day 5 CLOSE + WEEKLY-REVIEW-DAY = WALLER-DOVISH-REMARKS-Thu Fed-hold-hope + BRENT-SNAP-BACK-$95.25-below-$95-instant-regression + IHSG-Thu-full-close-6,667.89-+1.09% + IDR-sub-17,750-Day-8-firming ~17,685 + NEWCASTLE-COAL-$146.60-Day-4 + CPO-MYR-4,904-Day-3-pullback)",
+    "ihsg_last": 6667.89,
+    "ihsg_last_label": "Thu Sep 3 full-day close 6,667.89 (+1.09% +72.11 pts vs Wed reconciled 6,595.77) \u2014 sesi II RESOLVED per stockwatch.id + pelitakarawang + CNBC Indonesia 3-source cluster convergent; 402 stocks gained, 213 declined, 180 unchanged; Waller-dovish read-through + banking Big-4 rebound + tech-continuation-Day-2",
+    "ihsg_last_sesi_i": 6663.561,
+    "ihsg_last_sesi_i_label": "Thu sesi I 6,663.561 basis; sesi II absorbed +4.328 pts to full-close 6,667.89",
+    "idr_usd": 17685,
+    "idr_usd_label": "IDR ~17,685 Fri est. (down -80 IDR from ~17,765 Thu open per pluang cluster) \u2014 sub-17,750 Day-8 firming under Waller-dovish + US-10Y-mild-relief 4.76% tailwind; criterion (a) 0.55/5 approaching 3-of-3 sustain",
     "candidates_count": 10,
     "candidates": [
       {
         "ticker": "PGAS",
         "score": 7,
-        "delta": "+1",
-        "note": "Brent Day-3 $94.86 oil-linked gas MAJOR tailwind; Abadi LNG HoA 18+ wks stale"
+        "delta": "0",
+        "note": "Brent snap-back below $95 mild-negative but oil-linked gas amplifier persists Day-4; Abadi LNG HoA 19+ wks stale"
       },
       {
         "ticker": "BBCA",
         "score": 6,
         "delta": "0",
-        "note": "Post-CPI-hawkish digestion Day-2; profit-taking realized"
+        "note": "Thu banking-halo Day-1 post-Wed-mean-revert; Waller-dovish read-through supports Big-4 rate-cut narrative"
       },
       {
         "ticker": "BBRI",
         "score": 6,
-        "delta": "-1",
-        "note": "Q2 BEAT locked; CPI-hawkish inversion Day-2 realized; peak-rate-cycle overhang"
+        "delta": "0",
+        "note": "Q2 BEAT lock persists; Waller-dovish partial-offset CPI-hawkish-Day-3; peak-rate-cycle overhang loosens marginally"
       },
       {
         "ticker": "BMRI",
         "score": 6,
         "delta": "0",
-        "note": "Cheapest Big-4; 11.58% dividend yield; H1 +24.19% strongest Big-4"
+        "note": "Cheapest Big-4; 11.58% dividend yield; H1 +24.19% strongest Big-4; foreign top-net-buy Wed reconciliation pending"
+      },
+      {
+        "ticker": "BBNI",
+        "score": 6,
+        "delta": "+1",
+        "note": "Big-4 rebound with sector-wide banking-halo Day-1 post-Waller-dovish rate-cut hopes"
       },
       {
         "ticker": "MEDC",
-        "score": 6,
-        "delta": "+1",
-        "note": "Brent Day-3 upstream tailwind amplified"
+        "score": 5,
+        "delta": "-1",
+        "note": "Brent snap-back below $95 removes Day-3 tailwind; downside-downgrade candidate"
       },
       {
         "ticker": "INCO",
         "score": 6,
         "delta": "0",
-        "note": "Rikopedia top pick Aug; matte pure-play; HPM regulation +"
+        "note": "LME nickel $16,946 Day-5 mild firming; Danantara battery-project overlay"
       },
       {
         "ticker": "MDKA",
         "score": 6,
         "delta": "0",
-        "note": "Top pick Aug; MoM momentum; gold floor + Cu"
-      },
-      {
-        "ticker": "MIKA",
-        "score": 6,
-        "delta": "0",
-        "note": "InvestorTrust top pick; RAPBN 2027 health-anchor; Thu snap-back digestion Days 5-6"
+        "note": "Nickel + gold hybrid; Freeport-adjacent optionality"
       },
       {
         "ticker": "AALI",
         "score": 6,
-        "delta": "-1",
-        "note": "CPO pullback Day-1 -0.30% to -1.43%; breakout structural intact tactical fade"
+        "delta": "0",
+        "note": "CPO MYR 4,904 Day-3 pullback from Sep-1 4,973 breakout; sole-tailwind fade"
       },
       {
         "ticker": "LSIP",
         "score": 6,
-        "delta": "-1",
-        "note": "CPO pullback Day-1; IDX80-add T+2 flow"
+        "delta": "0",
+        "note": "CPO pullback Day-3 continues; smaller-cap CPO play; sole-tailwind fade"
       }
     ],
-    "candidates_status": "ALL 10 candidates PRE-BLOCKED by crisis-track engagement gate ACTIVATED (0.70/5, 4.30/5 binding gap)",
-    "top_candidates_deep_dive_count": 7
+    "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
+    "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-03T15:15+07:00",
+  "last_updated": "2026-09-04T00:08:13Z",
   "market": {
     "ihsg_close": 6521.75,
     "ihsg_change_pct": 1.81,
@@ -28212,27 +28237,26 @@
     "idr_status": "SUB-17,750 marginal Day-4 borderline; criterion (a) partial 0.65/5 marginal improvement via Destry-approved dovish-continuity structural lock cemented"
   },
   "pre_market": {
-    "date": "2026-09-03",
-    "day_label": "Thu Wk 20 Day 4",
+    "date": "2026-09-04",
+    "day_label": "Fri Wk 20 Day 5 CLOSE + WEEKLY-REVIEW-DAY",
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_reason": "Cascade-inflection-confirmed Day-51; Brent-shock Day-3 $94.86 (+3.9% Sep-1); Newcastle coal spike $144.85 (+9.32% MoM signal-watch, sector-2-strike EXITED still binds); US-10Y-blowout persist 4.79%; IDR sub-17,750 Day-7 firming; CPI-hawkish inflection Day-2 digested",
-    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (0.70/5, 4.30/5 binding gap); 0% new entries binding",
-    "candidates_scored_ge6_count": 10,
+    "regime_reason": "Cascade-inflection-confirmed Day-52; Waller-dovish remarks Thu = US-Fed-hold-hope + US-10Y mild relief 4.76% -3bp; Brent snap-back $95.25 below $95 instant-regression threshold (3-day rally end); IDR sub-17,750 Day-8 firming ~17,685; Newcastle coal $146.60 Day-4 persistence (sector-2-strike EXITED still binds); IHSG Thu full-close 6,667.89 +1.09% rebound sesi II confirmed",
+    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 binding gap); 0% new entries binding; Wk 20 Day 5 continues 0/3 BUY-slot week (fresh Mon reset)",
+    "candidates_scored_ge6_count": 9,
     "candidates_scored_ge6": [
       "PGAS",
       "BBCA",
       "BBRI",
       "BMRI",
-      "MEDC",
+      "BBNI",
       "INCO",
       "MDKA",
-      "MIKA",
       "AALI",
       "LSIP"
     ],
-    "re_entry_gate_score": 0.7,
+    "re_entry_gate_score": 0.9,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": 0.05,
-    "notes": "Wk 20 Day 4 pre-market; 52nd consecutive no-position session; PGAS top candidate on Brent Day-3 oil-linked gas amplifier; NO new entries per crisis-track gate ACTIVATED"
+    "re_entry_gate_delta_from_prev": 0.2,
+    "notes": "Wk 20 Day 5 pre-market + WEEKLY-REVIEW-DAY (16:00 WIB); 53rd consecutive no-position session; Waller-dovish tailwind + Brent snap-back + IDR Day-8 firming = +0.20pp gate improvement (0.70/5 \u2192 0.90/5 partial); crisis-track engagement gate ACTIVATED all 10 candidates \u22656/10 pre-blocked; weekly-review scheduler flag confirmed for 16:00 WIB run"
   }
 }
