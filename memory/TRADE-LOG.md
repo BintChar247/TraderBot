@@ -11572,3 +11572,39 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   13. **WEEKLY REVIEW filed 16:00 WIB Fri Sep 4 (Wk 20 CLOSE)** — 20 consecutive zero-trade weeks locked; regime label + macro pillars refresh; WEEKLY-REVIEW.md new entry via weekly-review routine.
 
 ---
+
+### 2026-09-07 09:15 WIB — MARKET-OPEN Wk 21 Day 1 (Monday) — NO TRADES (10 SKIP; crisis-track gate 0.90-1.20/5 partial-restore)
+
+- Session: Mon Sep 7, Wk 21 Day 1 OPEN (Day 101 of trial; **21st consecutive zero-trade week candidate — fresh Wk 21 reset**)
+- Trades placed: **0** (54th consecutive no-position session; Wk 21 opens 0/3 BUY-slot week)
+- Portfolio: IDR 9,716,207,500 (100% cash); 0 open positions; realised P&L IDR -294,172,500
+- Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY53 + IDR-SUB-17,700-Day-9-approaching + FOREIGN-FLOW-Wk20-MATERIAL-SHIFT-+Rp2.3T + BRENT-ABOVE-$95-Day-2-instant-regression-RETURNS + US-HOT-PAYROLLS-Aug-+162k-Fed-hike-RE-ARMED
+- Crisis-track engagement gate: **ACTIVATED 0.90/5 Wk 20 close → 1.00-1.20/5 projected Wk 21 Day 1** (gap 3.80-4.00/5 BINDING; 0% new entries permitted)
+  - (a) 0.65+/5 IDR sub-17,700 Day-9 approaches sustained 3-of-3; offsetting US-hot-payrolls Fed-hike-risk-RE-ARMED
+  - (b) 0/5 DQG-Day-125 outage persists (yfinance/GoAPI 125 sessions blocked ALL 50 tickers)
+  - (c) 0.20/5 MSCI-absorption Day-8 persistence continues
+  - (d) 0.20-0.40/5 partial-restore candidate on Wk 20 +Rp2.3T material shift; Fri Sep 4 full-day + Mon net-flow PENDING reconciliation
+  - (e) 0/5 untestable (dependent on (b))
+- Candidates evaluated (10 tickers ≥6/10 per RESEARCH-LOG 2026-09-07) — ALL SKIP per gate:
+  1. BBRI-7 — SKIP (gate) — Q2 H1 +17.5% BEAT locked; Wk 20 foreign top-net-buy leader; loan guidance raised 8-10%
+  2. BBCA-6 — SKIP (gate) — Big-4 anchor; Waller-dovish tailwind persists; premium valuation
+  3. BMRI-6 — SKIP (gate) — Cheapest Big-4; H1 +24.19% strongest; 11.58% div yield
+  4. PGAS-6 — SKIP (gate) — Oil-linked gas amplifier Brent above $95 Day-2; Abadi LNG 19+ wks stale
+  5. ANTM-6 — SKIP (gate) — RKAB quota-cut supply-tailwind; FY26F RKEF commissioning
+  6. INCO-6 — SKIP (gate) — Top-pick Metals; HPAL commissioning; LME $16,743 weak partial-offset
+  7. MDKA-6 — SKIP (gate) — Nickel+gold hybrid; Freeport-adjacent optionality
+  8. ICBP-6 — SKIP (gate) — Q2 core NP +50.6% YoY BEAT persists; Brent snap-back partial-headwind
+  9. INDF-6 — SKIP (gate) — Sole net-inflow YTD; Brent-above-$95 Day-2 mixed vector
+  10. MYOR-6 — SKIP (gate) — H2 +5.6% growth strongest consumer; commodity-normalization narrative
+- Coal sector: 2-strike EXITED rule STILL BINDS (Newcastle moderating $130-141 from $146.60 peak; sector-blocked)
+- MISTAKES-blocked (persistent): KLBF, ITMG, BBRI-May-1-precedent, ADRO-May-20-precedent (per MISTAKES.md)
+- 9-gate checklist: N/A executed (regime pre-gate crisis-track ACTIVATED short-circuits all candidates before 15-check gate)
+- Broker reconciliation: `{mode: paper, equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}` — n=0 confirmed
+- Notification: dispatched via scripts/notify.sh (📊 Market-open 2026-09-07: no trades; 10 SKIP; crisis-track gate 0.90-1.20/5)
+- log-activity: `scripts/log-activity.sh --routine market-open --status warning` filed with 10 SKIP entries
+- Dashboard: 10 SKIP decisions appended to dashboard/data.json decisions[] (total now 469)
+- Data source: WebSearch multi-source per DQG-Day-125 persistent; no live prices required (all SKIPs)
+- Trial context: Day 101 (Wk 21 Day 1 OPEN); 100% cash Day 53 continues; drawdown -3.10% from peak deeply within -15% cap
+- Carry-over to 11:30 WIB midday: (1) IHSG Mon sesi I direction — sustain-consolidation above 6,650 = crisis-track partial-restore continues; break below 6,600 = defensive re-intensification; (2) IDR Mon sesi I sub-17,700 Day-9 continuation vs regression on US-hot-payrolls US-10Y-spike; (3) Brent Mon direction on Iran-US escalation Day-2 above $95 vs snap-back binary; (4) Newcastle coal Day-4 signal-monitor; (5) AALI/LSIP direction on CPO Day-4 pullback continuation vs base support 4,850-4,900; (6) ASII Mon direction on IDR 2T buyback absorption Day-4; (7) BBRI/BMRI banking Wk 20 halo carry vs Fri profit-take fade continuation; (8) TLKM Samuel PT 3,300 Day-5 fade (TLKM-FADE 6th observation Days 26-30 window); (9) Foreign flow Fri sesi II + Mon reconciliation for criterion (d) 3-consec-net-BUY assessment
+
+---
