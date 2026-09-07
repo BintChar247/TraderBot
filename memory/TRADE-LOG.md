@@ -11608,3 +11608,21 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - Carry-over to 11:30 WIB midday: (1) IHSG Mon sesi I direction — sustain-consolidation above 6,650 = crisis-track partial-restore continues; break below 6,600 = defensive re-intensification; (2) IDR Mon sesi I sub-17,700 Day-9 continuation vs regression on US-hot-payrolls US-10Y-spike; (3) Brent Mon direction on Iran-US escalation Day-2 above $95 vs snap-back binary; (4) Newcastle coal Day-4 signal-monitor; (5) AALI/LSIP direction on CPO Day-4 pullback continuation vs base support 4,850-4,900; (6) ASII Mon direction on IDR 2T buyback absorption Day-4; (7) BBRI/BMRI banking Wk 20 halo carry vs Fri profit-take fade continuation; (8) TLKM Samuel PT 3,300 Day-5 fade (TLKM-FADE 6th observation Days 26-30 window); (9) Foreign flow Fri sesi II + Mon reconciliation for criterion (d) 3-consec-net-BUY assessment
 
 ---
+
+### 2026-09-07 11:30 WIB — MIDDAY SCAN Wk 21 Day 1 (Monday) — NO ACTION (0 positions Day 54 100% cash)
+
+- Session: Mon Sep 7, Wk 21 Day 1 midday (Day 101 of trial; sesi I in-progress, pre-lunch 12:00-13:30 WIB)
+- Broker positions: `bash scripts/broker.sh positions` → `{mode: paper, positions: [], count: 0}` (54th consecutive no-position session)
+- Portfolio: IDR 9,716,207,500 (100% cash Day 54 continues); 0 open positions; realised P&L IDR -294,172,500
+- Sell-side rules applied: **N/A** — no open positions to evaluate
+  - STEP 3 (-7% hard cut losers): N/A (no positions)
+  - STEP 4 (+15%/+20% winner stop-tightens): N/A (no positions)
+  - STEP 5 (thesis breaks): N/A (no positions)
+  - STEP 6 (intraday >3% move research): N/A (no positions)
+- Actions taken: **ZERO** (no cuts, no stop-tightens, no thesis exits; MISTAKES.md untouched)
+- Env check: BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; paper-mode broker operates without API keys per PROJECT-CONTEXT; TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt
+- Notification: dispatched per scheduler override (📊 Midday 2026-09-07: All positions healthy. No action taken.) — Telegram proxy 403 → stdout fallback per DQG-Day-125 network egress pattern
+- log-activity: `scripts/log-activity.sh --routine midday --status success --actions '[]'` filed
+- Carry-over to 15:15 WIB daily-summary (EOD): (1) Sesi I close reconciliation (IHSG level vs Fri 6,660.789 sesi I basis; sustain vs break-below trigger); (2) Sesi II open direction post-lunch 13:30 WIB; (3) IDR sesi II sub-17,700 Day-9 sustain vs regression; (4) Full-day foreign flow Mon reconciliation for criterion (d) partial-restore scoring; (5) Wk 21 Day 1 CLOSE crisis-track gate re-scoring vs 0.90-1.20/5 Wk 20-close basis; (6) DQG-Day-125 outage extension confirmation (yfinance/GoAPI blocked); (7) Book status Day 54 100% cash confirmation for EOD snapshot
+
+---
