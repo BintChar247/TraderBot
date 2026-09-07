@@ -23845,43 +23845,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-01T02:20:29Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 11 Day 3. 4 SKIPs: LSIP/UNVR/BBCA/AALI on Data Quality Gate FAIL (Day 68 outage: LSIP single fresh 1,295 / UNVR 12.1% spread vs planned reset / AALI no fresh cluster) + BBCA Gate 9 falling-knife -6.33% Wed cascade continuation. KLBF trailing 931 GTC re-armed did not fire on Day 68 cluster non-convergence (Ajaib 710/TV 760/Inv 780/Yahoo 745 = 9.3% spread).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "Data Quality Gate FAIL \u2014 single fresh source Investasiku 1,295 vs Tue stale 1,290-1,310; \u22653-source \u22642%/\u22644% NOT achieved Day 68"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Data Quality Gate FAIL \u2014 Investasiku 1,765 vs planned post-ex reset 1,551 = 12.1% spread + ex-date discordance"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Gate 9 falling-knife pattern \u2014 Wed opened 5,800 cascaded -6.33% to 5,550 intraday; falling-knife per ADRO MISTAKES.md 2026-05-20"
-        },
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "Data Quality Gate FAIL \u2014 no fresh Wed cluster surfaced; deprioritized below LSIP"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "trailing 931 GTC re-armed, did not fire on Day 68 cluster non-convergence (Ajaib 710/TV 760/Investing 780/Yahoo 745 = 9.3% spread)"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price sourcing used Day 68 outage; cluster convergence discipline binds"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-01T04:37:04Z",
       "routine": "midday",
       "status": "success",
@@ -28549,6 +28512,37 @@
           "detail": "Day 100 EOD snapshot committed; Wk 20 CLOSE (20 consecutive zero-trade weeks locked); IHSG Fri sesi I 6,660.789 provisional; sesi II reconciliation pending Mon per DQG-Day-124; Waller-dovish + Brent snap-back + IDR Day-8 firming drove +0.20pp gate lift"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-07T00:10:49Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 21 Day 1 pre-market: 50-ticker scan complete. 10 candidates scored \u22656 (BBRI 7; BBCA/BMRI/PGAS/ANTM/INCO/MDKA/ICBP/INDF/MYOR 6). All pre-blocked at crisis-track engagement gate ACTIVATED (1.00/5 projected, 4.00/5 gap binding). Wk 20 foreign +Rp 2.3T material shift vs US-hot-payrolls Fed-hike-risk re-arm. Regime: DEFENSIVE-INTENSIFIED cont.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "10 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 Q2 BEAT lock + Wk 20 foreign top-net-buy leader; gate-blocked"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Big-4 anchor Waller-dovish tailwind; gate-blocked"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 cheapest Big-4 + H1 +24.19%; gate-blocked"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -28655,37 +28649,38 @@
     "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
     "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-04T08:20:38Z",
+  "last_updated": "2026-09-07T00:10:44Z",
   "market": {
-    "ihsg_close": 6521.75,
-    "ihsg_change_pct": 1.81,
-    "ihsg_close_basis": "Thu Aug 27 full-day close 6,521.75 (+1.81% / +116.06 pts vs Wed reconciled 6,405.69) \u2014 MAJOR REBOUND recaptured MA100 6,500 psychological level. Multi-source canonical \u22653-source cluster PASS Okezone + CNBC Indonesia + Liputan6 + Buletinfinansial. Healthcare sector +5.28% led; LQ45 +1.35%; 578 advancers vs 103 decliners; volume thin Rp 13.3T from 33.8B shares. Demo 27 Agustus DPR Senayan absorbed cleanly. Destry Damayanti confirmed BI Gov 2026-2031 by Komisi XI same day.",
-    "idr_usd": 17724,
-    "idr_usd_change_pct": 0.11,
-    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 43 DE-ARM-CANDIDATE Day 23 SUB-17,750 marginal Day-4 borderline. Fri Investing.com open 17,705; BCA E-Rate Thu 20:04 WIB 17,785 (at/just above 17,750 threshold). Criterion (a) partial 0.65/5 (+0.05pp vs Thu Day-3 via Destry-approved marginal support).",
-    "idr_status": "SUB-17,750 marginal Day-4 borderline; criterion (a) partial 0.65/5 marginal improvement via Destry-approved dovish-continuity structural lock cemented"
+    "ihsg_close": 6636.475,
+    "ihsg_change_pct": -0.47,
+    "ihsg_close_basis": "Fri Sep 4 full-day close reconciled 6,636.475 (-31.41 pts / -0.47%) per Infobanknews + Periskop + BeritaSela \u22653-source PASS; sesi II reconciled DOWN-variant from sesi I 6,660.789 -0.11% basis; DQG-Day-124 sesi-II-lag pattern 6th cumulative occurrence resolved DOWN-variant. Wk 20 IHSG net +1.82% weekly-product basis (Rancakmedia weekly recap).",
+    "idr_usd": 17700,
+    "idr_usd_change_pct": 0.02,
+    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 52 DE-ARM-CANDIDATE Day 32 SUB-17,700-Day-9 approaching sustained 3-of-3 criterion (a) lift path. Fri Sep 4 close ~17,700 per Investing.com cluster (prev close 17,695.8; range 17,680-17,785; open 17,710).",
+    "idr_status": "SUB-17,700 Day-9 approaching sustained 3-of-3 criterion (a) lift; Wk 21 Day 1 continuation-momentum candidate BUT US-hot-payrolls Fed-hike-risk headwind Mon-open pending"
   },
   "pre_market": {
-    "date": "2026-09-04",
-    "day_label": "Fri Wk 20 Day 5 CLOSE + WEEKLY-REVIEW-DAY",
+    "date": "2026-09-07",
+    "day_label": "Mon Wk 21 Day 1 OPEN \u2014 FRESH-WEEK-RESET",
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_reason": "Cascade-inflection-confirmed Day-52; Waller-dovish remarks Thu = US-Fed-hold-hope + US-10Y mild relief 4.76% -3bp; Brent snap-back $95.25 below $95 instant-regression threshold (3-day rally end); IDR sub-17,750 Day-8 firming ~17,685; Newcastle coal $146.60 Day-4 persistence (sector-2-strike EXITED still binds); IHSG Thu full-close 6,667.89 +1.09% rebound sesi II confirmed",
-    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (0.90/5, 4.10/5 binding gap); 0% new entries binding; Wk 20 Day 5 continues 0/3 BUY-slot week (fresh Mon reset)",
-    "candidates_scored_ge6_count": 9,
+    "regime_reason": "Cascade-inflection-confirmed Day-53; Wk 20 close 0.90/5 partial-restore carries into Wk 21; foreign flow Wk 20 +Rp 2.3T net-buy = MATERIAL SHIFT vs Wk 19 -Rp 379bn; IDR sub-17,700 Day-9 approaching sustained 3-of-3; BUT US Aug payrolls +162k HOT (vs 53k consensus) re-arms Fed-hike-risk = Waller-dovish Thu narrative REVERSED; Brent above $95 Day-2 Iran-US tensions continue = criterion (a) INSTANT-REGRESSION-RISK RETURNS; Newcastle coal moderation $130-141 from $146.60 peak; net Wk 21 Day 1 projected gate 1.00-1.20/5 partial-restore, 3.80-4.00/5 gap still binding.",
+    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5, Wk 21 Day 1 projected 1.00-1.20/5; 3.80-4.00/5 binding gap); 0% new entries binding; Wk 21 Day 1 starts fresh 0/3 BUY-slot week (21st consecutive zero-trade-week candidate).",
+    "candidates_scored_ge6_count": 10,
     "candidates_scored_ge6": [
-      "PGAS",
-      "BBCA",
       "BBRI",
+      "BBCA",
       "BMRI",
-      "BBNI",
+      "PGAS",
+      "ANTM",
       "INCO",
       "MDKA",
-      "AALI",
-      "LSIP"
+      "ICBP",
+      "INDF",
+      "MYOR"
     ],
-    "re_entry_gate_score": 0.9,
+    "re_entry_gate_score": 1.0,
     "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": 0.2,
-    "notes": "Wk 20 Day 5 pre-market + WEEKLY-REVIEW-DAY (16:00 WIB); 53rd consecutive no-position session; Waller-dovish tailwind + Brent snap-back + IDR Day-8 firming = +0.20pp gate improvement (0.70/5 \u2192 0.90/5 partial); crisis-track engagement gate ACTIVATED all 10 candidates \u22656/10 pre-blocked; weekly-review scheduler flag confirmed for 16:00 WIB run"
+    "re_entry_gate_delta_from_prev": 0.1,
+    "notes": "Wk 21 Day 1 pre-market; 54th consecutive no-position session ahead; Wk 20 foreign flow +Rp 2.3T net-buy MATERIAL SHIFT (criterion d potentially upgrading pending Mon reconciliation); IDR Day-9 sub-17,700 approaching 3-of-3 sustained (criterion a firming); BUT US hot payrolls Fri re-arms Fed-hike-risk + Brent above $95 Day-2 = mixed Mon-open Wk 21 setup; all 10 candidates \u22656 pre-blocked at crisis-track engagement gate."
   }
 }
