@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52-Wk20-Day5-CLOSE-WK20-COMPLETE-20-CONSECUTIVE-ZERO-TRADE-WEEKS-STRING-INTACT-IHSG-Fri-sesi-I-6660.789-(-0.11pct-vs-Thu-reconciled-full-close-6667.891)-INTRADAY-CONSOLIDATION-post-Thu-rebound-6614.71-6681.83-sesi-II-range-EOD-PROVISIONAL-6660-per-multi-source-cluster-sesi-II-close-PENDING-Mon-Sep-7-pre-market-reconciliation-per-DQG-Day-124-sesi-II-lag-pattern-6th-cumulative-occurrence-Book-de-risked-Day-52-100pct-cash-Wk20-Day-5-0-of-3-BUY-slot-week-CLOSED-IRAN-US-BRENT-SNAP-BACK-95.25-Day-1-BELOW-instant-regression-threshold-post-Waller-dovish-Thu-fed-hold-hope-transmission-NEWCASTLE-COAL-146.60-Day-3-persistence-coal-2-strike-EXIT-still-binds-US-10Y-EASING-post-Waller-dovish-Day-1-IDR-STAGE-5-SUB-17750-Day-8-FIRMING-approaching-sustained-3-of-3-criterion-a-lift-driver-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-3-cum-alpha-plus-9.91pp-Fri-sesi-I-basis-vs-Thu-sesi-I-plus-9.87pp-plus-0.04pp-expansion-via-IHSG-minus-0.04pct-consolidation-on-zero-exposure-Data-Quality-Gate-Day-124-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-of-5-partial-restore-4.10-gap-BINDING",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY53-Wk21-Day1-OPEN-21ST-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE-Book-de-risked-Day-54-100pct-cash-IHSG-Mon-sesi-I-6628.189-(-0.12pct-vs-Fri-sesi-I-6660.789-basis)-full-day-EOD-PROVISIONAL-6632-per-Trading-Economics-multi-source-cluster-sesi-II-full-day-close-PENDING-Tue-Sep-8-pre-market-reconciliation-per-DQG-Day-125-sesi-II-lag-7th-cumulative-US-HOT-PAYROLLS-Aug-plus-162k-FED-HIKE-RE-ARMED-Day-1-erasing-Waller-dovish-partial-attenuation-IRAN-US-BRENT-SNAP-BACK-Day-2-signal-monitor-NEWCASTLE-COAL-Day-4-signal-monitor-COAL-2-STRIKE-EXIT-still-binds-US-10Y-HAWKISH-RE-ARM-Day-1-IDR-STAGE-5-SUB-17700-Day-9-approaching-sustained-3-of-3-criterion-a-lift-driver-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-4-KRAKATAU-eruption-weekend-Day-1-aviation-tourism-secondary-macro-overlay-cum-alpha-plus-10.29pp-Mon-provisional-basis-vs-Fri-sesi-I-plus-9.91pp-plus-0.38pp-expansion-via-IHSG-minus-0.43pct-consolidation-on-zero-exposure-Data-Quality-Gate-Day-125-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-1.20-of-5-partial-restore-3.80-4.00-gap-BINDING",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-04"
+  "updated": "2026-09-07"
 }
