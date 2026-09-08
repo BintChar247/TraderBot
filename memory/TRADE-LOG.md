@@ -11700,3 +11700,37 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   11. Foreign flow Fri full-day + Mon full-day reconciliation for criterion (c/d) re-scoring.
   12. Anak Krakatau eruption Day-2 aviation/tourism sector monitoring (no direct exposure).
   13. **First BI-RDG under Destry Sep 17 T-10 days countdown** — path DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-5.
+
+---
+
+### 2026-09-08 09:15 WIB — MARKET-OPEN Wk 21 Day 2 (Tuesday) — NO TRADES (8 SKIP; crisis-track gate 0.80-1.00/5 REGRESSED via Mon triple-neg vector)
+
+- Session: Tue Sep 8, Wk 21 Day 2 (Day 102 of trial; **21st consecutive zero-trade week candidate — Day 2 of 5**)
+- Trades placed: **0** (55th consecutive no-position session; Wk 21 remains 0/3 BUY-slot week)
+- Portfolio: IDR 9,716,207,500 (100% cash); 0 open positions; realised P&L IDR -294,172,500
+- Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY54 + IDR-SUB-17,750-Day-10-approaching-sustained-3-of-3 + FOREIGN-FLOW-Mon-Sep-7-RESET-Big-4-net-sell-Rp1T+ + BRENT-$97-Day-3-INSTANT-REGRESSION-RISK-SUSTAINED + KRAKATAU-ERUPTION-Day-3-aviation-shock-1,558-flights-170k-pax-MATERIAL-ESCALATION + US-CLOSED-LABOR-DAY-Fri-basis-carries + US-HOT-PAYROLLS-Aug-+162k-Fed-hike-RE-ARMED-Day-4
+- Crisis-track engagement gate: **ACTIVATED projected 0.80-1.00/5 Wk 21 Day 2 REGRESSED -0.10-0.20pp vs Wk 21 Day 1 filed 1.00-1.20/5** (gap 4.00-4.20/5 BINDING; 0% new entries permitted)
+  - (a) 0.65+/5 IDR sub-17,750 Day-10 approaches sustained 3-of-3; offset by Brent $97 Day-3 instant-regression amplifier + US-hot-payrolls Fed-hike-risk
+  - (b) 0/5 DQG-Day-126 outage persists (yfinance/GoAPI 126 sessions blocked)
+  - (c) 0.20/5 MSCI-absorption Day-7 persistence continues
+  - (d) 0.20-0.30/5 partial DOWNGRADED from projected 0.30-0.40/5 — Mon Sep 7 Big-4 aggregate -Rp1.14T (BBCA -Rp686bn, BBRI -Rp427bn, BBNI -Rp28bn) RESETS Wk 20 +Rp2.3T momentum
+  - (e) 0/5 untestable (dependent on (b))
+- Candidates evaluated (8 tickers ≥6/10 per RESEARCH-LOG 2026-09-08) — ALL SKIP per gate:
+  1. BBRI-6 (DOWNGRADED from 7) — SKIP (gate) — Q2 H1 +17.5% BEAT lock persists but Mon -Rp427bn foreign net-sell RESETS 3-consec-net-BUY hope; R:R 1.54:1 fails ≥2:1
+  2. BBCA-6 — SKIP (gate) — Big-4 anchor; Mon -Rp686bn LARGEST Big-4 net-sell; premium P/E ~22x; DEFENSIVE-TRACK numeric-check FAIL
+  3. BMRI-6 — SKIP (gate) — Cheapest Big-4 + strongest H1 +24.19%; +Rp72bn foreign net-buy Mon bright-spot; R:R 1.66:1 fails ≥2:1
+  4. PGAS-6 — SKIP (gate) — Oil-linked gas amplifier Brent >$95 Day-3 mild-positive; Abadi LNG 19+ wks stale; TP +42% upside
+  5. INCO-6 (PROMOTED from 5) — SKIP (gate) — Wk 20 broker top-3 pick nickel resilience; LME weak $16,570 partial-offset by RKAB cut
+  6. ICBP-6 — SKIP (gate) — Q2 core NP +50.6% YoY BEAT persists; Brent-$97 packaging + edible-oil input-cost margin-headwind escalates Day-3
+  7. INDF-6 — SKIP (gate) — Sole net-inflow YTD; H2 +4.9% growth; Brent-$97-Day-3 mixed-vector
+  8. MYOR-6 — SKIP (gate) — H2 +5.6% strongest consumer growth; MYOR>KLBF>ICBP>UNVR>SIDO pecking-order; Brent-$97 headwind
+- Coal sector: 2-strike EXITED rule STILL BINDS (Newcastle $148.65 Fri Day-4 elevated; ADRO/ITMG/PTBA/BUMI/HRUM all sector-blocked regardless of individual scoring)
+- MISTAKES-blocked (persistent): KLBF-Jul-6, ITMG-May-18, BBRI-May-1, ADRO-May-20 (per MISTAKES.md hard-cut precedents)
+- 9-gate checklist: N/A executed (regime pre-gate crisis-track ACTIVATED short-circuits all 8 candidates before 9-check gate; equivalent gate-5 catalyst pre-block on regime-standing-down)
+- Broker reconciliation: `{mode: paper, equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}` — n=0 confirmed
+- Notification: dispatched via scripts/notify.sh (📊 Market-open 2026-09-08: no trades; 8 SKIP; crisis-track gate 0.80-1.00/5)
+- log-activity: `scripts/log-activity.sh --routine market-open --status warning` filed with 8 SKIP context
+- Dashboard: 8 SKIP decisions appended to dashboard/data.json decisions[] (total now 477)
+- Data source: WebSearch multi-source per DQG-Day-126 persistent; no live prices required (all SKIPs)
+- Trial context: Day 102 (Wk 21 Day 2); 100% cash Day 55 continues; drawdown ~-3% from peak deeply within -15% cap
+- Carry-over to 11:30 WIB midday: (1) IHSG Tue sesi I direction — sustain above 6,620 = continued consolidation; break below 6,600 = defensive re-intensification confirmed; (2) US Tue re-open post-Labor-Day — US-10Y direction critical for global-rates overlay + DXY direction for IDR crisis-track re-scoring; (3) Foreign flow Tue Big-4 continuation vs reversal for criterion (d) rescoring; (4) IDR Tue sub-17,750 Day-11 continuation vs regression risk; (5) Brent Tue Day-4 sustain ≥$95 vs snap-back binary; (6) Newcastle coal Day-5 signal-monitor; (7) Krakatau Day-4 aviation-shock airport re-open status + ashfall trajectory; (8) TLKM Samuel PT 3,300 Day-6 fade (TLKM-FADE Days 26+ 6th observation); (9) BI RDG Sep 17 T-9 days first-BI-RDG-under-Destry countdown

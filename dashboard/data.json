@@ -24257,6 +24257,366 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Banking. Big-4 leader; Mon Sep 7 foreign -Rp686bn largest Big-4 net-sell; premium P/E ~22x; DEFENSIVE-TRACK numeric-check FAIL (no mean/\u03c3).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Banking. Q2 H1 +17.5% BEAT locked-in; Mon foreign -Rp427bn RESETS Wk 20 +Rp2.3T momentum; R:R 1.54:1 fails \u22652:1.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Banking. Cheapest Big-4 + strongest H1 +24.19%; +Rp72bn foreign net-buy Mon bright-spot; R:R 1.66:1 fails \u22652:1.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Gas/Energy. Oil-linked gas amplifier Brent >$95 Day-3 mild-positive; Abadi LNG HoA 19+ wks stale; analyst TP +42%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Nickel. Wk 20 broker top-3 pick INCO/ANTM/NCKL; LME weak $16,570 partial-offset by RKAB cut; HPAL commissioning FY26F.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Consumer. Q2 core NP +50.6% YoY BEAT persists; Brent-$97 packaging + edible-oil input-cost margin-headwind escalates.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Consumer. Sole net-inflow YTD; H2 +4.9% growth; Brent-$97-Day-3 mixed-vector headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-09-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 Consumer. H2 +5.6% strongest consumer growth; MYOR>KLBF>ICBP>UNVR>SIDO analyst pecking-order; Brent-$97 packaging headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked by crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5; Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon triple-neg vector; 4.00-4.20/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54; IDR sub-17,750 Day-10; Brent $97 Day-3; Krakatau aviation-shock Day-3; foreign flow Mon Big-4 reset"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 gate 5 catalyst blocked by regime-level standing-down; not tradable Wk 21 Day 2"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 2 projected 0.80-1.00/5 REGRESSES from Wk 20 close 0.90/5 via Mon Sep 7 triple-negative vector (foreign Big-4 net-sell Rp1T+; Brent $97 Day-3 sustained; Krakatau aviation-shock Day-3 material escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -24311,42 +24671,6 @@
     "updated": "2026-09-07"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-02T00:11:59Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. 3 candidates \u22656: BBCA 7/10 (Wed foreign net BUY Rp 155.22B INFLECTION post Tue Rp 766B capitulation), BMRI 6/10 (paired-conditional), UNVR 6/10 (post-ex Day 2 + Brent sub-$73 CPI-relief). LSIP DOWNGRADED 5, AALI 4 on CPO Jul ref cut. KLBF HELD, buyback expiry T-0 = structural bid floor removal. Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY0.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "3 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 Wed sesi I foreign net BUY Rp 155.22B = INFLECTION"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 bank-cluster paired-inflection"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 \u2014 post-ex Day 2 + Brent CPI-relief"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD \u2014 buyback expiry T-0 structural bid floor removal"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-02T02:18:31Z",
       "routine": "market-open",
@@ -29053,6 +29377,58 @@
           "type": "research",
           "ticker": "BBCA",
           "detail": "score 6/10 largest Big-4 foreign net-sell -Rp686bn Mon"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-08T02:17:57Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 21 Day 2 no trades placed. 8 candidates \u22656/10 (BBCA/BBRI/BMRI/PGAS/INCO/ICBP/INDF/MYOR) all pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon Sep 7 triple-neg vector: Big-4 foreign -Rp1.14T net-sell, Brent $97 Day-3 sustained, Krakatau eruption Day-3 aviation escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "gate: crisis-track ACTIVATED 0.80-1.00/5"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "gate: Mon foreign -Rp427bn RESETS 3-consec-net-BUY hope"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "gate: crisis-track ACTIVATED; R:R 1.66:1 fails"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "gate: crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "gate: crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "gate: crisis-track + Brent $97 Day-3 margin-headwind"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "gate: crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "gate: crisis-track + Brent $97 Day-3 packaging headwind"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-126 outage persists; WebSearch multi-source override operational"
         }
       ]
     }
