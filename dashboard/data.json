@@ -24312,42 +24312,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-02T00:15:00Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Thu Jul 2 (Wk 11 Day 4 / KLBF buyback expiry T-0 / Day 69 data-infra outage): scanned 50 tickers. 3 candidates \u22656: BBCA 7 (Wed foreign net BUY Rp 155.22B inflection), BMRI 6 (paired), UNVR 6 (post-ex Day 2). LSIP DOWNGRADED 5 (CPO Jul ref -$28.61); AALI DOWNGRADED 4. HELD KLBF stop-fire risk MATERIAL on buyback expiry T-0. Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY0.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "3 candidates scored \u22656 (down from 4 Wed)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 Wed sesi I foreign net BUY Rp 155.22B = INFLECTION post Tue Rp 766B capitulation"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 bank-cluster paired inflection candidate (BBCA-conditional)"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 \u2014 post-ex Day 2 + Brent sub-$73 CPI-relief sustained"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD \u2014 buyback expiry T-0 = structural bid floor removal Thu"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-02T00:11:59Z",
       "routine": "pre-market",
       "status": "success",
@@ -29058,6 +29022,37 @@
         {
           "type": "research",
           "detail": "Day 101 snapshot committed; Wk 21 Day 1 OPEN 0/3 BUY-slot week; IHSG Mon full-day provisional 6,632 (-0.43%); sesi II reconciliation pending Tue Sep 8 pre-market per DQG-Day-125 sesi-II-lag 7th cumulative"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-08T00:10:43Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 21 Day 2 pre-market: 50-ticker scan complete; 8 candidates score >=6 (BBCA/BBRI/BMRI/PGAS/INCO/ICBP/INDF/MYOR); all 8 pre-blocked crisis-track engagement gate ACTIVATED projected 0.80-1.00/5 REGRESSED via Mon triple-negative vector (Big-4 foreign net-sell Rp1.14T + Brent $97 Day-3 + Krakatau Day-3 aviation-shock 1,558 flights). IHSG Mon 6,619.673 -0.25%. Zero-trade session #55 ahead.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan complete"
+        },
+        {
+          "type": "research",
+          "detail": "8 candidates scored >=6, all blocked crisis-track gate"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 Q2 BEAT locked but Mon foreign -Rp427bn RESET"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 sole bright-spot Big-4 foreign +Rp72bn Mon"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 largest Big-4 foreign net-sell -Rp686bn Mon"
         }
       ]
     }
