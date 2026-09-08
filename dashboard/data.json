@@ -1561,6 +1561,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-08",
+      "day_label": "Day 102",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6687.0,
+      "ihsg_cumulative_pct": -12.41,
+      "alpha_pct": 9.57,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -24620,8 +24635,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 93,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 100 counting-trading-days)",
+    "trial_days_elapsed": 102,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 102 counting-trading-days Wk 21 Day 2)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -24657,38 +24672,15 @@
     "day_label": "Day 101 / Wk 21 Day 1"
   },
   "risk": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY52-Wk20-Day5-CLOSE-WK20-COMPLETE-0-of-3-BUY-slot-week-20-CONSECUTIVE-ZERO-TRADE-WEEKS-STRING-INTACT-IHSG-Fri-sesi-I-6660.789-(-0.11pct-vs-Thu-reconciled-full-close-6667.891)-INTRADAY-CONSOLIDATION-sesi-II-close-PENDING-Mon-pre-market-reconciliation-DQG-Day-124-sesi-II-lag-pattern-6th-cumulative-Book-de-risked-Day-52-100pct-cash-IDR-9,716,207,500-IRAN-US-BRENT-SNAP-BACK-95.25-Day-1-BELOW-instant-regression-post-Waller-dovish-Thu-fed-hold-hope-NEWCASTLE-COAL-146.60-Day-3-coal-2-strike-EXIT-still-binds-US-10Y-EASING-post-Waller-dovish-Day-1-IDR-STAGE-5-SUB-17750-Day-8-FIRMING-approaches-sustained-3-of-3-criterion-a-lift-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-3-cum-alpha-plus-9.91pp-Fri-sesi-I-basis-vs-Thu-plus-9.87pp-plus-0.04pp-expansion-Data-Quality-Gate-Day-124-outage-persists-yfinance-GoAPI-blocked-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-of-5-partial-restore-4.10-gap-BINDING",
-    "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.0,
-    "current_equity": 9716207500,
-    "peak_equity": 10026617500,
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54-Wk21-Day2-CRISIS-TRACK-GATE-ACTIVATED-0.80-1.00-of-5",
     "drawdown_from_peak_pct": -3.1,
+    "peak_equity_idr": 10026617500,
     "trading_halted": false,
     "halt_reason": null,
-    "max_position_pct": 0.05,
-    "max_gross_pct": 0.8,
-    "max_new_trades_week": 3,
-    "updated": "2026-09-07"
+    "daily_pnl_pct": 0.0,
+    "weekly_pnl_pct": 0.0
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-02T04:37:30Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "KLBF hold \u2014 cluster non-convergent Day 69 + safe-lower carry +9.52% + trailing 931 GTC armed broker-side; buyback expiry T-0."
-    },
-    {
-      "timestamp": "2026-07-02T08:19:49Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 54: IDR 9.867B flat (0.00%). Alpha \u22121.79% vs IHSG +1.79% rebound. Cum alpha +22.79%. 1 pos (KLBF safe-lower carry +9.52%). Cash 94.56%. Trades 0/3 Wk 11 Day 4. KLBF buyback expiry T-0 elapsed; Fri T+1 = cluster convergence probability high.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 54 EOD snapshot appended to TRADE-LOG; RISK-STATE + dashboard/data.json updated"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-03T00:00:00Z",
       "routine": "pre-market",
@@ -29401,6 +29393,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "Midday Wk 21 Day 2 Tue: 0 positions (Day 55 100% cash). No cuts, no stop-tightens, no thesis exits."
+    },
+    {
+      "timestamp": "2026-09-08T15:15+07:00",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 102 Wk 21 Day 2: IDR 9.72B (0.00% daily). IHSG +1.02% (sesi II intra provisional). Alpha -1.02pp today, cum +9.56pp (compression -0.73pp). 100% cash Day 55. Trades this week: 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 102 EOD snapshot committed; alpha compression Day-2 monitoring initiated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-08T08:19:13Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 102 Wk 21 Day 2: IDR 9.72B (0.00% daily). IHSG Tue +1.02% (sesi II intra provisional). Daily alpha -1.02pp; cum +9.56pp (COMPRESSION -0.73pp Day-2 first material erosion). 100% cash Day 55. Trades this week: 0/3. Crisis-track gate 0.80-1.00/5 REGRESSED.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 102 EOD snapshot committed; alpha compression Day-2 monitoring initiated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -29408,7 +29424,9 @@
     "invested_pct": 0.0,
     "by_sector": {},
     "positions_count": 0,
-    "max_positions": 6
+    "max_positions": 6,
+    "cash_idr": 9716207500,
+    "equity_pct": 0.0
   },
   "macro": {
     "regime": "DEFENSIVE",
@@ -29507,7 +29525,7 @@
     "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
     "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-07T15:15+07:00",
+  "last_updated": "2026-09-08T15:15+07:00",
   "market": {
     "ihsg_close": 6632.0,
     "ihsg_change_pct": -0.47,
@@ -29516,9 +29534,12 @@
     "idr_usd_change_pct": 0.02,
     "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 52 DE-ARM-CANDIDATE Day 32 SUB-17,700-Day-9 approaching sustained 3-of-3 criterion (a) lift path. Fri Sep 4 close ~17,700 per Investing.com cluster (prev close 17,695.8; range 17,680-17,785; open 17,710).",
     "idr_status": "SUB-17,700 Day-9 approaching sustained 3-of-3 criterion (a) lift; Wk 21 Day 1 continuation-momentum candidate BUT US-hot-payrolls Fed-hike-risk headwind Mon-open pending",
-    "ihsg_daily_pct": -0.43,
+    "ihsg_daily_pct": 1.02,
     "ihsg_cumulative_pct": -13.13,
-    "as_of": "2026-09-07"
+    "as_of": "2026-09-07",
+    "ihsg_last": 6687.0,
+    "ihsg_source": "CNBC Indonesia + RRI + StockWatch multi-source cluster (sesi II intra provisional; full-day close PENDING Wed pre-market reconciliation DQG-Day-126 sesi-II-lag 8th)",
+    "ihsg_asof": "2026-09-08"
   },
   "pre_market": {
     "date": "2026-09-07",
