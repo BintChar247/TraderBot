@@ -24632,6 +24632,411 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10 (fresh Tue elevation). LQ45 top-3 gainer Tue Sep 8 +8.33%; nickel+gold hybrid; basic-materials sector +2.21% leader; LME nickel firming Day-1 +0.39%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Big-4 leader Tue +1.13% rebound from Mon -0.75% weakness; premium P/E ~22x; DEFENSIVE-TRACK numeric-check FAIL (no mean/\u03c3).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Q2 H1 +17.5% BEAT lock; Tue +0.30% modest recovery; TP consensus 3,692 (+9.2%); Wk 20 +Rp1.4T foreign net-buy carry.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Cheapest Big-4 (P/E ~9.5x); H1 +24.19%; 11.58% div yield; Mon Sep 7 sole Big-4 net-buy bright-spot +Rp72bn.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. MNC Sekuritas Wed Sep 9 explicit rec; Brent $96.72 Day-4 sustained \u2265$95 mild-positive gas realization; Abadi LNG HoA 20+ wks stale.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Broker consensus top-3 nickel-resilient (INCO/ANTM/NCKL); HPAL commissioning FY26F; LME nickel firming Day-1 +0.39%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Q2 core NP +50.6% YoY BEAT lock persists; consumer staples +1.05% Tue 2nd-strongest sector; Brent $97 Day-4 partial input-cost headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Sole net-inflow YTD; H2 +4.9% growth; consumer staples +1.05% Tue; Brent $97 Day-4 mixed input-cost overlay.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-09-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Strongest projected H2 growth +5.6%; MYOR>KLBF>ICBP>UNVR>SIDO analyst pecking-order; Brent $97 Day-4 input-cost headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap binding)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55; Tue IHSG +1.01% strong rally basic-materials-led; IDR sub-17,750 Day-11 firming; Brent $96.72 Day-4 sustained; Krakatau DE-ESCALATION Day-5 Soekarno-Hatta reopened; alpha compression Day-2 cumulative -0.33pp vs Wk 20 close +9.91pp"
+        },
+        {
+          "type": "risk",
+          "label": "0/9 gates evaluated \u2014 regime-level standing-down; R:R <2:1 R for MDKA (1.74:1) and BBCA (1.07:1) would fail Data Quality Gate; not tradable Wk 21 Day 3"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A \u2014 0% new entries binding regardless of individual candidate merit"
+        }
+      ],
+      "reasoning": "Standing down \u2014 crisis-track engagement gate ACTIVATED persistent blocks all new entries pending 5-criteria concurrent satisfaction. Wk 21 Day 3 open 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED partial-relief; 3.90-4.10/5 gap still binding. 56th consecutive no-position session; 21st consecutive zero-trade week candidate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -24681,37 +25086,6 @@
     "weekly_pnl_pct": 0.0
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-03T00:12:55Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Day 55 Fri pre-market: 50 tickers scanned. 2 candidates \u22656: BBCA 7 (Wed inflection CONFIRMED Thu; +3.57% intraday), BMRI 6 (paired). UNVR DOWNGRADED to WATCH (Gate 9 chase cap breached at 1,785). KLBF HOLD post-buyback expiry T+1 = cluster narrowing high. IDR 4-of-4 piercing 17,950 = RE-ARM CONFIRMED. June CPI 3.34% upside surprise. May trade deficit -$1.61B first in 72 months.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 2-day inflection CONFIRMED; Thu +3.57% intraday"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 paired \u2014 Thu absent top net sell"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD; buyback expired Thu; Fri T+1 = highest-probability cluster narrowing day"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-03T02:19:37Z",
       "routine": "market-open",
@@ -29410,6 +29784,63 @@
           "type": "research",
           "ticker": "BBCA",
           "detail": "score 6/10 \u2014 Tue rebound Big-4 leader +1.13% from Mon -0.75% weakness"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-09T02:18:35Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 21 Day 3. 9 candidates (MDKA/BBCA/BBRI/BMRI/PGAS/INCO/ICBP/INDF/MYOR) all pre-blocked by crisis-track engagement gate ACTIVATED at 0.90-1.10/5 partial-restore (3.90-4.10/5 gap binding). 56th consecutive no-position session; 21st consecutive zero-trade week candidate Day 3 of 5.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "gate-blocked; Tue +8.33% LQ45 leader; R:R 1.74:1 fails \u22652:1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "gate-blocked; premium P/E; R:R 1.07:1 fails \u22652:1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "gate-blocked; Q2 BEAT lock"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "gate-blocked; cheapest Big-4"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "gate-blocked; MNC rec + Brent $97"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "gate-blocked; nickel top-pick"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "gate-blocked; Q2 core +50.6%"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "gate-blocked; sole net-inflow YTD"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "gate-blocked; strongest H2 growth"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-127 outage: yfinance/GoAPI blocked; Telegram proxy 403 stdout fallback"
         }
       ]
     }
