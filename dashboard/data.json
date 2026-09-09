@@ -24682,42 +24682,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-03T00:00:00Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Day 55 Fri: 50-ticker scan complete. 2 candidates \u22656: BBCA 7 (Wed inflection CONFIRMED Thu, +3.57% intraday), BMRI 6 (paired). UNVR DOWNGRADED to WATCH (Gate 9 chase cap breached at 1,785). KLBF HOLD post-buyback expiry T+1 = cluster narrowing high. IDR 4-of-4 piercing 17,950 = RE-ARM CONFIRMED. June CPI 3.34% upside surprise. May trade deficit -$1.61B first in 72 months. Weekly-review 16:00 WIB.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (all watchlist)"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored \u22656 (BBCA 7, BMRI 6 paired)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 \u2014 Wed foreign net BUY Rp 155.22B \u2192 Thu ABSENT from top net sell = 2-day inflection CONFIRMED; Thu +3.57% intraday recovery"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 paired \u2014 2-day paired inflection with BBCA (both absent from Thu top net sell)"
-        },
-        {
-          "type": "research",
-          "ticker": "KLBF",
-          "detail": "HOLD; buyback expired Thu; Fri T+1 = highest-probability cluster narrowing day (Day 70 outage marker)"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "DOWNGRADED to WATCH; Thu close 1,785 = Gate 9 chase cap breached (+13% above planned 1,580)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-03T00:12:55Z",
       "routine": "pre-market",
       "status": "success",
@@ -29417,6 +29381,37 @@
           "detail": "Day 102 EOD snapshot committed; alpha compression Day-2 monitoring initiated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-09T00:12:53Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 21 Day 3 (Wed Sep 9). Tue Sep 8 IHSG +1.01% strong rally to 6,686.44 all-sectors-green; basic-materials +2.21% leader; MBMA/MDKA/AMMN top-3 LQ45. Alpha-compression Day-2 (Wk 21 -0.33pp net Days 1-2). 50-ticker scan complete; 9 candidates \u22656 (BBCA/BBRI/BMRI/PGAS/INCO/MDKA/ICBP/INDF/MYOR); all gate-blocked. Crisis-track ACTIVATED 0.90-1.10/5. Book fully de-risked Day 55 100% cash IDR 9.72B.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "9 candidates scored \u22656 all gate-blocked"
+        },
+        {
+          "type": "research",
+          "ticker": "MDKA",
+          "detail": "score 6/10 FRESH \u2014 LQ45 top-3 gainer Tue +8.33% + LME nickel firming Day-1 + basic-materials sector +2.21% leader"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 6/10 \u2014 MNC Rabu Sep 9 explicit rec + Brent $97 Day-4 sustained gas-realization amplifier"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Tue rebound Big-4 leader +1.13% from Mon -0.75% weakness"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -29525,7 +29520,7 @@
     "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
     "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-08T15:15+07:00",
+  "last_updated": "2026-09-09T00:07:00Z",
   "market": {
     "ihsg_close": 6632.0,
     "ihsg_change_pct": -0.47,
@@ -29536,24 +29531,23 @@
     "idr_status": "SUB-17,700 Day-9 approaching sustained 3-of-3 criterion (a) lift; Wk 21 Day 1 continuation-momentum candidate BUT US-hot-payrolls Fed-hike-risk headwind Mon-open pending",
     "ihsg_daily_pct": 1.02,
     "ihsg_cumulative_pct": -13.13,
-    "as_of": "2026-09-07",
-    "ihsg_last": 6687.0,
-    "ihsg_source": "CNBC Indonesia + RRI + StockWatch multi-source cluster (sesi II intra provisional; full-day close PENDING Wed pre-market reconciliation DQG-Day-126 sesi-II-lag 8th)",
+    "as_of": "2026-09-08",
+    "ihsg_last": 6686.44,
+    "ihsg_source": "CNBC Indonesia + Kayonews + Bisnisterkini + Romisaputra + Faktualid multi-source cluster (Tue Sep 8 sesi II full-close CONFIRMED)",
     "ihsg_asof": "2026-09-08"
   },
   "pre_market": {
-    "date": "2026-09-07",
-    "day_label": "Mon Wk 21 Day 1 OPEN \u2014 FRESH-WEEK-RESET",
+    "date": "2026-09-09",
+    "day_label": "Wed Wk 21 Day 3 OPEN \u2014 TUE-STRONG-RALLY-BASIC-MATERIALS-LEADER + ALPHA-COMPRESSION-DAY-2",
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_reason": "Cascade-inflection-confirmed Day-53; Wk 20 close 0.90/5 partial-restore carries into Wk 21; foreign flow Wk 20 +Rp 2.3T net-buy = MATERIAL SHIFT vs Wk 19 -Rp 379bn; IDR sub-17,700 Day-9 approaching sustained 3-of-3; BUT US Aug payrolls +162k HOT (vs 53k consensus) re-arms Fed-hike-risk = Waller-dovish Thu narrative REVERSED; Brent above $95 Day-2 Iran-US tensions continue = criterion (a) INSTANT-REGRESSION-RISK RETURNS; Newcastle coal moderation $130-141 from $146.60 peak; net Wk 21 Day 1 projected gate 1.00-1.20/5 partial-restore, 3.80-4.00/5 gap still binding.",
-    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (Wk 20 close 0.90/5, Wk 21 Day 1 projected 1.00-1.20/5; 3.80-4.00/5 binding gap); 0% new entries binding; Wk 21 Day 1 starts fresh 0/3 BUY-slot week (21st consecutive zero-trade-week candidate).",
-    "candidates_scored_ge6_count": 10,
+    "regime_reason": "Cascade-inflection-confirmed Day-55; Wk 21 Day 2 close 0.80-1.00/5 basis; Wk 21 Day 3 open projected 0.90-1.10/5 partial-restore via Tue-rally + Krakatau-DE-ESCALATION-Day-5 + banking Big-4 partial re-engagement + LME nickel Day-1 firming; 3.90-4.10/5 gap still binding. IHSG Tue Sep 8 close 6,686.44 (+1.01%); all sectors green; basic materials +2.21% leader (MBMA +9.80% / MDKA +8.33% / AMMN +5.90% led LQ45). ALPHA-COMPRESSION Day-2 (Wk 21 Days 1-2 -0.33pp net cumulative on 100% cash). US Tue Sep 8 -0.58% S&P / -1.17% Dow on oil-rise + Canada-trade-war. Brent $96.72 Day-4 sustained. IDR sub-17,750 Day-11 firming. Data-Quality-Gate Day 127.",
+    "position_sizing_note": "N/A \u2014 crisis-track engagement gate ACTIVATED (Wk 21 Day 3 open 0.90-1.10/5; 3.90-4.10/5 binding gap); 0% new entries binding; Wk 21 Day 3 remains 0/3 BUY-slot week (21st consecutive zero-trade-week candidate).",
+    "candidates_scored_ge6_count": 9,
     "candidates_scored_ge6": [
-      "BBRI",
       "BBCA",
+      "BBRI",
       "BMRI",
       "PGAS",
-      "ANTM",
       "INCO",
       "MDKA",
       "ICBP",
@@ -29563,6 +29557,6 @@
     "re_entry_gate_score": 1.0,
     "re_entry_gate_max": 5.0,
     "re_entry_gate_delta_from_prev": 0.1,
-    "notes": "Wk 21 Day 1 pre-market; 54th consecutive no-position session ahead; Wk 20 foreign flow +Rp 2.3T net-buy MATERIAL SHIFT (criterion d potentially upgrading pending Mon reconciliation); IDR Day-9 sub-17,700 approaching 3-of-3 sustained (criterion a firming); BUT US hot payrolls Fri re-arms Fed-hike-risk + Brent above $95 Day-2 = mixed Mon-open Wk 21 setup; all 10 candidates \u22656 pre-blocked at crisis-track engagement gate."
+    "notes": "Wk 21 Day 3 pre-market; 56th consecutive no-position session ahead; Tue Sep 8 IHSG +1.01% strong rally with all sectors green + basic-materials +2.21% leader + MBMA/MDKA/AMMN top-3 LQ45 gainers = alpha-compression Day-2 first-material episode of Wk 21 leg. MDKA promoted score 6 fresh Tue-momentum elevation. PGAS elevated on MNC Rabu Sep 9 explicit rec + Brent $97 Day-4 sustained. All 9 candidates \u22656 pre-blocked at crisis-track engagement gate. Krakatau Soekarno-Hatta REOPENED Tue (Wed 178 planes airworthiness re-check). BI RDG Sep 17 T-8 days + FOMC same day double-central-bank binary."
   }
 }
