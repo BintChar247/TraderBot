@@ -25087,41 +25087,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-03T02:19:37Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. BBCA (TOP PRIORITY) + BMRI (paired) SKIP \u2014 IDR 17,954 pierces 17,950 kill-switch 5th consecutive session RE-ARM CONFIRMED (Gate iv FAIL) + Data Quality Gate Day 70 outage (<3 fresh Fri-open sources). KLBF HOLD; 0/3 Wk 11.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Gate iv FAIL: IDR 17,954 pierces 17,950 kill-switch; Data Quality Gate FAIL: <3 fresh Fri-open sources"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "paired-conditional cascade FAIL (BBCA SKIP); Data Quality Gate FAIL cluster non-convergent"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "safe-lower carry 1,035; trailing 931 GTC re-armed Fri open; post-buyback expiry T+1"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR kill-switch RE-ARM CONFIRMED 5th consecutive session piercing 17,950 pre-open; pre-emptive de-risk arms Mon Jul 6 if Fri close sustained \u226517,950"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 70 outage persistent (yfinance HTTP 403 + GoAPI blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify 403 proxy CONNECT \u2014 notification printed to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-03T04:37:21Z",
       "routine": "midday",
       "status": "success",
@@ -29843,6 +29808,12 @@
           "detail": "DQG-Day-127 outage: yfinance/GoAPI blocked; Telegram proxy 403 stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-09T04:36:26Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (Day 56 100% cash); no cuts or tightens triggered; all healthy."
     }
   ],
   "exposure": {
