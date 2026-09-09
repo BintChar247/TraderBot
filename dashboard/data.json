@@ -1570,12 +1570,28 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6687.0,
+      "ihsg_close": 6686.44,
       "ihsg_cumulative_pct": -12.41,
       "alpha_pct": 9.57,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-09",
+      "day_label": "Day 103",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6636.0,
+      "ihsg_cumulative_pct": -13.08,
+      "alpha_pct": 10.24,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 21 Day 3 EOD \u2014 Book fully de-risked Day 56 continues, 100% cash IDR 9,716,207,500. IHSG Wed sesi I close 6,647.49 (-0.58% -38.94 pts vs Tue reconciled 6,686.44) INTRADAY FADE post-open 6,700.84 (+0.22%). Sesi II close provisional 6,636 (-0.75%) per BCA Sekuritas + Rikopedia + BisnisInsight multi-source cluster \u22653-source PASS. Sesi II full-day close PENDING Thu Sep 10 pre-market reconciliation per DQG-Day-127 sesi-II-lag pattern (9th cumulative occurrence). Tue Sep 8 full-day RECONCILED 6,686.44 (+1.01% +66.77 pts vs Mon 6,619.67) per Okezone + Faktual + Rikopedia cluster. US Tue S&P -0.58% + Dow -1.17% oil-Canada-trade-war partially transmitted to Asia Wed via sesi I fade. Iran-US Brent Day-4 signal-monitor persists. Newcastle coal Day-6 elevated (coal 2-strike EXIT still binds). US-10Y hawkish RE-arm Day-5 post-US-hot-payrolls Aug +162k. IDR STAGE-5 sub-17,750 Day-12 continuation approaches sustained 3-of-3 criterion (a) lift completion. Indonesia CPI Aug 3.19% YoY / core 2.92% hawkish digestion Day-6. Destry BI Gov DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-6; first BI-RDG Sep 17 T-8 days PATH-QUESTIONED. Anak Krakatau DE-ESCALATION Day-5 Soekarno-Hatta REOPENED aviation-shock transient. Crisis-track engagement gate 0.90-1.10/5 (Wk 21 Day 3 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap BINDING). Wk 21 Day 3 remains 0/3 BUY-slot week \u2014 21st CONSECUTIVE ZERO-TRADE WEEK CANDIDATE. Cumulative alpha ~+10.24pp (Wed provisional basis) vs Tue reconciled +9.57pp = +0.67pp EXPANSION via IHSG -0.75% intraday fade on zero exposure \u2014 ALPHA-COMPRESSION-FADE Day-3 net Wk 21 Day 2\u21923 effectively neutralized. Risk alerts: NONE. Market-open filed 9 SKIP decisions; midday not-filed-this-session; EOD proceeds per schedule."
     }
   ],
   "positions": [],
@@ -25040,7 +25056,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 102,
+    "trial_days_elapsed": 103,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 102 counting-trading-days Wk 21 Day 2)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -25050,8 +25066,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -12.75,
-    "cumulative_alpha_pct": 9.91,
+    "ihsg_cumulative_pct": -13.08,
+    "cumulative_alpha_pct": 10.24,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -25062,22 +25078,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-04",
+    "updated": "2026-09-09",
     "portfolio_value": 9716207500,
-    "alpha_pct": 9.91,
+    "alpha_pct": 10.24,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 10.29,
+    "cumulative_alpha_pp": 10.24,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 101,
-    "last_updated": "2026-09-04",
+    "day_number": 103,
+    "last_updated": "2026-09-09T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 100,
+    "days_in_trial": 103,
     "week_number": 21,
-    "day_label": "Day 101 / Wk 21 Day 1"
+    "day_label": "Day 103 (Wk 21 Day 3)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY54-Wk21-Day2-CRISIS-TRACK-GATE-ACTIVATED-0.80-1.00-of-5",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55-Wk21-Day3-CRISIS-TRACK-GATE-ACTIVATED-0.90-1.10-of-5-partial-restore",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -25086,12 +25102,6 @@
     "weekly_pnl_pct": 0.0
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-03T04:37:21Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. KLBF HOLD Day 70 cluster non-convergent post-buyback expiry T+1."
-    },
     {
       "timestamp": "2026-07-03T08:20:19Z",
       "routine": "daily-summary",
@@ -29814,6 +29824,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (Day 56 100% cash); no cuts or tightens triggered; all healthy."
+    },
+    {
+      "timestamp": "2026-09-09T08:20:49Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 103 (Wk 21 Day 3): IDR 9.72B (0.00% day). IHSG -0.75% sesi II provisional 6,636. Alpha +0.75pp day / cum +10.24pp. 0 positions Day 56 100% cash. Trades this week 0/3 (21st consecutive zero-trade week candidate). Alpha-compression Wk21-Day2-to-Day3 effectively neutralized.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 103 EOD snapshot committed; Sep 8 IHSG reconciled to 6,686.44; risk alerts NONE"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -29922,7 +29944,7 @@
     "candidates_status": "All 10 pre-blocked at crisis-track engagement gate ACTIVATED (0.90/5 partial, 4.10/5 binding gap); WATCH-only for Fri sesi I / weekly review",
     "top_candidates_deep_dive_count": 3
   },
-  "last_updated": "2026-09-09T00:07:00Z",
+  "last_updated": "2026-09-09T15:15:00+07:00",
   "market": {
     "ihsg_close": 6632.0,
     "ihsg_change_pct": -0.47,
