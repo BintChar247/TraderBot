@@ -1592,6 +1592,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 21 Day 3 EOD \u2014 Book fully de-risked Day 56 continues, 100% cash IDR 9,716,207,500. IHSG Wed sesi I close 6,647.49 (-0.58% -38.94 pts vs Tue reconciled 6,686.44) INTRADAY FADE post-open 6,700.84 (+0.22%). Sesi II close provisional 6,636 (-0.75%) per BCA Sekuritas + Rikopedia + BisnisInsight multi-source cluster \u22653-source PASS. Sesi II full-day close PENDING Thu Sep 10 pre-market reconciliation per DQG-Day-127 sesi-II-lag pattern (9th cumulative occurrence). Tue Sep 8 full-day RECONCILED 6,686.44 (+1.01% +66.77 pts vs Mon 6,619.67) per Okezone + Faktual + Rikopedia cluster. US Tue S&P -0.58% + Dow -1.17% oil-Canada-trade-war partially transmitted to Asia Wed via sesi I fade. Iran-US Brent Day-4 signal-monitor persists. Newcastle coal Day-6 elevated (coal 2-strike EXIT still binds). US-10Y hawkish RE-arm Day-5 post-US-hot-payrolls Aug +162k. IDR STAGE-5 sub-17,750 Day-12 continuation approaches sustained 3-of-3 criterion (a) lift completion. Indonesia CPI Aug 3.19% YoY / core 2.92% hawkish digestion Day-6. Destry BI Gov DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-6; first BI-RDG Sep 17 T-8 days PATH-QUESTIONED. Anak Krakatau DE-ESCALATION Day-5 Soekarno-Hatta REOPENED aviation-shock transient. Crisis-track engagement gate 0.90-1.10/5 (Wk 21 Day 3 partial-restore vs Wk 21 Day 2 close 0.80-1.00/5; 3.90-4.10/5 gap BINDING). Wk 21 Day 3 remains 0/3 BUY-slot week \u2014 21st CONSECUTIVE ZERO-TRADE WEEK CANDIDATE. Cumulative alpha ~+10.24pp (Wed provisional basis) vs Tue reconciled +9.57pp = +0.67pp EXPANSION via IHSG -0.75% intraday fade on zero exposure \u2014 ALPHA-COMPRESSION-FADE Day-3 net Wk 21 Day 2\u21923 effectively neutralized. Risk alerts: NONE. Market-open filed 9 SKIP decisions; midday not-filed-this-session; EOD proceeds per schedule."
+    },
+    {
+      "date": "2026-09-10",
+      "day_label": "Day 104",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6600.0,
+      "ihsg_cumulative_pct": -13.55,
+      "alpha_pct": 10.71,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -25417,7 +25432,7 @@
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
     "ihsg_cumulative_pct": -13.08,
-    "cumulative_alpha_pct": 10.24,
+    "cumulative_alpha_pct": 10.71,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -25449,22 +25464,10 @@
     "trading_halted": false,
     "halt_reason": null,
     "daily_pnl_pct": 0.0,
-    "weekly_pnl_pct": 0.0
+    "weekly_pnl_pct": 0.0,
+    "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-06T04:42:21Z",
-      "routine": "midday",
-      "status": "warning",
-      "summary": "KLBF HARD CUT -21.16% (cluster-corrected). Multi-source cluster convergent \u22653-source \u22642% at 745 post-buyback-expiry T+2 Mon Jul 6; broker stub 945 outlier stale (Day 71 outage). Ledger corrected per procedure. Book 100% cash IDR 9,716,207,500.",
-      "actions": [
-        {
-          "type": "cut",
-          "ticker": "KLBF",
-          "detail": "-21.16% hard cut at cluster mark 745 (broker stub 945 stale); PAPER-STATE ledger corrected to safe-lower cluster mark; realized -103,800,000 IDR; state-machine trigger (a) fired concurrent with -7% rule; trailing 931 GTC also concurrent"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-06T08:15:00Z",
       "routine": "daily-summary",
@@ -30200,6 +30203,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (Day 57 fully de-risked). No cuts, no stops, no thesis exits. Silent scan."
+    },
+    {
+      "timestamp": "2026-09-10T08:22:03Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 104 Wk21 Day4: IDR 9.72B (0.00%). Alpha +1.17pp vs IHSG -1.17% (provisional). 0 positions Day 57 100% cash. Trades this week 0/3 (21st consecutive zero-trade week candidate).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 104 EOD snapshot committed; cum alpha ~+10.71pp Thu provisional basis; sesi II reconciliation pending Fri pre-market"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -30290,18 +30305,18 @@
     "candidates_status": "All 7 \u22656 candidates pre-blocked by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Wk 21 Day 4 projected 0.75-0.95/5 REGRESSED via Brent $100.71 SPIKE Sep 9 major shock deepening criterion (a) IDR regression risk); 4.05-4.25/5 gap BINDING WIDER.",
     "top_candidates_deep_dive_count": 7
   },
-  "last_updated": "2026-09-10T07:00:00+07:00",
+  "last_updated": "2026-09-10T15:15:00+07:00",
   "market": {
-    "ihsg_close": 6632.0,
+    "ihsg_close": 6600.0,
     "ihsg_change_pct": -0.47,
     "ihsg_close_basis": "Fri Sep 4 full-day close reconciled 6,636.475 (-31.41 pts / -0.47%) per Infobanknews + Periskop + BeritaSela \u22653-source PASS; sesi II reconciled DOWN-variant from sesi I 6,660.789 -0.11% basis; DQG-Day-124 sesi-II-lag pattern 6th cumulative occurrence resolved DOWN-variant. Wk 20 IHSG net +1.82% weekly-product basis (Rancakmedia weekly recap).",
     "idr_usd": 17700,
     "idr_usd_change_pct": 0.02,
     "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 52 DE-ARM-CANDIDATE Day 32 SUB-17,700-Day-9 approaching sustained 3-of-3 criterion (a) lift path. Fri Sep 4 close ~17,700 per Investing.com cluster (prev close 17,695.8; range 17,680-17,785; open 17,710).",
     "idr_status": "SUB-17,700 Day-9 approaching sustained 3-of-3 criterion (a) lift; Wk 21 Day 1 continuation-momentum candidate BUT US-hot-payrolls Fed-hike-risk headwind Mon-open pending",
-    "ihsg_daily_pct": 1.02,
-    "ihsg_cumulative_pct": -13.13,
-    "as_of": "2026-09-08",
+    "ihsg_daily_pct": -1.17,
+    "ihsg_cumulative_pct": -13.55,
+    "as_of": "2026-09-10",
     "ihsg_last": 6686.44,
     "ihsg_source": "CNBC Indonesia + Kayonews + Bisnisterkini + Romisaputra + Faktualid multi-source cluster (Tue Sep 8 sesi II full-close CONFIRMED)",
     "ihsg_asof": "2026-09-08"
