@@ -11872,6 +11872,40 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 
 ---
 
+### 2026-09-10 09:15 WIB — MARKET-OPEN Wk 21 Day 4 (Thursday) — NO TRADES (7 SKIP; crisis-track gate 0.75-0.95/5 REGRESSED via Brent $100.71 SPIKE)
+
+- Session: Thu Sep 10, Wk 21 Day 4 (Day 104 of trial; **21st consecutive zero-trade week candidate — Day 4 of 5**)
+- Trades placed: **0** (57th consecutive no-position session; Wk 21 remains 0/3 BUY-slot week)
+- Portfolio: IDR 9,716,207,500 (100% cash); 0 open positions; realised P&L IDR -294,172,500
+- Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY56 + IDR-SUB-17,750-Day-13-firming-~17,555-approaches-sustained-3-of-3-completion + **BRENT-$100.71-SPIKE-Day-6-Iran-tanker-Gulf-attack-INSTANT-REGRESSION-RISK-DEEPER-AMPLIFICATION** (+2.85% intraday Wed Sep 9 major shock deepening criterion-a IDR regression risk offset) + WED-SEP-9-IHSG-RECONCILED-6,678.20-(-0.12%-vs-Tue-6,686.44)-mild-fade-not-severe + US-WED-SEP-9-BROAD-LOWER (S&P -0.48% / Dow -0.77% / Nasdaq -0.64% oil-rise + Treasury-yields weight) + CPO-MYR-4,929-RECOVERY-Day-1-tailwind-restore + BMRI-EX-DIV-Rp66-Sep-16-T-6-FRESH-CATALYST + BI-RDG-Sep-17-T-7-first-under-Destry-BINARY + FOMC-Sep-17-T-7-DOUBLE-CENTRAL-BANK-BINARY
+- Crisis-track engagement gate: **ACTIVATED projected 0.75-0.95/5 Wk 21 Day 4 REGRESSED via Brent $100.71 SPIKE Sep 9 major shock** vs Wk 21 Day 3 close 0.90-1.10/5 (gap 4.05-4.25/5 BINDING WIDER; 0% new entries permitted)
+  - (a) 0.70-0.80/5 IDR sub-17,750 Day-13 sustained firming ~17,555 approaches 3-of-3 completion BUT Brent $100 SPIKE Day-6 DEEPENS regression risk offset (net partial-approach with amplifier-hit)
+  - (b) 0/5 DQG-Day-128 outage persists (yfinance/GoAPI 128 sessions blocked since Apr 21)
+  - (c) 0.20/5 MSCI-absorption Day-9 persistence continues (partial-vindication class)
+  - (d) 0.25-0.35/5 partial (Wed Sep 9 foreign-flow pending Thu multi-source reconciliation; Tue Big-4 partial-re-engagement pattern held)
+  - (e) 0/5 untestable (dependent on (b))
+- Candidates evaluated (7 tickers ≥6/10 per RESEARCH-LOG 2026-09-10) — ALL SKIP per gate:
+  1. PGAS-7 (UPGRADE 6→7 fresh) — SKIP (gate) — Brent $100.71 SPIKE Sep 9 Iran-tanker Gulf attack = fresh gas-realization amplifier ELEVATED; MNC Sekuritas Rabu rec Day-2; TP 2,118 (+42%); R:R 2.86:1 meets ≥2:1
+  2. MEDC-6 (UPGRADE 5→6 fresh) — SKIP (gate) — MedcoEnergi upstream E&P Brent-linked; $100.71 SPIKE fresh amplifier; Q2 DELIST-CANDIDATE flag latent; R:R 2.86:1 meets ≥2:1
+  3. INCO-6 — SKIP (gate) — Broker consensus top-3 nickel-resilient; HPAL commissioning FY26F; LME nickel Day-2 firming +0.39%; R:R 2.30:1 meets ≥2:1
+  4. MDKA-6 — SKIP (gate) — LQ45 top-3 gainer Tue +8.33% chase-risk continues; nickel+gold hybrid; safe-haven bid Iran-shock; R:R 1.74:1 fails ≥2:1 + chase-risk
+  5. BBCA-6 — SKIP (gate) — Big-4 leader premium ROE ~22%; Tue +1.13% rebound; Wed reconciled flat; DEFENSIVE-TRACK numeric mean/σ still NOT sourced Wk 21 Day 4; R:R 1.07:1 fails ≥2:1
+  6. BMRI-6 — SKIP (gate) — Cheapest Big-4 P/E ~9.5x; strongest H1 growth +24.19%; **fresh cash div Rp 66 ex-date Sep 16 T-6 live div-yield catalyst** (~1.5% yield); R:R 1.62:1 fails ≥2:1
+  7. BBRI-6 — SKIP (gate) — Q2 H1 NI +17.5% YoY BEAT lock; 10.15% div yield; consensus TP 3,692 (+8.9%); next earnings Oct 28; R:R 1.30:1 fails ≥2:1
+- Coal sector: 2-strike EXITED rule STILL BINDS (Newcastle ~$130 Day-7 moderation vs Wk 20 $148.65 peak; ADRO/ITMG/PTBA/BUMI/HRUM sector-blocked regardless)
+- Consumer ICBP/INDF/MYOR: DOWNGRADED 6→5 today on Brent-$100 SPIKE input-COGS margin-headwind INTENSIFIES = removed from ≥6 candidate cohort
+- MISTAKES-blocked (persistent): KLBF-Jul-6, ITMG-May-18, BBRI-May-1, ADRO-May-20 (per MISTAKES.md hard-cut precedents)
+- 9-gate checklist: N/A executed (regime pre-gate crisis-track ACTIVATED short-circuits all 7 candidates before 9-check gate; equivalent gate-5 catalyst pre-block on regime-standing-down)
+- Broker reconciliation: `{mode: paper, equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}` — n=0 confirmed
+- Notification: dispatched via scripts/notify.sh (📊 Market-open 2026-09-10: no trades; 7 SKIP; crisis-track gate 0.75-0.95/5 REGRESSED via Brent $100.71 SPIKE)
+- log-activity: `scripts/log-activity.sh --routine market-open --status warning` filed with 7 SKIP context
+- Dashboard: 7 SKIP decisions appended to dashboard/data.json decisions[] (total now 493)
+- Data source: WebSearch multi-source per DQG-Day-128 persistent; no live prices required (all SKIPs)
+- Trial context: Day 104 (Wk 21 Day 4); 100% cash Day 57 continues; drawdown ~-3% from peak deeply within -15% cap
+- Carry-over to 11:30 WIB midday: (1) IHSG Thu sesi I direction — sustain above 6,680 = recovery Day-1 = alpha-compression Day-3 compounds; fade to 6,610-6,650 = compression stabilizes; break below 6,600 = defensive-track re-intensification amplified; (2) Brent Thu Day-7 CRITICAL — sustained ≥$100 = criterion (a) INSTANT-REGRESSION amplifier DEEPER binding; snap-back below $95 = partial-relief; (3) Foreign flow Wed Sep 9 full-day multi-source reconciliation for criterion (d) re-scoring; (4) US Wed close transmission Thu Asia open (S&P -0.48% / Dow -0.77% oil-rise weight); (5) IDR Thu sub-17,750 Day-14 continuation vs Brent-SPIKE regression pull; (6) LME nickel Thu Day-3 firming for MDKA/INCO/ANTM halo continuation vs MBMA chase-fail binary; (7) CPO MYR Thu Day-2 recovery continuation >4,900 sustained = AALI/LSIP fade PAUSES formally; (8) PGAS Thu intraday breakout above 1,500 test on Brent-$100-SPIKE fresh amplifier + MNC-tip Day-2; (9) BMRI ex-div Rp 66 Sep 16 T-6 fresh catalyst monitor Big-4 flow for div-play front-run; (10) BI RDG + FOMC Sep 17 T-7 double-central-bank binary countdown
+
+---
+
 ### 2026-09-09 EOD (Day 103, Wed — Week 21 Day 3 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY55; WK-21-DAY-3-remains-0-of-3-BUY-slot-week-21st-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE; IHSG-Wed-sesi-I-6647.49-(-0.58pct-vs-Tue-close-6686.44)-INTRADAY-FADE-post-open-6700.84 / IHSG-Wed-sesi-II-close-provisional-6636-(-0.75pct)-per-BCA-Sekuritas+Rikopedia+BisnisInsight-multi-source-cluster; sesi-II-full-day-close-PENDING-Thu-Sep-10-pre-market-reconciliation-per-DQG-Day-127-sesi-II-lag-pattern-9th-cumulative-occurrence; TUE-SEP-8-FULL-DAY-RECONCILED-6686.44-(+1.01pct-+66.77pts-vs-Mon-6619.67); IRAN-US-BRENT-DAY-4-INSTANT-REGRESSION-RISK-signal-monitor; NEWCASTLE-COAL-Day-6-COAL-2-STRIKE-EXIT-still-binds; IDR-STAGE-5-SUB-17750-Day-12-continuation-monitoring-criterion-a-lift-driver-sustained-3-of-3-approaches-completion; DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-6; KRAKATAU-DE-ESCALATION-Day-5-Soekarno-Hatta-REOPENED; MSCI-Aug-31-EFFECTIVE-ABSORPTION-Day-8; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-42; BI-HOLD-DOVISH-ABSORBED-Day-45; Data-Quality-Gate-Day-127; US-HOT-PAYROLLS-Aug-+162k-Fed-hike-RE-ARMED-Day-5; BI-RDG-Sep-17-T-8-days-first-BI-RDG-under-Destry-countdown; FOMC-Sep-17-T-8-days-SAME-DAY-double-central-bank-binary; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-1.10-of-5-Wk21-Day3-partial-restore-vs-Wk21-Day2-close-0.80-1.00-of-5; ALPHA-COMPRESSION-FADE-Day-3-IHSG-INTRADAY-FADE-restores-alpha-expansion-on-zero-exposure)
 
 - Total equity: IDR 9,716,207,500
