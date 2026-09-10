@@ -25453,37 +25453,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-06T02:18:21Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Mon Jul 6. IDR-ESCALATION-ENGAGED (Fri sustained close 17,989 \u226517,950 = 5th consecutive session piercing) triggers pre-emptive de-risk override. BBCA (score 7, 3-session inflection confirmed) and BMRI (paired-conditional) both SKIP per Gate 15 regime override. KLBF HOLD; trailing 931 GTC re-armed; Day 71 cluster non-convergence persists. Wk 12 slots 0/3.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Score 7; IDR pre-emptive de-risk gate override"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "Score 7 paired-conditional; IDR pre-emptive de-risk gate override"
-        },
-        {
-          "type": "hold",
-          "ticker": "KLBF",
-          "detail": "trailing 931 GTC re-armed; post-buyback-expiry T+2 cluster watch"
-        },
-        {
-          "type": "warning",
-          "detail": "WebSearch price/IDR override used (yfinance + GoAPI blocked Day 71)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify.sh returned HTTP 403 via proxy; message stdout-fallback logged"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-06T04:42:21Z",
       "routine": "midday",
       "status": "warning",
@@ -30225,6 +30194,12 @@
           "detail": "Telegram notification proxy 403; stdout fallback used"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-10T04:36:16Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (Day 57 fully de-risked). No cuts, no stops, no thesis exits. Silent scan."
     }
   ],
   "exposure": {
