@@ -25434,6 +25434,506 @@
         true
       ],
       "trade_type": "catalyst"
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. Ex-div Rp 66 Sep 16 T-5 fresh div-yield catalyst; Q2 H1 +24.19% strongest Big-4 growth; consensus TP 5,845 (+16.4%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.03:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. MNC Sekuritas breakout tip Day-4 fade; Brent $101 Day-7 gas-spread tailwind; P/E ~5.5x sector cheap; Abadi LNG HoA far-catalyst stale.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 2.05:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. Foreign top-buy Thu +Rp 178bn; LQ45 top-gain +2.19%; LME nickel firming; nickel-cycle rotation candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.25:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Big-4 stable premium ROE ~22%; +1.13% Thu rebound; blocked crisis-track; DEFENSIVE-TRACK mean/\u03c3 still NOT sourced.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.10:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Q2 H1 +17.5% BEAT lock; 10.15% div yield; consensus TP 3,692; share buyback expiry today Sep 11 buy-flow removal drag risk.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.30:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Brent $101 Day-7 direct oil-linked tailwind; energy sector -2.06% Thu paradoxical fade signal; cheap-outrun risk observation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.40:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. LME nickel firming; sector-halo to ANTM/MDKA; nickel-cycle rotation; consensus HOLD.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.35:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Q2 core profit +50.6% YoY beat; steady defensive compounder; CPI 3.19% hawkish inflection Day-8 mixed.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.50:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Sole net-inflow YTD relative-resilience; CPO-linked; Brent-SPIKE input-cost margin headwind partial offset.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.45:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. IDR 2T buyback absorption Day-9; auto-sector-halo secondary; IDR sub-17,750 import-COGS partial relief; Q2 MISS overhang.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED; 3.85-4.00/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57; Thu IHSG 6,589.33 (-1.33% reconciled) below 6,600 psychological; IDR sub-17,750 Day-14 firming ~17,531 approaches 3-of-3 completion; Brent $101 SPIKE Day-7 amplifier DEEPER binding; Newcastle coal $147 Day-8 SPIKE; US Thu S&P -0.58%/Nasdaq -0.65%/Dow -0.60% Asia-open weight; VIX 18.17 broke 14-17 band; cum alpha ~+10.71pp"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.20:1 vs \u22652:1 gate; blocked by crisis-track gate ACTIVATED regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track gate ACTIVATED = 0% new entries binding regardless of gate scoring)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational; per-ticker cluster narrowing MOSTLY UNAVAILABLE"
+        }
+      ],
+      "reasoning": "SKIP \u2014 crisis-track engagement gate ACTIVATED persistent Wk 21 Day 5 open projected 1.00-1.15/5 REGRESSED (partial-restore via IDR Day-14 firming, offset by Brent $101 Day-7 SPIKE); 3.85-4.00/5 re-entry gap BINDING WIDER. Book fully de-risked Day 58 continues; 100% cash IDR 9.716B.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ],
+      "trade_type": "catalyst"
     }
   ],
   "stats": {
@@ -25484,22 +25984,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-06T08:20:05Z",
-      "routine": "daily-summary",
-      "status": "warning",
-      "summary": "EOD Day 56 2026-07-06: IDR 9,716,207,500 (-1.53%). Alpha vs IHSG -1.17%. Full de-risk after KLBF hard-cut (cluster 745 vs entry 945; -21.16%). 100% cash; IDR-ESCALATION-ENGAGED persists (17,954 tick). Cumulative alpha +20.33% post KLBF true-up (compression -1.23pp). No halt. Wk 12 BUY 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 56 EOD snapshot committed"
-        },
-        {
-          "type": "warning",
-          "detail": "KLBF true-up removed carry inflation; alpha now below reconciled Day 50 +21.34% for 1st time"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-07T07:00:00+07:00",
       "routine": "pre-market",
@@ -30240,6 +30724,72 @@
           "type": "research",
           "ticker": "ANTM",
           "detail": "score 7/10 \u2014 foreign top-buy Thu +Rp 178bn + LME nickel firming"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-11T02:17:15Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED (Wk 21 Day 5 open 1.00-1.15/5 REGRESSED via IDR Day-14 firming partial-restore offset by Brent $101 Day-7 SPIKE amplifier; 3.85-4.00/5 gap BINDING WIDER). All 10 candidates \u22656/10 (BMRI[7]/PGAS[7]/ANTM[7]/BBCA/BBRI/MEDC/INCO/ICBP/INDF/ASII[6]) pre-blocked at market-open. Book 100% cash IDR 9.716B; Day 58 no-position streak; 21st consecutive zero-trade week candidate. BI-RDG + FOMC Sep 17 T-6 double binary.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 7; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "score 7; crisis-track blocked (R:R 2.05:1 passed alone)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "score 7; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "score 6; crisis-track blocked"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-129 outage: yfinance/GoAPI blocked 129 consecutive sessions; WebSearch multi-source override operational"
+        },
+        {
+          "type": "warning",
+          "detail": "Brent $101 Day-7 SPIKE + Newcastle coal $147 Day-8 SPIKE compound criterion (a) regression risk"
         }
       ]
     }
