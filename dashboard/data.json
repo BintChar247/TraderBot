@@ -25985,37 +25985,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-07T07:00:00+07:00",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 12 Day 2 (Tue Jul 7) pre-market: scanned 50 tickers; 2 CANDIDATES \u22656 (BBCA 7 MEDIUM, BMRI 6 MEDIUM) both bank-cluster reversal setup; IDR gate 1-of-2 DE-ARM partial only + Data Quality Gate Day 72 outage \u2192 BOTH gate-blocked at /market-open unless IDR sub-17,950 Tue sustained. HOLD 100% cash primary plan.",
-      "commit_sha": "",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 2 CANDIDATES \u22656 (BBCA 7 / BMRI 6); rest WATCH or SKIP"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 MEDIUM \u2014 bank-cluster reversal + 3-session foreign inflection CONFIRMED; IDR-gated + Data Quality Gate FAIL"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 MEDIUM paired-conditional; only after BBCA fills"
-        },
-        {
-          "type": "research",
-          "detail": "IDR partial DE-ARM Mon 17,945 (1st sub-17,950 in 6 sessions) \u2192 Tue open 17,987 pierce back = ESCALATION persists"
-        },
-        {
-          "type": "research",
-          "detail": "Global tape constructive: Dow record 53,055, S&P +0.72%, Nasdaq +1.12%, VIX 15.57"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-07T00:13:16Z",
       "routine": "pre-market",
       "status": "success",
@@ -30792,6 +30761,12 @@
           "detail": "Brent $101 Day-7 SPIKE + Newcastle coal $147 Day-8 SPIKE compound criterion (a) regression risk"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-11T04:36:17Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy (0 open, 100% cash). No cuts, no tightens, no thesis exits. Day 58 no-position session."
     }
   ],
   "exposure": {
