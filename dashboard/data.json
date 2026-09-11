@@ -1607,6 +1607,22 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-11",
+      "day_label": "Day 105",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6589.33,
+      "ihsg_cumulative_pct": -13.69,
+      "alpha_pct": 10.85,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 21 Day 5 pre-market \u2014 21st consecutive zero-trade week candidate; crisis-track engagement gate ACTIVATED 1.00-1.15/5; IHSG Thu Sep 10 -1.33% RECONCILED 6,589.33; Fri intraday 6,686.84 partial rebound; Brent $101 Day-7; IDR sub-17,750 Day-14 firming ~17,531; BMRI ex-div T-5; BI RDG + FOMC T-6 double-binary"
     }
   ],
   "positions": [],
@@ -25469,26 +25485,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-06T08:15:00Z",
-      "routine": "daily-summary",
-      "status": "warning",
-      "summary": "EOD Day 56: IDR 9,716,207,500 (-1.53% today). Alpha vs IHSG -1.17%. Full de-risk after KLBF hard-cut (cluster 745 vs entry 945, -21.16%). Book 100% cash; IDR-ESCALATION-ENGAGED persists (Mon 17,954 tick still piercing). Cumulative alpha +20.33% post-KLBF true-up (compression -1.23pp vs Fri provisional +21.56%). No halt triggers. Wk 12 BUY slots 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 56 EOD snapshot committed"
-        },
-        {
-          "type": "warning",
-          "detail": "KLBF true-up removed safe-lower carry inflation; alpha falls below reconciled Day 50 +21.34% baseline for 1st time this leg"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 71 outage persists; MD_LAST_PRICE_OVERRIDE broker.sh cmd_sell fix now overdue-critical (4th hard-cut requiring PAPER-STATE.json manual correction)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-06T08:20:05Z",
       "routine": "daily-summary",
       "status": "warning",
@@ -30215,6 +30211,37 @@
           "detail": "Day 104 EOD snapshot committed; cum alpha ~+10.71pp Thu provisional basis; sesi II reconciliation pending Fri pre-market"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-11T00:10:53Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned all 50 watchlist tickers. 10 candidates scored \u22656: BMRI(7), PGAS(7), ANTM(7), BBCA/BBRI/MEDC/INCO/ICBP/INDF/ASII(6). All pre-blocked crisis-track engagement gate ACTIVATED 1.00-1.15/5 (3.85-4.00/5 gap binding wider). Wk 21 Day 5 = weekly close.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "10 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 7/10 \u2014 ex-div Rp 66 T-5 fresh div-yield catalyst"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 MNC breakout tip + Brent-$100 gas-spread tailwind Day-7"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 7/10 \u2014 foreign top-buy Thu +Rp 178bn + LME nickel firming"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -30228,8 +30255,8 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY51",
-    "regime_overlay": "BRENT-SHOCK-ESCALATION-DAY-3 $94.86 + NEWCASTLE-COAL-SPIKE-$144.85 (+9.32% MoM) + US-10Y-BLOWOUT-PERSIST 4.79-4.81% + IDR-SUB-17,750-DAY-7-FIRMING + IHSG-WED-6,581.44-(-0.28%)-BANKING-HALO-DAY2-FADE-CONFIRMED + FOREIGN-FLOW-WED-Rp379bn-NET-SELL-vs-PRIOR-WEEK-+Rp2.22T + MSCI-ABSORPTION-DAY-3-VINDICATED + CPI-HAWKISH-INFLECTION-DAY-2 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.70-of-5 + DQG-Day-123-outage-persists",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY57",
+    "regime_overlay": "BRENT-$101-DAY-7-SPIKE + NEWCASTLE-COAL-$147-DAY-8-SPIKE + IDR-SUB-17750-DAY-14-FIRMING-~17531 + IHSG-Thu-RECONCILED-6589.33-DEEP-FADE-1.33% + FOREIGN-FLOW-Thu-SESI-I-RP1.31T-NET-SELL + VIX-BROKE-14-17-RANGE-18.17-INTRADAY + US-4-DAY-LOSING-STREAK-Thu + BMRI-EX-DIV-RP66-T-5 + BI-RDG+FOMC-T-6-DOUBLE-BINARY + DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-DAY-8 + DQG-DAY-129-OUTAGE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-1.00-1.15/5",
     "ihsg_close": 6581.44,
     "ihsg_close_date": "2026-09-02",
     "ihsg_close_change_pct": -0.28,
@@ -30246,100 +30273,112 @@
     "foreign_flow_note": "Wed Sep 2 net sell -Rp 379.67bn (TLKM/GOTO led); prior-week Aug 26-Sep 1 net BUY +Rp 2.22T; criterion (d) 0.15-0.20/5 partial"
   },
   "research": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "holiday": false,
-    "as_of_date": "2026-09-10",
-    "as_of_time": "07:00",
-    "as_of_label": "Thu Wk 21 Day 4 pre-market",
-    "ihsg_last": 6678.2,
-    "ihsg_last_label": "Wed Sep 9 reconciled full-close (-0.12%, -8.24 pts vs Tue 6,686.44)",
-    "ihsg_last_sesi_i": 6647.49,
-    "ihsg_last_sesi_i_label": "Wed Sep 9 sesi I close",
-    "idr_usd": 17555.0,
-    "idr_usd_label": "Thu Sep 10 open (Day-13 sub-17,750 firming)",
-    "candidates_count": 7,
+    "as_of_date": "2026-09-11",
+    "as_of_time": "07:00 WIB",
+    "as_of_label": "Fri Sep 11 pre-market",
+    "ihsg_last": 6686.84,
+    "ihsg_last_label": "Fri Sep 11 intraday +1.48%",
+    "ihsg_last_sesi_i": null,
+    "ihsg_last_sesi_i_label": "Pending Fri sesi I close",
+    "idr_usd": 17531,
+    "idr_usd_label": "Sub-17,750 Day-14 firming",
+    "candidates_count": 10,
     "candidates": [
+      "BMRI",
+      "PGAS",
+      "ANTM",
+      "BBCA",
+      "BBRI",
+      "MEDC",
+      "INCO",
+      "ICBP",
+      "INDF",
+      "ASII"
+    ],
+    "candidates_status": "all pre-blocked crisis-track engagement gate ACTIVATED",
+    "top_candidates_deep_dive_count": 10
+  },
+  "last_updated": "2026-09-11T07:00:00+07:00",
+  "market": {
+    "ihsg_close": 6589.33,
+    "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
+    "ihsg_change_pct": -1.33,
+    "ihsg_last": 6686.84,
+    "ihsg_last_label": "Fri Sep 11 intraday +1.48% partial rebound",
+    "ihsg_source": "webSearch multi-source",
+    "ihsg_asof": "2026-09-11",
+    "idr_usd": 17531,
+    "idr_usd_change_pct": -0.14,
+    "idr_stage": "STAGE-5-MARGINAL-BOUNDARY-DE-ARM-CANDIDATE-Day31-SUB-17,750-Day-14-firming",
+    "idr_status": "Approaching sustained 3-of-3 criterion (a) lift completion \u2014 Day-14 momentum; offset by Brent-SPIKE Day-7 amplifier",
+    "ihsg_daily_pct": -1.33,
+    "ihsg_cumulative_pct": -13.69,
+    "as_of": "2026-09-11"
+  },
+  "pre_market": {
+    "date": "2026-09-11",
+    "day_label": "Day 105 \u2014 Wk 21 Day 5",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY57",
+    "regime_reason": "IDR sub-17,750 Day-14 firming ~17,531 approaching sustained-3-of-3 criterion (a) lift completion; Brent $101.25 Day-7 SPIKE Iran-tanker Gulf attack sustained; Newcastle coal $147 Day-8 SPIKE; US 4-day losing streak; VIX broke 14-17 range to 18.17; foreign flow Thu -Rp 1.31T sesi I net-sell; IHSG Thu -1.33% deep fade reconciled 6,589.33 below 6,600 psychological; BMRI ex-div T-5; BI RDG + FOMC T-6 double-central-bank binary",
+    "position_sizing_note": "NONE \u2014 crisis-track engagement gate ACTIVATED continues 0% new-entries. 3.85-4.00/5 gap BINDING WIDER.",
+    "candidates_scored_ge6_count": 10,
+    "candidates_scored_ge6": [
+      {
+        "ticker": "BMRI",
+        "score": 7,
+        "catalyst": "Ex-div Rp 66 T-5 fresh div-yield catalyst; Q2 H1 +24.19%; TP 5,845"
+      },
       {
         "ticker": "PGAS",
         "score": 7,
-        "delta": "+1",
-        "note": "Brent $100.71 SPIKE Iran-tanker Day-6 = gas-realization formula amplifier ELEVATED; MNC-tip Day-2; consensus TP 2,118 (+42%); R:R 2.86:1 PASS"
+        "catalyst": "MNC breakout tip + Brent-$100 Day-7 gas-spread tailwind; R:R 2.05:1 PASS"
+      },
+      {
+        "ticker": "ANTM",
+        "score": 7,
+        "catalyst": "Foreign top-buy Thu +Rp 178bn + LME nickel Day-3 firming + LQ45 top gain +2.19%"
       },
       {
         "ticker": "BBCA",
         "score": 6,
-        "delta": "0",
-        "note": "Big-4 leader Tue +1.13% re-engagement; Wed reconciled ~flat; DEFENSIVE-TRACK mean/\u03c3 still unsourced; R:R 1.07:1 FAIL"
+        "catalyst": "Big-4 stable defensive; blocked crisis-track"
       },
       {
         "ticker": "BBRI",
         "score": 6,
-        "delta": "0",
-        "note": "Q2 H1 +17.5% BEAT lock; TP 3,692 (+8.9%); div yield 10.15%; next earnings Oct 28; R:R 1.30:1 FAIL"
-      },
-      {
-        "ticker": "BMRI",
-        "score": 6,
-        "delta": "0",
-        "note": "Cheapest Big-4; ex-div Rp 66 Sep 16 T-6 FRESH CATALYST; H1 +24.19%; R:R 1.62:1 FAIL"
+        "catalyst": "Q2 H1 +17.5% beat T+10 chase-fail-decay; buyback expiry today"
       },
       {
         "ticker": "MEDC",
         "score": 6,
-        "delta": "+1",
-        "note": "Upstream oil-linked Brent $100 SPIKE amplifier; Q2 T+21+ DELIST-CANDIDATE flag; R:R 2.86:1 PASS"
+        "catalyst": "Brent $101 oil-linked tailwind"
       },
       {
         "ticker": "INCO",
         "score": 6,
-        "delta": "0",
-        "note": "Broker top-pick metals; HPAL commissioning FY26F; LME Day-2 firming; R:R 2.30:1 PASS"
+        "catalyst": "LME nickel firming; sector-halo"
       },
       {
-        "ticker": "MDKA",
+        "ticker": "ICBP",
         "score": 6,
-        "delta": "0",
-        "note": "Nickel + gold hybrid; Tue +8.33% chase-risk-post-8pc-day; LME Day-2 firming + gold safe-haven bid; R:R 1.74:1 FAIL"
+        "catalyst": "Q2 core +50.6% beat; steady compounder"
+      },
+      {
+        "ticker": "INDF",
+        "score": 6,
+        "catalyst": "CPO-linked; sole net-inflow YTD"
+      },
+      {
+        "ticker": "ASII",
+        "score": 6,
+        "catalyst": "IDR 2T buyback Day-9 absorption"
       }
     ],
-    "candidates_status": "All 7 \u22656 candidates pre-blocked by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Wk 21 Day 4 projected 0.75-0.95/5 REGRESSED via Brent $100.71 SPIKE Sep 9 major shock deepening criterion (a) IDR regression risk); 4.05-4.25/5 gap BINDING WIDER.",
-    "top_candidates_deep_dive_count": 7
-  },
-  "last_updated": "2026-09-10T15:15:00+07:00",
-  "market": {
-    "ihsg_close": 6600.0,
-    "ihsg_change_pct": -0.47,
-    "ihsg_close_basis": "Fri Sep 4 full-day close reconciled 6,636.475 (-31.41 pts / -0.47%) per Infobanknews + Periskop + BeritaSela \u22653-source PASS; sesi II reconciled DOWN-variant from sesi I 6,660.789 -0.11% basis; DQG-Day-124 sesi-II-lag pattern 6th cumulative occurrence resolved DOWN-variant. Wk 20 IHSG net +1.82% weekly-product basis (Rancakmedia weekly recap).",
-    "idr_usd": 17700,
-    "idr_usd_change_pct": 0.02,
-    "idr_stage": "Stage 5 MARGINAL-BOUNDARY Day 52 DE-ARM-CANDIDATE Day 32 SUB-17,700-Day-9 approaching sustained 3-of-3 criterion (a) lift path. Fri Sep 4 close ~17,700 per Investing.com cluster (prev close 17,695.8; range 17,680-17,785; open 17,710).",
-    "idr_status": "SUB-17,700 Day-9 approaching sustained 3-of-3 criterion (a) lift; Wk 21 Day 1 continuation-momentum candidate BUT US-hot-payrolls Fed-hike-risk headwind Mon-open pending",
-    "ihsg_daily_pct": -1.17,
-    "ihsg_cumulative_pct": -13.55,
-    "as_of": "2026-09-10",
-    "ihsg_last": 6686.44,
-    "ihsg_source": "CNBC Indonesia + Kayonews + Bisnisterkini + Romisaputra + Faktualid multi-source cluster (Tue Sep 8 sesi II full-close CONFIRMED)",
-    "ihsg_asof": "2026-09-08"
-  },
-  "pre_market": {
-    "date": "2026-09-10",
-    "day_label": "Thu Wk 21 Day 4 OPEN \u2014 BRENT-$100.71-SPIKE-Iran-tanker-Day-6 + WED-IHSG-RECONCILED-6,678-mild-fade + US-BROAD-LOWER + CPO-RECOVERY + BMRI-EX-DIV-FRESH-CATALYST",
-    "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_reason": "Cascade-inflection-confirmed Day-56; Wk 21 Day 3 close 0.90-1.10/5 basis; Wk 21 Day 4 open projected 0.75-0.95/5 REGRESSED via Brent $100.71 SPIKE Sep 9 (+2.85%) Iran-tanker Gulf attack DEEPENING criterion (a) IDR regression risk despite Day-13 sub-17,750 firming; 4.05-4.25/5 gap BINDING WIDER. Wed IHSG reconciled 6,678.20 (-0.12% only, not -0.75% provisional) restores +0.56pp alpha vs prior model; cumulative alpha ~+9.68pp. US Wed broad lower (S&P -0.48% / Dow -0.77% / Nasdaq -0.64%) oil-rise + Treasury-yields Thu Asia transmission risk.",
-    "position_sizing_note": "N/A \u2014 0% new entries binding regardless of gate scoring < 5/5 threshold. Crisis-track ACTIVATED Wk 21 Day 4.",
-    "candidates_scored_ge6_count": 7,
-    "candidates_scored_ge6": [
-      "PGAS",
-      "BBCA",
-      "BBRI",
-      "BMRI",
-      "MEDC",
-      "INCO",
-      "MDKA"
-    ],
-    "re_entry_gate_score": 0.85,
-    "re_entry_gate_max": 5.0,
-    "re_entry_gate_delta_from_prev": -0.15,
-    "notes": "Brent $100.71 SPIKE Wed Iran-tanker DEEPENS criterion (a) regression risk. PGAS upgraded 6\u21927 on gas-realization amplifier ELEVATED. MEDC upgraded 5\u21926 on upstream oil-linked leverage. ICBP/INDF/MYOR downgraded 6\u21925 on Brent-SPIKE input-COGS headwind INTENSIFIES. AKRA upgraded 4\u21925 fuel-distribution margin amplifier. AALI/LSIP upgraded 4\u21925 on CPO MYR 4,929 recovery from 4,702 (Day-1 tailwind restore). BMRI ex-div Rp 66 Sep 16 T-6 fresh live catalyst. BI RDG + FOMC same-day Sep 17 T-7 double-central-bank binary."
+    "re_entry_gate_score": 1.05,
+    "re_entry_gate_max": 5,
+    "re_entry_gate_delta_from_prev": 0.15,
+    "notes": "All 10 candidates \u22656/10 pre-blocked at market-open per crisis-track engagement gate ACTIVATED. Wk 21 close TODAY; Weekly Review 16:00 WIB required. DQG-Day-129 outage persists."
   }
 }
