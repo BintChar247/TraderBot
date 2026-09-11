@@ -1616,13 +1616,13 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6589.33,
-      "ihsg_cumulative_pct": -13.69,
-      "alpha_pct": 10.85,
+      "ihsg_close": 6498.0,
+      "ihsg_cumulative_pct": -14.88,
+      "alpha_pct": 12.04,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "session_note": "Wk 21 Day 5 pre-market \u2014 21st consecutive zero-trade week candidate; crisis-track engagement gate ACTIVATED 1.00-1.15/5; IHSG Thu Sep 10 -1.33% RECONCILED 6,589.33; Fri intraday 6,686.84 partial rebound; Brent $101 Day-7; IDR sub-17,750 Day-14 firming ~17,531; BMRI ex-div T-5; BI RDG + FOMC T-6 double-binary"
+      "session_note": "Wk 21 Day 5 CLOSE (EOD) \u2014 21st consecutive zero-trade week STRING INTACT; book de-risked Day 58 100% cash; IHSG Fri sesi I 6,490.91 (-1.49%) provisional full-day close ~6,498 (-1.39%) per 8-source multi-source cluster; sesi II full-day close PENDING Mon Sep 14 pre-market reconciliation per DQG-Day-129 (11th cumulative); Brent $101 Day-7 SPIKE intraday $107 amplifier DEEPER; IDR sub-17,531 Day-14 firming approaching 3-of-3; alpha expansion continuation Day-2 +1.19pp (Wk 21 net +0.99pp); crisis-track gate 1.00-1.15/5 partial-restore; BI RDG + FOMC T-6 double-binary; Weekly Review 16:00 WIB PENDING"
     }
   ],
   "positions": [],
@@ -25974,7 +25974,7 @@
     "day_label": "Day 103 (Wk 21 Day 3)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY55-Wk21-Day3-CRISIS-TRACK-GATE-ACTIVATED-0.90-1.10-of-5-partial-restore",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY57-Wk21-Day5-CLOSE-CRISIS-TRACK-GATE-ACTIVATED-1.00-1.15-of-5-partial-restore-via-IDR-Day-14-firming",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -25984,36 +25984,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-07T00:13:16Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 12 Day 2 (Tue Jul 7) pre-market: 50 tickers scanned; 2 CANDIDATES \u22656 (BBCA 7 MEDIUM, BMRI 6 MEDIUM) bank-cluster reversal; IDR partial DE-ARM 1-of-2 (Mon 17,945 sub-17,950 1st in 6 sess; Tue open 17,987 pierce back) + Data Quality Gate Day 72 outage bind; HOLD 100% cash primary plan",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 2 CANDIDATES \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 MEDIUM \u2014 bank-cluster reversal + 3-session foreign inflection CONFIRMED; IDR-gated"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 MEDIUM paired-conditional"
-        },
-        {
-          "type": "research",
-          "detail": "IDR partial DE-ARM Mon 17,945; Tue open 17,987 pierce"
-        },
-        {
-          "type": "research",
-          "detail": "Global tape constructive: Dow record 53,055; VIX 15.57"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-07T02:18:21Z",
       "routine": "market-open",
@@ -30767,6 +30737,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (0 open, 100% cash). No cuts, no tightens, no thesis exits. Day 58 no-position session."
+    },
+    {
+      "timestamp": "2026-09-11T08:22:01Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 21 Day 5 CLOSE: IDR 9.72B (0.00%). Alpha +1.39pp vs IHSG -1.39% (provisional). Cum alpha +12.04pp. 0 positions. Trades this week: 0/3. 21st consecutive zero-trade week STRING INTACT.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 105 EOD snapshot committed; RISK-STATE.json + dashboard/data.json updated; sesi II reconciliation pending Mon"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -30825,7 +30807,7 @@
     "candidates_status": "all pre-blocked crisis-track engagement gate ACTIVATED",
     "top_candidates_deep_dive_count": 10
   },
-  "last_updated": "2026-09-11T07:00:00+07:00",
+  "last_updated": "2026-09-11T15:21:51+07:00",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
