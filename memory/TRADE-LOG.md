@@ -12164,3 +12164,28 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   17. **VIX regime-shift signal-monitor** Day-2 — 16.46 close broke 14-17 range after 28 sessions; historically volatile Sep-Oct season.
   18. **Wk 22 Day 1 OPEN** — 22nd consecutive zero-trade week candidate begins if Wk 22 fires no trades; multi-front bindings persist.
 
+
+## 2026-09-14 09:15 WIB — Market-open: NO TRADES (Wk 22 Day 1 / Mon — Crisis-Track Engagement Gate ACTIVATED ~1.05-1.25/5; all 9 candidates ≥6/10 pre-blocked; 22nd consecutive zero-trade week candidate begins)
+
+- **Regime**: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606-firming + BRENT-DAY-8-$104-EASE-MARGINAL + NEWCASTLE-COAL-$147-DAY-9-SPIKE + CPO-BROKE-4,900-FADE-REARMS + US-REBOUND-Fri-Waller-dovish + BI-RDG-Sep-17-T-3 + FOMC-Sep-17-T-3-double-binary + BMRI-EX-DIV-T-3-FRESH + IHSG-Fri-6,541.38-(-0.73%)-RECONCILED + DQG-Day-130 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-~1.05-1.25/5
+- **Crisis-Track 5-criteria Wk 22 Day 1 OPEN projection**: (a) IDR sub-17,750 3-of-3 ~0.55-0.70/5 (Day-15 sub-17,606 firming approaching + Brent Day-8 ease-marginal partial-restore); (b) multi-source cluster ~0.10-0.15/5 (DQG-Day-130 outage); (c) MSCI/S&P DJI absorbed ~0/5 (formal-FAIL partial-vindication); (d) foreign-flow 2+ net-BUY ~0.20/5 (Thu -Rp 1.31T sesi I; Fri PENDING); (e) R:R ≥2:1 ~0.20/5 (only PGAS PASSES 2.05:1). **Total ~1.05-1.25/5 (Wk 22 Day 1 OPEN); 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted.**
+- **Book state**: 100% cash IDR 9,716,207,500. No positions. Day 59 zero-position streak. Realised P&L -294,172,500 unchanged.
+- **Candidates evaluated (all ≥6/10, all SKIP pre-blocked at market-open)**:
+  - BMRI (7/10) — Ex-div Rp 66 T-3 peak front-run; R:R 1.05:1 FAILS ≥2:1 + crisis-track blocks. SKIP.
+  - PGAS (7/10) — Brent Day-8 tailwind + MNC breakout Day-5 fade; R:R 2.05:1 PASSES but crisis-track blocks. SKIP.
+  - ANTM (7/10) — Foreign top-buy Thu +Rp 178bn; R:R 1.25:1 FAILS + chase-fail Day 3+ risk + crisis-track. SKIP.
+  - BBCA (6/10) — Big-4 stable defensive; crisis-track blocks. SKIP.
+  - MEDC (6/10) — Brent Day-8 tailwind; crisis-track blocks. SKIP.
+  - INCO (6/10) — Nickel sector-halo fading; crisis-track blocks. SKIP.
+  - ICBP (6/10) — Q2 core +50.6% beat compounder; crisis-track blocks. SKIP.
+  - INDF (6/10) — CPO-linked + fade re-arms; crisis-track blocks. SKIP.
+  - ASII (6/10) — IDR 2T buyback Day-9 absorption; crisis-track blocks. SKIP.
+- **Data source**: DQG-Day-130 outage — yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational. No live quote pulls this run (no candidates cleared gate to require quote validation).
+- **Actions**: 0 buys, 0 stops, 0 sells. Zero broker calls beyond portfolio/positions read.
+- **Alpha status**: Wk 21 close cumulative alpha ~+12.04pp (Fri provisional basis); Mon direction sets Wk 22 Day 1 expansion-vs-compression tone.
+- **Notification path**: scripts/notify.sh Telegram proxy 403 (persistent egress block); stdout fallback captured.
+- **Risk alerts**: NONE. Daily P&L 0.00% (>-2% cap OK); no positions; DD -3.10% (>-12% alert OK). No halt flags.
+- **Next routines today**:
+  - /midday (11:30 WIB): mechanically vacuous with n=0 positions; monitor macro drift.
+  - /daily-summary (15:15 WIB): EOD reconciliation Wk 22 Day 1; 22nd consecutive zero-trade week trajectory update.
+- **Trial trajectory**: Day 106 (Wk 22 Day 1 OPEN). Phase-to-date P&L -2.84% unchanged (59 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap.

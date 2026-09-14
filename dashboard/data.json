@@ -25934,6 +25934,447 @@
         true
       ],
       "trade_type": "catalyst"
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. Ex-div Rp 66 T-3 peak front-run window; consensus TP 5,845 (+16.4%); Big-4 div-play flow; R:R 1.05:1 FAILS \u22652:1 gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Rp 66 Sep 16 T-3 peak-window"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.05:1 fails \u22652:1 gate; crisis-track ACTIVATED"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. Brent Day-8 $104 sustained tailwind; MNC breakout tip Day-5 fade; base building; R:R 2.05:1 passes but crisis-track blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-8 sustained \u2265$100 + MNC breakout tip binary"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks (1.05-1.25/5)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 7/10. Foreign top-buy Thu +Rp 178bn single-name vs broad-sell; LME nickel weak; chase-fail Day 3+ risk; R:R 1.25:1 FAILS.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign single-name top-buy Thu +Rp 178bn"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.25:1 fails \u22652:1 gate; crisis-track ACTIVATED"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Big-4 stable defensive; no fresh catalyst; blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 stable defensive posture"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks (1.05-1.25/5)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Brent Day-8 $104 sustained tailwind persists; blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-8 sustained \u2265$100 energy tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks (1.05-1.25/5)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INCO",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. LME nickel $16,525 weakening; sector-halo fade; blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Nickel sector-halo (fading)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks + LME weak sector-halo fade"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. Q2 core +50.6% beat; steady defensive compounder; blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core +50.6% beat compounding"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks (1.05-1.25/5)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. CPO-linked; sole net-inflow YTD; broke 4,900 MYR support = fade re-arms; blocked by crisis-track.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO-linked; sole net-inflow YTD"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED + CPO broke 4,900 MYR fade re-arms"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Score 6/10. IDR 2T buyback Day-9 absorption; Fri +0.82% outperformer; blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR 2T buyback Day-9 absorption"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY58 + IDR-Day-15-sub-17,606 + Brent-Day-8-$104-ease-marginal + Newcastle-$147-Day-9-SPIKE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~1.05-1.25/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED blocks (1.05-1.25/5)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new-entries permitted (crisis-track gap 3.75-3.95/5 BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-130 outage \u2014 yfinance + GoAPI blocked 130 consecutive sessions; WebSearch multi-source override operational"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN projection ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -25984,12 +26425,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-07T04:37:10Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "0 open positions. No cuts, no stop tightens, no thesis exits."
-    },
     {
       "timestamp": "2026-07-07T08:19:05Z",
       "routine": "daily-summary",
@@ -30748,6 +31183,63 @@
           "type": "research",
           "ticker": "ANTM",
           "detail": "score 7/10 \u2014 foreign top-buy + LME single-name buying"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-14T02:16:39Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 1 OPEN ~1.05-1.25/5; 3.75-3.95/5 gap BINDING WIDER; 0% new-entries permitted). All 9 candidates \u22656/10 pre-blocked: BMRI(7), PGAS(7), ANTM(7), BBCA/MEDC/INCO/ICBP/INDF/ASII(6). Book fully de-risked Day 59; 22nd consecutive zero-trade week candidate begins.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track ACTIVATED + R:R 1.05:1 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track ACTIVATED (R:R 2.05:1 passed)"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "crisis-track ACTIVATED + R:R 1.25:1 fail"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INCO",
+          "detail": "crisis-track ACTIVATED + LME nickel weak"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track ACTIVATED"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track ACTIVATED + CPO fade re-arms"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "crisis-track ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-130 outage \u2014 yfinance+GoAPI blocked; WebSearch override operational"
         }
       ]
     }
