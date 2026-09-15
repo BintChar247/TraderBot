@@ -12285,3 +12285,30 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   15. **Alpha expansion continuation Day-3 monitoring:** Mon +1.46pp expansion (Wk 21 Day 4-Wk 22 Day 1 cumulative +2.55pp reconciled basis); watch Tue direction for expansion continuation vs re-compression re-episode.
   16. **VIX regime-shift signal-monitor** Day-3 — 16.46 broke 14-17 range after 28 sessions; historically volatile Sep-Oct season.
   17. **Wk 22 Day 2** — 22nd consecutive zero-trade week candidate continues if Wk 22 fires no trades; multi-front bindings persist.
+
+
+## 2026-09-15 09:15 WIB — Market-open: NO TRADES (Wk 22 Day 2 / Tue — Crisis-Track Engagement Gate ACTIVATED ~1.10-1.30/5; all 9 candidates ≥6/10 pre-blocked; 22nd consecutive zero-trade week candidate continues)
+
+- **Regime**: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY59 + IDR-Day-15-sub-17,600-firming + BRENT-DAY-9-$108-SPIKE-DEEP-AMPLIFICATION + NEWCASTLE-COAL-$147-DAY-9-SPIKE + CPO-4,929-RECOVERY-DAY-1 + US-4-DAY-LOSING-STREAK-EXTENDED-Day-5 + BMRI-CUM-DIV-T-0-TODAY + BI-RDG-Sep-17-T-2 + FOMC-Sep-17-T-2-double-binary + IHSG-Mon-RECONCILED-6,534.69-(-0.10%)-vs-provisional-(-1.70%) + DQG-Day-131 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-~1.10-1.30/5
+- **Crisis-Track 5-criteria Wk 22 Day 2 OPEN projection**: (a) IDR sub-17,750 3-of-3 ~0.60-0.75/5 (Day-15 sub-17,600 firming — approaching completion; Brent Day-9 $108 SPIKE deep-amplifier offsets); (b) multi-source cluster ~0.10-0.15/5 (DQG-Day-131 outage persists); (c) MSCI/S&P DJI absorbed ~0/5 (formal-FAIL partial-vindication; Aug-31-effective Day-12); (d) foreign-flow 2+ net-BUY ~0.20/5 (Mon full-day reconciliation PENDING); (e) R:R ≥2:1 ~0.20/5 (PGAS PASSES 2.05:1 only; BMRI 1.00:1 / ANTM 1.17:1 FAIL). **Total ~1.10-1.30/5 (Wk 22 Day 2 OPEN); +0.05pp marginal restore vs Wk 22 Day 1 OPEN 1.05-1.25/5; 3.70-3.90/5 gap BINDING WIDER; 0% new-entries permitted.**
+- **Book state**: 100% cash IDR 9,716,207,500. No positions. Day 60 zero-position streak. Realised P&L -294,172,500 unchanged.
+- **Candidates evaluated (all ≥6/10, all SKIP pre-blocked at market-open)**:
+  - BMRI (8/10) — Cum-div Rp 66 T-0 TODAY peak front-run; R:R 1.00:1 FAILS ≥2:1 + crisis-track blocks + ex-div T-1 Wed mechanical drop tail-risk. SKIP.
+  - PGAS (7/10) — Brent Day-9 $108 SPIKE gas-spread tailwind deepens; R:R 2.05:1 PASSES but crisis-track blocks. SKIP.
+  - ANTM (6/10) — Fri +Rp 178bn foreign single-name buy; Mon -2.45% chase-fail Day-4 confirmed; R:R 1.17:1 FAILS + crisis-track blocks. SKIP.
+  - BBCA (6/10) — Big-4 stable rebound; crisis-track blocks. SKIP.
+  - MEDC (6/10) — Brent $108 tailwind; crisis-track blocks + Q2 T+27 delist-candidate. SKIP.
+  - ICBP (6/10) — Q2 core +50.6% beat; crisis-track blocks + Brent-SPIKE margin headwind offsets. SKIP.
+  - INDF (6/10) — Sole net-inflow YTD; crisis-track blocks + Brent margin overhang deepens. SKIP.
+  - TLKM (6/10) — Strong rebound +3.46%; Samuel PT 3,300; crisis-track blocks + FADE-ON-BEAT MEDIUM-confidence pattern Day-31+ post-Q2 7th observation window. SKIP.
+  - ASII (6/10) — IDR 2T buyback Day-10 absorption; crisis-track blocks + Brent-SPIKE COGS drag. SKIP.
+- **Data source**: DQG-Day-131 outage — yfinance + GoAPI blocked 131 consecutive sessions; WebSearch multi-source override operational. No live quote pulls this run (no candidates cleared gate to require quote validation). broker.sh portfolio/positions read OK (paper mode).
+- **Actions**: 0 buys, 0 stops, 0 sells. Zero broker calls beyond portfolio/positions read.
+- **Mon reconciliation note**: EOD provisional -1.70% → sesi II reconciled -0.10% (rebound from intraday low ~6,371 to close 6,534.69). Mon actual alpha expansion only ~+0.10pp not +1.46pp claimed in EOD; +1.60pp reconciliation gap noted in today's pre-market research.
+- **Alpha status**: Wk 22 Day 1 reconciled cumulative alpha ~+11.47pp (Mon 6,534.69 basis); Tue direction sets Day 2 expansion-vs-compression tone under Brent Day-9 SPIKE + BI RDG/FOMC T-2 double-binary compression.
+- **Notification path**: scripts/notify.sh Telegram proxy 403 (persistent egress block, DQG-Day-131 outage adjacent); stdout fallback captured.
+- **Risk alerts**: NONE. Daily P&L 0.00% (>-2% cap OK); no positions; DD -3.10% (>-12% alert OK). No halt flags.
+- **Next routines today**:
+  - /midday (11:30 WIB): mechanically vacuous with n=0 positions; monitor macro drift + BMRI cum-div T-0 peak-window compression + Brent Day-9 continuation.
+  - /daily-summary (15:15 WIB): EOD reconciliation Wk 22 Day 2; alpha expansion continuation Day-4 monitoring vs re-compression.
+- **Trial trajectory**: Day 107 (Wk 22 Day 2). Phase-to-date P&L -2.84% unchanged (60 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap.

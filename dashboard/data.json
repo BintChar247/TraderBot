@@ -26391,6 +26391,411 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Cum-div Rp 66 T-0 peak front-run window; Q2 H1 +24.19% strongest Big-4.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Cum-div Rp 66 T-0 peak front-run window; Q2 H1 +24.19% strongest Big-4."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.00:1 fails \u22652:1 gate + crisis-track ACTIVATED + ex-div T-1 mechanical drop tail-risk."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.00:1 fails \u22652:1 gate + crisis-track ACTIVATED + ex-div T-1 mechanical drop tail-risk.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $108 Day-9 SPIKE deep-amplification widens gas-spread tailwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $108 Day-9 SPIKE deep-amplification widens gas-spread tailwind."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 2.05:1 passes but crisis-track engagement gate ACTIVATED blocks all new BUY."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 2.05:1 passes but crisis-track engagement gate ACTIVATED blocks all new BUY.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Fri +Rp 178bn foreign single-name buy; Mon -2.45% chase-fail Day-4.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Fri +Rp 178bn foreign single-name buy; Mon -2.45% chase-fail Day-4."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.17:1 fails \u22652:1 gate + crisis-track ACTIVATED + chase-fail Day-4 confirmed."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 1.17:1 fails \u22652:1 gate + crisis-track ACTIVATED + chase-fail Day-4 confirmed.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 stable rebound; blocked crisis-track.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 stable rebound; blocked crisis-track."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED + Brent SPIKE Day-9 + BI RDG T-2 binary."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED + Brent SPIKE Day-9 + BI RDG T-2 binary.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $108 SPIKE Day-9 tailwind deepens.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $108 SPIKE Day-9 tailwind deepens."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED + DQG-Day-131 outage + Q2 T+27 delist-candidate."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track ACTIVATED + DQG-Day-131 outage + Q2 T+27 delist-candidate.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% beat.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core +50.6% beat."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED + Brent-SPIKE margin headwind offsets Q2 beat."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track ACTIVATED + Brent-SPIKE margin headwind offsets Q2 beat.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD; CPO-linked.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sole net-inflow YTD; CPO-linked."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED + Brent $108 margin overhang deepens CPI-vector negative."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track ACTIVATED + Brent $108 margin overhang deepens CPI-vector negative.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Strong rebound day +3.46%; Samuel PT 3,300; fiber-spin-off EGM T-15.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Strong rebound day +3.46%; Samuel PT 3,300; fiber-spin-off EGM T-15."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED + TLKM-FADE-ON-BEAT MEDIUM-confidence pattern Day-31+ post-Q2 7th observation window."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track ACTIVATED + TLKM-FADE-ON-BEAT MEDIUM-confidence pattern Day-31+ post-Q2 7th observation window.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IDR 2T buyback Day-10 absorption.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR 2T buyback Day-10 absorption."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~1.10-1.30/5; Brent $108 Day-9 SPIKE; BI RDG/FOMC Sep 17 T-2 double-binary"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED + Brent-SPIKE COGS drag + IDR import-COGS overhang."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track ACTIVATED + Brent-SPIKE COGS drag + IDR import-COGS overhang.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -26441,12 +26846,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-08T04:36:11Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy (0 open, 100% cash). No cuts, no stop tightenings, no thesis exits."
-    },
     {
       "timestamp": "2026-07-08T08:20:07Z",
       "routine": "daily-summary",
@@ -31241,6 +31640,63 @@
           "type": "research",
           "ticker": "ANTM",
           "detail": "score 6/10 \u2014 chase-fail Day-4 confirmed Mon -2.45%"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-15T02:16:48Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 22 Day 2 (Tue Sep 15) \u2014 0 trades. 9 candidates \u22656/10 (BMRI[8], PGAS[7], ANTM[6], BBCA/MEDC/ICBP/INDF/TLKM/ASII[6]) all pre-blocked by crisis-track engagement gate ACTIVATED (~1.10-1.30/5; 3.70-3.90/5 gap BINDING WIDER). Brent $108 SPIKE Day-9 deep-amplifier + BI RDG/FOMC Sep 17 T-2 double-binary + BMRI cum-div T-0 mechanical drop trap Wed. 22nd consecutive zero-trade week candidate intact.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "R:R 1.00:1 fail + crisis-track + ex-div T-1 mechanical drop"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "R:R 2.05:1 pass but crisis-track blocks"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "R:R 1.17:1 fail + crisis-track + chase-fail Day-4"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track blocks"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track + Q2 delist-candidate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track + Brent margin headwind"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track + Brent margin overhang"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track + FADE-ON-BEAT MEDIUM pattern"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "crisis-track + Brent COGS drag"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-131 outage \u2014 WebSearch multi-source override operational"
         }
       ]
     }
