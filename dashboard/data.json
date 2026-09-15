@@ -26442,32 +26442,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-08T02:18:31Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 12 Day 3. BBCA + BMRI SKIP \u2014 Gate 9 chase +4.13% (BBCA Tue close 6,300 vs planned 6,050); regime pre-condition IDR DE-ARM 2-of-2 FAIL 4th consecutive session piercing 17,950 (Tue 17,980; Wed forecast 17,950-18,050); R:R 2:1 FAIL at cluster mark. 100% cash IDR 9.72B preserved. 11th consecutive 0/3 buy-slot week trajectory.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Gate 9 chase +4.13% from planned 6,050 to Tue close 6,300; IDR DE-ARM 2-of-2 FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "Paired-conditional VOID (BBCA no-fill); IDR gate FAIL"
-        },
-        {
-          "type": "warning",
-          "detail": "yfinance + GoAPI Day 73 outage; WebSearch cluster fallback used for BBCA/BMRI/IDR/IHSG"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification failed HTTP 000 (proxy 403 CONNECT tunnel); stdout fallback engaged"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-08T04:36:11Z",
       "routine": "midday",
       "status": "success",
@@ -31236,6 +31210,37 @@
         {
           "type": "research",
           "detail": "Day 106 EOD snapshot committed; RISK-STATE + dashboard/data.json updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-15T00:08:36Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 22 Day 2. Scanned 50 tickers. 9 candidates \u22656: BMRI(8 cum-div T-0), PGAS(7), ANTM/BBCA/MEDC/ICBP/INDF/TLKM/ASII(6). All pre-blocked by crisis-track engagement gate ACTIVATED (~1.10-1.30/5; 3.70-3.90/5 gap binding). IHSG Mon reconciled -0.10% (vs provisional -1.70%); Brent SPIKE 08 Day-9 DEEP amp; BI RDG+FOMC T-2 double-binary.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "9 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 8/10 \u2014 cum-div Rp 66 T-0 today; ex T-1 tomorrow"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 Brent $108 SPIKE Day-9 gas-spread tailwind deepens"
+        },
+        {
+          "type": "research",
+          "ticker": "ANTM",
+          "detail": "score 6/10 \u2014 chase-fail Day-4 confirmed Mon -2.45%"
         }
       ]
     }
