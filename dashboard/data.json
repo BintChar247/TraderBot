@@ -1639,6 +1639,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 22 Day 1 OPEN (EOD) \u2014 IHSG Mon sesi I 6,429.88 (-1.70% -111.50 pts vs Fri reconciled 6,541.38); sesi II broke -2% at 14:23 WIB per CNBC; provisional full-day EOD ~6,430 (-1.70%); sesi II full-day close PENDING Tue Sep 15 pre-market reconciliation per DQG-Day-130 sesi-II-lag 12th cumulative; portfolio 100% cash 9,716,207,500 IDR; 0 positions Day 59 zero-position streak; 22nd consecutive zero-trade week candidate begins; cum. alpha +12.93pp (+1.46pp EXPANSION vs Fri reconciled +11.47pp); alpha-expansion-continuation Day-3; Brent Day-8 $104 ease-marginal; Newcastle coal Day-9 $147 SPIKE; IDR Day-15 sub-17,606 firming; CPO broke 4,900 fade re-arms; BI-RDG+FOMC Sep 17 T-3 double-central-bank binary approaches; BMRI ex-div T-2; crisis-track gate 1.05-1.25/5"
+    },
+    {
+      "date": "2026-09-15",
+      "day_label": "Day 107",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6483.0,
+      "ihsg_cumulative_pct": -15.08,
+      "alpha_pct": 12.24,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "session_note": "Wk 22 Day 2 (EOD) \u2014 IHSG Tue sesi I 6,484.92 (-0.76% -49.77 pts vs Mon reconciled 6,534.69); provisional full-day EOD ~6,483 (-0.80%) per Trading Economics multi-source cluster; sesi II full-day close PENDING Wed Sep 16 pre-market reconciliation per DQG-Day-131 sesi-II-lag 13th cumulative; portfolio 100% cash 9,716,207,500 IDR; 0 positions Day 60 zero-position streak; 22nd consecutive zero-trade week candidate continues; cum. alpha +12.24pp (+0.77pp EXPANSION vs Mon reconciled +11.47pp; note Mon +1.46pp provisional reduced to +0.10pp on reconciliation); alpha-expansion-continuation Day-4; Brent Day-9 $108 SPIKE deep-amplifier (Saudi pipeline unresolved); Newcastle coal Day-10 $147 SPIKE; IDR Day-16 sub-17,600 firming; CPO MYR 4,929 recovery Day-1; BMRI cum-div T-0 today, ex-div Wed T-1 mechanical drop tail-risk; BBRI -2.1% sesi I confirms Day-4 buy-flow-removal; BBNI -2.3% BMRI -2.0%; US 4\u21925 day losing streak extension; BI-RDG+FOMC Sep 17 T-2 double-central-bank binary; crisis-track gate 1.10-1.30/5 marginal restore; VIX Day-4 16.46 regime-shift monitor"
     }
   ],
   "positions": [],
@@ -26847,44 +26863,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-09T00:11:58Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. Top: BBCA (MEDIUM, score 8) on 5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed. 2 candidates scored >=6 (BBCA/BMRI). Both blocked by IDR Stage 4 BREACHED (Wed close 18,006) pre-emptive de-risk-halt engagement. Book 100% cash.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (Data Quality Gate Day 74 outage; WebSearch multi-source cluster)"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored >=6: BBCA (8), BMRI (6)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 8/10 \u2014 5-session paired-inflection + confirmed foreign NET BUY Rp 201.8B Wed vs market-wide -Rp 456.6B"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 paired-second on BBCA; SOE-adjacent Danantara overhang + net-sell Rp 178.5B recent weakens"
-        },
-        {
-          "type": "macro",
-          "detail": "IDR STAGE 4 BREACHED \u2014 Wed close 18,006 sustained >=18,000 triggers pre-emptive de-risk-halt engagement gate"
-        },
-        {
-          "type": "macro",
-          "detail": "Brent +5.2% to $78.02 on Trump-Iran ceasefire over"
-        },
-        {
-          "type": "macro",
-          "detail": "S&P DJI 2027 Country Classification Watchlist added Wed = dual-index-accessibility overhang"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-09T02:19:13Z",
       "routine": "market-open",
       "status": "warning",
@@ -31693,6 +31671,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (n=0). No cuts, no stop tightenings. 22nd consecutive zero-trade week candidate continues. Book 100% cash IDR 9,716,207,500."
+    },
+    {
+      "timestamp": "2026-09-15T08:19:32Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-09-15 (Day 107, Wk 22 Day 2): Equity IDR 9,716,207,500 (0.00% today). IHSG ~6,483 (-0.80%). Alpha +0.80pp today, cum +12.24pp (+0.77pp expansion vs Mon reconciled). 0 positions Day 60 zero-position streak. 22nd consecutive zero-trade week candidate. Book 100% cash. Trades this week 0/3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 107 EOD snapshot committed; Wk 22 Day 2 close; alpha-expansion-continuation Day-4; BI-RDG/FOMC Sep 17 T-2 double-binary approaching"
+        }
+      ]
     }
   ],
   "exposure": {
