@@ -26863,36 +26863,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-09T02:19:13Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 12 Day 4. IDR Stage 4 BREACHED (Wed close 18,006; Thu ~17,987 still piercing 17,950) = pre-emptive de-risk-halt engagement gate TRIGGERED. BBCA (score 8) + BMRI (score 6) both SKIP on regime pre-condition + Data Quality Gate Day 74 outage. Book 100% cash IDR 9,716M. 11th consecutive 0/3 BUY-slot week trajectory.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Regime pre-condition FAIL: IDR Stage 4 BREACHED; would-be 5% cap ~486M IDR"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "Paired-second VOID (BBCA no-fill) + IDR Stage 4 BREACHED"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 74 outage (yfinance + GoAPI 403-blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR Stage 4 BREACHED persists; pre-emptive de-risk-halt engagement gate TRIGGERED"
-        },
-        {
-          "type": "warning",
-          "detail": "11th consecutive 0/3 BUY-slot week trajectory Wk 12 Day 4"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-09T04:35:48Z",
       "routine": "midday",
       "status": "success",
@@ -31683,6 +31653,32 @@
           "detail": "Day 107 EOD snapshot committed; Wk 22 Day 2 close; alpha-expansion-continuation Day-4; BI-RDG/FOMC Sep 17 T-2 double-binary approaching"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-16T00:10:45Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers Wk 22 Day 3 pre-market. 9 candidates \u22656/10 (MEDC[7] PGAS[7] BBCA/BMRI/ANTM/ICBP/INDF/TLKM/ASII[6]). All pre-blocked crisis-track gate ~1.05/5. BMRI ex-div T-0 mechanical Rp 66 drop today; BI+FOMC Sep 17 T-1 tonight.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "9 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 7/10 \u2014 Brent $107 Day-10 SPIKE + MNC BUY"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 Brent gas-spread deep-amplification R:R 2.05:1 PASS"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -31696,52 +31692,87 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY57",
-    "regime_overlay": "BRENT-$101-DAY-7-SPIKE + NEWCASTLE-COAL-$147-DAY-8-SPIKE + IDR-SUB-17750-DAY-14-FIRMING-~17531 + IHSG-Thu-RECONCILED-6589.33-DEEP-FADE-1.33% + FOREIGN-FLOW-Thu-SESI-I-RP1.31T-NET-SELL + VIX-BROKE-14-17-RANGE-18.17-INTRADAY + US-4-DAY-LOSING-STREAK-Thu + BMRI-EX-DIV-RP66-T-5 + BI-RDG+FOMC-T-6-DOUBLE-BINARY + DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-DAY-8 + DQG-DAY-129-OUTAGE + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-1.00-1.15/5",
-    "ihsg_close": 6581.44,
-    "ihsg_close_date": "2026-09-02",
-    "ihsg_close_change_pct": -0.28,
-    "ihsg_close_basis": "Wed Sep 2 full-day close 6,581.44 (-0.28% -18.50 pts vs Tue reconciled 6,599.94); multi-source cluster CNBC + Infobanknews + Tempo + Media Indonesia PASS",
-    "idr_usd": 17710,
-    "idr_usd_change": -0.11,
-    "newcastle_coal_usd_ton": 144.85,
-    "cpo_myr_ton": 4958,
-    "brent_usd_bbl": 94.86,
-    "lme_nickel_usd_ton": 16663.5,
-    "us_10y_yield_pct": 4.8,
-    "vix": 15.0,
-    "foreign_flow_yesterday_idr_bn": -379.67,
-    "foreign_flow_note": "Wed Sep 2 net sell -Rp 379.67bn (TLKM/GOTO led); prior-week Aug 26-Sep 1 net BUY +Rp 2.22T; criterion (d) 0.15-0.20/5 partial"
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY60",
+    "regime_overlay": "IDR-Day-17-sub-17,750-partial-fade + BRENT-DAY-10-$107-SPIKE-SUSTAINED + NEWCASTLE-COAL-$147-DAY-10 + CPO-4,929-RECOVERY-Day-2 + US-6-DAY-LOSING-STREAK + US-10Y-5.04%-HIGHEST-SINCE-2007 + BMRI-EX-DIV-T-0-TODAY + BI-RDG+FOMC-Sep-17-T-1-double-binary + DQG-Day-132 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "ihsg_close": 6461,
+    "ihsg_close_date": "2026-09-15",
+    "ihsg_close_change_pct": -1.13,
+    "ihsg_close_basis": "Tue Sep 15 reconciled close per Okezone canonical -73.54 pts vs Mon reconciled 6,534.69; Fortune Indonesia -0.15% conflict = OUTLIER rejected under DQG-132 cluster",
+    "idr_usd": 17630,
+    "idr_usd_change": "+0.61% weakening today Wed pre-market vs Tue ~17,600",
+    "newcastle_coal_usd_ton": 146.75,
+    "cpo_myr_ton": 4929,
+    "brent_usd_bbl": 107.49,
+    "lme_nickel_usd_ton": 16428,
+    "us_10y_yield_pct": 5.04,
+    "vix": 17.0,
+    "foreign_flow_yesterday_idr_bn": null,
+    "foreign_flow_note": "Wk Sep 7-11 aggregate net-SELL Rp 2.7T; Tue Sep 15 full-day reconciliation PENDING Wed pre-market"
   },
   "research": {
-    "date": "2026-09-11",
+    "date": "2026-09-16",
     "holiday": false,
-    "as_of_date": "2026-09-11",
+    "as_of_date": "2026-09-16",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Fri Sep 11 pre-market",
-    "ihsg_last": 6686.84,
-    "ihsg_last_label": "Fri Sep 11 intraday +1.48%",
-    "ihsg_last_sesi_i": null,
-    "ihsg_last_sesi_i_label": "Pending Fri sesi I close",
-    "idr_usd": 17531,
-    "idr_usd_label": "Sub-17,750 Day-14 firming",
-    "candidates_count": 10,
+    "as_of_label": "Wed Sep 16 pre-market \u2014 Wk 22 Day 3",
+    "ihsg_last": 6461,
+    "ihsg_last_label": "Tue Sep 15 reconciled close (Okezone canonical -1.13%)",
+    "ihsg_last_sesi_i": 6484.92,
+    "ihsg_last_sesi_i_label": "Tue Sep 15 sesi I -0.76%",
+    "idr_usd": 17630,
+    "idr_usd_label": "Wed Sep 16 pre-market 07:00 WIB (+0.61% weakening today)",
+    "candidates_count": 9,
     "candidates": [
-      "BMRI",
-      "PGAS",
-      "ANTM",
-      "BBCA",
-      "BBRI",
-      "MEDC",
-      "INCO",
-      "ICBP",
-      "INDF",
-      "ASII"
+      {
+        "ticker": "MEDC",
+        "score": 7,
+        "sector": "Energy"
+      },
+      {
+        "ticker": "PGAS",
+        "score": 7,
+        "sector": "Gas/Energy"
+      },
+      {
+        "ticker": "BBCA",
+        "score": 6,
+        "sector": "Banking"
+      },
+      {
+        "ticker": "BMRI",
+        "score": 6,
+        "sector": "Banking"
+      },
+      {
+        "ticker": "ANTM",
+        "score": 6,
+        "sector": "Nickel"
+      },
+      {
+        "ticker": "ICBP",
+        "score": 6,
+        "sector": "Consumer"
+      },
+      {
+        "ticker": "INDF",
+        "score": 6,
+        "sector": "Consumer"
+      },
+      {
+        "ticker": "TLKM",
+        "score": 6,
+        "sector": "Telco"
+      },
+      {
+        "ticker": "ASII",
+        "score": 6,
+        "sector": "Auto"
+      }
     ],
-    "candidates_status": "all pre-blocked crisis-track engagement gate ACTIVATED",
-    "top_candidates_deep_dive_count": 10
+    "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
+    "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-14T15:15:00+07:00",
+  "last_updated": "2026-09-16T07:00:00+07:00",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
@@ -31759,27 +31790,22 @@
     "as_of": "2026-09-11"
   },
   "pre_market": {
-    "date": "2026-09-11",
-    "day_label": "Day 105 \u2014 Wk 21 Day 5",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY57",
-    "regime_reason": "IDR sub-17,750 Day-14 firming ~17,531 approaching sustained-3-of-3 criterion (a) lift completion; Brent $101.25 Day-7 SPIKE Iran-tanker Gulf attack sustained; Newcastle coal $147 Day-8 SPIKE; US 4-day losing streak; VIX broke 14-17 range to 18.17; foreign flow Thu -Rp 1.31T sesi I net-sell; IHSG Thu -1.33% deep fade reconciled 6,589.33 below 6,600 psychological; BMRI ex-div T-5; BI RDG + FOMC T-6 double-central-bank binary",
-    "position_sizing_note": "NONE \u2014 crisis-track engagement gate ACTIVATED continues 0% new-entries. 3.85-4.00/5 gap BINDING WIDER.",
-    "candidates_scored_ge6_count": 10,
+    "date": "2026-09-16",
+    "day_label": "Day 108 \u2014 Wk 22 Day 3",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY60",
+    "regime_reason": "IDR Day-17 sub-17,750 momentum PARTIAL fade (17,600\u219217,630); Brent $107.49 Day-10 SPIKE sustained (Iran-Hormuz + Saudi Red Sea pipeline); Newcastle coal $146.75 Day-10; US 6-day losing streak (S&P -0.45% Nasdaq -0.78% Dow -0.63% Tue Sep 15); US 10Y 5.04% highest since 2007; IHSG Tue reconciled 6,461 (-1.13%); BMRI ex-div T-0 today Rp 66 mechanical drop; BI RDG + FOMC Sep 17 T-1 double-central-bank binary tonight WIB",
+    "position_sizing_note": "NONE \u2014 crisis-track engagement gate ACTIVATED continues 0% new-entries. 3.85-4.05/5 gap BINDING WIDER.",
+    "candidates_scored_ge6_count": 9,
     "candidates_scored_ge6": [
       {
-        "ticker": "BMRI",
+        "ticker": "MEDC",
         "score": 7,
-        "catalyst": "Ex-div Rp 66 T-5 fresh div-yield catalyst; Q2 H1 +24.19%; TP 5,845"
+        "catalyst": "Brent $107 Day-10 SPIKE upstream oil-linked tailwind + MNC Sekuritas BUY Tue"
       },
       {
         "ticker": "PGAS",
         "score": 7,
-        "catalyst": "MNC breakout tip + Brent-$100 Day-7 gas-spread tailwind; R:R 2.05:1 PASS"
-      },
-      {
-        "ticker": "ANTM",
-        "score": 7,
-        "catalyst": "Foreign top-buy Thu +Rp 178bn + LME nickel Day-3 firming + LQ45 top gain +2.19%"
+        "catalyst": "Brent $107 Day-10 gas-spread tailwind deep-amplification; R:R 2.05:1 PASS"
       },
       {
         "ticker": "BBCA",
@@ -31787,106 +31813,39 @@
         "catalyst": "Big-4 stable defensive; blocked crisis-track"
       },
       {
-        "ticker": "BBRI",
+        "ticker": "BMRI",
         "score": 6,
-        "catalyst": "Q2 H1 +17.5% beat T+10 chase-fail-decay; buyback expiry today"
+        "catalyst": "Ex-div T-0 today Rp 66 mechanical drop; downgraded 8\u21926 post-catalyst"
       },
       {
-        "ticker": "MEDC",
+        "ticker": "ANTM",
         "score": 6,
-        "catalyst": "Brent $101 oil-linked tailwind"
-      },
-      {
-        "ticker": "INCO",
-        "score": 6,
-        "catalyst": "LME nickel firming; sector-halo"
+        "catalyst": "Wk foreign-buy mining sector pref; LME sub-$17K headwind Day-1"
       },
       {
         "ticker": "ICBP",
         "score": 6,
-        "catalyst": "Q2 core +50.6% beat; steady compounder"
+        "catalyst": "Q2 core +50.6% beat; Brent SPIKE margin drag Day-10"
       },
       {
         "ticker": "INDF",
         "score": 6,
-        "catalyst": "CPO-linked; sole net-inflow YTD"
+        "catalyst": "CPO recovery Day-2; Brent margin overhang"
+      },
+      {
+        "ticker": "TLKM",
+        "score": 6,
+        "catalyst": "Rebound Day-2 +4.18% Mon; FADE-ON-BEAT MEDIUM 6th obs"
       },
       {
         "ticker": "ASII",
         "score": 6,
-        "catalyst": "IDR 2T buyback Day-9 absorption"
+        "catalyst": "IDR 2T buyback Day-11 absorption; Brent COGS drag"
       }
     ],
     "re_entry_gate_score": 1.05,
     "re_entry_gate_max": 5,
-    "re_entry_gate_delta_from_prev": 0.15,
-    "notes": "All 10 candidates \u22656/10 pre-blocked at market-open per crisis-track engagement gate ACTIVATED. Wk 21 close TODAY; Weekly Review 16:00 WIB required. DQG-Day-129 outage persists.",
-    "2026-09-14": {
-      "date": "2026-09-14",
-      "weekday": "Monday",
-      "week": "Wk 22 Day 1 OPEN",
-      "ihsg_prior_close": 6541.38,
-      "ihsg_prior_pct": -0.73,
-      "idr_usd": 17606,
-      "brent_usd_bbl": 104.61,
-      "newcastle_coal": 146.75,
-      "cpo_myr": 4550,
-      "lme_nickel": 16525,
-      "us_sp500_close": 7656.98,
-      "us_dow_close": 52573.29,
-      "us_nasdaq_close": 26333.04,
-      "vix": 15.5,
-      "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-DAY58",
-      "crisis_track_gate_score": "1.05-1.25/5 (ACTIVATED \u2014 blocks all new BUY)",
-      "candidates_ge_6": [
-        {
-          "ticker": "BMRI",
-          "score": 7,
-          "hook": "Ex-div Rp 66 T-3 peak front-run"
-        },
-        {
-          "ticker": "PGAS",
-          "score": 7,
-          "hook": "Brent-tailwind Day-8 + MNC breakout tip"
-        },
-        {
-          "ticker": "ANTM",
-          "score": 7,
-          "hook": "Foreign top-buy + LME single-name buying"
-        },
-        {
-          "ticker": "BBCA",
-          "score": 6,
-          "hook": "Big-4 stable"
-        },
-        {
-          "ticker": "MEDC",
-          "score": 6,
-          "hook": "Brent tailwind"
-        },
-        {
-          "ticker": "INCO",
-          "score": 6,
-          "hook": "Sector-halo"
-        },
-        {
-          "ticker": "ICBP",
-          "score": 6,
-          "hook": "Q2 +50.6% beat compounder"
-        },
-        {
-          "ticker": "INDF",
-          "score": 6,
-          "hook": "CPO-linked; sole net-inflow YTD"
-        },
-        {
-          "ticker": "ASII",
-          "score": 6,
-          "hook": "IDR 2T buyback Day-9 absorption"
-        }
-      ],
-      "action": "HOLD \u2014 no trades. Crisis-track gate ACTIVATED. 9 candidates \u22656/10 pre-blocked. Book 100% cash Day-59.",
-      "top_risk": "BI RDG + FOMC Sep 17 T-3 same-day double-binary volatility compression peak"
-    }
+    "re_entry_gate_delta_from_prev": -0.15,
+    "notes": "22nd consecutive zero-trade week candidate continues Day 3. 61st consecutive no-position session. Book fully de-risked 100% cash IDR 9,716,207,500. All 9 candidates \u22656/10 pre-blocked at market-open. FOMC Thu 01:00 WIB + BI RDG Thu Sep 17 double-central-bank binary tonight; BMRI ex-div T-0 mechanical Rp 66 today; DQG-Day-132 outage persists."
   }
 }
