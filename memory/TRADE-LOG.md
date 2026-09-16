@@ -12416,3 +12416,31 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   15. **Alpha expansion continuation Day-4 monitoring:** Tue +0.77pp expansion (Wk 21 Day 4-Wk 22 Day 2 cumulative +2.56pp reconciled basis); watch Wed direction for expansion continuation vs re-compression re-episode ahead of BI-RDG/FOMC T-1 binary.
   16. **VIX regime-shift signal-monitor** Day-4 — 16.46 broke 14-17 range; historically volatile Sep-Oct season.
   17. **Wk 22 Day 3** — 22nd consecutive zero-trade week candidate continues if Wk 22 fires no trades; multi-front bindings persist.
+
+---
+
+### 2026-09-16 09:15 WIB — NO TRADES (market-open)
+
+- Candidates evaluated: 9 candidates ≥6/10 from RESEARCH-LOG.md — MEDC(7), PGAS(7), BBCA(6), BMRI(6), ANTM(6), ICBP(6), INDF(6), TLKM(6), ASII(6).
+- Gate-check outcome: ALL 9 PRE-BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Wk 22 Day 3 OPEN ~0.95-1.15/5; 3.85-4.05/5 gap BINDING WIDER; 0% new-entries permitted).
+  - (a) IDR sub-17,750 3-of-3 — Day-17 momentum PARTIAL fade 17,600→17,630; Brent Day-10 $107 SPIKE deep-amplifier offsets: **~0.55-0.70/5**
+  - (b) Cluster ≥3-source ≤4% relaxed — DQG-Day-132 outage persists: **~0.10-0.15/5**
+  - (c) MSCI/S&P DJI accessibility — Aug-31 EFFECTIVE Day-13 formal-FAIL partial-vindication: **~0/5**
+  - (d) Foreign-flow 2+ consec net-BUY — Wk Sep 7-11 net-SELL Rp 2.7T aggregate, still FAILING: **~0.15/5**
+  - (e) R:R ≥2:1 — PGAS PASSES 2.05:1; MEDC/others FAIL: **~0.15/5**
+- Notable per-candidate blockers layered on top of gate:
+  - MEDC — R:R 1.86:1 marginally fails ≥2:1 gate
+  - BMRI — ex-div T-0 TODAY Rp 66 mechanical drop ~1.5%; catalyst-completion + downside tail
+  - TLKM — FADE-ON-BEAT-vs-EBITDA-BEAT MEDIUM 6th observation window; Samuel PT 3,300 Day-14 fade
+  - ANTM — LME nickel sub-$17K sector-halo softening Day-1; chase-fail persistence risk
+  - ICBP/INDF/ASII — Brent $107 Day-10 SPIKE COGS/margin drag deep-amplification
+  - BBCA/BBRI/BMRI/BBNI — banking under BI RDG T-1 binary + foreign outflow persists
+- Held positions: NONE (book fully de-risked Day 61 since Jul 6 KLBF hard-cut).
+- Cash: IDR 9,716,207,500 (100.00% of equity).
+- Weekly trades: 0/3 (Wk 22 Day 3 — 22nd consecutive zero-trade week candidate string intact through Wk 22 Day 3).
+- Decision: no-trade day. All candidates blocked at Layer-1 by crisis-track engagement gate. BMRI ex-div T-0 mechanical drop today (~1.5%); BI RDG + FOMC Sep 17 T-1 double-central-bank binary Thu = compressed volatility risk window Wed peak.
+- Dashboard: appended 9 SKIP decisions to dashboard/data.json decisions[].
+- Notification: Telegram send failed (proxy HTTP 403 CONNECT tunnel); stdout fallback used.
+- Data Quality Gate Day-132 outage persists (yfinance + GoAPI blocked 132 consecutive sessions since Apr 21); WebSearch multi-source override operational.
+- Broker reconciliation: portfolio pull confirms {equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500} — no discrepancy vs TRADE-LOG Active Positions.
+- Next re-evaluation: midday scan (11:30 WIB) mechanically vacuous (n=0 positions); EOD (15:15 WIB) daily summary.
