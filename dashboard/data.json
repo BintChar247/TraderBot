@@ -1655,6 +1655,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "session_note": "Wk 22 Day 2 (EOD) \u2014 IHSG Tue sesi I 6,484.92 (-0.76% -49.77 pts vs Mon reconciled 6,534.69); provisional full-day EOD ~6,483 (-0.80%) per Trading Economics multi-source cluster; sesi II full-day close PENDING Wed Sep 16 pre-market reconciliation per DQG-Day-131 sesi-II-lag 13th cumulative; portfolio 100% cash 9,716,207,500 IDR; 0 positions Day 60 zero-position streak; 22nd consecutive zero-trade week candidate continues; cum. alpha +12.24pp (+0.77pp EXPANSION vs Mon reconciled +11.47pp; note Mon +1.46pp provisional reduced to +0.10pp on reconciliation); alpha-expansion-continuation Day-4; Brent Day-9 $108 SPIKE deep-amplifier (Saudi pipeline unresolved); Newcastle coal Day-10 $147 SPIKE; IDR Day-16 sub-17,600 firming; CPO MYR 4,929 recovery Day-1; BMRI cum-div T-0 today, ex-div Wed T-1 mechanical drop tail-risk; BBRI -2.1% sesi I confirms Day-4 buy-flow-removal; BBNI -2.3% BMRI -2.0%; US 4\u21925 day losing streak extension; BI-RDG+FOMC Sep 17 T-2 double-central-bank binary; crisis-track gate 1.10-1.30/5 marginal restore; VIX Day-4 16.46 regime-shift monitor"
+    },
+    {
+      "date": "2026-09-16",
+      "day_label": "Day 108 (Wk 22 Day 3)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6501.35,
+      "ihsg_cumulative_pct": -14.84,
+      "alpha_pct": 12.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -27220,8 +27235,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 106,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 106 counting-trading-days Wk 22 Day 1)",
+    "trial_days_elapsed": 108,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 108 counting-trading-days Wk 22 Day 3)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -27230,8 +27245,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -15.77,
-    "cumulative_alpha_pct": 12.93,
+    "ihsg_cumulative_pct": -14.84,
+    "cumulative_alpha_pct": 12.0,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -27242,22 +27257,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-14",
+    "updated": "2026-09-16",
     "portfolio_value": 9716207500,
-    "alpha_pct": 12.93,
+    "alpha_pct": 12.0,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 12.93,
+    "cumulative_alpha_pp": 12.0,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 106,
-    "last_updated": "2026-09-14T15:15:00+07:00",
+    "day_number": 108,
+    "last_updated": "2026-09-16T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 106,
+    "days_in_trial": 108,
     "week_number": 22,
-    "day_label": "Day 106 (Wk 22 Day 1)"
+    "day_label": "Day 108 (Wk 22 Day 3)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY58-Wk22-Day1-OPEN-CRISIS-TRACK-GATE-ACTIVATED-1.05-1.25-of-5-partial-restore-BI-RDG-FOMC-Sep-17-T-3-double-central-bank-binary",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY61-Wk22-Day3-CRISIS-TRACK-GATE-ACTIVATED-0.95-1.15-of-5-marginal-erosion-BI-RDG-FOMC-Sep-17-T-1-double-central-bank-binary-IMMINENT-ALPHA-COMPRESSION-EPISODE-DAY-1",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -27267,36 +27282,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-10T00:12:04Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. Top ideas: BBCA (LOW-MED, score 7), BMRI (LOW-MED, score 6). 2 candidates scored >=6, both BLOCKED by IDR Stage 5 threshold piercing (Jul 9 close 18,103.90). Regime = DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY5 + IDR-STAGE-5-THRESHOLD-PIERCED. 100% cash Day 4 post-KLBF cut.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "2 candidates scored >=6, both BLOCKED by IDR Stage 5 crisis-track gate"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 - 5-session paired-inflection persists but IDR Stage 5 threshold piercing dominates"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 - paired-second on bank-cluster reversal, conditional on BBCA fill + IDR de-escalation"
-        },
-        {
-          "type": "macro",
-          "detail": "IDR Jul 9 close 18,103.90 = Stage 5 threshold pierced (>=18,050); crisis-track engagement gate ARMED"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-10T02:18:19Z",
       "routine": "market-open",
@@ -32133,6 +32118,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions; midday scan mechanically vacuous. All hard-cut/tighten/thesis steps skipped. Book fully de-risked Day 61; 100% cash."
+    },
+    {
+      "timestamp": "2026-09-16T08:21:09Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 22 Day 3: IDR 9.72B (0.00% today). Alpha -0.62pp Wed provisional (compression Day-1). Zero positions Day 61. Trades this week: 0/3. Tue reconciled 6,461.15 supersedes provisional; Wed sesi I +0.62% to 6,501.35 (BMRI ex-div T-0 absorbed). BI-RDG/Fed FOMC Thu T-0 double-binary DECISION DAY imminent.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 108 EOD snapshot committed; Tue Sep 15 reconciled close 6,461.15 supersedes provisional 6,483; Wed Sep 16 sesi I 6,501.35 provisional +0.62%; alpha compression episode Day-1 -0.53pp; RISK-STATE + dashboard updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -32146,8 +32143,8 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY60",
-    "regime_overlay": "IDR-Day-17-sub-17,750-partial-fade + BRENT-DAY-10-$107-SPIKE-SUSTAINED + NEWCASTLE-COAL-$147-DAY-10 + CPO-4,929-RECOVERY-Day-2 + US-6-DAY-LOSING-STREAK + US-10Y-5.04%-HIGHEST-SINCE-2007 + BMRI-EX-DIV-T-0-TODAY + BI-RDG+FOMC-Sep-17-T-1-double-binary + DQG-Day-132 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY61-Wk22-Day3-EOD",
+    "regime_overlay": "IDR-Day-17-sub-17,750-PARTIAL-FADE + BRENT-DAY-10-$107-SPIKE-SUSTAINED + NEWCASTLE-COAL-$147-DAY-11 + CPO-4,929-RECOVERY-Day-2 + US-6-DAY-LOSING-STREAK-Day-6 + US-10Y-5.04%-HIGHEST-SINCE-2007-Day-1 + BMRI-EX-DIV-T-0-TODAY-absorbed + BI-RDG+FOMC-Sep-17-T-1-double-binary-IMMINENT + DQG-Day-132 + CRISIS-TRACK-ENGAGEMENT-GATE-0.95-1.15-of-5-Wk22-Day3-marginal-erosion + ALPHA-COMPRESSION-EPISODE-DAY-1",
     "ihsg_close": 6461,
     "ihsg_close_date": "2026-09-15",
     "ihsg_close_change_pct": -1.13,
@@ -32226,7 +32223,7 @@
     "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
     "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-16T07:00:00+07:00",
+  "last_updated": "2026-09-16T15:20:52+07:00",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
