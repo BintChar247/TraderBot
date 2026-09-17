@@ -1670,6 +1670,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-17",
+      "day_label": "Day 109 (Wk 22 Day 4)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6463.61,
+      "ihsg_cumulative_pct": -15.34,
+      "alpha_pct": 12.5,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -27820,8 +27835,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 108,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 108 counting-trading-days Wk 22 Day 3)",
+    "trial_days_elapsed": 109,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 109 counting-trading-days Wk 22 Day 4)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -27857,7 +27872,7 @@
     "day_label": "Day 108 (Wk 22 Day 3)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY61-Wk22-Day3-CRISIS-TRACK-GATE-ACTIVATED-0.95-1.15-of-5-marginal-erosion-BI-RDG-FOMC-Sep-17-T-1-double-central-bank-binary-IMMINENT-ALPHA-COMPRESSION-EPISODE-DAY-1",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY62-Wk22-Day4-CRISIS-TRACK-GATE-ACTIVATED-0.95-1.10-of-5-post-FOMC-hawkish-hike-Day-1-BI-RDG-DECISION-TODAY-outcome-PENDING-Fri-pre-market-reconciliation-ALPHA-COMPRESSION-EPISODE-DAY-2",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -27867,36 +27882,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-13T00:13:26Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk13 D1 Mon: 50-ticker scan complete. 0 candidates >=6 (BBCA REMOVED from prior week list - paired-inflection thesis BROKEN Fri Rp132.8B top-sell vs Wed Rp201.8B net BUY). Top 4 by score all 5/10: BMRI/INDF/AKRA/TLKM (all blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED). IHSG 5,924 +0.20% Fri close; IDR 18,088 = 2-of-2 sustained >=18,050 = Stage 5 CONFIRMED. Book 100% cash Day 8 post-KLBF.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "REMOVED from candidate list - paired-inflection BROKEN Fri top-sell Rp 132.8B"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 5/10 top WATCH; blocked by IDR Stage 5"
-        },
-        {
-          "type": "regime",
-          "detail": "IDR Stage 5 CONFIRMED-HARD-ENGAGED per 2-of-2 sustained >=18,050 close Thu-Fri"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-13T02:18:29Z",
       "routine": "market-open",
@@ -32786,6 +32771,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions (book fully de-risked Day 62 since Jul 6 KLBF hard-cut). Midday scan mechanically vacuous \u2014 no positions to manage. Wk 22 Day 4 BI RDG DECISION DAY ~13:30 WIB."
+    },
+    {
+      "timestamp": "2026-09-17T08:19:05Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-09-17: IDR 9.716B (0.00%). IHSG Thu sesi I +0.42% (6,463.61 provisional); daily alpha -0.42pp. Wed reconciled 6,436.85 (-0.38%) superseded sesi-I provisional. 0 positions, 100% cash, 62 consecutive de-risked sessions. Wk 22 Day 4 \u2014 0/3 trades this week. Fed HIKED 25bp overnight; BI RDG decision TODAY 13:30 WIB outcome pending Fri reconciliation. ALPHA-COMPRESSION EPISODE Day-2.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 109 EOD snapshot committed; 62nd consecutive de-risked session; Wk 22 Day 4 continues 22nd consecutive zero-trade week candidate"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -32879,7 +32876,7 @@
     "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
     "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-17T09:15:00+07:00",
+  "last_updated": "2026-09-17T15:15:00+07:00",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",

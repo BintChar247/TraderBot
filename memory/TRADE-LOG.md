@@ -12585,3 +12585,96 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - Broker reconciliation: portfolio pull confirms {equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500} — no discrepancy vs TRADE-LOG Active Positions.
 - Environment check: BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING (per env template); TRADING_MODE=paper (hardcoded per scheduler prompt) — broker.sh works in paper mode without keys.
 - Next re-evaluation: midday scan (11:30 WIB) mechanically vacuous (n=0 positions); EOD (15:15 WIB) daily summary + Wk 22 Day 4 recap + BI RDG DECISION digestion.
+
+---
+
+### 2026-09-17 EOD (Day 109, Thu — Week 22 Day 4 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY62; WK-22-DAY-4-CONTINUES-0-of-3-BUY-slot-week-22nd-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE; IHSG-Wed-Sep-16-RECONCILED-FULL-DAY-CLOSE-6,436.85-(-0.38pct)-SUPERSEDES-sesi-I-provisional-6,501.35-(+0.62pct)-per-Detik+Berita-Moneter+Beritasatu-3-source-cluster-DQG-Day-133-sesi-II-lag-15th-cumulative-occurrence-resolved; IHSG-Thu-sesi-I-6,463.61-(+0.42pct-+26.76pt-vs-Wed-reconciled-6,436.85)-intraday-high-6,500.41-low-6,418.13-open-6,455.03-(+0.28pct)-per-Fortune+Infobanknews+RRI-3-source-cluster; IHSG-Thu-provisional-full-day-EOD-basis-~6,463-(+0.42pct)-per-sesi-I-cluster-final-sesi-II-full-day-close-PENDING-FRI-SEP-18-PRE-MARKET-RECONCILIATION-per-DQG-Day-133-sesi-II-lag-pattern-16th-cumulative-occurrence; FED-HIKED-25bp-OVERNIGHT-3.75-to-4.00pct-unanimous-decision-Warsh-sticky-inflation-commentary-Dow-minus-1.21pct-SP-minus-0.45pct-Nasdaq-minus-0.01pct; BI-RDG-DECISION-TODAY-first-under-Destry-scheduled-13:30-WIB-post-EOD-lag-outcome-pending-Fri-pre-market-reconciliation; BRENT-DAY-11-$105-108-SPIKE-sustained-Saudi-pipeline-unresolved; NEWCASTLE-COAL-$147-DAY-12-SPIKE-COAL-2-STRIKE-EXIT-still-binds; IDR-STAGE-5-DAY-18-sub-17,750-PARTIAL-FIRMING-17,707-(vs-Wed-17,630)-marginal-progress-not-clean-3-of-3; DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-14; MSCI-Aug-31-EFFECTIVE-ABSORPTION-Day-14; CPO-MYR-4,929-RECOVERY-DAY-3; BMRI-EX-DIV-Day-1-T+1-mechanical-Rp66-drop-absorbed-Wed; US-6-DAY-LOSING-STREAK-continues-Day-6-Fed-hike-day; US-10Y-5.008pct-DAY-2-highest-since-2007; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-50; BI-HOLD-DOVISH-ABSORBED-Day-53; Data-Quality-Gate-Day-133; VIX-16.46-broke-14-17-range-Day-6; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.95-1.10-of-5-Wk-22-Day-4-OPEN-post-FOMC-hawkish-hike-Day-1-3.90-4.05-of-5-gap-BINDING-WIDER; ALPHA-COMPRESSION-EPISODE-Day-2-IHSG-Thu-sesi-I-+0.42pct-provisional-rebound-on-zero-exposure-continues)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: +0.42% (Thu sesi I basis: +0.42% to 6,463.61 vs Wed reconciled close 6,436.85; provisional full-day EOD ~6,463 (+0.42%) per Fortune+Infobanknews+RRI 3-source cluster; sesi II full-day close PENDING Fri Sep 18 pre-market reconciliation per DQG-Day-133 sesi-II-lag pattern 16th cumulative occurrence)
+- Daily alpha: -0.42pp (Thu provisional basis) — zero exposure means portfolio does not participate in modest rebound; sesi II reconciliation Fri pre-market may adjust
+- Cash: IDR 9,716,207,500 (100.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 22 Day 4 — 22nd consecutive zero-trade week CANDIDATE)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(none — book fully de-risked Day 62 since Jul 6 KLBF hard-cut)_ | — | — | — | — | — |
+
+#### Broker Reconciliation
+
+- Broker portfolio pull: `{mode: paper, equity: 9716207500, cash: 9716207500, buying_power: 9716207500, positions: [], realised_pnl: -294172500, unrealised_pnl: 0}`
+- Broker positions pull: `{mode: paper, positions: [], count: 0}` — n=0 confirmed
+- TRADE-LOG Active Positions: [] — n=0 confirmed
+- No discrepancy at EOD filing. Broker ledger unchanged (no session trades). 62nd consecutive no-position session.
+
+#### Notes
+
+- **EOD Wk 22 Day 4 (THU) — 22ND CONSECUTIVE ZERO-TRADE WEEK CANDIDATE CONTINUES + BOOK FULLY DE-RISKED DAY 62 + IHSG THU PROVISIONAL +0.42% MODEST REBOUND POST-FED-HIKE = ALPHA COMPRESSION EPISODE DAY-2.** Wk 22 continues 0/3 BUY-slot week (22nd consecutive zero-trade week candidate continues Day 4). Book fully de-risked Day 62 continues. Zero equity market exposure. Market-open (09:15) filed 13 SKIP decisions per crisis-track engagement gate ACTIVATED (~0.95-1.10/5 Wk 22 Day 4 OPEN post-FOMC-hawkish-hike-Day-1; 3.90-4.05/5 gap BINDING WIDER); midday (11:30) scan n=0 mechanically vacuous; EOD proceeds per schedule.
+- **Wed Sep 16 RECONCILED FULL-DAY CLOSE 6,436.85 (-0.38%)** — supersedes Wed sesi-I provisional 6,501.35 (+0.62%). Reconciliation gap: -1.00pp (Wed reconciled -0.38% vs provisional +0.62%). Per Detik+Berita-Moneter+Beritasatu 3-source cluster. DQG-Day-132 sesi-II-lag 15th cumulative occurrence resolved. Wed intraday high 6,535.46 rebound faded into sesi II — energy leaders BYAN/AMMN/DSSA gains reversed on Fed-hike-eve positioning; BMRI ex-div Rp 66 mechanical drop layered onto broader sesi-II fade.
+- **IHSG Thu Sep 17 sesi I close 6,463.61 (+0.42% +26.76 pts vs Wed reconciled close 6,436.85)** — Open 6,455.03 (+0.28% vs Wed), touched sesi I high 6,500.41 rebound intraday, low 6,418.13. Full-day EOD PROVISIONAL ~6,463 (+0.42%) per Fortune+Infobanknews+RRI 3-source cluster. 394 gainers / 245 losers / 324 stagnant on sesi I. BMRI + BBRI supported sesi-I gains (Bloomberg Technoz). Sesi II full-day close PENDING Fri Sep 18 pre-market reconciliation per DQG-Day-133 sesi-II-lag pattern 16th cumulative occurrence.
+- **Fed FOMC Sep 17 HIKED 25bp overnight (unanimous 12-0 decision):** Fed funds target range raised to 3.75-4.00% from 3.50-3.75%. Chair Warsh sticky-inflation commentary; SEP dot-plot 16/18 see 1+ more hike. US-10Y 5.008% Day-2 highest since 2007. US Wed close: Dow -1.21% / S&P -0.45% / Nasdaq -0.01%. Confirmation of hawkish-hike scenario (previously priced ~50/50 vs hold).
+- **BI RDG DECISION today Thu Sep 17 T-0 first under Destry — outcome PENDING** — RDG scheduled 13:30 WIB (post-EOD filing timing lag); consensus hold 5.75% dovish-continuity vs +25bp IDR-defense hawkish-surprise binary; post-FOMC-hike overnight raises IDR-defense hawkish-surprise probability materially. Outcome pending Fri Sep 18 pre-market reconciliation.
+- **Cumulative alpha ~+12.50pp** (Thu ~6,463 provisional basis vs 7,634.44 Apr 19 baseline: IHSG cumulative -15.34%; portfolio cumulative -2.84%; net +12.50pp) vs Wed reconciled ~+12.47pp (Wed 6,436.85 reconciled close basis: IHSG -15.69%; alpha +12.85pp) = **-0.35pp COMPRESSION** via IHSG +0.42% Thu provisional rebound on zero exposure. Retrospective Wed reconciliation +0.85pp REVISION (Wed provisional -0.53pp compression flipped to +0.85pp expansion via reconciled -0.38pp vs provisional +0.62pp sesi-I basis). Wk 22 Day 4 net cumulative-alpha compression Day-2 continues.
+- **ALPHA-COMPRESSION EPISODE Day-2 (Thu):** Sesi I +0.42% Thu on zero exposure = -0.42pp daily alpha (Thu provisional). Post-Fed-hike hawkish scenario delivered modest rebound instead of expected defensive break — pre-BI RDG positioning ambiguous. If BI hikes to +25bp IDR-defense: Fri fade with rate-sensitive sectors under; if BI holds 5.75%: Fri IDR-defense-fail = amplifier binding, IDR breakout risk. Watch Fri Sep 18 open direction for BI-RDG outcome digestion.
+- **Retro-corrected cumulative expansion:** Wed reconciled -0.38% (not provisional +0.62%) — Wed provisional -0.53pp compression revised to +0.85pp expansion; Wk 21 Day 4-Wk 22 Day 4 cumulative expansion revises upward: prior +2.32pp reconciled → +3.70pp reconciled through Wed (Thu -0.42pp provisional → net +3.28pp Wk 21 Day 4-Wk 22 Day 4 cumulative expansion reconciled basis, Thu on provisional). Confirms zero-exposure defensive-track VALIDATED through binary-decision-day sequence.
+- **Brent Day-11 $105-108 SPIKE sustained:** Marginal ease Day-1 (Wed $107) reversed Day-11; Saudi pipeline attack situation unresolved sustains >$100 continues criterion (a) INSTANT-REGRESSION-RISK amplifier binding continues. Snap-back below $95 partial-relief pathway not triggered.
+- **Newcastle coal $147 Day-12 SPIKE:** Coal 2-strike EXIT still binds regardless.
+- **IDR Day-18 sub-17,750 PARTIAL FIRMING (17,707 vs Wed 17,630):** Marginal firming Day-18 — not clean-3-of-3 sustained sub-17,500 breakout; Brent Day-11 SPIKE deep-amplifier offsets. Post-FOMC-hike Fed hawkish transmission stabilizes IDR near 17,700 but not below 17,500 threshold.
+- **CPO MYR 4,929 recovery Day-3:** Recovery sustained Day-3 reduces AALI/LSIP fade re-arm intensity Day-3 (temporary offset).
+- **BMRI ex-div Day-1 T+1:** Mechanical Rp 66 drop absorbed Wed; Thu sesi I BMRI supported gains; front-run compression peak-window complete.
+- **BBRI post-buyback-expiry Day-6:** BBRI supported Thu sesi I gains within Big-4 complex; buy-flow-removal Day-5 continues.
+- **US-10Y 5.008% Day-2 signal-monitor:** Hawkish US-10Y persistence Day-2 post-FOMC-hike confirmed EM-outflow amplifier binding continues.
+- **US 6-day losing streak Day-6 Fed-hike-day:** Fed hike overnight fed into US session weakness Day-6; Asia transmission Thu sesi I absorbed via modest rebound (BMRI/BBRI supported).
+- **VIX regime-shift Day-6:** 16.46 broke 14-17 range persists Day-6; historically volatile Sep-Oct season; BI RDG decision-day binary volatility residual.
+- **Anak Krakatau DE-ESCALATION Day-11:** Fully faded aviation-shock secondary macro overlay; no portfolio exposure (100% cash).
+- **Crisis-track engagement gate scoring 0.95-1.10/5 (Wk 22 Day 4 OPEN post-FOMC-hawkish-hike-Day-1 marginal-erosion vs Wk 22 Day 3 0.95-1.15/5; 3.90-4.05/5 gap BINDING WIDER; 0% new-entries permitted).** No new-entries fired all day. All 13 candidates ≥6/10 pre-blocked at market-open.
+- **All state/regime bindings Thu updates:**
+  - IDR sub-17,750 Day-18 PARTIAL FIRMING 17,707 (vs Wed 17,630) — marginal firming not clean-3-of-3; Brent Day-11 SPIKE deep-amplifier offsets
+  - Foreign flow Thu sesi I PENDING Fri multi-source reconciliation for criterion (d) re-scoring
+  - MSCI-absorption Day-14 persistence continues
+  - CPO MYR 4,929 recovery Day-3 — sustained sector-halo fade-arm reduction
+  - Newcastle coal Day-12 $147 SPIKE (coal 2-strike EXIT still binds)
+  - Brent Day-11 $105-108 SPIKE sustained — criterion (a) regression binding sustained (>$100)
+  - LME nickel Day-8 monitoring
+  - Fed HIKED 25bp overnight — hawkish scenario confirmed
+  - US-10Y 5.008% Day-2 highest since 2007
+  - US-6-day losing streak Day-6 continues
+  - Destry Damayanti CONFIRMED BI Gov 2026-2031 DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish Day-14
+  - BI RDG DECISION Thu Sep 17 T-0 first under Destry — outcome PENDING Fri pre-market reconciliation
+  - Indonesia CPI Aug 3.19% YoY / core 2.92% HAWKISH INFLECTION digestion Day-14
+  - BMRI ex-div Day-1 T+1 mechanical Rp 66 drop absorbed Wed; Thu sesi I BMRI supported
+  - BBRI buyback expiry Sep 11 Day-6 post-expiry — Thu sesi I BBRI supported within Big-4
+  - Anak Krakatau DE-ESCALATION Day-11 airports fully faded
+  - VIX 16.46 broke 14-17 range Day-6 volatility-regime-shift signal-monitor
+- **Data Quality Gate Day 133 outage persists:** yfinance + GoAPI still blocked (133 consecutive sessions since Apr 21); WebSearch multi-source override operational; sesi II reconciliation for Thu PENDING Fri pre-market per DQG-Day-133 lag pattern (16th cumulative).
+- **Book fully de-risked Day 62 through Wk 22 Day 4 = 100% cash (IDR 9,716,207,500).** Zero equity market exposure Day 62. Crisis-track re-entry gate scoring 0.95-1.10/5 marginal-erosion. 3.90-4.05/5 gap still binding WIDER.
+- **Wk 22 Day 4 — 0/3 BUY-slot week — 22nd CONSECUTIVE ZERO-TRADE WEEK CANDIDATE STRING INTACT (through Wk 22 Day 4).** 79+ cumulative unused candidate-day slots trial-to-date. All multi-front bindings persist; BI RDG DECISION Thu 13:30 WIB post-EOD outcome pending Fri pre-market reconciliation.
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING (per env check); TRADING_MODE=paper (default) — broker.sh works in paper mode without keys (paper-mode ledger pull confirmed OK).
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (current Day 109, Wk 22 Day 4). Phase-to-date P&L -2.84% unchanged (62 consecutive sessions with 0.00% daily P&L). Drawdown -3.10% from peak deeply within -15% cap. Realised P&L -294,172,500 unchanged. Dividends received 10,380,000 (KLBF Jun 24). Net trial cash return -283,792,500 (-2.84%). Cumulative alpha ~+12.50pp (Thu provisional basis) vs Wed reconciled ~+12.85pp = **-0.35pp COMPRESSION** via IHSG +0.42% Thu provisional rebound on zero exposure.
+- **Notification path this run:** scripts/notify.sh EOD summary (Telegram TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; stdout fallback if proxy 403).
+- **Risk alerts:** NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json updated per STEP 5b (updated=2026-09-17; equity/peak/dd unchanged).
+- **Carry-over to Fri Sep 18 07:00 WIB pre-market (Wk 22 Day 5 — BI RDG outcome digestion + Wk 22 CLOSE):**
+  1. **Thu Sep 17 sesi II full-day close reconciliation** — sesi I 6,463.61 basis; provisional ~6,463 per 3-source cluster; final close PENDING Fri pre-market cluster (16th cumulative sesi-II-lag).
+  2. **BI RDG DECISION Thu Sep 17 T-0 outcome digestion** — first under Destry; hold 5.75% dovish-continuity vs +25bp IDR-defense hawkish-surprise; post-FOMC-hike raises hawkish-surprise probability.
+  3. IHSG Fri sesi I direction post-BI RDG outcome — dovish-continuity hold = rebound continuation; hawkish +25bp = IDR-defense fade with rate-sensitive sectors under pressure.
+  4. US Thu close direction post-Fed-hike Day-1 — 6-day losing streak Day-7 extension vs relief-rebound.
+  5. Iran-Saudi Brent Day-12 sustain ≥$100 vs snap-back binary — Saudi pipeline unresolved = sustained.
+  6. IDR Fri sesi I sub-17,500 Day-19 continuation or resumption — post-BI RDG outcome material for criterion (a).
+  7. Newcastle coal signal-monitor Day-13 — coal-2-strike EXIT rule binds regardless.
+  8. AALI/LSIP direction on CPO MYR 4,929 recovery Day-4 — sector-halo re-arm binary.
+  9. ASII Fri direction on IDR 2T buyback absorption Day-15.
+  10. BBRI Fri direction post-buyback-expiry Day-7 buy-flow-removal Day-6.
+  11. BMRI Fri direction ex-div Day-2 T+2.
+  12. TLKM Fri direction on Samuel PT 3,300 Day-16 fade + EGM Sep 30 T-13 fiber-spin-off news-flow.
+  13. Foreign flow Thu full-day reconciliation for criterion (d) re-scoring.
+  14. **Alpha compression episode Day-2 monitoring:** Thu provisional -0.42pp compression Day-2 (Wed reconciled +0.85pp revision); watch Fri direction for compression Day-3 continuation vs BI-RDG-outcome-driven expansion re-episode.
+  15. **VIX regime-shift signal-monitor Day-7** — 16.46 broke 14-17 range; historically volatile Sep-Oct season; BI-RDG-outcome residual volatility.
+  16. **US-10Y 5.008% Day-3 signal-monitor** — hawkish US-10Y re-arm binding intensifies post-Fed-hike.
+  17. **Wk 22 Day 5 — WEEK CLOSE + WEEKLY REVIEW ROUTINE 16:00 WIB** — 22nd consecutive zero-trade week CONFIRMS if Wk 22 fires no trades Fri; weekly-review routine appends WEEKLY-REVIEW.md + PATTERNS.md + CONVICTION-LOG.md update as applicable.
+
+---
