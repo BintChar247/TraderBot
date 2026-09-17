@@ -27232,6 +27232,591 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent Day-11 $105-108 SPIKE upstream tailwind deep-amplification; MNC BUY tip carryover.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-11 $105-108 SPIKE upstream tailwind deep-amplification; MNC BUY tip carryover."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.86:1 marginally fails \u22652:1 gate + crisis-track blocked."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED (Wk 22 Day 4 OPEN ~0.95-1.10/5; 3.90-4.05/5 gap BINDING WIDER). R:R 1.86:1 marginally fails \u22652:1 gate.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent Day-11 gas-spread tailwind deep-amplification; R:R 2.05:1 PASSES gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-11 gas-spread tailwind deep-amplification; R:R 2.05:1 PASSES gate."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED overrides R:R gate PASS."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 R:R 2.05:1 passes but crisis-track engagement gate ACTIVATED (Wk 22 Day 4 OPEN ~0.95-1.10/5; 3.90-4.05/5 gap BINDING WIDER).",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 stable defensive; BI RDG DECISION today; foreign outflow pressure post-FOMC hike.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 stable defensive; BI RDG DECISION today; foreign outflow pressure post-FOMC hike."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Banking under BI RDG binary + FOMC-hike-Day-1 hawkish overhang + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Banking sector under BI RDG DECISION-DAY-TODAY binary + FOMC-hike-Day-1 EM-outflow amplifier.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Post-buyback-expiry Day-6; Wed rebound partial; BI RDG binary today; strike-1 sector-watch binding.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Post-buyback-expiry Day-6; Wed rebound partial; BI RDG binary today; strike-1 sector-watch binding."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Post-buyback-expiry Day-6 buy-flow removal + strike-1 sector-watch + crisis-track."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED + strike-1 sector-watch binding. Post-buyback-expiry Day-6 structural bid floor removal.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Ex-div Day-1 T+1; mechanical Rp 66 absorbed Wed; BI RDG binary today; catalyst-completion complete.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Day-1 T+1; mechanical Rp 66 absorbed Wed; BI RDG binary today; catalyst-completion complete."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Ex-div Day-1 T+1 catalyst-completion + BI RDG binary + crisis-track."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Ex-div catalyst-completion complete; watch flow reversal post-mechanical drop.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 stable defensive; BI RDG binary today.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 stable defensive; BI RDG binary today."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Banking under BI RDG binary + FOMC-hike-Day-1 hawkish overhang + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Banking sector under BI RDG DECISION-DAY-TODAY binary.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PTBA",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Analyst top-pick (Korea Investment); Newcastle Day-11 SPIKE.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Analyst top-pick (Korea Investment); Newcastle Day-11 SPIKE."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Coal 2-strike SECTOR EXIT binds regardless (May 2026 hard-cut)."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Coal 2-strike SECTOR EXIT binds regardless of Newcastle Day-11 SPIKE tailwind. Crisis-track also ACTIVATED.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Wk foreign-buy mining sector pref; LME sub-$17K Day-8 sector-halo softening.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk foreign-buy mining sector pref; LME sub-$17K Day-8 sector-halo softening."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "LME nickel sub-$17K Day-8 sector-halo softening + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. LME nickel sub-$17K Day-8 sector-halo softening reduces conviction.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples defensive; Brent SPIKE margin drag Day-11.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Consumer staples defensive; Brent SPIKE margin drag Day-11."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Brent-SPIKE Day-11 COGS drag + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Brent $105-108 Day-11 SPIKE COGS margin drag deep-amplification.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core beat carryover; Brent SPIKE Day-11 COGS pressure.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core beat carryover; Brent SPIKE Day-11 COGS pressure."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Brent-SPIKE Day-11 COGS drag + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Brent $105-108 Day-11 SPIKE COGS margin drag deep-amplification.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CPO recovery Day-3 sector-tailwind offset; Brent SPIKE Day-11 COGS drag.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "CPO recovery Day-3 sector-tailwind offset; Brent SPIKE Day-11 COGS drag."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Brent-SPIKE Day-11 COGS drag + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Brent $105-108 Day-11 SPIKE COGS drag partially offset by CPO recovery Day-3.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Rebound Day-2 +4.18% Mon; EGM Sep 30 T-13 fiber-spin-off; FADE-ON-BEAT MEDIUM 6th obs.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Rebound Day-2 +4.18% Mon; EGM Sep 30 T-13 fiber-spin-off; FADE-ON-BEAT MEDIUM 6th obs."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "FADE-ON-BEAT MEDIUM 6th obs + Samuel PT 3,300 Day-16 fade + Mon rebound Day-2 chase risk."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. TLKM-FADE-ON-BEAT-vs-EBITDA-BEAT MEDIUM 6th observation window; Mon +4.18% rebound Day-2 elevated chase risk.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-17",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IDR 2T buyback Day-12 absorption; Brent COGS drag; commodity-halo exposure.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR 2T buyback Day-12 absorption; Brent COGS drag; commodity-halo exposure."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED \u2014 crisis-track ACTIVATED ~0.95-1.10/5; FOMC hawkish hike overnight Day-1 (+25bp to 3.75-4.00%; SEP 16/18 see 1+ more); BI RDG DECISION today first-under-Destry; US-10Y 5.008% Day-2; Brent Day-11 $105-108 SPIKE; IDR Day-18 sub-17,750 partial-firming"
+        },
+        {
+          "type": "risk",
+          "label": "Brent-SPIKE Day-11 COGS drag + IDR import-COGS + crisis-track ACTIVATED."
+        },
+        {
+          "type": "sizing",
+          "label": "0% (blocked by crisis-track gate)"
+        }
+      ],
+      "reasoning": "SKIP \u2014 Crisis-track engagement gate ACTIVATED. Brent $105-108 Day-11 SPIKE COGS drag + IDR import-COGS. Score 6/10 candidate pre-blocked.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -27282,12 +27867,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-10T04:35:32Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. Book 100% cash (0 positions) Day 5 post-KLBF hard-cut; IDR-STAGE-5-THRESHOLD-PIERCED regime binding."
-    },
     {
       "timestamp": "2026-07-10T08:19:01Z",
       "routine": "daily-summary",
@@ -32136,6 +32715,83 @@
       ],
       "commit_hash": "e095c3e",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-09-17T02:18:13Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 13 candidates >=6/10 (MEDC/PGAS[7], BBCA/BBRI/BMRI/BBNI/PTBA/ANTM/UNVR/ICBP/INDF/TLKM/ASII[6]) all PRE-BLOCKED by Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 4 OPEN ~0.95-1.10/5; 3.90-4.05/5 gap BINDING WIDER post-FOMC-hawkish-hike-Day-1). BI RDG DECISION today ~13:30 WIB (first under Destry). 22nd consecutive zero-trade week candidate.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track gate ACTIVATED + R:R 1.86:1 marginally fails 2:1"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track gate ACTIVATED (R:R 2.05:1 passes)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate + BI RDG binary today"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate + strike-1 + post-buyback-expiry Day-6"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate + ex-div Day-1 T+1 catalyst-completion"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track gate + BI RDG binary today"
+        },
+        {
+          "type": "skip",
+          "ticker": "PTBA",
+          "detail": "coal 2-strike SECTOR EXIT + crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "crisis-track gate + LME sub-$17K Day-8 sector-halo softening"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "crisis-track gate + Brent Day-11 COGS drag"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate + Brent Day-11 COGS drag"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track gate + Brent Day-11 COGS drag"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track gate + FADE-ON-BEAT 6th obs + Mon rebound chase-risk"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "crisis-track gate + Brent Day-11 COGS + IDR import-COGS"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram send failed (proxy HTTP 403); stdout fallback used"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -32229,7 +32885,7 @@
     "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
     "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-17T00:10:11.400382Z",
+  "last_updated": "2026-09-17T09:15:00+07:00",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",

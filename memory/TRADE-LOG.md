@@ -12552,3 +12552,36 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   16. **VIX regime-shift signal-monitor** Day-5 — 16.46 broke 14-17 range; historically volatile Sep-Oct season; BI/Fed Thu binary accelerates volatility premium.
   17. **US-10Y 5.04% HIGHEST SINCE 2007 Day-2 signal-monitor** — hawkish US-10Y re-arm binding intensifies binary risk approaching Fed FOMC T-0.
   18. **Wk 22 Day 4 — BI/Fed DECISION DAY** — 22nd consecutive zero-trade week candidate continues if Wk 22 fires no trades; multi-front bindings persist through binary decision.
+
+---
+
+### 2026-09-17 09:15 WIB — NO TRADES (market-open)
+
+- Candidates evaluated: 13 candidates ≥6/10 from RESEARCH-LOG.md — MEDC(7), PGAS(7), BBCA(6), BBRI(6), BMRI(6), BBNI(6), PTBA(6), ANTM(6), UNVR(6), ICBP(6), INDF(6), TLKM(6), ASII(6).
+- Gate-check outcome: ALL 13 PRE-BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Wk 22 Day 4 OPEN ~0.95-1.10/5 post-FOMC-hawkish-hike-Day-1; 3.90-4.05/5 gap BINDING WIDER; 0% new-entries permitted).
+  - (a) IDR sub-17,750 3-of-3 — Day-18 partial-firming 17,707 (vs Wed 17,630) marginal progress not clean-3-of-3 sustained: **~0.60-0.70/5**
+  - (b) Cluster ≥3-source ≤4% relaxed — DQG-Day-133 outage persists: **~0.10-0.15/5**
+  - (c) MSCI/S&P DJI accessibility — Aug-31 EFFECTIVE Day-14 formal-FAIL partial-vindication + Fed-hike EM-outflow REGRESSION-risk: **~0/5 to -0.05/5**
+  - (d) Foreign-flow 2+ consec net-BUY — Wk Sep 7-11 net-SELL Rp 2.7T aggregate + Fed HIKE amplifier: **~0.10/5**
+  - (e) R:R ≥2:1 — PGAS PASSES 2.05:1; MEDC 1.86:1 FAILS; others untestable/FAIL: **~0.15/5**
+- Notable per-candidate blockers layered on top of gate:
+  - MEDC — R:R 1.86:1 marginally fails ≥2:1 gate; Brent Day-11 SPIKE upstream tailwind but crisis-track binds
+  - PGAS — R:R 2.05:1 PASSES but crisis-track engagement gate ACTIVATED
+  - BBCA/BBRI/BMRI/BBNI — banking under BI RDG DECISION-DAY-TODAY binary + FOMC-hike-Day-1 hawkish overhang
+  - BMRI — ex-div Day-1 T+1 mechanical Rp 66 absorbed Wed; catalyst-completion complete
+  - BBRI — post-buyback-expiry Day-6; strike-1 sector-watch binding
+  - PTBA — coal 2-strike SECTOR EXIT still binds regardless of Newcastle Day-11 SPIKE
+  - ANTM — LME nickel sub-$17K Day-8 sector-halo softening
+  - UNVR/ICBP/INDF/ASII — Brent Day-11 $105-108 SPIKE COGS/margin drag deep-amplification
+  - TLKM — FADE-ON-BEAT-vs-EBITDA-BEAT MEDIUM 6th obs; Samuel PT 3,300 Day-16 fade; +4.18% Mon rebound Day-2 elevated chase risk
+- Held positions: NONE (book fully de-risked Day 62 since Jul 6 KLBF hard-cut).
+- Cash: IDR 9,716,207,500 (100.00% of equity).
+- Weekly trades: 0/3 (Wk 22 Day 4 — 22nd consecutive zero-trade week candidate string intact through Wk 22 Day 4).
+- Decision: no-trade day. All 13 candidates blocked at Layer-1 by crisis-track engagement gate. BI RDG DECISION TODAY ~13:30 WIB (first RDG under Destry): hold 5.75% (dovish continuity consensus) vs +25bp hawkish surprise IDR-defense binary; post-decision volatility PEAK. FOMC hawkish hike Day-1 transmission (Fed 25bp to 3.75-4.00% overnight; SEP dot-plot 16/18 see 1+ more hike; US-10Y 5.008% Day-2 highest since 2007).
+- Overnight context: Fed HIKED 25bp overnight (unanimous decision; Warsh sticky-inflation commentary); Dow -1.21% / S&P -0.45% / Nasdaq -0.01%; IHSG Wed reconciled full-day close 6,436.85 (-0.38%) SUPERSEDES sesi-I provisional 6,501.35 (+0.62%) per Detik+Berita-Moneter+Beritasatu 3-source cluster; DQG-Day-133 sesi-II-lag pattern 15th cumulative occurrence resolved.
+- Dashboard: appended 13 SKIP decisions to dashboard/data.json decisions[].
+- Notification: `bash scripts/notify.sh send` per scheduler prompt (no-trade branch).
+- Data Quality Gate Day-133 outage persists (yfinance + GoAPI blocked 133 consecutive sessions since Apr 21); WebSearch multi-source override operational.
+- Broker reconciliation: portfolio pull confirms {equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500} — no discrepancy vs TRADE-LOG Active Positions.
+- Environment check: BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING (per env template); TRADING_MODE=paper (hardcoded per scheduler prompt) — broker.sh works in paper mode without keys.
+- Next re-evaluation: midday scan (11:30 WIB) mechanically vacuous (n=0 positions); EOD (15:15 WIB) daily summary + Wk 22 Day 4 recap + BI RDG DECISION digestion.
