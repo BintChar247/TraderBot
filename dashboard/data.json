@@ -27868,18 +27868,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-10T08:19:01Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Fri Jul 10: IDR 9.72B flat (+0.00%). IHSG sesi I +0.56% \u2192 alpha \u22120.56%. Cum alpha +19.63%. 100% cash Day 4 post-KLBF; 0/6 positions; Wk 12 CLOSED 0/3 BUYs (10th consec 0/3-week formalises at 16:00 WIB weekly-review). IDR Stage 5 threshold pierced persists.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 60 EOD snapshot committed; Wk 12 CLOSED"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-13T00:13:26Z",
       "routine": "pre-market",
       "status": "warning",
@@ -32792,6 +32780,12 @@
           "detail": "Telegram send failed (proxy HTTP 403); stdout fallback used"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-17T04:35:39Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "n=0 positions (book fully de-risked Day 62 since Jul 6 KLBF hard-cut). Midday scan mechanically vacuous \u2014 no positions to manage. Wk 22 Day 4 BI RDG DECISION DAY ~13:30 WIB."
     }
   ],
   "exposure": {
