@@ -27283,36 +27283,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-10T02:18:19Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Fri Jul 10 (Wk 12 Day 5). BBCA + BMRI both SKIP: IDR Stage 5 threshold pierced (Jul 9 close 18,103.90 = 153bps above 17,950) crisis-track engagement gate ARMED + Data Quality Gate Day 75 outage (broker.sh quote ERROR on un-held tickers). Book 100% cash IDR 9.72B. 10th consecutive 0/3 BUY-slot week formalising at 16:00 WIB weekly-review.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "IDR Stage 5 threshold pierced + Data Quality Gate Day 75 outage"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "paired-second VOID by BBCA no-fill + IDR Stage 5 gate + BMRI Rp 178.5B net-sell divergence"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR Jul 9 close 18,103.90 = Stage 5 threshold PIERCED (crisis-track engagement gate ARMED)"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 75 outage \u2014 yfinance + GoAPI 403-blocked"
-        },
-        {
-          "type": "warning",
-          "detail": "10th consecutive 0/3 BUY-slot week formalises at 16:00 WIB weekly-review"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-10T04:35:32Z",
       "routine": "midday",
       "status": "success",
@@ -32130,6 +32100,42 @@
           "detail": "Day 108 EOD snapshot committed; Tue Sep 15 reconciled close 6,461.15 supersedes provisional 6,483; Wed Sep 16 sesi I 6,501.35 provisional +0.62%; alpha compression episode Day-1 -0.53pp; RISK-STATE + dashboard updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-17T00:10:23Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Thu Sep 17 Day 109 Wk 22 Day 4 BI-RDG DECISION DAY (first under Destry). 50-ticker scan complete; 13 candidates scored >=6 (MEDC 7, PGAS 7, 11 others 6). All pre-blocked crisis-track gate ACTIVATED (~1.0/5; 3.9-4.05/5 gap BINDING WIDER post-FOMC-hawkish-hike overnight +25bp to 3.75-4.00%). IHSG Wed reconciled 6,436.85 (-0.38%) supersedes provisional +0.62%. US-10Y 5.008% highest since 2007. Book 100% cash IDR 9.72B Day 62.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; DQG-Day-133 outage persists"
+        },
+        {
+          "type": "research",
+          "detail": "13 candidates scored >=6; all pre-blocked crisis-track gate ACTIVATED"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 7/10 - Brent Day-11 $105-108 SPIKE upstream tailwind DEEP-AMPLIFICATION"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 - Brent Day-11 gas-spread tailwind; R:R 2.05:1 PASS"
+        },
+        {
+          "type": "macro",
+          "detail": "Fed HIKE 25bp to 3.75-4.00% overnight; Warsh sticky-inflation; US-10Y 5.008% Day-2"
+        },
+        {
+          "type": "macro",
+          "detail": "BI RDG DECISION today ~13:30 WIB first under Destry: hold 5.75% consensus vs +25bp hawkish binary"
+        }
+      ],
+      "commit_hash": "e095c3e",
+      "commit_message": ""
     }
   ],
   "exposure": {
@@ -32223,7 +32229,7 @@
     "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
     "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-16T15:20:52+07:00",
+  "last_updated": "2026-09-17T00:10:11.400382Z",
   "market": {
     "ihsg_close": 6589.33,
     "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
@@ -32241,62 +32247,82 @@
     "as_of": "2026-09-11"
   },
   "pre_market": {
-    "date": "2026-09-16",
-    "day_label": "Day 108 \u2014 Wk 22 Day 3",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY60",
-    "regime_reason": "IDR Day-17 sub-17,750 momentum PARTIAL fade (17,600\u219217,630); Brent $107.49 Day-10 SPIKE sustained (Iran-Hormuz + Saudi Red Sea pipeline); Newcastle coal $146.75 Day-10; US 6-day losing streak (S&P -0.45% Nasdaq -0.78% Dow -0.63% Tue Sep 15); US 10Y 5.04% highest since 2007; IHSG Tue reconciled 6,461 (-1.13%); BMRI ex-div T-0 today Rp 66 mechanical drop; BI RDG + FOMC Sep 17 T-1 double-central-bank binary tonight WIB",
-    "position_sizing_note": "NONE \u2014 crisis-track engagement gate ACTIVATED continues 0% new-entries. 3.85-4.05/5 gap BINDING WIDER.",
-    "candidates_scored_ge6_count": 9,
+    "date": "2026-09-17",
+    "day_label": "Day 109 \u2014 Wk 22 Day 4 \u2014 BI-RDG DECISION DAY",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY62 + FOMC-HAWKISH-HIKE-CONFIRMED-OVERNIGHT-Day-1 + BI-RDG-DECISION-DAY-TODAY",
+    "regime_reason": "Fed HIKED 25bp overnight to 3.75-4.00% (unanimous, 1st hike since 2023); Warsh 'sticky inflation'; 16/18 dot-plot see 1+ more hike; US-10Y 5.008% Day-2 highest since 2007; Dow -1.21% S&P -0.45%; IHSG Wed sesi II reversed to 6,436.85 (-0.38%) supersedes sesi I 6,501.35 (+0.62%) provisional; IDR 17,707 Day-18 sub-17,750 partial-firming; Brent $105-108 Day-11 SPIKE cooling marginal (Saudi East-West pipeline shut); Newcastle coal $144-147 Day-11 SPIKE; CPO MYR 4,896 recovery Day-3; BI RDG DECISION today (~13:30 WIB) first under Destry: hold 5.75% consensus vs +25bp hawkish IDR-defense binary; DQG-Day-133 outage persists",
+    "position_sizing_note": "NONE \u2014 crisis-track engagement gate ACTIVATED continues 0% new-entries. Wk 22 Day 4 OPEN ~0.95-1.10/5; 3.90-4.05/5 gap BINDING WIDER post-FOMC-hawkish-hike-confirmed.",
+    "candidates_scored_ge6_count": 13,
     "candidates_scored_ge6": [
       {
         "ticker": "MEDC",
         "score": 7,
-        "catalyst": "Brent $107 Day-10 SPIKE upstream oil-linked tailwind + MNC Sekuritas BUY Tue"
+        "catalyst": "Brent Day-11 $105-108 SPIKE upstream oil-linked tailwind DEEP-AMPLIFICATION"
       },
       {
         "ticker": "PGAS",
         "score": 7,
-        "catalyst": "Brent $107 Day-10 gas-spread tailwind deep-amplification; R:R 2.05:1 PASS"
+        "catalyst": "Brent Day-11 gas-spread tailwind deep-amplification; R:R 2.05:1 PASS"
       },
       {
         "ticker": "BBCA",
         "score": 6,
-        "catalyst": "Big-4 stable defensive; blocked crisis-track"
+        "catalyst": "Big-4 defensive; BI RDG binary today; blocked crisis-track"
+      },
+      {
+        "ticker": "BBRI",
+        "score": 6,
+        "catalyst": "Post-buyback-expiry Day-6; strike-1 sector-watch binding; BI RDG binary"
       },
       {
         "ticker": "BMRI",
         "score": 6,
-        "catalyst": "Ex-div T-0 today Rp 66 mechanical drop; downgraded 8\u21926 post-catalyst"
+        "catalyst": "Ex-div Day-1 T+1; mechanical Rp 66 absorbed Wed; BI RDG binary"
+      },
+      {
+        "ticker": "BBNI",
+        "score": 6,
+        "catalyst": "Big-4 defensive; BI RDG binary today"
+      },
+      {
+        "ticker": "PTBA",
+        "score": 6,
+        "catalyst": "Analyst top-pick; Newcastle Day-11 SPIKE; but coal 2-strike sector-EXIT binds"
       },
       {
         "ticker": "ANTM",
         "score": 6,
-        "catalyst": "Wk foreign-buy mining sector pref; LME sub-$17K headwind Day-1"
+        "catalyst": "Wk foreign-buy mining pref; LME sub-$17K Day-8 sector-halo softening"
+      },
+      {
+        "ticker": "UNVR",
+        "score": 6,
+        "catalyst": "Consumer staples defensive; Brent SPIKE Day-11 margin drag"
       },
       {
         "ticker": "ICBP",
         "score": 6,
-        "catalyst": "Q2 core +50.6% beat; Brent SPIKE margin drag Day-10"
+        "catalyst": "Q2 core beat carryover; Brent SPIKE Day-11 COGS drag"
       },
       {
         "ticker": "INDF",
         "score": 6,
-        "catalyst": "CPO recovery Day-2; Brent margin overhang"
+        "catalyst": "CPO recovery Day-3 offset; Brent SPIKE Day-11 COGS drag"
       },
       {
         "ticker": "TLKM",
         "score": 6,
-        "catalyst": "Rebound Day-2 +4.18% Mon; FADE-ON-BEAT MEDIUM 6th obs"
+        "catalyst": "Wed +4.18% rebound Day-2; EGM Sep 30 T-13; FADE-ON-BEAT 6th obs"
       },
       {
         "ticker": "ASII",
         "score": 6,
-        "catalyst": "IDR 2T buyback Day-11 absorption; Brent COGS drag"
+        "catalyst": "IDR 2T buyback Day-12; Brent SPIKE Day-11 COGS drag"
       }
     ],
-    "re_entry_gate_score": 1.05,
+    "re_entry_gate_score": 1.02,
     "re_entry_gate_max": 5,
-    "re_entry_gate_delta_from_prev": -0.15,
-    "notes": "22nd consecutive zero-trade week candidate continues Day 3. 61st consecutive no-position session. Book fully de-risked 100% cash IDR 9,716,207,500. All 9 candidates \u22656/10 pre-blocked at market-open. FOMC Thu 01:00 WIB + BI RDG Thu Sep 17 double-central-bank binary tonight; BMRI ex-div T-0 mechanical Rp 66 today; DQG-Day-132 outage persists."
+    "re_entry_gate_delta_from_prev": -0.03,
+    "notes": "22nd consecutive zero-trade week candidate continues Day 4 (BI-RDG DECISION DAY). 62nd consecutive no-position session. Book fully de-risked 100% cash IDR 9,716,207,500. All 13 candidates \u22656/10 pre-blocked at market-open. Fed HIKED overnight (hawkish surprise, 1st since 2023); Warsh sticky-inflation commentary; US-10Y 5.008% Day-2 highest since 2007. BI RDG today ~13:30 WIB first under Destry \u2014 hold vs +25bp binary. DQG-Day-133 outage persists."
   }
 }
