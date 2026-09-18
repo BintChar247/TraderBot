@@ -28468,18 +28468,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-13T08:19:07Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk13 D1: IDR 9.716B flat (0.00%). Alpha \u22120.21% vs IHSG +0.21%. 0 positions, 100% cash. Trades this wk: 0/3. IDR Stage 5 crisis-track ACTIVATED persists; Data Quality Gate Day 76 outage.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 61 EOD snapshot committed; RISK-STATE + dashboard updated; no positions to mark; IHSG anchor 5,930.83 sesi I 3-source"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-14T00:11:01Z",
       "routine": "pre-market",
       "status": "warning",
@@ -33437,6 +33425,12 @@
           "detail": "Telegram HTTP 403 CONNECT tunnel failed; stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-18T04:35:53Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions (100% cash Day 62). No cuts, no stops to tighten."
     }
   ],
   "exposure": {
