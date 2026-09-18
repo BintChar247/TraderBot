@@ -27883,42 +27883,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-13T02:18:29Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. IDR Stage 5 CONFIRMED-HARD-ENGAGED (Fri Jul 10 close 18,087.80 = 2nd consecutive \u226518,050 sustained close) = crisis-track engagement gate ACTIVATED = 0% new entries. Top-scored watchlist tickers all 5/10 (BMRI/INDF/AKRA/TLKM); none clear \u22656 deep-dive threshold. BBCA paired-inflection thesis BROKEN Fri (top foreign net-sell Rp 132.8B, flipped from Wed net-BUY Rp 201.8B in 2 sessions). Book 100% cash IDR 9,716,207,500. 11th consecutive 0/3 BUY-slot week trajectory starts.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "5/10 <6 threshold + IDR Stage 5 crisis-track ACTIVATED"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 76 outage \u2014 broker.sh quote ERROR"
-        },
-        {
-          "type": "warning",
-          "detail": "BBCA paired-inflection thesis BROKEN Fri Jul 10"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-13T04:36:05Z",
       "routine": "midday",
       "status": "success",
@@ -32781,6 +32745,36 @@
         {
           "type": "research",
           "detail": "Day 109 EOD snapshot committed; 62nd consecutive de-risked session; Wk 22 Day 4 continues 22nd consecutive zero-trade week candidate"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-18T00:10:14Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 22 Day 5 CLOSE + Weekly-Review-Day. 50-ticker scan complete. 13 candidates \u22656/10 all pre-blocked by crisis-track engagement gate ACTIVATED (~1.05-1.25/5; 3.85-4.00/5 gap binding WIDER). IHSG Thu Sep 17 +0.40% to 6,462.43 snapped 6-day losing streak post-Fed-hike-Day-2 US-rebound. Brent cooling Day-1 to 05.87 (Saudi pipeline restore); IDR Day-19 sub-17,750 firming; DQG Day-134. BI RDG Sep-22-23 T-3 next-week (Sep-17 was FOMC only, calendar correction).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan complete"
+        },
+        {
+          "type": "research",
+          "detail": "13 candidates scored \u22656, all pre-blocked by crisis-track engagement gate"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 7/10 \u2014 Brent Day-1 cooling upstream tailwind amplification-attenuated (crisis-track blocked)"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 7/10 \u2014 Brent Day-1 cooling gas-spread tailwind attenuated; R:R 2.05:1 PASS but DQG cluster FAIL + crisis-track blocked"
+        },
+        {
+          "type": "research",
+          "detail": "HOLD \u2014 63rd consecutive no-position session; 22nd consecutive zero-trade week CANDIDATE continues Day 5"
         }
       ]
     }
