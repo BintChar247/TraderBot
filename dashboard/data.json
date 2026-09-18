@@ -1685,6 +1685,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-18",
+      "day_label": "Day 110 (Wk 22 Day 5 CLOSE)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6439.74,
+      "ihsg_cumulative_pct": -15.65,
+      "alpha_pct": 12.81,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -28420,8 +28435,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 109,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 109 counting-trading-days Wk 22 Day 4)",
+    "trial_days_elapsed": 110,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 110 counting-trading-days Wk 22 Day 5 CLOSE)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -28430,8 +28445,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -14.84,
-    "cumulative_alpha_pct": 12.0,
+    "ihsg_cumulative_pct": -15.65,
+    "cumulative_alpha_pct": 12.81,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -28442,22 +28457,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-16",
+    "updated": "2026-09-18",
     "portfolio_value": 9716207500,
-    "alpha_pct": 12.0,
+    "alpha_pct": 12.81,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 12.0,
+    "cumulative_alpha_pp": 12.81,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 108,
-    "last_updated": "2026-09-16T15:15:00+07:00",
+    "day_number": 110,
+    "last_updated": "2026-09-18T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 108,
+    "days_in_trial": 110,
     "week_number": 22,
-    "day_label": "Day 108 (Wk 22 Day 3)"
+    "day_label": "Day 110 (Wk 22 Day 5 CLOSE)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY62-Wk22-Day4-CRISIS-TRACK-GATE-ACTIVATED-0.95-1.10-of-5-post-FOMC-hawkish-hike-Day-1-BI-RDG-DECISION-TODAY-outcome-PENDING-Fri-pre-market-reconciliation-ALPHA-COMPRESSION-EPISODE-DAY-2",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY63-Wk22-CLOSE-22ND-CONSECUTIVE-ZERO-TRADE-WEEK-CONFIRMED-CRISIS-TRACK-GATE-ACTIVATED-1.05-1.25-of-5-post-FOMC-hawkish-hike-Day-2-US-rebound-partial-relief-BI-RDG-SEP-22-23-T-2-NEXT-WEEK-binary-CALENDAR-CORRECTION-ALPHA-COMPRESSION-EPISODE-DAY-3-FLIPS-TO-PLUS-0.35pp-EXPANSION",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -28467,41 +28482,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-14T00:11:01Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk 13 Day 2 pre-market. IHSG Mon close 5,986.50 +1.05% on bank rally (BMRI +4.17% lead). IDR DEEPENED to 18,140.9 = 3rd consec \u226518,050 Stage 5 CONFIRMED-HARD-ENGAGED. Brent SHOCK +4.2% on Iran Strait of Hormuz formal closure. 50 tickers scanned, 1 candidate \u22656 (BMRI 6/10) but BLOCKED by regime + R:R. Top WATCH: BMRI/BBNI/INDF/AKRA/TLKM.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "1 candidate scored \u22656 (BMRI)"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 Mon rally leader +4.17% to 4,250; Jan-May +19% YoY LEADING Big-4; BLOCKED by IDR Stage 5"
-        },
-        {
-          "type": "research",
-          "ticker": "BBNI",
-          "detail": "score 5/10 \u2014 Mon +3.22% strong participant"
-        },
-        {
-          "type": "research",
-          "ticker": "INDF",
-          "detail": "score 5/10 \u2014 sole consumer net-inflow YTD"
-        },
-        {
-          "type": "macro",
-          "detail": "IDR 18,140.9 Stage 5 DEEPENING; Brent shock +4.2% Iran Hormuz closure; US Mon -0.79% S&P; Book 100% cash HOLD"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-14T02:18:40Z",
       "routine": "market-open",
@@ -33431,6 +33411,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions (100% cash Day 62). No cuts, no stops to tighten."
+    },
+    {
+      "timestamp": "2026-09-18T08:21:25Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 110 Wk 22 Day 5 CLOSE: IDR 9,716,207,500 (0.00%). IHSG Fri sesi I -0.35% to 6,439.74 provisional; daily alpha +0.35pp; cum alpha +12.81pp (+0.30pp vs Thu reconciled). 0 positions. 22nd consecutive zero-trade week CONFIRMED. Trades this week: 0/3. Book fully de-risked Day 63. Telegram HTTP 403 \u2192 stdout fallback.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 110 EOD snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-134 outage persists (yfinance+GoAPI blocked); WebSearch multi-source override operational; Fri sesi II close PENDING Mon Sep 21 pre-market reconciliation (17th cumulative sesi-II-lag)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram HTTP 403 CONNECT tunnel failed; stdout fallback"
+        },
+        {
+          "type": "note",
+          "detail": "BI RDG CALENDAR CORRECTION: prior TRADE-LOG entries referenced BI RDG Thu Sep 17 \u2014 this was misread; actual BI RDG Sep 22-23 next week (Wk 23 Mon-Tue). Sep 17 was FOMC-only."
+        }
+      ]
     }
   ],
   "exposure": {
@@ -33444,22 +33448,22 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY61-Wk22-Day3-EOD",
-    "regime_overlay": "IDR-Day-17-sub-17,750-PARTIAL-FADE + BRENT-DAY-10-$107-SPIKE-SUSTAINED + NEWCASTLE-COAL-$147-DAY-11 + CPO-4,929-RECOVERY-Day-2 + US-6-DAY-LOSING-STREAK-Day-6 + US-10Y-5.04%-HIGHEST-SINCE-2007-Day-1 + BMRI-EX-DIV-T-0-TODAY-absorbed + BI-RDG+FOMC-Sep-17-T-1-double-binary-IMMINENT + DQG-Day-132 + CRISIS-TRACK-ENGAGEMENT-GATE-0.95-1.15-of-5-Wk22-Day3-marginal-erosion + ALPHA-COMPRESSION-EPISODE-DAY-1",
-    "ihsg_close": 6461,
-    "ihsg_close_date": "2026-09-15",
-    "ihsg_close_change_pct": -1.13,
-    "ihsg_close_basis": "Tue Sep 15 reconciled close per Okezone canonical -73.54 pts vs Mon reconciled 6,534.69; Fortune Indonesia -0.15% conflict = OUTLIER rejected under DQG-132 cluster",
-    "idr_usd": 17630,
-    "idr_usd_change": "+0.61% weakening today Wed pre-market vs Tue ~17,600",
-    "newcastle_coal_usd_ton": 146.75,
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY63-Wk22-Day5-CLOSE-EOD",
+    "regime_overlay": "IDR-Day-19-sub-17,750-CONTINUATION-FIRMING-Day-2 + BRENT-Day-1-COOLING-105.87-Saudi-pipeline-restore + NEWCASTLE-COAL-$145-DAY-13 + CPO-4,929-RECOVERY-Day-4 + US-6-DAY-LOSING-STREAK-SNAPPED-Thu-rebound + US-10Y-4.95-4.98%-Day-3-slipped-from-5.008% + BMRI-EX-DIV-Day-2-T+2-absorbed + BI-RDG-SEP-22-23-T-2-next-week-binary-CALENDAR-CORRECTION + DQG-Day-134 + CRISIS-TRACK-ENGAGEMENT-GATE-1.05-1.25-of-5-Wk22-Day5-CLOSE-marginal-improvement + ALPHA-COMPRESSION-EPISODE-DAY-3-FLIPS-TO-PLUS-0.35pp-EXPANSION",
+    "ihsg_close": 6439.74,
+    "ihsg_close_date": "2026-09-18",
+    "ihsg_close_change_pct": -0.35,
+    "ihsg_close_basis": "Fri Sep 18 sesi I provisional per Fortune+CNBC-Indonesia+Kompas 3-source cluster; sesi II close PENDING Mon Sep 21 reconciliation per DQG-Day-134",
+    "idr_usd": 17700,
+    "idr_usd_change": "~17,700 range Fri sesi I firming Day-2 continuation post-FOMC + US-rebound partial stabilization",
+    "newcastle_coal_usd_ton": 145.0,
     "cpo_myr_ton": 4929,
-    "brent_usd_bbl": 107.49,
-    "lme_nickel_usd_ton": 16428,
-    "us_10y_yield_pct": 5.04,
-    "vix": 17.0,
+    "brent_usd_bbl": 105.87,
+    "lme_nickel_usd_ton": 16265,
+    "us_10y_yield_pct": 4.97,
+    "vix": 16.5,
     "foreign_flow_yesterday_idr_bn": null,
-    "foreign_flow_note": "Wk Sep 7-11 aggregate net-SELL Rp 2.7T; Tue Sep 15 full-day reconciliation PENDING Wed pre-market"
+    "foreign_flow_note": "Thu Sep 17 full-day reconciliation PENDING Mon pre-market; Fri sesi I flow pending Mon reconciliation"
   },
   "research": {
     "date": "2026-09-16",
@@ -33524,22 +33528,22 @@
     "candidates_status": "ALL 9 PRE-BLOCKED per crisis-track engagement gate ACTIVATED (~1.05/5 vs 5 required)",
     "top_candidates_deep_dive_count": 9
   },
-  "last_updated": "2026-09-17T15:15:00+07:00",
+  "last_updated": "2026-09-18T15:15:00+07:00",
   "market": {
-    "ihsg_close": 6589.33,
-    "ihsg_close_basis": "Thu Sep 10 RECONCILED full-day close per periskop.id + finansialinsight multi-source cluster",
-    "ihsg_change_pct": -1.33,
-    "ihsg_last": 6686.84,
-    "ihsg_last_label": "Fri Sep 11 intraday +1.48% partial rebound",
-    "ihsg_source": "webSearch multi-source",
-    "ihsg_asof": "2026-09-11",
-    "idr_usd": 17531,
-    "idr_usd_change_pct": -0.14,
-    "idr_stage": "STAGE-5-MARGINAL-BOUNDARY-DE-ARM-CANDIDATE-Day31-SUB-17,750-Day-14-firming",
-    "idr_status": "Approaching sustained 3-of-3 criterion (a) lift completion \u2014 Day-14 momentum; offset by Brent-SPIKE Day-7 amplifier",
-    "ihsg_daily_pct": -1.33,
-    "ihsg_cumulative_pct": -13.69,
-    "as_of": "2026-09-11"
+    "ihsg_close": 6439.74,
+    "ihsg_close_basis": "Fri Sep 18 sesi I provisional per Fortune+CNBC-Indonesia+Kompas 3-source cluster (-0.35% vs Thu reconciled 6,462.43); sesi II full-day close PENDING Mon Sep 21 pre-market reconciliation per DQG-Day-134 sesi-II-lag 17th cumulative",
+    "ihsg_change_pct": -0.35,
+    "ihsg_last": 6439.74,
+    "ihsg_last_label": "Fri Sep 18 sesi I provisional",
+    "ihsg_source": "Fortune+CNBC-Indonesia+Kompas 3-source cluster",
+    "ihsg_asof": "2026-09-18T11:39+07:00",
+    "idr_usd": 17700,
+    "idr_usd_change_pct": -0.04,
+    "idr_stage": "STAGE-5-DAY-19-SUB-17,750-CONTINUATION-FIRMING-Day-2",
+    "idr_status": "~17,700 range post-FOMC + US-rebound partial stabilization Day-2; not clean-3-of-3 sub-17,500 sustained; pre-BI-RDG Sep 22-23 defensive positioning",
+    "ihsg_daily_pct": -0.35,
+    "ihsg_cumulative_pct": -15.65,
+    "as_of": "2026-09-18"
   },
   "pre_market": {
     "date": "2026-09-17",
