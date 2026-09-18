@@ -12588,6 +12588,40 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 
 ---
 
+### 2026-09-18 09:15 WIB — NO TRADES (market-open)
+
+- Candidates evaluated: 13 candidates ≥6/10 from RESEARCH-LOG.md — MEDC(7), PGAS(7), BBCA(6), BBRI(6), BMRI(6), BBNI(6), PTBA(6), ANTM(6), UNVR(6), ICBP(6), INDF(6), TLKM(6), ASII(6).
+- Gate-check outcome: ALL 13 PRE-BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (Wk 22 Day 5 CLOSE ~1.05-1.25/5 post-FOMC-hawkish-hike-Day-2-US-rebound-partial-relief; 3.85-4.00/5 gap BINDING WIDER; 0% new-entries permitted).
+  - (a) IDR sub-17,750 3-of-3 — Day-19 sub-17,700-17,710 continuation firming Day-2: **~0.65-0.75/5** (+0.05 vs Day 4)
+  - (b) Cluster ≥3-source ≤4% relaxed — DQG-Day-134 outage persists: **~0.10-0.15/5**
+  - (c) MSCI/S&P DJI accessibility — Aug-31 EFFECTIVE Day-15 formal-FAIL partial-vindication + US-rebound partial-relief marginal: **~0/5 to +0.05/5**
+  - (d) Foreign-flow 2+ consec net-BUY — Fed HIKE hawkish overhang softening Day-2 via US-rebound; Thu full-day pending: **~0.15/5** (+0.05 vs Day 4)
+  - (e) R:R ≥2:1 — PGAS PASSES 2.05:1; MEDC 1.86:1 FAILS; others FAIL/untestable: **~0.15/5**
+- Notable per-candidate blockers layered on top of gate:
+  - MEDC — R:R 1.86:1 marginally FAILS ≥2:1; Brent Day-1 cooling from $107-108 to $105.87 upstream tailwind attenuated; crisis-track binds
+  - PGAS — R:R 2.05:1 PASSES but DQG cluster FAIL + crisis-track engagement gate ACTIVATED blocks
+  - BBCA/BBRI/BMRI/BBNI — banking under BI RDG Sep-22-23 T-3 next-week binary + FOMC-hike-Day-2 hawkish overhang absorbed
+  - BMRI — ex-div Day-2 T+2 mechanical Rp 66 absorbed Wed; catalyst-completion complete
+  - BBRI — post-buyback-expiry Day-7; strike-1 sector-watch binding
+  - PTBA — coal 2-strike SECTOR EXIT still binds regardless of Newcastle $145 Day-13 SPIKE
+  - ANTM — LME nickel $16,265 sub-$17K Day-9 sector-halo softening
+  - UNVR/ICBP/INDF/ASII — Brent Day-1 cooling partial COGS relief but crisis-track binds
+  - TLKM — FADE-ON-BEAT MEDIUM 6th obs; EGM Sep 30 T-12 fiber-spin-off; Wk 22 Day-33+ post-Q2 7th obs window
+  - ASII — IDR 2T buyback Day-13 absorption + Brent Day-1 partial COGS relief; Defensive-Quality Track SUSPENDED
+- Held positions: NONE (book fully de-risked Day 63 since Jul 6 KLBF hard-cut).
+- Cash: IDR 9,716,207,500 (100.00% of equity).
+- Weekly trades: 0/3 (Wk 22 Day 5 CLOSE — 22nd consecutive zero-trade week candidate string CONFIRMS if today fires no trades).
+- Decision: no-trade day. All 13 candidates blocked at Layer-1 by crisis-track engagement gate. BI RDG SEP-22-23 T-3 NEXT WEEK binary (Mon-Tue Wk 23) — consensus hold 5.75% dovish-continuity under Destry (per prior Aug-18-19 first RDG outcome); post-FOMC-hike raises IDR-defense hawkish-surprise probability marginally. Prior-log Sep-17-RDG framing was CALENDAR MISREAD (Sep 17 = FOMC only).
+- Overnight context: US Thu Sep 17 REBOUNDED Day-2 post-Fed-hike — S&P +1.1%, Nasdaq +1.7% (bond yields slipped from Wed 5.008% 10Y peak to ~4.95-4.98%; Brent cooled from $107-108 to $105.87 on Saudi East-West pipeline restore news). IHSG Thu Sep 17 close 6,462.43 (+0.40%) SNAPPED 6-day losing streak per Fortune+MediaIndonesia+Bisnis+Balipost multi-source cluster.
+- Dashboard: appended 13 SKIP decisions to dashboard/data.json decisions[].
+- Notification: `bash scripts/notify.sh send` per scheduler prompt (no-trade branch); Telegram HTTP 403 CONNECT tunnel failed → stdout fallback.
+- Data Quality Gate Day-134 outage persists (yfinance + GoAPI blocked 134 consecutive sessions since Apr 21); WebSearch multi-source override operational.
+- Broker reconciliation: portfolio pull confirms {equity: 9716207500, cash: 9716207500, positions: [], realised_pnl: -294172500} — no discrepancy vs TRADE-LOG Active Positions.
+- Environment check: BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING (per env template); TRADING_MODE=paper (hardcoded per scheduler prompt) — broker.sh works in paper mode without keys.
+- Next re-evaluation: midday scan (11:30 WIB) mechanically vacuous (n=0 positions); EOD (15:15 WIB) daily summary + Wk 22 Day 5 CLOSE recap + WEEKLY-REVIEW (16:00 WIB) 3rd-consecutive-on-time filing bar (process-drift escalation flag FULL formal removal Wk 23 review pending).
+
+---
+
 ### 2026-09-17 EOD (Day 109, Thu — Week 22 Day 4 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY62; WK-22-DAY-4-CONTINUES-0-of-3-BUY-slot-week-22nd-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE; IHSG-Wed-Sep-16-RECONCILED-FULL-DAY-CLOSE-6,436.85-(-0.38pct)-SUPERSEDES-sesi-I-provisional-6,501.35-(+0.62pct)-per-Detik+Berita-Moneter+Beritasatu-3-source-cluster-DQG-Day-133-sesi-II-lag-15th-cumulative-occurrence-resolved; IHSG-Thu-sesi-I-6,463.61-(+0.42pct-+26.76pt-vs-Wed-reconciled-6,436.85)-intraday-high-6,500.41-low-6,418.13-open-6,455.03-(+0.28pct)-per-Fortune+Infobanknews+RRI-3-source-cluster; IHSG-Thu-provisional-full-day-EOD-basis-~6,463-(+0.42pct)-per-sesi-I-cluster-final-sesi-II-full-day-close-PENDING-FRI-SEP-18-PRE-MARKET-RECONCILIATION-per-DQG-Day-133-sesi-II-lag-pattern-16th-cumulative-occurrence; FED-HIKED-25bp-OVERNIGHT-3.75-to-4.00pct-unanimous-decision-Warsh-sticky-inflation-commentary-Dow-minus-1.21pct-SP-minus-0.45pct-Nasdaq-minus-0.01pct; BI-RDG-DECISION-TODAY-first-under-Destry-scheduled-13:30-WIB-post-EOD-lag-outcome-pending-Fri-pre-market-reconciliation; BRENT-DAY-11-$105-108-SPIKE-sustained-Saudi-pipeline-unresolved; NEWCASTLE-COAL-$147-DAY-12-SPIKE-COAL-2-STRIKE-EXIT-still-binds; IDR-STAGE-5-DAY-18-sub-17,750-PARTIAL-FIRMING-17,707-(vs-Wed-17,630)-marginal-progress-not-clean-3-of-3; DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-post-CPI-hawkish-Day-14; MSCI-Aug-31-EFFECTIVE-ABSORPTION-Day-14; CPO-MYR-4,929-RECOVERY-DAY-3; BMRI-EX-DIV-Day-1-T+1-mechanical-Rp66-drop-absorbed-Wed; US-6-DAY-LOSING-STREAK-continues-Day-6-Fed-hike-day; US-10Y-5.008pct-DAY-2-highest-since-2007; NEW-TRUMP-10PCT-TARIFF-INDONESIA-Day-50; BI-HOLD-DOVISH-ABSORBED-Day-53; Data-Quality-Gate-Day-133; VIX-16.46-broke-14-17-range-Day-6; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.95-1.10-of-5-Wk-22-Day-4-OPEN-post-FOMC-hawkish-hike-Day-1-3.90-4.05-of-5-gap-BINDING-WIDER; ALPHA-COMPRESSION-EPISODE-Day-2-IHSG-Thu-sesi-I-+0.42pct-provisional-rebound-on-zero-exposure-continues)
 
 - Total equity: IDR 9,716,207,500
