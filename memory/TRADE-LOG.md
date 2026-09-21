@@ -12804,3 +12804,17 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   18. **Weekly-review 16:00 WIB FRIDAY** — pending post-EOD filing; 3rd-consecutive-on-time filing bar completes process-drift escalation flag FULL formal removal Wk 23 review pending.
 
 ---
+
+### 2026-09-21 11:30 WIB — MIDDAY SCAN (Wk 23 Day 1)
+
+- Positions: 0 (100% cash, IDR 9,716,207,500)
+- Broker positions pull: paper-mode OK (`{"mode":"paper","positions":[],"count":0}`)
+- Sell-side rules (−7% hard cut / +15% → 7% / +20% → 5%): NOT APPLICABLE — no positions
+- Thesis check: NOT APPLICABLE — no positions
+- Intraday research addendum: none (no held tickers, no >3% moves to investigate)
+- Action taken: NONE
+- Notification: sent ("All positions healthy. No action taken.") per automation-prompt override of default SILENT
+- BI RDG Sep 22-23 T-1/T-2 approach — defensive zero-exposure posture maintained into sesi II (post-11:30 lunch break 12:00-13:30, then sesi II 13:30-15:00)
+- Env check: BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING — broker.sh paper-mode continues to work
+
+---
