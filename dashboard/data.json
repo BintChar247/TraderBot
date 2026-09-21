@@ -1700,6 +1700,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-21",
+      "day_label": "Day 111 (Wk 23 Day 1 OPEN)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6423.51,
+      "ihsg_cumulative_pct": -15.86,
+      "alpha_pct": 13.02,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -29020,8 +29035,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 110,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 110 counting-trading-days Wk 22 Day 5 CLOSE)",
+    "trial_days_elapsed": 111,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 111 counting-trading-days Wk 23 Day 1 OPEN)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -29030,8 +29045,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -15.65,
-    "cumulative_alpha_pct": 12.81,
+    "ihsg_cumulative_pct": -15.86,
+    "cumulative_alpha_pct": 13.02,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -29042,22 +29057,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-18",
+    "updated": "2026-09-21",
     "portfolio_value": 9716207500,
-    "alpha_pct": 12.81,
+    "alpha_pct": 0.27,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 12.81,
+    "cumulative_alpha_pp": 13.02,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 110,
-    "last_updated": "2026-09-18T15:15:00+07:00",
+    "day_number": 111,
+    "last_updated": "2026-09-21T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 110,
-    "week_number": 22,
-    "day_label": "Day 110 (Wk 22 Day 5 CLOSE)"
+    "days_in_trial": 111,
+    "week_number": 23,
+    "day_label": "Day 111 (Wk 23 Day 1 OPEN)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY63-Wk23-Day1-OPEN-BI-RDG-Sep-22-23-T-1/T-0-BINARY-APPROACH-WEEK-CRISIS-TRACK-GATE-ACTIVATED-0.65-0.90-of-5-Day-1-REGRESSION-via-IDR-Day-1-BROKEN-17,812-offsetting-BRENT-Day-2-BELOW-$100-MATERIAL-EASE-VIX-COOLED-14.81-US-10Y-4.94",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY64-Wk23-Day1-OPEN-BI-RDG-Sep-22-23-T-0/T-1-BINARY-DECISION-TOMORROW-CRISIS-TRACK-GATE-0.65-0.90-of-5-REGRESSION-Day-1-via-IDR-17,812-BROKEN-Day-1-offsetting-BRENT-$99.29-Day-2-BELOW-$100-MATERIAL-EASE-VIX-COOLED-14.81-US-10Y-4.94pct-eased-ALPHA-EXPANSION-DAY-4-+0.27pp-continuation",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -29067,37 +29082,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-15T00:10:09Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk13 Day3 pre-market: 50-ticker scan complete under crisis-track engagement gate ACTIVATED. NO candidates score \u22656 (structural ceiling 5/10). 8 tickers at 5/10 WATCH-elevated (MEDC/INDF/AKRA/ASII/TLKM/BBRI/BMRI/BBNI); all blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED-Day4 + BRENT-SHOCK-INTENSIFYING ($86.35 +3.66%) + Data-Quality-Gate-Day-78 quadruple-binding. Book stays 100% cash Day 7 post-KLBF cut. 12th consecutive 0/3 BUY-slot week trajectory.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored \u22656 (structural ceiling under crisis-track gate)"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 5/10 \u2014 Brent $86 Iran/Hormuz shock direct upside; blocked by regime + Data Quality"
-        },
-        {
-          "type": "research",
-          "ticker": "INDF",
-          "detail": "score 5/10 \u2014 sole net-inflow consumer YTD; blocked by CPI hawkish + regime"
-        },
-        {
-          "type": "research",
-          "ticker": "AKRA",
-          "detail": "score 5/10 \u2014 Q2 print Jul 27 T+12 MNC top pick; blocked by Brent uncertainty + regime"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-15T02:17:57Z",
       "routine": "market-open",
@@ -34071,6 +34055,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (0 positions, 100% cash). No cuts, no stops tightened, no thesis exits. Wk 23 Day 1 BI-RDG Sep 22-23 T-1/T-2 approach \u2014 defensive zero-exposure maintained."
+    },
+    {
+      "timestamp": "2026-09-21T08:20:25Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 111 Wk 23 Day 1 OPEN: IDR 9,716,207,500 (+0.00% today). Alpha +0.27pp vs IHSG. 0 positions (100% cash Day 64). Trades this week: 0/3. IHSG Mon sesi I 6,423.51 (-0.27%). BI RDG T-0/T-1 tomorrow. Cum alpha +13.02pp.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 111 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -34101,14 +34097,14 @@
     "brent": 99.29,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day1-OPEN-BI-RDG-T-1/T-0-approach-week"
   },
-  "last_updated": "2026-09-21T09:15:00+07:00",
+  "last_updated": "2026-09-21T15:15:00+07:00",
   "market": {
-    "ihsg_close": 6441.16,
-    "ihsg_close_basis": "Fri Sep 18 sesi II RECONCILED per Databoks 5-source cluster (-0.33%); supersedes provisional 6,439.74 (-0.35%); marginal +1.42pt upward revision",
-    "ihsg_change_pct": -0.33,
-    "ihsg_last": 6441.16,
-    "ihsg_last_label": "Fri Sep 18 sesi II RECONCILED",
-    "ihsg_source": "Databoks + Fortune + CNBC-Indonesia + Kompas multi-source"
+    "ihsg_close": 6423.51,
+    "ihsg_close_basis": "Mon Sep 21 sesi I provisional (RRI+journalarta+Kompas 3-source cluster); sesi II full-day close pending Tue Sep 22 pre-market reconciliation per DQG-Day-135 sesi-II-lag 18th cumulative",
+    "ihsg_change_pct": -0.27,
+    "ihsg_last": 6423.51,
+    "ihsg_last_label": "Mon Sep 21 sesi I close (-0.27% vs Fri reconciled 6,441.16)",
+    "ihsg_source": "WebSearch multi-source cluster (RRI + journalarta + Kompas + kayonews outlier)"
   },
   "pre_market": {
     "date": "2026-09-21",
