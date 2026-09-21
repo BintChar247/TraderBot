@@ -28432,6 +28432,591 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples defensive; Brent Day-2 sub-$100 material COGS relief; DQG cluster FAIL + R:R 1.67:1 FAILS.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-2 cooling below $100 psych material COGS relief for staples"
+        },
+        {
+          "type": "macro",
+          "label": "Consumer staples defensive under crisis-track"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.67:1 fails \u22652:1; DQG cluster FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% YoY beat carryover + Brent Day-2 sub-$100 material COGS relief; R:R 1.55:1 FAILS \u22652:1.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-2 sub-$100 material COGS relief + Q2 core beat carryover"
+        },
+        {
+          "type": "macro",
+          "label": "Consumer under crisis-track"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.55:1 fails \u22652:1; DQG cluster FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IDR 2T buyback Day-16 absorption + Brent Day-2 sub-$100 material import-COGS relief; R:R 1.41:1 FAILS.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "IDR 2T buyback Day-16 + Brent Day-2 sub-$100 import-COGS relief"
+        },
+        {
+          "type": "macro",
+          "label": "Auto under crisis-track + Defensive-Quality SUSPENDED"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.41:1 fails \u22652:1; Q2 MISS structural drag"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive; BI RDG Sep 22-23 T-1/T-0 binary; pre-decision positioning; +3.28% YTD relative.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Sep 22-23 T-1/T-0 binary approach week"
+        },
+        {
+          "type": "macro",
+          "label": "Banking full-stack under crisis-track + BI-RDG binary"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; R:R gate FAILS"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Analyst TP 3,786 +14.4% upside; H1 net +17.5%; post-buyback-expiry Day-10 T+10 strike-1 sector-watch.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "H1 NI +17.5% fundamentals + BI RDG binary"
+        },
+        {
+          "type": "macro",
+          "label": "Banking under crisis-track + post-buyback-expiry strike-1"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; buy-flow removal Day-10"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Ex-div Day-5 T+5 mechanical Rp 66 drop fully absorbed; Big-4 defensive; BI RDG T-1/T-0 binary.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div front-run compression complete + BI RDG binary"
+        },
+        {
+          "type": "macro",
+          "label": "Banking under crisis-track + BI-RDG binary"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; catalyst completion complete"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive; BI RDG T-1/T-0 binary; largest Fri decline -2.41%; pre-decision positioning.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Sep 22-23 binary approach"
+        },
+        {
+          "type": "macro",
+          "label": "Banking under crisis-track + BI-RDG binary"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; R:R gate FAILS"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PTBA",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "CGS Intl BUY tip Fri; coal 2-strike sector-EXIT binds regardless (since May 2026); Newcastle $144 Day-15 cooling.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Newcastle $144 modest cooling from $147 peak"
+        },
+        {
+          "type": "macro",
+          "label": "Coal 2-strike sector-EXIT binding"
+        },
+        {
+          "type": "risk",
+          "label": "Sector-exit rule binding; coal sector fully EXITED"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ANTM",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MNC Sekuritas BUY tip Fri (gold + nickel exposure); LME sub-$17K Day-11; sector-halo softening.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "MNC BUY tip gold+nickel exposure"
+        },
+        {
+          "type": "macro",
+          "label": "Nickel under crisis-track + LME sub-$17K"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; R:R gate FAILS"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD; CPO Day-1 slip + Brent Day-2 sub-$100 mixed input-cost vectors.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-2 sub-$100 COGS relief + CPO Day-1 slip mixed"
+        },
+        {
+          "type": "macro",
+          "label": "Consumer under crisis-track override"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; sole-net-inflow-YTD residual"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "EGM Sep 30 T-9 fiber-spin-off; FADE-ON-BEAT MEDIUM Wk 23 obs-7 window opens Days 45+; Samuel PT 3,300 Day-22 fade.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "EGM Sep 30 T-9 fiber-spin-off + FADE-ON-BEAT MEDIUM obs-7"
+        },
+        {
+          "type": "macro",
+          "label": "Telco under crisis-track + FADE-pattern MEDIUM"
+        },
+        {
+          "type": "risk",
+          "label": "DQG cluster FAIL; Samuel PT 3,300 Day-22 fade"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent Day-2 cooling below $100 to $99.29 = upstream tailwind MATERIALLY ERODED; downgrade Fri 7 \u2192 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent sub-$100 upstream tailwind ERODED"
+        },
+        {
+          "type": "macro",
+          "label": "Energy under crisis-track + upstream-tailwind erosion"
+        },
+        {
+          "type": "risk",
+          "label": "R:R gate FAILS via downgrade 7\u21926"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent Day-2 cooling below $100 = gas-spread tailwind ATTENUATED; downgrade Fri 7 \u2192 6.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent sub-$100 gas-spread tailwind ATTENUATED"
+        },
+        {
+          "type": "macro",
+          "label": "Utility under crisis-track + gas-spread erosion"
+        },
+        {
+          "type": "risk",
+          "label": "R:R gate FAILS via downgrade 7\u21926"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 OPEN ~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (Wk 23 Day 1 OPEN ~0.65-0.90/5 via IDR-Day-1-BROKEN to 17,812 offsetting Brent-Day-2-sub-$100-material-ease + VIX-cool + US-10Y-ease; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted; BI RDG Sep 22-23 T-1/T-0 binary approaches.",
+      "gate_results": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -28482,12 +29067,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-14T04:36:14Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Book 100% cash (0 open positions); no cuts, no stops to tighten, no thesis actions. IDR Stage 5 crisis-track engagement gate continues."
-    },
     {
       "timestamp": "2026-07-14T08:19:45Z",
       "routine": "daily-summary",
@@ -33425,6 +34004,79 @@
           "detail": "HOLD \u2014 crisis-track engagement gate ACTIVATED 0.65-0.90/5 Day-1 regression; 0% new-entries permitted"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-21T02:17:53Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Wk 23 Day 1 OPEN \u2014 BI RDG Sep 22-23 T-1/T-0 binary approach. 13 candidates \u22656/10 (UNVR/ICBP/ASII/BBCA/BBRI/BMRI/BBNI/PTBA/ANTM/INDF/TLKM/MEDC/PGAS) all pre-blocked by crisis-track engagement gate ACTIVATED (~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER via IDR-Day-1-BROKEN to 17,812 offsetting Brent-sub-00 + VIX-cool + US-10Y-ease). 23rd consecutive zero-trade week begins. Book fully de-risked Day 64. 100% cash IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "crisis-track + R:R 1.67:1 fails"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track + R:R 1.55:1 fails"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "crisis-track + R:R 1.41:1 fails"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track + BI-RDG binary T-1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track + post-buyback-expiry strike-1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track + BI-RDG binary T-1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track + BI-RDG binary T-1"
+        },
+        {
+          "type": "skip",
+          "ticker": "PTBA",
+          "detail": "coal 2-strike sector-EXIT binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "ANTM",
+          "detail": "crisis-track + LME sub-$17K"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track + mixed input-cost vectors"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track + FADE-pattern MEDIUM obs-7"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "crisis-track + downgrade 7\u21926"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track + gas-spread ATTENUATED downgrade 7\u21926"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -33455,7 +34107,7 @@
     "brent": 99.29,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day1-OPEN-BI-RDG-T-1/T-0-approach-week"
   },
-  "last_updated": "2026-09-21T07:00:00+07:00",
+  "last_updated": "2026-09-21T09:15:00+07:00",
   "market": {
     "ihsg_close": 6441.16,
     "ihsg_close_basis": "Fri Sep 18 sesi II RECONCILED per Databoks 5-source cluster (-0.33%); supersedes provisional 6,439.74 (-0.35%); marginal +1.42pt upward revision",
