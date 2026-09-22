@@ -29257,42 +29257,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-16T00:11:43Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk13 Day4 pre-market: 50-ticker scan complete under crisis-track engagement gate ACTIVATED Day 5. NO candidates score >=6 (structural ceiling 5/10). 7 tickers at 5/10 WATCH-elevated (BBRI/BMRI/MEDC/INDF/ASII/AKRA/TLKM); all blocked by IDR Stage 5 CONFIRMED-HARD-ENGAGED-Day5 + BRENT-SHOCK-DEEPENING-$85.90 + Data-Quality-Gate-Day-79 + June-CPI-3.34% quadruple-binding. BBRI Wed +1.07% top mover; ASII Q2 print Jul 23 T+7 nearest binary. Book stays 100% cash Day 8 post-KLBF cut. 12th consecutive 0/3 BUY-slot week trajectory.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored >=6 (structural ceiling 5/10 under crisis-track quadruple-gate)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 5/10 - Wed TOP MOVER +1.07% to 2830; Q2 Aug 3 T+18; blocked by IDR Stage 5"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 5/10 - Wed TOP-3 mover +0.96% to 4200; Jan-May +19% YoY Big-4 leader"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 5/10 - Brent shock $85+ direct upside INTENSIFYING; Q2 Jul 30 T+14"
-        },
-        {
-          "type": "research",
-          "ticker": "ASII",
-          "detail": "score 5/10 - Q2 print Jul 23 T+7 nearest binary; Rp 8T buyback"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-16T02:17:21Z",
       "routine": "market-open",
       "status": "warning",
@@ -34296,6 +34260,12 @@
           "detail": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-22T04:36:40Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day2 BI-RDG T-0"
     }
   ],
   "exposure": {

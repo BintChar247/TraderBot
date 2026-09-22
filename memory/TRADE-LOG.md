@@ -12932,3 +12932,28 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - Notification: sent via scripts/notify.sh (no-trades path per routine STEP 7)
 
 ---
+
+### 2026-09-22 11:30 WIB — MIDDAY SCAN NO-ACTION (BI-RDG-T-0 DECISION DAY, PRE-DECISION)
+
+- Side: N/A — no orders placed
+- Positions before run: 0 | Positions after run: 0 (unchanged)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Equity: IDR 9,716,207,500
+- Realised P&L: -294,172,500 unchanged | Unrealised P&L: 0 (no exposure)
+- Trades this week: 0/3 (Wk 23 Day 2 — 23rd consecutive zero-trade week candidate)
+- Regime: DEFENSIVE — INTENSIFIED — Wk 23 Day 2 — BI-RDG-T-0 pre-decision (decision expected 13:30-14:30 WIB post-lunch-break)
+- STEP 2 — Positions pull: `bash scripts/broker.sh positions` → 0 positions confirmed (paper-mode ledger OK)
+- STEP 3 — Loser sell-side (-7% hard cut): N/A no positions
+- STEP 4 — Winner stop-tighten (+15%/+20% tiers): N/A no positions
+- STEP 5 — Thesis-break check remaining positions: N/A no positions
+- STEP 6 — Intraday >3% move research: N/A no positions
+- STEP 7 — TRADE-LOG.md exit/tighten entries: N/A no positions → this snapshot entry only
+- STEP 8 — Notification: no-action path per scheduler prompt (📊 Midday 2026-09-22 all positions healthy no action taken); Telegram proxy 403 stdout fallback fired
+- STEP 9 — Log activity: success status, empty actions array, summary "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day2 BI-RDG T-0"
+- Environment check: BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING per env check; TRADING_MODE=paper default — broker.sh works in paper mode without keys (paper-mode ledger pull confirmed OK)
+- Book fully de-risked Day 64 midday continuation = 100% cash sustained; zero equity market exposure through BI-RDG-T-0 pre-decision window (best-outcome-regardless-of-outcome positioning)
+- Sesi I direction pre-BI-RDG-decision: DEFERRED to sesi II reconciliation (DQG-136 lag pattern; 19th cumulative sesi-II-lag anticipated per DQG-Day-136 outage persistence — yfinance + GoAPI blocked 136 consecutive sessions since Apr 21)
+- BI-RDG T-0 binary decision (hold 5.75% vs hike consensus mixed) — decision window 13:30-14:30 WIB post-lunch break; zero exposure = best-outcome regardless of outcome
+- Risk alerts: NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% hard-cut warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json unchanged.
+
+---
