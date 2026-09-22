@@ -1718,18 +1718,19 @@
     },
     {
       "date": "2026-09-22",
-      "day_label": "Day 112 (Wk 23 Day 2 OPEN - BI-RDG-T-0-BINARY-DECISION-DAY)",
+      "day_label": "Day 112 (Wk 23 Day 2 EOD - BI-RDG-T-0-DECISION-DAY)",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6384.73,
-      "ihsg_cumulative_pct": -16.37,
-      "alpha_pct": 13.53,
+      "ihsg_close": 6320.0,
+      "ihsg_cumulative_pct": -17.21,
+      "alpha_pct": 14.37,
       "positions_count": 0,
       "trades_today": 0,
-      "trades_this_week": 0
+      "trades_this_week": 0,
+      "ihsg_close_note": "PROVISIONAL: sesi II full-day close PENDING Wed Sep 23 pre-market reconciliation per DQG-Day-136 sesi-II-lag 19th cumulative; provisional ~6,320 per Detik EOD headline + 4-source intraday cluster (KompasTV 6,349 / MediaIndonesia 6,384 / sesi-I 6,313.56 / Suara 3.38pct-cumulative)"
     }
   ],
   "positions": [],
@@ -29257,53 +29258,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-16T02:17:21Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 7 WATCH-elevated candidates (BBRI/BMRI/MEDC/INDF/ASII/AKRA/TLKM at 5/10) blocked by crisis-track engagement gate ACTIVATED \u2014 IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 5 (18,062\u201318,088 cluster > 18,050 threshold) + Brent $85+ shock deepening + Data Quality Gate Day 79 outage. 12th consecutive 0/3 BUY-slot week. Book 100% cash IDR 9.72B Day 8 post-KLBF cut.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "5/10; crisis-track gate binds"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 79 yfinance/GoAPI outage; MD_LAST_PRICE_OVERRIDE for cmd_sell still deferred"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-16T04:36:35Z",
       "routine": "midday",
       "status": "success",
@@ -34266,6 +34220,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day2 BI-RDG T-0"
+    },
+    {
+      "timestamp": "2026-09-22T08:21:10Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-09-22 Day 112 Wk23 Day2 BI-RDG-T-0: equity IDR 9.716B (0.00% today). Alpha +1.01pp vs IHSG provisional -1.01% (~6,320). Cum alpha +14.37pp Tue provisional vs Mon reconciled +13.02pp = +1.35pp EXPANSION Day-5. 0 positions, 100% cash Day 65. Trades this week 0/3 (23rd consecutive zero-trade week candidate). No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 112 EOD snapshot committed to TRADE-LOG.md + RISK-STATE.json + dashboard/data.json; IHSG Tue provisional ~6,320 pending Wed reconciliation"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -34296,7 +34262,7 @@
     "brent": 100.06,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day2-BI-RDG-T-0-BINARY-DECISION-DAY"
   },
-  "last_updated": "2026-09-22T07:00:00+07:00",
+  "last_updated": "2026-09-22",
   "market": {
     "ihsg_close": 6384.73,
     "ihsg_close_basis": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative occurrence reconciled Tue Sep 22 pre-market",

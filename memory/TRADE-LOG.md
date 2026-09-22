@@ -12957,3 +12957,88 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 - Risk alerts: NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -6% hard-cut warnings); DD -3.10% (>-12% alert threshold OK). No halt flags. RISK-STATE.json unchanged.
 
 ---
+### 2026-09-22 EOD (Day 112, Tue — Week 23 Day 2 — BI-RDG-T-0 DECISION DAY; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-65; WK-23-DAY-2-0-of-3-BUY-slot-week-23rd-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE; IHSG-Mon-Sep-21-sesi-II-RECONCILED-6,384.73-(-0.88pct)-supersedes-provisional-6,423.51-(-0.27pct)-per-multi-source-Databoks+RRI+Media-Indonesia-cluster-DQG-Day-135-sesi-II-lag-18th-cumulative-occurrence-resolved; IHSG-Tue-open-6,392.34-(+0.12pct)-Kompas+Fortune-2-source-cluster; IHSG-Tue-sesi-I-6,313.56-(-1.11pct-minus-71.16pt)-Liputan6+Beritasatu+Bisnis-3-source-cluster-513-decline-vs-147-advance-intraday-range-6,277-6,423; IHSG-Tue-intraday-cluster-Detik-6,320-(-1.01pct)-KompasTV-6,349-(-0.55pct)-MediaIndonesia-6,384-jelang-RDG-Suara-3.38pct-cumulative-Suahasil-Menkeu; IHSG-Tue-PROVISIONAL-FULL-DAY-EOD-basis-~6,320-(-1.01pct)-per-Detik-EOD-headline-4-source-intraday-cluster-mid-point-final-sesi-II-full-day-close-PENDING-WED-SEP-23-PRE-MARKET-RECONCILIATION-per-DQG-Day-136-sesi-II-lag-pattern-19th-cumulative-occurrence; BI-RDG-DECISION-Tue-13:30-14:30-WIB-first-BI-RDG-under-Destry-Damayanti-consensus-mixed-hold-5.75pct-vs-hike-DECISION-OUTCOME-PENDING-Wed-pre-market-reconciliation; Data-Quality-Gate-Day-136-outage-persists-yfinance+GoAPI-blocked-136-consecutive-sessions-since-Apr-21; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.65-0.90-of-5-Wk-23-Day-2-scoring-unchanged-4.10-4.35-of-5-gap-BINDING-WIDER; ALPHA-EXPANSION-DAY-5-Tue-provisional-plus-1.01pp-via-IHSG-minus-1.01pct-on-zero-exposure)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -1.01% (provisional; Mon reconciled 6,384.73 → Tue provisional ~6,320; final PENDING Wed pre-market per DQG-Day-136 sesi-II-lag 19th cumulative)
+- Daily alpha: +1.01pp (provisional; zero-exposure day)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (provisional Tue): ~+14.37pp vs Mon reconciled ~+13.02pp = **+1.35pp EXPANSION Day-5**
+- Realised P&L: IDR -294,172,500 (unchanged; last update Mon Jul 6 KLBF hard-cut)
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap)
+
+#### Open Positions
+
+_(none — book fully de-risked Day 65 since Mon Jul 6 KLBF hard-cut; 100% cash)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh positions` → 0 positions (paper-mode ledger); `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / realised -294,172,500 / unrealised 0. Reconciled OK with TRADE-LOG (both 0 positions).
+- **No trades today (23rd consecutive zero-trade week candidate Day-2).** Trades this week: 0/3. 82+ cumulative unused candidate-day slots trial-to-date.
+- **BI-RDG-T-0 DECISION DAY completed:** first BI RDG under Destry Damayanti Gov 2026-2031; decision 13:30-14:30 WIB. Zero exposure = best-outcome regardless of hold/hike outcome. Decision content PENDING Wed pre-market reconciliation (multi-source).
+- **IHSG Mon Sep 21 reconciled 6,384.73 (-0.88%) supersedes provisional 6,423.51 (-0.27%):** material downgrade -61-pt vs earlier sesi-I basis; DQG-Day-135 sesi-II-lag 18th cumulative resolved by Databoks+RRI+Media Indonesia multi-source cluster.
+- **IHSG Tue Sep 22 sesi I -1.11% to 6,313.56** (513 decline vs 147 advance; intraday range 6,277-6,423). Provisional full-day close ~6,320 per Detik EOD headline "IHSG Anjlok 1% ke 6,320" + 4-source intraday cluster (KompasTV 6,349, MediaIndonesia 6,384, Suara 3.38%-cum-Suahasil). **Final sesi II close PENDING Wed Sep 23 pre-market reconciliation per DQG-Day-136 sesi-II-lag 19th cumulative occurrence.**
+- **DQG-Day-136 outage persists:** yfinance + GoAPI blocked 136 consecutive sessions since Apr 21; WebSearch multi-source override operational for indices; per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks.
+- **Alpha ledger:** Mon reconciled cumulative ~+13.02pp (per Mon EOD entry). Tue provisional cumulative ~+14.37pp (IHSG -17.21% baseline-to-provisional vs portfolio -2.84%) = **+1.35pp EXPANSION Day-5 provisional** — pending sesi-II reconciliation Wed. Wk 21 Day 4 → Wk 23 Day 2 cumulative alpha expansion ~+5.25pp reconciled-plus-provisional basis.
+- **Crisis-track engagement gate ACTIVATED persists:** scoring 0.65-0.90/5 Wk 23 Day 2 unchanged from Wk 23 Day 1 CLOSE; 4.10-4.35/5 gap BINDING WIDER; 0% new-entries permitted per Hard Rule; 13 candidates ≥6/10 evaluated at market-open all SKIP per crisis-track override + DQG structural FAIL + R:R ≤2:1 or coal 2-strike (PTBA).
+- **State/regime bindings Tue updates:**
+  - IHSG Mon reconciled -0.88% material downgrade → Tue -1.01% provisional continuation (2-day cumulative -1.89% approx)
+  - IDR Tue direction: monitoring pending; Mon 17,812 Day-1 BROKEN status persists pre-BI-RDG
+  - Brent Day-3 back to $100 border (Fri sub-$100 → Mon $99.29 → Tue near $100) — Fri COGS-relief partial erosion continues
+  - Newcastle coal signal-monitor Day-16 — coal 2-strike EXIT still binds
+  - CPO MYR Day-2 recovery partial (from 4,898 Mon)
+  - LME nickel Day-12 sub-$17K monitoring
+  - Fed Day-6 hawkish 25bp hike transmission digestion continues
+  - US-10Y Day-6 eased from 5.008% peak
+  - VIX Day-9 14-range sustained partial-DE-ARM
+  - Destry Damayanti BI Gov Day-17 DOVISH-CONTINUITY-IN-QUESTION post-CPI-hawkish
+  - BMRI ex-div Day-4 T+4 mechanical Rp 66 drop absorbed
+  - BBRI post-buyback-expiry Day-9 buy-flow-removal
+  - ASII IDR 2T buyback absorption Day-20
+  - TLKM Samuel PT 3,300 Day-20 fade + EGM Sep 30 T-8 fiber-spin-off news-flow
+  - MSCI-Aug-31 EFFECTIVE ABSORPTION Day-17
+  - New Trump 10% tariff Indonesia Day-53
+  - BI-HOLD-DOVISH-ABSORBED Day-56 (pre-Destry-first-RDG)
+  - Anak Krakatau DE-ESCALATION Day-16
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% hard-cut warnings
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-09-22.
+- **dashboard/data.json updated:** 2026-09-22 entry converted from OPEN to EOD form (ihsg_close 6,320 provisional; portfolio_value 9,716,207,500; alpha_pct 14.37 provisional).
+- **Notification path:** scripts/notify.sh EOD summary via Telegram (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; stdout fallback if proxy 403).
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 112, Wk 23 Day 2). Phase-to-date P&L -2.84% unchanged (65 consecutive sessions with 0.00% daily P&L). Cumulative alpha +14.37pp provisional Tue (Mon reconciled +13.02pp).
+- **Carry-over to Wed Sep 23 07:00 WIB pre-market (Wk 23 Day 3 — post-BI-RDG-Day-1 transmission window):**
+  1. **Tue Sep 22 sesi II full-day close reconciliation** — provisional ~6,320 per Detik EOD + 4-source intraday cluster; final PENDING Wed pre-market cluster (19th cumulative sesi-II-lag).
+  2. **BI-RDG Day-1 decision outcome reconciliation** — hold 5.75% vs 25bp hike vs surprise 25bp cut; Destry Damayanti first RDG guidance content; market reaction transmission Day-1.
+  3. IHSG Wed sesi I direction post-BI-RDG-decision — decision-outcome absorption vs pre-decision positioning unwind.
+  4. US Tue close direction — Fed Day-6 residual + record-close-fade risk.
+  5. Brent Day-4 direction — sub-$100 vs snap-back binary; Saudi pipeline restore persistence.
+  6. IDR Wed direction post-BI-RDG — hold-vs-hike differential impact on rupiah defensive positioning.
+  7. Newcastle coal signal-monitor Day-17 — coal-2-strike EXIT rule binds regardless.
+  8. AALI/LSIP direction on CPO MYR Day-3 recovery continuation.
+  9. ASII Wed direction on IDR 2T buyback absorption Day-21.
+  10. BBRI Wed direction post-buyback-expiry Day-10.
+  11. BMRI Wed direction ex-div Day-5 T+5.
+  12. TLKM Wed direction on Samuel PT 3,300 Day-21 fade + EGM Sep 30 T-7 fiber-spin-off news-flow.
+  13. **Alpha expansion Day-6 continuation monitoring:** Tue provisional +1.35pp expansion (Wk 21 Day 4 → Wk 23 Day 2 cumulative expansion ~+5.25pp reconciled-plus-provisional); watch Wed direction for expansion Day-6 continuation vs BI-RDG-decision-outcome compression re-episode.
+  14. **VIX signal-monitor Day-10** — post-BI-RDG-decision residual volatility building.
+  15. **US-10Y monitoring Day-7** — post-Fed-hike Day-6/7 residual; sub-5% sustain vs snap-back.
+  16. **Wk 23 Day 3 — 23rd consecutive zero-trade week candidate Day-3 opens** — multi-front bindings persist through BI-RDG post-decision transmission window.
+  17. **Thursday check-in (Wk 23 Day 4)** — BI-RDG Day-2 continuation transmission + Wk 23 pre-close positioning window.
+
+---
+
