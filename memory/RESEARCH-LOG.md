@@ -26551,3 +26551,180 @@ All fail on at least one gate condition:
 - [ ] **EOD (15:15)**: 111th session; Wk 23 Day 1 close; Day 64 no-position.
 
 ---
+
+## 2026-09-22 (Tuesday) — Day 112 — Wk 23 Day 2 — **BI-RDG-T-0-BINARY-DECISION-DAY-first-under-Destry-hold-5.75-vs-surprise-hike-binary-expected-13:30-14:30-WIB** + **IHSG-Mon-Sep-21-RECONCILED-CLOSE-6,384.73-(-0.88%-56.43pts)-MATERIAL-DOWNGRADE-from-provisional-6,423.51-(-0.27%)-DQG-Day-136-sesi-II-lag-19th-cumulative-reconciliation-gap--0.61pp** + **US-Mon-Sep-21-RECORD-CLOSE-S&P-+1.49%-7,764.70-Nasdaq-+2.26%-27,122.09-RECORD-Dow-+0.71%-52,048.83-BEST-DAY-SINCE-EARLY-AUGUST** + **BRENT-$100.06-Day-3-BACK-TO-$100-PSYCH-BORDER-from-Fri-$99.29** + **IDR-17,830-Day-2-BROKEN-CONTINUATION-vs-Mon-17,812-Day-1-broken** + **CPO-MYR-4,929-Mon-RECOVERY-Day-2-from-Fri-4,898-slip** + **VIX-14.93-slight-uptick-from-Fri-14.81** + **US-10Y-4.94%-eased-Day-6** + **NEWCASTLE-COAL-$144-146-Day-16** + **DQG-Day-136-outage-persists** + **CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists**
+
+### Global Overnight (Mon Sep 21 US close)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,764.70 | +1.49% | BEST DAY SINCE EARLY AUGUST; post-Fed-hike Day-5 rebound completes; sub-5% US-10Y + Brent-below-$100 tailwind |
+| Nasdaq | 27,122.09 | +2.26% | **RECORD CLOSE**; AI stocks surge + cooling yields |
+| Dow | 52,048.83 | +0.71% | Broad relief rally |
+| VIX | 14.93 | +0.12pt vs Fri 14.81 | Marginal uptick but VIX-REGIME-SHIFT DE-ARMED partial persists in 14-range |
+
+**Overnight event (KEY):** US Mon record close-week ends best-day-since-early-August momentum; Nasdaq closes at record 27,122.09; S&P +1.49% breakthrough; Dow +0.71% broad relief. Post-Fed-hike Day-5 rebound completes via bond yields sustaining sub-5% (US-10Y 4.94% Day-6) + Brent sustaining sub/near-$100 psych. Constructive risk-on baseline for Tue Asia open — but IHSG Mon reconciled -0.88% shows Asia diverged from US rally Mon on pre-BI-RDG defensive positioning + Krakatau-cooled + IDR-Day-1-broken drag.
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG (Mon Sep 21 RECONCILED close) | 6,384.73 | -0.88% (-56.43pts vs Fri 6,441.16) | **MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%)** per Databoks reconciled; sesi II sold off further ~40pts vs sesi I basis; DQG-Day-136 sesi-II-lag 19th cumulative occurrence; reconciliation gap -0.61pp downward |
+| IDR/USD | ~17,830 | Day-2 BROKEN continuation vs Mon 17,812 Day-1 broken | ~+18 further depreciation; sub-17,750 firming Wk 22 Day 19 REVERSED Day-2; **criterion (a) IDR CONTINUATION-FIRMING RESET Wk 23 Day 2 sustained**; pre-BI-RDG-T-0 defensive positioning |
+| Indo 10Y SUN yield | ~7.0-7.15% est. | pre-BI-RDG-T-0 | Awaiting Tue Sep 22-23 BI RDG binary; consensus mixed hold 5.75%-vs-hike |
+| US 10Y yield | 4.94% | Day-6 eased persists from 5.008% Wed peak | Bond-yield relief sustains; hawkish-hike absorbed Day-5 |
+| Indo-US spread | ~210bp | tight | Compressed vs long-run mean; carry unwind risk moderated |
+| Newcastle coal (USD/ton) | ~$144-146 | Day-16 modest cooling from Day-12 $147 peak | Coal 2-strike EXIT still binds; 1-of-2 re-eval triggers met |
+| CPO palm oil (MYR/ton) | 4,929 | +0.63% Day-2 recovery from Fri 4,898 slip | Global vegetable oils marginal firm; back above 4,900 support |
+| LME nickel (USD/ton) | 16,267 | +0.20% Day-12 | Sub-$17K Day-12; sector-halo persist softened |
+| Brent crude (USD/bbl) | $100.06 | Day-3 BACK TO $100 PSYCH BORDER | From Fri $99.29 back to $100 border Mon +0.77%; marginal firming; Saudi pipeline restore Wk 23 Day 2 partial-reversal; criterion (a) DEEP-AMPLIFIER material ease NEUTRAL Day-3 (no re-arm above $105 threshold) |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | Mon Sep 21 PENDING Tue full-day reconciliation | Fri PENDING remained per DQG-Day-136 lag; criterion (d) 2-consec net-BUY still FAILING |
+| Foreign flow streak | Wk Sep 14-18 pending; Wk 23 Day 1 pending | Fed-hike overhang Day-5 softening via US-market record-close absorption |
+| Top buying brokers | PENDING | — |
+| Top selling brokers | PENDING | — |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | PRE-BI-RDG-T-0-BINARY-DAY | BI RDG DECISION TODAY (13:30-14:30 WIB); consensus mixed hold 5.75% dovish-continuity vs surprise-hike defensive-IDR; Big-4 defensive positioning pre-decision | BBCA/BBRI/BMRI/BBNI |
+| Coal / Energy | UP but SECTOR EXITED | Newcastle $144-146 Day-16 modest cooling; coal 2-strike EXIT binds regardless | ADRO/ITMG/PTBA/BUMI/HRUM |
+| Nickel / Mining | RANGE-BOUND | LME $16,267 sub-$17K Day-12; smelter quota cut | ANTM/INCO/MDKA/NCKL/MBMA |
+| CPO / Agri | STABILIZING | CPO MYR 4,929 Day-2 recovery from Fri 4,898 slip; back above 4,900; global vegetable oils marginal firm | AALI/LSIP |
+| Property | PRE-BI-RDG-T-0 | Rate-sensitive; BI-RDG DECISION TODAY binary; property -29.65% YTD | BSDE/CTRA/SMRA/PWON |
+| Consumer | STABILIZING | Brent Day-3 back to $100 border neutralizes Fri-Sat COGS relief; CPO recovery mixed | UNVR/ICBP/INDF/MYOR/SIDO |
+| Telco | STABILIZING | TLKM EGM Sep 30 T-8 fiber-spinoff; XLSmart/ISAT capex-raise; FADE-ON-BEAT MEDIUM Wk 23 obs-8 window | TLKM/EXCL/ISAT |
+| Auto / Industrial | STABILIZING | ASII buyback Day-17 absorption; Brent Day-3 back to $100 neutralizes COGS relief | ASII/UNTR |
+| Infrastructure | DOWN | Rate-sensitive + sovereign overhang | JSMR/WSKT/PTPP/ADHI |
+
+### Corporate Calendar Tue Sep 22 → Wk 23
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **BI RDG SEP 22-23 T-0 BINARY DECISION** | Big-4 banks / IDR / property | Tue 13:30-14:30 WIB | **FIRST BI RDG UNDER DESTRY DAMAYANTI** — consensus MIXED (Bloomberg: hold 5.75%; some brokers anticipate hike ahead of Fed contagion); dovish-continuity vs surprise-hawkish binary is Wk 23 anchor event; post-decision transmission direction key for banking + property Wed-Thu |
+| TLKM EGM Sep 30 | TLKM | T-8 | Fiber spin-off Phase-2 wholesale infrastructure subsidiary agenda |
+| BMRI ex-div Day-4 T+4 | BMRI | ongoing | Mechanical Rp 66 drop fully absorbed |
+| BBRI post-buyback-expiry Day-9 T+9 | BBRI | ongoing | Buy-flow removal persists; strike-1 sector-watch binding |
+
+_Sources: [IHSG Sep 21 close Databoks](https://databoks.katadata.co.id/pasar/statistik/6ab0fa4576f3e/ihsg-melemah-ke-kisaran-6380-senin-21-september-2026), [BI RDG Sep 22-23 KuCoin](https://www.kucoin.com/news/insight/BTC/6ab0c45e74fd460007c4720b), [Brent Sep 21 tradingeconomics](https://tradingeconomics.com/commodity/brent-crude-oil), [Newcastle coal Sep 18 tradingeconomics](https://tradingeconomics.com/commodity/coal), [CPO Sep 22 palmoileconomics](https://palmoileconomics.com/), [LME nickel Sep 21 tradingeconomics](https://tradingeconomics.com/commodity/nickel), [US Mon record close TheStreet Sep 21](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-21-2026), [Nasdaq record CNBC](https://www.cnbc.com/2026/09/20/stock-market-today-live-updates.html), [VIX Yahoo](https://finance.yahoo.com/quote/%5EVIX/history/), [IDR/USD Pluang](https://pluang.com/en/tools/currency-converter/usd-idr), [Prediksi IHSG Selasa 22 September Investor.id](https://investor.id/market/454938/prediksi-ihsg-dan-rekomendasi-saham-selasa-22-september-2026)._
+
+### Watchlist Scan — All 50 Tickers
+
+**Two-track scoring:** Catalyst track (primary, ≥6 = CANDIDATE); Defensive Quality track (LQ45 mega-cap 5-6 catalyst + P/E or P/B ≥1σ below 10-yr mean).
+
+**Data infra note:** DQG Day 136 outage persists (yfinance + GoAPI blocked since Apr 21). Per-ticker cluster narrowing MOSTLY UNAVAILABLE via bash quote. WebSearch multi-source override operational. Prices below are Mon Sep 21 EOD-reconciled marks (where cluster surfaced) or carry-forward Fri Sep 18 EOD marks (majority — DQG blocks per-ticker fresh multi-source narrowing).
+
+| # | Ticker | Sector | Price (approx) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | 6,275 est. | flat | 6 | Big-4 stable defensive; BI RDG T-0 DECISION DAY; pre-decision positioning; ~+3.28% YTD relative | SKIP (crisis-track gate ACTIVATED) |
+| 2 | BBRI | Banking | 3,290 est. | flat | 6 | Analyst avg TP 3,786 (+15% upside); H1 net +17.5%; post-buyback-expiry Day-9 T+9 | SKIP (crisis-track + strike-1) |
+| 3 | BMRI | Banking | 4,240 est. | flat | 6 | Ex-div Day-4 absorbed; Big-4 defensive; BI RDG T-0 DECISION | SKIP (crisis-track gate ACTIVATED) |
+| 4 | BBNI | Banking | 3,630 est. | flat | 6 | Big-4 stable defensive; BI RDG T-0 DECISION; Fri largest decline | SKIP (crisis-track gate ACTIVATED) |
+| 5 | BNGA | Banking | 1,350 est. | flat | 5 | Smaller bank; BI RDG T-0; less defensive premium | WATCH |
+| 6 | NISP | Banking | 1,350 est. | flat | 5 | Smaller bank; BI RDG T-0 | WATCH |
+| 7 | BBTN | Banking | 1,195 est. | flat | 5 | Rate-sensitive mortgage; BI-RDG T-0 | WATCH |
+| 8 | ADRO | Coal | 1,875 est. | flat | 5 | Coal 2-strike EXIT binds (May 2026 hard-cut) | SKIP (sector-exit) |
+| 9 | ITMG | Coal | 26,275 est. | flat | 5 | Newcastle $144-146 Day-16; sector-exit binds | SKIP (sector-exit) |
+| 10 | PTBA | Coal | 3,080 est. | flat | 6 | Coal 2-strike sector-exit binds regardless | SKIP (sector-exit) |
+| 11 | BUMI | Coal | 212 est. | flat | 4 | Coal tailwind; sector-exit binds | SKIP (sector-exit) |
+| 12 | HRUM | Coal | 915 est. | flat | 4 | Coal export volume down; sector-exit binds | SKIP (sector-exit) |
+| 13 | MEDC | Energy/O&G | 1,575 est. | flat | 6 | Brent Day-3 back to $100 psych border NEUTRAL vs Fri sub-$100 relief; sustains sector-tailwind partial | SKIP (crisis-track gate ACTIVATED) |
+| 14 | PGAS | Gas/Energy | 1,485 est. | flat | 6 | Brent Day-3 back to $100 psych = gas-spread tailwind NEUTRAL | SKIP (crisis-track gate ACTIVATED) |
+| 15 | ANTM | Nickel | 2,750 est. | flat | 6 | MNC Sekuritas BUY tip Fri Sep 18 (gold + nickel); LME sub-$17K Day-12 | SKIP (crisis-track gate ACTIVATED) |
+| 16 | INCO | Nickel | 3,300 est. | flat | 5 | LME sub-$17K; smelter quota cut | WATCH |
+| 17 | MDKA | Nickel | 2,090 est. | flat | 5 | Copper/gold diversification; analyst avg TP 3,885 (+35%); Strong Buy 15 analysts | WATCH |
+| 18 | NCKL | Nickel | 720 est. | flat | 5 | Harita Nickel; MSCI Small Cap removal overhang | WATCH |
+| 19 | MBMA | Nickel | 400 est. | flat | 5 | Merdeka Battery; nickel-EV theme | WATCH |
+| 20 | TINS | Metals/Tin | 1,090 est. | flat | 4 | Tin decoupled from nickel narrative | WATCH |
+| 21 | UNVR | Consumer | 1,700 est. | flat | 6 | Brent Day-3 back to $100 border NEUTRALIZES Fri COGS relief modestly; structural defensive | SKIP (crisis-track gate ACTIVATED) |
+| 22 | ICBP | Consumer | 12,175 est. | flat | 6 | Q2 core beat carryover; Brent Day-3 back to $100 = COGS relief PARTIAL erosion; CPO Day-2 recovery marginal offset | SKIP (crisis-track gate ACTIVATED) |
+| 23 | INDF | Consumer | 8,150 est. | flat | 6 | Sole net-inflow YTD; CPO Day-2 recovery + Brent Day-3 back to $100 = mixed input-cost vectors | SKIP (crisis-track gate ACTIVATED) |
+| 24 | MYOR | Consumer | 2,320 est. | flat | 5 | FMCG; Brent Day-3 back to $100 neutralizes COGS relief partial | WATCH |
+| 25 | SIDO | Consumer | 720 est. | flat | 5 | Herbal/pharma-adjacent; MSCI Small Cap overhang | WATCH |
+| 26 | TLKM | Telco | 2,560 est. | flat | 6 | EGM Sep 30 T-8 fiber-spin-off; FADE-ON-BEAT MEDIUM Wk 23 obs-8 window; Samuel PT 3,300 Day-23 fade | SKIP (crisis-track gate ACTIVATED) |
+| 27 | EXCL | Telco | 1,940 est. | flat | 5 | 2026 capex raised Rp 20T; H1 rev +26%; post-merger execution | WATCH |
+| 28 | ISAT | Telco | 1,835 est. | flat | 5 | 2026 capex raised Rp 13T→23T for 5G; Q2 rev +14%; ARPU +19.5% | WATCH |
+| 29 | MTEL | Telco/Tower | 655 est. | flat | 4 | Tower play; rate-sensitive fair-value dilution | WATCH |
+| 30 | TOWR | Telco/Tower | 730 est. | flat | 4 | Tower play; rate-sensitive | WATCH |
+| 31 | BSDE | Property | 950 est. | flat | 5 | Maybank TP 1,050 BUY; BI-RDG T-0 binary; property -29.65% YTD | WATCH |
+| 32 | CTRA | Property | 810 est. | flat | 5 | Maybank TP 850 BUY; BI 5.75% rate-sensitive | WATCH |
+| 33 | SMRA | Property | 470 est. | flat | 5 | Maybank TP 470 BUY; rate-sensitive | WATCH |
+| 34 | PWON | Property | 410 est. | flat | 5 | Maybank TP 430 BUY; rate-sensitive | WATCH |
+| 35 | GOTO | Tech | 92 est. | flat | 4 | Q2 stabilizing; no acute catalyst | WATCH |
+| 36 | BUKA | Tech | 118 est. | flat | 3 | Struggling; MSCI removed prior review | SKIP |
+| 37 | EMTK | Tech/Media | 435 est. | flat | 4 | Media; small liquidity | WATCH |
+| 38 | ASII | Auto/Industrial | 4,820 est. | flat | 6 | IDR 2T buyback Day-17 absorption; Brent Day-3 back to $100 = import-COGS relief PARTIAL erosion; commodity-halo | SKIP (crisis-track gate ACTIVATED) |
+| 39 | UNTR | Heavy Equipment | 29,700 est. | flat | 5 | Coal-linked; sector-exit spillover | WATCH |
+| 40 | AKRA | Distribution | 1,120 est. | flat | 5 | Fuel distribution; Brent Day-3 back to $100 margin ambiguity | WATCH |
+| 41 | AALI | Plantation | 6,150 est. | flat | 5 | CPO Day-2 recovery back above 4,900 = sole-tailwind partial-restore; MSCI Small Cap overhang | WATCH |
+| 42 | LSIP | Plantation | 705 est. | flat | 5 | CPO Day-2 recovery; daily trading idea | WATCH |
+| 43 | JSMR | Infrastructure | 3,200 est. | flat | 5 | Toll road SOE; rate-sensitive; PDN funding tail | WATCH |
+| 44 | WSKT | Construction | 165 est. | flat | 3 | Removed from Kompas100; balance-sheet distress | SKIP |
+| 45 | PTPP | Construction | 235 est. | flat | 4 | SOE construction; sovereign overhang | WATCH |
+| 46 | ADHI | Construction | 155 est. | flat | 4 | Small-cap SOE contractor | WATCH |
+| 47 | KLBF | Healthcare | 750 est. | flat | 5 | Healthcare defensive; sector-exit binding post-Jul 6 hard-cut | SKIP (sector-exit) |
+| 48 | MIKA | Healthcare | 2,300 est. | flat | 5 | Hospital chain; MSCI Small Cap overhang | WATCH |
+| 49 | SMGR | Cement | 2,850 est. | flat | 4 | Rate-sensitive + demand slack | WATCH |
+| 50 | INTP | Cement | 5,175 est. | flat | 4 | Rate-sensitive + demand slack | WATCH |
+
+**Total scoring ≥6: 13 tickers** — MEDC[6] / PGAS[6] / BBCA[6] / BBRI[6] / BMRI[6] / BBNI[6] / PTBA[6] / ANTM[6] / UNVR[6] / ICBP[6] / INDF[6] / TLKM[6] / ASII[6]. **ALL pre-blocked at market-open per crisis-track engagement gate ACTIVATED + coal 2-strike sector-exit (PTBA).** Zero 7+ scores today. Consumer names (UNVR/ICBP/INDF/ASII) benefit from partial-restored input-cost neutrality but crisis-track override binding — Brent Day-3 back to $100 border NEUTRALIZES Fri sub-$100 COGS relief modestly.
+
+---
+
+### Top Candidates (score ≥ 6, deep-dive)
+
+All 13 candidates ≥6 pre-blocked at market-open per crisis-track engagement gate ACTIVATED. Deep-dive entries carried over from Mon Sep 21 entry (same tickers, same scores, marginal input-cost delta). No candidate scores 7+ today. Delta vs Mon Sep 21: Brent Day-3 back to $100 border partially erodes Fri COGS-relief for consumer/auto cluster (UNVR/ICBP/ASII); CPO Day-2 recovery partial-restore for plantation halo (AALI/LSIP still WATCH). Key binding: **DQG-Day-136 outage persists → per-ticker multi-source ≥3-source ≤4% relaxed cluster narrowing NOT achievable at fresh entry mark → Data Quality Gate structural FAIL for all candidates regardless of catalyst-track scoring** + **crisis-track engagement gate ACTIVATED (0.65-0.90/5 Wk 23 Day 1 CLOSE regression; 4.10-4.35/5 gap binding WIDER) → 0% new-entries permitted** + **PTBA coal sector-exit binds regardless per 2-strike rule**.
+
+**Highest-conviction pre-blocked deep-dive summary (top 3 for reference):**
+
+#### 1. UNVR (6/10) — Consumer staples defensive + Brent Day-3 back to $100 = Fri COGS-relief partial erosion
+- Thesis: UNVR structural defensive premium; Fri Brent sub-$100 psych break = MATERIAL COGS relief partial-neutralized Mon Day-3 back to $100.
+- Trade plan: Entry 1,700 | Stop 1,580 (-7.06%) | Target 1,900 (+11.8%) | R:R 1.67:1 **FAILS ≥2:1 gate**
+- **GATE STATUS: SKIP** — DQG cluster FAIL + crisis-track gate ACTIVATED + R:R fails.
+
+#### 2. ICBP (6/10) — Q2 core beat carryover + Brent Day-3 back to $100 = Fri COGS-relief partial erosion
+- Thesis: ICBP Q2 core profit +50.6% YoY beat + CPO Day-2 recovery + Brent Day-3 back to $100 = mixed input-cost vectors NEUTRAL.
+- Trade plan: Entry 12,175 | Stop 11,325 (-6.98%) | Target 13,500 (+10.9%) | R:R 1.56:1 **FAILS ≥2:1 gate**
+- **GATE STATUS: SKIP** — DQG cluster FAIL + crisis-track gate ACTIVATED + R:R fails.
+
+#### 3. BBCA (6/10) — Big-4 defensive + BI-RDG T-0 DECISION DAY binary event exposure
+- Thesis: BBCA structural Big-4 defensive premium; BI RDG DECISION TODAY exposes to binary hold-vs-hike outcome; pre-decision positioning defensive.
+- Trade plan: Entry 6,275 | Stop 5,835 (-7.01%) | Target 6,800 (+8.37%) | R:R 1.19:1 **FAILS ≥2:1 gate**
+- **GATE STATUS: SKIP** — DQG cluster FAIL + crisis-track gate ACTIVATED + R:R fails + BI-RDG binary event risk on-day discouraged.
+
+_(Remaining 10 candidates (MEDC, PGAS, BBRI, BMRI, BBNI, PTBA, ANTM, INDF, TLKM, ASII) carry-over deep-dive from Mon Sep 21 entry — all SKIP per same triple-gate binding.)_
+
+### Held Position Updates
+
+**No open positions.** Book fully de-risked Day 65 continuation since Mon Jul 6 KLBF hard-cut. 100% cash (IDR 9,716,207,500). Zero equity market exposure Day 65. Crisis-track re-entry gate scoring 0.65-0.90/5 Wk 23 Day 1 CLOSE REGRESSION Day-1. 4.10-4.35/5 gap still binding WIDER.
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — Wk 23 Day 2 — BI-RDG-T-0-BINARY-DECISION-DAY**
+
+- Reasoning: Book fully de-risked Day 65; crisis-track engagement gate ACTIVATED persists (0.65-0.90/5 vs 5/5 threshold, 4.10-4.35/5 gap BINDING WIDER); IDR Day-2 broken 17,830 continuation reversal (sub-17,750 firming Wk 22 Day 19 REVERSED); IHSG Mon RECONCILED -0.88% material downgrade from provisional -0.27%; BI-RDG T-0 binary decision expected 13:30-14:30 WIB Tue — hold 5.75%-vs-surprise-hike-25bp binary is Wk 23 anchor event; US Mon record close (Nasdaq +2.26% record) + Brent Day-3 back to $100 border + VIX 14.93 sustained 14-range partial-DE-ARM = incremental risk-on backdrop but not sufficient to trigger any of 5 re-entry criteria.
+- Position sizing adjustment: **FULL SUSPEND** — 0% new-entries permitted per crisis-track gate; all 13 candidates ≥6 pre-blocked; PTBA coal sector-exit binds regardless.
+
+### Flagged Risks
+
+- **BI-RDG T-0 BINARY DECISION EVENT TODAY (13:30-14:30 WIB)** — first BI RDG under Destry Damayanti; consensus MIXED (Bloomberg hold 5.75%; Nomura hold Sep hike Q4; some brokers Sep-hike ahead-of-Fed-contagion). Both outcomes carry post-decision transmission tail risk: dovish-continuity-hold could FURTHER-BREAK-IDR (hawkish-outcome-avoidance disappointment for IDR-defense); surprise-hike could TIGHTEN CREDIT (banking/property sector re-rate downside). Position defensively; zero exposure best-outcome.
+- **IHSG Mon reconciled -0.88% material downgrade from provisional -0.27%** — 19th cumulative DQG-Day-136 sesi-II-lag confirms sesi II sold off further ~40pts vs sesi I basis on pre-BI-RDG defensive positioning + Krakatau-cooled + IDR-Day-1-broken drag. Retrospective narrative correction: Mon actual much weaker than provisional. Wk 23 Day 2 Tue direction critical.
+- **IDR Day-2 broken continuation 17,830** — sub-17,750 firming Wk 22 Day 19 REVERSED Day-2; criterion (a) IDR CONTINUATION-FIRMING RESET sustained; if BI RDG holds dovish today expect IDR further-break risk.
+- **US-record-close divergence** — Nasdaq record 27,122.09 Mon (+2.26%) + S&P +1.49% did NOT transmit to IHSG Mon (-0.88% reconciled) = Asia diverged from US rally on pre-BI-RDG defensive + local drags; risk that Tue Asia continues defensive-positioning bias regardless of US momentum.
+- **Data Quality Gate Day 136 outage persists** — yfinance + GoAPI blocked; per-ticker multi-source ≥3-source ≤4% relaxed cluster narrowing NOT achievable at fresh entry mark; entry gate structural FAIL for all 13 candidates ≥6.
+
+### Plan for /market-open
+
+- [ ] **NO NEW BUY ENTRIES** — crisis-track engagement gate ACTIVATED (0.65-0.90/5 Wk 23 Day 1 CLOSE regression; 4.10-4.35/5 gap BINDING WIDER); 0% new-entries permitted per Hard Rule CRISIS-TRACK ENGAGEMENT GATE codified 2026-07-17.
+- [ ] **NO SELL ACTIONS** — book fully de-risked Day 65; zero positions to sell/trim.
+- [ ] **09:15 MARKET-OPEN VACUOUS** — 23rd consecutive zero-trade week Day 2; 0/3 BUY-slot week; mechanically vacuous filing.
+- [ ] **11:30 MIDDAY SCAN** — 0 positions to evaluate; vacuous scan.
+- [ ] **13:30-14:30 WIB BI-RDG-T-0 DECISION EVENT MONITORING** — critical binary event; monitor decision + Post-Governor-Destry-press-conference guidance for post-decision transmission direction (banking/property/IDR/foreign-flow).
+- [ ] **15:15 EOD** — 112th session; Wk 23 Day 2 close; Day 65 no-position; BI-RDG-T-0-post-decision cumulative-alpha update.
+
+---

@@ -1715,6 +1715,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-09-22",
+      "day_label": "Day 112 (Wk 23 Day 2 OPEN - BI-RDG-T-0-BINARY-DECISION-DAY)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6384.73,
+      "ihsg_cumulative_pct": -16.37,
+      "alpha_pct": 13.53,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -29032,6 +29047,15 @@
         null,
         null
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "time": "07:00 WIB",
+      "routine": "pre-market",
+      "decision": "NO-BUY (crisis-track gate ACTIVATED + DQG-136 outage + coal sector-exit binds PTBA)",
+      "ticker": null,
+      "action": "HOLD-CASH",
+      "reason": "Book fully de-risked Day 65; 100% cash IDR 9,716,207,500; zero positions; 23rd consecutive zero-trade week Day 2; 0/3 BUY-slot week; all 13 candidates \u22656 pre-blocked per crisis-track engagement gate ACTIVATED 0.65-0.90/5 Wk 23 Day 1 CLOSE regression + DQG-Day-136 per-ticker multi-source cluster FAIL + PTBA coal 2-strike sector-exit binds regardless. BI-RDG T-0 BINARY DECISION event today 13:30-14:30 WIB; zero exposure best-outcome regardless of hold-vs-hike outcome."
     }
   ],
   "stats": {
@@ -29082,53 +29106,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-15T02:17:57Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Wk 13 Day 3 crisis-track engagement gate ACTIVATED (IDR Stage 5 CONFIRMED-HARD-ENGAGED Day 4 at 18,096; Brent shock 6.35 +3.66%; Data Quality Gate Day 78 outage). All 5 WATCH-elevated candidates (MEDC/INDF/AKRA/ASII/TLKM) structurally capped at 5/10 under regime. Book 100% cash IDR 9.72B; 12th consecutive 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "5/10 Brent-shock upside; regime + Data Quality gate FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "5/10 sole net-inflow consumer; regime + CPI hawkish"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "5/10 Q2 T+12; Brent input-cost uncertainty + regime"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "5/10 Q2 T+8; Defensive-Quality track SUSPENDED; heaviest foreign sell"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "5/10 defensive-utility; regime + Data Quality gate FAIL"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 78 outage; MD_LAST_PRICE_OVERRIDE cmd_sell deferral remains overdue-critical"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification fell back to stdout (proxy 403)"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-07-15T04:36:06Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions (100% cash Day 7 post-KLBF cut, Wk 13 Day 3). No cuts, no stop tightens, no thesis exits possible."
-    },
     {
       "timestamp": "2026-07-15T08:19:17Z",
       "routine": "daily-summary",
@@ -34067,6 +34044,84 @@
           "detail": "Day 111 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-22T00:00:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Day 112 Wk 23 Day 2 BI-RDG-T-0: IHSG Mon RECONCILED 6,384.73 (-0.88%) MATERIAL DOWNGRADE from provisional -0.27% (DQG sesi-II-lag 19th cum). US Mon RECORD close Nasdaq +2.26% (27,122 record) S&P +1.49% Dow +0.71% best-day-since-early-August. Brent $100.06 Day-3 back to $100 border. IDR 17,830 Day-2 broken continuation. 13 candidates \u22656 all pre-blocked (crisis-track gate ACTIVATED 0.65-0.90/5; DQG-136 outage; PTBA coal sector-exit). Book fully de-risked Day 65; cum alpha +13.53pp vs IHSG.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 13 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "detail": "All 13 candidates pre-blocked at market-open per crisis-track gate ACTIVATED + DQG-136 outage + PTBA coal sector-exit"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 6/10 \u2014 Consumer staples defensive + Brent Day-3 back to $100 = Fri COGS-relief partial erosion"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 \u2014 Q2 core beat carryover + CPO Day-2 recovery + Brent Day-3 back to $100 = mixed vectors NEUTRAL"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Big-4 defensive + BI-RDG T-0 DECISION DAY binary event exposure"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Mon RECONCILED -0.88% material downgrade from provisional -0.27% (DQG sesi-II-lag 19th cumulative gap -0.61pp)"
+        },
+        {
+          "type": "macro",
+          "detail": "US Mon RECORD close: Nasdaq 27,122.09 record (+2.26%), S&P +1.49%, Dow +0.71% best-day-since-early-August; Asia diverged from US rally on pre-BI-RDG defensive + IDR-Day-1-broken drag"
+        },
+        {
+          "type": "macro",
+          "detail": "BI-RDG T-0 BINARY DECISION EVENT TODAY 13:30-14:30 WIB \u2014 first under Destry Damayanti; hold 5.75% vs surprise-hike-25bp binary"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-22T00:11:12Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Day 112 Wk 23 Day 2 BI-RDG-T-0-BINARY-DECISION-DAY (first under Destry). IHSG Mon RECONCILED 6,384.73 (-0.88%) MATERIAL DOWNGRADE from provisional -0.27% (DQG sesi-II-lag 19th cum, gap -0.61pp). US Mon RECORD close (Nasdaq 27,122 record +2.26%, S&P +1.49%, Dow +0.71% best-day-since-early-August). Brent $100.06 Day-3 back to $100 border from Fri $99.29. IDR 17,830 Day-2 broken continuation. 50 tickers scanned; 13 scored \u22656 (BBCA/BBRI/BMRI/BBNI/PTBA/MEDC/PGAS/ANTM/UNVR/ICBP/INDF/TLKM/ASII); ALL pre-blocked at market-open per crisis-track gate ACTIVATED 0.65-0.90/5 + DQG-136 outage + PTBA coal sector-exit. Book fully de-risked Day 65 continues (IDR 9,716,207,500 100% cash). Cum alpha +13.53pp vs IHSG (Mon reconciled basis).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned; 13 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "detail": "All 13 pre-blocked (crisis-track + DQG-136 + PTBA coal sector-exit)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Big-4 defensive + BI-RDG T-0 binary event exposure"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 6/10 \u2014 Consumer staples defensive + Brent Day-3 back to $100 = Fri COGS-relief partial erosion"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 \u2014 Q2 core beat carryover + CPO Day-2 recovery + Brent Day-3 back to $100 mixed vectors NEUTRAL"
+        },
+        {
+          "type": "macro",
+          "detail": "BI-RDG T-0 BINARY DECISION EVENT TODAY 13:30-14:30 WIB \u2014 first under Destry Damayanti; hold 5.75% vs surprise-hike binary"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -34080,131 +34135,81 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY63-Wk23-Day1-OPEN",
-    "regime_overlay": "BI-RDG-Sep-22-23-T-1/T-0-BINARY-APPROACH-WEEK + FOMC-HAWKISH-HIKE-Day-4-DIGESTION + IDR-17,812-Day-1-BROKEN-vs-Wk-22-Day-19-sub-17,750-firming-reversed + BRENT-$99.29-Day-2-BELOW-$100-PSYCH-CRITERION-A-MATERIAL-EASE + NEWCASTLE-COAL-$144-Day-15-modest-cooling + CPO-4,898-Day-1-slip + VIX-14.81-COOLED-back-into-14-range-DE-ARM-partial + US-10Y-4.94-Day-5-eased + US-Fri-mixed-close-Nasdaq-+0.39% + DQG-Day-135 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-0.90-of-5-Day-1-REGRESSION",
-    "regime_updated": "2026-09-21"
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY64-Wk23-Day2-BI-RDG-T-0-BINARY-DECISION-DAY",
+    "regime_overlay": "BI-RDG-Sep-22-23-T-0-BINARY-DECISION-DAY-first-under-Destry-Damayanti + IHSG-Mon-Sep-21-RECONCILED-6,384.73-(-0.88%-56.43pts)-MATERIAL-DOWNGRADE-from-provisional-6,423.51-(-0.27%)-DQG-Day-136-sesi-II-lag-19th-cumulative-gap--0.61pp + US-Mon-Sep-21-RECORD-CLOSE-Nasdaq-+2.26%-27,122.09-record-S&P-+1.49%-Dow-+0.71%-BEST-DAY-SINCE-EARLY-AUGUST + IDR-17,830-Day-2-BROKEN-CONTINUATION-vs-Mon-17,812-Day-1-broken + BRENT-$100.06-Day-3-BACK-TO-$100-PSYCH-BORDER-from-Fri-$99.29 + NEWCASTLE-COAL-$144-146-Day-16-modest-cooling + CPO-4,929-Day-2-RECOVERY-back-above-4,900-partial-restore-plantation-halo + LME-NICKEL-$16,267-Day-12-sub-$17K + VIX-14.93-slight-uptick-14-range-DE-ARM-partial + US-10Y-4.94-Day-6-eased + DQG-Day-136-outage-persists + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-0.90-of-5-Wk23-Day1-CLOSE-regression-4.10-4.35-gap-BINDING-WIDER-0pct-new-entries-permitted",
+    "regime_updated": "2026-09-22"
   },
   "research": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "holiday": false,
-    "as_of_date": "2026-09-21",
+    "as_of_date": "2026-09-22",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Mon Sep 21 pre-market \u2014 Wk 23 Day 1 OPEN",
-    "ihsg_last": 6441.16,
-    "ihsg_last_label": "Fri Sep 18 sesi II RECONCILED close (Databoks -0.33%)",
-    "idr_usd": 17812,
-    "idr_usd_label": "Sep 19 spot ~17,812 \u2014 broke sub-17,750 firming Day-1",
-    "brent": 99.29,
-    "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day1-OPEN-BI-RDG-T-1/T-0-approach-week"
+    "as_of_label": "Tue Sep 22 pre-market \u2014 Wk 23 Day 2 \u2014 BI-RDG-T-0-BINARY-DECISION-DAY",
+    "ihsg_last": 6384.73,
+    "ihsg_last_label": "Mon Sep 21 RECONCILED close (Databoks -0.88%); MATERIAL DOWNGRADE from provisional -0.27%",
+    "idr_usd": 17830,
+    "idr_usd_label": "Sep 22 spot ~17,830 \u2014 Day-2 BROKEN continuation vs Mon 17,812",
+    "brent": 100.06,
+    "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day2-BI-RDG-T-0-BINARY-DECISION-DAY"
   },
-  "last_updated": "2026-09-21T15:15:00+07:00",
+  "last_updated": "2026-09-22T07:00:00+07:00",
   "market": {
-    "ihsg_close": 6423.51,
-    "ihsg_close_basis": "Mon Sep 21 sesi I provisional (RRI+journalarta+Kompas 3-source cluster); sesi II full-day close pending Tue Sep 22 pre-market reconciliation per DQG-Day-135 sesi-II-lag 18th cumulative",
-    "ihsg_change_pct": -0.27,
-    "ihsg_last": 6423.51,
-    "ihsg_last_label": "Mon Sep 21 sesi I close (-0.27% vs Fri reconciled 6,441.16)",
-    "ihsg_source": "WebSearch multi-source cluster (RRI + journalarta + Kompas + kayonews outlier)"
+    "ihsg_close": 6384.73,
+    "ihsg_close_basis": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative occurrence reconciled Tue Sep 22 pre-market",
+    "ihsg_change_pct": -0.88,
+    "ihsg_last": 6384.73,
+    "ihsg_last_label": "Mon Sep 21 RECONCILED close (-0.88% vs Fri reconciled 6,441.16); Tue Sep 22 sesi I pending",
+    "ihsg_source": "WebSearch Databoks Mon Sep 21 reconciled"
   },
   "pre_market": {
-    "date": "2026-09-21",
-    "day_label": "Day 111 \u2014 Wk 23 Day 1 OPEN \u2014 BI-RDG-Sep-22-23-T-1/T-0-BINARY-APPROACH-WEEK",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY63-Wk23-Day1-OPEN-BI-RDG-Sep-22-23-T-1/T-0-BINARY-APPROACH-WEEK",
-    "regime_reason": "IHSG Fri Sep 18 sesi II RECONCILED 6,441.16 (-0.33%) supersedes provisional 6,439.74; IDR ~17,812 Sep 19 broke sub-17,750 firming Day-1 vs Wk 22 Day 19; Brent $99.29 Day-2 cooling BELOW $100 psych = criterion (a) DEEP-AMPLIFIER material ease; Newcastle coal $144 Day-15 modest cooling from $147 peak; VIX 14.81 cooled back to 14-range from 18.17 mid-Sep = DE-ARM partial; US-10Y 4.94% Day-5 eased from 5.008% peak; US Fri mixed close S&P +0.17% Nasdaq +0.39% Dow -0.18%; DQG-Day-135 outage persists; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~0.65-0.90/5 Day-1 REGRESSION -0.20 to -0.35pp vs Wk 22 Day 5 CLOSE 1.05-1.25/5 via IDR-Day-1-BROKEN offsetting Brent/VIX/US-10Y material-ease; 4.10-4.35/5 gap BINDING WIDER; 0% new-entries permitted",
-    "ihsg_last": 6441.16,
-    "ihsg_last_label": "Fri Sep 18 sesi II RECONCILED close per Databoks 5-source cluster; supersedes provisional 6,439.74",
-    "ihsg_change_pct": -0.33,
-    "idr_usd": 17812,
-    "idr_usd_label": "Sep 19 mid-quote per xe/exchange-rates cluster; sub-17,750 Wk 22 Day 19 firming BROKEN Day-1",
-    "brent_usd": 99.29,
-    "brent_label": "Sep 19 Convex $99.29 (+1.18% vs prior) \u2014 cooled BELOW $100 psych Day-2; Saudi pipeline restore materialised; criterion (a) DEEP-AMPLIFIER material ease",
-    "newcastle_coal_usd": 144.0,
-    "newcastle_coal_label": "Sep 18 tradingeconomics $144 (-0.45%) Day-15 modest cooling from Day-12 $147 peak; coal 2-strike EXIT binds",
-    "lme_nickel_usd": 16225,
-    "lme_nickel_label": "Sep 18 tradingeconomics $16,225 (-0.25%) Day-11 sub-$17K",
-    "cpo_myr": 4898,
-    "cpo_label": "Sep 18 Palm Oil Magazine RM 4,898 (-0.77%) Day-1 slip below 4,900",
-    "vix": 14.81,
-    "vix_label": "Sep 18 CBOE 14.81 (-0.63pt vs Sep 17 15.44) \u2014 cooled BACK INTO 14-range from Wed 18.17 post-FOMC-hike peak = VIX-REGIME-SHIFT-SIGNAL DE-ARMED partial",
+    "date": "2026-09-22",
+    "day_label": "Day 112 \u2014 Wk 23 Day 2 \u2014 BI-RDG-T-0-BINARY-DECISION-DAY-first-under-Destry",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY64-Wk23-Day2-BI-RDG-T-0-BINARY-DECISION-DAY-first-under-Destry-Damayanti-hold-5.75-vs-surprise-hike-binary-expected-13:30-14:30-WIB-IHSG-Mon-Sep-21-RECONCILED-6,384.73-(-0.88pct)-MATERIAL-DOWNGRADE-from-provisional-6,423.51-(-0.27pct)-DQG-Day-136-sesi-II-lag-19th-cumulative-reconciliation-gap--0.61pp-US-Mon-Sep-21-RECORD-CLOSE-S&P-+1.49-Nasdaq-+2.26-27,122.09-record-Dow-+0.71-BEST-DAY-SINCE-EARLY-AUGUST-BRENT-$100.06-Day-3-BACK-TO-$100-PSYCH-BORDER-from-Fri-$99.29-IDR-17,830-Day-2-BROKEN-CONTINUATION-vs-Mon-17,812-Day-1-broken-CPO-4,929-Day-2-recovery-from-Fri-4,898-slip-VIX-14.93-slight-uptick-from-Fri-14.81-US-10Y-4.94-Day-6-eased-NEWCASTLE-COAL-$144-146-Day-16-DQG-Day-136-outage-persists-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.65-0.90-of-5-Wk23-Day1-CLOSE-regression-4.10-4.35-gap-BINDING-WIDER-0pct-new-entries-permitted",
+    "regime_reason": "BI-RDG T-0 binary decision Tue 13:30-14:30 WIB first under Destry; IHSG Mon RECONCILED 6,384.73 (-0.88%) material downgrade from provisional -0.27% (DQG-Day-136 sesi-II-lag 19th cumulative gap -0.61pp downward); US Mon record close Nasdaq 27,122.09 (+2.26%) S&P +1.49% Dow +0.71% best-day-since-early-August but Asia diverged (IHSG -0.88%) on pre-BI-RDG defensive + IDR-Day-1-broken drag; Brent $100.06 Day-3 back to $100 psych border from Fri $99.29 (criterion (a) DEEP-AMPLIFIER material ease NEUTRAL Day-3, no re-arm above $105); IDR 17,830 Day-2 broken continuation vs Mon 17,812 Day-1 (criterion (a) IDR CONTINUATION-FIRMING RESET sustained); CPO MYR 4,929 Day-2 recovery from Fri 4,898 slip back above 4,900 partial-restore plantation halo; LME nickel $16,267 Day-12 sub-$17K; VIX 14.93 slight uptick from Fri 14.81 sustained 14-range DE-ARM-partial; US-10Y 4.94% Day-6 eased from 5.008% peak; Newcastle coal $144-146 Day-16 modest cooling from $147 peak coal 2-strike EXIT still binds; DQG-Day-136 outage persists (yfinance+GoAPI blocked Day 136); CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED 0.65-0.90/5 Wk 23 Day 1 CLOSE regression; 4.10-4.35/5 gap BINDING WIDER; 0% new-entries permitted",
+    "ihsg_last": 6384.73,
+    "ihsg_last_label": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative reconciliation gap -0.61pp",
+    "ihsg_change_pct": -0.88,
+    "idr_usd": 17830,
+    "idr_usd_label": "Sep 22 spot ~17,830 per Pluang/xe cluster; sub-17,750 firming Wk 22 Day 19 REVERSED Day-2; ~+18 further depreciation vs Mon 17,812",
+    "brent_usd": 100.06,
+    "brent_label": "Sep 21 tradingeconomics $100.06 (-3.67% vs Sun) \u2014 back to $100 psych border Day-3 from Fri $99.29; criterion (a) DEEP-AMPLIFIER material ease NEUTRAL Day-3 (no re-arm above $105)",
+    "newcastle_coal_usd": 145.0,
+    "newcastle_coal_label": "Sep 18-21 tradingeconomics ~$144-146 Day-16 modest cooling from Day-12 $147 peak; coal 2-strike EXIT binds",
+    "lme_nickel_usd": 16267,
+    "lme_nickel_label": "Sep 21 tradingeconomics $16,267 (+0.20%) Day-12 sub-$17K",
+    "cpo_myr": 4929,
+    "cpo_label": "Sep 21-22 palmoileconomics/tradingeconomics MYR 4,929 (+0.63%) Day-2 recovery from Fri 4,898 slip; back above 4,900 support",
+    "vix": 14.93,
+    "vix_label": "Sep 21 CBOE ~14.93 (+0.12pt vs Fri 14.81) \u2014 marginal uptick but VIX-REGIME-SHIFT-SIGNAL DE-ARMED partial persists in 14-range",
     "us_10y_yield": 4.94,
-    "us_10y_label": "Sep 19 CNBC/tradingeconomics 4.94% Day-5 eased from 5.008% Wed peak",
-    "sp500_close": 7650.5,
-    "sp500_change_pct": 0.17,
-    "nasdaq_close": 26522.55,
-    "nasdaq_change_pct": 0.39,
-    "dow_close": 51682.64,
-    "dow_change_pct": -0.18,
+    "us_10y_label": "Sep 21 CNBC/tradingeconomics 4.94% Day-6 eased sustained from 5.008% Wed peak",
+    "sp500_close": 7764.7,
+    "sp500_change_pct": 1.49,
+    "nasdaq_close": 27122.09,
+    "nasdaq_change_pct": 2.26,
+    "dow_close": 52048.83,
+    "dow_change_pct": 0.71,
     "watchlist_scanned": 50,
     "candidates_scored_gte_6": 13,
     "top_candidates": [
       {
         "ticker": "UNVR",
         "score": 6,
-        "note": "Consumer defensive + Brent Day-2 below $100 MATERIAL COGS relief; crisis-track blocks"
+        "catalyst": "Consumer staples defensive + Brent Day-3 back to $100 = Fri COGS-relief partial erosion",
+        "status": "SKIP (crisis-track gate ACTIVATED + DQG cluster FAIL + R:R fails)"
       },
       {
         "ticker": "ICBP",
         "score": 6,
-        "note": "Q2 core +50.6% YoY carryover + Brent Day-2 below $100 COGS relief; crisis-track blocks"
-      },
-      {
-        "ticker": "ASII",
-        "score": 6,
-        "note": "IDR 2T buyback Day-16 + Brent Day-2 below $100 import-COGS material relief; crisis-track blocks"
+        "catalyst": "Q2 core beat carryover + Brent Day-3 back to $100 + CPO Day-2 recovery = mixed input-cost vectors NEUTRAL",
+        "status": "SKIP (crisis-track gate ACTIVATED + DQG cluster FAIL + R:R fails)"
       },
       {
         "ticker": "BBCA",
         "score": 6,
-        "note": "Big-4 defensive; BI RDG T-1/T-0 binary Mon-Tue; crisis-track blocks"
-      },
-      {
-        "ticker": "BBRI",
-        "score": 6,
-        "note": "H1 net +17.5%; post-buyback-expiry Day-10; strike-1 sector-watch + crisis-track blocks"
-      },
-      {
-        "ticker": "BMRI",
-        "score": 6,
-        "note": "Ex-div Day-5 absorbed; Big-4 defensive; BI RDG T-1/T-0 binary; crisis-track blocks"
-      },
-      {
-        "ticker": "BBNI",
-        "score": 6,
-        "note": "Big-4 defensive; BI RDG T-1/T-0 binary; crisis-track blocks"
-      },
-      {
-        "ticker": "PTBA",
-        "score": 6,
-        "note": "CGS Intl BUY tip; Newcastle Day-15 tailwind; coal 2-strike sector-exit binds regardless"
-      },
-      {
-        "ticker": "ANTM",
-        "score": 6,
-        "note": "MNC BUY tip Fri (gold+nickel); LME sub-$17K Day-11; crisis-track blocks"
-      },
-      {
-        "ticker": "INDF",
-        "score": 6,
-        "note": "Sole net-inflow YTD; CPO Day-1 slip vs Brent Day-2 cooling mixed; crisis-track blocks"
-      },
-      {
-        "ticker": "TLKM",
-        "score": 6,
-        "note": "EGM Sep 30 T-9 fiber-spinoff; FADE-ON-BEAT MEDIUM obs-7 window opens; crisis-track blocks"
-      },
-      {
-        "ticker": "MEDC",
-        "score": 6,
-        "note": "Brent Day-2 below $100 DOWNGRADE from 7 \u2192 6 (upstream tailwind eroded); crisis-track blocks"
-      },
-      {
-        "ticker": "PGAS",
-        "score": 6,
-        "note": "Brent Day-2 below $100 DOWNGRADE from 7 \u2192 6 (gas-spread tailwind attenuated); crisis-track blocks"
+        "catalyst": "Big-4 defensive + BI-RDG T-0 DECISION DAY binary event exposure",
+        "status": "SKIP (crisis-track gate ACTIVATED + DQG cluster FAIL + R:R fails + BI-RDG binary event risk)"
       }
-    ],
-    "crisis_track_gate_score": "~0.65-0.90/5 Day-1 REGRESSION vs Wk 22 Day 5 CLOSE 1.05-1.25/5",
-    "top_risk": "BI RDG Sep 22-23 T-1/T-0 binary approaches Mon-Tue; consensus mixed (Nomura hold Sep hike Q4); post-FOMC-hike raises IDR-defense hawkish-surprise probability now IDR broke sub-17,750 firming",
-    "plan": "HOLD \u2014 no trades today; crisis-track engagement gate ACTIVATED 0% new-entries; all 13 candidates \u22656/10 pre-blocked"
+    ]
   }
 }
