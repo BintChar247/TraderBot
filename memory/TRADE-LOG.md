@@ -12910,3 +12910,25 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
   18. **Wednesday check-in (Wk 23 Day 3)** — post-BI-RDG-Day-1 transmission window; watch decision-outcome absorption vs pre-decision positioning unwind.
 
 ---
+
+### 2026-09-22 09:15 WIB — MARKET-OPEN VACUOUS (BI-RDG-T-0 DECISION DAY)
+
+- Side: N/A — no orders placed
+- Positions after run: 0 (unchanged)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Equity: IDR 9,716,207,500
+- Trades this week: 0/3 (Wk 23 Day 2 — 23rd consecutive zero-trade week candidate)
+- Regime: DEFENSIVE — INTENSIFIED — Wk 23 Day 2 — BI-RDG-T-0-BINARY-DECISION-DAY
+- Crisis-track engagement gate: ACTIVATED persists — scoring 0.65-0.90/5 Wk 23 Day 1 CLOSE regression; 4.10-4.35/5 gap BINDING WIDER; 0% new-entries permitted per Hard Rule
+- Candidates evaluated ≥6/10: 13 total (BBCA, BBRI, BMRI, BBNI, MEDC, PGAS, ANTM, UNVR, ICBP, INDF, TLKM, ASII, PTBA) — ALL SKIP
+- 9-gate summary (top 3 deep-dives):
+  - **BBCA (6/10)**: SKIP — Gate 5 catalyst documented but crisis-track gate override binding; R:R 1.19:1 fails ≥2:1; BI-RDG binary event-day risk
+  - **UNVR (6/10)**: SKIP — Gate 5 catalyst documented but crisis-track gate override binding; R:R 1.67:1 fails ≥2:1; DQG-136 cluster narrowing FAIL
+  - **ICBP (6/10)**: SKIP — Gate 5 catalyst documented but crisis-track gate override binding; R:R 1.56:1 fails ≥2:1; DQG-136 cluster narrowing FAIL
+- Remaining 10 candidates (MEDC/PGAS/BBRI/BMRI/BBNI/PTBA/ANTM/INDF/TLKM/ASII): SKIP per identical triple-gate binding (crisis-track ACTIVATED + DQG-136 cluster FAIL + R:R ≤2:1 or coal sector-exit for PTBA)
+- MISTAKES.md check: no planned trade matches documented mistake pattern (no trade planned)
+- Eagerness check: PASS — 0/3 default = regime-alignment PASS not gate over-constraint (23rd consecutive zero-trade week candidate; framework 9-week durability + broad-based-risk-off-vindication HIGH-confidence pattern validates 100%-cash posture bilaterally)
+- BI-RDG T-0 monitoring: decision expected 13:30-14:30 WIB; hold-vs-hike binary; zero exposure = best-outcome regardless of outcome
+- Notification: sent via scripts/notify.sh (no-trades path per routine STEP 7)
+
+---

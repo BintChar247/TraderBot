@@ -29056,6 +29056,156 @@
       "ticker": null,
       "action": "HOLD-CASH",
       "reason": "Book fully de-risked Day 65; 100% cash IDR 9,716,207,500; zero positions; 23rd consecutive zero-trade week Day 2; 0/3 BUY-slot week; all 13 candidates \u22656 pre-blocked per crisis-track engagement gate ACTIVATED 0.65-0.90/5 Wk 23 Day 1 CLOSE regression + DQG-Day-136 per-ticker multi-source cluster FAIL + PTBA coal 2-strike sector-exit binds regardless. BI-RDG T-0 BINARY DECISION event today 13:30-14:30 WIB; zero exposure best-outcome regardless of hold-vs-hike outcome."
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive premium; BI-RDG T-0 DECISION DAY exposes to binary hold-vs-hike outcome.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI-RDG T-0 DECISION DAY hold-vs-hike binary"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 2 \u2014 BI-RDG-T-0-BINARY-DECISION-DAY"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.19:1 fails \u22652:1; BI-RDG binary on-day"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 CLOSE 0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.90/5 Wk 23 Day 1 CLOSE regression; 4.10-4.35/5 gap BINDING WIDER); R:R 1.19:1 FAILS \u22652:1 gate; BI-RDG binary event-day risk on-day discouraged; DQG-136 cluster FAIL.",
+      "gate_results": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-09-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples structural defensive; Brent Day-3 back to $100 = Fri COGS-relief partial erosion.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Structural defensive; Brent-relief neutralized"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 2 \u2014 BI-RDG-T-0-BINARY-DECISION-DAY"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.67:1 fails \u22652:1"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 CLOSE 0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.90/5); R:R 1.67:1 FAILS \u22652:1 gate; DQG-136 per-ticker multi-source cluster narrowing NOT achievable at fresh entry mark.",
+      "gate_results": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core profit +50.6% YoY beat + CPO Day-2 recovery + Brent Day-3 back to $100 = mixed input-cost vectors NEUTRAL.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core beat +50.6% YoY carryover"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 2 \u2014 BI-RDG-T-0-BINARY-DECISION-DAY"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.56:1 fails \u22652:1"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track blocked (Wk 23 Day 1 CLOSE 0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.90/5); R:R 1.56:1 FAILS \u22652:1 gate; DQG-136 cluster FAIL.",
+      "gate_results": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
     }
   ],
   "stats": {
@@ -29106,18 +29256,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-15T08:19:17Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-07-15 (Day 63, Wk 13 Day 3): equity IDR 9,716,207,500 flat (0.00%); alpha +0.11% vs IHSG sesi I -0.11%; cash 100%; 0 positions; 0/3 trades this wk; cum alpha +17.68% (+0.09pp recovery from Tue -2.42%); IDR Stage 5 CONFIRMED persists (18,070 intraday still 20 IDR above 18,050 threshold); no risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 63 EOD snapshot appended to TRADE-LOG; RISK-STATE updated (halted=false, dd=-3.1%); dashboard/data.json entry added; Telegram notify fell back to stdout (proxy 403 expected)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-16T00:11:43Z",
       "routine": "pre-market",
@@ -34120,6 +34258,42 @@
         {
           "type": "macro",
           "detail": "BI-RDG T-0 BINARY DECISION EVENT TODAY 13:30-14:30 WIB \u2014 first under Destry Damayanti; hold 5.75% vs surprise-hike binary"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-22T02:18:31Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED (0.65-0.90/5, 4.10-4.35/5 gap BINDING WIDER); all 13 candidates \u22656 pre-blocked; BI-RDG T-0 binary decision day 13:30-14:30 WIB; 23rd consecutive zero-trade week Day 2.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track ACTIVATED + R:R 1.19:1 fails \u22652:1 + BI-RDG binary event-day risk"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "crisis-track ACTIVATED + R:R 1.67:1 fails \u22652:1 + DQG-136 cluster FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track ACTIVATED + R:R 1.56:1 fails \u22652:1 + DQG-136 cluster FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "OTHER_10",
+          "detail": "MEDC/PGAS/BBRI/BMRI/BBNI/PTBA/ANTM/INDF/TLKM/ASII all SKIP per identical triple-gate binding (PTBA coal sector-exit binds regardless)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram proxy 403 CONNECT tunnel failed; stdout fallback used"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
         }
       ]
     }
