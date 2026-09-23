@@ -29924,12 +29924,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-17T00:12:00Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. 0 candidates scored \u22656 (structural ceiling 5/10 under crisis-track engagement gate ACTIVATED persistence Day 6). Top WATCH-elevated 5/10: BMRI (Thu top gainer +2.62% + Fx net buy Rp 90.20B) / BBCA (+1.63% + Fx Rp 40.97B) / BBRI (+1.06%) / BBNI (+1.16%) / MEDC (Brent $80+) / INDF (sole consumer net-inflow) / ASII (Q2 T+6) / AKRA (T+10) / TLKM. Thu foreign flow REVERSAL +Rp 283B all-day = 1-of-2 inflection pending Fri confirm. IDR cluster 18,042-18,064 marginal Stage 5 threshold; 1-source partial DE-ARM signal. 100% cash Day 9 post-KLBF."
-    },
-    {
       "timestamp": "2026-07-17T02:17:24Z",
       "routine": "market-open",
       "status": "warning",
@@ -34958,6 +34952,12 @@
           "detail": "Crisis-track engagement gate ACTIVATED 4.15-4.35/5 gap BINDING WIDER"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-23T04:43:18Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day3 post-BI-RDG-Day-1"
     }
   ],
   "exposure": {
