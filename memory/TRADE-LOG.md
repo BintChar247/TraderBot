@@ -12911,6 +12911,30 @@ Thu Aug 6 sesi I 6,351.34 (Kompas "IHSG Sesi I 6 Agustus 2026 Naik Tipis 0,20 Po
 
 ---
 
+### 2026-09-23 09:15 WIB — MARKET-OPEN VACUOUS (BI-RDG-DECISION-DAY-2 ANNOUNCEMENT DAY)
+
+- Side: N/A — no orders placed
+- Positions after run: 0 (unchanged)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Equity: IDR 9,716,207,500
+- Trades this week: 0/3 (Wk 23 Day 3 — 23rd consecutive zero-trade week candidate)
+- Regime: DEFENSIVE — INTENSIFIED — Wk 23 Day 3 — BI-RDG-DECISION-DAY-2 announcement (13:30-14:30 WIB press conference)
+- Crisis-track engagement gate: ACTIVATED persists — scoring 0.65-0.85/5 Wk 23 Day 3; 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell continuation Tue + IHSG Tue reconciled -1.69% vs provisional -1.01%; 0% new-entries permitted per Hard Rule
+- Candidates evaluated ≥6/10: 13 total (ICBP[7], BBCA/BBRI/BMRI/BBNI/PTBA/MEDC/PGAS/MDKA/UNVR/INDF/ASII/TLKM all [6]) — ALL SKIP
+- 9-gate summary (top 3 deep-dives):
+  - **ICBP (7/10)**: SKIP — Gate 5 catalyst documented (Brent SNAP-BACK $98 Day-1 COGS relief + Q2 core +50.6% YoY beat carryover) but crisis-track gate override binding; R:R 1.35:1 fails ≥2:1; DQG-137 cluster narrowing FAIL
+  - **MEDC (6/10)**: SKIP — upstream tailwind ATTENUATION from Brent SNAP-BACK; R:R 1.77:1 fails ≥2:1; DQG-137 FAIL; crisis-track ACTIVATED
+  - **PGAS (6/10)**: SKIP — gas-spread ATTENUATION; R:R 2.05:1 PASSES ≥2:1 marginal but DQG-137 cluster narrowing FAIL + crisis-track ACTIVATED override
+- Remaining 10 candidates (BBCA/BBRI/BMRI/BBNI/PTBA/MDKA/UNVR/INDF/ASII/TLKM): SKIP per identical triple-gate binding (crisis-track ACTIVATED + DQG-137 cluster FAIL + individual overlays — coal sector-exit PTBA; T-2 pre-earnings avoid MDKA Sep 25 Fri; Q2 MISS ASII; FADE-ON-BEAT MEDIUM confidence TLKM)
+- MISTAKES.md check: no planned trade matches documented mistake pattern (no trade planned)
+- Eagerness check: PASS — 0/3 default = regime-alignment PASS not gate over-constraint (23rd consecutive zero-trade week candidate Day-3; framework 10-week durability + broad-based-risk-off-vindication HIGH-confidence pattern validates 100%-cash posture bilaterally through BI-RDG-Day-2 announcement window)
+- BI-RDG-Day-2 announcement monitoring: press conference 13:30-14:30 WIB Governor Destry Damayanti maiden RDG guidance; consensus 12/14 (85.7%) HOLD 5.75%; 2/14 (14.3%) surprise HIKE +25bp to 6% to defend IDR (17,872 Day-3 BROKEN DEEPER); zero exposure = best-outcome regardless of outcome
+- Environment check: BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING per env check; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK
+- dashboard/data.json decisions[] appended: 13 SKIP entries (ICBP + 12 score-6 candidates); last_updated 2026-09-23T09:15:00+07:00
+- Notification: sent via scripts/notify.sh (no-trades path per routine STEP 7); Telegram proxy 403 stdout fallback anticipated
+
+---
+
 ### 2026-09-22 09:15 WIB — MARKET-OPEN VACUOUS (BI-RDG-T-0 DECISION DAY)
 
 - Side: N/A — no orders placed

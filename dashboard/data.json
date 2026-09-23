@@ -29223,6 +29223,656 @@
         false
       ],
       "routine": "market-open"
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SNAP-BACK $98 Day-1 COGS-relief material + Q2 core beat carryover + sole net-inflow YTD.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 7/10 \u2014 Consumer defensive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.35:1 fails \u22652:1"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive net-sell continuation Tue; BI-RDG-decision-day binary 13:30-14:30 WIB.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Banking Priority 3"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "BI-RDG-decision-day binary"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "LQ45 top loser Tue -1.52%; post-buyback-expiry Day-10; Q2 BEAT H1 NI +17.5% persists.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Banking Priority 2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Post-buyback-expiry tail-risk Day-10"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Net-sell leader Big-4 -Rp 217.7bn Tue; ex-div Day-6 T+6 mechanical Rp 66; H1 +24.19%.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Banking Priority 1"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Big-4 net-sell leader Tue"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive drag; BI-RDG-decision-day binary rate-sensitive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Banking Priority 4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "BI-RDG-decision-day rate binary"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "PTBA",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Analyst top-pick coal; Newcastle $144 Day-17; coal 2-strike sector-exit binds regardless.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Coal EXITED"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Coal sector-exit 2-strike rule"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SNAP-BACK Day-1 upstream tailwind ATTENUATION; sector -1.99% Tue.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Energy/O&G upstream"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.77:1 fails \u22652:1"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SNAP-BACK Day-1 gas-spread ATTENUATION; R:R 2.05:1 PASSES gate marginally.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Gas/Energy utility"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 2.05:1 marginal but DQG+crisis-track block"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Earnings release Sep 25 T-2 Fri; copper/gold diversification; consensus TP 3,885 (+34.89%).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Nickel/copper/gold"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "T-2 pre-earnings avoid + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SNAP-BACK COGS RELIEF material; consumer staples defensive.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Consumer defensive"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED override"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent SNAP-BACK Day-1 CPI-vector deep-amplifier relief + CPO recovery-pause.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Consumer YTD sole net-inflow"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track ACTIVATED override"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IDR 2T buyback Day-21 absorption; Brent SNAP-BACK COGS relief; commodity-halo; Q2 MISS post-Jul-23.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Auto/industrial"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "Q2 MISS + crisis-track ACTIVATED"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Net-sell -Rp 100.3bn Tue; EGM Sep 30 T-7 fiber-spinoff; FADE-ON-BEAT MEDIUM confidence Day-33+ digestion window.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Telco"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 3 \u2014 BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-DAY 13:30-14:30 WIB"
+        },
+        {
+          "type": "risk",
+          "label": "TLKM-FADE-ON-BEAT pattern + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (0.65-0.85/5; 4.15-4.35/5 gap BINDING WIDER)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (0.65-0.85/5 / 4.15-4.35/5 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell Tue + IHSG Tue reconciled -1.69%) blocks all new BUY regardless of ticker score; DQG-Day-137 structural FAIL for entry-mark cluster narrowing.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "routine": "market-open"
     }
   ],
   "stats": {
@@ -29273,22 +29923,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-16T08:20:07Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 64 (Wk13 Day4): IDR 9,716,207,500 (+0.00% today). IHSG sesi I 6,064.46 (-0.06% vs Wed anchor); alpha +0.06%. Cum alpha +17.72%; cum return -2.84%. 100% cash Day 8 post-KLBF; 0/6 positions; 0/3 wk13 trades. IDR Stage 5 CONFIRMED Day 5 (18,062-18,090); crisis-track gate ACTIVATED; no halt triggers.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 64 EOD snapshot appended to TRADE-LOG + dashboard/data.json; RISK-STATE.json updated (halt=false, dd=-3.10%)."
-        },
-        {
-          "type": "notification",
-          "detail": "EOD Telegram fell back to stdout (proxy 403 \u2014 scheduled-run known-issue per prior EOD notes)."
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-17T00:12:00Z",
       "routine": "pre-market",
@@ -34273,6 +34907,57 @@
           "detail": "score 6/10 \u2014 earnings Sep 25 T-2 approach; T-2 pre-earnings avoid"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-23T02:18:13Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk23 Day3 BI-RDG-DECISION-DAY-2 announcement day. 13 candidates \u22656/10 (ICBP[7] + 12 at 6) all SKIP per crisis-track engagement gate ACTIVATED 0.65-0.85/5 (4.15-4.35 gap BINDING WIDER via IDR 17,872 Day-3 BROKEN DEEPER + Big-4 foreign net-sell + IHSG Tue reconciled -1.69%) + DQG-137 structural FAIL + individual overlays (coal exit PTBA; T-2 pre-earnings MDKA; Q2 MISS ASII; FADE-ON-BEAT TLKM). 23rd consecutive zero-trade week candidate Day-3.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Score 7; R:R 1.35:1 fails; crisis-track+DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "Brent SNAP-BACK upstream ATTENUATION; R:R 1.77:1 fails"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "R:R 2.05:1 marginal but DQG+crisis-track override"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA-BBRI-BMRI-BBNI",
+          "detail": "Big-4 BI-RDG-decision-day binary; net-sell continuation"
+        },
+        {
+          "type": "skip",
+          "ticker": "PTBA",
+          "detail": "Coal 2-strike sector-exit binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "T-2 pre-earnings avoid Sep 25 Fri"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR-INDF-ASII-TLKM",
+          "detail": "All crisis-track ACTIVATED override"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-137 outage persists (yfinance+GoAPI blocked 137 sessions); per-ticker cluster narrowing unavailable"
+        },
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED 4.15-4.35/5 gap BINDING WIDER"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -34303,7 +34988,7 @@
     "brent": 98.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day3-BI-RDG-DECISION-DAY-2-CRISIS-TRACK-ACTIVATED-BROKEN-IDR-Day-3-DEEPER"
   },
-  "last_updated": "2026-09-23T07:09:54+07:00",
+  "last_updated": "2026-09-23T09:15:00+07:00",
   "market": {
     "ihsg_close": 6384.73,
     "ihsg_close_basis": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative occurrence reconciled Tue Sep 22 pre-market",
