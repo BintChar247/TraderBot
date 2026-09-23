@@ -1734,19 +1734,19 @@
     },
     {
       "date": "2026-09-23",
-      "day_label": "Day 113 (Wk 23 Day 3 OPEN - BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)",
+      "day_label": "Day 113 (Wk 23 Day 3 EOD - BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6277.04,
-      "ihsg_cumulative_pct": -17.78,
-      "alpha_pct": 14.94,
+      "ihsg_close": 6321.0,
+      "ihsg_cumulative_pct": -17.2,
+      "alpha_pct": 14.36,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "ihsg_close_note": "PRE-MARKET OPEN \u2014 carries Tue Sep 22 RECONCILED close 6,277.04 (-1.69%); Wed sesi I/II update pending intraday + EOD; BI-RDG-DECISION-ANNOUNCEMENT 13:30-14:30 WIB Governor Destry maiden press conference binary event"
+      "ihsg_close_note": "PROVISIONAL EOD ~6,321 (+0.70%) per Trading Economics EOD headline single-source + Bloomberg Technoz sesi I 6,317.46 (+0.64%); Tue Sep 22 RECONCILED 6,277.04 (-1.69%) prior close basis per Kompas.tv+Journalarta+Bloomberg-Technoz+StockWatch multi-source cluster; final PENDING Thu Sep 24 pre-market reconciliation per DQG-Day-137 sesi-II-lag 21st cumulative; ALPHA COMPRESSION EPISODE DAY-1 via IHSG +0.70% on zero-exposure"
     }
   ],
   "positions": [],
@@ -29876,8 +29876,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 111,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 111 counting-trading-days Wk 23 Day 1 OPEN)",
+    "trial_days_elapsed": 113,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 113 counting-trading-days Wk 23 Day 3 EOD BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -29886,8 +29886,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -15.86,
-    "cumulative_alpha_pct": 13.02,
+    "ihsg_cumulative_pct": -17.2,
+    "cumulative_alpha_pct": 14.36,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -29898,22 +29898,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-21",
+    "updated": "2026-09-23",
     "portfolio_value": 9716207500,
-    "alpha_pct": 0.27,
+    "alpha_pct": -0.7,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 13.02,
+    "cumulative_alpha_pp": 14.36,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 111,
-    "last_updated": "2026-09-21T15:15:00+07:00",
+    "day_number": 113,
+    "last_updated": "2026-09-23T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 111,
+    "days_in_trial": 113,
     "week_number": 23,
-    "day_label": "Day 111 (Wk 23 Day 1 OPEN)"
+    "day_label": "Day 113 (Wk 23 Day 3 EOD - BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY64-Wk23-Day1-OPEN-BI-RDG-Sep-22-23-T-0/T-1-BINARY-DECISION-TOMORROW-CRISIS-TRACK-GATE-0.65-0.90-of-5-REGRESSION-Day-1-via-IDR-17,812-BROKEN-Day-1-offsetting-BRENT-$99.29-Day-2-BELOW-$100-MATERIAL-EASE-VIX-COOLED-14.81-US-10Y-4.94pct-eased-ALPHA-EXPANSION-DAY-4-+0.27pp-continuation",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY66-Wk23-Day3-EOD-BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-Governor-Destry-Damayanti-MAIDEN-PRESS-CONFERENCE-BINARY-EVENT-outcome-PENDING-Thu-pre-market-reconciliation-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day3-4.10-4.35-of-5-gap-BINDING-WIDER-ALPHA-COMPRESSION-EPISODE-DAY-1-minus-0.58pp-provisional-via-IHSG-plus-0.70pct-on-zero-exposure-first-compression-day-post-5-day-expansion-run-DQG-Day-137-outage-persists-yfinance+GoAPI-blocked-137-consecutive-sessions",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -29923,67 +29923,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-17T02:17:24Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk13 Day5 Fri. All 9 WATCH-elevated 5/10 candidates (BMRI/BBCA/BBRI/BBNI/MEDC/INDF/TLKM/ASII/AKRA) SKIPPED per crisis-track engagement gate ACTIVATED persistence (IDR Stage 5 Day 6 marginal 18,042-18,064 + Data Quality Gate Day 80 + Brent $84.63 shock overlay + June CPI hawkish). Book 100% cash IDR 9.716B. 13th consecutive 0/3 week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate ACTIVATED; IDR Stage 5 binding"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate + Defensive-Quality Track SUSPENDED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track + strike-1 historical + CPI hawkish"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "crisis-track gate binding"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track + Data Quality Day 80"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "CPI hawkish + Brent-negative-CPI-vector"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "IDR Stage 5 + Data Quality persistent cluster fail"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "Defensive Track SUSPENDED + IDR/Brent COGS negative"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "Brent uncertainty + crisis-track"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 80 outage persists (yfinance+GoAPI blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram delivery 403 proxy blocked; stdout fallback"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-17T04:35:38Z",
       "routine": "midday",
@@ -34958,6 +34897,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day3 post-BI-RDG-Day-1"
+    },
+    {
+      "timestamp": "2026-09-23T08:20:21Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-09-23 Day 113 Wk23 Day3: IDR 9.72B (0.00% today). Alpha -0.70pp vs IHSG (provisional). 0 positions/6; 100% cash; trades 0/3. Cum. return -2.84%; DD -3.10%. 23rd consec zero-trade week candidate Day-3. BI-RDG-Decision-Day-2 announcement completed; outcome pending Thu recon. Alpha compression Day-1 first after 5-day expansion.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 113 EOD snapshot committed (IHSG provisional 6321 +0.70% vs Tue reconciled 6277.04); RISK-STATE + dashboard updated; no risk alerts"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -34988,7 +34939,7 @@
     "brent": 98.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day3-BI-RDG-DECISION-DAY-2-CRISIS-TRACK-ACTIVATED-BROKEN-IDR-Day-3-DEEPER"
   },
-  "last_updated": "2026-09-23T09:15:00+07:00",
+  "last_updated": "2026-09-23T15:15:00+07:00",
   "market": {
     "ihsg_close": 6384.73,
     "ihsg_close_basis": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative occurrence reconciled Tue Sep 22 pre-market",
