@@ -30490,27 +30490,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-20T00:13:25Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 14 Day 1 Mon Jul 20 pre-market. 50-ticker scan complete; ZERO candidates >=6 (structural 5/10 ceiling). Crisis-track engagement gate ACTIVATED persistent + BI RDG Tue-Wed Jul 21-22 binary +25bp consensus + BRENT SHOCK RE-DEEPENING 8.10 on US-Iran military escalation. Foreign flow criterion (d) 2-of-2 CONFIRMED (Fri +Rp 638B / Thu +Rp 283B). NO TRADES.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored >=6 - crisis-track binding"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 5/10 Wk 13 top motor +9.8% but blocked by crisis-track + BI RDG T+1 binary"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-20T02:17:56Z",
       "routine": "market-open",
       "status": "warning",
@@ -35551,6 +35530,12 @@
           "detail": "DQG-Day-138 outage persists yfinance+GoAPI blocked 138 sessions"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-24T04:43:35Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No cuts triggered. 0 open positions; 100% cash."
     }
   ],
   "exposure": {
