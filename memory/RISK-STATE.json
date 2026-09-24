@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY65-Wk23-Day2-BI-RDG-T-0-DECISION-DAY-23RD-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE-Book-de-risked-Day-65-100pct-cash-IHSG-Mon-Sep-21-sesi-II-RECONCILED-6384.73-(-0.88pct)-supersedes-provisional-6423.51-IHSG-Tue-Sep-22-provisional-full-day-EOD-~6320-(-1.01pct)-per-Detik-EOD+4-source-intraday-cluster-final-PENDING-Wed-pre-market-reconciliation-DQG-Day-136-sesi-II-lag-19th-cumulative-BI-RDG-DECISION-outcome-PENDING-Wed-pre-market-first-BI-RDG-under-Destry-Damayanti-consensus-mixed-hold-5.75pct-vs-hike-FED-HIKED-25bp-Wed-Sep-16-Day-6-3.75-4.00pct-hawkish-hike-transmission-digestion-BRENT-back-to-$100-border-Day-3-Fri-COGS-relief-partial-erosion-NEWCASTLE-COAL-$144-Day-16-COAL-2-STRIKE-EXIT-still-binds-IDR-17812-DAY-2-BROKEN-pre-BI-RDG-CPO-MYR-Day-2-recovery-DESTRY-BI-GOV-DOVISH-CONTINUITY-IN-QUESTION-Day-17-BMRI-EX-DIV-Day-4-T+4-BBRI-BUYBACK-EXPIRY-Day-9-post-expiry-ASII-BUYBACK-Day-20-TLKM-EGM-Sep-30-T-8-cum-alpha-plus-14.37pp-Tue-provisional-vs-Mon-reconciled-plus-13.02pp-PLUS-1.35pp-EXPANSION-DAY-5-via-IHSG-minus-1.01pct-on-zero-exposure-Data-Quality-Gate-Day-136-outage-persists-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-0.90-of-5-Wk23-Day2-4.10-4.35-gap-BINDING-WIDER-US-10Y-4.94pct-Day-6-VIX-Day-9-14-range-sustained",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY67-Wk23-Day4-EOD-BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-2-US-10Y-5.11pct-BREAKOUT-highest-since-2007-external-shock-overlay-ACTIVATED-23RD-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE-Book-de-risked-Day-67-100pct-cash-IHSG-Wed-Sep-23-secondary-reconciliation-CNBCI-6364.99-vs-Fortune+Kompas-Thu-open-alt-prev-close-6374.91-0.16pp-gap-DEFERRED-Fri-pre-market-IHSG-Thu-Sep-24-open-6364.98-(-0.16pct-Fortune+Kompas-2-source)-sesi-I-6307.11-(-1.06pct-Warta+CNBCI+Kompas-3-source)-provisional-full-day-EOD-~6308-(-0.90pct)-Investor.id-Dihajar-Bertubi-tubi+4-source-intraday-cluster-final-PENDING-Fri-pre-market-DQG-Day-138-sesi-II-lag-22nd-cumulative-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day4-4.10-4.35-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-1-plus-0.75pp-provisional-via-IHSG-minus-0.90pct-on-zero-exposure-first-expansion-day-post-Wed-1-day-compression-episode-DQG-Day-138-outage-persists-yfinance+GoAPI-blocked-138-consecutive-sessions",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-23"
+  "updated": "2026-09-24"
 }

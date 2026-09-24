@@ -1750,19 +1750,19 @@
     },
     {
       "date": "2026-09-24",
-      "day_label": "Day 114 (Wk 23 Day 4 OPEN - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)",
+      "day_label": "Day 114 (Wk 23 Day 4 EOD - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6364.99,
-      "ihsg_cumulative_pct": -16.62,
-      "alpha_pct": 13.78,
+      "ihsg_close": 6308,
+      "ihsg_cumulative_pct": -17.37,
+      "alpha_pct": 14.53,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "ihsg_close_note": "PRE-MARKET OPEN \u2014 Wed Sep 23 sesi II RECONCILED 6,364.99 (+1.40%) carry; Thu sesi I direction PENDING per BI-HOLD dovish transmission Day-2; DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 consecutive sessions since Apr 21)"
+      "ihsg_close_note": "PROVISIONAL sesi II ~6,308 (-0.90% vs Wed CNBCI reconciled 6,364.99) per Investor.id 'IHSG Dihajar Bertubi-tubi' EOD headline + 4-source intraday cluster (CNBCI 6,311 anjlok >1%, Bloomberg Technoz siang melemah, Jurnas anjlok 67 poin, Kompas 6,308); sesi I 6,307.11 (-1.06%); UST 10Y 5.11% breakout highest-since-2007 external shock overlay ACTIVATED; final PENDING Fri pre-market per DQG-Day-138 sesi-II-lag 22nd cumulative"
     }
   ],
   "positions": [],
@@ -30442,8 +30442,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 113,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 113 counting-trading-days Wk 23 Day 3 EOD BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)",
+    "trial_days_elapsed": 114,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 114 counting-trading-days Wk 23 Day 4 EOD BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -30452,8 +30452,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -17.2,
-    "cumulative_alpha_pct": 14.36,
+    "ihsg_cumulative_pct": -17.37,
+    "cumulative_alpha_pct": 14.53,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -30464,22 +30464,22 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-23",
+    "updated": "2026-09-24",
     "portfolio_value": 9716207500,
-    "alpha_pct": -0.7,
+    "alpha_pct": -0.9,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 14.36,
+    "cumulative_alpha_pp": 14.53,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 113,
-    "last_updated": "2026-09-23T15:15:00+07:00",
+    "day_number": 114,
+    "last_updated": "2026-09-24T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 113,
+    "days_in_trial": 114,
     "week_number": 23,
-    "day_label": "Day 113 (Wk 23 Day 3 EOD - BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)"
+    "day_label": "Day 114 (Wk 23 Day 4 EOD - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY66-Wk23-Day3-EOD-BI-RDG-DECISION-DAY-2-ANNOUNCEMENT-Governor-Destry-Damayanti-MAIDEN-PRESS-CONFERENCE-BINARY-EVENT-outcome-PENDING-Thu-pre-market-reconciliation-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day3-4.10-4.35-of-5-gap-BINDING-WIDER-ALPHA-COMPRESSION-EPISODE-DAY-1-minus-0.58pp-provisional-via-IHSG-plus-0.70pct-on-zero-exposure-first-compression-day-post-5-day-expansion-run-DQG-Day-137-outage-persists-yfinance+GoAPI-blocked-137-consecutive-sessions",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY67-Wk23-Day4-EOD-BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-2-US-10Y-5.11pct-BREAKOUT-highest-since-2007-external-shock-overlay-ACTIVATED-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day4-4.10-4.35-of-5-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-1-plus-0.75pp-provisional-via-IHSG-minus-0.90pct-on-zero-exposure-DQG-Day-138-outage-persists-yfinance+GoAPI-blocked-138-consecutive-sessions",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -30489,68 +30489,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-20T02:17:56Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 14 Day 1. 10 WATCH/WATCH-ELEVATED candidates (BMRI/BBCA/BBRI/BBNI/MEDC/INDF/TLKM/ASII/AKRA/PGAS at 5/10) SKIPPED per crisis-track engagement gate ACTIVATED binding. All 50 tickers structural 5/10 ceiling under quintuple binding (crisis-track + IDR Stage 5 marginal / sub-17,750 gap ~190 IDR + BRENT 8 re-deepening + Data Quality Day 81 + BI RDG T+1 binary Tue-Wed +25bp consensus). Book stays 100% cash IDR 9.72B (13th consecutive 0/3 BUY-slot week trajectory begins).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "5/10 crisis-track ACTIVATED + Defensive Track SUSPENDED"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "5/10 crisis-track ACTIVATED + Data Quality FAIL"
-        },
-        {
-          "type": "warning",
-          "detail": "Book stays 100% cash; 13th consecutive 0/3 BUY-slot week trajectory begins; BI RDG T+1 binary Tue-Wed"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-20T04:36:26Z",
       "routine": "midday",
@@ -35536,6 +35474,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. No cuts triggered. 0 open positions; 100% cash."
+    },
+    {
+      "timestamp": "2026-09-24T08:20:50Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 114 Thu Wk23 Day4: IDR 9.72B (0.00%). Alpha +0.90pp vs IHSG -0.90% (prov ~6,308). 0 positions; 100% cash; 0/3 trades this week (23rd consecutive zero-trade week candidate). US-10Y 5.11% breakout external shock overlay ACTIVATED. Cum alpha +14.53pp.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 114 EOD snapshot committed; alpha expansion re-episode Day-1 (+0.75pp)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -35549,9 +35499,9 @@
   },
   "macro": {
     "regime": "DEFENSIVE",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY64-Wk23-Day2-BI-RDG-T-0-BINARY-DECISION-DAY",
-    "regime_overlay": "BI-RDG-Sep-22-23-T-0-BINARY-DECISION-DAY-first-under-Destry-Damayanti + IHSG-Mon-Sep-21-RECONCILED-6,384.73-(-0.88%-56.43pts)-MATERIAL-DOWNGRADE-from-provisional-6,423.51-(-0.27%)-DQG-Day-136-sesi-II-lag-19th-cumulative-gap--0.61pp + US-Mon-Sep-21-RECORD-CLOSE-Nasdaq-+2.26%-27,122.09-record-S&P-+1.49%-Dow-+0.71%-BEST-DAY-SINCE-EARLY-AUGUST + IDR-17,830-Day-2-BROKEN-CONTINUATION-vs-Mon-17,812-Day-1-broken + BRENT-$100.06-Day-3-BACK-TO-$100-PSYCH-BORDER-from-Fri-$99.29 + NEWCASTLE-COAL-$144-146-Day-16-modest-cooling + CPO-4,929-Day-2-RECOVERY-back-above-4,900-partial-restore-plantation-halo + LME-NICKEL-$16,267-Day-12-sub-$17K + VIX-14.93-slight-uptick-14-range-DE-ARM-partial + US-10Y-4.94-Day-6-eased + DQG-Day-136-outage-persists + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-0.90-of-5-Wk23-Day1-CLOSE-regression-4.10-4.35-gap-BINDING-WIDER-0pct-new-entries-permitted",
-    "regime_updated": "2026-09-22"
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY67-Wk23-Day4-EOD-BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW-US-10Y-5.11pct-BREAKOUT-EXTERNAL-SHOCK-OVERLAY-ACTIVATED",
+    "regime_overlay": "BI-RDG-Sep-23-DECISION-hold-5.75pct-dovish-continuity-Destry-Damayanti-maiden-RDG-absorption-Day-2 + US-10Y-5.11pct-BREAKOUT-highest-since-2007-external-shock-Thu-Sep-24-transmission-Day-1 + IHSG-Wed-Sep-23-secondary-reconciliation-CNBCI-6,364.99-vs-Fortune+Kompas-Thu-open-alt-prev-close-6,374.91-0.16pp-gap-DEFERRED-Fri-pre-market + IHSG-Thu-Sep-24-sesi-I-6,307.11-(-1.06pct-472-decline-3-source-cluster) + IHSG-Thu-provisional-EOD-~6,308-(-0.90pct)-Investor.id-Dihajar-Bertubi-tubi + BRENT-Day-5-monitoring-pending + IDR-Thu-monitoring-pending-post-UST-5.11pct-breakout + NEWCASTLE-COAL-Day-18-COAL-2-STRIKE-EXIT-still-binds + LME-NICKEL-Day-14-sub-$17K + VIX-Day-11-monitoring-pending + Fed-Day-8-hawkish-25bp-transmission-confirmed-via-UST-5.11pct-breakout + DQG-Day-138-outage-persists + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.65-0.90-of-5-Wk23-Day4-unchanged-4.10-4.35-gap-BINDING-WIDER-0pct-new-entries-permitted",
+    "regime_updated": "2026-09-24"
   },
   "research": {
     "date": "2026-09-23",
@@ -35566,14 +35516,14 @@
     "brent": 98.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk23-Day3-BI-RDG-DECISION-DAY-2-CRISIS-TRACK-ACTIVATED-BROKEN-IDR-Day-3-DEEPER"
   },
-  "last_updated": "2026-09-23T15:15:00+07:00",
+  "last_updated": "2026-09-24T15:15:00+07:00",
   "market": {
-    "ihsg_close": 6384.73,
-    "ihsg_close_basis": "Mon Sep 21 RECONCILED close per Databoks (-0.88% -56.43pts vs Fri 6,441.16); MATERIAL DOWNGRADE from Mon provisional 6,423.51 (-0.27%); DQG-Day-136 sesi-II-lag 19th cumulative occurrence reconciled Tue Sep 22 pre-market",
-    "ihsg_change_pct": -0.88,
-    "ihsg_last": 6384.73,
-    "ihsg_last_label": "Mon Sep 21 RECONCILED close (-0.88% vs Fri reconciled 6,441.16); Tue Sep 22 sesi I pending",
-    "ihsg_source": "WebSearch Databoks Mon Sep 21 reconciled"
+    "ihsg_close": 6308,
+    "ihsg_close_basis": "Thu Sep 24 PROVISIONAL sesi II ~6,308 per Investor.id 'IHSG Dihajar Bertubi-tubi' EOD headline + 4-source intraday cluster; sesi I 6,307.11 (-1.06%); UST 10Y 5.11% breakout highest-since-2007 external shock overlay ACTIVATED; DQG-Day-138 sesi-II-lag 22nd cumulative \u2014 final PENDING Fri pre-market",
+    "ihsg_change_pct": -0.9,
+    "ihsg_last": 6308,
+    "ihsg_last_label": "Thu Sep 24 PROVISIONAL close ~6,308 (-0.90% vs Wed CNBCI reconciled 6,364.99); UST 10Y 5.11% breakout external shock overlay",
+    "ihsg_source": "WebSearch multi-source Thu Sep 24 provisional (Investor.id EOD + CNBCI + Kompas + Warta Financial + Bloomberg Technoz + Jurnas cluster)"
   },
   "pre_market": {
     "date": "2026-09-23",
