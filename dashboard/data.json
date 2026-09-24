@@ -1734,19 +1734,35 @@
     },
     {
       "date": "2026-09-23",
-      "day_label": "Day 113 (Wk 23 Day 3 EOD - BI-RDG-DECISION-DAY-2-ANNOUNCEMENT)",
+      "day_label": "Day 113 (Wk 23 Day 3 EOD - BI-RDG-DECISION-DAY-2 RECONCILED)",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6321.0,
-      "ihsg_cumulative_pct": -17.2,
-      "alpha_pct": 14.36,
+      "ihsg_close": 6364.99,
+      "ihsg_cumulative_pct": -16.62,
+      "alpha_pct": 13.78,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "ihsg_close_note": "PROVISIONAL EOD ~6,321 (+0.70%) per Trading Economics EOD headline single-source + Bloomberg Technoz sesi I 6,317.46 (+0.64%); Tue Sep 22 RECONCILED 6,277.04 (-1.69%) prior close basis per Kompas.tv+Journalarta+Bloomberg-Technoz+StockWatch multi-source cluster; final PENDING Thu Sep 24 pre-market reconciliation per DQG-Day-137 sesi-II-lag 21st cumulative; ALPHA COMPRESSION EPISODE DAY-1 via IHSG +0.70% on zero-exposure"
+      "ihsg_close_note": "RECONCILED sesi II 6,364.99 (+1.40%) per CNBCIndonesia multi-source (sesi I 6,317.46 +0.64% \u2192 sesi II +1.40% post-BI-HOLD-5.75pct decision 13:30-14:30 WIB Destry MAIDEN RDG press conference DOVISH-CONTINUITY-CONFIRMED)"
+    },
+    {
+      "date": "2026-09-24",
+      "day_label": "Day 114 (Wk 23 Day 4 OPEN - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6364.99,
+      "ihsg_cumulative_pct": -16.62,
+      "alpha_pct": 13.78,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "PRE-MARKET OPEN \u2014 Wed Sep 23 sesi II RECONCILED 6,364.99 (+1.40%) carry; Thu sesi I direction PENDING per BI-HOLD dovish transmission Day-2; DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 consecutive sessions since Apr 21)"
     }
   ],
   "positions": [],
@@ -29924,12 +29940,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-17T04:35:38Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions (100% cash IDR 9.716B). Book fully de-risked; no midday actions required."
-    },
-    {
       "timestamp": "2026-07-17T08:19:52Z",
       "routine": "daily-summary",
       "status": "success",
@@ -34907,6 +34917,37 @@
         {
           "type": "research",
           "detail": "Day 113 EOD snapshot committed (IHSG provisional 6321 +0.70% vs Tue reconciled 6277.04); RISK-STATE + dashboard updated; no risk alerts"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-24T00:08:11Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 11 candidates \u22656/10 (ASII, MEDC, PGAS, BBCA, BBRI, BMRI, UNVR, ICBP, INDF, BSDE, CTRA). All SKIP: crisis-track gate ACTIVATED persists (~1.10-1.35/5 partial firming from Wk23-Day3-close 0.65-0.90/5 via BI-HOLD 5.75% dovish + IHSG sesi II +1.40% recovery to 6,364.99 + IDR 17,810 firming toward 17,750 criterion) + DQG-Day-138 structural FAIL. 23rd consecutive zero-trade week Day-4.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "11 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "ASII",
+          "detail": "score 6/10 \u2014 IDR-2T-buyback Day-22 + 8.16% div-yield + BI-HOLD dovish tailwind"
+        },
+        {
+          "type": "research",
+          "ticker": "MEDC",
+          "detail": "score 6/10 \u2014 Brent $101 Day-8 upstream tailwind"
+        },
+        {
+          "type": "research",
+          "ticker": "PGAS",
+          "detail": "score 6/10 \u2014 Brent Day-8 gas-spread tailwind"
         }
       ]
     }
