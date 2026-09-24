@@ -29889,6 +29889,556 @@
         false
       ],
       "routine": "market-open"
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive quality; BI-HOLD dovish-continuity; div-yield support; foreign SELL continuation risk.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 BI-HOLD-dovish + defensive-track re-check candidate"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Foreign SELL Big-4 continuation Wed; crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Q2 BEAT digestion; post-buyback Day-11 buy-flow removal; foreign SELL -Rp128bn Wed continuation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 post-buyback Day-11 + BI-HOLD"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Post-buyback bid-floor removal + foreign SELL"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 growth leader H1 +24.19%; ex-div T+6 mechanical absorption; foreign SELL Wed continuation.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 ex-div T+6 mechanical absorbed"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Foreign SELL Big-4 continuation + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "MEDC",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Upstream E&P Brent Day-8 SPIKE >$100 revenue-share tailwind persist; Q3 print approaches.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Brent $101 Day-8 SPIKE upstream tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 1.77:1 FAILS \u22652:1 gate + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Gas utility Brent-linked spread; Brent $101 Day-8 gas-spread tailwind confirmed-persist; P/E ~5.5x cheap.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Brent Day-8 gas-spread tailwind + P/E 5.5x"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "R:R 2.05:1 PASSES but DQG FAIL + crisis-track blocks"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer defensive; IDR firming import relief mixed w/ Brent $101 COGS drag net-neutral.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 IDR firming import relief"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Brent $101 COGS drag net-neutral + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Noodles resilient Q2 core +50.6% YoY beat; IDR firming import relief; Brent COGS drag mixed.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Q2 core +50.6% + IDR firming"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Brent $101 COGS drag + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP parent; IDR firming import relief; sole net-inflow YTD relative-resilience; Brent COGS drag.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 sole net-inflow YTD + IDR firming"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Brent $101 CPI-vector NEGATIVE + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BSDE",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BSD City property tailwind post-BI-HOLD-dovish-continuity; sub-1,000 IDR liquidity check needed.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 BI-HOLD dovish property tailwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Sub-1000 IDR liquidity + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "CTRA",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Ciputra property; BI-HOLD dovish continuity + pre-sales stable; sub-1,000 liquidity check.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 BI-HOLD + pre-sales stable"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Sub-1000 IDR liquidity + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "ASII",
+      "action": "SKIP",
+      "date": "2026-09-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "IDR 2T buyback Day-22 absorption technical floor; 8.16% div-yield defensive; BI-HOLD + IDR-firming supports.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 IDR 2T buyback Day-22 + 8.16% div-yield"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Wk 23 Day 4 \u2014 BI-RDG-DECISION-DAY-3-TRANSMISSION; BI HELD 5.75% DOVISH-CONTINUITY-CONFIRMED"
+        },
+        {
+          "type": "risk",
+          "label": "Q2 MISS overhang + crisis-track"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-138 outage persists (yfinance+GoAPI blocked 138 sessions); per-ticker cluster narrowing unavailable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate ACTIVATED (~1.10-1.35/5 partial-firming; 3.65-3.90/5 gap BINDING WIDE via IDR 17,810 Thu directional-firm-Day-1 NOT SUSTAINED-3-of-3 + Big-4 foreign net-SELL Wed sesi I continuation + US-10Y 5.12% 19-yr-high surge + Brent $101 Day-8 SPIKE) blocks all new BUY per Hard Rule regardless of ticker score; DQG-Day-138 structural FAIL for entry-mark cluster narrowing.",
+      "routine": "market-open",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
     }
   ],
   "stats": {
@@ -29939,22 +30489,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-17T08:19:52Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk13 Day5 FINAL: Equity IDR 9.716B (+0.00% day). IHSG sesi I +1.28% = alpha \u22121.28% single-day compression breaks Wed/Thu 2-day stabilisation. Cum alpha \u22121.01pp Thu +17.72% \u2192 Fri +16.71%. Wk 13 FINAL 0/3 slots used (12th consecutive 0/3 week formalised at 16:00 WIB weekly-review). 100% cash Day 9 post-KLBF. No halt triggers.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 65 Wk13 Day5 EOD snapshot committed"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram tunnel 403 \u2014 stdout fallback used per scheduled-run expectation"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-20T00:13:25Z",
       "routine": "pre-market",
@@ -34948,6 +35482,73 @@
           "type": "research",
           "ticker": "PGAS",
           "detail": "score 6/10 \u2014 Brent Day-8 gas-spread tailwind"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-24T02:18:35Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk23 Day4. All 11 score-6 candidates (BBCA/BBRI/BMRI/MEDC/PGAS/UNVR/ICBP/INDF/BSDE/CTRA/ASII) SKIP per Crisis-track engagement gate ACTIVATED (~1.10-1.35/5; 3.65-3.90/5 gap BINDING) + DQG-Day-138 structural FAIL. 23rd consecutive zero-trade week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "post-buyback Day-11 + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "ex-div T+6 + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "MEDC",
+          "detail": "Brent tailwind but R:R 1.77:1 fails + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "Brent tailwind + crisis-track blocks"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "IDR firming vs Brent COGS + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "Q2 core +50.6% + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "sole net-inflow YTD + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BSDE",
+          "detail": "BI-HOLD property + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "CTRA",
+          "detail": "BI-HOLD property + crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "ASII",
+          "detail": "IDR 2T buyback Day-22 + crisis-track"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-138 outage persists yfinance+GoAPI blocked 138 sessions"
         }
       ]
     }
