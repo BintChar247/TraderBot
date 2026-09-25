@@ -1756,13 +1756,29 @@
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 6308,
-      "ihsg_cumulative_pct": -17.37,
-      "alpha_pct": 14.53,
+      "ihsg_close": 6298.6,
+      "ihsg_cumulative_pct": -17.49,
+      "alpha_pct": 14.65,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "ihsg_close_note": "PROVISIONAL sesi II ~6,308 (-0.90% vs Wed CNBCI reconciled 6,364.99) per Investor.id 'IHSG Dihajar Bertubi-tubi' EOD headline + 4-source intraday cluster (CNBCI 6,311 anjlok >1%, Bloomberg Technoz siang melemah, Jurnas anjlok 67 poin, Kompas 6,308); sesi I 6,307.11 (-1.06%); UST 10Y 5.11% breakout highest-since-2007 external shock overlay ACTIVATED; final PENDING Fri pre-market per DQG-Day-138 sesi-II-lag 22nd cumulative"
+      "ihsg_close_note": "RECONCILED sesi II close 6,298.6 (-1.2%) per Fri Sep 25 pre-market multi-source (TheStreet/Investor.id/MNC-Sekuritas cluster); supersedes Thu provisional 6,308; DQG-Day-138 sesi-II-lag 22nd cumulative RESOLVED; UST 10Y 5.11% breakout highest-since-2007 external shock overlay Day-1"
+    },
+    {
+      "date": "2026-09-25",
+      "day_label": "Day 115 (Wk 23 Day 5 OPEN - Weekly Review Fri)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": null,
+      "alpha_pct": null,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "OPEN pending Fri sesi I 09:00 WIB print + sesi II 15:00 WIB close; Fri predicted test range 6,186-6,258 (MNC Sekuritas + Investor.id analyst consensus); crisis-track engagement gate ACTIVATED persists ~0.90-1.15/5 partial-fade Wk 23 close via Brent $107 deep amplification + IDR 17,865 Day-1 reversal + UST 10Y 5.12% Day-2 breakout; DQG-Day-139 outage persists yfinance+GoAPI blocked 139 consecutive sessions; MDKA Q3 earnings TODAY direct catalyst; 23rd consecutive zero-trade week Day-5 CLOSE; Weekly Review 16:00 WIB gating"
     }
   ],
   "positions": [],
@@ -30490,12 +30506,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-20T04:36:26Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy. No cuts triggered. Book 100% cash Day 10 post-KLBF (IDR 9,716,207,500); zero open positions, sell-side rules N/A."
-    },
-    {
       "timestamp": "2026-07-20T08:20:25Z",
       "routine": "daily-summary",
       "status": "success",
@@ -35484,6 +35494,31 @@
         {
           "type": "research",
           "detail": "Day 114 EOD snapshot committed; alpha expansion re-episode Day-1 (+0.75pp)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T00:06:41Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 23 Day 5 CLOSE + Weekly Review Fri. 50-ticker scan complete. 11 tickers score \u22655, 1 \u22657 (BBRI Q2 BEAT). ALL SKIP-CRISIS-TRACK. Brent $107 DEEP AMPLIFICATION + IDR 17,865 Day-1 reversal + UST 5.12% Day-2 breakout + foreign net-sell -Rp987bn Thu heavy. Gate ~0.90-1.15/5. DQG-Day-139 structural FAIL.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "11 tickers score \u22655, 0 promoted CANDIDATE"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 Q2 BEAT H1 NI +17.5% post-buyback-expiry Day-12 SKIP-CRISIS-TRACK"
+        },
+        {
+          "type": "risk",
+          "detail": "Brent $107 DEEP AMPLIFICATION Day-1 from $101 Thu; IDR 17,865 Fri Day-1 reversal; UST 5.12% Day-2 breakout; foreign net-sell -Rp987bn Thu heavy"
         }
       ]
     }
