@@ -30455,6 +30455,411 @@
         false,
         false
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Q2 BEAT H1 NI +17.5%; NIM 8.0% micro-lending intact; post-buyback-expiry Day-12 tail-risk observation window",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI-HOLD-5.75% Destry-dovish-continuity absorbed Day-3; foreign flow criterion (d) 0/5 FAIL structural blocker"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap binding) + DQG-Day-139 structural FAIL block all buy-side gate checks; R:R untestable per DQG; 23rd consecutive zero-trade week",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive; premium multiple ~P/E 22x; foreign-flow front-runner",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI-HOLD dovish-continuity absorbed Day-3; no fresh idiosyncratic catalyst Wk 23"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 structural FAIL; foreign-flow criterion (d) FAIL deeper on Thu -Rp987bn net-sell; no cluster narrowing achievable",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Q2 strongest growth H1 +24.19%; consensus TP 5,845 (+16.4%); ex-div Rp 66 Day-7 T+7 absorbed",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Div-yield front-run window expired Sep 16; post-ex-div mechanical drop absorbed"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; BMRI led Thu foreign net-sell -Rp237bn = heavy distribution; R:R 1.62:1 last tested <2:1 gate FAIL",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Priority-4; foreign-flow participation follower",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "No fresh idiosyncratic Wk 23; BI-HOLD absorbed with sector"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; sector-halo pre-blocked with BBCA/BBRI/BMRI stack",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive utility; Abadi LNG HoA catalyst 22+ wks stale; Brent $107 upstream margin-tailwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $107 deep amplification Day-1 upstream tailwind; no cluster narrowing available"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; catalyst too stale to trigger conviction upgrade; per TRADING-STRATEGY.md gated on cluster narrowing + crisis-track lift + R:R \u2265 2:1",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Nickel; Q3 earnings direct catalyst today; LME nickel $16,420 Day-15 sub-$17K headwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 earnings release today \u2014 direct catalyst but pre-blocked"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL + coal-EXITED sector-overlap + nickel sub-$17K headwind; even direct earnings catalyst cannot override 0% new-entries rule",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer staples; Q2 core profit +50.6% YoY BEAT persists; noodle-defensive",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $107 deep amplification COGS drag Day-1 CPI-vector NEGATIVE amplification"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; Brent-$107 COGS-drag amplifier + IDR Fri 17,865 reversal import-COGS headwind",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD relative-resilience; ICBP parent; consumer staples",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $107 CPI-negative amplifier + Trump 10% Indonesia tariff mixed vector"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; Brent-$107 COGS-drag + IDR reversal + Trump-tariff Day-55 export/import mixed vector",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-25",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco Q2 BEAT +28% YoY confirmed Aug 5 + spectrum-win Wk 20; EGM Sep 30 T-5 fiber-spin-off news-flow",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Samuel PT 3,300 Day-23 fade; TLKM-FADE-ON-BEAT-vs-EBITDA-BEAT pattern MEDIUM confidence"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-68; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap binding)"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-139 structural FAIL (yfinance+GoAPI blocked 139 sessions)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; 23rd consecutive zero-trade week)"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED + DQG-Day-139 FAIL; TLKM Thu foreign net-sell -Rp77bn continues distribution; TLKM-FADE pattern MEDIUM confidence per Wk 21 promotion 6-observation cluster",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -30505,18 +30910,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-20T08:20:25Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 14 Day 1: IDR 9,716,207,500 (+0.00%). IHSG sesi I +1.42% \u2192 daily alpha \u22121.42%. Cum alpha +15.57% (\u22121.14pp from Fri +16.71%). 0 positions, 100% cash Day 10 post-KLBF. Trades this week 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 66 EOD snapshot committed; Wk 14 Day 1 alpha compression -1.42%"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-21T00:13:03Z",
       "routine": "pre-market",
@@ -35519,6 +35912,59 @@
         {
           "type": "risk",
           "detail": "Brent $107 DEEP AMPLIFICATION Day-1 from $101 Thu; IDR 17,865 Fri Day-1 reversal; UST 5.12% Day-2 breakout; foreign net-sell -Rp987bn Thu heavy"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-09-25T02:17:51Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 9 candidates (score\u22655) all SKIP: BBRI/BBCA/BMRI/BBNI (banking) + PGAS + MDKA + ICBP/INDF (consumer) + TLKM (telco). All pre-blocked by crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap binding) + DQG-Day-139 structural FAIL. 23rd consecutive zero-trade week (Day-5 CLOSE).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate + DQG FAIL; R:R 1.62:1 <2:1"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track gate + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track gate + DQG FAIL; Abadi LNG 22wk stale"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "crisis-track gate + DQG FAIL; Q3 earnings direct-catalyst pre-blocked"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate + DQG FAIL; Brent-$107 COGS drag"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track gate + DQG FAIL; Brent-$107 COGS drag + IDR reversal"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track gate + DQG FAIL; TLKM-FADE pattern MEDIUM"
         }
       ]
     }
