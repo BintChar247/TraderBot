@@ -30911,49 +30911,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-21T00:13:03Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 14 Day 2 (Tue) BI RDG T-0 BINARY. Scanned 50 tickers. ZERO \u22656 candidates (structural 5/10 ceiling). Regime DEFENSIVE-INTENSIFIED-CASCADE-CONFIRMED-DAY12; IDR Stage 5 RE-DEEPENED Tue 18,188; BRENT SHOCK RE-INTENSIFYING $90.26 open $91.41 intraday; foreign flow Mon sesi I NET SELL Rp 302B breaks 2-of-2. Book 100% cash. No trades.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 0 \u22656 (5/10 ceiling)"
-        },
-        {
-          "type": "research",
-          "detail": "IDR Stage 5 RE-DEEPENED Tue 18188 forecast; sub-17750 3-of-3 unreachable this wk"
-        },
-        {
-          "type": "research",
-          "detail": "Brent RE-INTENSIFYING $90-91 intraday from Mon $88"
-        },
-        {
-          "type": "research",
-          "detail": "Foreign flow Mon sesi I NET SELL Rp 302B breaks Thu-Fri 2-of-2 inflection"
-        },
-        {
-          "type": "warning",
-          "detail": "BI RDG BINARY T-0 today + T+1 Wed; consensus split hold vs +25bp"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10 crisis-track ACTIVATED; Mon top disposal"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "5/10 crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "5/10 blocked despite Brent $90+ direct upside"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-21T02:16:49Z",
       "routine": "market-open",
       "status": "warning",
@@ -35967,6 +35924,12 @@
           "detail": "crisis-track gate + DQG FAIL; TLKM-FADE pattern MEDIUM"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-25T04:43:16Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day5 CLOSE post-BI-HOLD-transmission Day-3"
     }
   ],
   "exposure": {

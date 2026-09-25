@@ -13264,3 +13264,28 @@ _(none — book fully de-risked Day 67 since Mon Jul 6 KLBF hard-cut; 100% cash 
   17. **Weekly Review Fri 16:00 WIB** — cumulative alpha ledger reconciliation + regime label refresh + optional TRADING-STRATEGY.md revision + WEEKLY-REVIEW.md new entry.
 
 ---
+
+### 2026-09-25 11:30 WIB — MIDDAY SCAN NO-ACTION (Wk 23 Day 5 CLOSE / FRI — BI-RDG-DECISION-DAY-4-TRANSMISSION-WINDOW + Wk 23 CLOSE + Weekly Review 16:00 WIB gating; n=0 positions, mechanically vacuous)
+
+- Side: N/A — no orders placed
+- Positions before run: 0 | Positions after run: 0 (unchanged)
+- Cash: IDR 9,716,207,500 (100% of equity)
+- Equity: IDR 9,716,207,500
+- Realised P&L: -294,172,500 unchanged | Unrealised P&L: 0 (no exposure)
+- Trades this week: 0/3 (Wk 23 Day 5 CLOSE — 23rd consecutive zero-trade week confirmed unless surprise Fri sesi II trade)
+- Regime: DEFENSIVE — INTENSIFIED — Wk 23 Day 5 CLOSE — post-BI-HOLD-transmission Day-3
+- STEP 1 — Env check: BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING per env check; TRADING_MODE=paper default — broker.sh works in paper mode without keys (paper-mode ledger pull confirmed OK per scheduler-prompt override)
+- STEP 2 — Positions pull: `bash scripts/broker.sh positions` → 0 positions confirmed (paper-mode ledger OK; mode=paper, count=0); `bash scripts/broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / realised -294,172,500 / unrealised 0
+- STEP 3 — Loser sell-side (-7% hard cut): N/A no positions
+- STEP 4 — Winner stop-tighten (+15%/+20% tiers): N/A no positions
+- STEP 5 — Thesis-break check remaining positions: N/A no positions (WebSearch skipped mechanically vacuous)
+- STEP 6 — Intraday >3% move research: N/A no positions to trigger check
+- STEP 7 — TRADE-LOG.md exit/tighten entries: N/A no positions → this snapshot entry only
+- STEP 8 — Notification: no-action path per scheduler prompt (📊 Midday 2026-09-25 all positions healthy no action taken); Telegram send attempted per scheduler-prompt override
+- STEP 9 — Log activity: scripts/log-activity.sh appended (routine=midday, status=success, summary "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day5 CLOSE post-BI-HOLD-transmission Day-3", actions=[])
+- Book fully de-risked Day 68 midday continuation = 100% cash sustained; zero equity market exposure through Wk 23 CLOSE Weekly-Review gating window
+- Sesi I direction post-BI-RDG-decision: DEFERRED to sesi II reconciliation (DQG-138 lag pattern anticipated; 23rd cumulative sesi-II-lag pending per DQG-Day-139 outage persistence — yfinance + GoAPI blocked 139 consecutive sessions since Apr 21)
+- Risk alerts: NONE. Daily P&L 0.00% (>-2% cap OK); no positions (no -7% hard-cut warnings); DD -3.10% (>-12% alert threshold OK); Wk P&L 0.00% (>-5% sizing-reduction OK). No halt flags. RISK-STATE.json unchanged.
+- Trial trajectory: Beyond original Apr 20-May 2 window (Day 115, Wk 23 Day 5 CLOSE). Phase-to-date P&L -2.84% unchanged (68 consecutive sessions with 0.00% daily P&L).
+
+---
