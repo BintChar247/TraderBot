@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY67-Wk23-Day4-EOD-BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-2-US-10Y-5.11pct-BREAKOUT-highest-since-2007-external-shock-overlay-ACTIVATED-23RD-CONSECUTIVE-ZERO-TRADE-WEEK-CANDIDATE-Book-de-risked-Day-67-100pct-cash-IHSG-Wed-Sep-23-secondary-reconciliation-CNBCI-6364.99-vs-Fortune+Kompas-Thu-open-alt-prev-close-6374.91-0.16pp-gap-DEFERRED-Fri-pre-market-IHSG-Thu-Sep-24-open-6364.98-(-0.16pct-Fortune+Kompas-2-source)-sesi-I-6307.11-(-1.06pct-Warta+CNBCI+Kompas-3-source)-provisional-full-day-EOD-~6308-(-0.90pct)-Investor.id-Dihajar-Bertubi-tubi+4-source-intraday-cluster-final-PENDING-Fri-pre-market-DQG-Day-138-sesi-II-lag-22nd-cumulative-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day4-4.10-4.35-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-1-plus-0.75pp-provisional-via-IHSG-minus-0.90pct-on-zero-exposure-first-expansion-day-post-Wed-1-day-compression-episode-DQG-Day-138-outage-persists-yfinance+GoAPI-blocked-138-consecutive-sessions",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY68-Wk23-Day5-CLOSE-EOD-WEEKLY-REVIEW-DAY-BI-RDG-DECISION-DAY-4-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-3-US-10Y-5.12pct-BREAKOUT-DAY-2-highest-since-2007-external-shock-overlay-persistence-23RD-CONSECUTIVE-ZERO-TRADE-WEEK-CONFIRMED-Book-de-risked-Day-68-100pct-cash-IHSG-Fri-Sep-25-provisional-EOD-6130.58-(-0.89pct-headline-vs-Bisnis-Market-implied-prev-close-6185.77-single-source)-chain-basis-minus-2.67pct-vs-Thu-recorded-6298.60-MATERIAL-1.78pp-secondary-reconciliation-gap-DEFERRED-Mon-Sep-28-pre-market-DQG-Day-139-sesi-II-lag-23rd-cumulative-CRISIS-TRACK-GATE-0.90-1.15-of-5-partial-fade-Wk23-Day5-CLOSE-3.85-4.10-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-2-plus-0.89pp-headline-provisional-via-IHSG-minus-0.89pct-on-zero-exposure-continuation-Day-2-post-Wed-1-day-compression-DQG-Day-139-outage-persists-yfinance+GoAPI-blocked-139-consecutive-sessions",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-24"
+  "updated": "2026-09-25"
 }
