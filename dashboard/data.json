@@ -31316,30 +31316,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-22T00:12:51Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk 14 Day 3 pre-market (BI RDG Day 2 T-0). 50-ticker scan complete. ZERO candidates \u22656/10 (11th consecutive session structural 5/10 ceiling under crisis-track engagement gate ACTIVATED). IDR 17,918 = 3rd sub-Stage-5 session marginal DE-ARM candidate but ~170 IDR gap above sub-17,750; Brent $89-91 persistent; BI RDG announcement window today. Book 100% cash Day 12 post-KLBF.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 21 WATCH/WATCH-elevated at 5/10 ceiling"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates \u22656/10; crisis-track engagement gate binds"
-        },
-        {
-          "type": "research",
-          "detail": "IDR 3rd marginal sub-Stage-5 session; PARTIAL DE-ARM signal progressing"
-        },
-        {
-          "type": "research",
-          "detail": "BI RDG T-0 announcement window today; consensus +25bp to 6.00%"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-22T02:17:46Z",
       "routine": "market-open",
       "status": "warning",
@@ -36383,6 +36359,12 @@
           "detail": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries permitted"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-28T04:44:29Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71 Wk24 Day1 OPEN post-BI-HOLD-transmission Day-4; crisis-track engagement gate ACTIVATED 0.90-1.15/5; DQG-Day-140 outage persists"
     }
   ],
   "exposure": {
