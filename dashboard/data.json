@@ -30860,6 +30860,411 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 Q2 BEAT H1 NI +17.5%; NIM 8.0% micro-lending intact; post-buyback-expiry Day-13 tail-risk absorbed",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI-HOLD-5.75% Destry-dovish-continuity Day-4 absorbed; foreign-flow 5-consec-day net-sell continuation; criterion (d) 0/5 FAIL"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 7/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 defensive banking anchor; Q2 fundamentals intact",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Foreign 5-consec-day net-sell Big-4 participation; BI-HOLD-transmission Day-4 fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 6/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 SOE bank; ex-div Rp 66 Sep 16 T+8 mechanical absorbed",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div T+8 absorbed; Fri Big-4 heavy net-sell participation; BI-HOLD-transmission Day-4 fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 6/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Priority-4 Big-4 SOE bank; H1 fundamentals intact",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Big-4 5-consec-day foreign net-sell participation; BI-HOLD-transmission Day-4 fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "PGAS",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Abadi LNG HoA overhang 23+ wks stale; gas-spread structural framework",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent SNAP-BACK $105 Day-1 modest relief = gas-spread tailwind ATTENUATED vs Fri $107 deep amplification"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MDKA",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Metals & Energy Top-Pick per Rikopedia narrative; multi-metal exposure",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 print DEFERRED to Oct-Nov (prior 'direct catalyst' anticipatory); nickel-sector headwind DEEPER; LME $16,329 Day-16 sub-$17K; Indonesia quota cut 260-270Mt from 379Mt"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% BEAT persists; consumer staples defensive",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent SNAP-BACK $105 = COGS-relief-moderate but IDR 17,885 Day-2 deterioration offset; CPI-negative-vector attenuates"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Sole net-inflow YTD consumer name; Q2 fundamentals intact",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent SNAP-BACK $105 = CPI-negative-attenuation moderate but IDR Day-2 deterioration offset"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "TLKM",
+      "action": "SKIP",
+      "date": "2026-09-28",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Telco defensive; fiber-spin-off structural narrative",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Samuel PT 3,300 Day-24 fade; Fri Big-4 net-sell participation; EGM Sep 30 T-2 fiber-spin-off news-flow imminent; FADE-ON-BEAT MEDIUM pattern"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION Day-71; crisis-track engagement gate ACTIVATED ~0.90-1.15/5 (3.85-4.10/5 gap BINDING WIDER); US-10Y 5.23% Day-3 breakout; IDR 17,885 Day-2 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "P10 crisis-track gate FAIL + P11 DQG-Day-140 structural FAIL (yfinance+GoAPI blocked 140 sessions since Apr 21)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track override \u2014 0% new entries permitted; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation)"
+        }
+      ],
+      "reasoning": "Score 5/10 catalyst-track structural; crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL block all buy-side gate checks; R:R untestable per DQG; Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation",
+      "gate_results": [
+        false,
+        false,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -30910,18 +31315,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-21T08:20:45Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 14 Day 2: IDR 9,716,207,500 (+0.00%). Alpha -1.46% vs IHSG (sesi I +1.46%). 0 positions. Trades wk: 0/3. Cum alpha +14.38% (Day 3 compression). BI RDG in-flight.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 67 EOD snapshot appended TRADE-LOG + dashboard/data.json (63 entries) + RISK-STATE.json"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-22T00:12:51Z",
       "routine": "pre-market",
@@ -35929,6 +36322,67 @@
           "detail": "score 7/10 \u2014 Q2 BEAT NI +17.5% + post-buyback-expiry Day-13; SKIP crisis-track"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-28T02:19:41Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 9 candidates \u22655/10 (BBRI 7, BBCA/BMRI 6, BBNI/PGAS/MDKA/ICBP/INDF/TLKM 5) all pre-blocked per crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL. Wk 24 Day 1 OPEN = 24th consecutive zero-trade week continuation.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track + DQG FAIL; foreign 5-consec net-sell"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track + DQG FAIL; ex-div T+8"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "PGAS",
+          "detail": "crisis-track + DQG FAIL; Brent snap-back attenuates gas-spread"
+        },
+        {
+          "type": "skip",
+          "ticker": "MDKA",
+          "detail": "crisis-track + DQG FAIL; Q3 deferred; nickel headwind deeper"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track + DQG FAIL; IDR Day-2 offsets Brent relief"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track + DQG FAIL; IDR Day-2 offsets Brent relief"
+        },
+        {
+          "type": "skip",
+          "ticker": "TLKM",
+          "detail": "crisis-track + DQG FAIL; EGM Sep 30 T-2 fiber-spin-off imminent"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-140: yfinance + GoAPI blocked 140 consecutive sessions since Apr 21"
+        },
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED \u2014 0% new entries permitted"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -35959,7 +36413,7 @@
     "brent": 105.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day1-OPEN-CRISIS-TRACK-ACTIVATED-UST-5.23%-Day-3-FURTHER"
   },
-  "last_updated": "2026-09-28T07:00:00+07:00",
+  "last_updated": "2026-09-28T02:30:00Z",
   "market": {
     "ihsg_close": 6130.58,
     "ihsg_close_basis": "Fri Sep 25 PROVISIONAL sesi II 6,130.58 (-0.89% -55.19pt) per Bisnis Market single-source headline basis vs implied prev close ~6,185.77; MATERIAL secondary reconciliation gap vs Thu recorded EOD 6,298.60 (chain-basis daily -2.67% vs headline -0.89%); UST 10Y 5.12% breakout Day-2 external shock overlay persistence; DQG-Day-139 sesi-II-lag 23rd cumulative \u2014 final PENDING Mon Sep 28 pre-market multi-source cluster",

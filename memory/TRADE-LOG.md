@@ -13378,3 +13378,26 @@ _(none — book fully de-risked Day 68 since Mon Jul 6 KLBF hard-cut; 100% cash 
   17. **Wk 24 Day 1 OPEN — potential 24th consecutive zero-trade week (unless catalyst-triggered surprise)** — multi-front bindings persist through Q3-earnings-tail + regime-normalization window.
 
 ---
+
+### 2026-09-28 09:15 WIB — Market-Open (Day 116, Mon — Wk 24 Day 1 OPEN — POST-BI-HOLD-TRANSMISSION-Day-4 + US-10Y-5.23pct-Day-3-BREAKOUT-FURTHER-ESCALATION + IDR-17,885-Day-2-DETERIORATION + BRENT-$105-SNAP-BACK-Day-1 + IHSG-Fri-Sep-25-RECONCILED-6,241.89 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.90-1.15/5-partial-fade + DQG-Day-140-outage-persists)
+
+- **Trades placed:** 0 (24th consecutive zero-trade week — Day 1 OPEN)
+- **Candidates evaluated:** 9 (BBRI 7/10, BBCA 6/10, BMRI 6/10, BBNI 5/10, PGAS 5/10, MDKA 5/10, ICBP 5/10, INDF 5/10, TLKM 5/10)
+- **All SKIP** — pre-blocked per crisis-track engagement gate ACTIVATED (~0.90-1.15/5; 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL (yfinance + GoAPI blocked 140 consecutive sessions since Apr 21). Per-ticker fresh-mark cluster narrowing NOT achievable → canonical/co-canonical DQG entry gate structural FAIL for all buy-side checks. Rule: 0% new entries permitted regardless of individual candidate scores.
+- **Individual overlays reinforcing SKIP:**
+  - BBRI/BBCA/BMRI/BBNI: Big-4 5-consec-day foreign net-sell continuation; BI-HOLD-transmission Day-4 fade
+  - BMRI: ex-div T+8 mechanical absorbed
+  - PGAS: Brent SNAP-BACK $105 Day-1 = gas-spread tailwind ATTENUATED
+  - MDKA: Q3 print DEFERRED (Oct-Nov); nickel headwind DEEPER; LME $16,329 Day-16 sub-$17K; Indonesia quota cut 260-270Mt from 379Mt
+  - ICBP/INDF: Brent SNAP-BACK COGS-relief-moderate but IDR Day-2 deterioration offset
+  - TLKM: Samuel PT-3300 Day-24 fade; EGM Sep 30 T-2 fiber-spin-off news-flow imminent; FADE-ON-BEAT MEDIUM pattern
+- **9-gate checklist:** N/A executed (crisis-track pre-block override applies before individual gates). Gate #5 (catalyst) FAIL at portfolio level via crisis-track engagement gate ACTIVATED override. Gate 3/4 (sizing/cash) VACUOUS (no orders). Gate #7 (ADV) untestable per DQG.
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 (100.0%) / realised -294,172,500 / unrealised 0 / positions 0. `broker.sh positions` → 0 positions. Reconciled OK with TRADE-LOG.
+- **Regime:** DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71 + US-10Y-5.23%-Day-3-BREAKOUT external-shock overlay INTENSIFIED + IDR Stage-5 marginal-boundary Day-71 DETERIORATION-Day-2 (17,885 up from Fri 17,865 = criterion (a) sub-17,750 target materially further) + Brent $105 SNAP-BACK Day-1 modest COGS relief + Destry BI-Gov structural-lock validated + Newcastle coal $143.75 Day-19 flat still EXITED + CPO MYR 4,673 Day-5 weakest since Aug 3 + LME nickel $16,329 Day-16 sub-$17K + VIX 14.87 low-teens + US Fri POSITIVE Dow +0.93% relief-bid + Foreign net-sell Fri -Rp 559bn (moderated from Thu -Rp 987bn but 5-consec net-sell) + YTD -Rp 77.52T + DQG-Day-140 outage persists.
+- **Environment check:** TRADING_MODE=paper (default; hardcoded per scheduler prompt). BROKER_API_KEY/SECRET/ACCOUNT_ID MISSING but broker.sh operates in paper mode without them. TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt.
+- **Notification path:** `scripts/notify.sh send` — "📊 Market-open 2026-09-28: No trades placed. Crisis-track engagement gate ACTIVATED (~0.90-1.15/5, 3.85-4.10/5 gap BINDING WIDER) + DQG-Day-140 structural FAIL; 24th consecutive zero-trade week Day-1 OPEN."
+- **Dashboard:** `dashboard/data.json` `decisions[]` appended 9 SKIP entries (BBRI/BBCA/BMRI/BBNI/PGAS/MDKA/ICBP/INDF/TLKM); `last_updated` refreshed.
+- **Risk state:** unchanged — daily P&L 0.00% (no orders); DD -3.10% from peak (within -12% alert; within -15% max); Wk 24 cumulative 0.00% (within -5% cap); no halt flags.
+- **Carry to midday 11:30 WIB:** Vacuous scan (0 positions to evaluate). Sesi I direction post-UST-5.23%-Day-3 + IDR-Day-2-deterioration + Brent-SNAP-BACK combined transmission observation. DQG-Day-140 sesi-II lag pattern 24th cumulative occurrence anticipated.
+
+---
