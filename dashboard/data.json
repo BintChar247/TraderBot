@@ -1779,6 +1779,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "ihsg_close_note": "PROVISIONAL Fri sesi II EOD 6,130.58 (-0.89% -55.19pt) per Bisnis Market single-source headline basis (vs implied prev close ~6,185.77); MATERIAL secondary reconciliation gap vs Thu recorded EOD 6,298.60 (chain-basis daily -2.67% vs headline -0.89% ~1.78pp gap) DEFERRED to Mon Sep 28 pre-market multi-source cluster per DQG-Day-139 sesi-II-lag 23rd cumulative; US-10Y 5.12% breakout Day-2 external shock overlay persistence; 23rd CONSECUTIVE ZERO-TRADE WEEK CONFIRMED (Wk 23 CLOSE)"
+    },
+    {
+      "date": "2026-09-28",
+      "day_label": "Day 116 (Wk 24 Day 1 EOD CLOSE - post-BI-HOLD-transmission Day-4 - US-10Y-5.23%-Day-3-BREAKOUT-FURTHER-ESCALATION - IDR-17,885-Day-2-DETERIORATION - BRENT-$105-SNAP-BACK-Day-1)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6181,
+      "ihsg_cumulative_pct": -19.03,
+      "alpha_pct": 16.2,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "PROVISIONAL Mon sesi II EOD 6,181 (-0.97% ~-60.89pt) per Kompas.com single-source headline (\"IHSG Ditutup Melemah 0,97 Persen, Terbebani Saham ANTM, MDKA, hingga BRMS\") vs Fri reconciled 6,241.89 prev close; intraday open 6,209.746, high 6,227.899, low 6,174.306, close 6,181; MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Tue Sep 29 pre-market cluster per DQG-Day-140 sesi-II-lag 24th cumulative; US-10Y 5.23% breakout Day-3 FURTHER ESCALATION external shock overlay INTENSIFIED; IDR 17,885 Day-2 DETERIORATION continuation; BRENT $105 SNAP-BACK Day-1 modest COGS relief; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-1 IN PROGRESS (Wk 24 Day 1 CLOSE)"
     }
   ],
   "positions": [],
@@ -31268,8 +31284,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 114,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 114 counting-trading-days Wk 23 Day 4 EOD BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)",
+    "trial_days_elapsed": 116,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 116 counting-trading-days Wk 24 Day 1 EOD CLOSE post-BI-HOLD-transmission Day-4)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -31278,8 +31294,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -17.37,
-    "cumulative_alpha_pct": 14.53,
+    "ihsg_cumulative_pct": -19.03,
+    "cumulative_alpha_pct": 16.2,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -31290,7 +31306,7 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-09-24",
+    "updated": "2026-09-28",
     "portfolio_value": 9716207500,
     "alpha_pct": -0.9,
     "daily_pnl_pct": 0.0,
@@ -31305,7 +31321,7 @@
     "day_label": "Day 114 (Wk 23 Day 4 EOD - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY67-Wk23-Day4-EOD-BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-2-US-10Y-5.11pct-BREAKOUT-highest-since-2007-external-shock-overlay-ACTIVATED-CRISIS-TRACK-GATE-0.65-0.90-of-5-unchanged-Wk23-Day4-4.10-4.35-of-5-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-1-plus-0.75pp-provisional-via-IHSG-minus-0.90pct-on-zero-exposure-DQG-Day-138-outage-persists-yfinance+GoAPI-blocked-138-consecutive-sessions",
+    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71-Wk24-Day1-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-4-US-10Y-5.23%-Day-3-BREAKOUT-FURTHER-ESCALATION-external-shock-overlay-INTENSIFIED-IDR-17,885-Day-2-DETERIORATION-BRENT-$105-SNAP-BACK-Day-1-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-IN-PROGRESS-CRISIS-TRACK-GATE-0.90-1.15/5-partial-fade-3.85-4.10/5-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-3-plus-0.98pp-headline-provisional-via-IHSG-minus-0.98pct-on-zero-exposure-DQG-Day-140-outage-persists",
     "drawdown_from_peak_pct": -3.1,
     "peak_equity_idr": 10026617500,
     "trading_halted": false,
@@ -31315,52 +31331,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-22T02:17:46Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 14 Day 3. Crisis-track engagement gate ACTIVATED; zero candidates cleared \u22656/10 under quintuple binding (crisis-track + IDR marginal-sub-Stage-5-Day-9 gap 170 IDR + BRENT-$89-91 + BI-RDG-T-0-in-flight + Data-Quality-Day-83). Book 100% cash. 13th consecutive 0/3 week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track + BI-RDG-T-0"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track (Brent $89-91 direct-upside)"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "WATCH-elevated 5/10; blocked crisis-track (Q2 T+5)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed HTTP 403 (proxy tunnel); message printed stdout fallback"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 83 outage persistent (yfinance 403 + GoAPI unset)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-22T04:35:54Z",
       "routine": "midday",
@@ -36365,6 +36335,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71 Wk24 Day1 OPEN post-BI-HOLD-transmission Day-4; crisis-track engagement gate ACTIVATED 0.90-1.15/5; DQG-Day-140 outage persists"
+    },
+    {
+      "timestamp": "2026-09-28T08:21:44Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 24 Day 1 CLOSE: IDR 9.72B (0.00%). Alpha +0.98pp vs IHSG -0.97%. 0 positions; 100% cash; 0/3 trades wk. Cum. return -2.84%; cum. alpha +16.20pp headline provisional; DD -3.10%. 24th consecutive zero-trade week Day-1 IN PROGRESS. Crisis-track gate 0.90-1.15/5 + DQG-Day-140 outage persists.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 116 EOD snapshot committed; IHSG provisional 6,181 Kompas headline; UST 5.23% Day-3 breakout further escalation; IDR 17,885 Day-2; Brent $105 snap-back Day-1"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36395,7 +36377,7 @@
     "brent": 105.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day1-OPEN-CRISIS-TRACK-ACTIVATED-UST-5.23%-Day-3-FURTHER"
   },
-  "last_updated": "2026-09-28T02:30:00Z",
+  "last_updated": "2026-09-28T08:20:00Z",
   "market": {
     "ihsg_close": 6130.58,
     "ihsg_close_basis": "Fri Sep 25 PROVISIONAL sesi II 6,130.58 (-0.89% -55.19pt) per Bisnis Market single-source headline basis vs implied prev close ~6,185.77; MATERIAL secondary reconciliation gap vs Thu recorded EOD 6,298.60 (chain-basis daily -2.67% vs headline -0.89%); UST 10Y 5.12% breakout Day-2 external shock overlay persistence; DQG-Day-139 sesi-II-lag 23rd cumulative \u2014 final PENDING Mon Sep 28 pre-market multi-source cluster",

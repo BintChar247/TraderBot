@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY68-Wk23-Day5-CLOSE-EOD-WEEKLY-REVIEW-DAY-BI-RDG-DECISION-DAY-4-TRANSMISSION-WINDOW-post-BI-hold-5.75pct-dovish-continuity-absorption-Day-3-US-10Y-5.12pct-BREAKOUT-DAY-2-highest-since-2007-external-shock-overlay-persistence-23RD-CONSECUTIVE-ZERO-TRADE-WEEK-CONFIRMED-Book-de-risked-Day-68-100pct-cash-IHSG-Fri-Sep-25-provisional-EOD-6130.58-(-0.89pct-headline-vs-Bisnis-Market-implied-prev-close-6185.77-single-source)-chain-basis-minus-2.67pct-vs-Thu-recorded-6298.60-MATERIAL-1.78pp-secondary-reconciliation-gap-DEFERRED-Mon-Sep-28-pre-market-DQG-Day-139-sesi-II-lag-23rd-cumulative-CRISIS-TRACK-GATE-0.90-1.15-of-5-partial-fade-Wk23-Day5-CLOSE-3.85-4.10-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-2-plus-0.89pp-headline-provisional-via-IHSG-minus-0.89pct-on-zero-exposure-continuation-Day-2-post-Wed-1-day-compression-DQG-Day-139-outage-persists-yfinance+GoAPI-blocked-139-consecutive-sessions",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71-Wk24-Day1-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-4-hold-5.75pct-dovish-continuity-absorption-Day-4-US-10Y-5.23pct-BREAKOUT-DAY-3-FURTHER-ESCALATION-external-shock-overlay-INTENSIFIED-IDR-17,885-Day-2-DETERIORATION-continuation-BRENT-$105-SNAP-BACK-Day-1-modest-COGS-relief-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-IN-PROGRESS-Book-de-risked-Day-71-100pct-cash-IHSG-Mon-Sep-28-provisional-EOD-6181-(-0.97pct-headline-vs-Fri-reconciled-6241.89-Kompas-single-source-basis)-DQG-Day-140-sesi-II-lag-24th-cumulative-DEFERRED-Tue-Sep-29-pre-market-CRISIS-TRACK-GATE-0.90-1.15-of-5-partial-fade-Wk24-Day1-CLOSE-3.85-4.10-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-3-plus-0.98pp-headline-provisional-via-IHSG-minus-0.98pct-on-zero-exposure-continuation-Day-3-post-Wed-Sep-23-1-day-compression-DQG-Day-140-outage-persists-yfinance+GoAPI-blocked-140-consecutive-sessions",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-25"
+  "updated": "2026-09-28"
 }
