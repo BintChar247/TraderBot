@@ -13533,3 +13533,26 @@ _(none — book fully de-risked Day 71 since Mon Jul 6 KLBF hard-cut; 100% cash 
   11. **Wk 24 Day 2 OPEN — 24th consecutive zero-trade week Day-2** — multi-front bindings persist through post-BI-HOLD-transmission tail + regime-normalization window.
 
 ---
+
+### 2026-09-29 09:15 WIB — Market-open (Wk 24 Day 2 OPEN)
+
+- **Trades placed:** 0 (NO TRADES)
+- **Candidates ≥6/10 evaluated:** BBRI (7), BBCA (6), BMRI (6) — all SKIP
+- **Skip reason (mechanical, applies to all 3):**
+  - CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED persists (~0.85-1.10/5 partial-fade; 3.90-4.15/5 gap BINDING WIDER)
+  - DQG-Day-141 structural FAIL (yfinance+GoAPI blocked 141 consecutive sessions since Apr 21; per-ticker multi-source cluster narrowing NOT achievable at any candidate mark)
+- **Regime bindings (Tue Sep 29 open):**
+  - IHSG Mon reconciled 6,181.43 (-0.97% single-day vs Fri reconciled 6,241.89)
+  - US-10Y 5.21-5.24% Day-4 breakout persists — external-shock overlay INTENSIFIED-sustain (19-yr high band)
+  - IDR 17,945 Day-3 deterioration continuation (17,865→17,885→17,945 since Finance Minister appointment); criterion (a) sub-17,750 target materially further
+  - Brent $106.89 Day-2 sustain from Mon $105 SNAP-BACK (Trump rejected Iran Hormuz proposal)
+  - Newcastle coal $145.85 Day-20 firm; coal EXITED per 2-strike (unchanged)
+  - CPO MYR 4,659 Day-6 weakest since Aug 3 (AALI/LSIP headwind intensifies)
+  - LME nickel $16,197.50 Day-17 sub-$17K further fade -1.14% Mon
+  - VIX ~14.9 low-teens
+  - Foreign net-sell 6-consec-day continuation; BBRI selective +Rp 14.63B Mon = potential inflection precursor
+- **Trades this week:** 0/3
+- **24th consecutive zero-trade week Day-2 OPEN** — 91+ cumulative unused candidate-day slots trial-to-date
+- **Book:** 0 positions; 100% cash 9,716,207,500 IDR; realised -294,172,500; unrealised 0
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / realised -294,172,500 / positions [] — reconciled OK
+- **Next action:** midday scan 11:30 WIB (vacuous — 0 positions); EOD 15:15 WIB
