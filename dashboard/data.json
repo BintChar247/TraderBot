@@ -31467,34 +31467,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-23T00:11:39Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 14 Day 4. Scanned 50 tickers. ZERO candidates \u22656. Structural 5/10 ceiling under sextuple-plus binding: crisis-track engagement gate ACTIVATED + IDR Stage 5 Day 10 + BRENT-SHOCK RE-INTENSIFIED $94 + foreign-flow REGRESSED Wed -Rp 1.113T + Data Quality Gate Day 84 + BI-HOLD-dovish-absorbed. Re-entry gate 1.25/5 (regressed from 2/5 via criterion (d) breakdown).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored \u22656 (structural ceiling 5/10)"
-        },
-        {
-          "type": "research",
-          "detail": "Brent RE-INTENSIFIED $94.13 +3.43% Iran-US strikes 11th night + Trump Hormuz 20% cargo fee"
-        },
-        {
-          "type": "research",
-          "detail": "Foreign flow REGRESSED Wed -Rp 1.113T; criterion (d) 2-of-2 BROKEN"
-        },
-        {
-          "type": "research",
-          "detail": "BI HOLD 5.75% dovish surprise absorbed; criterion (a) IDR sub-17,750 3-of-3 structurally harder"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-23T02:18:42Z",
       "routine": "market-open",
       "status": "warning",
@@ -36516,6 +36488,12 @@
           "detail": "TELEGRAM_BOT_TOKEN not set in session; notify fell back to stdout"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-29T04:44:48Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash 9.716B IDR; no action; regime DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY72 Wk24 Day2 OPEN post-BI-HOLD-transmission Day-5; crisis-track gate 0.85-1.10/5 partial-fade; DQG-Day-141 outage persists"
     }
   ],
   "exposure": {
