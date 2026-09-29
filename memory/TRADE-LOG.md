@@ -13609,3 +13609,85 @@ _(none — book fully de-risked Day 71 since Mon Jul 6 KLBF hard-cut; 100% cash 
   9. Foreign flow YTD continuation
   10. **Alpha expansion Day-4 monitoring vs UST-driven compression re-episode** — Tue direction gates Mon +0.98pp headline expansion Day-3 continuation
 
+---
+
+### 2026-09-29 EOD (Day 117, Tue — Week 24 Day 2 CLOSE — POST-BI-HOLD-TRANSMISSION-Day-5; DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-72; WK-24-DAY-2-CLOSE-remains-0-of-3-BUY-slot-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS; IHSG-Tue-Sep-29-provisional-EOD-basis-~6,132-(-0.80pct-chain-basis-vs-Mon-recorded-6,181-or-headline-sesi-I-6,134.998-minus-0.21pct-vs-implied-prev-~6,147.85)-per-Beritamoneter+StockWatch+Kompas+Periskop+Romisaputra-multi-source-cluster-final-sesi-II-full-day-close-PENDING-WED-SEP-30-PRE-MARKET-MULTI-SOURCE-CLUSTER-RECONCILIATION-per-DQG-Day-141-sesi-II-lag-pattern-25TH-CUMULATIVE-OCCURRENCE; IHSG-open-6,118.81-(-0.47pct-Fortune-single-source)-intraday-low-6,013.079-(sesi-I-9:30-AM-flash-touch-tech-sector-BEI-Rp1-minimum-rule-impact)-intraday-high-6,150.552-sesi-I-close-6,134.998-(-12.86pt-minus-0.21pct-headline)-sesi-II-open-6,135.27-(-0.20pct); US-10Y-5.21-5.24pct-Day-4-BREAKOUT-INTENSIFIED-SUSTAIN external-shock-overlay-persists-19-yr-high-band; IDR-17,945-Day-3-DETERIORATION-continuation-Stage-5-marginal-boundary-Day-72-further-materially-away-from-sub-17,750-target; BRENT-$106.89-Day-2-SUSTAIN-post-Mon-$105-SNAP-BACK-Trump-rejected-Iran-Hormuz-proposal; NEWCASTLE-COAL-$145.85-Day-20-firm-coal-EXITED-per-2-strike; CPO-MYR-4,659-Day-6-weakest-since-Aug-3-AALI-LSIP-headwind-intensifies; LME-NICKEL-$16,197.50-Day-17-sub-$17K-further-fade; BEI-RP-1-MINIMUM-STOCK-PRICE-RULE-EFFECTIVE-Day-2-tech-sector-selling-pressure-headline-driver; Data-Quality-Gate-Day-141-outage-persists-yfinance+GoAPI-blocked-141-consecutive-sessions-since-Apr-21; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.85-1.10-of-5-Wk-24-Day-2-CLOSE-scoring-unchanged-partial-fade-3.90-4.15-of-5-gap-BINDING-WIDER; ALPHA-EXPANSION-RE-EPISODE-DAY-4-Tue-provisional-plus-0.80pp-chain-basis-via-IHSG-minus-0.80pct-provisional-on-zero-exposure-re-expansion-continuation-Day-4-post-Wed-Sep-23-1-day-compression-episode)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -0.80% (provisional chain-basis vs Mon recorded 6,181; sesi-I headline -0.21% at 6,134.998 per multi-source; MATERIAL reconciliation pending Wed pre-market multi-source cluster per DQG-Day-141 sesi-II-lag 25th cumulative)
+- Daily alpha: +0.80pp (provisional chain-basis; zero-exposure day; ALPHA EXPANSION RE-EPISODE Day-4 continuation post Wed Sep 23 1-day compression Day-1)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 24 Day 2 CLOSE — 24th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS; 91+ cumulative unused candidate-day slots trial-to-date)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (provisional Tue chain-basis): ~+16.84pp (IHSG cumulative -19.68% from baseline 7,634 → provisional 6,132 vs portfolio -2.84%)
+- Realised P&L: IDR -294,172,500 (unchanged; last update Mon Jul 6 KLBF hard-cut)
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap; -12% alert threshold clear)
+- Weekly P&L (Wk 24 cumulative Mon+Tue): 0.00%
+
+#### Open Positions
+
+_(none — book fully de-risked Day 72 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 24 Day 2 CLOSE + post-BI-HOLD-transmission Day-5 + UST 5.21-5.24% breakout Day-4 intensified-sustain window)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh positions` → 0 positions (paper-mode ledger); `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / realised -294,172,500 / unrealised 0. Reconciled OK with TRADE-LOG (both 0 positions). No discrepancy.
+- **No trades today (Wk 24 Day 2 CLOSE — 24th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS).** Trades this week: 0/3. 91+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions; no mark-to-market work required).
+- **IHSG Tue Sep 29 provisional EOD basis ~6,132 (-0.80% chain-basis vs Mon recorded 6,181)** per multi-source cluster: Beritamoneter/StockWatch/Kompas sesi-I close 6,134.998 (-12.86pt, -0.21% headline vs implied prev ~6,147.85); Fortune open 6,118.81 (-0.47%); Periskop sesi-II open 6,135.27 (-0.20%); Romisaputra "ke Level 6.132" EOD headline; CNBCI "Breaking! IHSG Anjlok 2%" intraday touch 6,022 at 9:32 AM (BEI Rp1 minimum-stock-price rule effective Day-2 tech-sector selling pressure). Intraday low 6,013.079 sesi-I 9:30 AM flash; intraday high 6,150.552. **Multi-source sesi II full-day close reconciliation DEFERRED to Wed Sep 30 pre-market cluster per DQG-Day-141 sesi-II-lag pattern 25th cumulative occurrence.**
+- **DQG-Day-141 outage persists:** yfinance + GoAPI blocked 141 consecutive sessions since Apr 21; WebSearch multi-source override operational for indices; per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless).
+- **Alpha ledger (provisional chain-basis):** IHSG cumulative -19.68% (baseline 7,634 → provisional 6,132) vs portfolio cumulative -2.84% → cumulative alpha ~+16.84pp Tue provisional chain-basis (headline sesi-I -0.21% basis gives ~+16.41pp). Single-day alpha +0.80pp Tue on zero-exposure via IHSG -0.80% provisional chain-basis. **ALPHA EXPANSION RE-EPISODE Day-4 continuation** post Wed Sep 23 1-day compression Day-1 (Tue +0.80pp continuation of Mon +0.98pp headline expansion Day-3). Wed Sep 30 pre-market multi-source reconciliation may adjust materially.
+- **BEI Rp1 minimum-stock-price rule (effective Mon Sep 28 Day-2 today):** New BEI policy reduced minimum stock price from Rp50 to Rp1 per share in regular + cash markets. Tech sector (BUMI, GOTO, UNVR) leading Tue selling; 426 stocks declined vs 242 advanced sesi-I. Structural microstructure change — monitoring for volatility/spread implications ongoing. Not a signal for gate re-arm (crisis-track persists).
+- **Crisis-track engagement gate ACTIVATED persists:** scoring ~0.85-1.10/5 Wk 24 Day 2 CLOSE (partial-fade continuation from Mon Wk 24 Day 1 CLOSE); 3.90-4.15/5 gap BINDING WIDER; 0% new-entries permitted per Hard Rule; pre-market/market-open/midday all VACUOUS mechanically per crisis-track override + DQG structural FAIL. Market-open evaluated BBRI (7/10), BBCA (6/10), BMRI (6/10) → all SKIP.
+- **State/regime bindings Tue Sep 29 CLOSE updates:**
+  - IHSG Tue provisional 6,132 (-0.80% chain-basis vs Mon recorded 6,181; sesi-I headline -0.21% at 6,134.998)
+  - US-10Y 5.21-5.24% Day-4 BREAKOUT INTENSIFIED-SUSTAIN external-shock overlay persists (19-yr high band)
+  - IDR 17,945 Day-3 DETERIORATION continuation (17,865→17,885→17,945 since Finance Minister appointment); Stage-5 marginal-boundary Day-72 further materially away from sub-17,750 criterion (a) target
+  - Brent $106.89 Day-2 SUSTAIN from Mon $105 SNAP-BACK (Trump rejected Iran Hormuz proposal); PGAS gas-spread tailwind ATTENUATED further
+  - Newcastle coal $145.85 Day-20 firm; coal EXITED per 2-strike sector-exit rule (unchanged)
+  - CPO MYR 4,659 Day-6 weakest since Aug 3 (AALI/LSIP headwind intensifies)
+  - LME nickel $16,197.50 Day-17 sub-$17K further fade -1.14% Mon
+  - VIX ~14.9 low-teens
+  - Destry Damayanti BI-Gov Day-24 post-maiden-RDG hold-5.75% dovish continuity absorption Day-5 transmission
+  - Big-4 (BBRI/BBCA/BMRI/BBNI) foreign net-sell 7-consec-day continuation; BBRI selective +Rp 14.63B Mon = potential inflection precursor (monitor Tue direction)
+  - BMRI ex-div Day-9 T+9 mechanical absorbed
+  - BBRI post-buyback-expiry Day-14 buy-flow-removal
+  - ASII IDR 2T buyback absorption Day-25
+  - **TLKM EGM Sep 30 T-1 fiber-spin-off news-flow (final day before EGM)**
+  - MDKA Q3 print DEFERRED (Oct-Nov); nickel headwind DEEPER
+  - MSCI-Aug-31 EFFECTIVE ABSORPTION Day-22
+  - New Trump 10% tariff Indonesia Day-58
+  - BI-HOLD-DOVISH-ABSORBED Day-61 (post-Destry-maiden-RDG hold-5.75% dovish continuity absorption Day-5)
+  - **BEI Rp1 minimum-stock-price rule Day-2 structural microstructure change** (effective Mon Sep 28)
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% warnings, no -7% hard-cut triggers
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-09-29.
+- **dashboard/data.json updated:** 2026-09-29 EOD entry appended (ihsg_close 6,132 provisional chain-basis; portfolio_value 9,716,207,500; alpha_pct +16.84 provisional chain-basis; day_label Wk 24 Day 2 EOD CLOSE post-BI-HOLD-Day-5).
+- **Notification path:** scripts/notify.sh EOD summary via Telegram (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; stdout fallback if proxy 403).
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 117, Wk 24 Day 2 CLOSE). Phase-to-date P&L -2.84% unchanged (70 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha ~+16.84pp provisional Tue chain-basis.
+- **Carry to Wed Sep 30 07:00 WIB pre-market (Wk 24 Day 3 OPEN — post-BI-HOLD-transmission Day-6 + TLKM EGM Day):**
+  1. **Tue Sep 29 sesi II full-day close reconciliation** — provisional ~6,132 (chain-basis -0.80% vs Mon 6,181; headline -0.21% sesi-I basis) 25th cumulative sesi-II-lag per DQG-Day-141.
+  2. **US-10Y 5.21-5.24% breakout Day-5 persistence monitoring** — external shock overlay INTENSIFIED-sustain vs snap-back binary.
+  3. IDR Wed direction — 17,945 Day-4 deterioration continuation or reversal post-BI-transmission Day-6.
+  4. Brent Day-3 direction — $106.89 SUSTAIN sustain or fade.
+  5. **TLKM EGM Wed Sep 30 DAY — fiber-spin-off decision** binary event.
+  6. AALI/LSIP direction on CPO MYR Day-7 continuation vs recovery.
+  7. Big-4 Tue net-sell 7-consec-day pattern extension into Wed; BBRI selective inflection precursor watch.
+  8. **BEI Rp1 minimum-price rule Day-3 tech sector volatility monitoring** — microstructure absorption continuation.
+  9. **Alpha expansion re-episode Day-5 monitoring** — Tue provisional +0.80pp chain-basis expansion Day-4 continuation; watch Wed direction for Day-5 vs UST/reconciliation/TLKM-EGM-driven compression re-episode.
+  10. **VIX signal-monitor Day-15** — post-UST 5.21-5.24% breakout Day-4 residual volatility building.
+  11. **Wk 24 Day 3 OPEN — 24th consecutive zero-trade week Day-3** — multi-front bindings persist through post-BI-HOLD-transmission tail + regime-normalization window + TLKM EGM binary.
+
+---
+

@@ -1795,6 +1795,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "ihsg_close_note": "PROVISIONAL Mon sesi II EOD 6,181 (-0.97% ~-60.89pt) per Kompas.com single-source headline (\"IHSG Ditutup Melemah 0,97 Persen, Terbebani Saham ANTM, MDKA, hingga BRMS\") vs Fri reconciled 6,241.89 prev close; intraday open 6,209.746, high 6,227.899, low 6,174.306, close 6,181; MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Tue Sep 29 pre-market cluster per DQG-Day-140 sesi-II-lag 24th cumulative; US-10Y 5.23% breakout Day-3 FURTHER ESCALATION external shock overlay INTENSIFIED; IDR 17,885 Day-2 DETERIORATION continuation; BRENT $105 SNAP-BACK Day-1 modest COGS relief; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-1 IN PROGRESS (Wk 24 Day 1 CLOSE)"
+    },
+    {
+      "date": "2026-09-29",
+      "day_label": "Day 117 (Wk 24 Day 2 EOD CLOSE - post-BI-HOLD-transmission Day-5 - US-10Y-5.21-5.24%-Day-4-BREAKOUT-INTENSIFIED-SUSTAIN - IDR-17,945-Day-3-DETERIORATION - BRENT-$106.89-Day-2-SUSTAIN - BEI-Rp1-min-rule-Day-2)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6132,
+      "ihsg_cumulative_pct": -19.68,
+      "alpha_pct": 16.84,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "PROVISIONAL Tue sesi II EOD basis ~6,132 (-0.80% chain-basis vs Mon recorded 6,181) per multi-source cluster: Beritamoneter/StockWatch/Kompas sesi-I 6,134.998 (-12.86pt -0.21% headline vs implied prev ~6,147.85), Fortune open 6,118.81 (-0.47%), Periskop sesi-II open 6,135.27 (-0.20%), Romisaputra 'ke Level 6.132' EOD headline, CNBCI 'Anjlok 2%' intraday touch 6,022 at 9:32 AM (BEI Rp1 min-rule Day-2 tech-sector selling); intraday low 6,013.079 sesi-I 9:30 AM flash, high 6,150.552. MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Wed Sep 30 pre-market cluster per DQG-Day-141 sesi-II-lag 25th cumulative; US-10Y 5.21-5.24% breakout Day-4 INTENSIFIED-SUSTAIN external shock overlay persists; IDR 17,945 Day-3 DETERIORATION continuation; BRENT $106.89 Day-2 SUSTAIN post-Mon SNAP-BACK; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-2 IN PROGRESS (Wk 24 Day 2 CLOSE)"
     }
   ],
   "positions": [],
@@ -31467,67 +31483,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-23T02:18:42Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 14 Day 4. Crisis-track engagement gate ACTIVATED binding (1.25/5 re-entry criteria; regressed from 2/5 via criterion (d) foreign-flow REGRESSION Wed -Rp 1.113T net sell). 9 WATCH candidates SKIPPED at 5/10 structural ceiling under sextuple-plus binding (crisis-track + IDR Stage 5 Day 10 + BRENT RE-SPIKE $94 + Foreign REGRESSED + BI-HOLD-dovish + Data Quality Day 84). Book 100% cash Day 13 post-KLBF cut; 13th consecutive 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "5/10 crisis-track ACTIVATED + MSCI overhang"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "5/10 -Rp 141B top-3 foreign sell Wed"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10 Big-4 lead-down flow-regressed"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "5/10 DefQ SUSPENDED"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "5/10 Brent $94 direct-upside but crisis-track blocks"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "5/10 Abadi LNG stale + Data Quality FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "5/10 Brent $94 CPI-vector NEG"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "5/10 Data Quality FAIL Wks 10-14"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "5/10 Q2 T+4 near-binary but blocked"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 84 outage (yfinance/GoAPI blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Foreign flow REGRESSED criterion (d) 2-of-2 threshold BROKEN"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-23T04:36:35Z",
       "routine": "midday",
       "status": "success",
@@ -36494,6 +36449,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash 9.716B IDR; no action; regime DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY72 Wk24 Day2 OPEN post-BI-HOLD-transmission Day-5; crisis-track gate 0.85-1.10/5 partial-fade; DQG-Day-141 outage persists"
+    },
+    {
+      "timestamp": "2026-09-29T08:20:20Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 117 Tue Wk24 Day2 CLOSE: IDR 9,716,207,500 (0.00% day). Alpha +0.80pp today via IHSG provisional -0.80% chain-basis (~6,132). Cum -2.84%. Cum alpha ~+16.84pp. 0 positions; 100% cash; 0/3 trades wk. 24th consec zero-trade wk in progress. DQG-Day-141 sesi-II lag 25th cumulative; crisis-track gate ACTIVATED 0.85-1.10/5; DD -3.10%; no halts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 117 EOD snapshot committed; RISK-STATE.json + dashboard/data.json updated"
+        }
+      ]
     }
   ],
   "exposure": {
