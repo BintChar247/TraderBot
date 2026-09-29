@@ -31332,12 +31332,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-22T04:35:54Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions. No cuts, no stop tightenings, no thesis exits. Trial-halt binding (regime DEFENSIVE-INTENSIFIED + crisis-track engagement gate ACTIVATED)."
-    },
-    {
       "timestamp": "2026-07-22T08:20:42Z",
       "routine": "daily-summary",
       "status": "success",
@@ -36347,6 +36341,31 @@
           "detail": "Day 116 EOD snapshot committed; IHSG provisional 6,181 Kompas headline; UST 5.23% Day-3 breakout further escalation; IDR 17,885 Day-2; Brent $105 snap-back Day-1"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-29T00:08:04Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Day 117 Wk 24 Day 2 OPEN: IHSG Mon RECONCILED 6,181.43 (-0.97% Mon / -1.87% wk cum); IDR 17,945 Day-3 deterioration; UST 5.21-5.24% Day-4 breakout persists; Brent $106.89 Day-2 sustain; 50-ticker scan complete: 3 candidates \u22656/10 (BBRI 7, BBCA 6, BMRI 6) all pre-blocked (crisis-track ACTIVATED + DQG-Day-141 structural FAIL); 24th consecutive zero-trade week Day-2; 0 entries permitted",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "3 candidates scored \u22656 (BBRI 7, BBCA 6, BMRI 6)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 selective foreign dip-buy Mon +Rp 14.63B potential inflection precursor; SKIP per crisis-track ACTIVATED + DQG-Day-141"
+        },
+        {
+          "type": "skip",
+          "detail": "Wk 24 Day 2 OPEN \u2014 24th consecutive zero-trade week continuation; 0 entries permitted per crisis-track ACTIVATED persists"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36377,35 +36396,35 @@
     "brent": 105.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day1-OPEN-CRISIS-TRACK-ACTIVATED-UST-5.23%-Day-3-FURTHER"
   },
-  "last_updated": "2026-09-28T08:20:00Z",
+  "last_updated": "2026-09-29T00:07:54Z",
   "market": {
-    "ihsg_close": 6130.58,
-    "ihsg_close_basis": "Fri Sep 25 PROVISIONAL sesi II 6,130.58 (-0.89% -55.19pt) per Bisnis Market single-source headline basis vs implied prev close ~6,185.77; MATERIAL secondary reconciliation gap vs Thu recorded EOD 6,298.60 (chain-basis daily -2.67% vs headline -0.89%); UST 10Y 5.12% breakout Day-2 external shock overlay persistence; DQG-Day-139 sesi-II-lag 23rd cumulative \u2014 final PENDING Mon Sep 28 pre-market multi-source cluster",
-    "ihsg_change_pct": -0.89,
-    "ihsg_last": 6130.58,
-    "ihsg_last_label": "Fri Sep 25 PROVISIONAL close 6,130.58 (-0.89% headline vs implied prev close 6,185.77 Bisnis single-source; chain-basis -2.67% vs Thu recorded 6,298.60 MATERIAL gap); UST 10Y 5.12% breakout Day-2 external shock overlay",
-    "ihsg_source": "WebSearch single-source Fri Sep 25 provisional (Bisnis Market only \u2014 sesi-II-lag DQG-Day-139 23rd cumulative pending multi-source Mon)"
+    "ihsg_close": 6181.43,
+    "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",
+    "ihsg_change_pct": -0.97,
+    "ihsg_last": 6181.43,
+    "ihsg_last_label": "Mon Sep 28 RECONCILED close 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative) per CNBC + Kompas Tue pre-market multi-source cluster convergent; UST 10Y 5.21-5.24% Day-4 breakout persists external shock overlay",
+    "ihsg_source": "WebSearch multi-source Tue Sep 29 pre-market reconciliation (CNBC Indonesia + Kompas convergent \u2014 DQG-Day-140 sesi-II-lag 23rd cumulative RESOLVED)"
   },
   "pre_market": {
-    "date": "2026-09-28",
-    "day_label": "Day 116 \u2014 Wk 24 Day 1 OPEN \u2014 POST-BI-HOLD-TRANSMISSION-Day-4 + US-10Y-5.23%-Day-3-BREAKOUT-FURTHER-ESCALATION + IHSG-Fri-Sep-25-RECONCILED-6,241.89-supersedes-provisional-6,130.58 + IDR-17,885-Day-2-deterioration + BRENT-$105-SNAP-BACK-Day-1 + CRISIS-TRACK-ACTIVATED-persists",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71-Wk24-Day1-OPEN + US-10Y-5.23%-Day-3-BREAKOUT-FURTHER-ESCALATION-vs-Fri-5.12% + IDR-17,885-Day-2-deterioration-continuation-materially-further-from-criterion-a-17,750 + BRENT-$105-SNAP-BACK-Day-1-modest-relief-from-Thu-$107 + IHSG-Fri-Sep-25-RECONCILED-6,241.89-(-0.90%-Fri-single-day/-3.09%-weekly)-per-Investor.id-MNC-Sekuritas-supersedes-provisional-Bisnis-6,130.58 + Newcastle-coal-$143.75-Day-19-flat + LME-nickel-$16,329-Day-16-sub-$17K-further-fade + CPO-MYR-4,673-Day-5-weakest-since-Aug-3 + VIX-14.87-Fri-eased-low-teens + US-Fri-POSITIVE-Dow-+0.93%-relief-bid-despite-UST-surge + Foreign-net-sell-Fri--Rp-559bn-moderated-YTD--Rp-77.52T + DQG-Day-140-outage-persists + CRISIS-TRACK-ACTIVATED-0.90-1.15/5-partial-fade-3.85-4.10/5-gap-BINDING-WIDER-0%-new-entries-permitted",
-    "regime_reason": "IHSG Fri Sep 25 RECONCILED 6,241.89 (-0.90% Fri single-day / -3.09% weekly per Investor.id + MNC Sekuritas Mon Sep 28 print SUPERSEDES provisional Bisnis 6,130.58 = +1.77pp upward reconciliation resolves DQG-Day-139 sesi-II-lag 23rd cumulative); US-10Y 5.23% Day-3 breakout FURTHER +11bp vs Fri 5.12% = external shock overlay INTENSIFIED (19-year high); IDR 17,885 Day-2 deterioration continuation (trend 17,611\u219217,903 since Finance Minister appointment weakening); Brent $105 SNAP-BACK Day-1 modest relief from Thu $107 deep amplification; Newcastle coal $143.75 Day-19 flat + LME nickel $16,329 Day-16 sub-$17K + CPO MYR 4,673 Day-5 weakest-since-Aug-3 all persist; VIX 14.87 Fri eased low-teens; US Fri POSITIVE session (Dow +0.93% cyclicals-lead / S&P +0.51% / Nasdaq +0.5%) despite UST 5.23% surge = mixed transmission; foreign net-sell Fri -Rp 559bn moderated from Thu -Rp 987bn but 5-consec-day net-sell continuation; YTD -Rp 77.52T (weekly-flow-out -Rp 3.16T Wk 23); crisis-track engagement gate ~0.90-1.15/5 Wk 24 Day 1 OPEN partial-fade sustained gap 3.85-4.10/5 BINDING WIDER; 9 candidates score \u22655/10 all pre-blocked (crisis-track ACTIVATED + DQG structural FAIL + individual overlays)",
-    "ihsg_last": 6241.89,
-    "ihsg_last_label": "Fri Sep 25 RECONCILED close 6,241.89 (-0.90% Fri single-day / -3.09% weekly) per Investor.id + MNC Sekuritas Mon Sep 28 pre-market print; SUPERSEDES provisional Bisnis single-source 6,130.58 (headline -0.89% / chain-basis -2.67% vs Thu 6,298.60); DQG-Day-139 sesi-II-lag 23rd cumulative reconciliation gap +1.77pp UPWARD",
+    "date": "2026-09-29",
+    "day_label": "Day 117 \u2014 Wk 24 Day 2 OPEN \u2014 POST-BI-HOLD-TRANSMISSION-Day-5 + US-10Y-5.21-5.24%-Day-4-BREAKOUT-persists + IHSG-Mon-Sep-28-RECONCILED-6,181.43 + IDR-17,945-Day-3-deterioration + BRENT-$106.89-Day-2-sustain-Trump-Iran-Hormuz + CRISIS-TRACK-ACTIVATED-persists + DQG-Day-141",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY72-Wk24-Day2-OPEN + US-10Y-5.21-5.24%-Day-4-BREAKOUT-persists-external-shock-overlay-INTENSIFIED-sustain + IDR-17,945-Day-3-deterioration-continuation-materially-further-from-criterion-a-17,750 + BRENT-$106.89-Day-2-sustain-Trump-Iran-Hormuz-rejection-modest-COGS-pressure-re-arm + IHSG-Mon-Sep-28-RECONCILED-6,181.43-(-0.97%-Mon-single-day/-1.87%-Wk-24-cumulative)-per-CNBC-Kompas-multi-source-Tue-pre-market-convergent-resolves-DQG-Day-140-sesi-II-lag-23rd-cumulative + Newcastle-coal-$145.85-Day-20-firm + LME-nickel-$16,197.50-Day-17-sub-$17K-further-fade + CPO-MYR-4,659-Day-6-weakest-since-Aug-3 + VIX-low-teens + US-Mon-NEGATIVE-Boeing-FAA-737-Max-10-cert-delay-S&P--0.77%-Nasdaq--0.92%-Dow--0.67% + Foreign-net-sell-Mon-sesi-I--Rp-129.63B-moderated-BBRI-selective-Rp-14.63B-net-BUY-potential-inflection-precursor-YTD--Rp-77.52T + DQG-Day-141-outage-persists + CRISIS-TRACK-ACTIVATED-0.85-1.10/5-partial-fade-3.90-4.15/5-gap-BINDING-WIDER-0%-new-entries-permitted",
+    "regime_reason": "IHSG Mon Sep 28 RECONCILED 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative per CNBC + Kompas multi-source Tue pre-market cluster convergent RESOLVES DQG-Day-140 sesi-II-lag 23rd cumulative gap +0.43pt inconsequential); US-10Y 5.21-5.24% Day-4 breakout persists = external shock overlay INTENSIFIED-sustain (19-yr high band consolidation); IDR 17,945 Day-3 deterioration continuation (trend 17,611\u219217,945 since Finance Minister appointment weakening); Brent $106.89 Day-2 sustain from Mon $105 SNAP-BACK on Trump rejecting Iran Hormuz proposal = modest COGS-pressure re-arm; Newcastle coal $145.85 Day-20 firm + LME nickel $16,197.50 Day-17 sub-$17K + CPO MYR 4,659 Day-6 weakest-since-Aug-3 all persist; VIX low-teens; US Mon NEGATIVE session (S&P -0.77% / Nasdaq -0.92% / Dow -0.67% on Boeing -7% FAA 737 Max 10 cert delay + UST +5bp) = negative transmission overnight; foreign net-sell Mon sesi I -Rp 129.63B moderated from Fri -Rp 559bn but 6-consec-day net-sell continuation persists; selective BBRI Rp 14.63B net-BUY potential inflection precursor; YTD -Rp 77.52T; crisis-track engagement gate ~0.85-1.10/5 Wk 24 Day 2 OPEN partial-fade sustained gap 3.90-4.15/5 BINDING WIDER; 3 candidates score \u22656/10 (BBRI 7, BBCA 6, BMRI 6) all pre-blocked (crisis-track ACTIVATED + DQG structural FAIL + individual overlays); 10 additional 5/10 tickers similarly pre-blocked",
+    "ihsg_last": 6181.43,
+    "ihsg_last_label": "Mon Sep 28 RECONCILED close 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative) per CNBC Indonesia + Kompas Tue Sep 29 pre-market multi-source cluster convergent; RESOLVES DQG-Day-140 sesi-II-lag 23rd cumulative gap (provisional 6,181 \u2192 reconciled 6,181.43 = +0.43pt inconsequential)",
     "ihsg_baseline": 7634.0,
-    "idr_usd": 17885,
-    "brent": 105.0,
-    "coal_newcastle": 143.75,
-    "us_10y": 5.23,
-    "vix": 14.87,
-    "candidates_scored_ge6": 9,
+    "idr_usd": 17945,
+    "brent": 106.89,
+    "coal_newcastle": 145.85,
+    "us_10y": 5.22,
+    "vix": 14.9,
+    "candidates_scored_ge6": 3,
     "candidates_actionable": 0,
     "entries_permitted": 0,
-    "crisis_track_gate_score_of_5": 1.0,
-    "crisis_track_gate_gap": 4.0,
-    "dqg_outage_day": 140,
-    "gate_blocker_summary": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (IDR Day-2 deterioration 17,885 materially further from 17,750 target + Big-4 5-consec-day foreign net-sell continuation + UST-10Y 5.23% Day-3 breakout FURTHER external shock overlay) + DQG-Day-140 structural FAIL (per-ticker cluster narrowing not achievable) + individual overlays (coal 2-strike sector-exit; nickel Indonesia-quota-cut headwind DEEPER MDKA/ANTM/INCO; TLKM FADE-ON-BEAT MEDIUM + EGM Sep 30 T-2 fiber-spin-off news-flow imminent)"
+    "crisis_track_gate_score_of_5": 0.95,
+    "crisis_track_gate_gap": 4.05,
+    "dqg_outage_day": 141,
+    "gate_blocker_summary": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (IDR Day-3 deterioration 17,945 materially further from 17,750 target + Big-4 6-consec-day foreign net-sell continuation despite selective BBRI Rp 14.63B net-BUY Mon precursor + UST-10Y 5.21-5.24% Day-4 breakout persists external shock overlay) + DQG-Day-141 structural FAIL (per-ticker cluster narrowing not achievable) + individual overlays (coal 2-strike sector-exit; nickel Indonesia-quota-cut headwind DEEPER MDKA/ANTM/INCO; TLKM FADE-ON-BEAT MEDIUM + EGM Sep 30 T-1 fiber-spin-off news-flow imminent; consumer Brent Day-2 COGS-pressure re-arm UNVR/ICBP/INDF)"
   },
   "activity": [
     {
