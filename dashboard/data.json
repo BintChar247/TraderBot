@@ -31483,12 +31483,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-23T04:36:35Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions. Book fully de-risked (Wk 14 Day 2). No cuts, no stop tightenings, no thesis exits."
-    },
-    {
       "timestamp": "2026-07-23T08:20:25Z",
       "routine": "daily-summary",
       "status": "success",
@@ -36461,6 +36455,35 @@
           "detail": "Day 117 EOD snapshot committed; RISK-STATE.json + dashboard/data.json updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-30T00:07:30Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Wed Sep 30 (Day 118 Wk 24 Day 3 OPEN): 50-ticker scan complete; 3 candidates \u22656 (BBRI 7, BBCA 6, BMRI 6) all SKIP per crisis-track ACTIVATED further-downgrade + DQG-Day-142 outage + TLKM EGM binary today. IHSG Tue provisional 6,132 chain-basis (-0.80%; reconciliation pending Thu). IDR 17,993 Day-4 deterioration. UST-10Y 5.24% Day-5 breakout persists. Brent $105.31 Day-3 fade. 24th consecutive zero-trade week Day-3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "3 candidates scored \u22656 (BBRI 7, BBCA 6, BMRI 6); all SKIP procedurally"
+        },
+        {
+          "type": "research",
+          "ticker": "TLKM",
+          "detail": "EGM Wed Sep 30 fiber-spin-off Phase 2 Rp 49.858T InfraNexia vote binary event day; results Oct 2"
+        },
+        {
+          "type": "research",
+          "detail": "Crisis-track gate ~0.80-1.05/5 FURTHER-DOWNGRADE from Tue 0.85-1.10/5 on IDR Day-4 + Big-4 net-sell 7-consec"
+        },
+        {
+          "type": "research",
+          "detail": "DQG-Day-142 yfinance+GoAPI outage 142 consecutive sessions since Apr 21"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36501,25 +36524,25 @@
     "ihsg_source": "WebSearch multi-source Tue Sep 29 pre-market reconciliation (CNBC Indonesia + Kompas convergent \u2014 DQG-Day-140 sesi-II-lag 23rd cumulative RESOLVED)"
   },
   "pre_market": {
-    "date": "2026-09-29",
-    "day_label": "Day 117 \u2014 Wk 24 Day 2 OPEN \u2014 POST-BI-HOLD-TRANSMISSION-Day-5 + US-10Y-5.21-5.24%-Day-4-BREAKOUT-persists + IHSG-Mon-Sep-28-RECONCILED-6,181.43 + IDR-17,945-Day-3-deterioration + BRENT-$106.89-Day-2-sustain-Trump-Iran-Hormuz + CRISIS-TRACK-ACTIVATED-persists + DQG-Day-141",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY72-Wk24-Day2-OPEN + US-10Y-5.21-5.24%-Day-4-BREAKOUT-persists-external-shock-overlay-INTENSIFIED-sustain + IDR-17,945-Day-3-deterioration-continuation-materially-further-from-criterion-a-17,750 + BRENT-$106.89-Day-2-sustain-Trump-Iran-Hormuz-rejection-modest-COGS-pressure-re-arm + IHSG-Mon-Sep-28-RECONCILED-6,181.43-(-0.97%-Mon-single-day/-1.87%-Wk-24-cumulative)-per-CNBC-Kompas-multi-source-Tue-pre-market-convergent-resolves-DQG-Day-140-sesi-II-lag-23rd-cumulative + Newcastle-coal-$145.85-Day-20-firm + LME-nickel-$16,197.50-Day-17-sub-$17K-further-fade + CPO-MYR-4,659-Day-6-weakest-since-Aug-3 + VIX-low-teens + US-Mon-NEGATIVE-Boeing-FAA-737-Max-10-cert-delay-S&P--0.77%-Nasdaq--0.92%-Dow--0.67% + Foreign-net-sell-Mon-sesi-I--Rp-129.63B-moderated-BBRI-selective-Rp-14.63B-net-BUY-potential-inflection-precursor-YTD--Rp-77.52T + DQG-Day-141-outage-persists + CRISIS-TRACK-ACTIVATED-0.85-1.10/5-partial-fade-3.90-4.15/5-gap-BINDING-WIDER-0%-new-entries-permitted",
-    "regime_reason": "IHSG Mon Sep 28 RECONCILED 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative per CNBC + Kompas multi-source Tue pre-market cluster convergent RESOLVES DQG-Day-140 sesi-II-lag 23rd cumulative gap +0.43pt inconsequential); US-10Y 5.21-5.24% Day-4 breakout persists = external shock overlay INTENSIFIED-sustain (19-yr high band consolidation); IDR 17,945 Day-3 deterioration continuation (trend 17,611\u219217,945 since Finance Minister appointment weakening); Brent $106.89 Day-2 sustain from Mon $105 SNAP-BACK on Trump rejecting Iran Hormuz proposal = modest COGS-pressure re-arm; Newcastle coal $145.85 Day-20 firm + LME nickel $16,197.50 Day-17 sub-$17K + CPO MYR 4,659 Day-6 weakest-since-Aug-3 all persist; VIX low-teens; US Mon NEGATIVE session (S&P -0.77% / Nasdaq -0.92% / Dow -0.67% on Boeing -7% FAA 737 Max 10 cert delay + UST +5bp) = negative transmission overnight; foreign net-sell Mon sesi I -Rp 129.63B moderated from Fri -Rp 559bn but 6-consec-day net-sell continuation persists; selective BBRI Rp 14.63B net-BUY potential inflection precursor; YTD -Rp 77.52T; crisis-track engagement gate ~0.85-1.10/5 Wk 24 Day 2 OPEN partial-fade sustained gap 3.90-4.15/5 BINDING WIDER; 3 candidates score \u22656/10 (BBRI 7, BBCA 6, BMRI 6) all pre-blocked (crisis-track ACTIVATED + DQG structural FAIL + individual overlays); 10 additional 5/10 tickers similarly pre-blocked",
-    "ihsg_last": 6181.43,
-    "ihsg_last_label": "Mon Sep 28 RECONCILED close 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative) per CNBC Indonesia + Kompas Tue Sep 29 pre-market multi-source cluster convergent; RESOLVES DQG-Day-140 sesi-II-lag 23rd cumulative gap (provisional 6,181 \u2192 reconciled 6,181.43 = +0.43pt inconsequential)",
+    "date": "2026-09-30",
+    "day_label": "Day 118 \u2014 Wk 24 Day 3 OPEN \u2014 POST-BI-HOLD-TRANSMISSION-Day-6 + US-10Y-5.24%-Day-5-BREAKOUT-persists + IHSG-Tue-Sep-29-provisional-~6,132-RECONCILIATION-PENDING-Thu + IDR-17,993-Day-4-deterioration + BRENT-$105.31-Day-3-fade + CRISIS-TRACK-ACTIVATED-persists-FURTHER-DOWNGRADE + DQG-Day-142 + TLKM-EGM-BINARY-EVENT-DAY",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY73-Wk24-Day3-OPEN + US-10Y-5.24%-Day-5-BREAKOUT-persists-external-shock-overlay-INTENSIFIED-sustain-19-yr-high-band + IDR-17,993-Day-4-deterioration-continuation-MATERIALLY-FURTHER-AWAY-from-criterion-a-17,750-target + BRENT-$105.31-Day-3-fade-modest-COGS-relief-but-IDR-Day-4-offset-intensifies-net-negative + IHSG-Tue-Sep-29-provisional-~6,132-chain-basis-(-0.80%-vs-Mon-6,181.43)-sesi-I-headline-6,134.998-multi-source-cluster-RECONCILIATION-PENDING-Thu-Oct-1-per-DQG-Day-142-sesi-II-lag-26th-cumulative + Newcastle-coal-$146-Day-21-firm + LME-nickel-$16,038.50-Day-18-sub-$17K-further-fade-minus-0.78%-Tue + CPO-MYR-4,621-Day-7-weakest-since-Aug-3-minus-0.92%-Tue + VIX-low-teens + US-Tue-NEGATIVE-back-to-back-S&P-minus-0.16%-Nasdaq-minus-0.09%-Dow-minus-0.26%-UST-5.24%-Day-5-persistence-30-yr-fresh-multiyear-high + Foreign-net-sell-Tue--Rp-364.88B-7-consec-day-continuation-YTD-minus-Rp-77.9T-value-vs-volume-divergence-net-BUY-956.59M-shares-selective-flow-undercurrent + TLKM-EGM-Wed-Sep-30-BINARY-EVENT-DAY-fiber-spin-off-Phase-2-Rp-49.858T-InfraNexia-vote-results-Oct-2-approval-likely-per-Phase-1-Dec-2025-precedent + DQG-Day-142-outage-persists + CRISIS-TRACK-ACTIVATED-0.80-1.05/5-partial-fade-FURTHER-DOWNGRADE-3.95-4.20/5-gap-BINDING-WIDER-AGAIN-0%-new-entries-permitted",
+    "regime_reason": "IHSG Tue Sep 29 provisional ~6,132 chain-basis (-0.80% vs Mon reconciled 6,181.43; sesi-I headline -0.21% at 6,134.998 per multi-source Beritamoneter+StockWatch+Kompas+Periskop+Romisaputra cluster; Multi-source sesi-II full-day close reconciliation carries Thu Oct 1 per DQG-Day-142 sesi-II-lag 26th cumulative); US-10Y 5.24% Day-5 breakout persists (eased -0.01pp Tue) = external shock overlay INTENSIFIED-sustain (19-yr high band consolidation); IDR 17,993 Day-4 deterioration continuation (trend 17,611\u219217,993 since Finance Minister appointment weakening structurally; -1.03% from Wk 23 close 17,795); Brent $105.31 Day-3 fade from Mon $106.89 (+0.03% Tue only marginal) = modest COGS-pressure relief but IDR Day-4 offset intensifies net-negative; Newcastle coal $146 Day-21 firm + LME nickel $16,038.50 Day-18 sub-$17K -0.78% Tue + CPO MYR 4,621 Day-7 weakest-since-Aug-3 -0.92% Tue all persist; VIX low-teens; US Tue NEGATIVE-back-to-back (S&P -0.16% / Nasdaq -0.09% / Dow -0.26%) on UST-5.24% Day-5 persistence + 30-yr fresh multiyear-high = negative transmission overnight; foreign net-sell Tue -Rp 364.88B 7-consec-day continuation (moderated vs Fri -Rp 559B); value-vs-volume divergence (net-BUY 956.59M shares by volume) selective flow undercurrent; YTD ~-Rp 77.9T; TLKM EGM binary event TODAY Wed Sep 30 fiber-spin-off Phase 2 Rp 49.858T InfraNexia vote (results reported Oct 2; approval highly likely per Phase 1 Dec 2025 precedent); crisis-track engagement gate ~0.80-1.05/5 Wk 24 Day 3 OPEN partial-fade FURTHER-DOWNGRADE sustained gap 3.95-4.20/5 BINDING WIDER AGAIN; 3 candidates score \u22656/10 (BBRI 7, BBCA 6, BMRI 6) all pre-blocked (crisis-track ACTIVATED + DQG structural FAIL + individual overlays); 8 additional 5/10 tickers similarly pre-blocked (PGAS downgraded to 4)",
+    "ihsg_last": 6132.0,
+    "ihsg_last_label": "Tue Sep 29 provisional ~6,132 chain-basis (-0.80% vs Mon reconciled 6,181.43); sesi-I headline -0.21% at 6,134.998 per multi-source Beritamoneter+StockWatch+Kompas+Periskop+Romisaputra cluster; Multi-source sesi-II full-day close reconciliation PENDING Thu Oct 1 pre-market per DQG-Day-142 sesi-II-lag 26th cumulative occurrence",
     "ihsg_baseline": 7634.0,
-    "idr_usd": 17945,
-    "brent": 106.89,
-    "coal_newcastle": 145.85,
-    "us_10y": 5.22,
+    "idr_usd": 17993,
+    "brent": 105.31,
+    "coal_newcastle": 146.0,
+    "us_10y": 5.24,
     "vix": 14.9,
     "candidates_scored_ge6": 3,
     "candidates_actionable": 0,
     "entries_permitted": 0,
-    "crisis_track_gate_score_of_5": 0.95,
-    "crisis_track_gate_gap": 4.05,
-    "dqg_outage_day": 141,
-    "gate_blocker_summary": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (IDR Day-3 deterioration 17,945 materially further from 17,750 target + Big-4 6-consec-day foreign net-sell continuation despite selective BBRI Rp 14.63B net-BUY Mon precursor + UST-10Y 5.21-5.24% Day-4 breakout persists external shock overlay) + DQG-Day-141 structural FAIL (per-ticker cluster narrowing not achievable) + individual overlays (coal 2-strike sector-exit; nickel Indonesia-quota-cut headwind DEEPER MDKA/ANTM/INCO; TLKM FADE-ON-BEAT MEDIUM + EGM Sep 30 T-1 fiber-spin-off news-flow imminent; consumer Brent Day-2 COGS-pressure re-arm UNVR/ICBP/INDF)"
+    "crisis_track_gate_score_of_5": 0.9,
+    "crisis_track_gate_gap": 4.1,
+    "dqg_outage_day": 142,
+    "gate_blocker_summary": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (IDR Day-4 deterioration 17,993 MATERIALLY-FURTHER-AWAY from 17,750 target + Big-4 7-consec-day foreign net-sell continuation despite selective BBRI Mon Rp 14.63B net-BUY + Tue +0.64% resilience potential inflection Day-2 precursor + UST-10Y 5.24% Day-5 breakout persists external shock overlay 19-yr high band + 30-yr fresh multiyear high) + DQG-Day-142 structural FAIL (per-ticker cluster narrowing not achievable) + TLKM-EGM-BINARY-EVENT-DAY-uncertainty (Wed Sep 30 Phase 2 fiber-spin-off Rp 49.858T InfraNexia vote; results Oct 2; approval likely per Phase 1 Dec 2025 precedent but FADE-ON-BEAT MEDIUM pattern) + individual overlays (coal 2-strike sector-exit; nickel Indonesia-quota-cut headwind DEEPER-STILL MDKA/ANTM/INCO -0.78% Tue; CPO Day-7 weakest AALI/LSIP -0.92% Tue; consumer Brent Day-3 fade modest COGS relief IDR Day-4 offset intensifies net-negative UNVR/ICBP/INDF)"
   },
   "activity": [
     {
