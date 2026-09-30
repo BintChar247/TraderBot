@@ -1811,6 +1811,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "ihsg_close_note": "PROVISIONAL Tue sesi II EOD basis ~6,132 (-0.80% chain-basis vs Mon recorded 6,181) per multi-source cluster: Beritamoneter/StockWatch/Kompas sesi-I 6,134.998 (-12.86pt -0.21% headline vs implied prev ~6,147.85), Fortune open 6,118.81 (-0.47%), Periskop sesi-II open 6,135.27 (-0.20%), Romisaputra 'ke Level 6.132' EOD headline, CNBCI 'Anjlok 2%' intraday touch 6,022 at 9:32 AM (BEI Rp1 min-rule Day-2 tech-sector selling); intraday low 6,013.079 sesi-I 9:30 AM flash, high 6,150.552. MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Wed Sep 30 pre-market cluster per DQG-Day-141 sesi-II-lag 25th cumulative; US-10Y 5.21-5.24% breakout Day-4 INTENSIFIED-SUSTAIN external shock overlay persists; IDR 17,945 Day-3 DETERIORATION continuation; BRENT $106.89 Day-2 SUSTAIN post-Mon SNAP-BACK; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-2 IN PROGRESS (Wk 24 Day 2 CLOSE)"
+    },
+    {
+      "date": "2026-09-30",
+      "day_label": "Day 118 (Wk 24 Day 3 EOD CLOSE - post-BI-HOLD-transmission Day-6 - US-10Y-5.24%-Day-5-BREAKOUT-INTENSIFIED-SUSTAIN - IDR-17,993-Day-4-DETERIORATION - BRENT-$105.31-Day-3-FADE - TLKM-EGM-BINARY-EVENT-DAY-PROCEEDINGS-COMPLETED - BEI-Rp1-min-rule-Day-3 - Q3-CLOSING-DAY)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6138,
+      "ihsg_cumulative_pct": -19.6,
+      "alpha_pct": 16.74,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "PROVISIONAL Wed sesi II EOD basis ~6,138 (+0.10% chain-basis vs Tue provisional 6,132; MSN alternate +0.26% basis) per multi-source cluster: CNBC Indonesia + MSN 'Indonesia Stock Market rose to 6138 points on September 30, 2026, gaining 0.26%'; rri.co.id sesi-I midday jeda 6,130.88 (+0.15% +9.18pt); intraday open 6,118.04 rebound +0.33% to 6,142.15 per Infobanknews; JawaPos/SuaraSurabaya/Antara/MediaIndonesia guidance range 6,050-6,200 per Phintraco Sekuritas consolidative projection. Multi-source narrowed to ~6,130-6,142 range with 6,138 chain-basis midpoint. MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Thu Oct 1 pre-market cluster per DQG-Day-142 sesi-II-lag 26th cumulative; US-10Y 5.24% breakout Day-5 INTENSIFIED-SUSTAIN external shock overlay persists 19-yr high band consolidation; IDR 17,993 Day-4 DETERIORATION continuation; BRENT $105.31 Day-3 FADE from Mon $106.89; TLKM EGM Wed Sep 30 fiber-spin-off Phase 2 vote Rp 49.858T InfraNexia BINARY EVENT PROCEEDINGS COMPLETED results Thu Oct 2 T+2; BEI Rp1 minimum-stock-price rule Day-3 tech sector monitoring; Q3 2026 closing day investor caution window-dressing signal monitoring; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-3 IN PROGRESS (Wk 24 Day 3 CLOSE); ALPHA COMPRESSION Day-1 -0.10pp chain-basis first single-day compression since Wed Sep 23 within re-episode Day-4 via reversal mechanic"
     }
   ],
   "positions": [],
@@ -31618,39 +31634,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-24T02:16:45Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED + Brent shock \u2265$100 escalation + foreign-flow 3rd-consecutive net-sell (Wed-Thu -Rp 2.33T) + US Thu risk-off; septuple-plus binding stack, zero candidates \u22656/10 (all 5/10 ceiling), book 100% cash Day 14, 14th consecutive 0/3 BUY-slot week formalises today.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "ALL",
-          "detail": "crisis-track engagement gate ACTIVATED \u2014 0 candidates cleared 6/10 (5/10 ceiling under septuple-plus binding)"
-        },
-        {
-          "type": "warning",
-          "ticker": "BRENT",
-          "detail": "Brent $100.65 +7% shock escalation; Iran-Houthi Red Sea tanker attacks + Hormuz blockade"
-        },
-        {
-          "type": "warning",
-          "ticker": "FLOW",
-          "detail": "Foreign 3-of-3 net-sell -Rp 2.33T Wed-Thu; criterion (d) DEEPER REGRESSED"
-        },
-        {
-          "type": "warning",
-          "ticker": "US",
-          "detail": "US Thu risk-off S&P -1.21% / Nasdaq -2.15%; reverses Tue/Wed constructive"
-        },
-        {
-          "type": "info",
-          "ticker": "IHSG",
-          "detail": "Thu sesi II final 6,315.31 -0.30% sesi I intraday +1.51% reversed to close red"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-24T04:36:59Z",
       "routine": "midday",
       "status": "success",
@@ -36604,6 +36587,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. Nothing to cut or tighten."
+    },
+    {
+      "timestamp": "2026-09-30T08:20:20Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 118 Wk 24 Day 3 CLOSE: IDR 9.716B (0.00% today). Alpha -0.10pp vs IHSG (+0.10% prov chain-basis to ~6,138). 0 positions/6, 100% cash, trades this wk 0/3 (24th consec zero-trade wk Day-3). TLKM EGM binary event proceedings completed today; results Thu Oct 2 T+2. Q3 closing day. First single-day alpha compression since Sep 23.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 118 snapshot committed; 24th consecutive zero-trade week Day-3 in progress; DQG-Day-142 outage persists; crisis-track gate ~0.80-1.05/5 further downgrade; TLKM EGM Wed Sep 30 fiber-spin-off Phase 2 vote proceedings completed with results disclosure Thu Oct 2 T+2"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36634,7 +36629,7 @@
     "brent": 105.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day1-OPEN-CRISIS-TRACK-ACTIVATED-UST-5.23%-Day-3-FURTHER"
   },
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-09-30T15:15:00+07:00",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",

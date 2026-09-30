@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY72-Wk24-Day2-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-5-hold-5.75pct-dovish-continuity-absorption-Day-5-US-10Y-5.21-5.24pct-BREAKOUT-DAY-4-INTENSIFIED-SUSTAIN-external-shock-overlay-persists-19-yr-high-band-IDR-17,945-Day-3-DETERIORATION-continuation-BRENT-$106.89-Day-2-SUSTAIN-post-Mon-$105-SNAP-BACK-Trump-rejected-Iran-Hormuz-proposal-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-IN-PROGRESS-Book-de-risked-Day-72-100pct-cash-IHSG-Tue-Sep-29-provisional-EOD-basis-~6,132-(-0.80pct-chain-basis-vs-Mon-recorded-6,181-headline-sesi-I-6,134.998-minus-0.21pct-multi-source-Beritamoneter+StockWatch+Kompas+Periskop+Romisaputra)-DQG-Day-141-sesi-II-lag-25th-cumulative-DEFERRED-Wed-Sep-30-pre-market-CRISIS-TRACK-GATE-0.85-1.10-of-5-partial-fade-Wk24-Day2-CLOSE-3.90-4.15-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-4-plus-0.80pp-chain-basis-provisional-via-IHSG-minus-0.80pct-on-zero-exposure-continuation-Day-4-post-Wed-Sep-23-1-day-compression-BEI-Rp1-minimum-stock-price-rule-Day-2-tech-sector-volatility-DQG-Day-141-outage-persists-yfinance+GoAPI-blocked-141-consecutive-sessions",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY73-Wk24-Day3-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-6-hold-5.75pct-dovish-continuity-absorption-Day-6-US-10Y-5.24pct-BREAKOUT-DAY-5-INTENSIFIED-SUSTAIN-external-shock-overlay-persists-19-yr-high-band-consolidation-IDR-17,993-Day-4-DETERIORATION-continuation-BRENT-$105.31-Day-3-FADE-from-Mon-$106.89-modest-COGS-relief-UNVR-ICBP-INDF-IDR-Day-4-offset-net-negative-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-3-IN-PROGRESS-Book-de-risked-Day-73-100pct-cash-IHSG-Wed-Sep-30-provisional-EOD-basis-~6,138-(+0.10pct-chain-basis-vs-Tue-provisional-6,132-MSN-alternate-+0.26pct-sesi-I-midday-6,130.88-+0.15pct-per-rri-multi-source-cluster-CNBC+MSN+JawaPos+SuaraSurabaya+Antara+MediaIndonesia+Infobanknews)-DQG-Day-142-sesi-II-lag-26th-cumulative-DEFERRED-Thu-Oct-1-pre-market-CRISIS-TRACK-GATE-0.80-1.05-of-5-FURTHER-DOWNGRADE-Wk24-Day3-CLOSE-3.95-4.20-gap-BINDING-WIDER-AGAIN-ALPHA-COMPRESSION-DAY-1-WED-provisional-minus-0.10pp-chain-basis-via-IHSG-plus-0.10pct-on-zero-exposure-FIRST-SINGLE-DAY-COMPRESSION-since-Wed-Sep-23-within-re-episode-Day-4-via-reversal-mechanic-TLKM-EGM-BINARY-EVENT-DAY-PROCEEDINGS-COMPLETED-RESULTS-THU-OCT-2-BEI-Rp1-minimum-stock-price-rule-Day-3-Q3-2026-closing-day-window-dressing-monitoring-DQG-Day-142-outage-persists-yfinance+GoAPI-blocked-142-consecutive-sessions",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-09-29"
+  "updated": "2026-09-30"
 }
