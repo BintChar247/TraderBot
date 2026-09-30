@@ -31432,6 +31432,141 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-09-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 BEAT NI +17.5%; selective foreign inflow Mon precursor Day-2; post-buyback-expiry Day-15; SKIP under crisis-track.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 NI +17.5% BEAT confirmed Sep 1; BBRI selective foreign inflow Mon +Rp 14.63B precursor Day-2 monitoring."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-73; crisis-track ACTIVATED ~0.80-1.05/5 partial-fade; US-10Y 5.24% Day-5 breakout; IDR 17,993 Day-4 deterioration"
+        },
+        {
+          "type": "risk",
+          "label": "gate (a) IDR Day-4 materially further from 17,750; (d) 7-consec-net-sell continuation; DQG-Day-142 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track gate binding)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.05/5 partial-fade FURTHER-DOWNGRADE; 3.95-4.20/5 gap BINDING WIDER AGAIN) + DQG-Day-142 structural FAIL (yfinance+GoAPI blocked 142 sessions; no fresh multi-source cluster narrowing achievable). Deep-dive deferred to post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-09-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-quality banking anchor; -0.80% Tue; Big-4 7-consec-net-sell continuation; SKIP under crisis-track + DQG FAIL.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive-quality candidate under 5/5 DQG FAIL; Big-4 net-sell 7-consec-day at market level."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-73; crisis-track ACTIVATED; US-10Y 5.24% Day-5 breakout; IDR 17,993 Day-4"
+        },
+        {
+          "type": "risk",
+          "label": "gate (a) IDR deterioration Day-4; (d) 7-consec-net-sell; DQG structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track gate binding)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED + DQG-Day-142 structural FAIL. -0.80% Tue at 6,175 with Big-4 7-consec-net-sell continuation.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-09-30",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "+0.50% Tue at 4,040; ex-div Day-10 T+10 fully absorbed; Big-4 mixed; SKIP under crisis-track + DQG FAIL.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Day-10 T+10 fully absorbed; Big-4 mixed direction (BMRI +0.50% Tue)."
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-73; crisis-track ACTIVATED; US-10Y 5.24% Day-5 breakout; IDR 17,993 Day-4"
+        },
+        {
+          "type": "risk",
+          "label": "gate (a) IDR deterioration Day-4; (d) 7-consec-net-sell continuation; DQG structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track gate binding)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.05/5 partial-fade FURTHER-DOWNGRADE) + DQG-Day-142 structural FAIL. +0.50% Tue at 4,040 with ex-div Day-10 T+10 mechanically absorbed.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -31482,22 +31617,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-23T08:20:25Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk14 D4: IDR 9.72B (+0.00%). IHSG sesi I +1.815% strong rebound. Alpha -1.82% today; cum alpha +12.61%. 100% cash Day 13. 0 trades; 0/3 this week.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 66 EOD snapshot committed"
-        },
-        {
-          "type": "reconcile",
-          "detail": "broker vs TRADE-LOG match: 0 positions"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-24T00:13:40Z",
       "routine": "pre-market",
@@ -36484,6 +36603,37 @@
           "detail": "DQG-Day-142 yfinance+GoAPI outage 142 consecutive sessions since Apr 21"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-30T02:19:02Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 3 candidates (BBRI 7, BBCA 6, BMRI 6) all pre-blocked per CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED persists (~0.80-1.05/5 partial-fade FURTHER-DOWNGRADE; 3.95-4.20/5 gap BINDING WIDER AGAIN) + DQG-Day-142 structural FAIL (yfinance+GoAPI blocked 142 sessions). 24th consecutive zero-trade week Day-3 OPEN. IDR 17,993 Day-4 deterioration; US-10Y 5.24% Day-5 breakout; TLKM EGM binary event day.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "7/10; crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "6/10; crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "6/10; crisis-track + DQG FAIL"
+        },
+        {
+          "type": "warning",
+          "detail": "CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED persists ~0.80-1.05/5 partial-fade FURTHER-DOWNGRADE"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-142 structural FAIL: yfinance+GoAPI blocked 142 consecutive sessions since Apr 21"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36514,7 +36664,7 @@
     "brent": 105.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day1-OPEN-CRISIS-TRACK-ACTIVATED-UST-5.23%-Day-3-FURTHER"
   },
-  "last_updated": "2026-09-29T00:07:54Z",
+  "last_updated": "2026-09-30",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",

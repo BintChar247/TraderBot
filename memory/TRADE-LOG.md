@@ -13691,3 +13691,44 @@ _(none — book fully de-risked Day 72 since Mon Jul 6 KLBF hard-cut; 100% cash 
 
 ---
 
+### 2026-09-30 09:15 WIB — Market-open (Wk 24 Day 3 OPEN — TLKM EGM BINARY EVENT DAY)
+
+- **Trades placed:** 0 (NO TRADES)
+- **Candidates ≥6/10 evaluated:** BBRI (7), BBCA (6), BMRI (6) — all SKIP
+- **Skip reason (mechanical, applies to all 3):**
+  - CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED persists (~0.80-1.05/5 partial-fade FURTHER-DOWNGRADE from Tue 0.85-1.10/5 on IDR Day-4 continuation + Big-4 net-sell 7-consec; 3.95-4.20/5 gap BINDING-WIDER-AGAIN)
+  - DQG-Day-142 structural FAIL (yfinance+GoAPI blocked 142 consecutive sessions since Apr 21; per-ticker multi-source cluster narrowing NOT achievable at any candidate mark)
+- **9-gate checklist per candidate:** N/A — pre-blocked by Hard Rule CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (0% new entries permitted) and co-canonical Data Quality Gate structural FAIL.
+- **Regime bindings (Wed Sep 30 OPEN):**
+  - IHSG Tue provisional ~6,132 (chain-basis -0.80% vs Mon 6,181.43; sesi-I headline -0.21% at 6,134.998); reconciliation carries Thu Oct 1 pre-market per DQG-Day-142 sesi-II-lag 26th cumulative
+  - US-10Y 5.24% Day-5 breakout persists — external-shock overlay INTENSIFIED-sustain (19-yr high band consolidation; -0.01pp Tue eased)
+  - IDR 17,993 Day-4 deterioration continuation (trend 17,865→17,885→17,945→17,993 since Finance Minister appointment); criterion (a) sub-17,750 target MATERIALLY-FURTHER-AWAY Day-4
+  - Brent $105.31 Day-3 fade from Mon $106.89 (+0.03% Tue marginal); modest COGS relief for UNVR/ICBP/INDF but IDR Day-4 offset intensifies net-negative
+  - Newcastle coal $146 Day-21 firm; coal EXITED per 2-strike sector-exit rule (unchanged)
+  - CPO MYR 4,621 Day-7 weakest since Aug 3 -0.92% Tue (AALI/LSIP headwind intensifies)
+  - LME nickel $16,038.50 Day-18 sub-$17K -0.78% Tue further fade (MDKA/ANTM/INCO/NCKL headwind DEEPER-STILL)
+  - VIX ~14.9 low-teens
+  - Foreign net-sell 7-consec-day continuation (Tue -Rp 364.88B moderated vs Fri -Rp 559B); value-vs-volume divergence (net-BUY 956.59M shares by volume) = selective flow undercurrent
+  - BBRI selective inflow Mon +Rp 14.63B precursor Day-2 monitoring; Tue direction TBC
+  - Destry BI-Gov structural-lock validated; BI-HOLD-DOVISH-ABSORBED Day-62 (post-Destry-maiden-RDG hold-5.75% dovish continuity absorption Day-6 transmission)
+  - Big-4 (BBRI/BBCA/BMRI/BBNI) foreign net-sell 7-consec-day continuation from Tue
+  - BMRI ex-div Day-10 T+10 mechanical absorbed
+  - BBRI post-buyback-expiry Day-15 buy-flow-removal
+  - ASII IDR 2T buyback absorption Day-26
+  - **TLKM EGM Wed Sep 30 fiber-spin-off Phase 2 vote Rp 49.858T InfraNexia — BINARY EVENT TODAY; results reported Oct 2**
+  - MDKA Q3 print DEFERRED (Oct-Nov); nickel headwind DEEPER
+  - MSCI-Aug-31 EFFECTIVE ABSORPTION Day-23
+  - New Trump 10% tariff Indonesia Day-59
+  - BEI Rp1 minimum-stock-price rule Day-3 (structural microstructure change monitoring)
+  - US Tue session NEGATIVE back-to-back (S&P -0.16% / Nasdaq -0.09% / Dow -0.26%) on UST-5.24% Day-5 persistence + 30-yr fresh multiyear-high
+- **Trades this week:** 0/3
+- **24th consecutive zero-trade week Day-3 OPEN** — ~94+ cumulative unused candidate-day slots trial-to-date
+- **Book:** 0 positions; 100% cash 9,716,207,500 IDR; realised -294,172,500; unrealised 0
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / realised -294,172,500 / positions [] — reconciled OK
+- **Dashboard update:** decisions[] appended 3 SKIP entries (BBRI/BBCA/BMRI) with 4-input rationale and gate_results modelled on Wk 24 Day 2 baseline
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override
+- **Notification path:** scripts/notify.sh no-trades path per scheduler prompt (📊 Market-open 2026-09-30: No trades placed. Crisis-track gate ACTIVATED + DQG-Day-142 outage.); Telegram send attempted per scheduler-prompt override
+- **Next action:** midday scan 11:30 WIB (vacuous — 0 positions); TLKM EGM proceedings news-flow monitoring; EOD 15:15 WIB
+
+---
+
