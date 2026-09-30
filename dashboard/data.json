@@ -31618,42 +31618,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-24T00:13:40Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Fri Jul 24 Wk 14 Day 5 pre-market: 50 tickers scanned; ZERO candidates \u22656 (5/10 structural ceiling); MAJOR MACRO SHOCK Brent ESCALATED \u2265$100 (+7% Iran-Houthi Red Sea + Hormuz) + foreign-flow 3rd-consecutive net-sell -Rp2.33T + US risk-off (S&P -1.21% Nasdaq -2.15%); IHSG Thu sesi II final 6,315.31 -0.30%; IDR Fri forecast 17,869; regime label ESCALATION probable at 16:00 WIB weekly-review; book 100% cash Day 14 no positions to manage; 13th consecutive 0/3 BUY-slot week formalising today.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker watchlist scan complete"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored \u22656 (structural 5/10 ceiling under septuple-plus binding)"
-        },
-        {
-          "type": "alert",
-          "detail": "Brent ESCALATED \u2265$100.65 +7.00% (Iran-Houthi Red Sea tanker attacks + Hormuz blockade \u2014 first \u2265$100 in 2 months)"
-        },
-        {
-          "type": "alert",
-          "detail": "Foreign flow Thu -Rp 1.220T (2nd consecutive jumbo; -Rp 2.33T 2-day cumulative Wed+Thu)"
-        },
-        {
-          "type": "alert",
-          "detail": "US Thu risk-off: S&P -1.21% / Nasdaq -2.15% / Dow -0.97% (AI-capex + oil surge)"
-        },
-        {
-          "type": "regime",
-          "detail": "Regime overlay ESCALATES to BRENT-\u2265$100 + FOREIGN-FLOW-3RD-CONSEC-NET-SELL + US-RISK-OFF; 1.00/5 re-entry gate scoring (down from 1.25/5)"
-        },
-        {
-          "type": "research",
-          "detail": "IHSG anchor reconciled: Thu sesi II final 6,315.31 -0.30% (5-source) vs sesi I 6,430.15 +1.51% intraday reversal \u2014 cumulative alpha reconciles from filed +12.61% to sesi II basis +14.43%"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-24T02:16:45Z",
       "routine": "market-open",
       "status": "warning",
@@ -36634,6 +36598,12 @@
           "detail": "DQG-Day-142 structural FAIL: yfinance+GoAPI blocked 142 consecutive sessions since Apr 21"
         }
       ]
+    },
+    {
+      "timestamp": "2026-09-30T04:42:54Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Nothing to cut or tighten."
     }
   ],
   "exposure": {
