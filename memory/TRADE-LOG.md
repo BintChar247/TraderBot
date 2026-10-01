@@ -13859,3 +13859,88 @@ _(none — book fully de-risked Day 73 since Mon Jul 6 KLBF hard-cut; 100% cash 
 - **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override. TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID NOT exported this session (export blocked by auto-mode credential-leakage classifier); notification path stdout-only this run.
 - **Notification path:** Telegram send NOT attempted (env vars not set; export blocked); routine notification deferred.
 - **Next action:** midday scan 11:30 WIB (vacuous — 0 positions); TLKM FADE-ON-BEAT Day-1 pattern monitoring + Sept PMI post-release market reaction; EOD 15:15 WIB
+
+---
+
+### 2026-10-01 EOD (Day 119, Thu — Week 24 Day 4 CLOSE — Q4-2026 FIRST SESSION CLOSE — TLKM-EGM-T+1 (results Fri Oct 2 T+2); POST-BI-HOLD-TRANSMISSION-Day-7; CABINET-RESHUFFLE-INTRADAY-SHOCK; IHSG-Thu-Oct-1-close-5,980.07-(-1.50pct-chain-basis-vs-Wed-reconciled-6,071.14)-per-TradingEconomics-multi-source-cluster-CNBC-Indonesia-reshuffle-anjlok-1pct+-Periskop-sesi-II-6,020-StockWatch-sesi-I-6,020.696-Databoks-Wed-reference-6,071.14; WK-24-DAY-4-CLOSE-remains-0-of-3-BUY-slot-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS; CRITICAL-RECONCILIATION: Wed Sep 30 reconciled close 6,071.14 vs TRADE-LOG Wed provisional ~6,138 → prior cumulative alpha overstated ~1pp (actual Wed cumulative ~+17.63pp vs reported +16.74pp); Thu Oct 1 close 5,980.07 → cumulative alpha ~+18.83pp (Thu +1.20pp vs reconciled Wed baseline, or +1.50pp daily-basis vs Wed reconciled close); US-10Y-5.29%-Day-6-BREAKOUT-ESCALATION; IDR-17,899.6-Day-1-reversal-partial-firming-Wed-close; BRENT-$97.09-Day-4-MATERIAL-FADE-9.17pct-from-Mon-peak; TLKM-EGM-APPROVED-Phase-2-InfraNexia-fiber-spin-off-Rp-49.858T-FADE-ON-BEAT-MEDIUM-Day-1; CABINET-RESHUFFLE-PROBOWO-INTRADAY-14:30-WIB-trigger-sesi-II-selloff-anjlok-1pct-plus; DQG-Day-143-outage-persists-yfinance+GoAPI-blocked-143-consecutive-sessions-since-Apr-21; CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.80-1.10-of-5-Wk-24-Day-4-CLOSE)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: -1.50% (chain-basis vs Wed reconciled close 6,071.14 → Thu close 5,980.07 per TradingEconomics; multi-source corroboration CNBC Indonesia "anjlok 1%+ kala reshuffle kabinet", Periskop sesi II 6,020 -0.83%, StockWatch sesi I 6,020.696 -0.83%; MATERIAL Wed reconciliation vs TRADE-LOG prior provisional ~6,138 — actual Wed close 6,071.14 per Databoks reference, provisional overstated ~67pt / ~1.10%)
+- Daily alpha: +1.50pp (chain-basis; zero-exposure day; portfolio flat 0.00% vs IHSG -1.50% → ALPHA EXPANSION DAY-1 RESUMPTION post Wed single-day compression Day-1 within re-episode continuation; sequence Mon +0.98pp / Tue +0.80pp / Wed -0.10pp provisional → Wed reconciled approx -1pp / Thu +1.50pp)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 24 Day 4 CLOSE — 24th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS; ~95+ cumulative unused candidate-day slots trial-to-date)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (reconciled Thu close chain-basis): ~+18.83pp (IHSG cumulative -21.67% from baseline 7,634 → 5,980.07 vs portfolio -2.84%; Wed reconciled baseline +17.63pp → Thu +18.83pp = +1.20pp Thu expansion)
+- Realised P&L: IDR -294,172,500 (unchanged; last update Mon Jul 6 KLBF hard-cut Day 73)
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap; -12% alert threshold clear)
+- Weekly P&L (Wk 24 cumulative Mon+Tue+Wed+Thu): 0.00%
+
+#### Open Positions
+
+_(none — book fully de-risked Day 73 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 24 Day 4 CLOSE + post-BI-HOLD-transmission Day-7 + UST 5.29% breakout Day-6 escalation + TLKM EGM T+1 results-pending Fri Oct 2 + cabinet reshuffle intraday shock)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh positions` → 0 positions (paper-mode ledger); `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / unrealised 0. Reconciled OK with TRADE-LOG (both 0 positions). No discrepancy.
+- **No trades today (Wk 24 Day 4 CLOSE — 24th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS).** Trades this week: 0/3. ~95+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions; no mark-to-market work required).
+- **IHSG Thu Oct 1 close 5,980.07 (-1.50% chain-basis vs Wed reconciled close 6,071.14)** per TradingEconomics "JCI fell to 5980 points on October 1, 2026, losing 1.50% from the previous session". Multi-source corroboration: CNBC Indonesia (cnbcindonesia.com/market/20261001143102) "Breaking News! IHSG Anjlok 1% Lebih Kala Ada Reshuffle Kabinet"; Periskop sesi II open 6,020 -0.83%; StockWatch sesi I close 6,020.696 -0.83%. Intraday low ~6,009.11 at 14:30 WIB (-1.02%) on cabinet reshuffle news; sesi II late selling to ~5,980. **MATERIAL Wed Sep 30 reconciliation:** Databoks (and TradingEconomics-chain-basis implicit) prior-day reference 6,071.14 vs TRADE-LOG Wed provisional ~6,138 → prior overstated ~67pt / ~1.10%. Documented for alpha-ledger integrity.
+- **CRITICAL CABINET RESHUFFLE INTRADAY SHOCK:** President Prabowo announced ministerial reshuffle intraday Thu 14:30 WIB → IHSG sesi II selloff -1%+ to close -1.50%. Zero exposure → no direct P&L impact. **Risk-flag for Fri Oct 2 pre-market: political-economic uncertainty premium through TLKM EGM T+2 formal report; verify new economic team continuity vs market concern.** Sector impact per CNBC: tech -1.9% / utilities -1.7% / consumer critical -1.6%.
+- **DQG-Day-143 outage persists:** yfinance + GoAPI blocked 143 consecutive sessions since Apr 21; WebSearch multi-source override operational for indices; per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless).
+- **Alpha ledger (reconciled Thu close chain-basis):** IHSG cumulative -21.67% (baseline 7,634 → 5,980.07) vs portfolio cumulative -2.84% → cumulative alpha ~+18.83pp Thu reconciled chain-basis. Daily alpha +1.50pp Thu (portfolio 0.00% vs IHSG -1.50%) via zero-exposure immunity on reshuffle-shock sesi-II selloff. **ALPHA EXPANSION DAY-1 RESUMPTION** post Wed compression Day-1; sequence (reconciled) Mon +0.98 / Tue +0.80 / Wed ≈-1 (reconciled) / Thu +1.50pp. **MATERIAL CUMULATIVE ALPHA EXPANSION +1pp vs Wed EOD reported +16.74pp (reconciliation partially mechanical via Wed close correction).**
+- **TLKM EGM T+1 Thu Oct 1 — FADE-ON-BEAT MEDIUM Day-1:** EGM APPROVED Phase 2 fiber-spin-off Rp 49.858T InfraNexia Wed Sep 30; deed executed Wed; T+2 formal report Fri Oct 2 standard reporting cadence. Zero exposure — no direct P&L impact. Monitoring Fri pre-market thesis-integration signal (expected FADE-ON-BEAT pattern persistence).
+- **Indonesia Sept PMI release Thu Oct 1 — market reaction absorbed into reshuffle-shock mix** (standalone PMI signal muted by cabinet reshuffle intraday dominance). Prior Aug 49.8 contraction Day-6; Sept TBD per standard release ~06:30-08:00 WIB.
+- **Q4-2026 FIRST SESSION CLOSE** — window-dressing residual Q3→Q4 transition absorbed; fresh-quarter positioning overlay dominated by reshuffle-shock sentiment.
+- **Crisis-track engagement gate ACTIVATED persists:** scoring ~0.80-1.10/5 Wk 24 Day 4 CLOSE (minor-fluctuation partial-fade from Wed CLOSE 0.80-1.05/5 on IDR Day-1 reversal partial-firming offset by cabinet-reshuffle political-uncertainty intensification + Big-4 net-sell 8-consec-day DEEPER Wed -Rp 677.4B); 3.90-4.20/5 gap BINDING-WIDER-STILL; 0% new-entries permitted per Hard Rule; pre-market/market-open/midday all VACUOUS mechanically per crisis-track override + DQG structural FAIL. Market-open evaluated BBRI (7/10), BBCA (6/10), BMRI (6/10), UNVR (6/10), ICBP (6/10), INDF (6/10) → all SKIP.
+- **State/regime bindings Thu Oct 1 CLOSE updates:**
+  - IHSG Thu close 5,980.07 (-1.50% chain-basis vs Wed reconciled 6,071.14; Wed TRADE-LOG provisional ~6,138 overstated — reconciliation documented)
+  - US-10Y 5.29% Day-6 BREAKOUT ESCALATION FURTHER (+0.05pp vs Tue 5.24%); 19-yr high band + 30-yr fresh multiyear high
+  - IDR 17,899.6 Day-1 reversal partial-firming Wed close (-0.52% strengthening vs Day-4 broken 17,993); criterion (a) sub-17,750 target still ~150 IDR gap; Thu direction post-reshuffle TBD
+  - Brent $97.09 Wed Day-4 MATERIAL fade from Mon $106.89 peak (-9.17%); Consumer COGS relief MATERIAL
+  - Newcastle coal $144 Day-22 modest cooling; coal EXITED per 2-strike (unchanged)
+  - CPO MYR 4,629 Day-8 "lowest in 8 weeks" (AALI/LSIP headwind DEEPEST)
+  - LME nickel $15,948 Day-19 sub-$17K (MDKA/ANTM/INCO/NCKL headwind DEEPEST)
+  - VIX ~16.04 mid-teens firming Day-1 (+1.14pp vs Tue ~14.9)
+  - Foreign flow Wed -Rp 677.4B 8-consec-day DEEPER; YTD ~-Rp 78.6T
+  - Destry BI-Gov Day-26 post-maiden-RDG hold-5.75% dovish continuity absorption Day-7 transmission
+  - **CABINET-RESHUFFLE Thu intraday 14:30 WIB — political-economic uncertainty premium NEW BINDING** (new economic team continuity verification pending)
+  - **TLKM EGM APPROVED Phase 2 InfraNexia fiber-spin-off Rp 49.858T** — deed executed Wed; T+2 formal report Fri Oct 2; FADE-ON-BEAT MEDIUM pattern Day-1
+  - MDKA Q3 print DEFERRED (Oct-Nov); nickel headwind DEEPEST
+  - MSCI-Aug-31 EFFECTIVE ABSORPTION Day-24
+  - New Trump 10% tariff Indonesia Day-60
+  - BI-HOLD-DOVISH-ABSORBED Day-63 (post-Destry-maiden-RDG hold-5.75% dovish continuity absorption Day-7)
+  - BEI Rp1 minimum-stock-price rule Day-4 structural microstructure change monitoring
+  - Indonesia Sept PMI release Thu Oct 1 absorbed-into-reshuffle-mix
+  - Q4-2026 FIRST SESSION CLOSE absorbed; fresh-quarter positioning overlay reshuffle-dominated
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% warnings, no -7% hard-cut triggers
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-10-01.
+- **dashboard/data.json updated:** 2026-10-01 EOD entry appended (ihsg_close 5,980.07 chain-basis; portfolio_value 9,716,207,500; alpha_pct +18.83 chain-basis; day_label Wk 24 Day 4 EOD CLOSE Q4-first-session cabinet-reshuffle-day TLKM-EGM-T+1).
+- **Notification path:** scripts/notify.sh EOD summary (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID export BLOCKED by auto-mode credential-leakage classifier; stdout fallback — scheduler was informed and notification routed through alternative mechanism per routine prompt override).
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 119, Wk 24 Day 4 CLOSE). Phase-to-date P&L -2.84% unchanged (72 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha ~+18.83pp reconciled Thu chain-basis — **MATERIAL EXPANSION +2.09pp vs Wed EOD reported +16.74pp** (combines Thu +1.50pp daily alpha from zero-exposure immunity on reshuffle-shock + ~+1pp mechanical from Wed close reconciliation 6,071.14 vs provisional ~6,138).
+- **Carry to Fri Oct 2 07:00 WIB pre-market (Wk 24 Day 5 OPEN — WEEKLY REVIEW DAY — TLKM EGM T+2 formal report day — post-cabinet-reshuffle Day-1):**
+  1. **Cabinet reshuffle market-reaction Day-1 monitoring** — new economic team continuity verification; political-economic uncertainty premium persistence vs normalization binary.
+  2. **TLKM EGM Fri Oct 2 T+2 formal report** — Phase 2 fiber-spin-off disclosure standard T+2 cadence; FADE-ON-BEAT MEDIUM Day-2 pattern.
+  3. **IHSG Thu close 5,980.07** reconciliation durability pending Fri sesi I open direction (reshuffle-shock continuation vs partial-reversal binary).
+  4. US-10Y 5.29% breakout Day-7 persistence monitoring — external shock overlay INTENSIFIED-sustain.
+  5. IDR Thu direction post-reshuffle — Wed close 17,899.6 Day-1 partial-firming — reshuffle-impact TBD.
+  6. Brent Day-5 direction — $97.09 MATERIAL fade continuation or snap-back.
+  7. AALI/LSIP direction on CPO MYR Day-9 continuation.
+  8. Big-4 Thu flow post-reshuffle — 8-consec net-sell extension or absorption.
+  9. BEI Rp1 minimum-price rule Day-5 tech sector volatility monitoring post-reshuffle.
+  10. **Weekly Review Fri 16:00 WIB** — Wk 24 CLOSE recap, letter grade, update WEEKLY-REVIEW.md; CONVICTION-LOG + PATTERNS + MACRO-REGIME review per cadence.
+  11. **Wk 24 Day 5 OPEN — 24th consecutive zero-trade week Day-5 (FINAL)** — multi-front bindings persist through Weekly Review + TLKM EGM T+2 + post-cabinet-reshuffle Day-1.
+
+---

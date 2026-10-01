@@ -1827,6 +1827,26 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "ihsg_close_note": "PROVISIONAL Wed sesi II EOD basis ~6,138 (+0.10% chain-basis vs Tue provisional 6,132; MSN alternate +0.26% basis) per multi-source cluster: CNBC Indonesia + MSN 'Indonesia Stock Market rose to 6138 points on September 30, 2026, gaining 0.26%'; rri.co.id sesi-I midday jeda 6,130.88 (+0.15% +9.18pt); intraday open 6,118.04 rebound +0.33% to 6,142.15 per Infobanknews; JawaPos/SuaraSurabaya/Antara/MediaIndonesia guidance range 6,050-6,200 per Phintraco Sekuritas consolidative projection. Multi-source narrowed to ~6,130-6,142 range with 6,138 chain-basis midpoint. MULTI-SOURCE sesi II full-day close reconciliation DEFERRED to Thu Oct 1 pre-market cluster per DQG-Day-142 sesi-II-lag 26th cumulative; US-10Y 5.24% breakout Day-5 INTENSIFIED-SUSTAIN external shock overlay persists 19-yr high band consolidation; IDR 17,993 Day-4 DETERIORATION continuation; BRENT $105.31 Day-3 FADE from Mon $106.89; TLKM EGM Wed Sep 30 fiber-spin-off Phase 2 vote Rp 49.858T InfraNexia BINARY EVENT PROCEEDINGS COMPLETED results Thu Oct 2 T+2; BEI Rp1 minimum-stock-price rule Day-3 tech sector monitoring; Q3 2026 closing day investor caution window-dressing signal monitoring; 24TH CONSECUTIVE ZERO-TRADE WEEK Day-3 IN PROGRESS (Wk 24 Day 3 CLOSE); ALPHA COMPRESSION Day-1 -0.10pp chain-basis first single-day compression since Wed Sep 23 within re-episode Day-4 via reversal mechanic"
+    },
+    {
+      "date": "2026-10-01",
+      "day_label": "Day 119 (Wk 24 Day 4 EOD CLOSE - Q4-2026-FIRST-SESSION-CLOSE - TLKM-EGM-T+1-results-Fri-Oct-2 - post-BI-HOLD-transmission-Day-7 - CABINET-RESHUFFLE-INTRADAY-SHOCK-14:30-WIB - US-10Y-5.29%-Day-6-BREAKOUT-ESCALATION - IDR-17,899.6-Day-1-reversal-partial-firming - BRENT-$97.09-Day-4-MATERIAL-FADE - CPO-MYR-4,629-Day-8-8wk-low - LME-nickel-$15,948-Day-19-new-2026-low - VIX-16.04-firming-Day-1 - BEI-Rp1-min-rule-Day-4 - Sept-PMI-release-absorbed-into-reshuffle-mix - 24th-CONSECUTIVE-ZERO-TRADE-WEEK-Day-4 - DQG-Day-143-outage-persists)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5980.07,
+      "ihsg_cumulative_pct": -21.67,
+      "alpha_pct": 18.83,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Thu Oct 1 close 5,980.07 (-1.50% chain-basis vs Wed reconciled close 6,071.14) per TradingEconomics multi-source corroboration (CNBC Indonesia reshuffle anjlok 1%+, Periskop sesi II 6,020, StockWatch sesi I 6,020.696, Databoks Wed reference 6,071.14). MATERIAL Wed reconciliation: TRADE-LOG prior provisional ~6,138 overstated ~67pt / ~1.10% vs actual Databoks reference 6,071.14 \u2192 prior cumulative alpha overstated ~1pp; Thu reconciled cumulative +18.83pp (Wed baseline reconciled +17.63pp + Thu +1.20pp expansion day). Cabinet reshuffle intraday 14:30 WIB trigger sesi II selloff.",
+      "alpha_note": "Daily alpha +1.50pp Thu (portfolio 0.00% vs IHSG -1.50% chain-basis) via zero-exposure immunity on cabinet-reshuffle-shock sesi-II selloff. ALPHA EXPANSION DAY-1 RESUMPTION post Wed single-day compression Day-1. Sequence (reconciled): Mon +0.98 / Tue +0.80 / Wed ~-1 (reconciled) / Thu +1.50pp. Cumulative +18.83pp Thu chain-basis vs Wed reported +16.74pp \u2014 MATERIAL +2.09pp expansion (Thu +1.50pp daily + ~+1pp mechanical Wed close reconciliation).",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY74-Wk24-Day4-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-7-TLKM-EGM-T+1-CABINET-RESHUFFLE-INTRADAY-SHOCK-Q4-FIRST-SESSION-CLOSE-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4",
+      "notes": "No trades today (Wk 24 Day 4 CLOSE \u2014 24th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS). Trades this week: 0/3. ~95+ cumulative unused candidate-day slots trial-to-date. Zero-exposure immunity on cabinet-reshuffle-shock sesi-II selloff \u2192 +1.50pp daily alpha. Material Wed close reconciliation documented (actual 6,071.14 vs TRADE-LOG provisional ~6,138). TLKM EGM T+2 Fri Oct 2 formal report. Weekly Review Fri 16:00 WIB."
     }
   ],
   "positions": [],
@@ -31917,64 +31937,21 @@
     "day_label": "Day 114 (Wk 23 Day 4 EOD - BI-RDG-DECISION-DAY-3-TRANSMISSION-WINDOW)"
   },
   "risk": {
-    "regime_short": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY71-Wk24-Day1-CLOSE-EOD-post-BI-HOLD-TRANSMISSION-DAY-4-US-10Y-5.23%-Day-3-BREAKOUT-FURTHER-ESCALATION-external-shock-overlay-INTENSIFIED-IDR-17,885-Day-2-DETERIORATION-BRENT-$105-SNAP-BACK-Day-1-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-IN-PROGRESS-CRISIS-TRACK-GATE-0.90-1.15/5-partial-fade-3.85-4.10/5-gap-BINDING-WIDER-ALPHA-EXPANSION-RE-EPISODE-DAY-3-plus-0.98pp-headline-provisional-via-IHSG-minus-0.98pct-on-zero-exposure-DQG-Day-140-outage-persists",
+    "current_equity": 9716207500,
+    "peak_equity": 10026617500,
     "drawdown_from_peak_pct": -3.1,
-    "peak_equity_idr": 10026617500,
-    "trading_halted": false,
-    "halt_reason": null,
     "daily_pnl_pct": 0.0,
     "weekly_pnl_pct": 0.0,
-    "peak_equity": 10026617500
+    "trading_halted": false,
+    "halt_reason": null,
+    "cash_pct": 100.0,
+    "positions_count": 0,
+    "max_positions": 6,
+    "trades_this_week": 0,
+    "max_new_trades_week": 3,
+    "updated": "2026-10-01T15:15:00+07:00"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-27T02:17:43Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 15 Day 1. Crisis-track engagement gate ACTIVATED (0.75/5 re-entry criteria); zero candidates >=6/10 under octuple binding [crisis-track + IDR-Stage-5-Day14 + Brent-$95-100 + FF-4th-net-sell + US-mixed + NEW-Trump-10pct-tariff + DQG-Day-88 + BI-HOLD-Day6]. 6 SKIP decisions logged (BBCA/BBRI/MEDC/INDF/TLKM/AKRA). Telegram send failed 403 (fallback stdout).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track blocks; 5/10 ceiling"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track blocks; Q2 T+7"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track blocks; Q2 T+4 Brent-shock upside"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track blocks; Brent+tariff CPI-negative"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track blocks; DQ FAIL persistent"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "crisis-track blocks; Q2 T+0 petrol margin squeeze"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed 403; notify.sh stdout fallback"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-07-27T04:37:03Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Wk 15 Day 1 Mon midday: 0 positions (100% cash Day 17). All sell-side rules N/A. Regime intact under octuple binding."
-    },
     {
       "timestamp": "2026-07-27T08:20:32Z",
       "routine": "daily-summary",
@@ -36942,6 +36919,46 @@
       "routine": "midday",
       "status": "success",
       "summary": "Vacuous scan \u2014 0 positions, 100% cash. Crisis-track gate persists Day-4 OPEN. No sell-side rules to apply."
+    },
+    {
+      "ts": "2026-10-01T15:15:00+07:00",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 119 Wk 24 Day 4 CLOSE: IDR 9,716,207,500 (0.00% day). IHSG close 5,980.07 (-1.50%). Daily alpha +1.50pp via zero-exposure immunity on cabinet-reshuffle-shock sesi-II selloff. Cumulative alpha +18.83pp reconciled chain-basis (MATERIAL +2.09pp vs Wed reported). 0 positions. Trades this week 0/3. 24th consecutive zero-trade week Day-4. No risk alerts. Wed close reconciled 6,071.14 vs TRADE-LOG provisional ~6,138 documented.",
+      "actions": [
+        {
+          "type": "snapshot",
+          "detail": "Day 119 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard updated"
+        },
+        {
+          "type": "reconciliation",
+          "detail": "Wed Sep 30 close reconciled 6,071.14 vs prior provisional ~6,138 (overstated ~67pt / ~1.10%); cumulative alpha corrected +18.83pp Thu vs Wed reported +16.74pp"
+        },
+        {
+          "type": "event",
+          "detail": "Cabinet reshuffle Prabowo intraday 14:30 WIB trigger sesi II selloff anjlok 1%+ to close -1.50%; zero exposure immunity"
+        },
+        {
+          "type": "event",
+          "detail": "TLKM EGM T+1 Thu Oct 1 \u2014 Phase 2 fiber-spin-off InfraNexia Rp 49.858T deed executed Wed; T+2 formal report Fri Oct 2"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-01T08:22:51Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 119 Wk 24 Day 4 CLOSE: IDR 9,716,207,500 (0.00% day). IHSG close 5,980.07 (-1.50%). Daily alpha +1.50pp via zero-exposure immunity on cabinet-reshuffle-shock sesi-II selloff. Cumulative alpha +18.83pp reconciled chain-basis. 0 positions, 100% cash. Trades this week 0/3. 24th consecutive zero-trade week Day-4. No risk alerts. Wed close reconciled 6,071.14 vs TRADE-LOG prior provisional ~6,138 documented.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 119 EOD snapshot committed"
+        },
+        {
+          "type": "reconciliation",
+          "detail": "Wed close reconciled 6,071.14 vs provisional ~6,138"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36972,7 +36989,7 @@
     "brent": 97.09,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day4-OPEN-Q4-FIRST-SESSION-CRISIS-TRACK-ACTIVATED-UST-5.29%-Day-6-ESCALATION-BRENT-$97-Day-4-MATERIAL-FADE-IDR-Day-1-REVERSAL-TLKM-EGM-APPROVED"
   },
-  "last_updated": "2026-10-01T09:15:00+07:00",
+  "last_updated": "2026-10-01T15:15:00+07:00",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",
