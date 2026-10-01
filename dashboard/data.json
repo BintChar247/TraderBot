@@ -31583,6 +31583,300 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 selective foreign inflow Mon precursor Day-3 + Q3 earnings Oct 28 T-27 primary catalyst (WATCH only).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 earnings Oct 28 T-27; BBRI selective inflow Mon +Rp 14.63B Day-3 precursor monitoring"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; Big-4 net-sell 8-consec DEEPER (Wed -Rp 677.4B); IDR 17,899.6 Day-1 reversal partial-firming (150 IDR gap to criterion a)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 7/10 with Big-4 net-sell 8-consec DEEPER (Wed -Rp 677.4B); IDR 17,899.6 Day-1 reversal partial-firming (150 IDR gap to criterion a). Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-quality candidate (deep valuation) but Big-4 net-sell 8-consec DEEPER; no fresh catalyst.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive-quality candidate under DQG FAIL; no fresh binary catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; ~6,175 Wed basis; Big-4 net-sell 8-consec-day continuation DEEPER"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 6/10 with ~6,175 Wed basis; Big-4 net-sell 8-consec-day continuation DEEPER. Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 mixed; ex-div Day-11 absorbed; 4,030 Wed close; Big-4 net-sell 8-consec DEEPER.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div Day-11 T+11 mechanically absorbed; no fresh catalyst"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; 4,030 Wed close; Big-4 net-sell 8-consec DEEPER vs Tue"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 6/10 with 4,030 Wed close; Big-4 net-sell 8-consec DEEPER vs Tue. Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $97 Day-4 MATERIAL -9.17% fade = COGS relief MATERIAL + IDR Day-1 reversal partial-firming = Consumer sector net-positive setup.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $97 Day-4 fade -9.17% from Mon $106.89 peak = COGS relief MATERIAL"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; ~1,635 Wed defensive-quality (deep valuation but DQG FAIL)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 6/10 with ~1,635 Wed defensive-quality (deep valuation but DQG FAIL). Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent-fade COGS relief MATERIAL + IDR partial-firming net-positive; Q2 core +50.6% YoY confirmed; defensive-quality candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $97 Day-4 fade = COGS relief MATERIAL; Q2 core +50.6% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; ~6,650 Wed basis; defensive-quality (DQG FAIL)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 6/10 with ~6,650 Wed basis; defensive-quality (DQG FAIL). Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-01",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent-fade COGS relief MATERIAL + IDR partial-firming net-positive; ICBP parent exposure.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent $97 Day-4 fade = COGS relief MATERIAL (ICBP exposure)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-74; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation); US-10Y 5.29% Day-6 breakout escalation; IDR 17,899.6 Day-1 reversal partial-firming; Brent $97 Day-4 MATERIAL fade; TLKM EGM APPROVED Wed; Q4 first-session OPEN; Sept PMI release today."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR partial-firming Day-1 but ~150 IDR gap to 17,750; (d) 8-consec-day net-sell DEEPER; DQG-Day-143 structural FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 4 OPEN; DQG-Day-143 outage; ~6,650 Wed basis; defensive-quality (DQG FAIL)"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-143 structural FAIL. Score 6/10 with ~6,650 Wed basis; defensive-quality (DQG FAIL). Thesis upgrade WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -31633,18 +31927,6 @@
     "peak_equity": 10026617500
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-24T08:19:48Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-07-24: IDR 9.716B (+0.00%). Alpha +3.51% vs IHSG (strongest positive-alpha session Wk 14; broad-based IHSG risk-off -3.51%). 0 positions. Trades this week: 0/3 (13th consecutive 0/3 formalised). Cum alpha +15.89%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Wk 14 Day 5 close EOD snapshot committed"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-27T00:12:13Z",
       "routine": "pre-market",
@@ -36628,6 +36910,56 @@
           "detail": "Crisis-track gate ACTIVATED persists ~0.80-1.10/5; 24th consecutive zero-trade week Day-4 OPEN"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-01T02:18:56Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 24 Day 4 OPEN (Thu Oct 1 Q4 first session). 6 candidates \u22656/10 (BBRI 7; BBCA/BMRI/UNVR/ICBP/INDF 6) all SKIP under CRISIS-TRACK gate ACTIVATED + DQG-Day-143 outage. 24th consecutive zero-trade week.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "7/10 Q3 earnings Oct 28 T-27 primary catalyst; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "6/10 defensive-quality; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "6/10 4,030 Wed close ex-div Day-11; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "6/10 UPGRADED Brent-fade COGS relief; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "6/10 UPGRADED Brent-fade + Q2 core +50.6%; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "6/10 UPGRADED Brent-fade ICBP exposure; SKIP crisis-track + DQG FAIL"
+        },
+        {
+          "type": "warning",
+          "detail": "CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (0.80-1.10/5 partial-fade); 0% new entries binding"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-143 structural FAIL (yfinance+GoAPI blocked 143 sessions)"
+        },
+        {
+          "type": "warning",
+          "detail": "TELEGRAM env vars not exported this session; notification path stdout-only"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -36658,7 +36990,7 @@
     "brent": 97.09,
     "regime_short": "DEFENSIVE-INTENSIFIED-Wk24-Day4-OPEN-Q4-FIRST-SESSION-CRISIS-TRACK-ACTIVATED-UST-5.29%-Day-6-ESCALATION-BRENT-$97-Day-4-MATERIAL-FADE-IDR-Day-1-REVERSAL-TLKM-EGM-APPROVED"
   },
-  "last_updated": "2026-10-01T07:00:00+07:00",
+  "last_updated": "2026-10-01T09:15:00+07:00",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",

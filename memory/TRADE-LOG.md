@@ -13815,3 +13815,47 @@ _(none — book fully de-risked Day 73 since Mon Jul 6 KLBF hard-cut; 100% cash 
   12. **Wk 24 Day 4 OPEN — 24th consecutive zero-trade week Day-4** — multi-front bindings persist through post-BI-HOLD-transmission tail + regime-normalization window + TLKM EGM T+1 results-pending + Q4 first-session.
 
 ---
+
+### 2026-10-01 09:15 WIB — Market-open (Wk 24 Day 4 OPEN — Q4 2026 FIRST SESSION — TLKM EGM T+1 — SEPT PMI RELEASE DAY)
+
+- **Trades placed:** 0 (NO TRADES)
+- **Candidates ≥6/10 evaluated:** BBRI (7), BBCA (6), BMRI (6), UNVR (6 UPGRADED from 5), ICBP (6 UPGRADED from 5), INDF (6 UPGRADED from 5) — all SKIP
+- **Skip reason (mechanical, applies to all 6):**
+  - CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED persists (~0.80-1.10/5 partial-fade minor-fluctuation Wk 24 Day 4 OPEN vs Wed OPEN 0.80-1.05/5; IDR Day-1 reversal partial-firming toward criterion (a) offset by Big-4 net-sell 8-consec-day DEEPER on Wed -Rp 677.4B; 3.90-4.20/5 gap BINDING-WIDER-STILL)
+  - DQG-Day-143 structural FAIL (yfinance+GoAPI blocked 143 consecutive sessions since Apr 21; per-ticker multi-source cluster narrowing NOT achievable at any candidate mark)
+- **9-gate checklist per candidate:** N/A — pre-blocked by Hard Rule CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (0% new entries permitted) and co-canonical Data Quality Gate structural FAIL.
+- **Thesis upgrades (WATCH only, deferred to post-gate-DE-ACTIVATION window):**
+  - Consumer sector (UNVR/ICBP/INDF) upgraded 5→6 on Brent $97 Day-4 MATERIAL -9.17% fade from Mon $106.89 peak = COGS relief MATERIAL + IDR Day-1 reversal partial-firming 17,899.6 (from Day-4 broken 17,993) = net-positive setup Day-1
+- **Regime bindings (Thu Oct 1 OPEN):**
+  - IHSG Wed Sep 30 reconciled ~6,138 (+0.26% chain-basis vs Tue reconciled ~6,122) per multi-source cluster Databoks + CNBC Indonesia + MSN narrowed; Thu Oct 1 sesi I direction TBD
+  - US-10Y 5.29% Day-6 BREAKOUT ESCALATION FURTHER (+0.05pp vs Tue 5.24%); 19-yr high band + 30-yr fresh multiyear high
+  - IDR 17,899.6 Wed close Day-1 reversal partial-firming vs Day-4 broken 17,993 (-0.52% strengthening); criterion (a) sub-17,750 target still ~150 IDR gap
+  - Brent $97.09 Wed Day-4 MATERIAL fade from Mon $106.89 peak (-9.17%); Consumer COGS relief MATERIAL
+  - Newcastle coal $144 Day-22 modest cooling; coal EXITED per 2-strike (unchanged)
+  - CPO MYR 4,629 Day-8 "lowest in 8 weeks" per Palm Oil Magazine Wed (AALI/LSIP headwind DEEPEST)
+  - LME nickel $15,948 Day-19 sub-$17K -0.57% Wed (NEW 2026 low $16,055; sub-$16K imminent) MDKA/ANTM/INCO/NCKL headwind DEEPEST
+  - VIX ~16.04 mid-teens firming Day-1 (+1.14pp vs Tue ~14.9)
+  - Foreign flow Wed -Rp 677.4B 8-consec-day DEEPER vs Tue -Rp 364.88B; YTD ~-Rp 78.6T
+  - BBRI selective inflow Mon +Rp 14.63B Day-3 precursor monitoring; Wed direction TBD
+  - Destry BI-Gov Day-26 post-maiden-RDG hold-5.75% dovish continuity absorption Day-7 transmission
+  - BMRI ex-div Day-11 T+11 mechanical absorbed
+  - BBRI post-buyback-expiry Day-16 buy-flow-removal
+  - ASII IDR 2T buyback absorption Day-27
+  - **TLKM EGM APPROVED Wed Sep 30 fiber-spin-off Phase 2 Rp 49.858T InfraNexia; deed executed Wed; FADE-ON-BEAT MEDIUM pattern Thu Oct 1 Day-1; T+2 Fri Oct 2 formal report**
+  - MDKA Q3 print DEFERRED (Oct-Nov); nickel headwind DEEPEST
+  - MSCI-Aug-31 EFFECTIVE ABSORPTION Day-24
+  - New Trump 10% tariff Indonesia Day-60
+  - BI-HOLD-DOVISH-ABSORBED Day-63 (post-Destry-maiden-RDG hold-5.75% dovish continuity absorption Day-7)
+  - BEI Rp1 minimum-stock-price rule Day-4 structural microstructure change monitoring
+  - **Indonesia Sept PMI release today ~06:30-08:00 WIB** (prior Aug 49.8 contraction Day-6)
+  - **Q4-2026 FIRST SESSION OPEN** (window-dressing residual absorption + fresh-quarter positioning kickoff)
+  - Asia Wed overnight all positive (Nikkei +1.94% highest close since Aug 19 / HSI +0.37% / Shanghai +0.31%)
+  - US Wed mixed (S&P -0.25% / Nasdaq +0.24% / Dow -0.86%) on UST breakout + 30-yr fresh multiyear high
+- **Trades this week:** 0/3
+- **24th consecutive zero-trade week Day-4 OPEN** — ~95+ cumulative unused candidate-day slots trial-to-date
+- **Book:** 0 positions; 100% cash 9,716,207,500 IDR; realised -294,172,500; unrealised 0
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / positions [] — reconciled OK
+- **Dashboard update:** decisions[] appended 6 SKIP entries (BBRI/BBCA/BMRI/UNVR/ICBP/INDF) with 5-input rationale (catalyst/macro/risk/sizing/warning) and gate_results pattern [False, True×14] marking crisis-track pre-block
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override. TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID NOT exported this session (export blocked by auto-mode credential-leakage classifier); notification path stdout-only this run.
+- **Notification path:** Telegram send NOT attempted (env vars not set; export blocked); routine notification deferred.
+- **Next action:** midday scan 11:30 WIB (vacuous — 0 positions); TLKM FADE-ON-BEAT Day-1 pattern monitoring + Sept PMI post-release market reaction; EOD 15:15 WIB
