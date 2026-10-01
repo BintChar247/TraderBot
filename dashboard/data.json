@@ -31928,30 +31928,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-27T00:12:13Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 15 Day 1 Mon pre-market: 50 tickers scanned. Zero candidates \u22656 (14th consecutive 0/3 BUY-slot week trajectory). Octuple binding intensified via NEW Trump 10% Section 301 tariff Indonesia effective Fri Jul 24. IHSG Fri 6,196 -1.88%. IDR 17,922 (Mon forecast 17,773 sub-17,750 pierce candidate).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 0 candidates \u22656 (structural 5/10 ceiling under octuple binding)"
-        },
-        {
-          "type": "research",
-          "detail": "NEW Trump 10% Section 301 tariff on Indonesian goods effective Fri Jul 24 \u2014 fresh structural export headwind"
-        },
-        {
-          "type": "research",
-          "detail": "Foreign flow 4th-consecutive net-sell Fri -2.37B sh (BMRI top-sold); criterion (d) DEEPER regressed 1.00/5 \u2192 0.75/5"
-        },
-        {
-          "type": "research",
-          "detail": "IDR Mon forecast 17,773 sub-17,750 PIERCE candidate Day 1 \u2014 23 IDR gap"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-27T02:17:43Z",
       "routine": "market-open",
       "status": "warning",
@@ -36960,6 +36936,12 @@
           "detail": "TELEGRAM env vars not exported this session; notification path stdout-only"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-01T04:43:38Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Vacuous scan \u2014 0 positions, 100% cash. Crisis-track gate persists Day-4 OPEN. No sell-side rules to apply."
     }
   ],
   "exposure": {
