@@ -28085,3 +28085,183 @@ _(none — book fully de-risked Day 74 since Mon Jul 6 KLBF hard-cut; 100% cash 
 - [ ] **15:15 EOD** — 119th session; Wk 24 Day 4 OPEN close; Day 74 no-position; BI-HOLD-transmission Day-7 cumulative-alpha update; Q4-2026-first-session-close
 
 ---
+
+## 2026-10-02 (Friday) — Pre-market Research — Day 120 — Wk 24 Day 5 OPEN — WEEKLY REVIEW DAY — TLKM EGM T+2 formal filing day — Post-cabinet-reshuffle Day-1 — 24th consecutive zero-trade week Day-5 (FINAL)
+
+### Global Overnight (Thu Oct 1 US close + Fri Oct 2 Asia-early)
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | 7,651.54 | -0.3% | Early Oct profit-take; UST pullback helped afternoon reversal | url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026
+| Nasdaq | 26,861.06 | +0.2% | Chip stock relative strength | url: https://finance.yahoo.com/markets/live/stock-market-today-thursday-oct-1-dow-sp-500-nasdaq-080602402.html
+| Dow | 50,906.05 | -0.9% | -443.87pt; weakest of three on UST breakout drag | url: https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026
+| Nikkei 225 | 68,840 | +3.1% | STRONG rally Day-2 continuation; AI/chip-halo transmission | url: https://tradingeconomics.com/japan/stock-market
+| Shanghai Composite | 3,842.19 | CLOSED | National Day holiday Thu Oct 1 (prev close) | url: —
+| Hang Seng | 24,613.27 | CLOSED | National Day holiday Thu Oct 1 (prev close) | url: —
+| VIX | 16.34 | +0.31% | Mid-teens firming Day-2 continuation vs Tue 14.9 | url: https://www.cnbc.com/quotes/.VIX
+
+### Macro Snapshot (Thu Oct 1 close / Fri Oct 2 pre-market cluster)
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | 6,009.50 Thu close (RECONCILED multi-source) | -1.02% / -61.64pt vs Wed reconciled 6,071.14 | **MATERIAL RECONCILIATION:** TRADE-LOG Thu provisional 5,980.07 (-1.50%) was intraday low (5,973.16 touched); EOD multi-source cluster converges 6,009.50 per CNBC Indonesia + Infobanknews + StockWatch + Databoks + Suara.com (4-of-5 cluster -1.02%); downside overstated ~29pt / ~0.49% in Trade-Log. url: https://www.cnbcindonesia.com/market/20261001162618-17-772586/ihsg-masih-tertekan-melemah-102-ke-level-6009
+| IDR/USD | 17,933-17,964 Thu close (BI 17,966 sell / 17,787 buy) | -0.19% to -0.36% weakening vs Wed 17,899.6 | STAGE 5 MARGINAL-BOUNDARY Day-69 criterion (a) sub-17,750 target still ~180 IDR gap; Day-1 reversal partial-firming REVERSED into Thu weakening | url: https://www.bi.go.id/en/statistik/informasi-kurs/transaksi-bi/default.aspx
+| Indo 10Y SUN yield | ~6.80-6.90% (estimate; no fresh print) | — | Carried from Wk 23 close basis | url: —
+| US 10Y yield | 5.24-5.30% Thu close | mixed (TradingEconomics 5.24% / alt 5.298%) | Day-7 BREAKOUT persistence; marginal partial-fade from Wed 5.29% peak; 19-yr high band consolidation | url: https://tradingeconomics.com/united-states/government-bond-yield
+| Indo-US spread | ~155-160bp | — | Narrow by trial-historical standards | — |
+| Newcastle coal (USD/ton) | $146.50-148.50 | +~1% Day-20 modest cooling-pause | ≥$140 sustained 20-consec-session; coal EXITED 2-strike still binds | url: https://tradingeconomics.com/commodity/coal
+| CPO palm oil (MYR/ton) | 4,615 Tue-Wed / 4,416 Fri pre-market trading | Day-9 "lowest in 8 weeks"; Oct ref USD 1,042.15 raised | AALI/LSIP headwind DEEPEST; CPO slip-below-base-support confirmed | url: https://www.palmoilmagazine.com/cpo-price/2026/09/30/malaysia-cpo-futures-drop-rm35-to-rm4629-hit-lowest-level-in-8-weeks/
+| LME nickel (USD/ton) | $15,595 Thu Oct 1 settlement | -2.1% Day-20 NEW 2026 low | Sub-$16K BREACHED CONFIRMED; MDKA/ANTM/INCO/NCKL headwind DEEPEST | url: https://news.metal.com/newscontent/104143238-smm-flash-newsindonesias-hma-nickel-further-decreased-in-first-period-of-october
+| Brent crude (USD/bbl) | $97.36-$102.30 Fri Oct 2 pre-market volatile | Day-5 Hormuz re-escalation (US-Iran ceasefire collapsed) | **FRESH NEGATIVE DEVELOPMENT:** Brent re-spike from $97 Thu low toward $102 Fri; Consumer COGS relief UNWINDING on Hormuz escalation; UNVR/ICBP/INDF upgrade thesis Day-5 PARTIAL FADE | url: https://gulfnews.com/business/energy/brent-crude-oil-surges-past-102-amid-hormuz-tensions-us-iran-conflict-1.500695537
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | Thu Oct 1 EOD -Rp 241.86B / sesi I -Rp 204.30B | 9-consec-day net-sell but SIGNIFICANT MODERATION vs Wed -Rp 677.4B (-64% day/day); YTD ~-Rp 78.8T; **selling intensity moderating but criterion (d) 2-of-2 net-BUY still NOT started** |
+| Foreign flow streak | 9 consecutive net-sell days | DEEPER duration vs Wed 8-consec; TLKM / BMRI / BBCA top 3 net-sold Thu per Receh.in cluster (Rp 215B / Rp 206B / Rp 176B); criterion (d) 0.20-0.30/5 partial holds |
+| Top buying brokers | n/a Fri pre-market | Databoks/receh.in cluster pending Fri sesi I |
+| Top selling brokers | n/a Fri pre-market | Databoks/receh.in cluster pending Fri sesi I |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | NEUTRAL-MIXED | BBRI H1 +17.5% YoY; BBCA Haji-Isam acquisition rumor; Big-3 foreign-sold Thu | BBRI, BBCA, BMRI |
+| Coal / Energy | NEGATIVE EXITED | Newcastle $146 Day-20 ≥$140 persistent; sector 2-strike-exit binds | ADRO, ITMG, PTBA |
+| Nickel / Mining | DEEPEST NEGATIVE | LME nickel $15,595 Thu NEW 2026 low sub-$16K BREACH CONFIRMED | ANTM, INCO, MDKA, NCKL, MBMA |
+| CPO / Agri | DEEPEST NEGATIVE | CPO MYR 4,416 Fri 8-week-low Day-9; slip below base support CONFIRMED | AALI, LSIP |
+| Property | NEGATIVE | H1 misses: BSDE -53%, PWON -11%, SMRA -34%; CTRA in-line | BSDE, CTRA, SMRA, PWON |
+| Consumer | MIXED (positive-fading) | Brent $97→$102 Hormuz re-escalation = COGS relief Day-5 PARTIAL FADE; wheat/sugar rising; ICBP Q2 +50.6% YoY | UNVR, ICBP, INDF, MYOR, SIDO |
+| Telco | FADE-ON-BEAT DAY-2 | TLKM EGM T+2 formal filing today Fri Oct 2; 10-consec-day foreign net-sell -Rp 1.03T through Sep 30 | TLKM, EXCL, ISAT |
+| Infrastructure | NEGATIVE | WSKT distress zone; PTPP+ADHI consolidation MRA signed | JSMR, WSKT, PTPP, ADHI |
+| Tech | DEEPEST NEGATIVE Thu | Tech sector -3.93% Thu (sharpest); GOTO -12.50% Thu; cabinet reshuffle sector hit | GOTO, BUKA, EMTK |
+| Cement | NEGATIVE | SMGR/INTP 1-2% sales growth 2026 forecast; weak demand | SMGR, INTP |
+| Healthcare | HOLD-WATCH | KLBF removed (Wk 12 cut); MIKA defensive but no catalyst | KLBF, MIKA |
+
+### Corporate Calendar Today (Fri Oct 2 2026)
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| TLKM EGM T+2 formal filing (deed executed Sep 30, notification Oct 2) | TLKM | Standard T+2 cadence | FADE-ON-BEAT MEDIUM Day-2 pattern persistence; Rp 49.86T InfraNexia Phase 2 fiber spin-off |
+| Weekly Review 16:00 WIB | — | 16:00 WIB | Wk 24 CLOSE recap + letter grade + WEEKLY-REVIEW.md update + CONVICTION-LOG/PATTERNS/MACRO-REGIME cadence review |
+| Post-cabinet-reshuffle Day-1 | — | All session | Market-reaction continuation vs partial-reversal binary; 7th reshuffle in 2 years = sentiment overhang persistence |
+| GOTO EGM scheduled | GOTO | Oct 14 2026 | T+8 forward catalyst; shareholder meeting pending |
+| BBTN earnings | BBTN | Oct 23 2026 | T+15 forward catalyst |
+| PTBA earnings | PTBA | Oct 29 2026 | T+21 forward catalyst |
+| JSMR + ADHI earnings | JSMR, ADHI | Oct 29 2026 | T+21 forward catalysts |
+
+### Watchlist Scan — All 50 Tickers (DQG Day-144 outage structural FAIL — WebSearch-only prior-day basis; actionable scores apply post-gate-DE-ACTIVATION per crisis-track engagement gate)
+
+Scoring 1-10 (10 = strongest buy setup). ALL mechanically pre-blocked per crisis-track engagement gate ACTIVATED ~0.80-1.10/5 Wk 24 Day 5 OPEN (3.90-4.20/5 gap BINDING WIDER STILL) + DQG Day-144 structural FAIL.
+
+| # | Ticker | Sector | Price (prior) | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | ~6,075 (Wed ref) | mixed | 6 | Haji-Isam/Jhonlin acquisition rumor NEW idiosyncratic; defensive-quality PBV 2.8x PER 12.5x; foreign-sold Thu -Rp 176B | SKIP |
+| 2 | BBRI | Banking | ~3,860 (Wed ref) | mixed | 7 | H1 +17.5% YoY net Rp 31.2T strong; post-buyback-expiry Day-18 CLEAN absorption confirmed (contra-KLBF Wk 12); JPMorgan Buy PT 3,400 | SKIP |
+| 3 | BMRI | Banking | — | mixed | 6 | Ex-div absorbed Day-16; PBV 1.3x; foreign-sold Thu -Rp 206B 2nd deepest | SKIP |
+| 4 | BBNI | Banking | — | — | 5 | PBV 0.8x deep valuation; no near-term catalyst | SKIP |
+| 5 | ADRO | Coal | — | — | 4 | Dividend yield 12.33% leader; sector EXITED 2-strike binding; Newcastle $146 Day-20 | SKIP |
+| 6 | ITMG | Coal | — | — | 4 | Dividend 10.84%; sector EXITED | SKIP |
+| 7 | PTBA | Coal | — | — | 5 | Dividend 11.25%; Q1 +104.81% YoY; Oct 29 earnings T+21; sector EXITED | SKIP |
+| 8 | ANTM | Nickel | — | — | 4 | LME $15,595 2026 low; headwind DEEPEST | SKIP |
+| 9 | INCO | Nickel | — | — | 4 | HPM limonite revision Sept 18 royalty-relief tailwind; nickel sub-$16K offset | SKIP |
+| 10 | MDKA | Nickel | — | — | 3 | Q3 deferred Oct-Nov; nickel + gold complex DEEPEST | SKIP |
+| 11 | TLKM | Telco | 2,290 Sep 30 close (-3.38%) | pending | 5 | EGM T+2 formal filing today Fri; FADE-ON-BEAT MEDIUM Day-2 pattern; 10-day foreign -Rp 1.03T; Thu top-sold -Rp 216B | SKIP |
+| 12 | EXCL | Telco | — | — | 4 | XL-Link Net 2026 capex Rp 20T integration; no near-term catalyst | SKIP |
+| 13 | UNVR | Consumer | 1,635 Wed ref | — | 6 | Deep valuation defensive-quality; Brent re-spike Day-5 PARTIAL FADE of COGS relief | SKIP |
+| 14 | ICBP | Consumer | 6,650 Wed ref | — | 6 | Q2 core +50.6% YoY beat; wheat/sugar pressure; Brent partial fade; 2026 target 5-7% rev / 20-22% EBIT | SKIP |
+| 15 | INDF | Consumer | 6,650 Wed ref | — | 6 | ICBP parent exposure; sole net-inflow YTD; Brent partial fade | SKIP |
+| 16 | BSDE | Property | — | — | 3 | H1 net -53% YoY weakest; PPN incentive extended 2026 | SKIP |
+| 17 | CTRA | Property | — | — | 5 | H1 in-line consensus (best of property set); PPN incentive | SKIP |
+| 18 | ASII | Auto | — | — | 5 | 2T buyback Day-28 absorbed; analyst avg Buy PT 6,718 (+42.93%) | SKIP |
+| 19 | KLBF | Healthcare | — | — | 4 | Removed from book Wk 12 hard-cut; no re-entry window | SKIP |
+| 20 | GOTO | Tech | pending | -12.50% Thu | 2 | Tech sector -3.93% Thu DEEPEST; GOTO -12.50% leader-loss; EGM Oct 14 forward | SKIP |
+
+**Additional 30 LQ45/non-LQ45 tickers scanned per 50-ticker mandate (summary):**
+- Banking (BNGA 5, NISP 4, BBTN 4) — SKIP, no near-term catalyst
+- Coal (BUMI 2, HRUM 3) — SKIP sector-exit
+- Energy (MEDC 3, PGAS 4) — SKIP; Brent re-spike mixed vector
+- Nickel (NCKL 4, MBMA 3, TINS 4) — SKIP sub-$16K binding
+- Metals/Mining — all SKIP
+- Consumer (MYOR 5, SIDO 3) — SKIP; wheat/sugar pressure
+- Telco towers (MTEL 4, TOWR 4) — SKIP
+- Tech (BUKA 2, EMTK 3) — SKIP; tech -3.93% Thu
+- Industrials/Heavy (UNTR 4, AKRA 4) — SKIP; coal/distribution weak
+- Plantation (AALI 2, LSIP 2) — SKIP CPO MYR 4,416 8-week-low DEEPEST
+- Infrastructure (JSMR 4, WSKT 1, PTPP 3, ADHI 3) — SKIP; WSKT distress zone, PTPP+ADHI MRA
+- Healthcare (MIKA 4) — SKIP; no catalyst
+- Cement (SMGR 3, INTP 3) — SKIP; weak demand
+
+### Top Candidates (score ≥ 6) — Deep-dive (all mechanically SKIP per crisis-track + DQG)
+
+**6 candidates scored ≥6/10: BBRI (7); BBCA, BMRI, UNVR, ICBP, INDF (6 each).** All pre-blocked.
+
+#### 1. BBRI — Banking: H1 +17.5% YoY + post-buyback-clean absorption anchor (SKIP)
+- **Fundamental case:**
+  - Thesis: Indonesia's largest bank by assets with H1 2026 net profit Rp 31.2T +17.5% YoY on 16.2% loan growth + cost efficiency improvement; mid-cycle banking leader.
+  - Valuation: PBV 1.5x (sector median ~1.3x); PE ~12x in-line.
+  - Catalyst: Post-buyback-expiry Day-18 CLEAN absorption (Wk 23 1st observation PATTERN candidate); H2 continuation trajectory + Q3 Oct-Nov T+21-50.
+  - Analyst view: JPMorgan Buy PT 3,400 (upgrade Jul 20 2026); avg PT 3,863 / high 5,145 / 24-analyst Buy consensus.
+  - Insider: n/a fresh observation Fri pre-market.
+- **Technical context:** DQG Day-144 FAIL = no per-ticker cluster narrowing achievable; carry basis ~3,860 Wed; prior-session band 3,700-3,900 estimate.
+- **Trade plan: NO ENTRY** per crisis-track engagement gate ACTIVATED ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL). Score 7/10. **GATE 1-15 result: pre-block via crisis-track Hard Rule override before Gate 5 catalyst check.**
+
+#### 2. BBCA — Banking: Haji-Isam acquisition rumor + defensive-quality (SKIP)
+- **Fundamental case:**
+  - Thesis: Indonesia's largest private bank by market cap Rp 748.89T; defensive-quality anchor; **NEW idiosyncratic**: Bloomberg Technoz circulating Haji-Isam/Jhonlin Group acquisition rumor (deep-pocket conglomerate interest).
+  - Valuation: PBV 2.8x / PE 12.5x; premium to sector reflects quality.
+  - Catalyst: Acquisition rumor speculative (unconfirmed); defensive-quality anchor in reshuffle-shock environment.
+  - Analyst view: n/a specific Oct upgrades; general sector Buy consensus.
+  - Insider: n/a.
+- **Technical context:** DQG FAIL; Wed basis ~6,075; Thu foreign-sold -Rp 176B (3rd deepest).
+- **Trade plan: NO ENTRY** per crisis-track. Score 6/10. **PRE-BLOCK via crisis-track.**
+
+#### 3. BMRI — Banking: Ex-div absorbed + PBV 1.3x (SKIP)
+- Thesis: Ex-div Rp 66 Sep 16 T+16 mechanical absorbed Day-11 clean; defensive banking quality; PBV 1.3x discount to BBCA/BBRI.
+- Thu Oct 1 foreign-sold -Rp 206B 2nd deepest. Score 6/10. **PRE-BLOCK via crisis-track.**
+
+#### 4-6. UNVR / ICBP / INDF — Consumer: Brent-fade COGS relief Day-5 PARTIAL FADE on Hormuz re-escalation (SKIP)
+- UNVR 1,635 Wed defensive-quality (deep valuation but no long-term σ cite available); ICBP 6,650 Q2 core +50.6% YoY; INDF 6,650 parent exposure (ICBP).
+- **FRESH NEGATIVE DEVELOPMENT Fri pre-market:** Brent re-spike $97→$102 on US-Iran Hormuz ceasefire collapse = **Day-5 COGS relief UNWINDING**. Consumer upgrade thesis PARTIAL FADE; score holds 6/10 but conviction erodes.
+- Scores 6/10 each. **PRE-BLOCK via crisis-track + DQG + Brent fade.**
+
+### Held Position Updates
+
+_(none — book fully de-risked Day 75 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 24 Day 5 OPEN; zero equity market exposure through BI-HOLD-transmission Day-8 + UST-5.24-5.30%-Day-7 breakout persistence + TLKM EGM T+2 formal filing day + post-cabinet-reshuffle Day-1 + Weekly Review 16:00 WIB window)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-Day75 + US-10Y-5.24-5.30%-Day-7-BREAKOUT-PERSISTENCE-SLIGHT-FADE external-shock-overlay + IDR-STAGE-5-MARGINAL-BOUNDARY-Day-69 Thu-weakening-reversed-Day-1-partial-firming (17,933-17,964 Thu close vs Wed 17,899.6; still ~180 IDR gap to criterion (a) sub-17,750) + BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-5-COGS-RELIEF-UNWINDING + LME-NICKEL-$15,595-NEW-2026-LOW-SUB-$16K-BREACH-CONFIRMED + CPO-MYR-4,416-FRI-SLIP-DAY-9-8WK-LOW-CONFIRMED + NEWCASTLE-COAL-$146-DAY-20-SECTOR-EXITED + IHSG-6,009.50-Thu-RECONCILED-vs-TRADE-LOG-5,980.07-PROVISIONAL-OVERSTATED + CABINET-RESHUFFLE-DAY-1-ABSORPTION + TLKM-EGM-T+2-FORMAL-FILING + Q4-2026-FIRST-SESSION-DAY-2 + SEPT-PMI-52.4-EXPANSION-RECOVERY-ABSORBED + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.80-1.10-of-5-partial-fade-minor-fluctuation + WEEKLY-REVIEW-16:00-WIB-DAY**
+
+- **Reasoning:** 7-front multi-binding stack intact: (1) US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); (2) IDR 17,933-17,964 Thu close weakening-reversal of Wed partial-firming; (3) Brent $97→$102 Hormuz re-escalation Fri pre-market Day-5 COGS relief UNWINDING; (4) LME nickel $15,595 NEW 2026 low sub-$16K BREACHED CONFIRMED; (5) CPO MYR 4,416 Fri 8-week-low Day-9 base-support CONFIRMED breakdown; (6) cabinet reshuffle Day-1 absorption continuity; (7) 9-consec-day foreign net-sell (though moderating -64% day/day Thu vs Wed). **FRESH POSITIVE:** Sept PMI 52.4 EXPANSION recovery (vs Aug 49.8 contraction) — highest since Feb 2026; new-orders + output + employment broad-based. **FRESH NEGATIVE:** Brent $97→$102 Hormuz re-escalation Fri pre-market = Consumer upgrade thesis PARTIAL FADE Day-5. **IHSG TRADE-LOG RECONCILIATION:** Thu close 6,009.50 (reconciled multi-source) vs TRADE-LOG provisional 5,980.07 = +29.43pt / +0.49% upward reconciliation; cumulative alpha ~+18.34pp Thu reconciled chain-basis (vs reported +18.83pp).
+- **Regime shift trigger:** Crisis-track gate ACTIVATED persists ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL). Path to DE-ACTIVATION requires concurrent: (a) IDR sub-17,750 sustained 3-of-3; (b) multi-source cluster ≥3-source ≤4% relaxed; (c) MSCI/S&P DJI overhang neutral+; (d) 2-consec net-BUY foreign; (e) R:R ≥2:1 achievable. Current partial-progress: (a) 0.20-0.35/5 Thu-reversed; (b) DQG Day-144 FAIL structural; (c) 0/5 formal-FAIL; (d) 0.20-0.30/5 (9-consec net-sell moderating); (e) blocked by DQG.
+- **Position sizing adjustment:** **crisis-track ACTIVATED = 0% new entries permitted** regardless of Sept PMI expansion-recovery + BBRI H1 fundamentals + Consumer-sector Brent-fade upgrade. Max position pct in RISK-STATE.json = 5% binding pre-emptive if gate ever DE-ACTIVATES.
+
+### Flagged Risks
+
+- **Brent $97→$102 Hormuz RE-ESCALATION Fri Oct 2 pre-market** — US-Iran ceasefire negotiations collapsed; sharp Strait of Hormuz supply disruption risk re-escalation; Consumer COGS relief Day-5 PARTIAL FADE; CPI-vector NEGATIVE re-arm candidate.
+- **LME nickel $15,595 NEW 2026 low sub-$16K BREACH CONFIRMED** — MDKA/ANTM/INCO/NCKL headwind DEEPEST; Indonesia HMA nickel reduction Oct 1st period.
+- **CPO MYR 4,416 Fri pre-market 8-week-low Day-9** — AALI/LSIP sole-tailwind fade DEEPEST; slip below base support 4,850-4,900 confirmed.
+- **Cabinet reshuffle Day-1 absorption** — 7th reshuffle in 2 years under Prabowo; political-economic uncertainty premium persistence; tech -3.93% Thu / utilities -1.7% / consumer critical -1.6%.
+- **US-10Y 5.24-5.30% Day-7 breakout persistence** — EM-outflow pressure sustained; 30-yr fresh multi-year high consolidation.
+- **DQG-Day-144 structural FAIL** — yfinance+GoAPI blocked 144 consec sessions since Apr 21; cluster narrowing NOT achievable; canonical/co-canonical entry gate STRUCTURALLY FAILS for all buy-side gates.
+- **TLKM EGM T+2 formal filing today** — FADE-ON-BEAT MEDIUM Day-2 pattern persistence; 10-day foreign net-sell -Rp 1.03T through Sep 30.
+- **BBCA Haji-Isam/Jhonlin acquisition rumor** — speculative idiosyncratic; price-impact binary; defensive-quality anchor potentially dislodged if confirmed/denied.
+- **GOTO -12.50% Thu + tech sector -3.93%** — reshuffle-shock + sector-specific weakness continuation risk.
+- **24th consecutive zero-trade week Day-5 FINAL** — 24th-week-closing marker; ~95+ cumulative unused candidate-day slots trial-to-date; Weekly Review 16:00 WIB today.
+
+### Plan for /market-open
+
+- [ ] **09:00 WIB PRE-OPEN** — confirm IHSG Fri sesi I direction post-cabinet-reshuffle Day-1 + Brent-Hormuz-re-escalation + Nikkei-strong-rally + S&P-mixed overnight + TLKM EGM T+2 filing lead-in
+- [ ] **09:15 WIB OPEN** — **NO TRADES**. 6 candidates ≥6/10 (BBRI 7; BBCA, BMRI, UNVR, ICBP, INDF 6 each) all pre-blocked per crisis-track engagement gate ACTIVATED ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-re-spike Consumer-thesis-partial-fade overlay; **24th consecutive zero-trade week Day-5 FINAL continuation** (~100+ cumulative unused candidate-day slots trial-to-date).
+- [ ] **11:30 MIDDAY SCAN** — 0 positions to evaluate; vacuous scan; monitor TLKM FADE-ON-BEAT Day-2 + Brent-Hormuz continuation vs partial-reversal
+- [ ] **13:30-15:15 WIB** — monitor IHSG Fri sesi II direction + IDR direction Day-2 weakening continuation vs partial-reversal + foreign-flow Thu-moderating pattern persistence + TLKM EGM T+2 filing content read + Weekly Review 16:00 WIB prep
+- [ ] **15:15 EOD** — Day 120 session; Wk 24 Day 5 CLOSE; Wk 24 CLOSE marker (24th consecutive zero-trade week complete); Day-75 no-position; cumulative-alpha update + Thu-reconciliation reflection
+- [ ] **16:00 WIB WEEKLY REVIEW** — Wk 24 recap; letter grade; WEEKLY-REVIEW.md update; CONVICTION-LOG + PATTERNS + MACRO-REGIME cadence review; crisis-track engagement gate 10+ weeks durability marker
+
+---
