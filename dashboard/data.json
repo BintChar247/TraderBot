@@ -32197,6 +32197,306 @@
         true,
         true
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: H1 +17.5% YoY net Rp 31.2T; post-buyback-expiry Day-18 CLEAN absorption; JPMorgan Buy PT 3,400.",
+      "score": 7,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 earnings Oct 28 T-26 primary catalyst (WATCH only); H1 +17.5% YoY mid-cycle leader"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 7/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 7/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Largest private bank; defensive-quality anchor; NEW Haji-Isam/Jhonlin acquisition rumor (unconfirmed).",
+      "score": 6,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Haji-Isam/Jhonlin acquisition rumor (speculative idiosyncratic); defensive PBV 2.8x PER 12.5x"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 6/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 6/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking: Ex-div absorbed Day-16; defensive banking quality; PBV 1.3x discount to BBCA/BBRI.",
+      "score": 6,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Ex-div absorbed Day-16; Thu top-2 foreign-sold -Rp 206B; PBV 1.3x discount"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 6/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 6/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer: Deep valuation defensive-quality; Brent re-spike Day-5 COGS relief PARTIAL FADE.",
+      "score": 6,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Deep valuation defensive-quality; Brent $97->$102 Hormuz Day-5 COGS relief UNWINDING"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 6/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 6/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer: Q2 core +50.6% YoY beat; wheat/sugar pressure; Brent-fade partial.",
+      "score": 6,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core +50.6% YoY beat; 2026 target 5-7% rev / 20-22% EBIT; Brent-Hormuz partial fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 6/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 6/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer: ICBP parent exposure; sole net-inflow YTD; Brent-fade partial.",
+      "score": 6,
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "ICBP parent exposure (6,650 Wed basis); sole net-inflow YTD; Brent-Hormuz partial fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-75; crisis-track ACTIVATED (~0.80-1.10/5 partial-fade); US-10Y 5.24-5.30% Day-7 persistence (marginal fade from Wed 5.29% peak); IDR 17,933-17,964 Thu weakening-reversal (~180 IDR gap to criterion a); Brent $97->$102 Hormuz re-escalation Day-5 Consumer COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low sub-$16K BREACH; CPO MYR 4,416 Fri 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; TLKM EGM T+2 formal filing today; Sept PMI 52.4 expansion absorbed; Weekly Review 16:00 WIB."
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track criterion (a) IDR Thu-weakening-reversal ~180 IDR gap to 17,750; (b) DQG-Day-144 structural FAIL; (c) MSCI/S&P DJI 0/5 FAIL; (d) 9-consec-day foreign net-sell moderating (-64% d/d) but still FAIL; (e) R:R blocked by DQG"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries (crisis-track engagement gate ACTIVATED binding; Hard Rule enforced; max_position_pct 0.05 pre-emptive)"
+        },
+        {
+          "type": "warning",
+          "label": "CRISIS-TRACK gate ACTIVATED Wk 24 Day 5 OPEN FINAL (24th consec zero-trade week); DQG-Day-144 outage; score 6/10; mechanical SKIP"
+        }
+      ],
+      "reasoning": "SKIP: CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. Score 6/10. Pre-blocked via crisis-track Hard Rule override before Gate 5 catalyst check; WATCH for post-gate-DE-ACTIVATION window.",
+      "gate_results": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
     }
   ],
   "stats": {
@@ -32252,36 +32552,6 @@
     "updated": "2026-10-01T15:15:00+07:00"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-28T00:14:02Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market 2026-07-28 (Wk 15 Day 2 Tue). Scanned 50 tickers. Zero candidates \u22656. Structural 5/10 ceiling under octuple-plus binding (crisis-track ACTIVATED + IDR Stage 5 Day 15 + Brent retreat $96-98 + foreign-flow 5th-consecutive net-sell candidate + Trump 10% tariff + BI HOLD dovish Day 7 + Warjiyo BI Governor resignation Day 2 + Data Quality Gate Day 89). 14th consecutive 0/3 BUY-slot week Day 2 trajectory. IHSG Mon sesi II 6,185.78 -0.17%; IDR 17,927; Brent $96.78.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored \u22656 (structural 5/10 ceiling under octuple-plus binding)"
-        },
-        {
-          "type": "research",
-          "detail": "Perry Warjiyo BI Governor resignation Day 2 overlay added"
-        },
-        {
-          "type": "research",
-          "detail": "Foreign flow 5th-consecutive net-sell candidate; criterion (d) 0.75/5 confirming"
-        },
-        {
-          "type": "research",
-          "detail": "Brent retreated -3.8% Fri\u2192Mon to $96.78 on US-Iran attacks-paused"
-        }
-      ],
-      "commit_hash": "60c5745",
-      "commit_message": ""
-    },
     {
       "timestamp": "2026-07-28T02:16:25Z",
       "routine": "market-open",
@@ -37285,6 +37555,56 @@
           "detail": "IHSG Thu RECONCILED 6,009.50 (-1.02%) vs TRADE-LOG provisional 5,980.07 overstated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-02T02:18:29Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Fri Oct 2 Wk 24 Day 5 FINAL. 6 candidates (BBRI 7; BBCA/BMRI/UNVR/ICBP/INDF 6) all pre-blocked per CRISIS-TRACK engagement gate ACTIVATED (~0.80-1.10/5; 3.90-4.20/5 gap WIDER-STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz Day-5 Consumer-thesis-partial-fade. 24th consecutive zero-trade week complete. 100% cash; equity IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 7/10; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6/10; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 6/10; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "score 6/10; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "score 6/10; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 6/10; crisis-track pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "CRISIS-TRACK engagement gate ACTIVATED binding; 0% new entries permitted"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-144 outage structural FAIL (yfinance+GoAPI blocked 144 consec since Apr 21)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notify path 403 at agent-proxy; stdout fallback"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -37315,7 +37635,7 @@
     "brent": 102.3,
     "regime_short": "DEFENSIVE-INTENSIFIED-Day75 + crisis-track ACTIVATED 0.80-1.10/5 + DQG Day-144 outage + Brent Hormuz re-escalation Day-5 + Sept PMI 52.4 expansion-recovery"
   },
-  "last_updated": "2026-10-02T07:00:00+07:00",
+  "last_updated": "2026-10-02T09:15:00+07:00",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",
