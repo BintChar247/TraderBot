@@ -32873,64 +32873,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-29T02:18:47Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 15 Day 3 (Wed 2026-07-29): No trades placed. Crisis-track engagement gate ACTIVATED (0.50/5 re-entry criteria); zero tickers cleared score >=6 under septuple-plus binding (IDR Stage 5 Day 16 + FF 5-consecutive net-sell CONFIRMED + FOMC T+0 imminent + Warjiyo Day 3 + Brent $87 + BI-HOLD Day 8 + Trump 10% tariff + Data Quality Day 90). Book 100% cash IDR 9.72B. 14th consecutive 0/3 BUY-slot week Day 3.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track binding; score 5/10"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track binding; Q2 Aug 3 binary blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track binding; Warjiyo governance drag"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track + Data Quality FAIL; Brent retreat weakens thesis"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track binding; sole-green-sector Tue idiosyncratic"
-        },
-        {
-          "type": "skip",
-          "ticker": "EXCL",
-          "detail": "crisis-track binding; idiosyncratic +2.95% top gainer"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "crisis-track binding; H1 catalyst carry"
-        },
-        {
-          "type": "warning",
-          "ticker": null,
-          "detail": "Data Quality Gate Day 90 \u2014 3-month structural outage threshold"
-        },
-        {
-          "type": "warning",
-          "ticker": null,
-          "detail": "FOMC T+0 binary window Wed 2pm ET / 01:00 WIB Thu"
-        },
-        {
-          "type": "warning",
-          "ticker": null,
-          "detail": "Foreign flow 5-consecutive net-sell CONFIRMED structural sell-signal"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-29T04:36:53Z",
       "routine": "midday",
       "status": "success",
@@ -37944,6 +37886,12 @@
           "detail": "25th consecutive zero-trade week Day 1 OPEN; ~100+ cumulative unused candidate-day slots trial-to-date"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-05T04:45:07Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; Wk 25 Day 1 OPEN Q4-Week-2-open post-cabinet-reshuffle-Day-3"
     }
   ],
   "exposure": {
