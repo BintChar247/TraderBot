@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY75-Wk24-Day5-CLOSE-EOD-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE-WEEKLY-REVIEW-DAY-Q4-2026-WEEK-1-CLOSE-TLKM-EGM-T+2-FORMAL-FILING-DAY-POST-CABINET-RESHUFFLE-DAY-1-POST-BI-HOLD-TRANSMISSION-DAY-8-US-10Y-5.24-5.30pct-Day-7-BREAKOUT-PERSISTENCE-SLIGHT-FADE-IDR-17,933-17,964-Day-1-WEAKENING-REVERSED-partial-firming-BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-5-COGS-RELIEF-UNWINDING-LME-NICKEL-$15,595-NEW-2026-LOW-SUB-$16K-BREACH-CONFIRMED-CPO-MYR-4,416-Fri-8WK-LOW-Day-9-CONFIRMED-SEPT-PMI-52.4-EXPANSION-RECOVERY-ABSORBED-IHSG-Fri-sesi-I-5,990-neg-0.32pct-chain-basis-vs-Thu-reconciled-6,009.50-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.80-1.10-of-5-persistent-DQG-Day-144-outage-persists",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY78-Wk25-Day1-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS-Q4-2026-WEEK-2-OPEN-POST-CABINET-RESHUFFLE-DAY-3-POST-BI-HOLD-TRANSMISSION-DAY-11-US-10Y-5.24-5.30pct-Day-10-BREAKOUT-PERSISTENCE-SLIGHT-FADE-IDR-17,933-17,964-Day-1-reversal-partial-firming-BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-8-COGS-RELIEF-UNWINDING-LME-NICKEL-$15,595-sub-$16K-breach-Day-20plus-CPO-MYR-4,416-Day-12plus-8wk-low-IHSG-Mon-sesi-I-6,038.989-plus-0.03pct-chain-basis-vs-Fri-RECONCILED-6,036.88-Journalarta-post-market-~6,055-secondary-signal-FRI-OCT-2-MATERIAL-SECONDARY-RECONCILIATION-5,990-provisional-superseded-by-6,036.88-actual-close-gap-plus-46.88pt-ALPHA-COMPRESSION-EPISODE-DAY-1-provisional-minus-0.03pp-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.80-1.10-of-5-persistent-DQG-Day-147-outage-persists",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-02"
+  "updated": "2026-10-05"
 }

@@ -1867,6 +1867,26 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY75-Wk24-Day5-CLOSE-EOD-24TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE-WEEKLY-REVIEW-DAY-Q4-2026-WEEK-1-CLOSE-TLKM-EGM-T+2-FORMAL-FILING-DAY-POST-CABINET-RESHUFFLE-DAY-1-POST-BI-HOLD-TRANSMISSION-DAY-8",
       "notes": "No trades today (Wk 24 Day 5 CLOSE \u2014 24th CONSECUTIVE ZERO-TRADE WEEK COMPLETE). Trades this week: 0/3. ~96+ cumulative unused candidate-day slots trial-to-date. Zero-exposure immunity on IHSG mild decline \u2192 +0.32pp daily alpha. TLKM EGM T+2 formal filing day Fri; cabinet reshuffle Day-1 absorption carrying; Hormuz re-escalation Day-5 Brent $97\u2192$102 COGS relief unwinding; LME nickel $15,595 new 2026 low sub-$16K breach confirmed; CPO MYR 4,416 Day-9 8wk-low confirmed; Sept PMI 52.4 expansion recovery (vs Aug 49.8 contraction) absorbed into reshuffle+Hormuz mix. Weekly Review 16:00 WIB will formalize Wk 24 recap + letter grade."
+    },
+    {
+      "date": "2026-10-05",
+      "day_label": "Day 123 (Wk 25 Day 1 EOD CLOSE - Q4-2026-WEEK-2-OPEN - post-CABINET-RESHUFFLE-Day-3 - post-BI-HOLD-transmission-Day-11 - US-10Y-5.24-5.30%-Day-10-BREAKOUT-PERSISTENCE-SLIGHT-FADE - IDR-17,933-17,964-Day-1-reversal-partial-firming - BRENT-$97\u2192$102-HORMUZ-RE-ESCALATION-Day-8-COGS-RELIEF-UNWINDING - LME-nickel-$15,595-sub-$16K-breach-Day-20+ - CPO-MYR-4,416-Day-12+-8wk-low - IHSG-Mon-sesi-I-6,038.989-+0.03%-chain-basis-vs-Fri-RECONCILED-6,036.88 - FRI-OCT-2-MATERIAL-SECONDARY-RECONCILIATION-5,990-provisional-superseded-by-6,036.88-actual-close-gap-+46.88pt - 25th-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS - DQG-Day-147-outage-persists)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6038.989,
+      "ihsg_cumulative_pct": -20.9,
+      "alpha_pct": 18.06,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Mon Oct 5 sesi I close 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88) per 2-source cluster (Beritamoneter sesi I 6,038.989; Periskop sesi II open 6,038 +0.03%). Open 6,063.795 (+0.45%) per Beritamoneter. Journalarta post-market summary \"Market 5 Oktober 2026: IHSG 6055, Bitcoin 86k, Brent 102\" single-source secondary signal \u2192 if sesi II close ~6,055 confirmed Tue pre-market \u2192 +0.30% chain-basis instead. Sesi II (14:50 WIB) final close TBD \u2014 not surfaced at 15:15 WIB fire; sesi I used as primary provisional basis. MATERIAL Fri Oct 2 secondary reconciliation: Fri actual close ~6,036.88 (prev-close basis in Mon Oct 5 Beritamoneter+Periskop reporting) supersedes TRADE-LOG prior Fri entry 5,990 sesi I provisional. Gap +46.88pt / +0.78% \u2014 Fri sesi I crashed to 5,990 then sesi II recovery to 6,036.88 close (sesi II lag per DQG-Day-144 pattern 28th cumulative occurrence resolved).",
+      "alpha_note": "Daily alpha -0.03pp Mon (portfolio 0.00% vs IHSG +0.03% chain-basis sesi I provisional). ALPHA COMPRESSION EPISODE DAY-1 first single-day compression post Fri reconciled +0.32pp (Wk 24 Day 5 CLOSE) \u2014 Wk 24 Thu +1.50pp zero-exposure-immunity sequence ended. Cumulative alpha ~+18.06pp Mon provisional sesi I chain-basis (vs Fri RECONCILED +18.08pp \u2014 modest -0.02pp day-over-day via IHSG mild +0.03% uptick absorbed by zero-exposure immunity). Fri cumulative properly reconciled from TRADE-LOG prior +18.70pp provisional sesi I 5,990 to +18.08pp actual close 6,036.88 (net -0.62pp cumulative drift from Fri secondary reconciliation). If Journalarta post-market ~6,055 confirmed Tue \u2192 Mon alpha compression -0.30pp instead of -0.03pp.",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY78-Wk25-Day1-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS-Q4-2026-WEEK-2-OPEN-POST-CABINET-RESHUFFLE-DAY-3-POST-BI-HOLD-TRANSMISSION-DAY-11",
+      "notes": "No trades today (Wk 25 Day 1 CLOSE \u2014 25th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS). Trades this week: 0/3. ~99+ cumulative unused candidate-day slots trial-to-date. Zero-exposure immunity on IHSG mild uptick \u2192 -0.03pp daily alpha (ALPHA COMPRESSION EPISODE DAY-1 \u2014 first compression day since Wk 24 Thu). Cabinet reshuffle Day-3 absorption carrying; Hormuz re-escalation Day-8 Brent $97-$102 COGS relief unwinding continuation; LME nickel $15,595 sub-$16K breach Day-20+; CPO MYR 4,416 Day-12+ 8wk-low; China Golden Week mainland CLOSED Oct 1-7; BEI Rp1 min-price rule Day-8 tech sector monitoring; US-10Y Day-10 persistence slight-fade. MATERIAL Fri Oct 2 secondary reconciliation applied \u2014 Fri actual close 6,036.88 (per Mon Oct 5 Beritamoneter+Periskop prev-close basis) supersedes TRADE-LOG prior Fri 5,990 sesi I provisional (gap +46.88pt / +0.78%)."
     }
   ],
   "positions": [],
@@ -32820,7 +32840,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 116,
+    "trial_days_elapsed": 123,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 116 counting-trading-days Wk 24 Day 1 EOD CLOSE post-BI-HOLD-transmission Day-4)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -32872,12 +32892,6 @@
     "updated": "2026-10-02T15:15:00+07:00"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-29T04:36:53Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions (100% cash Day 19 post-KLBF cut). No sell-side rules applicable. Book intact at IDR 9,716,207,500. Wk 15 Day 3 defensive posture pre-FOMC binary."
-    },
     {
       "timestamp": "2026-07-29T08:20:33Z",
       "routine": "daily-summary",
@@ -37892,6 +37906,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash; no action; Wk 25 Day 1 OPEN Q4-Week-2-open post-cabinet-reshuffle-Day-3"
+    },
+    {
+      "timestamp": "2026-10-05T08:21:45Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 123 (Wk 25 Day 1 CLOSE Mon): equity IDR 9,716,207,500 unchanged; day P&L 0.00% (76 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Mon sesi I 6,038.989 (+0.03% chain-basis vs Fri RECONCILED 6,036.88); MATERIAL Fri Oct 2 secondary reconciliation (actual 6,036.88 supersedes TRADE-LOG prior provisional 5,990 \u2014 gap +46.88pt/+0.78%); daily alpha -0.03pp ALPHA COMPRESSION EPISODE DAY-1 first compression post Fri +0.32pp; cumulative alpha +18.06pp Mon sesi I provisional; 25th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS; crisis-track gate ACTIVATED persists ~0.80-1.10/5; DQG-Day-147 outage persists; no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 123 EOD snapshot committed; Fri Oct 2 secondary reconciliation applied"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -37904,10 +37930,10 @@
     "equity_pct": 0.0
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day78",
-    "regime_overlay": "Crisis-track engagement gate ACTIVATED ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL) + DQG Day-147 outage + Brent $97-$102 Hormuz Day-8 Consumer COGS partial fade + US-10Y 5.24-5.30% Day-10 persistence slight-fade + IDR 17,933-17,964 Thu weakening reversed + LME nickel $15,595 sub-$16K Day-20+ + CPO MYR 4,416 Day-12+ 8wk low + cabinet reshuffle Day-3 + TLKM EGM T+5 filing absorption + China Golden Week mainland closed Thu Oct 1-Wed Oct 7 + Sept PMI 52.4 expansion + BI-HOLD-dovish-structural-lock Day-11 + 25th-consecutive-zero-trade-week-Day-1-OPEN",
-    "regime_updated": "2026-10-05T07:00+07:00"
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 78 (Wk 25 Day 1 CLOSE \u2014 Q4-2026-Week-2-OPEN \u2014 25th consecutive zero-trade week in progress)",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION",
+    "regime_overlay": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~0.80-1.10/5 persists Wk 25 Day 1 CLOSE; DQG-Day-147 outage; cabinet-reshuffle-Day-3 absorption; US-10Y-5.24-5.30%-Day-10-breakout-persistence-slight-fade; IDR-17,933-17,964-Day-1-reversal-partial-firming; Brent-$97-$102-Hormuz-RE-escalation-Day-8; LME-nickel-$15,595-sub-$16K-breach-Day-20+; CPO-MYR-4,416-Day-12+-8wk-low; China-Golden-Week-mainland-closed-Oct-1-7",
+    "regime_updated": "2026-10-05"
   },
   "research": {
     "date": "2026-10-02",
@@ -37922,14 +37948,14 @@
     "brent": 102.3,
     "regime_short": "DEFENSIVE-INTENSIFIED-Day75 + crisis-track ACTIVATED 0.80-1.10/5 + DQG Day-144 outage + Brent Hormuz re-escalation Day-5 + Sept PMI 52.4 expansion-recovery"
   },
-  "last_updated": "2026-10-05 09:15 WIB",
+  "last_updated": "2026-10-05 15:15 WIB",
   "market": {
-    "ihsg_close": 6181.43,
-    "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",
-    "ihsg_change_pct": -0.97,
-    "ihsg_last": 6181.43,
-    "ihsg_last_label": "Mon Sep 28 RECONCILED close 6,181.43 (-0.97% Mon single-day / -1.87% Wk 24 cumulative) per CNBC + Kompas Tue pre-market multi-source cluster convergent; UST 10Y 5.21-5.24% Day-4 breakout persists external shock overlay",
-    "ihsg_source": "WebSearch multi-source Tue Sep 29 pre-market reconciliation (CNBC Indonesia + Kompas convergent \u2014 DQG-Day-140 sesi-II-lag 23rd cumulative RESOLVED)"
+    "ihsg_close": 6038.989,
+    "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
+    "ihsg_change_pct": 0.03,
+    "ihsg_last": 6038.989,
+    "ihsg_last_label": "Mon Oct 5 sesi I provisional (sesi II final TBD per DQG-Day-147 29th occurrence)",
+    "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
     "date": "2026-10-05",
