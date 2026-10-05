@@ -32573,18 +32573,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-28T08:18:53Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 72 Wk15 Day2: IDR 9.72B flat (0.00%). Alpha -0.15% vs IHSG +0.15%; cum alpha +16.17%. 100% cash Day 18 post-KLBF. Trades this wk: 0/3.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 72 EOD snapshot committed; broker reconciled 0 positions; RISK-STATE.json + dashboard/data.json updated"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-29T00:12:40Z",
       "routine": "pre-market",
       "status": "warning",
@@ -37609,6 +37597,37 @@
           "detail": "Day 120 EOD snapshot committed; 24th consecutive zero-trade week COMPLETE"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-05T00:07:22Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 6 candidates scored >=6 (BBRI 7; BBCA/BMRI/UNVR/ICBP/INDF 6). All SKIP per crisis-track engagement gate ACTIVATED 0.80-1.10/5 + DQG Day-147 structural FAIL. 25th consecutive zero-trade week Day-1 OPEN. China Golden Week mainland closed Thu-Wed. Brent 7-02 Hormuz Day-8 Consumer COGS partial fade. 100% cash maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "6 candidates scored >=6 (all SKIP)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 H1 +17.5% YoY + post-buyback Day-21 clean absorption"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Haji-Isam acquisition rumor + defensive-quality"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 Ex-div absorbed Day-19 + PBV 1.3x"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -37622,9 +37641,9 @@
   },
   "macro": {
     "regime": "DEFENSIVE-INTENSIFIED",
-    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day75",
-    "regime_overlay": "Crisis-track engagement gate ACTIVATED ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL) + DQG Day-144 outage + Brent Hormuz re-escalation Day-5 Consumer-fade + US-10Y 5.24-5.30% Day-7 persistence + IDR Thu weakening-reversed + LME nickel sub-$16K NEW 2026 low + CPO 8wk-low + cabinet reshuffle Day-1 absorption + TLKM EGM T+2 filing + Weekly Review today",
-    "regime_updated": "2026-10-02T07:00+07:00"
+    "regime_label": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day78",
+    "regime_overlay": "Crisis-track engagement gate ACTIVATED ~0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL) + DQG Day-147 outage + Brent $97-$102 Hormuz Day-8 Consumer COGS partial fade + US-10Y 5.24-5.30% Day-10 persistence slight-fade + IDR 17,933-17,964 Thu weakening reversed + LME nickel $15,595 sub-$16K Day-20+ + CPO MYR 4,416 Day-12+ 8wk low + cabinet reshuffle Day-3 + TLKM EGM T+5 filing absorption + China Golden Week mainland closed Thu Oct 1-Wed Oct 7 + Sept PMI 52.4 expansion + BI-HOLD-dovish-structural-lock Day-11 + 25th-consecutive-zero-trade-week-Day-1-OPEN",
+    "regime_updated": "2026-10-05T07:00+07:00"
   },
   "research": {
     "date": "2026-10-02",
@@ -37639,7 +37658,7 @@
     "brent": 102.3,
     "regime_short": "DEFENSIVE-INTENSIFIED-Day75 + crisis-track ACTIVATED 0.80-1.10/5 + DQG Day-144 outage + Brent Hormuz re-escalation Day-5 + Sept PMI 52.4 expansion-recovery"
   },
-  "last_updated": "2026-10-02T15:15:00+07:00",
+  "last_updated": "2026-10-05T07:00:00+07:00",
   "market": {
     "ihsg_close": 6181.43,
     "ihsg_close_basis": "Mon Sep 28 RECONCILED sesi II 6,181.43 (-0.97% -60.46pt) per CNBC Indonesia + Kompas multi-source cluster convergent Tue Sep 29 pre-market reconciliation; supersedes Mon provisional 6,181 (Kompas single-source headline); DQG-Day-140 sesi-II-lag 23rd cumulative gap RESOLVED (+0.43pt inconsequential)",
@@ -37649,51 +37668,57 @@
     "ihsg_source": "WebSearch multi-source Tue Sep 29 pre-market reconciliation (CNBC Indonesia + Kompas convergent \u2014 DQG-Day-140 sesi-II-lag 23rd cumulative RESOLVED)"
   },
   "pre_market": {
-    "date": "2026-10-02",
-    "day_label": "Day 120 (Wk 24 Day 5 OPEN \u2014 WEEKLY REVIEW DAY \u2014 TLKM EGM T+2 formal filing day \u2014 Post-cabinet-reshuffle Day-1 \u2014 24th consecutive zero-trade week Day-5 FINAL \u2014 Brent-Hormuz-re-escalation-Day-5-COGS-partial-fade \u2014 LME-nickel-$15,595-NEW-2026-low-sub-$16K-breach \u2014 CPO-MYR-4,416-8wk-low-Day-9 \u2014 Sept-PMI-52.4-expansion-recovery \u2014 US-10Y-5.24-5.30%-Day-7-persistence \u2014 IDR-17,933-17,964-Thu-weakening-reversed-Day-1-partial-firming \u2014 IHSG-6,009.50-Thu-reconciled-vs-TRADE-LOG-5,980.07-overstated \u2014 Crisis-track-engagement-gate-ACTIVATED-0.80-1.10-of-5 \u2014 DQG-Day-144-outage)",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day75",
-    "regime_reason": "7-front multi-binding stack: US-10Y 5.24-5.30% Day-7 persistence slight fade; IDR 17,933-17,964 Thu weakening-reversal; Brent $97\u2192$102 Hormuz re-escalation Day-5 COGS relief UNWINDING; LME nickel $15,595 NEW 2026 low; CPO MYR 4,416 8-wk-low Day-9; cabinet reshuffle Day-1 absorption; 9-consec foreign net-sell (moderating). Fresh positive: Sept PMI 52.4 EXPANSION. Fresh negative: Brent Hormuz re-escalation. Crisis-track ACTIVATED 0.80-1.10/5 (3.90-4.20/5 gap binding wider still).",
+    "date": "2026-10-05",
+    "day_label": "Day 123 (Wk 25 Day 1 OPEN \u2014 Q4-2026-Week-2-OPEN \u2014 Post-cabinet-reshuffle Day-3 \u2014 Post-Wk-24-close 24th-consecutive-zero-trade-week-complete \u2014 25th-consecutive-zero-trade-week Day-1-OPEN \u2014 China-Golden-Week-mainland-closed-Thu-Oct-1-Wed-Oct-7 \u2014 Brent-$97-$102-Hormuz-Day-8-COGS-partial-fade \u2014 LME-nickel-$15,595-sub-$16K-BREACH-Day-20+ \u2014 CPO-MYR-4,416-8wk-low-Day-12+ \u2014 Sept-PMI-52.4-expansion-recovery-absorbed \u2014 US-10Y-5.24-5.30%-Day-10-persistence-slight-fade \u2014 IDR-17,933-17,964-Thu-weakening-reversed-Day-1-partial-firming \u2014 IHSG-5,990-Fri-sesi-I-provisional-vs-Thu-reconciled-6,009.50 \u2014 Crisis-track-engagement-gate-ACTIVATED-0.80-1.10-of-5 \u2014 DQG-Day-147-outage)",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day78",
+    "regime_reason": "7-front multi-binding stack carry: US-10Y 5.24-5.30% Day-10 persistence; IDR Thu-weakening-reversal unresolved; Brent $97-$102 Hormuz Day-8 Consumer COGS unwinding; LME nickel sub-$16K Day-20+ confirmed; CPO Day-12+ 8-week-low confirmed; cabinet reshuffle Day-3 absorption; 10+ consec foreign net-sell. Positive: Sept PMI 52.4 expansion; BI-HOLD-dovish-structural-lock Day-11. Fresh overlay: China Golden Week mainland CLOSED Thu Oct 1-Wed Oct 7 \u2014 regional signal muted.",
     "candidates_scored_ge6": 6,
     "candidates": [
       {
         "ticker": "BBRI",
-        "score": 7,
         "sector": "Banking",
-        "catalyst": "H1 +17.5% YoY Rp 31.2T; post-buyback-expiry Day-18 CLEAN absorption confirmed (contra-KLBF Wk 12); JPMorgan Buy PT 3,400"
+        "score": 7,
+        "catalyst": "H1 +17.5% YoY Rp 31.18T; post-buyback-expiry Day-21 clean absorption extending",
+        "status": "SKIP"
       },
       {
         "ticker": "BBCA",
-        "score": 6,
         "sector": "Banking",
-        "catalyst": "Haji-Isam/Jhonlin acquisition rumor NEW idiosyncratic; defensive-quality anchor PBV 2.8x; foreign-sold Thu -Rp 176B"
+        "score": 6,
+        "catalyst": "Haji-Isam/Jhonlin acquisition rumor idiosyncratic + defensive-quality PBV 2.8x",
+        "status": "SKIP"
       },
       {
         "ticker": "BMRI",
-        "score": 6,
         "sector": "Banking",
-        "catalyst": "Ex-div Rp 66 Sep 16 T+16 absorbed clean; PBV 1.3x; foreign-sold Thu -Rp 206B 2nd deepest"
+        "score": 6,
+        "catalyst": "Ex-div absorbed Day-19 clean; PBV 1.3x; Thu foreign-sold -Rp 206B",
+        "status": "SKIP"
       },
       {
         "ticker": "UNVR",
-        "score": 6,
         "sector": "Consumer",
-        "catalyst": "Deep valuation defensive-quality; Brent re-spike Day-5 PARTIAL FADE of COGS relief"
+        "score": 6,
+        "catalyst": "Deep-value defensive-quality; Brent re-spike Day-8 COGS relief partial fade",
+        "status": "SKIP"
       },
       {
         "ticker": "ICBP",
-        "score": 6,
         "sector": "Consumer",
-        "catalyst": "Q2 core +50.6% YoY beat; wheat/sugar pressure; Brent partial fade; 2026 target 5-7% rev / 20-22% EBIT"
+        "score": 6,
+        "catalyst": "Q2 core +50.6% YoY beat; wheat/sugar pressure; Brent partial fade",
+        "status": "SKIP"
       },
       {
         "ticker": "INDF",
-        "score": 6,
         "sector": "Consumer",
-        "catalyst": "ICBP parent exposure; sole net-inflow YTD; Brent partial fade"
+        "score": 6,
+        "catalyst": "ICBP parent; sole net-inflow YTD; Brent partial fade",
+        "status": "SKIP"
       }
     ],
-    "gate_status": "ALL SKIP",
-    "all_candidates_skip_reason": "CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~0.80-1.10/5 partial-fade minor-fluctuation; 3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-144 structural FAIL + Brent-Hormuz-re-escalation Consumer-thesis-partial-fade overlay. 0% new entries permitted per Hard Rule.",
+    "gate_status": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.80-1.10/5 (3.90-4.20/5 gap BINDING WIDER STILL) + DQG-Day-147 structural FAIL",
+    "all_candidates_skip_reason": "All 6 candidates scored >=6 mechanically pre-blocked per crisis-track engagement gate ACTIVATED Hard Rule override before Gate 5 catalyst check + DQG-Day-147 structural FAIL. 25th consecutive zero-trade week Day-1 OPEN. 10+ week framework durability marker continues.",
     "trades_planned": 0
   },
   "activity": [
