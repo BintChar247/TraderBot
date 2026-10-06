@@ -1887,6 +1887,26 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY78-Wk25-Day1-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS-Q4-2026-WEEK-2-OPEN-POST-CABINET-RESHUFFLE-DAY-3-POST-BI-HOLD-TRANSMISSION-DAY-11",
       "notes": "No trades today (Wk 25 Day 1 CLOSE \u2014 25th CONSECUTIVE ZERO-TRADE WEEK IN PROGRESS). Trades this week: 0/3. ~99+ cumulative unused candidate-day slots trial-to-date. Zero-exposure immunity on IHSG mild uptick \u2192 -0.03pp daily alpha (ALPHA COMPRESSION EPISODE DAY-1 \u2014 first compression day since Wk 24 Thu). Cabinet reshuffle Day-3 absorption carrying; Hormuz re-escalation Day-8 Brent $97-$102 COGS relief unwinding continuation; LME nickel $15,595 sub-$16K breach Day-20+; CPO MYR 4,416 Day-12+ 8wk-low; China Golden Week mainland CLOSED Oct 1-7; BEI Rp1 min-price rule Day-8 tech sector monitoring; US-10Y Day-10 persistence slight-fade. MATERIAL Fri Oct 2 secondary reconciliation applied \u2014 Fri actual close 6,036.88 (per Mon Oct 5 Beritamoneter+Periskop prev-close basis) supersedes TRADE-LOG prior Fri 5,990 sesi I provisional (gap +46.88pt / +0.78%)."
+    },
+    {
+      "date": "2026-10-06",
+      "day_label": "Day 124 (Wk 25 Day 2 EOD CLOSE - Q4-2026-WEEK-2-DAY-2 - post-CABINET-RESHUFFLE-Day-4 - post-BI-HOLD-transmission-Day-12 - US-10Y-5.24-5.30%-Day-11-BREAKOUT-PERSISTENCE-SLIGHT-FADE - IDR-17,933-17,964-Day-2-reversal-partial-firming-carry - BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-9 - LME-nickel-$15,595-sub-$16K-breach-Day-21+ - CPO-MYR-4,416-Day-13+-8wk-low - IHSG-Tue-sesi-I-6,196.09-+1.26%-chain-basis-vs-Mon-RECONCILED-6,118.86 - MATERIAL-MON-OCT-5-SECONDARY-RECONCILIATION-6,038.989-provisional-superseded-by-6,118.86-actual-close-gap-+79.87pt - ALPHA-COMPRESSION-EPISODE-DAY-2-continuation - 25TH-CONSECUTIVE-ZERO-TRADE-WEEK-Day-2-IN-PROGRESS - DQG-Day-148-outage-persists)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 6196.09,
+      "ihsg_cumulative_pct": -18.84,
+      "alpha_pct": 16.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Tue Oct 6 sesi I close 6,196.09 (+1.26% chain-basis vs Mon Oct 5 RECONCILED prev close 6,118.86) per multi-source cluster (Bisnis 'IHSG Sesi I Naik 1,26% ke 6.196' 516 saham hijau ASMI/TRUE/CSIS top gainers intraday range 6,120.24-6,203.70; Infobanknews 'sesi I ditutup melesat 1,26% penopangnya'; RRI 'jeda siang level 6196,09'; Pelita Karawang open 6,133.79 +0.24%). Sesi II (14:50 WIB) final close TBD not surfaced at 15:15 WIB fire; sesi I used as primary provisional basis. MATERIAL Mon Oct 5 secondary reconciliation: Mon actual close 6,118.86 (prev-close basis in Tue sesi I Bisnis reporting) supersedes TRADE-LOG prior Mon entry 6,038.989 sesi I provisional + Journalarta ~6,055 post-market secondary signal. Gap +79.87pt / +1.32% \u2014 Mon sesi I 6,038.989 crashed then sesi II recovery to 6,118.86 close (sesi II lag per DQG-Day-147 pattern 29th cumulative occurrence resolved). US weak jobs data reduced Oct Fed rate hike probability \u2014 positive external driver.",
+      "alpha_note": "Daily alpha -1.26pp Tue (portfolio 0.00% vs IHSG +1.26% chain-basis sesi I provisional). ALPHA COMPRESSION EPISODE DAY-2 continuation post Mon reconciled -1.36pp (Mon actual +1.36% chain-basis vs portfolio 0.00%, superseding sesi I provisional -0.03pp) \u2014 2-day cumulative single-direction compression ~-2.62pp. Zero-exposure immunity ends when IHSG rallies on positive external drivers (Fed rate hold expectations post weak US jobs data). First consecutive 2-day compression sequence since Wk 24 Thu zero-exposure immunity sequence. Cumulative alpha ~+16.00pp Tue provisional sesi I chain-basis (vs Mon RECONCILED +15.74pp \u2014 +0.26pp day-over-day via Tue +1.26% sesi I vs portfolio 0.00%; vs Mon prior provisional +18.06pp \u2014 net -2.06pp cumulative drift from Mon secondary reconciliation + Tue daily -1.26pp compression partial offset).",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY79-Wk25-Day2-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-IN-PROGRESS-Q4-2026-WEEK-2-DAY-2-POST-CABINET-RESHUFFLE-DAY-4-POST-BI-HOLD-TRANSMISSION-DAY-12",
+      "notes": "No trades today (Wk 25 Day 2 CLOSE \u2014 25th CONSECUTIVE ZERO-TRADE WEEK Day 2 IN PROGRESS). Trades this week: 0/3. ~100+ cumulative unused candidate-day slots trial-to-date. Zero-exposure liability on IHSG rally \u2192 -1.26pp daily alpha (ALPHA COMPRESSION EPISODE DAY-2 continuation \u2014 2-day cumulative compression ~-2.62pp). Cabinet reshuffle Day-4 absorption accelerated positive; US weak jobs data reduced Oct Fed rate hike probability positive EM equity driver; Hormuz re-escalation Day-9 Brent $97-$102 COGS relief unwinding continuation; LME nickel $15,595 sub-$16K breach Day-21+; CPO MYR 4,416 Day-13+ 8wk-low; China Golden Week mainland CLOSED Day-6 (reopens Thu Oct 8); BEI Rp1 min-price rule Day-9 tech sector monitoring; US-10Y Day-11 slight-fade reinforced by weak jobs data. MATERIAL Mon Oct 5 secondary reconciliation applied \u2014 Mon actual close 6,118.86 (per Tue Oct 6 Bisnis prev-close basis) supersedes TRADE-LOG prior Mon 6,038.989 sesi I provisional (gap +79.87pt / +1.32%)."
     }
   ],
   "positions": [],
@@ -33183,15 +33203,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-10-02T15:15:00+07:00"
+    "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-30T04:36:43Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions to manage; 100% cash defensive posture Day 20 post-KLBF hard-cut into Wk 15 Day 4. FOMC T+0 post-decision session."
-    },
     {
       "timestamp": "2026-07-30T08:20:45Z",
       "routine": "daily-summary",
@@ -38202,6 +38216,26 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. Midday scan completed with no actions."
+    },
+    {
+      "timestamp": "2026-10-06T08:20:47Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Day 124 Wk 25 Day 2 CLOSE: IDR 9.72B (0.00%); Alpha -1.26pp sesi I provisional (compression Day-2); Cum alpha +16.00pp reconciled; 0 positions; 25th consec zero-trade week Day-2. MATERIAL Mon Oct 5 reconciliation 6,038.989\u21926,118.86 (+79.87pt / +1.32%).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 124 EOD snapshot committed; Mon secondary reconciliation applied"
+        },
+        {
+          "type": "warning",
+          "detail": "ALPHA COMPRESSION EPISODE DAY-2 continuation ~-2.62pp 2-day cumulative"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-148 outage persists \u2014 WebSearch-only indices basis"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -38232,7 +38266,7 @@
     "brent": 100.0,
     "regime_short": "DEFENSIVE-INTENSIFIED-Day79 + crisis-track ACTIVATED 0.80-1.15/5 + DQG Day-148 outage + Brent Hormuz re-escalation Day-9 + Sept PMI 52.4 expansion-recovery absorbed + cabinet-reshuffle Day-4 absorption + China Golden Week mainland Day-6"
   },
-  "last_updated": "2026-10-06T09:15:00+07:00",
+  "last_updated": "2026-10-06T15:15+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",

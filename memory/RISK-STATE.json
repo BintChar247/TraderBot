@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY78-Wk25-Day1-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-IN-PROGRESS-Q4-2026-WEEK-2-OPEN-POST-CABINET-RESHUFFLE-DAY-3-POST-BI-HOLD-TRANSMISSION-DAY-11-US-10Y-5.24-5.30pct-Day-10-BREAKOUT-PERSISTENCE-SLIGHT-FADE-IDR-17,933-17,964-Day-1-reversal-partial-firming-BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-8-COGS-RELIEF-UNWINDING-LME-NICKEL-$15,595-sub-$16K-breach-Day-20plus-CPO-MYR-4,416-Day-12plus-8wk-low-IHSG-Mon-sesi-I-6,038.989-plus-0.03pct-chain-basis-vs-Fri-RECONCILED-6,036.88-Journalarta-post-market-~6,055-secondary-signal-FRI-OCT-2-MATERIAL-SECONDARY-RECONCILIATION-5,990-provisional-superseded-by-6,036.88-actual-close-gap-plus-46.88pt-ALPHA-COMPRESSION-EPISODE-DAY-1-provisional-minus-0.03pp-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.80-1.10-of-5-persistent-DQG-Day-147-outage-persists",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY79-Wk25-Day2-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-IN-PROGRESS-Q4-2026-WEEK-2-DAY-2-POST-CABINET-RESHUFFLE-DAY-4-POST-BI-HOLD-TRANSMISSION-DAY-12-US-10Y-5.24-5.30pct-Day-11-BREAKOUT-PERSISTENCE-SLIGHT-FADE-IDR-17,933-17,964-Day-2-reversal-partial-firming-BRENT-$97-$102-HORMUZ-RE-ESCALATION-Day-9-LME-NICKEL-$15,595-sub-$16K-breach-Day-21plus-CPO-MYR-4,416-Day-13plus-8wk-low-IHSG-Tue-sesi-I-6,196.09-plus-1.26pct-chain-basis-vs-Mon-RECONCILED-6,118.86-MATERIAL-MON-OCT-5-SECONDARY-RECONCILIATION-6,038.989-provisional-superseded-by-6,118.86-actual-close-gap-plus-79.87pt-ALPHA-COMPRESSION-EPISODE-DAY-2-continuation-minus-1.26pp-sesi-I-provisional-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.80-1.15-of-5-persistent-DQG-Day-148-outage-persists-CHINA-GOLDEN-WEEK-MAINLAND-DAY-6-CLOSED",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-05"
+  "updated": "2026-10-06"
 }
