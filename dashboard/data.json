@@ -33187,57 +33187,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-30T02:18:44Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED binding; 0.50/5 re-entry criteria (IDR sub-17,750 3-of-3 DEEPER REGRESSED post-FOMC-hawkish 18,010-18,100 re-breach; foreign-flow 6-CONSECUTIVE net-sell CONFIRMED). Only MEDC scored 6/10 (Brent shock re-intensified $89 + Q2 T+1 Fri binary) \u2014 BLOCKED crisis-track. 7 SKIPs logged to decisions[]. 15th consecutive 0/3 BUY-slot week Day 4.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "Brent shock re-intensified $89 direct-upside re-armed; Q2 T+1 Fri binary; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "5/10 ceiling; DefQ SUSPENDED; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "Q2 T+4 Mon binary; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "5/10 ceiling; Warjiyo Day 4 drag; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "EXCL",
-          "detail": "SMC-LIQ inclusion + XLSmart carry; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "AKRA",
-          "detail": "H1 +21.2% NI + Rp 1T interim div Aug 14; BLOCKED crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "Q2 T+0 today; historical -20.84% surprise + triple-headwind = HIGH miss-risk; BLOCKED crisis-track + DefQ SUSPENDED"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 91 outage persists; yfinance Chrome 403-blocked"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send blocked by proxy 403 tunnel; message logged to stdout"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-07-30T04:36:43Z",
       "routine": "midday",
       "status": "success",
@@ -38247,6 +38196,12 @@
           "detail": "score 6/10 pre-blocked"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-06T04:44:56Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Midday scan completed with no actions."
     }
   ],
   "exposure": {
