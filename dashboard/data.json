@@ -1907,6 +1907,22 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY79-Wk25-Day2-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-IN-PROGRESS-Q4-2026-WEEK-2-DAY-2-POST-CABINET-RESHUFFLE-DAY-4-POST-BI-HOLD-TRANSMISSION-DAY-12",
       "notes": "No trades today (Wk 25 Day 2 CLOSE \u2014 25th CONSECUTIVE ZERO-TRADE WEEK Day 2 IN PROGRESS). Trades this week: 0/3. ~100+ cumulative unused candidate-day slots trial-to-date. Zero-exposure liability on IHSG rally \u2192 -1.26pp daily alpha (ALPHA COMPRESSION EPISODE DAY-2 continuation \u2014 2-day cumulative compression ~-2.62pp). Cabinet reshuffle Day-4 absorption accelerated positive; US weak jobs data reduced Oct Fed rate hike probability positive EM equity driver; Hormuz re-escalation Day-9 Brent $97-$102 COGS relief unwinding continuation; LME nickel $15,595 sub-$16K breach Day-21+; CPO MYR 4,416 Day-13+ 8wk-low; China Golden Week mainland CLOSED Day-6 (reopens Thu Oct 8); BEI Rp1 min-price rule Day-9 tech sector monitoring; US-10Y Day-11 slight-fade reinforced by weak jobs data. MATERIAL Mon Oct 5 secondary reconciliation applied \u2014 Mon actual close 6,118.86 (per Tue Oct 6 Bisnis prev-close basis) supersedes TRADE-LOG prior Mon 6,038.989 sesi I provisional (gap +79.87pt / +1.32%)."
+    },
+    {
+      "date": "2026-10-07",
+      "day_label": "Day 125 Wk25 Day3 CLOSE Q4-Week-2-Day-3 post-cabinet-reshuffle-Day-5 post-BI-hold-transmission-Day-13 25TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-3-IN-PROGRESS",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -18.84,
+      "alpha_pct": 16.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "note": "Wed Oct 7 IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire; carry anchor Tue sesi I 6,196.09 provisional; alpha carry +16.00pp pending Wed close reconciliation deferred to Thu Oct 8 pre-market; DQG Day-149 outage persists; crisis-track engagement gate ACTIVATED 0.85-1.20/5 persistent; China Golden Week mainland FINAL Day-7 closed reopens Thu"
     }
   ],
   "positions": [],
@@ -33550,12 +33566,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-07-31T04:36:37Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Book 100% cash / 0 positions Wk 15 Day 5 Fri; no positions to cut, tighten, or thesis-check. Crisis-track gate ACTIVATED Day 22 persists; 5-of-5 re-entry criteria not concurrent (0.50/5)."
-    },
-    {
       "timestamp": "2026-07-31T08:19:26Z",
       "routine": "daily-summary",
       "status": "success",
@@ -38592,6 +38602,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-10-07T08:20:04Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 125 Wk 25 Day 3 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (78 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Wed Oct 7 close PENDING multi-source cluster not surfaced at 15:15 WIB fire; alpha carry +16.00pp Tue sesi I provisional pending Wed reconciliation; 25TH CONSECUTIVE ZERO-TRADE WEEK Day 3 IN PROGRESS; crisis-track engagement gate ACTIVATED persists 0.85-1.20/5; DQG Day-149 outage persists; no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 125 snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Wed Oct 7 close PENDING \u2014 multi-source cluster not surfaced at 15:15 WIB fire; reconciliation deferred to Thu Oct 8"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-149 outage persists \u2014 WebSearch-only basis"
+        },
+        {
+          "type": "warning",
+          "detail": "crisis-track gate ACTIVATED persists 0.85-1.20/5"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -38698,6 +38732,12 @@
       "routine": "daily-summary",
       "status": "success",
       "summary": "EOD Day 115 (Wk 23 CLOSE Fri): equity IDR 9,716,207,500 unchanged; day P&L 0.00% (68 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Fri provisional 6,130.58 (-0.89% headline; MATERIAL -1.78pp secondary reconciliation gap vs Thu recorded 6,298.60 pending Mon); alpha +16.85pp provisional Fri headline (+2.20pp Day-2 expansion dashboard basis); 23rd CONSECUTIVE ZERO-TRADE WEEK CONFIRMED; Weekly Review 16:00 WIB gating scheduled; no risk alerts"
+    },
+    {
+      "timestamp": "2026-10-07T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 125 Wk 25 Day 3 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (78 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Wed Oct 7 close PENDING multi-source cluster not surfaced at 15:15 WIB fire; alpha carry +16.00pp Tue sesi I provisional pending Wed reconciliation; 25TH CONSECUTIVE ZERO-TRADE WEEK Day 3 IN PROGRESS; crisis-track engagement gate ACTIVATED persists 0.85-1.20/5; DQG Day-149 outage persists; no risk alerts"
     }
   ]
 }
