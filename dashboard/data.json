@@ -33151,6 +33151,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 2026 net Rp 31.18T +17.5% YoY; largest bank by assets; post-buyback-expiry Day-23 CLEAN absorption",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track); ~3,860 Wed ref"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BBRI: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Deep-cheap PER anchor; Brent $91.93 Tue partial-fade RE-ARMS COGS-relief thesis",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track); 1,635 Wed ref"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP UNVR: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% YoY beat; Brent partial-fade = wheat/sugar input-cost moderation",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track); 6,650 Wed ref"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP ICBP: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP parent exposure; sole YTD net-inflow; Brent partial-fade partial-relief",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track); 6,650 Wed ref"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP INDF: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Largest private bank by market cap; defensive-quality anchor PBV 2.8x PER 12.5x",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track); ~6,075 Wed ref"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BBCA: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 Rp 30.4T +24.4% YoY; PBV 1.3x discount; ex-div Rp 66 Sep 16 T+21 absorbed clean",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BMRI: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-07",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 2026 net +109.3% YoY projected Rp 999B; Brent partial-fade partial-relief",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day80 cascade-inflection; crisis-track gate ACTIVATED ~0.85-1.20/5"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-10 Hormuz PARTIAL FADE + DQG Day-149 FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-149 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP MYOR: crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL) + DQG Day-149 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -33206,47 +33549,6 @@
     "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-31T00:16:02Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers. 1 candidate scored \u22656: MEDC (Q2 T+0 today). BLOCKED crisis-track. IHSG Thu sesi I 6,147.96 (+0.89%) / sesi II 6,186.36 (+1.56%) rebound. IDR CONFIRMED-HARD-RE-BREACH Day 18 18,045-18,135. Brent $90 elevated. ASII Q2 MISS 1H -19% YoY. Warjiyo Day 5 unnamed. Foreign flow Thu Sesi I +46bn tactical bounce (not trend inflection). 16th consecutive 0/3 BUY-slot week Day 5.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "1 candidate scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 6/10 \u2014 Q2 T+0 today; Brent $90 direct-upside; BLOCKED crisis-track engagement gate"
-        },
-        {
-          "type": "research",
-          "detail": "ASII Q2 MISS 1H26 NI Rp 12.53T -19% YoY / mining -46%; Auto/Industrial sector Fri open negative-setup"
-        },
-        {
-          "type": "research",
-          "detail": "IDR Stage 5 CONFIRMED-HARD RE-BREACH Day 18 persists 18,045-18,135 post-FOMC-hawkish"
-        },
-        {
-          "type": "research",
-          "detail": "Foreign flow Thu Sesi I +46bn tactical bounce NOT 2-of-2 net-BUY confirmation"
-        },
-        {
-          "type": "research",
-          "detail": "Warjiyo BI Governor Day 5 successor UNNAMED; Prabowo-Destry palace meeting Thu no announcement"
-        },
-        {
-          "type": "decision",
-          "detail": "NO NEW ENTRIES \u2014 crisis-track engagement gate ACTIVATED; 5 re-entry criteria 0.50/5 confirming unchanged"
-        }
-      ]
-    },
     {
       "timestamp": "2026-07-31T02:18:05Z",
       "routine": "market-open",
@@ -38259,6 +38561,57 @@
           "detail": "crisis-track ACTIVATED 0.85-1.20/5 + DQG Day-149 FAIL = 0% new entries"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-07T02:17:53Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; 7 candidates \u22656/10 (BBRI/UNVR/ICBP/INDF 7; BBCA/BMRI/MYOR 6) pre-blocked per crisis-track engagement gate ACTIVATED 0.85-1.20/5 + DQG Day-149 structural FAIL. 25th consecutive zero-trade week Day-3 OPEN.",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "crisis-track gate ACTIVATED 0.85-1.20/5 \u2014 0% new-entry permission"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-149 outage persists \u2014 WebSearch-only basis"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 7; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "score 7; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "score 7; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 7; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 6; pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "score 6; pre-block crisis-track + DQG"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -38289,7 +38642,7 @@
     "brent": 91.93,
     "regime_short": "DEFENSIVE \u2014 crisis-track gate ACTIVATED Day-3 Wk 25 persists ~0.85-1.20/5"
   },
-  "last_updated": "2026-10-07T07:00+07:00",
+  "last_updated": "2026-10-07T02:15:00Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
