@@ -33510,6 +33510,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 +17.5% YoY Rp 31.18T; post-buyback-expiry Day-24 CLEAN absorption; JPMorgan Buy PT 3,400; Mansek PT 4,100",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BBRI: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $91.93 partial-fade RE-ARMS COGS-relief carry; defensive-quality deep-cheap PER anchor; BRI Dana revenue -14.8% risk",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP UNVR: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent partial-fade RE-ARMS carry; Q2 core +50.6% YoY beat; SSI 2Q26 -60.8% YoY net disagree with IPOT (verify)",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP ICBP: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent partial-fade RE-ARMS carry; ICBP parent; sole YTD net-inflow; BRI Dana +4.9% revenue growth",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP INDF: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-quality anchor PBV 2.8x PER 12.5x; H1 Rp 25.7T; Samuel PT 7,150; Mansek PT 7,300 vs 6,450",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BBCA: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Ex-div Day-22 absorbed clean; PBV 1.3x; H1 Rp 30.4T +24.4% YoY; Samuel PT 5,800",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP BMRI: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 2026 net +109.3% YoY projected Rp 999B; BRI Dana top revenue +5.6%; Brent partial-fade input-cost moderation",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "pre-blocked (no fresh catalyst sufficient)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + Brent $91.93 Day-11 Hormuz PARTIAL FADE carry + DQG Day-150 FAIL + IDR Mon weakening"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: broker.sh paper quote REFUSAL; no per-ticker cluster narrowing"
+        }
+      ],
+      "reasoning": "SKIP MYOR: crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression via IDR Mon weakening) + DQG Day-150 structural FAIL = 0% new-entry permission; thesis preserved for post-gate-DE-ACTIVATION re-evaluation.",
+      "gate_results": [
+        false,
+        null,
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -33565,18 +33908,6 @@
     "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-07-31T08:19:26Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Fri Jul 31: IDR 9.72B (0.00%). Cash 100%. Alpha -1.11% vs IHSG +1.11% (Thu sesi I 6,147.96 \u2192 Fri sesi I 6,216.27); cumulative alpha +15.73% (compressed 0.90pp from Thu). Wk 15 CLOSED at 0/3 BUY-slots (15th consecutive 0/3 week). Drawdown -3.10%. No positions.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 75 EOD snapshot committed; RISK-STATE updated; dashboard appended"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-03T00:14:35Z",
       "routine": "pre-market",
@@ -38626,6 +38957,49 @@
           "detail": "crisis-track gate ACTIVATED persists 0.85-1.20/5"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-08T00:09:56Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Scanned 50 tickers. 7 candidates scored \u22656 (BBRI 7; UNVR/ICBP/INDF 7; BBCA/BMRI/MYOR 6) \u2014 all pre-blocked per crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 outage. 25th consecutive zero-trade week Day-4 OPEN. China mainland REOPEN Day-1 fresh overlay.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 H1 +17.5% YoY + post-buyback-clean Day-24"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 7/10 \u2014 Brent fade RE-ARMS COGS-relief"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 7/10 \u2014 Q2 core +50.6% + Brent fade"
+        },
+        {
+          "type": "warning",
+          "detail": "crisis-track gate ACTIVATED 0.80-1.15/5 \u2014 0% new entries"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-150 outage persists"
+        },
+        {
+          "type": "research",
+          "detail": "China mainland REOPEN Day-1 fresh overlay"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -38644,19 +39018,19 @@
     "regime_updated": "2026-10-05"
   },
   "research": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "holiday": false,
-    "as_of_date": "2026-10-07",
+    "as_of_date": "2026-10-08",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Wed Oct 7 pre-market",
+    "as_of_label": "Thu Oct 8 pre-market",
     "ihsg_last": 6196.09,
-    "ihsg_last_label": "Tue Oct 6 sesi I 6,196.09 (+1.26% chain-basis vs Mon reconciled 6,118.86)",
-    "idr_usd": 17903,
-    "idr_usd_label": "Fri Oct 2 Databoks 17,903 reconciled carry Day-3",
+    "ihsg_last_label": "Tue Oct 6 sesi I 6,196.09 (+1.26% chain-basis vs Mon reconciled 6,118.86) \u2014 Wed Oct 7 close NOT SURFACED at Thu 00:03 UTC fire; reconciliation deferred to Fri Oct 9",
+    "idr_usd": 17916,
+    "idr_usd_label": "Mon Oct 5 Databoks 17,916.4 weakening -0.36% from Fri 17,851.9 \u2014 reverses Fri partial-firming carry",
     "brent": 91.93,
-    "regime_short": "DEFENSIVE \u2014 crisis-track gate ACTIVATED Day-3 Wk 25 persists ~0.85-1.20/5"
+    "regime_short": "DEFENSIVE \u2014 crisis-track gate ACTIVATED Day-4 Wk 25 persists ~0.80-1.15/5 + China mainland REOPEN Day-1 fresh overlay"
   },
-  "last_updated": "2026-10-07T02:15:00Z",
+  "last_updated": "2026-10-08",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -38666,10 +39040,10 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-07",
-    "day_label": "Day 125 Wk 25 Day 3 OPEN Q4-Week-2-Day-3 post-cabinet-reshuffle-Day-5 25th-consecutive-zero-trade-week-Day-3-OPEN DQG-Day-149-outage crisis-track-engagement-gate-ACTIVATED-persists",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day80 + US-10Y-5.24-5.30%-Day-12-BREAKOUT-PERSISTENCE-SLIGHT-FADE + IDR-STAGE-5-MARGINAL-BOUNDARY-Day-74 Fri-17,903-partial-firming-carry + BRENT-$91.93-Day-10-HORMUZ-PARTIAL-FADE-COGS-RELIEF-RE-ARMING + LME-NICKEL-$15,595-sub-$16K-Day-22+ + CPO-MYR-4,416-Day-14+-8WK-LOW + NEWCASTLE-$144-Day-24-SECTOR-EXITED + CABINET-RESHUFFLE-DAY-5 + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.85-1.20-of-5",
-    "regime_reason": "Two Day-3 positive marginal shifts: (1) Brent $91.93 Tue partial-fade from Mon $97-$102 band (~$5-10/bbl relief) RE-ARMS Consumer COGS-relief thesis UNVR/ICBP/INDF upgrade 6\u21927; (2) IHSG Tue sesi I +1.26% signalled accelerated positive cabinet-reshuffle absorption. Crisis-track gate persists ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL \u2014 marginal advance vs Tue via Brent fade removing one gap-pressure component). DQG Day-149 outage persists.",
+    "date": "2026-10-08",
+    "day_label": "Day 126 Wk 25 Day 4 OPEN Q4-Week-2-Day-4 post-cabinet-reshuffle-Day-6 post-BI-hold-transmission-Day-14 25th-consecutive-zero-trade-week-Day-4-OPEN DQG-Day-150-outage crisis-track-engagement-gate-ACTIVATED-persists china-golden-week-mainland-reopen-day-1",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day81 + US-10Y-5.24-5.30%-Day-13-BREAKOUT-PERSISTENCE-SLIGHT-FADE + IDR-STAGE-5-MARGINAL-BOUNDARY-Day-75 Mon-17,916.4-weakening-partial-reversal + BRENT-$91.93-Day-11-HORMUZ-PARTIAL-FADE-COGS-RELIEF-RE-ARMING-carry + LME-NICKEL-$15,595-sub-$16K-Day-23+ + CPO-MYR-4,354-Day-15+-8WK-LOW + NEWCASTLE-$144-Day-25-SECTOR-EXITED + CABINET-RESHUFFLE-DAY-6-ABSORPTION-POSITIVE-carry + SEPT-CPI-3.28%-ABSORBED + SEPT-FOREIGN-FLOW--Rp10.24T-ABSORBED + CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.80-1.15-of-5 + CHINA-GOLDEN-WEEK-MAINLAND-REOPEN-DAY-1-FRESH-OVERLAY",
+    "regime_reason": "One Day-4 fresh overlay: China Golden Week mainland REOPEN Day-1 (Shanghai/Shenzhen Thu Oct 8) \u2014 cross-asset data-thinning ENDS; demand-signal normalization window opens for nickel/coal/CPO. One Day-4 marginal regression: IDR Mon Oct 5 Databoks 17,916.4 weakening -0.36% from 17,851.9 Fri reverses partial-firming carry; criterion (a) regressed from ~0.30-0.45/5 to ~0.25-0.40/5. Positive-continuity carry: Brent $91.93 partial-fade (Wed direction pending Thu reconciliation); Tue sesi I +1.26% accelerated-positive cabinet-reshuffle absorption. Negative continuity: US-10Y Day-13, LME nickel Day-23+, CPO Day-15+ RM 4,354 Fri -RM 121 WoW, foreign flow Sept -Rp 10.24T + YTD -Rp 82.55T. Sept CPI 3.28% absorbed within target band. Crisis-track gate persists ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL \u2014 marginal regression). DQG Day-150 outage persists.",
     "candidates_scored_ge6": 7,
     "candidates": [
       {
@@ -38677,53 +39051,53 @@
         "sector": "Banking",
         "score": 7,
         "status": "SKIP",
-        "catalyst": "H1 +17.5% YoY Rp 31.18T; post-buyback-expiry Day-23 CLEAN absorption; JPMorgan Buy PT 3,400"
+        "catalyst": "H1 +17.5% YoY Rp 31.18T; post-buyback-expiry Day-24 CLEAN absorption; JPMorgan Buy PT 3,400; Mansek PT 4,100"
       },
       {
         "ticker": "UNVR",
         "sector": "Consumer",
         "score": 7,
         "status": "SKIP",
-        "catalyst": "UPGRADE 6\u21927: Brent $91.93 partial-fade RE-ARMS COGS-relief; defensive-quality deep-cheap PER anchor"
+        "catalyst": "Brent $91.93 partial-fade RE-ARMS COGS-relief carry; defensive-quality deep-cheap PER anchor; BRI Dana revenue -14.8% risk"
       },
       {
         "ticker": "ICBP",
         "sector": "Consumer",
         "score": 7,
         "status": "SKIP",
-        "catalyst": "UPGRADE 6\u21927: Brent partial-fade; Q2 core +50.6% YoY beat; wheat/sugar input-cost moderation"
+        "catalyst": "Brent partial-fade RE-ARMS carry; Q2 core +50.6% YoY beat; SSI 2Q26 -60.8% YoY net disagree with IPOT (verify)"
       },
       {
         "ticker": "INDF",
         "sector": "Consumer",
         "score": 7,
         "status": "SKIP",
-        "catalyst": "UPGRADE 6\u21927: Brent partial-fade; ICBP parent; sole YTD net-inflow"
+        "catalyst": "Brent partial-fade RE-ARMS carry; ICBP parent; sole YTD net-inflow; BRI Dana +4.9% revenue growth"
       },
       {
         "ticker": "BBCA",
         "sector": "Banking",
         "score": 6,
         "status": "SKIP",
-        "catalyst": "Defensive-quality anchor PBV 2.8x PER 12.5x; Thu top-sold -Rp 176B"
+        "catalyst": "Defensive-quality anchor PBV 2.8x PER 12.5x; H1 Rp 25.7T; Samuel PT 7,150; Mansek PT 7,300 vs 6,450"
       },
       {
         "ticker": "BMRI",
         "sector": "Banking",
         "score": 6,
         "status": "SKIP",
-        "catalyst": "Ex-div absorbed Day-21 clean; PBV 1.3x; H1 Rp 30.4T +24.4% YoY"
+        "catalyst": "Ex-div Day-22 absorbed clean; PBV 1.3x; H1 Rp 30.4T +24.4% YoY; Samuel PT 5,800"
       },
       {
         "ticker": "MYOR",
         "sector": "Consumer",
         "score": 6,
         "status": "SKIP",
-        "catalyst": "UPGRADE 5\u21926: Brent partial-fade; Q2 +109.3% YoY projected Rp 999B"
+        "catalyst": "Q2 2026 net +109.3% YoY projected Rp 999B; BRI Dana top revenue +5.6%; Brent partial-fade input-cost moderation"
       }
     ],
-    "gate_status": "crisis-track engagement gate ACTIVATED ~0.85-1.20/5 (3.80-4.15/5 gap BINDING WIDER STILL \u2014 marginal advance vs Tue 0.80-1.15/5 via Brent $91.93 partial-fade removing one gap-pressure component); DQG Day-149 structural FAIL (yfinance+GoAPI blocked 149 consecutive sessions); 0% new entries permitted",
-    "all_candidates_skip_reason": "crisis-track engagement gate ACTIVATED + DQG Day-149 structural FAIL + China Golden Week mainland Day-7 FINAL data-thinning + cabinet-reshuffle Day-5 absorption continuity verification pending",
+    "gate_status": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 (3.85-4.20/5 gap BINDING WIDER STILL marginal regression) + DQG Day-150 structural FAIL",
+    "all_candidates_skip_reason": "crisis-track engagement gate ACTIVATED + DQG Day-150 structural FAIL = 0% new-entry permission",
     "trades_planned": 0
   },
   "activity": [
