@@ -33853,6 +33853,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 +17.5% YoY Rp 31.18T; post-buyback-expiry Day-24 CLEAN absorption carry; JPMorgan Buy PT 3,400",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent $91.93 partial-fade RE-ARMS COGS-relief; defensive-quality anchor; deep-cheap PBV",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core +50.6% YoY beat; Brent-fade RE-ARMS COGS-relief carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP parent; sole YTD net-inflow; Brent-fade RE-ARMS COGS-relief carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-quality anchor PBV 2.8x PER 12.5x; Samuel PT 7,150; Mansek PT 7,300",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Ex-div Day-22 absorbed clean; PBV 1.3x; H1 Rp 30.4T +24.4% YoY; Samuel PT 5,800",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-08",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 +109.3% YoY projected Rp 999B; BRI Dana top revenue growth +5.6%; Brent-fade carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-Day81 cascade-inflection; crisis-track gate ACTIVATED ~0.80-1.15/5; China mainland REOPEN Day-1 fresh overlay"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate + DQG Day-150 structural FAIL + IDR Mon weakening + Brent $91.93 Day-11 PARTIAL FADE"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted (crisis-track Hard Rule override)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-150 outage: yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        }
+      ],
+      "reasoning": "crisis-track engagement gate ACTIVATED ~0.80-1.15/5 + DQG Day-150 structural FAIL = 0% new-entry permission; 3.85-4.20/5 gap BINDING WIDER STILL",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -33908,27 +34251,6 @@
     "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-03T00:14:35Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 16 Day 1 pre-market: 50-ticker scan complete. MEDC 6/10 sole score-\u22656 candidate (Q2 T+3 pending disclosure; Brent softer $88 but Q2 quarter-avg $85-90+); BLOCKED crisis-track engagement gate. Foreign flow INFLECTION CANDIDATE Wk 15 +Rp 7.1T net-BUY breaks 6-consecutive net-sell streak \u2014 criterion (d) DEEPER PARTIAL SATISFACTION (0.75-1.00/5 from 0.50/5). IDR CONFIRMED-HARD-ENGAGED Day 21 at 18,053. 16th consecutive 0/3 BUY-slot week trajectory Day 1.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 1 candidate scored \u22656"
-        },
-        {
-          "type": "research",
-          "detail": "Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-DAY25 + IDR-Stage-5-Day21 + foreign-flow-INFLECTION-CANDIDATE"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 6/10 \u2014 Q2 T+3 pending disclosure; Brent softer $88; BLOCKED crisis-track (observation only)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-03T02:17:26Z",
       "routine": "market-open",
@@ -38998,6 +39320,26 @@
         {
           "type": "research",
           "detail": "China mainland REOPEN Day-1 fresh overlay"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-08T02:18:32Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; 7 candidates \u22656/10 pre-blocked per crisis-track engagement gate ACTIVATED + DQG Day-150 outage persists; 25th consecutive zero-trade week Day-4 OPEN; China mainland REOPEN Day-1 fresh overlay",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "crisis-track gate ACTIVATED 0.80-1.15/5 \u2014 0% new-entry permission"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-150 outage persists \u2014 WebSearch-only basis; yfinance+GoAPI blocked 150 consecutive sessions since Apr 21"
+        },
+        {
+          "type": "warning",
+          "detail": "China mainland REOPEN Day-1 fresh overlay \u2014 cross-asset data-thinning ends"
         }
       ]
     }
