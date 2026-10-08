@@ -34252,31 +34252,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-03T02:17:26Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 16 Day 1 NO TRADES. MEDC only score-6 candidate (Q2 T+3 pending disclosure) BLOCKED by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (0.75-1.00/5 re-entry criteria); all other 49 tickers capped 5/10 ceiling. 16th consecutive 0/3 BUY-slot week trajectory Day 1. 100% cash Day 24.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "CRISIS-TRACK gate + Data Quality Day 93 outage"
-        },
-        {
-          "type": "warning",
-          "detail": "IDR CONFIRMED-HARD-ENGAGED Day 21 at 18,053; sub-17,750 3-of-3 DEEPER regressed"
-        },
-        {
-          "type": "warning",
-          "detail": "Foreign flow 3-session net-BUY inflection CANDIDATE (fragile); criterion (d) PARTIAL SATISFACTION"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 93 outage persist; broker.sh quote MEDC returned ERROR"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-03T04:36:09Z",
       "routine": "midday",
       "status": "success",
@@ -39342,6 +39317,12 @@
           "detail": "China mainland REOPEN Day-1 fresh overlay \u2014 cross-asset data-thinning ends"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-08T04:44:03Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; vacuous scan; Wk 25 Day 4 midday (25th consecutive zero-trade week); crisis-track gate ACTIVATED + DQG Day-150 outage persists"
     }
   ],
   "exposure": {
