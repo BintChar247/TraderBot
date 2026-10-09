@@ -34615,32 +34615,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-04T02:17:41Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 16 Day 2. Crisis-track engagement gate ACTIVATED (~0.50-0.75/5 confirming); regressed via Mon Aug 3 foreign flow -Rp 363.53B setback. TLKM sole score-6 candidate (Q2 Wed Aug 5 T+1 binary) blocked by gate; 49 other watchlist tickers capped 5/10 ceiling. 16th consecutive 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "score 6/10 Q2 T+1 binary; blocked crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "WATCHLIST-49",
-          "detail": "all capped 5/10 under gate binding"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send HTTP 403 through proxy; stdout fallback (expected in scheduled routine remote env)"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 94 outage persist; WebSearch multi-source override operational for macro anchors"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-04T04:36:45Z",
       "routine": "midday",
       "status": "success",
@@ -39726,6 +39700,12 @@
           "detail": "China mainland REOPEN Day-2 \u2014 cross-asset data-thinning ENDS continuation"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-09T04:44:29Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions; 100% cash; no action; Wk 25 Day 5 MIDDAY Q4-Week-2-Day-5-final; 25th consecutive zero-trade week Day 5 MIDDAY; crisis-track engagement gate ACTIVATED (0.75-1.10/5) persists + DQG Day-151 outage persists; mechanically vacuous (n=0 positions)"
     }
   ],
   "exposure": {
