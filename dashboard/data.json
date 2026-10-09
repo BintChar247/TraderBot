@@ -1943,6 +1943,26 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY81-Wk25-Day4-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-IN-PROGRESS-Q4-2026-WEEK-2-DAY-4-POST-CABINET-RESHUFFLE-DAY-6-POST-BI-HOLD-TRANSMISSION-DAY-14",
       "notes": "No trades today (Wk 25 Day 4 CLOSE \u2014 25th CONSECUTIVE ZERO-TRADE WEEK Day 4 IN PROGRESS). Trades this week: 0/3. ~101+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions). Thu IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 accumulated 4-day sesi-II-lag reconciliation deferred to Fri Oct 9 pre-market. Cabinet reshuffle Day-6 absorption carrying; Hormuz Day-11 Brent $91.93 partial-fade COGS relief RE-ARMING; LME nickel $15,595 sub-$16K breach Day-23+; CPO MYR 4,354 Day-15+ 8wk-low (further weakening); China mainland REOPEN Day-1 fresh overlay \u2014 cross-asset data-thinning ends; US-10Y Day-13 persistence slight-fade."
+    },
+    {
+      "date": "2026-10-09",
+      "day_label": "Day 127 (Wk 25 Day 5 EOD CLOSE - Q4-2026-WEEK-2-DAY-5-FINAL - post-CABINET-RESHUFFLE-Day-7-1WK-MILESTONE - post-BI-HOLD-transmission-Day-15 - US-10Y-5.11-5.29%-Day-14-BREAKOUT-PERSISTENCE-SLIGHT-FADE - IDR-17,916.4-Mon-Databoks-weakening-Day-5-carry - BRENT-$91.93-Day-12-HORMUZ-PARTIAL-FADE-COGS-RELIEF-RE-ARMING-carry - LME-nickel-$15,595-sub-$16K-breach-Day-24+ - CPO-MYR-4,354-Day-16+-8wk-low - IHSG-Fri-Oct-9-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire - IHSG-Wed-Oct-7-close-ALSO-PENDING-carry - IHSG-Thu-Oct-8-close-ALSO-PENDING-carry - 3-day-accumulated-IHSG-EOD-reconciliation-backlog-deferred-to-Mon-Oct-12-pre-market - ALPHA-COMPRESSION-EPISODE-DAY-5-potential-continuation - 25TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE - DQG-Day-151-outage-persists - CHINA-GOLDEN-WEEK-MAINLAND-REOPEN-DAY-2 - WEEKLY-REVIEW-DAY-16:00-WIB-GATING-PENDING)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -18.84,
+      "alpha_pct": 16.0,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Fri Oct 9 IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire. WebSearch returned no indexed Indonesian-source result for Fri Oct 9 sesi/EOD. Carry anchor remains Mon Oct 5 actual reconciled 6,118.86 (per Tue Oct 6 Bisnis prev-close basis). Tue Oct 6 sesi II final + Wed Oct 7 EOD + Thu Oct 8 EOD + Fri Oct 9 EOD multi-source cluster reconciliation deferred to Mon Oct 12 pre-market \u2014 32nd cumulative DQG-sesi-II-lag occurrence; UNPRECEDENTED 4-day accumulated reconciliation span.",
+      "alpha_note": "Daily alpha PENDING Fri (portfolio 0.00% vs IHSG TBD). ALPHA COMPRESSION EPISODE DAY-5 potential continuation if IHSG closes +ve Fri. Cumulative alpha carry ~+16.00pp Tue sesi I chain-basis provisional pending Wed/Thu/Fri close reconciliation (Mon reconciled anchor ~+17.01pp vs portfolio -2.84%).",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY82-Wk25-Day5-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE-Q4-2026-WEEK-2-DAY-5-FINAL-POST-CABINET-RESHUFFLE-DAY-7-1WK-MILESTONE-POST-BI-HOLD-TRANSMISSION-DAY-15",
+      "notes": "No trades today (Wk 25 Day 5 CLOSE \u2014 25TH CONSECUTIVE ZERO-TRADE WEEK COMPLETE). Trades this week: 0/3. ~102+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions). Fri IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 accumulated 4-day sesi-II-lag reconciliation deferred to Mon Oct 12 pre-market (UNPRECEDENTED span). Cabinet reshuffle Day-7 1-week absorption milestone carrying; Hormuz Day-12 Brent $91.93 partial-fade COGS relief RE-ARMING; LME nickel $15,595 sub-$16K breach Day-24+; CPO MYR 4,354 Day-16+ 8wk-low; China mainland REOPEN Day-2 \u2014 cross-asset data-thinning ENDS continuation; US-10Y Day-14 persistence slight-fade. Weekly-review 16:00 WIB gating PENDING \u2014 Wk 25 letter-grade + 25-week discipline framework durability assessment."
     }
   ],
   "positions": [],
@@ -34615,12 +34635,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-04T04:36:45Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy vacuously (n=0). 100% cash Day 25 post-KLBF cut. Crisis-track engagement gate binding. No action taken."
-    },
-    {
       "timestamp": "2026-08-04T08:19:50Z",
       "routine": "daily-summary",
       "status": "success",
@@ -39706,6 +39720,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions; 100% cash; no action; Wk 25 Day 5 MIDDAY Q4-Week-2-Day-5-final; 25th consecutive zero-trade week Day 5 MIDDAY; crisis-track engagement gate ACTIVATED (0.75-1.10/5) persists + DQG Day-151 outage persists; mechanically vacuous (n=0 positions)"
+    },
+    {
+      "timestamp": "2026-10-09T08:20:16Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 127 Wk 25 Day 5 CLOSE / 25TH CONSECUTIVE ZERO-TRADE WEEK COMPLETE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (80 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Fri Oct 9 close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 4-day accumulated IHSG EOD backlog deferred to Mon Oct 12 pre-market (unprecedented span); alpha carry +16.00pp Tue sesi I provisional pending Wed/Thu/Fri reconciliation; crisis-track engagement gate ACTIVATED persists 0.75-1.10/5; DQG Day-151 outage persists; weekly-review 16:00 WIB gating pending; no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 127 EOD snapshot committed; 25th consecutive zero-trade week complete"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Fri Oct 9 close PENDING multi-source cluster \u2014 4-day accumulated backlog unprecedented"
+        },
+        {
+          "type": "warning",
+          "detail": "crisis-track engagement gate ACTIVATED persists 0.75-1.10/5"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-151 outage persists \u2014 yfinance+GoAPI blocked 151 consecutive sessions"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -39770,7 +39808,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-09T08:19:57.482771Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -39830,6 +39868,12 @@
       "routine": "daily-summary",
       "status": "warning",
       "summary": "EOD Day 125 Wk 25 Day 3 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (78 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Wed Oct 7 close PENDING multi-source cluster not surfaced at 15:15 WIB fire; alpha carry +16.00pp Tue sesi I provisional pending Wed reconciliation; 25TH CONSECUTIVE ZERO-TRADE WEEK Day 3 IN PROGRESS; crisis-track engagement gate ACTIVATED persists 0.85-1.20/5; DQG Day-149 outage persists; no risk alerts"
+    },
+    {
+      "timestamp": "2026-10-09T08:19:57.483344Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 127 Wk 25 Day 5 CLOSE / 25TH CONSECUTIVE ZERO-TRADE WEEK COMPLETE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (80 consecutive zero-P&L sessions); 0 positions 100% cash; IHSG Fri Oct 9 close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 4-day accumulated IHSG EOD backlog deferred to Mon Oct 12 pre-market (unprecedented span); alpha carry +16.00pp Tue sesi I provisional pending Wed/Thu/Fri reconciliation; crisis-track engagement gate ACTIVATED persists 0.75-1.10/5; DQG Day-151 outage persists; weekly-review 16:00 WIB gating pending; no risk alerts"
     }
   ]
 }
