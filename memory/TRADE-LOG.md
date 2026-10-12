@@ -14766,3 +14766,85 @@ _(none — book fully de-risked Day 82 since Mon Jul 6 KLBF hard-cut; 100% cash 
   8. Cabinet reshuffle Day-10 absorption continuation; new economic team continuity
   9. GOTO pre-EGM T+2 Tue Oct 14 price action monitoring
   10. BEI Rp1 min-stock-price rule Day-13+ tech sector monitoring; TLKM EGM T+12 post-formal-filing pattern persistence
+
+
+### 2026-10-12 EOD (Day 128, Mon — Week 26 Day 1 CLOSE — Q4-2026-WEEK-3-DAY-1 — POST-CABINET-RESHUFFLE-Day-10 — POST-BI-HOLD-TRANSMISSION-Day-18 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-85 — 26TH CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE — US-10Y-5.24%-Fri-Oct-9-fresh-print-persistence-carry — IDR-18,069-Fri-Jisdor-Day-6+-near-18,000-band-carry — BRENT-$91.93-Day-13-HORMUZ-PARTIAL-FADE-COGS-RELIEF-RE-ARMING-carry — LME-NICKEL-Oct-fwd-$17,294-FADE-RE-FIRMING-carry — CPO-MYR-4,310-Day-18-8wk-low-+-MPOB-RELEASE-TODAY-binary — Newcastle-coal-$140-144-Day-29-sector-EXITED-carry — IHSG-Mon-Oct-12-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire — Fri-Oct-9-reconciled-anchor-6,093.76 — CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.75-1.10-of-5 — DQG-Day-154-outage-persists-yfinance+GoAPI-blocked-154-consecutive-sessions — GOTO-EGM-T+1-TUE-OCT-14-tomorrow — MPOB-CPO-RELEASE-TODAY-binary-AALI/LSIP)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: PENDING (Mon Oct 12 sesi/EOD multi-source cluster NOT SURFACED at 15:15 WIB fire; WebSearch returned no indexed Mon Oct 12 Indonesian-source result — Bisnis/Databoks/Investortrust/Pasardana/Infobanknews/RRI/Kontan/CNBC-Indonesia none indexed yet. Reconciliation deferred to Tue Oct 13 pre-market multi-source cluster — standard DQG Day-154 sesi II lag pattern 33rd cumulative occurrence anticipated. Carry anchor Fri Oct 9 reconciled 6,093.76 remains.)
+- Daily alpha: PENDING (zero-exposure day; portfolio 0.00% vs IHSG Mon TBD → alpha magnitude a function of pending IHSG close; direction immunised by 100% cash to downside, exposed by zero to upside)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 26 Day 1 CLOSE — **26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE** — ~103+ cumulative unused candidate-day slots trial-to-date)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (Fri Oct 9 reconciled anchor basis): ~+17.37pp (IHSG baseline 7,634 → Fri 6,093.76 cumulative -20.21% vs portfolio -2.84%); Mon Oct 12 cumulative alpha PENDING Mon IHSG close reconciliation
+- Realised P&L: IDR -294,172,500 (unchanged; last update Mon Jul 6 KLBF hard-cut Day 73)
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap; -12% alert threshold clear)
+- Weekly P&L (Wk 26 cumulative Day 1 CLOSE): 0.00% (26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE)
+
+#### Open Positions
+
+_(none — book fully de-risked Day 85 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 26 Day 1 CLOSE / 26th consecutive zero-trade week Day 1 CLOSE)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh positions` → 0 positions (paper-mode ledger); `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / unrealised 0. Reconciled OK with TRADE-LOG (both 0 positions). No discrepancy.
+- **No trades today (Wk 26 Day 1 CLOSE — 26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE).** Trades this week: 0/3. ~103+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions; no mark-to-market work required).
+- **IHSG Mon Oct 12 close PENDING multi-source cluster.** WebSearch at 15:15 WIB fire returned no indexed Indonesian-source result for Mon Oct 12 sesi/EOD (queries: "IHSG close today October 12 2026"; "12 Oktober 2026 IHSG penutupan close"). Carry anchor remains Fri Oct 9 reconciled 6,093.76. Reconciliation deferred to Tue Oct 13 pre-market multi-source cluster — standard DQG Day-154 sesi II lag pattern 33rd cumulative occurrence anticipated.
+- **DQG-Day-154 outage persists:** yfinance + GoAPI blocked 154 consecutive sessions since Apr 21; WebSearch multi-source override operational (but no Mon Oct 12 cluster surfaced at fire time); per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless; no positions to mark).
+- **Alpha ledger (Mon Oct 12 close PENDING):** IHSG cumulative Fri Oct 9 reconciled anchor -20.21% (baseline 7,634 → 6,093.76) vs portfolio cumulative -2.84% → cumulative alpha ~+17.37pp Fri reconciled anchor basis. Mon daily alpha PENDING (portfolio 0.00% vs IHSG TBD). Zero-exposure immunity to downside holds; exposure to upside continues.
+- **MPOB CPO release TODAY binary (AALI/LSIP):** Oct supply/demand/stocks data release post-fire; pre-release carry CPO MYR 4,310 Day-18 8wk-low; direction catalyst for Tue pre-market consumer-staples / plantation thesis re-evaluation.
+- **GOTO EGM T+1 Tue Oct 14 tomorrow:** binary event day proceedings tomorrow; pre-event GOTO price action Mon not evaluated at EOD fire (no exposure; mechanically vacuous).
+- **Brent $91.93 Hormuz PARTIAL FADE Day-13 carry:** material fade from Mon-Tue $97-$102 Hormuz band = COGS-relief RE-ARMING continuation; UNVR/ICBP/INDF Consumer thesis partial RE-ARM candidate carry — but crisis-track gate ACTIVATED pre-blocks regardless.
+- **LME nickel Oct fwd $17,294 FADE-RE-FIRMING carry:** vs Oct 1 $15,595 settle; MDKA/ANTM/INCO/NCKL headwind-worst-case abating partial-signal; mining sub-pattern bind-wideness marginal softening.
+- **CPO MYR 4,310 Day-18 8-week-low:** AALI/LSIP headwind continuation; MPOB release today binary catalyst for Tue pre-market thesis update.
+- **IDR 18,069 Fri Jisdor Day-6+ near-18,000-band carry:** Mon fresh Jisdor print not surfaced at EOD fire; criterion-a partial reversal persistence carry.
+- **US-10Y 5.24% Fri Oct 9 fresh print persistence carry:** Day-15+ breakout persistence slight-fade continuation; external-shock-overlay 19-yr-high-band persists.
+- **Cabinet-reshuffle Day-10 absorption continuation:** post-1wk-milestone trajectory continuity; new economic team verification continues.
+- **BEI Rp1 min-stock-price rule Day-13+ tech sector monitoring:** tech sector selling pressure Day-13+ carry.
+- **TLKM EGM T+12 post-formal-filing:** pattern persistence; no fresh signal.
+- **Crisis-track engagement gate ACTIVATED persists:** scoring ~0.75-1.10/5 Wk 26 Day 1 CLOSE (unchanged from Mon 09:15 WIB open and 11:30 WIB midday scoring 0.75-1.10/5 + marginal softening via Fri light foreign-sell + LME nickel re-firming); 3.90-4.25/5 gap BINDING continues; 0% new-entries permitted per Hard Rule; mechanically vacuous per crisis-track override + DQG structural FAIL.
+- **State/regime bindings Mon Oct 12 CLOSE updates:**
+  - IHSG Mon Oct 12 close PENDING (multi-source cluster not surfaced); Fri Oct 9 reconciled 6,093.76 remains anchor
+  - US-10Y 5.24% Fri Oct 9 fresh print Day-15+ persistence slight-fade carry
+  - IDR 18,069 Fri Jisdor Day-6+ near-18,000-band carry
+  - Brent $91.93 Hormuz PARTIAL FADE Day-13 COGS relief RE-ARMING carry
+  - Newcastle coal $140-144 Day-29 sector-EXITED carry
+  - CPO MYR 4,310 Day-18 8-week-low + MPOB release TODAY binary (AALI/LSIP)
+  - LME nickel Oct fwd $17,294 FADE-RE-FIRMING carry (MDKA/ANTM/INCO/NCKL headwind-worst-case abating partial)
+  - VIX mid-teens firming carry
+  - Foreign flow Fri light-sell -Rp 32.05B lightest-of-week carry
+  - Destry BI-Gov Day-37 post-maiden-RDG hold-5.75% dovish continuity absorption Day-18 transmission
+  - Cabinet-reshuffle Day-10 post-1wk-milestone absorption continuation
+  - TLKM EGM T+12 post-formal-filing pattern persistence
+  - GOTO EGM T+1 Tue Oct 14 binary event tomorrow
+  - BEI Rp1 minimum-stock-price rule Day-13+ tech sector monitoring
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% warnings, no -7% hard-cut triggers
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-10-12.
+- **dashboard/data.json updated:** 2026-10-12 EOD entry appended (ihsg_close PENDING/null — Mon Oct 12 cluster not surfaced; portfolio_value 9,716,207,500; alpha_pct ~+17.37pp Fri Oct 9 reconciled anchor basis; day_label Wk 26 Day 1 EOD CLOSE Q4-Week-3-Day-1 post-cabinet-reshuffle-Day-10 post-BI-hold-transmission-Day-18; Mon IHSG close reconciliation deferred to Tue Oct 13 pre-market).
+- **Notification path:** scripts/notify.sh EOD summary via Telegram (TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID exported per scheduler prompt; stdout fallback if proxy blocks).
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 128, Wk 26 Day 1 CLOSE — **26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE**). Phase-to-date P&L -2.84% unchanged (81 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha carry ~+17.37pp Fri Oct 9 reconciled anchor basis (Fri cumulative IHSG -20.21% vs portfolio -2.84%).
+- **Carry to Tue Oct 13 pre-market (Wk 26 Day 2 OPEN):**
+  1. IHSG Mon Oct 12 close reconciliation + Tue direction vs Fri Oct 9 reconciled 6,093.76 anchor
+  2. GOTO EGM Tue Oct 14 T-1 pre-event monitoring
+  3. MPOB CPO release Mon post-fire absorption; AALI/LSIP thesis update
+  4. IDR Tue fresh Jisdor print vs Fri 18,069 near-18,000-band Day-7+ carry
+  5. Brent / Hormuz Day-14+ direction vs $91.93 partial-fade carry
+  6. US-10Y Day-16+ persistence vs Fri 5.24% fresh print
+  7. CPO MYR Day-19+ post-MPOB direction; LME nickel Oct fwd Day-15+ FADE-RE-FIRMING trajectory
+  8. Foreign flow Mon cluster post-Fri light-sell + Thu BBCA/GOTO top-net-buy signal continuity
+  9. Cabinet reshuffle Day-11 absorption continuation
+  10. BEI Rp1 min-stock-price rule Day-14+ tech sector monitoring; TLKM EGM T+13 post-formal-filing pattern persistence

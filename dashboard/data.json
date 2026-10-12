@@ -1963,6 +1963,26 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY82-Wk25-Day5-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE-Q4-2026-WEEK-2-DAY-5-FINAL-POST-CABINET-RESHUFFLE-DAY-7-1WK-MILESTONE-POST-BI-HOLD-TRANSMISSION-DAY-15",
       "notes": "No trades today (Wk 25 Day 5 CLOSE \u2014 25TH CONSECUTIVE ZERO-TRADE WEEK COMPLETE). Trades this week: 0/3. ~102+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions). Fri IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 accumulated 4-day sesi-II-lag reconciliation deferred to Mon Oct 12 pre-market (UNPRECEDENTED span). Cabinet reshuffle Day-7 1-week absorption milestone carrying; Hormuz Day-12 Brent $91.93 partial-fade COGS relief RE-ARMING; LME nickel $15,595 sub-$16K breach Day-24+; CPO MYR 4,354 Day-16+ 8wk-low; China mainland REOPEN Day-2 \u2014 cross-asset data-thinning ENDS continuation; US-10Y Day-14 persistence slight-fade. Weekly-review 16:00 WIB gating PENDING \u2014 Wk 25 letter-grade + 25-week discipline framework durability assessment."
+    },
+    {
+      "date": "2026-10-12",
+      "day_label": "Day 128 (Wk 26 Day 1 EOD CLOSE - Q4-2026-WEEK-3-DAY-1 - post-CABINET-RESHUFFLE-Day-10 - post-BI-HOLD-transmission-Day-18 - US-10Y-5.24%-Fri-Oct-9-fresh-print-persistence-carry - IDR-18,069-Fri-Jisdor-Day-6+-near-18,000-band-carry - BRENT-$91.93-Day-13-HORMUZ-PARTIAL-FADE-COGS-RELIEF-RE-ARMING-carry - LME-nickel-Oct-fwd-$17,294-FADE-RE-FIRMING-carry - CPO-MYR-4,310-Day-18-8wk-low-+-MPOB-RELEASE-TODAY-binary - Newcastle-coal-$140-144-Day-29-sector-EXITED-carry - IHSG-Mon-Oct-12-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire - Fri-Oct-9-reconciled-anchor-6,093.76 - 26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-CLOSE - DQG-Day-154-outage-persists - GOTO-EGM-T+1-TUE-OCT-14-tomorrow - MPOB-CPO-RELEASE-TODAY-binary)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -20.21,
+      "alpha_pct": 17.37,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Mon Oct 12 IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire. WebSearch returned no indexed Mon Oct 12 Indonesian-source result (queries: 'IHSG close today October 12 2026'; '12 Oktober 2026 IHSG penutupan close'). Carry anchor Fri Oct 9 reconciled 6,093.76 remains. Reconciliation deferred to Tue Oct 13 pre-market multi-source cluster \u2014 33rd cumulative DQG-sesi-II-lag occurrence anticipated.",
+      "alpha_note": "Daily alpha PENDING Mon (portfolio 0.00% vs IHSG TBD). Cumulative alpha ~+17.37pp Fri Oct 9 reconciled anchor basis (IHSG baseline 7,634 \u2192 Fri 6,093.76 cumulative -20.21% vs portfolio -2.84%). Zero-exposure immunity to downside holds.",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY85-Wk26-Day1-CLOSE-EOD-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-CLOSE-Q4-2026-WEEK-3-DAY-1-POST-CABINET-RESHUFFLE-DAY-10-POST-BI-HOLD-TRANSMISSION-DAY-18",
+      "notes": "No trades today (Wk 26 Day 1 CLOSE \u2014 26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE). Trades this week: 0/3. ~103+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions). Mon IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 reconciliation deferred to Tue Oct 13 pre-market (33rd cumulative DQG-sesi-II-lag occurrence anticipated). Cabinet reshuffle Day-10 absorption continuation; MPOB CPO release TODAY binary AALI/LSIP catalyst for Tue thesis update; GOTO EGM T+1 Tue Oct 14 tomorrow; LME nickel Oct fwd $17,294 FADE-RE-FIRMING carry; Brent $91.93 Hormuz PARTIAL FADE Day-13 COGS-relief RE-ARMING carry; CPO MYR 4,310 Day-18 8wk-low; US-10Y 5.24% Fri fresh print Day-15+ persistence; IDR 18,069 Fri Jisdor Day-6+ near-18,000-band carry. Crisis-track engagement gate ACTIVATED persists 0.75-1.10/5; 0% new-entry permission. DQG Day-154 structural FAIL."
     }
   ],
   "positions": [],
@@ -34958,7 +34978,7 @@
     "portfolio_value": 9716207500,
     "alpha_pct": -0.9,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 14.53,
+    "cumulative_alpha_pp": 17.37,
     "positions_open": 0,
     "max_trades_week": 3,
     "day_number": 126,
@@ -34984,12 +35004,6 @@
     "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-05T04:35:46Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions. No cuts, no stop tightens, no thesis exits."
-    },
     {
       "timestamp": "2026-08-05T08:21:50Z",
       "routine": "daily-summary",
@@ -40077,6 +40091,26 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. 0/6 occupied. No cuts/stops/thesis exits. Telegram blocked by proxy."
+    },
+    {
+      "timestamp": "2026-10-12T08:20:03Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Mon Oct 12 Wk 26 Day 1 CLOSE: equity IDR 9,716,207,500 (0.00% today). 26th consecutive zero-trade week initiated. 0 positions / 100% cash. Trades this week 0/3. Mon IHSG close PENDING (33rd DQG-sesi-II-lag anticipated; Fri Oct 9 anchor 6,093.76). Cum alpha ~+17.37pp Fri reconciled basis. DD -3.10% from peak. Telegram proxy-blocked; stdout fallback OK.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 128 EOD snapshot committed"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Mon Oct 12 close PENDING multi-source cluster not surfaced at 15:15 WIB fire; 33rd cumulative DQG-sesi-II-lag occurrence anticipated \u2014 deferred to Tue Oct 13 pre-market"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification proxy-blocked (CONNECT tunnel 403); stdout fallback dispatched"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -40141,7 +40175,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-12T00:07:51.612767Z",
+  "last_updated": "2026-10-12T08:19:43.832723Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",

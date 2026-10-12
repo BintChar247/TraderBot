@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY82-Wk25-Day5-CLOSE-EOD-25TH-CONSECUTIVE-ZERO-TRADE-WEEK-COMPLETE-Q4-2026-WEEK-2-DAY-5-FINAL-POST-CABINET-RESHUFFLE-DAY-7-1WK-MILESTONE-POST-BI-HOLD-TRANSMISSION-DAY-15-US-10Y-5.11-5.29pct-Day-14-BREAKOUT-PERSISTENCE-SLIGHT-FADE-IDR-17,916.4-Mon-Databoks-weakening-Day-5-carry-BRENT-$91.93-HORMUZ-PARTIAL-FADE-Day-12-COGS-RELIEF-RE-ARMING-carry-LME-NICKEL-$15,595-sub-$16K-breach-Day-24plus-CPO-MYR-4,354-Day-16plus-8wk-low-IHSG-Fri-Oct-9-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-carry-anchor-Mon-Oct-5-reconciled-6,118.86-Tue-sesi-II+Wed-EOD+Thu-EOD+Fri-EOD-reconciliation-deferred-to-Mon-Oct-12-pre-market-4-day-accumulated-backlog-ALPHA-COMPRESSION-EPISODE-DAY-5-potential-continuation-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.75-1.10-of-5-persistent-DQG-Day-151-outage-persists-CHINA-GOLDEN-WEEK-MAINLAND-REOPEN-DAY-2-WEEKLY-REVIEW-DAY-16:00-WIB-GATING-PENDING",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY85-Wk26-Day1-CLOSE-EOD-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-CLOSE-Q4-2026-WEEK-3-DAY-1-POST-CABINET-RESHUFFLE-DAY-10-POST-BI-HOLD-TRANSMISSION-DAY-18-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-carry-IDR-18,069-Fri-Jisdor-Day-6plus-near-18,000-band-carry-BRENT-$91.93-HORMUZ-PARTIAL-FADE-Day-13-COGS-RELIEF-RE-ARMING-carry-LME-NICKEL-Oct-fwd-$17,294-FADE-RE-FIRMING-carry-CPO-MYR-4,310-Day-18-8wk-low-plus-MPOB-release-TODAY-binary-Newcastle-coal-$140-144-Day-29-sector-EXITED-carry-IHSG-Mon-Oct-12-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-carry-anchor-Fri-Oct-9-reconciled-6,093.76-GOTO-EGM-T-plus-1-Tue-Oct-14-tomorrow-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.75-1.10-of-5-persistent-DQG-Day-154-outage-persists",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-09"
+  "updated": "2026-10-12"
 }
