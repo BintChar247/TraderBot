@@ -34985,32 +34985,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-05T02:17:08Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 16 Day 3. CRISIS-TRACK ENGAGEMENT GATE ACTIVATED \u2014 re-entry criteria ~0.50-0.75/5 confirming. TLKM 7/10 (Q2 BEAT delivered) blocked; 49 other tickers capped \u22645/10 under gate ceiling. 16th consecutive 0/3 BUY-slot week Day 3. 100% cash IDR 9.72B; cumulative trial alpha +15.03%.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Score 7/10 Q2 BEAT delivered but crisis-track gate blocks entry"
-        },
-        {
-          "type": "skip",
-          "ticker": "WATCHLIST-49",
-          "detail": "All 49 others capped \u22645/10 under gate ceiling"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed (HTTP 403 proxy tunnel); stdout fallback used"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 95 \u2014 yfinance/GoAPI blocked 95 consecutive sessions"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-05T04:35:46Z",
       "routine": "midday",
       "status": "success",
@@ -40097,6 +40071,12 @@
           "detail": "26th consecutive zero-trade week Day 1 OPEN initiated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-12T04:45:22Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. 0/6 occupied. No cuts/stops/thesis exits. Telegram blocked by proxy."
     }
   ],
   "exposure": {
