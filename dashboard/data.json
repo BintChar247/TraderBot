@@ -34969,6 +34969,356 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "H1 2026 +17.5% YoY Rp 31.18T; PBV 1.48x; Thu top-net-buy signal continuity",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Brent Day-14 partial-fade RE-ARMS COGS-relief; defensive-quality anchor deep",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 core profit +50.6% YoY beat carry; Brent fade RE-ARMS consumer-staples margin",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP parent; sole YTD net-inflow; Brent Day-14 partial-fade COGS-relief carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 7/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Defensive-quality anchor PBV 2.76x PER 12.85x; Thu top-net-buy signal continuity",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "PBV 1.34x; H1 Rp 30.4T +24.4% YoY; BMRI Q3 top net-sell -IDR 2.9T partial headwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q2 2026 +109.3% YoY projected; input-cost moderation; Brent-fade COGS-relief",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "candidate score 6/10 \u2014 pre-blocked at market-open"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-CONFIRMED-Day-86; crisis-track gate ACTIVATED ~0.75-1.10/5; cabinet-reshuffle Day-11; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD; US-10Y 5.24% Day-15+ persistence; IDR Jisdor 18,069 Day-7+ near-18,000-band"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate ACTIVATED + DQG Day-155 structural FAIL + IDR Jisdor 18,069 Fri near-18,000-band Day-7+ + Brent $91.93 Day-14 Hormuz PARTIAL-FADE + LME nickel Oct fwd $17,294 FADE-RE-FIRMING + CPO MYR 4,310 Day-18 8wk-low"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted per Hard Rule crisis-track override; max_position_pct 5% RISK-STATE pre-emptive if DE-ACTIVATED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-155 outage persists (yfinance+GoAPI blocked 155 consecutive sessions since Apr 21)"
+        }
+      ],
+      "reasoning": "Pre-blocked at market-open per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (3.90-4.25/5 gap binding) + DQG Day-155 structural FAIL = 0% new-entry permission. All 5 re-entry criteria unmet concurrently. 26th consecutive zero-trade week Day 2 OPEN.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -35024,44 +35374,6 @@
     "updated": "2026-10-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-06T00:13:17Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers Wk 16 Day 4. NO candidates scored \u22656. TLKM downgraded 7\u21925 post-Wed FADE-ON-BEAT -5% (margin B2C concern). MEDC 4\u21923 Day 6 disclosure delay = WATCH-BINARY-SKIP-NEG-DEEPER. Regime mixed: US 3-index ATH + Q2 GDP 5.29% BEAT + IHSG Wed +1.48% offset by Brent snap-back $79\u2192$83.72 (Iran talks stalling) + TLKM fade + MEDC delay. Crisis-track gate ~0.50-0.75/5 (0pp net shift).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned Wk 16 Day 4"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "downgrade 7\u21925 post-Wed FADE-ON-BEAT -5% margin B2C concern"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "downgrade 4\u21923 Q2 T+6 Day 6 disclosure delay WATCH-BINARY-SKIP-NEG-DEEPER"
-        },
-        {
-          "type": "research",
-          "detail": "Brent snap-back $79\u2192$83.72 Aug 6 05:30 ET Iran Hormuz talks stalling"
-        },
-        {
-          "type": "research",
-          "detail": "Q2 GDP 5.29% BEAT vs 5.1% consensus but slowed from Q1 5.61%"
-        },
-        {
-          "type": "research",
-          "detail": "US 3-index ATH Aug 5 close continuation S&P 7736 / Nasdaq 26585 / Dow 54086"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-06T02:18:08Z",
       "routine": "market-open",
@@ -40160,6 +40472,30 @@
         {
           "type": "warning",
           "detail": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 persists; 3.90-4.25/5 de-activation gap BINDING WIDER STILL"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-13T02:19:24Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; 7 candidates \u22656/10 pre-blocked per crisis-track engagement gate ACTIVATED + DQG Day-155 outage persists; 26th consecutive zero-trade week Day 2 OPEN; IHSG Mon Oct 12 close STILL PENDING at Tue 09:15 WIB \u2014 33rd+ cumulative sesi-II-lag occurrence; GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO Mon release absorption Tue TBD",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "crisis-track gate ACTIVATED 0.75-1.10/5 \u2014 0% new-entry permission"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-155 outage persists \u2014 WebSearch-only basis; yfinance+GoAPI blocked 155 consecutive sessions since Apr 21"
+        },
+        {
+          "type": "warning",
+          "detail": "26th consecutive zero-trade week Day 2 OPEN"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Mon Oct 12 close STILL PENDING at Tue 09:15 WIB \u2014 33rd+ sesi-II-lag occurrence"
         }
       ]
     }
