@@ -1983,6 +1983,26 @@
       "drawdown_from_peak_pct": -3.1,
       "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY85-Wk26-Day1-CLOSE-EOD-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-CLOSE-Q4-2026-WEEK-3-DAY-1-POST-CABINET-RESHUFFLE-DAY-10-POST-BI-HOLD-TRANSMISSION-DAY-18",
       "notes": "No trades today (Wk 26 Day 1 CLOSE \u2014 26th CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE). Trades this week: 0/3. ~103+ cumulative unused candidate-day slots trial-to-date. Mechanically vacuous EOD entry (n=0 positions). Mon IHSG close PENDING multi-source cluster not surfaced at 15:15 WIB fire \u2014 reconciliation deferred to Tue Oct 13 pre-market (33rd cumulative DQG-sesi-II-lag occurrence anticipated). Cabinet reshuffle Day-10 absorption continuation; MPOB CPO release TODAY binary AALI/LSIP catalyst for Tue thesis update; GOTO EGM T+1 Tue Oct 14 tomorrow; LME nickel Oct fwd $17,294 FADE-RE-FIRMING carry; Brent $91.93 Hormuz PARTIAL FADE Day-13 COGS-relief RE-ARMING carry; CPO MYR 4,310 Day-18 8wk-low; US-10Y 5.24% Fri fresh print Day-15+ persistence; IDR 18,069 Fri Jisdor Day-6+ near-18,000-band carry. Crisis-track engagement gate ACTIVATED persists 0.75-1.10/5; 0% new-entry permission. DQG Day-154 structural FAIL."
+    },
+    {
+      "date": "2026-10-13",
+      "day_label": "Day 129 (Wk 26 Day 2 OPEN - Q4-2026-WEEK-3-DAY-2 - 26th-consecutive-zero-trade-week-Day-2-OPEN - DQG-Day-155-outage-persists - Crisis-track-engagement-gate-ACTIVATED-persists)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -20.21,
+      "alpha_pct": 17.37,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "ihsg_close_note": "Tue Oct 13 pre-market fire 07:00 WIB. Mon Oct 12 close STILL NOT SURFACED (33rd+ DQG-sesi-II-lag). Fri Oct 9 reconciled 6,093.76 remains anchor pending Tue sesi I reconciliation.",
+      "alpha_note": "Cumulative alpha ~+17.37pp Fri Oct 9 reconciled anchor basis; Mon/Tue PENDING multi-source reconciliation.",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day86-Wk26-Day2-OPEN-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-OPEN-DQG-Day-155-outage-Crisis-track-gate-ACTIVATED-persists",
+      "notes": "Pre-market Tue Oct 13 fire. 100% cash maintained. All 7 candidates scored \u22656 SKIP under crisis-track engagement gate ACTIVATED Hard Rule pre-block. IDR 18,069 Day-7+ near-18,000-band; de-activation gap 3.90-4.25/5 binding. GOTO EGM T+1 Tue Oct 14 binary tomorrow (vacuous). MPOB CPO Mon post-release absorption binary AALI/LSIP (vacuous). Mon IHSG close reconciliation deferred to Tue sesi I open."
     }
   ],
   "positions": [],
@@ -35005,18 +35025,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-05T08:21:50Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 16 Day 3: IDR 9.716B (0.00%). Alpha -1.48% vs IHSG (100% cash pays -1.48pp on IHSG relief-rally +1.48%). Cum. return -2.84%, cum. alpha +13.81% (-1.22pp compression Tue\u2192Wed). 0 positions, 0/3 trades this week. Drawdown -3.10%.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 78 EOD snapshot committed. IHSG sesi I 6,363.01 (+1.48% sesi-I-to-sesi-I). Book fully de-risked Day 26. CRISIS-TRACK GATE binding."
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-06T00:13:17Z",
       "routine": "pre-market",
       "status": "success",
@@ -40111,6 +40119,49 @@
           "detail": "Telegram notification proxy-blocked (CONNECT tunnel 403); stdout fallback dispatched"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-13T00:08:38Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Tue Oct 13 Day 129 Wk 26 Day 2 OPEN: 50-ticker scan complete; 7 candidates scored \u22656 (BBRI/UNVR/ICBP/INDF 7, BBCA/BMRI/MYOR 6); ALL mandatory SKIP under crisis-track engagement gate ACTIVATED Hard Rule pre-block + DQG-Day-155 outage; IDR 18,069 Day-7+ near-18,000-band; Mon IHSG EOD STILL NOT surfaced (33rd+ DQG-lag) carry Fri Oct 9 6,093.76; 100% cash maintained; 26th consecutive zero-trade week Day 2 OPEN; mechanically vacuous",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan complete"
+        },
+        {
+          "type": "research",
+          "detail": "7 candidates scored \u22656 \u2014 ALL SKIP under crisis-track pre-block"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 H1 +17.5% YoY Rp 31.18T; PBV 1.48x; crisis-track pre-block"
+        },
+        {
+          "type": "research",
+          "ticker": "UNVR",
+          "detail": "score 7/10 \u2014 Brent Day-14 fade RE-ARMS COGS-relief; crisis-track pre-block"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 7/10 \u2014 Q2 core +50.6% YoY beat; crisis-track pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "Mon Oct 12 IHSG close STILL NOT surfaced at Tue 07:00 WIB fire; 33rd+ DQG-sesi-II-lag; Fri Oct 9 6,093.76 anchor carried"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-155 outage persists; yfinance 403-blocked, GoAPI unset; per-ticker cluster NOT CONVERGED"
+        },
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 persists; 3.90-4.25/5 de-activation gap BINDING WIDER STILL"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -40123,19 +40174,19 @@
     "equity_pct": 0.0
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 78 (Wk 25 Day 1 CLOSE \u2014 Q4-2026-Week-2-OPEN \u2014 25th consecutive zero-trade week in progress)",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 86 (Wk 26 Day 2 OPEN \u2014 Q4-2026-Week-3 \u2014 26th consecutive zero-trade week Day 2 OPEN)",
     "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION",
-    "regime_overlay": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~0.80-1.10/5 persists Wk 25 Day 1 CLOSE; DQG-Day-147 outage; cabinet-reshuffle-Day-3 absorption; US-10Y-5.24-5.30%-Day-10-breakout-persistence-slight-fade; IDR-17,933-17,964-Day-1-reversal-partial-firming; Brent-$97-$102-Hormuz-RE-escalation-Day-8; LME-nickel-$15,595-sub-$16K-breach-Day-20+; CPO-MYR-4,416-Day-12+-8wk-low; China-Golden-Week-mainland-closed-Oct-1-7",
-    "regime_updated": "2026-10-05"
+    "regime_overlay": "CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED ~0.75-1.10/5 persists Wk 26 Day 2 OPEN; DQG-Day-155 outage; cabinet-reshuffle-Day-11 absorption; US-10Y-5.24%-Fri-Oct-9-fresh-print-Day-15+-persistence-slight-fade; IDR-18,069-Fri-Jisdor-Day-7+-near-18,000-band-carry; Brent-$91.93-Hormuz-PARTIAL-FADE-Day-14-COGS-relief-RE-ARMING; LME-nickel-$17,294-Oct-fwd-FADE-RE-FIRMING; CPO-MYR-4,310-Day-18-8wk-low-+-MPOB-POST-RELEASE-absorption-TBD; Newcastle-coal-$140-144-Day-30-sector-EXITED; GOTO-EGM-T+1-Tue-Oct-14-tomorrow",
+    "regime_updated": "2026-10-13"
   },
   "research": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "holiday": false,
-    "as_of_date": "2026-10-12",
+    "as_of_date": "2026-10-13",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Mon Oct 12 pre-market",
+    "as_of_label": "Tue Oct 13 pre-market",
     "ihsg_last": 6093.76,
-    "ihsg_last_label": "Fri Oct 9 close 6,093.76 (+1.04%); 4-day backlog fully reconciled",
+    "ihsg_last_label": "Fri Oct 9 reconciled 6,093.76 carry; Mon Oct 12 EOD still NOT surfaced at Tue 07:00 WIB fire",
     "candidates_scored_ge_6": 7,
     "top_candidates": [
       {
@@ -40146,17 +40197,17 @@
       {
         "ticker": "UNVR",
         "score": 7,
-        "thesis": "Brent Day-13 partial-fade RE-ARMS COGS-relief; defensive-quality anchor"
+        "thesis": "Brent Day-14 partial-fade RE-ARMS COGS-relief; defensive-quality deep"
       },
       {
         "ticker": "ICBP",
         "score": 7,
-        "thesis": "Q2 core +50.6% YoY beat; Brent Day-13 partial-fade carry"
+        "thesis": "Q2 core +50.6% YoY beat; Brent Day-14 partial-fade"
       },
       {
         "ticker": "INDF",
         "score": 7,
-        "thesis": "ICBP parent; sole YTD net-inflow; Brent Day-13 partial-fade"
+        "thesis": "ICBP parent; sole YTD net-inflow; Brent Day-14 partial-fade"
       },
       {
         "ticker": "BBCA",
@@ -40175,7 +40226,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-12T08:19:43.832723Z",
+  "last_updated": "2026-10-13T00:08:26.284247Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -40185,28 +40236,28 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-12",
-    "day_label": "Day 128 Wk 26 Day 1 OPEN Q4-Week-3-Day-1-OPEN post-cabinet-reshuffle-Day-10 post-BI-hold-transmission-Day-18 26th-consecutive-zero-trade-week-Day-1-OPEN DQG-Day-154-outage Crisis-track-engagement-gate-ACTIVATED-persists IHSG-4-DAY-BACKLOG-FULLY-RECONCILED GOTO-EGM-T+2 MPOB-CPO-RELEASE-TODAY",
-    "as_of_date": "2026-10-12",
+    "date": "2026-10-13",
+    "day_label": "Day 129 Wk 26 Day 2 OPEN Q4-Week-3-Day-2-OPEN post-cabinet-reshuffle-Day-11 post-BI-hold-transmission-Day-19 26th-consecutive-zero-trade-week-Day-2-OPEN DQG-Day-155-outage Crisis-track-engagement-gate-ACTIVATED-persists IHSG-Mon-Oct-12-RECONCILIATION-PENDING GOTO-EGM-T+1 MPOB-CPO-POST-RELEASE-ABSORPTION",
+    "as_of_date": "2026-10-13",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Mon Oct 12 pre-market",
+    "as_of_label": "Tue Oct 13 pre-market",
     "ihsg_last": 6093.76,
-    "ihsg_last_label": "Fri Oct 9 close 6,093.76 (+1.04%); 4-day backlog RECONCILED (Tue 6,192.92; Wed 6,146.72; Thu 6,031.28; Fri 6,093.76); Wk 25 Mon-Fri net -0.41%/-25.1pts; multi-source Databoks/RCTI/Sumbarbisnis",
-    "ihsg_change_pct": 1.04,
-    "ihsg_cumulative_pct": -20.18,
+    "ihsg_last_label": "Fri Oct 9 reconciled 6,093.76 (+1.04%) carry; Mon Oct 12 EOD close STILL NOT SURFACED at Tue 07:00 WIB fire (33rd+ cumulative DQG-sesi-II-lag occurrence confirmed); Tue sesi I open reconciliation PENDING",
+    "ihsg_change_pct": null,
+    "ihsg_cumulative_pct": -20.21,
     "idr_usd": 18069.0,
-    "idr_usd_label": "Fri Oct 7 Jisdor 18,069 carry (Mon Oct 12 fresh print pending); near-18,000 band Day-6+",
+    "idr_usd_label": "Fri Oct 9 Jisdor 18,069 Day-7+ near-18,000-band carry; Mon fresh Jisdor print NOT SURFACED; Tue fresh print PENDING",
     "brent": 91.93,
-    "brent_label": "Tue Oct 6 ~$91.93 carry; Hormuz PARTIAL FADE Day-13; Mon Oct 12 fresh print pending",
+    "brent_label": "Hormuz PARTIAL FADE Day-14 ~$91.93 carry; COGS-relief RE-ARMING continuation",
     "coal_newcastle": 142.0,
-    "coal_label": "~$140-144 Day-29 \u2265$140 persistent; coal sector EXITED 2-strike",
+    "coal_label": "~$140-144 Day-30 \u2265$140 persistent; coal sector EXITED 2-strike",
     "lme_nickel": 17294.0,
-    "lme_nickel_label": "Oct forward $17,294 TradingView carry; FADE-RE-FIRMING vs Oct 1 settlement $15,595; cluster narrowing $16,790-$17,294 Aug-Oct",
+    "lme_nickel_label": "Oct forward $17,294 TradingView carry; FADE-RE-FIRMING vs Oct 1 settlement $15,595",
     "cpo_myr": 4310.0,
-    "cpo_label": "Oct contract Oct 7 close MYR 4,310 (-30); Day-18 8-week-low; MPOB release TODAY Oct 12 binary catalyst",
+    "cpo_label": "Oct contract $4,310 Day-18 8-week-low; MPOB Mon Oct 12 release absorption direction TBD",
     "us_10y_pct": 5.24,
-    "us_10y_label": "Fri Oct 9 fresh print 5.24% Day-15 persistence; Fed-hiked-Sep-16-transmission-Day-26",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day-85",
+    "us_10y_label": "Fri Oct 9 fresh print 5.24% Day-15+ persistence slight-fade carry",
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day-86",
     "crisis_track_score": "0.75-1.10/5",
     "crisis_track_gap": "3.90-4.25/5 BINDING WIDER STILL",
     "candidates_scored_ge_6": 7,
@@ -40216,54 +40267,54 @@
         "score": 7,
         "sector": "Banking",
         "catalyst": "H1 +17.5% YoY Rp 31.18T; PBV 1.48x; Thu foreign top-net-buy signal",
-        "status": "SKIP (crisis-track pre-block)"
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "UNVR",
         "score": 7,
         "sector": "Consumer",
-        "catalyst": "Brent Day-13 partial-fade RE-ARMS COGS-relief; defensive-quality deep",
-        "status": "SKIP (crisis-track pre-block)"
+        "catalyst": "Brent Day-14 partial-fade RE-ARMS COGS-relief; defensive-quality deep",
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "ICBP",
         "score": 7,
         "sector": "Consumer",
-        "catalyst": "Q2 core +50.6% YoY beat; Brent Day-13 partial-fade",
-        "status": "SKIP (crisis-track pre-block)"
+        "catalyst": "Q2 core +50.6% YoY beat; Brent Day-14 partial-fade",
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "INDF",
         "score": 7,
         "sector": "Consumer",
-        "catalyst": "ICBP parent; sole YTD net-inflow; Brent Day-13 partial-fade",
-        "status": "SKIP (crisis-track pre-block)"
+        "catalyst": "ICBP parent; sole YTD net-inflow; Brent Day-14 partial-fade",
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "BBCA",
         "score": 6,
         "sector": "Banking",
         "catalyst": "Defensive-quality anchor PBV 2.76x PER 12.85x; Thu foreign top-net-buy signal",
-        "status": "SKIP (crisis-track pre-block)"
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "BMRI",
         "score": 6,
         "sector": "Banking",
-        "catalyst": "PBV 1.34x; H1 Rp 30.4T +24.4% YoY",
-        "status": "SKIP (crisis-track pre-block)"
+        "catalyst": "PBV 1.34x; H1 Rp 30.4T +24.4% YoY (Q3 BMRI top net-sell IDR 2.9T partial-offset)",
+        "status": "SKIP (crisis-track pre-block + DQG)"
       },
       {
         "ticker": "MYOR",
         "score": 6,
         "sector": "Consumer",
         "catalyst": "Q2 +109.3% YoY projected Rp 999B; input-cost moderation",
-        "status": "SKIP (crisis-track pre-block)"
+        "status": "SKIP (crisis-track pre-block + DQG)"
       }
     ],
     "trades_this_week": 0,
     "zero_trade_week_count": 26,
-    "notes": "Wk 26 Day 1 OPEN. IHSG Wk 25 4-day backlog FULLY RECONCILED (Mon 6,118.86 \u2192 Fri 6,093.76 = -0.41%). Crisis-track gate ~0.75-1.10/5 persists; marginal softening of criterion (d) via Fri light foreign-sell + BBCA/GOTO Thu top-buy insufficient for DE-ACTIVATION. DQG Day-154 structural FAIL. MPOB CPO release TODAY = AALI/LSIP binary; GOTO EGM Tue Oct 14 T+2. 26th consecutive zero-trade week Day-1 OPEN."
+    "notes": "Wk 26 Day 2 OPEN. Mon Oct 12 IHSG close STILL NOT SURFACED at Tue 07:00 WIB fire (33rd+ cumulative DQG-sesi-II-lag; 2-day accumulated reconciliation span). Crisis-track engagement gate ACTIVATED persists ~0.75-1.10/5; de-activation gap 3.90-4.25/5 BINDING WIDER STILL. IDR 18,069 Fri Jisdor Day-7+ near-18,000-band carry. DQG Day-155 structural FAIL (yfinance 403, GoAPI unset, per-ticker cluster NOT CONVERGED). GOTO EGM T+1 Tue Oct 14 tomorrow; MPOB CPO release Mon post-fire absorption binary AALI/LSIP direction TBD. 26th consecutive zero-trade week Day-2 OPEN. Mechanically vacuous \u2014 ALL 7 candidates scored \u22656 SKIP under Hard Rule crisis-track pre-block."
   },
   "activity": [
     {
