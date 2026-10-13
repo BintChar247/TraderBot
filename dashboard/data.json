@@ -35375,37 +35375,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-06T02:18:08Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 16 Day 4. TLKM downgraded 7\u21925 post-Wed FADE-ON-BEAT (margin B2C concern); MEDC 4\u21923 on Day 6 Q2 disclosure delay. 0 candidates \u22656/10. Crisis-track engagement gate ACTIVATED persistent (~0.50-0.75/5 re-entry criteria). 16th consecutive 0/3 BUY-slot week Day 4; 100% cash preserved.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "downgrade 7\u21925 post-Q2-beat fade Day 1 (-5% Wed)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "downgrade 4\u21923 Q2 T+6 pending disclosure Day 6 = WATCH-BINARY-SKIP-NEG-DEEPER"
-        },
-        {
-          "type": "skip",
-          "ticker": "WATCHLIST-49",
-          "detail": "crisis-track gate ceiling 5/10 for all watchlist tickers"
-        },
-        {
-          "type": "warning",
-          "detail": "Brent snap-back $79\u2192$83.72 +5.6% Aug 6 05:30 ET on Iran-Hormuz talks stall = CPI relief window narrowing"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 96 outage persists (yfinance 403 + GoAPI unset)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-06T04:36:30Z",
       "routine": "midday",
       "status": "success",
@@ -40498,6 +40467,12 @@
           "detail": "IHSG Mon Oct 12 close STILL PENDING at Tue 09:15 WIB \u2014 33rd+ sesi-II-lag occurrence"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-13T04:43:47Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Trial window closed 2026-05-02. Scheduled run \u2014 nothing to action."
     }
   ],
   "exposure": {
