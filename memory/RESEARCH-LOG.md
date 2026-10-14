@@ -29683,3 +29683,176 @@ _(none — book 100% cash since Mon Jul 6 KLBF hard-cut Day 88; 26th consecutive
 - [ ] **15:15 EOD** — Day 129 session; Wk 26 Day 2 CLOSE; Day-86 no-position; cumulative-alpha update vs Mon-reconciled IHSG anchor; portfolio 0.00% daily
 
 ---
+
+## 2026-10-14 (Wednesday — pre-market, Wk 26 Day 3 OPEN, 26th consecutive zero-trade week Day 3, GOTO EGM T-DAY binary)
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | ~7,811 (Fri Oct 9 carry) | +0.59% carry | Mon Oct 12 Columbus Day (bonds closed, equities traded); Mon + Tue Oct 13 fresh closes NOT INDEXED at 07:00 WIB fire |
+| Nasdaq | ~27,366 (Fri Oct 9 carry) | +0.64% carry | Mon/Tue fresh prints NOT INDEXED |
+| Dow | ~51,655 (Fri Oct 9 carry) | +0.83% carry | Mon/Tue fresh prints NOT INDEXED |
+| Shanghai Composite | Mon/Tue closes NOT INDEXED | — | China mainland Golden Week REOPEN Wk-complete; Wed Asia-session Day-7 |
+| Hang Seng | Mon/Tue closes NOT INDEXED | — | Fresh print PENDING |
+| Nikkei 225 | Mon/Tue closes NOT INDEXED | — | Fresh print PENDING |
+| VIX | Mid-teens firming carry | — | Mon/Tue fresh print NOT INDEXED; macroradar snapshot Oct 7 US-10Y 5.27 |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | PENDING Mon + Tue closes | — | **UNPRECEDENTED 2-day accumulated IHSG EOD cluster reconciliation backlog**: Mon Oct 12 + Tue Oct 13 closes STILL NOT SURFACED at Wed 07:00 WIB fire via WebSearch (queries "penutupan IHSG Selasa 13 Oktober 2026", "IHSG hari ini 14 Oktober 2026"); only data back to Fri Oct 9 reconciled 6,093.76 (+1.04%) and Thu Oct 8 6,031.28 (-1.88%) surface. Fri Oct 9 reconciled 6,093.76 remains anchor; 34th+ cumulative DQG-sesi-II-lag occurrence. 2-day backlog = **worst accumulated backlog since Wk 25 3-day Wed-Thu-Fri backlog** which required Mon Oct 12 reconciliation attempt (also PENDING). |
+| IDR/USD | 18,069 carry (Fri Oct 9 Jisdor) | Day-8+ carry | Mon Oct 12 + Tue Oct 13 fresh Jisdor prints NOT SURFACED; Wed fresh Jisdor print PENDING; near-18,000-band persistence; criterion-a (sub-17,750 3-of-3) deeply failed. |
+| Indo 10Y SUN yield | ~7.3% carry (undated) | — | No Wed fresh print indexed |
+| US 10Y yield | 5.24% Fri Oct 9 fresh print | Day-17+ persistence slight-fade | macroradar Oct 7 snapshot 5.27; 19-yr-high-band persists; next FOMC Oct 29 T+15 |
+| Indo-US spread | ~206bp carry | — | bp |
+| Newcastle coal (USD/ton) | ~$140-144 Day-31 ≥$140 persistent | — | Sector EXITED 2-strike |
+| CPO palm oil (MYR/ton) | 4,310 Day-20 8wk-low carry | — | MPOB Oct release (Mon Oct 12 scheduled) absorption still incomplete; Wk 25 Aug data 2.82M tonnes stocks +7.5%, CPO +15.2% to 1.64M tonnes; USDA cut 2026-27 Malaysian production to 19.7M tonnes El Niño |
+| LME nickel (USD/ton) | ~$17,294 Oct fwd FADE-RE-FIRMING | vs Oct 1 $15,595 settle | Mining headwind-worst-case abating partial; cnyes shows ~$16,183 Sep 14 spot |
+| Brent crude (USD/bbl) | $91.93 Hormuz PARTIAL FADE Day-15 carry | — | COGS-relief RE-ARMING continuation; no Wed fresh print surfaced |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | PENDING Mon + Tue cluster | Fri Oct 9 light-sell -Rp 32.05B lightest-of-week carry; cumulative Jul 1-Oct 7 net-sell IDR 16T (IDNfinancials AiSaham); BMRI top net-sell IDR 2.9T Q3; ANTM/TINS lead inflows |
+| Foreign flow streak | ~net-sell persistence | criterion (d) 2+ net-BUY sessions ~0.20-0.30/5 marginal |
+| Top buying brokers | Mon/Tue TBD | — |
+| Top selling brokers | Mon/Tue TBD | — |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | NEUTRAL-NEGATIVE | BI held 5.75% Aug 18-19; IDR 18,069 Day-8+; foreign net-sell BMRI-led | BBCA / BBRI / BMRI / BBNI |
+| Coal / Energy | EXITED | Sector 2-strike exit (ADRO/ITMG hard-cuts May 2026); Newcastle $142 ≥$140 Day-31 | ADRO / ITMG / PTBA (NO-FLY) |
+| Nickel / Mining | NEUTRAL (headwind-worst-case abating) | LME Oct fwd $17,294 FADE-RE-FIRMING vs Oct 1 $15,595 | ANTM / INCO / MDKA / NCKL |
+| CPO / Agri | NEGATIVE | CPO MYR 4,310 Day-20 8wk-low; MPOB Mon release absorption continuing | AALI / LSIP |
+| Property | NEGATIVE | IDR 18,069 Day-8+; BI held; rate-cut catalyst absent | BSDE / CTRA / SMRA / PWON |
+| Consumer | NEUTRAL (COGS-relief RE-ARMING carry) | Brent $91.93 Hormuz partial fade Day-15; CPO weakness margin-accretive | UNVR / ICBP / INDF / MYOR |
+| Telco | NEUTRAL | TLKM EGM T+14 post-formal-filing; spectrum auction cheaper than expected (ISAT Rp900bn, TLKM Rp1.2T, EXCL Rp1.3T) | TLKM / EXCL / ISAT |
+| Infrastructure | NEGATIVE | Cabinet-reshuffle Day-12 absorption; govt spending uncertainty | JSMR / WSKT / PTPP |
+
+### Corporate Calendar Today
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **GOTO EGM T-DAY** — treasury 32.18B share cancellation + Catherine Hindra Sutjahyo deputy-president-director resignation | GOTO | Wed Oct 14 (today) hybrid at HQ, attendance capped 80 | Binary — vote outcome determines capital-structure direction; no held exposure (vacuous); Fortune IDN last price Fri Oct 9 Rp30 flat; Thu Oct 1 ARB Rp28 (-12.5%). Expected result disclosure Thu/Fri Oct 15-16 T+1/T+2 |
+| TLKM EGM T+14 post-formal-filing | TLKM | — | No fresh signal; FADE-ON-BEAT MEDIUM pattern persistence |
+| MPOB CPO Oct release absorption | AALI/LSIP | Mon Oct 12 released, Wed continuing | Direction mixed — Aug data 2.82M tonnes stocks (+7.5%); USDA 2026-27 output cut El Niño partial-offset |
+| BI Oct RDG meeting | — | Oct 2026 date NOT CONFIRMED | Carry held 5.75%; dovish-continuity transmission Day-20; next FOMC Oct 29 T+15 external anchor |
+
+### Watchlist Scan — All 50 Tickers (crisis-track engagement gate ACTIVATED Hard Rule pre-blocks regardless of score; DQG Day-156 structural FAIL per-ticker price marks NOT CLUSTER-CONVERGED)
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | ~9,400-9,675 carry (undated) | PENDING | 6 | Defensive-quality anchor PBV 2.76x PER 12.85x; Thu top-net-buy signal continuity carry | SKIP (crisis-track + DQG) |
+| 2 | BBRI | Banking | ~4,050 Aug carry (undated) | PENDING | 7 | H1 +17.5% YoY Rp 31.18T; PBV 1.48x; Thu foreign top-net-buy signal | SKIP (crisis-track + DQG) |
+| 3 | BMRI | Banking | ~5,675 Dec 2024 carry | PENDING | 6 | PBV 1.34x; H1 Rp 30.4T +24.4% YoY; Q3 top net-sell IDR 2.9T headwind | SKIP (crisis-track + DQG) |
+| 4 | BBNI | Banking | PENDING | PENDING | 5 | NIM compression carry; no fresh catalyst | WATCH (crisis-track + DQG) |
+| 5 | BNGA | Banking | PENDING | PENDING | 4 | Rate transmission lag; smaller-bank | WATCH (crisis-track + DQG) |
+| 6 | NISP | Banking | PENDING | PENDING | 4 | Rate transmission lag | WATCH (crisis-track + DQG) |
+| 7 | BBTN | Banking | PENDING | PENDING | 3 | Mortgage/property-rate-sensitive weak | WATCH (crisis-track + DQG) |
+| 8 | ADRO | Coal | PENDING | PENDING | 2 | Sector EXITED 2-strike May; Newcastle $140-144 Day-31 persistent | NO-FLY (sector exit) |
+| 9 | ITMG | Coal | PENDING | PENDING | 2 | Sector EXITED 2-strike May | NO-FLY (sector exit) |
+| 10 | PTBA | Coal | PENDING | PENDING | 2 | Sector EXITED 2-strike May | NO-FLY (sector exit) |
+| 11 | BUMI | Coal | PENDING | PENDING | 2 | Sector EXITED | NO-FLY (sector exit) |
+| 12 | HRUM | Coal | PENDING | PENDING | 2 | Sector EXITED | NO-FLY (sector exit) |
+| 13 | MEDC | Energy | PENDING | PENDING | 4 | Brent partial-fade; oil-levered softening | WATCH (crisis-track + DQG) |
+| 14 | PGAS | Gas | PENDING | PENDING | 4 | Gas-regulated; dividend carry | WATCH (crisis-track + DQG) |
+| 15 | ANTM | Nickel | PENDING | PENDING | 5 | Gold-production target 935kg; ANTM/TINS Q3 foreign-inflow lead | WATCH (crisis-track + DQG) |
+| 16 | INCO | Nickel | PENDING | PENDING | 4 | LME Oct fwd RE-FIRMING; royalty hike exposure | WATCH (crisis-track + DQG) |
+| 17 | MDKA | Nickel | PENDING | PENDING | 4 | Gold-copper levered; LME nickel RE-FIRMING partial | WATCH (crisis-track + DQG) |
+| 18 | NCKL | Nickel | PENDING | PENDING | 4 | LME nickel partial recovery | WATCH (crisis-track + DQG) |
+| 19 | MBMA | Nickel | PENDING | PENDING | 4 | Smaller-cap nickel | WATCH (crisis-track + DQG) |
+| 20 | TINS | Metals | PENDING | PENDING | 5 | ANTM/TINS Q3 foreign-inflow lead; tin firmness | WATCH (crisis-track + DQG) |
+| 21 | UNVR | Consumer | PENDING | PENDING | 7 | Brent Day-15 partial-fade RE-ARMS COGS-relief; defensive-quality deep; H1 laba +37.7% YoY | SKIP (crisis-track + DQG) |
+| 22 | ICBP | Consumer | PENDING | PENDING | 7 | Q2 core +50.6% YoY beat carry; BRI Danareksa target Rp10,600; Brent fade | SKIP (crisis-track + DQG) |
+| 23 | INDF | Consumer | PENDING | PENDING | 7 | ICBP parent; sole YTD net-inflow; Brent fade carry | SKIP (crisis-track + DQG) |
+| 24 | MYOR | Consumer | PENDING | PENDING | 6 | Q2 +109.3% YoY projected; BRI Danareksa target Rp2,500; input-cost moderation | SKIP (crisis-track + DQG) |
+| 25 | SIDO | Consumer | PENDING | PENDING | 5 | Herbal-defensive; dividend | WATCH (crisis-track + DQG) |
+| 26 | TLKM | Telco | PENDING | PENDING | 5 | TLKM EGM T+14 post-formal-filing; Mirae target TLKM Rp4,300; spectrum auction win Rp1.2T | WATCH (crisis-track + DQG) |
+| 27 | EXCL | Telco | PENDING | PENDING | 5 | Mirae top-pick target Rp4,300; spectrum auction Rp1.3T; +14.9% recent rally undated | WATCH (crisis-track + DQG) |
+| 28 | ISAT | Telco | PENDING | PENDING | 4 | Mirae target Rp12,500; spectrum Rp900bn; +11.9% recent rally undated | WATCH (crisis-track + DQG) |
+| 29 | MTEL | Tower | PENDING | PENDING | 4 | Tower-rev defensive | WATCH (crisis-track + DQG) |
+| 30 | TOWR | Tower | PENDING | PENDING | 4 | Tower-rev defensive | WATCH (crisis-track + DQG) |
+| 31 | BSDE | Property | PENDING | PENDING | 3 | IDR 18,069 Day-8+ rate-sensitive weak | WATCH (crisis-track + DQG) |
+| 32 | CTRA | Property | PENDING | PENDING | 3 | IDR rate-sensitive weak | WATCH (crisis-track + DQG) |
+| 33 | SMRA | Property | PENDING | PENDING | 3 | IDR rate-sensitive weak | WATCH (crisis-track + DQG) |
+| 34 | PWON | Property | PENDING | PENDING | 3 | IDR rate-sensitive weak | WATCH (crisis-track + DQG) |
+| 35 | GOTO | Tech | ~Rp30 Fri Oct 9 Fortune IDN carry | PENDING | 4 | **EGM T-DAY TODAY** — 32.18B treasury cancel + Catherine resign; attendance capped 80; binary vote outcome; BEI Rp1 rule Day-15 overhang; Thu Oct 1 ARB Rp28 scar | WATCH (crisis-track + DQG + T-DAY binary) |
+| 36 | BUKA | Tech | PENDING | PENDING | 3 | Tech-sector pressure; BEI Rp1 rule Day-15 | WATCH (crisis-track + DQG) |
+| 37 | EMTK | Tech/Media | PENDING | PENDING | 3 | Media/tech pressure | WATCH (crisis-track + DQG) |
+| 38 | ASII | Auto/Industrial | PENDING | PENDING | 4 | ASII Q3 heavy foreign net-sell; auto-sector weak | WATCH (crisis-track + DQG) |
+| 39 | UNTR | Heavy Equipment | PENDING | PENDING | 4 | Coal-levered subsidiary drag | WATCH (crisis-track + DQG) |
+| 40 | AKRA | Distribution | PENDING | PENDING | 4 | Fuel distribution; Brent-fade margin partial | WATCH (crisis-track + DQG) |
+| 41 | AALI | Plantation | PENDING | PENDING | 3 | CPO 8wk-low Day-20; MPOB release absorption continuing | WATCH (crisis-track + DQG) |
+| 42 | LSIP | Plantation | PENDING | PENDING | 3 | CPO 8wk-low Day-20; MPOB release absorption continuing | WATCH (crisis-track + DQG) |
+| 43 | JSMR | Infrastructure | PENDING | PENDING | 3 | SOE/govt-spending uncertainty | WATCH (crisis-track + DQG) |
+| 44 | WSKT | Construction | PENDING | PENDING | 2 | Debt-restructuring overhang | WATCH (crisis-track + DQG) |
+| 45 | PTPP | Construction | PENDING | PENDING | 3 | Cabinet-reshuffle Day-12 absorption | WATCH (crisis-track + DQG) |
+| 46 | ADHI | Construction | PENDING | PENDING | 3 | SOE infra; reshuffle absorption | WATCH (crisis-track + DQG) |
+| 47 | KLBF | Healthcare | PENDING | PENDING | 3 | Hard-cut Jul 6 -21.16% scar; buyback window 17 Sep-17 Dec active | WATCH (crisis-track + DQG) |
+| 48 | MIKA | Healthcare | PENDING | PENDING | 4 | Healthcare defensive dividend | WATCH (crisis-track + DQG) |
+| 49 | SMGR | Cement | PENDING | PENDING | 3 | SOE cement; construction demand soft | WATCH (crisis-track + DQG) |
+| 50 | INTP | Cement | PENDING | PENDING | 3 | Private cement; construction demand soft | WATCH (crisis-track + DQG) |
+
+**Candidates scoring ≥6 (crisis-track engagement gate ACTIVATED pre-blocks ALL regardless of score — mandatory SKIP under Hard Rule):**
+- BBRI 7 (Banking) — H1 +17.5% YoY Rp 31.18T; PBV 1.48x; foreign flow signal fragile under BMRI Q3 lead-sell
+- UNVR 7 (Consumer) — Brent Day-15 partial-fade RE-ARMS COGS-relief; defensive-quality anchor; H1 laba +37.7% YoY
+- ICBP 7 (Consumer) — Q2 core +50.6% YoY beat; BRI Danareksa target Rp10,600; Brent fade carry
+- INDF 7 (Consumer) — ICBP parent; sole YTD net-inflow; Brent fade carry
+- BBCA 6 (Banking) — Defensive-quality anchor PBV 2.76x PER 12.85x; Thu top-net-buy signal
+- BMRI 6 (Banking) — PBV 1.34x; H1 Rp 30.4T +24.4% YoY (Q3 top net-sell IDR 2.9T partial-offset)
+- MYOR 6 (Consumer) — Q2 +109.3% YoY projected; BRI Danareksa target Rp2,500; input-cost moderation
+
+### Top Candidates (score ≥6, deep-dive required — ALL blocked by crisis-track engagement gate; no new entries)
+
+#### Pre-block rationale (all 7 candidates)
+
+Per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (codified 2026-07-17): IDR/USD sustained close ≥18,050 for 2+ consecutive sessions → gate ACTIVATED → NO new BUY entries regardless of ticker fundamentals or 15-check buy-side gate outcome. Current state: IDR 18,069 Fri Oct 9 Jisdor Day-8+ sustained ≥18,050 well beyond 2-session threshold. Gate scoring 0.75-1.10/5 vs 5-criterion de-activation requirement = 3.90-4.25/5 gap BINDING. All 7 candidates remain in standby state pending gate DE-ACTIVATION (all 5 criteria concurrent: IDR <17,750 3-of-3 sustained; multi-source cluster ≤4%; MSCI accessibility overhang; foreign-flow 2+ net-buy sessions; R:R ≥2:1 achievable).
+
+Additionally: DQG Day-156 structural FAIL (yfinance 403, GoAPI blocked, per-ticker cluster NOT CONVERGED) = independent pre-block overlay. Mechanically vacuous entries regardless of crisis-track status.
+
+### Held Position Updates
+
+_(none — book 100% cash since Mon Jul 6 KLBF hard-cut Day 89; 26th consecutive zero-trade week Day 3 OPEN)_
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 87 (Wk 26 Day 3 OPEN) — GOTO EGM T-DAY binary event today**
+- Reasoning: Crisis-track engagement gate ACTIVATED persists at 0.75-1.10/5 scoring; marginal softening of criterion (d) via Fri light foreign-sell + BBCA/GOTO Thu top-buy insufficient for DE-ACTIVATION. Gate DE-ACTIVATION requires 5 concurrent criteria; current state only 1-2 marginally met. IDR 18,069 Day-8+ near-18,000 band is the binding constraint; a sustained break <17,750 3-of-3 sessions is the first unlock prerequisite. 2-day IHSG backlog unprecedented since Wk 25 3-day backlog.
+- Position sizing adjustment: zero (100% cash maintained per crisis-track pre-block; no new entries authorised).
+
+### Flagged Risks
+
+- **Crisis-track gate persistence Day-8+** — IDR 18,069 near-18,000 band carrying 8+ sessions; any Wed fresh-print >18,100 would escalate to Stage 5 CONFIRMED-HARD-ENGAGED continuation
+- **DQG-Day-156 structural outage** — yfinance 403-blocked 156 consecutive sessions since Apr 21; GoAPI unset; broker.sh paper-mode-only; per-ticker cluster NOT CONVERGED pre-blocks all buy-side gate 15-check procedurally regardless of crisis-track
+- **GOTO EGM T-DAY TODAY binary** — treasury share cancel + Catherine resignation vote; attendance capped 80; result disclosure Thu/Fri Oct 15-16 T+1/T+2; no held exposure (vacuous)
+- **2-day IHSG backlog UNPRECEDENTED** — Mon Oct 12 + Tue Oct 13 closes STILL NOT SURFACED at Wed 07:00 WIB fire via WebSearch; worst accumulated backlog since Wk 25 3-day Wed-Thu-Fri episode (which also required Mon Oct 12 reconciliation attempt — also PENDING; now potentially 5-day accumulated backlog pending Wed sesi I surfacing); 34th+ cumulative DQG-sesi-II-lag occurrence
+- **MPOB CPO release Mon absorption continuing** — direction mixed for AALI/LSIP; vacuous (no exposure)
+- **Brent Hormuz Day-15 PARTIAL FADE carry** — $91.93 vs Hormuz-escalation band $97-$102; COGS-relief RE-ARMING continuation for consumer-staples (vacuous; crisis-track pre-blocks)
+- **LME nickel Oct fwd $17,294 FADE-RE-FIRMING** — mining sub-pattern bind-wideness marginal softening; ANTM/TINS Q3 foreign-inflow lead signal; vacuous
+- **Cabinet reshuffle Day-12 absorption** — >1-week+5 milestone cleared; new economic team continuity verification continues
+- **26th consecutive zero-trade week Day 3 OPEN** — ~104+ cumulative unused candidate-day slots trial-to-date
+- **KLBF buyback window 17 Sep-17 Dec 2026 active** — buyback bid floor support active
+
+### Plan for /market-open (Wed 2026-10-14)
+
+- [ ] **09:00 WIB PRE-OPEN** — confirm IHSG Mon Oct 12 + Tue Oct 13 close reconciliation via Wed sesi I multi-source cluster (2-day backlog) + Wed fresh Jisdor IDR print vs 18,069 Fri Jisdor Day-8+ carry + Brent Wed Asia-session fresh print vs $91.93 Hormuz Day-15 partial-fade carry + GOTO EGM T-DAY pre-event price action
+- [ ] **09:15 WIB OPEN** — **NO TRADES**. 7 candidates ≥6/10 (BBRI 7; UNVR, ICBP, INDF 7; BBCA, BMRI, MYOR 6) all pre-blocked per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 + DQG-Day-156 structural FAIL. **26th consecutive zero-trade week Day 3 OPEN**.
+- [ ] **11:30 MIDDAY SCAN** — 0 positions to evaluate; vacuous scan; monitor GOTO EGM T-DAY proceedings + MPOB CPO absorption + Brent-Hormuz Day-15 direction + IDR Wed fresh Jisdor print + China mainland Wk-complete+Day-7
+- [ ] **13:30-15:15 WIB** — monitor IHSG Wed sesi II direction + IDR direction Day-12 reshuffle-absorption + foreign-flow Wed cluster post-Mon/Tue backlog surfacing; VIX / US-10Y / Brent / LME-nickel / CPO fresh prints via multi-source WebSearch
+- [ ] **15:15 EOD** — Day 130 session; Wk 26 Day 3 CLOSE; Day-87 no-position; cumulative-alpha update vs Mon+Tue+Wed-reconciled IHSG anchor; portfolio 0.00% daily
+
+### Headlines
+- [GOTO caps EGM attendance at 80 for two key agenda items](https://www.idnfinancials.com/news/69247/goto-caps-egm-attendance-at-80-for-two-key-agenda-items) — url
+- [IHSG Menguat 1,04% ke Level 6.093 (Jumat, 9 Oktober 2026)](https://databoks.katadata.co.id/pasar/statistik/6ac8b8ec0f2bc/ihsg-menguat-104-ke-level-6093-jumat-9-oktober-2026) — url
+- [Foreign investors sold these stocks over the past three months (BMRI top net-sell IDR 2.9T; ANTM/TINS led inflows)](https://www.idnfinancials.com/news/69984/foreign-investors-sold-these-stocks-over-the-past-three-months) — url
+- [Mirae Asset: EXCL Jadi Top Pick Target Rp 4,300 (sektor telko masih murah)](https://investortrust.id/market/110865/mirae-asset-saham-telekomunikasi-masih-murah-excl-jadi-top-pick-dengan-target-rp4300) — url
+- [MPOB Aug 2026 stocks 2.82M tonnes +7.5%; CPO stocks +15.2% to 1.64M tonnes (Bernama)](https://bernama.com/en/market/news.php?id=2606233) — url
+- [BI Holds Benchmark Rate at 5.75 Percent Amid Rupiah Pressure (RRI)](https://rri.co.id/en/business/2664084/bi-holds-bi-rate-at-575-percent-due-to-pressure-on-rupiah-and-global-uncertainty) — url
+- [How major US stock indexes fared Friday 10/9/2026 (S&P 7,811.54 +0.6%)](https://www.lanacion.com.ar/usa/how-major-us-stock-indexes-fared-friday-1092026-nid09102026/) — url
+
+---
