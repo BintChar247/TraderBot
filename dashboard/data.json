@@ -35345,6 +35345,349 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 7/10 \u2014 H1 +17.5% YoY Rp 31.18T; PBV 1.48x",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "H1 +17.5% YoY Rp 31.18T; PBV 1.48x"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 7/10 \u2014 Brent Day-15 partial-fade RE-ARMS COGS-relief; H1 laba +37.7% YoY",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Brent Day-15 partial-fade RE-ARMS COGS-relief; H1 laba +37.7% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 7/10 \u2014 Q2 core +50.6% YoY; BRI Danareksa target Rp10,600; Brent fade",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 core +50.6% YoY; BRI Danareksa target Rp10,600; Brent fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 7/10 \u2014 ICBP parent; sole YTD net-inflow; Brent fade",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "ICBP parent; sole YTD net-inflow; Brent fade"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 6/10 \u2014 Defensive anchor PBV 2.76x PER 12.85x; Thu top-net-buy",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Defensive anchor PBV 2.76x PER 12.85x; Thu top-net-buy"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 6/10 \u2014 PBV 1.34x; H1 Rp 30.4T +24.4% YoY; Q3 top net-sell IDR 2.9T headwind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "PBV 1.34x; H1 Rp 30.4T +24.4% YoY; Q3 top net-sell IDR 2.9T headwind"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-14",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 6/10 \u2014 Q2 +109.3% YoY projected; BRI Danareksa Rp2,500; input-cost moderation",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q2 +109.3% YoY projected; BRI Danareksa Rp2,500; input-cost moderation"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION Day-87; IDR 18,069 Day-8+ near-18,000"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED 0.75-1.10/5 (binding \u226518,050 Day-8+)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (crisis-track pre-block + DQG-Day-156 structural FAIL)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG Day-156 \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate ACTIVATED (IDR 18,069 \u226518,050 Day-8+). DQG-Day-156 structural outage prevents per-ticker cluster convergence; mechanically vacuous regardless of fundamentals.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
     }
   ],
   "stats": {
@@ -35400,36 +35743,6 @@
     "updated": "2026-10-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-07T00:14:30Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 16 Day 5 Fri pre-market. 50 tickers scanned; 0 scored >=6. MEDC downgraded 3->2 post-Q2 T+7 disclosure DOWNSIDE (NI $67M vs Q1 ref ~$75M). TLKM 5/10 mixed EBITDA-BEAT vs -5% margin-B2C-fade Day 3 pending. IDR sub-18K Day 2 confirmed 17,897 (-140 IDR firming); criterion (a) DE-ARM material acceleration 147 IDR from sub-17,750 target. Destry frontrunner BI Governor dovish continuity. Foreign flow Tue+Wed+Thu unresolved Day 3. Crisis-track gate ACTIVATED remains binding; 0 candidates actionable. 16th consecutive 0/3-BUY-slot week locks Wk 16 zero-trade week.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "0 candidates scored >=6"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "downgraded 3->2 post-Q2 T+7 disclosure DOWNSIDE NI $67M vs Q1 ref ~$75M"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "5/10 mixed EBITDA-BEAT vs -5% margin-B2C-fade Day 3 pending"
-        },
-        {
-          "type": "macro",
-          "detail": "IDR sub-18K Day 2 confirmed 17,897 firming -140 IDR overnight"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-07T02:19:19Z",
       "routine": "market-open",
@@ -40559,6 +40872,61 @@
         {
           "type": "risk",
           "detail": "UNPRECEDENTED 2-day IHSG backlog Mon Oct 12 + Tue Oct 13 both PENDING at 07:00 WIB fire"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-14T02:17:16Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 26 Day 3 OPEN \u2014 26th consecutive zero-trade week Day 3. NO TRADES. 7 candidates \u22656/10 (BBRI/UNVR/ICBP/INDF/BBCA/BMRI/MYOR) all pre-blocked per crisis-track engagement gate ACTIVATED ~0.75-1.10/5 (IDR 18,069 Day-8+ \u226518,050) + DQG-Day-156 structural FAIL (yfinance+GoAPI blocked 156 sessions). GOTO EGM T-DAY proceedings today (vacuous \u2014 no exposure). Portfolio 100% cash IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED binding \u2014 0% new entries authorised"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-156 structural outage \u2014 yfinance+GoAPI blocked 156 consecutive sessions"
+        },
+        {
+          "type": "warning",
+          "detail": "2-day IHSG backlog UNPRECEDENTED \u2014 Mon Oct 12 + Tue Oct 13 closes not surfaced"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 7 \u2014 pre-block crisis-track + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "score 7 \u2014 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "score 7 \u2014 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "score 7 \u2014 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6 \u2014 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 6 \u2014 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "score 6 \u2014 pre-block"
         }
       ]
     }
