@@ -35744,26 +35744,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-07T02:19:19Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 16 Day 5. 0 tickers scored \u22656/10; crisis-track engagement gate ACTIVATED (0% new entries binding). MEDC downgraded 3\u21922 post-Q2 T+7 disclosure DOWNSIDE ($67M vs Q1 $75M ref). 16th consecutive 0/3 BUY-slot week LOCKED. Book 100% cash IDR 9.72B Day 28.",
-      "actions": [
-        {
-          "type": "warning",
-          "detail": "Crisis-track engagement gate ACTIVATED Wk 16 Day 5; re-entry gate ~1.0/5 (+0.25pp via IDR sub-18K Day 2)"
-        },
-        {
-          "type": "warning",
-          "detail": "MEDC Q2 T+7 DISCLOSED DOWNSIDE $67M vs Q1 baseline $75M ref = MEDC 3\u21922 delist candidate for Wk 17+"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed (proxy 403 = Data Quality Gate Day 97 pattern); stdout fallback logged"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-07T04:35:44Z",
       "routine": "midday",
       "status": "success",
@@ -40929,6 +40909,12 @@
           "detail": "score 6 \u2014 pre-block"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-14T04:44:09Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions scanned; no hard cuts, no stop tightenings, no thesis-break exits; 26th consecutive zero-trade week Day 3 MIDDAY; crisis-track gate ACTIVATED + DQG Day-156 outage persist (both mechanically vacuous for 0-position book)"
     }
   ],
   "exposure": {
