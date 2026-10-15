@@ -35750,6 +35750,349 @@
         null,
         false
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 7/10 \u2014 H1 +17.5% YoY Rp 31.18T; PBV 1.48x; BI RDG Oct 20-21 T-5/6 potential rate-cut catalyst",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 T-5/6 approach + GOTO EGM T+1 disclosure day"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 6/10 \u2014 Defensive-quality anchor PBV 2.76x PER 12.85x; Fri top asing-buy signal persistence",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking score 6/10 \u2014 PBV 1.34x; H1 Rp 30.4T +24.4% YoY (Q3 top net-sell IDR 2.9T partial-offset)",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "UNVR",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 6/10 \u2014 Brent partial-fade COGS-relief partial-offset vs BRI Danareksa input-cost PEAK Q4-26 to Q1-27",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 6/10 \u2014 Q2 core +50.6% YoY beat carry; input-cost peak bind Q4-Q1",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "INDF",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 6/10 \u2014 ICBP parent; sole YTD net-inflow; input-cost peak bind Q4-Q1",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-15",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Consumer score 6/10 \u2014 Q2 +109.3% YoY projected; gula-cost headwind Q4 bind",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "sector thesis carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88; crisis-track gate ACTIVATED 0.75-1.10/5"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR 18,069 Day-9+ sustained \u226518,050) + DQG Day-157 structural FAIL (cluster NOT CONVERGED)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised)"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate pre-blocks all entries per Hard Rule regardless of 15-check outcome"
+        }
+      ],
+      "reasoning": "SKIP mandatory per Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR 18,069 Day-9+ \u226518,050 sustained 2+ sessions). Gate scoring 0.75-1.10/5 vs required 5/5 criterion concurrent de-activation = 3.90-4.25/5 gap BINDING. DQG Day-157 structural FAIL overlays independent pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
     }
   ],
   "stats": {
@@ -35806,41 +36149,6 @@
     "updated": "2026-10-13"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-10T00:16:28Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 17 Day 1 pre-market: 50 tickers scanned. 5 candidates \u22656/10 FIRST TIME IN 16 WEEKS: MYOR(7) ISAT(7-CHASE-RISK) BBRI(6) INDF(6) CTRA(6). All BLOCKED by crisis-track gate ACTIVATED + DQG Day 98. Re-entry criteria ~1.5/5 (+0.5pp vs Wk 16 close via NFP cold + IDR sub-17,800 + foreign flow 1-of-2). HOLD 100% CASH.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "5 candidates scored \u22656 (first time in 16 weeks)"
-        },
-        {
-          "type": "research",
-          "ticker": "MYOR",
-          "detail": "score 7/10 \u2014 cleanest H1 consumer +5.6% defensive-fit"
-        },
-        {
-          "type": "research",
-          "ticker": "ISAT",
-          "detail": "score 7/10 \u2014 Q2 NI +175% + Fiber deal Fri +16.32% CHASE RISK"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 6/10 \u2014 foreign net-buy Rp 559B 5-day potential criterion (d) inflection"
-        },
-        {
-          "type": "gate",
-          "detail": "crisis-track engagement gate ACTIVATED = 0% new entries; 5-criteria re-entry scoring ~1.5/5"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-10T02:17:50Z",
       "routine": "market-open",
@@ -41005,6 +41313,57 @@
           "type": "research",
           "ticker": "ANTM",
           "detail": "score 4/10 \u2193 \u2014 LME nickel $15,547 Oct 8 (-7.88% MoM) fresh deterioration"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-15T02:18:46Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 26th consecutive zero-trade week Day 4 OPEN. 7 candidates (BBRI/BBCA/BMRI/UNVR/ICBP/INDF/MYOR) all pre-blocked per crisis-track engagement gate ACTIVATED (IDR 18,069 Day-9+ \u226518,050 sustained; gate 0.75-1.10/5 vs 5/5 required = 3.90-4.25/5 BINDING) + DQG Day-157 structural FAIL (yfinance 403; cluster NOT CONVERGED).",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate + DQG"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNVR",
+          "detail": "crisis-track gate + DQG; input-cost peak Q4-Q1"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "crisis-track gate + DQG; input-cost peak Q4-Q1"
+        },
+        {
+          "type": "skip",
+          "ticker": "INDF",
+          "detail": "crisis-track gate + DQG; input-cost peak Q4-Q1"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "crisis-track gate + DQG; gula-cost headwind"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram notification channel 403; stdout fallback used"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG Day-157 outage persists; yfinance blocked 157 consecutive sessions"
         }
       ]
     }
