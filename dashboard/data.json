@@ -36150,43 +36150,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-10T02:17:50Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Wk 17 Day 1 \u2014 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA \u2014 first \u22656 pool in 16 wks) ALL blocked by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED (5-criteria re-entry gate ~1.5/5 confirming; +0.5pp improvement via NFP-cold + IDR sub-17,800 DE-ARM Day 5 + foreign flow 1-of-2 partial). ISAT additionally fails Gate 9 (chased +16.32% Fri). DQG Day 98 blocks cluster convergence for all. 17th consecutive 0/3 BUY-slot week begins.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "score 7 SKIP crisis-track gate ACTIVATED + DQG Day 98"
-        },
-        {
-          "type": "skip",
-          "ticker": "ISAT",
-          "detail": "score 7 CHASE-RISK SKIP Gate 9 fail post-Fri +16.32% + crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "score 6 SKIP crisis-track gate + criterion (d) needs 2-of-2 confirmation"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "score 6 SKIP crisis-track gate + DQG Day 98"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6 SKIP crisis-track gate + DQG Day 98"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 98 outage persists (yfinance + GoAPI blocked); WebSearch multi-source override operational for macro anchors only"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-10T04:37:12Z",
       "routine": "midday",
       "status": "success",
@@ -41366,6 +41329,12 @@
           "detail": "DQG Day-157 outage persists; yfinance blocked 157 consecutive sessions"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-15T04:42:59Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. Nothing to cut, tighten, or exit."
     }
   ],
   "exposure": {
