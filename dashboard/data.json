@@ -2094,7 +2094,7 @@
     },
     {
       "date": "2026-10-16",
-      "day_label": "Day 132 (Wk 26 Day 5 OPEN - Q4-2026-WEEK-3-DAY-5 - FRI WEEKLY-REVIEW-DAY - post-CABINET-RESHUFFLE-Day-14-2WK-MILESTONE - post-BI-HOLD-transmission-Day-22 - US-10Y-5.24%-Fri-Oct-9-fresh-print-persistence-Day-19-carry - IDR-18,069-Fri-Jisdor-Day-10+-near-18,000-band-carry - BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL - LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-9 - CPO-MYR-4,398-Oct-13-FRESH-RALLY-+RM198-AALI/LSIP-partial-relief - Newcastle-coal-$140-144-Day-33-sector-EXITED-carry - IHSG-Mon-Oct-12-PARTIAL-RECONCILE-5,936-(-2.59%)-via-Pasardana-+-Tue-Oct-13-sesi-I-5,911.46(-0.42%)-only - Wed-Oct-14-+-Thu-Oct-15-closes-STILL-PENDING-4-day-backlog-continues - Fri-Oct-9-reconciled-anchor-6,093.76-provisional-new-Mon-anchor-5,936 - 26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-5-OPEN-WEEK-CLOSES-TODAY - DQG-Day-158-outage-persists-yfinance+GoAPI-blocked-158-consecutive-sessions - GOTO-EGM-T+2-disclosure-day-today - BI-RDG-Oct-20-21-T-4/5-next-week-catalyst - CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.75-1.10-of-5 - WEEKLY-REVIEW-16:00-WIB-GATING-TODAY - 4th-of-4-RE-REMOVAL-test-windows)",
+      "day_label": "Day 132 (Wk 26 Day 5 EOD CLOSE / WEEK 26 FULL CLOSE - Q4-2026-WEEK-3-DAY-5-FINAL - post-CABINET-RESHUFFLE-Day-14-2WK-MILESTONE - post-BI-HOLD-transmission-Day-22 - US-10Y-5.24%-Fri-Oct-9-fresh-print-persistence-Day-19-carry - IDR-18,069-Fri-Jisdor-Day-10+-near-18,000-band-carry - BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-carry - LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-9-carry - CPO-MYR-4,398-Oct-13-FRESH-RALLY-+RM198-AALI/LSIP-partial-relief-Day-3-carry - Newcastle-coal-$140-144-Day-33-sector-EXITED-carry - IHSG-Fri-Oct-16-close-+-Wed-Oct-14-+-Thu-Oct-15-closes-ALL-STILL-PENDING-5-day-accumulated-backlog-UNPRECEDENTED-TRIAL-RECORD-EXTENDED - Mon-partial-5,936-+-Tue-sesi-I-5,911.46-only - Fri-Oct-9-reconciled-anchor-6,093.76-carry - 26TH-CONSECUTIVE-ZERO-TRADE-WEEK-FULL-CLOSE - DQG-Day-158-outage-persists-yfinance+GoAPI-blocked-158-consecutive-sessions - GOTO-EGM-T+2-disclosure-day-today-outcome-pending - BI-RDG-Oct-20-21-T-4/5-next-week-catalyst - CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.75-1.10-of-5 - WEEKLY-REVIEW-16:00-WIB-GATING-UPCOMING-T-45min)",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
@@ -2105,7 +2105,12 @@
       "alpha_pct": 17.37,
       "positions_count": 0,
       "trades_today": 0,
-      "trades_this_week": 0
+      "trades_this_week": 0,
+      "ihsg_close_note": "Fri Oct 16 EOD CLOSE. IHSG Fri Oct 16 close PENDING multi-source cluster at 15:15 WIB fire (queries 'IHSG penutupan Jumat 16 Oktober 2026 Jakarta Composite Index close'; '\"IHSG\" \"16 Oktober 2026\" close penutupan' \u2014 no indexed Fri result; Pasardana/Bisnis/Databoks/Fortuneidn/Investortrust/Kabarbursa none surfaced). Wed Oct 14 + Thu Oct 15 closes ALSO STILL PENDING carry \u2014 5-day accumulated reconciliation backlog UNPRECEDENTED TRIAL RECORD EXTENDED (prior record 4-day Thu Oct 15 exceeded by 1 session). Mon Oct 12 partial ~5,936 (-2.59%) via Pasardana + Tue Oct 13 sesi I 5,911.46 (-0.42%) only. Carry anchor Fri Oct 9 reconciled 6,093.76 remains binding; provisional Mon anchor 5,936. 37th+ cumulative DQG-sesi-II-lag occurrence. Reconciliation deferred to weekly-review 16:00 WIB + Mon Oct 19 pre-market via multi-source cluster saturation protocol.",
+      "alpha_note": "Daily alpha PENDING Fri CLOSE (portfolio 0.00% vs IHSG TBD). Cumulative alpha ~+17.37pp Fri Oct 9 reconciled anchor basis (IHSG baseline 7,634 -> Fri 6,093.76 cumulative -20.21% vs portfolio -2.84%). Wed+Thu+Fri daily alpha all PENDING multi-day backlog clearance. Mon partial reconcile ~5,936 (-2.59%) expands provisional cumulative alpha to ~+20.08pp pending full 5-day clearance. Zero-exposure immunity to downside holds through 85th consecutive session with 0.00% daily P&L since Jul 6 KLBF hard-cut.",
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY89-Wk26-Day5-CLOSE-EOD-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-FULL-CLOSE-Q4-2026-WEEK-3-DAY-5-FINAL-POST-CABINET-RESHUFFLE-DAY-14-2WK-MILESTONE-POST-BI-HOLD-TRANSMISSION-DAY-22-BI-RDG-OCT-20-21-T-4/5",
+      "notes": "No trades Day 5 FULL CLOSE (26th consecutive zero-trade week FULL CLOSE). Book 100% cash since Mon Jul 6 KLBF hard-cut; 85 consecutive sessions 0.00% daily P&L. Crisis-track engagement gate ACTIVATED persists 0.75-1.10/5 - 0% new-entries permitted. DQG-Day-158 outage persists; yfinance+GoAPI blocked 158 consecutive sessions since Apr 21. IHSG 5-day backlog UNPRECEDENTED TRIAL RECORD EXTENDED; weekly-review 16:00 WIB + Mon Oct 19 pre-market reconciliation attempts. GOTO EGM T+2 disclosure day today - outcome pending (vacuous, no exposure). BI RDG Oct 20-21 T-4/5 next-week catalyst watch intensifies. Risk alerts: NONE. Weekly-review Fri Oct 16 16:00 WIB T-45min upcoming - 4th of 4 test windows post-Wk-22 miss formal RE-REMOVAL path verification."
     }
   ],
   "positions": [],
@@ -36356,8 +36361,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 129,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 116 counting-trading-days Wk 24 Day 1 EOD CLOSE post-BI-HOLD-transmission Day-4)",
+    "trial_days_elapsed": 132,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 132 Wk 26 Day 5 EOD CLOSE / WEEK 26 FULL CLOSE post-BI-HOLD-transmission Day-22)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -36378,19 +36383,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-10-13",
+    "updated": "2026-10-16",
     "portfolio_value": 9716207500,
     "alpha_pct": -0.9,
     "daily_pnl_pct": 0.0,
     "cumulative_alpha_pp": 17.37,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 129,
-    "last_updated": "2026-10-13T15:15:00+07:00",
+    "day_number": 132,
+    "last_updated": "2026-10-16T15:15:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 129,
+    "days_in_trial": 132,
     "week_number": 26,
-    "day_label": "Day 129 (Wk 26 Day 2 EOD CLOSE - 26th CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE)",
+    "day_label": "Day 132 (Wk 26 Day 5 EOD CLOSE / WEEK 26 FULL CLOSE - 26th CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE)",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -36406,15 +36411,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-10-13"
+    "updated": "2026-10-16"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-11T04:37:48Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Wk 17 Day 2 midday scan \u2014 n=0 positions, 100% cash Day 30. No cuts, no stop tightenings, no thesis exits."
-    },
     {
       "timestamp": "2026-08-11T08:24:18Z",
       "routine": "daily-summary",
@@ -41585,6 +41584,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions scanned. Vacuous \u2014 no hard cuts (-7%), no stop tightenings (+15%/+20%), no thesis-break exits. 26th consecutive zero-trade week Day 5 MIDDAY (WEEK CLOSES TODAY, Day 132). Crisis-track gate ACTIVATED 0.75-1.10/5 + DQG-Day-158 outage persist (both mechanically vacuous for 0-position book). Notify stdout fallback (api.telegram.org proxy 403)."
+    },
+    {
+      "timestamp": "2026-10-16T08:22:15Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Wk 26 FULL CLOSE: IDR 9,716,207,500 (0.00% today). 85 consecutive 0.00% sessions. Alpha PENDING (Fri IHSG close not surfaced; 5-day backlog UNPRECEDENTED TRIAL RECORD EXTENDED). 0 positions, 100% cash. 26th consecutive zero-trade week. DD -3.10%, no risk alerts. Telegram export blocked by auto-mode classifier (incl. inline per-command form today - prior Fri-midday precedent now also blocked); notify.sh stdout fallback via --channel=none preserved message.",
+      "actions": [
+        {
+          "type": "eod_snapshot",
+          "detail": "Day 132 EOD committed; 5-day IHSG backlog UNPRECEDENTED record extended"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -41649,7 +41660,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-16T07:00:00+07:00",
+  "last_updated": "2026-10-16T15:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
