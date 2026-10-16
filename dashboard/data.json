@@ -36410,47 +36410,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-11T02:18:03Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 17 Day 2 NO TRADES \u2014 crisis-track gate ACTIVATED (~1.0/5 re-entry, -0.5pp regressed vs Day 1 via IDR reversion + Brent SNAP UP +4.95% + Destry formal nomination Mon). All 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA) blocked pre-check; ISAT also Gate-9 chase-fail post Fri +16.32%. 32nd consecutive day 100% cash; 17th consecutive 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "score 7 blocked by crisis-track gate + DQG Day 99"
-        },
-        {
-          "type": "skip",
-          "ticker": "ISAT",
-          "detail": "score 7 CHASE-RISK Gate-9 fail post Fri +16.32% + crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "score 6 blocked by crisis-track gate; criterion (d) 2-of-2 pending"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "score 6 blocked by crisis-track gate; Brent SNAP UP mild degradation"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6 blocked by crisis-track gate; VAT tailwind + Destry-nominated dovish rate-sensitivity"
-        },
-        {
-          "type": "warning",
-          "detail": "Data Quality Gate Day 99 persists (yfinance + GoAPI blocked)"
-        },
-        {
-          "type": "warning",
-          "detail": "Crisis-track engagement gate ACTIVATED persistent Wk 17 Day 2"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-11T04:37:48Z",
       "routine": "midday",
       "status": "success",
@@ -41620,6 +41579,12 @@
           "detail": "4-day IHSG backlog partial reconcile: Mon ~5,936 + Tue sesi I 5,911.46; Wed+Thu still PENDING"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-16T04:45:44Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "0 positions scanned. Vacuous \u2014 no hard cuts (-7%), no stop tightenings (+15%/+20%), no thesis-break exits. 26th consecutive zero-trade week Day 5 MIDDAY (WEEK CLOSES TODAY, Day 132). Crisis-track gate ACTIVATED 0.75-1.10/5 + DQG-Day-158 outage persist (both mechanically vacuous for 0-position book). Notify stdout fallback (api.telegram.org proxy 403)."
     }
   ],
   "exposure": {
