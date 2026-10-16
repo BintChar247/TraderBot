@@ -2091,6 +2091,21 @@
           "untr_asii_akra_catalysts": "UNTR buyback Rp2T Oct 1-Dec 31 Day-15 active + interim div Rp430/Rp1.47T pay Oct 26; ASII interim div Rp98/Rp3.89T; AKRA mgmt upgraded 15-20% YoY earnings growth guidance + interim Rp50 \u2192 UNTR/ASII/AKRA scores +1 each"
         }
       }
+    },
+    {
+      "date": "2026-10-16",
+      "day_label": "Day 132 (Wk 26 Day 5 OPEN - Q4-2026-WEEK-3-DAY-5 - FRI WEEKLY-REVIEW-DAY - post-CABINET-RESHUFFLE-Day-14-2WK-MILESTONE - post-BI-HOLD-transmission-Day-22 - US-10Y-5.24%-Fri-Oct-9-fresh-print-persistence-Day-19-carry - IDR-18,069-Fri-Jisdor-Day-10+-near-18,000-band-carry - BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL - LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-9 - CPO-MYR-4,398-Oct-13-FRESH-RALLY-+RM198-AALI/LSIP-partial-relief - Newcastle-coal-$140-144-Day-33-sector-EXITED-carry - IHSG-Mon-Oct-12-PARTIAL-RECONCILE-5,936-(-2.59%)-via-Pasardana-+-Tue-Oct-13-sesi-I-5,911.46(-0.42%)-only - Wed-Oct-14-+-Thu-Oct-15-closes-STILL-PENDING-4-day-backlog-continues - Fri-Oct-9-reconciled-anchor-6,093.76-provisional-new-Mon-anchor-5,936 - 26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-5-OPEN-WEEK-CLOSES-TODAY - DQG-Day-158-outage-persists-yfinance+GoAPI-blocked-158-consecutive-sessions - GOTO-EGM-T+2-disclosure-day-today - BI-RDG-Oct-20-21-T-4/5-next-week-catalyst - CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-persists-0.75-1.10-of-5 - WEEKLY-REVIEW-16:00-WIB-GATING-TODAY - 4th-of-4-RE-REMOVAL-test-windows)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -20.21,
+      "alpha_pct": 17.37,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -36150,18 +36165,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-10T08:28:35Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 17 Day 1: IDR 9.716B (+0.00% today, unchanged 33 sess). Alpha +0.16% vs IHSG sesi I -0.16%. Cum alpha +13.61% (+0.13pp expansion). 0 positions (Day 29 cash). 0/3 trades Wk 17 begins (17th consecutive 0-trade wk). 5 candidates \u22656/10 first-time-in-16-wks all gate-blocked.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 81 EOD snapshot committed; IHSG sesi I 6378.39 (3-source primary Disway/Infobanknews/RRI); sesi II ~6423 unconfirmed pending Wk-review reconciliation"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-11T00:13:17Z",
       "routine": "pre-market",
       "status": "success",
@@ -41345,6 +41348,39 @@
           "detail": "TELEGRAM env export denied by auto-mode credential classifier; notify.sh stdout fallback used"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-16T00:10:59Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50 tickers scanned. 5 candidates \u22656: BBRI 7, BBCA 6, BMRI 6, ICBP 6, INDF 6. UNVR+MYOR dropped 6\u21925 on Brent Hormuz RE-ESCALATION. All pre-blocked (crisis-track + DQG Day-158). 26th zero-trade week Day 5 OPEN. Weekly-review today.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "5 candidates scored \u22656 (BBRI 7; BBCA/BMRI/ICBP/INDF 6)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 7/10 \u2014 H1 +17.5% YoY Rp 31.18T; BI RDG T-4/5 catalyst"
+        },
+        {
+          "type": "research",
+          "detail": "Brent Oct 13 Hormuz RE-ESCALATION $93-106 fresh; UNVR/MYOR 6\u21925"
+        },
+        {
+          "type": "research",
+          "detail": "CPO MYR 4,398 Oct 13 +RM198 RALLY; AALI/LSIP 3\u21924"
+        },
+        {
+          "type": "research",
+          "detail": "Crisis-track gate ACTIVATED pre-blocks all; DQG Day-158 outage persists; 26th consecutive zero-trade week Day 5 OPEN"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -41409,7 +41445,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-15T08:20:20Z",
+  "last_updated": "2026-10-16T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -41419,33 +41455,60 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-15",
-    "generated_at_utc": "2026-10-15T00:09:03Z",
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 88 (Wk 26 Day 4 OPEN) \u2014 4-day accumulated IHSG EOD backlog UNPRECEDENTED trial-record",
-    "crisis_track_gate": {
-      "state": "ACTIVATED",
-      "score_vs_criteria": "0.75-1.10 / 5.00",
-      "binding_gap": "3.90-4.25 pts",
-      "unlock_prerequisite": "IDR <17,750 sustained 3-of-3 sessions is first unlock prerequisite (criterion a); all 5 criteria concurrent required for de-activation"
-    },
-    "dqg": {
-      "day": 157,
-      "state": "structural FAIL (yfinance 403, GoAPI blocked, broker.sh paper-mode-only)",
-      "backlog": "4-day IHSG EOD backlog Mon Oct 12 + Tue Oct 13 + Wed Oct 14 + Thu Oct 15 OPEN estimation \u2014 NEW TRIAL RECORD"
-    },
-    "candidates_ge_6": 7,
-    "trades_planned": 0,
-    "ihsg_anchor": "Fri Oct 9 reconciled 6,093.76",
-    "ihsg_mon_oct_12_pre_open": 6109.32,
-    "ihsg_oct_band_analyst_consensus": "5,900-6,500 (Bisnis / Kiwoom); Kabarbursa 12-16 Oct wk: 6,000-6,215 sideways band",
-    "idr_jisdor_carry": 18069,
-    "us_10y_carry": "~5.2% late-Sep high-band persistence",
-    "brent_carry": 91.93,
-    "lme_nickel_fresh_print": "$15,547/ton Oct 8 (-7.88% MoM) \u2014 SECTOR DETERIORATION",
-    "cpo_myr_carry": 4310,
-    "newcastle_coal_carry": "$140-144 Day-32 sector-EXITED",
-    "next_catalyst_binary": "GOTO EGM T+1 disclosure today (Thu Oct 15) or Fri Oct 16 T+2; BI RDG Oct 20-21 T-5/T-6 next week",
-    "notification_sent": false
+    "date": "2026-10-16",
+    "candidates_scored_ge_6": [
+      {
+        "ticker": "BBRI",
+        "score": 7,
+        "sector": "Banking",
+        "note": "H1 +17.5% YoY Rp 31.18T; PBV 1.48x; BI RDG Oct 20-21 T-4/5 potential rate-cut catalyst (unlikely)",
+        "status": "SKIP (crisis-track + DQG)"
+      },
+      {
+        "ticker": "BBCA",
+        "score": 6,
+        "sector": "Banking",
+        "note": "Defensive-quality anchor PBV 2.76x PER 12.85x; Fri Oct 9 top asing-buy signal persistence",
+        "status": "SKIP (crisis-track + DQG)"
+      },
+      {
+        "ticker": "BMRI",
+        "score": 6,
+        "sector": "Banking",
+        "note": "PBV 1.34x; H1 Rp 30.4T +24.4% YoY (Jul-Oct top net-sell IDR 2.9T partial-offset)",
+        "status": "SKIP (crisis-track + DQG)"
+      },
+      {
+        "ticker": "ICBP",
+        "score": 6,
+        "sector": "Consumer",
+        "note": "Q2 core +50.6% YoY beat; input-cost peak bind Q4-Q1; Oct 10-11 technical uptick",
+        "status": "SKIP (crisis-track + DQG)"
+      },
+      {
+        "ticker": "INDF",
+        "score": 6,
+        "sector": "Consumer",
+        "note": "ICBP parent; sole YTD net-inflow; input-cost peak bind Q4-Q1",
+        "status": "SKIP (crisis-track + DQG)"
+      }
+    ],
+    "candidates_count": 5,
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED",
+    "crisis_track_gate": "ACTIVATED",
+    "dqg_outage_day": 158,
+    "zero_trade_week": 26,
+    "zero_trade_week_day": 5,
+    "ihsg_backlog_days": 4,
+    "top_risks": [
+      "Crisis-track gate persistence Day-10+ (IDR 18,069 near-18,000 band)",
+      "DQG-Day-158 structural outage (yfinance+GoAPI blocked 158 consecutive sessions)",
+      "4-day IHSG backlog continues (Mon partial-reconcile 5,936 -2.59%; Tue sesi I 5,911.46 only; Wed-Thu PENDING)",
+      "Brent Oct 13 Hormuz RE-ESCALATION $93-106 (vs $91.93 Day-15 carry) = COGS-relief REVERSAL for UNVR/MYOR",
+      "GOTO EGM T+2 disclosure day today (vacuous \u2014 no exposure)",
+      "BI RDG Oct 20-21 T-4/5 next week dovish-hold base case; cut unlikely",
+      "Wk 26 weekly-review Fri 16:00 WIB TODAY \u2014 4th of 4 test windows RE-REMOVAL verification"
+    ]
   },
   "activity": [
     {
