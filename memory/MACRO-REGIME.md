@@ -5,6 +5,28 @@ _Updated weekly. The current regime label is the FIRST entry — always read thi
 
 ---
 
+## Current Regime (as of 2026-10-16)
+
+**Label:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY89 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day89 DE-ARM-CANDIDATE-Day69 SUB-17,750-firming-REVERSED-Wk24-26-JISDOR-weakening-near-18,000-band-sustained (regime label CARRIES Wk 25 close with Wk 26 updates)
+
+**Wk 26 close updates layered on Wk 25 close carry:**
+- Brent $93-106 Oct 13 Hormuz RE-ESCALATION fresh print = COGS-relief RE-ARM REVERSAL (Wk 25 close $91.93 Hormuz-PARTIAL-FADE Day-12 reversed Wk 26 Tue Oct 13 fresh +1.7-1.8% back above $95 instant-regression threshold)
+- US-10Y 5.24% Day-19 breakout-persistence slight-fade continuation (no snap-back below 5.00% observed Wk 26 = criterion (b) continues FAIL)
+- IDR 18,069 Fri Jisdor Day-10+ near-18,000 band carry sustained = Stage-5 cascade-threshold-proximity Day-85+ marker (fresh sub-17,750 sequence NOT started Wk 26 = criterion (a) FAIL deeper regression)
+- LME-nickel $15,547 Oct 8 fresh print FADE-DEEPENING Day-9 carry = MDKA/ANTM/INCO/NCKL headwind deepest
+- CPO MYR 4,398 Oct 13 FRESH RALLY +RM198 = AALI/LSIP partial-relief (scores 3→4; MPOB Mon Oct 12 release absorption)
+- Newcastle coal $140-144 Day-33 sector-EXITED carry (coal-EXITED 2-strike reversal 1-of-2 triggers still met via ≥$140 sustained)
+- GOTO EGM Wed Oct 14 BINARY-EVENT disclosure non-surfaced Thu T+1 + Fri T+2 = T+3 Mon Oct 19 pre-market window
+- POST-CABINET-RESHUFFLE-PROBOWO-Day-14-2WK-MILESTONE absorption Wk 26 Mon-Fri completed with ministerial-portfolio-fluidity still partial-pending
+- DESTRY-DAMAYANTI-STRUCTURAL-LOCK-VALIDATED Day-22 BI-HOLD-DOVISH-ABSORBED Day-22 Transmission
+- BI RDG Oct 20-21 T-4/5 next-week-catalyst 2nd BI-RDG-under-Destry binary approaches
+- DQG-Day-158 outage persists + UNPRECEDENTED 5-day accumulated IHSG EOD cluster reconciliation backlog Mon Oct 12 refined + Tue Oct 13 sesi II + Wed Oct 14 + Thu Oct 15 + Fri Oct 16 all pending → Mon Oct 19 pre-market saturation protocol ≥30min allocation
+- Notification-channel-BLOCKED structural operating constraint Wk 24-26 cumulative 3-week pattern (TELEGRAM credential-leakage classifier reject + api.telegram.org proxy-403)
+- CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED 0.75-1.10/5 persistent Wk 26 Day 5 close (±0.00pp net Wk 26 gate-change vs Wk 25 close 0.75-1.10/5; 3.90-4.25/5 gap BINDING continues; re-entry path remains structurally deferred)
+- Weekly-review FILED ON-TIME Fri Oct 16 = 3rd test window of post-Wk 22 miss RE-REMOVAL path cleared (3-of-4; Wk 27 Fri Oct 23 remaining 1 test = FULL FORMAL REMOVAL eligibility)
+- Wk 26 Mon-Tue partial-reconciled 2-day cumulative alpha +3.01pp = 2nd expansion week within 5-week window after Wk 25 1st post-expansion compression (Wk 22 +0.79pp + Wk 23 +4.82pp + Wk 24 +4.03pp expansion → Wk 25 ~-2.57pp compression → Wk 26 +3.01pp Mon-Tue partial expansion)
+- CASCADE-SCALE-RISK-OFF-vindication PATTERN 3rd observation Mon Oct 12 partial -2.59% = 3-cross-cycle observation threshold MET; PROMOTION LOW-TO-MEDIUM → MEDIUM-HIGH-CANDIDATE Wk 26 weekly-review per 3+-observation threshold
+
 ## Current Regime (as of 2026-10-09)
 
 **Wk 24-25 close update (2026-10-02 + 2026-10-09, no regime-shift — nuances layered on prior Wk 23 label):**
