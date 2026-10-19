@@ -36373,6 +36373,55 @@
         null,
         false
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-19",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Banking Big-4 anchor H1 +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash; BI RDG T-1/T-2 Mon-Tue \u2014 but entirely pre-blocked by crisis-track engagement gate + MSCI STANDALONE consultation Day T+2 overlay.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Sep-26 limited-review disclosure pending; BI RDG Oct 20-21 T-1/T-2"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED Day 92 + MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED Day T+2; crisis-track gate 0.00-0.50/5 structurally FURTHER-FAIL"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate pre-block (IDR >18,000 Fri Oct 16 cascade; sub-17,750 criterion-a structurally impossible) + MSCI 2-tier downgrade threat forced-outflow risk + DQG Day-161 structural FAIL (cluster NOT CONVERGED post-cascade)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (no entries authorised; 100% cash maintained)"
+        },
+        {
+          "type": "warning",
+          "label": "IHSG Fri Oct 16 -11.57% cascade = DEEPEST single-day since 8 Jan 1998 (28 years); universal SKIP across all 50 watchlist tickers per Hard Rule"
+        }
+      ],
+      "reasoning": "Mandatory SKIP under Hard Rule CRISIS-TRACK ENGAGEMENT GATE (IDR >18,000 Fri cascade = criterion-a structurally fails deeper) AND NEW MSCI STANDALONE consultation Day T+2 criterion-c DEEPER-FAIL overlay. BBRI only candidate scoring \u22656 (6/10, down from 7/10 Fri) under universal markdown; mechanically pre-blocked regardless of fundamental score. Gate scoring ~0.00-0.50/5 vs required 5/5; 27th consecutive zero-trade week Day 1 OPEN.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        false
+      ]
     }
   ],
   "stats": {
@@ -36429,36 +36478,6 @@
     "updated": "2026-10-16"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-12T00:15:01Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 17 Day 3 scan: 5 candidates \u22656 (MYOR 7, ISAT 7, BBRI 6, INDF 6, CTRA 6) all BLOCKED. Re-entry gate 0.75/5 REGRESSED via foreign-flow 2-of-2 FAIL Tue + MSCI freeze reconfirmed + Brent $89 snap Day 2. IHSG Tue -1.53% 6267. 100% cash Day 31.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker scan complete Wk 17 Day 3"
-        },
-        {
-          "type": "research",
-          "detail": "5 candidates scored \u22656 (MYOR/ISAT/BBRI/INDF/CTRA) unchanged from Wk 17 Day 2"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 6/10 \u2014 Top-3 net-BUY Tue sesi I differentiated even under -Rp 774B all-market sell"
-        },
-        {
-          "type": "research",
-          "ticker": "foreign-flow",
-          "detail": "criterion (d) 2-of-2 CONFIRMED FAIL Tue; STRUCTURAL SELL-SIGNAL BINDING re-armed"
-        },
-        {
-          "type": "research",
-          "detail": "Re-entry gate 0.75/5 (regressed -0.25pp from Day 2 baseline 1.0/5)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-12T02:16:47Z",
       "routine": "market-open",
@@ -41634,6 +41653,27 @@
         {
           "type": "research",
           "detail": "URGENT ALERT dispatched for cascade event; cumulative alpha potential new trial high water +32.09pp vs prior Wk 11 Day 52 reconciled +24.91%"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-19T02:18:13Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED + MSCI STANDALONE consultation Day T+2 overlay + DQG Day-161 structural FAIL = universal pre-block across all 50 watchlist tickers. 27th consecutive zero-trade week Day 1 OPEN.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6/10; pre-blocked by crisis-track gate + MSCI consultation + DQG FAIL"
+        },
+        {
+          "type": "warning",
+          "detail": "IHSG Fri Oct 16 -11.57% cascade = deepest single-day since 1998 (28yr); MSCI STANDALONE 2-tier downgrade threat"
+        },
+        {
+          "type": "warning",
+          "detail": "TELEGRAM proxy-403 fallback to stdout per Fri precedent"
         }
       ]
     }
