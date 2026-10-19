@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY88-Wk26-Day4-CLOSE-EOD-26TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-CLOSE-Q4-2026-WEEK-3-DAY-4-POST-CABINET-RESHUFFLE-DAY-13-POST-BI-HOLD-TRANSMISSION-DAY-21-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-Day-19-carry-IDR-18,069-Fri-Jisdor-Day-10plus-near-18,000-band-carry-BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-carry-LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-9-carry-CPO-MYR-4,398-Oct-13-FRESH-RALLY-plus-RM198-AALI-LSIP-partial-relief-Day-3-Newcastle-coal-$140-144-Day-33-sector-EXITED-carry-IHSG-Fri-Oct-16-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-carry-anchor-Fri-Oct-9-reconciled-6,093.76-Mon-partial-5,936-plus-Tue-sesi-I-5,911.46-only-Wed-Oct-14-plus-Thu-Oct-15-plus-Fri-Oct-16-also-PENDING-5-day-backlog-UNPRECEDENTED-TRIAL-RECORD-EXTENDED-GOTO-EGM-T+2-disclosure-day-today-outcome-pending-BI-RDG-Oct-20-21-T-4/5-next-week-catalyst-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-0.75-1.10-of-5-persistent-DQG-Day-158-outage-persists",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY92-Wk27-Day1-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-1-CLOSE-Q4-2026-WEEK-4-DAY-1-POST-CABINET-RESHUFFLE-DAY-17-POST-BI-HOLD-TRANSMISSION-DAY-25-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+2-IHSG-Fri-Oct-16-CASCADE--11.57pct-to-5,185.11-DEEPEST-SINGLE-DAY-SINCE-8-JAN-1998-carry-IDR-greater-than-18,000-Fri-Oct-16-confirmed-carry-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-Day-20-carry-BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-carry-LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-11-carry-CPO-MYR-4,398-Oct-13-FRESH-RALLY-plus-RM198-AALI-LSIP-partial-relief-Day-6-Newcastle-coal-$140-144-Day-36-sector-EXITED-carry-IHSG-Mon-Oct-19-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-38th-sesi-II-lag-GOTO-EGM-T+3-disclosure-day-today-outcome-pending-BI-RDG-Oct-20-21-T-1/T-2-this-week-catalyst-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-collapsed-from-Wk-26-0.75-1.10-of-5-DQG-Day-161-outage-persists",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-16"
+  "updated": "2026-10-19"
 }
