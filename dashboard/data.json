@@ -36479,43 +36479,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-12T02:16:47Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 17 Day 3. Crisis-track gate ACTIVATED (~0.75/5 re-entry, -0.25pp regressed via foreign flow 2-of-2 CONFIRMED FAIL Tue + MSCI Aug freeze extended + Brent snap Day 2). 5 candidates \u22656/10 (MYOR/ISAT/BBRI/INDF/CTRA) all gate-blocked; DQG Day 100 outage persist.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "score 7 \u2014 crisis-track gate blocks; DQG Day 100"
-        },
-        {
-          "type": "skip",
-          "ticker": "ISAT",
-          "detail": "score 7 \u2014 Gate-9 chase-fail + crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "score 6 \u2014 crisis-track + all-market foreign flow (d) 2-of-2 CONFIRMED FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "score 6 \u2014 crisis-track + Brent snap Day 2 CPI-neg"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6 \u2014 crisis-track + DQG Day 100 blocks cluster"
-        },
-        {
-          "type": "warning",
-          "detail": "17th consecutive 0/3 BUY-slot week Wk 17 Day 3"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-12T04:35:36Z",
       "routine": "midday",
       "status": "success",
@@ -41676,6 +41639,12 @@
           "detail": "TELEGRAM proxy-403 fallback to stdout per Fri precedent"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-19T04:44:17Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Midday scan: no open positions, no actions required"
     }
   ],
   "exposure": {
