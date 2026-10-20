@@ -2126,6 +2126,22 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-10-20",
+      "day_label": "Day 134 \u2014 Wk 27 Day 2 OPEN \u2014 Pre-market \u2014 BI RDG Day 1 (press conf Wed Oct 21) \u2014 MSCI STANDALONE consultation Day T+3 \u2014 Post-Oct16-cascade T+2 reconciliation window \u2014 27th consecutive zero-trade week Day 2",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -32.09,
+      "alpha_pct": 32.09,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Mon Oct 19 IHSG close NOT CONVERGED at Tue pre-market fire (standard DQG-Day-162 pattern); Fri Oct 16 single-source 5,185.11 provisional carry; alpha +32.09pp vs 100% cash. Crisis-track engagement gate ACTIVATED (0.00-0.50/5) + MSCI STANDALONE consultation Day T+3 + BI RDG Day 1 TODAY = universal SKIP across all 50 watchlist tickers. BBRI 6/9 sole candidate \u22656 pre-blocked. Book 100% cash maintained."
     }
   ],
   "positions": [],
@@ -36479,18 +36495,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-12T08:25:09Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk17 Day3: IDR 9.72B flat (0.00%). Alpha -0.32% vs IHSG (sesi I 6,330.36, +1.00% rebound post-MSCI). Cum. return -2.84% | Cum. alpha +14.24%. 0 positions | 100% cash | 0/3 trades this week. DQG Day 102.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 83 EOD snapshot committed; RISK-STATE and dashboard updated"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-13T00:17:02Z",
       "routine": "pre-market",
       "status": "success",
@@ -41649,6 +41653,27 @@
         {
           "type": "research",
           "detail": "Day 133 EOD snapshot committed; IHSG Mon Oct 19 close PENDING multi-source; dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-20T00:06:50Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Wk 27 Day 2 OPEN scan: 50 tickers screened; 1 candidate scoring \u22656 (BBRI); ALL pre-blocked by crisis-track engagement gate + MSCI STANDALONE consultation Day T+3 + DQG-Day-162 + BI RDG Day 1 TODAY. Book 100% cash maintained; alpha ~+32.09pp Fri Oct 16 provisional.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "1 candidate scored \u22656 (BBRI pre-blocked)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Big-4 banking + BI RDG Day 1 TODAY; pre-blocked by crisis-track + MSCI + DQG"
         }
       ]
     }
