@@ -36438,6 +36438,59 @@
         null,
         false
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking anchor H1 +17.5% YoY Rp 31.18T, PBV 1.48x pre-crash, BI RDG Day 1 binary catalyst today \u2014 but pre-blocked by crisis-track engagement gate + MSCI STANDALONE consultation overlay + DQG Day-162 structural FAIL.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 Day 1 TODAY (press conf Wed Oct 21); hold 5.75% base case"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY93 + MSCI STANDALONE consultation Day T+3 + IDR >18,000 + Post-cascade Fri Oct 16 -11.57% Day T+2"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED (0.00-0.50/5 scoring, 4.50-5.00/5 gap BINDING); mandatory SKIP under Hard Rule"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted; 100% cash maintained IDR 9,716,207,500"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-162 structural outage (yfinance 403-blocked 162 consecutive sessions; GoAPI unset); per-ticker cluster NOT CONVERGED pre-blocks buy-side gate 15-check"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI STANDALONE consultation overlay \u2014 default-path reclassification unless material improvements through Apr 30 2027; forced-outflow risk ongoing"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate (Hard Rule) despite nominal score of 6. ALL 5 re-entry criteria DEEPLY FAIL: (a) IDR >18,000 sub-17,750 structurally impossible; (b) multi-source cluster NOT CONVERGED under DQG Day-162; (c) MSCI STANDALONE consultation unresolved through Apr 30 2027; (d) foreign flow deep net-sell persistence; (e) R:R untestable without fresh cluster. 27th consecutive zero-trade week Day 2.",
+      "gate_results": [
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -36494,37 +36547,6 @@
     "updated": "2026-10-16"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-13T00:17:02Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 17 Day 4 pre-market. 7 candidates \u22656/10 (MYOR/ISAT/BBCA/TLKM/ICBP/INDF/CTRA \u2014 added +BBCA/TLKM/ICBP, lost BBRI). US CPI dovish + IDR firming Day 2 + FF 1-of-2 restart improved re-entry gate to ~1.05/5 (+0.30pp). All BLOCKED by crisis-track gate ACTIVATED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker watchlist screened"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored >=6/10 (up from 5)"
-        },
-        {
-          "type": "research",
-          "ticker": "MYOR",
-          "detail": "score 7/10 - H1 +5.6% strongest consumer"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 upgrade - Q2 NI +28% YoY confirmed BEAT + BRI Danareksa Buy TP 3,750"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 upgrade - Wed sesi I Top-3 net-BUY differentiated Big-4 flow-leader"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-13T02:17:22Z",
       "routine": "market-open",
@@ -41674,6 +41696,31 @@
           "type": "research",
           "ticker": "BBRI",
           "detail": "score 6/10 \u2014 Big-4 banking + BI RDG Day 1 TODAY; pre-blocked by crisis-track + MSCI + DQG"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-20T02:16:46Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED + MSCI STANDALONE consultation Day T+3 + DQG-Day-162 structural FAIL + BI RDG Day 1 binary catalyst same-day = universal pre-block all 50 watchlist tickers. 100% cash maintained IDR 9,716,207,500. 27th consecutive zero-trade week Day 2 OPEN.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6 \u2014 pre-blocked by crisis-track gate + MSCI consultation + DQG"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-162 outage persists (yfinance 403-blocked 162 sessions)"
+        },
+        {
+          "type": "warning",
+          "detail": "Crisis-track engagement gate ACTIVATED \u2014 0.00-0.50/5 scoring, 4.50-5.00/5 gap BINDING"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI STANDALONE consultation overlay Day T+3 (window through Apr 30 2027)"
         }
       ]
     }
