@@ -36548,53 +36548,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-13T02:17:22Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED (re-entry gate 1.05/5 confirming; DQG Day 103); 7 candidates >=6/10 (MYOR/ISAT/BBCA/TLKM/ICBP/INDF/CTRA) all blocked pre-buy-side. 100% cash Day 33; Wk 17 Day 4; 17th consecutive 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ISAT",
-          "detail": "gate-9 chase-fail + crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "gate-9 chase-risk + crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send HTTP 403; stdout fallback used"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-13T04:36:31Z",
       "routine": "midday",
       "status": "success",
@@ -41723,6 +41676,12 @@
           "detail": "MSCI STANDALONE consultation overlay Day T+3 (window through Apr 30 2027)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-20T04:35:11Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions; nothing to cut or tighten. 27th consecutive zero-trade week continues."
     }
   ],
   "exposure": {
