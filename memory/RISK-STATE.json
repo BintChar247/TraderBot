@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY93-Wk27-Day2-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-CLOSE-Q4-2026-WEEK-4-DAY-2-POST-CABINET-RESHUFFLE-DAY-18-POST-BI-HOLD-TRANSMISSION-DAY-26-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+3-BI-RDG-DAY-1-TODAY-press-conf-Wed-Oct-21-T-1-binary-catalyst-IHSG-Fri-Oct-16-CASCADE--11.57pct-to-5,185.11-DEEPEST-SINGLE-DAY-SINCE-8-JAN-1998-carry-IDR-greater-than-18,000-Fri-Oct-16-confirmed-Day-12-carry-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-Day-21-carry-BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-carry-LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-12-carry-CPO-MYR-4,398-Oct-13-FRESH-RALLY-plus-RM198-AALI-LSIP-partial-relief-Day-7-Newcastle-coal-$140-144-Day-37-sector-EXITED-carry-IHSG-Tue-Oct-20-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-39th-sesi-II-lag-Mon-Oct-19-ALSO-STILL-PENDING-2-day-backlog-GOTO-EGM-T+4-disclosure-day-today-outcome-pending-BI-RDG-Day-2-press-conf-Wed-Oct-21-T-1-this-week-catalyst-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-persists-DQG-Day-162-outage-persists",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY94-Wk27-Day3-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-3-CLOSE-Q4-2026-WEEK-4-DAY-3-POST-CABINET-RESHUFFLE-DAY-19-POST-BI-HOLD-TRANSMISSION-DAY-27-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+4-BI-RDG-DAY-2-TODAY-press-conf-14:00-WIB-OUTCOME-PENDING-at-EOD-fire-IHSG-Fri-Oct-16-CASCADE--11.57pct-to-5,185.11-DEEPEST-SINGLE-DAY-SINCE-8-JAN-1998-carry-IDR-greater-than-18,000-Fri-Oct-16-confirmed-Day-13-carry-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-Day-22-carry-BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-Day-8-carry-LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-13-carry-CPO-MYR-4,398-Oct-13-FRESH-RALLY-plus-RM198-AALI-LSIP-partial-relief-Day-8-Newcastle-coal-$140-144-Day-38-sector-EXITED-carry-IHSG-Wed-Oct-21-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-40th-sesi-II-lag-Mon-Oct-19-+-Tue-Oct-20-ALSO-STILL-PENDING-3-day-backlog-restored-GOTO-EGM-T+5-disclosure-final-window-today-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-persists-DQG-Day-163-outage-persists",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-20"
+  "updated": "2026-10-21"
 }
