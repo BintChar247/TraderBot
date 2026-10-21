@@ -36511,6 +36511,59 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-21",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking anchor H1 +17.5% YoY Rp 31.18T, PBV 1.48x pre-crash, BI RDG Day 2 TODAY binary catalyst (press conf ~14:00 WIB) \u2014 pre-blocked by crisis-track engagement gate + MSCI STANDALONE consultation overlay + DQG Day-163 structural FAIL.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 Day 2 TODAY press conf ~14:00 WIB; hold 5.75% base case (12/14 economists); emergency intervention possible"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY94 + MSCI STANDALONE consultation Day T+4 + IDR >18,000 + Post-cascade Fri Oct 16 -11.57% Day T+3"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track engagement gate ACTIVATED (0.00-0.50/5 scoring, 4.50-5.00/5 gap BINDING); mandatory SKIP under Hard Rule"
+        },
+        {
+          "type": "sizing",
+          "label": "0% new entries permitted; 100% cash maintained IDR 9,716,207,500"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-163 structural outage (yfinance 403-blocked 163 consecutive sessions; GoAPI unset); per-ticker cluster NOT CONVERGED pre-blocks buy-side gate 9"
+        },
+        {
+          "type": "warning",
+          "label": "MSCI STANDALONE consultation overlay \u2014 default-path reclassification unless material improvements through Apr 30 2027; forced-outflow risk ongoing"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate (Hard Rule) despite nominal score of 6. ALL 5 re-entry criteria DEEPLY FAIL: (a) IDR >18,000 sub-17,750 structurally impossible; (b) multi-source cluster NOT CONVERGED under DQG Day-163; (c) MSCI STANDALONE consultation unresolved through Apr 30 2027; (d) foreign flow deep net-sell persistence; (e) R:R untestable without fresh cluster. 27th consecutive zero-trade week Day 3. BI RDG Day 2 press conf ~14:00 WIB binary catalyst compounds entry risk.",
+      "gate_results": [
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -36567,40 +36620,6 @@
     "updated": "2026-10-16"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-14T00:14:53Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 17 Day 5 pre-market Fri. 50 tickers scanned. 6 candidates \u22656: MYOR(7), ISAT(7), TLKM(6), ICBP(6), INDF(6), CTRA(6). -1 from Day 4 via BBCA 6\u21925 (Wed net-BUY thesis stalled Thu). ALL BLOCKED by crisis-track gate (~0.85/5, -0.20pp regression). IHSG Thu -1.13% close 6,301.77 all sectors RED post-MSCI. Foreign flow Thu -Rp 1.18T = criterion (d) 2-of-2 BROKEN Day 1. Prabowo State Address 14:30 WIB + DPR Destry ratification opens = double-binary session. Wk 17 Weekly Review 16:00 WIB.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned Wk 17 Day 5"
-        },
-        {
-          "type": "research",
-          "detail": "6 candidates scored \u22656/10 (net -1 from Day 4 via BBCA degrade)"
-        },
-        {
-          "type": "research",
-          "ticker": "MYOR",
-          "detail": "score 7/10 \u2014 H1 revenue +5.6% strongest consumer growth defensive-fit"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 \u2014 Q2 EBITDA BEAT +28% YoY Day 3 + Thu +4.18% recovery pump chase-risk"
-        },
-        {
-          "type": "research",
-          "detail": "Re-entry gate ~0.85/5 (-0.20pp regression via foreign flow 2-of-2 BROKEN)"
-        },
-        {
-          "type": "macro",
-          "detail": "Prabowo State Address 14:30 WIB TODAY + DPR Destry ratification opens = double-binary"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-14T02:20:14Z",
       "routine": "market-open",
@@ -41721,6 +41740,35 @@
           "type": "research",
           "ticker": "BBRI",
           "detail": "score 6/10 - BI RDG Day 2 TODAY press conf ~14:00 WIB binary catalyst; PRE-BLOCKED under crisis-track gate"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-21T02:18:14Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 27 Day 3 OPEN. Universal SKIP all 50 watchlist tickers. 1 candidate \u22656 (BBRI) pre-blocked by crisis-track engagement gate ACTIVATED-FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE consultation overlay Day T+4 + DQG-Day-163 outage. BI RDG Day 2 TODAY press conf ~14:00 WIB binary catalyst. 27th consecutive zero-trade week Day 3. Book: 100% cash IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track + MSCI + DQG triple pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "BI RDG Day 2 press conf ~14:00 WIB BINARY \u2014 hold 5.75% base case; emergency intervention possible"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI STANDALONE consultation Day T+4; forced-outflow risk ongoing"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-163 structural outage; IHSG Mon Oct 19 + Tue Oct 20 closes NOT CONVERGED at Wed pre-market fire"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram proxy-403; fallback to stdout per prior precedent"
         }
       ]
     }
