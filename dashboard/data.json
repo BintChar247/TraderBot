@@ -36700,30 +36700,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-17T02:16:24Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. IDX CLOSED \u2014 Hari Kemerdekaan RI ke-81 (Indonesian Independence Day). Next live session Tue Aug 18. Book 100% cash Day 36; crisis-track gate ACTIVATED ~1.05/5.",
-      "actions": [
-        {
-          "type": "info",
-          "detail": "IDX HOLIDAY - Hari Kemerdekaan RI ke-81 (Aug 17, Independence Day)"
-        },
-        {
-          "type": "info",
-          "detail": "No positions to manage (100% cash Day 36)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notification failed (proxy 403) - stdout fallback used"
-        },
-        {
-          "type": "info",
-          "detail": "Crisis-track re-entry gate ~1.05/5 (IDR firming Day 2 ~35 IDR from sub-17,750; foreign flow criterion d BROKEN Day 2 magnitude decay ~68%)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-17T04:36:54Z",
       "routine": "midday",
       "status": "success",
@@ -41851,6 +41827,12 @@
           "detail": "Telegram API proxy-403 fallback to stdout (channel-blocked persistent operating constraint)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-22T04:35:27Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. 0 positions; no cuts, no stop tightens, no thesis exits. 27th consecutive zero-trade week Day 4 midday."
     }
   ],
   "exposure": {
