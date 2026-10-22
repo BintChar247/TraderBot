@@ -2166,7 +2166,7 @@
     },
     {
       "date": "2026-10-22",
-      "day_label": "Day 136 - Wk 27 Day 4 OPEN - Pre-market - 27th consecutive zero-trade week Day 4 OPEN - Q4-Week-4-Day-4 - Post-cabinet-reshuffle Day 20 - Post-BI-hold-transmission Day 28 - Defensive-intensified-cascade-inflection-confirmed Day 95 - MSCI STANDALONE consultation overlay Day T+7 - Post-BI-RDG-Day-2 Day 1 (outcome absorption continues) - IHSG Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break; Tue Oct 20 + Wed Oct 21 closes STILL PENDING multi-source - DQG-Day-164 outage persists",
+      "day_label": "Day 136 \u2014 Wk 27 Day 4 CLOSE \u2014 EOD \u2014 27th consecutive zero-trade week Day 4 CLOSE \u2014 Q4-Week-4-Day-4 \u2014 Post-cabinet-reshuffle Day 20 \u2014 Post-BI-hold-transmission Day 28 \u2014 Defensive-intensified-cascade-inflection-confirmed Day 95 \u2014 MSCI STANDALONE consultation overlay Day T+7 \u2014 Post-BI-RDG-Day-2 Day 1 (outcome absorption continues \u2014 press-conf transcript STILL NOT INDEXED at 15:15 WIB EOD fire) \u2014 IHSG Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break; Tue Oct 20 + Wed Oct 21 + Thu Oct 22 closes STILL PENDING multi-source = 4-day backlog restored \u2014 DQG-Day-164 outage persists",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
@@ -2174,15 +2174,15 @@
       "cumulative_pnl_pct": -2.84,
       "ihsg_close": null,
       "ihsg_cumulative_pct": -34.56,
-      "ihsg_close_note": "Thu Oct 22 pre-market. Mon Oct 19 close CONFIRMED 4,996.61 (-3.64%) via Databoks/Katadata = sub-5,000 break first time (656 losers / 100 gainers / 43 flat). Tue Oct 20 + Wed Oct 21 closes STILL PENDING multi-source cluster = 2-day backlog carries. Fri Oct 16 single-source 5,185.11 (-11.57%) provisional carry Day-7. IHSG cumulative Day 0 baseline 7,634 -> Mon Oct 19 4,996.61 = -34.56% cumulative (Mon reconciled anchor used; Tue-Wed pending). DQG-Day-164 standard sesi II lag 41st+ cumulative occurrence. Multi-source saturation deferred to Thu 09:00 WIB sesi I open.",
+      "ihsg_close_note": "Thu Oct 22 EOD fire. Mon Oct 19 close CONFIRMED 4,996.61 (-3.64%) via Databoks/Katadata = sub-5,000 break first time (656 losers / 100 gainers / 43 flat); still used as reconciled anchor. Tue Oct 20 + Wed Oct 21 + Thu Oct 22 closes STILL PENDING multi-source cluster = 3-day backlog restored (Thu adds Day-1). Fri Oct 16 single-source 5,185.11 (-11.57%) provisional carry Day-7. IHSG cumulative Day 0 baseline 7,634 -> Mon Oct 19 4,996.61 = -34.56% cumulative (Mon reconciled anchor used; Tue-Wed-Thu pending). DQG-Day-164 standard sesi II lag 42nd+ cumulative occurrence. Multi-source saturation deferred to Fri Oct 23 pre-market.",
       "alpha_pct": 34.56,
-      "alpha_note": "Cumulative alpha ~+34.56pp Mon Oct 19 reconciled anchor basis (IHSG baseline 7,634 -> Mon 4,996.61 cumulative -34.56% vs portfolio -2.84%). SURPASSES Fri Oct 16 provisional +32.09pp by ~+2.5pp and prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+10pp = NEW TRIAL HIGH WATER PROVISIONAL pending Tue-Wed multi-source saturation. Zero-exposure immunity to downside holds through 89th consecutive session with 0.00% daily P&L since Jul 6 KLBF hard-cut.",
+      "alpha_note": "Cumulative alpha ~+34.56pp Mon Oct 19 reconciled anchor basis (IHSG baseline 7,634 -> Mon 4,996.61 cumulative -34.56% vs portfolio -2.84%). SURPASSES Fri Oct 16 provisional +32.09pp by ~+2.5pp and prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+10pp = NEW TRIAL HIGH WATER PROVISIONAL pending Tue-Wed-Thu multi-source saturation. Zero-exposure immunity to downside continues through 90th consecutive session with 0.00% daily P&L since Jul 6 KLBF hard-cut.",
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
       "drawdown_from_peak_pct": -3.1,
-      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95-Wk27-Day4-OPEN-PRE-MARKET-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-OPEN-Q4-2026-WEEK-4-DAY-4-POST-CABINET-RESHUFFLE-DAY-20-POST-BI-HOLD-TRANSMISSION-DAY-28-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+7-POST-BI-RDG-DAY-2-DAY-1-OUTCOME-ABSORPTION-CONTINUES-IHSG-MON-OCT-19-CONFIRMED-4996-SUB-5000-BREAK-TUE-WED-CLOSES-STILL-PENDING-MULTI-SOURCE-DQG-DAY-164-OUTAGE-PERSISTS",
-      "bi_rdg_note": "BI RDG Day 2 outcome absorption Day 1 (Thu Oct 22). Oct 21 press-conf transcript STILL NOT INDEXED at 07:00 WIB pre-market fire. Base case hold 5.75% (12/14 economists); 2/14 hike +25bp; cut structurally impossible at IDR >18,000. Emergency intervention measures possible (verbal, FX ops, FX reserves, short-selling tactical ban). Transcript surfacing window Thu AM; emergency measures announcement window Thu-Fri.",
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95-Wk27-Day4-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-CLOSE-Q4-2026-WEEK-4-DAY-4-POST-CABINET-RESHUFFLE-DAY-20-POST-BI-HOLD-TRANSMISSION-DAY-28-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+7-POST-BI-RDG-DAY-2-DAY-1-OUTCOME-ABSORPTION-STILL-PENDING-15:15-WIB-EOD-FIRE-IHSG-MON-OCT-19-CONFIRMED-4996-SUB-5000-BREAK-TUE-WED-THU-CLOSES-STILL-PENDING-MULTI-SOURCE-DQG-DAY-164-OUTAGE-PERSISTS",
+      "bi_rdg_note": "BI RDG Day 2 outcome absorption Day 1 (Thu Oct 22 EOD). Oct 21 press-conf transcript STILL NOT INDEXED at 15:15 WIB EOD fire \u2014 WebSearch 'BI Rate decision October 21 2026 RDG result' returned no Oct 21 2026-specific indexed result; absorption window Thu-Fri. Base case hold 5.75% (12/14 economists); 2/14 hike +25bp; cut structurally impossible at IDR >18,000. Emergency intervention measures possible (verbal, FX ops, FX reserves, short-selling tactical ban). Transcript surfacing window Fri AM; emergency measures announcement window Fri.",
       "msci_note": "MSCI STANDALONE consultation Day T+7. Oct 15 2026 announcement confirmed consultation window to Apr 30 2027; final decision by Jun 30 2027. Default-path reclassification to STANDALONE unless 'clear evidence of material improvements in market governance and functioning'. MSCI continues applying FREEZE on index-related changes for Indonesian securities until further notice. BEI president director Jeffrey Hendrik sought formal clarification. 46 of 50 watchlist tickers are LQ45 = direct passive-flow exposure.",
       "notes": "Pre-market Thu Oct 22 Wk 27 Day 4 OPEN - 27th consecutive zero-trade week Day 4 OPEN. BI RDG Day 2 outcome absorption Day 1 (press-conf transcript still not indexed at fire). MSCI STANDALONE consultation Day T+7. IHSG Mon Oct 19 CONFIRMED 4,996.61 -3.64% sub-5,000 first break; Tue+Wed STILL PENDING 2-day backlog. Alpha +34.56pp Mon reconciled basis = NEW TRIAL HIGH WATER PROVISIONAL pending Tue-Wed saturation. Crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE + DQG-Day-164 triple-stack = universal SKIP all 50 watchlist tickers. BBRI 6 sole candidate >=6 pre-blocked. Book 100% cash maintained IDR 9,716,207,500; 89 consecutive 0.00% daily-P&L sessions since Jul 6 KLBF hard-cut. GOTO EGM T+6 past-final-window (vacuous). Weekly-review Fri Oct 23 scheduled - 4th of 4 Wk 22 miss RE-REMOVAL = FULL FORMAL REMOVAL eligibility. Risk alerts: NONE (no positions; daily/weekly P&L 0.00%; DD -3.10% within caps). Framework durability Day 95 since KLBF hard-cut, Day 136 trial-to-date.",
       "research_queries_run": 12,
@@ -2191,7 +2191,8 @@
       "candidates_pre_blocked": 1,
       "top_candidate": "BBRI",
       "top_candidate_score": 6,
-      "trade_plan": "NO BUYS - triple-stack pre-block universal SKIP all 50 tickers; HOLD 100% cash"
+      "trade_plan": "NO BUYS - triple-stack pre-block universal SKIP all 50 tickers; HOLD 100% cash",
+      "eod_note": "EOD Thu Oct 22. Equity unchanged IDR 9,716,207,500 (90th consecutive 0.00% daily P&L session Day 95 since Jul 6 KLBF hard-cut). Zero exposure Day 95; 100% cash; 27th consecutive zero-trade week Day 4 CLOSE. Risk alerts: NONE. Daily P&L 0.00% >-2% cap; DD -3.10% within -15% cap; Weekly P&L 0.00% within -5% cap; no halt flags."
     }
   ],
   "positions": [],
@@ -36700,24 +36701,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-17T04:36:54Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "IDX HOLIDAY (Hari Kemerdekaan RI ke-81). No trading session. 0 positions (Day 36 100% cash). Midday scan mechanically vacuous \u2014 no cuts, no stop tightenings, no thesis exits."
-    },
-    {
-      "timestamp": "2026-08-17T08:28:23Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-08-17 (IDX HOLIDAY Hari Kemerdekaan): IDR 9.72B, 0.00% today (no session). Cum -2.84%. Cum alpha revised +13.30pp (post-Fri-cluster-correction). 0 positions Day 36. Book 100% cash. Wk 18 Day 1 no trades. IDR sub-17,750 target ~35 IDR gap. Next live Tue Aug 18.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 86 EOD snapshot filed under IDX holiday; cluster-correction context appended; RISK-STATE + dashboard/data.json updated"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-18T00:10:51Z",
       "routine": "pre-market",
       "status": "success",
@@ -41833,6 +41816,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy. 0 positions; no cuts, no stop tightens, no thesis exits. 27th consecutive zero-trade week Day 4 midday."
+    },
+    {
+      "timestamp": "2026-10-22T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-10-22 Wk 27 Day 4 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (90 consecutive zero-P&L sessions Day 95); 0 positions 100% cash Day 95; IHSG Thu Oct 22 close PENDING multi-source cluster not surfaced at 15:15 WIB fire (Tue Oct 20 + Wed Oct 21 ALSO still pending; Mon Oct 19 CONFIRMED 4,996.61 = -3.64% sub-5,000 break reconciled anchor; 3-day backlog restored); alpha provisional +34.56pp Mon Oct 19 reconciled basis NEW TRIAL HIGH WATER PROVISIONAL (surpasses prior high +24.91% by ~+10pp); 27TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists + MSCI STANDALONE consultation Day T+7 + DQG-Day-164 outage + BI RDG Day 2 outcome absorption Day 1 STILL PENDING at 15:15 WIB EOD fire; no risk alerts (daily 0.00% / weekly 0.00% / DD -3.10% / no halt flags)",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (Tue-Wed-Thu backlog); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-22T08:20:37Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-10-22 Wk 27 Day 4 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (90 consecutive zero-P&L sessions Day 95); 0 positions 100% cash; IHSG Thu Oct 22 close PENDING multi-source (Tue+Wed+Thu 3-day backlog; Mon Oct 19 reconciled 4,996.61 anchor Day-4); alpha +34.56pp Mon reconciled basis NEW TRIAL HIGH WATER PROVISIONAL (surpasses prior +24.91% by ~+10pp); 27TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE; crisis-track FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE Day T+7 + DQG-Day-164 + BI RDG Day 2 outcome absorption Day 1 STILL PENDING; no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (3-day backlog restored); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -41845,10 +41852,10 @@
     "equity_pct": 0.0
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY94-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+4-BI-RDG-DAY-2-TODAY-OUTCOME-PENDING",
-    "regime_label": "DEFENSIVE INTENSIFIED CASCADE INFLECTION CONFIRMED DAY 94 + MSCI STANDALONE CONSULTATION OVERLAY ACTIVATED DAY T+4 + BI RDG DAY 2 TODAY press conf ~14:00 WIB OUTCOME PENDING at EOD fire - 27TH CONSECUTIVE ZERO-TRADE WEEK DAY 3 CLOSE - IHSG FRI OCT 16 CRASH -11.57% DEEPEST SINCE JAN 1998 CARRY Day-6 - CRISIS-TRACK GATE FURTHER-ESCALATED 0.00-0.50/5",
-    "regime_overlay": "MSCI STANDALONE consultation Day T+4; cascade -11.57% Fri Oct 16 carry Day-6; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists; universal SKIP across 50 watchlist tickers; universal -1 to -2 score markdown persists; 100% cash maintained Day 94; BI RDG Day 2 Wed Oct 21 ~14:00 WIB press conf outcome pending at 15:15 WIB EOD fire",
-    "regime_updated": "2026-10-21"
+    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+7-POST-BI-RDG-DAY-2-DAY-1-OUTCOME-ABSORPTION-STILL-PENDING-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-CLOSE",
+    "regime_label": "DEFENSIVE INTENSIFIED CASCADE INFLECTION CONFIRMED DAY 95 + MSCI STANDALONE CONSULTATION OVERLAY DAY T+7 + POST-BI-RDG-DAY-2 Day 1 (outcome absorption STILL PENDING at 15:15 WIB EOD fire) - 27TH CONSECUTIVE ZERO-TRADE WEEK DAY 4 CLOSE - IHSG MON OCT 19 CONFIRMED 4,996.61 SUB-5,000 BREAK (Tue-Wed-Thu closes PENDING 3-day backlog) - CRISIS-TRACK GATE FURTHER-ESCALATED 0.00-0.50/5 - DQG-Day-164 outage persists",
+    "regime_overlay": "MSCI STANDALONE consultation Day T+7; cascade -11.57% Fri Oct 16 carry Day-7; Mon Oct 19 CONFIRMED sub-5,000 break (-3.64% to 4,996.61) Day-4; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists; universal SKIP across 50 watchlist tickers; universal -1 to -2 score markdown persists; 100% cash maintained Day 95; BI RDG Day 2 Wed Oct 21 outcome STILL PENDING at Thu 15:15 WIB EOD fire \u2014 absorption window extends Fri",
+    "regime_updated": "2026-10-22"
   },
   "research": {
     "date": "2026-10-19",
@@ -41872,7 +41879,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-21T15:20:19+07:00",
+  "last_updated": "2026-10-22T15:15:19+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -41973,6 +41980,18 @@
         {
           "type": "research",
           "detail": "Day 134 EOD snapshot committed; IHSG Tue Oct 20 close PENDING multi-source (Mon Oct 19 also pending; 2-day backlog); dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-22T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-10-22 Wk 27 Day 4 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (90 consecutive zero-P&L sessions Day 95); 0 positions 100% cash Day 95; IHSG Thu Oct 22 close PENDING multi-source cluster not surfaced at 15:15 WIB fire (Tue Oct 20 + Wed Oct 21 ALSO still pending; Mon Oct 19 CONFIRMED 4,996.61 = -3.64% sub-5,000 break reconciled anchor; 3-day backlog restored); alpha provisional +34.56pp Mon Oct 19 reconciled basis NEW TRIAL HIGH WATER PROVISIONAL (surpasses prior high +24.91% by ~+10pp); 27TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists + MSCI STANDALONE consultation Day T+7 + DQG-Day-164 outage + BI RDG Day 2 outcome absorption Day 1 STILL PENDING at 15:15 WIB EOD fire; no risk alerts (daily 0.00% / weekly 0.00% / DD -3.10% / no halt flags)",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (Tue-Wed-Thu backlog); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
         }
       ]
     }

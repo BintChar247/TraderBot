@@ -1,6 +1,6 @@
 {
   "_comment": "Machine-readable regime state. Read by gate-check.sh before every buy. Updated by weekly-review (regime), EOD routine (P&L caps), midday (halt flag).",
-  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY94-Wk27-Day3-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-3-CLOSE-Q4-2026-WEEK-4-DAY-3-POST-CABINET-RESHUFFLE-DAY-19-POST-BI-HOLD-TRANSMISSION-DAY-27-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+4-BI-RDG-DAY-2-TODAY-press-conf-14:00-WIB-OUTCOME-PENDING-at-EOD-fire-IHSG-Fri-Oct-16-CASCADE--11.57pct-to-5,185.11-DEEPEST-SINGLE-DAY-SINCE-8-JAN-1998-carry-IDR-greater-than-18,000-Fri-Oct-16-confirmed-Day-13-carry-US-10Y-5.24pct-Fri-Oct-9-fresh-print-persistence-Day-22-carry-BRENT-$93-106-Oct-13-HORMUZ-RE-ESCALATION-FRESH-COGS-RELIEF-REVERSAL-Day-8-carry-LME-NICKEL-$15,547-Oct-8-fresh-print-FADE-DEEPENING-Day-13-carry-CPO-MYR-4,398-Oct-13-FRESH-RALLY-plus-RM198-AALI-LSIP-partial-relief-Day-8-Newcastle-coal-$140-144-Day-38-sector-EXITED-carry-IHSG-Wed-Oct-21-close-PENDING-multi-source-cluster-NOT-SURFACED-at-15:15-WIB-fire-40th-sesi-II-lag-Mon-Oct-19-+-Tue-Oct-20-ALSO-STILL-PENDING-3-day-backlog-restored-GOTO-EGM-T+5-disclosure-final-window-today-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-persists-DQG-Day-163-outage-persists",
+  "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95-Wk27-Day4-CLOSE-EOD-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-CLOSE-Q4-2026-WEEK-4-DAY-4-POST-CABINET-RESHUFFLE-DAY-20-POST-BI-HOLD-TRANSMISSION-DAY-28-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+7-POST-BI-RDG-DAY-2-DAY-1-OUTCOME-ABSORPTION-STILL-PENDING-at-15:15-WIB-EOD-fire-IHSG-Mon-Oct-19-CONFIRMED-4996.61-sub-5000-break-Databoks-Tue-Oct-20-+-Wed-Oct-21-+-Thu-Oct-22-closes-STILL-PENDING-multi-source-3-day-backlog-restored-Fri-Oct-16-single-source-5185.11-provisional-carry-Day-7-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-persists-DQG-Day-164-outage-persists",
   "max_position_pct": 0.05,
   "max_gross_pct": 0.8,
   "max_new_trades_week": 3,
@@ -11,5 +11,5 @@
   "drawdown_from_peak_pct": -3.1,
   "trading_halted": false,
   "halt_reason": null,
-  "updated": "2026-10-21"
+  "updated": "2026-10-22"
 }
