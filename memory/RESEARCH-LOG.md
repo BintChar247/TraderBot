@@ -30786,3 +30786,195 @@ _(none — book 100% cash since Mon Jul 6 KLBF hard-cut Day 107; 27th consecutiv
 - [ ] Cumulative alpha tracking: Fri Oct 16 provisional +32.09pp vs prior trial high water Wk 11 Day 52 reconciled +24.91% = ~+7pp new high water potential pending Mon-Tue multi-source saturation
 
 ---
+
+---
+
+## 2026-10-22 (Thursday)
+
+**Wk 27 Day 4 OPEN — Post-BI-RDG-Day-2 Day 1 — MSCI STANDALONE consultation Day T+7 — DQG-Day-164 — 27th consecutive zero-trade week Day 4 OPEN — Framework durability Day 95 since KLBF hard-cut**
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | NOT INDEXED | ~ | Oct 21 2026 close not surfaced at pre-market fire; Oct 10 2026 last indexed ~7,811.54 (+0.59%) |
+| Nasdaq | NOT INDEXED | ~ | Oct 10 2026 last indexed ~27,366.17 (+0.64%) |
+| Dow | NOT INDEXED | ~ | Oct 10 2026 last indexed ~51,654.95 (+0.83%) |
+| Shanghai Composite | NOT INDEXED | ~ | Pre-market cluster not surfaced |
+| Hang Seng | NOT INDEXED | ~ | Pre-market cluster not surfaced |
+| Nikkei 225 | NOT INDEXED | ~ | Pre-market cluster not surfaced |
+| VIX | NOT INDEXED | ~ | Mid-teens firming carry |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | **PENDING multi-source** | ~ | Mon Oct 19 CONFIRMED close **4,996.61 (-3.64%)** (Databoks/Katadata — breaks sub-5,000 for first time; 656 losers / 100 gainers / 43 flat; MSCI STANDALONE consultation absorption Day T+1); Tue Oct 20 + Wed Oct 21 closes STILL PENDING multi-source saturation; Fri Oct 16 single-source 5,185.11 (-11.57%) provisional carry Day-7 |
+| IDR/USD | NOT INDEXED fresh | ~ | Jisdor fresh print not surfaced for Thu Oct 22; Fri Oct 16 >18,000 confirmed Day-14+ carry; cumulative YTD IDR depreciation ~7.40%+ |
+| Indo 10Y SUN yield | NOT INDEXED | ~ | Fresh print not surfaced |
+| US 10Y yield | 5.24% carry | ~ | Fri Oct 9 fresh print Day-23 persistence slight-fade |
+| Indo-US spread | NOT COMPUTABLE | ~ | SUN leg pending |
+| Newcastle coal (USD/ton) | ~$150.35 Oct 14 | +2.38% MoM / +39.86% YTD | front-month futures (Chinese Cnyes); spot ~$140-144 Day-39 carry |
+| CPO palm oil (MYR/ton) | MYR 4,398 Oct 13 carry | +RM198 Day-9 | AALI/LSIP partial-relief 3→4 |
+| LME nickel (USD/ton) | $15,547 Oct 8 carry Day-14+ | FADE-DEEPENING | MDKA/ANTM/INCO/NCKL/MBMA headwind-worst-case |
+| Brent crude (USD/bbl) | ~$91.93 undated Oct cluster | Hormuz RE-ESCALATION Day-9+ | COGS-relief RE-ARM REVERSAL carry |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | NOT INDEXED fresh | Mon-Tue-Wed post-cascade cluster PENDING; prior Jul 1-Oct 7 2026 cumulative Rp 16T foreign net sell |
+| Foreign flow streak | NOT INDEXED | 3-day stack pending |
+| Top buying brokers | NOT INDEXED | |
+| Top selling brokers | NOT INDEXED | historically BMRI / ASII / TPIA leading net-sell Jul-Oct 2026 |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | CASCADE-RESET-DEEP | BI RDG Day 2 outcome absorption Day 1; MSCI STANDALONE 46/50 LQ45 exposure | BBRI (sole candidate ≥6 — pre-blocked) |
+| Coal / Energy | FIRM-BUT-SECTOR-EXITED | Newcastle $150 futures / $140-144 spot carry Day-39 | ADRO/ITMG/PTBA — EXITED 2-strike rule |
+| Nickel / Mining | FADE-DEEPENING | LME $15,547 Oct 8 Day-14+ | MDKA/ANTM/INCO/NCKL/MBMA headwind-worst-case |
+| CPO / Agri | PARTIAL-RELIEF | CPO MYR 4,398 Oct 13 Day-9 rally | AALI/LSIP 3→4 |
+| Property | PRESSURED | BI 5.75% rate + IDR >18,000 | BSDE/CTRA/SMRA/PWON — all score ≤2 |
+| Consumer | COGS-RE-ARM-REVERSAL | Brent Hormuz $91-106 band | UNVR/MYOR 6→5 reversal |
+| Telco | FADE-DIGESTION | TLKM EGM T+22 post-formal-filing | TLKM/EXCL/ISAT/MTEL/TOWR |
+| Infrastructure | SOFT | Govt spending uncertainty + cabinet-reshuffle Day-20 | JSMR/WSKT/PTPP/ADHI |
+
+### Corporate Calendar Today
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| BI RDG Day 2 outcome absorption Day 1 | ALL banks + IDX-wide | — | Oct 21 press-conf transcript not indexed at 07:00 WIB; outcome absorption continues (hold 5.75% base case; emergency measures possible) |
+| MSCI STANDALONE consultation Day T+7 | 46/50 LQ45 constituents | — | Consultation window to Apr 30 2027; final decision by Jun 30 2027 |
+| GOTO EGM T+6 disclosure | GOTO | — | Wed Oct 14 EGM proceedings past T+5 window; vacuous (no exposure) |
+| TLKM EGM T+22 post-formal-filing | TLKM | — | Pattern persistence; no fresh signal |
+| BEI Rp1 min-stock-price rule Day-23+ | Tech sector | — | GOTO/BUKA/EMTK selling pressure monitoring |
+
+### Watchlist Scan — All 50 Tickers
+
+**Scoring under triple-stack: crisis-track engagement gate ACTIVATED (0.00-0.50/5) + MSCI STANDALONE consultation Day T+7 + DQG-Day-164 structural outage. All 50 pre-blocked for new entries regardless of score. Scoring preserves intra-sector relative ranking for post-gate-DE-ACTIVATION resumption.**
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | NOT INDEXED | ~ | 5 | Big-4 anchor; multi-broker target range Rp 6,975-10,900 pre-crash stale; MSCI STANDALONE direct exposure | SKIP (crisis+MSCI+DQG) |
+| 2 | BBRI | Banking | NOT INDEXED | ~ | 6 | **Sole ≥6 candidate** — H1 +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash; consensus target Rp 3,857; BI RDG Day 2 absorption Day 1 | SKIP (crisis+MSCI+DQG) |
+| 3 | BMRI | Banking | NOT INDEXED | ~ | 5 | Target Rp 5,660-6,200 pre-crash stale; **largest foreign-net-sell Jul-Oct Rp 2.9T** = continued forced-outflow risk | SKIP |
+| 4 | BBNI | Banking | NOT INDEXED | ~ | 4 | | SKIP |
+| 5 | BNGA | Banking | NOT INDEXED | ~ | 3 | Mid-tier bank | SKIP |
+| 6 | NISP | Banking | NOT INDEXED | ~ | 3 | Mid-tier bank | SKIP |
+| 7 | BBTN | Banking | NOT INDEXED | ~ | 2 | Property-exposed bank + BI 5.75% headwind | SKIP |
+| 8 | ADRO | Coal | NOT INDEXED | ~ | 4 | Coal sector EXITED 2-strike rule (May 20 2026 scar); Newcastle $150 futures | SKIP (sector exit) |
+| 9 | ITMG | Coal | NOT INDEXED | ~ | 4 | Sector EXITED carry | SKIP (sector exit) |
+| 10 | PTBA | Coal | NOT INDEXED | ~ | 3 | Sector EXITED carry | SKIP (sector exit) |
+| 11 | BUMI | Coal | NOT INDEXED | ~ | 2 | Sector EXITED | SKIP |
+| 12 | HRUM | Coal | NOT INDEXED | ~ | 3 | Sector EXITED | SKIP |
+| 13 | MEDC | Energy/O&G | NOT INDEXED | ~ | 3 | Brent $91-106 Hormuz Day-9+ carry | SKIP |
+| 14 | PGAS | Gas/Energy | NOT INDEXED | ~ | 3 | Abadi LNG catalyst stale | SKIP |
+| 15 | ANTM | Nickel | NOT INDEXED | ~ | 2 | LME $15,547 FADE-DEEPENING Day-14+ | SKIP |
+| 16 | INCO | Nickel | NOT INDEXED | ~ | 2 | Nickel headwind-worst-case | SKIP |
+| 17 | MDKA | Nickel | NOT INDEXED | ~ | 2 | H1 laba US$102M swing-to-profit stale carry | SKIP |
+| 18 | NCKL | Nickel | NOT INDEXED | ~ | 2 | OCBC Buy Rp 1,220 pre-crash stale | SKIP |
+| 19 | MBMA | Nickel | NOT INDEXED | ~ | 2 | UBS Buy Rp 860 pre-crash stale | SKIP |
+| 20 | TINS | Metals | NOT INDEXED | ~ | 4 | H1 laba Rp 2.71T +247%; tin firmness; Jul-Oct top net-buy Rp 1.4T | SKIP |
+| 21 | UNVR | Consumer | NOT INDEXED | ~ | 4 | Brent RE-ESCALATION COGS-relief REVERSAL; H1 laba +37.7% carry | SKIP |
+| 22 | ICBP | Consumer | NOT INDEXED | ~ | 5 | Q2 core +50.6% YoY beat; input-cost peak Q4-Q1 | SKIP |
+| 23 | INDF | Consumer | NOT INDEXED | ~ | 5 | ICBP parent; sole YTD net-inflow pre-crash | SKIP |
+| 24 | MYOR | Consumer | NOT INDEXED | ~ | 4 | Brent COGS-relief REVERSAL; Q2 laba +109.3% YoY carry | SKIP |
+| 25 | SIDO | Consumer | NOT INDEXED | ~ | 4 | Herbal-defensive; dividend | SKIP |
+| 26 | TLKM | Telco | ~Rp 2,230 Thu Oct 15 pre-cascade | ~ YTD -35.92% | 4 | TLKM EGM T+22; FADE-ON-BEAT MEDIUM pattern | SKIP |
+| 27 | EXCL | Telco | NOT INDEXED | YTD -43.20% | 4 | Mirae top-pick Rp 4,300 pre-crash stale | SKIP |
+| 28 | ISAT | Telco | NOT INDEXED | YTD -11.21% | 3 | Least-bad YTD | SKIP |
+| 29 | MTEL | Tower | ~Rp 448 Thu Oct 15 | YTD -36% | 3 | H1 rev +2% YoY Rp 4.69T | SKIP |
+| 30 | TOWR | Tower | NOT INDEXED | YTD -23.42% | 3 | Rate-sensitive via debt | SKIP |
+| 31 | BSDE | Property | NOT INDEXED | ~ | 2 | IDR >18,000; 2025 laba -41.6% YoY | SKIP |
+| 32 | CTRA | Property | NOT INDEXED | ~ | 2 | IDR rate-sensitive | SKIP |
+| 33 | SMRA | Property | NOT INDEXED | ~ | 2 | 2025 laba -44.18% YoY | SKIP |
+| 34 | PWON | Property | NOT INDEXED | ~ | 2 | Best-of-sector 2026 recurring | SKIP |
+| 35 | GOTO | Tech | NOT INDEXED | ~ | 3 | EGM T+6 disclosure past-final-window; BEI Rp1 Day-23 | SKIP |
+| 36 | BUKA | Tech | NOT INDEXED | ~ | 2 | Tech-sector pressure | SKIP |
+| 37 | EMTK | Tech/Media | NOT INDEXED | ~ | 2 | Media/tech pressure | SKIP |
+| 38 | ASII | Auto/Industrial | NOT INDEXED | ~ | 4 | Interim div Rp 98; PER 6.9x PBV 0.8x; **2nd-largest foreign net-sell Jul-Oct** | SKIP |
+| 39 | UNTR | Heavy Equipment | NOT INDEXED | ~ | 4 | Interim div Rp 430 Rp 1.47T; buyback Rp 2T Day-22 active | SKIP |
+| 40 | AKRA | Distribution | NOT INDEXED | ~ | 4 | Mandiri 15-20% YoY 2026F guidance; Buy Rp 1,600 | SKIP |
+| 41 | AALI | Plantation | NOT INDEXED | ~ | 4 | CPO MYR 4,398 Oct 13 rally Day-9 partial-relief | SKIP |
+| 42 | LSIP | Plantation | NOT INDEXED | ~ | 4 | LSIP YTD +12.13% carry; CPO partial-relief | SKIP |
+| 43 | JSMR | Infrastructure | NOT INDEXED | ~ | 2 | SOE/govt-spending uncertainty | SKIP |
+| 44 | WSKT | Construction | NOT INDEXED | ~ | 1 | Debt-restructuring overhang | SKIP |
+| 45 | PTPP | Construction | NOT INDEXED | ~ | 2 | Cabinet-reshuffle Day-20 absorption | SKIP |
+| 46 | ADHI | Construction | NOT INDEXED | ~ | 2 | SOE infra | SKIP |
+| 47 | KLBF | Healthcare | NOT INDEXED | ~ | 2 | Hard-cut Jul 6 -21.16% scar; buyback window Day-35 active | SKIP |
+| 48 | MIKA | Healthcare | NOT INDEXED | ~ | 3 | Healthcare defensive | SKIP |
+| 49 | SMGR | Cement | NOT INDEXED | ~ | 2 | SOE cement; construction demand soft | SKIP |
+| 50 | INTP | Cement | NOT INDEXED | ~ | 2 | Private cement | SKIP |
+
+**Candidates scoring ≥6 (triple-stack pre-blocks ALL regardless of score):**
+- **BBRI 6 (Banking)** — H1 +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash; consensus target Rp 3,857 (23% upside pre-crash); BI RDG Day 2 absorption Day 1; carry unchanged from Wed Oct 21.
+
+### Top Candidates (score ≥ 6, deep-dive required — ALL pre-blocked)
+
+#### 1. BBRI — Big-4 banking anchor; sole ≥6 under triple-stack pre-block
+
+**Fundamental case:**
+- Thesis: Big-4 banking franchise; H1 2026 laba +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash likely compressed <1.3x post-cascade = quasi-trough.
+- Thesis: BI RDG Oct 20-21 hold 5.75% consensus base case (12/14 economists per prior survey); outcome transcript Day 1 absorption today.
+- Valuation: PBV 1.48x pre-crash; post-cascade post-reconcile <1.3x PBV estimated (10-year trough territory). Consensus 12-mo target Rp 3,857 (23% upside from Oct 6 2026 price Rp 3,140); range Rp 2,860 (Macquarie) to Rp 4,900 (Yuanta); 23 buy / 9 hold / 1 sell per Oct 6 cluster.
+- Catalyst: BI RDG Day 2 outcome absorption Day 1 (hold 5.75% base case); Q3 earnings release window Oct-Nov; Sep-26 limited-review disclosure pending.
+- Analyst view: Mixed, with JPMorgan upgraded to overweight (June 2027 target Rp 3,400); KB Valbury Rp 4,010.
+- Insider activity: Pre-crash buyback expiry absorbed clean (POST-BUYBACK-EXPIRY-CLEAN-ABSORPTION pattern 1st observation).
+
+**Technical context:**
+- Price: NOT INDEXED fresh — cluster NOT CONVERGED under DQG-Day-164
+- Trend: cascade-reset; multi-month downtrend extended; MSCI STANDALONE structural overhang ongoing
+
+**Trade plan:**
+- Entry: **PRE-BLOCKED** (crisis-track gate ACTIVATED + MSCI STANDALONE consultation + DQG structural FAIL — triple-stack)
+- No entry authorised today or until all 5 crisis-track re-entry criteria concurrent AND MSCI consultation path clarifies (consultation window to Apr 30 2027 = minimum ~6 months structural uncertainty)
+- ADV: NOT INDEXED fresh
+- Conviction: PRE-BLOCKED — not scored under crisis-track gate
+
+Source URLs:
+- https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf (MSCI STANDALONE consultation announcement Oct 15 2026)
+- https://investortrust.id/market/119472/msci-threatens-rare-standalone-demotion-as-idx-governance-woes-deepen (Investortrust MSCI 2-tier downgrade)
+- https://databoks.katadata.co.id/en/market/statistics/6ad5e4df2ca3b/ihsg-continues-to-fall-dropping-below-5000-monday-october-19-2026 (IHSG Mon Oct 19 close 4,996.61 -3.64%)
+- https://investortrust.id/market/113721/bri-bbri-kembali-jadi-primadona-saham-naik-3-86-dan-target-rp-4010 (BBRI target Rp 4,010 KB Valbury)
+- https://rri.co.id/en/business/2664084/bi-holds-bi-rate-at-575-percent-due-to-pressure-on-rupiah-and-global-uncertainty (BI Sep 2026 hold 5.75% precedent)
+
+### Held Position Updates
+
+_(none — book 100% cash since Mon Jul 6 KLBF hard-cut Day 108; 27th consecutive zero-trade week Day 4 OPEN)_
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95 + MSCI-STANDALONE-CONSULTATION-OVERLAY Day T+7 + POST-BI-RDG-Day-2 Day 1 (Wk 27 Day 4 OPEN — unprecedented structural overhang + BI binary absorption Day 1)**
+
+- Reasoning: Fri Oct 16 cascade event (IHSG -11.57% = deepest since 8 Jan 1998) consequences continue to transmit through Mon Oct 19 CONFIRMED **4,996.61 (-3.64%)** sub-5,000 break (Databoks/Katadata); Tue Oct 20 + Wed Oct 21 closes STILL PENDING = 2-day backlog carries; MSCI STANDALONE consultation Day T+7 is structural binary with default-path reclassification unless material improvements through Apr 30 2027 (6+ months structural uncertainty); BI RDG Day 2 outcome absorption Day 1 — hold 5.75% base case consensus with dovish-hold language expected. ALL 5 crisis-track re-entry criteria DEEPLY FAIL — criterion (a) IDR >18,000 Day-14+, (b) DQG cluster, (c) MSCI accessibility, (d) foreign-flow, (e) untestable at R:R level. Gate scoring 0.00-0.50/5 (persists from Wk 26 last reading). **CASCADE-SCALE-RISK-OFF-vindication PATTERN 4th observation + Fri +11.57pp DEEPEST single-session positive alpha of trial; Mon Oct 19 Day 133 provisional alpha +32.09pp carry pending saturation.**
+- Position sizing adjustment: zero (100% cash maintained; UNIVERSAL SKIP all 50 watchlist tickers).
+
+### Flagged Risks
+
+- **BI RDG Day 2 outcome absorption Day 1** — Oct 21 press-conf transcript still not indexed at 07:00 WIB; emergency measures scenario (short-selling tactical ban, FX reserves draw, verbal intervention) possible; any announcement intraday Thu could flip tape
+- **MSCI STANDALONE consultation Day T+7** — 2-tier downgrade threat unprecedented; consultation window to Apr 30 2027; final decision by Jun 30 2027; MSCI index-change FREEZE on Indonesian securities effective until further notice; forced-outflow risk ongoing
+- **Crisis-track gate FURTHER-ESCALATED persists** — IDR >18,000 Fri Oct 16 Day-14+; sub-17,750 criterion-a structurally impossible on current trajectory; 4.50-5.00/5 gap BINDING continues
+- **IHSG Tue Oct 20 + Wed Oct 21 closes STILL UNKNOWN** — 2-day accumulated reconciliation backlog pending; Mon Oct 19 CONFIRMED 4,996.61 -3.64% sub-5,000 (NEW low confirmed) = continuation of post-MSCI cascade transmission
+- **DQG-Day-164 structural outage** — yfinance 403-blocked 164 consecutive sessions since Apr 21; GoAPI unset; broker.sh paper-mode refuses stub without market-data; per-ticker cluster NOT CONVERGED pre-blocks all buy-side gate 15-check regardless of other triggers
+- **Rule changes mid-session Thu** — short-selling tactical ban, buyback incentives, trading rule changes possible; emergency measures announcement window post-BI-RDG
+- **Alpha cumulative ~+32.09pp Fri Oct 16 provisional** — ~+7pp above prior trial high water Wk 11 Day 52 reconciled +24.91%; temptation to "re-enter at the trough" is EXACTLY what crisis-track gate was codified to prevent (per MISTAKES.md 2026-07-06 KLBF root-cause)
+- **BMRI/ASII largest foreign-net-sell carry (Jul-Oct Rp 2.9T + 2.4T respectively)** — continued forced-outflow risk under MSCI consultation overlay
+- **28th consecutive zero-trade week approaching** — Day 95 since KLBF hard-cut; framework durability test continues under cascade + MSCI + BI RDG triple binary overlay
+
+### Plan for /market-open
+
+- [ ] **NO BUYS** — triple-stack: crisis-track engagement gate ACTIVATED + MSCI STANDALONE consultation overlay Day T+7 + DQG-Day-164 structural FAIL = universal pre-block all 50 tickers
+- [ ] **HOLD 100% cash** — book 0 positions, 100% cash sustained IDR 9,716,207,500 (unchanged)
+- [ ] Multi-source IHSG saturation protocol at 09:00 WIB sesi I open: verify Tue Oct 20 + Wed Oct 21 closes via Pasardana + Investortrust + Bisnis + Kontan + Katadata + CNBC Indonesia + EmitenNews cluster; Mon Oct 19 CONFIRMED 4,996.61 (Databoks)
+- [ ] IHSG open monitoring: trading halt tier 1 at -8% / tier 2 at -15% from Wed close (level pending); Mon Oct 19 sub-5,000 break confirmed = continuation watch
+- [ ] IDR Thu Jisdor fresh print monitoring; Stage 5 escalation >18,100 trigger watch
+- [ ] **BI RDG Oct 20-21 decision transcript surfacing** — Day 1 absorption continues; emergency measures (short-selling ban, FX reserves) possible announcement window Thu-Fri
+- [ ] Govt/BEI emergency measures announcement watch (post-BI-RDG window Thu-Fri)
+- [ ] GOTO EGM T+6 disclosure watch (vacuous — no exposure)
+- [ ] MSCI-BEI-OJK "pertemuan daring" confirmation watch
+- [ ] Weekly-review Fri Oct 23 scheduled (4th of 4 Wk 22 miss RE-REMOVAL path verification — Wk 27 = 4th and FULL FORMAL REMOVAL eligibility)
+- [ ] Cumulative alpha tracking: Fri Oct 16 provisional +32.09pp vs prior trial high water Wk 11 Day 52 reconciled +24.91% = ~+7pp new high water potential pending multi-source saturation
+
+---
