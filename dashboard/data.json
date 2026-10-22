@@ -36594,6 +36594,55 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-22",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking anchor; H1 +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash; consensus target Rp 3,857; BI RDG Day 2 outcome absorption Day 1 \u2014 sole \u22656 score under triple-stack pre-block.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 Day 2 outcome absorption Day 1; hold 5.75% base case consensus"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day 95 + MSCI STANDALONE consultation Day T+7 + Post-BI-RDG Day 1"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate ACTIVATED-FURTHER-ESCALATED (IDR >18,000 Day-14+); MSCI STANDALONE structural overhang 6+ months; DQG-Day-164 structural outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (triple-stack pre-block: crisis-track + MSCI + DQG \u2014 mechanical SKIP)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-164 cluster NOT CONVERGED \u2014 Tue Oct 20 + Wed Oct 21 closes PENDING; Mon Oct 19 CONFIRMED 4,996.61 Databoks"
+        }
+      ],
+      "reasoning": "Pre-blocked by three concurrent binding constraints before 15-gate evaluation: (1) crisis-track engagement gate ACTIVATED (IDR >18,000 Day-14+, 0.00-0.50/5 score vs 5/5 criteria required); (2) MSCI STANDALONE consultation overlay (46/50 LQ45 constituents exposed, 6+ months structural uncertainty through Apr 30 2027); (3) DQG-Day-164 cluster NOT CONVERGED (buy-side gate 9 cannot be evaluated procedurally).",
+      "gate_results": [
+        null,
+        null,
+        null,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -36650,41 +36699,6 @@
     "updated": "2026-10-21"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-17T00:17:27Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 18 Day 1 (IDX HOLIDAY Kemerdekaan). IHSG cluster CORRECTION Fri close 6,401.89 (+1.59%) not 6,286 (-0.25%) via 3-source; alpha revised +13.07% Wk 17 close. 50-ticker scan carry-forward. 6 candidates \u22656/10 (MYOR/ISAT/TLKM/ICBP/INDF/CTRA). Re-entry gate ~1.05/5 (+0.20pp) via IDR firming Day 2 (~35 IDR gap to sub-17,750 = closest since gate ACTIVATED) + foreign flow decay 68%. ALL BLOCKED by crisis-track gate ACTIVATED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (carry-forward IDX-closed session)"
-        },
-        {
-          "type": "research",
-          "detail": "IHSG cluster CORRECTION Fri close 6,401.89 vs prior single-source outlier 6,286"
-        },
-        {
-          "type": "research",
-          "detail": "Re-entry gate progressed ~1.05/5 (+0.20pp)"
-        },
-        {
-          "type": "research",
-          "ticker": "MYOR",
-          "detail": "score 7/10 \u2014 H1 +5.6% strongest consumer"
-        },
-        {
-          "type": "research",
-          "ticker": "ISAT",
-          "detail": "score 7/10 \u2014 Q2 +175% NI (chase-risk 2,470)"
-        },
-        {
-          "type": "research",
-          "ticker": "MIKA",
-          "detail": "upgrade-watch \u2014 Healthcare LEADS Fri all-green rally"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-17T02:16:24Z",
       "routine": "market-open",
@@ -41812,6 +41826,31 @@
       ],
       "commit_hash": "05cc44a",
       "commit_message": ""
+    },
+    {
+      "timestamp": "2026-10-22T02:18:25Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed Wk 27 Day 4 OPEN. Universal SKIP all 50 watchlist tickers (BBRI sole \u22656 pre-blocked) under triple-stack: crisis-track engagement gate ACTIVATED-FURTHER-ESCALATED (IDR >18,000 Day-14+) + MSCI STANDALONE consultation Day T+7 + DQG-Day-164 structural outage. 100% cash maintained IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "triple-stack pre-block: crisis-track gate 0.00-0.50/5 + MSCI STANDALONE + DQG-Day-164"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-164 cluster NOT CONVERGED \u2014 Tue Oct 20 + Wed Oct 21 closes PENDING; Mon Oct 19 CONFIRMED 4,996.61 Databoks sub-5,000 break"
+        },
+        {
+          "type": "warning",
+          "detail": "Crisis-track gate ACTIVATED-FURTHER-ESCALATED Day-14+ IDR >18,000"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram API proxy-403 fallback to stdout (channel-blocked persistent operating constraint)"
+        }
+      ]
     }
   ],
   "exposure": {
