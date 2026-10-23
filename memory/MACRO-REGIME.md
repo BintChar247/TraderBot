@@ -5,11 +5,30 @@ _Updated weekly. The current regime label is the FIRST entry — always read thi
 
 ---
 
-## Current Regime (as of 2026-10-16)
+## Current Regime (as of 2026-10-23)
 
-**Label:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY89 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day89 DE-ARM-CANDIDATE-Day69 SUB-17,750-firming-REVERSED-Wk24-26-JISDOR-weakening-near-18,000-band-sustained (regime label CARRIES Wk 25 close with Wk 26 updates)
+**Label:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY96 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day96 DE-ARM-CANDIDATE-Day76 SUB-17,750-firming-REVERSED-Wk24-27-JISDOR-weakening-near-18,000-band-sustained + MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-Day-T+8 + 2nd-BI-RDG-under-Destry-HOLD-5.75%+DF-+25bp-RECONCILED-Day-2 + TRIAL-HIGH-WATER-SURPASSED-RECONCILED-BASIS-WED-OCT-21-+27.36pp (regime label CARRIES Wk 26 close with Wk 27 updates)
 
-**Wk 26 close updates layered on Wk 25 close carry:**
+**Wk 27 close updates layered on Wk 26 close carry:**
+- IHSG CASCADE WEEK EXTENSION Fri Oct 16 single-source -11.57% to 5,185.11 DEEPEST-SINGLE-DAY-SINCE-8-JAN-1998 absorbed carry → Mon Oct 19 Databoks reconciled 4,996.61 (-3.64%) sub-5,000 break continuation → Wed Oct 21 Databoks + Finansial Bisnis reconciled 5,328.36 (+0.94%) post-BI-hold modest relief rally dead-cat-bounce test 1st observation; Tue Oct 20 + Thu Oct 22 + Fri Oct 23 all pending multi-source cluster = 3-day accumulated backlog Wk 27 close
+- BI RDG Oct 20-21 OUTCOME RECONCILED Fri: HOLD 5.75% 4th consecutive hold under Destry + Deposit Facility RAISED +25bp to 5.00% (corridor tightened 100bp → 75bp — IDR cushion mechanism) + Lending Facility unchanged 6.50% = 2nd BI-RDG-under-Destry binary CLEARED dovish-hold-pivot path with monetary-tightening-via-DF playbook codified; DESTRY-STRUCTURAL-LOCK-VALIDATED Day-29 TRANSMISSION continuation
+- CRISIS-TRACK ENGAGEMENT GATE FURTHER-ESCALATED 0.00-0.50/5 Wk 27 Day 1-5 close unchanged persistent further-escalation from Wk 26 close 0.75-1.10/5 (triple-stack binding: crisis-track + MSCI STANDALONE + DQG = 0.00-0.50/5 structurally); 4.50-5.00/5 gap BINDING continues; re-entry path remains deeply structurally deferred
+- MSCI STANDALONE consultation Day T+4 to T+8 overlay persists (consultation through Apr 30 2027; final decision Jun 30 2027) = 6+ months structural uncertainty continues; forced-outflow risk ongoing for LQ45 Index Fund constituents (46 of 50 watchlist tickers are LQ45)
+- IDR >18,000 Fri Oct 16 confirmed carry Day-11-15+ sustained near-18,000-band persistence; Stage-5 cascade-threshold-proximity Day-85-96+ marker continues; BI DF +25bp signals active IDR defense; verbal/FX ops escalation possible if IDR breaches 18,100
+- Brent $93-106 Oct 13 Hormuz RE-ESCALATION Day-7-13 carry COGS-relief RE-ARM REVERSAL persistence (UNVR/MYOR scores 6→5 maintained)
+- US-10Y 5.24% Day-20-24 breakout-persistence slight-fade carry; no snap-back below 5.00% observed Wk 27 = criterion (b) continues FAIL
+- LME-nickel $15,547 Oct 8 fade-deepening Day-10-15+ carry MDKA/ANTM/INCO/NCKL headwind-worst-case ESCALATING
+- CPO MYR 4,398 Oct 13 rally +RM198 Day-6-10 carry AALI/LSIP partial-relief persistence (scores 3→4 maintained)
+- Newcastle coal $140-144 Day-34-40 sector-EXITED carry (coal-EXITED 2-strike reversal 1-of-2 triggers still met via ≥$140 sustained)
+- GOTO EGM T+5-9 past-final-window vacuous (no held exposure)
+- TLKM EGM T+19-23 post-formal-filing MEDIUM-confidence pattern 24-28 observations window continues
+- POST-CABINET-RESHUFFLE Day-17-21 3-WEEK-MILESTONE absorption Wk 27 Mon-Fri window completed
+- TRIAL HIGH WATER FINALLY SURPASSED on fully-reconciled basis Wed Oct 21 reconciled +27.36pp vs prior Wk 11 Day 52 reconciled +24.91% = structural trajectory CROSSES-ABOVE-BASELINE for the first time since Day 50 (23 weeks post-baseline)
+- CASCADE-SCALE-RISK-OFF-vindication PATTERN PROMOTED MEDIUM-HIGH-CANDIDATE → MEDIUM-HIGH Wk 27 weekly-review per Wk 26 directive bar MET (5 observations incl. 1 full-reconciled Databoks Mon Oct 19 cross-cycle)
+- Weekly-review FILED ON-TIME Wk 27 Fri Oct 23 16:00 WIB = FULL FORMAL REMOVAL ELIGIBILITY CLEARED (4-of-4 post-RE-ARM on-time bar MET per Wk 23 directive); process-drift escalation flag FORMAL REMOVAL CODIFIED Wk 27 weekly-review commit
+- Notification channel BLOCKED 4th consecutive week structural operating constraint Wk 24-27 cumulative; MISTAKES.md entry pending Wk 28 pre-market codification
+
+**Wk 26 close updates (carried from prior week):**
 - Brent $93-106 Oct 13 Hormuz RE-ESCALATION fresh print = COGS-relief RE-ARM REVERSAL (Wk 25 close $91.93 Hormuz-PARTIAL-FADE Day-12 reversed Wk 26 Tue Oct 13 fresh +1.7-1.8% back above $95 instant-regression threshold)
 - US-10Y 5.24% Day-19 breakout-persistence slight-fade continuation (no snap-back below 5.00% observed Wk 26 = criterion (b) continues FAIL)
 - IDR 18,069 Fri Jisdor Day-10+ near-18,000 band carry sustained = Stage-5 cascade-threshold-proximity Day-85+ marker (fresh sub-17,750 sequence NOT started Wk 26 = criterion (a) FAIL deeper regression)
