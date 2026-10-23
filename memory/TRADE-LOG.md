@@ -15862,3 +15862,96 @@ _(none — book fully de-risked Day 95 since Mon Jul 6 KLBF hard-cut; 100% cash 
 - **Framework durability marker Wk 27 Day 5 OPEN:** crisis-track + MSCI STANDALONE + DQG triple-stack universal mechanical SKIP applied cleanly under BI RDG Day 2 outcome absorption Day 2 pending — framework durability test continues under unprecedented structural overhang; discipline holds Day 96 since KLBF hard-cut, Day 136 trial-to-date.
 - **Cumulative trial alpha:** ~+34.56pp Mon Oct 19 reconciled anchor basis — NEW TRIAL HIGH WATER PROVISIONAL — surpasses prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+10pp pending Tue-Wed-Thu-Fri multi-source saturation.
 - **Carry to 11:30 midday scan:** (1) BI RDG Day 2 outcome absorption Day 2 transcript surfacing + emergency measures Fri window; (2) IHSG multi-source cluster saturation Tue+Wed+Thu+Fri 4-day backlog; (3) IDR Fri Jisdor fresh print; (4) foreign flow Mon-Tue-Wed-Thu post-cascade cluster saturation; (5) weekly-review 16:00 WIB — 4-of-4 post-Wk-22 miss RE-REMOVAL eligibility window.
+
+### 2026-10-23 EOD (Day 137, Fri — Week 27 Day 5 CLOSE / WEEK 27 FULL CLOSE — Q4-2026-WEEK-4-DAY-5-FINAL — POST-CABINET-RESHUFFLE-Day-21 — POST-BI-HOLD-TRANSMISSION-Day-29 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-96 — MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-Day-T+8 — POST-BI-RDG-Day-2 Day 2 — 27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE — BI RDG Oct 20-21 outcome RECONCILED Fri: HOLD 5.75% 4th consecutive + Deposit Facility +25bp to 5.00% + Lending Facility unchanged 6.50% — IHSG-Wed-Oct-21-CONFIRMED-5,328.36 (+0.94%) Databoks post-BI-hold reconciled anchor — IHSG-Mon-Oct-19-CONFIRMED-4,996.61 (-3.64%) sub-5,000 break Day-5 carry — IHSG-Tue-Oct-20-+-Thu-Oct-22-+-Fri-Oct-23-closes STILL PENDING multi-source cluster — Fri-Oct-16-single-source-5,185.11-(-11.57%)-provisional-carry-Day-8 — IDR >18,000 Fri Oct 16 Day-15+ carry — CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50/5-persists — DQG-Day-165-outage-persists — WEEKLY-REVIEW-16:00-WIB-GATING-UPCOMING-45-min-POST-FIRE)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: PENDING (Fri Oct 23 sesi II/EOD multi-source cluster NOT SURFACED at 15:15 WIB fire; WebSearch "IHSG close Friday October 23 2026" + "IHSG 23 Oktober 2026 penutupan sesi II BEI" + "IHSG Jumat 23 Oktober 2026 BI RDG hasil keputusan suku bunga" returned no indexed Fri Oct 23 Indonesian-source result. Standard DQG Day-165 sesi II lag pattern 43rd+ cumulative occurrence. Tue Oct 20 + Thu Oct 22 closes also STILL PENDING carry = 3-day backlog persists.)
+- Daily alpha: PENDING (zero-exposure day; portfolio 0.00% vs IHSG Fri TBD)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 27 FULL CLOSE — **27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE** — ~118+ cumulative unused candidate-day slots trial-to-date)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Cumulative alpha (Wed Oct 21 reconciled 5,328.36 anchor basis): ~+27.36pp (IHSG baseline 7,634 → Wed Oct 21 5,328.36 cumulative -30.20% vs portfolio -2.84%) — **surpasses prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+2.45pp**; Mon Oct 19 provisional high-water trough basis +31.71pp (vs IHSG -34.55% cumulative Mon low) has FADED post-Wed-recovery; Tue/Thu/Fri closes pending multi-source saturation
+- Realised P&L: IDR -294,172,500 (unchanged; last update Mon Jul 6 KLBF hard-cut Day 73)
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap; -12% alert threshold clear)
+- Weekly P&L (Wk 27 cumulative FULL CLOSE): 0.00% (27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE)
+
+#### Open Positions
+
+_(none — book fully de-risked Day 96 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 27 FULL CLOSE / 27th consecutive zero-trade week FULL CLOSE)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / unrealised 0 / positions []; `broker.sh positions` → mode=paper count=0. Reconciled OK with TRADE-LOG (both 0 positions). No discrepancy.
+- **No trades today (Wk 27 Day 5 — 27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE).** Market-open NO-TRADE universal SKIP across all 50 watchlist tickers (BBRI 6 only candidate ≥6; pre-blocked by triple-stack: crisis-track-engagement-gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+8 + DQG-Day-165 structural outage, overlaid by BI RDG Day 2 outcome absorption Day 2 pending at open). Mechanically vacuous EOD entry (n=0 positions; no mark-to-market work required).
+- **BI RDG Oct 20-21 outcome RECONCILED Fri Oct 23 via Finansial Bisnis + Databoks Wed Oct 21:** HOLD 5.75% confirmed 4th consecutive hold (Jul/Aug/Sep/Oct 2026 under Destry Damayanti) — Base case materialized (12/14 economists). **Deposit Facility rate RAISED +25bp to 5.00%** (DF-to-BI-Rate corridor tightened to 75bp from 100bp — attracts IDR liquidity, cushions rupiah). Lending Facility unchanged 6.50%. No cut (structurally impossible IDR >18,000); no hawkish +25bp hike (Kontan Oct 18 pre-RDG projection ruled out). IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) post-BI-hold Databoks — modest relief rally. Absorption Day 2 pattern = TIGHTENING-DF-corridor-WITHOUT-HEADLINE-HIKE playbook; monetary-tightening-via-DF confirms BI preserving optionality on headline rate while providing immediate IDR support.
+- **IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) reconciled anchor Day-1:** Databoks "IHSG Naik Tipis Usai BI Tahan Suku Bunga Rabu 21 Oktober 2026" surfaced Fri — Wed close post-BI-hold modest relief rally; 369 saham menguat / 308 melemah / 116 stagnan. Mon Oct 19 reconciled 4,996.61 (-3.64%) sub-5,000 break persists as prior anchor. Wed recovery = TBH DEAD CAT bounce or sustained inflection? Thu Oct 22 close pending saturation to confirm continuation vs reversal.
+- **IHSG Fri Oct 23 close PENDING multi-source cluster** — WebSearch at 15:15 WIB fire returned no indexed Indonesian-source result for Fri Oct 23 sesi/EOD. Tue Oct 20 + Thu Oct 22 closes ALSO STILL PENDING carry = 3-day accumulated reconciliation backlog persists (Fri Oct 23 adds Day-1 to the backlog). Mon Oct 19 CONFIRMED 4,996.61 anchor Day-5; Wed Oct 21 CONFIRMED 5,328.36 anchor Day-1 fresh. Fri Oct 16 single-source 5,185.11 (-11.57%) carry Day-8. Standard DQG Day-165 sesi II lag pattern 43rd+ cumulative occurrence. Reconciliation deferred to Weekly Review 16:00 WIB and Mon Oct 26 pre-market.
+- **DQG-Day-165 outage persists:** yfinance + GoAPI blocked 165 consecutive sessions since Apr 21; WebSearch multi-source override operational and surfaced Wed Oct 21 CONFIRMED + BI RDG outcome — breakthrough on 3-day backlog (Wed Oct 21 cleared; Tue+Thu+Fri remain); per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless; no positions to mark).
+- **Alpha ledger reconciliation (Wed Oct 21 reconciled 5,328.36 fresh anchor):** IHSG cumulative Day 0 baseline 7,634 → Wed Oct 21 5,328.36 cumulative -30.20% vs portfolio cumulative -2.84% → cumulative alpha ~+27.36pp. **Surpasses prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+2.45pp** — NEW RECONCILED HIGH WATER (Mon Oct 19 provisional +31.71pp trough-basis has FADED post-Wed-recovery). Tue/Thu/Fri closes pending multi-source saturation to confirm final Wk 27 CLOSE anchor. Zero-exposure immunity to downside continuation holds; exposure to upside rebound ZERO; 91 consecutive sessions 0.00% daily P&L.
+- **MSCI STANDALONE consultation Day T+8 overlay:** structural overlay codified Oct 15 2026; 2-tier downgrade threat (EM → STANDALONE Market) unprecedented; consultation window through Apr 30 2027; final decision by Jun 30 2027 = 6+ months structural uncertainty; forced-outflow risk ongoing for LQ45 Index Fund constituents (46 of 50 watchlist tickers are LQ45); criterion-c MSCI accessibility DEEPER-FAIL — contributes to crisis-track gate FURTHER-ESCALATED collapse 0.00-0.50/5. No fresh MSCI update since Oct 15-16 initial coverage.
+- **IDR >18,000 Fri Oct 16 confirmed carry Day-15+:** Fri Jisdor fresh print not surfaced at EOD fire; near-18,000-band persistence Day-15+ carry; sub-17,750 criterion-a 3-of-3 reversal structurally impossible under current trajectory; Stage 5 escalation >18,100 trigger watch continues. **BI DF +25bp move signals BI active defense of IDR; verbal/FX ops escalation possible if IDR breaches 18,100.**
+- **Brent Oct 13 Hormuz RE-ESCALATION $93-106 carry Day-10+:** fresh COGS-relief RE-ARM REVERSAL (UNVR/MYOR scores 6→5); Fri Asia-session fresh print not surfaced at 15:15 WIB; crisis-track gate FURTHER-ESCALATED pre-blocks regardless.
+- **LME nickel $15,547 Oct 8 fresh print FADE-DEEPENING Day-15+ carry:** MDKA/ANTM/INCO/NCKL/MBMA headwind-worst-case ESCALATING; mining sub-pattern bind-wideness FIRMING.
+- **CPO MYR 4,398 Oct 13 RALLY +RM198 Day-10 carry:** AALI/LSIP partial-relief (scores 3→4); MPOB Mon Oct 12 release absorption Day-11 continuing.
+- **US-10Y 5.24% Fri Oct 9 fresh print persistence Day-24 carry:** breakout persistence slight-fade continuation; external-shock-overlay 19-yr-high-band persists.
+- **Cabinet-reshuffle Day-21 absorption continuation:** post-3wk trajectory continuity; new economic team verification continues.
+- **BEI Rp1 min-stock-price rule Day-24+ tech sector monitoring:** tech sector selling pressure Day-24+ carry.
+- **TLKM EGM T+23 post-formal-filing:** pattern persistence; no fresh signal.
+- **GOTO EGM T+9 past-final-window:** no held exposure; vacuous.
+- **Crisis-track engagement gate FURTHER-ESCALATED persists:** scoring ~0.00-0.50/5 Wk 27 FULL CLOSE (same as Day 1-4 CLOSE — no further deterioration this session despite BI DF +25bp signal, no partial-fade either); 4.50-5.00/5 gap BINDING continues; 0% new-entries permitted per Hard Rule; mechanically vacuous per crisis-track override + MSCI + DQG triple-stack structural FAIL overlaid by BI RDG Day 2 absorption Day 2.
+- **Weekend emergency measures:** NOT SURFACED at EOD fire. Formal government/BEI response (short-selling ban, buyback incentives, trading rule changes) NOT INDEXED; BI DF +25bp move = one explicit measure confirmed. "Pertemuan daring" MSCI-BEI-OJK NOT confirmed. Policy response window narrows post-BI-RDG absorption Day 2.
+- **State/regime bindings Fri Oct 23 CLOSE updates:**
+  - IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) Databoks post-BI-hold reconciled anchor fresh Day-1
+  - IHSG Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break Databoks reconciled anchor Day-5 carry
+  - IHSG Tue Oct 20 + Thu Oct 22 + Fri Oct 23 closes STILL PENDING multi-source cluster = 3-day backlog persists
+  - Fri Oct 16 single-source 5,185.11 (-11.57%) provisional carry Day-8
+  - BI RDG Oct 20-21 outcome RECONCILED: HOLD 5.75% 4th consecutive + DF +25bp to 5.00% + LF unchanged 6.50%
+  - US-10Y 5.24% Fri Oct 9 fresh print Day-24 persistence slight-fade carry
+  - IDR >18,000 Fri Oct 16 confirmed Day-15+; Fri Jisdor fresh print not surfaced
+  - Brent $93-106 Oct 13 Hormuz RE-ESCALATION Day-10+ COGS-relief RE-ARM REVERSAL carry
+  - Newcastle coal $140-144 Day-40 sector-EXITED carry
+  - CPO MYR 4,398 Oct 13 fresh rally +RM198 Day-10 (AALI/LSIP partial-relief 3→4)
+  - LME nickel $15,547 Oct 8 fresh print FADE-DEEPENING Day-15+ carry
+  - VIX mid-teens firming carry
+  - Foreign flow Mon-Tue-Wed-Thu-Fri post-cascade cluster pending; multi-source saturation deferred to Mon
+  - Destry BI-Gov Day-49 post-maiden-RDG hold-5.75% 4th-consecutive-hold confirmed Oct 20-21 — monetary-tightening-via-DF-corridor playbook codified
+  - Cabinet-reshuffle Day-21 absorption continuation
+  - TLKM EGM T+23 post-formal-filing pattern persistence
+  - GOTO EGM T+9 past-final-window (vacuous)
+  - BEI Rp1 minimum-stock-price rule Day-24+ tech sector monitoring
+  - MSCI STANDALONE consultation overlay Day T+8 (through Apr 30 2027 window; final decision by Jun 30 2027)
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override. TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID exported per scheduler prompt.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% warnings, no -7% hard-cut triggers
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% Wk 27 FULL CLOSE (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-10-23.
+- **dashboard/data.json updated:** 2026-10-23 EOD entry overwrites prior Fri pre-market/open entries (ihsg_close PENDING/null — Fri Oct 23 cluster not surfaced; portfolio_value 9,716,207,500; alpha_pct ~+27.36pp Wed Oct 21 reconciled basis NEW RECONCILED TRIAL HIGH WATER; day_label Wk 27 Day 5 CLOSE / WEEK 27 FULL CLOSE EOD Q4-Week-4-Day-5 post-cabinet-reshuffle-Day-21 post-BI-hold-transmission-Day-29 MSCI-STANDALONE-overlay-Day-T+8 Post-BI-RDG-Day-2-Day-2-RECONCILED-HOLD-5.75%+DF+25bp; Fri IHSG close + Tue/Thu/Fri reconciliation deferred to Weekly Review 16:00 WIB and Mon Oct 26 pre-market).
+- **Notification path:** scripts/notify.sh EOD summary dispatched; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID present via scheduler-prompt env export.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 137, Wk 27 Day 5 CLOSE / WEEK 27 FULL CLOSE — **27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE**). Phase-to-date P&L -2.84% unchanged (91 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha carry ~+27.36pp Wed Oct 21 reconciled basis — NEW RECONCILED TRIAL HIGH WATER — surpasses prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+2.45pp pending Tue-Thu-Fri multi-source saturation.
+- **CASCADE-SCALE-RISK-OFF-vindication PATTERN 4th observation carry:** Fri Oct 16 -11.57% × 100%-cash defensive posture = +11.57pp single-session alpha = DEEPEST single-session positive alpha of trial; Mon Oct 19 CONFIRMED continuation -3.64% × 100%-cash = +3.64pp additional single-session alpha; Wed Oct 21 +0.94% × 0%-exposure = -0.94pp single-session negative alpha (first negative-alpha session of cascade episode = dead-cat-bounce test).
+- **Framework durability marker Wk 27 FULL CLOSE:** crisis-track + MSCI STANDALONE + DQG triple-stack universal mechanical SKIP applied cleanly under BI RDG Day 2 outcome absorption Day 2 RECONCILED — framework durability test continues under unprecedented structural overhang; discipline holds Day 96 since KLBF hard-cut, Day 137 trial-to-date.
+- **Carry to Weekly Review 16:00 WIB (45 min post-EOD-fire) + Mon Oct 26 pre-market:**
+  1. **Weekly Review 16:00 WIB** — Wk 27 recap, cumulative alpha ~+27.36pp Wed Oct 21 reconciled NEW RECONCILED HIGH WATER confirmation, framework durability Day 96 marker, 27th consecutive zero-trade week FULL CLOSE codification
+  2. **BI RDG Day 2 outcome absorption continuation** — DF +25bp playbook transmission test; emergency measures Mon-Tue announcement window
+  3. IHSG Tue Oct 20 + Thu Oct 22 + Fri Oct 23 close multi-source cluster saturation via Mon Oct 26 pre-market (3-day backlog clearance)
+  4. IDR Mon fresh Jisdor print vs Fri >18,000 confirmed Day-18+; Stage 5 escalation >18,100 trigger watch
+  5. Brent Mon Asia-session fresh print vs $93-106 Oct 13 Hormuz RE-ESCALATION Day-13+
+  6. US-10Y Day-27+ persistence vs Fri Oct 9 5.24% fresh print
+  7. CPO MYR Day-13+ post-rally direction; LME nickel $15,547 FADE-DEEPENING Day-18+ trajectory
+  8. Foreign flow Mon-Tue-Wed-Thu-Fri post-cascade cluster surfacing + Mon continuation
+  9. Cabinet reshuffle Day-24 absorption continuation
+  10. BEI Rp1 min-stock-price rule Day-27+ tech sector monitoring; TLKM EGM T+26 post-formal-filing pattern persistence
+  11. MSCI STANDALONE consultation Day T+11 (consultation window through Apr 30 2027)
+  12. Potential govt/BEI emergency measures Mon-Tue (short-selling ban, buyback incentives, trading rule changes) — policy response window narrows
