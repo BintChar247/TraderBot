@@ -2193,6 +2193,36 @@
       "top_candidate_score": 6,
       "trade_plan": "NO BUYS - triple-stack pre-block universal SKIP all 50 tickers; HOLD 100% cash",
       "eod_note": "EOD Thu Oct 22. Equity unchanged IDR 9,716,207,500 (90th consecutive 0.00% daily P&L session Day 95 since Jul 6 KLBF hard-cut). Zero exposure Day 95; 100% cash; 27th consecutive zero-trade week Day 4 CLOSE. Risk alerts: NONE. Daily P&L 0.00% >-2% cap; DD -3.10% within -15% cap; Weekly P&L 0.00% within -5% cap; no halt flags."
+    },
+    {
+      "date": "2026-10-23",
+      "day_label": "Day 137 \u2014 Wk 27 Day 5 OPEN \u2014 PRE-MARKET \u2014 27th consecutive zero-trade week Day 5 OPEN \u2014 Q4-Week-4-Day-5 \u2014 Post-cabinet-reshuffle Day 21 \u2014 Post-BI-hold-transmission Day 29 \u2014 Defensive-intensified-cascade-inflection-confirmed Day 96 \u2014 MSCI STANDALONE consultation overlay Day T+8 \u2014 Post-BI-RDG-Day-2 Day 2 (outcome absorption continues \u2014 press-conf transcript STILL NOT INDEXED at 07:00 WIB pre-market fire; MATERIAL hawkish-25bp-hike risk per Kontan Oct 18 pre-RDG projection) \u2014 IHSG Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break anchor Day-5; Tue Oct 20 + Wed Oct 21 + Thu Oct 22 closes STILL PENDING multi-source = 3-day backlog persists \u2014 DQG-Day-165 outage persists \u2014 Weekly-review Fri 16:00 WIB 4-of-4 FULL FORMAL REMOVAL eligibility window",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -34.56,
+      "ihsg_close_note": "Fri Oct 23 pre-market fire. Mon Oct 19 close CONFIRMED 4,996.61 (-3.64%) via Databoks/Katadata sub-5,000 break anchor Day-5; Tue Oct 20 + Wed Oct 21 + Thu Oct 22 closes STILL PENDING multi-source cluster = 3-day backlog persists into Fri sesi I window. Fri Oct 16 single-source EmitenNews/CNBC Indonesia 5,185.11 (-11.57%) carry Day-8. IHSG cumulative Day 0 baseline 7,634 -> Mon Oct 19 4,996.61 = -34.56% cumulative (Mon reconciled anchor; Tue-Wed-Thu pending). DQG-Day-165 standard sesi II lag 43rd+ cumulative occurrence. Multi-source saturation protocol deferred to Fri 09:00 WIB sesi I open.",
+      "alpha_pct": 34.56,
+      "alpha_note": "Cumulative alpha ~+34.56pp Mon Oct 19 reconciled anchor basis (IHSG baseline 7,634 -> Mon 4,996.61 cumulative -34.56% vs portfolio -2.84%). NEW TRIAL HIGH WATER PROVISIONAL \u2014 surpasses Fri Oct 16 provisional +32.09pp by ~+2.5pp and prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+10pp pending Tue-Wed-Thu-Fri multi-source saturation. Zero-exposure immunity to downside continues through 91st consecutive session with 0.00% daily P&L since Jul 6 KLBF hard-cut.",
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY96-Wk27-Day5-OPEN-PRE-MARKET-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-5-OPEN-Q4-2026-WEEK-4-DAY-5-POST-CABINET-RESHUFFLE-DAY-21-POST-BI-HOLD-TRANSMISSION-DAY-29-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+8-POST-BI-RDG-DAY-2-DAY-2-OUTCOME-ABSORPTION-STILL-PENDING-07:00-WIB-FIRE-MATERIAL-HAWKISH-25BP-HIKE-RISK-KONTAN-PRE-RDG-PROJECTION-IHSG-MON-OCT-19-CONFIRMED-4996-SUB-5000-BREAK-TUE-WED-THU-CLOSES-STILL-PENDING-MULTI-SOURCE-DQG-DAY-165-OUTAGE-PERSISTS-WEEKLY-REVIEW-FRI-FULL-FORMAL-REMOVAL-WINDOW",
+      "bi_rdg_note": "BI RDG Day 2 outcome absorption Day 2 (Fri Oct 23 pre-market). Oct 21 press-conf transcript STILL NOT INDEXED at 07:00 WIB fire \u2014 WebSearch 'BI Rate decision October 21 2026 RDG result' + 'BI rate hike 25 basis points October 21 2026' returned no Oct 21 2026-specific indexed result; Kontan Oct 18 pre-RDG projection flagged +25bp hike to 6% (previously ruled out as improbable) \u2014 MATERIAL hawkish-pivot risk. Transcript + emergency measures announcement window Fri AM/PM. Cut structurally impossible at IDR >18,000.",
+      "msci_note": "MSCI STANDALONE consultation Day T+8. Oct 15 2026 announcement confirmed consultation window to Apr 30 2027; final decision by Jun 30 2027. Default-path reclassification to STANDALONE unless 'clear evidence of material improvements in market governance and functioning'. MSCI continues applying FREEZE on index-related changes for Indonesian securities until further notice. 46 of 50 watchlist tickers are LQ45 = direct passive-flow exposure. No fresh update since Oct 15-16 initial coverage.",
+      "notes": "Pre-market Fri Oct 23 Wk 27 Day 5 OPEN - 27th consecutive zero-trade week Day 5 OPEN. BI RDG Day 2 outcome absorption Day 2 (press-conf transcript still not indexed at 07:00 WIB; Kontan pre-RDG projection flagged hawkish +25bp risk). MSCI STANDALONE consultation Day T+8. IHSG Mon Oct 19 CONFIRMED 4,996.61 -3.64% sub-5,000 anchor Day-5; Tue+Wed+Thu STILL PENDING 3-day backlog. Alpha +34.56pp Mon reconciled basis = NEW TRIAL HIGH WATER PROVISIONAL pending Tue-Wed-Thu-Fri saturation. Crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE + DQG-Day-165 triple-stack + BI RDG Day 2 absorption Day 2 pending = universal SKIP all 50 watchlist tickers. BBRI 6 sole candidate >=6 pre-blocked. Book 100% cash maintained IDR 9,716,207,500; 90 consecutive 0.00% daily-P&L sessions since Jul 6 KLBF hard-cut. GOTO EGM T+9 past-final-window (vacuous). Weekly-review Fri 16:00 WIB - 4th of 4 Wk 22 miss RE-REMOVAL = FULL FORMAL REMOVAL eligibility window. Risk alerts: NONE (no positions; daily/weekly P&L 0.00%; DD -3.10% within caps). Framework durability Day 96 since KLBF hard-cut, Day 137 trial-to-date.",
+      "research_queries_run": 14,
+      "watchlist_scanned": 50,
+      "candidates_scored_ge_6": 1,
+      "candidates_pre_blocked": 1,
+      "top_candidate": "BBRI",
+      "top_candidate_score": 6,
+      "trade_plan": "NO BUYS - triple-stack pre-block + BI RDG Day 2 absorption Day 2 pending; universal SKIP all 50 tickers; HOLD 100% cash",
+      "pre_market_note": "Pre-market Fri Oct 23 fire 07:00 WIB. 14 WebSearch queries run across 6-tier research protocol: Tier-1 global overnight (S&P/Nasdaq/Dow/VIX Thu Oct 22 close NOT INDEXED), Tier-2 flow (foreign cluster Mon-Thu NOT INDEXED), Tier-3 corporate calendar (BI RDG Day 2 outcome absorption Day 2 transcript NOT INDEXED; Kontan pre-RDG hawkish +25bp projection carry), Tier-4 watchlist 50-ticker scan (all PENDING under DQG-Day-165; BBRI 6 sole candidate >=6 pre-blocked), Tier-5 sentiment (MSCI STANDALONE Day T+8 structural overhang), Tier-6 technical (per-ticker cluster NOT CONVERGED). yfinance 403-blocked 165 consecutive sessions since Apr 21; GoAPI unset. Multi-source saturation protocol deferred to 09:00 WIB sesi I open."
     }
   ],
   "positions": [],
@@ -36701,37 +36731,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-18T00:10:51Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk18 Day2 (Tue post-holiday). 50-ticker scan complete. 7 candidates \u22656 (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + MIKA upgrade-candidate). All gate-blocked. Crisis-track gate ~1.10/5 provisional; IDR sub-17,750 target ~50-80 IDR gap = closest since gate activated. IHSG Fri corrected 6,401.89 (+1.59%).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker watchlist scanned"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "MIKA",
-          "detail": "upgrade-candidate 5\u21926 Healthcare-defensive-lead Fri"
-        },
-        {
-          "type": "research",
-          "ticker": "TLKM",
-          "detail": "score 6/10 Q2 EBITDA BEAT Day 7 (Gate-9 chase-fail near 2740)"
-        },
-        {
-          "type": "research",
-          "ticker": "ICBP",
-          "detail": "score 6/10 Q2 core +50.6% YoY"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-18T02:17:37Z",
       "routine": "market-open",
       "status": "warning",
@@ -41840,6 +41839,35 @@
           "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (3-day backlog restored); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-23T00:07:40Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Fri Oct 23 Wk 27 Day 5 OPEN. 50-ticker scan under triple-stack binding (crisis-track FURTHER-ESCALATED + MSCI STANDALONE Day T+8 + DQG-Day-165) + BI RDG Day 2 absorption Day 2 pending. 1 candidate scored >=6 (BBRI 6) pre-blocked. Universal SKIP. 100% cash maintained IDR 9.716B. Alpha +34.56pp Mon Oct 19 reconciled anchor basis = NEW TRIAL HIGH WATER PROVISIONAL.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 watchlist tickers scanned under DQG-Day-165 structural outage"
+        },
+        {
+          "type": "research",
+          "detail": "1 candidate scored >=6 (BBRI) pre-blocked under crisis-track+MSCI+DQG triple-stack + BI RDG Day 2 absorption Day 2 pending"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 PRE-BLOCKED - BI RDG transcript not indexed, MSCI STANDALONE Day T+8 overhang"
+        },
+        {
+          "type": "research",
+          "detail": "BI RDG Oct 20-21 Day 2 outcome absorption Day 2 - press-conf transcript NOT INDEXED; Kontan Oct 18 pre-RDG projection flagged MATERIAL hawkish +25bp hike risk"
+        },
+        {
+          "type": "research",
+          "detail": "IHSG 3-day backlog persists Tue Oct 20 + Wed Oct 21 + Thu Oct 22 - multi-source saturation deferred to Fri 09:00 WIB sesi I open"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -41879,7 +41907,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-22T15:15:19+07:00",
+  "last_updated": "2026-10-23T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
