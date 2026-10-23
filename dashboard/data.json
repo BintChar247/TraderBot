@@ -36674,6 +36674,55 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-23",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking anchor; H1 +17.5% YoY; PBV 1.48x pre-crash <1.3x post-cascade estimated; consensus Rp 3,857 target; sole \u22656 scored candidate under triple-stack pre-block + BI RDG Day 2 outcome absorption Day 2 pending.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 Day 2 outcome absorption Day 2; press-conf transcript pending; hawkish 25bp hike risk per Kontan pre-RDG"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day 96 + MSCI STANDALONE consultation Day T+8 + Post-BI-RDG Day 2 absorption Day 2"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate ACTIVATED-FURTHER-ESCALATED (IDR >18,000 Day-15+, 0.00-0.50/5 vs 5/5 required); MSCI STANDALONE structural overhang 6+ months; DQG-Day-165 structural outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (triple-stack pre-block: crisis-track + MSCI + DQG = mechanical SKIP + BI RDG Day 2 absorption Day 2 overlay)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-165 cluster NOT CONVERGED; Tue-Wed-Thu closes PENDING; Mon Oct 19 CONFIRMED 4,996.61 Databoks anchor Day-5"
+        }
+      ],
+      "reasoning": "Pre-blocked by three concurrent binding constraints before 15-gate evaluation: (1) crisis-track engagement gate FURTHER-ESCALATED (IDR >18,000 Day-15+, 4.50-5.00/5 gap BINDING); (2) MSCI STANDALONE consultation overlay (46/50 LQ45 exposed, 6+ months uncertainty through Apr 30 2027); (3) DQG-Day-165 cluster NOT CONVERGED (yfinance 403-blocked 165 sessions; GoAPI unset; broker.sh paper refuses stub). BI RDG Day 2 outcome absorption Day 2 overlays with hawkish 25bp hike risk per Kontan pre-RDG projection. Any one would gate-fail; combined pre-block eliminates evaluation.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -36730,53 +36779,6 @@
     "updated": "2026-10-21"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-18T02:17:37Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 18 Day 2 Tue post-holiday first live session: No trades placed. All 7 candidates \u22656/10 (ICBP/INDF/MYOR/TLKM/ISAT/CTRA + upgrade-candidate MIKA) blocked by CRISIS-TRACK-ENGAGEMENT-GATE ACTIVATED (~1.10-1.15/5, 3.85-3.90/5 gap binding). 38th consecutive session no-position; Day 38 book fully de-risked since Jul 6 KLBF cut. DQG Day 108 outage persists; IDR firming Day 3 closest-to-sub-17,750 target since gate activated (~50-80 IDR gap).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "crisis-track gate + upgrade-candidate needs Tue Day 2 confirmation"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track gate + Gate-9 chase-fail near 2,740 ceiling"
-        },
-        {
-          "type": "skip",
-          "ticker": "ISAT",
-          "detail": "crisis-track gate + Gate-9 chase-fail 2,470 vs entry 1,880-2,020"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 108 outage persists \u2014 yfinance+GoAPI blocked; per-ticker cluster narrowing required for any entry"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-18T04:36:48Z",
       "routine": "midday",
@@ -41866,6 +41868,36 @@
         {
           "type": "research",
           "detail": "IHSG 3-day backlog persists Tue Oct 20 + Wed Oct 21 + Thu Oct 22 - multi-source saturation deferred to Fri 09:00 WIB sesi I open"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-23T02:18:32Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 27th consecutive zero-trade week Day 5 OPEN. Universal SKIP all 50 tickers under triple-stack pre-block (crisis-track engagement gate FURTHER-ESCALATED + MSCI STANDALONE consultation Day T+8 + DQG-Day-165 structural outage) + BI RDG Day 2 outcome absorption Day 2 pending.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "sole score-6 candidate pre-blocked under triple-stack + BI RDG Day 2 absorption"
+        },
+        {
+          "type": "skip",
+          "ticker": "UNIVERSAL",
+          "detail": "50/50 watchlist tickers mechanical SKIP"
+        },
+        {
+          "type": "warning",
+          "detail": "BI RDG Day 2 outcome absorption Day 2 pending \u2014 hawkish 25bp hike risk per Kontan pre-RDG"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI STANDALONE consultation Day T+8 structural overhang through Apr 30 2027"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-165 cluster NOT CONVERGED; yfinance 403-blocked 165 sessions"
         }
       ]
     }
