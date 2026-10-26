@@ -2215,6 +2215,35 @@
       "bi_rdg_note": "BI RDG Oct 20-21 outcome RECONCILED Fri Oct 23 via Finansial Bisnis + Databoks Wed Oct 21: HOLD 5.75% confirmed 4th consecutive hold (Jul/Aug/Sep/Oct 2026 under Destry Damayanti) \u2014 base case materialized. Deposit Facility rate RAISED +25bp to 5.00% (DF-to-BI-Rate corridor tightened 100bp\u219275bp \u2014 attracts IDR liquidity, cushions rupiah). Lending Facility unchanged 6.50%. No cut (structurally impossible IDR >18,000); no hawkish +25bp headline hike (Kontan Oct 18 pre-RDG projection ruled out). IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) post-BI-hold modest relief rally. Absorption Day 2 pattern = TIGHTENING-DF-corridor-WITHOUT-HEADLINE-HIKE playbook codified; monetary-tightening-via-DF confirms BI preserving optionality on headline rate while providing immediate IDR support.",
       "msci_note": "MSCI STANDALONE consultation Day T+8. Oct 15 2026 announcement confirmed consultation window to Apr 30 2027; final decision by Jun 30 2027. Default-path reclassification to STANDALONE unless 'clear evidence of material improvements in market governance and functioning'. MSCI continues applying FREEZE on index-related changes for Indonesian securities until further notice. 46 of 50 watchlist tickers are LQ45 = direct passive-flow exposure. No fresh update since Oct 15-16 initial coverage.",
       "notes": "EOD Fri Oct 23 Wk 27 Day 5 CLOSE / WEEK 27 FULL CLOSE \u2014 27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE. BI RDG Oct 20-21 outcome RECONCILED: HOLD 5.75% 4th consecutive + DF +25bp to 5.00% + LF unchanged 6.50% \u2014 base case materialized (12/14 economists); monetary-tightening-via-DF-corridor playbook codified. IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) post-BI-hold Databoks reconciled anchor fresh. IHSG Mon Oct 19 CONFIRMED 4,996.61 anchor Day-5 carry; Tue+Thu+Fri closes STILL PENDING 3-day backlog persists. Alpha +27.36pp Wed Oct 21 reconciled basis NEW RECONCILED TRIAL HIGH WATER (surpasses prior Wk 11 +24.91% by +2.45pp). Mon Oct 19 provisional +31.71pp trough-basis FADED post-Wed-recovery. MSCI STANDALONE consultation Day T+8. Crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI + DQG-Day-165 triple-stack + BI RDG Day 2 absorption Day 2 = universal SKIP all 50 watchlist tickers today (BBRI 6 sole candidate pre-blocked). Book 100% cash maintained IDR 9,716,207,500; 91 consecutive 0.00% daily-P&L sessions since Jul 6 KLBF hard-cut. Risk alerts: NONE (no positions; daily/weekly P&L 0.00%; DD -3.10% within caps). Framework durability Day 96 since KLBF hard-cut, Day 137 trial-to-date. Weekly-review 16:00 WIB gating upcoming 45-min post-EOD-fire."
+    },
+    {
+      "date": "2026-10-26",
+      "day_label": "Day 140 \u2014 Wk 28 Day 1 OPEN \u2014 Pre-market \u2014 28TH CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN \u2014 Q4-Week-5-Day-1 \u2014 Post-cabinet-reshuffle Day 24 \u2014 Post-BI-hold-transmission Day 32 \u2014 Defensive-intensified-cascade-inflection-confirmed Day 99 \u2014 MSCI STANDALONE consultation overlay Day T+11 \u2014 Post-BI-RDG-Day-2 Day 5 outcome absorption continuation \u2014 BEI emergency 7% ARB downside limit active (through Dec 31 2026)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "drawdown_from_peak_pct": -3.1,
+      "ihsg_close": null,
+      "ihsg_close_note": "Mon Oct 26 07:00 WIB pre-market fire. Fri Oct 23 close PENDING multi-source cluster; Thu Oct 22 close PENDING multi-source cluster = 2-day backlog persists. Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) Databoks post-BI-hold reconciled anchor Day-3; Tue Oct 20 CONFIRMED 5,278.89 (+5.65%) Investortrust relief rally Day-4 with BBRI +9.84% / BBCA +7.88% top-mover role despite foreign net sell -IDR 2.19T confirmed; Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break anchor Day-5. Fri Oct 16 single-source 5,185.11 (-11.57%) carry Day-10. IHSG cumulative Day 0 baseline 7,634 \u2192 Wed Oct 21 5,328.36 = -30.20% cumulative (reconciled anchor fresh basis). DQG-Day-168 standard sesi II lag 44th+ cumulative occurrence.",
+      "ihsg_cumulative_pct": -30.2,
+      "alpha_pct": 27.36,
+      "alpha_note": "Cumulative alpha ~+27.36pp Wed Oct 21 reconciled 5,328.36 anchor basis NEW RECONCILED TRIAL HIGH WATER (surpasses prior trial high water Wk 11 Day 52 reconciled +24.91% by ~+2.45pp). Zero-exposure immunity to downside continues through 92nd consecutive session with 0.00% daily P&L since Jul 6 KLBF hard-cut. Tue Oct 20 +5.65% relief rally with BBRI +9.84% top-mover role is NOT a re-entry trigger \u2014 foreign remained net-seller -IDR 2.19T = criterion (d) deeply failed; MSCI STANDALONE consultation default-path reclassification unless material improvements Apr 30 2027 = criterion (c) deeper fail.",
+      "bi_rdg_note": "BI RDG Oct 20-21 outcome RECONCILED: HOLD 5.75% confirmed 4th consecutive hold (Jul/Aug/Sep/Oct 2026 under Destry Damayanti) \u2014 base case materialized. Deposit Facility rate RAISED +25bp to 5.00% (DF-to-BI-Rate corridor tightened 100bp\u219275bp \u2014 attracts IDR liquidity, cushions rupiah). Lending Facility unchanged 6.50%. Monetary-tightening-via-DF-corridor playbook codified. Day-5 absorption continuation Mon Oct 26 pre-market.",
+      "msci_note": "MSCI STANDALONE consultation Day T+11. Oct 15 2026 announcement; consultation window to Apr 30 2027; final decision by Jun 30 2027. Default-path reclassification to STANDALONE unless clear evidence of material improvements. MSCI continues applying FREEZE on index-related changes for Indonesian securities. 46 of 50 watchlist tickers are LQ45 = direct passive-flow exposure.",
+      "bei_arb_note": "BEI emergency 7% ARB downside limit ACTIVE through Dec 31 2026 under Decree Kep-00157/BEI/10-2026 effective Oct 19. Max daily single-stock downside capped at 7% (vs prior 15%) for stocks priced >Rp 10. Structural stabilization measure in response to MSCI STANDALONE consultation + Oct 16 cascade.",
+      "buyback_note": "Corporate buyback wave Oct 2026: BBCA executing Oct 19-21 (12-month AGM mandate); ADRO launched open-market program Oct 20; DSSA/BREN/CUAN Rp 2.5T announced (OJK sanctions-related); multi-trillion-rupiah stabilization narrative extends. Positive catalysts individually, but pre-blocked for entry under crisis-track engagement gate triple-stack binding.",
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "open_positions_count": 0,
+      "halt_flags": [],
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY99-Wk28-Day1-OPEN-28TH-CONSECUTIVE-ZERO-TRADE-WEEK-Day1-OPEN-POST-CABINET-RESHUFFLE-DAY-24-POST-BI-HOLD-TRANSMISSION-DAY-32-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+11-POST-BI-RDG-DAY-2-DAY-5-OUTCOME-ABSORPTION-CONTINUATION-HOLD-5.75%-4TH-CONSECUTIVE-+-DF-+25BP-TO-5.00%-+-LF-UNCHANGED-6.50%-BEI-EMERGENCY-7%-ARB-DOWNSIDE-LIMIT-ACTIVE-DEC-31-2026-IHSG-WED-OCT-21-CONFIRMED-5328.36-RECONCILED-ANCHOR-FRESH-TUE-OCT-20-CONFIRMED-5278.89-RELIEF-RALLY-MON-OCT-19-CONFIRMED-4996.61-SUB-5000-BREAK-DAY-5-THU-FRI-CLOSES-STILL-PENDING-2-DAY-BACKLOG-CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED-FURTHER-ESCALATED-0.00-0.50-of-5-persists-DQG-Day-168-outage-persists",
+      "candidates_scored_6plus": 0,
+      "universal_skip_binding": true,
+      "notes": "Pre-market Mon Oct 26 Wk 28 Day 1 OPEN \u2014 28TH CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN. All 50 watchlist tickers PRE-BLOCKED under triple-stack: crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE consultation Day T+11 + DQG-Day-168 structural outage. BI RDG Day 2 outcome absorption Day 5 continuation; emergency measures announcement window Mon-Tue continues. Fresh catalyst layer: ADRO open-market buyback launched Oct 20 (sector-EXITED discipline overrides); BBCA buyback Oct 19-21 confirmed daily executions (crisis-track-gate overrides); BEI 7% ARB downside limit active through Dec 31 2026 (structural stabilization, not entry trigger). BBRI 6-score sole candidate \u22656 pre-blocked. Scan outcome 0 candidates \u22656 unblocked. Framework durability Day 99 marker; discipline holds Day 112 since KLBF hard-cut, Day 140 trial-to-date. Cumulative alpha +27.36pp NEW RECONCILED TRIAL HIGH WATER (Wed Oct 21 anchor basis).",
+      "research_log_section": "2026-10-26 (Monday)",
+      "entry_type": "pre-market"
     }
   ],
   "positions": [],
@@ -36772,41 +36801,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-19T00:10:49Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "50-ticker scan complete. 7 CANDIDATE (BBCA/ANTM/ICBP/INDF/MYOR/TLKM/CTRA score 6) + 1 GATE9-block (ISAT). ALL blocked by crisis-track engagement gate (~1.15/5, +0.05pp via Tue sesi I foreign flow sign-flip +Rp112.88B). Book 100% cash Day 38.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned per pre-market.md Tier 4"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored 6 + 1 gate-9-blocked (ISAT)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 Tue sesi I foreign net-BUY leader +Rp 98.37B; Destry-dovish-continuity anchor"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 6/10 \u2014 Tue sesi I foreign net-BUY secondary +Rp 62.35B; LME nickel firm + gold-hybrid"
-        },
-        {
-          "type": "research",
-          "ticker": "INDF",
-          "detail": "score 6/10 DEGRADING \u2014 Brent $91 breakout Day 5 = margin-thesis erodes"
-        },
-        {
-          "type": "reconciliation",
-          "detail": "IHSG Tue sesi II reconciled 6,449.83 (+0.75%) vs sesi I 6,481.96; cum alpha +12.67pp"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-19T02:17:36Z",
       "routine": "market-open",
       "status": "warning",
@@ -41892,6 +41886,37 @@
           "detail": "Day 137 EOD snapshot committed; BI RDG outcome RECONCILED; IHSG Wed Oct 21 CONFIRMED 5,328.36 reconciled anchor fresh; dashboard+RISK-STATE updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-26T00:09:20Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Scanned 50 watchlist tickers. 0 candidates \u22656 unblocked (BBRI 6 pre-blocked under triple-stack). 50/50 universal SKIP. Crisis-track engagement gate FURTHER-ESCALATED persists (0.00-0.50/5); MSCI STANDALONE consultation Day T+11; DQG-Day-168 outage; BI RDG Day 2 absorption Day 5. New catalyst layer: ADRO buyback Oct 20 fresh (sector-EXITED overrides); BBCA buyback Oct 19-21 confirmed; BEI 7% ARB downside limit active through Dec 31 2026. IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) reconciled anchor fresh; Tue Oct 20 CONFIRMED 5,278.89 (+5.65%) relief rally. 28th consecutive zero-trade week Day 1 OPEN.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "0 candidates scored \u22656 unblocked"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Tue Oct 20 +9.84% relief rally top-mover; PRE-BLOCKED crisis-track triple-stack"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 5/10 \u2014 buyback executing Oct 19-21 fresh catalyst; PRE-BLOCKED crisis-track triple-stack"
+        },
+        {
+          "type": "research",
+          "ticker": "ADRO",
+          "detail": "score 3/10 \u2014 buyback launched Oct 20 fresh + Newcastle $150.35 2-strike reversal 1-of-2; sector-EXITED discipline binding"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -41931,7 +41956,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-23T07:00:00+07:00",
+  "last_updated": "2026-10-26T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -41941,62 +41966,13 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-19",
-    "day_label": "Day 133 (Wk 27 Day 1 OPEN - MSCI STANDALONE CONSULTATION OVERLAY ACTIVATED Day T+2 - IHSG Fri Oct 16 CRASH -11.57% to 5,185.11 DEEPEST SINCE JAN 1998 28 YEARS - CRISIS-TRACK GATE FURTHER-ESCALATED - BI RDG Oct 20-21 T-1/T-2 - 27TH CONSECUTIVE ZERO-TRADE WEEK DAY 1 - DQG-Day-161 outage persists)",
-    "candidates_scored_ge_6": [
-      {
-        "ticker": "BBRI",
-        "score": 6,
-        "sector": "Banking",
-        "note": "H1 +17.5% YoY Rp 31.18T; PBV 1.48x pre-crash; Sep-26 limited-review Q3 release pending; BI RDG T-1/T-2 Mon-Tue (universal -1 to -2 markdown applied Mon vs Fri Oct 16 pre-market 5 candidates on MSCI STANDALONE overlay)",
-        "status": "SKIP (crisis-track + DQG + MSCI STANDALONE consultation)"
-      }
-    ],
-    "candidates_count": 1,
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY92-MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-DAY-T+2",
-    "crisis_track_gate": "ACTIVATED-FURTHER-ESCALATED",
-    "crisis_track_gate_score": "0.00-0.50/5 collapsed from Wk 26 0.75-1.10/5",
-    "msci_consultation": {
-      "launched": "2026-10-15",
-      "proposal": "EM to Standalone Market reclassification",
-      "consultation_window_end": "2027-04-30",
-      "final_decision_by": "2027-06-30",
-      "default_path": "reclassify unless material improvements",
-      "severity": "2-tier downgrade threat unprecedented (typical is 1-tier EM to Frontier)"
-    },
-    "ihsg_fri_oct_16_cascade": {
-      "close": 5185.11,
-      "day_pct": -11.57,
-      "point_drop": -678.68,
-      "worst_since": "8 Jan 1998 (-11.95%)",
-      "halt_triggered": "pre-open at -8.01%; 08:58-09:28 WIB tier-1 halt",
-      "breadth_down": 812,
-      "breadth_up": 11,
-      "breadth_stagnant": 140,
-      "sources": [
-        "EmitenNews",
-        "CNBC Indonesia Research",
-        "InvestorTrust",
-        "RCTI/Okezone"
-      ]
-    },
-    "dqg_outage_day": 161,
-    "zero_trade_week": 27,
-    "zero_trade_week_day": 1,
-    "ihsg_backlog_days_mostly_cleared": true,
-    "cumulative_alpha_pp_potential_new_high": 32.09,
-    "cumulative_alpha_prior_high_water": "Wk 11 Day 52 reconciled +24.91%",
-    "top_risks": [
-      "MSCI STANDALONE consultation 2-tier downgrade threat unprecedented (consultation to Apr 30 2027; final decision by Jun 30 2027 = 6+ months structural uncertainty; freeze on index changes until further notice)",
-      "Crisis-track gate FURTHER-ESCALATED: IDR >18,000 Fri Oct 16 cascade; sub-17,750 criterion-a structurally impossible on current trajectory",
-      "IHSG continuation vs dead-cat tail-risk: prior Jan 2026 MSCI warning saw continuation Thu halt; Mon continuation risk pending govt/BEI response",
-      "Potential BI emergency intervention Mon-Tue: verbal/FX ops/FX reserves draw expected; BI RDG Oct 20-21 may include emergency dovish language",
-      "Rule changes mid-session Mon-Tue: short-selling ban, buyback incentives, trading rule changes possible",
-      "Dasco (DPR Wakil Ketua) + Rosan (Danantara CEO) datangi Gedung BEI Fri midday signals coordinated response in motion",
-      "Alpha cumulative +32.09pp new potential trial high water: temptation to re-enter at trough = EXACTLY what crisis-track gate codified to prevent (MISTAKES.md 2026-07-06 KLBF lesson)",
-      "DQG-Day-161 structural outage persists: yfinance+GoAPI blocked 161 consecutive sessions since Apr 21",
-      "27th consecutive zero-trade week Day 1 OPEN: ~114+ cumulative unused BUY-slot candidate-days trial-to-date"
-    ]
+    "date": "2026-10-26",
+    "candidates_scored_6plus": 0,
+    "universal_skip_binding": true,
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY99 + MSCI STANDALONE consultation Day T+11 + Post-BI-RDG-Day-2 Day 5 absorption + BEI emergency 7% ARB downside limit active",
+    "ihsg_anchor": "5,328.36 Wed Oct 21 reconciled",
+    "cumulative_alpha_pp": 27.36,
+    "notes": "Universal SKIP 50/50 tickers; triple-stack binding; 28th consecutive zero-trade week Day 1 OPEN"
   },
   "activity": [
     {
