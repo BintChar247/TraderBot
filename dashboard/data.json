@@ -36850,12 +36850,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-19T04:36:02Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy (n=0, book fully de-risked since Day 32 Jul 6 KLBF hard-cut). Midday scan mechanically vacuous."
-    },
-    {
       "timestamp": "2026-08-19T08:18:11Z",
       "routine": "daily-summary",
       "status": "success",
@@ -41939,6 +41933,12 @@
           "detail": "BI RDG Oct 20-21 outcome absorption Day 5: HOLD 5.75% + DF +25bp to 5.00%"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-26T04:35:28Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. 0 open positions; no cuts, no stop tightens, no thesis exits. Wk 28 Day 1 MIDDAY."
     }
   ],
   "exposure": {
