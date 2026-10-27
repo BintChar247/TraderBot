@@ -2230,6 +2230,35 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-10-27",
+      "day_label": "Day 139 (Wk 28 Day 2 OPEN - 28TH CONSECUTIVE ZERO-TRADE WEEK DAY 2 OPEN Q4-Week-5-Day-2 post-cabinet-reshuffle-Day-25 post-BI-hold-transmission-Day-33 MSCI-STANDALONE-overlay-Day-T+12 Post-BI-RDG-Day-2-Day-6-absorption Day-100-milestone-since-KLBF-hard-cut)",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -30.2,
+      "ihsg_close_note": "Pre-market Tue Oct 27 07:00 WIB fire. Mon Oct 26 + Fri Oct 23 + Thu Oct 22 + Tue Oct 20 closes STILL PENDING multi-source cluster = 4-day accumulated backlog persists. Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) reconciled anchor Day-5 carry. Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) sub-5,000 break Day-9 carry. Fri Oct 16 single-source 5,185.11 (-11.57%) carry Day-12. DQG-Day-169 standard sesi II lag 47th+ cumulative occurrence. Multi-source saturation protocol deferred to Tue sesi I open 09:00 WIB.",
+      "alpha_pct": 27.36,
+      "alpha_note": "Cumulative alpha ~+27.36pp Wed Oct 21 reconciled 5,328.36 anchor basis carry (IHSG baseline 7,634 -> Wed 5,328.36 cumulative -30.20% vs portfolio -2.84%). NEW RECONCILED TRIAL HIGH WATER carry since Fri Oct 23 reconciliation. Zero-exposure immunity to downside continues through 92 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut (Day 100 milestone).",
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "drawdown_from_peak_pct": -3.1,
+      "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY100-Wk28-Day2-OPEN-28TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-2-OPEN-Q4-2026-WEEK-5-DAY-2-POST-CABINET-RESHUFFLE-DAY-25-POST-BI-HOLD-TRANSMISSION-DAY-33-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+12-POST-BI-RDG-DAY-2-DAY-6-OUTCOME-ABSORPTION-BEI-EMERGENCY-7%-ARB-DOWNSIDE-LIMIT-ACTIVE-DQG-DAY-169-OUTAGE-PERSISTS-DAY-100-MILESTONE-SINCE-KLBF-HARD-CUT",
+      "bi_rdg_note": "BI RDG Day 2 outcome absorption Day 6. HOLD 5.75% 4th consecutive + Deposit Facility +25bp to 5.00% + Lending Facility unchanged 6.50% reconciled Fri Oct 23. DF-to-BI-Rate corridor tightened 100bp->75bp = IDR-defense via corridor; preserving optionality on headline rate. Emergency measures announcement window Tue narrowing.",
+      "msci_note": "MSCI STANDALONE consultation Day T+12. Oct 15 2026 announcement confirmed consultation window to Apr 30 2027; final decision by Jun 30 2027. Default-path reclassification to STANDALONE unless 'clear evidence of material improvements in market governance and functioning'. MSCI continues applying FREEZE on index-related changes for Indonesian securities until further notice. 46 of 50 watchlist tickers are LQ45 = direct passive-flow exposure. No fresh update since Oct 15-16 initial coverage.",
+      "notes": "Pre-market Tue Oct 27 Wk 28 Day 2 OPEN - 28th consecutive zero-trade week Day 2 OPEN. Day 100 milestone since Jul 6 KLBF hard-cut. BI RDG Day 2 outcome absorption Day 6 continues. MSCI STANDALONE consultation Day T+12. IHSG Mon Oct 26 close STILL PENDING multi-source cluster = 4-day accumulated backlog (Tue Oct 20 + Thu Oct 22 + Fri Oct 23 + Mon Oct 26). Wed Oct 21 CONFIRMED 5,328.36 reconciled anchor Day-5 carry. Alpha +27.36pp Wed Oct 21 reconciled basis NEW RECONCILED TRIAL HIGH WATER carry. Crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE + DQG-Day-169 triple-stack = universal SKIP all 50 watchlist tickers. BBRI 6 sole candidate >=6 pre-blocked. Book 100% cash maintained IDR 9,716,207,500; 92 consecutive 0.00% daily-P&L sessions since Jul 6 KLBF hard-cut. Pluang indicative IDR ~17,900 UNDATED single-source EXCLUDED from DQG cluster. Risk alerts: NONE (no positions; daily/weekly P&L 0.00%; DD -3.10% within caps). Framework durability Day 100 since KLBF hard-cut, Day 139 trial-to-date.",
+      "research_queries_run": 11,
+      "watchlist_scanned": 50,
+      "candidates_scored_ge_6": 1,
+      "candidates_pre_blocked": 1,
+      "top_candidate": "BBRI",
+      "top_candidate_score": 6,
+      "trade_plan": "NO BUYS - triple-stack pre-block universal SKIP all 50 tickers; HOLD 100% cash"
     }
   ],
   "positions": [],
@@ -36836,41 +36865,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-20T00:14:59Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 18 Day 4 Thu Aug 20: 50-ticker scan complete. 14 candidates scored \u22656 (incl NEW AALI/LSIP CPO 4-mo-high breakout upgrade). Crisis-track gate ACTIVATED ~1.10-1.15/5 persists (IDR ~17,800 ~50pip above target; foreign flow criterion (d) BROKEN Day 3). All 14 NOT ACTIONABLE. HOLD 100% cash \u2014 39th consecutive no-position session.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "14 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "ITMG",
-          "detail": "score 7/10 \u2014 coal top-in-class carry; Newcastle $129.75 near-$130 psych"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 6/10 NEW UPGRADE \u2014 CPO MYR 4,800+ 4-mo-high breakout"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 6/10 NEW UPGRADE \u2014 CPO MYR 4,800+ 4-mo-high breakout"
-        },
-        {
-          "type": "gate",
-          "detail": "crisis-track gate ~1.15/5; 3.85/5 gap binding; HOLD 100% cash"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-20T02:16:50Z",
       "routine": "market-open",
       "status": "warning",
@@ -41923,6 +41917,35 @@
         {
           "type": "research",
           "detail": "Day 138 EOD snapshot committed; IHSG Mon Oct 26 close PENDING multi-source cluster \u2014 4-day backlog restored (Tue/Thu/Fri Wk27 + Mon Wk28); triple-stack SKIP continues under Post-BI-RDG-Day-2 Day 3 absorption"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-27T00:07:40Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Scanned 50 watchlist tickers Wk 28 Day 2 OPEN Day 100 milestone since KLBF hard-cut. 1 candidate \u22656 (BBRI 6, pre-blocked). Triple-stack binding: crisis-track engagement gate FURTHER-ESCALATED + MSCI STANDALONE consultation Day T+12 + DQG-Day-169 structural outage. BI RDG Day 2 outcome absorption Day 6 continues. Universal SKIP; 100% cash maintained IDR 9,716,207,500.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 watchlist tickers scanned Wk 28 Day 2 OPEN"
+        },
+        {
+          "type": "research",
+          "detail": "1 candidate scored >=6 (BBRI 6) pre-blocked under triple-stack"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 post-cascade mean-reversion candidate PRE-BLOCKED under crisis-track engagement gate + MSCI STANDALONE Day T+12 + DQG-Day-169"
+        },
+        {
+          "type": "research",
+          "detail": "Day 100 milestone since Jul 6 KLBF hard-cut"
+        },
+        {
+          "type": "research",
+          "detail": "Trade plan: NO BUYS universal SKIP; HOLD 100% cash"
         }
       ]
     }
