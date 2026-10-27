@@ -36914,12 +36914,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-20T04:35:48Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions \u2014 book fully de-risked. Midday scan mechanically vacuous."
-    },
-    {
       "timestamp": "2026-08-20T08:20:47Z",
       "routine": "daily-summary",
       "status": "success",
@@ -41987,6 +41981,12 @@
           "detail": "Telegram proxy 403 blocked 4th+ consecutive week \u2014 structural operating constraint; notification printed to stdout only"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-27T04:35:09Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (27th consecutive zero-trade week). 100% cash sustained. No cuts, no tightens, no thesis exits."
     }
   ],
   "exposure": {
