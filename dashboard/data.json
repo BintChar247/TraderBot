@@ -36808,6 +36808,55 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Big-4 banking anchor; sole \u22656 scored candidate under triple-stack pre-block + BI RDG Day 2 outcome absorption Day 6 + BEI 7% ARB downside limit active overlay; Tue Oct 20 +9.84% top-mover role on post-cascade relief rally remains cautionary (temptation to re-enter at trough is exactly what crisis-track gate was codified to prevent per 2026-07-06 KLBF root-cause).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI RDG Oct 20-21 Day 2 outcome absorption Day 6; DF +25bp playbook transmission; emergency measures Tue window narrowing; BBCA Oct 19-21 buyback confirmed; ADRO T+6 open-market executing; multi-trillion buyback wave DSSA/BREN/CUAN"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day100 + MSCI STANDALONE consultation Day T+12 + Post-BI-RDG Day-2 absorption Day-6 + BEI 7% ARB downside limit active + Day 100 milestone since KLBF hard-cut"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate FURTHER-ESCALATED (0.00-0.50/5; IDR >18,000 Day-19+); MSCI STANDALONE 6+ months structural uncertainty through Apr 30 2027; DQG-Day-169 structural outage; 46/50 LQ45 constituents MSCI-exposed"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (triple-stack pre-block: crisis-track + MSCI + DQG = mechanical SKIP + BI RDG Day 2 absorption Day 6 + BEI 7% ARB overlay)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-169 cluster NOT CONVERGED; Tue Oct 20 + Thu Oct 22 + Fri Oct 23 + Mon Oct 26 closes PENDING multi-source saturation 4-day backlog at 09:15 WIB fire"
+        }
+      ],
+      "reasoning": "Pre-blocked by three concurrent binding constraints before 15-gate evaluation: (1) crisis-track engagement gate FURTHER-ESCALATED (IDR >18,000 Day-19+, 4.50-5.00/5 gap BINDING; Tue Oct 20 foreign -IDR 2.19T net sell confirms criterion (d) failure); (2) MSCI STANDALONE consultation overlay Day T+12 (46/50 LQ45 exposed, consultation window to Apr 30 2027); (3) DQG-Day-169 cluster NOT CONVERGED (yfinance 403-blocked 169 sessions). BI RDG Day 2 outcome absorption Day 6 continues with emergency measures Tue announcement window overlay. Any one would gate-fail; combined pre-block eliminates evaluation. Day 100 milestone marker reinforces KLBF root-cause codified rule.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -36864,37 +36913,6 @@
     "updated": "2026-10-26"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-20T02:16:50Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 18 Day 4. Crisis-track engagement gate ACTIVATED persist (~1.10-1.15/5 vs 5/5); all 14 candidates \u22656/10 pre-blocked. HOLD 100% CASH 40th consecutive no-position session. Asia Aug 19 negative read-across; CPO MYR 4,800+ AALI/LSIP fresh promotions gated.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "CPO 4-mo high NEW promotion; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "CPO NEW promotion; crisis-track gate binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG",
-          "detail": "Coal top-scorer; gate binds + coal-$130 break risk"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 110 outage \u2014 WebSearch multi-source override operational; per-ticker cluster brittle"
-        },
-        {
-          "type": "warning",
-          "detail": "IHSG Wed 6,395 unreconciled single-source Databoks; Thu open cluster reconciliation pending"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-20T04:35:48Z",
       "routine": "midday",
@@ -41946,6 +41964,27 @@
         {
           "type": "research",
           "detail": "Trade plan: NO BUYS universal SKIP; HOLD 100% cash"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-27T02:18:19Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "Wk 28 Day 2 OPEN NO-TRADE Day 100 milestone since KLBF hard-cut \u2014 universal SKIP all 50 tickers; BBRI sole \u22656 pre-blocked under triple-stack (crisis-track 0.00-0.50/5 + MSCI STANDALONE T+12 + DQG-Day-169) + BI RDG Day 2 absorption Day 6 + BEI 7% ARB active",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "triple-stack pre-block + BI RDG Day 2 absorption Day 6"
+        },
+        {
+          "type": "warning",
+          "detail": "28th consecutive zero-trade week Day 2 OPEN; Day 100 milestone since KLBF hard-cut"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram proxy 403 blocked 4th+ consecutive week \u2014 structural operating constraint; notification printed to stdout only"
         }
       ]
     }
