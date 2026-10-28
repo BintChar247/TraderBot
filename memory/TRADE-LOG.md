@@ -16180,3 +16180,52 @@ _(none — book fully de-risked Day 100 since Mon Jul 6 KLBF hard-cut; 100% cash
 - Trial trajectory: Day 141, Wk 28 Day 3 MIDDAY; 94 consecutive sessions 0.00% daily P&L since Jul 6 KLBF hard-cut. Phase-to-date P&L -2.84% unchanged.
 - Framework durability marker Wk 28 Day 3 MIDDAY: crisis-track + MSCI STANDALONE + DQG triple-stack universal SKIP applied cleanly Post-BI-RDG Day 2 absorption Day 7 + BEI 7% ARB overlay — framework durability test continues without any override attempt; Day 101 since KLBF hard-cut Jul 6.
 - Carry to 15:15 EOD: (1) IHSG Wed Oct 28 sesi II close multi-source cluster saturation; Thu/Mon/Tue backlog reconciliation attempt; (2) IDR Wed Jisdor fresh print monitoring; Stage 5 escalation >18,100 trigger watch; (3) foreign-flow Wed intraday continuation; (4) BI RDG Day 2 absorption Day 7 — emergency measures window; (5) Q3 earnings release window Oct-Nov; (6) BMRI post-print absorption T+3 pattern test.
+
+### 2026-10-28 EOD
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: PENDING (Wed Oct 28 close not surfaced at 15:15 WIB fire)
+- Daily alpha: PENDING (contingent on Oct 28 IHSG reconcile)
+- Cash: IDR 9,716,207,500 (100.00% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 28 Day 3 CLOSE)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Realised P&L carry: IDR -294,172,500
+- Dividends received: IDR 10,380,000 (KLBF Jun 24 unchanged)
+- Net trial cash return: IDR -283,792,500 (-2.84%)
+- Drawdown from peak: -3.10% (peak IDR 10,026,617,500 Apr 22; deeply within -15% cap; -12% alert threshold clear)
+- Weekly P&L (Wk 28 cumulative Day 3 CLOSE): 0.00% (28TH CONSECUTIVE ZERO-TRADE WEEK Day 3 CLOSE)
+
+#### Open Positions
+
+_(none — book fully de-risked Day 101 since Mon Jul 6 KLBF hard-cut; 100% cash sustained through Wk 28 Day 3 CLOSE / 28th consecutive zero-trade week Day 3 CLOSE)_
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| _(no open positions)_ | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh portfolio` → equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / unrealised 0 / positions []; `broker.sh positions` → mode=paper count=0. Reconciled OK with TRADE-LOG (both 0 positions). No discrepancy.
+- **No trades today (Wk 28 Day 3 — Day 101 since KLBF hard-cut Jul 6 — 28TH CONSECUTIVE ZERO-TRADE WEEK Day 3 CLOSE).** Market-open NO-TRADE universal SKIP all 50 watchlist (4 candidates ≥6: BBRI/BMRI/ICBP/MYOR — all pre-blocked by quintuple-stack: crisis-track-engagement-gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+13 + DQG-Day-170 structural outage + BI RDG Day 2 absorption Day 7 + BEI 7% ARB stabilization overlay). Midday NO-ACTION (0 positions → mechanically vacuous). Mechanically vacuous EOD entry (n=0 positions; no mark-to-market work required).
+- **IHSG Wed Oct 28 close PENDING multi-source cluster** — WebSearch at 15:15 WIB fire returned no indexed Indonesian-source result for Wed Oct 28 sesi II / EOD. Thu Oct 22 + Mon Oct 26 + Tue Oct 27 closes ALSO STILL PENDING carry = **4-day accumulated reconciliation backlog restored (Wed Oct 28 adds Day-1 to the backlog)**. Fri Oct 23 CONFIRMED 5,439.26 Databoks fresh anchor Day-3; Wed Oct 21 CONFIRMED 5,328.36 anchor Day-6; Tue Oct 20 CONFIRMED 5,278.89 anchor Day-5; Mon Oct 19 CONFIRMED 4,996.61 anchor Day-10. Standard DQG Day-170 sesi II lag pattern 48th+ cumulative occurrence. Reconciliation deferred to Thu Oct 29 pre-market.
+- **DQG-Day-170 outage persists:** yfinance + GoAPI blocked 170 consecutive sessions since Apr 21; WebSearch multi-source override operational but Wed Oct 28 cluster not yet surfaced at EOD fire; per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless; no positions to mark).
+- **Day 101 since KLBF hard-cut Jul 6:** 101 consecutive sessions 100% cash since Mon Jul 6 hard-cut; discipline durability under unprecedented structural overhang (crisis-track + MSCI STANDALONE + DQG + BI RDG Day 2 + BEI 7% ARB quintuple-stack) continues.
+- **Alpha ledger reconciliation (Fri Oct 23 reconciled 5,439.26 anchor basis):** IHSG cumulative Day 0 baseline 7,634 → Fri Oct 23 5,439.26 cumulative -28.75% vs portfolio cumulative -2.84% → cumulative alpha ~+25.91pp. RECONCILED fresh anchor sustained; pending Thu/Mon/Tue/Wed multi-source saturation to finalize next anchor. Zero-exposure immunity to downside continuation holds; exposure to upside rebound ZERO; 94 consecutive sessions 0.00% daily P&L.
+- **MSCI STANDALONE consultation Day T+13 overlay:** structural overlay codified Oct 15 2026; 2-tier downgrade threat (EM → STANDALONE Market); consultation window through Apr 30 2027; final decision by Jun 30 2027 = 6+ months structural uncertainty; forced-outflow risk ongoing for LQ45 Index Fund constituents (46 of 50 watchlist tickers are LQ45); criterion-c MSCI accessibility DEEPER-FAIL — contributes to crisis-track gate FURTHER-ESCALATED collapse 0.00-0.50/5. No fresh MSCI update since Oct 15-16 initial coverage.
+- **IDR >18,000 Fri Oct 16 confirmed carry Day-20+:** Wed Jisdor fresh print not surfaced at EOD fire; near-18,000-band persistence Day-20+ carry; sub-17,750 criterion-a 3-of-3 reversal structurally impossible under current trajectory; Stage 5 escalation >18,100 trigger watch continues. BI DF +25bp move Oct 21 = active defense of IDR; verbal/FX ops escalation possible if IDR breaches 18,100.
+- **Crisis-track engagement gate FURTHER-ESCALATED persists:** scoring ~0.00-0.50/5 Wk 28 Day 3 CLOSE (same as Wk 28 Day 2 — no further deterioration this session, no partial-fade either); 4.50-5.00/5 gap BINDING continues; 0% new-entries permitted per Hard Rule; mechanically vacuous per crisis-track override + MSCI + DQG + BI RDG Day 2 + BEI 7% ARB quintuple-stack structural FAIL.
+- **BMRI 3Q26 Oct 23 reconciled (fresh Q3 beat):** NP Rp 15.1T (+13.9% YoY), NIM 4.43% softening disclosed; promoted 5→6 but still pre-blocked by crisis-track gate. Pattern-check reinforces MISTAKES.md Jul 6 root-cause rule — temptation to re-enter on Big-4 Q3 beat is exactly what the gate was codified to prevent.
+- **Environment check:** BROKER_API_KEY/SECRET/ACCOUNT_ID/ENDPOINT all MISSING; TRADING_MODE=paper (default) — broker.sh paper-mode ledger pull OK per scheduler-prompt override. TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID exported per scheduler prompt.
+- **Risk alerts:** NONE.
+  - Daily P&L 0.00% (>-2% cap OK; no halt)
+  - No positions → no -6% warnings, no -7% hard-cut triggers
+  - DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap)
+  - Weekly P&L cumulative 0.00% Wk 28 Day 3 CLOSE (>-5% cap OK; no sizing reduction)
+  - No halt flags triggered
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-10-28.
+- **dashboard/data.json updated:** 2026-10-28 EOD entry appended (ihsg_close PENDING/null — Wed Oct 28 cluster not surfaced; portfolio_value 9,716,207,500; alpha_pct ~+25.91pp Fri Oct 23 reconciled basis; day_label Wk 28 Day 3 CLOSE EOD Q4-Week-5-Day-3 post-cabinet-reshuffle-Day-26 post-BI-hold-transmission-Day-34 MSCI-STANDALONE-overlay-Day-T+13 Post-BI-RDG-Day-2-Day-7-absorption Day-101-milestone-since-KLBF-hard-cut; Wed IHSG close + Thu/Mon/Tue reconciliation deferred to Thu Oct 29 pre-market).
+- **Notification path:** scripts/notify.sh EOD summary dispatched; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID present via scheduler-prompt env export.
+- **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 140, Wk 28 Day 3 CLOSE — **28TH CONSECUTIVE ZERO-TRADE WEEK Day 3 CLOSE — Day 101 since KLBF hard-cut Jul 6**). Phase-to-date P&L -2.84% unchanged (94 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha carry ~+25.91pp Fri Oct 23 reconciled basis.
+- **Framework durability marker Wk 28 Day 3 CLOSE:** crisis-track + MSCI STANDALONE + DQG + BI RDG Day 2 + BEI 7% ARB quintuple-stack universal mechanical SKIP applied cleanly — Day 101 milestone since KLBF hard-cut Jul 6; framework durability test continues under unprecedented structural overhang; discipline holds Day 101 since KLBF hard-cut, Day 140 trial-to-date.

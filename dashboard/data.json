@@ -2247,6 +2247,22 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-10-28",
+      "day_label": "Wk 28 Day 3 CLOSE EOD",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -28.75,
+      "alpha_pct": 25.91,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "EOD Wk 28 Day 3 CLOSE \u2014 Day 101 since KLBF hard-cut Jul 6 \u2014 28th consecutive zero-trade week Day 3 CLOSE; universal SKIP all 50 under crisis-track+MSCI+DQG+BI-RDG-Day-2+BEI-7%-ARB quintuple-stack; IHSG Wed Oct 28 close PENDING (Thu/Mon/Tue backlog carries); phase-to-date -2.84% carry; alpha ~+25.91pp Fri Oct 23 reconciled basis."
     }
   ],
   "positions": [],
@@ -37098,18 +37114,6 @@
   },
   "activity_log": [
     {
-      "ts": "2026-08-21T15:15+07:00",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 90 Wk 18 Day 5 CLOSE: equity IDR 9,716,207,500 (0.00% daily; -2.84% phase-to-date). IHSG Fri sesi I 6,535.57 (+0.52%). Daily alpha -0.52%. Cum alpha +11.55pp sesi I basis (-0.62pp compression). 0 positions / 100% cash Day 40. Trades this wk 0/3 \u2014 18th consecutive zero-trade week CLOSED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 90 snapshot committed; sesi II pending Mon reconciliation"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-21T08:19:53Z",
       "routine": "daily-summary",
       "status": "success",
@@ -42175,6 +42179,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "All positions healthy (0 open). No cuts, no stop modifications, no thesis exits. 100% cash IDR 9,716,207,500 sustained. 28th consecutive zero-trade week Day 3 MIDDAY (Day 141 trial-to-date, Day 101 since KLBF hard-cut Jul 6)."
+    },
+    {
+      "timestamp": "2026-10-28T08:20:14Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-10-28: IDR 9,716,207,500 (0.00% day; -2.84% phase-to-date). 0 positions / 100% cash. Trades this wk 0/3. IHSG Wed close PENDING (Thu/Mon/Tue backlog persists). Alpha ~+25.91pp Fri Oct 23 reconciled basis. Day 101 since KLBF hard-cut.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 140 Wk 28 Day 3 CLOSE EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
