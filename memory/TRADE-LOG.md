@@ -16116,3 +16116,43 @@ _(none — book fully de-risked Day 100 since Mon Jul 6 KLBF hard-cut; 100% cash
 - **Notification path:** scripts/notify.sh EOD summary dispatched; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID present via scheduler-prompt env export.
 - **Trial trajectory:** Beyond original Apr 20-May 2 window (Day 139, Wk 28 Day 2 CLOSE — **28TH CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE — Day 100 milestone since KLBF hard-cut Jul 6**). Phase-to-date P&L -2.84% unchanged (93 consecutive sessions with 0.00% daily P&L since Jul 6 KLBF hard-cut). Cumulative alpha carry ~+27.36pp Wed Oct 21 reconciled basis.
 - **Framework durability marker Wk 28 Day 2 CLOSE:** crisis-track + MSCI STANDALONE + DQG triple-stack universal mechanical SKIP applied cleanly under Post-BI-RDG-Day-2 Day 6 absorption + BEI 7% ARB overlay — Day 100 milestone since KLBF hard-cut Jul 6; framework durability test continues under unprecedented structural overhang; discipline holds Day 100 since KLBF hard-cut, Day 139 trial-to-date.
+
+### 2026-10-28 09:15 WIB — MARKET-OPEN — NO TRADES — Wk 28 Day 3 OPEN (Wed / Day 101 since KLBF hard-cut)
+
+- **Action:** 0 buys executed, 0 positions carried → 0 sells. **100% cash maintained** at IDR 9,716,207,500 (unchanged); realised_pnl -294,172,500 carry.
+- **Why NO BUYS:** Universal SKIP all 50 watchlist tickers under triple-stack binding pre-block + BI RDG Day 2 outcome absorption Day 7:
+  1. **Crisis-track engagement gate FURTHER-ESCALATED** — IDR >18,000 Fri Oct 16 confirmed Day-20+; criterion (a) IDR sub-17,750 sustained 3-of-3 structurally impossible on current trajectory; gate scoring 0.00-0.50/5 persists (4.50-5.00/5 gap BINDING)
+  2. **MSCI STANDALONE consultation overlay Day T+13** — 2-tier downgrade threat; 46/50 LQ45 constituents exposed; consultation window to Apr 30 2027; final decision by Jun 30 2027; forced-outflow risk ongoing
+  3. **DQG-Day-170 structural outage** — yfinance 403-blocked 170 consecutive sessions since Apr 21; GoAPI unset; broker.sh paper-mode stub refuses; per-ticker cluster NOT CONVERGED pre-blocks all buy-side 15-check regardless
+  4. **BI RDG Day 2 outcome absorption Day 7 continuation** — DF +25bp playbook transmission continuing; emergency measures announcement window narrowing further
+  5. **BEI 7% ARB downside limit active** — Decree Kep-00157/BEI/10-2026 effective through Dec 31 2026 = structural stabilization overlay
+- **Candidate evaluation:** Scan outcome 4 candidates ≥6 (BBRI, BMRI, ICBP, MYOR) all pre-blocked under triple-stack. BMRI promoted 5→6 on fresh 3Q26 Oct 23 print (+13.9% YoY NP, NIM 4.43%); ICBP + MYOR promoted 5→6 on BRI Danareksa Q3 top-pick status + sector P/E -1.2σ 3Y. 50/50 UNIVERSAL SKIP. No 9-gate check runs — mechanically vacuous per crisis-track override + MSCI + DQG triple-stack structural FAIL + BI RDG Day 2 absorption Day 7 + BEI 7% ARB overlay.
+- **9-gate checklist:** NOT RUN — pre-blocked at crisis-track engagement gate layer (Hard Rule precedence: codified 2026-07-17; 0% new entries binding until all 5 re-entry criteria concurrent).
+- **Eagerness check:** PASS — not trading because triple-stack binding pre-block + BI RDG Day 2 outcome absorption Day 7 + BEI 7% ARB overlay. 28th CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN (Day 140 trial-to-date; Day 101 since KLBF hard-cut Jul 6). BMRI fresh Q3 beat does NOT override crisis-track gate — temptation to re-enter on Big-4 Q3 is exactly what the gate was codified to prevent per MISTAKES.md 2026-07-06.
+- **MISTAKES.md pattern check:** No planned trade (universal SKIP), so no cross-reference to any prior hard-cut root cause. Pattern binding continues to reinforce the Jul 6 KLBF root-cause rule (crisis-track-engagement-gate HARD-RULE precedence).
+- **Price source for valuation:** No positions; no mark-to-market required. Cash 9,716,207,500 unchanged.
+- **Risk alerts:** NONE. Daily P&L 0.00% / Weekly cumulative 0.00% / DD -3.10% from peak (well within -15% max drawdown cap); no halt flags triggered.
+- **State/regime bindings Wed Oct 28 09:15 WIB OPEN:**
+  - IHSG Fri Oct 23 CONFIRMED 5,439.26 (+0.95%) Databoks fresh reconcile Day-3; Wed Oct 21 CONFIRMED 5,328.36 anchor Day-6 carry; Tue Oct 20 CONFIRMED 5,278.89 (+5.65%) reconcile Day-5; Mon Oct 19 CONFIRMED 4,996.61 (-3.64%) Day-10 carry
+  - IHSG Thu Oct 22 + Mon Oct 26 + Tue Oct 27 closes STILL PENDING multi-source cluster = 3-day backlog persists (reduced from Tue 5-day via Tue + Fri reconciliations)
+  - BI RDG Oct 20-21 outcome RECONCILED: HOLD 5.75% 4th consecutive + DF +25bp to 5.00% + LF unchanged 6.50%; emergency measures window narrowing further
+  - IDR >18,000 Fri Oct 16 confirmed Day-20+; Thu/Fri/Mon/Tue Jisdor fresh prints NOT INDEXED at fire = 4-day backlog; Pluang indicative ~17,900 UNDATED single-source EXCLUDED
+  - Brent $93-106 Oct 13 Hormuz RE-ESCALATION Day-15+ COGS-relief RE-ARM REVERSAL carry
+  - US-10Y 5.10% Oct 15 stale print Day-13 breakout-persistence slight-fade continuation Day-29+ carry
+  - Newcastle coal $150.35 Oct 14 STRENGTHENING Day-14 (2-strike reversal 1-of-2 trigger confirmed via ≥$140 sustained) — sector-EXITED discipline binding
+  - CPO Indonesia gov ref +3.44% MoM to $1,042.15 (Oct); MY futures tech correction RM4,100-4,200; MY stocks +24.54% headwind
+  - LME nickel $15,547 Oct 8 FADE-DEEPENING Day-20+ carry; Indo Premier Q4 margin pressure flagged
+  - VIX mid-teens firming carry
+  - Destry BI-Gov Day-53 post-maiden-RDG hold-5.75% 4th-consecutive-hold absorption Day-33 transmission
+  - Cabinet-reshuffle Day-25 absorption continuation
+  - TLKM EGM T+28 post-formal-filing pattern persistence (MEDIUM-confidence 24-28 obs window)
+  - GOTO EGM T+14 past-final-window (vacuous)
+  - BEI Rp1 minimum-stock-price rule Day-29+ tech sector monitoring
+  - BEI 7% ARB downside limit active Decree Kep-00157/BEI/10-2026 effective Oct 19 → Dec 31 2026
+  - MSCI STANDALONE consultation overlay Day T+13 (through Apr 30 2027 window; final decision by Jun 30 2027)
+  - Multi-trillion buyback wave: BBCA Oct 19-21 confirmed executions; ADRO T+7 open-market executing; DSSA/BREN/CUAN + others Rp 2.5T announced through Jan 2027
+  - BMRI 3Q26 earnings Oct 23 RECONCILED: NP Rp 15.1T (+13.9% YoY), NIM 4.43% softening disclosed
+- **CASCADE-SCALE-RISK-OFF-vindication PATTERN carry (MEDIUM-HIGH per Wk 27 weekly-review promotion):** Fri Oct 16 -11.57% × 100%-cash = +11.57pp DEEPEST single-session alpha carry; Mon Oct 19 CONFIRMED -3.64% × 100%-cash = +3.64pp; relief-rally sessions Tue +5.65% / Wed +0.94% / Fri +0.95% × 0% exposure = ~-7.54pp cumulative give-back; net cascade episode alpha ~+7.67pp Fri Oct 23 reconciled basis.
+- **Framework durability marker Wk 28 Day 3 OPEN:** crisis-track + MSCI STANDALONE + DQG triple-stack universal mechanical SKIP applied cleanly under BI RDG Day 2 absorption Day 7 + BEI 7% ARB overlay — **Day 101 since KLBF hard-cut Jul 6**; framework durability under unprecedented structural overhang continues; discipline holds Day 140 trial-to-date.
+- **Cumulative trial alpha:** ~+27.36pp Wed Oct 21 reconciled anchor basis carry; Fri Oct 23 fresh reconcile 5,439.26 provisional refresh pending multi-source saturation + Thu/Mon/Tue backlog reconciliation.
+- **Carry to 11:30 midday scan:** (1) BI RDG Day 2 outcome absorption Day 7 continuation; emergency measures Wed window narrowing further; (2) IHSG multi-source cluster saturation Thu+Mon+Tue 3-day backlog; (3) IDR Wed Jisdor fresh print 15:15 WIB; Stage 5 escalation >18,100 trigger watch; (4) foreign flow Mon-Tue continuation; (5) ADRO/BBCA buyback T+7/post-Oct-21 open-market execution daily; (6) Q3 earnings release window monitoring Oct-Nov; (7) BMRI post-print absorption T+3 pattern test window.
