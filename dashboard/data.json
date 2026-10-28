@@ -37098,12 +37098,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-21T04:37:26Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Wk 18 Day 5 midday vacuous: 0 positions, no cuts/tightens/exits. Book fully de-risked Day 40 continues."
-    },
-    {
       "ts": "2026-08-21T15:15+07:00",
       "routine": "daily-summary",
       "status": "success",
@@ -42175,6 +42169,12 @@
           "detail": "BI RDG Day 2 absorption Day 7 emergency measures window narrowing"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-28T04:36:12Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy (0 open). No cuts, no stop modifications, no thesis exits. 100% cash IDR 9,716,207,500 sustained. 28th consecutive zero-trade week Day 3 MIDDAY (Day 141 trial-to-date, Day 101 since KLBF hard-cut Jul 6)."
     }
   ],
   "exposure": {
