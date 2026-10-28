@@ -36902,37 +36902,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-21T00:12:35Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 18 Day 5 Fri pre-market: IHSG Thu reconciled sesi II 6,501.59 (+1.68%) breakout MA100; IDR ~17,748-17,850 sub-17,750 target WITHIN TOUCH (0-100 IDR); foreign flow Thu sesi I potential net-BUY inflection AMMN +Rp 408B top-buy. 50-ticker scan: 14 candidates \u22656/10 (AALI/LSIP UPGRADED to 7 on CPO Day 3 breakout MYR 4,956 continuation; BBCA/BBRI/BMRI Destry-vote cohort; INCO/MDKA/NCKL LME follow-through; MYOR/CTRA/ITMG/KLBF/MIKA/ICBP hold). Crisis-track engagement gate ACTIVATED persists Day 40 \u2014 ALL candidates NOT ACTIONABLE. HOLD 100% cash. Weekly Review 16:00 WIB Fri.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "14 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 7/10 \u2014 CPO MYR 4,956 Day 3 breakout continuation UPGRADE from 6"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 \u2014 CPO Day 3 pure-play more-liquid UPGRADE from 6"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 Destry post-DPR-vote binary catalyst"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-21T02:19:47Z",
       "routine": "market-open",
       "status": "warning",
@@ -41975,6 +41944,37 @@
           "detail": "Day 139 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard/data.json updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-28T00:09:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned 50 tickers. 4 candidates scored \u22656 (BBRI/BMRI/ICBP/MYOR) all PRE-BLOCKED under crisis-track + MSCI STANDALONE Day T+13 + DQG-Day-170 triple-stack. BMRI 3Q26 beat Rp 15.1T +13.9% YoY reconciled Oct 23 but mechanically vacuous under Hard Rule gate precedence. Universal SKIP 50/50 cont. (28th consecutive zero-trade week Day 3 OPEN; Day 101 since KLBF hard-cut).",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 (all pre-blocked)"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 3Q26 NP Rp 15.1T (+13.9% YoY) reconciled Oct 23; NIM 4.43%"
+        },
+        {
+          "type": "research",
+          "ticker": "ICBP",
+          "detail": "score 6/10 \u2014 BRI Danareksa Q3 est +7.5% rev YoY TP 10,600 TOP PICK; sector P/E -1.2\u03c3 3Y"
+        },
+        {
+          "type": "research",
+          "ticker": "MYOR",
+          "detail": "score 6/10 \u2014 BRI Danareksa Q3 est +7.3% rev YoY TP 2,500 TOP PICK"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -42014,7 +42014,7 @@
       }
     ]
   },
-  "last_updated": "2026-10-27T15:20:00+07:00",
+  "last_updated": "2026-10-28T07:30:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -42024,13 +42024,13 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-26",
-    "candidates_scored_6plus": 0,
+    "date": "2026-10-28",
+    "candidates_scored_6plus": 4,
     "universal_skip_binding": true,
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY99 + MSCI STANDALONE consultation Day T+11 + Post-BI-RDG-Day-2 Day 5 absorption + BEI emergency 7% ARB downside limit active",
-    "ihsg_anchor": "5,328.36 Wed Oct 21 reconciled",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY101 + MSCI STANDALONE consultation Day T+13 + Post-BI-RDG-Day-2 Day 7 absorption + BEI emergency 7% ARB downside limit active + BMRI-3Q26-RECONCILED-Oct-23",
+    "ihsg_anchor": "5,439.26 Fri Oct 23 reconciled (Day-3) / 5,328.36 Wed Oct 21 reconciled (Day-6) / 5,278.89 Tue Oct 20 reconciled (Day-5)",
     "cumulative_alpha_pp": 27.36,
-    "notes": "Universal SKIP 50/50 tickers; triple-stack binding; 28th consecutive zero-trade week Day 1 OPEN"
+    "notes": "Universal SKIP 50/50 tickers; triple-stack binding; 28th consecutive zero-trade week Day 3 OPEN; BBRI/BMRI/ICBP/MYOR scored 6 \u2014 all PRE-BLOCKED under crisis-track + MSCI + DQG triple-stack; BMRI 3Q26 beat Rp 15.1T +13.9% YoY mechanically-vacuous under Hard Rule gate precedence"
   },
   "activity": [
     {
