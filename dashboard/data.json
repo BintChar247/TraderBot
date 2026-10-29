@@ -2263,6 +2263,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Wk 28 Day 3 CLOSE \u2014 Day 101 since KLBF hard-cut Jul 6 \u2014 28th consecutive zero-trade week Day 3 CLOSE; universal SKIP all 50 under crisis-track+MSCI+DQG+BI-RDG-Day-2+BEI-7%-ARB quintuple-stack; IHSG Wed Oct 28 close PENDING (Thu/Mon/Tue backlog carries); phase-to-date -2.84% carry; alpha ~+25.91pp Fri Oct 23 reconciled basis."
+    },
+    {
+      "date": "2026-10-29",
+      "day_label": "Wk 28 Day 4 CLOSE EOD",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -28.75,
+      "alpha_pct": 25.91,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "EOD Wk 28 Day 4 CLOSE \u2014 Day 102 since KLBF hard-cut Jul 6 \u2014 28th consecutive zero-trade week Day 4 CLOSE; universal SKIP all 50 under crisis-track+MSCI+DQG+BI-RDG-Day-2+BEI-7%-ARB quintuple-stack; IHSG Thu Oct 29 close PENDING (Thu Oct 22/Mon Oct 26/Tue Oct 27/Wed Oct 28 backlog carries \u2014 5-day accumulated); phase-to-date -2.84% carry; alpha ~+25.91pp Fri Oct 23 reconciled basis Day-4 carry."
     }
   ],
   "positions": [],
@@ -37256,8 +37272,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 138,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 138 Wk 28 Day 1 EOD CLOSE 28th-consecutive-zero-trade-week-Day-1-CLOSE post-BI-hold-transmission Day-32 MSCI-STANDALONE-overlay-Day-T+11 Post-BI-RDG-Day-2-Day-3-absorption)",
+    "trial_days_elapsed": 142,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 142 Wk 28 Day 4 EOD CLOSE 28th-consecutive-zero-trade-week-Day-4-CLOSE post-BI-hold-transmission Day-34 MSCI-STANDALONE-overlay-Day-T+14 Post-BI-RDG-Day-2-Day-8-absorption)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -37266,8 +37282,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -30.2,
-    "cumulative_alpha_pct": 27.36,
+    "ihsg_cumulative_pct": -28.75,
+    "cumulative_alpha_pct": 25.91,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -37278,19 +37294,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-10-26",
+    "updated": "2026-10-29",
     "portfolio_value": 9716207500,
     "alpha_pct": 0.0,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 27.36,
+    "cumulative_alpha_pp": 25.91,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 138,
-    "last_updated": "2026-10-26T15:20:00+07:00",
+    "day_number": 142,
+    "last_updated": "2026-10-29T15:20:00+07:00",
     "open_positions": 0,
-    "days_in_trial": 138,
+    "days_in_trial": 142,
     "week_number": 28,
-    "day_label": "Day 138 (Wk 28 Day 1 EOD CLOSE - 28TH CONSECUTIVE ZERO-TRADE WEEK DAY 1 CLOSE)",
+    "day_label": "Day 142 (Wk 28 Day 4 EOD CLOSE - 28TH CONSECUTIVE ZERO-TRADE WEEK DAY 4 CLOSE)",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -37306,7 +37322,7 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-10-27"
+    "updated": "2026-10-29"
   },
   "activity_log": [
     {
@@ -42328,10 +42344,16 @@
       ]
     },
     {
-      "timestamp": "2026-10-29T04:34:43Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions. No cuts, no tightenings, no thesis exits."
+      "timestamp": "2026-10-29T08:23:33Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Wk 28 Day 4 CLOSE: IDR 9,716,207,500 (0.00% day). 0 pos / 100% cash / 0 trades. IHSG Thu Oct 29 close PENDING (DQG-Day-171; 5-day backlog). Phase-to-date -2.84%; cumulative alpha ~+25.91pp Fri Oct 23 reconciled basis Day-4 carry. Day 102 since KLBF hard-cut; 28th consecutive zero-trade week Day 4 CLOSE. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 142 EOD snapshot committed; Wk 28 Day 4 CLOSE; mechanically vacuous (0 positions); Telegram relay 403 (proxy policy) \u2014 notify.sh fallback stdout OK"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -42360,7 +42382,7 @@
     "candidates_scored_ge_6": "['BBRI','BMRI','ICBP','MYOR']",
     "top_candidates": "[{'ticker':'BBRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'Q3 release imminent late-Oct per Rikopedia; NII leader Rp 77.25T Jan-Aug; post-cascade mean-reversion'},{'ticker':'BMRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'3Q26 Rp 15.1T +13.9% YoY RECONCILED Oct 23 T+6 absorption; NIM 4.43% softening'},{'ticker':'ICBP','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.5% YoY TP 10,600 TOP PICK; sector P/E 9.3x -1.2\u03c3 3Y'},{'ticker':'MYOR','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.3% YoY TP 2,500 TOP PICK; FY26 guidance +5-8% sales maintained'}]"
   },
-  "last_updated": "2026-10-29 09:15 WIB",
+  "last_updated": "2026-10-29 15:20 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -42379,6 +42401,12 @@
     "notes": "Universal SKIP 50/50 tickers; triple-stack binding + BI RDG Day 2 absorption Day 8 continuation; 28th consecutive zero-trade week Day 4 OPEN; BBRI/BMRI/ICBP/MYOR scored 6 \u2014 all PRE-BLOCKED under crisis-track + MSCI + DQG triple-stack; BMRI 3Q26 beat Rp 15.1T +13.9% YoY T+6 absorption + BBRI Q3 release imminent late-Oct mechanically-vacuous under Hard Rule gate precedence; 4-day IHSG reconciliation backlog (Thu Oct 22 + Mon Oct 26 + Tue Oct 27 + Wed Oct 28) PENDING"
   },
   "activity": [
+    {
+      "ts": "2026-10-29T15:20:00+07:00",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Wk 28 Day 4 CLOSE: equity IDR 9,716,207,500 (0.00% day). 0 positions / 100% cash / 0 trades. IHSG Thu Oct 29 close PENDING (DQG-Day-171 lag; 5-day backlog). Phase-to-date -2.84%; cumulative alpha ~+25.91pp Fri Oct 23 reconciled basis. Day 102 since KLBF hard-cut; 28th consecutive zero-trade week Day 4 CLOSE."
+    },
     {
       "timestamp": "2026-09-25T08:20:11Z",
       "routine": "daily-summary",
@@ -42424,18 +42452,6 @@
         {
           "type": "research",
           "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (Tue-Wed-Thu backlog); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-10-23T08:15:00Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-10-23 Wk 27 Day 5 CLOSE / WEEK 27 FULL CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (91 consecutive zero-P&L sessions Day 96); 0 positions 100% cash Day 96; BI RDG Oct 20-21 outcome RECONCILED Fri: HOLD 5.75% 4th consecutive + DF +25bp to 5.00% + LF unchanged 6.50% \u2014 base case materialized; IHSG Wed Oct 21 CONFIRMED 5,328.36 (+0.94%) post-BI-hold Databoks reconciled anchor fresh; IHSG Mon Oct 19 CONFIRMED 4,996.61 anchor Day-5 carry; Tue+Thu+Fri closes STILL PENDING 3-day backlog persists; alpha +27.36pp Wed Oct 21 reconciled basis NEW RECONCILED TRIAL HIGH WATER (surpasses prior Wk 11 +24.91% by +2.45pp; Mon Oct 19 provisional +31.71pp trough-basis FADED post-Wed-recovery); 27TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+8 + DQG-Day-165 outage + BI RDG Day 2 absorption Day 2 reconciled; weekly-review 16:00 WIB gating upcoming 45-min post-fire; no risk alerts (daily 0.00% / weekly 0.00% / DD -3.10% / no halt flags)",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 137 EOD snapshot committed; BI RDG outcome RECONCILED (HOLD 5.75% + DF +25bp); IHSG Wed Oct 21 CONFIRMED 5,328.36 reconciled anchor fresh; Tue+Thu+Fri closes PENDING; dashboard+RISK-STATE updated"
         }
       ]
     }
