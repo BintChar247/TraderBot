@@ -37057,6 +37057,202 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI Q3 2026 release imminent late-Oct; NII leader Rp 77.25T Jan-Aug; Tue Oct 20 +9.84% relief rally top-mover; JPM Overweight TP 3,400.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 release imminent late-Oct (per Rikopedia; BMRI Oct 23 Rp 15.1T +13.9% YoY set bar)"
+        },
+        {
+          "type": "macro",
+          "label": "Post-BI-RDG Day 2 absorption Day 8; DF +25bp playbook"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate 0.00-0.50/5 + MSCI STANDALONE T+14 + DQG-Day-171 triple-stack"
+        },
+        {
+          "type": "sizing",
+          "label": "0% equity \u2014 PRE-BLOCKED universal SKIP"
+        },
+        {
+          "type": "warning",
+          "label": "WebSearch cluster NOT CONVERGED; MSCI LQ45 forced-outflow risk"
+        }
+      ],
+      "reasoning": "Pre-blocked under crisis-track engagement gate FURTHER-ESCALATED. Fresh Q3-release-imminent catalyst does not override Hard Rule precedence 2026-07-17 (MISTAKES.md KLBF Jul 6 root-cause rule). 0-of-5 re-entry criteria met.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BMRI 3Q26 NP Rp 15.1T (+13.9% YoY) reconciled Oct 23; NIM 4.43% softening; T+6 post-print absorption test; largest foreign-net-sell carry Jul-Oct Rp 2.9T.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "3Q26 beat Rp 15.1T +13.9% YoY reconciled Oct 23 (T+6)"
+        },
+        {
+          "type": "macro",
+          "label": "Banking NEUTRAL post-BI-RDG Day 8; big-4 agg +9.5% YoY Jan-Aug"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate + MSCI STANDALONE + DQG triple-stack; largest foreign-sell"
+        },
+        {
+          "type": "sizing",
+          "label": "0% equity \u2014 PRE-BLOCKED"
+        },
+        {
+          "type": "warning",
+          "label": "Fresh Q3 beat does NOT override crisis-track gate per Hard Rule 2026-07-17"
+        }
+      ],
+      "reasoning": "Pre-blocked under triple-stack. Fresh idiosyncratic positive (Q3 beat) mechanically-vacuous under crisis-track gate precedence; temptation to re-enter is exactly what the gate was codified to prevent per MISTAKES.md 2026-07-06.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP BRI Danareksa Q3 top-pick +7.5% YoY revenue, TP 10,600; consumer-sector P/E 9.3x -1.2\u03c3 3Y mean; FMCG defensive compounder.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BRI Danareksa Q3 top-pick + Q3 release window late-Oct/Nov"
+        },
+        {
+          "type": "macro",
+          "label": "Consumer DEFENSIVE / COST-PEAK Q4-Q1; sector P/E -1.2\u03c3 3Y mean"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate + MSCI + DQG triple-stack binding"
+        },
+        {
+          "type": "sizing",
+          "label": "0% equity \u2014 PRE-BLOCKED"
+        },
+        {
+          "type": "warning",
+          "label": "Defensive-track 10Y own-history bar NOT satisfied (3Y proxy only); DEFENSIVE-CANDIDATE tag withheld"
+        }
+      ],
+      "reasoning": "Pre-blocked under triple-stack. 3Y -1.2\u03c3 proxy does not satisfy canonical 10Y own-history bar for Defensive Quality Track eligibility; crisis-track gate overrides regardless.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-29",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MYOR BRI Danareksa Q3 top-pick +7.3% YoY, TP 2,500; domestic sales driver; FY26 guidance +5-8% maintained; 4Q seasonally stronger.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BRI Danareksa Q3 top-pick + Q3 release window Oct-Nov"
+        },
+        {
+          "type": "macro",
+          "label": "COGS RE-ARM REVERSAL Brent $92-96 Hormuz Day-16+ partial headwind"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate + MSCI STANDALONE + DQG triple-stack"
+        },
+        {
+          "type": "sizing",
+          "label": "0% equity \u2014 PRE-BLOCKED"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-171 outage; tech weaker than ICBP (below most MAs)"
+        }
+      ],
+      "reasoning": "Pre-blocked under triple-stack. Weaker tech stance than ICBP; COGS RE-ARM REVERSAL partial headwind. Crisis-track gate + MSCI + DQG structural FAIL overrides.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -37113,37 +37309,6 @@
     "updated": "2026-10-27"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-24T00:15:00Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Wk 19 Day 1 (Mon Aug 24) pre-market: 50-ticker scan complete; 14 candidates \u22656/10 (AALI/LSIP UPGRADE 7 persists on CPO MYR 4,990 8-mo high Day 5+; BBCA/BBRI/BMRI/ADRO/ITMG/ANTM/INCO/MDKA/NCKL/MYOR/CTRA/KLBF/MIKA at 6). ALL PRE-BLOCKED \u2014 crisis-track engagement gate ACTIVATED Day 42 (~1.10/5); KLBF+ITMG+ADRO additionally MISTAKES-blocked. 19th consecutive 0/3 BUY-slot week opens. IHSG Fri close 6,525 (+1.93% WoW MA100 breakout). IDR ~17,762 back above 17,750 (weekend gap resets Aug 20 partial). Warsh Jackson Hole T+4 first-Fed-Chair keynote binary.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker watchlist scan complete under DQG Day 115 outage"
-        },
-        {
-          "type": "research",
-          "detail": "14 candidates scored \u22656/10; ALL pre-blocked by crisis-track engagement gate + MISTAKES pattern-match on KLBF/ITMG/ADRO"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 7/10 \u2014 CPO MYR 4,990 8-mo high breakout Day 5+; NOT ACTIONABLE"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 \u2014 CPO pure-play higher-leverage; NOT ACTIONABLE"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 post-Destry Big-3 beneficiary; MSCI-safe; NOT ACTIONABLE"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-24T02:18:42Z",
       "routine": "market-open",
@@ -42215,6 +42380,38 @@
           "detail": "score 6/10 \u2014 BRI D Q3 top-pick +7.3% YoY TP 2,500 (pre-blocked)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-29T02:17:30Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; quintuple-stack universal pre-block (crisis-track gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE Day T+14 + DQG-Day-171 + BI RDG Day 2 Day 8 absorption + BEI 7% ARB); 28th consecutive zero-trade week Day 4 OPEN; Day 102 since KLBF hard-cut Jul 6",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track + MSCI + DQG triple-stack pre-block; Q3 release imminent does NOT override gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "fresh 3Q beat Rp 15.1T +13.9% YoY does NOT override crisis-track gate per Hard Rule 2026-07-17"
+        },
+        {
+          "type": "skip",
+          "ticker": "ICBP",
+          "detail": "triple-stack binding + 3Y -1.2\u03c3 proxy fails canonical 10Y defensive-track bar"
+        },
+        {
+          "type": "skip",
+          "ticker": "MYOR",
+          "detail": "triple-stack binding; weaker tech vs ICBP; COGS RE-ARM REVERSAL partial headwind"
+        },
+        {
+          "type": "warning",
+          "detail": "Notification channel 403-blocked 4th+ consecutive week; message stdout fallback"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -42243,7 +42440,7 @@
     "candidates_scored_ge_6": "['BBRI','BMRI','ICBP','MYOR']",
     "top_candidates": "[{'ticker':'BBRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'Q3 release imminent late-Oct per Rikopedia; NII leader Rp 77.25T Jan-Aug; post-cascade mean-reversion'},{'ticker':'BMRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'3Q26 Rp 15.1T +13.9% YoY RECONCILED Oct 23 T+6 absorption; NIM 4.43% softening'},{'ticker':'ICBP','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.5% YoY TP 10,600 TOP PICK; sector P/E 9.3x -1.2\u03c3 3Y'},{'ticker':'MYOR','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.3% YoY TP 2,500 TOP PICK; FY26 guidance +5-8% sales maintained'}]"
   },
-  "last_updated": "2026-10-29T07:00:00+07:00",
+  "last_updated": "2026-10-29 09:15 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
