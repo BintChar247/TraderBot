@@ -37310,92 +37310,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-24T02:18:42Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 19 Day 1. All 14 candidates \u22656/10 pre-blocked by CRISIS-TRACK ENGAGEMENT GATE (re-entry criteria ~1.10/5 vs 5.00 required; criterion (c) MSCI/S&P DJI structurally unsatisfiable pre-Nov 2026); KLBF + ITMG additionally MISTAKES.md pattern-blocked. Book 100% cash IDR 9,716,207,500 (Day 42 no-position; 19th consecutive 0/3 BUY-slot week opens).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "score 7 UPGRADE \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "score 7 UPGRADE \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "score 6 \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "score 6 \u2014 crisis-track gate + MISTAKES 2026-05-01 strike-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "score 6 \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "score 6 \u2014 crisis-track gate + DQG"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "score 6 \u2014 crisis-track gate + DQG"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "score 6 \u2014 crisis-track gate + DQG"
-        },
-        {
-          "type": "skip",
-          "ticker": "NCKL",
-          "detail": "score 6 \u2014 crisis-track gate + DQG"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "score 6 \u2014 crisis-track gate + CPO+Brent input-cost stack"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6 \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "score 6 \u2014 crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG",
-          "detail": "score 6 \u2014 crisis-track gate + MISTAKES 2026-05-18 + coal 2-strike EXITED"
-        },
-        {
-          "type": "skip",
-          "ticker": "KLBF",
-          "detail": "score 6 \u2014 MISTAKES 2026-07-06 hard-cut \u221221.16% data-outage-carry-drift pattern-match MANDATORY"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 115 outage persists \u2014 yfinance+GoAPI blocked 115 consec sessions"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram notify 403 tunnel \u2014 stdout fallback (proxy limitation)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-24T04:36:14Z",
       "routine": "midday",
       "status": "success",
@@ -42412,6 +42326,12 @@
           "detail": "Notification channel 403-blocked 4th+ consecutive week; message stdout fallback"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-29T04:34:43Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. No cuts, no tightenings, no thesis exits."
     }
   ],
   "exposure": {
