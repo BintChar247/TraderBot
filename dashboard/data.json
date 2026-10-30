@@ -2295,6 +2295,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Pre-market Fri Oct 30 \u2014 Wk 28 Day 5 OPEN \u2014 28th consecutive zero-trade week Day 5; universal SKIP 50/50 under quintuple+ stack (crisis-track + MSCI Day T+15 + DQG-Day-172 + BI-RDG-Day-2 Day 9 + BEI-7%-ARB + fresh IDR STAGE 5 PIERCED Wed Oct 28 18,183 Kompas + OJK Rp 2.1T fines + Thu Oct 29 Kompas 5,098 cascade-scale -3.49%); Thu Oct 22 + Thu Oct 29 remaining 2-day multi-source cluster PENDING; alpha ~+30.38pp Thu Oct 29 chain-basis; weekly-review schedule 16:00 WIB today"
+    },
+    {
+      "date": "2026-10-30",
+      "day_label": "Day 143 \u2014 Wk 28 Day 5 CLOSE / WEEK 28 FULL CLOSE EOD \u2014 28TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE \u2014 Q4-2026-WEEK-5-DAY-5-FINAL \u2014 Post-Cabinet-Reshuffle-Day-27 \u2014 Post-BI-Hold-Transmission-Day-35 \u2014 MSCI-STANDALONE-Day-T+15 \u2014 Post-BI-RDG-Day-2 Day 9 absorption \u2014 Day 103 since KLBF hard-cut Jul 6 \u2014 IDR Stage 5 pierced Wed Oct 28 18,183 Kompas carry \u2014 OJK Rp 2.1T fines overhang \u2014 Thu Oct 29 cascade -3.49% chain-basis",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -33.19,
+      "alpha_pct": 30.35,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "EOD Fri Oct 30 \u2014 Wk 28 Day 5 FULL CLOSE \u2014 28th consecutive zero-trade week FULL CLOSE; mechanically vacuous (0 positions); universal SKIP persisted under quintuple+ stack (crisis-track + MSCI Day T+15 + DQG-Day-172 + BI-RDG-Day-2 Day 9 + BEI-7%-ARB + IDR Stage 5 pierced Wed Oct 28 18,183 + OJK Rp 2.1T fines + Thu Oct 29 cascade -3.49%); IHSG Fri Oct 30 close PENDING at EOD fire; Wed Oct 28 CONFIRMED 5,282.31 (+0.31%) Databoks + Bisnis dual-source anchor Day-2 refresh; Thu Oct 22 + Tue Oct 27 + Thu Oct 29 + Fri Oct 30 multi-source 4-day backlog + Mon Oct 26 Databoks partial 5,373.09 single-source; alpha ~+30.35pp Wed Oct 28 refreshed basis Day-2 carry; weekly-review 16:00 WIB upcoming 45 min post-fire; Day 103 since KLBF hard-cut; 96 consecutive sessions 0.00% daily P&L; DD -3.10% from peak (deeply within -15% cap)."
     }
   ],
   "positions": [],
@@ -37576,7 +37592,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 142,
+    "trial_days_elapsed": 143,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 142 Wk 28 Day 4 EOD CLOSE 28th-consecutive-zero-trade-week-Day-4-CLOSE post-BI-hold-transmission Day-34 MSCI-STANDALONE-overlay-Day-T+14 Post-BI-RDG-Day-2-Day-8-absorption)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -37586,8 +37602,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -28.75,
-    "cumulative_alpha_pct": 25.91,
+    "ihsg_cumulative_pct": -33.19,
+    "cumulative_alpha_pct": 30.35,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -37598,19 +37614,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-10-29",
+    "updated": "2026-10-30",
     "portfolio_value": 9716207500,
-    "alpha_pct": 0.0,
+    "alpha_pct": 30.35,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 25.91,
+    "cumulative_alpha_pp": 30.35,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 142,
-    "last_updated": "2026-10-29T15:20:00+07:00",
-    "open_positions": 0,
-    "days_in_trial": 142,
+    "day_number": 143,
+    "last_updated": "2026-10-30 15:15 WIB",
+    "open_positions": [],
+    "days_in_trial": 143,
     "week_number": 28,
-    "day_label": "Day 142 (Wk 28 Day 4 EOD CLOSE - 28TH CONSECUTIVE ZERO-TRADE WEEK DAY 4 CLOSE)",
+    "day_label": "Day 143 \u2014 Wk 28 Day 5 CLOSE / WEEK 28 FULL CLOSE EOD \u2014 28TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE \u2014 Q4-2026-WEEK-5-DAY-5-FINAL \u2014 Post-Cabinet-Reshuffle-Day-27 \u2014 Post-BI-Hold-Transmission-Day-35 \u2014 MSCI-STANDALONE-Day-T+15 \u2014 Post-BI-RDG-Day-2 Day 9 absorption \u2014 Day 103 since KLBF hard-cut Jul 6 \u2014 IDR Stage 5 pierced Wed Oct 28 18,183 Kompas carry \u2014 OJK Rp 2.1T fines overhang \u2014 Thu Oct 29 cascade -3.49% chain-basis",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -37626,86 +37642,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-10-29"
+    "updated": "2026-10-30"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-25T02:18:29Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Tue 2026-08-25 Wk 19 Day 2. 13 candidates \u22656/10 (BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/CTRA/AALI-7/LSIP-7/KLBF/MIKA) all pre-blocked by CRISIS-TRACK ENGAGEMENT GATE ACTIVATED. Re-entry gate ~0.30/5 (widened via Mon foreign-flow reset). 42nd consecutive no-position session; 19th consecutive 0/3 BUY-slot week Day 2. Book 100% cash IDR 9.72B.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "crisis-track gate 0/5 re-entry (score 7)"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "crisis-track gate 0/5 re-entry (score 7)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate blocks; Destry-fit-proper-test T-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track gate blocks; Mon top foreign net-sell"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate blocks; H1 +24% strongest"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG",
-          "detail": "crisis-track + MISTAKES.md 2026-05-18 + coal 2-strike EXITED"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "crisis-track gate blocks; ESDM quota-cut positive"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "crisis-track gate blocks; MDKA/INCO top-pick pair"
-        },
-        {
-          "type": "skip",
-          "ticker": "NCKL",
-          "detail": "crisis-track gate blocks; HPAL H1 NI Rp 4.1T beat"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "crisis-track + CPO+Brent input-cost headwind"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "crisis-track gate blocks; VAT-play best in class"
-        },
-        {
-          "type": "skip",
-          "ticker": "KLBF",
-          "detail": "crisis-track + MISTAKES.md 2026-07-06 hard-cut -21.16% flag PERSISTS"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "crisis-track gate blocks; RAPBN 2027 health-anchor"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 116 outage \u2014 yfinance/GoAPI blocked; WebSearch multi-source override operational"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-25T04:35:51Z",
       "routine": "midday",
@@ -42680,6 +42619,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions open. Mechanically vacuous midday \u2014 no cuts, no stop-tightenings, no thesis exits. Day 103 since Jul 6 KLBF hard-cut; 28th consecutive zero-trade week Day 5 MIDDAY."
+    },
+    {
+      "timestamp": "2026-10-30T08:25:04Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Fri 2026-10-30: IDR 9.72B (0.00% day; -2.84% cum). 0 positions, 100% cash; 0 trades (Wk 28 FULL CLOSE; 28th consecutive zero-trade week); Day 103 since KLBF hard-cut; DD -3.10% from peak; universal SKIP under quintuple+ stack (crisis-track + MSCI Day T+15 + DQG-172 + BI RDG Day 2 Day 9 + BEI 7% ARB + IDR Stage 5 pierced + OJK fines + Thu cascade -3.49%); Fri IHSG close pending at EOD fire; cum alpha ~+30.35pp Wed Oct 28 refreshed anchor.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 143 EOD snapshot committed - Wk 28 FULL CLOSE / 28th consecutive zero-trade week FULL CLOSE"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -42708,7 +42659,7 @@
     "candidates_scored_ge_6": "['BBRI','BMRI','ICBP','MYOR']",
     "top_candidates": "[{'ticker':'BBRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'Q3 release imminent late-Oct per Rikopedia; NII leader Rp 77.25T Jan-Aug; post-cascade mean-reversion'},{'ticker':'BMRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'3Q26 Rp 15.1T +13.9% YoY RECONCILED Oct 23 T+6 absorption; NIM 4.43% softening'},{'ticker':'ICBP','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.5% YoY TP 10,600 TOP PICK; sector P/E 9.3x -1.2\u03c3 3Y'},{'ticker':'MYOR','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.3% YoY TP 2,500 TOP PICK; FY26 guidance +5-8% sales maintained'}]"
   },
-  "last_updated": "2026-10-30 09:15 WIB",
+  "last_updated": "2026-10-30 15:15 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
