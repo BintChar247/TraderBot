@@ -2279,6 +2279,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Wk 28 Day 4 CLOSE \u2014 Day 102 since KLBF hard-cut Jul 6 \u2014 28th consecutive zero-trade week Day 4 CLOSE; universal SKIP all 50 under crisis-track+MSCI+DQG+BI-RDG-Day-2+BEI-7%-ARB quintuple-stack; IHSG Thu Oct 29 close PENDING (Thu Oct 22/Mon Oct 26/Tue Oct 27/Wed Oct 28 backlog carries \u2014 5-day accumulated); phase-to-date -2.84% carry; alpha ~+25.91pp Fri Oct 23 reconciled basis Day-4 carry."
+    },
+    {
+      "date": "2026-10-30",
+      "day_label": "Wk 28 Day 5 OPEN pre-market (Fri Oct 30 \u2014 weekly-review day) \u2014 Day 103 since KLBF hard-cut",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -33.22,
+      "alpha_pct": 30.38,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Pre-market Fri Oct 30 \u2014 Wk 28 Day 5 OPEN \u2014 28th consecutive zero-trade week Day 5; universal SKIP 50/50 under quintuple+ stack (crisis-track + MSCI Day T+15 + DQG-Day-172 + BI-RDG-Day-2 Day 9 + BEI-7%-ARB + fresh IDR STAGE 5 PIERCED Wed Oct 28 18,183 Kompas + OJK Rp 2.1T fines + Thu Oct 29 Kompas 5,098 cascade-scale -3.49%); Thu Oct 22 + Thu Oct 29 remaining 2-day multi-source cluster PENDING; alpha ~+30.38pp Thu Oct 29 chain-basis; weekly-review schedule 16:00 WIB today"
     }
   ],
   "positions": [],
@@ -37269,6 +37285,98 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-10-30",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI Q3 2026 release imminent T-0/T+1 (hist. Oct 30 pattern); NII leader Rp 77.25T Jan-Aug; BMRI Oct 23 Rp 15.1T +13.9% YoY set bar; mean-reversion post-cascade candidate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 release imminent T-0/T+1 per historical Oct 30 pattern"
+        },
+        {
+          "type": "valuation",
+          "label": "Post-cascade <1.3x PBV estimated (10-year trough territory)"
+        },
+        {
+          "type": "gate_block",
+          "label": "Crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + IDR STAGE 5 PIERCED Wed Oct 28 18,183 + MSCI STANDALONE Day T+15 + DQG-Day-172 + BI RDG Day 2 Day 9 + BEI 7% ARB + OJK Rp 2.1T fines quintuple+ stack"
+        }
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-10-30",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BMRI 3Q26 NP Rp 15.1T (+13.9% YoY) reconciled Oct 23; NIM 4.43% softening; T+7 post-print absorption materially negative Mon-Tue-Thu; largest foreign-net-sell carry Jul-Oct Rp 2.9T.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "3Q26 beat Rp 15.1T +13.9% YoY Oct 23 T+7"
+        },
+        {
+          "type": "flow",
+          "label": "Largest foreign-net-sell Jul-Oct Rp 2.9T + MSCI STANDALONE forced-outflow"
+        },
+        {
+          "type": "gate_block",
+          "label": "Quintuple+ stack binding; fresh Q3 beat does NOT override crisis-track gate per Hard Rule 2026-07-17"
+        }
+      ]
+    },
+    {
+      "ticker": "ICBP",
+      "action": "SKIP",
+      "date": "2026-10-30",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "ICBP BRI Danareksa Q3 top-pick +7.5% YoY revenue est, TP 10,600; consumer-sector P/E 9.3x -1.2\u03c3 3Y mean; FMCG defensive compounder; Kabarbursa Oct 11-12 strongest consumer technical.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BRI Danareksa Q3 top-pick + Q3 release window late-Oct/Nov"
+        },
+        {
+          "type": "valuation",
+          "label": "Consumer sector P/E 9.3x -1.2\u03c3 3Y mean (3Y proxy fails canonical 10Y defensive-track bar)"
+        },
+        {
+          "type": "gate_block",
+          "label": "Quintuple+ stack binding + fresh IDR STAGE 5 PIERCED Wed Oct 28"
+        }
+      ]
+    },
+    {
+      "ticker": "MYOR",
+      "action": "SKIP",
+      "date": "2026-10-30",
+      "time": "07:00 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "MYOR BRI Danareksa Q3 top-pick +7.3% YoY, TP 2,500; domestic sales driver; FY26 guidance +5-8% maintained; 4Q seasonally stronger (CNY/Lebaran).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BRI Danareksa Q3 top-pick + Q3 release window Oct-Nov"
+        },
+        {
+          "type": "fundamentals",
+          "label": "FY26 guidance +5-8% sales / 23-25% GPM / Rp 3.3-3.5T NP"
+        },
+        {
+          "type": "gate_block",
+          "label": "Quintuple+ stack binding + fresh IDR STAGE 5 PIERCED Wed Oct 28; weaker technical than ICBP"
+        }
+      ]
     }
   ],
   "stats": {
@@ -37325,12 +37433,6 @@
     "updated": "2026-10-29"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-24T04:36:14Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions (100% cash). No cuts or stop adjustments needed."
-    },
     {
       "timestamp": "2026-08-24T08:19:34Z",
       "routine": "daily-summary",
@@ -42354,6 +42456,39 @@
           "detail": "Day 142 EOD snapshot committed; Wk 28 Day 4 CLOSE; mechanically vacuous (0 positions); Telegram relay 403 (proxy policy) \u2014 notify.sh fallback stdout OK"
         }
       ]
+    },
+    {
+      "timestamp": "2026-10-30T00:12:30Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Scanned 50 tickers. 4 candidates scored \u22656 (BBRI/BMRI/ICBP/MYOR) \u2014 all PRE-BLOCKED under quintuple+ stack: crisis-track engagement gate FURTHER-ESCALATED + MSCI STANDALONE Day T+15 + DQG-Day-172 + BI RDG Day 2 Day 9 + BEI 7% ARB + fresh IDR STAGE 5 PIERCED Wed Oct 28 at 18,183 Kompas + OJK Rp 2.1T fines + Thu Oct 29 Kompas 5,098 cascade-scale -3.49%. Fresh anchors reconciled Mon/Tue/Wed; Thu Oct 22 + Thu Oct 29 2-day backlog PENDING. Alpha ~+30.38pp Thu Oct 29 chain-basis. Day 103 since KLBF hard-cut; 28th consecutive zero-trade week Day 5 OPEN.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned universal SKIP"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 all PRE-BLOCKED (BBRI/BMRI/ICBP/MYOR)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 2026 release imminent T-0/T+1 (hist. Oct 30)"
+        },
+        {
+          "type": "regime",
+          "detail": "IDR STAGE 5 THRESHOLD >18,100 PIERCED Wed Oct 28 at 18,183 Kompas single-source"
+        },
+        {
+          "type": "regime",
+          "detail": "IHSG Thu Oct 29 Kompas 5,098 cascade-scale -3.49% single-source"
+        },
+        {
+          "type": "regime",
+          "detail": "OJK Rp 2.1T fines DSSA/BREN/CUAN Oct 16-21 \u2014 biggest-ever regulator sanction overhang"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -42382,7 +42517,7 @@
     "candidates_scored_ge_6": "['BBRI','BMRI','ICBP','MYOR']",
     "top_candidates": "[{'ticker':'BBRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'Q3 release imminent late-Oct per Rikopedia; NII leader Rp 77.25T Jan-Aug; post-cascade mean-reversion'},{'ticker':'BMRI','score':6,'sector':'Banking','status':'PRE-BLOCKED','catalyst':'3Q26 Rp 15.1T +13.9% YoY RECONCILED Oct 23 T+6 absorption; NIM 4.43% softening'},{'ticker':'ICBP','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.5% YoY TP 10,600 TOP PICK; sector P/E 9.3x -1.2\u03c3 3Y'},{'ticker':'MYOR','score':6,'sector':'Consumer','status':'PRE-BLOCKED','catalyst':'BRI Danareksa Q3 est +7.3% YoY TP 2,500 TOP PICK; FY26 guidance +5-8% sales maintained'}]"
   },
-  "last_updated": "2026-10-29 15:20 WIB",
+  "last_updated": "2026-10-30 07:00 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -42392,13 +42527,13 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "candidates_scored_6plus": 4,
     "universal_skip_binding": true,
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY102 + MSCI STANDALONE consultation Day T+14 + Post-BI-RDG-Day-2 Day 8 absorption + BEI emergency 7% ARB downside limit active + BMRI-3Q26-RECONCILED-T+6 + BBRI-Q3-release-window-imminent",
-    "ihsg_anchor": "5,439.26 Fri Oct 23 reconciled (Day-4) / 5,328.36 Wed Oct 21 reconciled (Day-7) / 5,278.89 Tue Oct 20 reconciled (Day-6)",
-    "cumulative_alpha_pp": 25.91,
-    "notes": "Universal SKIP 50/50 tickers; triple-stack binding + BI RDG Day 2 absorption Day 8 continuation; 28th consecutive zero-trade week Day 4 OPEN; BBRI/BMRI/ICBP/MYOR scored 6 \u2014 all PRE-BLOCKED under crisis-track + MSCI + DQG triple-stack; BMRI 3Q26 beat Rp 15.1T +13.9% YoY T+6 absorption + BBRI Q3 release imminent late-Oct mechanically-vacuous under Hard Rule gate precedence; 4-day IHSG reconciliation backlog (Thu Oct 22 + Mon Oct 26 + Tue Oct 27 + Wed Oct 28) PENDING"
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY103 + IDR-STAGE-5-ESCALATION-THRESHOLD-PIERCED-FRESH-WED-OCT-28-at-18,183-Kompas + THU-OCT-29-CASCADE-SCALE-RISK-OFF-vindication-5,098-Kompas-single-source-chain-basis-3.49% + MSCI STANDALONE consultation Day T+15 + Post-BI-RDG-Day-2 Day 9 absorption + BEI 7% ARB active + BMRI-3Q26-T+7-absorption-NEGATIVE + BBRI-Q3-release-imminent-T-0/T+1 + OJK-Rp-2.1T-fines-DSSA/BREN/CUAN-structural + FED-decision-Oct-29-transmission",
+    "ihsg_anchor": "5,098 Thu Oct 29 Kompas single-source chain-basis / 5,282.31 Wed Oct 28 reconciled (+0.31% intraday reversal from low 5,167.33) / 5,266.13 Tue Oct 27 reconciled (-1.99%) / 5,373.09 Mon Oct 26 reconciled (-1.22%) / 5,439.26 Fri Oct 23 reconciled anchor Day-5",
+    "cumulative_alpha_pp": 28.17,
+    "notes": "Universal SKIP 50/50 tickers; quintuple+ stack binding: crisis-track + MSCI + DQG + BI-RDG-Day-2 + BEI-7%-ARB + fresh IDR STAGE 5 pierced + OJK Rp 2.1T fines + Thu cascade-scale -3.49%; 28th consecutive zero-trade week Day 5 OPEN; BBRI/BMRI/ICBP/MYOR scored 6 \u2014 all PRE-BLOCKED; BBRI Q3 release imminent T-0/T+1 (hist. Oct 30); IDR Stage 5 breach Wed 18,183 is primary kill-switch pierce; Thu Oct 29 Kompas 5,098 single-source + 5,139 TradingEconomics proxy still-pending 2nd-source Fri saturation; alpha ~+28.17pp Tue Oct 27 reconciled basis / ~+30.38pp Thu Oct 29 chain-basis"
   },
   "activity": [
     {
