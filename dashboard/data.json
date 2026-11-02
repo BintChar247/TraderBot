@@ -37589,6 +37589,141 @@
         }
       ],
       "reasoning": "Pre-blocked under quintuple+ stack + fresh IDR Stage 5 pierce. Weaker technical stance than ICBP; COGS RE-ARM partial headwind under Brent escalation. Crisis-track + MSCI + DQG structural FAIL overrides."
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBCA Q3 2026 RECORD NP Rp 45.2T per Databoks; NII+Sharia Rp 65.05T YTD; RHB BUY TP 7,740; buyback Rp 5T stabilization carry; franchise premium validated under crisis.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 record NP Rp 45.2T + buyback Rp 5T daily open-market"
+        },
+        {
+          "type": "macro",
+          "label": "Sextuple+ stack binding: crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+18 + DQG-Day-173 structural outage + IDR Stage 5 PIERCED Wed Oct 28 18,183 + Fri Oct 30 IHSG close 5,057 -0.80% / Oct -16.70% / YTD -41.52% + OJK Rp 2.1T fines overhang + HSC exclusion methodology shift ACTIVATES TODAY Nov 2"
+        },
+        {
+          "type": "risk",
+          "label": "MSCI STANDALONE 46/50 LQ45 forced-outflow risk; franchise premium partial offset but sextuple+ stack dominates"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked UNIVERSAL SKIP; 100% cash maintained (IDR 9.716B equity)"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED under crisis-track engagement gate ACTIVATED (0.00-0.50/5) + DQG-Day-173 cluster NOT CONVERGED + fresh HSC exclusion methodology shift overlay Day T+0 Nov 2. Fresh big-4 Q3 beat does NOT override crisis-track gate per MISTAKES.md Jul 6 KLBF root-cause rule.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI H1 2026 NP Rp 31.18T +17.5% YoY; Q3 2026 release imminent T-0/T+1 (hist. Oct 30 pattern); NII leader Rp 77.25T Jan-Aug; big-4 agg +9.5% YoY; RHB BUY TP 3,600; JPM Overweight TP 3,400; pre-crash PER 7.77x / PBV 1.48x.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 release imminent T-0/T+1; H1 NP +17.5% YoY; NII leader"
+        },
+        {
+          "type": "macro",
+          "label": "Sextuple+ stack binding: crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+18 + DQG-Day-173 structural outage + IDR Stage 5 PIERCED Wed Oct 28 18,183 + Fri Oct 30 IHSG close 5,057 -0.80% / Oct -16.70% / YTD -41.52% + OJK Rp 2.1T fines overhang + HSC exclusion methodology shift ACTIVATES TODAY Nov 2"
+        },
+        {
+          "type": "risk",
+          "label": "Post-cascade mean-reversion candidate; Oct 20 rebound +9.84% top-mover but Thu Oct 29 -3.49% weakening; MSCI overhang"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked UNIVERSAL SKIP; 100% cash maintained"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED under sextuple+ stack. Fresh Q3 beat does NOT override crisis-track gate per MISTAKES.md Jul 6 rule. IDR Stage 5 pierced + HSC exclusion methodology shift Day T+0 compound pre-block.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-02",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI Q3 2026 NP Rp 16.12T +6.62% YoY per Ajaib; PBV 0.78x cheap (10-yr trough territory for big-4); fastest loan growth big-4 H1 2026 per JP Morgan; RHB BUY TP 4,560; Bareksa Oct 27 quick-trade rec.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 NP Rp 16.12T +6.62% YoY; PBV 0.78x 10-yr trough territory"
+        },
+        {
+          "type": "macro",
+          "label": "Sextuple+ stack binding: crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+18 + DQG-Day-173 structural outage + IDR Stage 5 PIERCED Wed Oct 28 18,183 + Fri Oct 30 IHSG close 5,057 -0.80% / Oct -16.70% / YTD -41.52% + OJK Rp 2.1T fines overhang + HSC exclusion methodology shift ACTIVATES TODAY Nov 2"
+        },
+        {
+          "type": "risk",
+          "label": "Technical setups overridden by crisis-track pre-block per Hard Rule 2026-07-17 (CRISIS-TRACK ENGAGEMENT GATE)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked UNIVERSAL SKIP; 100% cash maintained"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED under crisis-track engagement gate ACTIVATED + DQG cluster NOT CONVERGED (defensive-track 10-yr P/B bar NOT verifiable). Big-4 Q3 beat does NOT override gate per MISTAKES.md Jul 6 rule.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -37645,22 +37780,6 @@
     "updated": "2026-10-30"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-25T08:21:34Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk19 Day2 IDX CLOSED (Maulid Nabi holiday). Portfolio flat IDR 9.72B (0.00% today). Cum -2.84%. Alpha +11.99pp reconciled basis (Mon Aug 24 canonical close 6,501.67 reconciled from sesi I 6,480.64). 0/6 positions, 100% cash, 0/3 trades. Book de-risked Day 42; 43rd no-position session. No risk alerts. Trading resumes Wed Aug 26.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 92 snapshot committed \u2014 IDX holiday freeze"
-        },
-        {
-          "type": "reconciliation",
-          "detail": "Mon Aug 24 IHSG canonical close reconciled 6,501.67 (-0.37%) via 8-source cluster; cum alpha revised +11.99pp"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-26T00:13:32Z",
       "routine": "pre-market",
@@ -42658,6 +42777,37 @@
         {
           "type": "research",
           "detail": "HSC exclusion effective today Nov 2 - 81-82 stocks removed from IHSG calc"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-02T02:18:58Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; sextuple+ stack universal pre-block (crisis-track engagement gate 0.00-0.50/5 + MSCI STANDALONE Day T+18 + DQG-Day-173 + IDR Stage 5 pierced Wed Oct 28 at 18,183 Day-5 carry + Fri Oct 30 IHSG -0.80% weakening + OJK Rp 2.1T fines + HSC exclusion methodology shift ACTIVATES TODAY Nov 2). 29th consecutive zero-trade week Day 1 OPEN; Day 105 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Q3 record NP Rp 45.2T + buyback Rp 5T \u2014 PRE-BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "Q3 release imminent T-0/T+1 \u2014 PRE-BLOCKED crisis-track"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "Q3 NP Rp 16.12T +6.62% YoY PBV 0.78x \u2014 PRE-BLOCKED crisis-track"
+        },
+        {
+          "type": "warning",
+          "detail": "HSC exclusion methodology shift ACTIVATES TODAY Nov 2 \u2014 Insight Kontan: does NOT fully answer MSCI STANDALONE demands"
+        },
+        {
+          "type": "warning",
+          "detail": "Notification channel BLOCKED api.telegram.org proxy-403 (Wk 24-29 cumulative pattern)"
         }
       ]
     }
