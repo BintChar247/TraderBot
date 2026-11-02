@@ -37781,41 +37781,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-26T00:13:32Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 19 Day 3 (Wed post-holiday first live session): 14 candidates \u22656/10 all crisis-track pre-blocked. Destry DPR test SOLE-CANDIDATE T-0 TODAY 10:00 WIB binary. IDR sub-17,750 Day-2 (partial 0.40/5); foreign flow RESET on Mon -Rp 391.96B; MSCI T-3; Warsh Jackson Hole T+2 Fri. HOLD 100% cash Day 43.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; DQG Day 117 outage persists"
-        },
-        {
-          "type": "research",
-          "detail": "14 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 7/10 \u2014 CPO MYR 4,946 Day 7 pullback >MYR 4,900 elevated B50-October"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 \u2014 CPO pure-play higher-leverage"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 Destry T-0 today; P/E 6.29 cheapest Big-4; div 11.36%"
-        },
-        {
-          "type": "regime",
-          "detail": "Crisis-track gate ACTIVATED persists; re-entry 0.40/5 (+0.10pp)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-26T02:16:57Z",
       "routine": "market-open",
       "status": "warning",
@@ -42810,6 +42775,12 @@
           "detail": "Notification channel BLOCKED api.telegram.org proxy-403 (Wk 24-29 cumulative pattern)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-02T04:36:27Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (100% cash since Jul 6 KLBF close). No cuts/tightens/thesis-checks. SILENT per no-position state (notified per scheduled override)."
     }
   ],
   "exposure": {
