@@ -37646,12 +37646,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-25T04:35:51Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Wk 19 Day 2 midday scan mechanically vacuous \u2014 0 open positions (book fully de-risked Day 42 since Jul 6 KLBF hard-cut). No cuts, no stop tightenings, no thesis checks required."
-    },
-    {
       "timestamp": "2026-08-25T08:21:34Z",
       "routine": "daily-summary",
       "status": "success",
@@ -42629,6 +42623,41 @@
         {
           "type": "research",
           "detail": "Day 143 EOD snapshot committed - Wk 28 FULL CLOSE / 28th consecutive zero-trade week FULL CLOSE"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-02T00:09:14Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Mon Nov 2 Wk 29 Day 1 OPEN: 50-ticker scan complete; 3 candidates scored >=6 (BBCA Q3 2026 record NP Rp 45.2T; BBRI Q3 release imminent; BBNI Q3 2026 Rp 16.12T +6.62% YoY). All PRE-BLOCKED under sextuple-stack binding: crisis-track engagement gate FURTHER-ESCALATED (0.00-0.50/5) + MSCI STANDALONE Day T+18 + DQG-Day-173 + IDR Stage 5 pierced Wed Oct 28 at 18,183 + Fri Oct 30 IHSG close 5,057.05 -0.80% weakening continuation (Oct -16.70%; YTD -41.52%) + HSC-EXCLUSION-METHODOLOGY-SHIFT-ACTIVATES-TODAY fresh overlay. 100% cash maintained IDR 9.72B. 29TH CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN; Day 119 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "3 candidates scored >=6 (BBCA/BBRI/BBNI)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "Q3 2026 record NP Rp 45.2T; RHB BUY TP 7,740 - PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "Q3 release imminent T-0/T+1 - PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "Q3 2026 Rp 16.12T +6.62% YoY - PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "detail": "HSC exclusion effective today Nov 2 - 81-82 stocks removed from IHSG calc"
         }
       ]
     }
