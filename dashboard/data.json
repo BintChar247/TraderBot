@@ -37797,18 +37797,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-26T08:21:39Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk19 Day3 first live post-holiday: IDR 9.716B (0.00% today). Alpha +0.07% vs IHSG sesi I -0.07% (cum +12.06pp). Book 100% cash Day 43. 0/3 trades this week. IHSG sesi I 6,496.89 MA100 broken 3 pts; sesi II full close pending Thu reconciliation.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 93 EOD snapshot committed"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-27T00:20:11Z",
       "routine": "pre-market",
       "status": "success",
@@ -42727,6 +42715,37 @@
         {
           "type": "research",
           "detail": "Day 144 EOD snapshot committed; IHSG Mon Nov 2 PENDING multi-source (5-day backlog); HSC exclusion methodology shift activated today Nov 2 fresh overlay Day-1; dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-03T00:07:49Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Wk 29 Day 2 OPEN: 50-ticker scan complete; 3 catalyst-track candidates \u22656 (BBCA/BBRI/BBNI); all 50 PRE-BLOCKED under sextuple+ stack (crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE Day T+19 + DQG-Day-174 outage + IDR Stage 5 pierced Day-6 + Fri Oct 30 IHSG -0.80% weakening + OJK fines + HSC exclusion Day-2 absorption); 100% cash maintained IDR 9.72B; 29TH CONSECUTIVE ZERO-TRADE WEEK Day 2 OPEN; Day 106 since KLBF hard-cut Jul 6; Mon Nov 2 IHSG close STILL PENDING multi-source Day-2 restored backlog",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (DQG-Day-174 cluster NOT CONVERGED pre-blocks per-ticker fresh-mark)"
+        },
+        {
+          "type": "research",
+          "detail": "3 catalyst-track candidates scored \u22656 (BBCA/BBRI/BBNI all PRE-BLOCKED under sextuple+ stack per MISTAKES.md Jul 6 KLBF root-cause rule)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 2026 record NP Rp 45.2T + buyback Rp 5T carry; SKIP (pre-blocked)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 2026 release imminent T-0/T+1; SKIP (pre-blocked)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 6/10 \u2014 Q3 2026 NP Rp 16.12T +6.62% YoY per Ajaib; SKIP (pre-blocked)"
         }
       ]
     }
