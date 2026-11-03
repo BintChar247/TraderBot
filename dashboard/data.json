@@ -37944,96 +37944,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-27T02:17:36Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. 45th consecutive no-position session; 19th consecutive 0/3 BUY-slot week Day 4. All 14 candidates \u22656/10 (BBCA/BBRI/BMRI/ITMG/INCO/MDKA/NCKL/MYOR/BSDE/CTRA/AALI-7/LSIP-7/KLBF/MIKA) pre-blocked by CRISIS-TRACK-ENGAGEMENT-GATE-ACTIVATED (0.60/5 confirming; 4.40/5 gap binding). Q2 CAD RECORD 2.5B/3.3% GDP structural bearish overlay + Demo 27 Aug 14:00 WIB SOCIAL RISK + IHSG MA100 6,500 BROKEN Wed close 6,405.68 + Destry results TODAY + Warsh JH T+1 US-biz-day + MSCI Aug 29 rebalance T-2.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ITMG",
-          "detail": "crisis-track gate + MISTAKES 2026-05-18"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "NCKL",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BSDE",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "KLBF",
-          "detail": "crisis-track gate + MISTAKES 2026-07-06 hard-cut"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "crisis-track gate"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 118 outage \u2014 WebSearch multi-source only"
-        },
-        {
-          "type": "warning",
-          "detail": "Q2 CAD RECORD $12.5B structural IDR bearish overlay"
-        },
-        {
-          "type": "warning",
-          "detail": "Demo 27 Aug 14:00 WIB SOCIAL RISK during IDX sesi II"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-27T04:35:41Z",
       "routine": "midday",
       "status": "success",
@@ -42900,6 +42810,12 @@
           "detail": "DQG-Day-174 outage persists; cluster NOT CONVERGED for any watchlist ticker"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-03T04:35:17Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "All positions healthy. No action taken (0 positions, 100% cash Day 106 since KLBF hard-cut Jul 6; 29th consecutive zero-trade week Day 2 MIDDAY)."
     }
   ],
   "exposure": {
