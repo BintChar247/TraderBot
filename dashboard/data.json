@@ -38008,6 +38008,153 @@
           "label": "HSC-EXCLUSION-methodology-shift-Day-3 absorption"
         }
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 2026 record NP Rp 45.2T + buyback Rp 5T, but PRE-BLOCKED under crisis-track engagement gate Hard Rule 2026-07-17.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 record NP Rp 45.2T; NII+Sharia Rp 65.05T YTD; buyback Rp 5T carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 107 + IDR Stage 5 pierced Day-7 + MSCI STANDALONE Day T+20 + HSC exclusion Day-3"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 pre-block: crisis-track engagement gate 0.00-0.50/5 universal"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (SKIP)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-175 structural outage; cluster NOT CONVERGED"
+        }
+      ],
+      "reasoning": "Catalyst documented but crisis-track engagement gate Hard Rule 2026-07-17 pre-blocks all new entries until all 5 re-entry criteria satisfied concurrently; IDR Stage 5 pierced Day-7, cluster NOT CONVERGED, MSCI accessibility DEEPER-FAIL, foreign-flow continuation net-sell. 29th consecutive zero-trade week Day 3.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 2026 release T+2 pending; PRE-BLOCKED under crisis-track engagement gate \u2014 outcome does NOT override per MISTAKES.md Jul 6 rule.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 release T+2 pending; H1 NP Rp 31.18T +17.5% YoY carry"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 107 + Fri Oct 30 IHSG -0.80% Day-3 + OJK Rp 2.1T fines"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 pre-block: crisis-track gate + MISTAKES.md Jul 6 KLBF root-cause rule"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (SKIP)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-175 structural outage; cluster NOT CONVERGED"
+        }
+      ],
+      "reasoning": "Fresh Q3 release pending but pre-block binding regardless per Hard Rule 2026-07-17 + MISTAKES.md 2026-07-06 KLBF root-cause rule. IDR Stage 5 pierced, DQG Day-175, MSCI STANDALONE Day T+20 all compound. No candidate reaches 15-gate layer.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-04",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 2026 NP Rp 16.12T +6.62% YoY + PBV 0.78x 10-yr trough, but PRE-BLOCKED under crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 NP Rp 16.12T +6.62% YoY; PBV 0.78x 10-year trough"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 107 + HSC exclusion Day-3 + BI RDG Nov 17-18 T-13"
+        },
+        {
+          "type": "risk",
+          "label": "Gate 5 pre-block: crisis-track engagement gate 0.00-0.50/5"
+        },
+        {
+          "type": "sizing",
+          "label": "0% of equity (SKIP)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-175 structural outage; cluster NOT CONVERGED"
+        }
+      ],
+      "reasoning": "Deep-value PBV trough + Q3 beat validated, but crisis-track engagement gate blocks all new entries. Cluster NOT CONVERGED under DQG-Day-175. Foreign-flow structural net-sell continuation; criterion-d fails. 29th consecutive zero-trade week Day 3.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -38064,46 +38211,6 @@
     "updated": "2026-11-03"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-28T00:15:24Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 19 Day 5 Fri (Weekly Review day). Scanned 50 tickers. 12 candidates \u22656/10: BBCA/BMRI/CTRA/MIKA 6\u21927 UPGRADE on Destry-approved dovish-continuity CEMENTED; AALI/LSIP 7\u21926 DOWNGRADE on CPO borderline breakdown. All 12 pre-blocked by crisis-track engagement gate ACTIVATED. Thu Aug 27 IHSG +1.81% MAJOR REBOUND to 6,521.75 (healthcare +5.28% led). Destry Damayanti CONFIRMED BI Governor 2026-2031 by DPR Komisi XI Thu. Warsh JH T-0 21:00 WIB TODAY binary. MSCI T-1 final session. 46th consecutive no-position session.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 12 candidates \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 7/10 UPGRADE \u2014 Destry-approved dovish-continuity structural lock CEMENTED"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 7/10 UPGRADE \u2014 cheapest Big-4 P/E 6.29 + Destry-approved rate-lock"
-        },
-        {
-          "type": "research",
-          "ticker": "MIKA",
-          "detail": "score 7/10 UPGRADE \u2014 Thu healthcare sector +5.28% led IHSG rebound"
-        },
-        {
-          "type": "research",
-          "ticker": "CTRA",
-          "detail": "score 7/10 UPGRADE \u2014 best VAT-play + Destry-approved rate-lock"
-        },
-        {
-          "type": "macro",
-          "detail": "Destry Damayanti CONFIRMED BI Governor 2026-2031 by DPR Komisi XI Thu Aug 27"
-        },
-        {
-          "type": "macro",
-          "detail": "Warsh Jackson Hole first-Chair keynote T-0 21:00 WIB TODAY binary"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-28T02:17:32Z",
       "routine": "market-open",
@@ -42950,6 +43057,41 @@
           "type": "research",
           "ticker": "BBRI",
           "detail": "score 6/10 \u2014 Q3 2026 release T+2 pending; pre-blocked per crisis-track"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-04T02:17:39Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Sextuple+ stack universal pre-block (crisis-track engagement gate 0.00-0.50/5 + MSCI STANDALONE Day T+20 + DQG-Day-175 + IDR Stage 5 pierced Day-7 carry + Fri Oct 30 IHSG -0.80% Day-3 + OJK fines + HSC exclusion Day-3). 29th consecutive zero-trade week Day 3 OPEN; Day 107 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "PRE-BLOCKED crisis-track engagement gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "PRE-BLOCKED crisis-track + MISTAKES.md Jul 6 rule"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "PRE-BLOCKED crisis-track engagement gate"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-175 structural outage persists; cluster NOT CONVERGED"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Stage 5 pierced Day-7 carry 18,183-18,184"
+        },
+        {
+          "type": "warning",
+          "detail": "HSC exclusion methodology shift Day-3 absorption"
         }
       ]
     }
