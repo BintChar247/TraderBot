@@ -2359,6 +2359,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Wed Nov 4 \u2014 Wk 29 Day 3 CLOSE \u2014 29th consecutive zero-trade week Day 3 CLOSE; mechanically vacuous (0 positions); universal SKIP persisted under sextuple+ stack (crisis-track + MSCI Day T+20 + DQG-Day-175 + BI-RDG-Day-2 Day 12 absorption + BEI-7%-ARB + IDR Stage 5 pierced Wed Oct 28 18,183-18,184 Day-7 carry + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-3); IHSG Wed Nov 4 close PENDING at EOD fire (standard DQG-Day-175 sesi II lag; Tue Nov 3 still PENDING Day-2; Mon Nov 2 still PENDING Day-3; Fri Oct 30 single-source Kontan 5,057.05 (-0.80%) provisional carry Day-3); Wed Oct 28 CONFIRMED 5,282.31 (+0.31%) Databoks + Bisnis dual-source reconciled anchor Day-7 carry; Thu Oct 22 + Tue Oct 27 + Thu Oct 29 + Fri Oct 30 (single-source) + Mon Nov 2 + Tue Nov 3 + Wed Nov 4 multi-source 7-day backlog restored; alpha ~+30.35pp Wed Oct 28 reconciled basis Day-7 carry; Thu Nov 5 pre-market reconciliation deferred; Day 107 since KLBF hard-cut; 99 consecutive sessions 0.00% daily P&L; DD -3.10% from peak (deeply within -15% cap)."
+    },
+    {
+      "date": "2026-11-05",
+      "day_label": "Day 147 \u2014 Wk 29 Day 4 CLOSE EOD \u2014 29TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE \u2014 Q4-2026-WEEK-6-DAY-4 \u2014 Post-Cabinet-Reshuffle-Day-32 \u2014 Post-BI-Hold-Transmission-Day-40 \u2014 MSCI-STANDALONE-Day-T+21 \u2014 Post-BI-RDG-Day-2 Day 13 absorption \u2014 Day 108 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-4 \u2014 IDR Stage 5 pierced Wed Oct 28 18,183 Kompas Day-8 carry + Oct 29 Bisnis reconfirmed 18,184 \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Oct 30 IHSG 5,057.05 (-0.80%) Kontan single-source provisional Day-4 \u2014 Mon Nov 2 IHSG still PENDING Day-4 \u2014 Tue Nov 3 IHSG still PENDING Day-3 \u2014 Wed Nov 4 IHSG still PENDING Day-2 \u2014 Thu Nov 5 IHSG PENDING Day-1 \u2014 100 CONSECUTIVE SESSIONS 0.00% DAILY P&L CENTURY MILESTONE",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -33.19,
+      "alpha_pct": 30.35,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "EOD Thu Nov 5 \u2014 Wk 29 Day 4 CLOSE \u2014 29th consecutive zero-trade week Day 4 CLOSE; mechanically vacuous (0 positions); universal SKIP persisted under sextuple+ stack (crisis-track + MSCI Day T+21 + DQG-Day-176 + BI-RDG-Day-2 Day 13 absorption + BEI-7%-ARB + IDR Stage 5 pierced Wed Oct 28 18,183-18,184 Day-8 carry + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-4); IHSG Thu Nov 5 close PENDING at EOD fire (standard DQG-Day-176 sesi II lag; Wed Nov 4 still PENDING Day-2; Tue Nov 3 still PENDING Day-3; Mon Nov 2 still PENDING Day-4; Fri Oct 30 single-source Kontan 5,057.05 (-0.80%) provisional carry Day-4); Wed Oct 28 CONFIRMED 5,282.31 (+0.31%) Databoks + Bisnis dual-source reconciled anchor Day-8 carry; Thu Oct 22 + Tue Oct 27 + Thu Oct 29 + Fri Oct 30 (single-source) + Mon Nov 2 + Tue Nov 3 + Wed Nov 4 + Thu Nov 5 multi-source 8-day backlog restored; alpha ~+30.35pp Wed Oct 28 reconciled basis Day-8 carry; Fri Nov 6 pre-market reconciliation + 16:00 WIB weekly-review deferred; Day 108 since KLBF hard-cut; 100 consecutive sessions 0.00% daily P&L (century milestone); DD -3.10% from peak (deeply within -15% cap)."
     }
   ],
   "positions": [],
@@ -38375,58 +38391,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-31T02:18:51Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 20 Day 1. Crisis-track engagement gate ACTIVATED 0.50/5 (regressed -0.15pp post-Warsh-hawkish); 8 candidates \u22656/10 (MIKA-7, BBCA/BMRI/CTRA/INCO/MDKA/NCKL/MYOR-6) all pre-blocked. DQG Day 120. 100% cash Day 47.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "score 7; crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "score 6; crisis-track gate; ex-div T-0"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "score 6; crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6; crisis-track gate + Warsh-hawkish rate-sensitive"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "score 6; crisis-track gate + DQG"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "score 6; crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "NCKL",
-          "detail": "score 6; crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "score 6; crisis-track gate"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 120 outage (yfinance/GoAPI blocked 120 sessions)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-08-31T04:37:10Z",
       "routine": "midday",
       "status": "success",
@@ -43247,6 +43211,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "0 positions carry from market-open; mechanically vacuous midday scan (no losers to cut, no winners to tighten, no theses to check); 29th consecutive zero-trade week Day 4 MIDDAY (Day 108 since KLBF hard-cut Jul 6)"
+    },
+    {
+      "timestamp": "2026-11-05T08:18:24Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Thu Nov 5: IDR 9.72B (0.00% today). Alpha vs IHSG PENDING (Thu Nov 5 close not surfaced \u2014 DQG-Day-176 sesi II lag). 0 positions, 100% cash. 29th consecutive zero-trade week Day 4 CLOSE. 100 consecutive sessions 0.00% daily P&L (century milestone). DD -3.10% from peak. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 147 EOD snapshot committed; Day 108 since KLBF hard-cut; 100-session zero-daily-P&L century milestone"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -43294,7 +43270,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-05T07:00:00+07:00",
+  "last_updated": "2026-11-05T15:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
