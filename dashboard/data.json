@@ -38171,6 +38171,153 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BCA Q3 2026 record NP Rp 45.2T + buyback Rp 5T carry \u2014 pre-blocked.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 record NP Rp 45.2T Databoks (Oct 28)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 108; crisis-track gate 0.00-0.50/5; IDR Stage 5 pierced Day-8; MSCI STANDALONE Day T+21"
+        },
+        {
+          "type": "risk",
+          "label": "Gate: crisis-track engagement gate Hard Rule 2026-07-17 universal pre-block"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash \u2014 Day 108 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-176 cluster not convergent; HSC exclusion methodology shift Day-4 absorption; IHSG Mon-Wed close 3-day backlog pending multi-source"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5; 5 re-entry criteria DEEPER FAIL; franchise premium insufficient to override sextuple+ stack binding.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBRI H1 NP Rp 31.18T +17.5% YoY + Q3 release T+3 pending \u2014 pre-blocked.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 release T+3 pending (binary regardless of outcome per MISTAKES.md Jul 6)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 108; crisis-track gate 0.00-0.50/5; IDR Stage 5 pierced Day-8; MSCI STANDALONE Day T+21"
+        },
+        {
+          "type": "risk",
+          "label": "Gate: crisis-track engagement gate Hard Rule 2026-07-17 universal pre-block"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash \u2014 Day 108 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-176 cluster not convergent; HSC exclusion methodology shift Day-4 absorption; IHSG Mon-Wed close 3-day backlog pending multi-source"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate blocks all entries; Q3 beat/miss does NOT override gate per Hard Rule 2026-07-17; DQG-Day-176 cluster not convergent.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-05",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "BBNI Q3 2026 NP Rp 16.12T +6.62% + PBV 0.78x \u2014 pre-blocked.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 NP Rp 16.12T +6.62% YoY reconciled"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 108; crisis-track gate 0.00-0.50/5; IDR Stage 5 pierced Day-8; MSCI STANDALONE Day T+21"
+        },
+        {
+          "type": "risk",
+          "label": "Gate: crisis-track engagement gate Hard Rule 2026-07-17 universal pre-block"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash \u2014 Day 108 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-176 cluster not convergent; HSC exclusion methodology shift Day-4 absorption; IHSG Mon-Wed close 3-day backlog pending multi-source"
+        }
+      ],
+      "reasoning": "Crisis-track pre-block binding; cheap-valuation trigger insufficient to override sextuple+ stack; DQG-Day-176 cluster not convergent.",
+      "gate_results": [
+        false,
+        true,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -38227,45 +38374,6 @@
     "updated": "2026-11-04"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-08-31T00:13:50.410224Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 20 Day 1 pre-market (Mon Aug 31): 50-ticker scan complete. 7 candidates \u22656/10 (MIKA-7 / BBCA-6\u2193 / BMRI-6\u2193 / CTRA-6\u2193 / INCO-6 / MDKA-6 / NCKL-6 / MYOR-6); all pre-blocked by crisis-track engagement gate ACTIVATED (0.50/5, regressed -0.15pp). Warsh JH hawkish-lean confirmed Fri = risk-case materialized; rate-sensitive downgrades cascade. MSCI-Aug-31-effective T-0 today at close = $753M outflow.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned (WebSearch multi-source override; DQG-Day-120 outage persists)"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "MIKA",
-          "detail": "score 7/10 \u2014 healthcare pure-play + Thu +5.28% sector-led momentum + RAPBN 2027 health-anchor"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 (7\u21926 DOWNGRADE) \u2014 Warsh-hawkish BI-hold-longer erodes rate-benign; foreign top-net-bought Fri +Rp 358B; ex-div T-0"
-        },
-        {
-          "type": "research",
-          "ticker": "INCO/MDKA/NCKL",
-          "detail": "score 6/10 \u2014 nickel ESDM quota supply-cut + LME +1.44% Aug 29; NCKL added IDX80 Sep 1 T-0 today"
-        },
-        {
-          "type": "regime",
-          "detail": "Regime overlay: DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY47 + WARSH-JH-HAWKISH-LEAN-CONFIRMED-DAY-1"
-        },
-        {
-          "type": "note",
-          "detail": "47th consecutive no-position session; 100% cash IDR 9,716,207,500; Wk 20 Day 1 fresh 0/3 BUY-slot week opens"
-        }
-      ]
-    },
     {
       "timestamp": "2026-08-31T00:14:00Z",
       "routine": "pre-market",
@@ -43121,6 +43229,37 @@
           "type": "research",
           "ticker": "BBNI",
           "detail": "score 6/10 \u2014 Q3 2026 Rp 16.12T +6.62% YoY per Ajaib; PBV 0.78x; PRE-BLOCKED"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-05T02:17:38Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; sextuple+ stack universal pre-block (crisis-track engagement gate 0.00-0.50/5 + MSCI STANDALONE Day T+21 + DQG-Day-176 + IDR Stage 5 pierced Day-8 at 18,183-18,184 + Fri Oct 30 IHSG -0.80% Day-4 + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-4). 29th consecutive zero-trade week Day 4 OPEN; Day 108 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "PRE-BLOCKED crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "PRE-BLOCKED crisis-track gate"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "PRE-BLOCKED crisis-track gate"
+        },
+        {
+          "type": "warning",
+          "detail": "Notification channel blocked (Telegram 403 via CONNECT tunnel) \u2014 5th-week structural operating constraint"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-176 structural outage persists; cluster not convergent"
         }
       ]
     }
