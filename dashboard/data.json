@@ -2375,6 +2375,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Thu Nov 5 \u2014 Wk 29 Day 4 CLOSE \u2014 29th consecutive zero-trade week Day 4 CLOSE; mechanically vacuous (0 positions); universal SKIP persisted under sextuple+ stack (crisis-track + MSCI Day T+21 + DQG-Day-176 + BI-RDG-Day-2 Day 13 absorption + BEI-7%-ARB + IDR Stage 5 pierced Wed Oct 28 18,183-18,184 Day-8 carry + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-4); IHSG Thu Nov 5 close PENDING at EOD fire (standard DQG-Day-176 sesi II lag; Wed Nov 4 still PENDING Day-2; Tue Nov 3 still PENDING Day-3; Mon Nov 2 still PENDING Day-4; Fri Oct 30 single-source Kontan 5,057.05 (-0.80%) provisional carry Day-4); Wed Oct 28 CONFIRMED 5,282.31 (+0.31%) Databoks + Bisnis dual-source reconciled anchor Day-8 carry; Thu Oct 22 + Tue Oct 27 + Thu Oct 29 + Fri Oct 30 (single-source) + Mon Nov 2 + Tue Nov 3 + Wed Nov 4 + Thu Nov 5 multi-source 8-day backlog restored; alpha ~+30.35pp Wed Oct 28 reconciled basis Day-8 carry; Fri Nov 6 pre-market reconciliation + 16:00 WIB weekly-review deferred; Day 108 since KLBF hard-cut; 100 consecutive sessions 0.00% daily P&L (century milestone); DD -3.10% from peak (deeply within -15% cap)."
+    },
+    {
+      "date": "2026-11-06",
+      "day_label": "Day 148 \u2014 Wk 29 Day 5 OPEN (pre-market) \u2014 29TH CONSECUTIVE ZERO-TRADE WEEK Day 5 OPEN \u2014 Q4-2026-WEEK-6-DAY-5 \u2014 Post-Cabinet-Reshuffle-Day-33 \u2014 Post-BI-Hold-Transmission-Day-41 \u2014 MSCI-STANDALONE-Day-T+22 \u2014 Post-BI-RDG-Day-2 Day 14 absorption \u2014 Day 109 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-5 \u2014 BEI new suspension/UMA rules Nov 2026 \u2014 IDR Stage 5 pierced Wed Oct 28 18,183-18,184 Day-9 carry \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Oct 30 IHSG 5,057.05 Kontan single-source Day-5 \u2014 Mon Nov 2 IHSG 5,096.83 Databoks single-source partial reconcile Day-1 \u2014 Tue Nov 3 + Wed Nov 4 + Thu Nov 5 IHSG still PENDING multi-source \u2014 Weekly-review Wk 29 full-close 16:00 WIB queued",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -33.19,
+      "alpha_pct": 30.35,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Pre-market Fri Nov 6 2026 \u2014 Wk 29 Day 5 OPEN. Mon Nov 2 IHSG close 5,096.83 Databoks single-source partial reconcile Day-1 (+0.79% from Fri Oct 30 Kontan single-source 5,057.05); Tue Nov 3 + Wed Nov 4 + Thu Nov 5 still PENDING multi-source Day-4-restored backlog (DQG-Day-177 sesi II lag). Universal SKIP applied all 50 watchlist tickers under sextuple+ stack: crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI STANDALONE consultation Day T+22 + DQG-Day-177 structural outage + IDR Stage 5 pierced Day-9 + OJK Rp 2.1T fines + HSC exclusion Day-5 absorption + BEI new suspension/UMA rules Nov 2026 overlay. 3 candidates score 6 (BBCA/BBRI/BBNI) \u2014 all PRE-BLOCKED mechanically. 100% cash maintained IDR 9,716,207,500 unchanged. Weekly-review Wk 29 full-close grading routine queued 16:00 WIB."
     }
   ],
   "positions": [],
@@ -38391,12 +38407,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-08-31T04:37:10Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "n=0 positions; book fully de-risked Day 47; no cuts, no tightens, no thesis exits (mechanically vacuous)."
-    },
-    {
       "timestamp": "2026-08-31T08:21:21Z",
       "routine": "daily-summary",
       "status": "success",
@@ -43223,6 +43233,35 @@
           "detail": "Day 147 EOD snapshot committed; Day 108 since KLBF hard-cut; 100-session zero-daily-P&L century milestone"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-06T00:09:02Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Fri Nov 6 Wk 29 Day 5 OPEN (Day 148): 50-ticker scan complete; 3 candidates score 6 (BBCA/BBRI/BBNI) ALL PRE-BLOCKED mechanically under sextuple+ stack (crisis-track FURTHER-ESCALATED + MSCI STANDALONE Day T+22 + DQG-Day-177 + IDR Stage 5 pierced Day-9 18,183-18,184 + OJK Rp 2.1T fines + HSC exclusion Day-5 + BEI new suspension/UMA Nov-2026 overlay); Mon Nov 2 IHSG 5,096.83 Databoks single-source partial reconcile Day-1 (+0.79% from Fri Oct 30 5,057.05 Kontan); Tue-Wed-Thu Nov 3-4-5 IHSG PENDING multi-source 4-day backlog; 100% cash IDR 9.72B maintained (29th consecutive zero-trade week Day 5 OPEN); weekly-review 16:00 WIB queued; no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker scan complete under DQG-Day-177 structural outage"
+        },
+        {
+          "type": "research",
+          "detail": "3 candidates scored 6 (BBCA/BBRI/BBNI) all PRE-BLOCKED mechanically per crisis-track gate"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 2026 record NP Rp 45.2T + Rp 5T buyback carry (PRE-BLOCKED)"
+        },
+        {
+          "type": "research",
+          "detail": "Mon Nov 2 IHSG 5,096.83 Databoks single-source partial reconcile Day-1"
+        },
+        {
+          "type": "research",
+          "detail": "BEI new suspension/UMA rules Nov 2026 NEW operating-constraint overlay"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -43241,13 +43280,13 @@
     "regime_updated": "2026-10-22"
   },
   "research": {
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "holiday": "False",
-    "as_of_date": "2026-11-04",
-    "as_of_time": "2026-11-04T07:00:00+07:00",
-    "as_of_label": "Wed Nov 4 2026 pre-market (Wk 29 Day 3 OPEN) - MSCI STANDALONE CONSULTATION OVERLAY DAY T+20 - DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY107 - sextuple+ stack binding + HSC exclusion Day-3 absorption + IDR Stage 5 pierced Day-7 + BI RDG Nov 17-18 T-13 countdown - Day 107 since KLBF hard-cut",
-    "ihsg_last": "5057.05",
-    "ihsg_last_label": "Fri Oct 30 Kontan single-source provisional Day-3 (-0.80%); Wed Oct 28 CONFIRMED 5,282.31 Databoks+Bisnis reconciled Day-7 anchor; Mon Nov 2 + Tue Nov 3 PENDING multi-source cluster NOT SURFACED (DQG-Day-175 standard sesi II lag 52nd+ cumulative occurrence; 6-day cumulative backlog)",
+    "as_of_date": "2026-11-06",
+    "as_of_time": "2026-11-06T07:00:00+07:00",
+    "as_of_label": "Fri Nov 6 2026 pre-market (Wk 29 Day 5 OPEN \u2014 Day 148 trial-to-date) \u2014 MSCI STANDALONE CONSULTATION OVERLAY DAY T+22 \u2014 DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY109 \u2014 sextuple+ stack binding + HSC exclusion Day-5 absorption + IDR Stage 5 pierced Day-9 + BEI new suspension/UMA Nov-2026 overlay + BI RDG Nov 17-18 T-11 countdown \u2014 Day 109 since KLBF hard-cut \u2014 Weekly-review 16:00 WIB queued",
+    "ihsg_last": "5096.83",
+    "ihsg_last_label": "Mon Nov 2 Databoks single-source partial reconcile Day-1 +0.79% from Fri Oct 30 Kontan single-source 5,057.05; Wed Oct 28 CONFIRMED 5,282.31 Databoks+Bisnis reconciled Day-9 anchor; Tue Nov 3 + Wed Nov 4 + Thu Nov 5 PENDING multi-source cluster NOT SURFACED (DQG-Day-177 standard sesi II lag 55th+ cumulative occurrence; 4-day cumulative backlog restored)",
     "candidates_scored_ge_6": 3,
     "top_candidates": [
       {
@@ -43260,17 +43299,17 @@
         "ticker": "BBRI",
         "score": 6,
         "status": "SKIP-pre-blocked",
-        "catalyst": "Q3 2026 release T+2 pending; H1 NP Rp 31.18T +17.5% YoY; post-cascade mean-reversion blocked"
+        "catalyst": "Q3 2026 release T+4 pending; H1 Rp 31.18T +17.5% YoY; post-cascade mean-reversion blocked"
       },
       {
         "ticker": "BBNI",
         "score": 6,
         "status": "SKIP-pre-blocked",
-        "catalyst": "Q3 2026 NP Rp 16.12T +6.62% YoY (Ajaib); PBV 0.78x 10-yr trough"
+        "catalyst": "Q3 Rp 16.12T +6.62% YoY; PBV 0.78x 10-yr trough territory"
       }
     ]
   },
-  "last_updated": "2026-11-05T15:15:00+07:00",
+  "last_updated": "2026-11-06T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
