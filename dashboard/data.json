@@ -2391,6 +2391,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Fri Nov 6 \u2014 Wk 29 FULL CLOSE \u2014 29th consecutive zero-trade week FINAL; mechanically vacuous (0 positions); universal SKIP persisted under septuple+ stack (crisis-track + MSCI Day T+22 + DQG-Day-177 + BI-RDG-Day-2 Day 14 absorption + BEI-7%-ARB + IDR Stage 5 pierced Wed Oct 28 18,183-18,184 Day-9 carry + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-5 + BEI new suspension/UMA rules Nov 2026 Day-1); IHSG Fri Nov 6 close PENDING at EOD fire (standard DQG-Day-177 sesi II lag; Thu Nov 5 still PENDING Day-2; Wed Nov 4 still PENDING Day-3; Tue Nov 3 iNews single-source 4,904 (-3.78%) partial reconcile Day-1; Mon Nov 2 Databoks single-source 5,096.83 (+0.79%) partial reconcile Day-5; Fri Oct 30 Kontan single-source 5,057.05 (-0.80%) provisional carry Day-5); Wed Oct 28 CONFIRMED 5,282.31 (+0.31%) Databoks + Bisnis dual-source reconciled anchor Day-9 carry; alpha ~+30.35pp Wed Oct 28 reconciled basis Day-9 carry; Wk 29 weekly-review 16:00 WIB upcoming (45 min post-fire); Day 109 since KLBF hard-cut; 101 consecutive sessions 0.00% daily P&L (century milestone +1); DD -3.10% from peak (deeply within -15% cap)."
+    },
+    {
+      "date": "2026-11-09",
+      "day_label": "Day 151 \u2014 Wk 30 Day 1 OPEN PRE-MARKET \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN \u2014 Q4-2026-WEEK-7-DAY-1 \u2014 Post-Cabinet-Reshuffle-Day-36 \u2014 Post-BI-Hold-Transmission-Day-44 \u2014 MSCI-STANDALONE-Day-T+25 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-2-BINARY-THIS-WEEK \u2014 Post-BI-RDG-Day-2 Day 17 absorption \u2014 Day 112 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-6 \u2014 BEI new suspension/UMA rules Nov 2026 Day-4 \u2014 IDR Stage 5 pierced Day-12 carry 18,130 Fri Nov 6 Jisdor \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) Databoks + Katadata + Bisnis triple-source anchor \u2014 Oct CPI 3.23% YoY core 2.56% easing \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT \u2014 BBRI Q3 release T+7 pending \u2014 102 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": 5050.42,
+      "ihsg_cumulative_pct": -36.12,
+      "alpha_pct": 33.28,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "PRE-MARKET Mon Nov 9 \u2014 Wk 30 Day 1 OPEN \u2014 30th consecutive zero-trade week Day 1 OPEN; mechanically vacuous (0 positions); universal SKIP all 50 watchlist persisted under SEPTUPLE+ stack (crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + BI-RDG-Day-2 Day 17 absorption + BEI-7%-ARB + IDR Stage 5 pierced Day-12 carry 18,130 + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-6 + BEI new suspension/UMA rules Nov 2026 Day-4 + foreign-flow YTD ~-Rp 127T passed -Rp 100T milestone). Fri Nov 6 IHSG 5,050.42 (+0.40%) Databoks + Katadata + Bisnis TRIPLE-SOURCE RECONCILED anchor \u2014 first fresh multi-source confirmed close since Wed Oct 28; alpha widens to ~+33.28pp Fri Nov 6 reconciled basis (vs prior Oct 28 ~+30.35pp Day-9 carry). Tue Nov 3 iNews single-source 4,904 (-3.77%) partial reconcile Day-4; Wed Nov 4 + Thu Nov 5 (CNBC 5,030.26 single) still PENDING multi-source 3-day residual backlog. IDR Jisdor Fri Nov 6 18,130 (-0.20%/-Rp36); spot 18,089; weekly +0.04%; Stage 5 pierce Day-12 carry. Oct CPI FRESH 0.22% mom / 3.23% yoy within BI 2-4% target band; core 2.56% YoY easing from Sep 2.84%; volatile foods +5.81% YoY accelerating (chili-driven). Positives emerged but do NOT reach crisis-track de-arm threshold: Fri Nov 6 reconciled anchor + CPI dovish-hold-compatible print + BMRI Q3 Rp 15.1T +14% YoY BEAT + ICBP 9M sales +15% YoY above-expectation + UNVR Fri +4.12%/weekly +9% rotation-IN 1st observation + Fri Nov 6 big-cap LIFT BBCA/BBRI/ASII coordinated green. Negatives escalating: MSCI Nov 11 T-2 binary this week + foreign-flow YTD passed -Rp 100T milestone + Thu Nov 5 US AI-chip selloff Nasdaq -5.52% / S&P -4.36% + IDR Stage 5 pierce Day-12. Day 112 since KLBF hard-cut; 102 consecutive sessions 0.00% daily P&L; DD -3.10% from peak (deeply within -15% cap)."
     }
   ],
   "positions": [],
@@ -2477,6 +2493,356 @@
     }
   ],
   "decisions": [
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BBCA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BBCA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BBRI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BBRI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BMRI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BMRI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BBNI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BBNI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BNGA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BNGA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "NISP",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. NISP pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BBTN",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BBTN pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ADRO",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ADRO pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ITMG",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ITMG pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "PTBA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. PTBA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BUMI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BUMI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "HRUM",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. HRUM pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MEDC",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MEDC pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "PGAS",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. PGAS pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ANTM",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ANTM pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "INCO",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. INCO pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MDKA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MDKA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "NCKL",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. NCKL pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MBMA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MBMA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "TINS",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. TINS pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "UNVR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. UNVR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ICBP",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ICBP pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "INDF",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. INDF pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MYOR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MYOR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "SIDO",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. SIDO pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "TLKM",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. TLKM pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "EXCL",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. EXCL pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ISAT",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ISAT pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MTEL",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MTEL pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "TOWR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. TOWR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BSDE",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BSDE pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "CTRA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. CTRA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "SMRA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. SMRA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "PWON",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. PWON pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "GOTO",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. GOTO pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "BUKA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. BUKA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "EMTK",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. EMTK pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ASII",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ASII pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "UNTR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. UNTR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "AKRA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. AKRA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "AALI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. AALI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "LSIP",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. LSIP pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "JSMR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. JSMR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "WSKT",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. WSKT pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "PTPP",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. PTPP pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "ADHI",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. ADHI pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "KLBF",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. KLBF pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "MIKA",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. MIKA pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "SMGR",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. SMGR pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
+    {
+      "timestamp": "2026-11-09T07:00:00+07:00",
+      "ticker": "INTP",
+      "decision": "SKIP",
+      "reason": "Pre-market Wk 30 Day 1 OPEN universal mechanical SKIP \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 (Hard Rule 2026-07-17) + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + OJK fines + HSC exclusion Day-6 + BEI new suspension/UMA Day-4 + foreign-flow YTD -Rp 127T. INTP pre-blocked mechanically.",
+      "routine": "pre-market"
+    },
     {
       "ticker": "ITMG",
       "action": "BUY",
@@ -38554,78 +38920,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-01T02:19:33Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 20 Day 2. 12 candidates \u22656/10 (BBRI-8/BBCA-7/BMRI-7/MIKA-7/BBNI-6/PGAS-6/INCO-6/MDKA-6/TLKM-6/CTRA-6/AALI-6/LSIP-6) all pre-blocked by crisis-track engagement gate (0.75/5; 4.25/5 gap binding). Iran-US-Brent-shock Day-1 fresh binding overlay. Book fully de-risked Day 49 continues (100% cash IDR 9,716,207,500).",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "score 8; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "score 7; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "score 7; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "score 7; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "CTRA",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "score 6; crisis-track-blocked"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-121 outage: yfinance/GoAPI blocked; no live quotes for new-entry validation"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-01T04:36:04Z",
       "routine": "midday",
       "status": "success",
@@ -43393,6 +43687,45 @@
           "detail": "Day 148 EOD snapshot committed; IHSG Fri Nov 6 close PENDING multi-source (Wed-Thu-Fri backlog); Tue Nov 3 iNews single-source 4,904 (-3.78%) partial Day-1 NEW; dashboard+RISK-STATE updated"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-09T00:09:16Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Wk 30 Day 1 OPEN \u2014 50-ticker scan complete; 4 candidates scored \u22656 (BBCA/BBRI/BMRI/BBNI) all PRE-BLOCKED mechanically under septuple+ stack. Crisis-track gate 0.00-0.50/5; MSCI Nov 11 T-2 binary this week; IDR Stage 5 Day-12 pierced 18,130. 30th consecutive zero-trade week Day 1 OPEN. Fri Nov 6 IHSG reconciled 5,050.42 triple-source anchor; alpha widens to +33.28pp fresh basis. Oct CPI 3.23% within target band.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50-ticker universal scan complete"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 (BBCA/BBRI/BMRI/BBNI) all PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 15.1T +14% YoY BEAT Brights; 9M Rp 45.5T +21% YoY"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 Rp 15.7T +9% YoY; YTD record Rp 45.2T + Rp 5T buyback"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 6/10 \u2014 Q3 Rp 16.12T +6.62% YoY; PBV 0.78x"
+        },
+        {
+          "type": "research",
+          "detail": "MSCI Nov 11 Index Review T-2 binary this week (effective Dec 1)"
+        },
+        {
+          "type": "research",
+          "detail": "IHSG Fri Nov 6 reconciled 5,050.42 triple-source; alpha widens to +33.28pp fresh basis"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -43405,10 +43738,23 @@
     "equity_pct": 0.0
   },
   "macro": {
-    "regime": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY95-MSCI-STANDALONE-CONSULTATION-OVERLAY-DAY-T+7-POST-BI-RDG-DAY-2-DAY-1-OUTCOME-ABSORPTION-STILL-PENDING-27TH-CONSECUTIVE-ZERO-TRADE-WEEK-DAY-4-CLOSE",
-    "regime_label": "DEFENSIVE INTENSIFIED CASCADE INFLECTION CONFIRMED DAY 95 + MSCI STANDALONE CONSULTATION OVERLAY DAY T+7 + POST-BI-RDG-DAY-2 Day 1 (outcome absorption STILL PENDING at 15:15 WIB EOD fire) - 27TH CONSECUTIVE ZERO-TRADE WEEK DAY 4 CLOSE - IHSG MON OCT 19 CONFIRMED 4,996.61 SUB-5,000 BREAK (Tue-Wed-Thu closes PENDING 3-day backlog) - CRISIS-TRACK GATE FURTHER-ESCALATED 0.00-0.50/5 - DQG-Day-164 outage persists",
-    "regime_overlay": "MSCI STANDALONE consultation Day T+7; cascade -11.57% Fri Oct 16 carry Day-7; Mon Oct 19 CONFIRMED sub-5,000 break (-3.64% to 4,996.61) Day-4; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists; universal SKIP across 50 watchlist tickers; universal -1 to -2 score markdown persists; 100% cash maintained Day 95; BI RDG Day 2 Wed Oct 21 outcome STILL PENDING at Thu 15:15 WIB EOD fire \u2014 absorption window extends Fri",
-    "regime_updated": "2026-10-22"
+    "ihsg_level": 5050.42,
+    "ihsg_change_pct": 0.4,
+    "ihsg_date": "2026-11-06",
+    "ihsg_source": "Databoks + Katadata + Bisnis triple-source reconciled",
+    "idr_usd_jisdor": 18130,
+    "idr_usd_date": "2026-11-06",
+    "idr_usd_source": "Kontan secondary-source",
+    "idr_stage": "Stage 5 pierced Day-12 carry",
+    "cpi_mom_pct": 0.22,
+    "cpi_yoy_pct": 3.23,
+    "cpi_core_yoy_pct": 2.56,
+    "cpi_date": "2026-10 (BPS release Nov 2)",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY112",
+    "foreign_net_sell_ytd_idrT": -127,
+    "crisis_track_gate_score": "0.00-0.50/5",
+    "msci_next_event": "Nov 11 2026 Index Review announcement (US time) \u2192 Nov 12 WIB; effective Dec 1",
+    "bi_rdg_next": "Nov 17-18 2026 (T-8/T-9)"
   },
   "research": {
     "date": "2026-11-06",
@@ -43440,7 +43786,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-06T15:15:00+07:00",
+  "last_updated": "2026-11-09T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -43450,13 +43796,19 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-11-05",
-    "candidates_scored_6plus": 3,
-    "universal_skip_binding": true,
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY108 + IDR-STAGE-5-PIERCED-Wed-Oct-28-at-18,183-Kompas-Day-8-carry + Oct-29-Bisnis-reconfirmed-18,184 + Fri-Oct-30-IHSG-5,057.05-Kontan-single-source-Day-4 + MSCI STANDALONE consultation Day T+21 + HSC-EXCLUSION-Day-4-absorption + Post-BI-RDG-Day-13 absorption + BI-RDG-Nov-17-18-T-12-countdown + BEI 7% ARB active + OJK-Rp-2.1T-fines-DSSA/BREN/CUAN-structural + DQG-Day-176",
-    "ihsg_anchor": "5,057.05 Fri Oct 30 Kontan single-source Day-4 provisional / 5,282.31 Wed Oct 28 Databoks+Bisnis reconciled Day-8 anchor / Mon Nov 2 + Tue Nov 3 + Wed Nov 4 PENDING multi-source (7-day backlog)",
-    "cumulative_alpha_pp": 30.35,
-    "notes": "All 50 watchlist tickers PRE-BLOCKED universal SKIP under sextuple+ stack binding. 3 candidates score >=6 (BBCA/BBRI/BBNI, same cohort as Nov 2-4). Day 108 since KLBF hard-cut Jul 6; 29th consecutive zero-trade week Day 4 OPEN. BBRI Q3 release T+3 pending; BI RDG Nov 17-18 T-12 approaching. HSC exclusion methodology shift Day-4 absorption; Insight Kontan: 'does NOT fully answer MSCI STANDALONE demands'."
+    "date": "2026-11-09",
+    "day_label": "Wk 30 Day 1 OPEN",
+    "candidates_scored_6plus": 4,
+    "candidates_tickers": [
+      "BBCA",
+      "BBRI",
+      "BMRI",
+      "BBNI"
+    ],
+    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate binding",
+    "top_catalyst_today": "MSCI Nov 11 Index Review T-2 binary this week",
+    "plan_for_market_open": "NO BUYS \u2014 septuple+ stack universal pre-block all 50 tickers; HOLD 100% cash",
+    "notes": "30th consecutive zero-trade week Day 1 OPEN; Day 112 since KLBF hard-cut; 102 consecutive sessions 0.00% daily P&L; Fri Nov 6 IHSG RECONCILED 5,050.42 triple-source anchor; alpha widens to ~+33.28pp fresh basis"
   },
   "activity": [
     {
