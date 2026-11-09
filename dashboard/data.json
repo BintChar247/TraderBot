@@ -39116,18 +39116,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-01T08:22:49Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk20 Day2: IDR 9.716B (0.00% today). IHSG +0.79% \u2192 -0.79pp daily alpha. Cum alpha +11.01pp. 0 positions, 100% cash. Trades week 0/3. Crisis-track gate 0.75/5 binding.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 97 EOD snapshot committed; Mon full-day IHSG reconciled 6,525.47; Tue full-day close ~6,577"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-02T00:12:57Z",
       "routine": "pre-market",
       "status": "success",
@@ -43952,6 +43940,12 @@
           "detail": "MSCI Nov 11 Index Review T-2 binary this week; announcement Wed US / Thu WIB"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-09T04:35:17Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No positions; mechanically vacuous midday \u2014 no cuts/tightens/thesis exits; 30th consecutive zero-trade week Day 1 MID; Day 112 since KLBF hard-cut Jul 6"
     }
   ],
   "exposure": {
