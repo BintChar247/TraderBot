@@ -2394,19 +2394,19 @@
     },
     {
       "date": "2026-11-09",
-      "day_label": "Day 151 \u2014 Wk 30 Day 1 OPEN PRE-MARKET \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN \u2014 Q4-2026-WEEK-7-DAY-1 \u2014 Post-Cabinet-Reshuffle-Day-36 \u2014 Post-BI-Hold-Transmission-Day-44 \u2014 MSCI-STANDALONE-Day-T+25 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-2-BINARY-THIS-WEEK \u2014 Post-BI-RDG-Day-2 Day 17 absorption \u2014 Day 112 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-6 \u2014 BEI new suspension/UMA rules Nov 2026 Day-4 \u2014 IDR Stage 5 pierced Day-12 carry 18,130 Fri Nov 6 Jisdor \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) Databoks + Katadata + Bisnis triple-source anchor \u2014 Oct CPI 3.23% YoY core 2.56% easing \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT \u2014 BBRI Q3 release T+7 pending \u2014 102 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
+      "day_label": "Day 151 \u2014 Wk 30 Day 1 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE \u2014 Q4-2026-WEEK-7-DAY-1 \u2014 Post-Cabinet-Reshuffle-Day-36 \u2014 Post-BI-Hold-Transmission-Day-44 \u2014 MSCI-STANDALONE-Day-T+25 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-2-BINARY-THIS-WEEK \u2014 Post-BI-RDG-Day-2 Day 17 absorption \u2014 Day 112 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-6 \u2014 BEI new suspension/UMA rules Nov 2026 Day-4 \u2014 IDR Stage 5 pierced Day-12 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-0 \u2014 Mon Nov 9 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 3-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT \u2014 102 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
-      "ihsg_close": 5050.42,
+      "ihsg_close": null,
       "ihsg_cumulative_pct": -36.12,
       "alpha_pct": 33.28,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "notes": "PRE-MARKET Mon Nov 9 \u2014 Wk 30 Day 1 OPEN \u2014 30th consecutive zero-trade week Day 1 OPEN; mechanically vacuous (0 positions); universal SKIP all 50 watchlist persisted under SEPTUPLE+ stack (crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + BI-RDG-Day-2 Day 17 absorption + BEI-7%-ARB + IDR Stage 5 pierced Day-12 carry 18,130 + OJK Rp 2.1T fines + HSC exclusion methodology shift Day-6 + BEI new suspension/UMA rules Nov 2026 Day-4 + foreign-flow YTD ~-Rp 127T passed -Rp 100T milestone). Fri Nov 6 IHSG 5,050.42 (+0.40%) Databoks + Katadata + Bisnis TRIPLE-SOURCE RECONCILED anchor \u2014 first fresh multi-source confirmed close since Wed Oct 28; alpha widens to ~+33.28pp Fri Nov 6 reconciled basis (vs prior Oct 28 ~+30.35pp Day-9 carry). Tue Nov 3 iNews single-source 4,904 (-3.77%) partial reconcile Day-4; Wed Nov 4 + Thu Nov 5 (CNBC 5,030.26 single) still PENDING multi-source 3-day residual backlog. IDR Jisdor Fri Nov 6 18,130 (-0.20%/-Rp36); spot 18,089; weekly +0.04%; Stage 5 pierce Day-12 carry. Oct CPI FRESH 0.22% mom / 3.23% yoy within BI 2-4% target band; core 2.56% YoY easing from Sep 2.84%; volatile foods +5.81% YoY accelerating (chili-driven). Positives emerged but do NOT reach crisis-track de-arm threshold: Fri Nov 6 reconciled anchor + CPI dovish-hold-compatible print + BMRI Q3 Rp 15.1T +14% YoY BEAT + ICBP 9M sales +15% YoY above-expectation + UNVR Fri +4.12%/weekly +9% rotation-IN 1st observation + Fri Nov 6 big-cap LIFT BBCA/BBRI/ASII coordinated green. Negatives escalating: MSCI Nov 11 T-2 binary this week + foreign-flow YTD passed -Rp 100T milestone + Thu Nov 5 US AI-chip selloff Nasdaq -5.52% / S&P -4.36% + IDR Stage 5 pierce Day-12. Day 112 since KLBF hard-cut; 102 consecutive sessions 0.00% daily P&L; DD -3.10% from peak (deeply within -15% cap)."
+      "notes": "Mon Nov 9 IHSG close PENDING multi-source (standard DQG-Day-180 sesi II lag); Fri Nov 6 reconciled 5,050.42 triple-source Day-0 anchor; cumulative alpha widened to +33.28pp Fri Nov 6 basis (up from +30.35pp Wed Oct 28 basis); 30th consecutive zero-trade week Day 1 CLOSE; Day 112 since KLBF hard-cut Jul 6; 102 consecutive sessions 0.00% daily P&L; octuple+ stack universal pre-block (crisis-track + MSCI Nov 11 T-2 binary + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 + HSC exclusion Day-6 + BEI suspension/UMA Day-4 + foreign-flow YTD -Rp 127T milestone + OJK Rp 2.1T fines overhang)."
     }
   ],
   "positions": [],
@@ -39062,8 +39062,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 148,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 148 Wk 29 FULL CLOSE 29th-consecutive-zero-trade-week-FINAL post-BI-hold-transmission Day-41 MSCI-STANDALONE-overlay-Day-T+22 Post-BI-RDG-Day-2-Day-14-absorption HSC-exclusion-methodology-shift-Day-5 BEI-new-suspension-UMA-rules-Nov-2026-Day-1)",
+    "trial_days_elapsed": 151,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 151 Wk 30 Day 1 CLOSE 30th-consecutive-zero-trade-week-Day-1 post-BI-hold-transmission Day-44 MSCI-STANDALONE-overlay-Day-T+25 MSCI-Nov-11-T-2-binary-this-week Post-BI-RDG-Day-2-Day-17-absorption HSC-exclusion-methodology-shift-Day-6 BEI-new-suspension-UMA-rules-Nov-2026-Day-4 foreign-flow-YTD-~-Rp-127T)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -39072,8 +39072,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -33.19,
-    "cumulative_alpha_pct": 30.35,
+    "ihsg_cumulative_pct": -36.12,
+    "cumulative_alpha_pct": 33.28,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -39084,19 +39084,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-10-30",
+    "updated": "2026-11-09",
     "portfolio_value": 9716207500,
-    "alpha_pct": 30.35,
+    "alpha_pct": 33.28,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 30.35,
+    "cumulative_alpha_pp": 33.28,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 143,
-    "last_updated": "2026-10-30 15:15 WIB",
+    "day_number": 151,
+    "last_updated": "2026-11-09 15:15 WIB",
     "open_positions": [],
-    "days_in_trial": 143,
-    "week_number": 28,
-    "day_label": "Day 143 \u2014 Wk 28 Day 5 CLOSE / WEEK 28 FULL CLOSE EOD \u2014 28TH CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE \u2014 Q4-2026-WEEK-5-DAY-5-FINAL \u2014 Post-Cabinet-Reshuffle-Day-27 \u2014 Post-BI-Hold-Transmission-Day-35 \u2014 MSCI-STANDALONE-Day-T+15 \u2014 Post-BI-RDG-Day-2 Day 9 absorption \u2014 Day 103 since KLBF hard-cut Jul 6 \u2014 IDR Stage 5 pierced Wed Oct 28 18,183 Kompas carry \u2014 OJK Rp 2.1T fines overhang \u2014 Thu Oct 29 cascade -3.49% chain-basis",
+    "days_in_trial": 151,
+    "week_number": 30,
+    "day_label": "Day 151 \u2014 Wk 30 Day 1 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE \u2014 Q4-2026-WEEK-7-DAY-1 \u2014 Post-Cabinet-Reshuffle-Day-36 \u2014 Post-BI-Hold-Transmission-Day-44 \u2014 MSCI-STANDALONE-Day-T+25 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-2-BINARY-THIS-WEEK \u2014 Post-BI-RDG-Day-2 Day 17 absorption \u2014 Day 112 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-6 \u2014 BEI new suspension/UMA rules Nov 2026 Day-4 \u2014 IDR Stage 5 pierced Day-12 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-0 \u2014 Mon Nov 9 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 3-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT \u2014 102 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -39112,44 +39112,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-06"
+    "updated": "2026-11-09"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-02T00:12:57Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers Wk 20 Day 3. Top ideas: AALI-7\u2191 / LSIP-7\u2191 (CPO +7.45% breakout), BBRI-7 (Q2 beat locked). 9 candidates \u22656 all crisis-track-blocked. CPI 3.19% hawkish + US-10Y 4.80% blowout return + IDR sub-17,750 regression-risk Day-1. Book 100% cash Day 49.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned via WebSearch multi-source (DQG-Day-122 outage)"
-        },
-        {
-          "type": "research",
-          "detail": "9 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 7/10 - CPO +7.45% breakout to 4,973 MYR"
-        },
-        {
-          "type": "research",
-          "ticker": "LSIP",
-          "detail": "score 7/10 - CPO breakout + IDX80-add T+1 follow-through"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 7/10 - Q2 H1 +17.5% locked; CPI-hawkish partial downgrade"
-        },
-        {
-          "type": "skip",
-          "detail": "All 9 candidates pre-blocked by crisis-track engagement gate 0.65/5 (-0.10pp vs Tue)"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-02T02:18:04Z",
       "routine": "market-open",
@@ -43946,6 +43911,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No positions; mechanically vacuous midday \u2014 no cuts/tightens/thesis exits; 30th consecutive zero-trade week Day 1 MID; Day 112 since KLBF hard-cut Jul 6"
+    },
+    {
+      "timestamp": "2026-11-09T08:23:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-11-09: IDR 9.72B (0.00%). Day 112 since KLBF hard-cut; 102 consecutive sessions 0.00% daily P&L; 30th consecutive zero-trade week Day 1 CLOSE. Cumulative alpha +33.28pp (Fri Nov 6 reconciled 5,050.42 Day-0 anchor). Mon Nov 9 IHSG close PENDING multi-source (DQG-Day-180 lag). 0 positions; book 100% cash. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 151 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44006,7 +43983,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-09T07:00:00+07:00",
+  "last_updated": "2026-11-09T15:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
