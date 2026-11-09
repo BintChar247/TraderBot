@@ -38863,6 +38863,202 @@
         false,
         true
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 2026 single-quarter Rp 15.7T +9% YoY; YTD record Rp 45.2T + Rp 5T buyback; MSCI STANDALONE 46/50 LQ45 structural overhang; crisis-track pre-block binding",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "PRE-BLOCKED by crisis-track engagement gate Hard Rule 2026-07-17 (binding regardless of individual-ticker fundamentals until 5 re-entry criteria concurrent)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 112; IDR Stage 5 pierced Day-12 (18,130 Fri Nov 6); MSCI Nov 11 T-2 binary this week; MSCI STANDALONE Day T+25; DQG-Day-180"
+        },
+        {
+          "type": "risk",
+          "label": "Criterion-a sub-17,750 structurally impossible; criterion-c MSCI accessibility DEEPER-FAIL; criterion-d foreign-flow YTD ~-Rp 127T PASSED -Rp 100T milestone"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal pre-block)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-180 outage persists; yfinance 403 + GoAPI unset; per-ticker cluster NOT CONVERGED"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED mechanically. Fundamentals strong (Q3 Rp 15.7T +9% YoY, buyback bid) but gate scoring 0.00-0.50/5 with all 5 re-entry criteria DEEPER-FAIL. MSCI Nov 11 Index Review T-2 binary this week compounds accessibility uncertainty.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 release T+7 STILL PENDING; H1 Rp 31.18T +17.5% YoY; outcome does NOT override crisis-track gate per MISTAKES.md Jul 6 rule",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "PRE-BLOCKED by crisis-track engagement gate Hard Rule 2026-07-17 (binding regardless of Q3 release outcome per Jul 6 KLBF root-cause rule)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 112; MSCI Nov 11 T-2 binary; foreign-flow YTD ~-Rp 127T Katadata Nov 4; big-4 banks most-sold throughout"
+        },
+        {
+          "type": "risk",
+          "label": "Criterion-b DQG-Day-180 per-ticker cluster NOT CONVERGED; criterion-e R:R untestable without fresh cluster"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal pre-block)"
+        },
+        {
+          "type": "warning",
+          "label": "BBRI Q3 release T+7 pending; outcome regardless of beat/miss cannot override gate"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED mechanically. Q3 release pending but pre-block binding per MISTAKES.md 2026-07-06 KLBF root-cause rule (fresh catalyst does NOT override gate). RHB BUY TP 3,600 / JPMorgan Overweight TP 3,400 unchanged \u2014 irrelevant under crisis-track binding.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 2026 Rp 15.1T +14% YoY BEAT (Brights research); 9M26 Rp 45.5T +21% YoY; highest big-4 growth; Brights TP 6,400 (+64% upside); crisis-track pre-block binding",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "PRE-BLOCKED by crisis-track engagement gate Hard Rule 2026-07-17 (binding regardless Q3 BEAT outcome per Jul 6 KLBF root-cause rule)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 112; IDR Stage 5 pierced Day-12; MSCI Nov 11 T-2 binary; foreign-flow YTD ~-Rp 127T"
+        },
+        {
+          "type": "risk",
+          "label": "Defensive-track 10-yr \u03c3 bar NOT verifiable under DQG; defensive-track NOT eligible; criterion-e R:R untestable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal pre-block)"
+        },
+        {
+          "type": "warning",
+          "label": "Q3 BEAT does NOT override crisis-track gate; broad macro overhang offsets individual-ticker strength"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED mechanically. Fresh Q3 BEAT (+14% YoY) is strongest big-4 datapoint this cycle but crisis-track gate 0.00-0.50/5 binding. MSCI Nov 11 Index Review this week risks forced-outflow continuation. Pattern reinforces Jul 6 KLBF root-cause rule.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-09",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 16.12T +6.62% YoY; PBV 0.78x 10-yr trough; fastest loan growth big-4 H1 per JPM; crisis-track pre-block binding",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "PRE-BLOCKED by crisis-track engagement gate Hard Rule 2026-07-17 (binding regardless)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day 112; MSCI STANDALONE Day T+25; MSCI Nov 11 T-2 binary; big-4 most-sold foreign-flow"
+        },
+        {
+          "type": "risk",
+          "label": "Defensive-track 10-yr \u03c3 bar NOT verifiable under DQG; defensive-track NOT eligible; criterion-e R:R untestable"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal pre-block)"
+        },
+        {
+          "type": "warning",
+          "label": "PBV 0.78x (10-yr trough) deep-valuation signal cannot be qualified under DQG outage"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED mechanically. PBV 0.78x in 10-year trough territory signals deep value but defensive-track requires 10-yr \u03c3 cluster verification which DQG-Day-180 outage prevents. RHB BUY TP 4,560 unchanged \u2014 irrelevant under crisis-track binding.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -38919,12 +39115,6 @@
     "updated": "2026-11-06"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-01T04:36:04Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "n=0 positions. Midday mechanically vacuous. Book 100% cash Day 49 (49th consecutive no-position session). No cuts / no tightens / no thesis exits."
-    },
     {
       "timestamp": "2026-09-01T08:22:49Z",
       "routine": "daily-summary",
@@ -43724,6 +43914,42 @@
         {
           "type": "research",
           "detail": "IHSG Fri Nov 6 reconciled 5,050.42 triple-source; alpha widens to +33.28pp fresh basis"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-09T02:17:17Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed; septuple+ stack universal pre-block (crisis-track engagement gate 0.00-0.50/5 + MSCI Nov 11 T-2 binary this week + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 carry 18,130 + HSC exclusion Day-6 + BEI suspension/UMA Day-4 + foreign-flow YTD -Rp 127T milestone); 30th consecutive zero-trade week Day 1 OPEN; 102 consecutive sessions 0.00% daily P&L",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "PRE-BLOCKED crisis-track; Q3 Rp15.7T +9% YoY"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "PRE-BLOCKED crisis-track; Q3 release T+7 still pending"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "PRE-BLOCKED crisis-track; Q3 Rp15.1T +14% YoY BEAT"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "PRE-BLOCKED crisis-track; Q3 Rp16.12T +6.62% YoY, PBV 0.78x"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-180 yfinance+GoAPI outage persists; per-ticker cluster NOT CONVERGED"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI Nov 11 Index Review T-2 binary this week; announcement Wed US / Thu WIB"
         }
       ]
     }
