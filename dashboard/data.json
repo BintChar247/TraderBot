@@ -2407,6 +2407,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Mon Nov 9 IHSG close PENDING multi-source (standard DQG-Day-180 sesi II lag); Fri Nov 6 reconciled 5,050.42 triple-source Day-0 anchor; cumulative alpha widened to +33.28pp Fri Nov 6 basis (up from +30.35pp Wed Oct 28 basis); 30th consecutive zero-trade week Day 1 CLOSE; Day 112 since KLBF hard-cut Jul 6; 102 consecutive sessions 0.00% daily P&L; octuple+ stack universal pre-block (crisis-track + MSCI Nov 11 T-2 binary + MSCI STANDALONE Day T+25 + DQG-Day-180 + IDR Stage 5 pierced Day-12 + HSC exclusion Day-6 + BEI suspension/UMA Day-4 + foreign-flow YTD -Rp 127T milestone + OJK Rp 2.1T fines overhang)."
+    },
+    {
+      "date": "2026-11-10",
+      "day_label": "Day 152 \u2014 Wk 30 Day 2 OPEN Pre-market \u2014 Q4-2026-WEEK-7-DAY-2 \u2014 POST-CABINET-RESHUFFLE-Day-37 \u2014 POST-BI-HOLD-TRANSMISSION-Day-45 \u2014 DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-113 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-1-BINARY-TOMORROW \u2014 MSCI-STANDALONE-CONSULTATION-OVERLAY-Day-T+26 \u2014 IDR-STAGE-5-PIERCED-Day-13-carry-18,130 \u2014 HSC-EXCLUSION-METHODOLOGY-SHIFT-Day-7 \u2014 BEI-NEW-SUSPENSION-UMA-RULES-Nov-2026-Day-5 \u2014 OJK-Rp-2.1T-fines-structural-overhang \u2014 IHSG-Mon-Nov-9-close-STILL-PENDING-multi-source \u2014 IHSG-Fri-Nov-6-RECONCILED-5,050.42-Day-1-carry-triple-source-anchor \u2014 FOREIGN-FLOW-YTD-passed-Rp-100T-milestone-~Rp-127T \u2014 DQG-Day-181-outage-persists \u2014 30TH-CONSECUTIVE-ZERO-TRADE-WEEK-Day-2-OPEN \u2014 103 consecutive zero daily P&L sessions",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": null,
+      "alpha_pct": null,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -39116,68 +39131,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-02T02:18:04Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 20 Day 3. Crisis-track engagement gate ACTIVATED DEEPENED (0.65/5, 4.35/5 gap) via fresh CPI-3.19%-hawkish + US-10Y-blowout-return-4.80% + Iran-US-Brent-Day-2. 10 candidates >=6/10 (AALI-7/LSIP-7/BBRI-7/BBCA-6/BMRI-6/MIKA-6/TLKM-6/INCO-6/MDKA-6/PGAS-6) all PRE-BLOCKED. 100% cash IDR 9.72B; 50th consec no-position session.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "crisis-track gate 0.65/5 pre-block"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day 122 outage persists; WebSearch multi-source override operational"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-02T04:36:20Z",
       "routine": "midday",
       "status": "success",
@@ -43921,6 +43874,37 @@
         {
           "type": "research",
           "detail": "Day 151 EOD snapshot committed"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-10T00:07:38Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan complete Wk 30 Day 2 OPEN. 4 candidates scored >=6 (BBCA/BBRI/BMRI/BBNI) ALL PRE-BLOCKED mechanically per crisis-track engagement gate + MSCI Nov 11 T-1 binary tomorrow + DQG-Day-181 structural stack. 30th consecutive zero-trade week Day 2 OPEN; Day 113 since KLBF hard-cut.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored >=6 all PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 Q3 2026 Rp 15.1T +14% YoY BEAT confirmed Mon Nov 9"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 Q3 2026 Rp 15.7T +9% YoY 9M record Rp 45.2T"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 6/10 Q3 2026 Rp 16.12T +6.62% YoY record operating profit"
         }
       ]
     }
