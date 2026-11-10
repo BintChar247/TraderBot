@@ -2410,18 +2410,19 @@
     },
     {
       "date": "2026-11-10",
-      "day_label": "Day 152 \u2014 Wk 30 Day 2 OPEN Pre-market \u2014 Q4-2026-WEEK-7-DAY-2 \u2014 POST-CABINET-RESHUFFLE-Day-37 \u2014 POST-BI-HOLD-TRANSMISSION-Day-45 \u2014 DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-113 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-1-BINARY-TOMORROW \u2014 MSCI-STANDALONE-CONSULTATION-OVERLAY-Day-T+26 \u2014 IDR-STAGE-5-PIERCED-Day-13-carry-18,130 \u2014 HSC-EXCLUSION-METHODOLOGY-SHIFT-Day-7 \u2014 BEI-NEW-SUSPENSION-UMA-RULES-Nov-2026-Day-5 \u2014 OJK-Rp-2.1T-fines-structural-overhang \u2014 IHSG-Mon-Nov-9-close-STILL-PENDING-multi-source \u2014 IHSG-Fri-Nov-6-RECONCILED-5,050.42-Day-1-carry-triple-source-anchor \u2014 FOREIGN-FLOW-YTD-passed-Rp-100T-milestone-~Rp-127T \u2014 DQG-Day-181-outage-persists \u2014 30TH-CONSECUTIVE-ZERO-TRADE-WEEK-Day-2-OPEN \u2014 103 consecutive zero daily P&L sessions",
+      "day_label": "Day 152 \u2014 Wk 30 Day 2 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE \u2014 Q4-2026-WEEK-7-DAY-2 \u2014 Post-Cabinet-Reshuffle-Day-37 \u2014 Post-BI-Hold-Transmission-Day-45 \u2014 MSCI-STANDALONE-Day-T+26 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-1-BINARY-TOMORROW \u2014 Post-BI-RDG-Day-2 Day 18 absorption \u2014 Day 113 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-7 \u2014 BEI new suspension/UMA rules Nov 2026 Day-5 \u2014 IDR Stage 5 pierced Day-13 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-2 \u2014 Tue Nov 10 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10 4-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT (does not override gate) \u2014 103 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
       "ihsg_close": null,
-      "ihsg_cumulative_pct": null,
-      "alpha_pct": null,
+      "ihsg_cumulative_pct": -36.12,
+      "alpha_pct": 33.28,
       "positions_count": 0,
       "trades_today": 0,
-      "trades_this_week": 0
+      "trades_this_week": 0,
+      "notes": "Tue Nov 10 IHSG close PENDING multi-source (standard DQG-Day-181 sesi II lag); Fri Nov 6 reconciled 5,050.42 triple-source Day-2 anchor; cumulative alpha carry +33.28pp Fri Nov 6 basis (Mon Nov 9 + Tue Nov 10 IHSG closes pending); 30th consecutive zero-trade week Day 2 CLOSE; Day 113 since KLBF hard-cut Jul 6; 103 consecutive sessions 0.00% daily P&L; octuple+ stack universal pre-block (crisis-track + MSCI Nov 11 T-1 binary TOMORROW + MSCI STANDALONE Day T+26 + DQG-Day-181 + IDR Stage 5 pierced Day-13 + HSC exclusion Day-7 + BEI suspension/UMA Day-5 + foreign-flow YTD -Rp 127T milestone + OJK Rp 2.1T fines overhang + BMRI Q3 +14% BEAT does not override gate)."
     }
   ],
   "positions": [],
@@ -39273,8 +39274,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 151,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 151 Wk 30 Day 1 CLOSE 30th-consecutive-zero-trade-week-Day-1 post-BI-hold-transmission Day-44 MSCI-STANDALONE-overlay-Day-T+25 MSCI-Nov-11-T-2-binary-this-week Post-BI-RDG-Day-2-Day-17-absorption HSC-exclusion-methodology-shift-Day-6 BEI-new-suspension-UMA-rules-Nov-2026-Day-4 foreign-flow-YTD-~-Rp-127T)",
+    "trial_days_elapsed": 152,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 152 Wk 30 Day 2 CLOSE 30th-consecutive-zero-trade-week-Day-2 post-BI-hold-transmission Day-45 MSCI-STANDALONE-overlay-Day-T+26 MSCI-Nov-11-T-1-binary-TOMORROW Post-BI-RDG-Day-2-Day-18-absorption HSC-exclusion-methodology-shift-Day-7 BEI-new-suspension-UMA-rules-Nov-2026-Day-5 foreign-flow-YTD-~-Rp-127T)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -39295,19 +39296,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "portfolio_value": 9716207500,
     "alpha_pct": 33.28,
     "daily_pnl_pct": 0.0,
     "cumulative_alpha_pp": 33.28,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 151,
-    "last_updated": "2026-11-09 15:15 WIB",
+    "day_number": 152,
+    "last_updated": "2026-11-10 15:15 WIB",
     "open_positions": [],
-    "days_in_trial": 151,
+    "days_in_trial": 152,
     "week_number": 30,
-    "day_label": "Day 151 \u2014 Wk 30 Day 1 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 1 CLOSE \u2014 Q4-2026-WEEK-7-DAY-1 \u2014 Post-Cabinet-Reshuffle-Day-36 \u2014 Post-BI-Hold-Transmission-Day-44 \u2014 MSCI-STANDALONE-Day-T+25 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-2-BINARY-THIS-WEEK \u2014 Post-BI-RDG-Day-2 Day 17 absorption \u2014 Day 112 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-6 \u2014 BEI new suspension/UMA rules Nov 2026 Day-4 \u2014 IDR Stage 5 pierced Day-12 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-0 \u2014 Mon Nov 9 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 3-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT \u2014 102 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
+    "day_label": "Day 152 \u2014 Wk 30 Day 2 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE \u2014 Q4-2026-WEEK-7-DAY-2 \u2014 Post-Cabinet-Reshuffle-Day-37 \u2014 Post-BI-Hold-Transmission-Day-45 \u2014 MSCI-STANDALONE-Day-T+26 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-1-BINARY-TOMORROW \u2014 Post-BI-RDG-Day-2 Day 18 absorption \u2014 Day 113 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-7 \u2014 BEI new suspension/UMA rules Nov 2026 Day-5 \u2014 IDR Stage 5 pierced Day-13 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-2 \u2014 Tue Nov 10 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10 4-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT (does not override gate) \u2014 103 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -39323,110 +39324,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-09"
+    "updated": "2026-11-10"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-03T00:11:06Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 20 Day 4 pre-market: 50 tickers scanned; 10 candidates scored \u22656 (PGAS-7\u2191 top on Brent Day-3 oil-linked gas amplifier); crisis-track engagement gate ACTIVATED 0.70/5 (+0.05pp vs Wed); ALL candidates PRE-BLOCKED; 52nd consec no-position session; hold 100% cash.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned Wk 20 Day 4"
-        },
-        {
-          "type": "research",
-          "detail": "10 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Brent Day-3 $94.86 oil-linked gas MAJOR tailwind"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 6/10 (DOWN) \u2014 CPO pullback Day-1 from Sep-1 4,973 breakout"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 6/10 (DOWN) \u2014 Q2 BEAT locked but CPI-hawkish Day-2 digestion realized"
-        },
-        {
-          "type": "macro",
-          "detail": "Brent shock Day-3 $94.86 (+3.9%); Newcastle coal $144.85 (+9.32% MoM signal); US-10Y blowout 4.79-4.81% persist; IDR sub-17,750 Day-7 firming"
-        },
-        {
-          "type": "regime",
-          "detail": "Crisis-track gate ACTIVATED 0.70/5 (+0.05pp partial-restore); 4.30/5 binding gap; ALL new entries blocked"
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-09-03T02:16:36Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. All 10 candidates \u22656/10 (PGAS-7\u2191/BBCA-6/BBRI-6/BMRI-6/MEDC-6\u2191/INCO-6/MDKA-6/MIKA-6/AALI-6\u2193/LSIP-6\u2193) pre-blocked by crisis-track engagement gate ACTIVATED (0.70/5, 4.30/5 gap BINDING). Brent-shock Day-3 $94.86, Newcastle coal spike +9.32% MoM, US-10Y 4.80% blowout persist. 52nd consecutive no-position session; Wk 20 Day 4 0/3 BUY-slot week continues; 100% cash IDR 9,716,207,500.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "MIKA",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "gate-blocked (crisis-track 0.70/5)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram proxy 403 fallback to stdout preserved notification body"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-03T04:36:11Z",
       "routine": "midday",
@@ -44131,6 +44031,30 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions. No action taken. 30th consecutive zero-trade week Day 2 midday. Day 113 since KLBF hard-cut Jul 6. MSCI Nov 11 T-1 binary tomorrow."
+    },
+    {
+      "timestamp": "2026-11-10T08:15:00Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-11-10 Wk 30 Day 2 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (103 consecutive zero-P&L sessions milestone); 0 positions 100% cash Day 113; IHSG Tue Nov 10 close PENDING multi-source cluster not surfaced at 15:15 WIB fire (Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10 4-day backlog restored; Fri Nov 6 reconciled 5,050.42 triple-source Day-2 carry anchor); alpha carry +33.28pp Fri Nov 6 basis; 30TH CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE; crisis-track engagement gate FURTHER-ESCALATED 0.00-0.50/5 persists + MSCI Nov 11 T-1 binary TOMORROW + MSCI STANDALONE Day T+26 + DQG-Day-181 outage + BI RDG Day 2 Day 18 absorption + IDR Stage 5 pierced Day-13 + HSC Day-7 + BEI suspension/UMA Day-5 + foreign-flow YTD -Rp 127T milestone + OJK fines overhang + BMRI Q3 +14% BEAT (does not override gate); no risk alerts (daily 0.00% / weekly 0.00% / DD -3.10% / no halt flags)",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 152 EOD snapshot committed; IHSG Tue Nov 10 close PENDING multi-source (4-day backlog: Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10); dashboard+RISK-STATE updated; MSCI Nov 11 T-1 binary TOMORROW (peak-uncertainty window)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-10T08:21:32Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-11-10 Wk 30 Day 2 CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (103 consecutive zero-P&L sessions milestone); 0 positions 100% cash Day 113; IHSG Tue Nov 10 close PENDING multi-source (4-day backlog Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10; Fri Nov 6 reconciled 5,050.42 triple-source Day-2 anchor); alpha carry +33.28pp Fri Nov 6 basis; 30th consecutive zero-trade week Day 2 CLOSE; octuple+ stack universal pre-block (crisis-track 0.00-0.50/5 + MSCI Nov 11 T-1 binary TOMORROW + MSCI STANDALONE Day T+26 + DQG-Day-181 + IDR Stage 5 Day-13 + HSC Day-7 + BEI UMA Day-5 + foreign-flow YTD -Rp 127T + OJK fines + BMRI Q3 +14% BEAT does not override gate); no risk alerts",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 152 EOD snapshot committed; IHSG Tue Nov 10 close PENDING multi-source (4-day backlog); dashboard+RISK-STATE updated; MSCI Nov 11 T-1 binary TOMORROW peak-uncertainty window"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44150,12 +44074,12 @@
     "idr_usd_jisdor": 18130,
     "idr_usd_date": "2026-11-06",
     "idr_usd_source": "Kontan secondary-source",
-    "idr_stage": "Stage 5 pierced Day-12 carry",
+    "idr_stage": "Stage 5 pierced Day-13 carry",
     "cpi_mom_pct": 0.22,
     "cpi_yoy_pct": 3.23,
     "cpi_core_yoy_pct": 2.56,
     "cpi_date": "2026-10 (BPS release Nov 2)",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY112",
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY113",
     "foreign_net_sell_ytd_idrT": -127,
     "crisis_track_gate_score": "0.00-0.50/5",
     "msci_next_event": "Nov 11 2026 Index Review announcement (US time) \u2192 Nov 12 WIB; effective Dec 1",
@@ -44191,7 +44115,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-10 09:15 WIB",
+  "last_updated": "2026-11-10T08:15:00Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
