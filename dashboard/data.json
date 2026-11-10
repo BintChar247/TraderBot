@@ -39327,18 +39327,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-02T08:20:36Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 20 Day 3: IDR 9.72B (0.00%). Alpha +0.28pp vs IHSG. 0 positions (Day 50 de-risked). Trades this week: 0/3. Crisis-track gate 0.65/5 DEEPENED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 98 snapshot committed; IHSG 6,581.44 -0.28%; Tue reconciled 6,599.94"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-03T00:11:06Z",
       "routine": "pre-market",
       "status": "success",
@@ -44137,6 +44125,12 @@
           "detail": "Telegram 403 via proxy; notify.sh fell through to stdout cleanly"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-10T04:35:27Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "n=0 positions. No action taken. 30th consecutive zero-trade week Day 2 midday. Day 113 since KLBF hard-cut Jul 6. MSCI Nov 11 T-1 binary tomorrow."
     }
   ],
   "exposure": {
