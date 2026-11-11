@@ -39572,37 +39572,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-04T00:10:18Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Fri Sep 4 Wk 20 Day 5 CLOSE + WEEKLY-REVIEW-DAY. 50 tickers scanned; 9 candidates scored \u22656 (PGAS 7; BBCA/BBRI/BMRI/BBNI/INCO/MDKA/AALI/LSIP 6). All pre-blocked at crisis-track gate ACTIVATED 0.90/5 (+0.20pp vs Thu on Waller-dovish + Brent snap-back + IDR Day-8 firming). IHSG Thu full-close 6,667.89 +1.09% sesi II RESOLVED. HOLD, 53rd no-position session.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "9 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Brent snap-back tailwind fade Day-1; oil-linked gas amplifier persists"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 Waller-dovish + cheapest Big-4 P/B 1.85x + 11.58% div yield"
-        },
-        {
-          "type": "research",
-          "ticker": "AALI",
-          "detail": "score 6/10 \u2014 CPO Day-3 pullback, sole-tailwind fade"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-04T02:17:36Z",
       "routine": "market-open",
       "status": "warning",
@@ -44357,6 +44326,12 @@
           "detail": "DQG-Day-182 outage persists; per-ticker cluster NOT CONVERGED"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-11T04:35:40Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "n=0 positions. No action taken. 30th consecutive zero-trade week Day 3 midday. Day 114 since KLBF hard-cut Jul 6. MSCI Nov 11 T-0 TODAY US / T-1 WIB (Thu Nov 12 WIB release)."
     }
   ],
   "exposure": {
