@@ -2426,19 +2426,19 @@
     },
     {
       "date": "2026-11-11",
-      "day_label": "Day 153 \u2014 Wk 30 Day 3 OPEN PRE-MARKET \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN \u2014 Q4-2026-WEEK-7-DAY-3 \u2014 Post-Cabinet-Reshuffle-Day-38 \u2014 Post-BI-Hold-Transmission-Day-46 \u2014 MSCI-STANDALONE-Day-T+27 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-0-BINARY-TODAY-US \u2014 Post-BI-RDG-Day-3 Day 19 absorption \u2014 Day 114 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-8 \u2014 BEI new suspension/UMA rules Nov 2026 Day-6 \u2014 IDR Stage 5 pierced Day-14 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-3 \u2014 Mon Nov 9 + Tue Nov 10 IHSG PENDING multi-source \u2014 Kontan Tue Nov 10 single-source net-BUY asing headline NOT CONVERGED \u2014 Foreign flow YTD -Rp 127T \u2014 BBRI Q3 T+9 continued delay \u2014 104 CONSECUTIVE SESSIONS 0.00% DAILY P&L \u2014 BI RDG Nov 17-18 T-6",
+      "day_label": "Day 153 \u2014 Wk 30 Day 3 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 3 CLOSE \u2014 Q4-2026-WEEK-7-DAY-3 \u2014 Post-Cabinet-Reshuffle-Day-38 \u2014 Post-BI-Hold-Transmission-Day-46 \u2014 MSCI-STANDALONE-Day-T+27 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-0-BINARY-TODAY-US / T-1 WIB (Thu Nov 12 WIB release) \u2014 Post-BI-RDG-Day-3 Day 19 absorption \u2014 Day 114 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-8 \u2014 BEI new suspension/UMA rules Nov 2026 Day-6 \u2014 IDR Stage 5 pierced Day-14 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Mon Nov 9 IHSG RECONCILED 5,073.77 (+0.46%) quadruple-source Day-0 freshest anchor \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source Day-3 carry \u2014 Wed Nov 4 IHSG RECONCILED 4,919.77 (+0.32%) triple-source NEW \u2014 Tue Nov 10 + Wed Nov 11 IHSG PENDING multi-source \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT (does not override gate) \u2014 104 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
       "daily_pnl_pct": 0.0,
       "cumulative_pnl_pct": -2.84,
       "ihsg_close": null,
-      "ihsg_cumulative_pct": -36.12,
-      "alpha_pct": 33.28,
+      "ihsg_cumulative_pct": -35.82,
+      "alpha_pct": 32.98,
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "notes": "Wed Nov 11 pre-market OPEN \u2014 mechanically-vacuous universal SKIP all 50 watchlist under octuple+ stack (crisis-track + MSCI Nov 11 T-0 BINARY TODAY US + MSCI STANDALONE Day T+27 + DQG-Day-182 + IDR Stage 5 Day-14 + HSC Day-8 + BEI UMA Day-6 + foreign-flow YTD -Rp 127T + OJK fines). 4 BBCA/BBRI/BMRI/BBNI \u22656 scores all PRE-BLOCKED. Alpha carry +33.28pp Fri Nov 6 reconciled basis (Mon Nov 9 + Tue Nov 10 pending). Kontan Tue Nov 10 single-source net-BUY asing + 'rekor baru lalu koreksi' headline NOT CONVERGED \u2014 provisional context pending multi-source saturation. MSCI Nov 11 T-0 binary resolves Wed US / Thu Nov 12 WIB sesi I \u2014 peak-uncertainty 24h window."
+      "notes": "Wed Nov 11 EOD \u2014 n=0 positions trivially vacuous; mechanically-vacuous universal SKIP all 50 watchlist under octuple+ stack maintained (crisis-track + MSCI Nov 11 T-0 BINARY TODAY US / T-1 WIB (Thu Nov 12 WIB release) + MSCI STANDALONE Day T+27 + DQG-Day-182 + IDR Stage 5 Day-14 + HSC Day-8 + BEI UMA Day-6 + foreign-flow YTD -Rp 127T + OJK fines + BMRI +14% BEAT does-not-override-gate); Mon Nov 9 IHSG RECONCILED 5,073.77 (+0.46%) Databoks + CNBC + Bisnis + BCA Sekuritas quadruple-source Day-0 freshest anchor (supersedes Fri Nov 6 5,050.42 Day-3 carry); Tue Nov 10 Kontan single-source 'record then koreksi + net buy asing' partial Day-1; Wed Nov 11 close PENDING multi-source (standard DQG-Day-182 sesi II lag 58th+ occurrence); cumulative alpha carry +32.98pp Mon Nov 9 reconciled basis Day-0 freshest; 30th consecutive zero-trade week Day 3 close; Day 114 since KLBF hard-cut Jul 6; 104 consecutive sessions with 0.00% daily P&L; drawdown -3.10% from peak well within -15% cap; no risk alerts; environment check all broker vars MISSING (paper mode default); RISK-STATE.json updated per STEP 5b."
     }
   ],
   "positions": [],
@@ -39572,63 +39572,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-04T02:17:36Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed Wk 20 Day 5. Crisis-track engagement gate ACTIVATED 0.90/5 (+0.20pp vs Thu 0.70/5 partial-restore); 4.10/5 gap BINDING. All 9 candidates \u22656/10 (PGAS/BBCA/BBRI/BMRI/BBNI/INCO/MDKA/AALI/LSIP) SKIPPED per gate. 53rd consecutive no-position session; Wk 20 closes 0/3 BUY-slot week.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "gate 0.90/5 partial-restore; score 7"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "AALI",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "skip",
-          "ticker": "LSIP",
-          "detail": "gate 0.90/5; score 6"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG Day-124 outage persists (yfinance+GoAPI 124 sessions blocked)"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-04T04:35:57Z",
       "routine": "midday",
       "status": "success",
@@ -44332,6 +44275,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "n=0 positions. No action taken. 30th consecutive zero-trade week Day 3 midday. Day 114 since KLBF hard-cut Jul 6. MSCI Nov 11 T-0 TODAY US / T-1 WIB (Thu Nov 12 WIB release)."
+    },
+    {
+      "timestamp": "2026-11-11T08:19:45Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wed Nov 11: IDR 9.716B (0.00% day). Alpha +32.98pp Mon Nov 9 reconciled basis Day-0 freshest. 0 positions (Day 114 since KLBF hard-cut Jul 6). Trades this week: 0/3. 30TH CONSECUTIVE ZERO-TRADE WEEK Day 3 CLOSE. 104 consecutive sessions zero daily P&L. Mon Nov 9 IHSG RECONCILED 5,073.77 (+0.46%) quadruple-source. Tue Nov 10 + Wed Nov 11 PENDING multi-source. MSCI Nov 11 T-0 BINARY TODAY US / T-1 WIB release Thu Nov 12 WIB sesi I.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 153 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44398,7 +44353,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T09:15:00+07:00",
+  "last_updated": "2026-11-11T15:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
