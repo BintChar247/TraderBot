@@ -39319,6 +39319,202 @@
       "action": "SKIP",
       "reason": "Pre-market SKIP (score 6 pre-blocked): Q3 +6.62% + PBV 0.78x 10-yr trough \u2014 crisis-track + MSCI T-0 pre-block. Hard Rule 2026-07-17 crisis-track engagement gate binds universally; DQG-Day-182 blocks fresh cluster; MSCI Nov 11 T-0 BINARY TODAY US peak uncertainty 24h.",
       "conviction": "PRE-BLOCKED"
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 record Rp 45.2T 9M + Rp 5T buyback structural bid carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 Rp 15.7T +9% YoY; 9M YTD Rp 45.2T record; Rp 5T buyback"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED Day-114; MSCI Nov 11 T-0 BINARY TODAY"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.00-0.50/5 pre-blocks regardless of fundamentals"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 universal SKIP under octuple+ structural stack"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-182 outage; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate ACTIVATED 0.00-0.50/5 pre-blocks all new BUY entries per Hard Rule 2026-07-17; MSCI Nov 11 T-0 binary peak-uncertainty window within 24h; defensive-track \u03c3 bar NOT verifiable under DQG-Day-182.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 release T+9 continued delay; 8M Rp 34.77T +6.63% YoY carry",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 release T+9 pending; 8M NP Rp 34.77T +6.63% YoY"
+        },
+        {
+          "type": "macro",
+          "label": "MSCI Nov 11 T-0 TODAY; IDR Stage 5 Day-14 18,130 pierce"
+        },
+        {
+          "type": "risk",
+          "label": "MISTAKES.md 2026-07-06 KLBF rule: earnings outcome does NOT override crisis-track gate"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-182 persistent; per-ticker cluster NOT CONVERGED"
+        }
+      ],
+      "reasoning": "Crisis-track engagement gate pre-blocks mechanically; Q3 release pending does not alter gate state; BMRI Q3 +14% beat does not override per KLBF rule.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 15.1T +14% YoY BEAT; 9M Rp 45.5T +21% YoY above expectations",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 Rp 15.1T +14% YoY BEAT; 9M Rp 45.5T +21% YoY; Brights TP 6,400 BUY"
+        },
+        {
+          "type": "macro",
+          "label": "Big-4 Q3 beat cluster; crisis-track binding"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track gate 0.00-0.50/5; 5-of-5 re-entry criteria DEEPER-FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked despite fundamental strength"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-182 outage; fresh cluster unavailable"
+        }
+      ],
+      "reasoning": "Highest big-4 YoY growth but crisis-track engagement gate binds universally until all 5 re-entry criteria concurrent \u2014 structurally impossible this week with MSCI T-0 TODAY + IDR Stage 5 pierce.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-11",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 16.12T +6.62% YoY carry; PBV 0.78x cheap; record operating profit",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 Rp 16.12T +6.62% YoY; record operating profit; double-digit loan growth"
+        },
+        {
+          "type": "macro",
+          "label": "RHB BUY TP 4,560; JP Morgan positive big-4"
+        },
+        {
+          "type": "risk",
+          "label": "crisis-track engagement gate pre-blocks regardless"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 pre-blocked"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-182 outage; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "PBV 0.78x 10-year trough but crisis-track gate binds; MSCI Nov 11 T-0 binary + IDR Stage 5 Day-14 pierce + DQG-Day-182 outage all structurally binding.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -39375,18 +39571,6 @@
     "updated": "2026-11-10"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-03T08:20:43Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 99 Wk 20 Day 4: IDR 9.72B (0.00%). IHSG +1.03% sesi I 6,663.561 (Wed reconciled 6,595.77); alpha -1.03pp today, cum +9.87pp. 0 positions, 100% cash Day 51. Crisis-track gate 0.70/5 partial-restore. Sesi II PENDING Fri pre-market reconciliation.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 99 snapshot committed; Wed close externally reconciled 6,581.44\u21926,595.77 (DQG-Day-120 upside variant); Thu sesi I 6,663.561 basis; sesi II sesi-II-lag pattern PENDING Fri pre-market"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-04T00:10:18Z",
       "routine": "pre-market",
@@ -44137,6 +44321,42 @@
           "detail": "MSCI Nov 11 Index Review T-0 BINARY TODAY US / Thu Nov 12 WIB release \u2014 peak-uncertainty 24h window"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-11T02:17:16Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. Universal SKIP all 50 tickers \u2014 crisis-track engagement gate 0.00-0.50/5 pre-blocks + MSCI Nov 11 T-0 BINARY TODAY peak-uncertainty + IDR Stage 5 Day-14 pierce (18,130) + DQG-Day-182 outage + octuple+ structural stack. 100% cash. 30th consecutive zero-trade week Day 3 OPEN.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "pre-blocked: crisis-track gate + MSCI T-0 binary"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "pre-blocked: Q3 T+9 pending; KLBF rule binds"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "pre-blocked: Q3 +14% BEAT; crisis-track universal"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "pre-blocked: PBV 0.78x; gate binding"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram HTTP 403 proxy tunnel fail (Wk 24-30 structural) \u2014 stdout fallback"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-182 outage persists; per-ticker cluster NOT CONVERGED"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44203,7 +44423,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T00:08:00.304356Z",
+  "last_updated": "2026-11-11T09:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
