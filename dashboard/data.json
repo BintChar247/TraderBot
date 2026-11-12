@@ -39784,68 +39784,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-07T02:17:33Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. 10 SKIPs (BBRI, BBCA, BMRI, PGAS, ANTM, INCO, MDKA, ICBP, INDF, MYOR) all pre-blocked by crisis-track engagement gate (Wk 21 Day 1 projected 1.00-1.20/5 partial-restore; 3.80-4.00/5 gap binding); 54th consecutive no-position session; 21st consecutive zero-trade week candidate.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "MDKA",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "crisis-track gate blocked"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-125 outage persists; WebSearch multi-source override used for cluster reads"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-07T04:36:03Z",
       "routine": "midday",
       "status": "success",
@@ -44540,6 +44478,12 @@
           "detail": "MSCI Nov 11 binary RESOLVED status-quo; STANDALONE consultation continues through Apr 30 2027"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-12T04:35:24Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. No cuts or stop tightenings required."
     }
   ],
   "exposure": {
