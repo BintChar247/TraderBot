@@ -39531,6 +39531,202 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 15.1T +14% YoY BEAT; fastest growth big-4 at +21% YoY 9M26; BRIDS BUY TP Rp 6,400",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 big-4 BEAT cluster CONFIRMED (BMRI+14/BBCA+9/BBNI+6.6/BBRI absolute lead)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-115; crisis-track engagement gate 0.50-1.75/5 (gap 3.25-4.50/5 binding); MSCI Nov 11 binary resolved status quo but criterion (c) only PARTIAL relief"
+        },
+        {
+          "type": "risk",
+          "label": "PRE-BLOCKED crisis-track Hard Rule 2026-07-17 universal; IDR Stage 5 pierced Day-15 (18,130 carry); criterion-a sub-17,750 structurally impossible; DQG-Day-183 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash maintained Day 115 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-183: yfinance+GoAPI blocked since Apr 21; multi-source cluster NOT CONVERGED; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate FURTHER-ESCALATED binding (0.50-1.75/5 scoring vs 5/5 re-entry requirement; 3.25-4.50/5 gap). MSCI Nov 11 binary resolved status quo + no LQ45 removal lifts criterion (c) slightly (0.00-0.50 \u2192 0.50-1.00) but STANDALONE consultation Day T+28 persists through Apr 30 2027. Fundamentals irrelevant per Hard Rule \u2014 mechanical SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 15.7T +9% YoY NP + NIM +30bp QoQ to 5.6% bank-only EXPANSION; mega-cap defensive compounder",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 big-4 BEAT cluster CONFIRMED (BMRI+14/BBCA+9/BBNI+6.6/BBRI absolute lead)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-115; crisis-track engagement gate 0.50-1.75/5 (gap 3.25-4.50/5 binding); MSCI Nov 11 binary resolved status quo but criterion (c) only PARTIAL relief"
+        },
+        {
+          "type": "risk",
+          "label": "PRE-BLOCKED crisis-track Hard Rule 2026-07-17 universal; IDR Stage 5 pierced Day-15 (18,130 carry); criterion-a sub-17,750 structurally impossible; DQG-Day-183 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash maintained Day 115 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-183: yfinance+GoAPI blocked since Apr 21; multi-source cluster NOT CONVERGED; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate FURTHER-ESCALATED binding (0.50-1.75/5 scoring vs 5/5 re-entry requirement; 3.25-4.50/5 gap). MSCI Nov 11 binary resolved status quo + no LQ45 removal lifts criterion (c) slightly (0.00-0.50 \u2192 0.50-1.00) but STANDALONE consultation Day T+28 persists through Apr 30 2027. Fundamentals irrelevant per Hard Rule \u2014 mechanical SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 48.2T 9M26 absolute leader big-4; BRIDS BUY TP Rp 4,560; Q3 release T+10 pending",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 big-4 BEAT cluster CONFIRMED (BMRI+14/BBCA+9/BBNI+6.6/BBRI absolute lead)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-115; crisis-track engagement gate 0.50-1.75/5 (gap 3.25-4.50/5 binding); MSCI Nov 11 binary resolved status quo but criterion (c) only PARTIAL relief"
+        },
+        {
+          "type": "risk",
+          "label": "PRE-BLOCKED crisis-track Hard Rule 2026-07-17 universal; IDR Stage 5 pierced Day-15 (18,130 carry); criterion-a sub-17,750 structurally impossible; DQG-Day-183 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash maintained Day 115 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-183: yfinance+GoAPI blocked since Apr 21; multi-source cluster NOT CONVERGED; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate FURTHER-ESCALATED binding (0.50-1.75/5 scoring vs 5/5 re-entry requirement; 3.25-4.50/5 gap). MSCI Nov 11 binary resolved status quo + no LQ45 removal lifts criterion (c) slightly (0.00-0.50 \u2192 0.50-1.00) but STANDALONE consultation Day T+28 persists through Apr 30 2027. Fundamentals irrelevant per Hard Rule \u2014 mechanical SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-12",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "9M26 NP Rp 16.1T +6.62% + loan growth +22% FASTEST big-4; RHB BUY TP Rp 4,560",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 big-4 BEAT cluster CONFIRMED (BMRI+14/BBCA+9/BBNI+6.6/BBRI absolute lead)"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-115; crisis-track engagement gate 0.50-1.75/5 (gap 3.25-4.50/5 binding); MSCI Nov 11 binary resolved status quo but criterion (c) only PARTIAL relief"
+        },
+        {
+          "type": "risk",
+          "label": "PRE-BLOCKED crisis-track Hard Rule 2026-07-17 universal; IDR Stage 5 pierced Day-15 (18,130 carry); criterion-a sub-17,750 structurally impossible; DQG-Day-183 outage"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash maintained Day 115 since KLBF hard-cut Jul 6)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-183: yfinance+GoAPI blocked since Apr 21; multi-source cluster NOT CONVERGED; defensive-track \u03c3 bar unsourceable"
+        }
+      ],
+      "reasoning": "Pre-blocked by crisis-track engagement gate FURTHER-ESCALATED binding (0.50-1.75/5 scoring vs 5/5 re-entry requirement; 3.25-4.50/5 gap). MSCI Nov 11 binary resolved status quo + no LQ45 removal lifts criterion (c) slightly (0.00-0.50 \u2192 0.50-1.00) but STANDALONE consultation Day T+28 persists through Apr 30 2027. Fundamentals irrelevant per Hard Rule \u2014 mechanical SKIP.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -39587,37 +39783,6 @@
     "updated": "2026-11-10"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-07T00:10:49Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 21 Day 1 pre-market: 50-ticker scan complete. 10 candidates scored \u22656 (BBRI 7; BBCA/BMRI/PGAS/ANTM/INCO/MDKA/ICBP/INDF/MYOR 6). All pre-blocked at crisis-track engagement gate ACTIVATED (1.00/5 projected, 4.00/5 gap binding). Wk 20 foreign +Rp 2.3T material shift vs US-hot-payrolls Fed-hike-risk re-arm. Regime: DEFENSIVE-INTENSIFIED cont.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "10 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 7/10 \u2014 Q2 BEAT lock + Wk 20 foreign top-net-buy leader; gate-blocked"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 Big-4 anchor Waller-dovish tailwind; gate-blocked"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 cheapest Big-4 + H1 +24.19%; gate-blocked"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-07T02:17:33Z",
       "routine": "market-open",
@@ -44333,6 +44498,46 @@
         {
           "type": "research",
           "detail": "MSCI Nov 11 BINARY RESOLVED status quo; BRPT+BRMS Global Standard removal; no LQ45 removal; gate lifts to 0.50-1.75/5"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-12T02:17:45Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 50 watchlist tickers universal SKIP under octuple+ structural stack (crisis-track gate 0.50-1.75/5 vs 5/5 re-entry req; gap 3.25-4.50/5 binding + MSCI Nov 11 binary RESOLVED status-quo retention + MSCI STANDALONE Day T+28 persists through Apr 30 2027 + DQG-Day-183 + IDR Stage 5 pierced Day-15 (18,130) + HSC Day-9 + BEI UMA Day-7 + foreign-flow YTD -Rp 127T). 30th consecutive zero-trade week Day 4 OPEN. Day 115 since KLBF hard-cut Jul 6. 105 consecutive sessions 0.00% daily P&L.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Q3 +14% BEAT; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Q3 NIM-expansion +9%; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "9M absolute leader Rp 48.2T; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "Loan +22% fastest big-4; crisis-track pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-183: yfinance+GoAPI blocked since Apr 21; multi-source cluster NOT CONVERGED"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Stage 5 pierced Day-15 carry 18,130; criterion-a sub-17,750 structurally impossible"
+        },
+        {
+          "type": "warning",
+          "detail": "MSCI Nov 11 binary RESOLVED status-quo; STANDALONE consultation continues through Apr 30 2027"
         }
       ]
     }
