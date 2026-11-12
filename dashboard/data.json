@@ -2439,6 +2439,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Wed Nov 11 EOD \u2014 n=0 positions trivially vacuous; mechanically-vacuous universal SKIP all 50 watchlist under octuple+ stack maintained (crisis-track + MSCI Nov 11 T-0 BINARY TODAY US / T-1 WIB (Thu Nov 12 WIB release) + MSCI STANDALONE Day T+27 + DQG-Day-182 + IDR Stage 5 Day-14 + HSC Day-8 + BEI UMA Day-6 + foreign-flow YTD -Rp 127T + OJK fines + BMRI +14% BEAT does-not-override-gate); Mon Nov 9 IHSG RECONCILED 5,073.77 (+0.46%) Databoks + CNBC + Bisnis + BCA Sekuritas quadruple-source Day-0 freshest anchor (supersedes Fri Nov 6 5,050.42 Day-3 carry); Tue Nov 10 Kontan single-source 'record then koreksi + net buy asing' partial Day-1; Wed Nov 11 close PENDING multi-source (standard DQG-Day-182 sesi II lag 58th+ occurrence); cumulative alpha carry +32.98pp Mon Nov 9 reconciled basis Day-0 freshest; 30th consecutive zero-trade week Day 3 close; Day 114 since KLBF hard-cut Jul 6; 104 consecutive sessions with 0.00% daily P&L; drawdown -3.10% from peak well within -15% cap; no risk alerts; environment check all broker vars MISSING (paper mode default); RISK-STATE.json updated per STEP 5b."
+    },
+    {
+      "date": "2026-11-12",
+      "day_label": "Day 154 \u2014 Wk 30 Day 4 OPEN PRE-MARKET \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 4 OPEN \u2014 Q4-2026-WEEK-7-DAY-4 \u2014 Post-Cabinet-Reshuffle-Day-39 \u2014 Post-BI-Hold-Transmission-Day-47 \u2014 MSCI-STANDALONE-Day-T+28 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-BRPT-BRMS-REMOVED-7-SMALL-CAP-REMOVED-NO-LQ45-REMOVAL \u2014 BI-RDG-Nov-17-18-T-5-countdown \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-9 \u2014 BEI-suspension-UMA-Day-7 \u2014 IDR-Stage-5-pierced-Day-15-carry-18,130 \u2014 Fri-Nov-6-+-Mon-Nov-9-FOREIGN-NET-BUY-2-CONSEC-SESSIONS-provisional-criterion-d-partial-restart \u2014 Brent-crash-Mon-Nov-9-NEG5.8%-COGS-RELIEF-fresh \u2014 105 consecutive sessions 0.00% daily P&L",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -35.82,
+      "alpha_pct": 32.98,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Thu Nov 12 PRE-MARKET \u2014 MSCI Nov 11 Index Review BINARY RESOLVED: Indonesia retains EM status (status quo); BRPT + BRMS REMOVED from MSCI Global Standard; 7 Indonesian names removed from Small Cap; NO LQ45 bellwether directly removed. STANDALONE consultation continues through Apr 30 2027 (6+ months). Criterion (c) accessibility LIFTS to 0.50-1.00/5 from 0.00-0.50/5 but does NOT reach 'neutral or better' threshold. Criterion (d) foreign-flow 2-session net-BUY Fri Nov 6 Rp 328.20B + Mon Nov 9 Rp 98.24B PROVISIONAL partial restart; need Thu Nov 12 3rd-consec confirmation. Gate scoring lifts to 0.50-1.75/5 Thu Nov 12 OPEN; 3.25-4.50/5 gap STILL BINDING. 50-ticker scan complete: 4 \u22656 candidates (BMRI 7, BBCA 6, BBRI 6, BBNI 6) all PRE-BLOCKED under crisis-track. Mechanically-vacuous universal SKIP. 100% cash maintained Day 115 since KLBF Jul 6 hard-cut; 30th consecutive zero-trade week Day 4 OPEN; 105 consecutive sessions 0.00% daily P&L. Mon Nov 9 IHSG anchor 5,073.77 quadruple-source Day-1 freshest; Tue Nov 10 + Wed Nov 11 PENDING multi-source (Wed Kontan single-source -0.29%). IDR Stage 5 Day-15 carry 18,130 Fri Nov 6 Jisdor Kontan. Banking Q3 big-4 all BEAT cluster CONFIRMED: BMRI +14% / BBRI absolute leader Rp 48.2T / BBCA +9% NIM +30bp / BBNI +6.62% loan +22%. Brent crash Mon Nov 9 -5.8% COGS-RELIEF fresh signal. BI RDG Nov 17-18 T-5. Alpha carry +32.98pp Mon Nov 9 reconciled basis Day-1 freshest."
     }
   ],
   "positions": [],
@@ -39572,24 +39588,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-04T04:35:57Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "n=0 positions; no cuts, no tightens, no thesis exits. 53rd consecutive no-position session."
-    },
-    {
-      "timestamp": "2026-09-04T08:20:56Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-09-04 Day 100 (Wk 20 Day 5 CLOSE): IDR 9,716,207,500 (0.00% day; -2.84% cum). Alpha +0.04pp vs IHSG (sesi I basis; sesi II pending Mon). 0 positions Day 52; Wk 20 closes 0/3 (20 consecutive zero-trade weeks). Crisis-track gate 0.90/5 partial-restore.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 100 EOD snapshot committed; Wk 20 CLOSE (20 consecutive zero-trade weeks locked); IHSG Fri sesi I 6,660.789 provisional; sesi II reconciliation pending Mon per DQG-Day-124; Waller-dovish + Brent snap-back + IDR Day-8 firming drove +0.20pp gate lift"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-07T00:10:49Z",
       "routine": "pre-market",
       "status": "success",
@@ -44287,6 +44285,56 @@
           "detail": "Day 153 EOD snapshot committed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-12T00:00:00Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Thu Nov 12 Wk 30 Day 4 OPEN \u2014 Day 154 \u2014 30th consecutive zero-trade week Day 4 \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 105 consecutive sessions 0.00% daily P&L. MSCI Nov 11 Index Review BINARY RESOLVED: Indonesia retains EM status (status quo); BRPT + BRMS removed from Global Standard; 7 Small Cap removed; NO LQ45 bellwether directly removed. STANDALONE consultation continues Apr 30 2027 (6+ months). Crisis-track gate LIFTS to 0.50-1.75/5 from 0.00-0.50/5 (criterion-c partial relief + criterion-d 2-session net-BUY provisional); 3.25-4.50/5 gap STILL BINDING. 50-ticker scan complete: 4 candidates \u22656 (BMRI 7, BBCA 6, BBRI 6, BBNI 6) all PRE-BLOCKED. Banking Q3 big-4 BEAT cluster CONFIRMED. Brent crash Mon Nov 9 -5.8% COGS-RELIEF fresh. 100% cash maintained. Universal mechanical SKIP continues. Watch: IDR Jisdor Thu 10:00 WIB; foreign-flow 3rd-consec net-BUY confirmation; BI RDG Nov 17-18 T-5.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned mechanically under DQG-Day-183"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656: BMRI 7, BBCA 6, BBRI 6, BBNI 6 all PRE-BLOCKED"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 7/10 \u2014 Q3 +14% YoY Rp 15.1T BEAT; 9M +21% YoY fastest big-4 growth; BRIDS BUY TP 6,400 (PRE-BLOCKED)"
+        },
+        {
+          "type": "research",
+          "detail": "MSCI Nov 11 binary RESOLVED status quo; BRPT+BRMS Global Standard removal; no LQ45 removal; gate lifts to 0.50-1.75/5"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-12T00:09:31Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Pre-market Thu Nov 12 Wk 30 Day 4 OPEN \u2014 Day 154 \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 30th consecutive zero-trade week Day 4 \u2014 105 consecutive sessions 0.00% daily P&L. MSCI Nov 11 Index Review BINARY RESOLVED: Indonesia retains EM status (status quo); BRPT + BRMS removed from Global Standard; 7 Small Cap removed; NO LQ45 bellwether directly removed. STANDALONE consultation continues Apr 30 2027 (6+ months). Crisis-track gate LIFTS to 0.50-1.75/5 from 0.00-0.50/5 (criterion-c partial relief + criterion-d 2-session net-BUY provisional); 3.25-4.50/5 gap STILL BINDING. 50-ticker scan complete: 4 candidates \u22656 (BMRI 7, BBCA 6, BBRI 6, BBNI 6) all PRE-BLOCKED. Banking Q3 big-4 BEAT cluster CONFIRMED. Brent crash Mon Nov 9 -5.8% COGS-RELIEF fresh. 100% cash maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned mechanically under DQG-Day-183"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 all PRE-BLOCKED: BMRI 7, BBCA 6, BBRI 6, BBNI 6"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 7/10 \u2014 Q3 +14% YoY Rp 15.1T BEAT; 9M +21% fastest big-4 growth"
+        },
+        {
+          "type": "research",
+          "detail": "MSCI Nov 11 BINARY RESOLVED status quo; BRPT+BRMS Global Standard removal; no LQ45 removal; gate lifts to 0.50-1.75/5"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44353,7 +44401,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-11T15:15:00+07:00",
+  "last_updated": "2026-11-12T00:00:00Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
