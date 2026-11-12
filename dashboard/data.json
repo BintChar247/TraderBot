@@ -2442,7 +2442,7 @@
     },
     {
       "date": "2026-11-12",
-      "day_label": "Day 154 \u2014 Wk 30 Day 4 OPEN PRE-MARKET \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 4 OPEN \u2014 Q4-2026-WEEK-7-DAY-4 \u2014 Post-Cabinet-Reshuffle-Day-39 \u2014 Post-BI-Hold-Transmission-Day-47 \u2014 MSCI-STANDALONE-Day-T+28 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-BRPT-BRMS-REMOVED-7-SMALL-CAP-REMOVED-NO-LQ45-REMOVAL \u2014 BI-RDG-Nov-17-18-T-5-countdown \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-9 \u2014 BEI-suspension-UMA-Day-7 \u2014 IDR-Stage-5-pierced-Day-15-carry-18,130 \u2014 Fri-Nov-6-+-Mon-Nov-9-FOREIGN-NET-BUY-2-CONSEC-SESSIONS-provisional-criterion-d-partial-restart \u2014 Brent-crash-Mon-Nov-9-NEG5.8%-COGS-RELIEF-fresh \u2014 105 consecutive sessions 0.00% daily P&L",
+      "day_label": "Day 154 \u2014 Wk 30 Day 4 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE \u2014 Q4-2026-WEEK-7-DAY-4 \u2014 Post-Cabinet-Reshuffle-Day-39 \u2014 Post-BI-Hold-Transmission-Day-47 \u2014 MSCI-STANDALONE-Day-T+28 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-BRPT-BRMS-REMOVED-7-SMALL-CAP-REMOVED-NO-LQ45-REMOVAL \u2014 Post-BI-RDG-Day-4-Day-20-absorption \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-9 \u2014 BEI-suspension-UMA-Day-7 \u2014 IDR-Stage-5-pierced-Day-15-carry-18,130 \u2014 Fri-Nov-6-+-Mon-Nov-9-FOREIGN-NET-BUY-2-CONSEC-provisional \u2014 Brent-crash-Mon-Nov-9-NEG5.8%-COGS-RELIEF-fresh \u2014 BI-RDG-Nov-17-18-T-5 \u2014 Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING \u2014 DQG-Day-183-outage-persists \u2014 105 consecutive sessions 0.00% daily P&L",
       "portfolio_value": 9716207500,
       "cash": 9716207500,
       "daily_pnl_idr": 0,
@@ -2454,7 +2454,7 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0,
-      "notes": "Thu Nov 12 PRE-MARKET \u2014 MSCI Nov 11 Index Review BINARY RESOLVED: Indonesia retains EM status (status quo); BRPT + BRMS REMOVED from MSCI Global Standard; 7 Indonesian names removed from Small Cap; NO LQ45 bellwether directly removed. STANDALONE consultation continues through Apr 30 2027 (6+ months). Criterion (c) accessibility LIFTS to 0.50-1.00/5 from 0.00-0.50/5 but does NOT reach 'neutral or better' threshold. Criterion (d) foreign-flow 2-session net-BUY Fri Nov 6 Rp 328.20B + Mon Nov 9 Rp 98.24B PROVISIONAL partial restart; need Thu Nov 12 3rd-consec confirmation. Gate scoring lifts to 0.50-1.75/5 Thu Nov 12 OPEN; 3.25-4.50/5 gap STILL BINDING. 50-ticker scan complete: 4 \u22656 candidates (BMRI 7, BBCA 6, BBRI 6, BBNI 6) all PRE-BLOCKED under crisis-track. Mechanically-vacuous universal SKIP. 100% cash maintained Day 115 since KLBF Jul 6 hard-cut; 30th consecutive zero-trade week Day 4 OPEN; 105 consecutive sessions 0.00% daily P&L. Mon Nov 9 IHSG anchor 5,073.77 quadruple-source Day-1 freshest; Tue Nov 10 + Wed Nov 11 PENDING multi-source (Wed Kontan single-source -0.29%). IDR Stage 5 Day-15 carry 18,130 Fri Nov 6 Jisdor Kontan. Banking Q3 big-4 all BEAT cluster CONFIRMED: BMRI +14% / BBRI absolute leader Rp 48.2T / BBCA +9% NIM +30bp / BBNI +6.62% loan +22%. Brent crash Mon Nov 9 -5.8% COGS-RELIEF fresh signal. BI RDG Nov 17-18 T-5. Alpha carry +32.98pp Mon Nov 9 reconciled basis Day-1 freshest."
+      "notes": "Thu Nov 12 EOD \u2014 MSCI Nov 11 Index Review BINARY RESOLVED: Indonesia retains EM status (status quo); BRPT + BRMS REMOVED from MSCI Global Standard (Rp 2.77T combined estimated passive outflow Nov 12 \u2192 Dec 1 effective); 7 Indonesian names REMOVED Small Cap; NO LQ45 bellwether directly removed; FIF/NOS freeze maintained. STANDALONE consultation continues through Apr 30 2027 (5.5+ months). Criterion (c) accessibility LIFTS to 0.50-1.00/5 from 0.00-0.50/5 but does NOT reach 'neutral or better' threshold. Criterion (d) foreign-flow 2-session net-BUY Fri Nov 6 + Mon Nov 9 PROVISIONAL partial restart to 0.50-0.75/5; Thu Nov 12 3rd-consec confirmation pending. Gate scoring 0.50-1.75/5 Wk 30 Day 4 CLOSE; 3.25-4.50/5 gap STILL BINDING. Mechanically-vacuous universal SKIP. 100% cash maintained Day 115 since KLBF Jul 6 hard-cut; 30th consecutive zero-trade week Day 4 CLOSE; 105 consecutive sessions 0.00% daily P&L. Mon Nov 9 IHSG anchor 5,073.77 quadruple-source Day-1 freshest; Tue Nov 10 + Wed Nov 11 + Thu Nov 12 PENDING multi-source (3-day backlog). IDR Stage 5 Day-15 carry 18,130 Fri Nov 6 Jisdor Kontan. Banking Q3 big-4 all BEAT cluster CONFIRMED: BMRI +14% / BBRI Rp 48.2T / BBCA +9% NIM +30bp / BBNI +6.62% loan +22% \u2014 does not override gate. Brent crash Mon Nov 9 -5.8% COGS-RELIEF fresh single-day signal. BI RDG Nov 17-18 T-5. Alpha carry +32.98pp Mon Nov 9 reconciled basis Day-1 freshest. 0 positions / 100% cash / mechanically vacuous mark-to-market; no risk alerts."
     }
   ],
   "positions": [],
@@ -39730,8 +39730,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 152,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 152 Wk 30 Day 2 CLOSE 30th-consecutive-zero-trade-week-Day-2 post-BI-hold-transmission Day-45 MSCI-STANDALONE-overlay-Day-T+26 MSCI-Nov-11-T-1-binary-TOMORROW Post-BI-RDG-Day-2-Day-18-absorption HSC-exclusion-methodology-shift-Day-7 BEI-new-suspension-UMA-rules-Nov-2026-Day-5 foreign-flow-YTD-~-Rp-127T)",
+    "trial_days_elapsed": 154,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 154 Wk 30 Day 4 CLOSE 30th-consecutive-zero-trade-week-Day-4 post-BI-hold-transmission Day-47 MSCI-STANDALONE-overlay-Day-T+28 MSCI-Nov-11-binary-RESOLVED-status-quo-BRPT-BRMS-removed-no-LQ45-removal Post-BI-RDG-Day-4-Day-20-absorption HSC-exclusion-methodology-shift-Day-9 BEI-new-suspension-UMA-rules-Nov-2026-Day-7 foreign-flow-YTD-~-Rp-127T+Fri-Nov-6+Mon-Nov-9-net-BUY-2-consec-provisional Brent-crash-Mon-NEG5.8%-COGS-RELIEF-fresh BI-RDG-Nov-17-18-T-5)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -39740,8 +39740,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -36.12,
-    "cumulative_alpha_pct": 33.28,
+    "ihsg_cumulative_pct": -35.82,
+    "cumulative_alpha_pct": 32.98,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -39752,19 +39752,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-11-10",
+    "updated": "2026-11-12",
     "portfolio_value": 9716207500,
-    "alpha_pct": 33.28,
+    "alpha_pct": 32.98,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 33.28,
+    "cumulative_alpha_pp": 32.98,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 152,
-    "last_updated": "2026-11-10 15:15 WIB",
+    "day_number": 154,
+    "last_updated": "2026-11-12 15:15 WIB",
     "open_positions": [],
-    "days_in_trial": 152,
+    "days_in_trial": 154,
     "week_number": 30,
-    "day_label": "Day 152 \u2014 Wk 30 Day 2 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE \u2014 Q4-2026-WEEK-7-DAY-2 \u2014 Post-Cabinet-Reshuffle-Day-37 \u2014 Post-BI-Hold-Transmission-Day-45 \u2014 MSCI-STANDALONE-Day-T+26 \u2014 MSCI-NOV-11-INDEX-REVIEW-T-1-BINARY-TOMORROW \u2014 Post-BI-RDG-Day-2 Day 18 absorption \u2014 Day 113 since KLBF hard-cut Jul 6 \u2014 HSC exclusion methodology shift Day-7 \u2014 BEI new suspension/UMA rules Nov 2026 Day-5 \u2014 IDR Stage 5 pierced Day-13 carry 18,130 Fri Nov 6 Jisdor Kontan secondary \u2014 OJK Rp 2.1T fines overhang \u2014 Fri Nov 6 IHSG RECONCILED 5,050.42 (+0.40%) triple-source anchor Day-2 \u2014 Tue Nov 10 IHSG PENDING multi-source \u2014 Wed Nov 4 + Thu Nov 5 + Mon Nov 9 + Tue Nov 10 4-day backlog \u2014 Foreign flow YTD passed -Rp 100T milestone ~-Rp 127T \u2014 BMRI Q3 +14% BEAT (does not override gate) \u2014 103 CONSECUTIVE SESSIONS 0.00% DAILY P&L",
+    "day_label": "Day 154 \u2014 Wk 30 Day 4 CLOSE EOD \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE \u2014 Q4-2026-WEEK-7-DAY-4 \u2014 Post-Cabinet-Reshuffle-Day-39 \u2014 Post-BI-Hold-Transmission-Day-47 \u2014 MSCI-STANDALONE-Day-T+28 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-BRPT-BRMS-REMOVED-7-SMALL-CAP-REMOVED-NO-LQ45-REMOVAL \u2014 Post-BI-RDG-Day-4-Day-20-absorption \u2014 Day 115 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-9 \u2014 BEI-suspension-UMA-Day-7 \u2014 IDR-Stage-5-pierced-Day-15-carry-18,130 \u2014 Fri-Nov-6-+-Mon-Nov-9-FOREIGN-NET-BUY-2-CONSEC-provisional \u2014 Brent-crash-Mon-Nov-9-NEG5.8%-COGS-RELIEF-fresh \u2014 BI-RDG-Nov-17-18-T-5 \u2014 Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING \u2014 DQG-Day-183-outage-persists \u2014 105 consecutive sessions 0.00% daily P&L",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -39780,15 +39780,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-10"
+    "updated": "2026-11-12"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-07T04:36:03Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "Wk 21 Day 1 midday: 0 open positions (Day 53 100% cash); no cuts, no stop-tightens, no thesis breaks. Silent-eligible; midday notification dispatched per scheduler prompt override."
-    },
     {
       "timestamp": "2026-09-07T08:20:17Z",
       "routine": "daily-summary",
@@ -44484,6 +44478,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions. No cuts or stop tightenings required."
+    },
+    {
+      "timestamp": "2026-11-12T08:20:09Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-11-12: Equity IDR 9,716,207,500 flat (0.00% daily; -2.84% phase-to-date). 0 positions / 100% cash Day 115 since KLBF Jul 6 hard-cut. MSCI Nov 11 binary RESOLVED status-quo (Indonesia retains EM; BRPT+BRMS removed Global Standard; no LQ45 removal). Crisis-track gate lifts to 0.50-1.75/5 on MSCI + foreign-flow 2-consec net-BUY + Brent -5.8% COGS-relief; gap 3.25-4.50/5 STILL BINDING \u2014 universal SKIP. IHSG Thu Nov 12 PENDING multi-source (DQG-Day-183 lag; 3-day backlog with Tue+Wed+Thu). DD -3.10% within -15% cap. 30th consecutive zero-trade week Day 4 CLOSE; 105 consecutive sessions 0.00% daily P&L.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 154 EOD snapshot committed; TRADE-LOG Wk 30 Day 4 CLOSE marker; dashboard upgraded pre-market\u2192EOD; RISK-STATE refreshed daily=0.0% dd=-3.10% halted=false"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44550,7 +44556,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-12T00:00:00Z",
+  "last_updated": "2026-11-12 15:15 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
