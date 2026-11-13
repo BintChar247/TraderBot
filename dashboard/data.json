@@ -39980,58 +39980,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-08T02:17:57Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 21 Day 2 no trades placed. 8 candidates \u22656/10 (BBCA/BBRI/BMRI/PGAS/INCO/ICBP/INDF/MYOR) all pre-blocked by crisis-track engagement gate ACTIVATED (Wk 21 Day 2 projected 0.80-1.00/5 REGRESSED via Mon Sep 7 triple-neg vector: Big-4 foreign -Rp1.14T net-sell, Brent $97 Day-3 sustained, Krakatau eruption Day-3 aviation escalation). 55th consecutive no-position session; 21st consecutive zero-trade week candidate.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "gate: crisis-track ACTIVATED 0.80-1.00/5"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "gate: Mon foreign -Rp427bn RESETS 3-consec-net-BUY hope"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "gate: crisis-track ACTIVATED; R:R 1.66:1 fails"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "gate: crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "INCO",
-          "detail": "gate: crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "gate: crisis-track + Brent $97 Day-3 margin-headwind"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "gate: crisis-track ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "MYOR",
-          "detail": "gate: crisis-track + Brent $97 Day-3 packaging headwind"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-126 outage persists; WebSearch multi-source override operational"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-08T04:36:32Z",
       "routine": "midday",
       "status": "success",
@@ -44719,6 +44667,12 @@
           "detail": "IDR Stage 5 pierced Day-16 watch; Fri Nov 13 Jisdor print 10:00 WIB"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-13T04:35:21Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (n=0). Midday scan trivially vacuous. No cuts, no stop tightens, no thesis exits."
     }
   ],
   "exposure": {
