@@ -39784,18 +39784,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-07T08:20:17Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-09-07: IDR 9.72B (0.00% daily). Alpha +0.43pp vs IHSG -0.43%. Cum alpha +10.29pp. 0 positions (Day 54 100% cash). Trades wk 0/3 (Wk 21 Day 1 OPEN \u2014 21st consecutive zero-trade week candidate). DD -3.10%. No risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 101 snapshot committed; Wk 21 Day 1 OPEN 0/3 BUY-slot week; IHSG Mon full-day provisional 6,632 (-0.43%); sesi II reconciliation pending Tue Sep 8 pre-market per DQG-Day-125 sesi-II-lag 7th cumulative"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-08T00:10:43Z",
       "routine": "pre-market",
       "status": "success",
@@ -44490,6 +44478,46 @@
           "detail": "Day 154 EOD snapshot committed; TRADE-LOG Wk 30 Day 4 CLOSE marker; dashboard upgraded pre-market\u2192EOD; RISK-STATE refreshed daily=0.0% dd=-3.10% halted=false"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-13T00:08:38Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "Scanned all 50 watchlist tickers. 4 scored \u22656 (BBCA 6, BBRI 6, BMRI 7, BBNI 6) all PRE-BLOCKED under crisis-track gate (0.50-1.75/5 vs 5.00 DE-ACTIVATION; 3.25-4.50 gap binding). HOLD 100% cash. 30th consecutive zero-trade week Day 5 OPEN; weekly-review today 16:00 WIB.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned under DQG-Day-184 outage"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored >=6 all PRE-BLOCKED crisis-track gate"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 7/10 Q3 +14% YoY 9M +20.7% fastest growth big-4 BRIDS BUY TP Rp 6,400"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 Q3 NIM+30bp expansion contra-sector BRIDS BUY TP Rp 8,600"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 Q3 Rp 48.2T absolute leader big-4"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 6/10 9M +6.62% loan +22% fastest Ciptadana BUY TP cut to Rp 4,650"
+        },
+        {
+          "type": "regime",
+          "detail": "DEFENSIVE-INTENSIFIED-DAY-116; crisis-track gate 0.50-1.75/5 maintained; IDR Stage-5 Day-16 watch; MSCI STANDALONE Day T+29; DQG Day-184"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -44556,7 +44584,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-12 15:15 WIB",
+  "last_updated": "2026-11-13 07:00 WIB",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -44566,8 +44594,8 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-11-11",
-    "day_label": "Wk 30 Day 3 OPEN \u2014 Q4-2026-Week-7-Day-3 \u2014 MSCI-Nov-11-Index-Review-T-0-BINARY-TODAY-US / T-1-WIB \u2014 MSCI-STANDALONE-Day-T+27 \u2014 DQG-Day-182 \u2014 IDR-Stage-5-Day-14 \u2014 HSC-Day-8 \u2014 BEI-UMA-Day-6 \u2014 Foreign-flow-YTD-~Rp-127T \u2014 Kontan-Tue-Nov-10-single-source-net-BUY-NOT-CONVERGED \u2014 BI-RDG-Nov-17-18-T-6 \u2014 30TH-CONSECUTIVE-ZERO-TRADE-WEEK-Day-3-OPEN \u2014 Day-114-since-KLBF-hard-cut \u2014 104-consecutive-sessions-0.00%-daily-P&L",
+    "date": "2026-11-13",
+    "day_label": "Wk 30 Day 5 OPEN \u2014 Q4-2026-Week-7-Day-5 \u2014 Fri Nov 13 WEEKLY-REVIEW DAY \u2014 Day 155 trial / Day 116 since KLBF hard-cut \u2014 30TH CONSECUTIVE ZERO-TRADE WEEK Day 5 OPEN \u2014 MSCI-Nov-11-BINARY-RESOLVED-STATUS-QUO-Day-T+2 \u2014 BI-RDG-Nov-17-18-T-4 \u2014 DQG-Day-184 \u2014 IDR-Stage-5-pierced-Day-16-watch \u2014 Crisis-track-gate-0.50-1.75/5-maintained-gap-3.25-4.50-STILL-BINDING",
     "candidates_scored_6plus": 4,
     "candidates_tickers": [
       "BBCA",
@@ -44575,10 +44603,10 @@
       "BMRI",
       "BBNI"
     ],
-    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate binding under octuple+ stack (MSCI T-0 TODAY + MSCI STANDALONE Day T+27 + DQG-Day-182 + IDR Stage 5 Day-14 + HSC Day-8 + BEI UMA Day-6 + foreign-flow YTD -Rp 127T + OJK fines)",
-    "top_catalyst_today": "MSCI Nov 11 Index Review T-0 BINARY TODAY US / release Thu Nov 12 WIB \u2014 peak-uncertainty window of regime within 24h",
-    "plan_for_market_open": "NO BUYS \u2014 octuple+ stack universal pre-block all 50 tickers; HOLD 100% cash",
-    "notes": "30th consecutive zero-trade week Day 3 OPEN; Day 114 since KLBF hard-cut; 104 consecutive sessions 0.00% daily P&L; Fri Nov 6 IHSG RECONCILED 5,050.42 triple-source anchor Day-3 carry; Mon Nov 9 + Tue Nov 10 IHSG closes PENDING multi-source; Kontan single-source Tue Nov 10 net-BUY asing headline NOT CONVERGED \u2014 watch confirmation; alpha carry ~+33.28pp Fri Nov 6 basis"
+    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate binding (0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; 3.25-4.50/5 gap STILL BINDING; criterion (a) IDR Day-16 structurally impossible this week + criterion (b) DQG Day-184 cluster NOT CONVERGED + criterion (c) MSCI STANDALONE Day T+29 persists + criterion (d) 3-consec provisional net-BUY needs 4th-consec + criterion (e) R:R untestable)",
+    "top_catalyst_today": "Weekly-review Wk 30 close Fri 16:00 WIB (4th post-Wk-22 RE-REMOVAL-path on-time test window; 8-of-8 cumulative since Wk 23 continuation); IDR Jisdor Fri Nov 13 10:00 WIB print Stage-5 Day-16 classification; BI RDG T-4 countdown",
+    "plan_for_market_open": "NO BUYS \u2014 universal mechanical SKIP all 50 tickers; HOLD 100% cash Rp 9,716,207,500",
+    "notes": "30th consecutive zero-trade week Day 5 OPEN; Day 116 since KLBF hard-cut; 106 consecutive sessions 0.00% daily P&L; gate 4-of-5 criteria LIFT from Wk 30 Day 3 CLOSE baseline (MSCI binary RESOLVED status-quo + foreign-flow 3-consec provisional + Brent crash Mon Nov 9 -5.8% COGS-RELIEF Day-5 + Oct CPI 3.23% within-target) but criterion (a) IDR Stage-5 Day-16 structurally impossible + DQG-Day-184 outage + MSCI STANDALONE overlay Day T+29 persist"
   },
   "activity": [
     {
