@@ -5,7 +5,36 @@ _Updated weekly. The current regime label is the FIRST entry — always read thi
 
 ---
 
-## Current Regime (as of 2026-10-23)
+## Current Regime (as of 2026-11-13)
+
+**Label:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY116 + IDR-STAGE-5-PIERCED-Day-16-watch-carry-18,130-Fri-Nov-6-Jisdor-Kontan-secondary + MSCI-STANDALONE-CONSULTATION-OVERLAY-Day-T+29 + MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-BRPT-BRMS-REMOVED-7-SMALL-CAP-REMOVED-NO-LQ45-REMOVED + 2nd-BI-RDG-under-Destry-HOLD-5.75%+DF-+25bp-RECONCILED-Day-23 + BI-RDG-Nov-17-18-T-2/T-3-3rd-BI-RDG-under-Destry-binary-approaches + TRIAL-HIGH-WATER-CONTINUED-EXPANSION-Mon-Nov-9-reconciled-~+32.98pp-provisional (regime label CARRIES Wk 27 close with Wk 28-29 missing-review-period carry + Wk 30 updates)
+
+**Wk 30 close updates layered on Wk 27 close carry (Wk 28 + Wk 29 reviews MISSED):**
+- MSCI NOV 11 INDEX REVIEW BINARY RESOLVED Thu Nov 12 WIB release: Indonesia retains EM classification (status quo — peak-uncertainty-binary cleared without structural downgrade); BRPT + BRMS REMOVED from MSCI Global Standard (Rp 2.77T combined estimated passive outflow Dec 1 effective date); 7 Indonesian names REMOVED from Small Cap; NO LQ45 bellwether directly removed; FIF/NOS freeze maintained; criterion (c) MSCI accessibility lifts 0.00-0.50/5 → 0.50-1.00/5 partial but STANDALONE consultation window continues through Apr 30 2027 = does NOT reach "neutral or better" threshold required for re-entry gate DE-ACTIVATION
+- MSCI STANDALONE consultation Day T+22-29 overlay persists (consultation through Apr 30 2027; final decision no later than Jun 30 2027) = 5.5+ months structural uncertainty continues
+- CRISIS-TRACK ENGAGEMENT GATE FURTHER-ESCALATED Mon-Wed close 0.00-0.50/5 → Thu-Fri close 0.50-1.75/5 (partial lift post-MSCI-binary-resolution (criterion c partial-lift) + foreign-flow 3-consec provisional net-BUY Fri Nov 6 + Mon Nov 9 + Thu Nov 12 (criterion d partial-lift to 0.50-0.75/5) + Brent Mon Nov 9 -5.8% crash COGS-relief fresh single-day signal); gap 3.25-4.50/5 STILL BINDING; re-entry path remains structurally deferred
+- IDR Stage-5 pierced Day-12-16 carry 18,130 Fri Nov 6 Jisdor Kontan secondary (Wed Oct 28 18,183 Kompas + Oct 29 Bisnis reconfirmed 18,184 peak; Mon-Fri Jisdor fresh prints 10:00 WIB not surfaced at EOD fires); sub-17,750 criterion (a) 3-of-3 reversal structurally impossible under current trajectory; Stage 5 pierce bars any new entry
+- FOREIGN-FLOW YTD passed -Rp 100T milestone ~-Rp 127T (per Katadata Nov 4) + Fri Nov 6 + Mon Nov 9 + Thu Nov 12 3-consec PROVISIONAL net-BUY partial-restart = criterion (d) partial lift to 0.50-0.75/5; Fri Nov 13 4th-consec continuation watch pending reconciliation
+- BRENT Mon Nov 9 -5.8% crash fresh Day-5 continuation = COGS-relief single-day crash fresh (UNVR/ICBP/INDF Consumer thesis partial RE-ARM candidate but crisis-track gate FURTHER-ESCALATED pre-blocks regardless); criterion (b) below-$95 sustained watch continues Day-5
+- US-10Y 5.24% Day-37-41 breakout-persistence slight-fade carry; no snap-back below 5.00% observed Wk 30 = criterion (b) continues FAIL
+- LME-nickel $15,547 Day-30-34 fade-deepening carry MDKA/ANTM/INCO/NCKL headwind-worst-case sustained
+- CPO MYR 4,398 Oct 13 rally Day-21-25 partial-relief carry AALI/LSIP partial-relief sustained
+- Newcastle coal $140-144 Day-54-58 sector-EXITED carry (coal-EXITED 2-strike reversal 1-of-2 triggers still met via ≥$140 sustained)
+- HSC exclusion methodology shift Day-6-10 absorption per Kontan/IDX disclosure Mon Nov 2 2026; Kontan Insight: "does NOT fully answer MSCI STANDALONE demands" = may harden MSCI consultation stance Day T+22-29 despite Nov 11 binary status-quo retention
+- BEI new suspension/UMA rules Nov 2026 Day-4-8 overlay absorbing (tighter UMA suspension triggers; detailed rule text TBD)
+- BMRI Q3 2026 +14% BEAT + big-4 Q3 BEAT cluster CONFIRMED absorption Mon Nov 9 pre-market print (BMRI +14% YoY + BBRI absolute leader Rp 48.2T + BBCA +9% NIM +30bp + BBNI +6.62% loan +22%); outcome does NOT override crisis-track gate per Hard Rule 2026-07-17 — mechanical pre-block binding
+- BI RDG Nov 17-18 T-2/T-3 approaches = 3rd BI-RDG-under-Destry binary next-week Mon-Tue window Wk 31 highest-probability window; HOLD-5.75% + DF corridor adjustment base case continuation
+- TLKM EGM T+39-43 post-formal-filing MEDIUM-confidence pattern 39-43 observations window continues
+- POST-CABINET-RESHUFFLE Day-36-40 5WK+-MILESTONE absorption Wk 30 Mon-Fri window completed
+- OJK Rp 2.1T fines (DSSA/BREN/CUAN) governance overhang carry
+- IHSG RECONCILED PARTIAL Mon Nov 9 quadruple-source 5,073.77 (+0.46% vs Fri Nov 6 reconciled 5,050.42) FRESHEST ANCHOR Day-4 carry + Tue Nov 10 Bisnis single-source 5,125.72 (+1.02%) PARTIAL Day-3 carry; Wed Nov 11 + Thu Nov 12 + Fri Nov 13 ALL PENDING multi-source cluster = 3-day accumulated reconciliation backlog persists Wk 30 close; DQG-Day-184 outage persists; 59th+ cumulative sesi-II-lag trial-to-date
+- TRIAL HIGH WATER CONTINUED EXPANSION Mon Nov 9 reconciled anchor basis cumulative alpha ~+32.98pp (vs Wk 27 Wed Oct 21 reconciled +27.36pp provisional = +5.62pp cumulative expansion over 3-week Wk 27 close → Wk 30 Mon basis despite missed Wk 28 + Wk 29 reviews) = FRESH ALL-TIME TRIAL HIGH WATER (reconciled basis); codification pending Tue-Fri cluster saturation Mon Nov 16 pre-market
+- 2-consecutive missed weekly-reviews Wk 28 Fri Oct 30 + Wk 29 Fri Nov 6 RE-ARM process-drift escalation flag immediately after Wk 27 FULL FORMAL REMOVAL ELIGIBILITY CLEARED = SEVERE process regression within 2-week window of full-eligibility clearance; formal RE-REMOVAL path RESETS to 4-consecutive-on-time bar per Wk 23 directive counting from Wk 30 forward
+- Notification channel BLOCKED 7th consecutive week structural operating constraint Wk 24-30 cumulative; MISTAKES.md dual-entry codification pending Mon Nov 16 pre-market (notification-channel-BLOCKED-7-consecutive-weeks + 2-consec-missed-weekly-review-process-drift-RE-ARM)
+
+---
+
+## Prior Current Regime (as of 2026-10-23)
 
 **Label:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY96 + IDR-STAGE-5-MARGINAL-BOUNDARY-Day96 DE-ARM-CANDIDATE-Day76 SUB-17,750-firming-REVERSED-Wk24-27-JISDOR-weakening-near-18,000-band-sustained + MSCI-STANDALONE-CONSULTATION-OVERLAY-ACTIVATED-Day-T+8 + 2nd-BI-RDG-under-Destry-HOLD-5.75%+DF-+25bp-RECONCILED-Day-2 + TRIAL-HIGH-WATER-SURPASSED-RECONCILED-BASIS-WED-OCT-21-+27.36pp (regime label CARRIES Wk 26 close with Wk 27 updates)
 
