@@ -39727,6 +39727,202 @@
         null,
         null
       ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 15.1T +14% YoY BEAT; 9M +20.7% fastest growth big-4; BRIDS BUY TP Rp 6,400.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 2026 BEAT + 9M fastest growth big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-DAY116; crisis-track gate 0.50-1.75/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL: crisis-track engagement gate FURTHER-ESCALATED (3.25-4.50/5 gap binding)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal SKIP; 100% cash maintained since Jul 6 KLBF hard-cut Day 116)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-184: yfinance/GoAPI blocked; fresh-mark cluster NOT achievable"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED by crisis-track engagement gate (0.50-1.75/5 vs 5.00/5 required); Q3 beat does not override gate per 2026-07-17 Hard Rule.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 15.7T +9% YoY; NIM +30bp QoQ to 5.6% EXPANSION contra-sector; BRIDS BUY TP Rp 8,600; MSCI retained Nov 11.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 NIM-expansion counter-trend + MSCI retention"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-DAY116; crisis-track gate 0.50-1.75/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL: crisis-track engagement gate FURTHER-ESCALATED (3.25-4.50/5 gap binding)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal SKIP; 100% cash maintained since Jul 6 KLBF hard-cut Day 116)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-184: yfinance/GoAPI blocked; fresh-mark cluster NOT achievable"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED by crisis-track engagement gate; defensive-track 10-yr sigma unverifiable under DQG-Day-184.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 absolute leader Rp 48.2T big-4; post-buyback-expiry clean-absorption Day-51+; BRIDS BUY TP Rp 4,560.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 absolute leader among big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-DAY116; crisis-track gate 0.50-1.75/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL: crisis-track engagement gate FURTHER-ESCALATED (3.25-4.50/5 gap binding)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal SKIP; 100% cash maintained since Jul 6 KLBF hard-cut Day 116)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-184: yfinance/GoAPI blocked; fresh-mark cluster NOT achievable"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED by crisis-track engagement gate; Q3 full release T+11 delay does not override gate.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-13",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "9M Rp 16.1T +6.62% YoY; loan +22% fastest big-4; Ciptadana BUY TP Rp 4,650 (cut from Rp 4,975).",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT + fastest loan growth big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED CASCADE-INFLECTION-DAY116; crisis-track gate 0.50-1.75/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate FAIL: crisis-track engagement gate FURTHER-ESCALATED (3.25-4.50/5 gap binding)"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (universal SKIP; 100% cash maintained since Jul 6 KLBF hard-cut Day 116)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-184: yfinance/GoAPI blocked; fresh-mark cluster NOT achievable"
+        }
+      ],
+      "reasoning": "PRE-BLOCKED by crisis-track engagement gate; NIM compression Q3 cautionary signal.",
+      "gate_results": [
+        false,
+        null,
+        null,
+        null,
+        null,
+        true,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -39783,37 +39979,6 @@
     "updated": "2026-11-12"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-08T00:10:43Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 21 Day 2 pre-market: 50-ticker scan complete; 8 candidates score >=6 (BBCA/BBRI/BMRI/PGAS/INCO/ICBP/INDF/MYOR); all 8 pre-blocked crisis-track engagement gate ACTIVATED projected 0.80-1.00/5 REGRESSED via Mon triple-negative vector (Big-4 foreign net-sell Rp1.14T + Brent $97 Day-3 + Krakatau Day-3 aviation-shock 1,558 flights). IHSG Mon 6,619.673 -0.25%. Zero-trade session #55 ahead.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50-ticker scan complete"
-        },
-        {
-          "type": "research",
-          "detail": "8 candidates scored >=6, all blocked crisis-track gate"
-        },
-        {
-          "type": "research",
-          "ticker": "BBRI",
-          "detail": "score 6/10 Q2 BEAT locked but Mon foreign -Rp427bn RESET"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 sole bright-spot Big-4 foreign +Rp72bn Mon"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 largest Big-4 foreign net-sell -Rp686bn Mon"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-08T02:17:57Z",
       "routine": "market-open",
@@ -44516,6 +44681,42 @@
         {
           "type": "regime",
           "detail": "DEFENSIVE-INTENSIFIED-DAY-116; crisis-track gate 0.50-1.75/5 maintained; IDR Stage-5 Day-16 watch; MSCI STANDALONE Day T+29; DQG Day-184"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-13T02:17:43Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 50 watchlist universal SKIP under crisis-track gate 0.50-1.75/5 (gap 3.25-4.50/5 binding) + MSCI STANDALONE Day T+29 + DQG-Day-184 + IDR Stage 5 pierced Day-16 watch (18,130) + HSC Day-10 + BEI UMA Day-8 + foreign-flow YTD -Rp 127T but 3-consec provisional net-BUY partial-restart. Top 4 (BMRI 7, BBCA 6, BBRI 6, BBNI 6 \u2014 big-4 Q3 BEAT cluster) mechanically pre-blocked. 30th consecutive zero-trade week Day 5 OPEN \u2014 WEEKLY-REVIEW DAY. Day 116 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "Q3 +14% BEAT; crisis-track gate pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "Q3 +9% NIM +30bp; crisis-track gate pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "Q3 Rp 48.2T leader; crisis-track gate pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "9M +6.62% loan +22%; crisis-track gate pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-184 outage persists; fresh-mark cluster NOT achievable"
+        },
+        {
+          "type": "warning",
+          "detail": "IDR Stage 5 pierced Day-16 watch; Fri Nov 13 Jisdor print 10:00 WIB"
         }
       ]
     }
