@@ -40389,6 +40389,230 @@
       "reason": "below \u22656 catalyst-track threshold + crisis-track gate binding",
       "routine": "pre-market",
       "timestamp": "2026-11-16T00:08:15Z"
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "score": 7,
+      "thesis": "BMRI Q3 Rp 15.1T +14% YoY; 9M Rp 45.5T +20.7% fastest big-4; BRIDS BUY TP Rp 6,400 \u2014 pre-blocked by crisis-track gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 7/10 \u2014 Q3 +14% YoY +1% QoQ BEAT; 9M +20.7% FASTEST growth big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-117 + MSCI STANDALONE Day T+32 + MSCI Nov 11 binary RESOLVED Day T+5 + IDR Stage 5 pierced Day-19 + BI RDG T-1/T-2 + Brent Day-8 COGS-RELIEF"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; gap 3.25-4.50/5 BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track FURTHER-ESCALATED binding; 100% cash maintained Day 117"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-187 outage persists (yfinance+GoAPI blocked 187 sessions); per-ticker fresh-mark cluster unavailable"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; 3.25-4.50/5 gap BINDING"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 maintained Fri Nov 13 carry; gap 3.25-4.50/5 STILL BINDING; all 5 re-entry criteria NOT concurrent (a) IDR sub-17,750 structurally impossible Day-19 pierced 18,130 carry; (b) Brent Day-8 COGS-RELIEF partial-lift 0.50-0.75/5 but DQG-Day-187 cluster convergence failure; (c) MSCI Nov 11 binary RESOLVED status-quo Day T+5 lifts to 0.50-1.00/5 PARTIAL-RELIEF not 'neutral or better'; (d) foreign-flow 3-consec provisional 0.75-1.00/5 needs 4th-5th-consec continuation; (e) R:R untestable without fresh cluster. Pre-block binding per Hard Rule 2026-07-17 regardless of ticker score.",
+      "routine": "market-open",
+      "timestamp": "2026-11-16T02:15:00Z",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "score": 6,
+      "thesis": "BBCA Q3 Rp 15.7T +9% YoY; NIM 5.6% +30bp QoQ EXPANSION contra-trend; MSCI retained; BRIDS BUY Rp 8,600 \u2014 pre-blocked by crisis-track gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Q3 +9% YoY + NIM +30bp QoQ EXPANSION contra-sector"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-117 + MSCI STANDALONE Day T+32 + MSCI Nov 11 binary RESOLVED Day T+5 + IDR Stage 5 pierced Day-19 + BI RDG T-1/T-2 + Brent Day-8 COGS-RELIEF"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; gap 3.25-4.50/5 BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track FURTHER-ESCALATED binding; 100% cash maintained Day 117"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-187 outage persists (yfinance+GoAPI blocked 187 sessions); per-ticker fresh-mark cluster unavailable"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; 3.25-4.50/5 gap BINDING"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 maintained Fri Nov 13 carry; gap 3.25-4.50/5 STILL BINDING; all 5 re-entry criteria NOT concurrent (a) IDR sub-17,750 structurally impossible Day-19 pierced 18,130 carry; (b) Brent Day-8 COGS-RELIEF partial-lift 0.50-0.75/5 but DQG-Day-187 cluster convergence failure; (c) MSCI Nov 11 binary RESOLVED status-quo Day T+5 lifts to 0.50-1.00/5 PARTIAL-RELIEF not 'neutral or better'; (d) foreign-flow 3-consec provisional 0.75-1.00/5 needs 4th-5th-consec continuation; (e) R:R untestable without fresh cluster. Pre-block binding per Hard Rule 2026-07-17 regardless of ticker score.",
+      "routine": "market-open",
+      "timestamp": "2026-11-16T02:15:00Z",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "score": 6,
+      "thesis": "BBRI Q3 Rp 48.2T absolute leader big-4; 9M jumbo bank largest; BRIDS BUY TP Rp 4,560 \u2014 pre-blocked by crisis-track gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 Q3 absolute leader Rp 48.2T big-4; post-buyback Day-54+ clean-absorption"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-117 + MSCI STANDALONE Day T+32 + MSCI Nov 11 binary RESOLVED Day T+5 + IDR Stage 5 pierced Day-19 + BI RDG T-1/T-2 + Brent Day-8 COGS-RELIEF"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; gap 3.25-4.50/5 BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track FURTHER-ESCALATED binding; 100% cash maintained Day 117"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-187 outage persists (yfinance+GoAPI blocked 187 sessions); per-ticker fresh-mark cluster unavailable"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; 3.25-4.50/5 gap BINDING"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 maintained Fri Nov 13 carry; gap 3.25-4.50/5 STILL BINDING; all 5 re-entry criteria NOT concurrent (a) IDR sub-17,750 structurally impossible Day-19 pierced 18,130 carry; (b) Brent Day-8 COGS-RELIEF partial-lift 0.50-0.75/5 but DQG-Day-187 cluster convergence failure; (c) MSCI Nov 11 binary RESOLVED status-quo Day T+5 lifts to 0.50-1.00/5 PARTIAL-RELIEF not 'neutral or better'; (d) foreign-flow 3-consec provisional 0.75-1.00/5 needs 4th-5th-consec continuation; (e) R:R untestable without fresh cluster. Pre-block binding per Hard Rule 2026-07-17 regardless of ticker score.",
+      "routine": "market-open",
+      "timestamp": "2026-11-16T02:15:00Z",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-16",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "score": 6,
+      "thesis": "BBNI 9M Rp 16.1T +6.62% YoY; loan +22% fastest big-4; Ciptadana BUY TP Rp 4,650 (cut -6.5% on NIM) \u2014 pre-blocked by crisis-track gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Score 6/10 \u2014 9M +6.62% YoY; loan +22% FASTEST big-4"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED-CASCADE Day-117 + MSCI STANDALONE Day T+32 + MSCI Nov 11 binary RESOLVED Day T+5 + IDR Stage 5 pierced Day-19 + BI RDG T-1/T-2 + Brent Day-8 COGS-RELIEF"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; gap 3.25-4.50/5 BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "N/A crisis-track FURTHER-ESCALATED binding; 100% cash maintained Day 117"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-187 outage persists (yfinance+GoAPI blocked 187 sessions); per-ticker fresh-mark cluster unavailable"
+        },
+        {
+          "type": "warning",
+          "label": "Crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5/5 required DE-ACTIVATION; 3.25-4.50/5 gap BINDING"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 maintained Fri Nov 13 carry; gap 3.25-4.50/5 STILL BINDING; all 5 re-entry criteria NOT concurrent (a) IDR sub-17,750 structurally impossible Day-19 pierced 18,130 carry; (b) Brent Day-8 COGS-RELIEF partial-lift 0.50-0.75/5 but DQG-Day-187 cluster convergence failure; (c) MSCI Nov 11 binary RESOLVED status-quo Day T+5 lifts to 0.50-1.00/5 PARTIAL-RELIEF not 'neutral or better'; (d) foreign-flow 3-consec provisional 0.75-1.00/5 needs 4th-5th-consec continuation; (e) R:R untestable without fresh cluster. Pre-block binding per Hard Rule 2026-07-17 regardless of ticker score.",
+      "routine": "market-open",
+      "timestamp": "2026-11-16T02:15:00Z",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
     }
   ],
   "stats": {
@@ -40445,18 +40669,6 @@
     "updated": "2026-11-12"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-08T08:19:13Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 102 Wk 21 Day 2: IDR 9.72B (0.00% daily). IHSG Tue +1.02% (sesi II intra provisional). Daily alpha -1.02pp; cum +9.56pp (COMPRESSION -0.73pp Day-2 first material erosion). 100% cash Day 55. Trades this week: 0/3. Crisis-track gate 0.80-1.00/5 REGRESSED.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 102 EOD snapshot committed; alpha compression Day-2 monitoring initiated"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-09T00:12:53Z",
       "routine": "pre-market",
@@ -45167,6 +45379,42 @@
           "type": "research",
           "ticker": "BBNI",
           "detail": "score 6/10 \u2014 9M +6.62% + loan +22% fastest big-4"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-16T02:18:04Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 50 watchlist tickers universal SKIP under octuple+ structural stack (crisis-track gate 0.50-1.75/5 maintained Fri Nov 13 carry, gap 3.25-4.50/5 binding + MSCI STANDALONE Day T+32 + MSCI Nov 11 binary RESOLVED Day T+5 + DQG-Day-187 + IDR Stage 5 pierced Day-19 watch + HSC Day-13 + BEI UMA Day-11 + foreign-flow YTD -Rp 98-127T reconciliation-discrepancy but 3-consec provisional net-BUY + Brent crash Day-8 COGS-relief + BI RDG T-1/T-2). 31st consecutive zero-trade week Day 1 OPEN. Day 117 since KLBF hard-cut Jul 6.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "score 7 \u2014 Q3 +14% +9M +20.7% fastest big-4; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "score 6 \u2014 Q3 +9% NIM +30bp QoQ EXPANSION; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "score 6 \u2014 Q3 Rp 48.2T absolute leader big-4; crisis-track pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "score 6 \u2014 9M +6.62% loan +22% fastest big-4; crisis-track pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-187 outage persists (yfinance+GoAPI 187 sessions blocked)"
+        },
+        {
+          "type": "warning",
+          "detail": "Telegram proxy-403 blocked \u2014 notify.sh stdout fallback"
         }
       ]
     }
