@@ -40910,37 +40910,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-10T00:11:51Z",
-      "routine": "pre-market",
-      "status": "warning",
-      "summary": "Scanned 50 tickers. 7 candidates scored \u22656: PGAS(7 upgrade), BBCA/BBRI/BMRI/MEDC(6 up)/INCO/MDKA(6). All pre-blocked crisis-track gate 0.75-0.95/5 REGRESSED via Brent 00.71 SPIKE Sep 9 Iran-tanker. 100% cash Day 57 continues.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "7 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Brent $100 SPIKE gas-realization amplifier ELEVATED"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 6/10 \u2014 upstream oil-linked Brent-SPIKE beneficiary UPGRADE"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 6/10 \u2014 ex-div Rp 66 Sep 16 T-6 fresh catalyst"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-10T02:18:53Z",
       "routine": "market-open",
       "status": "warning",
@@ -45641,6 +45610,12 @@
           "detail": "Notification channel structural constraint: Telegram proxy-403 blocked; notify.sh fallback-to-stdout per Wk 24-31 8-week pattern"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-17T04:35:07Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions. All quiet \u2014 no cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
