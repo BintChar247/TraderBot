@@ -40926,12 +40926,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-10T04:36:16Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No open positions (Day 57 fully de-risked). No cuts, no stops, no thesis exits. Silent scan."
-    },
-    {
       "timestamp": "2026-09-10T08:22:03Z",
       "routine": "daily-summary",
       "status": "success",
@@ -45589,6 +45583,58 @@
           "detail": "Day 159 snapshot committed; Wk 31 Day 2 CLOSE; 108 consecutive zero daily P&L sessions; BI RDG Day 1 of 2 underway"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-18T00:09:17Z",
+      "routine": "pre-market",
+      "status": "success",
+      "summary": "50-ticker scan complete Day 160 Wk 31 Day 3 OPEN. 4 candidates \u22656 (BBCA/BBRI/BMRI/BBNI Q3 BEAT cluster) all SKIP (gate). Universal mechanical SKIP applied under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required binding; gap 3.25-4.50/5 STILL BINDING. BI RDG Day 2 of 2 rate decision TODAY PM WIB (3rd-under-Destry). IHSG Fri Nov 13 5,344.40 fresh reconcile anchor Day-3; IDR Stage 5 Day-21 band 18,080-18,232. DQG-Day-189 outage persists. 119 consecutive sessions 100% cash since Jul 6 KLBF hard-cut.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned via WebSearch multi-source override (DQG-Day-189 outage; yfinance+GoAPI blocked)"
+        },
+        {
+          "type": "research",
+          "detail": "4 candidates scored \u22656 (BBCA/BBRI/BMRI/BBNI) \u2014 all universal SKIP (gate FURTHER-ESCALATED binding)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; top asing net-BUY Wk Nov 2-6; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 absolute leader Rp 48.2T NP; T+16 release pre-block; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 6/10 \u2014 Q3 +14% YoY fastest big-4; BUMN20 tailwind; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 6/10 \u2014 Q3 NP +7%; Ciptadana BUY TP Rp 4,650; SKIP (gate)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Fri Nov 13 5,344.40 (+1.78%) fresh reconcile anchor Day-3; Wk Nov 9-13 cumulative +5.82%"
+        },
+        {
+          "type": "macro",
+          "detail": "IDR Thu Nov 12 Jisdor 18,232 fresh reconcile; Stage 5 Day-21 band 18,080-18,232 persistence"
+        },
+        {
+          "type": "macro",
+          "detail": "Foreign flow 3-consec provisional net-BUY INTERRUPTED Fri Nov 13 net SELL Rp229.77B; Wk cumulative net BUY Rp467.73B; YTD -Rp 97.6T"
+        },
+        {
+          "type": "calendar",
+          "detail": "BI RDG Day 2 of 2 rate decision binary TODAY PM WIB; 3rd-under-Destry; base case hold 5.75%+DF 5.00%"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -45655,7 +45701,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-17T08:19:26Z",
+  "last_updated": "2026-11-18T00:09:03Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -45665,12 +45711,12 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-11-17",
-    "day_label": "Wk 31 Day 2 OPEN \u2014 Q4-2026-Week-8-Day-2 \u2014 Tue Nov 17 \u2014 Day 159 trial / Day 118 since KLBF hard-cut \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK Day 2 OPEN target \u2014 BI-RDG-Nov-17-18-Day-1-of-2-TODAY (3rd-under-Destry) \u2014 MSCI-Nov-11-BINARY-RESOLVED-Status-Quo-Day-T+6 \u2014 MSCI-STANDALONE-overlay-Day-T+33 \u2014 DQG-Day-188 \u2014 IDR-Stage-5-pierced-Day-20-watch-18,130-Fri-Nov-6-Jisdor-Kontan-secondary \u2014 Crisis-track-gate-0.50-1.75/5-maintained-gap-3.25-4.50-STILL-BINDING",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day118-Wk31-Day-2-OPEN-31ST-CONSECUTIVE-ZERO-TRADE-WEEK-Day-2-target-MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+6-MSCI-STANDALONE-Day-T+33-BI-RDG-Nov-17-18-Day-1-of-2-TODAY-DQG-Day-188-IDR-Stage-5-Day-20-Brent-crash-Day-9-COGS-RELIEF-foreign-flow-3-consec-net-BUY-provisional",
-    "ihsg_last_reconciled": "5,115.04 (-0.21%) Wed Nov 11 Databoks; 5,073.77 Mon Nov 9 quadruple-source Day-6 freshest; Thu Nov 12 Kontan single; Fri Nov 13 + Mon Nov 16 NOT SURFACED",
-    "idr_last": "18,130 Fri Nov 6 Jisdor Kontan secondary Stage-5 pierced Day-20 carry; Fri Nov 13 + Mon Nov 16 Jisdor NOT SURFACED at 07:00 WIB fire",
-    "brent_last": "$90.59 Nov 10 ~09:00 GMT (-15-22% weekly from $118 Oct 30 peak \u2014 sharpest since COVID); Day-9 continuation $90-93 band sustained COGS-RELIEF; Trump Iran-further-strikes-\"unnecessary\" Nov 8",
+    "date": "2026-11-18",
+    "day_label": "Wk 31 Day 3 OPEN \u2014 Q4-2026-Week-8-Day-3 \u2014 Wed Nov 18 \u2014 Day 160 trial / Day 119 since KLBF hard-cut \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN target \u2014 BI-RDG-Nov-17-18-DAY-2-OF-2-TODAY-RATE-DECISION-BINARY (3rd-under-Destry) \u2014 MSCI-Nov-11-BINARY-RESOLVED-Status-Quo-Day-T+7 \u2014 MSCI-STANDALONE-overlay-Day-T+34 \u2014 DQG-Day-189 \u2014 IDR-Stage-5-pierced-Day-21-band-18,080-18,232 \u2014 Crisis-track-gate-0.50-1.75/5-maintained-gap-3.25-4.50-STILL-BINDING",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day119-Wk31-Day-3-OPEN-31ST-CONSECUTIVE-ZERO-TRADE-WEEK-Day-3-target-MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+7-MSCI-STANDALONE-Day-T+34-BI-RDG-Nov-17-18-DAY-2-OF-2-TODAY-rate-decision-binary-DQG-Day-189-IDR-Stage-5-Day-21-band-18,080-18,232-Brent-crash-Day-10-COGS-RELIEF-foreign-flow-3-consec-net-BUY-INTERRUPTED-Fri-Nov-13-net-SELL-Rp229.77B",
+    "ihsg_last_reconciled": "Fri Nov 13 5,344.40 (+1.78%) Databoks FRESH RECONCILE anchor Day-3; Wk Nov 9-13 cumulative +5.82%; Mon Nov 16 + Tue Nov 17 PENDING multi-source; Thu Nov 12 5,250 (+2.66%) Kontan carry; Mon Nov 9 5,073.77 sextuple-source Day-6 carry",
+    "idr_last": "Thu Nov 12 Jisdor Databoks 18,232 FRESH RECONCILE; Fri Nov 6 Jisdor Kontan secondary 18,081.2 carry; Stage 5 pierced Day-21 band 18,080-18,232 persistence; Fri Nov 13 + Mon Nov 16 + Tue Nov 17 Jisdor NOT SURFACED",
+    "brent_last": "~$90-93 band Day-10 continuation (from TRADE-LOG carry); Mon Nov 9 -5.8% baseline; COGS-RELIEF single-direction; no fresh same-day fix surfaced",
     "candidates_scored_6plus": 4,
     "candidates_tickers": [
       "BBCA",
@@ -45678,9 +45724,9 @@
       "BMRI",
       "BBNI"
     ],
-    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION threshold; gap 3.25-4.50/5 STILL BINDING; universal SKIP applied cleanly.",
-    "top_risk": "BI RDG Nov 17-18 Day-1 of 2 TODAY (3rd-under-Destry; decision binary Wed Nov 18 PM) + 5-DAY IHSG EOD backlog reconciliation Tue pre-market + IDR Stage-5 Day-20 + MSCI STANDALONE Day T+33 through Apr 30 2027",
-    "updated": "2026-11-17T00:08:42Z"
+    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION threshold; gap 3.25-4.50/5 STILL BINDING; universal SKIP applied cleanly. Q3 BEATs do NOT override gate per Hard Rule 2026-07-17.",
+    "top_risk": "BI RDG Day 2 of 2 rate decision binary TODAY (Wed Nov 18 PM WIB; 3rd-under-Destry) + IDR Stage-5 pierced Day-21 band 18,080-18,232 + MSCI STANDALONE Day T+34 through Apr 30 2027 + DQG-Day-189 outage + Foreign-flow 3-consec INTERRUPTED Fri Nov 13 net SELL Rp229.77B + Dec 1 passive outflow T+13 Rp 2.77T",
+    "updated": "2026-11-18T00:09:03Z"
   },
   "activity": [
     {

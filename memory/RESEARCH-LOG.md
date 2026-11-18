@@ -35247,3 +35247,193 @@ _(none — book 100% cash since Mon Jul 6 KLBF hard-cut Day 118; 31st consecutiv
 - https://bernama.com/en/news.php?id=2627553 (MY palm oil stocks 3.5M tonnes record high Nov 2026)
 
 ---
+
+## 2026-11-18 (Wednesday) — Pre-market
+
+**Day 160 trial / Wk 31 Day 3 — 31st consecutive zero-trade week Day 3 OPEN target — Day 119 since KLBF hard-cut Jul 6 — Q4-2026-Week-8-Day-3 — Post-Cabinet-Reshuffle-Day-45 — Post-BI-Hold-Transmission-Day-53 — MSCI-STANDALONE-overlay-Day-T+34 — MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+7 — BI-RDG-Nov-17-18-DAY-2-OF-2-TODAY-RATE-DECISION-BINARY (3rd BI-RDG under Destry) — DQG-Day-189 — IDR-Stage-5-pierced-Day-21-band-18,080-18,232 — HSC-exclusion-Day-15 — BEI-suspension-UMA-Day-13 — Brent-crash-Day-10-COGS-RELIEF-~$90-93 — Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING**
+
+### Global Overnight
+
+| Market | Close | Change | Note |
+|--------|-------|--------|------|
+| S&P 500 | PENDING Nov 17 | — | no indexed same-day close surfaced (Nvidia earnings day context); last firm reads Nov 9-10 Zacks |
+| Nasdaq | PENDING Nov 17 | — | ditto |
+| Dow | PENDING Nov 17 | — | ditto |
+| Shanghai Composite | PENDING Nov 17-18 | — | no fresh indexed read |
+| Hang Seng | PENDING Nov 17-18 | — | ditto |
+| Nikkei 225 | PENDING Nov 17-18 | — | latest TE Sep 28 ~66,900 stale |
+| VIX | ~19.30 Nov 13 (trailing); FRED Nov 9 19.92 | — | Nov 17 PENDING |
+
+### Macro Snapshot
+
+| Indicator | Value | Change | Note |
+|-----------|-------|--------|------|
+| IHSG | **FRESH RECONCILE** Fri Nov 13 **5,344.40 (+1.78%)** Databoks freshest anchor Day-3 carry; Wk Nov 9-13 cumulative +5.82%; Mon Nov 16 + Tue Nov 17 PENDING | +5.82% week | 2-day backlog Mon Nov 16 + Tue Nov 17; DQG-Day-189 lag pattern 65th+ cumulative |
+| IDR/USD | **FRESH RECONCILE** Thu Nov 12 Jisdor Databoks **18,232**; Fri Nov 6 Jisdor Kontan 18,081.2; Fri Nov 13 + Mon Nov 16 + Tue Nov 17 Jisdor PENDING | Stage-5 Day-21 band 18,080-18,232 persistence | sub-17,750 criterion-a 3-of-3 reversal structurally impossible |
+| Indo 10Y SUN yield | ~7.54-7.66% Oct 28 latest (4-year high) | widened post-MSCI warning Oct 27 7.24%→7.54% | no Nov fresh fix surfaced |
+| US 10Y yield | ~5.15% Nov 13 (TE) / FRED Nov 9 4.88% (source spread) | above 5% range | Nov 17 PENDING |
+| Indo-US spread | ~240-250bp | widened band | approximation only |
+| Newcastle coal (USD/ton) | ~$132-138 correction phase | coal-EXITED 2-strike triggers still met (≥$140 sustained) | no fresh same-day fix |
+| CPO palm oil (MYR/ton) | ~4,350-4,500 Nov 4 baseline; Indonesia Nov ref -6.07% to $978.90/t | over-1-month low | MY stocks 3.5M tonnes record high headwind |
+| LME nickel (USD/ton) | **~$14,794 Nov 10** MetalsPlace | fade-deepening continuation sub-$15K | MDKA/ANTM/INCO/NCKL headwind-worst-case sustained |
+| Brent crude (USD/bbl) | ~$90-93 band Day-10 continuation (from TRADE-LOG carry) | Mon Nov 9 -5.8% baseline | COGS-relief single-direction; no fresh same-day fix |
+
+### Flow & Positioning
+
+| Metric | Value | Note |
+|--------|-------|------|
+| Foreign net buy/sell (IDX) | **FRESH** Fri Nov 13 **net SELL Rp229.77B** (interrupts 3-consec net BUY); Thu Nov 12 net BUY Rp443.44B; Wk Nov 9-13 cumulative **net BUY Rp467.73B** | Mon Nov 16 + Tue Nov 17 PENDING |
+| Foreign flow streak | Wk Nov 9-13 cumulative net BUY Rp467.73B; 3-consec provisional (Nov 6 + Nov 9 + Nov 12) INTERRUPTED Fri Nov 13 net SELL | criterion-d partial lift 0.50-0.75/5 compromised by Fri Nov 13 interrupt |
+| Foreign flow YTD | **-Rp 97.6T** cumulative net sell (Bisnis Nov 14 weekly close) | partial reconcile of -Rp 98-127T discrepancy |
+| BI forex reserves | **$146.8B Oct 2026 end (+$0.5B M/M from $146.3B Sep)** | 5.3 months import cover; above 3-month benchmark |
+| Top buying brokers | PENDING | no Nov 17 broker summary surfaced |
+| Top selling brokers | PENDING | no Nov 17 broker summary surfaced |
+| MSCI status | STANDALONE consultation window Apr 30 2027; decision by Jun 30 2027; Nov 11 binary RESOLVED status-quo (BRPT + BRMS removed Dec 1 effective; NO LQ45 removed) | Dec 1 effective passive outflow Rp 2.77T estimated |
+
+### Sector Momentum
+
+| Sector | Trend | Key Driver | Watchlist Ticker |
+|--------|-------|------------|------------------|
+| Banking | Q3 BEAT cluster carry; BI RDG Day 2 binary TODAY pre-block | BI Rate 5.75% hold base case + DF 5.00%; Q3 NIM/loan growth | BBCA/BBRI/BMRI/BBNI |
+| Coal / Energy | sector-EXITED carry (Newcastle $132-138 range); Brent crash headwind MEDC | Newcastle correction / Brent $90-93 Day-10 | ADRO/ITMG/PTBA EXITED; MEDC headwind |
+| Nickel / Mining | fade-deepening Day-31 | LME ~$14,794 Nov 10 sub-$15K | MDKA/ANTM/INCO/NCKL headwind |
+| CPO / Agri | over-1-month low; MY stocks record high headwind | CPO 4,350-4,500; ID ref -6.07% | AALI/LSIP headwind |
+| Property | BI RDG Day 2 pre-block | rate decision binary PM WIB today | BSDE/CTRA/SMRA pre-block |
+| Consumer | Brent COGS-relief Day-10 partial RE-ARM candidate | $90-93 band sustained | UNVR/ICBP/INDF/MYOR partial RE-ARM |
+| Telco | spectrum + 5G tailwind carry (stale) | BRIDS TP carry | TLKM/EXCL/ISAT 4/10 |
+| Infrastructure | govt-SOE infra program (WSKT +53.8% rev) | sluggish cement demand headwind SMGR/INTP | WSKT 5/10 |
+
+### Corporate Calendar Today (Wed Nov 18)
+
+| Event | Ticker | Time | Expected Impact |
+|-------|--------|------|-----------------|
+| **BI RDG Day 2 of 2 — rate decision binary announcement** | — | typically 14:00-15:00 WIB PM | Base case hold 5.75% + DF 5.00% / LF 6.50%; 3rd BI-RDG under Destry; outcome does NOT override crisis-track gate per Hard Rule 2026-07-17 |
+| BBRI Q3 release T+16 watch | BBRI | TBD | pre-block binding regardless |
+| MSCI Dec 1 passive outflow pre-window | BRPT + BRMS + 7 small-caps | Dec 1 effective | Rp 2.77T estimated; NO LQ45 directly implicated |
+| HSC methodology shift Day-15 absorption | — | effective Mon Nov 2 | Kontan Insight "does NOT fully answer MSCI STANDALONE demands" |
+| BEI new suspension/UMA rules Day-13 overlay | — | Nov 2026 | tightens UMA suspension triggers |
+
+### Watchlist Scan — All 50 Tickers (Wed Nov 18 2026)
+
+**Universal mechanical SKIP applied cleanly — all 50 pre-blocked under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION threshold; gap 3.25-4.50/5 STILL BINDING; 0% new-entries permitted per Hard Rule 2026-07-17. DQG-Day-189 outage persists — no per-ticker fresh-mark multi-source cluster saturable; all Price fields PENDING.**
+
+| # | Ticker | Sector | Price | Day% | Score | Key Catalyst / Note | Status |
+|---|--------|--------|-------|------|-------|---------------------|--------|
+| 1 | BBCA | Banking | PENDING | — | 6 | Q3 BEAT cluster carry (+9% NIM +30bp); BBCA/ASII top asing net-BUY Wk Nov 2-6; mega-cap defensive | SKIP (gate) |
+| 2 | BBRI | Banking | PENDING | — | 6 | Q3 absolute leader Rp 48.2T NP carry; T+16 release pre-block | SKIP (gate) |
+| 3 | BMRI | Banking | PENDING | — | 6 | Q3 +14% YoY fastest big-4; BUMN20 tailwind | SKIP (gate) |
+| 4 | BBNI | Banking | PENDING | — | 6 | Q3 NP +7%; Ciptadana BUY TP Rp 4,650; loan +22% | SKIP (gate) |
+| 5 | BNGA | Banking | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 6 | NISP | Banking | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 7 | BBTN | Banking | PENDING | — | 4 | Fitch idAAA stable affirmed carry | SKIP (gate) |
+| 8 | ADRO | Coal | PENDING | — | 3 | coal-sector EXITED carry (Newcastle $132-138) | SKIP (gate) |
+| 9 | ITMG | Coal | PENDING | — | 3 | coal-sector EXITED | SKIP (gate) |
+| 10 | PTBA | Coal | PENDING | — | 4 | 9M +216.3% NP Rp 4.41T; BUMN20 tailwind | SKIP (gate) |
+| 11 | BUMI | Coal | PENDING | — | 3 | coal-EXITED | SKIP (gate) |
+| 12 | HRUM | Coal | PENDING | — | 3 | nickel-capex pivot; coal-EXITED | SKIP (gate) |
+| 13 | MEDC | Energy/Oil&Gas | PENDING | — | 3 | Brent crash Day-10 ~$90-93 headwind | SKIP (gate) |
+| 14 | PGAS | Gas/Energy | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 15 | ANTM | Nickel | PENDING | — | 5 | 9M +46% NP Rp 9.66T; BUMN20 tailwind; LME headwind | SKIP (gate) |
+| 16 | INCO | Nickel | PENDING | — | 3 | LME nickel fade-deepening; PH export-ban headwind | SKIP (gate) |
+| 17 | MDKA | Nickel | PENDING | — | 3 | nickel headwind-worst-case | SKIP (gate) |
+| 18 | NCKL | Nickel | PENDING | — | 3 | PH export-ban + nickel fade headwind | SKIP (gate) |
+| 19 | MBMA | Nickel | PENDING | — | 4 | top analyst pick 2H; MDKA EBITDA contributor | SKIP (gate) |
+| 20 | TINS | Metals/Tin | PENDING | — | 3 | metals overweight note stale | SKIP (gate) |
+| 21 | UNVR | Consumer | PENDING | — | 4 | Brent COGS-relief Day-10 partial RE-ARM | SKIP (gate) |
+| 22 | ICBP | Consumer | PENDING | — | 4 | Brent COGS-relief partial RE-ARM | SKIP (gate) |
+| 23 | INDF | Consumer | PENDING | — | 4 | Brent COGS-relief partial RE-ARM | SKIP (gate) |
+| 24 | MYOR | Consumer | PENDING | — | 4 | Brent COGS-relief partial RE-ARM | SKIP (gate) |
+| 25 | SIDO | Consumer | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 26 | TLKM | Telco | PENDING | — | 4 | spectrum/5G tailwind carry; BRIDS TP Rp 3,750; EGM T+40 pattern | SKIP (gate) |
+| 27 | EXCL | Telco | PENDING | — | 4 | 5G capex tailwind; BRIDS TP Rp 3,700 | SKIP (gate) |
+| 28 | ISAT | Telco | PENDING | — | 4 | 5G cycle; BRIDS TP Rp 3,000 | SKIP (gate) |
+| 29 | MTEL | Telco/Tower | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 30 | TOWR | Telco/Tower | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 31 | BSDE | Property | PENDING | — | 3 | BI RDG Day 2 pre-block binding | SKIP (gate) |
+| 32 | CTRA | Property | PENDING | — | 3 | BI RDG Day 2 pre-block binding | SKIP (gate) |
+| 33 | SMRA | Property | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 34 | PWON | Property | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 35 | GOTO | Tech | PENDING | — | 3 | GOTO EGM past-final vacuous | SKIP (gate) |
+| 36 | BUKA | Tech | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 37 | EMTK | Tech/Media | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 38 | ASII | Auto/Industrial | PENDING | — | 4 | BBCA/ASII top asing net-BUY Wk Nov 2-6 carry | SKIP (gate) |
+| 39 | UNTR | Heavy Equipment | PENDING | — | 3 | coal-linked EXITED headwind | SKIP (gate) |
+| 40 | AKRA | Distribution | PENDING | — | 3 | no overnight news | SKIP (gate) |
+| 41 | AALI | Plantation | PENDING | — | 3 | CPO rally stale; MY stocks record high headwind | SKIP (gate) |
+| 42 | LSIP | Plantation | PENDING | — | 3 | ditto | SKIP (gate) |
+| 43 | JSMR | Infrastructure | PENDING | — | 3 | PEFINDO idAA stable affirmed Mar carry | SKIP (gate) |
+| 44 | WSKT | Construction | PENDING | — | 5 | 9M26 revenue +53.8% YoY; narrower net loss; SOE infra tailwind | SKIP (gate) |
+| 45 | PTPP | Construction | PENDING | — | 3 | 69 SPPG free-meals build completion stale | SKIP (gate) |
+| 46 | ADHI | Construction | PENDING | — | 3 | ADCP subsidiary coupon-default drag | SKIP (gate) |
+| 47 | KLBF | Healthcare | PENDING | — | 3 | MISTAKES.md tagged (Jul 6 hard-cut Day 119); 9M26 in-line stale | SKIP (gate) |
+| 48 | MIKA | Healthcare | PENDING | — | 4 | 2H hospital expansion; 9M26 in-line consensus | SKIP (gate) |
+| 49 | SMGR | Cement | PENDING | — | 3 | sluggish cement demand carry | SKIP (gate) |
+| 50 | INTP | Cement | PENDING | — | 3 | no overnight news | SKIP (gate) |
+
+### Top Candidates (score ≥ 6) — DEEP DIVE
+
+All four scoring ≥6 remain **universal mechanical SKIP** under crisis-track engagement gate FURTHER-ESCALATED (0.50-1.75/5 vs 5.00/5 required; gap 3.25-4.50/5 BINDING). Per Hard Rule 2026-07-17, Q3 BEATs do NOT override the gate.
+
+#### 1. BBCA — Q3 BEAT + top asing net-BUY carry
+- Fundamental: Q3 NP +9% YoY, NIM +30bp expansion; BBCA + ASII top asing net-BUY Wk Nov 2-6; mega-cap LQ45 defensive candidate.
+- Status: **SKIP (crisis-track gate FURTHER-ESCALATED binding)**; IDR Stage 5 Day-21; BI RDG Day 2 TODAY PM WIB pre-block binding; DQG-Day-189 — no multi-source cluster saturable.
+
+#### 2. BBRI — Q3 absolute leader Rp 48.2T
+- Fundamental: Q3 NP Rp 48.2T absolute leader big-4; Investortrust bullish analyst calls; "steep market discounts" per Investortrust.
+- Status: **SKIP (gate binding; BBRI Q3 release T+16 pre-block regardless per Hard Rule 2026-07-17)**.
+
+#### 3. BMRI — Q3 fastest-growth +14% YoY
+- Fundamental: Q3 NP +14% YoY fastest big-4; BUMN20 inclusion liquidity tailwind.
+- Status: **SKIP (gate binding)**.
+
+#### 4. BBNI — Q3 +7% + Ciptadana BUY TP 4,650
+- Fundamental: Q3 NP +7% YoY; loan growth +22%; Ciptadana BUY TP Rp 4,650 (Bareksa Oct 27).
+- Status: **SKIP (gate binding)**.
+
+### Held Position Updates
+
+_(none — Day 119 since Mon Jul 6 KLBF hard-cut; 100% cash sustained Wk 31 Day 3 OPEN; nothing to mark, hold, or tighten)._
+
+### Macro Regime Assessment
+
+**Regime: DEFENSIVE — INTENSIFIED (crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required; gap 3.25-4.50/5 STILL BINDING)**
+- Reasoning: 5-criterion gate (IDR sub-17,750 3-of-3 / DQG ≥3-source ≤4% cluster convergence / MSCI accessibility neutral+ / foreign-flow 2+ consec net-BUY / R:R ≥2:1) all FAIL concurrently. IDR Stage 5 pierced Day-21 structurally impossible. MSCI STANDALONE consultation Day T+34 persists through Apr 30 2027 = 5.5+ months uncertainty. DQG-Day-189 outage — no per-ticker fresh-mark cluster saturable. Foreign-flow 3-consec provisional net-BUY INTERRUPTED Fri Nov 13 net SELL Rp229.77B (criterion-d back to 0.25-0.50/5 band compromised).
+- Position sizing adjustment: **100% cash / 0% equity deployed** (reduce-100% = universal SKIP applies).
+
+### Flagged Risks
+- **BI RDG Day 2 of 2 rate decision binary TODAY (Wed Nov 18 PM WIB)** — 3rd BI-RDG under Destry; base case hold 5.75% + DF 5.00%; hawkish surprise (rate hike) or dovish shock (emergency cut) would further widen IDR/equity dislocation. Outcome does NOT override crisis-track gate per Hard Rule 2026-07-17.
+- **IDR Stage 5 Day-21 band persistence 18,080-18,232** — intervention mechanism partially active (BI forex reserves +$0.5B Oct despite "intervensi rupiah"); criterion-a 3-of-3 sub-17,750 reversal structurally impossible under current trajectory.
+- **MSCI STANDALONE consultation Day T+34 overlay** — 5.5-month window to Apr 30 2027; final decision by Jun 30 2027; LQ45 Index Fund forced-outflow risk ongoing (46 of 50 watchlist LQ45); criterion-c DEEPER-FAIL.
+- **Foreign-flow 3-consec INTERRUPTED Fri Nov 13 net SELL Rp229.77B** — criterion-d partial lift compromised; 4th/5th-consec sustained-sequence confirmation path reset Mon Nov 16 + Tue Nov 17 PENDING.
+- **Dec 1 passive outflow effective T+13 window** — Rp 2.77T estimated (BRPT + BRMS + 7 small-caps removed); NO LQ45 directly implicated but sentiment overhang.
+
+### Plan for /market-open (Wed Nov 18)
+- [ ] **NO BUYS — universal mechanical SKIP all 50 watchlist** under crisis-track engagement gate FURTHER-ESCALATED binding (0.50-1.75/5 vs 5.00/5 required; gap 3.25-4.50/5 BINDING).
+- [ ] HOLD 100% cash position (Rp 9,716,207,500 equity; no positions Day 119 since Jul 6 KLBF hard-cut).
+- [ ] No sell-side action (no held positions).
+- [ ] Monitor 10:00 WIB: Jisdor Wed Nov 18 fresh print → Stage-5 Day-21 classification refresh.
+- [ ] Monitor PM WIB: **BI RDG Day 2 of 2 rate decision announcement** (binary 3rd BI-RDG under Destry); base case HOLD 5.75% + DF 5.00%.
+- [ ] Monitor sesi I-II: IHSG cluster saturation Mon Nov 16 + Tue Nov 17 + Wed Nov 18 fresh (2-day backlog + new Day-0 Wed).
+- [ ] Monitor foreign-flow: 4th-consec continuation vs Fri Nov 13 interrupt confirmation Mon Nov 16 + Tue Nov 17 PENDING reconcile.
+- [ ] Routine completes mechanically; discipline preserved Day 160 trial-to-date.
+
+### Source URLs
+- https://databoks.katadata.co.id/en/market/statistics/6af6d89bbf7e4/ihsg-ditutup-naik-178-ke-level-5344-jumat-13-november-2026 — IHSG Fri Nov 13 5,344.40 (+1.78%) Databoks freshest anchor Day-3
+- https://market.bisnis.com/read/20261114/7/2021297/ihsg-sepekan-menguat-582-net-buy-asing-capai-rp46773-miliar — Wk Nov 9-13 IHSG +5.82% + foreign net BUY Rp467.73B (YTD -Rp 97.6T)
+- https://investortrust.id/market/122503/investor-asing-berbalik-net-sell-rp-229-77-miliar-saat-ihsg-melesat-saham-ini-dilepas — Fri Nov 13 foreign net SELL Rp229.77B interrupts 3-consec
+- https://pusatdata.kontan.co.id/news/ihsg-melonjak-266-jadi-5250-hari-kamis-1211-ada-net-buy-asing-di-saham-ini — Thu Nov 12 IHSG 5,250 (+2.66%); foreign net BUY Rp443.44B banking concentration
+- https://databoks.katadata.co.id/en/market/statistics/32ec67c22c32882/rupiah-exchange-rate-weakens-to-idr-18232-per-us-dollar-thursday-12-november-2026 — IDR Jisdor Thu Nov 12 18,232
+- https://www.bi.go.id/en/iru/highlight-news/Pages/Official-Reserve-Assets-Remain-Solid-in-Oct-2026.aspx — Oct 2026 BI forex reserves $146.8B up slightly from Sep $146.3B
+- https://finansial.bisnis.com/read/20261106/11/2019090/usai-intervensi-rupiah-cadangan-devisa-oktober-2026-naik-tipis-jadi-us1468-miliar — Oct 2026 Rp intervention absorbed; reserves still rose
+- https://www.bi.go.id/en/iru/highlight-news/Pages/BI-Rate-Held-at-5.75-percent--Strengthening-Stability,-Supporting-Economic-Growth.aspx — Oct 20-21 BI RDG hold 5.75% + DF to 5.00% (Nov 17-18 Day 2 decision pending)
+- https://business-indonesia.org/news/indonesia-s-annual-inflation-eases-to-3-23-in-october-2026 — Oct 2026 CPI 3.23% YoY within BI 2.5±1% target
+- https://tradingeconomics.com/indonesia/government-bond-yield/news/595740 — Indo 10Y SUN Oct 28 7.66% (4-year high)
+- https://www.thejakartapost.com/business/2026/10/28/investors-cold-on-ri-bonds-since-msci-warning — 10Y auction rose 7.24%→7.54% post-MSCI warning
+- https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf — MSCI STANDALONE consultation launched Oct 15; window to Apr 30 2027; decision by Jun 30 2027
+- https://investortrust.id/market/120843/indonesian-banks-draw-bullish-analyst-calls-as-big-four-post-strong-nine-month-earnings-amid-steep-market-discounts — Big-4 bullish analyst calls + steep discounts
+- https://www.rctiplus.com/news/detail/ekonomi/5511537/bbca-dan-asii-jadi-saham-paling-banyak-dikoleksi-asing-sepekan — BBCA/ASII top asing net-BUY Wk Nov 2-6
+- https://www.bareksa.com/berita/saham/2026-10-27/laba-bersih-bbni-q3-2026-naik-7-rekomendasi-tetap-buy-target-harga-saham-rp4650 — BBNI Q3 +7%, Ciptadana BUY TP 4,650
+- https://finansial.bisnis.com/read/20261109/90/2019541/rapor-kinerja-bank-jumbo-kuartal-iii2026-bbri-terbesar-bmri-pimpin-pertumbuhan — Big-4 Q3 rapor (BBRI leader, BMRI fastest)
+- https://ima-api.org/wp-content/uploads/2026/11/IMA-Daily-News-Update-Thursday-November-05-2026.pdf — ANTM 9M +46% Rp 9.66T; PTBA +216.3% Rp 4.41T
+
+---
