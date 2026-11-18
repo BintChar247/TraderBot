@@ -41150,37 +41150,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-11T00:10:53Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned all 50 watchlist tickers. 10 candidates scored \u22656: BMRI(7), PGAS(7), ANTM(7), BBCA/BBRI/MEDC/INCO/ICBP/INDF/ASII(6). All pre-blocked crisis-track engagement gate ACTIVATED 1.00-1.15/5 (3.85-4.00/5 gap binding wider). Wk 21 Day 5 = weekly close.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "10 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 7/10 \u2014 ex-div Rp 66 T-5 fresh div-yield catalyst"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 MNC breakout tip + Brent-$100 gas-spread tailwind Day-7"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 7/10 \u2014 foreign top-buy Thu +Rp 178bn + LME nickel firming"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-11T02:17:15Z",
       "routine": "market-open",
       "status": "warning",
@@ -45891,6 +45860,12 @@
           "detail": "Foreign-flow 3-consec provisional INTERRUPTED Fri Nov 13 net SELL Rp229.77B; criterion-d partial lift compromised"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-18T04:34:34Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "100% cash \u2014 no open positions. No cuts, no stop tightens, no thesis checks required."
     }
   ],
   "exposure": {
