@@ -2535,6 +2535,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Thu Nov 19 EOD \u2014 Wk 31 Day 4 CLOSE / 31st consecutive zero-trade week Day 4; 120 consecutive sessions 100% cash since Jul 6 KLBF hard-cut; 110 consecutive sessions 0.00% daily P&L. Mechanically-vacuous universal SKIP all 50 watchlist under crisis-track gate 0.50-1.75/5 maintained Wed Nov 18 carry; gap 3.25-4.50/5 STILL BINDING. IHSG multi-source backlog PARTIAL RECONCILE this run via WebSearch: Tue Nov 17 Databoks+Bisnis dual-source 5,304.76 (-0.30%) NEW FRESHEST anchor Day-2; Mon Nov 16 triple-source 5,320.98 (-0.44%) Day-3; Fri Nov 13 Databoks 5,344 (+1.78%) Day-6; Wed Nov 12 Bisnis 5,250 (+2.66%) Day-7. Remaining 2-day backlog: Wed Nov 18 + Thu Nov 19 PENDING (DQG-Day-190 sesi II lag). IDR Stage 5 pierced Day-22 carry 18,130; Thu Nov 19 Jisdor fresh print 10:00 WIB not surfaced at 15:15 WIB fire. Foreign-flow 3-consec net-BUY provisional (Fri Nov 6 + Mon Nov 9 + Thu Nov 12); criterion-d partial lift to 0.75-1.00/5; 4-8th-consec Fri Nov 13 + Mon Nov 16 + Tue Nov 17 + Wed Nov 18 + Thu Nov 19 pending. Brent crash Day-11 ~$90-93 band sustained. MSCI Nov 11 binary RESOLVED status-quo Day T+8; MSCI STANDALONE Day T+35 through Apr 30 2027. BI-RDG Nov 17-18 Day-T+1 absorption; outcome reconcile pending overnight. Alpha carry step-down to +30.06pp Tue Nov 17 reconciled basis NEW FRESHEST Day-2 from prior Mon Nov 9 +32.98pp carry (~-2.92pp IHSG partial-recovery narrowing). 0 positions / 100% cash / mechanically vacuous mark-to-market. Drawdown -3.10% from peak (deeply within -15% cap). No risk alerts triggered. RISK-STATE.json updated per STEP 5b."
+    },
+    {
+      "date": "2026-11-20",
+      "day_label": "Day 162 \u2014 Wk 31 Day 5 CLOSE EOD / WEEK-CLOSE \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK WEEK-CLOSE \u2014 Q4-2026-WEEK-8-DAY-5 \u2014 Post-Cabinet-Reshuffle-Day-47 \u2014 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6% (first hike under Destry; prior HOLD base-case SUPERSEDED) \u2014 MSCI-STANDALONE-Day-T+36 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-Day-T+9 \u2014 Day 121 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-17 \u2014 BEI-suspension-UMA-Day-15 \u2014 IDR-Stage-5-pierced-Day-23-carry \u2014 IHSG-Wed-Nov-18-RECONCILED-5247.88-CNBC+Bisnis+Kumparan-triple-source-NEW-FRESHEST-Day-2 \u2014 IHSG-Thu-Nov-19+Fri-Nov-20-PENDING-multi-source-2-day-backlog \u2014 DQG-Day-191 \u2014 111 consecutive zero daily P&L sessions",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "positions_count": 0,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -31.26,
+      "alpha_pct": 28.42,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "Fri Nov 20 EOD \u2014 Wk 31 Day 5 CLOSE WEEK-CLOSE / 31st consecutive zero-trade week CONFIRMED CLOSE; 121 consecutive sessions 100% cash since Jul 6 KLBF hard-cut; 111 consecutive sessions 0.00% daily P&L. Mechanically-vacuous universal SKIP all 50 watchlist under crisis-track gate 0.50-1.75/5 maintained Thu Nov 19 carry; gap 3.25-4.50/5 STILL BINDING. CRITICAL MACRO RECONCILE this run: BI RDG Nov 17-18 outcome HIKE 25bp to 6.00% (not HOLD) \u2014 triple-source CNBC Indonesia + Bisnis + Kumparan; first hike under Destry; prior pre-market HOLD 5.75% + DF 5.00% base-case SUPERSEDED; DF implied 5.25%. IHSG Wed Nov 18 reconciled 5,247.88 (-1.07%) NEW FRESHEST anchor Day-2 \u2014 adverse market reaction to surprise hike (not HOLD-absorption narrative). Remaining 2-day backlog: Thu Nov 19 + Fri Nov 20 PENDING (DQG-Day-191 sesi II lag; BI-RDG Day-T+2 absorption may delay). IDR Stage 5 pierced Day-23 carry 18,130; Fri Nov 20 Jisdor fresh print 10:00 WIB not surfaced at 15:15 WIB fire; HIKE outcome reinforces IDR defense signal \u2192 Stage 5 persistence likely extended. Foreign-flow 3-consec net-BUY provisional (Fri Nov 6 + Mon Nov 9 + Thu Nov 12); criterion-d partial lift 0.75-1.00/5; 4-9th-consec Fri Nov 13 through Fri Nov 20 pending reconcile. Brent crash Day-12 ~$90-93 band sustained. MSCI Nov 11 binary RESOLVED status-quo Day T+9; MSCI STANDALONE Day T+36 through Apr 30 2027. Alpha carry step-down to +28.42pp Wed Nov 18 reconciled basis NEW FRESHEST Day-2 from prior Thu Nov 19 Tue Nov 17 anchor +30.06pp (~-1.64pp IHSG adverse narrowing). Bank Q3 beat cluster (BMRI/BBCA/BBRI/BBNI) narrative must be re-weighted against NIM compression risk from HIKE \u2014 added to crisis-track gate inputs. 0 positions / 100% cash / mechanically vacuous mark-to-market. Drawdown -3.10% from peak (deeply within -15% cap). No risk alerts triggered. RISK-STATE.json updated per STEP 5b. Weekly review fires 16:00 WIB today \u2014 MACRO-REGIME.md update warranted given BI HIKE reconcile."
     }
   ],
   "positions": [],
@@ -41520,8 +41536,8 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 160,
-    "trial_window": "April 20 - May 2, 2026 (extended; current Day 160 Wk 31 Day 3 CLOSE 31st-consecutive-zero-trade-week-Day-3 post-BI-hold-transmission Day-53 MSCI-STANDALONE-overlay-Day-T+34 MSCI-Nov-11-binary-RESOLVED-status-quo-BRPT-BRMS-removed-no-LQ45-removal Post-BI-RDG-Day-26-absorption BI-RDG-NOV-17-18-DAY-2-OF-2-RATE-DECISION-SESI-II-UNDERWAY HSC-exclusion-methodology-shift-Day-15 BEI-new-suspension-UMA-rules-Nov-2026-Day-13 IDR-Stage-5-pierced-Day-21-carry foreign-flow-YTD-~Rp-98-127T+Fri-Nov-6+Mon-Nov-9+Thu-Nov-12-net-BUY-3-consec-provisional Brent-crash-Day-10-COGS-RELIEF-~$90-93-band-sustained 109-consecutive-zero-P&L-sessions)",
+    "trial_days_elapsed": 161,
+    "trial_window": "April 20 - May 2, 2026 (extended; current Day 162 Wk 31 Day 5 CLOSE WEEK-CLOSE 31st-consecutive-zero-trade-week-CONFIRMED-CLOSE post-cabinet-reshuffle Day-47 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6%-first-hike-under-Destry MSCI-STANDALONE-overlay-Day-T+36 MSCI-Nov-11-binary-RESOLVED-status-quo-BRPT-BRMS-removed-no-LQ45-removal HSC-exclusion-methodology-shift-Day-17 BEI-new-suspension-UMA-rules-Nov-2026-Day-15 IDR-Stage-5-pierced-Day-23-carry foreign-flow-YTD-~Rp-98-127T+Fri-Nov-6+Mon-Nov-9+Thu-Nov-12-net-BUY-3-consec-provisional Brent-crash-Day-12-COGS-RELIEF-~$90-93-band-sustained 111-consecutive-zero-P&L-sessions)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
     "cumulative_pnl_idr": -283792500,
@@ -41530,8 +41546,8 @@
     "unrealised_pnl_idr": 0,
     "future_dividend_receivable_idr": 0,
     "dividends_received_idr": 10380000,
-    "ihsg_cumulative_pct": -35.82,
-    "cumulative_alpha_pct": 32.98,
+    "ihsg_cumulative_pct": -31.26,
+    "cumulative_alpha_pct": 28.42,
     "trades_this_week": 0,
     "trades_total": 5,
     "wins": 0,
@@ -41542,19 +41558,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-11-17",
+    "updated": "2026-11-20",
     "portfolio_value": 9716207500,
-    "alpha_pct": 32.98,
+    "alpha_pct": 28.42,
     "daily_pnl_pct": 0.0,
-    "cumulative_alpha_pp": 32.98,
+    "cumulative_alpha_pp": 28.42,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 159,
-    "last_updated": "2026-11-17",
+    "day_number": 162,
+    "last_updated": "2026-11-20",
     "open_positions": 0,
-    "days_in_trial": 159,
+    "days_in_trial": 162,
     "week_number": 31,
-    "day_label": "Day 159 \u2014 Wk 31 Day 2 CLOSE EOD \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE \u2014 Q4-2026-WEEK-8-DAY-2 \u2014 Post-Cabinet-Reshuffle-Day-44 \u2014 Post-BI-Hold-Transmission-Day-52 \u2014 MSCI-STANDALONE-Day-T+33 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-Day-T+6 \u2014 Post-BI-RDG-Day-25-absorption \u2014 BI-RDG-NOV-17-18-DAY-1-OF-2-UNDERWAY (3rd BI-RDG under Destry) \u2014 Day 118 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-14 \u2014 BEI-suspension-UMA-Day-12 \u2014 IDR-Stage-5-pierced-Day-20-carry-18,130 \u2014 Fri-Nov-6-+-Mon-Nov-9-+-Thu-Nov-12-FOREIGN-NET-BUY-3-CONSEC-provisional \u2014 Brent-crash-Day-9-COGS-RELIEF-~$90-93-band-sustained \u2014 Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING \u2014 DQG-Day-188-outage-persists \u2014 108 consecutive sessions 0.00% daily P&L",
+    "day_label": "Day 162 \u2014 Wk 31 Day 5 CLOSE EOD / WEEK-CLOSE \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK WEEK-CLOSE \u2014 Q4-2026-WEEK-8-DAY-5 \u2014 Post-Cabinet-Reshuffle-Day-47 \u2014 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6% (first hike under Destry) \u2014 MSCI-STANDALONE-Day-T+36 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-Day-T+9 \u2014 Day 121 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-17 \u2014 BEI-suspension-UMA-Day-15 \u2014 IDR-Stage-5-pierced-Day-23-carry \u2014 Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING \u2014 DQG-Day-191-outage-persists \u2014 111 consecutive sessions 0.00% daily P&L",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -41570,66 +41586,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-18"
+    "updated": "2026-11-20"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-15T02:16:48Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "Wk 22 Day 2 (Tue Sep 15) \u2014 0 trades. 9 candidates \u22656/10 (BMRI[8], PGAS[7], ANTM[6], BBCA/MEDC/ICBP/INDF/TLKM/ASII[6]) all pre-blocked by crisis-track engagement gate ACTIVATED (~1.10-1.30/5; 3.70-3.90/5 gap BINDING WIDER). Brent $108 SPIKE Day-9 deep-amplifier + BI RDG/FOMC Sep 17 T-2 double-binary + BMRI cum-div T-0 mechanical drop trap Wed. 22nd consecutive zero-trade week candidate intact.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "R:R 1.00:1 fail + crisis-track + ex-div T-1 mechanical drop"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "R:R 2.05:1 pass but crisis-track blocks"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "R:R 1.17:1 fail + crisis-track + chase-fail Day-4"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track blocks"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track + Q2 delist-candidate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track + Brent margin headwind"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track + Brent margin overhang"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track + FADE-ON-BEAT MEDIUM pattern"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "crisis-track + Brent COGS drag"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-131 outage \u2014 WebSearch multi-source override operational"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-15T04:35:48Z",
       "routine": "midday",
@@ -46240,6 +46199,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (trial window closed 2026-05-02). No action taken."
+    },
+    {
+      "timestamp": "2026-11-20T08:22:27Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Fri Nov 20 Wk 31 CLOSE: IDR 9,716,207,500 (0.00% today; cum -2.84%). 0 positions/100% cash/0 trades week (31st zero-trade wk). Alpha +28.42pp Wed Nov 18 reconciled Day-2. DD -3.10%. CRITICAL: BI RDG Nov 17-18 HIKE 25bp to 6% (not HOLD) triple-source reconciled.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 162 EOD snapshot committed; Wed Nov 18 IHSG 5247.88 NEW FRESHEST anchor Day-2; BI HIKE 25bp reconcile supersedes HOLD base-case; MACRO-REGIME.md update deferred to 16:00 weekly review"
+        }
+      ]
     }
   ],
   "exposure": {
