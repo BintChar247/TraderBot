@@ -41321,6 +41321,202 @@
         false,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 NP +9% YoY; NIM +30bp; BBCA+ASII top asing net-BUY Wk Nov 2-6; Nov 19 Kontan post-BI-hold big-banks asing BUY signal.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI RDG Day T+2 absorption; Nov 19 big-banks tape signal"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: criterion (a) IDR Stage-5 Day-23 fail + (c) MSCI STANDALONE T+36 fail + (d) foreign-flow INTERRUPTED Fri Nov 13"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 31 Day 5; Day 121 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-191 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. Q3 BEAT + Nov 19 tape signal do NOT override Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 absolute leader Rp 48.2T NP; Mon Nov 16 asing BUY Rp 272.8B; Investortrust bullish; T+18 release pre-block.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI RDG Day T+2 absorption; Nov 19 big-banks tape signal"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: criterion (a) IDR Stage-5 Day-23 fail + (c) MSCI STANDALONE T+36 fail + (d) foreign-flow INTERRUPTED Fri Nov 13"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 31 Day 5; Day 121 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-191 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate binding. BBRI Q3 release T+18 pre-block regardless per Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 NP +14% YoY fastest big-4; BUMN20 inclusion tailwind; Nov 19 Kontan: 'BMRI pimpin kenaikan saham big banks' post-BI-hold.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI RDG Day T+2 absorption; Nov 19 big-banks tape signal"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: criterion (a) IDR Stage-5 Day-23 fail + (c) MSCI STANDALONE T+36 fail + (d) foreign-flow INTERRUPTED Fri Nov 13"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 31 Day 5; Day 121 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-191 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate binding. Nov 19 BMRI leads big-banks rally + asing BUY tape does NOT override gate per Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-20",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 NP +7% YoY; loan +22%; Ciptadana BUY TP Rp 4,650; Nov 16 net-BUY asing Rp 56.2B.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI RDG Day T+2 absorption; Nov 19 big-banks tape signal"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: criterion (a) IDR Stage-5 Day-23 fail + (c) MSCI STANDALONE T+36 fail + (d) foreign-flow INTERRUPTED Fri Nov 13"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 31 Day 5; Day 121 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-191 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate binding. Foreign-flow 3-consec INTERRUPTED Fri Nov 13 compromises criterion-d further.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
     }
   ],
   "stats": {
@@ -41377,18 +41573,6 @@
     "updated": "2026-11-18"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-14T08:20:11Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 22 Day 1: IDR 9.72B (0.00% today). Alpha +1.70pp vs IHSG -1.70% (sesi I basis; sesi II broke -2%). 0 positions Day 59. Trades this week 0/3. Cum. alpha +12.93pp (+1.46pp Wk 22 Day 1 expansion via IHSG deep fade). 22nd consecutive zero-trade-week candidate begins. BI-RDG+FOMC Sep 17 T-3 double-binary. No risk alerts.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 106 EOD snapshot committed; RISK-STATE + dashboard/data.json updated"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-15T00:08:36Z",
       "routine": "pre-market",
@@ -46049,6 +46233,38 @@
           "detail": "score 6/10 \u2014 Q3 absolute leader Rp 48.2T + Mon Nov 16 asing BUY Rp 272.8B"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-20T02:18:17Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 50 watchlist tickers universal SKIP under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. 31st consecutive zero-trade week Day 5 OPEN; Day 121 since KLBF hard-cut Jul 6. BBCA/BBRI/BMRI/BBNI top-4 Q3 BEAT cluster all mechanically SKIP per Hard Rule 2026-07-17.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate binding"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate binding + T+18 pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "crisis-track gate binding"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "crisis-track gate binding + foreign-flow-INTERRUPTED Nov 13"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-191 outage persists; no multi-source cluster saturable"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -46115,7 +46331,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-19T08:17:08Z",
+  "last_updated": "2026-11-20T09:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
