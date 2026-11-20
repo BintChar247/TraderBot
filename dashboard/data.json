@@ -41574,37 +41574,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-15T00:08:36Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Wk 22 Day 2. Scanned 50 tickers. 9 candidates \u22656: BMRI(8 cum-div T-0), PGAS(7), ANTM/BBCA/MEDC/ICBP/INDF/TLKM/ASII(6). All pre-blocked by crisis-track engagement gate ACTIVATED (~1.10-1.30/5; 3.70-3.90/5 gap binding). IHSG Mon reconciled -0.10% (vs provisional -1.70%); Brent SPIKE 08 Day-9 DEEP amp; BI RDG+FOMC T-2 double-binary.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "9 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "BMRI",
-          "detail": "score 8/10 \u2014 cum-div Rp 66 T-0 today; ex T-1 tomorrow"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Brent $108 SPIKE Day-9 gas-spread tailwind deepens"
-        },
-        {
-          "type": "research",
-          "ticker": "ANTM",
-          "detail": "score 6/10 \u2014 chase-fail Day-4 confirmed Mon -2.45%"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-15T02:16:48Z",
       "routine": "market-open",
       "status": "warning",
@@ -46265,6 +46234,12 @@
           "detail": "DQG-Day-191 outage persists; no multi-source cluster saturable"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-20T04:34:44Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (trial window closed 2026-05-02). No action taken."
     }
   ],
   "exposure": {
