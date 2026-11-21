@@ -1,0 +1,85 @@
+name: Garasi APK
+
+on:
+  push:
+    paths:
+      - 'garasi/**'
+      - '.github/workflows/garasi-android.yml'
+  pull_request:
+    paths:
+      - 'garasi/**'
+      - '.github/workflows/garasi-android.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: garasi
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # Optional: a stable release key from repository secrets. Without these the release APK is
+      # signed with the runner's debug key (installable, but each run's key differs).
+      - name: Decode signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.GARASI_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.GARASI_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.GARASI_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.GARASI_KEY_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_B64" ]; then
+            echo "$KEYSTORE_B64" | base64 -d > release.jks
+            {
+              echo "GARASI_KEYSTORE_PATH=release.jks"
+              echo "GARASI_KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD"
+              echo "GARASI_KEY_ALIAS=$KEY_ALIAS"
+              echo "GARASI_KEY_PASSWORD=$KEY_PASSWORD"
+            } >> "$GITHUB_ENV"
+            echo "Using release key from secrets."
+          else
+            echo "::warning::No GARASI_KEYSTORE_BASE64 secret — APK will be signed with a debug key."
+          fi
+
+      - name: Unit tests + release APK
+        run: |
+          chmod +x gradlew
+          set -o pipefail
+          ./gradlew --no-daemon --stacktrace testDebugUnitTest assembleRelease 2>&1 | tee build.log
+
+      - name: Report build errors
+        if: failure()
+        run: |
+          [ -f build.log ] || exit 0
+          grep -nE '^e: |error:|ERROR|FAILED|What went wrong|Exception|expected:|AAPT|> Could not|Caused by' build.log \
+            | grep -v '^.*w: ' | head -n 80 > errors.txt || true
+          msg=$(sed -e 's/%/%25/g' errors.txt | awk '{printf "%s%%0A", $0}')
+          echo "::error title=Gradle build failed::${msg}"
+          tail -n 60 build.log
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: test-reports
+          path: garasi/app/build/reports/
+          if-no-files-found: ignore
+
+      - name: Rename APK
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/release/*.apk "dist/garasi-${GITHUB_SHA::7}.apk"
+          ls -la dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: garasi-apk
+          path: garasi/dist/*.apk

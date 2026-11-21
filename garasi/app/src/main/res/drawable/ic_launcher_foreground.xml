@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Garage door with a price tag. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- roof -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M54,28 L82,44 L82,48 L26,48 L26,44 Z" />
+    <!-- door -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M32,50 L76,50 L76,80 L32,80 Z" />
+    <path android:fillColor="#FFB4530B" android:pathData="M35,55 L73,55 L73,58 L35,58 Z" />
+    <path android:fillColor="#FFB4530B" android:pathData="M35,62 L73,62 L73,65 L35,65 Z" />
+    <path android:fillColor="#FFB4530B" android:pathData="M35,69 L73,69 L73,72 L35,72 Z" />
+    <!-- tag -->
+    <path android:fillColor="#FFFFD54F" android:pathData="M64,66 L80,66 L86,73 L80,80 L64,80 Z" />
+    <path android:fillColor="#FFB4530B" android:pathData="M79,71.5 m-1.6,0 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0" />
+</vector>

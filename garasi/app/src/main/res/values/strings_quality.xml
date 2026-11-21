@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Verdicts -->
+    <string name="verdict_ready">Ready to post 👍</string>
+    <string name="verdict_good">Good, could be better</string>
+    <string name="verdict_fix">Needs fixing first</string>
+
+    <!-- Fix buttons -->
+    <string name="fix_retake">Retake photo</string>
+    <string name="fix_add_photos">Add photos</string>
+    <string name="fix_manage_photos">Tag photos</string>
+    <string name="fix_make_cover">Make cover</string>
+    <string name="fix_crop_cover">Crop to square</string>
+    <string name="fix_add_flaw_photo">Add flaw close-up</string>
+    <string name="fix_edit_title">Edit title</string>
+    <string name="fix_build_title">Build title</string>
+    <string name="fix_edit_description">Edit description</string>
+    <string name="fix_use_template">Use template</string>
+    <string name="fix_edit_details">Edit details</string>
+    <string name="fix_open_price">Check price</string>
+
+    <!-- Info pieces -->
+    <string name="info_brand_model">brand/model</string>
+    <string name="info_condition">condition</string>
+    <string name="info_flaws">flaws</string>
+    <string name="info_included">what\'s included</string>
+    <string name="info_usage">how long you used it</string>
+    <string name="info_reason">why you\'re selling</string>
+    <string name="info_location">location/COD</string>
+    <string name="info_negotiation">negotiation</string>
+    <string name="info_shipping">shipping</string>
+
+    <!-- Photo checks -->
+    <string name="q_no_photos">No photos yet. Buyers scroll right past listings without pictures. Snap at least 4.</string>
+    <string name="q_too_few_photos">Only %1$d photo(s). Add a few more — 4 is the minimum, 6–8 is ideal.</string>
+    <string name="q_few_photos">%1$d photos is okay, but 6–8 makes buyers feel safer.</string>
+    <string name="q_blurry">Photo %1$d is blurry. Hold your phone steady or tap to focus.</string>
+    <string name="q_soft">Photo %1$d is a little soft. Try again with steadier hands or more light.</string>
+    <string name="q_too_dark">Photo %1$d is too dark. Daylight near a window works wonders.</string>
+    <string name="q_overexposed">Photo %1$d is washed out. Step out of direct sun or away from the lamp.</string>
+    <string name="q_flat">Photo %1$d looks a bit flat. Softer side light helps the details pop.</string>
+    <string name="q_item_small">In photo %1$d the item looks small. Move closer so it fills most of the frame.</string>
+    <string name="q_item_tight">Photo %1$d is cropped too tight. Step back a little so the whole item shows.</string>
+    <string name="q_off_center">In photo %1$d the item is off to the side. Try to center it.</string>
+    <string name="q_busy_background">Photo %1$d has a busy background. A plain wall, sheet or table looks cleaner.</string>
+    <string name="q_low_res">Photo %1$d is small (under 800 px). Retake it with the camera, not a screenshot.</string>
+    <string name="q_cover_not_square">Marketplaces show the cover as a square. Crop it to 1:1 so nothing important gets cut.</string>
+    <string name="q_better_cover">Photo %1$d is your best shot. Make it the cover?</string>
+    <string name="q_no_flaw_photo">You marked it \"Has Flaws\" — add a close-up of the flaw. Honest photos mean fewer returns.</string>
+    <string name="q_missing_angles">%1$d angle(s) from the checklist are still missing. Tag your photos to see which.</string>
+
+    <!-- Title checks -->
+    <string name="q_no_title">No title yet. Tap \"Build title\" to get a good starting point.</string>
+    <string name="q_title_short">Title is only %1$d characters. Aim for 40–70 so it shows up in more searches.</string>
+    <string name="q_title_long">Title is %1$d characters — over 70 gets cut off. Trim it a little.</string>
+    <string name="q_title_brand_start">Start the title with the brand. That\'s what people type in search.</string>
+    <string name="q_title_no_model">Add the model to the title — it\'s the #1 thing buyers search for.</string>
+    <string name="q_title_no_variant">Add the key variant to the title (size, colour or storage).</string>
+    <string name="q_title_caps">Title is mostly CAPS. Normal case reads friendlier and looks less spammy.</string>
+    <string name="q_title_shouting">Easy on the shouting (\"%1$s\"). A calm title feels more trustworthy.</string>
+    <string name="q_title_repeated">\"%1$s\" appears twice in the title. Once is enough.</string>
+    <string name="q_title_spam">Title looks like keyword spam. Keep it to brand, model, variant and condition.</string>
+    <string name="q_en_keywords">Most buyers here search in Indonesian. Consider adding key Indonesian words to the title, e.g. \'bekas\', \'second\', \'murah\'.</string>
+
+    <!-- Description checks -->
+    <string name="q_no_description">No description yet. Tap \"Use template\" to start in seconds.</string>
+    <string name="q_desc_blanks">There are still [blanks] from the template. Fill them in or delete them.</string>
+    <string name="q_desc_short">Description is %1$d characters. A bit more detail (300+) builds trust.</string>
+    <string name="q_desc_long">Description is %1$d characters. Over 1,200 and people stop reading — trim it.</string>
+    <string name="q_desc_missing">Buyers will ask about: %1$s. Mention it up front and save yourself the chats.</string>
+    <string name="q_desc_long_sentences">%1$d sentence(s) run over 25 words. Shorter sentences are easier on a phone.</string>
+    <string name="q_desc_wall">That\'s a wall of text. Break it into short paragraphs or bullets.</string>
+    <string name="q_desc_emoji">%1$d emoji is a lot. Two or three is plenty.</string>
+    <string name="q_desc_exclaim">Lots of \"!\" — it can come across as pushy. Keep it relaxed.</string>
+    <string name="q_desc_caps">Several words in ALL CAPS. Normal case reads friendlier.</string>
+    <string name="q_tone_id">\"%1$s\" sounds stiff or salesy. Use casual-polite \"kamu\" and plain words.</string>
+    <string name="q_tone_en">\"%1$s\" sounds like an ad. Plain, honest words sell second-hand stuff better.</string>
+    <string name="q_mixed_lang">Title and description seem to be in different languages, or mixed. Pick one per version.</string>
+    <string name="q_wrong_lang">The text doesn\'t match the selected listing language. Switch the toggle or translate it.</string>
+    <string name="q_contact_info">Remove phone numbers, WhatsApp or links — Tokopedia and Shopee hide or block them.</string>
+
+    <!-- Price checks -->
+    <string name="q_no_price">No price set yet.</string>
+    <string name="q_no_compare">Check what similar items go for so your price is in the right range.</string>
+    <string name="q_price_high">Your price is %1$d%% of the typical price you found. That may scare buyers off.</string>
+    <string name="q_price_low">Your price is only %1$d%% of the typical price. Double-check — it may look suspicious.</string>
+</resources>

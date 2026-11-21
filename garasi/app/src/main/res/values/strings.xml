@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- All app UI text lives here so more UI languages can be added later (values-xx/strings.xml).
+     Listing text (Indonesian/English templates and AI prompts) is listing content, see text/ListingText.kt. -->
+<resources>
+    <string name="app_name">Garasi</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="more">More</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="apply">Apply</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="open">Open</string>
+    <string name="paste">Paste</string>
+    <string name="replace">Replace</string>
+    <string name="allow">Allow</string>
+    <string name="not_set">not set</string>
+    <string name="copied_x">%1$s copied</string>
+
+    <!-- Statuses -->
+    <string name="status_draft">Draft</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_posted">Posted</string>
+    <string name="status_sold">Sold</string>
+
+    <!-- Categories -->
+    <string name="cat_electronics">Electronics</string>
+    <string name="cat_fashion">Fashion</string>
+    <string name="cat_books">Books</string>
+    <string name="cat_toys">Toys</string>
+    <string name="cat_home">Home</string>
+    <string name="cat_hobby">Hobby</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Conditions -->
+    <string name="cond_new">New</string>
+    <string name="cond_like_new">Like New</string>
+    <string name="cond_used_good">Used – Good</string>
+    <string name="cond_used_flaws">Used – Has Flaws</string>
+
+    <!-- Platforms -->
+    <string name="platform_tokopedia">Tokopedia</string>
+    <string name="platform_shopee">Shopee</string>
+    <string name="platform_olx">OLX</string>
+
+    <!-- Languages -->
+    <string name="lang_id">Bahasa Indonesia</string>
+    <string name="lang_en">English</string>
+    <string name="lang_toggle_id">🇮🇩 Indonesia</string>
+    <string name="lang_toggle_en">🇬🇧 English</string>
+    <string name="lang_short_id">🇮🇩</string>
+    <string name="lang_short_en">🇬🇧</string>
+
+    <!-- Photo angles -->
+    <string name="angle_front">Front</string>
+    <string name="angle_back">Back</string>
+    <string name="angle_sides">Sides</string>
+    <string name="angle_screen_on">Screen on</string>
+    <string name="angle_label">Serial / label</string>
+    <string name="angle_accessories">Accessories</string>
+    <string name="angle_detail">Detail</string>
+    <string name="angle_worn">Worn / on body</string>
+    <string name="angle_spine">Spine</string>
+    <string name="angle_pages">Pages</string>
+    <string name="angle_box">Box</string>
+    <string name="angle_parts">All parts</string>
+    <string name="angle_in_use">In use</string>
+    <string name="angle_flaw">Flaw close-up</string>
+    <string name="angle_none">No tag</string>
+
+    <!-- Home -->
+    <string name="add_item">Add item</string>
+    <string name="search_hint">Search your items</string>
+    <string name="sort">Sort</string>
+    <string name="sort_newest">Newest first</string>
+    <string name="sort_oldest">Oldest first</string>
+    <string name="sort_price_high">Price: high to low</string>
+    <string name="sort_price_low">Price: low to high</string>
+    <string name="filter_all">All (%1$d)</string>
+    <string name="home_empty">Nothing here yet. Tap + and snap a photo of something you don\'t use anymore.</string>
+    <string name="home_no_match">No items match. Try another search or filter.</string>
+    <string name="untitled_item">Untitled item</string>
+    <string name="no_price">No price yet</string>
+
+    <!-- Edit item -->
+    <string name="new_item">New item</string>
+    <string name="mark_sold">Mark as sold</string>
+    <string name="unmark_sold">Not sold after all</string>
+    <string name="mark_ready">Mark as ready</string>
+    <string name="mark_draft">Back to draft</string>
+    <string name="delete_item">Delete item</string>
+    <string name="delete_item_q">Delete this item?</string>
+    <string name="delete_item_body">Its photos and text will be removed from Garasi. Photos already saved to your gallery stay there.</string>
+    <string name="quality_check">Quality Check</string>
+    <string name="appeal_score">Appeal Score</string>
+    <string name="appeal_score_short">Score %1$d</string>
+    <string name="post">Post</string>
+
+    <string name="photos_count">Photos (%1$d/%2$d)</string>
+    <string name="photos_empty_tip">Take 6–8 photos in daylight: front, back, sides, labels, accessories, and any flaws up close.</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="manage_photos">Reorder, crop and tag photos</string>
+    <string name="cover">Cover</string>
+    <string name="flaw">Flaw</string>
+
+    <string name="identify_title">Identify the item</string>
+    <string name="identify_tip">Garasi reads barcodes, labels and model numbers from your photos — all on your phone, free.</string>
+    <string name="identify_button">Identify from photos</string>
+    <string name="identify_found">Here\'s what I found:</string>
+    <string name="identify_brand">Brand: %1$s</string>
+    <string name="identify_model">Model: %1$s</string>
+    <string name="identify_category">Category: %1$s</string>
+    <string name="identify_barcode">Barcode: %1$s</string>
+    <string name="identify_labels">Looks like: %1$s</string>
+    <string name="identify_text">Text seen: %1$s</string>
+
+    <string name="details_title">Details</string>
+    <string name="category">Category</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="variant">Variant</string>
+    <string name="variant_hint">Colour, size or storage, e.g. Black 128GB</string>
+    <string name="condition">Condition</string>
+    <string name="flaw_photo_tip">Add a close-up photo of the flaw. Honest listings get fewer complaints.</string>
+    <string name="year_bought">Year bought</string>
+    <string name="usage_age">Used for</string>
+    <string name="usage_age_hint">e.g. ±1.5 years</string>
+    <string name="flaws">Flaws</string>
+    <string name="flaws_hint">e.g. small scratch on the back</string>
+    <string name="included">What\'s included</string>
+    <string name="included_hint">e.g. box, charger, cable, pouch</string>
+    <string name="reason">Reason for selling</string>
+    <string name="reason_hint">e.g. rarely use it anymore</string>
+    <string name="location">Location</string>
+    <string name="location_hint">e.g. Jakarta Selatan</string>
+    <string name="shipping">Shipping</string>
+    <string name="shipping_hint">e.g. JNE / SiCepat / GoSend</string>
+    <string name="weight_grams">Shipping weight (grams)</string>
+
+    <string name="listing_text_title">Title &amp; description</string>
+    <string name="listing_language">Listing language</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="char_count">%1$d / %2$d characters</string>
+    <string name="desc_count">%1$d characters (aim for 300–1,200)</string>
+    <string name="build_title">Build title from details</string>
+    <string name="use_template">Fill from template</string>
+    <string name="replace_text_q">Replace your text?</string>
+    <string name="replace_text_body">This overwrites what you\'ve written for this language. The other language version stays untouched.</string>
+
+    <string name="ai_section">Free AI help</string>
+    <string name="ai_tip">Opens your own Claude, Gemini or ChatGPT app with a ready-made prompt. Copy its whole answer, come back and tap \"Paste AI answer\".</string>
+    <string name="ask_ai">Ask AI</string>
+    <string name="paste_ai">Paste AI answer</string>
+    <string name="translate_to">Translate → %1$s</string>
+    <string name="improve_text">Improve my text</string>
+    <string name="ai_chooser_title">Send to your AI chat app</string>
+
+    <string name="price_title">Price</string>
+    <string name="asking_price">Asking price</string>
+    <string name="ai_used_range">AI estimate (used): %1$s – %2$s</string>
+    <string name="ai_new_price">New price (AI estimate): %1$s</string>
+    <string name="price_check">Price check</string>
+
+    <!-- Camera -->
+    <string name="camera_permission_needed">Garasi needs the camera to photograph your items. You can still pick photos from your gallery instead.</string>
+    <string name="grant_permission">Allow camera</string>
+    <string name="camera_tip">Daylight near a window works best. Fill most of the square with the item. Tap to focus.</string>
+    <string name="camera_tip_flaw">Flaw close-up: get close and show the flaw clearly — honesty sells.</string>
+    <string name="camera_error">Couldn\'t start the camera. Close other camera apps and try again.</string>
+    <string name="camera_capture_failed">That photo didn\'t save. Try again.</string>
+    <string name="flaw_closeup_mode">Flaw close-up</string>
+    <string name="photo_counter">%1$d / %2$d</string>
+
+    <!-- Photos -->
+    <string name="angle_checklist">Angle checklist</string>
+    <string name="angle_checklist_tip">Tag each photo with its angle. Ticked chips are covered.</string>
+    <string name="photos_ideal">Minimum 4 photos, ideal 6–8. The first photo is the cover.</string>
+    <string name="photo_n">Photo %1$d</string>
+    <string name="photo_score">Photo score %1$d</string>
+    <string name="analysing">Checking quality…</string>
+    <string name="tag_angle">Tag angle</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="crop_square">Crop to square</string>
+    <string name="make_cover">Make cover</string>
+    <string name="make_cover_best">Make cover (best shot)</string>
+    <string name="tag_flaw">Flaw close-up</string>
+    <string name="untag_flaw">Not a flaw photo</string>
+    <string name="delete_photo_q">Delete this photo?</string>
+    <string name="p_blurry">blurry</string>
+    <string name="p_soft">a bit soft</string>
+    <string name="p_dark">too dark</string>
+    <string name="p_bright">overexposed</string>
+    <string name="p_flat">flat light</string>
+    <string name="p_small">item too small</string>
+    <string name="p_tight">cropped tight</string>
+    <string name="p_off_center">off-centre</string>
+    <string name="p_busy">busy background</string>
+    <string name="p_low_res">low resolution</string>
+    <string name="p_other">check</string>
+
+    <!-- Crop -->
+    <string name="crop_tip">Drag the square to frame the item. Use the slider to zoom in. Your original photo is kept.</string>
+    <string name="zoom">Zoom</string>
+    <string name="save_crop">Save square crop</string>
+
+    <!-- Quality -->
+    <string name="top_fixes">Top fixes</string>
+    <string name="show_other_tips">Show %1$d more tips</string>
+    <string name="hide_other_tips">Hide the other %1$d tips</string>
+    <string name="quality_all_good">Looks great. Nothing to fix — go post it!</string>
+    <string name="go_to_post">Go to posting</string>
+    <string name="area_photos">Photos</string>
+    <string name="area_title">Title</string>
+    <string name="area_description">Description</string>
+    <string name="area_price">Price</string>
+
+    <!-- Price -->
+    <string name="price_step1">1. See what others ask</string>
+    <string name="price_step1_tip">Opens search results in your browser or the app, cheapest first where possible. Look at items in similar condition.</string>
+    <string name="search_words">Search words</string>
+    <string name="search_on">Search on %1$s</string>
+    <string name="price_step2">2. Enter what you saw</string>
+    <string name="price_step2_tip">Lowest, typical (middle) and highest prices. The typical one matters most.</string>
+    <string name="price_low">Lowest</string>
+    <string name="price_median">Typical (median)</string>
+    <string name="price_high">Highest</string>
+    <string name="price_suggestion">Suggested asking price</string>
+    <string name="price_need_median">Enter at least one price you saw to get a suggestion.</string>
+    <string name="price_formula">%1$s × %3$d%% (%2$s) = %4$s fair price, plus 10%% room to negotiate.</string>
+    <string name="use_this_price">Use this price</string>
+
+    <!-- Post -->
+    <string name="post_title">Post to marketplace</string>
+    <string name="post_low_score">Appeal Score is %1$d. You can post, but a few quick fixes could help it sell faster.</string>
+    <string name="choose_platform">Where to post</string>
+    <string name="listing_in">Listing language: %1$s (change it on the edit screen)</string>
+    <string name="copy_both_languages">Copy both languages (Indonesian on top, English below)</string>
+    <string name="preview">Preview</string>
+    <string name="label_title">Title</string>
+    <string name="label_description">Description</string>
+    <string name="label_price">Price</string>
+    <string name="title_trimmed">Trimmed to this platform\'s %1$d-character limit.</string>
+    <string name="category_hint">Category to pick: %1$s (%2$s)</string>
+    <string name="weight_line">Weight: %1$s</string>
+    <string name="price_line">Price: %1$s</string>
+    <string name="overlay_perm_title">Floating checklist</string>
+    <string name="overlay_perm_body">Allow \"Display over other apps\" so a small checklist with copy buttons floats on top of the marketplace app. Without it, the checklist shows as a notification.</string>
+    <string name="post_go">Copy &amp; open %1$s</string>
+    <string name="post_go_tip">Copies the title, saves the photos to a Garasi album in your gallery, and opens the app at its sell screen when possible (or its website).</string>
+    <string name="where_posted">Where it\'s posted</string>
+    <string name="mark_posted">Mark posted</string>
+    <string name="unmark">Unmark</string>
+    <string name="posted_on">Posted on %1$s</string>
+    <string name="paste_listing_url">Paste the link to your listing (optional) so you can find it later.</string>
+    <string name="listing_url">Listing link</string>
+    <string name="sold_for">Sold for %1$s 🎉</string>
+    <string name="final_price">Final price</string>
+    <string name="sold_where">Where did it sell?</string>
+    <string name="sold_elsewhere">Elsewhere</string>
+    <string name="remove_other_listings">Delete the other listings</string>
+    <string name="remove_other_listings_body">So nobody buys something you no longer have. Tick each one once it\'s deleted.</string>
+
+    <!-- Floating checklist -->
+    <string name="overlay_title">Posting on %1$s</string>
+    <string name="overlay_hide">Hide</string>
+    <string name="overlay_show">Show</string>
+    <string name="overlay_copy">Copy</string>
+    <string name="overlay_done">Done</string>
+    <string name="step_paste_title">Paste title</string>
+    <string name="step_paste_description">Paste description</string>
+    <string name="step_attach_photos">Attach photos from the %1$s album</string>
+    <string name="step_set_price">Set price %1$s</string>
+    <string name="step_set_weight">Set weight %1$s</string>
+    <string name="notif_channel">Posting checklist</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Stats</string>
+    <string name="stat_sold">Items sold</string>
+    <string name="stat_earned">Total earned</string>
+    <string name="stat_avg_days">Average days to sell</string>
+    <string name="stat_active">Still for sale</string>
+    <string name="stat_by_platform">Sold by platform</string>
+    <string name="days_value">%1$.1f days</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="default_listing_language">Default listing language</string>
+    <string name="default_city">Default city / location</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="weight_presets">Shipping weight presets</string>
+    <string name="preset_name">Name</string>
+    <string name="grams">Grams</string>
+    <string name="add_preset">Add preset</string>
+    <string name="backup">Backup</string>
+    <string name="backup_tip">Export everything (items, text, prices and photos) to one .zip file. Keep it in Google Drive or on your computer.</string>
+    <string name="export_data">Export backup</string>
+    <string name="import_data">Import backup</string>
+    <string name="export_done">Backup saved: %1$d items.</string>
+    <string name="export_failed">Couldn\'t save the backup. Try another location.</string>
+    <string name="import_q">Replace all data?</string>
+    <string name="import_body">Importing replaces everything currently in Garasi with the backup\'s contents.</string>
+    <string name="import_done">Restored %1$d items.</string>
+    <string name="import_failed">That file doesn\'t look like a Garasi backup.</string>
+    <string name="about_text">Garasi runs entirely on your phone. No accounts, no paid APIs, no scraping. AI help uses your own AI chat app.</string>
+
+    <!-- Messages -->
+    <string name="msg_max_photos">You can add up to %1$d photos per item.</string>
+    <string name="msg_photo_import_failed">Couldn\'t add that photo. Try another one.</string>
+    <string name="msg_cover_set">Cover photo updated.</string>
+    <string name="msg_crop_failed">Couldn\'t crop that photo. Try again.</string>
+    <string name="msg_identify_no_photos">Add a photo first — a shot of the label or box works best.</string>
+    <string name="msg_identify_nothing">Couldn\'t recognise much. Try a close-up of the label or barcode, or type the details in.</string>
+    <string name="msg_identify_failed">Identification failed. You can always type the brand and model yourself.</string>
+    <string name="msg_nothing_to_send">Write a title or description first (or use the template).</string>
+    <string name="msg_no_ai_app">No app can receive the prompt. Install Claude, Gemini or ChatGPT from the Play Store — the prompt is in your clipboard.</string>
+    <string name="msg_no_known_ai_app">Prompt copied. No AI chat app found — install Claude, Gemini or ChatGPT, or paste it into any chat.</string>
+    <string name="msg_prompt_copied">Prompt also copied — paste it if the app doesn\'t fill it in.</string>
+    <string name="msg_clipboard_empty">Nothing in the clipboard. Copy the AI\'s whole answer first.</string>
+    <string name="msg_clipboard_is_prompt">Your clipboard still has the prompt. Copy the AI\'s answer, then come back.</string>
+    <string name="msg_ai_parse_failed">Couldn\'t find TITLE: / DESCRIPTION: in what you copied. Copy the AI\'s full answer and try again.</string>
+    <string name="msg_ai_applied">AI answer filled in. Have a read and tweak anything that isn\'t quite you.</string>
+    <string name="msg_enter_search">Type something to search for.</string>
+    <string name="msg_no_browser">No browser found to open the search.</string>
+    <string name="msg_price_set">Asking price set to %1$s.</string>
+    <string name="msg_need_text">Add a title and description before posting.</string>
+    <string name="msg_cannot_open_marketplace">Couldn\'t open the app or website. Is a browser installed?</string>
+    <string name="msg_opened_web">App not installed, opened the website. Title copied, %1$d photos saved to your gallery.</string>
+    <string name="msg_ready_to_paste">Title copied, %1$d photos saved to your gallery. Paste away!</string>
+    <string name="msg_sold_congrats">Nice one, sold! 🎉</string>
+</resources>
