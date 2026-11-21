@@ -11,6 +11,9 @@ on:
       - '.github/workflows/garasi-android.yml'
   workflow_dispatch:
 
+permissions:
+  contents: write   # to publish the APK as a GitHub Release
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -76,10 +79,26 @@ jobs:
       - name: Rename APK
         run: |
           mkdir -p dist
-          cp app/build/outputs/apk/release/*.apk "dist/garasi-${GITHUB_SHA::7}.apk"
+          cp app/build/outputs/apk/release/*.apk dist/garasi.apk
           ls -la dist
 
       - uses: actions/upload-artifact@v4
         with:
           name: garasi-apk
           path: garasi/dist/*.apk
+
+      # Publish to the "Garasi (latest)" release so the APK has a stable download link:
+      # https://github.com/<owner>/<repo>/releases/download/garasi-latest/garasi.apk
+      - name: Publish release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete garasi-latest --cleanup-tag --yes || true
+          gh release create garasi-latest dist/garasi.apk \
+            --target "$GITHUB_SHA" \
+            --title "Garasi (latest build)" \
+            --notes "Android APK built from ${GITHUB_SHA::7} on $(date -u +'%Y-%m-%d %H:%M UTC').
+
+          **Install:** open this page on your phone → tap **garasi.apk** → allow installs from your browser → Install.
+          Requires Android 8.0+. See garasi/README.md for details and the device test checklist."

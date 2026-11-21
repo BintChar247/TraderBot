@@ -50,10 +50,16 @@ garasi/
 
 ## Download the APK (no computer setup)
 
+**Direct link (always the newest build):**
+https://github.com/BintChar247/TraderBot/releases/download/garasi-latest/garasi.apk
+
+Or open the [Garasi release page](https://github.com/BintChar247/TraderBot/releases/tag/garasi-latest)
+on your phone and tap **garasi.apk**.
+
 Every push that touches `garasi/` runs **GitHub Actions → "Garasi APK"**
-(`.github/workflows/garasi-android.yml`): unit tests, then `assembleRelease`.
-Open the run → **Artifacts → `garasi-apk`** → unzip → `garasi-xxxxxxx.apk`.
-You can also start it by hand: Actions → Garasi APK → *Run workflow*.
+(`.github/workflows/garasi-android.yml`): unit tests, `assembleRelease`, then it replaces the
+`garasi-latest` release with the new APK. You can also start it by hand: Actions → Garasi APK →
+*Run workflow*.
 
 Without signing secrets the CI APK is signed with that run's throwaway debug key. It installs
 fine, but the next CI build has a different key, so Android will refuse to *update* over it
