@@ -16,16 +16,16 @@ import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
 class Converters {
-    @TypeConverter fun status(v: ItemStatus): String = v.name
-    @TypeConverter fun status(v: String): ItemStatus = ItemStatus.valueOf(v)
-    @TypeConverter fun category(v: Category): String = v.name
-    @TypeConverter fun category(v: String): Category = runCatching { Category.valueOf(v) }.getOrDefault(Category.OTHER)
-    @TypeConverter fun condition(v: Condition): String = v.name
-    @TypeConverter fun condition(v: String): Condition = Condition.valueOf(v)
-    @TypeConverter fun lang(v: ListingLang): String = v.name
-    @TypeConverter fun lang(v: String): ListingLang = ListingLang.valueOf(v)
-    @TypeConverter fun platform(v: Platform?): String? = v?.name
-    @TypeConverter fun platform(v: String?): Platform? = v?.let { Platform.valueOf(it) }
+    @TypeConverter fun statusToString(v: ItemStatus): String = v.name
+    @TypeConverter fun stringToStatus(v: String): ItemStatus = ItemStatus.valueOf(v)
+    @TypeConverter fun categoryToString(v: Category): String = v.name
+    @TypeConverter fun stringToCategory(v: String): Category = runCatching { Category.valueOf(v) }.getOrDefault(Category.OTHER)
+    @TypeConverter fun conditionToString(v: Condition): String = v.name
+    @TypeConverter fun stringToCondition(v: String): Condition = Condition.valueOf(v)
+    @TypeConverter fun langToString(v: ListingLang): String = v.name
+    @TypeConverter fun stringToLang(v: String): ListingLang = ListingLang.valueOf(v)
+    @TypeConverter fun platformToString(v: Platform?): String? = v?.name
+    @TypeConverter fun stringToPlatform(v: String?): Platform? = v?.let { Platform.valueOf(it) }
 }
 
 @Dao

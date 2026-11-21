@@ -362,7 +362,7 @@ fun TextInput(
     OutlinedTextField(
         value = value, onValueChange = onChange, modifier = modifier.fillMaxWidth(),
         label = { Text(stringResource(label)) },
-        placeholder = hint?.let { { Text(stringResource(it)) } },
+        placeholder = if (hint != null) { { Text(stringResource(hint)) } } else null,
         singleLine = singleLine, minLines = if (singleLine) 1 else 2,
         keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences, keyboardType = keyboard),
     )
@@ -433,7 +433,7 @@ private fun TextSection(vm: ItemViewModel, item: Item, photoPaths: List<String>)
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Words),
         )
         TextButton({
-            if (title.isBlank()) vm.buildTitle() else confirmOverwrite = { vm.buildTitle() }
+            if (title.isBlank()) { vm.buildTitle() } else { confirmOverwrite = { vm.buildTitle() } }
         }) { Text(stringResource(R.string.build_title)) }
 
         val desc = item.description(lang)
@@ -446,7 +446,7 @@ private fun TextSection(vm: ItemViewModel, item: Item, photoPaths: List<String>)
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences),
         )
         TextButton({
-            if (desc.isBlank()) vm.useTemplate() else confirmOverwrite = { vm.useTemplate() }
+            if (desc.isBlank()) { vm.useTemplate() } else { confirmOverwrite = { vm.useTemplate() } }
         }) { Text(stringResource(R.string.use_template)) }
 
         Text(stringResource(R.string.ai_section), style = MaterialTheme.typography.labelLarge)

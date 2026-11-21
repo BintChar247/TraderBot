@@ -97,7 +97,7 @@ fun CropScreen(nav: NavController, vm: ItemViewModel, photoId: Long) {
                     fun clampY(v: Float) = v.coerceIn(sq / 2 / ih, 1 - sq / 2 / ih)
                     val dcx = clampX(cx)
                     val dcy = clampY(cy)
-                    Canvas(Modifier.fillMaxSize().pointerInput(bmp, side) {
+                    Canvas(Modifier.fillMaxSize().pointerInput(bmp, side, box) {
                         detectDragGestures { change, drag ->
                             change.consume()
                             cx = clampX(clampX(cx) + drag.x / iw)
