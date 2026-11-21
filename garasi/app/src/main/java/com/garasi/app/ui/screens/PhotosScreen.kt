@@ -141,8 +141,9 @@ private fun PhotoRow(
                     val color = when { score >= 80 -> ScoreGreen; score >= 60 -> ScoreAmber; else -> ScoreRed }
                     Text(stringResource(R.string.photo_score, score), color = color, fontWeight = FontWeight.Bold)
                     val problems = QualityChecker.photoProblems(p)
-                    if (problems.isNotEmpty()) Text(
-                        problems.joinToString(" · ") { t -> stringResourceShort(t.name) },
+                    val labels = problems.map { t -> stringResourceShort(t.name) }
+                    if (labels.isNotEmpty()) Text(
+                        labels.joinToString(" · "),
                         style = MaterialTheme.typography.bodySmall,
                     )
                     if (p.width > 0) Text("${p.width}×${p.height}", style = MaterialTheme.typography.bodySmall)
