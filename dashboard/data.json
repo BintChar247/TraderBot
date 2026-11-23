@@ -41533,6 +41533,506 @@
         false,
         false
       ]
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BBCA",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 6,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 6/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BBRI",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 6,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 6/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BMRI",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BBNI",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BNGA",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "NISP",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BBTN",
+      "sector": "Banking",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ADRO",
+      "sector": "Coal",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ITMG",
+      "sector": "Coal",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "PTBA",
+      "sector": "Coal",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BUMI",
+      "sector": "Coal",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "HRUM",
+      "sector": "Coal",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MEDC",
+      "sector": "Energy",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "PGAS",
+      "sector": "Gas",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ANTM",
+      "sector": "Nickel",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "INCO",
+      "sector": "Nickel",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MDKA",
+      "sector": "Nickel",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "NCKL",
+      "sector": "Nickel",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MBMA",
+      "sector": "Nickel",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "TINS",
+      "sector": "Metals",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "UNVR",
+      "sector": "Consumer",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ICBP",
+      "sector": "Consumer",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "INDF",
+      "sector": "Consumer",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MYOR",
+      "sector": "Consumer",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "SIDO",
+      "sector": "Consumer",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "TLKM",
+      "sector": "Telco",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "EXCL",
+      "sector": "Telco",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ISAT",
+      "sector": "Telco",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MTEL",
+      "sector": "Tower",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "TOWR",
+      "sector": "Tower",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BSDE",
+      "sector": "Property",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "CTRA",
+      "sector": "Property",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "SMRA",
+      "sector": "Property",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "PWON",
+      "sector": "Property",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "GOTO",
+      "sector": "Tech",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "BUKA",
+      "sector": "Tech",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "EMTK",
+      "sector": "Media",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ASII",
+      "sector": "Industrial",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "UNTR",
+      "sector": "HeavyEq",
+      "action": "SKIP",
+      "score": 4,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 4/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "AKRA",
+      "sector": "Distribution",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "AALI",
+      "sector": "Plantation",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "LSIP",
+      "sector": "Plantation",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "JSMR",
+      "sector": "Infra",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "WSKT",
+      "sector": "Construction",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "PTPP",
+      "sector": "Construction",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "ADHI",
+      "sector": "Construction",
+      "action": "SKIP",
+      "score": 2,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 2/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "KLBF",
+      "sector": "Healthcare",
+      "action": "SKIP",
+      "score": 5,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 5/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "MIKA",
+      "sector": "Healthcare",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "SMGR",
+      "sector": "Cement",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
+    },
+    {
+      "ts": "2026-11-23T00:08:51Z",
+      "date": "2026-11-23",
+      "routine": "pre-market",
+      "ticker": "INTP",
+      "sector": "Cement",
+      "action": "SKIP",
+      "score": 3,
+      "reason": "crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 gap 3.25-4.50/5 STILL BINDING (Wk 31 Fri Nov 20 CLOSE carry); DQG-Day-194 outage persists; score 3/10"
     }
   ],
   "stats": {
@@ -41589,12 +42089,6 @@
     "updated": "2026-11-20"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-15T04:35:48Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy (n=0). No cuts, no stop tightenings. 22nd consecutive zero-trade week candidate continues. Book 100% cash IDR 9,716,207,500."
-    },
     {
       "timestamp": "2026-09-15T08:19:32Z",
       "routine": "daily-summary",
@@ -46211,6 +46705,34 @@
           "detail": "Day 162 EOD snapshot committed; Wed Nov 18 IHSG 5247.88 NEW FRESHEST anchor Day-2; BI HIKE 25bp reconcile supersedes HOLD base-case; MACRO-REGIME.md update deferred to 16:00 weekly review"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-23T00:09:08Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Mon Nov 23 2026 Wk 32 Day 1 OPEN: 50 tickers scanned. 2 candidates scored \u22656 (BBCA 6, BBRI 6) \u2014 both mechanical SKIP. Universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 STILL BINDING). BI RDG HIKE 25bp to 6.00% Day T+5; IDR Stage-5 pierced Day-24; MSCI STANDALONE Day T+39; DQG-Day-194; foreign Wk 31 net BUY Rp 462B weekly aggregate per Katadata. Day 124 since KLBF hard-cut Jul 6. 32nd consecutive zero-trade week Day 1 OPEN target. 100% cash maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 watchlist LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 both mechanical SKIP under crisis-track engagement gate FURTHER-ESCALATED"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; foreign heaviest net-SELL Thu Rp 321B; TP 6,775; HIKE-NIM countersignal"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; contrarian Thu outlier +1.64%; TP 3,360"
+        }
+      ],
+      "commit_hash": "7ff3adb",
+      "commit_message": ""
     }
   ],
   "exposure": {
@@ -46277,7 +46799,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-20T09:15:00+07:00",
+  "last_updated": "2026-11-23T00:08:51Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -46356,6 +46878,46 @@
         {
           "type": "research",
           "detail": "Day 136 EOD snapshot committed; IHSG Thu Oct 22 close PENDING multi-source (Tue-Wed-Thu backlog); BI RDG Day 2 outcome STILL PENDING; dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-23T00:08:51Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Mon Nov 23 2026 Wk 32 Day 1 OPEN: 50-ticker scan complete. 2 candidates scored \u22656 (BBCA 6, BBRI 6) \u2014 both mechanical SKIP. Universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 Fri Nov 20 CLOSE carry; gap 3.25-4.50/5 STILL BINDING. BI RDG Nov 17-18 SURPRISE HIKE 25bp to 6.00% Day T+5 absorption continues (first HIKE under Destry; DF +25bp to 5.25%). IDR Stage-5 pierced Day-24 under HIKE-reinforced defense. MSCI STANDALONE Day T+39 (through Apr 30 2027). DQG-Day-194 outage persists (yfinance 403 + GoAPI unset; WebSearch multi-source override operational). Foreign-flow Wk 31 weekly aggregate net BUY Rp 462B per Katadata reconcile; Big-4 Thu Nov 19: BBCA Rp 321.28B net-SELL heaviest + BBRI 1.64% outlier gain. Brent crash Day-15 COGS-relief ~$90-93 sustained. Alpha carry +28.42pp Wed Nov 18 reconciled Day-4. BRPT+BRMS passive outflow Dec 1 effective T+8 window arrives Wk 32. 32nd CONSECUTIVE ZERO-TRADE WEEK Day 1 OPEN target. Day 124 since KLBF hard-cut Jul 6. 114 consecutive sessions 0.00% daily P&L. 100% cash IDR 9,716,207,500 maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 watchlist LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (BBCA 6 Q3 BEAT narrative + HIKE-NIM; BBRI 6 Q3 absolute leader + contrarian Thu outlier gain) \u2014 both mechanical SKIP under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; Nov 19 close 5,650 (-1.74%); foreign heaviest net-SELL Rp 321.28B; TP 6,775; HIKE-NIM countersignal; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; Nov 19 close 3,090 (+1.64%) contrarian big-4 outlier; TP 3,360; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 5/10 \u2014 Q3 +14% BEAT; Nov 19 close 3,910 (-0.26%); TP 5,375; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 5/10 \u2014 Q3 +6.62% loan +22%; Nov 19 close 3,580 (+0.28%) only net-BUY big-4 Thu; TP 4,230; SKIP (gate)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Wed Nov 18 FRESHEST 5,247.88 triple-source Day-4 carry; Thu Nov 19 Bisnis 5,194 vs JournalArta 5,181.14 cluster disagreement + Fri Nov 20 PENDING 2-day backlog; IDR Jisdor Nov 17 18,248.4 + Nov 18 18,244.6 + Nov 19 spot 18,275 Stage 5 Day-24"
         }
       ]
     }
