@@ -42286,32 +42286,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-16T00:10:45Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Scanned 50 tickers Wk 22 Day 3 pre-market. 9 candidates \u22656/10 (MEDC[7] PGAS[7] BBCA/BMRI/ANTM/ICBP/INDF/TLKM/ASII[6]). All pre-blocked crisis-track gate ~1.05/5. BMRI ex-div T-0 mechanical Rp 66 drop today; BI+FOMC Sep 17 T-1 tonight.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned"
-        },
-        {
-          "type": "research",
-          "detail": "9 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "ticker": "MEDC",
-          "detail": "score 7/10 \u2014 Brent $107 Day-10 SPIKE + MNC BUY"
-        },
-        {
-          "type": "research",
-          "ticker": "PGAS",
-          "detail": "score 7/10 \u2014 Brent gas-spread deep-amplification R:R 2.05:1 PASS"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-16T02:17:28Z",
       "routine": "market-open",
       "status": "warning",
@@ -46953,6 +46927,12 @@
           "detail": "Notification channel BLOCKED 8th consecutive week (Telegram proxy HTTP 403)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-23T04:35:51Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Zero open positions (100% cash under crisis-track gate). No action taken."
     }
   ],
   "exposure": {
