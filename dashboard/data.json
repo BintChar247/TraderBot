@@ -2567,6 +2567,22 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "Mon Nov 23 EOD \u2014 Wk 32 Day 1 CLOSE / 32nd consecutive zero-trade week Day 1 CLOSE; 124 consecutive sessions 100% cash since Jul 6 KLBF hard-cut; 112 consecutive sessions 0.00% daily P&L. Mechanically-vacuous universal SKIP all 50 watchlist at market-open under crisis-track gate 0.50-1.75/5 maintained Fri Nov 20 CLOSE carry; gap 3.25-4.50/5 STILL BINDING. NO fresh IHSG reconcile this run \u2014 WebSearch surfaced no Mon Nov 23 sesi II close coverage; Thu Nov 19 + Fri Nov 20 2-day prior backlog also not surfaced (now 3-day backlog Thu-Fri-Mon pending Tue Nov 24 pre-market reconcile). Wed Nov 18 CNBC+Bisnis+Kumparan triple-source 5,247.88 FRESHEST anchor Day-5 carry. DQG-Day-194 sesi II lag persists (68th+ cumulative; BI-RDG Day-T+5 absorption + weekend overhang + post-cabinet-reshuffle-Day-50 noise may delay). IDR Stage 5 pierced Day-24 band 18,244-18,275 (Thu Nov 19 Databoks spot 18,275 + Nov 17 Databoks Jisdor 18,248.4); Mon Nov 23 Jisdor fresh print 10:00 WIB not surfaced at 15:15 WIB fire; HIKE outcome + Destry-HAWKISH-PIVOT-Day-5 \u2192 Stage 5 persistence likely extended indefinitely. Foreign-flow Wk 31 weekly aggregate net-BUY Rp 462B per Katadata partial-counter to YTD net-SELL ~Rp 97.6-98T; 3-consec provisional INTERRUPTED Fri Nov 13 + Mon Nov 16; Mon Nov 23 4th-consec restart watch pending. Brent crash Day-15 ~$90-93 band sustained. MSCI Nov 11 binary RESOLVED status-quo Day T+12; MSCI STANDALONE Day T+39 through Apr 30 2027. BRPT+BRMS passive outflow Dec 1 effective T+7 window pre-positioning carry. UNTR dividend PAYMENT Mon Nov 23 (ex-cleared Nov 6) \u2014 n=0 positions means no accrual. Alpha carry +28.42pp Wed Nov 18 reconciled basis Day-5 unchanged from Fri Nov 20 EOD. 0 positions / 100% cash / mechanically vacuous mark-to-market. Drawdown -3.10% from peak (deeply within -15% cap). No risk alerts triggered. RISK-STATE.json updated per STEP 5b."
+    },
+    {
+      "date": "2026-11-24",
+      "day_label": "Day 164 \u2014 Wk 32 Day 2 CLOSE EOD \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE \u2014 Q4-2026-WEEK-9-DAY-2 \u2014 Post-Cabinet-Reshuffle-Day-51 \u2014 Post-BI-RDG-NOV-17-18-Day-T+6-ABSORPTION-HIKE-25bp-to-6% (first hike under Destry) \u2014 Destry-HAWKISH-PIVOT-Day-6 \u2014 MSCI-STANDALONE-Day-T+40 (through Apr 30 2027) \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-Day-T+13 \u2014 Day 125 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-21 \u2014 BEI-suspension-UMA-Day-19 \u2014 IDR-Stage-5-pierced-Day-25-band-18,244-18,275 \u2014 IHSG-Wed-Nov-18-RECONCILED-5247.88-CNBC+Bisnis+Kumparan-triple-source-FRESHEST-Day-6 \u2014 IHSG-Thu-Nov-19+Fri-Nov-20+Mon-Nov-23+Tue-Nov-24-PENDING-multi-source-4-day-backlog \u2014 DQG-Day-195 \u2014 Foreign-flow-Wk-31-weekly-net-BUY-Rp-462B \u2014 Brent-crash-Day-16-COGS-RELIEF-~$90-93-band-sustained \u2014 BRPT-BRMS-passive-outflow-Dec-1-T+6-window \u2014 JSMR-EGM-Wed-Nov-25-T-1 \u2014 113 CONSECUTIVE ZERO DAILY P&L SESSIONS",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "positions_count": 0,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -31.26,
+      "alpha_pct": 28.42,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "notes": "EOD Wk 32 Day 2 CLOSE. 0 positions; 100% cash IDR 9.716B. Day 125 since KLBF hard-cut Jul 6. 32nd consecutive zero-trade week Day 2 CLOSE. Market-open 09:15 universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 binding). Midday + EOD mechanically vacuous (n=0). IHSG Tue Nov 24 sesi II PENDING; 4-day backlog (Thu Nov 19 + Fri Nov 20 + Mon Nov 23 + Tue Nov 24); Wed Nov 18 FRESHEST 5,247.88 Day-6 carry; alpha +28.42pp unchanged. IDR Stage 5 pierced Day-25 under HIKE-reinforced defense + Destry-HAWKISH-PIVOT Day-6. MSCI STANDALONE Day T+40 (through Apr 30 2027). DQG-Day-195 outage persists. No risk alerts."
     }
   ],
   "positions": [],
@@ -42444,7 +42460,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 161,
+    "trial_days_elapsed": 164,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 162 Wk 31 Day 5 CLOSE WEEK-CLOSE 31st-consecutive-zero-trade-week-CONFIRMED-CLOSE post-cabinet-reshuffle Day-47 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6%-first-hike-under-Destry MSCI-STANDALONE-overlay-Day-T+36 MSCI-Nov-11-binary-RESOLVED-status-quo-BRPT-BRMS-removed-no-LQ45-removal HSC-exclusion-methodology-shift-Day-17 BEI-new-suspension-UMA-rules-Nov-2026-Day-15 IDR-Stage-5-pierced-Day-23-carry foreign-flow-YTD-~Rp-98-127T+Fri-Nov-6+Mon-Nov-9+Thu-Nov-12-net-BUY-3-consec-provisional Brent-crash-Day-12-COGS-RELIEF-~$90-93-band-sustained 111-consecutive-zero-P&L-sessions)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -42466,19 +42482,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-11-20",
+    "updated": "2026-11-24T08:15:00Z",
     "portfolio_value": 9716207500,
     "alpha_pct": 28.42,
     "daily_pnl_pct": 0.0,
     "cumulative_alpha_pp": 28.42,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 162,
-    "last_updated": "2026-11-20",
+    "day_number": 164,
+    "last_updated": "2026-11-24T08:15:00Z",
     "open_positions": 0,
-    "days_in_trial": 162,
-    "week_number": 31,
-    "day_label": "Day 162 \u2014 Wk 31 Day 5 CLOSE EOD / WEEK-CLOSE \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK WEEK-CLOSE \u2014 Q4-2026-WEEK-8-DAY-5 \u2014 Post-Cabinet-Reshuffle-Day-47 \u2014 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6% (first hike under Destry) \u2014 MSCI-STANDALONE-Day-T+36 \u2014 MSCI-NOV-11-INDEX-REVIEW-BINARY-RESOLVED-STATUS-QUO-Day-T+9 \u2014 Day 121 since KLBF hard-cut Jul 6 \u2014 HSC-exclusion-Day-17 \u2014 BEI-suspension-UMA-Day-15 \u2014 IDR-Stage-5-pierced-Day-23-carry \u2014 Crisis-track-gate-FURTHER-ESCALATED-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING \u2014 DQG-Day-191-outage-persists \u2014 111 consecutive sessions 0.00% daily P&L",
+    "days_in_trial": 164,
+    "week_number": 32,
+    "day_label": "Day 164 \u2014 Wk 32 Day 2 CLOSE EOD \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -42494,86 +42510,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-23"
+    "updated": "2026-11-24"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-17T02:18:13Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. 13 candidates >=6/10 (MEDC/PGAS[7], BBCA/BBRI/BMRI/BBNI/PTBA/ANTM/UNVR/ICBP/INDF/TLKM/ASII[6]) all PRE-BLOCKED by Crisis-Track Engagement Gate ACTIVATED (Wk 22 Day 4 OPEN ~0.95-1.10/5; 3.90-4.05/5 gap BINDING WIDER post-FOMC-hawkish-hike-Day-1). BI RDG DECISION today ~13:30 WIB (first under Destry). 22nd consecutive zero-trade week candidate.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track gate ACTIVATED + R:R 1.86:1 marginally fails 2:1"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "crisis-track gate ACTIVATED (R:R 2.05:1 passes)"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track gate + BI RDG binary today"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track gate + strike-1 + post-buyback-expiry Day-6"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track gate + ex-div Day-1 T+1 catalyst-completion"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "crisis-track gate + BI RDG binary today"
-        },
-        {
-          "type": "skip",
-          "ticker": "PTBA",
-          "detail": "coal 2-strike SECTOR EXIT + crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "crisis-track gate + LME sub-$17K Day-8 sector-halo softening"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "crisis-track gate + Brent Day-11 COGS drag"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track gate + Brent Day-11 COGS drag"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track gate + Brent Day-11 COGS drag"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track gate + FADE-ON-BEAT 6th obs + Mon rebound chase-risk"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "crisis-track gate + Brent Day-11 COGS + IDR import-COGS"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram send failed (proxy HTTP 403); stdout fallback used"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-17T04:35:39Z",
       "routine": "midday",
@@ -47118,6 +47057,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Zero positions held. No cuts, no stop tightens, no thesis exits. Cash 100% (equity IDR 9.716B)."
+    },
+    {
+      "timestamp": "2026-11-24T08:19:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD Wk 32 Day 2 CLOSE: IDR 9.716B (0.00% daily). 0 positions; 100% cash. Day 125 since KLBF hard-cut. 32nd consecutive zero-trade week Day 2 CLOSE. 113 consecutive zero daily P&L sessions. IHSG Tue Nov 24 PENDING (4-day backlog); Wed Nov 18 FRESHEST 5,247.88 Day-6 carry; alpha +28.42pp. DD -3.10% from peak. No risk alerts.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 164 EOD snapshot committed"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -47184,7 +47135,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-23T08:20:00Z",
+  "last_updated": "2026-11-24T08:15:00Z",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
