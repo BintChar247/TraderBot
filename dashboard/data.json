@@ -42302,12 +42302,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-16T04:36:16Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "n=0 positions; midday scan mechanically vacuous. All hard-cut/tighten/thesis steps skipped. Book fully de-risked Day 61; 100% cash."
-    },
-    {
       "timestamp": "2026-09-16T08:21:09Z",
       "routine": "daily-summary",
       "status": "success",
@@ -46898,6 +46892,40 @@
         {
           "type": "research",
           "detail": "Day 163 EOD snapshot committed; IHSG Mon Nov 23 close PENDING multi-source (3-day backlog Thu-Fri-Mon); dashboard+RISK-STATE updated"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-24T00:07:23Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Tue Nov 24 2026 Wk 32 Day 2 OPEN: 50-ticker scan complete. 2 candidates scored >=6 (BBCA 6, BBRI 6) - both mechanical SKIP. Universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 Fri Nov 20 CLOSE carry maintained; gap 3.25-4.50/5 STILL BINDING. BI RDG Nov 17-18 SURPRISE HIKE 25bp to 6.00% Day T+6 absorption (first HIKE under Destry; DF +25bp to 5.25%). Destry-HAWKISH-PIVOT Day-6. IDR Stage-5 pierced Day-25 under HIKE-reinforced defense. MSCI STANDALONE Day T+40 (through Apr 30 2027). DQG-Day-195 outage persists (yfinance 403 + GoAPI unset). Foreign-flow Wk 31 weekly net BUY Rp 462B Katadata (BBCA most bought); Big-4 Thu Nov 19 BBCA Rp 321B net-SELL heaviest. Brent crash Day-16 COGS-relief ~$91-92 sustained. IHSG Thu Nov 19 5,194.14 Bisnis+Kumparan+RCTIplus triple-source NEW FRESHEST Day-3 (supersedes Wed Nov 18 5,247.88); Fri Nov 20 + Mon Nov 23 PENDING 2-day backlog. Alpha carry ~+30.06pp Thu Nov 19 reconciled basis. JSMR EGM Wed Nov 25 T-1 tomorrow LMJ+TOL->JTT merger. BRPT+BRMS passive outflow Dec 1 effective T+7 approaches (Mirae recalc ~Rp 980B). 32nd CONSECUTIVE ZERO-TRADE WEEK Day 2 OPEN target. Day 125 since KLBF hard-cut Jul 6. 115 consecutive sessions 0.00% daily P&L. 100% cash IDR 9,716,207,500 maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 watchlist LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored >=6 (BBCA 6 Q3 BEAT narrative + HIKE-NIM; BBRI 6 Q3 absolute leader + contrarian Thu outlier gain) - both mechanical SKIP under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 - Q3 BEAT +9% NIM +30bp; Nov 19 5,650 (-1.74%); foreign heaviest net-SELL Rp 321.28B; TP 6,775; HIKE-NIM countersignal; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 - Q3 Rp 48.2T absolute leader; Nov 19 3,090 (+1.64%) contrarian big-4 outlier; TP 3,360; SKIP (gate)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Thu Nov 19 FRESHEST 5,194.14 Bisnis+Kumparan+RCTIplus triple-source Day-3 (supersedes Wed Nov 18 5,247.88 Day-4 anchor); Fri Nov 20 + Mon Nov 23 PENDING 2-day backlog; IDR Jisdor Nov 17-19 band 18,244-18,275 Stage 5 Day-25; Brent $91-92 Day-16 COGS-relief"
+        },
+        {
+          "type": "calendar",
+          "detail": "JSMR EGM Wed Nov 25 T-1 tomorrow LMJ+TOL->JTT merger; BRPT+BRMS MSCI passive outflow Dec 1 effective T+7 approaches"
         }
       ]
     }
