@@ -42245,6 +42245,202 @@
         false,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 NP +9% YoY; NIM +30bp; HIKE-NIM countersignal under Destry hawkish pivot Day-6; foreign heaviest net-SELL Thu Nov 19 Rp 321B; TP 6,775 Kontan.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI HIKE 25bp Day T+6 absorption; Destry-HAWKISH-PIVOT Day-6 trajectory"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: (a) IDR Stage-5 pierce Day-25 band 18,244-18,275 FAIL + (c) MSCI STANDALONE Day T+40 partial 0.50-1.00/5 FAIL + (d) foreign-flow Mon Nov 16 interrupt FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 32 Day 2; Day 125 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-195 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. BI HIKE 25bp SURPRISE Nov 18 + Destry-HAWKISH-PIVOT Day-6 reinforce gate persistence; Q3 BEAT cluster narrative does NOT override Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 48.2T absolute leader; Nov 19 Kontan +1.64% contrarian outlier under HIKE absorption; foreign smallest big-4 net-SELL Rp 10.01B; TP 3,360 'accumulate buy'.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI HIKE 25bp Day T+6 absorption; Destry-HAWKISH-PIVOT Day-6 trajectory"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: (a) IDR Stage-5 pierce Day-25 band 18,244-18,275 FAIL + (c) MSCI STANDALONE Day T+40 partial 0.50-1.00/5 FAIL + (d) foreign-flow Mon Nov 16 interrupt FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 32 Day 2; Day 125 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-195 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. BI HIKE 25bp SURPRISE Nov 18 + Destry-HAWKISH-PIVOT Day-6 reinforce gate persistence; Q3 BEAT cluster narrative does NOT override Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BMRI",
+      "action": "SKIP",
+      "date": "2026-11-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 +14% BEAT cluster narrative; HIKE-NIM countersignal under Destry hawkish pivot Day-6; TP 5,375 implied +37% but regime pre-blocks.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI HIKE 25bp Day T+6 absorption; Destry-HAWKISH-PIVOT Day-6 trajectory"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: (a) IDR Stage-5 pierce Day-25 band 18,244-18,275 FAIL + (c) MSCI STANDALONE Day T+40 partial 0.50-1.00/5 FAIL + (d) foreign-flow Mon Nov 16 interrupt FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 32 Day 2; Day 125 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-195 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. BI HIKE 25bp SURPRISE Nov 18 + Destry-HAWKISH-PIVOT Day-6 reinforce gate persistence; Q3 BEAT cluster narrative does NOT override Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "ticker": "BBNI",
+      "action": "SKIP",
+      "date": "2026-11-24",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 +6.62% EPS loan +22%; only net-BUY big-4 Thu Nov 19 Rp 7.64B; TP 4,230 Kontan; HIKE-NIM headwind.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Q3 BEAT cluster carry; BI HIKE 25bp Day T+6 absorption; Destry-HAWKISH-PIVOT Day-6 trajectory"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE \u2014 INTENSIFIED; crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required"
+        },
+        {
+          "type": "risk",
+          "label": "Gate pre-block: (a) IDR Stage-5 pierce Day-25 band 18,244-18,275 FAIL + (c) MSCI STANDALONE Day T+40 partial 0.50-1.00/5 FAIL + (d) foreign-flow Mon Nov 16 interrupt FAIL"
+        },
+        {
+          "type": "sizing",
+          "label": "0% (100% cash sustained Wk 32 Day 2; Day 125 since Jul 6 KLBF hard-cut)"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-195 outage \u2014 no multi-source fresh price cluster saturable"
+        }
+      ],
+      "reasoning": "SKIP: crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION; gap 3.25-4.50/5 STILL BINDING. BI HIKE 25bp SURPRISE Nov 18 + Destry-HAWKISH-PIVOT Day-6 reinforce gate persistence; Q3 BEAT cluster narrative does NOT override Hard Rule 2026-07-17.",
+      "gate_results": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
     }
   ],
   "stats": {
@@ -42301,18 +42497,6 @@
     "updated": "2026-11-23"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-16T08:21:09Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Wk 22 Day 3: IDR 9.72B (0.00% today). Alpha -0.62pp Wed provisional (compression Day-1). Zero positions Day 61. Trades this week: 0/3. Tue reconciled 6,461.15 supersedes provisional; Wed sesi I +0.62% to 6,501.35 (BMRI ex-div T-0 absorbed). BI-RDG/Fed FOMC Thu T-0 double-binary DECISION DAY imminent.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 108 EOD snapshot committed; Tue Sep 15 reconciled close 6,461.15 supersedes provisional 6,483; Wed Sep 16 sesi I 6,501.35 provisional +0.62%; alpha compression episode Day-1 -0.53pp; RISK-STATE + dashboard updated"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-17T00:10:23Z",
       "routine": "pre-market",
@@ -46926,6 +47110,42 @@
         {
           "type": "calendar",
           "detail": "JSMR EGM Wed Nov 25 T-1 tomorrow LMJ+TOL->JTT merger; BRPT+BRMS MSCI passive outflow Dec 1 effective T+7 approaches"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-24T02:17:26Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. 32nd-consecutive zero-trade-week target Day 2; universal mechanical SKIP for all 50 watchlist under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 STILL BINDING); BI HIKE 25bp Day T+6 + Destry-HAWKISH-PIVOT Day-6 + IDR Stage-5 pierce Day-25 persist.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "gate pre-block (a)/(c)/(d)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "gate pre-block (a)/(c)/(d)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BMRI",
+          "detail": "gate pre-block (a)/(c)/(d)"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBNI",
+          "detail": "gate pre-block (a)/(c)/(d)"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-195 outage persists (yfinance 403 + GoAPI unset); WebSearch cluster path"
+        },
+        {
+          "type": "warning",
+          "detail": "notification channel BLOCKED 8th+ consecutive week (Telegram 403 via proxy)"
         }
       ]
     }

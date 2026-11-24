@@ -17579,3 +17579,18 @@ _(none — book fully de-risked Day 120 since Mon Jul 6 KLBF hard-cut; 100% cash
 - **dashboard/data.json updated:** 2026-11-23 EOD entry appended (ihsg_close null — Mon Nov 23 PENDING; Wed Nov 18 FRESHEST 5,247.88 Day-5 carry; portfolio_value 9,716,207,500; cumulative_pnl_pct -2.84; ihsg_cumulative_pct -31.26; alpha_pct +28.42pp Wed Nov 18 reconciled basis Day-5 unchanged; day_label Wk 32 Day 1 CLOSE Q4-Week-9-Day-1 post-cabinet-reshuffle-Day-50 Post-BI-RDG-Day-T+5-HIKE-25bp-to-6% Destry-HAWKISH-PIVOT-Day-5 MSCI-STANDALONE-overlay-Day-T+39 MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+12 Day-124-milestone-since-KLBF-hard-cut HSC-exclusion-Day-20 BEI-suspension-UMA-Day-18 IDR-Stage-5-pierced-Day-24-band foreign-flow-Wk-31-weekly-net-BUY-Rp-462B Brent-crash-Day-15-COGS-RELIEF-~$90-93-band-sustained).
 - **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-11-23.
 - **Notification path:** scripts/notify.sh EOD summary dispatched per scheduler-mandated format; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID exported inline per scheduler prompt.
+
+### 2026-11-24 09:15 WIB — MARKET-OPEN: NO TRADES (32nd consecutive zero-trade week target Day 2)
+
+- **Decision:** HOLD — universal mechanical SKIP applied to all 50 watchlist tickers per pre-market plan (RESEARCH-LOG.md 2026-11-24 entry).
+- **Regime:** DEFENSIVE — INTENSIFIED — CASCADE-INFLECTION-CONFIRMED-DAY125 + DESTRY-HAWKISH-PIVOT-Day-6 + IDR-STAGE-5-PIERCED-Day-25 + CRISIS-TRACK-GATE FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 STILL BINDING vs 5.00/5 required DE-ACTIVATION).
+- **Portfolio state:** Equity IDR 9,716,207,500; cash IDR 9,716,207,500 (100%); 0 positions (Day 125 since KLBF hard-cut Jul 6; 115 consecutive sessions 0.00% daily P&L).
+- **Trades this week:** 0 of 3 allowed (Wk 32 Day 2 OPEN); YTD trades 4 closed (all hard-cuts).
+- **Candidates evaluated (universal SKIP):** BBCA 5,650 (gate pre-block), BBRI 3,090 (gate pre-block), BMRI 3,910 (gate pre-block), BBNI 3,580 (gate pre-block). All 46 remaining watchlist tickers: gate pre-block + sector/DQG overlays.
+- **Gate-check summary:** No candidates reached STEP 3 execution (research-stage pre-block). Gate (a) IDR Stage-5 pierce 18,244-18,275 FAIL; (c) MSCI STANDALONE Day T+40 partial 0.50-1.00/5 FAIL; (d) foreign-flow Mon Nov 16 Katadata overall net SELL Rp 20.76B interrupt FAIL. Macro-stability criterion (b) binding at worst bucket 0.00-0.25/5 under HIKE-reinforced defense.
+- **Stops:** none held → no stop-tightening or hard-cut triggers.
+- **Price source:** WebSearch cluster per pre-market research (yfinance 403 + GoAPI unset DQG-Day-195); no fresh broker.sh quote cluster saturable.
+- **MACRO events in-session:** BI RDG Nov 17-18 SURPRISE HIKE 25bp absorption Day T+6; Destry-HAWKISH-PIVOT Day-6; LQ45/IDX80 rebalance Day T+6; BRPT+BRMS passive outflow Dec 1 effective T+7 pre-positioning watch; JSMR EGM Wed Nov 25 T-1 tomorrow.
+- **Risk alerts:** none triggered. Daily P&L 0.00% (>-2% cap OK). Weekly P&L 0.00% (>-5% cap OK). DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap). No positions → no -6% warnings, no -7% hard-cut triggers. No halt flags.
+- **dashboard/data.json updated:** 4 × SKIP decisions appended (BBCA/BBRI/BMRI/BBNI) under 2026-11-24 09:15 WIB per STEP 6b.
+- **Next scheduled touchpoint:** 11:30 WIB midday scan (zero positions → mechanically vacuous).
