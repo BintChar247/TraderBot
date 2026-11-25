@@ -42612,87 +42612,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-18T02:17:21Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Wk 22 Day 5 CLOSE \u2014 22nd consecutive zero-trade week candidate continues. Crisis-track engagement gate ACTIVATED ~1.05-1.25/5 (3.85-4.00/5 gap binding wider post-FOMC-hawkish-hike-Day-2-partial-relief). All 13 candidates \u22656/10 pre-blocked.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "R:R 1.86:1 marginal FAIL + DQG cluster FAIL + crisis-track gate"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "DQG cluster FAIL + crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "Crisis-track gate + strike-1 sector-watch"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "Crisis-track gate + ex-div catalyst complete"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "PTBA",
-          "detail": "Coal 2-strike sector-exit binds + crisis-track"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "Crisis-track gate ACTIVATED"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "Crisis-track gate + FADE-pattern MEDIUM 6th obs"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "Crisis-track gate + Defensive-Quality SUSPENDED"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-134 outage persists (yfinance+GoAPI blocked); WebSearch multi-source override operational"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram HTTP 403 CONNECT tunnel failed; stdout fallback"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-18T04:35:53Z",
       "routine": "midday",
       "status": "success",
@@ -47238,6 +47157,12 @@
           "detail": "BRPT+BRMS passive outflow Dec 1 effective T+6 (Mon Nov 30 close cutoff); Mirae recalc ~Rp 980B combined"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-25T04:35:04Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Midday scan mechanically vacuous: n=0 positions (Day 126 since KLBF hard-cut Jul 6; Wk 32 Day 3 \u2014 32nd consec zero-trade week). No cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
