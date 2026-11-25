@@ -2583,6 +2583,21 @@
       "trades_today": 0,
       "trades_this_week": 0,
       "notes": "EOD Wk 32 Day 2 CLOSE. 0 positions; 100% cash IDR 9.716B. Day 125 since KLBF hard-cut Jul 6. 32nd consecutive zero-trade week Day 2 CLOSE. Market-open 09:15 universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 binding). Midday + EOD mechanically vacuous (n=0). IHSG Tue Nov 24 sesi II PENDING; 4-day backlog (Thu Nov 19 + Fri Nov 20 + Mon Nov 23 + Tue Nov 24); Wed Nov 18 FRESHEST 5,247.88 Day-6 carry; alpha +28.42pp unchanged. IDR Stage 5 pierced Day-25 under HIKE-reinforced defense + Destry-HAWKISH-PIVOT Day-6. MSCI STANDALONE Day T+40 (through Apr 30 2027). DQG-Day-195 outage persists. No risk alerts."
+    },
+    {
+      "date": "2026-11-25",
+      "day_label": "Day 165",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -31.26,
+      "alpha_pct": 28.42,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -42612,12 +42627,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-18T04:35:53Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "No positions (100% cash Day 62). No cuts, no stops to tighten."
-    },
-    {
       "timestamp": "2026-09-18T08:21:25Z",
       "routine": "daily-summary",
       "status": "success",
@@ -47163,6 +47172,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "Midday scan mechanically vacuous: n=0 positions (Day 126 since KLBF hard-cut Jul 6; Wk 32 Day 3 \u2014 32nd consec zero-trade week). No cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-11-25T08:18:50Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD Day 165: IDR 9.72B (0.00%). Alpha \u2248 +28.42pp (Nov 18 anchor Day-7 carry). 0 positions. Trades this week 0/3 (32nd consecutive zero-trade wk Day 3 CLOSE). IHSG Nov 25 PENDING (DQG-196 outage). Telegram proxy 403 \u2014 stdout fallback.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 165 EOD snapshot committed; n=0 positions; 5-day IHSG backlog; cumulative alpha +28.42pp Day-7 carry"
+        }
+      ]
     }
   ],
   "exposure": {
