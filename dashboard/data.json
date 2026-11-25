@@ -42514,24 +42514,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-17T04:35:39Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "n=0 positions (book fully de-risked Day 62 since Jul 6 KLBF hard-cut). Midday scan mechanically vacuous \u2014 no positions to manage. Wk 22 Day 4 BI RDG DECISION DAY ~13:30 WIB."
-    },
-    {
-      "timestamp": "2026-09-17T08:19:05Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD 2026-09-17: IDR 9.716B (0.00%). IHSG Thu sesi I +0.42% (6,463.61 provisional); daily alpha -0.42pp. Wed reconciled 6,436.85 (-0.38%) superseded sesi-I provisional. 0 positions, 100% cash, 62 consecutive de-risked sessions. Wk 22 Day 4 \u2014 0/3 trades this week. Fed HIKED 25bp overnight; BI RDG decision TODAY 13:30 WIB outcome pending Fri reconciliation. ALPHA-COMPRESSION EPISODE Day-2.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 109 EOD snapshot committed; 62nd consecutive de-risked session; Wk 22 Day 4 continues 22nd consecutive zero-trade week candidate"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-18T00:10:14Z",
       "routine": "pre-market",
       "status": "success",
@@ -47069,6 +47051,86 @@
           "detail": "Day 164 EOD snapshot committed"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-25T07:00:00+07:00",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Wed Nov 25 2026 Wk 32 Day 3 OPEN: 50-ticker scan complete. 2 candidates scored \u22656 (BBCA 6, BBRI 6) \u2014 both mechanical SKIP. Universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 Fri Nov 20 CLOSE carry maintained through Mon Nov 23 + Tue Nov 24; gap 3.25-4.50/5 STILL BINDING. BI RDG Nov 17-18 SURPRISE HIKE 25bp to 6.00% Day T+7 absorption continues (first HIKE under Destry; DF +25bp to 5.25%). IDR Stage-5 pierced Day-26 under HIKE-reinforced defense. MSCI STANDALONE Day T+41 (through Apr 30 2027). DQG-Day-196 outage persists. Foreign-flow Wk 31 weekly aggregate net BUY Rp 462B; Nov 17 Investortrust whole-market net SELL Rp 484.08B counter-signal. JSMR EGM TODAY Wed Nov 25 LMJ+TOL\u2192JTT merger binary. BRPT+BRMS passive outflow Dec 1 effective T+6 window approaches. IHSG Thu Nov 19 5,194.14 Bisnis+Kumparan+RCTIplus triple-source FRESHEST Day-4; Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING 3-day backlog. Brent crash Day-17 COGS-relief ~$91-92 sustained. LME nickel marginal lift to $16,095 Nov 6 cash. 32nd CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN target. Day 126 since KLBF hard-cut Jul 6. 116 consecutive sessions 0.00% daily P&L. 100% cash IDR 9,716,207,500 maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 watchlist LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (BBCA 6 + BBRI 6) \u2014 both mechanical SKIP under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; Nov 19 carry 5,650 (-1.74%); foreign heaviest net-SELL Rp 321.28B; TP 6,775; HIKE-NIM countersignal Day T+7; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; Nov 19 carry 3,090 (+1.64%) contrarian big-4 outlier; TP 3,360; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 5/10 \u2014 Q3 +14% BEAT; Nov 19 carry 3,910 (-0.26%); TP 5,375; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 5/10 \u2014 Q3 +6.62% loan +22%; Nov 19 carry 3,580 (+0.28%) only net-BUY big-4 Thu; TP 4,230; SKIP (gate)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Thu Nov 19 5,194.14 Bisnis+Kumparan+RCTIplus triple-source FRESHEST Day-4; Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING 3-day backlog; IDR Jisdor Nov 17 18,248.4 + Nov 18 18,244.6 + Nov 19 spot 18,275 Stage 5 Day-26 band carry; Brent crash Day-17 $91-92; LME nickel $16,095 Nov 6 marginal lift"
+        },
+        {
+          "type": "event",
+          "ticker": "JSMR",
+          "detail": "EGM TODAY Wed Nov 25: LMJ+TOL\u2192JTT merger + AoA amendment + board changes binary (n=0 positions \u2014 mechanically vacuous)"
+        },
+        {
+          "type": "event",
+          "detail": "BRPT+BRMS MSCI Global Standard removal passive outflow Dec 1 effective T+6 (Mon Nov 30 close cutoff); Mirae recalc ~Rp 980B combined"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-25T00:07:27Z",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Wed Nov 25 2026 Wk 32 Day 3 OPEN: 50-ticker scan complete. 2 candidates \u22656 (BBCA, BBRI) \u2014 both mechanical SKIP under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50/5 STILL BINDING). BI HIKE Day T+7; Destry-HAWKISH-PIVOT Day-7; IDR Stage-5 pierced Day-26; MSCI-STANDALONE Day T+41; DQG-Day-196. JSMR EGM TODAY LMJ+TOL\u2192JTT merger binary. BRPT+BRMS passive outflow Dec 1 T+6 approaches. 32nd zero-trade week target Day 3.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (BBCA 6 + BBRI 6) \u2014 both mechanical SKIP under crisis-track gate"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; Nov 19 carry 5,650; TP 6,775 (+19.9%); SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; Nov 19 carry 3,090 (+1.64%) contrarian outlier; TP 3,360 (+8.7%); SKIP (gate)"
+        },
+        {
+          "type": "event",
+          "ticker": "JSMR",
+          "detail": "EGM TODAY Wed Nov 25 LMJ+TOL\u2192JTT merger binary (n=0 positions \u2014 mechanically vacuous)"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -47081,61 +47143,49 @@
     "equity_pct": 0.0
   },
   "macro": {
-    "ihsg_level": 5050.42,
-    "ihsg_change_pct": 0.4,
-    "ihsg_date": "2026-11-06",
-    "ihsg_source": "Databoks + Katadata + Bisnis triple-source reconciled",
-    "idr_usd_jisdor": 18130,
-    "idr_usd_date": "2026-11-06",
-    "idr_usd_source": "Kontan secondary-source",
-    "idr_stage": "Stage 5 pierced Day-13 carry",
+    "ihsg_level": 5194.14,
+    "ihsg_change_pct": -1.02,
+    "ihsg_date": "2026-11-19",
+    "ihsg_source": "Bisnis + Kumparan + RCTIplus triple-source reconciled FRESHEST Day-4",
+    "idr_usd_jisdor": 18275,
+    "idr_usd_date": "2026-11-19",
+    "idr_usd_source": "Databoks Jisdor Nov 19 spot anchor; Nov 17 Jisdor 18,248.4; Nov 18 Jisdor 18,244.6",
+    "idr_stage": "Stage 5 pierced Day-26 carry band 18,244-18,275",
     "cpi_mom_pct": 0.22,
     "cpi_yoy_pct": 3.23,
     "cpi_core_yoy_pct": 2.56,
     "cpi_date": "2026-10 (BPS release Nov 2)",
-    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-DAY113",
-    "foreign_net_sell_ytd_idrT": -127,
-    "crisis_track_gate_score": "0.00-0.50/5",
-    "msci_next_event": "Nov 11 2026 Index Review announcement (US time) \u2192 Nov 12 WIB; effective Dec 1",
-    "bi_rdg_next": "Nov 17-18 2026 (T-8/T-9)"
+    "regime": "DEFENSIVE \u2014 INTENSIFIED \u2014 CASCADE-INFLECTION-CONFIRMED-Day126 + DESTRY-HAWKISH-PIVOT-Day-7 + IDR-STAGE-5-PIERCED-Day-26 + CRISIS-TRACK-GATE FURTHER-ESCALATED 0.50-1.75/5",
+    "foreign_net_sell_ytd_idrT": -97.6,
+    "crisis_track_gate_score": "0.50-1.75/5 (gap 3.25-4.50/5 STILL BINDING)",
+    "msci_next_event": "BRPT+BRMS passive outflow Dec 1 effective (Mon Nov 30 close cutoff); Mirae recalc ~Rp 980B combined",
+    "bi_rdg_next": "Dec 2026 meeting T-weeks (one economist expects another 25bp hike to 6.25%)"
   },
   "research": {
-    "date": "2026-11-17",
+    "date": "2026-11-25",
     "holiday": false,
-    "as_of_date": "2026-11-17",
+    "as_of_date": "2026-11-25",
     "as_of_time": "07:00 WIB",
-    "as_of_label": "Pre-market 2026-11-17 Wk 31 Day 2 OPEN",
-    "ihsg_last": 5115.04,
-    "ihsg_last_label": "Wed Nov 11 Databoks reconciled 5,115.04 (-0.21%); Mon Nov 9 quadruple-source 5,073.77 Day-6 freshest; Tue Nov 10 + Thu Nov 12 + Fri Nov 13 + Mon Nov 16 pending multi-source \u2014 5-day backlog Tue pre-market",
-    "candidates_scored_ge_6": 4,
+    "as_of_label": "Pre-market 2026-11-25 Wk 32 Day 3 OPEN",
+    "ihsg_last": 5194.14,
+    "ihsg_last_label": "Thu Nov 19 Bisnis+Kumparan+RCTIplus triple-source 5,194.14 (-1.02%) FRESHEST Day-4; Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING multi-source cluster 3-day backlog",
+    "candidates_scored_ge_6": 2,
     "top_candidates": [
-      {
-        "ticker": "BMRI",
-        "score": 7,
-        "catalyst": "Q3 +14% YoY BEAT; 9M +20.7% fastest big-4",
-        "status": "PRE-BLOCKED"
-      },
       {
         "ticker": "BBCA",
         "score": 6,
-        "catalyst": "Q3 +9% YoY; NIM +30bp QoQ EXPANSION",
+        "catalyst": "Q3 BEAT +9% NIM +30bp + TP Rp 6,775 Kontan (+19.9%); HIKE-NIM countersignal Day T+7; heaviest foreign-SELL Thu Rp 321B",
         "status": "PRE-BLOCKED"
       },
       {
         "ticker": "BBRI",
         "score": 6,
-        "catalyst": "Q3 Rp 48.2T absolute leader big-4",
-        "status": "PRE-BLOCKED"
-      },
-      {
-        "ticker": "BBNI",
-        "score": 6,
-        "catalyst": "9M +6.62%; loan +22% fastest big-4",
+        "catalyst": "Q3 Rp 48.2T absolute leader + Nov 19 +1.64% contrarian outlier; TP Rp 3,360 Kontan (+8.7%); smallest big-4 net-SELL Thu",
         "status": "PRE-BLOCKED"
       }
     ]
   },
-  "last_updated": "2026-11-24T08:15:00Z",
+  "last_updated": "2026-11-25T07:00:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
@@ -47145,22 +47195,20 @@
     "ihsg_source": "Beritamoneter sesi I + Periskop sesi II open 2-source cluster; Journalarta post-market ~6,055 single-source secondary signal"
   },
   "pre_market": {
-    "date": "2026-11-19",
-    "day_label": "Wk 31 Day 4 OPEN \u2014 Q4-2026-Week-8-Day-4 \u2014 Thu Nov 19 \u2014 Day 161 trial / Day 120 since KLBF hard-cut \u2014 31ST CONSECUTIVE ZERO-TRADE WEEK Day 4 OPEN target \u2014 Post-BI-RDG-Nov-17-18-Day-T+0-outcome-reconcile-overnight \u2014 MSCI-Nov-11-BINARY-RESOLVED-Status-Quo-Day-T+8 \u2014 MSCI-STANDALONE-overlay-Day-T+35 \u2014 DQG-Day-190 \u2014 IDR-Stage-5-pierced-Day-22-band-18,080-18,241 \u2014 LQ45/IDX80-rebalance-effective-Day-T+1 \u2014 Crisis-track-gate-0.50-1.75/5-maintained-gap-3.25-4.50-STILL-BINDING",
-    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day120-Wk31-Day-4-OPEN-31ST-CONSECUTIVE-ZERO-TRADE-WEEK-Day-4-target-Post-BI-RDG-Nov-17-18-Day-T+0-outcome-reconcile-MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+8-MSCI-STANDALONE-Day-T+35-DQG-Day-190-IDR-Stage-5-Day-22-band-18,080-18,241-Brent-crash-Day-11-COGS-RELIEF-foreign-flow-3-consec-net-BUY-INTERRUPTED-Fri-Nov-13-net-SELL-Rp229.77B-LQ45-IDX80-rebalance-effective-Day-T+1",
-    "ihsg_last_reconciled": "Mon Nov 16 5,320.98 (-0.44%) Databoks + CNBC + Bisnis 3-source FRESH RECONCILE anchor Day-4; Fri Nov 13 5,344.40 (+1.78%) Databoks Day-5 carry; Wk Nov 9-13 cumulative +5.82%; Tue Nov 17 + Wed Nov 18 PENDING multi-source; DQG-Day-190",
-    "idr_last": "Thu Nov 12 Jisdor Databoks 18,232 / Metrotv 18,241 2-source FRESH RECONCILE; Tue Nov 10 Jisdor Databoks 18,096 fresh; Stage 5 pierced Day-22 band 18,080-18,241 persistence; Fri Nov 13 + Mon Nov 16 + Tue Nov 17 + Wed Nov 18 Jisdor NOT SURFACED",
-    "brent_last": "~$90-93 band Day-11 continuation (TRADE-LOG carry); Mon Nov 9 -5.8% baseline; COGS-RELIEF single-direction; no fresh same-day fix surfaced",
-    "candidates_scored_6plus": 4,
+    "date": "2026-11-25",
+    "day_label": "Wk 32 Day 3 OPEN \u2014 Q4-2026-Week-9-Day-3 \u2014 Wed Nov 25 \u2014 Day 167 trial / Day 126 since KLBF hard-cut \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN target \u2014 Post-BI-RDG-Nov-17-18-Day-T+7-HIKE-25bp-to-6%-first-hike-under-Destry \u2014 Destry-HAWKISH-PIVOT-Day-7 \u2014 MSCI-STANDALONE-Day-T+41 (through Apr 30 2027) \u2014 MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+14 \u2014 DQG-Day-196 \u2014 IDR-Stage-5-pierced-Day-26-band-18,244-18,275 \u2014 JSMR-EGM-TODAY \u2014 BRPT+BRMS-passive-outflow-Dec-1-effective-T+6 \u2014 Crisis-track-gate-0.50-1.75/5-maintained-gap-3.25-4.50-STILL-BINDING",
+    "regime_label": "DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-Day126-Wk32-Day-3-OPEN-32ND-CONSECUTIVE-ZERO-TRADE-WEEK-Day-3-target-Post-BI-RDG-Nov-17-18-Day-T+7-HIKE-25bp-to-6%-Destry-HAWKISH-PIVOT-Day-7-MSCI-STANDALONE-overlay-Day-T+41-MSCI-Nov-11-binary-RESOLVED-status-quo-Day-T+14-DQG-Day-196-IDR-Stage-5-pierced-Day-26-JSMR-EGM-TODAY-BRPT+BRMS-Dec-1-T+6-Crisis-track-gate-0.50-1.75/5-gap-3.25-4.50-STILL-BINDING",
+    "ihsg_last_reconciled": 5194.14,
+    "idr_last": 18275,
+    "brent_last": 91.55,
+    "candidates_scored_6plus": 2,
     "candidates_tickers": [
       "BBCA",
-      "BBRI",
-      "BMRI",
-      "BBNI"
+      "BBRI"
     ],
-    "candidates_status": "ALL PRE-BLOCKED mechanically \u2014 crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 vs 5.00/5 required DE-ACTIVATION threshold; gap 3.25-4.50/5 STILL BINDING; universal SKIP applied cleanly. Q3 BEATs and BI RDG outcome absorption do NOT override gate per Hard Rule 2026-07-17.",
-    "top_risk": "BI RDG Day T+0 outcome absorption overnight (base case HOLD 5.75% + DF 5.00%; 3rd-under-Destry) + IDR Stage-5 pierced Day-22 band 18,080-18,241 + MSCI STANDALONE Day T+35 through Apr 30 2027 + DQG-Day-190 outage + Foreign-flow 3-consec INTERRUPTED Fri Nov 13 net SELL Rp229.77B + Dec 1 passive outflow T+12 Rp 2.77T + Nvidia-led US tech selloff carry-through + LQ45/IDX80 rebalance effective Day T+1",
-    "updated": "2026-11-19T00:11:00Z"
+    "candidates_status": "both PRE-BLOCKED under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5; gap 3.25-4.50/5 STILL BINDING",
+    "top_risk": "JSMR EGM TODAY Wed Nov 25 (LMJ+TOL\u2192JTT merger binary) + BRPT+BRMS passive outflow Dec 1 effective T+6 window + IHSG 3-day multi-source backlog Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING + BI HIKE Day T+7 absorption continues + December +25bp hike expectation to 6.25%",
+    "updated": "2026-11-25T07:00:00+07:00"
   },
   "activity": [
     {
@@ -47254,6 +47302,55 @@
         {
           "type": "macro",
           "detail": "IHSG Wed Nov 18 FRESHEST 5,247.88 triple-source Day-4 carry; Thu Nov 19 Bisnis 5,194 vs JournalArta 5,181.14 cluster disagreement + Fri Nov 20 PENDING 2-day backlog; IDR Jisdor Nov 17 18,248.4 + Nov 18 18,244.6 + Nov 19 spot 18,275 Stage 5 Day-24"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-25T07:00:00+07:00",
+      "routine": "pre-market",
+      "status": "warning",
+      "summary": "Pre-market Wed Nov 25 2026 Wk 32 Day 3 OPEN: 50-ticker scan complete. 2 candidates scored \u22656 (BBCA 6, BBRI 6) \u2014 both mechanical SKIP. Universal SKIP all 50 watchlist under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 Fri Nov 20 CLOSE carry maintained through Mon Nov 23 + Tue Nov 24; gap 3.25-4.50/5 STILL BINDING. BI RDG Nov 17-18 SURPRISE HIKE 25bp to 6.00% Day T+7 absorption continues (first HIKE under Destry; DF +25bp to 5.25%). IDR Stage-5 pierced Day-26 under HIKE-reinforced defense. MSCI STANDALONE Day T+41 (through Apr 30 2027). DQG-Day-196 outage persists. Foreign-flow Wk 31 weekly aggregate net BUY Rp 462B; Nov 17 Investortrust whole-market net SELL Rp 484.08B counter-signal. JSMR EGM TODAY Wed Nov 25 LMJ+TOL\u2192JTT merger binary. BRPT+BRMS passive outflow Dec 1 effective T+6 window approaches. IHSG Thu Nov 19 5,194.14 Bisnis+Kumparan+RCTIplus triple-source FRESHEST Day-4; Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING 3-day backlog. Brent crash Day-17 COGS-relief ~$91-92 sustained. LME nickel marginal lift to $16,095 Nov 6 cash. 32nd CONSECUTIVE ZERO-TRADE WEEK Day 3 OPEN target. Day 126 since KLBF hard-cut Jul 6. 116 consecutive sessions 0.00% daily P&L. 100% cash IDR 9,716,207,500 maintained.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "50 tickers scanned (Tier 4 watchlist LQ45+non-LQ45 across 14 sectors)"
+        },
+        {
+          "type": "research",
+          "detail": "2 candidates scored \u22656 (BBCA 6 + BBRI 6) \u2014 both mechanical SKIP under crisis-track gate FURTHER-ESCALATED 0.50-1.75/5"
+        },
+        {
+          "type": "research",
+          "ticker": "BBCA",
+          "detail": "score 6/10 \u2014 Q3 BEAT +9% NIM +30bp; Nov 19 carry 5,650 (-1.74%); foreign heaviest net-SELL Rp 321.28B; TP 6,775; HIKE-NIM countersignal Day T+7; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBRI",
+          "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; Nov 19 carry 3,090 (+1.64%) contrarian big-4 outlier; TP 3,360; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BMRI",
+          "detail": "score 5/10 \u2014 Q3 +14% BEAT; Nov 19 carry 3,910 (-0.26%); TP 5,375; SKIP (gate)"
+        },
+        {
+          "type": "research",
+          "ticker": "BBNI",
+          "detail": "score 5/10 \u2014 Q3 +6.62% loan +22%; Nov 19 carry 3,580 (+0.28%) only net-BUY big-4 Thu; TP 4,230; SKIP (gate)"
+        },
+        {
+          "type": "macro",
+          "detail": "IHSG Thu Nov 19 5,194.14 Bisnis+Kumparan+RCTIplus triple-source FRESHEST Day-4; Fri Nov 20 + Mon Nov 23 + Tue Nov 24 PENDING 3-day backlog; IDR Jisdor Nov 17 18,248.4 + Nov 18 18,244.6 + Nov 19 spot 18,275 Stage 5 Day-26 band carry; Brent crash Day-17 $91-92; LME nickel $16,095 Nov 6 marginal lift"
+        },
+        {
+          "type": "event",
+          "ticker": "JSMR",
+          "detail": "EGM TODAY Wed Nov 25: LMJ+TOL\u2192JTT merger + AoA amendment + board changes binary (n=0 positions \u2014 mechanically vacuous)"
+        },
+        {
+          "type": "event",
+          "detail": "BRPT+BRMS MSCI Global Standard removal passive outflow Dec 1 effective T+6 (Mon Nov 30 close cutoff); Mirae recalc ~Rp 980B combined"
         }
       ]
     }
