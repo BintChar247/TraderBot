@@ -42815,79 +42815,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-21T02:17:53Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Wk 23 Day 1 OPEN \u2014 BI RDG Sep 22-23 T-1/T-0 binary approach. 13 candidates \u22656/10 (UNVR/ICBP/ASII/BBCA/BBRI/BMRI/BBNI/PTBA/ANTM/INDF/TLKM/MEDC/PGAS) all pre-blocked by crisis-track engagement gate ACTIVATED (~0.65-0.90/5; 4.10-4.35/5 gap BINDING WIDER via IDR-Day-1-BROKEN to 17,812 offsetting Brent-sub-00 + VIX-cool + US-10Y-ease). 23rd consecutive zero-trade week begins. Book fully de-risked Day 64. 100% cash IDR 9,716,207,500.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "crisis-track + R:R 1.67:1 fails"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track + R:R 1.55:1 fails"
-        },
-        {
-          "type": "skip",
-          "ticker": "ASII",
-          "detail": "crisis-track + R:R 1.41:1 fails"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track + BI-RDG binary T-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBRI",
-          "detail": "crisis-track + post-buyback-expiry strike-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "BMRI",
-          "detail": "crisis-track + BI-RDG binary T-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "BBNI",
-          "detail": "crisis-track + BI-RDG binary T-1"
-        },
-        {
-          "type": "skip",
-          "ticker": "PTBA",
-          "detail": "coal 2-strike sector-EXIT binds"
-        },
-        {
-          "type": "skip",
-          "ticker": "ANTM",
-          "detail": "crisis-track + LME sub-$17K"
-        },
-        {
-          "type": "skip",
-          "ticker": "INDF",
-          "detail": "crisis-track + mixed input-cost vectors"
-        },
-        {
-          "type": "skip",
-          "ticker": "TLKM",
-          "detail": "crisis-track + FADE-pattern MEDIUM obs-7"
-        },
-        {
-          "type": "skip",
-          "ticker": "MEDC",
-          "detail": "crisis-track + downgrade 7\u21926"
-        },
-        {
-          "type": "skip",
-          "ticker": "PGAS",
-          "detail": "crisis-track + gas-spread ATTENUATED downgrade 7\u21926"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-21T04:36:59Z",
       "routine": "midday",
       "status": "success",
@@ -47371,6 +47298,12 @@
           "detail": "notification channel BLOCKED 8+ weeks (Telegram proxy 403)"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-26T04:35:40Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "Midday NO-ACTION (n=0 positions; trivially vacuous). Wk 32 Day 4 \u2014 32nd consecutive zero-trade week Day 4 midday. No hard cuts, no stop tightenings, no thesis exits."
     }
   ],
   "exposure": {
