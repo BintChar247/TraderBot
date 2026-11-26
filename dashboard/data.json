@@ -2598,6 +2598,21 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-11-26",
+      "day_label": "Day 166",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_cumulative_pct": -31.26,
+      "alpha_pct": 28.42,
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0
     }
   ],
   "positions": [],
@@ -42761,7 +42776,7 @@
     }
   ],
   "stats": {
-    "trial_days_elapsed": 164,
+    "trial_days_elapsed": 166,
     "trial_window": "April 20 - May 2, 2026 (extended; current Day 162 Wk 31 Day 5 CLOSE WEEK-CLOSE 31st-consecutive-zero-trade-week-CONFIRMED-CLOSE post-cabinet-reshuffle Day-47 Post-BI-RDG-NOV-17-18-Day-T+2-RATE-DECISION-RECONCILED-HIKE-25bp-to-6%-first-hike-under-Destry MSCI-STANDALONE-overlay-Day-T+36 MSCI-Nov-11-binary-RESOLVED-status-quo-BRPT-BRMS-removed-no-LQ45-removal HSC-exclusion-methodology-shift-Day-17 BEI-new-suspension-UMA-rules-Nov-2026-Day-15 IDR-Stage-5-pierced-Day-23-carry foreign-flow-YTD-~Rp-98-127T+Fri-Nov-6+Mon-Nov-9+Thu-Nov-12-net-BUY-3-consec-provisional Brent-crash-Day-12-COGS-RELIEF-~$90-93-band-sustained 111-consecutive-zero-P&L-sessions)",
     "starting_capital_idr": 10000000000,
     "current_equity_idr": 9716207500,
@@ -42783,19 +42798,19 @@
     "cash_pct": 100.0,
     "positions_count": 0,
     "drawdown_from_peak_pct": -3.1,
-    "updated": "2026-11-24T08:15:00Z",
+    "updated": "2026-11-26T08:17:56Z",
     "portfolio_value": 9716207500,
     "alpha_pct": 28.42,
     "daily_pnl_pct": 0.0,
     "cumulative_alpha_pp": 28.42,
     "positions_open": 0,
     "max_trades_week": 3,
-    "day_number": 164,
-    "last_updated": "2026-11-24T08:15:00Z",
+    "day_number": 166,
+    "last_updated": "2026-11-26T08:17:56Z",
     "open_positions": 0,
-    "days_in_trial": 164,
+    "days_in_trial": 166,
     "week_number": 32,
-    "day_label": "Day 164 \u2014 Wk 32 Day 2 CLOSE EOD \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK Day 2 CLOSE",
+    "day_label": "Day 166 \u2014 Wk 32 Day 4 CLOSE EOD \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE",
     "peak_equity": 10026617500
   },
   "risk": {
@@ -42811,27 +42826,9 @@
     "max_positions": 6,
     "trades_this_week": 0,
     "max_new_trades_week": 3,
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-21T04:36:59Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "All positions healthy (0 positions, 100% cash). No cuts, no stops tightened, no thesis exits. Wk 23 Day 1 BI-RDG Sep 22-23 T-1/T-2 approach \u2014 defensive zero-exposure maintained."
-    },
-    {
-      "timestamp": "2026-09-21T08:20:25Z",
-      "routine": "daily-summary",
-      "status": "success",
-      "summary": "EOD Day 111 Wk 23 Day 1 OPEN: IDR 9,716,207,500 (+0.00% today). Alpha +0.27pp vs IHSG. 0 positions (100% cash Day 64). Trades this week: 0/3. IHSG Mon sesi I 6,423.51 (-0.27%). BI RDG T-0/T-1 tomorrow. Cum alpha +13.02pp.",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "Day 111 EOD snapshot committed; TRADE-LOG + RISK-STATE + dashboard updated"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-22T00:00:00Z",
       "routine": "pre-market",
@@ -47304,6 +47301,24 @@
       "routine": "midday",
       "status": "success",
       "summary": "Midday NO-ACTION (n=0 positions; trivially vacuous). Wk 32 Day 4 \u2014 32nd consecutive zero-trade week Day 4 midday. No hard cuts, no stop tightenings, no thesis exits."
+    },
+    {
+      "timestamp": "2026-11-26T08:17:56Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-11-26 Wk 32 Day 4 CLOSE: equity IDR 9,716,207,500 flat 0.00% (115th consecutive zero-P&L session). 32nd consecutive zero-trade week Day 4 CLOSE. 0 positions. Cumulative -2.84%; alpha +28.42pp (Wed Nov 18 FRESHEST basis Day-8). IHSG Thu Nov 26 PENDING; Nov 19 partial reconcile 5,181.14 (journalarta single-source; Bisnis dual-source 5,194 conflict)."
+    },
+    {
+      "timestamp": "2026-11-26T08:18:00Z",
+      "routine": "daily-summary",
+      "status": "success",
+      "summary": "EOD 2026-11-26 Wk 32 Day 4 CLOSE: equity IDR 9,716,207,500 flat 0.00% (115th consecutive zero-P&L session). 32nd consecutive zero-trade week Day 4 CLOSE. 0 positions. Cumulative -2.84%; alpha +28.42pp (Wed Nov 18 FRESHEST basis Day-8). IHSG Thu Nov 26 PENDING.",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 166 snapshot committed; Nov 19 partial reconcile 5,181.14 single-source; 5-day IHSG backlog persists"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -47358,7 +47373,7 @@
       }
     ]
   },
-  "last_updated": "2026-11-26T09:15:00+07:00",
+  "last_updated": "2026-11-26T15:17:56.106167+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",

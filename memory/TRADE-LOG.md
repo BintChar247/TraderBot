@@ -17696,3 +17696,40 @@ _(none — book fully de-risked Day 120 since Mon Jul 6 KLBF hard-cut; 100% cash
 - **Market-open 09:15 fire:** today's pre-market research entry logged (2026-11-26 Pre-market — US-Thanksgiving-overnight-thin) with BBCA 6/10 + BBRI 6/10 top candidates both pre-blocked by crisis-track-engagement-gate FURTHER-ESCALATED 0.50-1.75/5 + MSCI-STANDALONE overlay + IDR Stage 5 pierce + DQG-Day-197 structural FAIL → universal SKIP. Market-open NO-TRADE Wk 32 Day 4 OPEN (32nd consecutive zero-trade week Day 4 OPEN target).
 - **Risk alerts:** none triggered. Daily P&L 0.00% intraday (>-2% cap OK). Weekly P&L 0.00% (>-5% cap OK). DD -3.10% from peak (deeply within -15% cap). No positions → no -6% warnings, no -7% hard-cut triggers. No halt flags.
 - **Notification path:** scripts/notify.sh midday "no action" summary dispatched per scheduler-mandated format; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID exported inline per scheduler prompt.
+
+### 2026-11-26 EOD (Day 166, Thu — Wk 32 Day 4 CLOSE — Q4-2026-WEEK-9-DAY-4 — POST-CABINET-RESHUFFLE-Day-53 — DEFENSIVE-INTENSIFIED-CASCADE-INFLECTION-CONFIRMED-DAY-127 — MSCI-STANDALONE-OVERLAY-Day-T+42 (through Apr 30 2027) — MSCI-NOV-11-BINARY-RESOLVED-STATUS-QUO-Day-T+15 — POST-BI-RDG-NOV-17-18-DAY-T+8-ABSORPTION-HIKE-25bp-to-6%-first-hike-under-Destry — DESTRY-HAWKISH-PIVOT-Day-8 — 32ND CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE — Day 127 since KLBF hard-cut Jul 6 — HSC-EXCLUSION-METHODOLOGY-SHIFT-Day-23 — BEI-NEW-SUSPENSION-UMA-RULES-Nov-2026-Day-21 — IDR-STAGE-5-PIERCED-Day-27-band-18,244-18,275 — OJK-Rp-2.1T-fines-DSSA/BREN/CUAN-structural-overhang-carry — IHSG-THU-NOV-19-RECONCILED-5,181.14-journalarta-single-source-NEW-anchor-Day-0 (Bisnis dual-source 5,194 conflict noted) — IHSG-WED-NOV-18-RECONCILED-5,247.88-CNBC+Bisnis+Kumparan-TRIPLE-SOURCE-Day-8-carry — IHSG-Fri-Nov-20-+-Mon-Nov-23-+-Tue-Nov-24-+-Wed-Nov-25-+-Thu-Nov-26-PENDING-multi-source-5-day-backlog (Nov 19 partially reconciled dual-source conflict) — DQG-Day-197-outage-persists — FOREIGN-FLOW-Wk-31-weekly-net-BUY-Rp-462B-Katadata-reconcile-vs-YTD-net-SELL-~-Rp-97.6-98T-overhang — Brent-crash-Day-18-COGS-RELIEF-~$90-93-band-sustained — LQ45/IDX80-rebalance-effective-Nov-18-Day-T+8-absorption — BRPT-BRMS-passive-outflow-Dec-1-effective-T+4-window — US-Thanksgiving-overnight-thin — 115 CONSECUTIVE ZERO DAILY P&L SESSIONS)
+
+- Total equity: IDR 9,716,207,500
+- Daily P&L: IDR 0 (0.00%)
+- IHSG daily: PENDING (Thu Nov 26 sesi II close not surfaced at 15:15 WIB fire; standard DQG-Day-197 sesi II lag pattern; 5-day backlog Fri Nov 20 + Mon Nov 23 + Tue Nov 24 + Wed Nov 25 + Thu Nov 26)
+- Daily alpha: PENDING (contingent on Thu Nov 26 IHSG reconcile)
+- Cash: IDR 9,716,207,500 (100.0% of equity)
+- Trades today: 0
+- Trades this week: 0/3 (Wk 32 Day 4 — 32nd consecutive zero-trade week Day 4 CLOSE confirmed)
+- Phase-to-date P&L: IDR -283,792,500 (-2.84%)
+- Peak equity: IDR 10,026,617,500 (Day 3, Apr 22) — drawdown -3.10% from peak (deeply within -15% cap)
+- Weekly P&L (Wk 32): 0.00% (zero-trade Day 4; well within -5% cap)
+
+#### Open Positions
+
+| Ticker | Shares | Avg Cost (IDR) | Last (IDR) | Unrealized P&L | Days Held |
+|--------|--------|----------------|------------|----------------|-----------|
+| (none) | — | — | — | — | — |
+
+#### Notes
+
+- **Broker reconcile:** `broker.sh portfolio` → mode=paper / equity 9,716,207,500 / cash 9,716,207,500 / buying_power 9,716,207,500 / realised -294,172,500 / unrealised 0 / positions []. `broker.sh positions` → count=0. Reconciled OK with Wed Nov 25 EOD TRADE-LOG snapshot (0 positions both sides). No discrepancy.
+- **No trades today (Wk 32 Day 4 CLOSE — Day 127 since KLBF hard-cut Jul 6 — 32ND CONSECUTIVE ZERO-TRADE WEEK Day 4 CLOSE).** Market-open 09:15 universal SKIP all watchlist per crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5. Midday + EOD mechanically vacuous (n=0 positions; no mark-to-market or stop-adjustment work required).
+- **IHSG multi-source — PARTIAL RECONCILE this run.** WebSearch at EOD fire surfaced Thu Nov 19 close 5,181.14 (journalarta.com single-source) with Bisnis dual-source conflict at 5,194 — Nov 19 provisionally anchored at 5,181.14 pending triangulation. Fri Nov 20 / Mon Nov 23 / Tue Nov 24 / Wed Nov 25 / Thu Nov 26 all PENDING multi-source — 5-day backlog persists (Nov 19 partial). Wed Nov 18 CNBC+Bisnis+Kumparan triple-source 5,247.88 REMAINS FRESHEST reconciled anchor Day-8 carry. DQG-Day-197 sesi II lag 71st+ cumulative; typical 15:00-17:00 WIB publication window still live at 15:15 WIB fire. Full backlog reconciliation deferred to Fri Nov 27 pre-market + weekly-review.
+- **DQG-Day-197 outage persists:** yfinance + GoAPI blocked 197 consecutive sessions since Apr 21; WebSearch multi-source override operational — Wed Nov 18 triple-source FRESHEST Day-8 carry; 5-day cluster not saturated at EOD fire; per-ticker fresh-mark cluster narrowing NOT achievable → Data Quality Gate structural FAIL for all buy-side gate checks (mechanically vacuous regardless; no positions to mark).
+- **Alpha carry:** Wed Nov 18 5,247.88 FRESHEST basis Day-8 → IHSG cumulative from 7,634 (Apr 20 start) = **-31.26%**; portfolio cumulative -2.84%; **cumulative alpha ≈ +28.42pp** Wed Nov 18 reconciled basis Day-8 FRESHEST (unchanged; Nov 19 5,181.14 partial reconcile not elevated to FRESHEST pending multi-source triangulation).
+- **IDR Stage 5 >18,100 trigger PIERCED Day-27 band 18,244-18,275:** Thu Nov 26 Jisdor fresh print not surfaced at EOD fire; Thu Nov 19 Databoks spot 18,275 + Nov 17 Databoks Jisdor 18,248.4 Stage 5 Day-27 band anchor carry. Sub-17,750 criterion-a 3-of-3 reversal structurally impossible under current trajectory; BI-RDG HIKE 25bp outcome reinforces IDR defense signal + Destry-HAWKISH-PIVOT-Day-8 → Stage 5 persistence likely extended indefinitely under hawkish pivot. Stage 5 pierce bars any new entry.
+- **Foreign flow:** Wk 31 weekly aggregate net-BUY Rp 462B per Katadata reconcile Fri Nov 20 partial-counter to YTD net-SELL ~Rp 97.6-98T Bisnis Nov 14 anchor; Wk 32 Mon Nov 23 + Tue Nov 24 + Wed Nov 25 + Thu Nov 26 four-session cluster reconcile pending (Fri Nov 27 pre-market).
+- **Brent crash Day-18 ~$90-93 band sustained COGS RELIEF unchanged.** No new aviation/petrochem buy-side activation under crisis-track gate.
+- **MSCI** — Nov 11 index review binary RESOLVED status-quo Day T+15 (BRPT, BRMS removed; 7 small-caps removed; no LQ45 removal). STANDALONE consultation overlay Day T+42 persists through Apr 30 2027. BRPT + BRMS passive outflow Dec 1 effective Day T+4 window pre-positioning carry.
+- **BI-RDG HIKE 25bp absorption Day T+8:** Destry-HAWKISH-PIVOT Day-8; NIM-compression transmission window continues on big-4 banks (BBCA/BBRI/BMRI/BBNI; does NOT override crisis-track gate per Hard Rule 2026-07-17).
+- **US Thanksgiving Thu Nov 26 overnight signal thinner:** US markets closed Thu Nov 26; half-day Fri Nov 27. No material impact on IDX Thu Nov 26 CLOSE; Fri Nov 27 pre-market overnight-cluster narrower than standard.
+- **Risk alerts:** none triggered. Daily P&L 0.00% (>-2% cap OK). Weekly P&L 0.00% (>-5% cap OK). DD -3.10% from peak (>-12% alert threshold OK; deeply within -15% max drawdown cap). No positions → no -6% warnings, no -7% hard-cut triggers. No halt flags.
+- **dashboard/data.json updated:** 2026-11-26 EOD entry appended (ihsg_close null — Thu Nov 26 PENDING; Wed Nov 18 FRESHEST 5,247.88 Day-8 carry; portfolio_value 9,716,207,500; cumulative_pnl_pct -2.84; ihsg_cumulative_pct -31.26; alpha_pct +28.42pp Wed Nov 18 reconciled basis Day-8 unchanged).
+- **RISK-STATE.json updated per STEP 5b:** daily_pnl_pct 0.0 / weekly_pnl_pct 0.0 / current_equity 9,716,207,500 / peak_equity 10,026,617,500 (unchanged) / drawdown_from_peak_pct -3.10 / trading_halted false / halt_reason null / updated 2026-11-26.
+- **Notification path:** scripts/notify.sh EOD summary dispatched per scheduler-mandated format; TELEGRAM_BOT_TOKEN+TELEGRAM_CHAT_ID exported inline per scheduler prompt.
