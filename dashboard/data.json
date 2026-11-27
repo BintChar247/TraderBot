@@ -42773,6 +42773,104 @@
         null,
         false
       ]
+    },
+    {
+      "ticker": "BBCA",
+      "action": "SKIP",
+      "date": "2026-11-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Indonesia's largest private bank; Q3 2026 NIM +30bp BEAT; TP Rp 6,775 Kontan Nov 19 +19.9% upside \u2014 pre-blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "BI HIKE 25bp absorption Day T+9 + Destry-HAWKISH-PIVOT Day-9 NIM-compression countersignal"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED + IDR Stage-5 Day-28 + MSCI STANDALONE Day T+43 + DQG-Day-198"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate FURTHER-ESCALATED 0.50-1.75/5; gap 3.25-4.50 STILL BINDING vs 5.00/5 required"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 universal SKIP; 100% cash maintained 32nd consecutive zero-trade week Day 5"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-198 yfinance+GoAPI blocked \u2014 cluster saturation not achievable"
+        }
+      ],
+      "reasoning": "Hard Rule 2026-07-17 pre-blocks all BUY entries regardless of fundamentals until ALL 5 re-entry criteria met concurrently; criteria (a)/(b)/(c)/(d)/(e) all FAIL at Wk 32 Day 5 OPEN.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "ticker": "BBRI",
+      "action": "SKIP",
+      "date": "2026-11-27",
+      "time": "09:15 WIB",
+      "shares": null,
+      "price": null,
+      "thesis": "Q3 Rp 48.2T absolute profit leader; micro-credit structural moat; Wk 31 foreign-flow top net-BUY Rp 380.49B; TP Rp 3,360 Kontan +8.7% \u2014 pre-blocked by crisis-track engagement gate.",
+      "inputs": [
+        {
+          "type": "catalyst",
+          "label": "Wk 31 foreign-flow top net-BUY Rp 380.49B; Thu Nov 19 contrarian +1.64% outlier"
+        },
+        {
+          "type": "macro",
+          "label": "DEFENSIVE-INTENSIFIED + IDR Stage-5 Day-28 + MSCI STANDALONE Day T+43 + BI HIKE 25bp Day T+9"
+        },
+        {
+          "type": "risk",
+          "label": "Crisis-track gate FURTHER-ESCALATED 0.50-1.75/5; gap 3.25-4.50 STILL BINDING"
+        },
+        {
+          "type": "sizing",
+          "label": "0% \u2014 universal SKIP; 100% cash maintained"
+        },
+        {
+          "type": "warning",
+          "label": "DQG-Day-198 yfinance+GoAPI blocked \u2014 cluster saturation not achievable"
+        }
+      ],
+      "reasoning": "Hard Rule 2026-07-17 pre-blocks all BUY entries regardless of fundamentals until ALL 5 re-entry criteria concurrent; mechanically SKIP same as BBCA.",
+      "gate_results": [
+        null,
+        null,
+        null,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        null,
+        null,
+        null
+      ]
     }
   ],
   "stats": {
@@ -42829,41 +42927,6 @@
     "updated": "2026-11-26"
   },
   "activity_log": [
-    {
-      "timestamp": "2026-09-22T00:11:12Z",
-      "routine": "pre-market",
-      "status": "success",
-      "summary": "Pre-market Day 112 Wk 23 Day 2 BI-RDG-T-0-BINARY-DECISION-DAY (first under Destry). IHSG Mon RECONCILED 6,384.73 (-0.88%) MATERIAL DOWNGRADE from provisional -0.27% (DQG sesi-II-lag 19th cum, gap -0.61pp). US Mon RECORD close (Nasdaq 27,122 record +2.26%, S&P +1.49%, Dow +0.71% best-day-since-early-August). Brent $100.06 Day-3 back to $100 border from Fri $99.29. IDR 17,830 Day-2 broken continuation. 50 tickers scanned; 13 scored \u22656 (BBCA/BBRI/BMRI/BBNI/PTBA/MEDC/PGAS/ANTM/UNVR/ICBP/INDF/TLKM/ASII); ALL pre-blocked at market-open per crisis-track gate ACTIVATED 0.65-0.90/5 + DQG-136 outage + PTBA coal sector-exit. Book fully de-risked Day 65 continues (IDR 9,716,207,500 100% cash). Cum alpha +13.53pp vs IHSG (Mon reconciled basis).",
-      "actions": [
-        {
-          "type": "research",
-          "detail": "50 tickers scanned; 13 candidates scored \u22656"
-        },
-        {
-          "type": "research",
-          "detail": "All 13 pre-blocked (crisis-track + DQG-136 + PTBA coal sector-exit)"
-        },
-        {
-          "type": "research",
-          "ticker": "BBCA",
-          "detail": "score 6/10 \u2014 Big-4 defensive + BI-RDG T-0 binary event exposure"
-        },
-        {
-          "type": "research",
-          "ticker": "UNVR",
-          "detail": "score 6/10 \u2014 Consumer staples defensive + Brent Day-3 back to $100 = Fri COGS-relief partial erosion"
-        },
-        {
-          "type": "research",
-          "ticker": "ICBP",
-          "detail": "score 6/10 \u2014 Q2 core beat carryover + CPO Day-2 recovery + Brent Day-3 back to $100 mixed vectors NEUTRAL"
-        },
-        {
-          "type": "macro",
-          "detail": "BI-RDG T-0 BINARY DECISION EVENT TODAY 13:30-14:30 WIB \u2014 first under Destry Damayanti; hold 5.75% vs surprise-hike binary"
-        }
-      ]
-    },
     {
       "timestamp": "2026-09-22T02:18:31Z",
       "routine": "market-open",
@@ -47300,6 +47363,32 @@
           "type": "research",
           "ticker": "BBRI",
           "detail": "score 6/10 \u2014 Q3 Rp 48.2T absolute leader; contrarian Thu outlier; TP 3,360; SKIP (gate)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-11-27T02:17:15Z",
+      "routine": "market-open",
+      "status": "warning",
+      "summary": "No trades placed. All 50 watchlist tickers universal SKIP under crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 (gap 3.25-4.50 STILL BINDING). Top candidates BBCA/BBRI score 6/10 both pre-blocked. 32nd consecutive zero-trade week Day 5 OPEN. Day 128 since KLBF hard-cut Jul 6. US-Thanksgiving-overnight-thin + Fri half-day. DQG-Day-198 yfinance+GoAPI outage persists.",
+      "actions": [
+        {
+          "type": "skip",
+          "ticker": "BBCA",
+          "detail": "crisis-track gate pre-block"
+        },
+        {
+          "type": "skip",
+          "ticker": "BBRI",
+          "detail": "crisis-track gate pre-block"
+        },
+        {
+          "type": "warning",
+          "detail": "DQG-Day-198 yfinance+GoAPI blocked - WebSearch cluster not saturated"
+        },
+        {
+          "type": "warning",
+          "detail": "Notification channel Telegram-proxy-blocked Wk 24-32 cumulative"
         }
       ]
     }
