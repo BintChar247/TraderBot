@@ -2613,6 +2613,30 @@
       "positions_count": 0,
       "trades_today": 0,
       "trades_this_week": 0
+    },
+    {
+      "date": "2026-11-27",
+      "day_label": "Day 167 \u2014 Wk 32 Day 5 CLOSE / WEEK 32 FULL CLOSE \u2014 Q4-2026-Week-9-Day-5 \u2014 32ND CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE \u2014 Day 128 since KLBF hard-cut Jul 6 \u2014 116 consecutive sessions 0.00% daily P&L \u2014 Destry-HAWKISH-PIVOT-Day-9 \u2014 IDR-Stage-5-pierced-Day-28 \u2014 MSCI-STANDALONE-Day-T+43 \u2014 WEEKLY-REVIEW-FILING-16:00-WIB",
+      "phase": "EOD",
+      "portfolio_value": 9716207500,
+      "cash": 9716207500,
+      "daily_pnl_idr": 0,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -2.84,
+      "ihsg_close": null,
+      "ihsg_close_note": "Fri Nov 27 close PENDING multi-source (DQG-Day-198 sesi II lag); 6-day backlog Fri Nov 20 + Mon-Fri Nov 23-27; Wed Nov 18 FRESHEST 5,247.88 Day-9 carry",
+      "ihsg_cumulative_pct": -31.26,
+      "ihsg_cumulative_basis": "Wed Nov 18 5,247.88 triple-source FRESHEST Day-9 carry (basis from 7,634 Apr 20 start)",
+      "alpha_pct": 28.42,
+      "alpha_pct_basis": "Wed Nov 18 FRESHEST Day-9 carry; Thu Nov 19 single-source 5,181.14 partial not elevated",
+      "positions_count": 0,
+      "trades_today": 0,
+      "trades_this_week": 0,
+      "peak_equity": 10026617500,
+      "drawdown_from_peak_pct": -3.1,
+      "weekly_pnl_pct": 0.0,
+      "halted": false,
+      "halt_reason": null
     }
   ],
   "positions": [],
@@ -42928,12 +42952,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-22T04:36:40Z",
-      "routine": "midday",
-      "status": "success",
-      "summary": "0 positions; 100% cash; no action; regime DEFENSIVE-INTENSIFIED Wk23 Day2 BI-RDG T-0"
-    },
-    {
       "timestamp": "2026-09-22T08:21:10Z",
       "routine": "daily-summary",
       "status": "success",
@@ -47361,6 +47379,18 @@
       "routine": "midday",
       "status": "success",
       "summary": "No open positions (count=0). No cuts, no stop tightenings, no thesis exits. Wk 32 Day 5 (Fri), 32nd consecutive zero-trade week."
+    },
+    {
+      "timestamp": "2026-11-27T08:19:10Z",
+      "routine": "daily-summary",
+      "status": "warning",
+      "summary": "EOD 2026-11-27 Wk 32 Day 5 CLOSE / WEEK 32 FULL CLOSE: equity IDR 9,716,207,500 unchanged; day P&L 0.00% (116 consecutive zero-P&L sessions Day 167); 0 positions 100% cash Day 128 since KLBF hard-cut Jul 6; IHSG Fri Nov 27 close PENDING multi-source cluster not surfaced at 15:15 WIB fire (6-day backlog Fri Nov 20 + Mon-Fri Nov 23-27; Wed Nov 18 FRESHEST 5,247.88 Day-9 carry); alpha carry +28.42pp Wed Nov 18 reconciled Day-9 unchanged; 32ND CONSECUTIVE ZERO-TRADE WEEK FULL CLOSE; crisis-track engagement gate FURTHER-ESCALATED 0.50-1.75/5 persists gap 3.25-4.50 STILL BINDING; BI-RDG HIKE 25bp to 6% Day T+9 absorption + Destry-HAWKISH-PIVOT Day-9; MSCI STANDALONE Day T+43 + Nov 11 binary status-quo Day T+16; IDR Stage-5 pierced Day-28; DQG-Day-198 outage persists; BRPT+BRMS passive outflow Dec 1 T+4; Weekly-Review Wk 32 filing 16:00 WIB 3-of-4 toward formal RE-REMOVAL; no risk alerts (daily 0.00%/weekly 0.00%/DD -3.10%/no halt flags)",
+      "actions": [
+        {
+          "type": "research",
+          "detail": "Day 167 EOD snapshot committed; IHSG Fri Nov 27 PENDING multi-source (6-day backlog); Wk 32 FULL CLOSE = 32nd consecutive zero-trade week; dashboard+RISK-STATE updated"
+        }
+      ]
     }
   ],
   "exposure": {
@@ -47417,7 +47447,7 @@
     ],
     "updated": "2026-11-27T07:00:00+07:00"
   },
-  "last_updated": "2026-11-27T07:00:00+07:00",
+  "last_updated": "2026-11-27T15:15:00+07:00",
   "market": {
     "ihsg_close": 6038.989,
     "ihsg_close_basis": "Mon Oct 5 sesi I 6,038.989 (+0.03% chain-basis vs Fri Oct 2 RECONCILED prev close 6,036.88); 2-source cluster Beritamoneter+Periskop; Journalarta post-market ~6,055 secondary signal (sesi II TBD Tue pre-market reconciliation)",
