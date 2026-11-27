@@ -42928,42 +42928,6 @@
   },
   "activity_log": [
     {
-      "timestamp": "2026-09-22T02:18:31Z",
-      "routine": "market-open",
-      "status": "warning",
-      "summary": "No trades placed. Crisis-track engagement gate ACTIVATED (0.65-0.90/5, 4.10-4.35/5 gap BINDING WIDER); all 13 candidates \u22656 pre-blocked; BI-RDG T-0 binary decision day 13:30-14:30 WIB; 23rd consecutive zero-trade week Day 2.",
-      "actions": [
-        {
-          "type": "skip",
-          "ticker": "BBCA",
-          "detail": "crisis-track ACTIVATED + R:R 1.19:1 fails \u22652:1 + BI-RDG binary event-day risk"
-        },
-        {
-          "type": "skip",
-          "ticker": "UNVR",
-          "detail": "crisis-track ACTIVATED + R:R 1.67:1 fails \u22652:1 + DQG-136 cluster FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "ICBP",
-          "detail": "crisis-track ACTIVATED + R:R 1.56:1 fails \u22652:1 + DQG-136 cluster FAIL"
-        },
-        {
-          "type": "skip",
-          "ticker": "OTHER_10",
-          "detail": "MEDC/PGAS/BBRI/BMRI/BBNI/PTBA/ANTM/INDF/TLKM/ASII all SKIP per identical triple-gate binding (PTBA coal sector-exit binds regardless)"
-        },
-        {
-          "type": "warning",
-          "detail": "Telegram proxy 403 CONNECT tunnel failed; stdout fallback used"
-        },
-        {
-          "type": "warning",
-          "detail": "DQG-Day-136 outage persists (yfinance+GoAPI blocked); per-ticker cluster narrowing unavailable"
-        }
-      ]
-    },
-    {
       "timestamp": "2026-09-22T04:36:40Z",
       "routine": "midday",
       "status": "success",
@@ -47391,6 +47355,12 @@
           "detail": "Notification channel Telegram-proxy-blocked Wk 24-32 cumulative"
         }
       ]
+    },
+    {
+      "timestamp": "2026-11-27T04:34:28Z",
+      "routine": "midday",
+      "status": "success",
+      "summary": "No open positions (count=0). No cuts, no stop tightenings, no thesis exits. Wk 32 Day 5 (Fri), 32nd consecutive zero-trade week."
     }
   ],
   "exposure": {
